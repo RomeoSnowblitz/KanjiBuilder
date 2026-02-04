@@ -245,7 +245,10 @@ function getSymbolImageSrc(symOrRef) {
     return colorImageCache[key];
   }
   const raw = symOrRef.image || "";
-  return raw ? resolveImagePath(raw) : "";
+  if (!raw) return "";
+  // Use embedded base64 when available (so images work on file:// without a server)
+  if (typeof window !== "undefined" && window.IMAGE_DATA && window.IMAGE_DATA[raw]) return window.IMAGE_DATA[raw];
+  return resolveImagePath(raw);
 }
 
 /** Returns an img (for rgb colors) or a mask div (for black-on-transparent image) so the drawn shape uses the accent color. */
@@ -353,8 +356,9 @@ if (page === "create") {
   const slotLeft = document.getElementById("slot-left");
   const slotRight = document.getElementById("slot-right");
 
-  // When opened from file:// (e.g. extracted zip), browsers block images (CORS / origin null). Show instructions.
-  if (isFileProtocol()) {
+  // When opened from file:// without embedded images, browsers block image loading. Show instructions only if we don't have IMAGE_DATA.
+  var hasEmbeddedImages = typeof window !== "undefined" && window.IMAGE_DATA && Object.keys(window.IMAGE_DATA).length > 0;
+  if (isFileProtocol() && !hasEmbeddedImages) {
     const main = document.querySelector("main");
     if (main) {
       const notice = document.createElement("div");
