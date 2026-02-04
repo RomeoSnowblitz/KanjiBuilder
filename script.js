@@ -227,7 +227,7 @@ function escapeHtmlAttr(s) {
   return String(s).replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/</g, "&lt;");
 }
 
-/** When true, image symbols use mask + accent color (can fail on file://). Default OFF so plain img loads everywhere. */
+/** When true, image symbols are tinted with accent color (shape only, transparent stays transparent). */
 function useMaskForSymbols() {
   try {
     return localStorage.getItem("kanjiBuilderMaskTest") === "on";
@@ -236,9 +236,23 @@ function useMaskForSymbols() {
   }
 }
 
+/** Return [r, g, b] 0–255 for the current CSS --accent-color. */
+function getAccentRgb() {
+  const v = document.documentElement.style.getPropertyValue("--accent-color") ||
+    (typeof getComputedStyle !== "undefined" && getComputedStyle(document.documentElement).getPropertyValue("--accent-color")) || "";
+  const m = v.trim().match(/^#([0-9a-fA-F]{3}|[0-9a-fA-F]{6})$/);
+  if (m) {
+    const hex = m[1].length === 3 ? m[1][0] + m[1][0] + m[1][1] + m[1][1] + m[1][2] + m[1][2] : m[1];
+    return [parseInt(hex.slice(0, 2), 16), parseInt(hex.slice(2, 4), 16), parseInt(hex.slice(4, 6), 16)];
+  }
+  const rgb = v.match(/rgb\s*\(\s*(\d+)\s*,\s*(\d+)\s*,\s*(\d+)\s*\)/);
+  if (rgb) return [parseInt(rgb[1], 10), parseInt(rgb[2], 10), parseInt(rgb[3], 10)];
+  return DEFAULT_RGB;
+}
+
 /**
  * Render a symbol: path in HTML so it loads from file:// and http.
- * Test OFF = plain <img> (reliable). Test ON = mask div with accent color.
+ * Test OFF = plain <img>. Test ON = canvas tint: only the image shape gets accent color, transparent stays transparent.
  */
 function createSymbolVisual(symOrRef, altText) {
   altText = altText || (symOrRef && symOrRef.name) || "";
@@ -253,12 +267,42 @@ function createSymbolVisual(symOrRef, altText) {
     const alt = escapeHtmlAttr(altText);
     const wrapper = document.createElement("div");
     if (useMaskForSymbols()) {
-      // Same <img src="path"> so it loads on file://; wrapper + blend shows accent color (no mask-image = no CORS)
-      wrapper.innerHTML =
-        "<div class=\"symbol-mask symbol-tint\" role=\"img\" aria-label=\"" + alt + "\" style=\"background-color:var(--accent-color);\">" +
-        "<img src=\"" + path + "\" alt=\"" + alt + "\" class=\"symbol-tint-img\">" +
-        "</div>";
-      return wrapper.firstChild;
+      // Load img, then tint with accent on canvas (shape only; transparent stays transparent)
+      wrapper.className = "symbol-mask symbol-tint";
+      wrapper.setAttribute("role", "img");
+      wrapper.setAttribute("aria-label", altText);
+      const img = document.createElement("img");
+      img.src = path;
+      img.alt = alt;
+      img.className = "symbol-tint-img";
+      img.setAttribute("loading", "lazy");
+      img.onload = function () {
+        try {
+          const w = img.naturalWidth || img.width;
+          const h = img.naturalHeight || img.height;
+          if (!w || !h) return;
+          const canvas = document.createElement("canvas");
+          canvas.width = w;
+          canvas.height = h;
+          const ctx = canvas.getContext("2d");
+          ctx.drawImage(img, 0, 0);
+          const data = ctx.getImageData(0, 0, w, h);
+          const rgb = getAccentRgb();
+          for (let i = 0; i < data.data.length; i += 4) {
+            const a = data.data[i + 3];
+            if (a > 0) {
+              data.data[i] = rgb[0];
+              data.data[i + 1] = rgb[1];
+              data.data[i + 2] = rgb[2];
+            }
+          }
+          ctx.putImageData(data, 0, 0);
+          img.src = canvas.toDataURL("image/png");
+          img.onload = null;
+        } catch (e) { /* keep original img if canvas fails (e.g. tainted) */ }
+      };
+      wrapper.appendChild(img);
+      return wrapper;
     } else {
       wrapper.innerHTML = "<img src=\"" + path + "\" alt=\"" + alt + "\">";
       const img = wrapper.firstChild;

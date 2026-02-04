@@ -595,7 +595,7 @@ h1, h2 {
   display: block;
 }
 
-/* Test ON: accent color via blend (img still loads from src, no mask-image) */
+/* Test ON: img is replaced by canvas-tinted image (shape = accent, transparent stays transparent) */
 .symbol-tint {
   display: flex;
   align-items: center;
@@ -605,7 +605,6 @@ h1, h2 {
   width: 100%;
   height: 100%;
   object-fit: contain;
-  mix-blend-mode: destination-in;
   pointer-events: none;
 }
 
