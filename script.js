@@ -223,10 +223,14 @@ function getAssetBase() {
   }
   return getAssetBase.base;
 }
-/** Resolve relative image paths (e.g. placeholders/foo.png) so images load when opened locally, from zip, or on GitHub Pages. */
+/** Resolve relative image paths so images load from zip/file and on GitHub Pages. On file:// use relative path only (like video src) so the browser allows it; on http(s) use full URL. */
 function resolveImagePath(path) {
   if (!path || typeof path !== "string") return path || "";
   if (/^(https?:|data:|blob:)\//.test(path)) return path;
+  // On file://, use relative path only — same as AlphabetApp’s videos/animated_x.mp4. Absolute file:// URLs are blocked by CORS (origin null).
+  try {
+    if (window.location && window.location.protocol === "file:") return path.replace(/^\.\//, "");
+  } catch (e) {}
   return getAssetBase() + path.replace(/^\.\//, "");
 }
 function getSymbolImageSrc(symOrRef) {
