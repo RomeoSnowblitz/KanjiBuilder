@@ -2,9 +2,24 @@
 
 Use the **Create** page to combine symbols into words. Supports multiple languages.
 
-## Running locally
+## Why don’t images load when I open the HTML from a folder or zip?
 
-Open `index.html` in a browser (e.g. Chrome). Keep all files in the same folder and **do not rename the `placeholders` folder** or the image files inside it.
+Browsers block loading images when the page is opened via **file://** (e.g. double‑clicking `create.html` or opening it after extracting a zip). The console shows CORS errors like “from origin 'null' has been blocked”. This is a security rule and **cannot be fixed in code**. To see images you must use either:
+
+- **GitHub Pages** (see below), or  
+- **A local web server** in this folder (see below).
+
+The app will show a yellow notice on the Create page when it detects file:// and suggest these options.
+
+## Running locally (with images)
+
+1. Open a terminal in this project folder.
+2. Start a small server, for example:
+   - **Node:** `npx serve` then open the URL it prints (e.g. `http://localhost:3000`).
+   - **Python 3:** `python -m http.server 8000` then open `http://localhost:8000`.
+3. In the browser, open `index.html` or `create.html` from that URL.
+
+Keep all files in the same folder and **do not rename the `placeholders` folder** or the image files inside it.
 
 ## Hosting on GitHub (images loading)
 
