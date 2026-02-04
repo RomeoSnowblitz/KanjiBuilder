@@ -205,57 +205,32 @@ function getSymbolDescription(sym) {
 }
 
 var colorImageCache = {};
-/** Base URL for assets: directory that contains script.js (works for file://, GitHub Pages, local server). */
-function getAssetBase() {
-  if (typeof getAssetBase.base !== "string") {
-    var script = Array.from(document.getElementsByTagName("script")).find(function (s) {
-      return s.src && (s.src.endsWith("script.js") || s.src.indexOf("script.js") !== -1);
-    });
-    if (script && script.src) {
-      var lastSlash = script.src.lastIndexOf("/");
-      getAssetBase.base = lastSlash >= 0 ? script.src.slice(0, lastSlash + 1) : script.src + "/";
-    } else {
-      var a = document.createElement("a");
-      a.href = ".";
-      getAssetBase.base = a.href;
-      if (!getAssetBase.base.endsWith("/")) getAssetBase.base += "/";
-    }
-  }
-  return getAssetBase.base;
-}
-/** Resolve relative image paths so images load from zip/file and on GitHub Pages. On file:// use relative path only (like video src) so the browser allows it; on http(s) use full URL. */
-function resolveImagePath(path) {
-  if (!path || typeof path !== "string") return path || "";
-  if (/^(https?:|data:|blob:)\//.test(path)) return path;
-  // On file://, use relative path only — same as AlphabetApp’s videos/animated_x.mp4. Absolute file:// URLs are blocked by CORS (origin null).
-  try {
-    if (window.location && window.location.protocol === "file:") return path.replace(/^\.\//, "");
-  } catch (e) {}
-  return getAssetBase() + path.replace(/^\.\//, "");
-}
+/** Only for rgb (color) symbols: returns a data URL. PNG paths are not resolved here — use createSymbolVisual which injects HTML like AlphabetApp. */
 function getSymbolImageSrc(symOrRef) {
-  if (!symOrRef) return "";
-  if (symOrRef.rgb) {
-    const key = symOrRef.rgb.join(",");
-    if (!colorImageCache[key]) {
-      const canvas = document.createElement("canvas");
-      canvas.width = 128;
-      canvas.height = 128;
-      const ctx = canvas.getContext("2d");
-      ctx.fillStyle = "rgb(" + symOrRef.rgb[0] + "," + symOrRef.rgb[1] + "," + symOrRef.rgb[2] + ")";
-      ctx.fillRect(0, 0, 128, 128);
-      colorImageCache[key] = canvas.toDataURL();
-    }
-    return colorImageCache[key];
+  if (!symOrRef || !symOrRef.rgb) return "";
+  const key = symOrRef.rgb.join(",");
+  if (!colorImageCache[key]) {
+    const canvas = document.createElement("canvas");
+    canvas.width = 128;
+    canvas.height = 128;
+    const ctx = canvas.getContext("2d");
+    ctx.fillStyle = "rgb(" + symOrRef.rgb[0] + "," + symOrRef.rgb[1] + "," + symOrRef.rgb[2] + ")";
+    ctx.fillRect(0, 0, 128, 128);
+    colorImageCache[key] = canvas.toDataURL();
   }
-  const raw = symOrRef.image || "";
-  if (!raw) return "";
-  // Use embedded base64 when available (so images work on file:// without a server)
-  if (typeof window !== "undefined" && window.IMAGE_DATA && window.IMAGE_DATA[raw]) return window.IMAGE_DATA[raw];
-  return resolveImagePath(raw);
+  return colorImageCache[key];
 }
 
-/** Returns an img (for rgb colors) or a mask div (for black-on-transparent image) so the drawn shape uses the accent color. */
+/** Escape for HTML attribute to avoid breaking the tag. */
+function escapeHtmlAttr(s) {
+  if (s == null) return "";
+  return String(s).replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/</g, "&lt;");
+}
+
+/**
+ * Render a symbol like AlphabetApp renders video: put the path in HTML and inject with innerHTML
+ * so the browser parses the relative URL (works from file:// and http). Returns an img or wrapper node.
+ */
 function createSymbolVisual(symOrRef, altText) {
   altText = altText || (symOrRef && symOrRef.name) || "";
   if (symOrRef && symOrRef.rgb) {
@@ -265,23 +240,19 @@ function createSymbolVisual(symOrRef, altText) {
     return img;
   }
   if (symOrRef && symOrRef.image) {
-    const div = document.createElement("div");
-    div.className = "symbol-mask";
-    div.setAttribute("role", "img");
-    div.setAttribute("aria-label", altText);
-    const url = getSymbolImageSrc(symOrRef);
-    div.style.webkitMaskImage = "url(" + url + ")";
-    div.style.maskImage = "url(" + url + ")";
-    div.style.webkitMaskSize = div.style.maskSize = "contain";
-    div.style.webkitMaskPosition = div.style.maskPosition = "center";
-    div.style.webkitMaskRepeat = div.style.maskRepeat = "no-repeat";
-    div.style.backgroundColor = "var(--accent-color)";
-    return div;
+    // Same pattern as AlphabetApp: <source src="videos/animated_a.mp4"> — path in HTML, parsed by browser
+    const path = symOrRef.image;
+    const alt = escapeHtmlAttr(altText);
+    const wrapper = document.createElement("div");
+    wrapper.innerHTML = "<img src=\"" + path + "\" alt=\"" + alt + "\">";
+    const img = wrapper.firstChild;
+    img.setAttribute("role", "img");
+    img.setAttribute("aria-label", altText);
+    return img;
   }
-  const img = document.createElement("img");
-  img.src = getSymbolImageSrc(symOrRef);
-  img.alt = altText;
-  return img;
+  const wrapper = document.createElement("div");
+  wrapper.innerHTML = "<img src=\"\" alt=\"" + escapeHtmlAttr(altText) + "\">";
+  return wrapper.firstChild;
 }
 
 if (langBtn && langDropdown) {
@@ -340,15 +311,6 @@ if (toggleBtn) {
 // Detect which page we're on
 const page = document.body.dataset.page;
 
-/** True when the page is opened via file:// (e.g. from zip). Browsers block loading images in this case (CORS / origin null). */
-function isFileProtocol() {
-  try {
-    return window.location.protocol === "file:" || window.location.origin === "null" || !window.location.origin;
-  } catch (e) {
-    return true;
-  }
-}
-
 /* --------------------------------
    CREATE PAGE
    Two main slots (left/right). Each slot: one main object + up to 2 effects (left and right of main).
@@ -359,32 +321,6 @@ if (page === "create") {
   const grid = document.getElementById("symbol-grid");
   const slotLeft = document.getElementById("slot-left");
   const slotRight = document.getElementById("slot-right");
-
-  // When opened from file:// without embedded images, browsers block image loading. Show instructions only if we don't have IMAGE_DATA.
-  var hasEmbeddedImages = typeof window !== "undefined" && window.IMAGE_DATA && Object.keys(window.IMAGE_DATA).length > 0;
-  if (isFileProtocol() && !hasEmbeddedImages) {
-    const main = document.querySelector("main");
-    if (main) {
-      const notice = document.createElement("div");
-      notice.className = "file-protocol-notice";
-      notice.setAttribute("role", "alert");
-      notice.innerHTML =
-        "<strong>Images cannot load when this page is opened directly from a file.</strong> " +
-        "To see symbol images: use <a href=\"https://docs.github.com/en/pages\" target=\"_blank\" rel=\"noopener\">GitHub Pages</a> to host the repo, or run a local server in this folder (e.g. <code>npx serve</code> or <code>python -m http.server 8000</code>) and open the URL in your browser. " +
-        "<button type=\"button\" class=\"file-protocol-notice-dismiss\" aria-label=\"Dismiss\">✕</button>";
-      const dismissBtn = notice.querySelector(".file-protocol-notice-dismiss");
-      dismissBtn.addEventListener("click", function () {
-        notice.remove();
-        try {
-          localStorage.setItem("kanjiBuilderDismissedFileNotice", "1");
-        } catch (e) {}
-      });
-      try {
-        if (localStorage.getItem("kanjiBuilderDismissedFileNotice") === "1") notice.style.display = "none";
-      } catch (e) {}
-      main.insertBefore(notice, main.firstChild);
-    }
-  }
 
   // State: each slot has { main, effectLeft, effectRight } (symbol or null)
   const slots = {
