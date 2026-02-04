@@ -595,7 +595,7 @@ h1, h2 {
   display: block;
 }
 
-/* Test ON: img is replaced by canvas-tinted image (shape = accent, transparent stays transparent) */
+/* Canvas-tinted image: shape uses accent color, transparent stays transparent */
 .symbol-tint {
   display: flex;
   align-items: center;

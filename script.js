@@ -28,6 +28,11 @@ const DEFAULT_RGB = [61, 169, 252];
 
 function applyUiAccentColor(hex) {
   document.documentElement.style.setProperty("--accent-color", hex);
+  // Refresh symbol visuals after the style is applied so canvas tint uses the new color
+  requestAnimationFrame(() => {
+    if (typeof window.kanjiBuilderRefreshCreate === "function") window.kanjiBuilderRefreshCreate();
+    if (typeof window.kanjiBuilderRefreshDictionary === "function") window.kanjiBuilderRefreshDictionary();
+  });
 }
 
 function getStoredUiAccent() {
@@ -227,15 +232,6 @@ function escapeHtmlAttr(s) {
   return String(s).replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/</g, "&lt;");
 }
 
-/** When true, image symbols are tinted with accent color (shape only, transparent stays transparent). */
-function useMaskForSymbols() {
-  try {
-    return localStorage.getItem("kanjiBuilderMaskTest") === "on";
-  } catch (e) {
-    return false;
-  }
-}
-
 /** Return [r, g, b] 0–255 for the current CSS --accent-color. */
 function getAccentRgb() {
   const v = document.documentElement.style.getPropertyValue("--accent-color") ||
@@ -251,8 +247,8 @@ function getAccentRgb() {
 }
 
 /**
- * Render a symbol: path in HTML so it loads from file:// and http.
- * Test OFF = plain <img>. Test ON = canvas tint: only the image shape gets accent color, transparent stays transparent.
+ * Render a symbol: image symbols are always tinted with the current UI accent color (shape only; transparent stays transparent).
+ * Path in HTML so it loads from file:// and http; tint uses canvas composite so it works without getImageData/toDataURL.
  */
 function createSymbolVisual(symOrRef, altText) {
   altText = altText || (symOrRef && symOrRef.name) || "";
@@ -266,46 +262,36 @@ function createSymbolVisual(symOrRef, altText) {
     const path = symOrRef.image;
     const alt = escapeHtmlAttr(altText);
     const wrapper = document.createElement("div");
-    if (useMaskForSymbols()) {
-      // Load img, then tint with accent using composite (no getImageData/toDataURL so it works on file://)
-      wrapper.className = "symbol-mask symbol-tint";
-      wrapper.setAttribute("role", "img");
-      wrapper.setAttribute("aria-label", altText);
-      const img = document.createElement("img");
-      img.src = path;
-      img.alt = alt;
-      img.className = "symbol-tint-img";
-      img.setAttribute("loading", "lazy");
-      img.onload = function () {
-        const w = img.naturalWidth || img.width;
-        const h = img.naturalHeight || img.height;
-        if (!w || !h) return;
-        const canvas = document.createElement("canvas");
-        canvas.width = w;
-        canvas.height = h;
-        canvas.className = "symbol-tint-img";
-        canvas.style.width = "100%";
-        canvas.style.height = "100%";
-        canvas.style.display = "block";
-        const ctx = canvas.getContext("2d");
-        ctx.drawImage(img, 0, 0);
-        // source-in: keep new pixels only where current (image) is opaque → accent only in shape
-        ctx.globalCompositeOperation = "source-in";
-        const rgb = getAccentRgb();
-        ctx.fillStyle = "rgb(" + rgb[0] + "," + rgb[1] + "," + rgb[2] + ")";
-        ctx.fillRect(0, 0, w, h);
-        wrapper.removeChild(img);
-        wrapper.appendChild(canvas);
-      };
-      wrapper.appendChild(img);
-      return wrapper;
-    } else {
-      wrapper.innerHTML = "<img src=\"" + path + "\" alt=\"" + alt + "\">";
-      const img = wrapper.firstChild;
-      img.setAttribute("role", "img");
-      img.setAttribute("aria-label", altText);
-      return img;
-    }
+    wrapper.className = "symbol-mask symbol-tint";
+    wrapper.setAttribute("role", "img");
+    wrapper.setAttribute("aria-label", altText);
+    const img = document.createElement("img");
+    img.src = path;
+    img.alt = alt;
+    img.className = "symbol-tint-img";
+    img.setAttribute("loading", "lazy");
+    img.onload = function () {
+      const w = img.naturalWidth || img.width;
+      const h = img.naturalHeight || img.height;
+      if (!w || !h) return;
+      const canvas = document.createElement("canvas");
+      canvas.width = w;
+      canvas.height = h;
+      canvas.className = "symbol-tint-img";
+      canvas.style.width = "100%";
+      canvas.style.height = "100%";
+      canvas.style.display = "block";
+      const ctx = canvas.getContext("2d");
+      ctx.drawImage(img, 0, 0);
+      ctx.globalCompositeOperation = "source-in";
+      const rgb = getAccentRgb();
+      ctx.fillStyle = "rgb(" + rgb[0] + "," + rgb[1] + "," + rgb[2] + ")";
+      ctx.fillRect(0, 0, w, h);
+      wrapper.removeChild(img);
+      wrapper.appendChild(canvas);
+    };
+    wrapper.appendChild(img);
+    return wrapper;
   }
   const wrapper = document.createElement("div");
   wrapper.innerHTML = "<img src=\"\" alt=\"" + escapeHtmlAttr(altText) + "\">";
@@ -358,24 +344,6 @@ if (toggleBtn) {
     const isLight = document.body.classList.contains("light-mode");
     localStorage.setItem("theme", isLight ? "light" : "dark");
     toggleBtn.textContent = isLight ? "☀️" : "🌙";
-  });
-}
-
-// Test toggle: OFF = plain img (loads on file://). ON = mask with accent color.
-const navbarRight = document.querySelector(".navbar-right");
-const themeToggle = document.getElementById("theme-toggle");
-if (navbarRight && themeToggle) {
-  const testBtn = document.createElement("button");
-  testBtn.type = "button";
-  testBtn.id = "test-toggle";
-  testBtn.textContent = useMaskForSymbols() ? "Test ON" : "Test OFF";
-  navbarRight.insertBefore(testBtn, themeToggle);
-  testBtn.addEventListener("click", function () {
-    const next = useMaskForSymbols() ? "off" : "on";
-    localStorage.setItem("kanjiBuilderMaskTest", next);
-    testBtn.textContent = next === "on" ? "Test ON" : "Test OFF";
-    if (typeof window.kanjiBuilderRefreshCreate === "function") window.kanjiBuilderRefreshCreate();
-    if (typeof window.kanjiBuilderRefreshDictionary === "function") window.kanjiBuilderRefreshDictionary();
   });
 }
 
@@ -653,6 +621,14 @@ if (page === "create") {
     buildSymbolGrid();
     renderSlot(slotLeft, "left");
     renderSlot(slotRight, "right");
+    // Update symbol info popup image if open so it matches new accent color
+    if (infoBox && !infoBox.classList.contains("hidden") && currentInfoSymbolId != null) {
+      const sym = symbols.find((s) => s.id === currentInfoSymbolId);
+      if (sym) {
+        infoImageWrap.innerHTML = "";
+        infoImageWrap.appendChild(createSymbolVisual(sym, getSymbolName(sym)));
+      }
+    }
   };
 
   // Symbol search: filter grid by name, description, or user-added extras (using current language)
