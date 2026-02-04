@@ -205,13 +205,14 @@ function getSymbolDescription(sym) {
 }
 
 var colorImageCache = {};
-/** Resolve relative image paths (e.g. placeholders/foo.png) against the current document so they load reliably with or without <base>. */
+/** Resolve relative image paths (e.g. placeholders/foo.png) against the current page URL so images load when opened locally or on GitHub Pages. */
 function resolveImagePath(path) {
   if (!path || typeof path !== "string") return path || "";
   if (/^(https?:|data:|blob:)\//.test(path)) return path;
-  const base = document.location.href;
-  const lastSlash = base.lastIndexOf("/");
-  const baseDir = lastSlash >= 0 ? base.slice(0, lastSlash + 1) : base + "/";
+  // Use origin + pathname only (no hash/query) so base is correct on GitHub Pages and other hosts
+  const pathname = document.location.pathname || "/";
+  const lastSlash = pathname.lastIndexOf("/");
+  const baseDir = document.location.origin + (lastSlash >= 0 ? pathname.slice(0, lastSlash + 1) : "/");
   return baseDir + path.replace(/^\.\//, "");
 }
 function getSymbolImageSrc(symOrRef) {
