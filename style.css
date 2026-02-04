@@ -595,6 +595,20 @@ h1, h2 {
   display: block;
 }
 
+/* Test ON: accent color via blend (img still loads from src, no mask-image) */
+.symbol-tint {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.symbol-tint .symbol-tint-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  mix-blend-mode: destination-in;
+  pointer-events: none;
+}
+
 .symbol-box span {
   font-size: 0.8rem;
   color: var(--text-color);

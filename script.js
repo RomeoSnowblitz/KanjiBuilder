@@ -253,13 +253,12 @@ function createSymbolVisual(symOrRef, altText) {
     const alt = escapeHtmlAttr(altText);
     const wrapper = document.createElement("div");
     if (useMaskForSymbols()) {
-      const maskStyle =
-        "-webkit-mask-image:url(" + path + ");mask-image:url(" + path + ");" +
-        "-webkit-mask-size:contain;mask-size:contain;" +
-        "-webkit-mask-position:center;mask-position:center;" +
-        "-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;" +
-        "background-color:var(--accent-color);";
-      wrapper.innerHTML = "<div class=\"symbol-mask\" role=\"img\" aria-label=\"" + alt + "\" style=\"" + maskStyle + "\"></div>";
+      // Same <img src="path"> so it loads on file://; wrapper + blend shows accent color (no mask-image = no CORS)
+      wrapper.innerHTML =
+        "<div class=\"symbol-mask symbol-tint\" role=\"img\" aria-label=\"" + alt + "\" style=\"background-color:var(--accent-color);\">" +
+        "<img src=\"" + path + "\" alt=\"" + alt + "\" class=\"symbol-tint-img\">" +
+        "</div>";
+      return wrapper.firstChild;
     } else {
       wrapper.innerHTML = "<img src=\"" + path + "\" alt=\"" + alt + "\">";
       const img = wrapper.firstChild;
@@ -267,7 +266,6 @@ function createSymbolVisual(symOrRef, altText) {
       img.setAttribute("aria-label", altText);
       return img;
     }
-    return wrapper.firstChild;
   }
   const wrapper = document.createElement("div");
   wrapper.innerHTML = "<img src=\"\" alt=\"" + escapeHtmlAttr(altText) + "\">";
