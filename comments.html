@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <base href="./" />
+  <title>Kanji Builder</title>
+  <link rel="stylesheet" href="./style.css" />
+  <script src="./translations.js"></script>
+</head>
+<body data-page="comments">
+  <header class="navbar">
+    <nav>
+      <a href="./index.html" data-i18n="nav.home">Home</a>
+      <a href="./create.html" data-i18n="nav.create">Create</a>
+      <a href="./dictionary.html" data-i18n="nav.dictionary">Dictionary</a>
+      <a href="./comments.html" class="active" data-i18n="nav.comments">Comments</a>
+    </nav>
+    <div class="navbar-right">
+      <div class="lang-wrapper">
+        <button type="button" id="lang-btn">English</button>
+        <div id="lang-dropdown" class="lang-dropdown hidden">
+          <button type="button" data-lang="en">English</button>
+          <button type="button" data-lang="zh">中文</button>
+          <button type="button" data-lang="es">Español</button>
+          <button type="button" data-lang="fr">Français</button>
+          <button type="button" data-lang="ru">Русский</button>
+          <button type="button" data-lang="de">Deutsch</button>
+          <button type="button" data-lang="ja">日本語</button>
+        </div>
+      </div>
+      <button id="theme-toggle">🌙</button>
+    </div>
+  </header>
+
+  <main>
+    <h1 data-i18n="comments.commentsTitle">Comments & Ideas</h1>
+
+    <section class="comment-input">
+      <label for="comment-text" data-i18n="comments.shareLabel">Share an idea:</label>
+      <textarea id="comment-text" maxlength="500" data-i18n-placeholder="comments.sharePlaceholder" placeholder="Share an idea (max 500 chars)…"></textarea>
+      <button id="submit-comment" class="btn-primary" data-i18n="comments.postComment">Post Comment</button>
+    </section>
+
+    <section id="comment-list" class="comment-list"></section>
+  </main>
+
+  <script defer src="script.js"></script>
+  <!-- Firebase SDK -->
+  <script type="module">
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/12.5.0/firebase-app.js";
+    import { getFirestore, collection, addDoc, getDocs, updateDoc, doc, onSnapshot, query, orderBy, deleteDoc } from "https://www.gstatic.com/firebasejs/12.5.0/firebase-firestore.js";
+
+    const firebaseConfig = {
+      apiKey: "AIzaSyAY1speZsp510IcpIjAvwSa8MgdaCbKSqQ",
+      authDomain: "symboldictionary.firebaseapp.com",
+      projectId: "symboldictionary",
+      storageBucket: "symboldictionary.firebasestorage.app",
+      messagingSenderId: "322188474179",
+      appId: "1:322188474179:web:faecd2f92fb4bdab9d21f6",
+      measurementId: "G-VFGJ3GSXLR"
+    };
+
+    const app = initializeApp(firebaseConfig);
+    const db = getFirestore(app);
+    const commentsCol = collection(db, "comments");
+    const adminPassword = "admin123";
+
+    const commentInput = document.getElementById("comment-text");
+    const submitBtn = document.getElementById("submit-comment");
+    const commentList = document.getElementById("comment-list");
+
+    const voteCooldown = 5 * 60 * 1000; // 5 minutes
+    const userVotes = {}; // store last vote timestamp per comment ID
+
+    function tr(path) {
+      return (typeof window.getTranslation === "function" ? window.getTranslation(path) : path);
+    }
+    async function postComment() {
+      const text = commentInput.value.trim();
+      if (!text) return alert(tr("comments.pleaseComment"));
+      if (text.length > 500) return alert(tr("comments.commentTooLong"));
+
+      await addDoc(commentsCol, {
+        text,
+        score: 0,
+        created: Date.now()
+      });
+
+      commentInput.value = "";
+    }
+
+    function canVote(commentId) {
+      const lastVote = userVotes[commentId] || 0;
+      return Date.now() - lastVote > voteCooldown;
+    }
+
+    async function vote(commentId, delta) {
+      if (!canVote(commentId)) {
+        alert(tr("comments.waitVote"));
+        return;
+      }
+
+      const commentRef = doc(db, "comments", commentId);
+      const commentSnap = await getDocs(query(commentsCol));
+      await updateDoc(commentRef, {
+        score: delta // Firebase supports atomic increments, but simplified here
+      });
+
+      userVotes[commentId] = Date.now();
+    }
+
+    async function deleteComment(commentId) {
+      if (confirm("Enter admin password to delete this comment:") === adminPassword) {
+        await deleteDoc(doc(db, "comments", commentId));
+      }
+    }
+
+    function renderComments(comments) {
+      commentList.innerHTML = "";
+      // Sort by score descending
+      comments.sort((a, b) => b.score - a.score);
+      comments.forEach(c => {
+        const div = document.createElement("div");
+        div.className = "comment";
+        div.dataset.id = c.id;
+
+        div.innerHTML = `
+          <p>${c.text}</p>
+          <div class="controls">
+            <button class="vote-up" type="button">↑</button>
+            <span class="score">${c.score}</span>
+            <button class="vote-down" type="button">↓</button>
+          </div>
+        `;
+
+        const upBtn = div.querySelector(".vote-up");
+        const downBtn = div.querySelector(".vote-down");
+        const scoreSpan = div.querySelector(".score");
+
+        div.addEventListener("contextmenu", (e) => {
+          e.preventDefault();
+          const pw = prompt(tr("comments.passwordPrompt"));
+          if (pw === adminPassword) {
+            deleteDoc(doc(db, "comments", c.id));
+          } else if (pw !== null) {
+            alert(tr("comments.incorrectPassword"));
+          }
+        });
+        div.title = tr("comments.rightClickDelete");
+
+        upBtn.addEventListener("click", async () => {
+          if (!canVote(c.id)) return alert(tr("comments.waitVote"));
+          const commentRef = doc(db, "comments", c.id);
+          await updateDoc(commentRef, { score: c.score + 1 });
+          userVotes[c.id] = Date.now();
+        });
+
+        downBtn.addEventListener("click", async () => {
+          if (!canVote(c.id)) return alert(tr("comments.waitVote"));
+          const commentRef = doc(db, "comments", c.id);
+          const newScore = c.score - 1;
+          await updateDoc(commentRef, { score: newScore });
+          if (newScore <= -3) {
+            await deleteDoc(commentRef);
+          }
+          userVotes[c.id] = Date.now();
+        });
+
+        commentList.appendChild(div);
+      });
+    }
+
+    // Real-time listener
+    onSnapshot(commentsCol, snapshot => {
+      const comments = [];
+      snapshot.forEach(doc => {
+        comments.push({ id: doc.id, ...doc.data() });
+      });
+      renderComments(comments);
+    });
+
+    submitBtn.addEventListener("click", postComment);
+
+  </script>
+</body>
+</html>

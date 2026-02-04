@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <base href="./" />
+  <title>Kanji Builder</title>
+  <link rel="stylesheet" href="./style.css" />
+  <script src="./translations.js"></script>
+  <script defer src="./script.js"></script>
+</head>
+<body data-page="home">
+  <!-- Navigation bar appears on every page -->
+  <header class="navbar">
+    <nav>
+      <a href="./index.html" class="active" data-i18n="nav.home">Home</a>
+      <a href="./create.html" data-i18n="nav.create">Create</a>
+      <a href="./dictionary.html" data-i18n="nav.dictionary">Dictionary</a>
+      <a href="./comments.html" data-i18n="nav.comments">Comments</a>
+    </nav>
+    <div class="navbar-right">
+      <div class="lang-wrapper">
+        <button type="button" id="lang-btn">English</button>
+        <div id="lang-dropdown" class="lang-dropdown hidden">
+          <button type="button" data-lang="en">English</button>
+          <button type="button" data-lang="zh">中文</button>
+          <button type="button" data-lang="es">Español</button>
+          <button type="button" data-lang="fr">Français</button>
+          <button type="button" data-lang="ru">Русский</button>
+          <button type="button" data-lang="de">Deutsch</button>
+          <button type="button" data-lang="ja">日本語</button>
+        </div>
+      </div>
+      <button id="theme-toggle">🌙</button>
+    </div>
+  </header>
+
+  <main>
+    <h1 data-i18n="home.welcomeTitle">Welcome!</h1>
+    <p data-i18n="home.welcomeIntro">
+      Use the Create page to combine two main objects (with optional effects) into a defined word.
+    </p>
+
+    <section>
+      <h2 data-i18n="home.rulesTitle">Rules &amp; Guidelines</h2>
+      <ul>
+        <li data-i18n="home.rule1">No inappropriate, offensive, or unsafe language.</li>
+        <li data-i18n="home.rule2">Each submission uses two main slots (left and right); each main object can have up to two effects.</li>
+        <li data-i18n="home.rule3">Duplicate or rule-breaking words may be removed.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2 data-i18n="home.howTitle">How It Works</h2>
+      <ol>
+        <li>
+          <strong data-i18n="home.howStep1Title">To create a word, go to the Create page:</strong>
+          <ul>
+            <li data-i18n-html="home.howStep1Bullet1"></li>
+            <li data-i18n-html="home.howStep1Bullet2"></li>
+            <li data-i18n-html="home.howStep1Bullet3"></li>
+          </ul>
+        </li>
+        <li data-i18n-html="home.howStep2">
+          When you have objects in the drop box, you can enter a one-word definition and send it to the dictionary. In the drop box only images show; hover over a symbol to see its name. Use <strong>Search symbols</strong> to find symbols—and if you don’t see the word you want, right-click a symbol and add it to <strong>Extras</strong> so it appears in Search symbols. In the drop box: left-click an effect to remove only that effect; left-click a main object to remove the main object and all effects attached to it.
+        </li>
+        <li data-i18n-html="home.howStep3">
+          You need at least two symbols to make a word. The two allowed minimums are: <strong>1 main object and 1 effect</strong>, OR <strong>2 main objects with no effects</strong>. When you submit, you’ll get a notification that your word was added. In the <strong>Dictionary</strong> you can search all your words and right-click a word to add a note if you’d like.
+        </li>
+        <li data-i18n-html="home.howStep4">
+          After you’ve made some words, share questions, thoughts, or concerns in the <strong>Comments</strong> section. You can post there and others can vote to help prioritize issues.
+        </li>
+      </ol>
+    </section>
+  </main>
+
+  <!-- Firebase SDK and config -->
+  <script type="module">
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/12.5.0/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/12.5.0/firebase-analytics.js";
+
+    const firebaseConfig = {
+      apiKey: "AIzaSyAY1speZsp510IcpIjAvwSa8MgdaCbKSqQ",
+      authDomain: "symboldictionary.firebaseapp.com",
+      projectId: "symboldictionary",
+      storageBucket: "symboldictionary.firebasestorage.app",
+      messagingSenderId: "322188474179",
+      appId: "1:322188474179:web:faecd2f92fb4bdab9d21f6",
+      measurementId: "G-VFGJ3GSXLR"
+    };
+
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
+
+</body>
+</html>

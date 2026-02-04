@@ -1,0 +1,852 @@
+/* ===============================
+   General Layout and Themes
+   =============================== */
+
+/* Root color variables for both modes */
+:root {
+  --bg-color: #111;
+  --text-color: #f5f5f5;
+  --accent-color: #3da9fc;
+  --card-bg: #222;
+}
+
+/* Light theme overrides */
+.light-mode {
+  --bg-color: #fafafa;
+  --text-color: #111;
+  --card-bg: #eaeaea;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: "Segoe UI", sans-serif;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ===============================
+   Navigation Bar
+   =============================== */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 1rem;
+  min-height: 3.25rem;
+  background-color: var(--card-bg);
+  position: sticky;
+  top: 0;
+  z-index: 500;
+}
+
+.navbar nav a {
+  color: var(--text-color);
+  margin-right: 1rem;
+  text-decoration: none;
+}
+
+.navbar nav a.active {
+  color: var(--accent-color);
+  font-weight: bold;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.ui-color-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+.ui-color-label {
+  font-size: 0.9rem;
+  color: var(--text-color);
+}
+#ui-color-box {
+  width: 1.5rem;
+  height: 1.5rem;
+  border: 2px solid var(--text-color);
+  border-radius: 4px;
+  background-color: var(--accent-color);
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+/* UI Color popup (same style as word-context / symbol-info) */
+.ui-color-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  pointer-events: none;
+}
+.ui-color-popup.hidden {
+  display: none;
+}
+.ui-color-popup .ui-color-popup-content {
+  background: var(--card-bg);
+  border: 2px solid var(--accent-color);
+  border-radius: 10px;
+  padding: 1.25rem;
+  min-width: 280px;
+  max-width: 90vw;
+  color: var(--text-color);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+  pointer-events: auto;
+}
+.ui-color-popup h2 {
+  margin: 0 0 0.75rem;
+  font-size: 1.25rem;
+  color: var(--accent-color);
+}
+.ui-color-popup .ui-color-preview {
+  width: 100%;
+  height: 2.5rem;
+  border: 2px solid var(--accent-color);
+  border-radius: 6px;
+  margin-bottom: 1rem;
+  background-color: var(--accent-color);
+}
+.ui-color-popup label {
+  display: block;
+  margin-bottom: 0.35rem;
+  font-size: 0.9rem;
+}
+.ui-color-popup input[type="number"] {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.5rem;
+  margin-bottom: 0.75rem;
+  border: 1px solid var(--accent-color);
+  border-radius: 6px;
+  background: var(--bg-color);
+  color: var(--text-color);
+  font-size: 1rem;
+}
+.ui-color-popup .ui-color-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+.ui-color-popup .ui-color-actions button {
+  padding: 0.5rem 0.75rem;
+  border-radius: 6px;
+  border: 1px solid var(--accent-color);
+  background: var(--accent-color);
+  color: #fff;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+.ui-color-popup .ui-color-actions button:hover {
+  opacity: 0.9;
+}
+.ui-color-popup .ui-color-actions button.reset-btn {
+  background: #888;
+  border-color: #888;
+}
+
+.lang-wrapper {
+  position: relative;
+}
+
+#lang-btn {
+  padding: 0.35rem 0.6rem;
+  min-width: 5.5rem;
+  min-height: 2rem;
+  border: 1px solid var(--accent-color);
+  border-radius: 6px;
+  background: var(--card-bg);
+  color: var(--text-color);
+  font-size: 0.9rem;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#lang-btn:hover {
+  background: var(--accent-color);
+  color: #fff;
+}
+
+.lang-dropdown {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  margin-top: 0.25rem;
+  min-width: 140px;
+  padding: 0.25rem;
+  background: var(--card-bg);
+  border: 1px solid var(--accent-color);
+  border-radius: 6px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+.lang-dropdown.hidden {
+  display: none;
+}
+
+.lang-dropdown button {
+  padding: 0.4rem 0.6rem;
+  border: none;
+  border-radius: 4px;
+  background: transparent;
+  color: var(--text-color);
+  font-size: 0.9rem;
+  text-align: left;
+  cursor: pointer;
+}
+
+.lang-dropdown button:hover {
+  background: var(--accent-color);
+  color: #fff;
+}
+
+#theme-toggle {
+  background: none;
+  border: none;
+  color: var(--text-color);
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+/* ===============================
+   Main Content
+   =============================== */
+main {
+  flex: 1;
+  padding: 1rem;
+}
+
+h1, h2 {
+  color: var(--accent-color);
+}
+
+/* ===============================
+   Create Page Elements
+   =============================== */
+
+/* Row of two main slots (left and right) */
+.drop-zones-row {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 2rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+
+/* Each slot: one main object + up to 2 effects (stacked on left) */
+.slot.drop-zone {
+  border: 2px dashed var(--accent-color);
+  padding: 1rem;
+  min-height: 200px;
+  min-width: 280px;
+  flex: 1;
+  max-width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slot.drop-zone p.placeholder {
+  margin: 0;
+  color: var(--text-color);
+  opacity: 0.7;
+  font-size: 0.9rem;
+}
+
+.drop-hint {
+  margin: -0.5rem 0 1rem;
+  font-size: 0.85rem;
+  opacity: 0.8;
+  color: var(--text-color);
+}
+
+/* Inner layout: [ effects column (stacked) ] | main — images only, no labels */
+.slot-object-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  flex-wrap: nowrap;
+}
+
+/* Effects column: both effects on left, first on top, second on bottom (50% size each = same height as main) */
+.slot-effects-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.25rem;
+  flex-shrink: 0;
+}
+
+/* Main object in slot — 128px, image only */
+.slot-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+.slot-main .symbol-box {
+  width: 128px;
+  height: 128px;
+  box-sizing: border-box;
+}
+.slot-main .symbol-box img,
+.slot-main .symbol-box .symbol-mask {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* Effect objects: 50% of main (64px), image only; stacked in column */
+.slot-effect {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+.slot-effect .symbol-box {
+  width: 64px;
+  height: 64px;
+  box-sizing: border-box;
+}
+.slot-effect .symbol-box img,
+.slot-effect .symbol-box .symbol-mask {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.drop-zone .symbol {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: grab;
+  font-size: 0.9rem;
+}
+
+.definition-box {
+  margin-bottom: 1.5rem;
+}
+
+.definition-box label {
+  display: block;
+  margin-bottom: 0.35rem;
+}
+
+.definition-box #definition-input {
+  width: 100%;
+  max-width: 400px;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  border: 1px solid var(--accent-color);
+  border-radius: 6px;
+  background: var(--bg-color);
+  color: var(--text-color);
+}
+
+.definition-box .btn-primary {
+  padding: 0.5rem 0.75rem;
+  border-radius: 6px;
+  border: 1px solid var(--accent-color);
+  background: var(--accent-color);
+  color: #fff;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.definition-box .btn-primary:hover {
+  opacity: 0.9;
+}
+
+.symbol-search-box {
+  margin-bottom: 1rem;
+}
+
+.symbol-search-box label {
+  display: block;
+  margin-bottom: 0.35rem;
+}
+
+.symbol-search-box #symbol-search {
+  width: 100%;
+  max-width: 400px;
+  padding: 0.5rem;
+  border: 1px solid var(--accent-color);
+  border-radius: 6px;
+  background: var(--bg-color);
+  color: var(--text-color);
+}
+
+/* Symbol grid with auto wrapping */
+.symbol-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 0.5rem;
+}
+
+.symbol {
+  background-color: var(--card-bg);
+  border: 1px solid var(--accent-color);
+  text-align: center;
+  padding: 0.75rem;
+  cursor: grab;
+  user-select: none;
+}
+
+/* --- Symbol Info Popup --- */
+#symbol-info-box {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  pointer-events: none;
+}
+
+#symbol-info-box.hidden {
+  display: none;
+}
+
+#symbol-info-box .info-content {
+  background: var(--card-bg);
+  border: 2px solid var(--accent-color);
+  border-radius: 10px;
+  padding: 1rem 1.5rem;
+  text-align: center;
+  width: 400px;
+  max-width: 90vw;
+  color: var(--text-color);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+  pointer-events: auto;
+}
+
+#symbol-info-box #info-image-wrap {
+  width: 128px;
+  height: 128px;
+  margin: 0.5rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#symbol-info-box #info-image-wrap img,
+#symbol-info-box #info-image-wrap .symbol-mask {
+  width: 128px;
+  height: 128px;
+  object-fit: contain;
+}
+#symbol-info-box #info-image-wrap .symbol-mask {
+  flex-shrink: 0;
+}
+
+#symbol-info-box #info-description {
+  text-align: center;
+  margin-bottom: 0.75rem;
+  font-size: 0.9rem;
+}
+
+#symbol-info-box label[for="info-extra"] {
+  display: block;
+  text-align: left;
+  margin-bottom: 0.35rem;
+  font-size: 0.9rem;
+}
+
+#symbol-info-box #info-extra {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.5rem;
+  margin-bottom: 0.75rem;
+  border: 1px solid var(--accent-color);
+  border-radius: 6px;
+  background: var(--bg-color);
+  color: var(--text-color);
+  font-family: inherit;
+  resize: vertical;
+  text-align: left;
+}
+
+#symbol-info-box label[for="info-note"] {
+  display: block;
+  text-align: left;
+  margin-bottom: 0.35rem;
+  font-size: 0.9rem;
+}
+
+#symbol-info-box #info-note {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.5rem;
+  margin-bottom: 0.75rem;
+  border: 1px solid var(--accent-color);
+  border-radius: 6px;
+  background: var(--bg-color);
+  color: var(--text-color);
+  font-family: inherit;
+  resize: vertical;
+  text-align: left;
+}
+
+#symbol-info-box .info-actions {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#symbol-info-box .info-actions button {
+  margin-top: 0;
+  background: var(--accent-color);
+  border: none;
+  padding: 0.4rem 0.8rem;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.symbol-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: var(--card-bg);
+  border: 1px solid var(--accent-color);
+  border-radius: 8px;
+  padding: 0.5rem;
+  cursor: grab;
+}
+
+.symbol-box img,
+.symbol-box .symbol-mask {
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+  margin-bottom: 0.25rem;
+  flex-shrink: 0;
+}
+.symbol-box .symbol-mask {
+  display: block;
+}
+
+.symbol-box span {
+  font-size: 0.8rem;
+  color: var(--text-color);
+}
+
+/* ===============================
+   Dictionary Page Layout Fix
+   =============================== */
+
+.dictionary-search-box {
+  margin-bottom: 1rem;
+}
+
+.dictionary-search-box label {
+  display: block;
+  margin-bottom: 0.35rem;
+}
+
+.dictionary-search-box #search-bar {
+  width: 100%;
+  max-width: 400px;
+  padding: 0.5rem;
+  border: 1px solid var(--accent-color);
+  border-radius: 6px;
+  background: var(--bg-color);
+  color: var(--text-color);
+}
+
+.dictionary-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.entry {
+  display: grid;
+  grid-template-columns: minmax(520px, 1fr) 1fr; /* symbols, definition — no fixed third column */
+  align-items: center;
+  gap: 1rem;
+  background-color: var(--card-bg);
+  padding: 0.75rem;
+  border-left: 3px solid var(--accent-color);
+  cursor: context-menu;
+}
+
+/* New format: same layout as create — [effects column | main] per slot, images only */
+.entry .entry-symbols {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.entry .entry-slot-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.35rem;
+}
+
+.entry .entry-effects-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.entry .entry-effect {
+  width: 64px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.entry .entry-effect img,
+.entry .entry-effect .symbol-mask {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.entry .entry-main {
+  width: 128px;
+  height: 128px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.entry .entry-main img,
+.entry .entry-main .symbol-mask {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* Old format: flat row of images only */
+.entry .symbols {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  gap: 0.5rem;
+}
+
+.entry .symbol {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+}
+
+.entry .symbol img,
+.entry .symbol .symbol-mask {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+}
+
+.entry .definition {
+  text-align: left;
+  font-weight: bold;
+  font-size: 1rem;
+  color: var(--text-color);
+}
+
+/* Right-click word popup: note + delete */
+.word-context-box {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  pointer-events: none;
+}
+
+.word-context-box.hidden {
+  display: none;
+}
+
+.word-context-box .word-context-content {
+  background: var(--card-bg);
+  border: 2px solid var(--accent-color);
+  border-radius: 10px;
+  padding: 1.25rem;
+  min-width: 320px;
+  max-width: 90vw;
+  color: var(--text-color);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+  pointer-events: auto;
+}
+
+.word-context-box h2 {
+  margin: 0 0 0.75rem;
+  font-size: 1.25rem;
+  color: var(--accent-color);
+}
+
+.word-context-box label {
+  display: block;
+  margin-bottom: 0.35rem;
+  font-size: 0.9rem;
+}
+
+.word-context-box textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid var(--accent-color);
+  border-radius: 6px;
+  background: var(--bg-color);
+  color: var(--text-color);
+  font-family: inherit;
+  resize: vertical;
+}
+
+.word-context-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.word-context-box .word-context-content button {
+  padding: 0.5rem 0.75rem;
+  border-radius: 6px;
+  border: 1px solid var(--accent-color);
+  background: var(--accent-color);
+  color: #fff;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.word-context-box .word-context-content button:hover {
+  opacity: 0.9;
+}
+
+.word-context-box .delete-word-btn {
+  background: #c44;
+  border-color: #c44;
+}
+
+/* ===============================
+   Comments Page
+   =============================== */
+.comment-input {
+  margin-bottom: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.comment-input label {
+  display: block;
+  margin-bottom: 0.35rem;
+}
+
+.comment-input textarea {
+  width: 100%;
+  max-width: 500px;
+  min-height: 80px;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  border: 1px solid var(--accent-color);
+  border-radius: 6px;
+  background: var(--bg-color);
+  color: var(--text-color);
+  font-family: inherit;
+  resize: vertical;
+  box-sizing: border-box;
+}
+
+.comment-input .btn-primary {
+  padding: 0.5rem 0.75rem;
+  border-radius: 6px;
+  border: 1px solid var(--accent-color);
+  background: var(--accent-color);
+  color: #fff;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.comment-input .btn-primary:hover {
+  opacity: 0.9;
+}
+
+.comment-list {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.comment {
+  background-color: var(--card-bg);
+  padding: 0.75rem;
+  cursor: context-menu;
+}
+
+.comment .controls {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.comment .vote-up,
+.comment .vote-down {
+  padding: 0.35rem 0.5rem;
+  border-radius: 6px;
+  border: 1px solid var(--accent-color);
+  background: var(--accent-color);
+  color: #fff;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.comment .vote-up:hover,
+.comment .vote-down:hover {
+  opacity: 0.9;
+}
+
+.comment .score {
+  min-width: 2rem;
+  text-align: center;
+  font-weight: bold;
+}

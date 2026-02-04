@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <base href="./" />
+  <title>Kanji Builder</title>
+  <link rel="stylesheet" href="./style.css" />
+  <script src="./translations.js"></script>
+  <script defer src="./symbols.js"></script>
+  <script defer src="./script.js"></script>
+</head>
+<body data-page="create">
+  <header class="navbar">
+    <nav>
+      <a href="./index.html" data-i18n="nav.home">Home</a>
+      <a href="./create.html" class="active" data-i18n="nav.create">Create</a>
+      <a href="./dictionary.html" data-i18n="nav.dictionary">Dictionary</a>
+      <a href="./comments.html" data-i18n="nav.comments">Comments</a>
+    </nav>
+    <div class="navbar-right">
+      <div class="lang-wrapper">
+        <button type="button" id="lang-btn">English</button>
+        <div id="lang-dropdown" class="lang-dropdown hidden">
+          <button type="button" data-lang="en">English</button>
+          <button type="button" data-lang="zh">中文</button>
+          <button type="button" data-lang="es">Español</button>
+          <button type="button" data-lang="fr">Français</button>
+          <button type="button" data-lang="ru">Русский</button>
+          <button type="button" data-lang="de">Deutsch</button>
+          <button type="button" data-lang="ja">日本語</button>
+        </div>
+      </div>
+      <button id="theme-toggle">🌙</button>
+    </div>
+  </header>
+
+  <main>
+    <h1 data-i18n="create.createTitle">Create a New Word</h1>
+
+    <section class="drop-zones-row">
+      <div id="slot-left" class="slot drop-zone" data-slot="left">
+        <p class="placeholder" data-i18n="create.mainObjectLeft">Main object (left)</p>
+      </div>
+      <div id="slot-right" class="slot drop-zone" data-slot="right">
+        <p class="placeholder" data-i18n="create.mainObjectRight">Main object (right)</p>
+      </div>
+    </section>
+    <p class="drop-hint" data-i18n="create.dropHint">Click a symbol for left slot (main or effect); Shift+click for right slot. Or drag into the boxes. Click main or effect to remove.</p>
+
+    <section class="definition-box">
+      <label for="definition-input" data-i18n="create.definitionLabel">One-word definition:</label>
+      <input id="definition-input" type="text" data-i18n-placeholder="create.definitionPlaceholder" placeholder="Enter definition here…" />
+      <button id="submit-word" class="btn-primary" data-i18n="create.submitWord">Submit Word</button>
+    </section>
+
+    <section class="symbol-search-box">
+      <label for="symbol-search" data-i18n="create.searchSymbolsLabel">Search symbols:</label>
+      <input id="symbol-search" type="text" data-i18n-placeholder="create.searchPlaceholder" placeholder="e.g. fish, big, water…" />
+    </section>
+
+    <div id="symbol-info-box" class="hidden">
+      <div class="info-content">
+        <h2 id="info-name">Symbol Name</h2>
+        <div id="info-image-wrap"></div>
+        <p id="info-description"></p>
+        <label for="info-extra" data-i18n="create.infoExtraLabel">Extra:</label>
+        <textarea id="info-extra" rows="2" data-i18n-placeholder="create.infoExtraPlaceholder" placeholder="Extra words for search (e.g. fish, animal)…"></textarea>
+        <label for="info-note" data-i18n="create.infoNoteLabel">Note:</label>
+        <textarea id="info-note" rows="3" data-i18n-placeholder="create.infoNotePlaceholder" placeholder="Add a note for this symbol…"></textarea>
+        <div class="info-actions">
+          <button id="info-save" data-i18n="create.infoSave">Save</button>
+          <button id="close-info" data-i18n="create.infoClose">Close</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Symbol grid -->
+    <section id="symbol-grid" class="symbol-grid">
+      <!-- JavaScript will generate 147 symbols here (120 + 27 colors) -->
+    </section>
+
+
+  </main>
+</body>
+</html>

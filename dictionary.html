@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <base href="./" />
+  <title>Kanji Builder</title>
+  <link rel="stylesheet" href="./style.css" />
+  <script src="./translations.js"></script>
+  <script defer src="./symbols.js"></script>
+  <script defer src="./script.js"></script>
+</head>
+<body data-page="dictionary">
+  <header class="navbar">
+    <nav>
+      <a href="./index.html" data-i18n="nav.home">Home</a>
+      <a href="./create.html" data-i18n="nav.create">Create</a>
+      <a href="./dictionary.html" class="active" data-i18n="nav.dictionary">Dictionary</a>
+      <a href="./comments.html" data-i18n="nav.comments">Comments</a>
+    </nav>
+    <div class="navbar-right">
+      <div class="lang-wrapper">
+        <button type="button" id="lang-btn">English</button>
+        <div id="lang-dropdown" class="lang-dropdown hidden">
+          <button type="button" data-lang="en">English</button>
+          <button type="button" data-lang="zh">中文</button>
+          <button type="button" data-lang="es">Español</button>
+          <button type="button" data-lang="fr">Français</button>
+          <button type="button" data-lang="ru">Русский</button>
+          <button type="button" data-lang="de">Deutsch</button>
+          <button type="button" data-lang="ja">日本語</button>
+        </div>
+      </div>
+      <button id="theme-toggle">🌙</button>
+    </div>
+  </header>
+
+  <main>
+    <h1 data-i18n="dictionary.dictionaryTitle">Dictionary</h1>
+
+    <section class="dictionary-search-box">
+      <label for="search-bar" data-i18n="dictionary.searchLabel">Search words:</label>
+      <input id="search-bar" type="text" data-i18n-placeholder="dictionary.searchPlaceholder" placeholder="Search words…" />
+    </section>
+
+    <!-- Word list (will be filled later from Firebase) -->
+    <section id="dictionary-list" class="dictionary-list">
+    </section>
+  </main>
+
+  <!-- Right-click word popup: note + delete -->
+  <div id="word-context-box" class="word-context-box hidden">
+    <div class="word-context-content">
+      <h2 id="word-context-title" data-i18n="dictionary.wordContextTitle">Word</h2>
+      <label for="word-context-note" data-i18n="dictionary.noteLabel">Note:</label>
+      <textarea id="word-context-note" rows="4" data-i18n-placeholder="dictionary.notePlaceholder" placeholder="Add a note for this word…"></textarea>
+      <div class="word-context-actions">
+        <button id="word-context-save-note" data-i18n="dictionary.saveNote">Save note</button>
+        <button id="word-context-delete" class="delete-word-btn" data-i18n="dictionary.deleteWord">Delete word</button>
+        <button id="word-context-close" data-i18n="dictionary.close">Close</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
