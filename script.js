@@ -240,15 +240,18 @@ function createSymbolVisual(symOrRef, altText) {
     return img;
   }
   if (symOrRef && symOrRef.image) {
-    // Same pattern as AlphabetApp: <source src="videos/animated_a.mp4"> — path in HTML, parsed by browser
+    // Path in HTML (like AlphabetApp) so it loads from file://; use mask so the shape is filled with the UI accent color
     const path = symOrRef.image;
     const alt = escapeHtmlAttr(altText);
+    const maskStyle =
+      "-webkit-mask-image:url(" + path + ");mask-image:url(" + path + ");" +
+      "-webkit-mask-size:contain;mask-size:contain;" +
+      "-webkit-mask-position:center;mask-position:center;" +
+      "-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;" +
+      "background-color:var(--accent-color);";
     const wrapper = document.createElement("div");
-    wrapper.innerHTML = "<img src=\"" + path + "\" alt=\"" + alt + "\">";
-    const img = wrapper.firstChild;
-    img.setAttribute("role", "img");
-    img.setAttribute("aria-label", altText);
-    return img;
+    wrapper.innerHTML = "<div class=\"symbol-mask\" role=\"img\" aria-label=\"" + alt + "\" style=\"" + maskStyle + "\"></div>";
+    return wrapper.firstChild;
   }
   const wrapper = document.createElement("div");
   wrapper.innerHTML = "<img src=\"\" alt=\"" + escapeHtmlAttr(altText) + "\">";
