@@ -267,7 +267,7 @@ function createSymbolVisual(symOrRef, altText) {
     const alt = escapeHtmlAttr(altText);
     const wrapper = document.createElement("div");
     if (useMaskForSymbols()) {
-      // Load img, then tint with accent on canvas (shape only; transparent stays transparent)
+      // Load img, then tint with accent using composite (no getImageData/toDataURL so it works on file://)
       wrapper.className = "symbol-mask symbol-tint";
       wrapper.setAttribute("role", "img");
       wrapper.setAttribute("aria-label", altText);
@@ -277,29 +277,25 @@ function createSymbolVisual(symOrRef, altText) {
       img.className = "symbol-tint-img";
       img.setAttribute("loading", "lazy");
       img.onload = function () {
-        try {
-          const w = img.naturalWidth || img.width;
-          const h = img.naturalHeight || img.height;
-          if (!w || !h) return;
-          const canvas = document.createElement("canvas");
-          canvas.width = w;
-          canvas.height = h;
-          const ctx = canvas.getContext("2d");
-          ctx.drawImage(img, 0, 0);
-          const data = ctx.getImageData(0, 0, w, h);
-          const rgb = getAccentRgb();
-          for (let i = 0; i < data.data.length; i += 4) {
-            const a = data.data[i + 3];
-            if (a > 0) {
-              data.data[i] = rgb[0];
-              data.data[i + 1] = rgb[1];
-              data.data[i + 2] = rgb[2];
-            }
-          }
-          ctx.putImageData(data, 0, 0);
-          img.src = canvas.toDataURL("image/png");
-          img.onload = null;
-        } catch (e) { /* keep original img if canvas fails (e.g. tainted) */ }
+        const w = img.naturalWidth || img.width;
+        const h = img.naturalHeight || img.height;
+        if (!w || !h) return;
+        const canvas = document.createElement("canvas");
+        canvas.width = w;
+        canvas.height = h;
+        canvas.className = "symbol-tint-img";
+        canvas.style.width = "100%";
+        canvas.style.height = "100%";
+        canvas.style.display = "block";
+        const ctx = canvas.getContext("2d");
+        ctx.drawImage(img, 0, 0);
+        // source-in: keep new pixels only where current (image) is opaque → accent only in shape
+        ctx.globalCompositeOperation = "source-in";
+        const rgb = getAccentRgb();
+        ctx.fillStyle = "rgb(" + rgb[0] + "," + rgb[1] + "," + rgb[2] + ")";
+        ctx.fillRect(0, 0, w, h);
+        wrapper.removeChild(img);
+        wrapper.appendChild(canvas);
       };
       wrapper.appendChild(img);
       return wrapper;
