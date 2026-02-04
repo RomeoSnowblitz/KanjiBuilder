@@ -227,9 +227,18 @@ function escapeHtmlAttr(s) {
   return String(s).replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/</g, "&lt;");
 }
 
+/** When true, image symbols use mask + accent color (can fail on file://). Default OFF so plain img loads everywhere. */
+function useMaskForSymbols() {
+  try {
+    return localStorage.getItem("kanjiBuilderMaskTest") === "on";
+  } catch (e) {
+    return false;
+  }
+}
+
 /**
- * Render a symbol like AlphabetApp renders video: put the path in HTML and inject with innerHTML
- * so the browser parses the relative URL (works from file:// and http). Returns an img or wrapper node.
+ * Render a symbol: path in HTML so it loads from file:// and http.
+ * Test OFF = plain <img> (reliable). Test ON = mask div with accent color.
  */
 function createSymbolVisual(symOrRef, altText) {
   altText = altText || (symOrRef && symOrRef.name) || "";
@@ -240,17 +249,24 @@ function createSymbolVisual(symOrRef, altText) {
     return img;
   }
   if (symOrRef && symOrRef.image) {
-    // Path in HTML (like AlphabetApp) so it loads from file://; use mask so the shape is filled with the UI accent color
     const path = symOrRef.image;
     const alt = escapeHtmlAttr(altText);
-    const maskStyle =
-      "-webkit-mask-image:url(" + path + ");mask-image:url(" + path + ");" +
-      "-webkit-mask-size:contain;mask-size:contain;" +
-      "-webkit-mask-position:center;mask-position:center;" +
-      "-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;" +
-      "background-color:var(--accent-color);";
     const wrapper = document.createElement("div");
-    wrapper.innerHTML = "<div class=\"symbol-mask\" role=\"img\" aria-label=\"" + alt + "\" style=\"" + maskStyle + "\"></div>";
+    if (useMaskForSymbols()) {
+      const maskStyle =
+        "-webkit-mask-image:url(" + path + ");mask-image:url(" + path + ");" +
+        "-webkit-mask-size:contain;mask-size:contain;" +
+        "-webkit-mask-position:center;mask-position:center;" +
+        "-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;" +
+        "background-color:var(--accent-color);";
+      wrapper.innerHTML = "<div class=\"symbol-mask\" role=\"img\" aria-label=\"" + alt + "\" style=\"" + maskStyle + "\"></div>";
+    } else {
+      wrapper.innerHTML = "<img src=\"" + path + "\" alt=\"" + alt + "\">";
+      const img = wrapper.firstChild;
+      img.setAttribute("role", "img");
+      img.setAttribute("aria-label", altText);
+      return img;
+    }
     return wrapper.firstChild;
   }
   const wrapper = document.createElement("div");
@@ -304,6 +320,24 @@ if (toggleBtn) {
     const isLight = document.body.classList.contains("light-mode");
     localStorage.setItem("theme", isLight ? "light" : "dark");
     toggleBtn.textContent = isLight ? "☀️" : "🌙";
+  });
+}
+
+// Test toggle: OFF = plain img (loads on file://). ON = mask with accent color.
+const navbarRight = document.querySelector(".navbar-right");
+const themeToggle = document.getElementById("theme-toggle");
+if (navbarRight && themeToggle) {
+  const testBtn = document.createElement("button");
+  testBtn.type = "button";
+  testBtn.id = "test-toggle";
+  testBtn.textContent = useMaskForSymbols() ? "Test ON" : "Test OFF";
+  navbarRight.insertBefore(testBtn, themeToggle);
+  testBtn.addEventListener("click", function () {
+    const next = useMaskForSymbols() ? "off" : "on";
+    localStorage.setItem("kanjiBuilderMaskTest", next);
+    testBtn.textContent = next === "on" ? "Test ON" : "Test OFF";
+    if (typeof window.kanjiBuilderRefreshCreate === "function") window.kanjiBuilderRefreshCreate();
+    if (typeof window.kanjiBuilderRefreshDictionary === "function") window.kanjiBuilderRefreshDictionary();
   });
 }
 
@@ -541,38 +575,47 @@ if (page === "create") {
     });
   }
 
-  symbols.forEach(sym => {
-    const div = document.createElement("div");
-    div.className = "symbol-box";
-    div.dataset.symbolId = sym.id;
-    div.setAttribute("draggable", "true");
-    div.appendChild(createSymbolVisual(sym, getSymbolName(sym)));
-    const nameSpan = document.createElement("span");
-    nameSpan.textContent = getSymbolName(sym);
-    div.appendChild(nameSpan);
-    div.addEventListener("contextmenu", (e) => {
-      e.preventDefault();
-      showSymbolInfo(sym);
+  function buildSymbolGrid() {
+    grid.innerHTML = "";
+    symbols.forEach(sym => {
+      const div = document.createElement("div");
+      div.className = "symbol-box";
+      div.dataset.symbolId = sym.id;
+      div.setAttribute("draggable", "true");
+      div.appendChild(createSymbolVisual(sym, getSymbolName(sym)));
+      const nameSpan = document.createElement("span");
+      nameSpan.textContent = getSymbolName(sym);
+      div.appendChild(nameSpan);
+      div.addEventListener("contextmenu", (e) => {
+        e.preventDefault();
+        showSymbolInfo(sym);
+      });
+      div.addEventListener("dragstart", (e) => {
+        e.dataTransfer.setData("text/plain", sym.id);
+        e.dataTransfer.setData("source", "grid");
+      });
+      div.addEventListener("click", (e) => {
+        const slotName = e.shiftKey ? "right" : "left";
+        const data = slots[slotName];
+        const slotEl = slotName === "left" ? slotLeft : slotRight;
+        if (!data.main) {
+          data.main = sym;
+        } else {
+          if (!data.effectLeft) data.effectLeft = sym;
+          else if (!data.effectRight) data.effectRight = sym;
+        }
+        renderSlot(slotEl, slotName);
+      });
+      grid.appendChild(div);
     });
-    div.addEventListener("dragstart", (e) => {
-      e.dataTransfer.setData("text/plain", sym.id);
-      e.dataTransfer.setData("source", "grid");
-    });
-    div.addEventListener("click", (e) => {
-      // Normal click = left slot; Shift+click = right slot. If slot has no main, set main; else add as effect.
-      const slotName = e.shiftKey ? "right" : "left";
-      const data = slots[slotName];
-      const slotEl = slotName === "left" ? slotLeft : slotRight;
-      if (!data.main) {
-        data.main = sym;
-      } else {
-        if (!data.effectLeft) data.effectLeft = sym;
-        else if (!data.effectRight) data.effectRight = sym;
-      }
-      renderSlot(slotEl, slotName);
-    });
-    grid.appendChild(div);
-  });
+  }
+  buildSymbolGrid();
+
+  window.kanjiBuilderRefreshCreate = function () {
+    buildSymbolGrid();
+    renderSlot(slotLeft, "left");
+    renderSlot(slotRight, "right");
+  };
 
   // Symbol search: filter grid by name, description, or user-added extras (using current language)
   const symbolSearchInput = document.getElementById("symbol-search");
@@ -823,6 +866,7 @@ if (page === "dictionary") {
   });
 
   window.onLanguageChange = () => loadEntries();
+  window.kanjiBuilderRefreshDictionary = loadEntries;
 
   loadEntries();
 }
