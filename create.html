@@ -15,6 +15,8 @@
       <a href="index.html" data-i18n="nav.home">Home</a>
       <a href="create.html" class="active" data-i18n="nav.create">Create</a>
       <a href="dictionary.html" data-i18n="nav.dictionary">Dictionary</a>
+      <a href="write.html" data-i18n="nav.write">Write</a>
+      <a href="transfers.html" data-i18n="nav.transfers">Transfers</a>
       <a href="comments.html" data-i18n="nav.comments">Comments</a>
     </nav>
     <div class="navbar-right">
@@ -35,6 +37,7 @@
   </header>
 
   <main>
+    <span class="app-version">v0.3</span>
     <h1 data-i18n="create.createTitle">Create a New Word</h1>
 
     <section class="drop-zones-row">
@@ -61,7 +64,20 @@
     <div id="symbol-info-box" class="hidden">
       <div class="info-content">
         <h2 id="info-name">Symbol Name</h2>
-        <div id="info-image-wrap"></div>
+        <div class="info-image-tools">
+          <button id="info-image-state" type="button" title="Default image">★</button>
+          <button id="info-image-upload" type="button" title="Add custom image">+</button>
+        </div>
+        <div class="info-image-nav">
+          <button id="info-image-prev" type="button" aria-label="Previous image">◀</button>
+          <div id="info-image-wrap"></div>
+          <button id="info-image-next" type="button" aria-label="Next image">▶</button>
+        </div>
+        <div id="info-image-upload-panel" class="info-image-upload-panel hidden">
+          <input id="info-image-file" type="file" accept="image/*" />
+          <p class="info-image-note" id="info-image-note" data-i18n="create.imageTip">Tip: use a black image with transparent background for best UI tinting.</p>
+          <button id="info-image-upload-close" type="button" data-i18n="create.imageUploadClose">Close</button>
+        </div>
         <p id="info-description"></p>
         <label for="info-extra" data-i18n="create.infoExtraLabel">Extra:</label>
         <textarea id="info-extra" rows="2" data-i18n-placeholder="create.infoExtraPlaceholder" placeholder="Extra words for search (e.g. fish, animal)…"></textarea>
@@ -83,3 +99,5 @@
   </main>
 </body>
 </html>
+
+

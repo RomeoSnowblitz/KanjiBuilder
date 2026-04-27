@@ -15,6 +15,8 @@
       <a href="index.html" data-i18n="nav.home">Home</a>
       <a href="create.html" data-i18n="nav.create">Create</a>
       <a href="dictionary.html" class="active" data-i18n="nav.dictionary">Dictionary</a>
+      <a href="write.html" data-i18n="nav.write">Write</a>
+      <a href="transfers.html" data-i18n="nav.transfers">Transfers</a>
       <a href="comments.html" data-i18n="nav.comments">Comments</a>
     </nav>
     <div class="navbar-right">
@@ -35,11 +37,20 @@
   </header>
 
   <main>
+    <span class="app-version">v0.3</span>
     <h1 data-i18n="dictionary.dictionaryTitle">Dictionary</h1>
 
     <section class="dictionary-search-box">
       <label for="search-bar" data-i18n="dictionary.searchLabel">Search words:</label>
       <input id="search-bar" type="text" data-i18n-placeholder="dictionary.searchPlaceholder" placeholder="Search words…" />
+      <label class="dictionary-hide-core-toggle">
+        <input id="hide-core-words" type="checkbox" />
+        <span>Hide Core Words</span>
+      </label>
+      <label class="dictionary-hide-core-toggle">
+        <input id="show-only-exceptions" type="checkbox" />
+        <span>Show Only Exceptions</span>
+      </label>
     </section>
 
     <!-- Word list (will be filled later from Firebase) -->
@@ -55,10 +66,32 @@
       <textarea id="word-context-note" rows="4" data-i18n-placeholder="dictionary.notePlaceholder" placeholder="Add a note for this word…"></textarea>
       <div class="word-context-actions">
         <button id="word-context-save-note" data-i18n="dictionary.saveNote">Save note</button>
-        <button id="word-context-delete" class="delete-word-btn" data-i18n="dictionary.deleteWord">Delete word</button>
+        <button id="word-context-delete" class="delete-word-btn">Admin Edit</button>
         <button id="word-context-close" data-i18n="dictionary.close">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="admin-edit-box" class="word-context-box hidden">
+    <div class="word-context-content">
+      <h2>Admin Edit</h2>
+      <div class="admin-edit-grid">
+        <label for="admin-edit-en">English:</label><input id="admin-edit-en" type="text" />
+        <label for="admin-edit-zh">中文:</label><input id="admin-edit-zh" type="text" />
+        <label for="admin-edit-es">Español:</label><input id="admin-edit-es" type="text" />
+        <label for="admin-edit-fr">Français:</label><input id="admin-edit-fr" type="text" />
+        <label for="admin-edit-ru">Русский:</label><input id="admin-edit-ru" type="text" />
+        <label for="admin-edit-de">Deutsch:</label><input id="admin-edit-de" type="text" />
+        <label for="admin-edit-ja">日本語:</label><input id="admin-edit-ja" type="text" />
+      </div>
+      <div class="word-context-actions">
+        <button id="admin-edit-save">Save</button>
+        <button id="admin-edit-delete" class="delete-word-btn">Delete</button>
+        <button id="admin-edit-close">Close</button>
       </div>
     </div>
   </div>
 </body>
 </html>
+
+

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kanji Builder</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="translations.js"></script>
+  <script defer src="symbols.js"></script>
+  <script defer src="script.js"></script>
+</head>
+<body data-page="write">
+  <header class="navbar">
+    <nav>
+      <a href="index.html" data-i18n="nav.home">Home</a>
+      <a href="create.html" data-i18n="nav.create">Create</a>
+      <a href="dictionary.html" data-i18n="nav.dictionary">Dictionary</a>
+      <a href="write.html" class="active" data-i18n="nav.write">Write</a>
+      <a href="transfers.html" data-i18n="nav.transfers">Transfers</a>
+      <a href="comments.html" data-i18n="nav.comments">Comments</a>
+    </nav>
+    <div class="navbar-right">
+      <div class="lang-wrapper">
+        <button type="button" id="lang-btn">English</button>
+        <div id="lang-dropdown" class="lang-dropdown hidden">
+          <button type="button" data-lang="en">English</button>
+          <button type="button" data-lang="zh">中文</button>
+          <button type="button" data-lang="es">Español</button>
+          <button type="button" data-lang="fr">Français</button>
+          <button type="button" data-lang="ru">Русский</button>
+          <button type="button" data-lang="de">Deutsch</button>
+          <button type="button" data-lang="ja">日本語</button>
+        </div>
+      </div>
+      <button id="theme-toggle">🌙</button>
+    </div>
+  </header>
+
+  <main>
+    <span class="app-version">v0.3</span>
+    <h1 data-i18n="write.writeTitle">Write</h1>
+
+    <section class="write-input-section">
+      <label for="write-input" data-i18n="write.inputLabel">Input</label>
+      <textarea id="write-input" rows="4" data-i18n-placeholder="write.inputPlaceholder" placeholder="Type a sentence..."></textarea>
+    </section>
+
+    <section class="write-settings-section">
+      <label for="write-output-language" data-i18n="write.outputModeLabel">Output:</label>
+      <select id="write-output-language"></select>
+    </section>
+
+    <section class="write-output-section">
+      <h2 data-i18n="write.outputTitle">Output</h2>
+      <div id="write-output" class="write-output"></div>
+    </section>
+
+    <div id="write-word-info-box" class="word-context-box hidden">
+      <div class="word-context-content">
+        <h2 id="write-word-info-title">Word</h2>
+        <div id="write-word-info-symbols" class="write-word-info-symbols"></div>
+        <p id="write-word-info-meta" class="write-word-info-meta"></p>
+        <label for="write-word-info-note">Note:</label>
+        <textarea id="write-word-info-note" rows="4" placeholder="Add a note for this word..."></textarea>
+        <div class="word-context-actions">
+          <button id="write-word-info-save-note">Save note</button>
+          <button id="write-word-info-close">Close</button>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
+
+

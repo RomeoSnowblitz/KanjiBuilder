@@ -227,6 +227,14 @@ body {
   cursor: pointer;
 }
 
+.app-version {
+  display: block;
+  font-size: 0.8rem;
+  color: var(--accent-color);
+  text-align: right;
+  margin: -0.5rem 0 0.5rem 0;
+}
+
 /* ===============================
    Main Content
    =============================== */
@@ -443,7 +451,7 @@ h1, h2 {
 /* Symbol grid with auto wrapping */
 .symbol-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-template-columns: repeat(13, minmax(72px, 1fr));
   gap: 0.5rem;
 }
 
@@ -495,6 +503,55 @@ h1, h2 {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+#symbol-info-box .info-image-tools {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.25rem;
+}
+#symbol-info-box .info-image-tools button {
+  border: 1px solid var(--accent-color);
+  background: var(--bg-color);
+  color: var(--text-color);
+  border-radius: 6px;
+  width: 34px;
+  height: 34px;
+  cursor: pointer;
+}
+#symbol-info-box .info-image-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+#symbol-info-box .info-image-nav > button {
+  border: 1px solid var(--accent-color);
+  background: var(--bg-color);
+  color: var(--text-color);
+  border-radius: 6px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+#symbol-info-box .info-image-nav > button:disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+}
+#symbol-info-box .info-image-upload-panel {
+  margin: 0.4rem auto 0.55rem;
+  padding: 0.55rem;
+  border: 1px solid var(--accent-color);
+  border-radius: 8px;
+  background: var(--bg-color);
+}
+#symbol-info-box .info-image-upload-panel.hidden {
+  display: none;
+}
+#symbol-info-box .info-image-note {
+  margin: 0.35rem 0 0.5rem;
+  font-size: 0.8rem;
+  opacity: 0.85;
 }
 #symbol-info-box #info-image-wrap img,
 #symbol-info-box #info-image-wrap .symbol-mask {
@@ -613,6 +670,165 @@ h1, h2 {
   color: var(--text-color);
 }
 
+.symbol-box-empty {
+  border-style: dashed;
+  opacity: 0.25;
+  pointer-events: none;
+}
+
+/* ===============================
+   Write Page
+   =============================== */
+.write-input-section,
+.write-output-section {
+  margin-bottom: 1rem;
+}
+
+.write-settings-section {
+  margin-bottom: 1rem;
+}
+
+.write-settings-section label {
+  margin-right: 0.5rem;
+}
+
+.write-settings-section select {
+  padding: 0.35rem 0.5rem;
+  border: 1px solid var(--accent-color);
+  border-radius: 6px;
+  background: var(--bg-color);
+  color: var(--text-color);
+}
+
+.write-input-section textarea {
+  width: 100%;
+  min-height: 100px;
+  padding: 0.75rem;
+  border: 1px solid var(--accent-color);
+  border-radius: 8px;
+  background: var(--bg-color);
+  color: var(--text-color);
+  resize: vertical;
+}
+
+.write-output {
+  min-height: 120px;
+  border: 1px solid var(--accent-color);
+  border-radius: 8px;
+  padding: 0.75rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+  background: var(--card-bg);
+}
+
+.write-token {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 34px;
+  gap: 0.2rem;
+}
+
+.write-token-text {
+  color: var(--accent-color);
+  font-weight: 600;
+  padding: 0 0.2rem;
+}
+
+.write-token-symbols {
+  display: inline-flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.write-symbol-box {
+  width: 34px;
+  height: 34px;
+  border: 1px solid var(--accent-color);
+  border-radius: 6px;
+  background: var(--card-bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+}
+
+.write-symbol-box img,
+.write-symbol-box .symbol-mask {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  object-fit: contain;
+}
+
+/* Reuse dictionary slot format inside Write output/modal */
+.write-token-symbols .entry-slot-group {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+.write-token-symbols .entry-effects-column {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  align-items: center;
+}
+
+.write-token-symbols .entry-effect {
+  width: 22px;
+  height: 22px;
+}
+
+.write-token-symbols .entry-main {
+  width: 34px;
+  height: 34px;
+}
+
+.write-token-symbols .entry-effect img,
+.write-token-symbols .entry-effect .symbol-mask,
+.write-token-symbols .entry-main img,
+.write-token-symbols .entry-main .symbol-mask {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.write-word-info-symbols {
+  margin: 0.5rem 0 0.25rem;
+}
+
+.write-word-info-meta {
+  margin: 0.25rem 0 0.75rem;
+  color: var(--accent-color);
+  font-weight: 600;
+}
+
+.write-token-caption {
+  font-size: 0.75rem;
+  color: var(--text-color);
+  text-align: center;
+}
+
+.admin-edit-grid {
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  gap: 0.4rem 0.6rem;
+  margin: 0.5rem 0 0.75rem;
+  align-items: center;
+}
+
+.admin-edit-grid input {
+  width: 100%;
+  padding: 0.4rem 0.45rem;
+  border: 1px solid var(--accent-color);
+  border-radius: 6px;
+  background: var(--bg-color);
+  color: var(--text-color);
+}
+
 /* ===============================
    Dictionary Page Layout Fix
    =============================== */
@@ -636,10 +852,101 @@ h1, h2 {
   color: var(--text-color);
 }
 
+.dictionary-hide-core-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-top: 0.6rem;
+  user-select: none;
+}
+
 .dictionary-list {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
+}
+
+.transfer-card {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  padding: 0.9rem;
+  margin-bottom: 1rem;
+  background: var(--card-bg);
+}
+
+.transfer-card h2 {
+  margin-top: 0;
+}
+
+.transfer-list {
+  max-height: 220px;
+  overflow: auto;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 8px;
+  margin-top: 0.6rem;
+  padding: 0.45rem;
+}
+
+.transfer-item {
+  display: block;
+  width: 100%;
+  text-align: left;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.03);
+  color: var(--text-color);
+  padding: 0.45rem 0.55rem;
+  margin-bottom: 0.35rem;
+  cursor: pointer;
+}
+
+.transfer-item:hover {
+  border-color: var(--accent-color);
+}
+
+.transfer-item.is-selected {
+  border-color: var(--accent-color);
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.transfer-group-header {
+  font-weight: 600;
+}
+
+.transfer-variants {
+  margin: 0.25rem 0 0.45rem 0.85rem;
+}
+
+.transfer-variant-item {
+  font-size: 0.9rem;
+}
+
+.transfer-hint {
+  margin: 0.45rem 0 0;
+  opacity: 0.85;
+  font-size: 0.9rem;
+}
+
+.transfer-dropzone {
+  margin-top: 0.6rem;
+  border: 2px dashed rgba(255, 255, 255, 0.35);
+  border-radius: 10px;
+  padding: 1rem;
+  text-align: center;
+  color: var(--text-color);
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.transfer-dropzone.is-dragover {
+  border-color: var(--accent-color);
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.transfer-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.7rem;
 }
 
 .entry {
@@ -651,6 +958,11 @@ h1, h2 {
   padding: 0.75rem;
   border-left: 3px solid var(--accent-color);
   cursor: context-menu;
+}
+
+.entry.entry-core {
+  border: 2px solid var(--accent-color);
+  border-left-width: 2px;
 }
 
 /* New format: same layout as create — [effects column | main] per slot, images only */
