@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kanji Builder</title>
+  <link rel="stylesheet" href="style.css?v=0.5.1" />
+  <script src="translations.js?v=0.5.1"></script>
+  <script defer src="symbols.js?v=0.5.1"></script>
+  <script defer src="world-dictionary-data.js?v=0.5.1"></script>
+  <script defer src="script.js?v=0.5.1"></script>
+</head>
+<body data-page="web">
+  <header class="navbar">
+    <nav>
+      <a href="index.html" data-i18n="nav.home">Home</a>
+      <a href="create.html" data-i18n="nav.create">Create</a>
+
+      <a href="draw.html" data-i18n="nav.draw">Draw</a>
+      <a href="dictionary.html" data-i18n="nav.dictionary">Dictionary</a>
+      <a href="web.html" class="active" data-i18n="nav.web">Web</a>
+      <a href="write.html" data-i18n="nav.write">Write</a>
+      <a href="play.html" data-i18n="nav.play">Play</a>
+      <a href="comments.html" data-i18n="nav.comments">Comments</a>
+      <a href="transfers.html" data-i18n="nav.transfers">Transfers</a>
+    </nav>
+    <div class="navbar-right">
+      <div class="lang-wrapper">
+        <button type="button" id="lang-btn">English</button>
+        <div id="lang-dropdown" class="lang-dropdown hidden">
+          <button type="button" data-lang="en">English</button>
+          <button type="button" data-lang="zh">中文</button>
+          <button type="button" data-lang="es">Español</button>
+          <button type="button" data-lang="fr">Français</button>
+          <button type="button" data-lang="ru">Русский</button>
+          <button type="button" data-lang="de">Deutsch</button>
+          <button type="button" data-lang="ja">日本語</button>
+        </div>
+      </div>
+      <button id="theme-toggle">🌙</button>
+    </div>
+  </header>
+
+  <main>
+    <span class="app-version">v0.5</span>
+    <h1 data-i18n="web.webTitle">Web</h1>
+    <p class="web-subtitle" data-i18n="web.subtitle">Search the dictionary by symbol.</p>
+
+    <section class="web-controls">
+      <label for="web-search-mode" data-i18n="web.searchMode">Search Mode:</label>
+      <select id="web-search-mode">
+        <option value="strict" data-i18n="web.modeStrict">Strict</option>
+        <option value="shapeless" data-i18n="web.modeShapeless">Shapeless</option>
+        <option value="contains" data-i18n="web.modeContains">Contains</option>
+      </select>
+      <p id="web-mode-hint" class="web-mode-hint"></p>
+    </section>
+
+    <section class="web-query-section">
+      <div class="web-query-header">
+        <h2 data-i18n="web.querySymbols">Query Symbols</h2>
+        <button id="web-clear-query" type="button" data-i18n="web.clearQuery">Clear</button>
+      </div>
+      <div id="web-query-symbols" class="web-query-symbols"></div>
+    </section>
+
+    <section class="web-symbol-search-box">
+      <label for="web-symbol-search" data-i18n="web.searchSymbolsLabel">Search symbols:</label>
+      <div class="symbol-search-controls web-symbol-search-controls">
+        <input id="web-symbol-search" type="text" data-i18n-placeholder="web.searchSymbolsPlaceholder" placeholder="e.g. medicine, human, cloth…" />
+        <button id="web-mode-toggle" type="button" data-mode="manual" aria-pressed="false" data-i18n="create.manualMode">Manual</button>
+      </div>
+      <div id="web-symbol-grid" class="symbol-grid web-symbol-grid"></div>
+    </section>
+
+    <section class="web-results-section">
+      <h2 data-i18n="web.resultsTitle">Results</h2>
+      <p id="web-results-status" class="web-results-status"></p>
+      <div id="web-results" class="dictionary-list web-results"></div>
+    </section>
+
+    <div id="dictionary-editor-box" class="dictionary-editor-box hidden">
+      <div class="dictionary-editor-content">
+        <div class="dictionary-editor-header">
+          <h2 data-i18n="dictionary.editWord">Edit Word</h2>
+          <div class="dictionary-editor-header-actions">
+            <button id="dictionary-editor-save" type="button" data-i18n="dictionary.save">Save</button>
+            <button id="dictionary-editor-cancel" type="button" data-i18n="dictionary.cancel">Cancel</button>
+          </div>
+        </div>
+        <iframe id="dictionary-editor-frame" title="Word editor"></iframe>
+      </div>
+    </div>
+
+    <div id="symbol-info-box" class="hidden">
+      <div class="info-content">
+        <h2 id="info-name">Symbol Name</h2>
+        <div class="info-image-tools">
+          <button id="info-image-state" type="button" title="Default image">★</button>
+          <button id="info-image-upload" type="button" title="Add custom image">+</button>
+        </div>
+        <div class="info-image-nav">
+          <button id="info-image-prev" type="button" aria-label="Previous image">◀</button>
+          <div id="info-image-wrap"></div>
+          <button id="info-image-next" type="button" aria-label="Next image">▶</button>
+        </div>
+        <div id="info-image-upload-panel" class="info-image-upload-panel hidden">
+          <div class="info-image-file-picker">
+            <input id="info-image-file" class="info-image-file-input" type="file" accept="image/*" />
+            <button type="button" id="info-image-file-btn" class="info-image-file-btn" data-i18n="create.chooseFile">Choose File</button>
+            <span id="info-image-file-name" class="info-image-file-name" data-i18n="create.noFileChosen">No file chosen</span>
+          </div>
+          <p class="info-image-note" id="info-image-note" data-i18n="create.imageTip">Tip: use a black image with transparent background for best UI tinting.</p>
+          <button id="info-image-upload-close" type="button" data-i18n="create.imageUploadClose">Close</button>
+        </div>
+        <p id="info-description"></p>
+        <label for="info-extra" data-i18n="create.infoExtraLabel">Extra:</label>
+        <textarea id="info-extra" rows="2" data-i18n-placeholder="create.infoExtraPlaceholder" placeholder="Extra words for search (e.g. fish, animal)…"></textarea>
+        <label for="info-note" data-i18n="create.infoNoteLabel">Note:</label>
+        <textarea id="info-note" rows="3" data-i18n-placeholder="create.infoNotePlaceholder" placeholder="Add a note for this symbol…"></textarea>
+        <div class="info-actions">
+          <button id="info-save" data-i18n="create.infoSave">Save</button>
+          <button id="close-info" data-i18n="create.infoClose">Close</button>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>

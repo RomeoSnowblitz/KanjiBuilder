@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kanji Builder</title>
+  <link rel="stylesheet" href="style.css?v=0.5.1" />
+  <script src="translations.js?v=0.5.1"></script>
+  <script defer src="symbols.js?v=0.5.1"></script>
+  <script defer src="world-dictionary-data.js?v=0.5.1"></script>
+  <script defer src="script.js?v=0.5.1"></script>
+</head>
+<body data-page="draw">
+  <header class="navbar">
+    <nav>
+      <a href="index.html" data-i18n="nav.home">Home</a>
+      <a href="create.html" data-i18n="nav.create">Create</a>
+      <a href="draw.html" class="active" data-i18n="nav.draw">Draw</a>
+      <a href="dictionary.html" data-i18n="nav.dictionary">Dictionary</a>
+      <a href="web.html" data-i18n="nav.web">Web</a>
+      <a href="write.html" data-i18n="nav.write">Write</a>
+      <a href="play.html" data-i18n="nav.play">Play</a>
+      <a href="comments.html" data-i18n="nav.comments">Comments</a>
+      <a href="transfers.html" data-i18n="nav.transfers">Transfers</a>
+    </nav>
+    <div class="navbar-right">
+      <div class="lang-wrapper">
+        <button type="button" id="lang-btn">English</button>
+        <div id="lang-dropdown" class="lang-dropdown hidden">
+          <button type="button" data-lang="en">English</button>
+          <button type="button" data-lang="zh">中文</button>
+          <button type="button" data-lang="es">Español</button>
+          <button type="button" data-lang="fr">Français</button>
+          <button type="button" data-lang="ru">Русский</button>
+          <button type="button" data-lang="de">Deutsch</button>
+          <button type="button" data-lang="ja">日本語</button>
+        </div>
+      </div>
+      <button id="theme-toggle">🌙</button>
+    </div>
+  </header>
+
+  <main>
+    <span class="app-version">v0.5</span>
+    <h1 data-i18n="draw.title">Draw</h1>
+    <p class="draw-intro" data-i18n="draw.intro">Select a symbol, draw a new silhouette, then add it as a custom image for that symbol. Ctrl+Z undoes the last stroke. Transparent areas stay tintable like other symbols.</p>
+
+    <section id="draw-workspace" class="draw-workspace" data-draw-side="right">
+      <div class="draw-workspace-toolbar">
+        <button id="draw-side-toggle" type="button" data-i18n="draw.sideRight">Draw: Right</button>
+      </div>
+      <div class="draw-workspace-box">
+        <div class="draw-workspace-main">
+          <div class="draw-panel draw-panel-symbol">
+            <div id="draw-symbol-empty" class="draw-symbol-empty" data-i18n="draw.selectSymbolHint">Click a symbol below to view it here.</div>
+            <div id="draw-symbol-panel" class="draw-symbol-panel hidden">
+              <div id="draw-symbol-preview" class="draw-symbol-preview"></div>
+              <h3 id="draw-symbol-name" class="draw-symbol-name"></h3>
+              <p id="draw-symbol-description" class="draw-symbol-description"></p>
+            </div>
+          </div>
+
+          <div class="draw-panel draw-panel-canvas">
+            <div class="draw-canvas-wrap">
+              <canvas id="draw-canvas" width="128" height="128" aria-label="Symbol drawing canvas"></canvas>
+            </div>
+          </div>
+        </div>
+
+        <div class="draw-workspace-actions">
+          <div class="draw-variant-actions">
+            <button id="draw-variant-prev" type="button" aria-label="Previous image">◀</button>
+            <button id="draw-use-selected" type="button" data-i18n="draw.useSelected">Use selected</button>
+            <button id="draw-variant-next" type="button" aria-label="Next image">▶</button>
+            <button id="draw-delete-variant" type="button" data-i18n="draw.deleteVariant">Delete custom</button>
+          </div>
+          <div class="draw-tools">
+            <button id="draw-clear" type="button" data-i18n="draw.clear">Clear</button>
+            <button id="draw-add" type="button" class="btn-primary" data-i18n="draw.addToSymbol" disabled>Add to symbol</button>
+          </div>
+        </div>
+
+        <div id="draw-variants-section" class="draw-variants-section hidden">
+          <div class="draw-variant-header">
+            <span data-i18n="draw.variantsTitle">Images for this symbol</span>
+            <span id="draw-variant-count" class="draw-variant-count"></span>
+          </div>
+          <div id="draw-variant-list" class="draw-variant-list"></div>
+        </div>
+
+        <p id="draw-status" class="draw-status" aria-live="polite"></p>
+      </div>
+    </section>
+
+    <section class="draw-symbols-section">
+      <div class="draw-symbols-header">
+        <h2 data-i18n="draw.allSymbols">All symbols</h2>
+        <div class="draw-symbol-search-controls">
+          <input id="draw-symbol-search" type="text" data-i18n-placeholder="draw.searchSymbols" placeholder="Search symbols…" />
+          <button id="draw-mode-toggle" type="button" data-mode="manual" aria-pressed="false" data-i18n="create.manualMode">Manual</button>
+        </div>
+      </div>
+      <div id="draw-symbol-grid" class="symbol-grid draw-symbol-grid"></div>
+    </section>
+
+    <div id="symbol-info-box" class="hidden">
+      <div class="info-content">
+        <h2 id="info-name">Symbol Name</h2>
+        <div class="info-image-tools">
+          <button id="info-image-state" type="button" title="Default image">★</button>
+          <button id="info-image-upload" type="button" title="Add custom image">+</button>
+        </div>
+        <div class="info-image-nav">
+          <button id="info-image-prev" type="button" aria-label="Previous image">◀</button>
+          <div id="info-image-wrap"></div>
+          <button id="info-image-next" type="button" aria-label="Next image">▶</button>
+        </div>
+        <div id="info-image-upload-panel" class="info-image-upload-panel hidden">
+          <div class="info-image-file-picker">
+            <input id="info-image-file" class="info-image-file-input" type="file" accept="image/*" />
+            <button type="button" id="info-image-file-btn" class="info-image-file-btn" data-i18n="create.chooseFile">Choose File</button>
+            <span id="info-image-file-name" class="info-image-file-name" data-i18n="create.noFileChosen">No file chosen</span>
+          </div>
+          <p class="info-image-note" id="info-image-note" data-i18n="create.imageTip">Tip: use a black image with transparent background for best UI tinting.</p>
+          <button id="info-image-upload-close" type="button" data-i18n="create.imageUploadClose">Close</button>
+        </div>
+        <p id="info-description"></p>
+        <label for="info-extra" data-i18n="create.infoExtraLabel">Extra:</label>
+        <textarea id="info-extra" rows="2" data-i18n-placeholder="create.infoExtraPlaceholder" placeholder="Extra words for search (e.g. fish, animal)…"></textarea>
+        <label for="info-note" data-i18n="create.infoNoteLabel">Note:</label>
+        <textarea id="info-note" rows="3" data-i18n-placeholder="create.infoNotePlaceholder" placeholder="Add a note for this symbol…"></textarea>
+        <div class="info-actions">
+          <button id="info-save" data-i18n="create.infoSave">Save</button>
+          <button id="close-info" data-i18n="create.infoClose">Close</button>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>

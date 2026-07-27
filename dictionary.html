@@ -4,20 +4,25 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Kanji Builder</title>
-  <link rel="stylesheet" href="style.css" />
-  <script src="translations.js"></script>
-  <script defer src="symbols.js"></script>
-  <script defer src="script.js"></script>
+  <link rel="stylesheet" href="style.css?v=0.5.1" />
+  <script src="translations.js?v=0.5.1"></script>
+  <script defer src="symbols.js?v=0.5.1"></script>
+  <script defer src="world-dictionary-data.js?v=0.5.1"></script>
+  <script defer src="script.js?v=0.5.1"></script>
 </head>
 <body data-page="dictionary">
   <header class="navbar">
     <nav>
       <a href="index.html" data-i18n="nav.home">Home</a>
       <a href="create.html" data-i18n="nav.create">Create</a>
+
+      <a href="draw.html" data-i18n="nav.draw">Draw</a>
       <a href="dictionary.html" class="active" data-i18n="nav.dictionary">Dictionary</a>
+      <a href="web.html" data-i18n="nav.web">Web</a>
       <a href="write.html" data-i18n="nav.write">Write</a>
-      <a href="transfers.html" data-i18n="nav.transfers">Transfers</a>
+      <a href="play.html" data-i18n="nav.play">Play</a>
       <a href="comments.html" data-i18n="nav.comments">Comments</a>
+      <a href="transfers.html" data-i18n="nav.transfers">Transfers</a>
     </nav>
     <div class="navbar-right">
       <div class="lang-wrapper">
@@ -37,36 +42,79 @@
   </header>
 
   <main>
-    <span class="app-version">v0.3</span>
+    <span class="app-version">v0.5</span>
     <h1 data-i18n="dictionary.dictionaryTitle">Dictionary</h1>
+
+    <div id="dictionary-loading" class="dictionary-loading" role="status" aria-live="polite" aria-busy="true">
+      <div class="dictionary-loading-card">
+        <p id="dictionary-loading-label" class="dictionary-loading-label" data-i18n="dictionary.loadingWords">Loading words…</p>
+        <div class="dictionary-loading-track" aria-hidden="true">
+          <div id="dictionary-loading-bar-overall" class="dictionary-loading-bar"></div>
+        </div>
+        <p id="dictionary-loading-percent" class="dictionary-loading-percent">0%</p>
+      </div>
+    </div>
 
     <section class="dictionary-search-box">
       <label for="search-bar" data-i18n="dictionary.searchLabel">Search words:</label>
       <input id="search-bar" type="text" data-i18n-placeholder="dictionary.searchPlaceholder" placeholder="Search words…" />
-      <label class="dictionary-hide-core-toggle">
-        <input id="hide-core-words" type="checkbox" />
-        <span>Hide Core Words</span>
-      </label>
-      <label class="dictionary-hide-core-toggle">
-        <input id="show-only-exceptions" type="checkbox" />
-        <span>Show Only Exceptions</span>
-      </label>
+      <div class="dictionary-filters-inline">
+        <label class="dictionary-hide-core-toggle">
+          <input id="hide-core-words" type="checkbox" />
+          <span data-i18n="dictionary.hideCoreWords">Hide Core Words</span>
+        </label>
+        <label class="dictionary-hide-core-toggle" for="check-exceptions">
+          <input id="check-exceptions" type="checkbox" />
+          <span data-i18n="dictionary.checkExceptionsLanguage">Check Exceptions for</span>
+        </label>
+        <select id="exceptions-mode-select" aria-label="Exception mode"></select>
+        <p id="dictionary-exceptions-counts" class="dictionary-exceptions-counts hidden" aria-live="polite"></p>
+      </div>
+      <div class="dictionary-filter-row">
+        <select id="dictionary-stamp-filter" aria-label="Stamp filter">
+          <option value="all" data-i18n="dictionary.showAllWords">Show All Words</option>
+          <option value="stamped" data-i18n="dictionary.showStampedWords">Show Stamped Words</option>
+          <option value="unstamped" data-i18n="dictionary.showUnstampedWords">Show Unstamped Words</option>
+          <option value="tempstamped" data-i18n="dictionary.showTempstampedWords">Show Tempstamped Words</option>
+        </select>
+        <details id="dictionary-language-filter" class="dictionary-language-filter">
+          <summary data-i18n="dictionary.showLanguages">Show Language(s)</summary>
+          <div id="dictionary-language-options" class="dictionary-language-options"></div>
+        </details>
+      </div>
+      <p id="dictionary-results-status" class="dictionary-results-status"></p>
     </section>
 
-    <!-- Word list (will be filled later from Firebase) -->
+    <nav class="dictionary-pagination" aria-label="Dictionary pages">
+      <button id="dictionary-page-prev-top" type="button" data-i18n="dictionary.previousPage">Previous</button>
+      <label for="dictionary-page-input-top" data-i18n="dictionary.pageLabel">Page</label>
+      <input id="dictionary-page-input-top" type="number" min="1" value="1" />
+      <span id="dictionary-page-total-top">/ 1</span>
+      <button id="dictionary-page-next-top" type="button" data-i18n="dictionary.nextPage">Next</button>
+    </nav>
     <section id="dictionary-list" class="dictionary-list">
     </section>
+    <nav class="dictionary-pagination" aria-label="Dictionary pages">
+      <button id="dictionary-page-prev-bottom" type="button" data-i18n="dictionary.previousPage">Previous</button>
+      <label for="dictionary-page-input-bottom" data-i18n="dictionary.pageLabel">Page</label>
+      <input id="dictionary-page-input-bottom" type="number" min="1" value="1" />
+      <span id="dictionary-page-total-bottom">/ 1</span>
+      <button id="dictionary-page-next-bottom" type="button" data-i18n="dictionary.nextPage">Next</button>
+    </nav>
   </main>
 
   <!-- Right-click word popup: note + delete -->
   <div id="word-context-box" class="word-context-box hidden">
     <div class="word-context-content">
       <h2 id="word-context-title" data-i18n="dictionary.wordContextTitle">Word</h2>
+      <div id="word-context-symbol-groups" class="word-context-symbol-groups"></div>
+      <div id="word-context-metadata" class="word-context-metadata"></div>
       <label for="word-context-note" data-i18n="dictionary.noteLabel">Note:</label>
       <textarea id="word-context-note" rows="4" data-i18n-placeholder="dictionary.notePlaceholder" placeholder="Add a note for this word…"></textarea>
       <div class="word-context-actions">
         <button id="word-context-save-note" data-i18n="dictionary.saveNote">Save note</button>
-        <button id="word-context-delete" class="delete-word-btn">Admin Edit</button>
+        <button id="word-context-edit-create" data-i18n="dictionary.editInCreate">Edit in Create</button>
+        <button id="word-context-delete" type="button">Admin Edit</button>
         <button id="word-context-close" data-i18n="dictionary.close">Close</button>
       </div>
     </div>
@@ -83,6 +131,8 @@
         <label for="admin-edit-ru">Русский:</label><input id="admin-edit-ru" type="text" />
         <label for="admin-edit-de">Deutsch:</label><input id="admin-edit-de" type="text" />
         <label for="admin-edit-ja">日本語:</label><input id="admin-edit-ja" type="text" />
+        <label for="admin-edit-creator">First creator:</label><input id="admin-edit-creator" type="text" />
+        <label for="admin-edit-editor">Last editor:</label><input id="admin-edit-editor" type="text" />
       </div>
       <div class="word-context-actions">
         <button id="admin-edit-save">Save</button>
@@ -91,7 +141,32 @@
       </div>
     </div>
   </div>
+
+  <div id="exception-review-box" class="word-context-box hidden">
+    <div class="word-context-content exception-review-content">
+      <h2 id="exception-review-title">Exception</h2>
+      <p id="exception-review-meta" class="exception-review-meta"></p>
+      <div id="exception-review-list" class="exception-review-list"></div>
+      <div class="word-context-actions">
+        <button id="exception-review-edit" type="button" data-i18n="dictionary.editWord">Edit Word</button>
+        <button id="exception-review-delete" type="button" class="delete-word-btn" data-i18n="dictionary.deleteWord">Delete</button>
+        <button id="exception-review-okay" type="button" data-i18n="dictionary.markExceptionOkay">Mark as Okay</button>
+        <button id="exception-review-close" type="button" data-i18n="dictionary.close">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="dictionary-editor-box" class="dictionary-editor-box hidden">
+    <div class="dictionary-editor-content">
+      <div class="dictionary-editor-header">
+        <h2 data-i18n="dictionary.editWord">Edit Word</h2>
+        <div class="dictionary-editor-header-actions">
+          <button id="dictionary-editor-save" type="button" data-i18n="dictionary.save">Save</button>
+          <button id="dictionary-editor-cancel" type="button" data-i18n="dictionary.cancel">Cancel</button>
+        </div>
+      </div>
+      <iframe id="dictionary-editor-frame" title="Word editor"></iframe>
+    </div>
+  </div>
 </body>
 </html>
-
-

@@ -4,20 +4,25 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Kanji Builder</title>
-  <link rel="stylesheet" href="style.css" />
-  <script src="translations.js"></script>
-  <script defer src="symbols.js"></script>
-  <script defer src="script.js"></script>
+  <link rel="stylesheet" href="style.css?v=0.5.1" />
+  <script src="translations.js?v=0.5.1"></script>
+  <script defer src="symbols.js?v=0.5.1"></script>
+  <script defer src="world-dictionary-data.js?v=0.5.1"></script>
+  <script defer src="script.js?v=0.5.1"></script>
 </head>
 <body data-page="write">
   <header class="navbar">
     <nav>
       <a href="index.html" data-i18n="nav.home">Home</a>
       <a href="create.html" data-i18n="nav.create">Create</a>
+
+      <a href="draw.html" data-i18n="nav.draw">Draw</a>
       <a href="dictionary.html" data-i18n="nav.dictionary">Dictionary</a>
+      <a href="web.html" data-i18n="nav.web">Web</a>
       <a href="write.html" class="active" data-i18n="nav.write">Write</a>
-      <a href="transfers.html" data-i18n="nav.transfers">Transfers</a>
+      <a href="play.html" data-i18n="nav.play">Play</a>
       <a href="comments.html" data-i18n="nav.comments">Comments</a>
+      <a href="transfers.html" data-i18n="nav.transfers">Transfers</a>
     </nav>
     <div class="navbar-right">
       <div class="lang-wrapper">
@@ -37,23 +42,75 @@
   </header>
 
   <main>
-    <span class="app-version">v0.3</span>
-    <h1 data-i18n="write.writeTitle">Write</h1>
-
-    <section class="write-input-section">
-      <label for="write-input" data-i18n="write.inputLabel">Input</label>
-      <textarea id="write-input" rows="4" data-i18n-placeholder="write.inputPlaceholder" placeholder="Type a sentence..."></textarea>
-    </section>
+    <span class="app-version">v0.5</span>
+    <div class="write-title-row">
+      <h1 data-i18n="write.writeTitle">Write</h1>
+      <button id="write-info-btn" type="button" class="write-info-btn" title="Info" aria-label="Info">ℹ</button>
+    </div>
 
     <section class="write-settings-section">
+      <label for="write-input-language" data-i18n="write.inputModeLabel">Input:</label>
+      <select id="write-input-language"></select>
       <label for="write-output-language" data-i18n="write.outputModeLabel">Output:</label>
       <select id="write-output-language"></select>
     </section>
 
+    <section class="write-input-section">
+      <label for="write-input" data-i18n="write.inputLabel">Input</label>
+      <textarea id="write-input" rows="4" data-i18n-placeholder="write.inputPlaceholder" placeholder="Type a sentence..."></textarea>
+      <div id="write-input-display" class="write-token-row" aria-label="Input words"></div>
+    </section>
+
     <section class="write-output-section">
       <h2 data-i18n="write.outputTitle">Output</h2>
-      <div id="write-output" class="write-output"></div>
+      <div id="write-output" class="write-output write-token-row"></div>
+      <div class="write-save-contexts-row">
+        <button id="write-save-contexts" type="button" class="btn-primary hidden">Save Sentence contexts</button>
+        <p id="write-save-contexts-status" class="write-save-contexts-status" aria-live="polite"></p>
+      </div>
     </section>
+
+    <section class="write-saved-sentences-section">
+      <h2>Saved Sentences</h2>
+      <input id="write-sentence-search" type="text" placeholder="Search saved sentences…" />
+      <div id="write-saved-sentences" class="write-saved-sentences"></div>
+    </section>
+
+    <div id="write-sentence-edit-box" class="word-context-box hidden">
+      <div class="word-context-content write-sentence-edit-content">
+        <h2 id="write-sentence-edit-title">Edit Sentence</h2>
+        <p id="write-sentence-edit-meta" class="write-sentence-edit-meta"></p>
+        <label for="write-sentence-edit-text">Sentence</label>
+        <textarea id="write-sentence-edit-text" rows="3"></textarea>
+        <div id="write-sentence-edit-tokens" class="write-token-row write-sentence-edit-tokens"></div>
+        <div class="word-context-actions">
+          <button id="write-sentence-edit-save" type="button" class="btn-primary">Save</button>
+          <button id="write-sentence-edit-delete" type="button" class="delete-word-btn">Delete</button>
+          <button id="write-sentence-edit-close" type="button">Close</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="write-info-box" class="word-context-box hidden">
+      <div class="word-context-content write-info-content">
+        <h2 data-i18n="write.infoTitle">Write Format</h2>
+        <ul id="write-info-list" class="write-info-list"></ul>
+        <div class="word-context-actions">
+          <button id="write-info-close" type="button" data-i18n="dictionary.close">Close</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="write-context-box" class="word-context-box hidden">
+      <div class="word-context-content write-context-content">
+        <h2 id="write-context-title" data-i18n="write.contextTitle">Choose a Word</h2>
+        <div id="write-context-results" class="write-context-results"></div>
+        <div class="word-context-actions">
+          <button id="write-context-edit" type="button" data-i18n="dictionary.editWord">Edit Word</button>
+          <button id="write-context-close" type="button" data-i18n="dictionary.close">Close</button>
+        </div>
+      </div>
+    </div>
 
     <div id="write-word-info-box" class="word-context-box hidden">
       <div class="word-context-content">
@@ -63,13 +120,25 @@
         <label for="write-word-info-note">Note:</label>
         <textarea id="write-word-info-note" rows="4" placeholder="Add a note for this word..."></textarea>
         <div class="word-context-actions">
+          <button id="write-word-info-edit" type="button" data-i18n="dictionary.editWord">Edit Word</button>
           <button id="write-word-info-save-note">Save note</button>
           <button id="write-word-info-close">Close</button>
         </div>
       </div>
     </div>
+
+    <div id="dictionary-editor-box" class="dictionary-editor-box hidden">
+      <div class="dictionary-editor-content">
+        <div class="dictionary-editor-header">
+          <h2 data-i18n="dictionary.editWord">Edit Word</h2>
+          <div class="dictionary-editor-header-actions">
+            <button id="dictionary-editor-save" type="button" data-i18n="dictionary.save">Save</button>
+            <button id="dictionary-editor-cancel" type="button" data-i18n="dictionary.cancel">Cancel</button>
+          </div>
+        </div>
+        <iframe id="dictionary-editor-frame" title="Word editor"></iframe>
+      </div>
+    </div>
   </main>
 </body>
 </html>
-
-

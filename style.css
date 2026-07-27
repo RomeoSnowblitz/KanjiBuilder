@@ -8,7 +8,886 @@
   --text-color: #f5f5f5;
   --accent-color: #3da9fc;
   --card-bg: #222;
+  --font-body: "Segoe UI", sans-serif;
+  --font-size-body: 16px;
+  --font-size-h1: 32px;
+  --font-size-h2: 24px;
+  --font-size-h3: 20px;
+  --font-size-ui: 16px;
 }
+
+html {
+  font-size: 16px !important;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: var(--font-body);
+  font-size: var(--font-size-body) !important;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  overflow-x: clip;
+}
+
+/* Outline text buttons — border only (no fill) for readable labels */
+.btn-primary,
+.btn-secondary,
+#play-back,
+#play-start,
+#submit-word,
+#draw-add,
+#lang-btn,
+#submit-comment,
+.play-actions button,
+.play-reveal-answer-btn,
+.play-panel-block > button,
+.play-core-draw-tools button,
+.play-random-preview .play-actions button,
+.play-symbol-mode-toggle,
+#create-clear-edit,
+#create-compound-search-close,
+#create-mode-toggle,
+#write-sentence-edit-close,
+#write-info-close,
+#write-context-edit,
+#write-context-close,
+#write-word-info-edit,
+#write-word-info-save-note,
+#write-word-info-close,
+#write-save-contexts,
+#info-image-upload-close,
+.info-image-file-btn,
+#info-save,
+#close-info,
+#word-context-save-note,
+#word-context-edit-create,
+#word-context-delete,
+#word-context-close,
+#dictionary-editor-save,
+#dictionary-editor-cancel,
+#admin-edit-save,
+#admin-edit-close,
+#exception-review-edit,
+#exception-review-okay,
+#exception-review-close,
+#draw-use-selected,
+#draw-delete-variant,
+#draw-variant-prev,
+#draw-variant-next,
+#draw-side-toggle,
+#draw-clear,
+#draw-mode-toggle,
+#web-clear-query,
+#web-mode-toggle,
+.dictionary-pagination button,
+.transfer-actions button,
+#transfer-export-all,
+#transfer-import-file-btn,
+.comment-back-btn,
+.comment-replies-btn,
+.comment .vote-up,
+.comment .vote-down,
+#symbol-info-box .info-actions button,
+.word-context-box .word-context-content button:not(.delete-word-btn) {
+  padding: 0.4rem 0.7rem;
+  border: 1px solid var(--accent-color);
+  border-radius: 6px;
+  background: transparent;
+  background-color: transparent;
+  color: var(--accent-color);
+  cursor: pointer;
+  font-family: inherit;
+  font-size: var(--font-size-ui);
+  appearance: none;
+  -webkit-appearance: none;
+}
+.btn-primary:hover,
+.btn-secondary:hover,
+#play-back:hover,
+#play-start:hover,
+#submit-word:hover,
+#draw-add:hover,
+#lang-btn:hover,
+#submit-comment:hover,
+.play-actions button:hover,
+.play-reveal-answer-btn:hover,
+.play-panel-block > button:hover,
+.play-core-draw-tools button:hover,
+.play-symbol-mode-toggle:hover,
+#create-clear-edit:hover,
+#create-compound-search-close:hover,
+#create-mode-toggle:hover,
+#write-sentence-edit-close:hover,
+#write-info-close:hover,
+#write-context-edit:hover,
+#write-context-close:hover,
+#write-word-info-edit:hover,
+#write-word-info-save-note:hover,
+#write-word-info-close:hover,
+#write-save-contexts:hover,
+#info-image-upload-close:hover,
+.info-image-file-btn:hover,
+#info-save:hover,
+#close-info:hover,
+#word-context-save-note:hover,
+#word-context-edit-create:hover,
+#word-context-delete:hover,
+#word-context-close:hover,
+#dictionary-editor-save:hover,
+#dictionary-editor-cancel:hover,
+#admin-edit-save:hover,
+#admin-edit-close:hover,
+#exception-review-edit:hover,
+#exception-review-okay:hover,
+#exception-review-close:hover,
+#draw-use-selected:hover,
+#draw-delete-variant:hover,
+#draw-variant-prev:hover,
+#draw-variant-next:hover,
+#draw-side-toggle:hover,
+#draw-clear:hover,
+#draw-mode-toggle:hover,
+#web-clear-query:hover,
+#web-mode-toggle:hover,
+.dictionary-pagination button:hover:not(:disabled),
+.transfer-actions button:hover,
+#transfer-export-all:hover,
+#transfer-import-file-btn:hover,
+.comment-back-btn:hover,
+.comment-replies-btn:hover,
+.comment .vote-up:hover,
+.comment .vote-down:hover,
+#symbol-info-box .info-actions button:hover,
+.word-context-box .word-context-content button:not(.delete-word-btn):hover {
+  background: color-mix(in srgb, var(--accent-color) 16%, transparent);
+  color: var(--accent-color);
+  border-color: var(--accent-color);
+}
+
+/* Outline text buttons: solid accent in Plain; Fade/Rainbow match UI gradient */
+.btn-primary,
+.btn-secondary,
+#play-back,
+#play-start,
+#submit-word,
+#draw-add,
+#lang-btn,
+#submit-comment,
+.play-actions button,
+.play-reveal-answer-btn,
+.play-panel-block > button,
+.play-core-draw-tools button,
+.play-symbol-mode-toggle,
+#create-clear-edit,
+#create-compound-search-close,
+#create-mode-toggle,
+.create-compound-search-header button,
+.create-compound-builder > button,
+#write-sentence-edit-close,
+#write-info-close,
+.write-info-btn,
+#write-context-edit,
+#write-context-close,
+#write-word-info-edit,
+#write-word-info-save-note,
+#write-word-info-close,
+#write-save-contexts,
+#info-image-upload-close,
+.info-image-file-btn,
+#info-image-file-btn,
+#info-save,
+#close-info,
+#word-context-save-note,
+#word-context-edit-create,
+#word-context-delete,
+#word-context-close,
+#dictionary-editor-save,
+#dictionary-editor-cancel,
+.dictionary-editor-header button,
+#admin-edit-save,
+#admin-edit-close,
+#admin-edit-delete,
+#exception-review-edit,
+#exception-review-okay,
+#exception-review-close,
+.username-popup-actions button,
+#draw-mode-toggle,
+#draw-side-toggle,
+#draw-clear,
+#draw-use-selected,
+#draw-delete-variant,
+#draw-variant-prev,
+#draw-variant-next,
+#web-clear-query,
+#web-mode-toggle,
+.dictionary-pagination button,
+.transfer-actions button,
+#transfer-export-all,
+#transfer-import-file-btn,
+.comment-back-btn,
+.comment-replies-btn,
+.comment .vote-up,
+.comment .vote-down,
+#symbol-info-box .info-actions button,
+#symbol-info-box .info-image-tools button,
+#symbol-info-box .info-image-nav > button,
+.word-context-box .word-context-content button,
+.definition-box .btn-primary,
+.comment-input .btn-primary,
+.ui-color-popup .ui-color-actions button {
+  background: transparent;
+  background-color: transparent;
+  background-image: none;
+  border: 1px solid var(--accent-color);
+  border-radius: 6px;
+  color: var(--accent-color);
+  -webkit-text-fill-color: var(--accent-color);
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+/* Fade / Rainbow: gradient label + gradient outline (fill stays empty) */
+body.ui-accent-gradient .btn-primary,
+body.ui-accent-gradient .btn-secondary,
+body.ui-accent-gradient #play-back,
+body.ui-accent-gradient #play-start,
+body.ui-accent-gradient #submit-word,
+body.ui-accent-gradient #draw-add,
+body.ui-accent-gradient #lang-btn,
+body.ui-accent-gradient #submit-comment,
+body.ui-accent-gradient .play-actions button,
+body.ui-accent-gradient .play-reveal-answer-btn,
+body.ui-accent-gradient .play-panel-block > button,
+body.ui-accent-gradient .play-core-draw-tools button,
+body.ui-accent-gradient .play-symbol-mode-toggle,
+body.ui-accent-gradient #create-clear-edit,
+body.ui-accent-gradient #create-compound-search-close,
+body.ui-accent-gradient #create-mode-toggle,
+body.ui-accent-gradient .create-compound-search-header button,
+body.ui-accent-gradient .create-compound-builder > button,
+body.ui-accent-gradient #write-sentence-edit-close,
+body.ui-accent-gradient #write-info-close,
+body.ui-accent-gradient .write-info-btn,
+body.ui-accent-gradient #write-context-edit,
+body.ui-accent-gradient #write-context-close,
+body.ui-accent-gradient #write-word-info-edit,
+body.ui-accent-gradient #write-word-info-save-note,
+body.ui-accent-gradient #write-word-info-close,
+body.ui-accent-gradient #write-save-contexts,
+body.ui-accent-gradient #info-image-upload-close,
+body.ui-accent-gradient .info-image-file-btn,
+body.ui-accent-gradient #info-image-file-btn,
+body.ui-accent-gradient #info-save,
+body.ui-accent-gradient #close-info,
+body.ui-accent-gradient #word-context-save-note,
+body.ui-accent-gradient #word-context-edit-create,
+body.ui-accent-gradient #word-context-delete,
+body.ui-accent-gradient #word-context-close,
+body.ui-accent-gradient #dictionary-editor-save,
+body.ui-accent-gradient #dictionary-editor-cancel,
+body.ui-accent-gradient .dictionary-editor-header button,
+body.ui-accent-gradient #admin-edit-save,
+body.ui-accent-gradient #admin-edit-close,
+body.ui-accent-gradient #admin-edit-delete,
+body.ui-accent-gradient #exception-review-edit,
+body.ui-accent-gradient #exception-review-okay,
+body.ui-accent-gradient #exception-review-close,
+body.ui-accent-gradient .username-popup-actions button,
+body.ui-accent-gradient #draw-mode-toggle,
+body.ui-accent-gradient #draw-side-toggle,
+body.ui-accent-gradient #draw-clear,
+body.ui-accent-gradient #draw-use-selected,
+body.ui-accent-gradient #draw-delete-variant,
+body.ui-accent-gradient #draw-variant-prev,
+body.ui-accent-gradient #draw-variant-next,
+body.ui-accent-gradient #web-clear-query,
+body.ui-accent-gradient #web-mode-toggle,
+body.ui-accent-gradient .dictionary-pagination button,
+body.ui-accent-gradient .transfer-actions button,
+body.ui-accent-gradient #transfer-export-all,
+body.ui-accent-gradient #transfer-import-file-btn,
+body.ui-accent-gradient .comment-back-btn,
+body.ui-accent-gradient .comment-replies-btn,
+body.ui-accent-gradient .comment .vote-up,
+body.ui-accent-gradient .comment .vote-down,
+body.ui-accent-gradient #symbol-info-box .info-actions button,
+body.ui-accent-gradient #symbol-info-box .info-image-tools button,
+body.ui-accent-gradient #symbol-info-box .info-image-nav > button,
+body.ui-accent-gradient .word-context-box .word-context-content button,
+body.ui-accent-gradient .definition-box .btn-primary,
+body.ui-accent-gradient .comment-input .btn-primary,
+body.ui-accent-gradient .ui-color-popup .ui-color-actions button {
+  position: relative;
+  z-index: 0;
+  isolation: isolate;
+  border-color: transparent !important;
+  background-color: transparent !important;
+  background-image: var(--accent-fade-gradient) !important;
+  background-size: cover;
+  background-clip: text !important;
+  -webkit-background-clip: text !important;
+  color: transparent !important;
+  -webkit-text-fill-color: transparent !important;
+}
+
+body.ui-accent-gradient .btn-primary::before,
+body.ui-accent-gradient .btn-secondary::before,
+body.ui-accent-gradient #play-back::before,
+body.ui-accent-gradient #play-start::before,
+body.ui-accent-gradient #submit-word::before,
+body.ui-accent-gradient #draw-add::before,
+body.ui-accent-gradient #lang-btn::before,
+body.ui-accent-gradient #submit-comment::before,
+body.ui-accent-gradient .play-actions button::before,
+body.ui-accent-gradient .play-reveal-answer-btn::before,
+body.ui-accent-gradient .play-panel-block > button::before,
+body.ui-accent-gradient .play-core-draw-tools button::before,
+body.ui-accent-gradient .play-symbol-mode-toggle::before,
+body.ui-accent-gradient #create-clear-edit::before,
+body.ui-accent-gradient #create-compound-search-close::before,
+body.ui-accent-gradient #create-mode-toggle::before,
+body.ui-accent-gradient .create-compound-search-header button::before,
+body.ui-accent-gradient .create-compound-builder > button::before,
+body.ui-accent-gradient #write-sentence-edit-close::before,
+body.ui-accent-gradient #write-info-close::before,
+body.ui-accent-gradient .write-info-btn::before,
+body.ui-accent-gradient #write-context-edit::before,
+body.ui-accent-gradient #write-context-close::before,
+body.ui-accent-gradient #write-word-info-edit::before,
+body.ui-accent-gradient #write-word-info-save-note::before,
+body.ui-accent-gradient #write-word-info-close::before,
+body.ui-accent-gradient #write-save-contexts::before,
+body.ui-accent-gradient #info-image-upload-close::before,
+body.ui-accent-gradient .info-image-file-btn::before,
+body.ui-accent-gradient #info-image-file-btn::before,
+body.ui-accent-gradient #info-save::before,
+body.ui-accent-gradient #close-info::before,
+body.ui-accent-gradient #word-context-save-note::before,
+body.ui-accent-gradient #word-context-edit-create::before,
+body.ui-accent-gradient #word-context-delete::before,
+body.ui-accent-gradient #word-context-close::before,
+body.ui-accent-gradient #dictionary-editor-save::before,
+body.ui-accent-gradient #dictionary-editor-cancel::before,
+body.ui-accent-gradient .dictionary-editor-header button::before,
+body.ui-accent-gradient #admin-edit-save::before,
+body.ui-accent-gradient #admin-edit-close::before,
+body.ui-accent-gradient #admin-edit-delete::before,
+body.ui-accent-gradient #exception-review-edit::before,
+body.ui-accent-gradient #exception-review-okay::before,
+body.ui-accent-gradient #exception-review-close::before,
+body.ui-accent-gradient .username-popup-actions button::before,
+body.ui-accent-gradient #draw-mode-toggle::before,
+body.ui-accent-gradient #draw-side-toggle::before,
+body.ui-accent-gradient #draw-clear::before,
+body.ui-accent-gradient #draw-use-selected::before,
+body.ui-accent-gradient #draw-delete-variant::before,
+body.ui-accent-gradient #draw-variant-prev::before,
+body.ui-accent-gradient #draw-variant-next::before,
+body.ui-accent-gradient #web-clear-query::before,
+body.ui-accent-gradient #web-mode-toggle::before,
+body.ui-accent-gradient .dictionary-pagination button::before,
+body.ui-accent-gradient .transfer-actions button::before,
+body.ui-accent-gradient #transfer-export-all::before,
+body.ui-accent-gradient #transfer-import-file-btn::before,
+body.ui-accent-gradient .comment-back-btn::before,
+body.ui-accent-gradient .comment-replies-btn::before,
+body.ui-accent-gradient .comment .vote-up::before,
+body.ui-accent-gradient .comment .vote-down::before,
+body.ui-accent-gradient #symbol-info-box .info-actions button::before,
+body.ui-accent-gradient #symbol-info-box .info-image-tools button::before,
+body.ui-accent-gradient #symbol-info-box .info-image-nav > button::before,
+body.ui-accent-gradient .word-context-box .word-context-content button::before,
+body.ui-accent-gradient .definition-box .btn-primary::before,
+body.ui-accent-gradient .comment-input .btn-primary::before,
+body.ui-accent-gradient .ui-color-popup .ui-color-actions button::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  border-radius: inherit;
+  box-sizing: border-box;
+  padding: 1px;
+  pointer-events: none;
+  background-image: var(--accent-fade-gradient);
+  background-size: cover;
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  mask-composite: exclude;
+}
+
+body.ui-accent-gradient.ui-accent-scope-screen .btn-primary,
+body.ui-accent-gradient.ui-accent-scope-screen .btn-secondary,
+body.ui-accent-gradient.ui-accent-scope-screen #play-back,
+body.ui-accent-gradient.ui-accent-scope-screen #play-start,
+body.ui-accent-gradient.ui-accent-scope-screen #submit-word,
+body.ui-accent-gradient.ui-accent-scope-screen #draw-add,
+body.ui-accent-gradient.ui-accent-scope-screen #lang-btn,
+body.ui-accent-gradient.ui-accent-scope-screen #submit-comment,
+body.ui-accent-gradient.ui-accent-scope-screen .play-actions button,
+body.ui-accent-gradient.ui-accent-scope-screen .play-reveal-answer-btn,
+body.ui-accent-gradient.ui-accent-scope-screen .play-panel-block > button,
+body.ui-accent-gradient.ui-accent-scope-screen .play-core-draw-tools button,
+body.ui-accent-gradient.ui-accent-scope-screen .play-symbol-mode-toggle,
+body.ui-accent-gradient.ui-accent-scope-screen #create-clear-edit,
+body.ui-accent-gradient.ui-accent-scope-screen #create-compound-search-close,
+body.ui-accent-gradient.ui-accent-scope-screen #create-mode-toggle,
+body.ui-accent-gradient.ui-accent-scope-screen .create-compound-search-header button,
+body.ui-accent-gradient.ui-accent-scope-screen .create-compound-builder > button,
+body.ui-accent-gradient.ui-accent-scope-screen #write-sentence-edit-close,
+body.ui-accent-gradient.ui-accent-scope-screen #write-info-close,
+body.ui-accent-gradient.ui-accent-scope-screen .write-info-btn,
+body.ui-accent-gradient.ui-accent-scope-screen #write-context-edit,
+body.ui-accent-gradient.ui-accent-scope-screen #write-context-close,
+body.ui-accent-gradient.ui-accent-scope-screen #write-word-info-edit,
+body.ui-accent-gradient.ui-accent-scope-screen #write-word-info-save-note,
+body.ui-accent-gradient.ui-accent-scope-screen #write-word-info-close,
+body.ui-accent-gradient.ui-accent-scope-screen #write-save-contexts,
+body.ui-accent-gradient.ui-accent-scope-screen #info-image-upload-close,
+body.ui-accent-gradient.ui-accent-scope-screen .info-image-file-btn,
+body.ui-accent-gradient.ui-accent-scope-screen #info-image-file-btn,
+body.ui-accent-gradient.ui-accent-scope-screen #info-save,
+body.ui-accent-gradient.ui-accent-scope-screen #close-info,
+body.ui-accent-gradient.ui-accent-scope-screen #word-context-save-note,
+body.ui-accent-gradient.ui-accent-scope-screen #word-context-edit-create,
+body.ui-accent-gradient.ui-accent-scope-screen #word-context-delete,
+body.ui-accent-gradient.ui-accent-scope-screen #word-context-close,
+body.ui-accent-gradient.ui-accent-scope-screen #dictionary-editor-save,
+body.ui-accent-gradient.ui-accent-scope-screen #dictionary-editor-cancel,
+body.ui-accent-gradient.ui-accent-scope-screen .dictionary-editor-header button,
+body.ui-accent-gradient.ui-accent-scope-screen #admin-edit-save,
+body.ui-accent-gradient.ui-accent-scope-screen #admin-edit-close,
+body.ui-accent-gradient.ui-accent-scope-screen #admin-edit-delete,
+body.ui-accent-gradient.ui-accent-scope-screen #exception-review-edit,
+body.ui-accent-gradient.ui-accent-scope-screen #exception-review-okay,
+body.ui-accent-gradient.ui-accent-scope-screen #exception-review-close,
+body.ui-accent-gradient.ui-accent-scope-screen .username-popup-actions button,
+body.ui-accent-gradient.ui-accent-scope-screen #draw-mode-toggle,
+body.ui-accent-gradient.ui-accent-scope-screen #draw-side-toggle,
+body.ui-accent-gradient.ui-accent-scope-screen #draw-clear,
+body.ui-accent-gradient.ui-accent-scope-screen #draw-use-selected,
+body.ui-accent-gradient.ui-accent-scope-screen #draw-delete-variant,
+body.ui-accent-gradient.ui-accent-scope-screen #draw-variant-prev,
+body.ui-accent-gradient.ui-accent-scope-screen #draw-variant-next,
+body.ui-accent-gradient.ui-accent-scope-screen #web-clear-query,
+body.ui-accent-gradient.ui-accent-scope-screen #web-mode-toggle,
+body.ui-accent-gradient.ui-accent-scope-screen .dictionary-pagination button,
+body.ui-accent-gradient.ui-accent-scope-screen .transfer-actions button,
+body.ui-accent-gradient.ui-accent-scope-screen #transfer-export-all,
+body.ui-accent-gradient.ui-accent-scope-screen #transfer-import-file-btn,
+body.ui-accent-gradient.ui-accent-scope-screen .comment-back-btn,
+body.ui-accent-gradient.ui-accent-scope-screen .comment-replies-btn,
+body.ui-accent-gradient.ui-accent-scope-screen .comment .vote-up,
+body.ui-accent-gradient.ui-accent-scope-screen .comment .vote-down,
+body.ui-accent-gradient.ui-accent-scope-screen #symbol-info-box .info-actions button,
+body.ui-accent-gradient.ui-accent-scope-screen #symbol-info-box .info-image-tools button,
+body.ui-accent-gradient.ui-accent-scope-screen #symbol-info-box .info-image-nav > button,
+body.ui-accent-gradient.ui-accent-scope-screen .word-context-box .word-context-content button,
+body.ui-accent-gradient.ui-accent-scope-screen .definition-box .btn-primary,
+body.ui-accent-gradient.ui-accent-scope-screen .comment-input .btn-primary,
+body.ui-accent-gradient.ui-accent-scope-screen .ui-color-popup .ui-color-actions button,
+body.ui-accent-gradient.ui-accent-scope-screen .btn-primary::before,
+body.ui-accent-gradient.ui-accent-scope-screen .btn-secondary::before,
+body.ui-accent-gradient.ui-accent-scope-screen #play-back::before,
+body.ui-accent-gradient.ui-accent-scope-screen #play-start::before,
+body.ui-accent-gradient.ui-accent-scope-screen #submit-word::before,
+body.ui-accent-gradient.ui-accent-scope-screen #draw-add::before,
+body.ui-accent-gradient.ui-accent-scope-screen #lang-btn::before,
+body.ui-accent-gradient.ui-accent-scope-screen #submit-comment::before,
+body.ui-accent-gradient.ui-accent-scope-screen .play-actions button::before,
+body.ui-accent-gradient.ui-accent-scope-screen .play-reveal-answer-btn::before,
+body.ui-accent-gradient.ui-accent-scope-screen .play-panel-block > button::before,
+body.ui-accent-gradient.ui-accent-scope-screen .play-core-draw-tools button::before,
+body.ui-accent-gradient.ui-accent-scope-screen .play-symbol-mode-toggle::before,
+body.ui-accent-gradient.ui-accent-scope-screen #create-clear-edit::before,
+body.ui-accent-gradient.ui-accent-scope-screen #create-compound-search-close::before,
+body.ui-accent-gradient.ui-accent-scope-screen #create-mode-toggle::before,
+body.ui-accent-gradient.ui-accent-scope-screen .create-compound-search-header button::before,
+body.ui-accent-gradient.ui-accent-scope-screen .create-compound-builder > button::before,
+body.ui-accent-gradient.ui-accent-scope-screen #write-sentence-edit-close::before,
+body.ui-accent-gradient.ui-accent-scope-screen #write-info-close::before,
+body.ui-accent-gradient.ui-accent-scope-screen .write-info-btn::before,
+body.ui-accent-gradient.ui-accent-scope-screen #write-context-edit::before,
+body.ui-accent-gradient.ui-accent-scope-screen #write-context-close::before,
+body.ui-accent-gradient.ui-accent-scope-screen #write-word-info-edit::before,
+body.ui-accent-gradient.ui-accent-scope-screen #write-word-info-save-note::before,
+body.ui-accent-gradient.ui-accent-scope-screen #write-word-info-close::before,
+body.ui-accent-gradient.ui-accent-scope-screen #write-save-contexts::before,
+body.ui-accent-gradient.ui-accent-scope-screen #info-image-upload-close::before,
+body.ui-accent-gradient.ui-accent-scope-screen .info-image-file-btn::before,
+body.ui-accent-gradient.ui-accent-scope-screen #info-image-file-btn::before,
+body.ui-accent-gradient.ui-accent-scope-screen #info-save::before,
+body.ui-accent-gradient.ui-accent-scope-screen #close-info::before,
+body.ui-accent-gradient.ui-accent-scope-screen #word-context-save-note::before,
+body.ui-accent-gradient.ui-accent-scope-screen #word-context-edit-create::before,
+body.ui-accent-gradient.ui-accent-scope-screen #word-context-delete::before,
+body.ui-accent-gradient.ui-accent-scope-screen #word-context-close::before,
+body.ui-accent-gradient.ui-accent-scope-screen #dictionary-editor-save::before,
+body.ui-accent-gradient.ui-accent-scope-screen #dictionary-editor-cancel::before,
+body.ui-accent-gradient.ui-accent-scope-screen .dictionary-editor-header button::before,
+body.ui-accent-gradient.ui-accent-scope-screen #admin-edit-save::before,
+body.ui-accent-gradient.ui-accent-scope-screen #admin-edit-close::before,
+body.ui-accent-gradient.ui-accent-scope-screen #admin-edit-delete::before,
+body.ui-accent-gradient.ui-accent-scope-screen #exception-review-edit::before,
+body.ui-accent-gradient.ui-accent-scope-screen #exception-review-okay::before,
+body.ui-accent-gradient.ui-accent-scope-screen #exception-review-close::before,
+body.ui-accent-gradient.ui-accent-scope-screen .username-popup-actions button::before,
+body.ui-accent-gradient.ui-accent-scope-screen #draw-mode-toggle::before,
+body.ui-accent-gradient.ui-accent-scope-screen #draw-side-toggle::before,
+body.ui-accent-gradient.ui-accent-scope-screen #draw-clear::before,
+body.ui-accent-gradient.ui-accent-scope-screen #draw-use-selected::before,
+body.ui-accent-gradient.ui-accent-scope-screen #draw-delete-variant::before,
+body.ui-accent-gradient.ui-accent-scope-screen #draw-variant-prev::before,
+body.ui-accent-gradient.ui-accent-scope-screen #draw-variant-next::before,
+body.ui-accent-gradient.ui-accent-scope-screen #web-clear-query::before,
+body.ui-accent-gradient.ui-accent-scope-screen #web-mode-toggle::before,
+body.ui-accent-gradient.ui-accent-scope-screen .dictionary-pagination button::before,
+body.ui-accent-gradient.ui-accent-scope-screen .transfer-actions button::before,
+body.ui-accent-gradient.ui-accent-scope-screen #transfer-export-all::before,
+body.ui-accent-gradient.ui-accent-scope-screen #transfer-import-file-btn::before,
+body.ui-accent-gradient.ui-accent-scope-screen .comment-back-btn::before,
+body.ui-accent-gradient.ui-accent-scope-screen .comment-replies-btn::before,
+body.ui-accent-gradient.ui-accent-scope-screen .comment .vote-up::before,
+body.ui-accent-gradient.ui-accent-scope-screen .comment .vote-down::before,
+body.ui-accent-gradient.ui-accent-scope-screen #symbol-info-box .info-actions button::before,
+body.ui-accent-gradient.ui-accent-scope-screen #symbol-info-box .info-image-tools button::before,
+body.ui-accent-gradient.ui-accent-scope-screen #symbol-info-box .info-image-nav > button::before,
+body.ui-accent-gradient.ui-accent-scope-screen .word-context-box .word-context-content button::before,
+body.ui-accent-gradient.ui-accent-scope-screen .definition-box .btn-primary::before,
+body.ui-accent-gradient.ui-accent-scope-screen .comment-input .btn-primary::before,
+body.ui-accent-gradient.ui-accent-scope-screen .ui-color-popup .ui-color-actions button::before {
+  background-attachment: fixed;
+}
+
+body.ui-accent-gradient .btn-primary:hover::after,
+body.ui-accent-gradient .btn-secondary:hover::after,
+body.ui-accent-gradient #play-back:hover::after,
+body.ui-accent-gradient #play-start:hover::after,
+body.ui-accent-gradient #submit-word:hover::after,
+body.ui-accent-gradient #draw-add:hover::after,
+body.ui-accent-gradient #lang-btn:hover::after,
+body.ui-accent-gradient #submit-comment:hover::after,
+body.ui-accent-gradient .play-actions button:hover::after,
+body.ui-accent-gradient .play-reveal-answer-btn:hover::after,
+body.ui-accent-gradient .play-panel-block > button:hover::after,
+body.ui-accent-gradient .play-core-draw-tools button:hover::after,
+body.ui-accent-gradient .play-symbol-mode-toggle:hover::after,
+body.ui-accent-gradient #create-clear-edit:hover::after,
+body.ui-accent-gradient #create-compound-search-close:hover::after,
+body.ui-accent-gradient #create-mode-toggle:hover::after,
+body.ui-accent-gradient .create-compound-search-header button:hover::after,
+body.ui-accent-gradient .create-compound-builder > button:hover::after,
+body.ui-accent-gradient #write-sentence-edit-close:hover::after,
+body.ui-accent-gradient #write-info-close:hover::after,
+body.ui-accent-gradient .write-info-btn:hover::after,
+body.ui-accent-gradient #write-context-edit:hover::after,
+body.ui-accent-gradient #write-context-close:hover::after,
+body.ui-accent-gradient #write-word-info-edit:hover::after,
+body.ui-accent-gradient #write-word-info-save-note:hover::after,
+body.ui-accent-gradient #write-word-info-close:hover::after,
+body.ui-accent-gradient #write-save-contexts:hover::after,
+body.ui-accent-gradient #info-image-upload-close:hover::after,
+body.ui-accent-gradient .info-image-file-btn:hover::after,
+body.ui-accent-gradient #info-image-file-btn:hover::after,
+body.ui-accent-gradient #info-save:hover::after,
+body.ui-accent-gradient #close-info:hover::after,
+body.ui-accent-gradient #word-context-save-note:hover::after,
+body.ui-accent-gradient #word-context-edit-create:hover::after,
+body.ui-accent-gradient #word-context-delete:hover::after,
+body.ui-accent-gradient #word-context-close:hover::after,
+body.ui-accent-gradient #dictionary-editor-save:hover::after,
+body.ui-accent-gradient #dictionary-editor-cancel:hover::after,
+body.ui-accent-gradient .dictionary-editor-header button:hover::after,
+body.ui-accent-gradient #admin-edit-save:hover::after,
+body.ui-accent-gradient #admin-edit-close:hover::after,
+body.ui-accent-gradient #admin-edit-delete:hover::after,
+body.ui-accent-gradient #exception-review-edit:hover::after,
+body.ui-accent-gradient #exception-review-okay:hover::after,
+body.ui-accent-gradient #exception-review-close:hover::after,
+body.ui-accent-gradient .username-popup-actions button:hover::after,
+body.ui-accent-gradient #draw-mode-toggle:hover::after,
+body.ui-accent-gradient #draw-side-toggle:hover::after,
+body.ui-accent-gradient #draw-clear:hover::after,
+body.ui-accent-gradient #draw-use-selected:hover::after,
+body.ui-accent-gradient #draw-delete-variant:hover::after,
+body.ui-accent-gradient #draw-variant-prev:hover::after,
+body.ui-accent-gradient #draw-variant-next:hover::after,
+body.ui-accent-gradient #web-clear-query:hover::after,
+body.ui-accent-gradient #web-mode-toggle:hover::after,
+body.ui-accent-gradient .dictionary-pagination button:hover::after,
+body.ui-accent-gradient .transfer-actions button:hover::after,
+body.ui-accent-gradient #transfer-export-all:hover::after,
+body.ui-accent-gradient #transfer-import-file-btn:hover::after,
+body.ui-accent-gradient .comment-back-btn:hover::after,
+body.ui-accent-gradient .comment-replies-btn:hover::after,
+body.ui-accent-gradient .comment .vote-up:hover::after,
+body.ui-accent-gradient .comment .vote-down:hover::after,
+body.ui-accent-gradient #symbol-info-box .info-actions button:hover::after,
+body.ui-accent-gradient #symbol-info-box .info-image-tools button:hover::after,
+body.ui-accent-gradient #symbol-info-box .info-image-nav > button:hover::after,
+body.ui-accent-gradient .word-context-box .word-context-content button:hover::after,
+body.ui-accent-gradient .definition-box .btn-primary:hover::after,
+body.ui-accent-gradient .comment-input .btn-primary:hover::after,
+body.ui-accent-gradient .ui-color-popup .ui-color-actions button:hover::after {
+  content: "";
+  position: absolute;
+  inset: 1px;
+  z-index: -1;
+  border-radius: inherit;
+  pointer-events: none;
+  background: color-mix(in srgb, var(--accent-color) 14%, transparent);
+}
+
+/* Stamp frames: gradient outline only (no text clip) */
+body.ui-accent-gradient .write-compact-stamp {
+  position: relative;
+  z-index: 0;
+  isolation: isolate;
+  border-color: transparent !important;
+  background: transparent !important;
+  background-image: none !important;
+  color: inherit !important;
+  -webkit-text-fill-color: inherit !important;
+  background-clip: border-box !important;
+  -webkit-background-clip: border-box !important;
+}
+
+body.ui-accent-gradient .write-compact-stamp::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  border-radius: inherit;
+  box-sizing: border-box;
+  padding: 1px;
+  pointer-events: none;
+  background-image: var(--accent-fade-gradient);
+  background-size: cover;
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  mask-composite: exclude;
+}
+
+body.ui-accent-gradient.ui-accent-scope-screen .write-compact-stamp::before {
+  background-attachment: fixed;
+}
+
+/* Delete actions stay red outline */
+.word-context-box .delete-word-btn,
+#admin-edit-delete,
+#exception-review-delete,
+body.ui-accent-gradient .word-context-box .delete-word-btn,
+body.ui-accent-gradient #admin-edit-delete,
+body.ui-accent-gradient #exception-review-delete {
+  border-color: #c44 !important;
+  color: #c44 !important;
+  -webkit-text-fill-color: #c44 !important;
+  background: transparent !important;
+  background-image: none !important;
+  background-clip: border-box !important;
+  -webkit-background-clip: border-box !important;
+}
+
+body.ui-accent-gradient .word-context-box .delete-word-btn::before,
+body.ui-accent-gradient #admin-edit-delete::before,
+body.ui-accent-gradient #exception-review-delete::before {
+  display: none;
+}
+
+.word-context-box .delete-word-btn:hover,
+#admin-edit-delete:hover,
+#exception-review-delete:hover {
+  background: color-mix(in srgb, #c44 16%, transparent) !important;
+  color: #c44 !important;
+  -webkit-text-fill-color: #c44 !important;
+}
+
+/* Edit Word / modal titles: match UI accent (gradient in Fade/Rainbow) */
+.dictionary-editor-header h2,
+body.ui-accent-mode-fade .dictionary-editor-header h2,
+body.ui-accent-rainbow-1.ui-accent-mode-plain .dictionary-editor-header h2,
+body.ui-accent-mode-fade main .dictionary-editor-header h2,
+body.ui-accent-rainbow-1.ui-accent-mode-plain main .dictionary-editor-header h2 {
+  color: var(--accent-color);
+  -webkit-text-fill-color: var(--accent-color);
+  background-image: none;
+  background-clip: border-box;
+  -webkit-background-clip: border-box;
+}
+
+body.ui-accent-gradient .dictionary-editor-header h2,
+body.ui-accent-gradient main .dictionary-editor-header h2 {
+  background-image: var(--accent-fade-gradient) !important;
+  background-clip: text !important;
+  -webkit-background-clip: text !important;
+  color: transparent !important;
+  -webkit-text-fill-color: transparent !important;
+}
+
+body.ui-accent-gradient.ui-accent-scope-screen .dictionary-editor-header h2,
+body.ui-accent-gradient.ui-accent-scope-screen main .dictionary-editor-header h2 {
+  background-attachment: fixed;
+}
+
+/* Theme toggle: no UI accent treatment */
+#theme-toggle {
+  background: none !important;
+  background-image: none !important;
+  border: none !important;
+  color: var(--text-color) !important;
+  -webkit-text-fill-color: var(--text-color) !important;
+}
+
+.btn-primary:disabled,
+#draw-add:disabled,
+.dictionary-pagination button:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+@media (max-width: 720px) {
+  .create-result-fields {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.hidden {
+  display: none !important;
+}
+
+.entry .entry-compact-stamp {
+  display: grid;
+  grid-template-columns: repeat(2, 40px);
+  grid-auto-rows: 40px;
+  place-content: center;
+  place-items: center;
+  box-sizing: border-box;
+  width: 128px;
+  height: 128px;
+  gap: 0;
+  border: none;
+  border-radius: 0;
+  background: transparent;
+  flex: 0 0 auto;
+}
+
+.entry .entry-compact-stamp.is-single {
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
+
+.entry .entry-compact-stamp.is-pair {
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.entry .entry-compact-stamp.is-triple {
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.entry .compact-stamp-symbol {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border: none;
+  background: transparent;
+  padding: 0;
+}
+
+.entry .entry-compact-stamp.is-single .compact-stamp-symbol,
+.entry .entry-compact-stamp.is-pair .compact-stamp-symbol,
+.entry .entry-compact-stamp.is-triple .compact-stamp-symbol {
+  width: 100%;
+  height: 100%;
+  padding: 4px;
+  box-sizing: border-box;
+}
+
+.entry .compact-stamp-symbol img,
+.entry .compact-stamp-symbol .symbol-mask {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  object-fit: contain;
+}
+
+.entry-authorship {
+  grid-column: 1 / -1;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  color: var(--accent-color);
+  font-size: 0.72rem;
+}
+
+.entry-authorship span:last-child {
+  text-align: right;
+}
+
+.home-intro {
+  max-width: 52rem;
+  margin: 0 0 1.5rem;
+  display: grid;
+  gap: 0.85rem;
+}
+
+.home-intro p {
+  margin: 0;
+  line-height: 1.55;
+}
+
+.home-feature-list {
+  list-style: none;
+  padding: 0;
+  margin: 0.75rem 0 1.25rem;
+  display: grid;
+  gap: 0.85rem;
+}
+
+.home-feature-list li {
+  display: block;
+  line-height: 1.45;
+}
+
+.home-feature-list a {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+.home-feature-list a:hover {
+  text-decoration: underline;
+}
+
+.home-feature-title {
+  color: var(--accent-color);
+}
+
+.home-feature-sep {
+  color: var(--accent-color);
+}
+
+.home-feature-desc {
+  color: var(--text-color);
+}
+
 
 /* Light theme overrides */
 .light-mode {
@@ -17,14 +896,13 @@
   --card-bg: #eaeaea;
 }
 
-body {
-  background-color: var(--bg-color);
-  color: var(--text-color);
-  font-family: "Segoe UI", sans-serif;
-  margin: 0;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+/* Keep form controls on the same font/size as page body text */
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
 }
 
 /* ===============================
@@ -40,6 +918,13 @@ body {
   position: sticky;
   top: 0;
   z-index: 500;
+}
+
+.navbar nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  row-gap: 0.4rem;
 }
 
 .navbar nav a {
@@ -68,6 +953,52 @@ body {
   font-size: 0.9rem;
   color: var(--text-color);
 }
+
+.dictionary-hide-core-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-top: 0.6rem;
+  user-select: none;
+}
+
+.dictionary-search-box label.dictionary-hide-core-toggle {
+  display: inline-flex;
+  width: fit-content;
+}
+
+.dictionary-filters-inline,
+.dictionary-exceptions-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.55rem 0.85rem;
+  margin-top: 0.6rem;
+}
+
+.dictionary-filters-inline .dictionary-hide-core-toggle,
+.dictionary-exceptions-row .dictionary-hide-core-toggle {
+  margin-top: 0;
+}
+
+.dictionary-exceptions-counts {
+  margin: 0;
+  font-size: 0.85rem;
+  color: var(--accent-color);
+  flex: 0 1 auto;
+}
+
+.dictionary-exceptions-counts.hidden {
+  display: none;
+}
+
+#exceptions-mode-select {
+  padding: 0.35rem 0.5rem;
+  border: 1px solid var(--accent-color);
+  border-radius: 6px;
+  background: var(--bg-color);
+  color: var(--text-color);
+}
 #ui-color-box {
   width: 1.5rem;
   height: 1.5rem;
@@ -90,7 +1021,7 @@ body {
   justify-content: center;
   align-items: center;
   z-index: 1000;
-  pointer-events: none;
+  pointer-events: auto;
 }
 .ui-color-popup.hidden {
   display: none;
@@ -100,8 +1031,10 @@ body {
   border: 2px solid var(--accent-color);
   border-radius: 10px;
   padding: 1.25rem;
-  min-width: 280px;
-  max-width: 90vw;
+  min-width: min(420px, 92vw);
+  max-width: 94vw;
+  max-height: 90vh;
+  overflow: auto;
   color: var(--text-color);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
   pointer-events: auto;
@@ -111,52 +1044,701 @@ body {
   font-size: 1.25rem;
   color: var(--accent-color);
 }
+.ui-color-field-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+.ui-color-field-row label {
+  margin: 0;
+}
+.ui-color-field-row select,
+.ui-color-fade-controls select {
+  padding: 0.35rem 0.5rem;
+  border: 1px solid var(--accent-color);
+  border-radius: 6px;
+  background: var(--bg-color);
+  color: var(--text-color);
+}
+.ui-color-source-block {
+  margin-bottom: 0.75rem;
+}
+.ui-color-source-title {
+  margin-bottom: 0.35rem;
+  font-size: 0.92rem;
+  color: var(--accent-color);
+}
+.ui-color-rgb-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4rem;
+}
+.ui-color-rgb-row label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  margin: 0;
+  font-size: 0.85rem;
+}
+.ui-color-rgb-row input[type="number"] {
+  width: 3.4rem;
+  margin: 0;
+  padding: 0.35rem 0.4rem;
+  border: 1px solid var(--accent-color);
+  border-radius: 6px;
+  background: var(--bg-color);
+  color: var(--text-color);
+  font-size: 0.9rem;
+}
+.ui-color-rgb-row input[type="number"]:disabled {
+  opacity: 0.55;
+}
+.ui-color-source-btn,
+.ui-color-scope-btn,
+.ui-color-slot-btn {
+  padding: 0.35rem 0.55rem;
+  border-radius: 6px;
+  border: 1px solid var(--accent-color);
+  background: transparent;
+  color: var(--accent-color);
+  cursor: pointer;
+  font-size: 0.85rem;
+}
+.ui-color-source-btn.is-active,
+.ui-color-slot-btn.is-active,
+.ui-color-scope-btn {
+  background: var(--accent-color);
+  color: #fff;
+}
+.ui-color-fade-section.hidden {
+  display: none;
+}
+.ui-color-fade-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.45rem;
+  margin: 0.35rem 0 0.75rem;
+}
+.ui-color-fade-controls.hidden {
+  display: none;
+}
+.ui-color-fade-controls label,
+.ui-color-for-label {
+  margin: 0;
+  font-size: 0.9rem;
+}
+.ui-color-for-label.hidden,
+.ui-color-fade-controls .ui-color-scope-btn.hidden {
+  display: none;
+}
+.ui-color-sample-wrap {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.65rem;
+  align-items: stretch;
+  margin-bottom: 0.85rem;
+}
+.ui-color-sample-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  width: 2.6rem;
+  border: 1px solid var(--accent-color);
+  border-radius: 6px;
+  overflow: hidden;
+  font-size: 0.75rem;
+  text-align: center;
+}
+.ui-color-sample-grid span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid color-mix(in srgb, var(--accent-color) 35%, transparent);
+}
 .ui-color-popup .ui-color-preview {
   width: 100%;
-  height: 2.5rem;
-  border: 2px solid var(--accent-color);
+  min-height: 4.5rem;
+  border: none;
   border-radius: 6px;
-  margin-bottom: 1rem;
   background-color: var(--accent-color);
+}
+.ui-color-slot-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin-bottom: 0.75rem;
+}
+.ui-color-slot-btn.has-save:not(.is-active) {
+  box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--accent-color) 55%, transparent);
 }
 .ui-color-popup label {
   display: block;
   margin-bottom: 0.35rem;
   font-size: 0.9rem;
 }
-.ui-color-popup input[type="number"] {
-  width: 100%;
-  box-sizing: border-box;
-  padding: 0.5rem;
-  margin-bottom: 0.75rem;
-  border: 1px solid var(--accent-color);
-  border-radius: 6px;
-  background: var(--bg-color);
-  color: var(--text-color);
-  font-size: 1rem;
-}
 .ui-color-popup .ui-color-actions {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
-  margin-top: 1rem;
+  margin-top: 0.25rem;
 }
 .ui-color-popup .ui-color-actions button {
   padding: 0.5rem 0.75rem;
   border-radius: 6px;
   border: 1px solid var(--accent-color);
-  background: var(--accent-color);
-  color: #fff;
+  background: transparent;
+  color: var(--accent-color);
   cursor: pointer;
   font-size: 0.9rem;
 }
 .ui-color-popup .ui-color-actions button:hover {
-  opacity: 0.9;
+  background: color-mix(in srgb, var(--accent-color) 16%, transparent);
+  color: var(--accent-color);
 }
 .ui-color-popup .ui-color-actions button.reset-btn {
-  background: #888;
+  background: transparent;
   border-color: #888;
+  color: #888;
 }
+.ui-color-popup .ui-color-actions button.reset-btn:hover {
+  background: color-mix(in srgb, #888 16%, transparent);
+  color: #888;
+}
+
+/* UI Color Options: borders + labels follow accent (gradient in Fade/Rainbow) */
+body.ui-accent-gradient .ui-color-popup h2,
+body.ui-accent-gradient .ui-color-source-title,
+body.ui-accent-gradient .ui-color-field-row label,
+body.ui-accent-gradient .ui-color-fade-controls label,
+body.ui-accent-gradient .ui-color-for-label,
+body.ui-accent-gradient .ui-color-rgb-row label,
+body.ui-accent-gradient .ui-color-sample-grid span {
+  background-image: var(--accent-fade-gradient);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+body.ui-accent-gradient.ui-accent-scope-screen .ui-color-popup h2,
+body.ui-accent-gradient.ui-accent-scope-screen .ui-color-source-title,
+body.ui-accent-gradient.ui-accent-scope-screen .ui-color-field-row label,
+body.ui-accent-gradient.ui-accent-scope-screen .ui-color-fade-controls label,
+body.ui-accent-gradient.ui-accent-scope-screen .ui-color-for-label,
+body.ui-accent-gradient.ui-accent-scope-screen .ui-color-rgb-row label,
+body.ui-accent-gradient.ui-accent-scope-screen .ui-color-sample-grid span {
+  background-attachment: fixed;
+}
+
+body.ui-accent-gradient .ui-color-field-row select,
+body.ui-accent-gradient .ui-color-fade-controls select,
+body.ui-accent-gradient .ui-color-rgb-row input[type="number"] {
+  border-style: solid;
+  border-color: transparent !important;
+  background-image:
+    linear-gradient(var(--bg-color), var(--bg-color)),
+    var(--accent-fade-gradient);
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+  color: var(--text-color);
+  -webkit-text-fill-color: var(--text-color);
+}
+
+body.ui-accent-gradient.ui-accent-scope-screen .ui-color-field-row select,
+body.ui-accent-gradient.ui-accent-scope-screen .ui-color-fade-controls select,
+body.ui-accent-gradient.ui-accent-scope-screen .ui-color-rgb-row input[type="number"] {
+  background-attachment: scroll, fixed;
+}
+
+body.ui-accent-gradient .ui-color-sample-grid {
+  border-style: solid;
+  border-color: transparent !important;
+  background-image:
+    linear-gradient(var(--card-bg), var(--card-bg)),
+    var(--accent-fade-gradient);
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+}
+
+body.ui-accent-gradient.ui-accent-scope-screen .ui-color-sample-grid {
+  background-attachment: scroll, fixed;
+}
+
+body.ui-accent-gradient .ui-color-source-btn:not(.is-active),
+body.ui-accent-gradient .ui-color-slot-btn:not(.is-active) {
+  position: relative;
+  z-index: 0;
+  isolation: isolate;
+  border-color: transparent !important;
+  background-color: transparent !important;
+  background-image: var(--accent-fade-gradient) !important;
+  background-clip: text !important;
+  -webkit-background-clip: text !important;
+  color: transparent !important;
+  -webkit-text-fill-color: transparent !important;
+}
+
+body.ui-accent-gradient .ui-color-source-btn:not(.is-active)::before,
+body.ui-accent-gradient .ui-color-slot-btn:not(.is-active)::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  border-radius: inherit;
+  box-sizing: border-box;
+  padding: 1px;
+  pointer-events: none;
+  background-image: var(--accent-fade-gradient);
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  mask-composite: exclude;
+}
+
+body.ui-accent-gradient.ui-accent-scope-screen .ui-color-source-btn:not(.is-active),
+body.ui-accent-gradient.ui-accent-scope-screen .ui-color-slot-btn:not(.is-active),
+body.ui-accent-gradient.ui-accent-scope-screen .ui-color-source-btn:not(.is-active)::before,
+body.ui-accent-gradient.ui-accent-scope-screen .ui-color-slot-btn:not(.is-active)::before {
+  background-attachment: fixed;
+}
+
+body.ui-accent-gradient .ui-color-source-btn.is-active,
+body.ui-accent-gradient .ui-color-slot-btn.is-active,
+body.ui-accent-gradient .ui-color-scope-btn {
+  background-image: var(--accent-fade-gradient) !important;
+  background-color: transparent !important;
+  border-color: transparent !important;
+  color: #fff !important;
+  -webkit-text-fill-color: #fff !important;
+  background-clip: border-box !important;
+  -webkit-background-clip: border-box !important;
+}
+
+body.ui-accent-gradient.ui-accent-scope-screen .ui-color-source-btn.is-active,
+body.ui-accent-gradient.ui-accent-scope-screen .ui-color-slot-btn.is-active,
+body.ui-accent-gradient.ui-accent-scope-screen .ui-color-scope-btn {
+  background-attachment: fixed;
+}
+
+.ui-accent-screen-fx {
+  position: fixed;
+  inset: 0;
+  z-index: 900;
+  pointer-events: none;
+  opacity: 0.28;
+  mix-blend-mode: soft-light;
+}
+.ui-accent-screen-fx.hidden {
+  display: none;
+}
+
+/* Filled accents only for UI-color picker state chips / theme toggle */
+body.ui-accent-mode-fade .ui-color-source-btn.is-active,
+body.ui-accent-mode-fade .ui-color-slot-btn.is-active,
+body.ui-accent-mode-fade .ui-color-scope-btn,
+body.ui-accent-rainbow-1.ui-accent-mode-plain .ui-color-source-btn.is-active,
+body.ui-accent-rainbow-1.ui-accent-mode-plain .ui-color-slot-btn.is-active,
+body.ui-accent-rainbow-1.ui-accent-mode-plain .ui-color-scope-btn {
+  background-image: var(--accent-fade-gradient);
+  background-color: transparent;
+  border-color: transparent;
+  color: #fff;
+}
+
+body.ui-accent-mode-fade .navbar a.active,
+body.ui-accent-mode-fade main h1,
+body.ui-accent-mode-fade main h2,
+body.ui-accent-mode-fade .app-version,
+body.ui-accent-mode-fade .app-username,
+body.ui-accent-mode-fade .ui-color-label,
+body.ui-accent-mode-fade .write-token,
+body.ui-accent-mode-fade .write-token-caption,
+body.ui-accent-mode-fade .write-save-contexts-status,
+body.ui-accent-mode-fade .write-saved-sentence strong,
+body.ui-accent-mode-fade .dictionary-results-status,
+body.ui-accent-mode-fade .dictionary-empty,
+body.ui-accent-mode-fade .dictionary-exceptions-counts,
+body.ui-accent-mode-fade .home-feature-title,
+body.ui-accent-mode-fade .home-feature-sep,
+body.ui-accent-mode-fade .comment-meta,
+body.ui-accent-mode-fade .comment-thread-parent,
+body.ui-accent-mode-fade .world-entry-field strong,
+body.ui-accent-mode-fade .entry-authorship,
+body.ui-accent-mode-fade .play-status,
+body.ui-accent-mode-fade .play-game-card strong,
+body.ui-accent-mode-fade .play-game-card em,
+body.ui-accent-mode-fade .web-subtitle,
+body.ui-accent-mode-fade .web-mode-hint,
+body.ui-accent-mode-fade .web-query-empty,
+body.ui-accent-mode-fade .web-query-chip span,
+body.ui-accent-mode-fade .web-results-status,
+body.ui-accent-mode-fade .word-context-box h2,
+body.ui-accent-mode-fade .word-context-symbol-groups h3,
+body.ui-accent-mode-fade .word-context-metadata,
+body.ui-accent-mode-fade #symbol-info-box #info-name,
+body.ui-accent-mode-fade .create-pos-picker summary,
+body.ui-accent-mode-fade .create-editing-status > span,
+body.ui-accent-mode-fade .draw-variant-header,
+body.ui-accent-mode-fade .draw-variant-count,
+body.ui-accent-mode-fade .draw-panel h2,
+body.ui-accent-mode-fade .draw-symbols-section h2,
+body.ui-accent-mode-fade .play-search-result-meta,
+body.ui-accent-mode-fade .play-word-display,
+body.ui-accent-mode-fade .info-image-file-name,
+body.ui-accent-rainbow-1.ui-accent-mode-plain .navbar a.active,
+body.ui-accent-rainbow-1.ui-accent-mode-plain main h1,
+body.ui-accent-rainbow-1.ui-accent-mode-plain main h2,
+body.ui-accent-rainbow-1.ui-accent-mode-plain .app-version,
+body.ui-accent-rainbow-1.ui-accent-mode-plain .app-username,
+body.ui-accent-rainbow-1.ui-accent-mode-plain .ui-color-label,
+body.ui-accent-rainbow-1.ui-accent-mode-plain .write-token,
+body.ui-accent-rainbow-1.ui-accent-mode-plain .write-token-caption,
+body.ui-accent-rainbow-1.ui-accent-mode-plain .write-save-contexts-status,
+body.ui-accent-rainbow-1.ui-accent-mode-plain .write-saved-sentence strong,
+body.ui-accent-rainbow-1.ui-accent-mode-plain .dictionary-results-status,
+body.ui-accent-rainbow-1.ui-accent-mode-plain .dictionary-empty,
+body.ui-accent-rainbow-1.ui-accent-mode-plain .dictionary-exceptions-counts,
+body.ui-accent-rainbow-1.ui-accent-mode-plain .home-feature-title,
+body.ui-accent-rainbow-1.ui-accent-mode-plain .home-feature-sep,
+body.ui-accent-rainbow-1.ui-accent-mode-plain .comment-meta,
+body.ui-accent-rainbow-1.ui-accent-mode-plain .comment-thread-parent,
+body.ui-accent-rainbow-1.ui-accent-mode-plain .world-entry-field strong,
+body.ui-accent-rainbow-1.ui-accent-mode-plain .entry-authorship,
+body.ui-accent-rainbow-1.ui-accent-mode-plain .play-status,
+body.ui-accent-rainbow-1.ui-accent-mode-plain .play-game-card strong,
+body.ui-accent-rainbow-1.ui-accent-mode-plain .play-game-card em,
+body.ui-accent-rainbow-1.ui-accent-mode-plain .web-subtitle,
+body.ui-accent-rainbow-1.ui-accent-mode-plain .web-mode-hint,
+body.ui-accent-rainbow-1.ui-accent-mode-plain .web-query-empty,
+body.ui-accent-rainbow-1.ui-accent-mode-plain .web-query-chip span,
+body.ui-accent-rainbow-1.ui-accent-mode-plain .web-results-status,
+body.ui-accent-rainbow-1.ui-accent-mode-plain .word-context-box h2,
+body.ui-accent-rainbow-1.ui-accent-mode-plain .word-context-symbol-groups h3,
+body.ui-accent-rainbow-1.ui-accent-mode-plain .word-context-metadata,
+body.ui-accent-rainbow-1.ui-accent-mode-plain #symbol-info-box #info-name,
+body.ui-accent-rainbow-1.ui-accent-mode-plain .create-pos-picker summary,
+body.ui-accent-rainbow-1.ui-accent-mode-plain .create-editing-status > span,
+body.ui-accent-rainbow-1.ui-accent-mode-plain .draw-variant-header,
+body.ui-accent-rainbow-1.ui-accent-mode-plain .draw-variant-count,
+body.ui-accent-rainbow-1.ui-accent-mode-plain .draw-panel h2,
+body.ui-accent-rainbow-1.ui-accent-mode-plain .draw-symbols-section h2,
+body.ui-accent-rainbow-1.ui-accent-mode-plain .play-search-result-meta,
+body.ui-accent-rainbow-1.ui-accent-mode-plain .play-word-display,
+body.ui-accent-rainbow-1.ui-accent-mode-plain .info-image-file-name {
+  background-image: var(--accent-fade-gradient);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Screen scope: fixed gradient for text accents + filled picker chips only (not outline buttons) */
+body.ui-accent-scope-screen.ui-accent-mode-fade .ui-color-source-btn.is-active,
+body.ui-accent-scope-screen.ui-accent-mode-fade .ui-color-slot-btn.is-active,
+body.ui-accent-scope-screen.ui-accent-mode-fade .ui-color-scope-btn,
+body.ui-accent-scope-screen.ui-accent-mode-fade .navbar a.active,
+body.ui-accent-scope-screen.ui-accent-mode-fade main h1,
+body.ui-accent-scope-screen.ui-accent-mode-fade main h2,
+body.ui-accent-scope-screen.ui-accent-mode-fade .app-version,
+body.ui-accent-scope-screen.ui-accent-mode-fade .app-username,
+body.ui-accent-scope-screen.ui-accent-mode-fade .ui-color-label,
+body.ui-accent-scope-screen.ui-accent-mode-fade .write-token,
+body.ui-accent-scope-screen.ui-accent-mode-fade .write-token-caption,
+body.ui-accent-scope-screen.ui-accent-mode-fade .write-save-contexts-status,
+body.ui-accent-scope-screen.ui-accent-mode-fade .dictionary-results-status,
+body.ui-accent-scope-screen.ui-accent-mode-fade .dictionary-empty,
+body.ui-accent-scope-screen.ui-accent-mode-fade .dictionary-exceptions-counts,
+body.ui-accent-scope-screen.ui-accent-mode-fade .home-feature-title,
+body.ui-accent-scope-screen.ui-accent-mode-fade .home-feature-sep,
+body.ui-accent-scope-screen.ui-accent-mode-fade .comment-meta,
+body.ui-accent-scope-screen.ui-accent-mode-fade .comment-thread-parent,
+body.ui-accent-scope-screen.ui-accent-mode-fade .world-entry-field strong,
+body.ui-accent-scope-screen.ui-accent-mode-fade .entry-authorship,
+body.ui-accent-scope-screen.ui-accent-mode-fade .play-status,
+body.ui-accent-scope-screen.ui-accent-mode-fade .play-game-card strong,
+body.ui-accent-scope-screen.ui-accent-mode-fade .play-game-card em,
+body.ui-accent-scope-screen.ui-accent-mode-fade .web-subtitle,
+body.ui-accent-scope-screen.ui-accent-mode-fade .web-mode-hint,
+body.ui-accent-scope-screen.ui-accent-mode-fade .web-query-empty,
+body.ui-accent-scope-screen.ui-accent-mode-fade .web-query-chip span,
+body.ui-accent-scope-screen.ui-accent-mode-fade .web-results-status,
+body.ui-accent-scope-screen.ui-accent-mode-fade .write-saved-sentence strong,
+body.ui-accent-scope-screen.ui-accent-mode-fade .word-context-box h2,
+body.ui-accent-scope-screen.ui-accent-mode-fade .word-context-symbol-groups h3,
+body.ui-accent-scope-screen.ui-accent-mode-fade .word-context-metadata,
+body.ui-accent-scope-screen.ui-accent-mode-fade #symbol-info-box #info-name,
+body.ui-accent-scope-screen.ui-accent-mode-fade .create-pos-picker summary,
+body.ui-accent-scope-screen.ui-accent-mode-fade .create-editing-status > span,
+body.ui-accent-scope-screen.ui-accent-mode-fade .draw-variant-header,
+body.ui-accent-scope-screen.ui-accent-mode-fade .draw-variant-count,
+body.ui-accent-scope-screen.ui-accent-mode-fade .draw-panel h2,
+body.ui-accent-scope-screen.ui-accent-mode-fade .draw-symbols-section h2,
+body.ui-accent-scope-screen.ui-accent-mode-fade .play-search-result-meta,
+body.ui-accent-scope-screen.ui-accent-mode-fade .play-word-display,
+body.ui-accent-scope-screen.ui-accent-mode-fade .info-image-file-name,
+body.ui-accent-rainbow-1.ui-accent-mode-plain.ui-accent-scope-screen .ui-color-source-btn.is-active,
+body.ui-accent-rainbow-1.ui-accent-mode-plain.ui-accent-scope-screen .ui-color-slot-btn.is-active,
+body.ui-accent-rainbow-1.ui-accent-mode-plain.ui-accent-scope-screen .ui-color-scope-btn,
+body.ui-accent-rainbow-1.ui-accent-mode-plain.ui-accent-scope-screen .navbar a.active,
+body.ui-accent-rainbow-1.ui-accent-mode-plain.ui-accent-scope-screen main h1,
+body.ui-accent-rainbow-1.ui-accent-mode-plain.ui-accent-scope-screen main h2,
+body.ui-accent-rainbow-1.ui-accent-mode-plain.ui-accent-scope-screen .app-version,
+body.ui-accent-rainbow-1.ui-accent-mode-plain.ui-accent-scope-screen .app-username,
+body.ui-accent-rainbow-1.ui-accent-mode-plain.ui-accent-scope-screen .ui-color-label,
+body.ui-accent-rainbow-1.ui-accent-mode-plain.ui-accent-scope-screen .write-token,
+body.ui-accent-rainbow-1.ui-accent-mode-plain.ui-accent-scope-screen .write-token-caption,
+body.ui-accent-rainbow-1.ui-accent-mode-plain.ui-accent-scope-screen .write-save-contexts-status,
+body.ui-accent-rainbow-1.ui-accent-mode-plain.ui-accent-scope-screen .dictionary-results-status,
+body.ui-accent-rainbow-1.ui-accent-mode-plain.ui-accent-scope-screen .dictionary-empty,
+body.ui-accent-rainbow-1.ui-accent-mode-plain.ui-accent-scope-screen .dictionary-exceptions-counts,
+body.ui-accent-rainbow-1.ui-accent-mode-plain.ui-accent-scope-screen .home-feature-title,
+body.ui-accent-rainbow-1.ui-accent-mode-plain.ui-accent-scope-screen .home-feature-sep,
+body.ui-accent-rainbow-1.ui-accent-mode-plain.ui-accent-scope-screen .comment-meta,
+body.ui-accent-rainbow-1.ui-accent-mode-plain.ui-accent-scope-screen .comment-thread-parent,
+body.ui-accent-rainbow-1.ui-accent-mode-plain.ui-accent-scope-screen .world-entry-field strong,
+body.ui-accent-rainbow-1.ui-accent-mode-plain.ui-accent-scope-screen .entry-authorship,
+body.ui-accent-rainbow-1.ui-accent-mode-plain.ui-accent-scope-screen .play-status,
+body.ui-accent-rainbow-1.ui-accent-mode-plain.ui-accent-scope-screen .play-game-card strong,
+body.ui-accent-rainbow-1.ui-accent-mode-plain.ui-accent-scope-screen .play-game-card em,
+body.ui-accent-rainbow-1.ui-accent-mode-plain.ui-accent-scope-screen .web-subtitle,
+body.ui-accent-rainbow-1.ui-accent-mode-plain.ui-accent-scope-screen .web-mode-hint,
+body.ui-accent-rainbow-1.ui-accent-mode-plain.ui-accent-scope-screen .web-query-empty,
+body.ui-accent-rainbow-1.ui-accent-mode-plain.ui-accent-scope-screen .web-query-chip span,
+body.ui-accent-rainbow-1.ui-accent-mode-plain.ui-accent-scope-screen .web-results-status,
+body.ui-accent-rainbow-1.ui-accent-mode-plain.ui-accent-scope-screen .write-saved-sentence strong,
+body.ui-accent-rainbow-1.ui-accent-mode-plain.ui-accent-scope-screen .word-context-box h2,
+body.ui-accent-rainbow-1.ui-accent-mode-plain.ui-accent-scope-screen .word-context-symbol-groups h3,
+body.ui-accent-rainbow-1.ui-accent-mode-plain.ui-accent-scope-screen .word-context-metadata,
+body.ui-accent-rainbow-1.ui-accent-mode-plain.ui-accent-scope-screen #symbol-info-box #info-name,
+body.ui-accent-rainbow-1.ui-accent-mode-plain.ui-accent-scope-screen .create-pos-picker summary,
+body.ui-accent-rainbow-1.ui-accent-mode-plain.ui-accent-scope-screen .create-editing-status > span,
+body.ui-accent-rainbow-1.ui-accent-mode-plain.ui-accent-scope-screen .draw-variant-header,
+body.ui-accent-rainbow-1.ui-accent-mode-plain.ui-accent-scope-screen .draw-variant-count,
+body.ui-accent-rainbow-1.ui-accent-mode-plain.ui-accent-scope-screen .draw-panel h2,
+body.ui-accent-rainbow-1.ui-accent-mode-plain.ui-accent-scope-screen .draw-symbols-section h2,
+body.ui-accent-rainbow-1.ui-accent-mode-plain.ui-accent-scope-screen .play-search-result-meta,
+body.ui-accent-rainbow-1.ui-accent-mode-plain.ui-accent-scope-screen .play-word-display,
+body.ui-accent-rainbow-1.ui-accent-mode-plain.ui-accent-scope-screen .info-image-file-name {
+  background-attachment: fixed;
+}
+
+/* Gradient accent borders (Rainbow / Fade) — keep radius via dual background clip */
+body.ui-accent-gradient .slot.drop-zone,
+body.ui-accent-gradient .category-drop-zone,
+body.ui-accent-gradient .symbol-box,
+body.ui-accent-gradient .symbol,
+body.ui-accent-gradient .entry,
+body.ui-accent-gradient .world-entry-stamp,
+body.ui-accent-gradient .web-query-symbols,
+body.ui-accent-gradient .web-query-chip,
+body.ui-accent-gradient .web-controls select,
+body.ui-accent-gradient .web-symbol-search-controls #web-symbol-search,
+body.ui-accent-gradient .write-input-section textarea,
+body.ui-accent-gradient .write-token-row,
+body.ui-accent-gradient .write-output,
+body.ui-accent-gradient .write-settings-section select,
+body.ui-accent-gradient #write-sentence-search,
+body.ui-accent-gradient .write-saved-sentence,
+body.ui-accent-gradient #write-sentence-edit-text,
+body.ui-accent-gradient .play-panel-block,
+body.ui-accent-gradient .comment,
+body.ui-accent-gradient .comment-input textarea,
+body.ui-accent-gradient .transfer-card,
+body.ui-accent-gradient .transfer-list,
+body.ui-accent-gradient .transfer-item,
+body.ui-accent-gradient .transfer-dropzone,
+body.ui-accent-gradient .draw-workspace-box,
+body.ui-accent-gradient .draw-symbol-preview,
+body.ui-accent-gradient .draw-symbol-empty,
+body.ui-accent-gradient .draw-variant-item,
+body.ui-accent-gradient .draw-symbol-grid .symbol-box.selected,
+body.ui-accent-gradient .symbol-grid > .symbol-box.symbol-key-open,
+body.ui-accent-gradient .web-symbol-grid .symbol-box.web-symbol-selected,
+body.ui-accent-gradient #symbol-info-box .info-image-upload-panel,
+body.ui-accent-gradient .play-core-symbol-display,
+body.ui-accent-gradient .play-guess-row input,
+body.ui-accent-gradient .play-random-preview,
+body.ui-accent-gradient .ui-color-popup-content,
+body.ui-accent-gradient #symbol-info-box .info-content,
+body.ui-accent-gradient #symbol-info-box textarea,
+body.ui-accent-gradient .symbol-search-box #symbol-search,
+body.ui-accent-gradient #draw-symbol-search,
+body.ui-accent-gradient .play-symbol-controls input,
+body.ui-accent-gradient .dictionary-search-box #search-bar,
+body.ui-accent-gradient .dictionary-language-filter,
+body.ui-accent-gradient #dictionary-stamp-filter,
+body.ui-accent-gradient #exceptions-mode-select,
+body.ui-accent-gradient .dictionary-pagination input,
+body.ui-accent-gradient .word-context-box .word-context-content,
+body.ui-accent-gradient .word-context-box textarea,
+body.ui-accent-gradient .word-context-compound-list span,
+body.ui-accent-gradient .admin-edit-grid input,
+body.ui-accent-gradient .play-search-row input,
+body.ui-accent-gradient .play-player-count-label input,
+body.ui-accent-gradient .play-score-chip,
+body.ui-accent-gradient .play-search-result,
+body.ui-accent-gradient .play-lang-select,
+body.ui-accent-gradient .create-lookup-box input,
+body.ui-accent-gradient .create-word-field select,
+body.ui-accent-gradient .create-word-field input,
+body.ui-accent-gradient .create-pronunciation-field input,
+body.ui-accent-gradient .create-dictionary-results,
+body.ui-accent-gradient .create-pos-picker,
+body.ui-accent-gradient .create-pos-options,
+body.ui-accent-gradient .create-compound-row > input,
+body.ui-accent-gradient .create-compound-selected,
+body.ui-accent-gradient .create-result-stamp,
+body.ui-accent-gradient .play-game-card.selected 
+{
+  border-style: solid;
+  border-color: transparent !important;
+  background-image:
+    linear-gradient(var(--accent-border-fill, var(--card-bg)), var(--accent-border-fill, var(--card-bg))),
+    var(--accent-fade-gradient);
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+}
+
+body.ui-accent-gradient .write-input-section textarea,
+body.ui-accent-gradient .write-settings-section select,
+body.ui-accent-gradient .comment-input textarea,
+body.ui-accent-gradient .symbol-search-box #symbol-search,
+body.ui-accent-gradient #draw-symbol-search,
+body.ui-accent-gradient .play-symbol-controls input,
+body.ui-accent-gradient .dictionary-search-box #search-bar,
+body.ui-accent-gradient #exceptions-mode-select,
+body.ui-accent-gradient .dictionary-pagination input,
+body.ui-accent-gradient .web-controls select,
+body.ui-accent-gradient .web-symbol-search-controls #web-symbol-search,
+body.ui-accent-gradient .web-query-chip,
+body.ui-accent-gradient #write-sentence-search,
+body.ui-accent-gradient #write-sentence-edit-text,
+body.ui-accent-gradient .word-context-box textarea,
+body.ui-accent-gradient .admin-edit-grid input,
+body.ui-accent-gradient #symbol-info-box textarea,
+body.ui-accent-gradient .play-search-row input,
+body.ui-accent-gradient .play-player-count-label input,
+body.ui-accent-gradient .play-search-result,
+body.ui-accent-gradient .play-lang-select,
+body.ui-accent-gradient .create-lookup-box input,
+body.ui-accent-gradient .create-word-field select,
+body.ui-accent-gradient .create-word-field input,
+body.ui-accent-gradient .create-pronunciation-field input,
+body.ui-accent-gradient .create-pos-options,
+body.ui-accent-gradient .create-compound-row > input,
+body.ui-accent-gradient .draw-symbol-preview,
+body.ui-accent-gradient .draw-symbol-empty,
+body.ui-accent-gradient .draw-variant-item,
+body.ui-accent-gradient #symbol-info-box .info-image-upload-panel,
+body.ui-accent-gradient .play-core-symbol-display,
+body.ui-accent-gradient .play-guess-row input,
+body.ui-accent-gradient .play-random-preview 
+{
+  --accent-border-fill: var(--bg-color);
+}
+
+/* Outline text buttons: transparent fill so labels stay readable */
+
+body.ui-accent-gradient .transfer-item,
+body.ui-accent-gradient .transfer-dropzone 
+{
+  --accent-border-fill: color-mix(in srgb, var(--card-bg) 92%, #fff);
+}
+
+body.ui-accent-gradient .transfer-item:hover,
+body.ui-accent-gradient .transfer-item.is-selected,
+body.ui-accent-gradient .transfer-dropzone.is-dragover,
+body.ui-accent-gradient .play-game-card.selected,
+body.ui-accent-gradient .entry.entry-stamped,
+body.ui-accent-gradient .draw-symbol-grid .symbol-box.selected,
+body.ui-accent-gradient .draw-variant-item.selected,
+body.ui-accent-gradient .symbol-grid > .symbol-box.symbol-key-open,
+body.ui-accent-gradient .web-symbol-grid .symbol-box.web-symbol-selected 
+{
+  box-shadow: 0 0 0 1px transparent;
+  background-image:
+    linear-gradient(var(--accent-border-fill, var(--card-bg)), var(--accent-border-fill, var(--card-bg))),
+    var(--accent-fade-gradient);
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+}
+
+/* Screen scope: one shared fixed gradient for all bordered chrome */
+body.ui-accent-gradient.ui-accent-scope-screen .slot.drop-zone,
+body.ui-accent-gradient.ui-accent-scope-screen .category-drop-zone,
+body.ui-accent-gradient.ui-accent-scope-screen .symbol-box,
+body.ui-accent-gradient.ui-accent-scope-screen .symbol,
+body.ui-accent-gradient.ui-accent-scope-screen .entry,
+body.ui-accent-gradient.ui-accent-scope-screen .world-entry-stamp,
+body.ui-accent-gradient.ui-accent-scope-screen .web-query-symbols,
+body.ui-accent-gradient.ui-accent-scope-screen .web-query-chip,
+body.ui-accent-gradient.ui-accent-scope-screen .web-controls select,
+body.ui-accent-gradient.ui-accent-scope-screen .web-symbol-search-controls #web-symbol-search,
+body.ui-accent-gradient.ui-accent-scope-screen .write-input-section textarea,
+body.ui-accent-gradient.ui-accent-scope-screen .write-token-row,
+body.ui-accent-gradient.ui-accent-scope-screen .write-output,
+body.ui-accent-gradient.ui-accent-scope-screen .write-settings-section select,
+body.ui-accent-gradient.ui-accent-scope-screen #write-sentence-search,
+body.ui-accent-gradient.ui-accent-scope-screen .write-saved-sentence,
+body.ui-accent-gradient.ui-accent-scope-screen #write-sentence-edit-text,
+body.ui-accent-gradient.ui-accent-scope-screen .play-panel-block,
+body.ui-accent-gradient.ui-accent-scope-screen .comment,
+body.ui-accent-gradient.ui-accent-scope-screen .comment-input textarea,
+body.ui-accent-gradient.ui-accent-scope-screen .transfer-card,
+body.ui-accent-gradient.ui-accent-scope-screen .transfer-list,
+body.ui-accent-gradient.ui-accent-scope-screen .transfer-item,
+body.ui-accent-gradient.ui-accent-scope-screen .transfer-dropzone,
+body.ui-accent-gradient.ui-accent-scope-screen .draw-workspace-box,
+body.ui-accent-gradient.ui-accent-scope-screen .draw-symbol-preview,
+body.ui-accent-gradient.ui-accent-scope-screen .draw-symbol-empty,
+body.ui-accent-gradient.ui-accent-scope-screen .draw-variant-item,
+body.ui-accent-gradient.ui-accent-scope-screen #symbol-info-box .info-image-upload-panel,
+body.ui-accent-gradient.ui-accent-scope-screen .play-core-symbol-display,
+body.ui-accent-gradient.ui-accent-scope-screen .play-guess-row input,
+body.ui-accent-gradient.ui-accent-scope-screen .play-random-preview,
+body.ui-accent-gradient.ui-accent-scope-screen .ui-color-popup-content,
+body.ui-accent-gradient.ui-accent-scope-screen #symbol-info-box .info-content,
+body.ui-accent-gradient.ui-accent-scope-screen #symbol-info-box textarea,
+body.ui-accent-gradient.ui-accent-scope-screen .symbol-search-box #symbol-search,
+body.ui-accent-gradient.ui-accent-scope-screen #draw-symbol-search,
+body.ui-accent-gradient.ui-accent-scope-screen .play-symbol-controls input,
+body.ui-accent-gradient.ui-accent-scope-screen .dictionary-search-box #search-bar,
+body.ui-accent-gradient.ui-accent-scope-screen .dictionary-language-filter,
+body.ui-accent-gradient.ui-accent-scope-screen #dictionary-stamp-filter,
+body.ui-accent-gradient.ui-accent-scope-screen #exceptions-mode-select,
+body.ui-accent-gradient.ui-accent-scope-screen .dictionary-pagination input,
+body.ui-accent-gradient.ui-accent-scope-screen .word-context-box .word-context-content,
+body.ui-accent-gradient.ui-accent-scope-screen .word-context-box textarea,
+body.ui-accent-gradient.ui-accent-scope-screen .admin-edit-grid input,
+body.ui-accent-gradient.ui-accent-scope-screen .play-search-row input,
+body.ui-accent-gradient.ui-accent-scope-screen .play-player-count-label input,
+body.ui-accent-gradient.ui-accent-scope-screen .play-score-chip,
+body.ui-accent-gradient.ui-accent-scope-screen .play-search-result,
+body.ui-accent-gradient.ui-accent-scope-screen .play-lang-select,
+body.ui-accent-gradient.ui-accent-scope-screen .create-lookup-box input,
+body.ui-accent-gradient.ui-accent-scope-screen .create-word-field select,
+body.ui-accent-gradient.ui-accent-scope-screen .create-word-field input,
+body.ui-accent-gradient.ui-accent-scope-screen .create-pronunciation-field input,
+body.ui-accent-gradient.ui-accent-scope-screen .create-dictionary-results,
+body.ui-accent-gradient.ui-accent-scope-screen .create-pos-picker,
+body.ui-accent-gradient.ui-accent-scope-screen .create-pos-options,
+body.ui-accent-gradient.ui-accent-scope-screen .create-compound-row > input,
+body.ui-accent-gradient.ui-accent-scope-screen .create-compound-selected,
+body.ui-accent-gradient.ui-accent-scope-screen .create-result-stamp,
+body.ui-accent-gradient.ui-accent-scope-screen .play-game-card.selected 
+{
+  background-attachment: scroll, fixed;
+}
+
+/* Draw canvas checkerboard + gradient border is defined with the Draw page styles */
 
 .lang-wrapper {
   position: relative;
@@ -168,9 +1750,10 @@ body {
   min-height: 2rem;
   border: 1px solid var(--accent-color);
   border-radius: 6px;
-  background: var(--card-bg);
-  color: var(--text-color);
-  font-size: 0.9rem;
+  background: transparent;
+  color: var(--accent-color);
+  font-family: inherit;
+  font-size: var(--font-size-ui);
   cursor: pointer;
   display: inline-flex;
   align-items: center;
@@ -178,8 +1761,8 @@ body {
 }
 
 #lang-btn:hover {
-  background: var(--accent-color);
-  color: #fff;
+  background: color-mix(in srgb, var(--accent-color) 16%, transparent);
+  color: var(--accent-color);
 }
 
 .lang-dropdown {
@@ -209,14 +1792,86 @@ body {
   border-radius: 4px;
   background: transparent;
   color: var(--text-color);
-  font-size: 0.9rem;
+  font-family: inherit;
+  font-size: var(--font-size-ui);
   text-align: left;
   cursor: pointer;
 }
 
+.create-compound-search-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 1800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  background: rgba(0, 0, 0, 0.78);
+}
+
+.create-compound-search-content {
+  display: flex;
+  box-sizing: border-box;
+  width: min(1200px, 96vw);
+  height: min(760px, 90vh);
+  flex-direction: column;
+  gap: 0.75rem;
+  padding: 1rem;
+  border: 2px solid var(--accent-color);
+  border-radius: 10px;
+  background: var(--bg-color);
+}
+
+.create-compound-search-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.create-compound-search-header h2 {
+  margin: 0;
+  color: var(--accent-color);
+}
+
+.create-compound-search-header button {
+  padding: 0.45rem 0.75rem;
+  border: 1px solid var(--accent-color);
+  border-radius: 6px;
+  background: transparent;
+  color: var(--accent-color);
+  cursor: pointer;
+}
+
+#create-compound-search-input {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0.7rem;
+  border: 1px solid var(--accent-color);
+  border-radius: 6px;
+  background: var(--card-bg);
+  color: var(--text-color);
+  font-size: 1rem;
+}
+
+.create-compound-search-results {
+  display: flex;
+  min-height: 0;
+  flex: 1;
+  flex-direction: column;
+  overflow-y: auto;
+  border: 1px solid var(--accent-color);
+  border-radius: 6px;
+}
+
+.dictionary-editor-header-actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
 .lang-dropdown button:hover {
-  background: var(--accent-color);
-  color: #fff;
+  background: color-mix(in srgb, var(--accent-color) 16%, transparent);
+  color: var(--accent-color);
 }
 
 #theme-toggle {
@@ -227,12 +1882,180 @@ body {
   cursor: pointer;
 }
 
+.page-meta-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin: -0.5rem 0 0.5rem;
+}
+
+.app-version,
+.app-username {
+  font-size: 0.8rem;
+}
+
+.entry.has-exception {
+  position: relative;
+  padding-right: 1.1rem;
+}
+
+.exception-side-bar {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 10px;
+  height: 100%;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+  border-radius: 0 4px 4px 0;
+}
+
+.exception-side-bar.exception-red {
+  background: #e53935;
+}
+
+.exception-side-bar.exception-yellow {
+  background: #f1c40f;
+}
+
+.exception-side-bar.exception-blue {
+  background: #1e88e5;
+}
+
+.exception-side-bar.exception-green {
+  background: #43a047;
+}
+
+.exception-review-meta {
+  margin: 0.25rem 0 0.75rem;
+  color: var(--text-color);
+}
+
+.exception-review-list {
+  display: grid;
+  gap: 0.45rem;
+  max-height: min(45vh, 360px);
+  overflow: auto;
+  margin-bottom: 0.85rem;
+}
+
+.word-context-box .word-context-content .exception-review-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.15rem;
+  width: 100%;
+  padding: 0.55rem 0.65rem;
+  border: 1px solid var(--accent-color);
+  border-radius: 8px;
+  background: transparent;
+  color: var(--accent-color);
+  text-align: left;
+  cursor: pointer;
+}
+
+.word-context-box .word-context-content .exception-review-item.is-selected {
+  outline: 2px solid var(--accent-color);
+  outline-offset: 1px;
+  background: color-mix(in srgb, var(--accent-color) 16%, transparent);
+}
+
+.word-context-box .word-context-content .exception-review-item strong,
+.word-context-box .word-context-content .exception-review-item span {
+  color: var(--accent-color);
+}
+
+.word-context-box .word-context-content .exception-review-item span {
+  font-size: 0.8rem;
+  opacity: 0.9;
+}
+
 .app-version {
   display: block;
-  font-size: 0.8rem;
   color: var(--accent-color);
   text-align: right;
-  margin: -0.5rem 0 0.5rem 0;
+  cursor: pointer;
+}
+
+.app-username {
+  border: 0;
+  padding: 0;
+  background: none;
+  color: var(--accent-color);
+  cursor: pointer;
+  text-align: left;
+}
+
+.username-popup {
+  position: fixed;
+  inset: 0;
+  z-index: 1200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.username-popup.hidden {
+  display: none;
+}
+
+.username-popup-content {
+  box-sizing: border-box;
+  width: min(420px, 90vw);
+  padding: 1.25rem;
+  border: 2px solid var(--accent-color);
+  border-radius: 10px;
+  background: var(--card-bg);
+  color: var(--text-color);
+}
+
+.username-popup-content h2 {
+  margin-top: 0;
+  color: var(--accent-color);
+}
+
+.username-popup-content > label,
+.username-popup-content > input {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  margin-bottom: 0.7rem;
+}
+
+.username-popup-content > input {
+  padding: 0.5rem;
+  border: 1px solid var(--accent-color);
+  border-radius: 6px;
+  background: var(--bg-color);
+  color: var(--text-color);
+}
+
+.username-anonymous-option {
+  display: flex !important;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.username-anonymous-option input {
+  width: auto;
+}
+
+.username-popup-actions {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: flex-end;
+}
+
+.username-popup-actions button {
+  padding: 0.5rem 0.75rem;
+  border: 1px solid var(--accent-color);
+  border-radius: 6px;
+  background: transparent;
+  color: var(--accent-color);
+  cursor: pointer;
 }
 
 /* ===============================
@@ -253,6 +2076,35 @@ main {
   margin-bottom: 1rem;
   font-size: 0.95rem;
   line-height: 1.4;
+}
+
+.page-zoom-notice {
+  position: relative;
+  background: color-mix(in srgb, var(--accent-color) 14%, var(--card-bg));
+  border: 1px solid color-mix(in srgb, var(--accent-color) 50%, transparent);
+  border-radius: 8px;
+  padding: 0.7rem 2.5rem 0.7rem 1rem;
+  margin: 0 0 0.85rem;
+  font-size: 0.95rem;
+  line-height: 1.4;
+  color: var(--text-color);
+}
+
+.page-zoom-notice.hidden {
+  display: none !important;
+}
+
+.page-zoom-notice-dismiss {
+  position: absolute;
+  top: 0.45rem;
+  right: 0.45rem;
+  background: transparent;
+  border: none;
+  color: var(--text-color);
+  cursor: pointer;
+  font-size: 1.1rem;
+  padding: 0.2rem;
+  line-height: 1;
 }
 .file-protocol-notice a {
   color: var(--accent-color);
@@ -281,6 +2133,62 @@ main {
 
 h1, h2 {
   color: var(--accent-color);
+}
+
+/* Shared page-content scale (Home, Transfers, Comments, and every other tab) */
+main > h1,
+main h1#transfers-title,
+body[data-page] main > h1 {
+  font-size: var(--font-size-h1) !important;
+  font-weight: 700;
+  line-height: 1.25;
+  font-family: var(--font-body);
+}
+
+main > h2,
+main .transfer-card > h2,
+main .home-features > h2,
+main .write-saved-sentences-section > h2,
+body[data-page] main .transfer-card > h2 {
+  font-size: var(--font-size-h2) !important;
+  font-weight: 700;
+  line-height: 1.3;
+  font-family: var(--font-body);
+}
+
+main h3,
+body[data-page] main h3 {
+  font-size: var(--font-size-h3) !important;
+  font-weight: 700;
+  line-height: 1.3;
+  font-family: var(--font-body);
+}
+
+main p,
+main label,
+.home-intro p,
+.home-feature-desc,
+.transfer-hint,
+.transfer-select-all,
+.transfer-dropzone,
+body[data-page="transfers"] .transfer-hint,
+body[data-page="transfers"] .transfer-select-all,
+body[data-page="transfers"] .transfer-dropzone,
+body[data-page="transfers"] .transfer-item {
+  font-size: var(--font-size-body) !important;
+  line-height: 1.5;
+  font-family: var(--font-body);
+}
+
+body[data-page="transfers"] .transfer-actions button,
+body[data-page="transfers"] #transfer-export-all,
+body[data-page="transfers"] #transfer-import-file-btn,
+body[data-page="transfers"] #transfer-import-folder-btn,
+body[data-page="transfers"] #transfer-export-selected,
+body[data-page="transfers"] #transfer-advanced-toggle,
+body[data-page="transfers"] .transfer-lang-chip {
+  font-size: var(--font-size-ui) !important;
+  font-family: var(--font-body);
 }
 
 /* ===============================
@@ -396,7 +2304,447 @@ h1, h2 {
 }
 
 .definition-box {
+  position: relative;
   margin-bottom: 1.5rem;
+}
+
+.create-compound-builder {
+  display: flex;
+  max-width: 700px;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 0.4rem;
+  margin: 1.25rem 0 0.5rem;
+}
+
+.create-compound-builder > button {
+  align-self: stretch;
+  width: 100%;
+  height: 2.25rem;
+  border: 1px solid var(--accent-color);
+  border-radius: 6px;
+  background: transparent;
+  color: var(--accent-color);
+  font-size: 1.25rem;
+  cursor: pointer;
+}
+
+.create-compound-parts {
+  display: flex;
+  max-height: 320px;
+  flex-direction: column;
+  gap: 0.4rem;
+  overflow-y: auto;
+}
+
+.create-compound-row {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.create-compound-row > input {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0.45rem;
+  border: 1px solid var(--accent-color);
+  border-radius: 6px;
+  background: var(--bg-color);
+  color: var(--text-color);
+}
+
+.create-compound-selected {
+  display: flex;
+  min-width: 0;
+  flex: 1;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  padding: 0.45rem 0.55rem;
+  border: 1px solid var(--accent-color);
+  border-radius: 6px;
+  color: var(--text-color);
+}
+
+.create-compound-selected button {
+  border: 0;
+  background: none;
+  color: var(--accent-color);
+  cursor: pointer;
+}
+
+.create-compound-results {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  left: 0;
+  z-index: 20;
+  max-height: 180px;
+  overflow-y: auto;
+  border: 1px solid var(--accent-color);
+  border-radius: 6px;
+  background: var(--card-bg);
+}
+
+.create-compound-result {
+  display: block;
+  width: 100%;
+  padding: 0.4rem 0.5rem;
+  border: 0;
+  border-bottom: 1px solid color-mix(in srgb, var(--accent-color) 30%, transparent);
+  background: transparent;
+  color: var(--text-color);
+  text-align: left;
+  cursor: pointer;
+}
+
+@media (max-width: 760px) {
+  .create-lookup-row {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .create-lang-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .create-word-row,
+  .create-pos-row {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+
+.create-lookup-box {
+  margin-bottom: 1rem;
+}
+
+.create-lookup-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 0.75rem 1rem;
+}
+
+.create-lookup-main {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 280px;
+  min-width: 0;
+  max-width: 420px;
+}
+
+.create-lookup-main > label {
+  display: block;
+  margin: 0 0 0.35rem;
+  line-height: 1.3;
+  min-height: 1.3em;
+}
+
+.create-lookup-main > input {
+  width: 100%;
+}
+
+.create-lookup-pos-wrap {
+  display: flex;
+  flex-direction: column;
+  flex: 0 1 280px;
+  width: 100%;
+  max-width: 280px;
+  min-width: 180px;
+}
+
+.create-lookup-pos-spacer {
+  display: block;
+  margin: 0 0 0.35rem;
+  line-height: 1.3;
+  min-height: 1.3em;
+}
+
+.create-lookup-pos {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+}
+
+.create-lookup-pos.create-pos-picker {
+  margin-bottom: 0;
+}
+
+.create-lookup-box input,
+.create-word-field select,
+.create-word-field input,
+.create-form-grid select,
+.create-manual-field input {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: none;
+  padding: 0.5rem;
+  border: 1px solid var(--accent-color);
+  border-radius: 6px;
+  background: var(--bg-color);
+  color: var(--text-color);
+}
+
+.create-lang-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem 1.5rem;
+  align-items: start;
+  max-width: 900px;
+  margin-bottom: 0.85rem;
+}
+
+.create-lang-column {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  min-width: 0;
+}
+
+.create-word-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 0.75rem 1rem;
+  margin-bottom: 0.85rem;
+}
+
+.create-word-field {
+  flex: 1 1 180px;
+  min-width: 140px;
+  margin-bottom: 0;
+}
+
+.create-lang-column .create-word-field {
+  flex: none;
+  width: 100%;
+}
+
+.create-word-field label {
+  display: block;
+  margin-bottom: 0.35rem;
+}
+
+.create-word-input-row {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  width: 100%;
+  min-width: 0;
+}
+
+.create-word-input-row input {
+  flex: 1 1 auto;
+  min-width: 0;
+  width: auto;
+}
+
+.create-homograph-star-btn {
+  flex: 0 0 auto;
+  width: 2rem;
+  height: 2rem;
+  padding: 0;
+  border: 1px solid color-mix(in srgb, var(--accent-color) 45%, transparent);
+  border-radius: 6px;
+  background: transparent;
+  color: #c9a227;
+  font-size: 1.05rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.create-homograph-star-btn:hover {
+  border-color: var(--accent-color);
+}
+
+.create-homograph-star-btn[aria-pressed="true"] {
+  background: color-mix(in srgb, #c9a227 18%, transparent);
+  border-color: #c9a227;
+}
+
+.create-dictionary-results {
+  max-width: 700px;
+  max-height: 240px;
+  margin-top: 0.4rem;
+  overflow-y: auto;
+  border: 1px solid var(--accent-color);
+  border-radius: 6px;
+  background: var(--card-bg);
+}
+
+.create-dictionary-result {
+  display: grid;
+  grid-template-columns: 72px minmax(0, 1fr);
+  align-items: center;
+  gap: 0.75rem;
+  width: 100%;
+  padding: 0.55rem 0.7rem;
+  border: 0;
+  border-bottom: 1px solid color-mix(in srgb, var(--accent-color) 35%, transparent);
+  background: transparent;
+  color: var(--text-color);
+  text-align: left;
+  cursor: pointer;
+}
+
+.create-result-stamp {
+  display: grid;
+  grid-template-columns: repeat(2, 28px);
+  grid-auto-rows: 28px;
+  place-content: center;
+  width: 64px;
+  min-height: 64px;
+  border: 1px solid var(--accent-color);
+  border-radius: 5px;
+}
+
+.create-result-stamp > span,
+.create-result-stamp img,
+.create-result-stamp .symbol-mask {
+  width: 28px;
+  height: 28px;
+}
+
+.create-result-fields {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(90px, 1fr));
+  gap: 0.6rem;
+}
+
+.create-result-field {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+.create-result-field strong {
+  color: var(--accent-color);
+  font-size: 0.72rem;
+}
+
+.create-result-field > span {
+  overflow-wrap: anywhere;
+  font-size: 0.82rem;
+}
+
+.create-dictionary-result:hover {
+  background: color-mix(in srgb, var(--accent-color) 15%, transparent);
+}
+
+.create-editing-status {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-top: 0.5rem;
+  color: var(--accent-color);
+  font-size: 0.85rem;
+}
+
+.create-editing-status button {
+  padding: 0.25rem 0.5rem;
+}
+
+.create-form-grid,
+.create-manual-field {
+  margin-bottom: 0.7rem;
+}
+
+.create-lang-column .create-manual-field,
+.create-lang-column .create-pronunciation-field {
+  margin-bottom: 0;
+}
+
+.create-form-grid label,
+.create-manual-field label {
+  display: block;
+  margin-bottom: 0.35rem;
+}
+
+.create-word-field.create-manual-field {
+  margin-bottom: 0;
+}
+
+.create-pos-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 0.75rem 1rem;
+  max-width: 900px;
+  margin-bottom: 0.8rem;
+}
+
+.create-pos-row .create-pos-picker {
+  flex: 1 1 280px;
+  max-width: 700px;
+  margin-bottom: 0;
+}
+
+.create-pronunciation-field {
+  margin-bottom: 0;
+}
+
+.create-lang-column .create-pronunciation-field {
+  flex: none;
+  width: 100%;
+  min-width: 0;
+}
+
+.create-pronunciation-field label {
+  display: block;
+  margin-bottom: 0.35rem;
+  font-size: 0.9rem;
+}
+
+.create-pronunciation-field input {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid var(--accent-color);
+  border-radius: 6px;
+  background: var(--bg-color);
+  color: var(--text-color);
+}
+
+.create-pos-picker {
+  max-width: 700px;
+  margin-bottom: 0.8rem;
+  border: 1px solid var(--accent-color);
+  border-radius: 6px;
+  padding: 0.35rem 0.55rem;
+  background: var(--card-bg);
+}
+
+.create-pos-picker summary {
+  color: var(--accent-color);
+  cursor: pointer;
+  list-style: none;
+}
+
+.create-pos-picker summary::-webkit-details-marker {
+  display: none;
+}
+
+.create-pos-options {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 0.35rem 0.75rem;
+  max-height: 220px;
+  margin-top: 0.5rem;
+  padding: 0.65rem;
+  overflow-y: auto;
+  border: 1px solid var(--accent-color);
+  border-radius: 6px;
+  background: var(--bg-color);
+}
+
+.create-pos-options label {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin: 0;
 }
 
 .definition-box label {
@@ -404,29 +2752,89 @@ h1, h2 {
   margin-bottom: 0.35rem;
 }
 
-.definition-box #definition-input {
+.definition-box .create-word-field #create-origin-word,
+.definition-box .create-word-field #create-translated-word {
   width: 100%;
-  max-width: 400px;
-  padding: 0.5rem;
-  margin-bottom: 0.5rem;
-  border: 1px solid var(--accent-color);
-  border-radius: 6px;
-  background: var(--bg-color);
-  color: var(--text-color);
+  max-width: none;
+  margin-bottom: 0;
+}
+
+.definition-box .create-word-input-row #create-origin-word,
+.definition-box .create-word-input-row #create-translated-word {
+  width: auto;
+  flex: 1 1 auto;
 }
 
 .definition-box .btn-primary {
   padding: 0.5rem 0.75rem;
   border-radius: 6px;
   border: 1px solid var(--accent-color);
-  background: var(--accent-color);
-  color: #fff;
+  background: transparent;
+  color: var(--accent-color);
   cursor: pointer;
   font-size: 0.9rem;
 }
 
 .definition-box .btn-primary:hover {
-  opacity: 0.9;
+  background: color-mix(in srgb, var(--accent-color) 16%, transparent);
+  color: var(--accent-color);
+}
+
+.category-zones {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.category-drop-zone {
+  min-height: 180px;
+  padding: 0.75rem;
+  border: 2px dashed var(--accent-color);
+  border-radius: 10px;
+  background: var(--card-bg);
+}
+
+.category-drop-zone h2 {
+  margin: 0 0 0.75rem;
+  color: var(--accent-color);
+  font-size: 1rem;
+  text-align: center;
+}
+
+.category-drop-zone .placeholder {
+  margin: 2.25rem 0;
+  opacity: 0.6;
+  text-align: center;
+}
+
+.category-symbol-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: 0.5rem;
+}
+
+.category-symbol-item {
+  cursor: grab;
+}
+
+.category-symbol-item:active {
+  cursor: grabbing;
+}
+
+.category-symbol-item .symbol-box {
+  box-sizing: border-box;
+  width: 72px;
+  height: 72px;
+  padding: 0.25rem;
+}
+
+.category-symbol-item .symbol-box img,
+.category-symbol-item .symbol-box .symbol-mask {
+  width: 100%;
+  height: 100%;
+  margin: 0;
 }
 
 .symbol-search-box {
@@ -438,9 +2846,15 @@ h1, h2 {
   margin-bottom: 0.35rem;
 }
 
+.symbol-search-controls {
+  display: flex;
+  align-items: stretch;
+  gap: 0.5rem;
+  max-width: 520px;
+}
+
 .symbol-search-box #symbol-search {
   width: 100%;
-  max-width: 400px;
   padding: 0.5rem;
   border: 1px solid var(--accent-color);
   border-radius: 6px;
@@ -448,11 +2862,82 @@ h1, h2 {
   color: var(--text-color);
 }
 
-/* Symbol grid with auto wrapping */
+#create-mode-toggle,
+#web-mode-toggle,
+.play-symbol-mode-toggle,
+#draw-mode-toggle {
+  min-width: 105px;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid var(--accent-color);
+  border-radius: 6px;
+  background: var(--card-bg);
+  color: var(--accent-color);
+  cursor: pointer;
+}
+
+.symbol-grid > .symbol-box.symbol-used {
+  filter: grayscale(1) brightness(0.55);
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+.symbol-grid > .symbol-box.symbol-key-open {
+  outline: none;
+  border-width: 2px;
+  border-color: var(--accent-color);
+  box-shadow: 0 0 0 1px var(--accent-color);
+}
+
+.symbol-grid > .symbol-box.symbol-key-category {
+  cursor: pointer;
+}
+
+.symbol-grid.symbol-grid-key > .symbol-box.symbol-key-category:hover {
+  outline: 1px dashed var(--accent-color);
+  outline-offset: 1px;
+}
+
+@media (max-width: 720px) {
+  .category-zones {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Twelve slots let every manual row divide evenly at responsive widths. */
 .symbol-grid {
   display: grid;
-  grid-template-columns: repeat(13, minmax(72px, 1fr));
+  grid-template-columns: repeat(12, minmax(72px, 1fr));
   gap: 0.5rem;
+}
+
+@media (max-width: 1040px) {
+  .symbol-grid {
+    grid-template-columns: repeat(6, minmax(72px, 1fr));
+  }
+}
+
+@media (max-width: 720px) {
+  .symbol-grid {
+    grid-template-columns: repeat(4, minmax(72px, 1fr));
+  }
+}
+
+@media (max-width: 520px) {
+  .symbol-grid {
+    grid-template-columns: repeat(3, minmax(72px, 1fr));
+  }
+}
+
+@media (max-width: 360px) {
+  .symbol-grid {
+    grid-template-columns: repeat(2, minmax(72px, 1fr));
+  }
+}
+
+@media (max-width: 190px) {
+  .symbol-grid {
+    grid-template-columns: minmax(72px, 1fr);
+  }
 }
 
 .symbol {
@@ -512,8 +2997,8 @@ h1, h2 {
 }
 #symbol-info-box .info-image-tools button {
   border: 1px solid var(--accent-color);
-  background: var(--bg-color);
-  color: var(--text-color);
+  background: transparent;
+  color: var(--accent-color);
   border-radius: 6px;
   width: 34px;
   height: 34px;
@@ -527,8 +3012,8 @@ h1, h2 {
 }
 #symbol-info-box .info-image-nav > button {
   border: 1px solid var(--accent-color);
-  background: var(--bg-color);
-  color: var(--text-color);
+  background: transparent;
+  color: var(--accent-color);
   border-radius: 6px;
   width: 30px;
   height: 30px;
@@ -547,6 +3032,58 @@ h1, h2 {
 }
 #symbol-info-box .info-image-upload-panel.hidden {
   display: none;
+}
+.info-image-file-picker {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.55rem;
+  margin-bottom: 0.45rem;
+}
+.info-image-file-input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+.info-image-file-btn,
+#info-image-file-btn {
+  padding: 0.35rem 0.65rem;
+  border: 1px solid var(--accent-color);
+  border-radius: 6px;
+  background: transparent;
+  background-color: transparent;
+  color: var(--accent-color);
+  cursor: pointer;
+  font-size: 0.9rem;
+  appearance: none;
+  -webkit-appearance: none;
+}
+body:not(.ui-accent-gradient) .info-image-file-btn,
+body:not(.ui-accent-gradient) #info-image-file-btn {
+  background-image: none !important;
+  background-color: transparent !important;
+  color: var(--accent-color) !important;
+  -webkit-text-fill-color: var(--accent-color);
+}
+.info-image-file-btn:hover,
+#info-image-file-btn:hover {
+  background: color-mix(in srgb, var(--accent-color) 16%, transparent);
+  color: var(--accent-color);
+}
+body:not(.ui-accent-gradient) .info-image-file-btn:hover,
+body:not(.ui-accent-gradient) #info-image-file-btn:hover {
+  background-image: none !important;
+  background-color: color-mix(in srgb, var(--accent-color) 16%, transparent) !important;
+}
+.info-image-file-name {
+  color: var(--accent-color);
+  font-size: 0.9rem;
 }
 #symbol-info-box .info-image-note {
   margin: 0.35rem 0 0.5rem;
@@ -620,10 +3157,10 @@ h1, h2 {
 
 #symbol-info-box .info-actions button {
   margin-top: 0;
-  background: var(--accent-color);
-  border: none;
+  background: transparent;
+  border: 1px solid var(--accent-color);
   padding: 0.4rem 0.8rem;
-  color: #fff;
+  color: var(--accent-color);
   border-radius: 5px;
   cursor: pointer;
 }
@@ -679,17 +3216,57 @@ h1, h2 {
 /* ===============================
    Write Page
    =============================== */
+.write-title-row {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-bottom: 0.5rem;
+}
+
+.write-title-row h1 {
+  margin: 0;
+}
+
+.write-info-btn {
+  width: 2rem;
+  height: 2rem;
+  border: 1px solid var(--accent-color);
+  border-radius: 50%;
+  background: transparent;
+  color: var(--accent-color);
+  font-size: 1rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.write-info-btn:hover {
+  background: color-mix(in srgb, var(--accent-color) 16%, transparent);
+  color: var(--accent-color);
+}
+
+.write-info-list {
+  margin: 0.5rem 0 0;
+  padding-left: 1.2rem;
+  display: grid;
+  gap: 0.55rem;
+  color: var(--text-color);
+}
+
 .write-input-section,
 .write-output-section {
   margin-bottom: 1rem;
 }
 
 .write-settings-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.45rem 0.75rem;
   margin-bottom: 1rem;
 }
 
 .write-settings-section label {
-  margin-right: 0.5rem;
+  margin-right: 0.15rem;
 }
 
 .write-settings-section select {
@@ -711,89 +3288,252 @@ h1, h2 {
   resize: vertical;
 }
 
+.write-token-row,
 .write-output {
-  min-height: 120px;
+  min-height: 3rem;
   border: 1px solid var(--accent-color);
   border-radius: 8px;
   padding: 0.75rem;
   display: flex;
   flex-wrap: wrap;
-  gap: 0.5rem;
-  align-items: center;
+  gap: 0.55rem;
+  align-items: flex-end;
   background: var(--card-bg);
+}
+
+#write-input-display {
+  margin-top: 0.6rem;
+  min-height: 2.5rem;
 }
 
 .write-token {
   display: inline-flex;
   flex-direction: column;
   align-items: center;
-  min-height: 34px;
   gap: 0.2rem;
-}
-
-.write-token-text {
+  padding: 0.15rem 0.25rem;
+  border: none;
+  background: transparent;
   color: var(--accent-color);
-  font-weight: 600;
-  padding: 0 0.2rem;
+  font: inherit;
+  font-weight: 400;
+  cursor: pointer;
 }
 
-.write-token-symbols {
-  display: inline-flex;
-  gap: 0.5rem;
-  align-items: center;
+.write-token-core {
+  border: 2px solid var(--accent-color);
+  border-radius: 8px;
+  padding: 0.2rem;
+  background: transparent;
 }
 
-.write-symbol-box {
-  width: 34px;
-  height: 34px;
+.write-token.is-bold,
+.write-token-stamped {
+  font-weight: 700;
+}
+
+.write-token-tempstamped,
+.write-token-unstamped,
+.write-token-unknown {
+  font-weight: 400;
+}
+
+.write-token-context,
+.write-token-context .write-token-caption {
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
+}
+
+.write-input-token {
+  font-size: 1rem;
+  padding: 0.2rem 0.35rem;
+}
+
+.write-output-token {
+  min-width: 2.5rem;
+}
+
+.write-compact-stamp {
+  display: grid;
+  grid-template-columns: repeat(2, 25px);
+  grid-auto-rows: 25px;
+  place-content: center;
+  place-items: center;
+  box-sizing: border-box;
+  width: 56px;
+  height: 56px;
+  gap: 0;
   border: 1px solid var(--accent-color);
-  border-radius: 6px;
-  background: var(--card-bg);
+  border-radius: 5px;
+  background: transparent;
+}
+
+.write-compact-stamp.is-blank {
+  border: 1px solid var(--accent-color);
+  border-radius: 5px;
+  background: transparent;
+}
+
+.write-compact-stamp.is-single {
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
+
+.write-compact-stamp.is-pair {
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.write-compact-stamp.is-triple {
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.write-compact-stamp-symbol {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 2px;
+  width: 25px;
+  height: 25px;
+  border: none;
+  background: transparent;
+  padding: 0;
 }
 
-.write-symbol-box img,
-.write-symbol-box .symbol-mask {
+.write-compact-stamp.is-single .write-compact-stamp-symbol {
+  width: 100%;
+  height: 100%;
+  padding: 3px;
+  box-sizing: border-box;
+}
+
+.write-compact-stamp.is-pair .write-compact-stamp-symbol,
+.write-compact-stamp.is-triple .write-compact-stamp-symbol {
+  width: 100%;
+  height: 100%;
+  padding: 2px;
+  box-sizing: border-box;
+}
+
+.write-compact-stamp-symbol img,
+.write-compact-stamp-symbol .symbol-mask {
   width: 100%;
   height: 100%;
   margin: 0;
   object-fit: contain;
 }
 
-/* Reuse dictionary slot format inside Write output/modal */
-.write-token-symbols .entry-slot-group {
+.write-token-caption,
+.write-token-label {
+  font-size: 0.8rem;
+  color: var(--accent-color);
+  text-align: center;
+  line-height: 1.2;
+}
+
+.write-token-stamped .write-token-caption,
+.write-token-stamped .write-token-label {
+  font-weight: 700;
+}
+
+.write-save-contexts-row {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  gap: 0.2rem;
+  gap: 0.65rem;
+  margin-top: 0.75rem;
 }
 
-.write-token-symbols .entry-effects-column {
-  display: flex;
-  flex-direction: column;
-  gap: 0.15rem;
-  align-items: center;
+.write-save-contexts-status {
+  margin: 0;
+  color: var(--accent-color);
+  font-size: 0.92rem;
 }
 
-.write-token-symbols .entry-effect {
-  width: 22px;
-  height: 22px;
+.write-saved-sentences-section {
+  margin-top: 1.25rem;
+  margin-bottom: 1.5rem;
 }
 
-.write-token-symbols .entry-main {
-  width: 34px;
-  height: 34px;
+.write-saved-sentences-section h2 {
+  margin-bottom: 0.55rem;
 }
 
-.write-token-symbols .entry-effect img,
-.write-token-symbols .entry-effect .symbol-mask,
-.write-token-symbols .entry-main img,
-.write-token-symbols .entry-main .symbol-mask {
+#write-sentence-search {
   width: 100%;
-  height: 100%;
-  object-fit: contain;
+  max-width: 520px;
+  padding: 0.5rem 0.65rem;
+  margin-bottom: 0.75rem;
+  border: 1px solid var(--accent-color);
+  border-radius: 8px;
+  background: var(--bg-color);
+  color: var(--text-color);
+  box-sizing: border-box;
+}
+
+.write-saved-sentences {
+  display: grid;
+  gap: 0.55rem;
+}
+
+.write-saved-sentences-empty {
+  margin: 0;
+  color: var(--text-color);
+  opacity: 0.8;
+}
+
+.write-saved-sentence {
+  display: grid;
+  gap: 0.25rem;
+  width: 100%;
+  text-align: left;
+  padding: 0.7rem 0.8rem;
+  border: 1px solid var(--accent-color);
+  border-radius: 8px;
+  background: var(--card-bg);
+  color: var(--text-color);
+  cursor: pointer;
+  font: inherit;
+}
+
+.write-saved-sentence:hover {
+  opacity: 0.92;
+}
+
+.write-saved-sentence strong {
+  color: var(--accent-color);
+}
+
+.write-saved-sentence span {
+  font-size: 0.85rem;
+  opacity: 0.85;
+}
+
+.write-sentence-edit-content {
+  max-width: min(640px, 94vw);
+}
+
+.write-sentence-edit-meta {
+  margin: 0.25rem 0 0.75rem;
+  font-size: 0.9rem;
+  opacity: 0.85;
+}
+
+#write-sentence-edit-text {
+  width: 100%;
+  margin-bottom: 0.75rem;
+  padding: 0.55rem 0.65rem;
+  border: 1px solid var(--accent-color);
+  border-radius: 8px;
+  background: var(--bg-color);
+  color: var(--text-color);
+  resize: vertical;
+  box-sizing: border-box;
+}
+
+.write-sentence-edit-tokens {
+  margin-bottom: 1rem;
+  min-height: 3rem;
 }
 
 .write-word-info-symbols {
@@ -804,12 +3544,54 @@ h1, h2 {
   margin: 0.25rem 0 0.75rem;
   color: var(--accent-color);
   font-weight: 600;
+  text-transform: capitalize;
 }
 
-.write-token-caption {
-  font-size: 0.75rem;
+.write-context-content {
+  max-width: min(560px, 94vw);
+}
+
+.write-context-results {
+  display: grid;
+  gap: 0.55rem;
+  max-height: min(50vh, 420px);
+  overflow: auto;
+  margin: 0.75rem 0 1rem;
+}
+
+.write-context-result {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  width: 100%;
+  padding: 0.55rem 0.65rem;
+  border: 1px solid var(--accent-color);
+  border-radius: 8px;
+  background: var(--bg-color);
   color: var(--text-color);
-  text-align: center;
+  text-align: left;
+  cursor: pointer;
+}
+
+.write-context-result:hover {
+  background: color-mix(in srgb, var(--accent-color) 12%, var(--bg-color));
+}
+
+.write-context-result-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  min-width: 0;
+}
+
+.write-context-result-meta strong {
+  color: var(--text-color);
+  font-weight: 600;
+}
+
+.write-context-result-meta span {
+  font-size: 0.8rem;
+  opacity: 0.85;
 }
 
 .admin-edit-grid {
@@ -860,6 +3642,127 @@ h1, h2 {
   user-select: none;
 }
 
+.dictionary-filter-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 0.6rem;
+  margin-top: 0.7rem;
+}
+
+#dictionary-stamp-filter,
+.dictionary-language-filter {
+  min-width: 210px;
+  border: 1px solid var(--accent-color);
+  border-radius: 6px;
+  background: var(--card-bg);
+  color: var(--text-color);
+}
+
+#dictionary-stamp-filter {
+  padding: 0.5rem;
+}
+
+.dictionary-language-filter {
+  position: relative;
+}
+
+.dictionary-language-filter summary {
+  padding: 0.5rem;
+  cursor: pointer;
+  user-select: none;
+}
+
+.dictionary-language-options {
+  position: absolute;
+  z-index: 30;
+  left: 0;
+  min-width: 280px;
+  max-height: min(70vh, 420px);
+  overflow: auto;
+  padding: 0.55rem;
+  border: 1px solid var(--accent-color);
+  border-radius: 6px;
+  background: var(--card-bg);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.35);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.dictionary-language-options label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  margin: 0.25rem 0;
+  width: fit-content;
+}
+
+.dictionary-language-options label.dictionary-language-world {
+  font-weight: 700;
+  margin-bottom: 0.35rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid color-mix(in srgb, var(--accent-color) 35%, transparent);
+  width: 100%;
+}
+
+.dictionary-results-status {
+  min-height: 1.2rem;
+  margin: 0.65rem 0 0;
+  color: var(--accent-color);
+}
+
+.dictionary-loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 10rem;
+  margin: 0.75rem 0 1.25rem;
+  padding: 1rem;
+}
+
+.dictionary-loading.hidden {
+  display: none;
+}
+
+.dictionary-loading-card {
+  width: min(420px, 100%);
+  padding: 1.1rem 1.2rem;
+  border: 1px solid color-mix(in srgb, var(--accent-color) 40%, transparent);
+  border-radius: 10px;
+  background: var(--card-bg);
+  text-align: center;
+}
+
+.dictionary-loading-label {
+  margin: 0 0 0.75rem;
+  color: var(--text-color);
+  font-size: 0.98rem;
+}
+
+.dictionary-loading-track {
+  width: 100%;
+  height: 0.7rem;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--accent-color) 18%, transparent);
+  overflow: hidden;
+}
+
+.dictionary-loading-bar {
+  height: 100%;
+  width: 0%;
+  border-radius: inherit;
+  background: var(--accent-color);
+  transition: none;
+  will-change: width;
+}
+
+.dictionary-loading-percent {
+  margin: 0.55rem 0 0;
+  color: var(--accent-color);
+  font-size: 0.88rem;
+}
+
 .dictionary-list {
   display: flex;
   flex-direction: column;
@@ -867,21 +3770,25 @@ h1, h2 {
 }
 
 .transfer-card {
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  border: 1px solid color-mix(in srgb, var(--accent-color) 45%, transparent);
   border-radius: 10px;
-  padding: 0.9rem;
+  padding: 1rem;
   margin-bottom: 1rem;
   background: var(--card-bg);
 }
 
 .transfer-card h2 {
   margin-top: 0;
+  margin-bottom: 0.55rem;
+  font-size: var(--font-size-h2);
+  font-weight: 700;
+  color: var(--accent-color);
 }
 
 .transfer-list {
   max-height: 220px;
   overflow: auto;
-  border: 1px solid rgba(255, 255, 255, 0.15);
+  border: 1px solid color-mix(in srgb, var(--accent-color) 35%, transparent);
   border-radius: 8px;
   margin-top: 0.6rem;
   padding: 0.45rem;
@@ -891,22 +3798,26 @@ h1, h2 {
   display: block;
   width: 100%;
   text-align: left;
-  border: 1px solid rgba(255, 255, 255, 0.15);
+  border: 1px solid color-mix(in srgb, var(--accent-color) 30%, transparent);
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.03);
   color: var(--text-color);
-  padding: 0.45rem 0.55rem;
+  font: inherit;
+  font-size: var(--font-size-body);
+  padding: 0.5rem 0.65rem;
   margin-bottom: 0.35rem;
   cursor: pointer;
 }
 
 .transfer-item:hover {
   border-color: var(--accent-color);
+  box-shadow: 0 0 0 1px color-mix(in srgb, var(--accent-color) 40%, transparent);
 }
 
 .transfer-item.is-selected {
   border-color: var(--accent-color);
-  background: rgba(255, 255, 255, 0.12);
+  background: color-mix(in srgb, var(--accent-color) 14%, transparent);
+  box-shadow: 0 0 0 1px color-mix(in srgb, var(--accent-color) 35%, transparent);
 }
 
 .transfer-group-header {
@@ -918,28 +3829,30 @@ h1, h2 {
 }
 
 .transfer-variant-item {
-  font-size: 0.9rem;
+  font-size: var(--font-size-body);
 }
 
 .transfer-hint {
   margin: 0.45rem 0 0;
   opacity: 0.85;
-  font-size: 0.9rem;
+  font-size: var(--font-size-body);
+  line-height: 1.5;
 }
 
 .transfer-dropzone {
   margin-top: 0.6rem;
-  border: 2px dashed rgba(255, 255, 255, 0.35);
+  border: 2px dashed color-mix(in srgb, var(--accent-color) 50%, transparent);
   border-radius: 10px;
   padding: 1rem;
   text-align: center;
   color: var(--text-color);
+  font-size: var(--font-size-body);
   background: rgba(255, 255, 255, 0.03);
 }
 
 .transfer-dropzone.is-dragover {
   border-color: var(--accent-color);
-  background: rgba(255, 255, 255, 0.12);
+  background: color-mix(in srgb, var(--accent-color) 14%, transparent);
 }
 
 .transfer-actions {
@@ -947,17 +3860,333 @@ h1, h2 {
   flex-wrap: wrap;
   gap: 0.5rem;
   margin-top: 0.7rem;
+  align-items: center;
 }
+
+.transfer-actions button,
+#transfer-export-all,
+#transfer-import-file-btn,
+#transfer-import-folder-btn,
+#transfer-export-selected,
+#transfer-advanced-toggle {
+  font-family: inherit;
+  font-size: var(--font-size-ui);
+  padding: 0.4rem 0.7rem;
+}
+
+.transfer-file-input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.transfer-advanced {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.transfer-advanced.hidden {
+  display: none;
+}
+
+.transfer-advanced-section {
+  border-top: 1px solid color-mix(in srgb, var(--accent-color) 30%, transparent);
+  padding-top: 0.85rem;
+}
+
+.transfer-advanced-section h3 {
+  margin: 0 0 0.55rem;
+  font-size: var(--font-size-h3);
+  font-weight: 700;
+  color: var(--accent-color);
+}
+
+.transfer-lang-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 0.55rem;
+}
+
+.transfer-lang-chip {
+  border: 1px solid var(--accent-color);
+  background: transparent;
+  color: var(--accent-color);
+  border-radius: 6px;
+  padding: 0.4rem 0.7rem;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: var(--font-size-ui);
+}
+
+.transfer-lang-chip.is-active {
+  background: var(--accent-color);
+  color: #fff;
+}
+
+.transfer-select-all {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin: 0.35rem 0 0.45rem;
+  font-size: var(--font-size-body);
+}
+
+.transfer-advanced-section input[type="text"] {
+  width: 100%;
+  max-width: 28rem;
+  box-sizing: border-box;
+  padding: 0.5rem;
+  border: 1px solid var(--accent-color);
+  border-radius: 6px;
+  background: var(--bg-color);
+  color: var(--text-color);
+  font-family: inherit;
+  font-size: var(--font-size-body);
+}
+
+/* Transfers Advanced: titles, language chips, search borders follow UI Color */
+body.ui-accent-gradient .transfer-advanced-section h3 {
+  background-image: var(--accent-fade-gradient);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+body.ui-accent-gradient.ui-accent-scope-screen .transfer-advanced-section h3 {
+  background-attachment: fixed;
+}
+
+body.ui-accent-gradient .transfer-lang-chip:not(.is-active) {
+  position: relative;
+  z-index: 0;
+  isolation: isolate;
+  border-color: transparent !important;
+  background-color: transparent !important;
+  background-image: var(--accent-fade-gradient) !important;
+  background-clip: text !important;
+  -webkit-background-clip: text !important;
+  color: transparent !important;
+  -webkit-text-fill-color: transparent !important;
+}
+
+body.ui-accent-gradient .transfer-lang-chip:not(.is-active)::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  border-radius: inherit;
+  box-sizing: border-box;
+  padding: 1px;
+  pointer-events: none;
+  background-image: var(--accent-fade-gradient);
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  mask-composite: exclude;
+}
+
+body.ui-accent-gradient.ui-accent-scope-screen .transfer-lang-chip:not(.is-active),
+body.ui-accent-gradient.ui-accent-scope-screen .transfer-lang-chip:not(.is-active)::before {
+  background-attachment: fixed;
+}
+
+body.ui-accent-gradient .transfer-lang-chip.is-active {
+  border-color: transparent;
+  background-image: var(--accent-fade-gradient);
+  background-color: transparent;
+  color: #fff;
+  -webkit-text-fill-color: #fff;
+}
+
+body.ui-accent-gradient.ui-accent-scope-screen .transfer-lang-chip.is-active {
+  background-attachment: fixed;
+}
+
+body.ui-accent-gradient .transfer-advanced-section input[type="text"] {
+  border-style: solid;
+  border-color: transparent !important;
+  background-image:
+    linear-gradient(var(--bg-color), var(--bg-color)),
+    var(--accent-fade-gradient);
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+  color: var(--text-color);
+  -webkit-text-fill-color: var(--text-color);
+}
+
+body.ui-accent-gradient.ui-accent-scope-screen .transfer-advanced-section input[type="text"] {
+  background-attachment: scroll, fixed;
+}
+
 
 .entry {
   display: grid;
   grid-template-columns: minmax(520px, 1fr) 1fr; /* symbols, definition — no fixed third column */
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 100%;
   align-items: center;
   gap: 1rem;
   background-color: var(--card-bg);
   padding: 0.75rem;
-  border-left: 3px solid var(--accent-color);
+  border: 2px solid color-mix(in srgb, var(--accent-color) 40%, transparent);
   cursor: context-menu;
+}
+
+.entry.entry-core,
+.entry.entry-world,
+.entry.entry-custom {
+  grid-template-columns: minmax(140px, 220px) minmax(0, 1fr);
+}
+
+.entry.entry-stamped {
+  border-color: var(--accent-color);
+}
+
+.entry.entry-tempstamped,
+.entry.entry-unstamped {
+  border-color: color-mix(in srgb, var(--accent-color) 40%, transparent);
+}
+
+.entry.entry-world {
+  cursor: pointer;
+}
+
+.entry.entry-custom {
+  cursor: pointer;
+}
+
+.world-entry-stamp {
+  box-sizing: border-box;
+  width: 128px;
+  height: 128px;
+  border: 1px dashed color-mix(in srgb, var(--accent-color) 45%, transparent);
+  border-radius: 6px;
+  padding: 0.35rem;
+  color: var(--accent-color);
+  overflow-wrap: anywhere;
+}
+
+.world-entry-table {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(90px, 160px));
+  justify-content: start;
+  gap: 0.6rem;
+  min-width: 0;
+}
+
+.world-entry-field {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  gap: 0.2rem;
+}
+
+.world-entry-value-row {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.28rem;
+  min-width: 0;
+}
+
+.homograph-star {
+  flex: 0 0 auto;
+  color: #c9a227;
+  font-size: 0.95rem;
+  line-height: 1;
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.25);
+}
+
+.world-entry-field strong {
+  color: var(--accent-color);
+  font-size: 0.78rem;
+}
+
+.world-entry-field .world-entry-value {
+  font-size: 0.9rem;
+  overflow-wrap: anywhere;
+  min-width: 0;
+}
+
+.dictionary-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+
+.dictionary-pagination input {
+  width: 5.5rem;
+  padding: 0.4rem;
+  border: 1px solid var(--accent-color);
+  border-radius: 6px;
+  background: var(--bg-color);
+  color: var(--text-color);
+}
+
+.dictionary-pagination button {
+  padding: 0.4rem 0.7rem;
+  border: 1px solid var(--accent-color);
+  border-radius: 6px;
+  background: transparent;
+  color: var(--accent-color);
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.dictionary-pagination button:hover:not(:disabled) {
+  background: color-mix(in srgb, var(--accent-color) 16%, transparent);
+  color: var(--accent-color);
+}
+
+.dictionary-pagination button:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.dictionary-empty {
+  text-align: center;
+  color: var(--accent-color);
+}
+
+@media (max-width: 760px) {
+  .entry.entry-world,
+  .entry.entry-core,
+  .entry.entry-custom {
+    grid-template-columns: minmax(100px, 160px) minmax(0, 1fr);
+  }
+
+  .world-entry-table {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 420px) {
+  .entry.entry-world,
+  .entry.entry-core,
+  .entry.entry-custom {
+    grid-template-columns: 1fr;
+  }
+
+  .world-entry-table {
+    grid-template-columns: minmax(0, 1fr);
+  }
 }
 
 .entry.entry-core {
@@ -1084,6 +4313,56 @@ h1, h2 {
   color: var(--accent-color);
 }
 
+.word-context-symbol-groups {
+  display: grid;
+  gap: 0.75rem;
+  max-height: 42vh;
+  margin-bottom: 0.9rem;
+  overflow-y: auto;
+}
+
+.word-context-symbol-groups h3 {
+  margin: 0 0 0.35rem;
+  color: var(--accent-color);
+  font-size: 0.85rem;
+}
+
+.word-context-symbol-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+.word-context-symbol {
+  width: 56px;
+  height: 56px;
+}
+
+.word-context-compound-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+.word-context-compound-list span {
+  padding: 0.25rem 0.45rem;
+  border: 1px solid var(--accent-color);
+  border-radius: 5px;
+}
+
+.word-context-symbol img,
+.word-context-symbol .symbol-mask {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.word-context-metadata {
+  margin-bottom: 0.75rem;
+  color: var(--accent-color);
+  font-size: 0.75rem;
+}
+
 .word-context-box label {
   display: block;
   margin-bottom: 0.35rem;
@@ -1113,19 +4392,110 @@ h1, h2 {
   padding: 0.5rem 0.75rem;
   border-radius: 6px;
   border: 1px solid var(--accent-color);
-  background: var(--accent-color);
-  color: #fff;
+  background: transparent;
+  color: var(--accent-color);
   cursor: pointer;
   font-size: 0.9rem;
 }
 
 .word-context-box .word-context-content button:hover {
-  opacity: 0.9;
+  background: color-mix(in srgb, var(--accent-color) 16%, transparent);
+  color: var(--accent-color);
 }
 
 .word-context-box .delete-word-btn {
-  background: #c44;
+  background: transparent;
   border-color: #c44;
+  color: #c44;
+}
+
+.word-context-box .delete-word-btn:hover {
+  background: color-mix(in srgb, #c44 16%, transparent);
+  color: #c44;
+}
+
+.dictionary-editor-box {
+  position: fixed;
+  inset: 0;
+  z-index: 1500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  background: rgba(0, 0, 0, 0.78);
+}
+
+.dictionary-editor-box.hidden {
+  display: none;
+}
+
+.dictionary-editor-content {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  width: min(1400px, 98vw);
+  height: 94vh;
+  overflow: hidden;
+  border: 2px solid var(--accent-color);
+  border-radius: 10px;
+  background: var(--bg-color);
+}
+
+.dictionary-editor-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.65rem 0.85rem;
+  border-bottom: 1px solid var(--accent-color);
+}
+
+.dictionary-editor-header h2 {
+  margin: 0;
+  color: var(--accent-color);
+  font-size: 1rem;
+}
+
+.dictionary-editor-header button {
+  padding: 0.4rem 0.75rem;
+  border: 1px solid var(--accent-color);
+  border-radius: 6px;
+  background: transparent;
+  color: var(--accent-color);
+  cursor: pointer;
+}
+
+#dictionary-editor-frame {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  background: var(--bg-color);
+}
+
+body.create-embedded .navbar,
+body.create-embedded .page-meta-bar,
+body.create-embedded main > h1,
+body.create-embedded .app-version,
+body.create-embedded .create-lookup-main,
+body.create-embedded .create-dictionary-results,
+body.create-embedded .create-editing-status {
+  display: none;
+}
+
+body.create-embedded .create-lookup-row {
+  display: block;
+}
+
+body.create-embedded .create-lookup-pos-wrap {
+  max-width: 320px;
+}
+
+body.create-embedded .create-lookup-pos-spacer {
+  display: none;
+}
+
+body.create-embedded main {
+  padding: 0.75rem;
 }
 
 /* ===============================
@@ -1162,14 +4532,15 @@ h1, h2 {
   padding: 0.5rem 0.75rem;
   border-radius: 6px;
   border: 1px solid var(--accent-color);
-  background: var(--accent-color);
-  color: #fff;
+  background: transparent;
+  color: var(--accent-color);
   cursor: pointer;
   font-size: 0.9rem;
 }
 
 .comment-input .btn-primary:hover {
-  opacity: 0.9;
+  background: color-mix(in srgb, var(--accent-color) 16%, transparent);
+  color: var(--accent-color);
 }
 
 .comment-list {
@@ -1180,6 +4551,8 @@ h1, h2 {
 .comment {
   background-color: var(--card-bg);
   padding: 0.75rem;
+  border: 1px solid color-mix(in srgb, var(--accent-color) 40%, transparent);
+  border-radius: 8px;
   cursor: context-menu;
 }
 
@@ -1195,19 +4568,1114 @@ h1, h2 {
   padding: 0.35rem 0.5rem;
   border-radius: 6px;
   border: 1px solid var(--accent-color);
-  background: var(--accent-color);
-  color: #fff;
+  background: transparent;
+  color: var(--accent-color);
   cursor: pointer;
   font-size: 0.9rem;
 }
 
 .comment .vote-up:hover,
 .comment .vote-down:hover {
-  opacity: 0.9;
+  background: color-mix(in srgb, var(--accent-color) 16%, transparent);
+  color: var(--accent-color);
 }
 
 .comment .score {
   min-width: 2rem;
   text-align: center;
   font-weight: bold;
+}
+
+.comment-meta {
+  margin: 0.35rem 0 0;
+  font-size: 0.85rem;
+  opacity: 0.8;
+}
+
+.comment-text {
+  margin: 0;
+}
+
+.comment .vote-up.is-voted,
+.comment .vote-down.is-voted,
+.comment .vote-up:disabled,
+.comment .vote-down:disabled {
+  opacity: 0.55;
+  cursor: default;
+}
+
+.comment-replies-btn {
+  margin-left: 0.35rem;
+  padding: 0.35rem 0.55rem;
+  border-radius: 6px;
+  border: 1px solid var(--accent-color);
+  background: transparent;
+  color: var(--accent-color);
+  cursor: pointer;
+  font-size: 0.85rem;
+}
+
+.comment-replies-btn:hover {
+  background: color-mix(in srgb, var(--accent-color) 16%, transparent);
+  color: var(--accent-color);
+}
+
+.comment-thread-nav {
+  margin-bottom: 1rem;
+  display: grid;
+  gap: 0.45rem;
+}
+
+.comment-back-btn {
+  width: fit-content;
+  padding: 0.25rem 0.5rem;
+  border: 1px solid var(--accent-color);
+  border-radius: 6px;
+  background: transparent;
+  color: var(--accent-color);
+  cursor: pointer;
+  font-size: 0.8rem;
+  line-height: 1.2;
+}
+
+.comment-back-btn:hover {
+  background: color-mix(in srgb, var(--accent-color) 16%, transparent);
+  color: var(--accent-color);
+}
+
+.comment-thread-parent {
+  margin: 0;
+  opacity: 0.85;
+}
+
+.comment-reply {
+  border-left: 3px solid var(--accent-color);
+  padding-left: 0.85rem;
+}
+
+.comment-empty {
+  margin: 0.5rem 0;
+  opacity: 0.8;
+}
+/* ===============================
+   Web Page
+   =============================== */
+#web-clear-query {
+  padding: 0.4rem 0.7rem;
+  border: 1px solid var(--accent-color);
+  border-radius: 6px;
+  background: transparent;
+  color: var(--accent-color);
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+#web-clear-query:hover {
+  background: color-mix(in srgb, var(--accent-color) 16%, transparent);
+  color: var(--accent-color);
+}
+
+.web-subtitle {
+  margin: -0.25rem 0 1rem;
+  color: var(--accent-color);
+  opacity: 0.9;
+}
+
+.web-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem 0.75rem;
+  margin-bottom: 0.35rem;
+}
+
+.web-controls select {
+  padding: 0.35rem 0.5rem;
+  border: 1px solid var(--accent-color);
+  border-radius: 6px;
+  background: var(--bg-color);
+  color: var(--text-color);
+}
+
+.web-mode-hint {
+  flex-basis: 100%;
+  margin: 0 0 1rem;
+  font-size: 0.9rem;
+  color: var(--accent-color);
+}
+
+.web-query-section {
+  margin-bottom: 1rem;
+}
+
+.web-query-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.web-query-header h2 {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.web-query-symbols {
+  min-height: 5.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  align-items: center;
+  padding: 0.75rem;
+  border: 1px solid var(--accent-color);
+  border-radius: 8px;
+  background: var(--card-bg);
+}
+
+.web-query-empty {
+  color: var(--accent-color);
+  opacity: 0.8;
+}
+
+.web-query-chip {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.2rem;
+  min-width: 4.5rem;
+  padding: 0.35rem;
+  border: 1px solid var(--accent-color);
+  border-radius: 8px;
+  background: var(--bg-color);
+  color: var(--text-color);
+  cursor: pointer;
+}
+
+.web-query-chip .symbol-mask,
+.web-query-chip img {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+}
+
+.web-query-chip span {
+  font-size: 0.75rem;
+  color: var(--accent-color);
+  text-align: center;
+}
+
+.web-query-chip .web-query-slot {
+  font-size: 0.7rem;
+  opacity: 0.75;
+}
+
+.web-symbol-search-box {
+  margin-bottom: 1.25rem;
+}
+
+.web-symbol-search-controls {
+  display: flex;
+  align-items: stretch;
+  gap: 0.5rem;
+  max-width: 520px;
+  margin: 0.35rem 0 0.75rem;
+}
+
+.web-symbol-search-controls #web-symbol-search {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid var(--accent-color);
+  border-radius: 6px;
+  background: var(--bg-color);
+  color: var(--text-color);
+}
+
+#web-mode-toggle {
+  min-width: 105px;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid var(--accent-color);
+  border-radius: 6px;
+  background: var(--card-bg);
+  color: var(--accent-color);
+  cursor: pointer;
+}
+
+.web-symbol-grid {
+  max-height: none;
+  overflow: visible;
+}
+
+.web-symbol-grid .symbol-box.web-symbol-selected {
+  outline: none;
+  border-width: 2px;
+  border-color: var(--accent-color);
+  box-shadow: 0 0 0 1px var(--accent-color);
+  opacity: 0.55;
+}
+
+.web-results-status {
+  margin: 0.25rem 0 0.75rem;
+  color: var(--accent-color);
+}
+
+.web-results.dictionary-list {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.web-results .entry {
+  cursor: pointer;
+}
+
+.web-result-priority {
+  grid-column: 1 / -1;
+  margin-top: 0.15rem;
+  color: var(--accent-color);
+  font-size: 0.78rem;
+}
+
+/* ===============================
+   Play page
+   =============================== */
+
+.play-setup h2 {
+  margin: 0 0 0.75rem;
+  font-size: 1.05rem;
+}
+
+.play-setup-top {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem 1rem;
+  margin-bottom: 1.25rem;
+  width: 100%;
+}
+
+.play-top-label {
+  font-weight: 600;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.play-setup-actions {
+  margin-top: 1rem;
+  max-width: 640px;
+}
+
+.play-game-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 0.75rem;
+  margin-bottom: 1.25rem;
+}
+
+.play-game-card {
+  display: grid;
+  gap: 0.35rem;
+  padding: 0.85rem;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  background: var(--card-bg);
+  color: var(--text-color);
+  text-align: left;
+  cursor: pointer;
+}
+
+.play-game-card strong {
+  color: var(--accent-color);
+  font-size: 1rem;
+}
+
+.play-game-card span {
+  font-size: 0.88rem;
+  opacity: 0.9;
+}
+
+.play-game-card em {
+  font-size: 0.78rem;
+  color: var(--accent-color);
+  font-style: normal;
+}
+
+.play-game-card.selected {
+  border-color: var(--accent-color);
+  box-shadow: 0 0 0 1px var(--accent-color);
+}
+
+.play-language-options {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 0.5rem 0.85rem;
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.play-language-options label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  cursor: pointer;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.play-player-count-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  white-space: nowrap;
+  flex-shrink: 0;
+  margin-left: auto;
+}
+
+.play-player-count-label input {
+  width: 3.25rem;
+  padding: 0.35rem 0.45rem;
+  border: 1px solid var(--accent-color);
+  border-radius: 6px;
+  background: var(--bg-color);
+  color: var(--text-color);
+}
+
+@media (max-width: 900px) {
+  .play-language-options {
+    flex-wrap: wrap;
+  }
+
+  .play-player-count-label {
+    margin-left: 0;
+  }
+}
+
+.play-error {
+  color: #ff6b6b;
+  margin: 0;
+}
+
+.play-game-toolbar {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.75rem;
+}
+
+.play-game-toolbar h2 {
+  margin: 0;
+  font-size: 1.05rem;
+  color: var(--accent-color);
+  flex: 1 1 auto;
+}
+
+.play-context-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-left: auto;
+  font-size: 0.9rem;
+  cursor: pointer;
+  user-select: none;
+}
+
+.play-context-toggle input {
+  width: 1rem;
+  height: 1rem;
+  cursor: pointer;
+}
+
+.play-scoreboard {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.play-score-chip {
+  padding: 0.35rem 0.65rem;
+  border: 1px solid var(--accent-color);
+  border-radius: 999px;
+  background: var(--card-bg);
+  font-size: 0.85rem;
+}
+
+.play-score-chip.active {
+  background: color-mix(in srgb, var(--accent-color) 18%, var(--card-bg));
+  font-weight: 600;
+}
+
+.play-game-panel {
+  display: grid;
+  gap: 1rem;
+}
+
+.play-panel-block {
+  padding: 0.85rem;
+  border: 1px solid color-mix(in srgb, var(--accent-color) 40%, transparent);
+  border-radius: 8px;
+  background: var(--card-bg);
+}
+
+.play-panel-block h3 {
+  margin: 0 0 0.5rem;
+  font-size: 0.95rem;
+}
+
+.play-status {
+  margin: 0 0 0.75rem;
+  color: var(--accent-color);
+}
+
+.play-word-display {
+  font-size: 1.35rem;
+  font-weight: 600;
+  margin: 0.25rem 0 0.75rem;
+  color: var(--accent-color);
+}
+
+.play-word-display-row {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  margin: 0.25rem 0 0.75rem;
+}
+
+.play-word-display-row .play-word-display {
+  margin: 0;
+}
+
+.play-word-star {
+  font-size: 1.1rem;
+}
+
+.play-random-preview {
+  margin-top: 1rem;
+  padding: 1rem;
+  border: 2px solid var(--accent-color);
+  border-radius: 8px;
+  background: var(--bg-color);
+}
+
+.play-random-preview .play-actions {
+  margin-top: 0.75rem;
+}
+
+.play-hint {
+  margin: 0 0 0.5rem;
+  font-size: 0.85rem;
+  opacity: 0.85;
+}
+
+.play-core-symbol-display {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 128px;
+  height: 128px;
+  margin: 0.5rem 0 0.75rem;
+  border: 2px solid var(--accent-color);
+  border-radius: 8px;
+  background: var(--bg-color);
+  padding: 0.5rem;
+}
+
+.play-core-symbol-display img,
+.play-core-symbol-display .symbol-mask {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.play-revealed-symbols {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 0.5rem 0 0.75rem;
+}
+
+.play-revealed-symbols .compact-stamp-symbol {
+  width: 40px;
+  height: 40px;
+}
+
+.play-attached-symbol {
+  position: relative;
+  border: 1px solid var(--accent-color);
+  border-radius: 8px;
+  background: var(--bg-color);
+  cursor: pointer;
+  padding: 0;
+}
+
+.play-attached-symbol::after {
+  content: "×";
+  position: absolute;
+  top: -0.25rem;
+  right: -0.25rem;
+  width: 1rem;
+  height: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  background: var(--card-bg);
+  border: 1px solid var(--accent-color);
+  color: var(--accent-color);
+  font-size: 0.75rem;
+  line-height: 1;
+}
+
+.play-attached-symbol:hover {
+  background: color-mix(in srgb, var(--accent-color) 10%, var(--bg-color));
+}
+
+.play-search-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.play-search-row input {
+  flex: 1 1 220px;
+  padding: 0.5rem;
+  border: 1px solid var(--accent-color);
+  border-radius: 6px;
+  background: var(--bg-color);
+  color: var(--text-color);
+}
+
+.play-search-results {
+  display: grid;
+  gap: 0.35rem;
+  max-height: 320px;
+  overflow: auto;
+  margin-bottom: 0.75rem;
+}
+
+.play-search-result {
+  display: grid;
+  gap: 0.2rem;
+  width: 100%;
+  text-align: left;
+  padding: 0.5rem 0.6rem;
+  border: 1px solid var(--accent-color);
+  border-radius: 6px;
+  background: var(--bg-color);
+  color: var(--text-color);
+  cursor: pointer;
+}
+
+.play-search-result-word {
+  display: block;
+  color: var(--text-color);
+  font-size: 1rem;
+  line-height: 1.2;
+}
+
+.play-search-result-meta {
+  display: block;
+  font-size: 0.82rem;
+  line-height: 1.35;
+  color: var(--accent-color);
+  opacity: 0.92;
+}
+
+.play-search-result:hover {
+  border-color: var(--accent-color);
+}
+
+.play-context-picker {
+  position: fixed;
+  inset: 0;
+  z-index: 1200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  background: rgba(0, 0, 0, 0.55);
+}
+
+.play-context-picker-panel {
+  width: min(560px, 100%);
+  max-height: min(80vh, 640px);
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1rem;
+  border: 1px solid var(--accent-color);
+  border-radius: 10px;
+  background: var(--card-bg);
+  color: var(--text-color);
+}
+
+.play-context-picker-panel h3 {
+  margin: 0;
+  font-size: 1.05rem;
+  color: var(--accent-color);
+}
+
+.play-context-picker-list {
+  display: grid;
+  gap: 0.35rem;
+  overflow: auto;
+  max-height: 50vh;
+  padding-right: 0.15rem;
+}
+
+.play-guess-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: stretch;
+}
+
+.play-guess-row input {
+  flex: 1 1 220px;
+  padding: 0.5rem;
+  border: 1px solid var(--accent-color);
+  border-radius: 6px;
+  background: var(--bg-color);
+  color: var(--text-color);
+}
+
+.play-symbol-grid-wrap {
+  margin-top: 0.5rem;
+}
+
+.play-symbol-controls {
+  max-width: none;
+  margin-bottom: 0.65rem;
+}
+
+.play-symbol-controls input {
+  flex: 1 1 auto;
+  min-width: 0;
+  padding: 0.5rem;
+  border: 1px solid var(--accent-color);
+  border-radius: 6px;
+  background: var(--bg-color);
+  color: var(--text-color);
+}
+
+.play-mark-correct-btn {
+  margin-top: 0.5rem;
+}
+
+.play-symbol-grid-wrap .symbol-grid {
+  max-height: none;
+  overflow: visible;
+}
+
+.play-message {
+  margin: 0.5rem 0 0;
+  padding: 0.5rem 0.65rem;
+  border-radius: 6px;
+  background: color-mix(in srgb, var(--accent-color) 12%, var(--card-bg));
+}
+
+.play-message.is-error {
+  background: color-mix(in srgb, #ff6b6b 18%, var(--card-bg));
+  color: #ffb4b4;
+}
+
+.play-message.is-success {
+  background: color-mix(in srgb, #6bff9d 14%, var(--card-bg));
+}
+
+.play-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.75rem;
+}
+
+.play-lang-select {
+  padding: 0.45rem 0.5rem;
+  border: 1px solid var(--accent-color);
+  border-radius: 6px;
+  background: var(--bg-color);
+  color: var(--text-color);
+  cursor: pointer;
+}
+
+.play-reveal-answer-btn {
+  margin: 0.5rem 0;
+  display: inline-block;
+}
+
+/* --------------------------------
+   DRAW PAGE
+-------------------------------- */
+.draw-intro {
+  margin: 0 0 1rem;
+  opacity: 0.9;
+  max-width: 56rem;
+}
+
+.draw-workspace {
+  margin-bottom: 1.5rem;
+}
+
+.draw-workspace-toolbar {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 0.55rem;
+}
+
+#draw-side-toggle,
+#draw-clear {
+  padding: 0.4rem 0.7rem;
+  border: 1px solid var(--accent-color);
+  border-radius: 6px;
+  background: transparent;
+  color: var(--accent-color);
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+#draw-side-toggle:hover,
+#draw-clear:hover {
+  background: color-mix(in srgb, var(--accent-color) 16%, transparent);
+  color: var(--accent-color);
+}
+
+.draw-workspace-box {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background: var(--card-bg);
+  border: 1px solid var(--accent-color);
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.draw-workspace-main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  align-items: start;
+}
+
+.draw-panel-symbol,
+.draw-panel-canvas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 0;
+}
+
+.draw-workspace[data-draw-side="right"] .draw-panel-symbol {
+  order: 1;
+}
+
+.draw-workspace[data-draw-side="right"] .draw-panel-canvas {
+  order: 2;
+}
+
+.draw-workspace[data-draw-side="left"] .draw-panel-symbol {
+  order: 2;
+}
+
+.draw-workspace[data-draw-side="left"] .draw-panel-canvas {
+  order: 1;
+}
+
+.draw-symbols-section h2 {
+  margin: 0 0 0.5rem;
+  font-size: 1.05rem;
+  color: var(--accent-color);
+}
+
+.draw-canvas-wrap {
+  display: flex;
+  justify-content: center;
+  width: min(256px, 100%);
+  aspect-ratio: 1 / 1;
+}
+
+#draw-canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+  image-rendering: pixelated;
+  border: 2px solid var(--accent-color);
+  border-radius: 8px;
+  background:
+    linear-gradient(45deg, #ccc 25%, transparent 25%),
+    linear-gradient(-45deg, #ccc 25%, transparent 25%),
+    linear-gradient(45deg, transparent 75%, #ccc 75%),
+    linear-gradient(-45deg, transparent 75%, #ccc 75%);
+  background-size: 16px 16px;
+  background-position: 0 0, 0 8px, 8px -8px, -8px 0;
+  background-color: #fff;
+  cursor: crosshair;
+  touch-action: none;
+}
+
+body.ui-accent-gradient #draw-canvas 
+{
+  background-color: #fff;
+  background-image:
+    linear-gradient(45deg, #ccc 25%, transparent 25%),
+    linear-gradient(-45deg, #ccc 25%, transparent 25%),
+    linear-gradient(45deg, transparent 75%, #ccc 75%),
+    linear-gradient(-45deg, transparent 75%, #ccc 75%),
+    linear-gradient(#fff, #fff),
+    var(--accent-fade-gradient);
+  background-size:
+    16px 16px,
+    16px 16px,
+    16px 16px,
+    16px 16px,
+    auto,
+    auto;
+  background-position: 0 0, 0 8px, 8px -8px, -8px 0, 0 0, 0 0;
+  background-origin: padding-box, padding-box, padding-box, padding-box, border-box, border-box;
+  background-clip: padding-box, padding-box, padding-box, padding-box, padding-box, border-box;
+  border-color: transparent !important;
+}
+
+.draw-workspace-actions {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem 1rem;
+  overflow-x: auto;
+}
+
+.draw-tools {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 0.5rem;
+  align-items: center;
+  margin-left: auto;
+  flex-shrink: 0;
+}
+
+.draw-tool-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.9rem;
+}
+
+.draw-symbol-empty,
+.draw-symbol-preview {
+  box-sizing: border-box;
+  width: min(256px, 100%);
+  aspect-ratio: 1 / 1;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid var(--accent-color);
+  border-radius: 8px;
+  background: var(--bg-color);
+  padding: 0.5rem;
+}
+
+.draw-symbol-empty {
+  text-align: center;
+  opacity: 0.8;
+  font-size: 0.85rem;
+  padding: 0.75rem;
+}
+
+.draw-symbol-preview {
+  margin-bottom: 0.5rem;
+}
+
+.draw-symbol-preview .symbol-mask,
+.draw-symbol-preview img,
+.draw-symbol-preview canvas {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.draw-symbol-name {
+  margin: 0 0 0.35rem;
+  text-align: center;
+  font-size: 1.05rem;
+}
+
+.draw-symbol-description {
+  margin: 0;
+  text-align: center;
+  font-size: 0.85rem;
+  opacity: 0.9;
+}
+
+.draw-variants-section {
+  border-top: 1px solid color-mix(in srgb, var(--accent-color) 35%, transparent);
+  padding-top: 0.75rem;
+}
+
+.draw-variant-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+  color: var(--accent-color);
+}
+
+.draw-variant-count {
+  opacity: 0.9;
+  font-size: 0.85rem;
+  color: var(--accent-color);
+}
+
+.draw-variant-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  min-height: 4.5rem;
+}
+
+.draw-variant-item {
+  width: 64px;
+  height: 64px;
+  border: 2px solid color-mix(in srgb, var(--accent-color) 35%, transparent);
+  border-radius: 6px;
+  background: var(--bg-color);
+  padding: 0.25rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.draw-variant-item.selected {
+  border-color: var(--accent-color);
+}
+
+.draw-variant-item .symbol-mask,
+.draw-variant-item img,
+.draw-variant-item canvas {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.draw-variant-actions {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 0.5rem;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.draw-status {
+  min-height: 1.25rem;
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--accent-color);
+}
+
+.draw-symbols-section {
+  margin-top: 0.5rem;
+}
+
+.draw-symbols-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.draw-symbols-header h2 {
+  margin: 0;
+  flex: 1 1 auto;
+}
+
+.draw-symbol-search-controls {
+  display: flex;
+  align-items: stretch;
+  gap: 0.5rem;
+  flex: 1 1 16rem;
+  max-width: 32rem;
+}
+
+#draw-symbol-search {
+  min-width: 12rem;
+  max-width: none;
+  flex: 1 1 12rem;
+}
+
+.draw-symbol-grid .symbol-box.selected {
+  outline: none;
+  border-width: 2px;
+  border-color: var(--accent-color);
+  box-shadow: 0 0 0 1px var(--accent-color);
+}
+
+/* Stack only when two equal stages can no longer fit side by side */
+@media (max-width: 420px) {
+  .draw-workspace-main {
+    grid-template-columns: 1fr;
+  }
+}
+
+.play-core-layout {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.play-core-layout.has-draw-panel {
+  grid-template-columns: minmax(0, 1fr) minmax(220px, 280px);
+  align-items: start;
+}
+
+.play-core-progress {
+  margin-top: -0.25rem;
+}
+
+.play-core-draw {
+  background: var(--card-bg);
+  border: 1px solid color-mix(in srgb, var(--accent-color) 35%, transparent);
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.play-core-draw h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1rem;
+  color: var(--accent-color);
+}
+
+.play-core-draw-canvas-wrap {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0.75rem;
+}
+
+.play-core-draw-canvas {
+  width: 200px;
+  height: 200px;
+  image-rendering: pixelated;
+  border: 2px dashed color-mix(in srgb, var(--accent-color) 55%, transparent);
+  border-radius: 8px;
+  background-color: #fff;
+  cursor: crosshair;
+  touch-action: none;
+}
+
+.play-core-draw-tools {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+@media (max-width: 860px) {
+  .play-core-layout.has-draw-panel {
+    grid-template-columns: 1fr;
+  }
 }

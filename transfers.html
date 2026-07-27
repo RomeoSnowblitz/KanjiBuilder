@@ -4,20 +4,23 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Kanji Builder</title>
-  <link rel="stylesheet" href="style.css" />
-  <script src="translations.js"></script>
-  <script defer src="symbols.js"></script>
-  <script defer src="script.js"></script>
+  <link rel="stylesheet" href="style.css?v=0.5.1" />
+  <script src="translations.js?v=0.5.1"></script>
+  <script defer src="symbols.js?v=0.5.1"></script>
+  <script defer src="script.js?v=0.5.1"></script>
 </head>
 <body data-page="transfers">
   <header class="navbar">
     <nav>
       <a href="index.html" data-i18n="nav.home">Home</a>
       <a href="create.html" data-i18n="nav.create">Create</a>
+      <a href="draw.html" data-i18n="nav.draw">Draw</a>
       <a href="dictionary.html" data-i18n="nav.dictionary">Dictionary</a>
+      <a href="web.html" data-i18n="nav.web">Web</a>
       <a href="write.html" data-i18n="nav.write">Write</a>
-      <a href="transfers.html" class="active" data-i18n="nav.transfers">Transfers</a>
+      <a href="play.html" data-i18n="nav.play">Play</a>
       <a href="comments.html" data-i18n="nav.comments">Comments</a>
+      <a href="transfers.html" class="active" data-i18n="nav.transfers">Transfers</a>
     </nav>
     <div class="navbar-right">
       <div class="lang-wrapper">
@@ -36,47 +39,76 @@
     </div>
   </header>
   <main>
-    <span class="app-version">v0.3</span>
-    <h1>Transfers</h1>
+    <span class="app-version">v0.5</span>
+    <h1 id="transfers-title">Transfers</h1>
 
     <section class="transfer-card">
-      <h2>Dictionary Export</h2>
-      <input id="transfer-word-search" type="text" placeholder="Search words..." />
-      <label><input id="transfer-full-dictionary" type="checkbox" /> Full Dictionary</label>
-      <div id="transfer-word-list" class="transfer-list"></div>
+      <h2 id="transfers-export-title">Export</h2>
+      <p id="transfers-export-hint" class="transfer-hint">
+        Export All packs dictionary words, symbol images, saved sentences, and comments into one folder archive.
+      </p>
       <div class="transfer-actions">
-        <button id="transfer-export-dictionary">Export Dictionary</button>
-        <input id="transfer-import-dictionary-file" type="file" accept=".txt,.json,.jsonl" />
-        <button id="transfer-import-dictionary">Import Dictionary</button>
+        <button type="button" id="transfer-export-all">Export All</button>
+        <button type="button" id="transfer-advanced-toggle" class="btn-secondary">Advanced Settings</button>
+        <button type="button" id="transfer-export-selected" class="hidden">Export Selected</button>
+      </div>
+
+      <div id="transfer-advanced" class="transfer-advanced hidden">
+        <section class="transfer-advanced-section">
+          <h3 id="transfers-dict-section-title">Dictionary</h3>
+          <div id="transfer-lang-filters" class="transfer-lang-filters"></div>
+          <input id="transfer-word-search" type="text" placeholder="Search words…" />
+          <label class="transfer-select-all">
+            <input id="transfer-full-dictionary" type="checkbox" />
+            <span id="transfers-full-dictionary-label">Select all words</span>
+          </label>
+          <div id="transfer-word-list" class="transfer-list"></div>
+        </section>
+
+        <section class="transfer-advanced-section">
+          <h3 id="transfers-image-section-title">Images</h3>
+          <input id="transfer-image-search" type="text" placeholder="Search symbols…" />
+          <label class="transfer-select-all">
+            <input id="transfer-full-images" type="checkbox" />
+            <span id="transfers-full-images-label">Select all images</span>
+          </label>
+          <p id="transfers-image-hint" class="transfer-hint">Click a symbol to open variants, then select images to export.</p>
+          <div id="transfer-image-list" class="transfer-list"></div>
+        </section>
+
+        <section class="transfer-advanced-section">
+          <h3 id="transfers-sentence-section-title">Sentences</h3>
+          <input id="transfer-sentence-search" type="text" placeholder="Search sentences…" />
+          <label class="transfer-select-all">
+            <input id="transfer-full-sentences" type="checkbox" />
+            <span id="transfers-full-sentences-label">Select all sentences</span>
+          </label>
+          <div id="transfer-sentence-list" class="transfer-list"></div>
+        </section>
+
+        <section class="transfer-advanced-section">
+          <h3 id="transfers-comment-section-title">Comments</h3>
+          <input id="transfer-comment-search" type="text" placeholder="Search comments…" />
+          <label class="transfer-select-all">
+            <input id="transfer-full-comments" type="checkbox" />
+            <span id="transfers-full-comments-label">Select all comments</span>
+          </label>
+          <div id="transfer-comment-list" class="transfer-list"></div>
+        </section>
       </div>
     </section>
 
     <section class="transfer-card">
-      <h2>Image Export</h2>
-      <input id="transfer-image-search" type="text" placeholder="Search symbols..." />
-      <label><input id="transfer-full-images" type="checkbox" /> Full Images</label>
-      <label><input id="transfer-save-image-settings" type="checkbox" checked /> Save Image Settings</label>
-      <p class="transfer-hint">Click a symbol to open image variants, then click variants to select them.</p>
-      <div id="transfer-image-list" class="transfer-list"></div>
+      <h2 id="transfers-import-title">Import</h2>
+      <p id="transfers-import-hint" class="transfer-hint">
+        Import a transfer folder archive (.zip), a folder, or a legacy .json package. Exact duplicates are skipped.
+      </p>
+      <div id="transfer-dropzone" class="transfer-dropzone" tabindex="0">Drop transfer file or folder here</div>
       <div class="transfer-actions">
-        <button id="transfer-export-images">Export Images</button>
-        <input id="transfer-import-images-file" type="file" accept=".json,.txt" />
-        <button id="transfer-import-images">Import Images</button>
-      </div>
-    </section>
-
-    <section class="transfer-card">
-      <h2>Export All</h2>
-      <button id="transfer-export-all">Export All</button>
-    </section>
-
-    <section class="transfer-card">
-      <h2>Import Transfer File</h2>
-      <p class="transfer-hint">Drop a transfer .json file here, or choose one manually.</p>
-      <div id="transfer-dropzone" class="transfer-dropzone" tabindex="0">Drop .json here</div>
-      <div class="transfer-actions">
-        <input id="transfer-import-file" type="file" accept=".json" />
-        <button id="transfer-import-file-btn">Import Transfer File</button>
+        <input id="transfer-import-file" class="transfer-file-input" type="file" accept=".zip,.json,application/zip,application/json" />
+        <input id="transfer-import-folder" class="transfer-file-input" type="file" webkitdirectory multiple />
+        <button type="button" id="transfer-import-file-btn">Import File</button>
+        <button type="button" id="transfer-import-folder-btn">Import Folder</button>
       </div>
     </section>
   </main>

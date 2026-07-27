@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kanji Builder</title>
+  <link rel="stylesheet" href="style.css?v=0.5.1" />
+  <script src="translations.js?v=0.5.1"></script>
+  <script defer src="symbols.js?v=0.5.1"></script>
+  <script defer src="world-dictionary-data.js?v=0.5.1"></script>
+  <script defer src="script.js?v=0.5.1"></script>
+</head>
+<body data-page="play">
+  <header class="navbar">
+    <nav>
+      <a href="index.html" data-i18n="nav.home">Home</a>
+      <a href="create.html" data-i18n="nav.create">Create</a>
+
+      <a href="draw.html" data-i18n="nav.draw">Draw</a>
+      <a href="dictionary.html" data-i18n="nav.dictionary">Dictionary</a>
+      <a href="web.html" data-i18n="nav.web">Web</a>
+      <a href="write.html" data-i18n="nav.write">Write</a>
+      <a href="play.html" class="active" data-i18n="nav.play">Play</a>
+      <a href="comments.html" data-i18n="nav.comments">Comments</a>
+      <a href="transfers.html" data-i18n="nav.transfers">Transfers</a>
+    </nav>
+    <div class="navbar-right">
+      <div class="lang-wrapper">
+        <button type="button" id="lang-btn">English</button>
+        <div id="lang-dropdown" class="lang-dropdown hidden">
+          <button type="button" data-lang="en">English</button>
+          <button type="button" data-lang="zh">中文</button>
+          <button type="button" data-lang="es">Español</button>
+          <button type="button" data-lang="fr">Français</button>
+          <button type="button" data-lang="ru">Русский</button>
+          <button type="button" data-lang="de">Deutsch</button>
+          <button type="button" data-lang="ja">日本語</button>
+        </div>
+      </div>
+      <button id="theme-toggle">🌙</button>
+    </div>
+  </header>
+  <main>
+    <span class="app-version">v0.5</span>
+    <h1 data-i18n="play.title">Play</h1>
+
+    <section id="play-setup" class="play-setup">
+      <div class="play-setup-top">
+        <span class="play-top-label" data-i18n="play.languages">Languages</span>
+        <div id="play-language-options" class="play-language-options"></div>
+        <label class="play-player-count-label" for="play-player-count">
+          <span data-i18n="play.playerCount">Player Count</span>
+          <input id="play-player-count" type="number" min="1" max="8" value="2" />
+        </label>
+      </div>
+
+      <h2 data-i18n="play.selectGame">Select a Game</h2>
+      <div class="play-game-list">
+        <button type="button" class="play-game-card" data-game="core-practice">
+          <strong data-i18n="play.corePracticeTitle">Core Practice</strong>
+          <span data-i18n="play.corePracticeDesc">See a core word and guess which symbol it represents.</span>
+          <em data-i18n="play.anyPlayers">Any number of players</em>
+        </button>
+        <button type="button" class="play-game-card" data-game="ladder-guesser">
+          <strong data-i18n="play.ladderGuesserTitle">Ladder Guesser</strong>
+          <span data-i18n="play.ladderGuesserDesc">One player knows the word and adds symbols; others guess.</span>
+          <em data-i18n="play.minTwoPlayers">Minimum 2 players</em>
+        </button>
+        <button type="button" class="play-game-card" data-game="guess-stamp">
+          <strong data-i18n="play.guessStampTitle">Guess That Stamp</strong>
+          <span data-i18n="play.guessStampDesc">Guess the word from a fixed set of symbols.</span>
+          <em data-i18n="play.anyPlayers">Any number of players</em>
+        </button>
+        <button type="button" class="play-game-card" data-game="manual-input">
+          <strong data-i18n="play.manualInputTitle">Manual Input</strong>
+          <span data-i18n="play.manualInputDesc">Get a random word for your languages, attach symbols, then go to the next word (or skip).</span>
+          <em data-i18n="play.anyPlayers">Any number of players</em>
+        </button>
+      </div>
+
+      <div class="play-setup-actions">
+        <button id="play-start" type="button" class="btn-primary" data-i18n="play.startGame">Start Game</button>
+        <p id="play-setup-error" class="play-error hidden"></p>
+      </div>
+    </section>
+
+    <section id="play-game" class="play-game hidden">
+      <div class="play-game-toolbar">
+        <button id="play-back" type="button" class="btn-secondary" data-i18n="play.backToMenu">Back to Menu</button>
+        <h2 id="play-active-game-title"></h2>
+        <label class="play-context-toggle" title="">
+          <input id="play-context-toggle" type="checkbox" />
+          <span id="play-context-toggle-label" data-i18n="play.contextOption">Context</span>
+        </label>
+      </div>
+      <div id="play-scoreboard" class="play-scoreboard"></div>
+      <div id="play-game-panel" class="play-game-panel"></div>
+    </section>
+  </main>
+</body>
+</html>

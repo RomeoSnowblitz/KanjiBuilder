@@ -4,9 +4,9 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Kanji Builder</title>
-  <link rel="stylesheet" href="style.css" />
-  <script src="translations.js"></script>
-  <script defer src="script.js"></script>
+  <link rel="stylesheet" href="style.css?v=0.5.1" />
+  <script src="translations.js?v=0.5.1"></script>
+  <script defer src="script.js?v=0.5.1"></script>
 </head>
 <body data-page="home">
   <!-- Navigation bar appears on every page -->
@@ -14,10 +14,13 @@
     <nav>
       <a href="index.html" class="active" data-i18n="nav.home">Home</a>
       <a href="create.html" data-i18n="nav.create">Create</a>
+      <a href="draw.html" data-i18n="nav.draw">Draw</a>
       <a href="dictionary.html" data-i18n="nav.dictionary">Dictionary</a>
+      <a href="web.html" data-i18n="nav.web">Web</a>
       <a href="write.html" data-i18n="nav.write">Write</a>
-      <a href="transfers.html" data-i18n="nav.transfers">Transfers</a>
+      <a href="play.html" data-i18n="nav.play">Play</a>
       <a href="comments.html" data-i18n="nav.comments">Comments</a>
+      <a href="transfers.html" data-i18n="nav.transfers">Transfers</a>
     </nav>
     <div class="navbar-right">
       <div class="lang-wrapper">
@@ -37,42 +40,64 @@
   </header>
 
   <main>
-    <span class="app-version">v0.3</span>
+    <span class="app-version">v0.5</span>
     <h1 data-i18n="home.welcomeTitle">Welcome!</h1>
-    <p data-i18n="home.welcomeIntro">
-      Use the Create page to combine two main objects (with optional effects) into a defined word.
-    </p>
+    <div class="home-intro">
+      <p data-i18n="home.welcomeIntro">
+        This app intends to make a universal writing system by applying easy to write and read symbols that are consistent across all languages, allowing you to read a language without ever learning it.
+      </p>
+      <p data-i18n="home.welcomeFirstTime">
+        If this is your first time I would recommend starting in either Play (Core Practice) or Draw, as you'll need to get used to how the words are used. Also note that in the top left you can create a Username (changeable at any time).
+      </p>
+      <p data-i18n="home.welcomeTopBar">
+        The Top Bar has all of the tabs that you could need, and you can even customize the UI Color as you feel, change the UI Language to the supported languages, and switch between Light and Dark Mode.
+      </p>
+    </div>
 
-    <section>
-      <h2 data-i18n="home.rulesTitle">Rules &amp; Guidelines</h2>
-      <ul>
-        <li data-i18n="home.rule1">No inappropriate, offensive, or unsafe language.</li>
-        <li data-i18n="home.rule2">Each submission uses two main slots (left and right); each main object can have up to two effects.</li>
-        <li data-i18n="home.rule3">Duplicate or rule-breaking words may be removed.</li>
-      </ul>
-    </section>
-
-    <section>
-      <h2 data-i18n="home.howTitle">How It Works</h2>
-      <ol>
+    <section class="home-features">
+      <h2 data-i18n="home.featuresTitle">Pages &amp; Features</h2>
+      <ul class="home-feature-list">
         <li>
-          <strong data-i18n="home.howStep1Title">To create a word, go to the Create page:</strong>
-          <ul>
-            <li data-i18n-html="home.howStep1Bullet1"></li>
-            <li data-i18n-html="home.howStep1Bullet2"></li>
-            <li data-i18n-html="home.howStep1Bullet3"></li>
-          </ul>
+          <a href="create.html"><strong class="home-feature-title" data-i18n="nav.create">Create</strong></a>
+          <span class="home-feature-sep" aria-hidden="true"> - </span>
+          <span class="home-feature-desc" data-i18n="home.featureCreate">This tab is used for adding new words that may not be in the Dictionary, then you can add symbols that can help describe the word. Example: a white, black, cold, winged animal is very likely to be guessed as a penguin. When finished you can click "Submit Word" to add it to the Dictionary.</span>
         </li>
-        <li data-i18n-html="home.howStep2">
-          When you have objects in the drop box, you can enter a one-word definition and send it to the dictionary. In the drop box only images show; hover over a symbol to see its name. Use <strong>Search symbols</strong> to find symbols—and if you don’t see the word you want, right-click a symbol and add it to <strong>Extras</strong> so it appears in Search symbols. In the drop box: left-click an effect to remove only that effect; left-click a main object to remove the main object and all effects attached to it.
+        <li>
+          <a href="draw.html"><strong class="home-feature-title" data-i18n="nav.draw">Draw</strong></a>
+          <span class="home-feature-sep" aria-hidden="true"> - </span>
+          <span class="home-feature-desc" data-i18n="home.featureDraw">Draw is a good way to check and modify any symbols that you may disagree with. If you think you can draw a better representation for an image I encourage you to try it. Note that the look of the symbols is more important to the user to make it easy for them to remember, but the meaning of the symbol is something that cannot change.</span>
         </li>
-        <li data-i18n-html="home.howStep3">
-          You need at least two symbols to make a word. The two allowed minimums are: <strong>1 main object and 1 effect</strong>, OR <strong>2 main objects with no effects</strong>. When you submit, you’ll get a notification that your word was added. In the <strong>Dictionary</strong> you can search all your words and right-click a word to add a note if you’d like.
+        <li>
+          <a href="dictionary.html"><strong class="home-feature-title" data-i18n="nav.dictionary">Dictionary</strong></a>
+          <span class="home-feature-sep" aria-hidden="true"> - </span>
+          <span class="home-feature-desc" data-i18n="home.featureDictionary">I've imported a lot of words for 7 languages from a CEFR A1–B2 level. This will give users a huge template of words that need revision and symbol adding. To make it more fun than manual labor is the reason that I added Play. There is almost 1 million words, so the dictionary may take a couple seconds to load.</span>
         </li>
-        <li data-i18n-html="home.howStep4">
-          After you’ve made some words, share questions, thoughts, or concerns in the <strong>Comments</strong> section. You can post there and others can vote to help prioritize issues.
+        <li>
+          <a href="web.html"><strong class="home-feature-title" data-i18n="nav.web">Web</strong></a>
+          <span class="home-feature-sep" aria-hidden="true"> - </span>
+          <span class="home-feature-desc" data-i18n="home.featureWeb">A homograph is a word that has the same spelling as another word but has a different sound and a different meaning. Looking at a word alone it's impossible to tell which word you are looking at. Web Search organizes words by their assigned symbols so "lead" (to guide) can have a person symbol, while "lead" (the element) can have the metal symbol.</span>
         </li>
-      </ol>
+        <li>
+          <a href="write.html"><strong class="home-feature-title" data-i18n="nav.write">Write</strong></a>
+          <span class="home-feature-sep" aria-hidden="true"> - </span>
+          <span class="home-feature-desc" data-i18n="home.featureWrite">Input or paste a language (note that currently Japanese and Chinese require spaces between words). If the output seems wrong, and you notice that a word is underlined, click on the word and a list hopefully containing the right word will be there; then after all the corrections are made hit "Save Sentence contexts" and the app will remember so that if anyone else types that sentence again it will remember to use the right context.</span>
+        </li>
+        <li>
+          <a href="play.html"><strong class="home-feature-title" data-i18n="nav.play">Play</strong></a>
+          <span class="home-feature-sep" aria-hidden="true"> - </span>
+          <span class="home-feature-desc" data-i18n="home.featurePlay">Core Practice is a good way to see how well you remember all of the most important symbols. All games created are a fun way to fill all the dictionaries and their symbols.</span>
+        </li>
+        <li>
+          <a href="comments.html"><strong class="home-feature-title" data-i18n="nav.comments">Comments</strong></a>
+          <span class="home-feature-sep" aria-hidden="true"> - </span>
+          <span class="home-feature-desc" data-i18n="home.featureComments">If you find any bugs, or have any questions, or suggestions that you think should be added, changed, or removed, you can write about it here. Other users will be able to reply.</span>
+        </li>
+        <li>
+          <a href="transfers.html"><strong class="home-feature-title" data-i18n="nav.transfers">Transfers</strong></a>
+          <span class="home-feature-sep" aria-hidden="true"> - </span>
+          <span class="home-feature-desc" data-i18n="home.featureTransfers">Currently everything is completely off the grid: there is no server, or internet required to use this app. This means that all of the changes you make can only be seen by you. However if you export a file and then send it to someone else and then they import it, then all of the information will be combined together. I plan to import a lot of feedback from other people and then update the project, then everyone can download and either use that version, or import the new version into their current version (recommended to minimize work loss).</span>
+        </li>
+      </ul>
     </section>
   </main>
 
@@ -97,5 +122,3 @@
 
 </body>
 </html>
-
-

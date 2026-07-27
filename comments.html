@@ -4,18 +4,23 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Kanji Builder</title>
-  <link rel="stylesheet" href="style.css" />
-  <script src="translations.js"></script>
+  <link rel="stylesheet" href="style.css?v=0.5.1" />
+  <script src="translations.js?v=0.5.1"></script>
+  <script defer src="script.js?v=0.5.1"></script>
 </head>
 <body data-page="comments">
   <header class="navbar">
     <nav>
       <a href="index.html" data-i18n="nav.home">Home</a>
       <a href="create.html" data-i18n="nav.create">Create</a>
+
+      <a href="draw.html" data-i18n="nav.draw">Draw</a>
       <a href="dictionary.html" data-i18n="nav.dictionary">Dictionary</a>
+      <a href="web.html" data-i18n="nav.web">Web</a>
       <a href="write.html" data-i18n="nav.write">Write</a>
-      <a href="transfers.html" data-i18n="nav.transfers">Transfers</a>
+      <a href="play.html" data-i18n="nav.play">Play</a>
       <a href="comments.html" class="active" data-i18n="nav.comments">Comments</a>
+      <a href="transfers.html" data-i18n="nav.transfers">Transfers</a>
     </nav>
     <div class="navbar-right">
       <div class="lang-wrapper">
@@ -35,11 +40,16 @@
   </header>
 
   <main>
-    <span class="app-version">v0.4</span>
+    <span class="app-version">v0.5</span>
     <h1 data-i18n="comments.commentsTitle">Comments & Ideas</h1>
 
+    <section class="comment-thread-nav hidden" id="comment-thread-nav">
+      <button id="comment-back-btn" type="button" class="comment-back-btn">← All comments</button>
+      <p id="comment-thread-parent" class="comment-thread-parent"></p>
+    </section>
+
     <section class="comment-input">
-      <label for="comment-text" data-i18n="comments.shareLabel">Share an idea:</label>
+      <label for="comment-text" id="comment-input-label" data-i18n="comments.shareLabel">Share an idea:</label>
       <textarea id="comment-text" maxlength="500" data-i18n-placeholder="comments.sharePlaceholder" placeholder="Share an idea (max 500 chars)…"></textarea>
       <button id="submit-comment" class="btn-primary" data-i18n="comments.postComment">Post Comment</button>
     </section>
@@ -47,11 +57,18 @@
     <section id="comment-list" class="comment-list"></section>
   </main>
 
-  <script defer src="script.js"></script>
-  <!-- Firebase SDK -->
   <script type="module">
     import { initializeApp } from "https://www.gstatic.com/firebasejs/12.5.0/firebase-app.js";
-    import { getFirestore, collection, addDoc, getDocs, updateDoc, doc, onSnapshot, query, orderBy, deleteDoc } from "https://www.gstatic.com/firebasejs/12.5.0/firebase-firestore.js";
+    import {
+      getFirestore,
+      collection,
+      addDoc,
+      updateDoc,
+      doc,
+      onSnapshot,
+      deleteDoc,
+      increment,
+    } from "https://www.gstatic.com/firebasejs/12.5.0/firebase-firestore.js";
 
     const firebaseConfig = {
       apiKey: "AIzaSyAY1speZsp510IcpIjAvwSa8MgdaCbKSqQ",
@@ -63,129 +80,410 @@
       measurementId: "G-VFGJ3GSXLR"
     };
 
-    const app = initializeApp(firebaseConfig);
-    const db = getFirestore(app);
-    const commentsCol = collection(db, "comments");
-    const adminPassword = "admin123";
+    const COMMENTS_KEY = "kanjiBuilderComments";
+    const COMMENT_VOTES_KEY = "commentUserVotes";
 
     const commentInput = document.getElementById("comment-text");
     const submitBtn = document.getElementById("submit-comment");
     const commentList = document.getElementById("comment-list");
+    const commentInputLabel = document.getElementById("comment-input-label");
+    const threadNav = document.getElementById("comment-thread-nav");
+    const threadParent = document.getElementById("comment-thread-parent");
+    const backBtn = document.getElementById("comment-back-btn");
 
-    const voteCooldown = 5 * 60 * 1000; // 5 minutes
-    const userVotes = {}; // store last vote timestamp per comment ID
+    let allComments = [];
+    let activeParentId = null;
+    let firebaseReady = false;
+    let commentsCol = null;
+    let db = null;
 
     function tr(path) {
       return (typeof window.getTranslation === "function" ? window.getTranslation(path) : path);
     }
+
+    function getAuthorName() {
+      if (typeof window.getCurrentAuthorName === "function") return window.getCurrentAuthorName();
+      const stored = (localStorage.getItem("kanjiBuilderUsername") || "").trim();
+      return stored || "Anonymous";
+    }
+
+    function loadLocalComments() {
+      try {
+        const parsed = JSON.parse(localStorage.getItem(COMMENTS_KEY) || "[]");
+        return Array.isArray(parsed) ? parsed : [];
+      } catch (err) {
+        return [];
+      }
+    }
+
+    function saveLocalComments(list) {
+      localStorage.setItem(COMMENTS_KEY, JSON.stringify(list));
+    }
+
+    function makeCommentId() {
+      return "c_" + Date.now().toString(36) + "_" + Math.random().toString(36).slice(2, 8);
+    }
+
+    function loadUserVotes() {
+      try {
+        const parsed = JSON.parse(localStorage.getItem(COMMENT_VOTES_KEY) || "{}");
+        return parsed && typeof parsed === "object" ? parsed : {};
+      } catch (err) {
+        return {};
+      }
+    }
+
+    function saveUserVotes(votes) {
+      localStorage.setItem(COMMENT_VOTES_KEY, JSON.stringify(votes));
+    }
+
+    function getUserVote(commentId) {
+      const votes = loadUserVotes();
+      const value = votes[commentId];
+      return value === 1 || value === -1 ? value : 0;
+    }
+
+    function setUserVote(commentId, value) {
+      const votes = loadUserVotes();
+      if (value === 1 || value === -1) votes[commentId] = value;
+      else delete votes[commentId];
+      saveUserVotes(votes);
+    }
+
+    function formatCommentTime(value) {
+      if (!value) return "";
+      const date = new Date(value);
+      if (Number.isNaN(date.getTime())) return "";
+      return date.toLocaleString();
+    }
+
+    function getParentId(comment) {
+      return comment && comment.parentId ? String(comment.parentId) : null;
+    }
+
+    function countReplies(commentId) {
+      return allComments.filter((item) => getParentId(item) === commentId).length;
+    }
+
+    function persistComments() {
+      saveLocalComments(allComments);
+    }
+
+    function mergeRemoteComments(remoteList) {
+      if (!Array.isArray(remoteList) || !remoteList.length) return;
+      const byId = new Map();
+      allComments.forEach((item) => byId.set(String(item.id), item));
+      remoteList.forEach((remote) => {
+        const id = String(remote.id);
+        const local = byId.get(id);
+        if (!local) {
+          byId.set(id, remote);
+          return;
+        }
+        const localScore = Number(local.score) || 0;
+        const remoteScore = Number(remote.score) || 0;
+        const localCreated = Number(local.created) || 0;
+        const remoteCreated = Number(remote.created) || 0;
+        byId.set(id, Object.assign({}, local, remote, {
+          score: Math.max(localScore, remoteScore),
+          created: localCreated || remoteCreated,
+          createdBy: local.createdBy || remote.createdBy || "Anonymous",
+          text: local.text || remote.text || "",
+          parentId: local.parentId != null ? local.parentId : (remote.parentId || null),
+        }));
+      });
+      allComments = Array.from(byId.values());
+      persistComments();
+    }
+
+    function fillTr(path, vars) {
+      let text = tr(path) || "";
+      if (vars) {
+        Object.keys(vars).forEach((key) => {
+          text = String(text).split("{" + key + "}").join(String(vars[key]));
+        });
+      }
+      return text;
+    }
+
+    function updateComposerLabel() {
+      if (!commentInputLabel) return;
+      if (activeParentId) {
+        commentInputLabel.textContent = tr("comments.replyLabel") || "Reply:";
+        if (commentInput) commentInput.placeholder = tr("comments.replyPlaceholder") || "Write a reply (max 500 characters)…";
+        if (submitBtn) submitBtn.textContent = tr("comments.postReply") || "Post Reply";
+      } else {
+        commentInputLabel.textContent = tr("comments.shareLabel") || "Share an idea:";
+        if (commentInput) {
+          commentInput.placeholder = tr("comments.sharePlaceholder") || "Share an idea (max 500 chars)…";
+        }
+        if (submitBtn) submitBtn.textContent = tr("comments.postComment") || "Post Comment";
+      }
+    }
+
+    function openReplies(parentId) {
+      activeParentId = parentId;
+      if (commentInput) commentInput.value = "";
+      updateComposerLabel();
+      renderComments();
+    }
+
+    function closeReplies() {
+      activeParentId = null;
+      updateComposerLabel();
+      renderComments();
+    }
+
     async function postComment() {
       const text = commentInput.value.trim();
       if (!text) return alert(tr("comments.pleaseComment"));
       if (text.length > 500) return alert(tr("comments.commentTooLong"));
 
-      await addDoc(commentsCol, {
+      const payload = {
+        id: makeCommentId(),
         text,
         score: 0,
-        created: Date.now()
-      });
-
+        created: Date.now(),
+        createdBy: getAuthorName(),
+        parentId: activeParentId || null,
+      };
+      allComments.push(payload);
+      persistComments();
       commentInput.value = "";
+      renderComments();
+
+      if (firebaseReady && commentsCol) {
+        try {
+          const remote = await addDoc(commentsCol, {
+            localId: payload.id,
+            text: payload.text,
+            score: payload.score,
+            created: payload.created,
+            createdBy: payload.createdBy,
+            parentId: payload.parentId,
+          });
+          const idx = allComments.findIndex((item) => item.id === payload.id);
+          if (idx >= 0) {
+            allComments[idx] = Object.assign({}, allComments[idx], { firebaseId: remote.id });
+            persistComments();
+          }
+        } catch (err) {
+          // Local save already succeeded; cloud sync is best-effort.
+        }
+      }
     }
 
-    function canVote(commentId) {
-      const lastVote = userVotes[commentId] || 0;
-      return Date.now() - lastVote > voteCooldown;
+    async function voteOnce(comment, direction) {
+      const existing = getUserVote(comment.id);
+      if (existing) {
+        alert(tr("comments.alreadyVoted") || "You can only vote once on each comment.");
+        return;
+      }
+      const delta = direction === "up" ? 1 : -1;
+      const idx = allComments.findIndex((item) => item.id === comment.id);
+      if (idx < 0) return;
+      allComments[idx] = Object.assign({}, allComments[idx], {
+        score: (Number(allComments[idx].score) || 0) + delta,
+      });
+      setUserVote(comment.id, delta);
+      persistComments();
+      renderComments();
+
+      if (firebaseReady && db && allComments[idx].firebaseId) {
+        try {
+          await updateDoc(doc(db, "comments", allComments[idx].firebaseId), { score: increment(delta) });
+        } catch (err) {
+          // Keep local vote.
+        }
+      }
     }
 
-    async function vote(commentId, delta) {
-      if (!canVote(commentId)) {
-        alert(tr("comments.waitVote"));
+    async function adminDeleteComment(commentId) {
+      const ok = typeof window.requireAdminPassword === "function"
+        ? window.requireAdminPassword("comments.passwordPrompt")
+        : (prompt(tr("comments.passwordPrompt")) === "admin123");
+      if (!ok) return;
+
+      const toDelete = [commentId].concat(
+        allComments.filter((item) => getParentId(item) === commentId).map((item) => item.id)
+      );
+      const firebaseIds = allComments
+        .filter((item) => toDelete.includes(item.id) && item.firebaseId)
+        .map((item) => item.firebaseId);
+
+      allComments = allComments.filter((item) => !toDelete.includes(item.id));
+      persistComments();
+      if (activeParentId === commentId) closeReplies();
+      else renderComments();
+
+      if (firebaseReady && db && firebaseIds.length) {
+        try {
+          await Promise.all(firebaseIds.map((id) => deleteDoc(doc(db, "comments", id))));
+        } catch (err) {
+          // Local delete already succeeded.
+        }
+      }
+    }
+
+    function createCommentElement(comment, options) {
+      const isReplyView = !!options.isReplyView;
+      const div = document.createElement("div");
+      div.className = "comment" + (isReplyView ? " comment-reply" : "");
+      div.dataset.id = comment.id;
+
+      const userVote = getUserVote(comment.id);
+      const replyCount = countReplies(comment.id);
+      const createdBy = comment.createdBy || "Anonymous";
+      const createdWhen = formatCommentTime(comment.created);
+
+      const text = document.createElement("p");
+      text.className = "comment-text";
+      text.textContent = comment.text || "";
+
+      const meta = document.createElement("p");
+      meta.className = "comment-meta";
+      meta.textContent = createdWhen
+        ? fillTr("comments.createdByAt", { name: createdBy, time: createdWhen })
+        : fillTr("comments.createdBy", { name: createdBy });
+
+      const controls = document.createElement("div");
+      controls.className = "controls";
+
+      const upBtn = document.createElement("button");
+      upBtn.type = "button";
+      upBtn.className = "vote-up" + (userVote === 1 ? " is-voted" : "");
+      upBtn.textContent = "↑";
+      upBtn.disabled = !!userVote;
+      upBtn.title = userVote ? "Already voted" : "Upvote";
+
+      const scoreSpan = document.createElement("span");
+      scoreSpan.className = "score";
+      scoreSpan.textContent = String(comment.score || 0);
+
+      const downBtn = document.createElement("button");
+      downBtn.type = "button";
+      downBtn.className = "vote-down" + (userVote === -1 ? " is-voted" : "");
+      downBtn.textContent = "↓";
+      downBtn.disabled = !!userVote;
+      downBtn.title = userVote ? "Already voted" : "Downvote";
+
+      controls.appendChild(upBtn);
+      controls.appendChild(scoreSpan);
+      controls.appendChild(downBtn);
+
+      if (!isReplyView) {
+        const repliesBtn = document.createElement("button");
+        repliesBtn.type = "button";
+        repliesBtn.className = "comment-replies-btn";
+        repliesBtn.textContent = fillTr("comments.replies", { n: replyCount });
+        repliesBtn.addEventListener("click", () => openReplies(comment.id));
+        controls.appendChild(repliesBtn);
+      }
+
+      div.appendChild(text);
+      div.appendChild(meta);
+      div.appendChild(controls);
+
+      div.addEventListener("contextmenu", (event) => {
+        event.preventDefault();
+        adminDeleteComment(comment.id);
+      });
+      div.title = tr("comments.rightClickDelete") || "Right-click to delete (admin)";
+
+      upBtn.addEventListener("click", () => voteOnce(comment, "up"));
+      downBtn.addEventListener("click", () => voteOnce(comment, "down"));
+
+      return div;
+    }
+
+    function renderComments() {
+      if (!commentList) return;
+      commentList.innerHTML = "";
+
+      if (activeParentId) {
+        const parent = allComments.find((item) => item.id === activeParentId);
+        if (threadNav) threadNav.classList.remove("hidden");
+        if (threadParent) {
+          threadParent.textContent = parent
+            ? fillTr("comments.replyingTo", { text: (parent.text || "").slice(0, 160) })
+            : (tr("comments.repliesTitle") || "Replies");
+        }
+        const replies = allComments
+          .filter((item) => getParentId(item) === activeParentId)
+          .sort((a, b) => (b.score || 0) - (a.score || 0) || (b.created || 0) - (a.created || 0));
+        if (!replies.length) {
+          const empty = document.createElement("p");
+          empty.className = "comment-empty";
+          empty.textContent = "No replies yet.";
+          commentList.appendChild(empty);
+        } else {
+          replies.forEach((comment) => {
+            commentList.appendChild(createCommentElement(comment, { isReplyView: true }));
+          });
+        }
         return;
       }
 
-      const commentRef = doc(db, "comments", commentId);
-      const commentSnap = await getDocs(query(commentsCol));
-      await updateDoc(commentRef, {
-        score: delta // Firebase supports atomic increments, but simplified here
-      });
-
-      userVotes[commentId] = Date.now();
-    }
-
-    async function deleteComment(commentId) {
-      if (confirm("Enter admin password to delete this comment:") === adminPassword) {
-        await deleteDoc(doc(db, "comments", commentId));
+      if (threadNav) threadNav.classList.add("hidden");
+      const topLevel = allComments
+        .filter((item) => !getParentId(item))
+        .sort((a, b) => (b.score || 0) - (a.score || 0) || (b.created || 0) - (a.created || 0));
+      if (!topLevel.length) {
+        const empty = document.createElement("p");
+        empty.className = "comment-empty";
+        empty.textContent = "No comments yet.";
+        commentList.appendChild(empty);
+        return;
       }
-    }
-
-    function renderComments(comments) {
-      commentList.innerHTML = "";
-      // Sort by score descending
-      comments.sort((a, b) => b.score - a.score);
-      comments.forEach(c => {
-        const div = document.createElement("div");
-        div.className = "comment";
-        div.dataset.id = c.id;
-
-        div.innerHTML = `
-          <p>${c.text}</p>
-          <div class="controls">
-            <button class="vote-up" type="button">↑</button>
-            <span class="score">${c.score}</span>
-            <button class="vote-down" type="button">↓</button>
-          </div>
-        `;
-
-        const upBtn = div.querySelector(".vote-up");
-        const downBtn = div.querySelector(".vote-down");
-        const scoreSpan = div.querySelector(".score");
-
-        div.addEventListener("contextmenu", (e) => {
-          e.preventDefault();
-          const pw = prompt(tr("comments.passwordPrompt"));
-          if (pw === adminPassword) {
-            deleteDoc(doc(db, "comments", c.id));
-          } else if (pw !== null) {
-            alert(tr("comments.incorrectPassword"));
-          }
-        });
-        div.title = tr("comments.rightClickDelete");
-
-        upBtn.addEventListener("click", async () => {
-          if (!canVote(c.id)) return alert(tr("comments.waitVote"));
-          const commentRef = doc(db, "comments", c.id);
-          await updateDoc(commentRef, { score: c.score + 1 });
-          userVotes[c.id] = Date.now();
-        });
-
-        downBtn.addEventListener("click", async () => {
-          if (!canVote(c.id)) return alert(tr("comments.waitVote"));
-          const commentRef = doc(db, "comments", c.id);
-          const newScore = c.score - 1;
-          await updateDoc(commentRef, { score: newScore });
-          if (newScore <= -3) {
-            await deleteDoc(commentRef);
-          }
-          userVotes[c.id] = Date.now();
-        });
-
-        commentList.appendChild(div);
+      topLevel.forEach((comment) => {
+        commentList.appendChild(createCommentElement(comment, { isReplyView: false }));
       });
     }
 
-    // Real-time listener
-    onSnapshot(commentsCol, snapshot => {
-      const comments = [];
-      snapshot.forEach(doc => {
-        comments.push({ id: doc.id, ...doc.data() });
+    allComments = loadLocalComments();
+    renderComments();
+    updateComposerLabel();
+
+    if (submitBtn) submitBtn.addEventListener("click", postComment);
+    if (backBtn) {
+      backBtn.textContent = tr("comments.allComments") || "← All comments";
+      backBtn.addEventListener("click", closeReplies);
+    }
+
+    try {
+      const app = initializeApp(firebaseConfig);
+      db = getFirestore(app);
+      commentsCol = collection(db, "comments");
+      firebaseReady = true;
+      onSnapshot(commentsCol, (snapshot) => {
+        const remote = [];
+        snapshot.forEach((snap) => {
+          const data = snap.data() || {};
+          remote.push({
+            id: data.localId || snap.id,
+            firebaseId: snap.id,
+            text: data.text || "",
+            score: data.score || 0,
+            created: data.created || 0,
+            createdBy: data.createdBy || "Anonymous",
+            parentId: data.parentId || null,
+          });
+        });
+        // Never wipe local comments with an empty/failed cloud snapshot.
+        if (remote.length) {
+          mergeRemoteComments(remote);
+          if (activeParentId && !allComments.some((item) => item.id === activeParentId)) {
+            activeParentId = null;
+            updateComposerLabel();
+          }
+          renderComments();
+        }
+      }, () => {
+        // Ignore listener errors; localStorage remains source of truth.
       });
-      renderComments(comments);
-    });
-
-    submitBtn.addEventListener("click", postComment);
-
+    } catch (err) {
+      firebaseReady = false;
+    }
   </script>
 </body>
 </html>
-
-
