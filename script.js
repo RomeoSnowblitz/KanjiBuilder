@@ -7,13 +7,16 @@
 // -------------------------------
 const LANG_STORAGE_KEY = "appLang";
 const LANGUAGES = {
-  en: "English",
   zh: "中文",
   es: "Español",
-  fr: "Français",
+  en: "English",
+  pt: "Português",
   ru: "Русский",
-  de: "Deutsch",
   ja: "日本語",
+  ko: "한국어",
+  de: "Deutsch",
+  fr: "Français",
+  it: "Italiano",
 };
 const USERNAME_STORAGE_KEY = "kanjiBuilderUsername";
 const ANONYMOUS_NAME = "Anonymous";
@@ -109,6 +112,9 @@ const USERNAME_UI_TEXTS = {
   ru: { empty: "[Нажмите здесь, чтобы создать имя]", title: "Имя пользователя", label: "Имя:", anonymous: "Остаться анонимным", save: "Сохранить", close: "Закрыть" },
   de: { empty: "[Hier klicken, um einen Namen zu erstellen]", title: "Benutzername", label: "Name:", anonymous: "Anonym bleiben", save: "Speichern", close: "Schließen" },
   ja: { empty: "[ここをクリックしてユーザー名を作成]", title: "ユーザー名", label: "名前：", anonymous: "匿名にする", save: "保存", close: "閉じる" },
+  it: { empty: "[Clicca qui per creare un nome utente]", title: "Nome utente", label: "Nome:", anonymous: "Resta anonimo", save: "Salva", close: "Chiudi" },
+  pt: { empty: "[Clique aqui para criar um nome de usuário]", title: "Nome de usuário", label: "Nome:", anonymous: "Ficar anônimo", save: "Salvar", close: "Fechar" },
+  ko: { empty: "[여기를 클릭해 사용자 이름을 만드세요]", title: "사용자 이름", label: "이름:", anonymous: "익명으로 유지", save: "저장", close: "닫기" },
 };
 
 function getStoredUsername() {
@@ -857,8 +863,10 @@ function getNested(obj, path) {
 
 function getTranslation(path) {
   const lang = getStoredLang();
-  const t = window.TRANSLATIONS && (window.TRANSLATIONS[lang] || window.TRANSLATIONS.en);
-  const val = t ? getNested(t, path) : null;
+  const pack = window.TRANSLATIONS || {};
+  const t = pack[lang] || pack.en;
+  let val = t ? getNested(t, path) : null;
+  if (val == null && pack.en && lang !== "en") val = getNested(pack.en, path);
   return val != null ? val : path;
 }
 
@@ -990,12 +998,240 @@ function makeEntryId() {
   return "e_" + Date.now().toString(36) + "_" + Math.random().toString(36).slice(2, 10);
 }
 
+const WORD_ID_COUNTER_KEY = "kanjiBuilderWordIdCounter";
+const CROSS_WORD_ID_MAP_KEY = "kanjiBuilderCrossWordIds";
+let worldLineIdIndexCache = null;
+
+function getWorldDictionaryRowCount() {
+  return Array.isArray(window.WORLD_DICTIONARY_ROWS) ? window.WORLD_DICTIONARY_ROWS.length : 0;
+}
+
+/** Stable World Dictionary IDs: 1-based row index (append-only; never reuse gaps). */
+function buildWorldLineIdIndex() {
+  if (worldLineIdIndexCache) return worldLineIdIndexCache;
+  const map = new Map();
+  const rows = Array.isArray(window.WORLD_DICTIONARY_ROWS) ? window.WORLD_DICTIONARY_ROWS : [];
+  rows.forEach((line, index) => {
+    if (line != null && !map.has(line)) map.set(line, index + 1);
+  });
+  worldLineIdIndexCache = map;
+  return map;
+}
+
+function getWorldLineWordId(line) {
+  if (!line) return 0;
+  const id = buildWorldLineIdIndex().get(line);
+  return id || 0;
+}
+
+let crossWordIdMapCache = null;
+
+function loadCrossWordIdMap() {
+  if (crossWordIdMapCache) return crossWordIdMapCache;
+  try {
+    const parsed = JSON.parse(localStorage.getItem(CROSS_WORD_ID_MAP_KEY) || "{}");
+    crossWordIdMapCache = parsed && typeof parsed === "object" ? parsed : {};
+  } catch {
+    crossWordIdMapCache = {};
+  }
+  return crossWordIdMapCache;
+}
+
+function saveCrossWordIdMap(map) {
+  crossWordIdMapCache = map || {};
+  try {
+    localStorage.setItem(CROSS_WORD_ID_MAP_KEY, JSON.stringify(crossWordIdMapCache));
+  } catch (err) {
+    console.warn("Could not persist cross-pair word IDs", err);
+  }
+}
+
+function getStoredWordIdCounter() {
+  const n = parseInt(localStorage.getItem(WORD_ID_COUNTER_KEY) || "0", 10);
+  return Number.isFinite(n) && n > 0 ? n : 0;
+}
+
+function isPlausibleWordId(value) {
+  const n = parseInt(value, 10);
+  return Number.isFinite(n) && n > 0 && n < 1000000000;
+}
+
+function parseDictionaryIdQuery(raw) {
+  const trimmed = String(raw == null ? "" : raw).trim();
+  if (!/^\d+$/.test(trimmed)) return 0;
+  const n = parseInt(trimmed, 10);
+  return Number.isFinite(n) && n > 0 ? n : 0;
+}
+
+function getCrossWordIdMapMax() {
+  const map = loadCrossWordIdMap();
+  let max = 0;
+  Object.keys(map || {}).forEach((key) => {
+    const n = parseInt(map[key], 10);
+    if (isPlausibleWordId(n) && n > max) max = n;
+  });
+  return max;
+}
+
+function getHighestWordId(entries) {
+  let max = getWorldDictionaryRowCount();
+  (entries || []).forEach((entry) => {
+    const n = entry && parseInt(entry.wordId, 10);
+    if (isPlausibleWordId(n) && n > max) max = n;
+  });
+  const stored = getStoredWordIdCounter();
+  if (isPlausibleWordId(stored) && stored > max) max = stored;
+  const crossMax = getCrossWordIdMapMax();
+  if (crossMax > max) max = crossMax;
+  return max;
+}
+
+/** Drop only implausible/hash IDs. Keep real world, local, and cross-pair ID#s. */
+function sanitizeWordIdState(entries) {
+  const map = loadCrossWordIdMap();
+  let mapChanged = false;
+  Object.keys(map || {}).forEach((key) => {
+    if (!isPlausibleWordId(map[key])) {
+      delete map[key];
+      mapChanged = true;
+    }
+  });
+  if (mapChanged) saveCrossWordIdMap(map);
+
+  let realMax = getWorldDictionaryRowCount();
+  (entries || []).forEach((entry) => {
+    if (!entry || entry.isCore) return;
+    const n = parseInt(entry.wordId, 10);
+    if (entry.wordId != null && String(entry.wordId) !== "" && !isPlausibleWordId(n)) {
+      delete entry.wordId;
+      return;
+    }
+    if (isPlausibleWordId(n) && n > realMax) realMax = n;
+  });
+  const crossMax = getCrossWordIdMapMax();
+  if (crossMax > realMax) realMax = crossMax;
+  const stored = getStoredWordIdCounter();
+  if (!isPlausibleWordId(stored) || stored > realMax + 100000) {
+    localStorage.setItem(WORD_ID_COUNTER_KEY, String(realMax));
+  }
+}
+
+/** Allocate a new unique word ID# (always max+1; never fill gaps). */
+function allocateNewWordId(entries) {
+  const next = getHighestWordId(entries) + 1;
+  localStorage.setItem(WORD_ID_COUNTER_KEY, String(next));
+  return next;
+}
+
+function crossIdKeyFrom(entryOrLine) {
+  if (!entryOrLine) return "";
+  if (typeof entryOrLine === "object") {
+    const pairId = entryOrLine.pairId || "";
+    const leftId = typeof getWorldLineWordId === "function" ? getWorldLineWordId(entryOrLine.leftLine || "") : 0;
+    const rightId = typeof getWorldLineWordId === "function" ? getWorldLineWordId(entryOrLine.rightLine || "") : 0;
+    if (pairId && leftId && rightId) {
+      return ["CROSSID", pairId, leftId, rightId, entryOrLine.pos || ""].join(":");
+    }
+    if (entryOrLine.worldLine) return String(entryOrLine.worldLine);
+    if (typeof encodeCrossWorldLine === "function") return encodeCrossWorldLine(entryOrLine);
+    return "";
+  }
+  return String(entryOrLine);
+}
+
+function peekCrossWordId(entryOrLine) {
+  const key = crossIdKeyFrom(entryOrLine);
+  if (!key) return 0;
+  const map = loadCrossWordIdMap();
+  const existing = parseInt(map[key], 10);
+  if (isPlausibleWordId(existing)) return existing;
+  if (typeof entryOrLine === "object" && entryOrLine.worldLine && entryOrLine.worldLine !== key) {
+    const legacy = parseInt(map[entryOrLine.worldLine], 10);
+    if (isPlausibleWordId(legacy)) return legacy;
+  }
+  if (typeof entryOrLine === "string") {
+    const direct = parseInt(map[entryOrLine], 10);
+    if (isPlausibleWordId(direct)) return direct;
+  }
+  return 0;
+}
+
+function beginCrossWordIdAssignment(entries) {
+  return {
+    map: Object.assign({}, loadCrossWordIdMap()),
+    next: getHighestWordId(entries),
+    dirty: false,
+  };
+}
+
+function allocateCrossWordId(entryOrLine, state) {
+  if (!state || !state.map) return peekCrossWordId(entryOrLine);
+  const key = crossIdKeyFrom(entryOrLine);
+  if (!key) return 0;
+  const existing = parseInt(state.map[key], 10);
+  if (isPlausibleWordId(existing)) return existing;
+  if (typeof entryOrLine === "object" && entryOrLine.worldLine && entryOrLine.worldLine !== key) {
+    const legacy = parseInt(state.map[entryOrLine.worldLine], 10);
+    if (isPlausibleWordId(legacy)) {
+      state.map[key] = legacy;
+      state.dirty = true;
+      return legacy;
+    }
+  }
+  state.next += 1;
+  state.map[key] = state.next;
+  state.dirty = true;
+  return state.next;
+}
+
+function commitCrossWordIdAssignment(state) {
+  if (!state || !state.dirty) return;
+  try {
+    localStorage.setItem(WORD_ID_COUNTER_KEY, String(state.next));
+  } catch (err) {
+    console.warn("Could not persist word ID counter", err);
+  }
+  saveCrossWordIdMap(state.map);
+}
+
+function getCrossEntryWordId(entryOrLine, entries) {
+  const existing = peekCrossWordId(entryOrLine);
+  if (existing) return existing;
+  const state = beginCrossWordIdAssignment(Array.isArray(entries) ? entries : []);
+  const id = allocateCrossWordId(entryOrLine, state);
+  commitCrossWordIdAssignment(state);
+  return id;
+}
+
+function ensureCrossEntriesWordIds(crossEntries, dictEntries) {
+  const state = beginCrossWordIdAssignment(Array.isArray(dictEntries) ? dictEntries : []);
+  (crossEntries || []).forEach((entry) => allocateCrossWordId(entry, state));
+  commitCrossWordIdAssignment(state);
+}
+
+function ensureEntryWordId(entry, entries) {
+  if (!entry || entry.wordId) return entry ? (parseInt(entry.wordId, 10) || 0) : 0;
+  if (entry.sourceWorldLine) {
+    const worldId = getWorldLineWordId(entry.sourceWorldLine);
+    if (worldId) {
+      entry.wordId = worldId;
+      return worldId;
+    }
+  }
+  entry.wordId = allocateNewWordId(entries);
+  return entry.wordId;
+}
+
 function ensureEntryIds(entries) {
   let changed = false;
   entries.forEach((entry) => {
     if (!entry) return;
     if (!entry._entryId) {
       entry._entryId = makeEntryId();
+      changed = true;
+    }
+    if (!entry.isCore && !entry.wordId) {
+      ensureEntryWordId(entry, entries);
       changed = true;
     }
   });
@@ -1005,6 +1241,12 @@ function ensureEntryIds(entries) {
 function findEntryIndexById(entries, entryId) {
   if (!entryId) return -1;
   return entries.findIndex((e) => e && e._entryId === entryId);
+}
+
+function findEntryIndexByWordId(entries, wordId) {
+  const id = parseInt(wordId, 10);
+  if (!Number.isFinite(id) || id <= 0) return -1;
+  return entries.findIndex((e) => e && parseInt(e.wordId, 10) === id);
 }
 
 function getSymbolsForEntry(entry) {
@@ -1220,6 +1462,9 @@ const WORLD_ORIGIN_TO_LANG = {
   Russian: "ru",
   German: "de",
   Japanese: "ja",
+  Italian: "it",
+  Portuguese: "pt",
+  Korean: "ko",
 };
 
 const LANG_TO_WORLD_ORIGIN = {
@@ -1230,32 +1475,157 @@ const LANG_TO_WORLD_ORIGIN = {
   ru: "Russian",
   de: "German",
   ja: "Japanese",
+  it: "Italian",
+  pt: "Portuguese",
+  ko: "Korean",
 };
 
-/** Non-English languages in the canonical cross-pair list order (Chinese → … → Japanese). */
-const CROSS_PAIR_LANG_ORDER = ["zh", "es", "fr", "de", "ru", "ja"];
+/** Non-English languages in the canonical cross-pair list order. */
+const CROSS_PAIR_LANG_ORDER = ["zh", "es", "fr", "de", "ru", "ja", "it", "pt", "ko"];
 
-/** The 15 non-English↔non-English dictionaries, in Spanish-UI listing order after Spanish-English. */
+/** All non-English↔non-English dictionaries from CROSS_PAIR_LANG_ORDER (i < j). */
 const CROSS_DICTIONARY_PAIRS = [
   ["zh", "es"],
   ["zh", "fr"],
   ["zh", "de"],
   ["zh", "ru"],
   ["zh", "ja"],
+  ["zh", "it"],
+  ["zh", "pt"],
+  ["zh", "ko"],
   ["es", "fr"],
   ["es", "de"],
   ["es", "ru"],
   ["es", "ja"],
+  ["es", "it"],
+  ["es", "pt"],
+  ["es", "ko"],
   ["fr", "de"],
   ["fr", "ru"],
   ["fr", "ja"],
+  ["fr", "it"],
+  ["fr", "pt"],
+  ["fr", "ko"],
   ["de", "ru"],
   ["de", "ja"],
+  ["de", "it"],
+  ["de", "pt"],
+  ["de", "ko"],
   ["ru", "ja"],
+  ["ru", "it"],
+  ["ru", "pt"],
+  ["ru", "ko"],
+  ["ja", "it"],
+  ["ja", "pt"],
+  ["ja", "ko"],
+  ["it", "pt"],
+  ["it", "ko"],
+  ["pt", "ko"],
 ];
 
 function getWorldOriginNameFromCode(langCode) {
   return LANG_TO_WORLD_ORIGIN[langCode] || "";
+}
+
+function isLatinLettersLang(langCode) {
+  return langCode === "ru" || langCode === "ko";
+}
+
+function pronunciationFieldIndexForLang(langCode) {
+  if (langCode === "zh") return 2;
+  if (langCode === "ja") return 3;
+  if (isLatinLettersLang(langCode)) return 4;
+  return -1;
+}
+
+function pronunciationValueFromHubRec(rec, langCode) {
+  if (!rec || !langCode) return "";
+  if (langCode === "zh") return rec.pinyin || "";
+  if (langCode === "ja") return rec.hiragana || "";
+  if (isLatinLettersLang(langCode)) return rec.latin || "";
+  return "";
+}
+
+/** Build a hub index record from an 8-field world dictionary line. */
+function hubRecordFromWorldLine(line) {
+  const parts = String(line || "").split("\t");
+  if (parts.length < 8) return null;
+  const origin = parts[7] || "";
+  const langCode = WORLD_ORIGIN_TO_LANG[origin];
+  if (!langCode || langCode === "en") return null;
+  return {
+    english: parts[0] || "",
+    translation: parts[1] || "",
+    fullTranslation: parts[1] || "",
+    altIndex: 0,
+    pinyin: parts[2] || "",
+    hiragana: parts[3] || "",
+    latin: parts[4] || "",
+    pos: parts[5] || "",
+    stamp: parts[6] || "[]",
+    origin,
+    langCode,
+    worldLine: line,
+  };
+}
+
+/**
+ * Resolve a synthetic cross-pair ID# back to a display entry via CROSS_WORD_ID_MAP.
+ * Keys look like CROSSID:pairId:leftId:rightId:pos or a CROSS\t world line.
+ */
+function findCrossEntryByWordId(exactId, uiLang) {
+  if (!exactId) return null;
+  const map = loadCrossWordIdMap();
+  let foundKey = "";
+  const keys = Object.keys(map || {});
+  for (let i = 0; i < keys.length; i++) {
+    if (parseInt(map[keys[i]], 10) === exactId) {
+      foundKey = keys[i];
+      break;
+    }
+  }
+  if (!foundKey) return null;
+
+  let entry = null;
+  if (foundKey.indexOf("CROSSID:") === 0) {
+    const parts = foundKey.split(":");
+    if (parts.length < 5) return null;
+    const pairId = parts[1];
+    const leftId = parseInt(parts[2], 10);
+    const rightId = parseInt(parts[3], 10);
+    const pos = parts.slice(4).join(":");
+    const parsed = parsePairId(pairId);
+    if (!parsed || !isCrossPairId(pairId)) return null;
+    const rows = Array.isArray(window.WORLD_DICTIONARY_ROWS) ? window.WORLD_DICTIONARY_ROWS : [];
+    const leftLine = leftId > 0 && leftId <= rows.length ? rows[leftId - 1] : "";
+    const rightLine = rightId > 0 && rightId <= rows.length ? rows[rightId - 1] : "";
+    if (!leftLine || !rightLine) return null;
+    const leftRec = hubRecordFromWorldLine(leftLine);
+    const rightRec = hubRecordFromWorldLine(rightLine);
+    if (!leftRec || !rightRec) return null;
+    let aRec = leftRec;
+    let bRec = rightRec;
+    if (leftRec.langCode === parsed.b && rightRec.langCode === parsed.a) {
+      aRec = rightRec;
+      bRec = leftRec;
+    } else if (leftRec.langCode !== parsed.a || rightRec.langCode !== parsed.b) {
+      if (leftRec.langCode === parsed.a && rightRec.langCode === parsed.b) {
+        aRec = leftRec;
+        bRec = rightRec;
+      } else return null;
+    }
+    entry = makeCrossEntry(aRec, bRec, pairId, parsed.a, parsed.b);
+    if (pos && entry.pos !== pos) {
+      entry = Object.assign({}, entry, { pos: pos });
+      entry.worldLine = encodeCrossWorldLine(entry);
+    }
+  } else if (foundKey.indexOf("CROSS\t") === 0) {
+    entry = decodeCrossWorldLine(foundKey);
+  } else {
+    entry = decodeCrossWorldLine(foundKey);
+  }
+  if (!entry) return null;
+  return adaptCrossEntryForDisplay(entry, entry.pairId, uiLang || getStoredLang());
 }
 
 function makeEnglishHubPairId(langCode) {
@@ -1297,6 +1667,78 @@ function getWorldLineEnglishHubMatchKey(line) {
   const translation = normalizeDictionaryWord(parts[1] || "");
   if (!english || !translation) return "";
   return originCode + "\0" + english + "\0" + translation;
+}
+
+function loadHiddenWorldLines() {
+  try {
+    const parsed = JSON.parse(localStorage.getItem(HIDDEN_WORLD_LINES_KEY) || "[]");
+    return new Set(Array.isArray(parsed) ? parsed : []);
+  } catch {
+    return new Set();
+  }
+}
+
+function saveHiddenWorldLines(set) {
+  localStorage.setItem(HIDDEN_WORLD_LINES_KEY, JSON.stringify(Array.from(set || [])));
+}
+
+function hideWorldDictionaryLine(line) {
+  if (!line) return;
+  const hidden = loadHiddenWorldLines();
+  if (hidden.has(line)) return;
+  hidden.add(line);
+  saveHiddenWorldLines(hidden);
+}
+
+function findLocalOverrideIndexForWorldLine(entries, worldLine) {
+  if (!worldLine || !Array.isArray(entries)) return -1;
+  const direct = entries.findIndex((entry) => entry && !entry.isCore && entry.sourceWorldLine === worldLine);
+  if (direct >= 0) return direct;
+  const worldKey = getWorldLineEnglishHubMatchKey(worldLine);
+  if (!worldKey) return -1;
+  return entries.findIndex((entry) => entry && !entry.isCore && getEntryEnglishHubMatchKey(entry) === worldKey);
+}
+
+function entryHasLanguageSide(entry, lang) {
+  if (!entry || !lang) return false;
+  // Core words are official symbols: names come from TRANSLATIONS for every language.
+  if (entry.isCore) {
+    const main = entry.slots && entry.slots[0] && entry.slots[0].main;
+    if (lang === "en") return !!(entry.definition || (main && main.name));
+    if (!main || main.id == null) return false;
+    const pack = window.TRANSLATIONS && window.TRANSLATIONS[lang];
+    const symbol = pack && pack.symbols && pack.symbols[main.id];
+    return !!(symbol && symbol.name);
+  }
+  if (lang === "en") {
+    return !!(entry.definition || (entry.translations && entry.translations.en));
+  }
+  const origin = entry.originLanguage || entry.translationSource || "";
+  if (origin === lang || entry.translationLanguage === lang) return true;
+  if (entry.translations && entry.translations[lang]) return true;
+  if (entry.sourceWorldLine) {
+    const parts = String(entry.sourceWorldLine).split("\t");
+    if (WORLD_ORIGIN_TO_LANG[parts[7] || ""] === lang) return true;
+  }
+  return false;
+}
+
+function localEntryFitsWriteLanguagePair(entry, inputLang, outputMode) {
+  if (!entryHasLanguageSide(entry, inputLang)) return false;
+  if (!outputMode || outputMode === "universal") return true;
+  return entryHasLanguageSide(entry, outputMode);
+}
+
+function collectWriteWorldCoverage(entries) {
+  const hiddenLines = loadHiddenWorldLines();
+  const coveredKeys = new Set();
+  (entries || []).forEach((entry) => {
+    if (!entry || entry.isCore) return;
+    if (entry.sourceWorldLine) hiddenLines.add(entry.sourceWorldLine);
+    const key = getEntryEnglishHubMatchKey(entry);
+    if (key) coveredKeys.add(key);
+  });
+  return { hiddenLines, coveredKeys };
 }
 
 function makeCrossPairId(langA, langB) {
@@ -1384,11 +1826,14 @@ function getOrderedDictionaryPairIds(uiLang) {
   return pairs;
 }
 
+function getAllHubPairIds() {
+  return CROSS_PAIR_LANG_ORDER.map((code) => makeEnglishHubPairId(code)).filter(Boolean);
+}
+
 function getAllDictionaryPairIds() {
   const pairs = [];
   const seen = new Set();
-  CROSS_PAIR_LANG_ORDER.forEach((code) => {
-    const id = makeEnglishHubPairId(code);
+  getAllHubPairIds().forEach((id) => {
     if (!seen.has(id)) {
       seen.add(id);
       pairs.push(id);
@@ -1402,6 +1847,28 @@ function getAllDictionaryPairIds() {
     }
   });
   return pairs;
+}
+
+function getDictionaryFilterLangCodes() {
+  return ["en"].concat(CROSS_PAIR_LANG_ORDER).filter((code) => LANGUAGES[code]);
+}
+
+function pairIdForLangs(langA, langB) {
+  if (!langA || !langB || langA === langB) return "";
+  if (langA === "en" || langB === "en") return makeEnglishHubPairId(langA === "en" ? langB : langA);
+  return makeCrossPairId(langA, langB);
+}
+
+function getPairIdsForLanguage(langCode) {
+  return getDictionaryFilterLangCodes()
+    .filter((other) => other !== langCode)
+    .map((other) => pairIdForLangs(langCode, other))
+    .filter(Boolean);
+}
+
+function getSubLangCodesForLanguage(langCode) {
+  if (langCode === "en") return CROSS_PAIR_LANG_ORDER.filter((code) => LANGUAGES[code]);
+  return ["en"].concat(CROSS_PAIR_LANG_ORDER.filter((code) => code !== langCode && LANGUAGES[code]));
 }
 
 /** Default Dictionary language filters for the current UI language. */
@@ -1445,6 +1912,8 @@ function getAlignedAlternative(list, index, fallback) {
 
 let sharedEnglishHubIndex = null;
 let sharedCrossPairCache = {};
+let sharedCrossPairRefCache = {};
+let sharedCrossPairRefInflight = {};
 let sharedHomographIndex = null;
 let sharedManualHomographIndex = null;
 
@@ -1554,7 +2023,7 @@ async function buildSharedHomographIndexAsync(onStageProgress, yieldFn) {
   if (sharedHomographIndex) return sharedHomographIndex;
   const builder = createHomographIndexBuilder();
   const rows = Array.isArray(window.WORLD_DICTIONARY_ROWS) ? window.WORLD_DICTIONARY_ROWS : [];
-  const chunkSize = 4500;
+  const chunkSize = 12000;
   for (let i = 0; i < rows.length; i += chunkSize) {
     const end = Math.min(i + chunkSize, rows.length);
     for (let j = i; j < end; j++) ingestHomographIndexRow(builder, rows[j]);
@@ -1755,7 +2224,7 @@ async function buildSharedEnglishHubIndexAsync(onStageProgress, yieldFn) {
   if (sharedEnglishHubIndex) return sharedEnglishHubIndex;
   const builder = createEnglishHubIndexBuilder();
   const rows = Array.isArray(window.WORLD_DICTIONARY_ROWS) ? window.WORLD_DICTIONARY_ROWS : [];
-  const chunkSize = 4500;
+  const chunkSize = 12000;
   for (let i = 0; i < rows.length; i += chunkSize) {
     const end = Math.min(i + chunkSize, rows.length);
     for (let j = i; j < end; j++) ingestEnglishHubIndexRow(builder, rows[j]);
@@ -1764,6 +2233,35 @@ async function buildSharedEnglishHubIndexAsync(onStageProgress, yieldFn) {
   }
   sharedEnglishHubIndex = finalizeEnglishHubIndexBuilder(builder);
   return sharedEnglishHubIndex;
+}
+
+/** Build hub + homograph indexes in one pass over WorldDictionary rows. */
+async function buildSharedDictionaryIndexesAsync(onStageProgress, yieldFn) {
+  if (sharedEnglishHubIndex && sharedHomographIndex) {
+    return { hub: sharedEnglishHubIndex, homograph: sharedHomographIndex };
+  }
+  const hubBuilder = sharedEnglishHubIndex ? null : createEnglishHubIndexBuilder();
+  const homoBuilder = sharedHomographIndex ? null : createHomographIndexBuilder();
+  if (!hubBuilder && !homoBuilder) {
+    return { hub: sharedEnglishHubIndex, homograph: sharedHomographIndex };
+  }
+  const rows = Array.isArray(window.WORLD_DICTIONARY_ROWS) ? window.WORLD_DICTIONARY_ROWS : [];
+  const chunkSize = 10000;
+  for (let i = 0; i < rows.length; i += chunkSize) {
+    const end = Math.min(i + chunkSize, rows.length);
+    for (let j = i; j < end; j++) {
+      const line = rows[j];
+      if (hubBuilder) ingestEnglishHubIndexRow(hubBuilder, line);
+      if (homoBuilder) ingestHomographIndexRow(homoBuilder, line);
+    }
+    if (onStageProgress) onStageProgress(Math.round((end / Math.max(1, rows.length)) * 100));
+    if (yieldFn) await yieldFn();
+  }
+  if (hubBuilder) sharedEnglishHubIndex = finalizeEnglishHubIndexBuilder(hubBuilder);
+  if (homoBuilder) sharedHomographIndex = finalizeHomographIndexBuilder(homoBuilder);
+  // Warm the line→ID map while rows are hot in memory.
+  if (typeof buildWorldLineIdIndex === "function") buildWorldLineIdIndex();
+  return { hub: sharedEnglishHubIndex, homograph: sharedHomographIndex };
 }
 
 function encodeCrossWorldLine(entry) {
@@ -1807,12 +2305,7 @@ function decodeCrossWorldLine(line) {
 function makeCrossEntry(left, right, pairId, wordLang, translationLang) {
   const wordRec = wordLang === left.langCode ? left : right;
   const transRec = translationLang === left.langCode ? left : right;
-  const pronunciationFor = (rec, lang) => {
-    if (lang === "zh") return rec.pinyin || "";
-    if (lang === "ja") return rec.hiragana || "";
-    if (lang === "ru") return rec.latin || "";
-    return "";
-  };
+  const pronunciationFor = (rec, lang) => pronunciationValueFromHubRec(rec, lang);
   const entry = {
     type: "cross",
     pairId,
@@ -1835,6 +2328,122 @@ function makeCrossEntry(left, right, pairId, wordLang, translationLang) {
   return entry;
 }
 
+function appendCrossPairRefsForGloss(refs, rowsA, rowsB) {
+  if (!rowsA || !rowsB || !rowsA.length || !rowsB.length) return;
+  const samePos = [];
+  const otherPos = [];
+  for (let a = 0; a < rowsA.length; a++) {
+    for (let b = 0; b < rowsB.length; b++) {
+      const left = rowsA[a];
+      const right = rowsB[b];
+      const leftPos = normalizeDictionaryPos(left.pos);
+      const rightPos = normalizeDictionaryPos(right.pos);
+      const item = { left, right };
+      if (leftPos && rightPos && leftPos === rightPos) samePos.push(item);
+      else otherPos.push(item);
+    }
+  }
+  const chosen = (samePos.length ? samePos : otherPos).slice(0, 24);
+  for (let i = 0; i < chosen.length; i++) refs.push(chosen[i]);
+}
+
+function collectCrossPairRefs(pairId) {
+  if (sharedCrossPairRefCache[pairId]) return sharedCrossPairRefCache[pairId];
+  const parsed = parsePairId(pairId);
+  if (!parsed || parsed.a === "en" || parsed.b === "en") {
+    sharedCrossPairRefCache[pairId] = [];
+    return sharedCrossPairRefCache[pairId];
+  }
+  const index = getSharedEnglishHubIndex();
+  const mapA = index.byLangEnglish && index.byLangEnglish.get(parsed.a);
+  const mapB = index.byLangEnglish && index.byLangEnglish.get(parsed.b);
+  const refs = [];
+  if (!mapA || !mapB) {
+    sharedCrossPairRefCache[pairId] = refs;
+    return refs;
+  }
+  mapA.forEach((rowsA, englishNorm) => {
+    appendCrossPairRefsForGloss(refs, rowsA, mapB.get(englishNorm));
+  });
+  sharedCrossPairRefCache[pairId] = refs;
+  return refs;
+}
+
+async function collectCrossPairRefsAsync(pairId, yieldFn, onProgress) {
+  if (sharedCrossPairRefCache[pairId]) return sharedCrossPairRefCache[pairId];
+  if (sharedCrossPairRefInflight[pairId]) return sharedCrossPairRefInflight[pairId];
+  const parsed = parsePairId(pairId);
+  if (!parsed || parsed.a === "en" || parsed.b === "en") {
+    sharedCrossPairRefCache[pairId] = [];
+    return sharedCrossPairRefCache[pairId];
+  }
+  const index = getSharedEnglishHubIndex();
+  const mapA = index.byLangEnglish && index.byLangEnglish.get(parsed.a);
+  const mapB = index.byLangEnglish && index.byLangEnglish.get(parsed.b);
+  if (!mapA || !mapB) {
+    sharedCrossPairRefCache[pairId] = [];
+    return sharedCrossPairRefCache[pairId];
+  }
+  const task = (async () => {
+    const englishKeys = [];
+    mapA.forEach((_rows, key) => englishKeys.push(key));
+    const refs = [];
+    const chunk = 2500;
+    for (let i = 0; i < englishKeys.length; i++) {
+      appendCrossPairRefsForGloss(refs, mapA.get(englishKeys[i]), mapB.get(englishKeys[i]));
+      if (yieldFn && i > 0 && i % chunk === 0) {
+        if (onProgress) onProgress(i / englishKeys.length);
+        await yieldFn();
+      }
+    }
+    if (onProgress) onProgress(1);
+    sharedCrossPairRefCache[pairId] = refs;
+    return refs;
+  })();
+  sharedCrossPairRefInflight[pairId] = task;
+  try {
+    return await task;
+  } finally {
+    delete sharedCrossPairRefInflight[pairId];
+  }
+}
+
+function makeCrossEntryFromRef(ref, pairId) {
+  if (!ref) return null;
+  const parsed = parsePairId(pairId);
+  if (!parsed) return null;
+  return makeCrossEntry(ref.left, ref.right, pairId, parsed.a, parsed.b);
+}
+
+function adaptCrossEntryForDisplay(entry, pairId, uiLang) {
+  if (!entry) return null;
+  const display = getPairDisplayLangs(pairId, uiLang);
+  if (!display || entry.wordLang === display.wordLang) {
+    return Object.assign({}, entry, {
+      originLabel: formatLanguagePairLabel(pairId, uiLang),
+    });
+  }
+  const flipped = Object.assign({}, entry, {
+    word: entry.translation,
+    translation: entry.word,
+    wordLang: entry.translationLang,
+    translationLang: entry.wordLang,
+    wordPronunciation: entry.translationPronunciation,
+    translationPronunciation: entry.wordPronunciation,
+    originLabel: formatLanguagePairLabel(pairId, uiLang),
+  });
+  flipped.worldLine = encodeCrossWorldLine(flipped);
+  return flipped;
+}
+
+function crossRefDisplayWord(ref, pairId, uiLang) {
+  if (!ref || !ref.left || !ref.right) return "";
+  const display = getPairDisplayLangs(pairId, uiLang);
+  if (!display) return ref.left.translation || "";
+  const rec = display.wordLang === ref.left.langCode ? ref.left : ref.right;
+  return (rec && rec.translation) || "";
+}
+
 function buildCrossPairEntries(pairId) {
   if (sharedCrossPairCache[pairId]) return sharedCrossPairCache[pairId];
   const parsed = parsePairId(pairId);
@@ -1842,63 +2451,15 @@ function buildCrossPairEntries(pairId) {
     sharedCrossPairCache[pairId] = [];
     return sharedCrossPairCache[pairId];
   }
-  const index = getSharedEnglishHubIndex();
-  const mapA = index.byLangEnglish.get(parsed.a);
-  const mapB = index.byLangEnglish.get(parsed.b);
-  const entries = [];
-  if (!mapA || !mapB) {
-    sharedCrossPairCache[pairId] = entries;
-    return entries;
-  }
-
-  mapA.forEach((rowsA, englishNorm) => {
-    const rowsB = mapB.get(englishNorm);
-    if (!rowsB || !rowsB.length) return;
-    const samePos = [];
-    const otherPos = [];
-    rowsA.forEach((left) => {
-      rowsB.forEach((right) => {
-        const leftPos = normalizeDictionaryPos(left.pos);
-        const rightPos = normalizeDictionaryPos(right.pos);
-        const item = { left, right };
-        if (leftPos && rightPos && leftPos === rightPos) samePos.push(item);
-        else otherPos.push(item);
-      });
-    });
-    const chosen = samePos.length ? samePos : otherPos;
-    // Cap combinations per English gloss to keep Dictionary/Write responsive.
-    chosen.slice(0, 24).forEach(({ left, right }) => {
-      entries.push(makeCrossEntry(left, right, pairId, parsed.a, parsed.b));
-    });
-  });
-
+  const refs = collectCrossPairRefs(pairId);
+  const entries = refs.map((ref) => makeCrossEntry(ref.left, ref.right, pairId, parsed.a, parsed.b));
   sharedCrossPairCache[pairId] = entries;
   return entries;
 }
 
 function getCrossEntriesForDisplay(pairId, uiLang) {
   const base = buildCrossPairEntries(pairId);
-  const display = getPairDisplayLangs(pairId, uiLang);
-  if (!display) return base.slice();
-  return base.map((entry) => {
-    if (entry.wordLang === display.wordLang) {
-      return Object.assign({}, entry, {
-        originLabel: formatLanguagePairLabel(pairId, uiLang),
-      });
-    }
-    // Flip word/translation for UI language.
-    const flipped = Object.assign({}, entry, {
-      word: entry.translation,
-      translation: entry.word,
-      wordLang: entry.translationLang,
-      translationLang: entry.wordLang,
-      wordPronunciation: entry.translationPronunciation,
-      translationPronunciation: entry.wordPronunciation,
-      originLabel: formatLanguagePairLabel(pairId, uiLang),
-    });
-    flipped.worldLine = encodeCrossWorldLine(flipped);
-    return flipped;
-  });
+  return base.map((entry) => adaptCrossEntryForDisplay(entry, pairId, uiLang));
 }
 
 function findCrossMatchesForWrite(token, inputLang, outputLang) {
@@ -1908,6 +2469,7 @@ function findCrossMatchesForWrite(token, inputLang, outputLang) {
   if (inputLang === outputLang) return [];
   const pairId = makeCrossPairId(inputLang, outputLang);
   if (!pairId) return [];
+  const coverage = collectWriteWorldCoverage(ensureCoreWordsInDictionary());
   const index = getSharedEnglishHubIndex();
   const inputRows = (index.byLangTranslation.get(inputLang) || new Map()).get(token) || [];
   if (!inputRows.length) return [];
@@ -1915,10 +2477,14 @@ function findCrossMatchesForWrite(token, inputLang, outputLang) {
   const matches = [];
   const seen = new Set();
   inputRows.forEach((inputRec) => {
+    if (inputRec.worldLine && coverage.hiddenLines.has(inputRec.worldLine)) return;
+    if (inputRec.worldLine && coverage.coveredKeys.has(getWorldLineEnglishHubMatchKey(inputRec.worldLine))) return;
     const englishNorm = (inputRec.english || "").normalize("NFKC").trim().toLocaleLowerCase("en");
     if (!englishNorm) return;
     const outputRows = outMap.get(englishNorm) || [];
     outputRows.forEach((outputRec) => {
+      if (outputRec.worldLine && coverage.hiddenLines.has(outputRec.worldLine)) return;
+      if (outputRec.worldLine && coverage.coveredKeys.has(getWorldLineEnglishHubMatchKey(outputRec.worldLine))) return;
       const entry = makeCrossEntry(inputRec, outputRec, pairId, inputLang, outputLang);
       // Force input language as word side for Write.
       const oriented = Object.assign({}, entry, {
@@ -1926,12 +2492,8 @@ function findCrossMatchesForWrite(token, inputLang, outputLang) {
         translation: outputRec.translation || "",
         wordLang: inputLang,
         translationLang: outputLang,
-        wordPronunciation: inputLang === "zh" ? (inputRec.pinyin || "")
-          : inputLang === "ja" ? (inputRec.hiragana || "")
-            : inputLang === "ru" ? (inputRec.latin || "") : "",
-        translationPronunciation: outputLang === "zh" ? (outputRec.pinyin || "")
-          : outputLang === "ja" ? (outputRec.hiragana || "")
-            : outputLang === "ru" ? (outputRec.latin || "") : "",
+        wordPronunciation: pronunciationValueFromHubRec(inputRec, inputLang),
+        translationPronunciation: pronunciationValueFromHubRec(outputRec, outputLang),
         pos: inputRec.pos || outputRec.pos || "",
       });
       oriented.worldLine = encodeCrossWorldLine(oriented);
@@ -1991,14 +2553,26 @@ function setupSharedDictionaryEditor(onSaved) {
     sessionStorage.removeItem("createEditEntryId");
     sessionStorage.removeItem("createEditWorldLine");
     sessionStorage.removeItem("createEditWorldLanguage");
-    if (options && options.entryId) sessionStorage.setItem("createEditEntryId", options.entryId);
-    if (options && options.worldLine) sessionStorage.setItem("createEditWorldLine", options.worldLine);
-    if (options && options.language) sessionStorage.setItem("createEditWorldLanguage", options.language);
+    let entryId = (options && options.entryId) || "";
+    let worldLine = (options && options.worldLine) || "";
+    let language = (options && options.language) || "";
+    if (!entryId && worldLine) {
+      const entries = ensureCoreWordsInDictionary();
+      const overrideIndex = findLocalOverrideIndexForWorldLine(entries, worldLine);
+      if (overrideIndex >= 0) {
+        const override = entries[overrideIndex];
+        entryId = override && override._entryId ? override._entryId : "";
+        if (entryId) worldLine = "";
+      }
+    }
+    if (entryId) sessionStorage.setItem("createEditEntryId", entryId);
+    if (worldLine) sessionStorage.setItem("createEditWorldLine", worldLine);
+    if (language) sessionStorage.setItem("createEditWorldLanguage", language);
     dictionaryEditorPayload = {
       type: "kanji-builder-load-editor",
-      entryId: (options && options.entryId) || "",
-      worldLine: (options && options.worldLine) || "",
-      language: (options && options.language) || "",
+      entryId,
+      worldLine,
+      language,
     };
     dictionaryEditorFrame.src = "create.html?embed=1&opened=" + Date.now();
     dictionaryEditorBox.classList.remove("hidden");
@@ -2126,6 +2700,9 @@ function serializeTransferWord(entry) {
     pinyin: entry.pinyin || "",
     hiragana: entry.hiragana || "",
     latinLetters: entry.latinLetters || "",
+    wordId: entry.wordId || null,
+    sourceWorldLine: entry.sourceWorldLine || "",
+    homographs: entry.homographs || null,
     createdBy: entry.createdBy || "",
     createdAt: entry.createdAt || "",
     lastEditedBy: entry.lastEditedBy || "",
@@ -2324,6 +2901,7 @@ function getEntryDisplayWord(entry, lang) {
 function ensureCoreWordsInDictionary() {
   if (typeof symbols === "undefined" || !Array.isArray(symbols) || !symbols.length) return [];
   let entries = JSON.parse(localStorage.getItem("dictionaryEntries") || "[]");
+  sanitizeWordIdState(entries);
   let changed = ensureEntryIds(entries);
   const activeSymbolIds = new Set(symbols.map((sym) => String(sym.id)));
   const retainedEntries = entries.filter((entry) => {
@@ -2355,6 +2933,7 @@ function ensureCoreWordsInDictionary() {
     }
     entries.push({
       _entryId: makeEntryId(),
+      wordId: allocateNewWordId(entries),
       slots: [
         {
           main: { id: sym.id, name: sym.name, image: sym.image, rgb: sym.rgb },
@@ -2366,6 +2945,12 @@ function ensureCoreWordsInDictionary() {
       isCore: true,
     });
     byWord[key] = entries.length - 1;
+    changed = true;
+  });
+
+  entries.forEach((entry) => {
+    if (!entry || entry.wordId) return;
+    ensureEntryWordId(entry, entries);
     changed = true;
   });
 
@@ -2626,43 +3211,6 @@ if (toggleBtn) {
   });
 }
 
-// Local file:// pages can each remember a different browser zoom, which makes
-// the shared navbar look bigger/smaller when switching tabs. Hint once.
-(function setupPageZoomConsistencyHint() {
-  const NOTICE_KEY = "kanjiBuilderZoomHintDismissed";
-  if (localStorage.getItem(NOTICE_KEY) === "1") return;
-  const main = document.querySelector("main");
-  if (!main) return;
-
-  const isFile = location.protocol === "file:";
-  // Desktop Ctrl+/- zoom usually keeps visualViewport.scale at 1; still tip on file://.
-  // Also tip if pinch/page scale is clearly off.
-  const scale = (window.visualViewport && window.visualViewport.scale) || 1;
-  if (!isFile && Math.abs(scale - 1) < 0.02) return;
-
-  const notice = document.createElement("div");
-  notice.className = "page-zoom-notice";
-  notice.setAttribute("role", "status");
-  notice.innerHTML = isFile
-    ? "If this page looks bigger or smaller than other tabs, press <strong>Ctrl+0</strong> (⌘0 on Mac) on each page to reset browser zoom. Local HTML files store zoom separately."
-    : "If this page looks bigger or smaller than other tabs, press <strong>Ctrl+0</strong> (⌘0 on Mac) to reset browser zoom.";
-  const dismiss = document.createElement("button");
-  dismiss.type = "button";
-  dismiss.className = "page-zoom-notice-dismiss";
-  dismiss.setAttribute("aria-label", "Dismiss");
-  dismiss.textContent = "×";
-  dismiss.addEventListener("click", () => {
-    localStorage.setItem(NOTICE_KEY, "1");
-    notice.remove();
-  });
-  notice.appendChild(dismiss);
-
-  const anchor = main.querySelector(".page-meta-bar") || main.firstElementChild;
-  if (anchor && anchor.nextSibling) main.insertBefore(notice, anchor.nextSibling);
-  else if (anchor) anchor.insertAdjacentElement("afterend", notice);
-  else main.prepend(notice);
-})();
-
 // -------------------------------
 // PAGE-SPECIFIC LOGIC
 // -------------------------------
@@ -2737,6 +3285,27 @@ function setupSharedSymbolInfoBox(onSaved) {
       deleteCustomImage: "選択中のカスタム画像を削除",
       tip: "ヒント：UIの着色をきれいにするため、黒色＋透明背景の画像を使ってください。",
       close: "閉じる",
+    },
+    it: {
+      addCustomImage: "Aggiungi immagine personalizzata",
+      defaultImage: "Immagine predefinita (non eliminabile)",
+      deleteCustomImage: "Elimina l'immagine personalizzata selezionata",
+      tip: "Suggerimento: usa un'immagine nera con sfondo trasparente per una migliore colorazione UI.",
+      close: "Chiudi",
+    },
+    pt: {
+      addCustomImage: "Adicionar imagem personalizada",
+      defaultImage: "Imagem padrão (não pode excluir)",
+      deleteCustomImage: "Excluir imagem personalizada selecionada",
+      tip: "Dica: use uma imagem preta com fundo transparente para melhor coloração da UI.",
+      close: "Fechar",
+    },
+    ko: {
+      addCustomImage: "사용자 지정 이미지 추가",
+      defaultImage: "기본 이미지(삭제 불가)",
+      deleteCustomImage: "선택한 사용자 지정 이미지 삭제",
+      tip: "팁: UI 색상 적용이 잘 되도록 검정색+투명 배경 이미지를 사용하세요.",
+      close: "닫기",
     },
   };
 
@@ -2931,7 +3500,7 @@ function setupSharedSymbolInfoBox(onSaved) {
       if (pendingImageConfig.selected === 0) return;
       const idx = pendingImageConfig.selected - 1;
       if (idx < 0 || idx >= pendingImageConfig.customImages.length) return;
-      if (!confirm("Delete this custom image for this symbol?")) return;
+      if (!confirm(getTranslation("create.confirmDeleteCustomImage") || "Delete this custom image for this symbol?")) return;
       pendingImageConfig.customImages.splice(idx, 1);
       if (pendingImageConfig.selected > pendingImageConfig.customImages.length) {
         pendingImageConfig.selected = pendingImageConfig.customImages.length;
@@ -3158,11 +3727,23 @@ if (page === "create") {
     if (activeSearch && activeSearch.value.trim()) activeSearch.dispatchEvent(new Event("input"));
   }
 
-  const CREATE_ORIGIN_NAMES = { en: "English", zh: "Chinese", es: "Spanish", fr: "French", ru: "Russian", de: "German", ja: "Japanese" };
+  const CREATE_ORIGIN_NAMES = {
+    en: "English",
+    zh: "Chinese",
+    es: "Spanish",
+    fr: "French",
+    ru: "Russian",
+    de: "German",
+    ja: "Japanese",
+    it: "Italian",
+    pt: "Portuguese",
+    ko: "Korean",
+  };
   const CREATE_PRONUNCIATION_FIELDS = {
     zh: { key: "pinyin", label: "Pinyin" },
     ja: { key: "hiragana", label: "Hiragana" },
     ru: { key: "latinLetters", label: "Latin" },
+    ko: { key: "latinLetters", label: "Latin" },
   };
 
   function splitPartsOfSpeech(value) {
@@ -3283,7 +3864,10 @@ if (page === "create") {
         const parts = line.split("\t");
         const sourceLang = Object.keys(CREATE_ORIGIN_NAMES).find((code) => CREATE_ORIGIN_NAMES[code] === parts[7]) || "en";
         const pronunciationConfig = CREATE_PRONUNCIATION_FIELDS[sourceLang];
-        const pronunciation = sourceLang === "zh" ? parts[2] : sourceLang === "ja" ? parts[3] : sourceLang === "ru" ? parts[4] : "";
+        const pronunciation = (() => {
+          const idx = pronunciationFieldIndexForLang(sourceLang);
+          return idx >= 0 ? (parts[idx] || "") : "";
+        })();
         matches.push({
           type: "world",
           english,
@@ -3454,9 +4038,18 @@ if (page === "create") {
     let translated = entry.translationLanguage || "";
     if (!translated || !LANGUAGES[translated] || translated === origin) {
       const keys = Object.keys(translations).filter((code) => LANGUAGES[code] && code !== origin);
-      if (keys.includes("en")) translated = "en";
-      else if (keys.length) translated = keys[0];
-      else translated = getDefaultTranslationLanguage(origin);
+      // Non-English origin: prefer the other non-English side (cross pairs), not English gloss.
+      if (origin !== "en") {
+        const nonEn = keys.filter((code) => code !== "en");
+        if (nonEn.length) translated = nonEn[0];
+        else if (keys.includes("en")) translated = "en";
+        else if (keys.length) translated = keys[0];
+        else translated = getDefaultTranslationLanguage(origin);
+      } else if (keys.length) {
+        translated = keys[0];
+      } else {
+        translated = getDefaultTranslationLanguage(origin);
+      }
     }
     return { origin, translated };
   }
@@ -3474,7 +4067,7 @@ if (page === "create") {
   function loadLocalEntryIntoEditor(entry) {
     if (!entry || entry.isCore) return;
     editingEntryId = entry._entryId;
-    retrievedWorldLine = "";
+    retrievedWorldLine = entry.sourceWorldLine || "";
     const pair = resolveEntryLanguagePair(entry);
     originLanguageSelect.value = LANGUAGES[pair.origin] ? pair.origin : "en";
     translationLanguageSelect.value = LANGUAGES[pair.translated] ? pair.translated : getDefaultTranslationLanguage(originLanguageSelect.value);
@@ -3507,7 +4100,39 @@ if (page === "create") {
     setEditingState("Editing: " + (originWordInput.value || translatedWordInput.value));
   }
 
+  function loadCrossWorldLineIntoEditor(line) {
+    const cross = decodeCrossWorldLine(line);
+    if (!cross) return false;
+    const originLang = LANGUAGES[cross.wordLang] ? cross.wordLang : "en";
+    let translatedLang = LANGUAGES[cross.translationLang] ? cross.translationLang : "";
+    if (!translatedLang || translatedLang === originLang) {
+      translatedLang = getDefaultTranslationLanguage(originLang);
+    }
+    editingEntryId = "";
+    retrievedWorldLine = line;
+    originLanguageSelect.value = originLang;
+    translationLanguageSelect.value = translatedLang;
+    ensureDistinctLanguages(originLanguageSelect);
+    updateManualLanguageFields();
+    originWordInput.value = cross.word || "";
+    translatedWordInput.value = cross.translation || "";
+    setSelectedPartsOfSpeech(cross.pos || "");
+    const originPronConfig = CREATE_PRONUNCIATION_FIELDS[originLanguageSelect.value];
+    const translatedPronConfig = CREATE_PRONUNCIATION_FIELDS[translationLanguageSelect.value];
+    originPronunciationInput.value = originPronConfig ? (cross.wordPronunciation || "") : "";
+    translatedPronunciationInput.value = translatedPronConfig ? (cross.translationPronunciation || "") : "";
+    setCreateHomographStar(originHomographStarBtn, isHomographWord(originWordInput.value, originLanguageSelect.value));
+    setCreateHomographStar(translatedHomographStarBtn, isHomographWord(translatedWordInput.value, translationLanguageSelect.value));
+    compoundParts = [];
+    renderCompoundParts();
+    Object.keys(categorySymbols).forEach((category) => { categorySymbols[category] = []; });
+    renderCategories();
+    setEditingState("Retrieved: " + (originWordInput.value || translatedWordInput.value));
+    return true;
+  }
+
   function loadWorldLineIntoEditor(line) {
+    if (loadCrossWorldLineIntoEditor(line)) return;
     const sourceLang = Object.keys(CREATE_ORIGIN_NAMES).find((code) => CREATE_ORIGIN_NAMES[code] === getCreateWorldField(line, 7)) || "en";
     originLanguageSelect.value = sourceLang === "en" ? "en" : sourceLang;
     translationLanguageSelect.value = sourceLang === "en" ? getDefaultTranslationLanguage("en") : "en";
@@ -3527,7 +4152,7 @@ if (page === "create") {
     setCreateHomographStar(originHomographStarBtn, isHomographWord(originWordInput.value, originLanguageSelect.value));
     setCreateHomographStar(translatedHomographStarBtn, isHomographWord(translatedWordInput.value, translationLanguageSelect.value));
     setSelectedPartsOfSpeech(getCreateWorldField(line, 5));
-    const pronunciationIndex = sourceLang === "zh" ? 2 : sourceLang === "ja" ? 3 : sourceLang === "ru" ? 4 : -1;
+    const pronunciationIndex = pronunciationFieldIndexForLang(sourceLang);
     const pronunciation = pronunciationIndex >= 0 ? getCreateWorldField(line, pronunciationIndex) : "";
     originPronunciationInput.value = CREATE_PRONUNCIATION_FIELDS[originLanguageSelect.value] ? pronunciation : "";
     translatedPronunciationInput.value = CREATE_PRONUNCIATION_FIELDS[translationLanguageSelect.value] ? pronunciation : "";
@@ -3580,7 +4205,7 @@ if (page === "create") {
       const word = getCreateWorldField(line, sourceLang === "en" ? 0 : 1);
       if (normalizeCreatedWord(word, sourceLang).includes(query)) {
         const originCode = Object.keys(CREATE_ORIGIN_NAMES).find((code) => CREATE_ORIGIN_NAMES[code] === origin) || "en";
-        const pronunciationIndex = originCode === "zh" ? 2 : originCode === "ja" ? 3 : originCode === "ru" ? 4 : -1;
+        const pronunciationIndex = pronunciationFieldIndexForLang(originCode);
         const pronunciationConfig = CREATE_PRONUNCIATION_FIELDS[originCode];
         matches.push({
           type: "world",
@@ -3957,23 +4582,23 @@ if (page === "create") {
     const translatedLang = translationLanguageSelect.value;
     const originWord = originWordInput.value.trim();
     const translatedWord = translatedWordInput.value.trim();
-    if (!originWord) return alert("Please enter the origin word.");
-    if (!translatedWord) return alert("Please enter the translated word.");
-    if (originLang === translatedLang) return alert("Origin and translated languages must be different.");
+    if (!originWord) return alert(getTranslation("create.enterOriginWord"));
+    if (!translatedWord) return alert(getTranslation("create.enterTranslatedWord"));
+    if (originLang === translatedLang) return alert(getTranslation("create.languagesMustDiffer"));
     const selectedPartsOfSpeech = getSelectedPartsOfSpeech();
-    if (!selectedPartsOfSpeech.length) return alert("Please select at least one part of speech.");
+    if (!selectedPartsOfSpeech.length) return alert(getTranslation("create.selectPartOfSpeech"));
     if (selectedPartsOfSpeech.includes("Compound") && compoundParts.length < 2) {
-      return alert("Please select at least two words for a compound.");
+      return alert(getTranslation("create.selectCompoundWords"));
     }
     const originPronConfig = CREATE_PRONUNCIATION_FIELDS[originLang];
     const translatedPronConfig = CREATE_PRONUNCIATION_FIELDS[translatedLang];
     const originPronunciation = originPronunciationInput.value.trim();
     const translatedPronunciation = translatedPronunciationInput.value.trim();
     if (originPronConfig && !originPronunciation) {
-      return alert("Please enter the " + originPronConfig.label + " pronunciation.");
+      return alert(formatTranslation("create.enterPronunciation", { label: originPronConfig.label }));
     }
     if (translatedPronConfig && !translatedPronunciation) {
-      return alert("Please enter the " + translatedPronConfig.label + " pronunciation.");
+      return alert(formatTranslation("create.enterPronunciation", { label: translatedPronConfig.label }));
     }
 
     function toRef(s) {
@@ -3990,25 +4615,69 @@ if (page === "create") {
       isNot: categorySymbols.isNot.map(toRef),
     };
     const stampSymbols = categories.is.slice(0, 4);
+    let saveOriginLang = originLang;
+    let saveTranslatedLang = translatedLang;
+    let saveOriginWord = originWord;
+    let saveTranslatedWord = translatedWord;
+    let saveOriginPronunciation = originPronunciation;
+    let saveTranslatedPronunciation = translatedPronunciation;
+    const retrievedCross = retrievedWorldLine ? decodeCrossWorldLine(retrievedWorldLine) : null;
+    // English-hub world edits keep the original language pair (foreign ↔ English).
+    // Cross-pair (e.g. fr-ko) edits keep both non-English sides from the form.
+    if (retrievedWorldLine && !retrievedCross) {
+      const worldOriginCode = WORLD_ORIGIN_TO_LANG[getCreateWorldField(retrievedWorldLine, 7)] || "";
+      if (worldOriginCode && worldOriginCode !== "en") {
+        saveOriginLang = worldOriginCode;
+        saveTranslatedLang = "en";
+        if (originLang === worldOriginCode) {
+          saveOriginWord = originWord;
+          saveTranslatedWord = translatedWord;
+          saveOriginPronunciation = originPronunciation;
+          saveTranslatedPronunciation = translatedPronunciation;
+        } else if (translatedLang === worldOriginCode) {
+          saveOriginWord = translatedWord;
+          saveTranslatedWord = originWord;
+          saveOriginPronunciation = translatedPronunciation;
+          saveTranslatedPronunciation = originPronunciation;
+        } else if (originLang === "en") {
+          saveOriginWord = translatedWord;
+          saveTranslatedWord = originWord;
+          saveOriginPronunciation = translatedPronunciation;
+          saveTranslatedPronunciation = originPronunciation;
+        }
+      }
+    }
     const customTranslations = {};
-    customTranslations[originLang] = originWord;
-    customTranslations[translatedLang] = translatedWord;
-    const englishWord = customTranslations.en || originWord;
+    customTranslations[saveOriginLang] = saveOriginWord;
+    customTranslations[saveTranslatedLang] = saveTranslatedWord;
+    const englishWord = customTranslations.en || (retrievedCross && retrievedCross.english) || saveOriginWord;
     let pinyin = "";
     let hiragana = "";
     let latinLetters = "";
     function assignPronunciation(lang, value) {
       if (lang === "zh") pinyin = value;
       else if (lang === "ja") hiragana = value;
-      else if (lang === "ru") latinLetters = value;
+      else if (isLatinLettersLang(lang)) latinLetters = value;
     }
-    assignPronunciation(originLang, originPronunciation);
-    assignPronunciation(translatedLang, translatedPronunciation);
-    const existingIndex = editingEntryId ? findEntryIndexById(entries, editingEntryId) : -1;
+    assignPronunciation(saveOriginLang, saveOriginPronunciation);
+    assignPronunciation(saveTranslatedLang, saveTranslatedPronunciation);
+    let existingIndex = editingEntryId ? findEntryIndexById(entries, editingEntryId) : -1;
+    if (existingIndex < 0 && retrievedWorldLine) {
+      existingIndex = findLocalOverrideIndexForWorldLine(entries, retrievedWorldLine);
+    }
     const existing = existingIndex >= 0 ? entries[existingIndex] : null;
+    const sourceWorldLine = retrievedWorldLine || (existing && existing.sourceWorldLine) || "";
+    let wordId = existing && existing.wordId ? parseInt(existing.wordId, 10) : 0;
+    if (!wordId && sourceWorldLine) {
+      const crossSource = decodeCrossWorldLine(sourceWorldLine);
+      if (crossSource) wordId = peekCrossWordId(crossSource) || peekCrossWordId(sourceWorldLine);
+      else wordId = getWorldLineWordId(sourceWorldLine);
+    }
+    if (!wordId) wordId = allocateNewWordId(entries);
     const entry = Object.assign(existing || {}, {
       schemaVersion: 2,
       _entryId: existing ? existing._entryId : makeEntryId(),
+      wordId,
       categories,
       stampSymbols,
       stamp: null,
@@ -4018,13 +4687,18 @@ if (page === "create") {
       stamped: false,
       definition: englishWord,
       isCore: false,
-      translationSource: originLang,
-      originLanguage: originLang,
-      translationLanguage: translatedLang,
+      translationSource: saveOriginLang,
+      originLanguage: saveOriginLang,
+      translationLanguage: saveTranslatedLang,
       translations: customTranslations,
+      sourceWorldLine,
       homographs: {
-        [originLang]: isCreateHomographStarOn(originHomographStarBtn),
-        [translatedLang]: isCreateHomographStarOn(translatedHomographStarBtn),
+        [saveOriginLang]: isCreateHomographStarOn(
+          saveOriginLang === originLang ? originHomographStarBtn : translatedHomographStarBtn
+        ),
+        [saveTranslatedLang]: isCreateHomographStarOn(
+          saveTranslatedLang === translatedLang ? translatedHomographStarBtn : originHomographStarBtn
+        ),
       },
       partOfSpeech: selectedPartsOfSpeech,
       compoundParts: selectedPartsOfSpeech.includes("Compound") ? compoundParts.map((part) => Object.assign({}, part)) : [],
@@ -4039,13 +4713,14 @@ if (page === "create") {
     if (existingIndex >= 0) entries[existingIndex] = entry;
     else entries.push(entry);
     localStorage.setItem("dictionaryEntries", JSON.stringify(entries));
+    if (sourceWorldLine) hideWorldDictionaryLine(sourceWorldLine);
     invalidateManualHomographIndex();
 
     if (isEmbeddedEditor && window.parent !== window) {
       window.parent.postMessage({ type: "kanji-builder-word-saved", entryId: entry._entryId, entry }, "*");
       return;
     }
-    alert(`"${originWord}" has been ${existing ? "updated" : "added"} in the dictionary!`);
+    alert(formatTranslation(existing ? "create.wordUpdated" : "create.wordAdded", { word: saveOriginWord }));
     clearCreateEditor(true);
   });
 
@@ -4622,6 +5297,90 @@ if (page === "write") {
       noSavedMatch: "検索に一致する保存文がありません。",
       noSavedYet: "保存された文の文脈はまだありません。",
       editSentence: "文を編集",
+    },
+    it: {
+      title: "Scrivi",
+      input: "Input",
+      placeholder: "Scrivi una frase...",
+      inputMode: "Input:",
+      outputMode: "Output:",
+      output: "Output",
+      universal: "Universale",
+      infoTitle: "Formato Scrivi",
+      contextTitle: "Scegli una parola",
+      infoStamped: "Le parole timbrate usano testo grassetto colorato con timbro.",
+      infoTempstamped: "Le parole temporaneamente timbrate usano testo normale colorato con timbro.",
+      infoUnstamped: "Le parole non timbrate usano testo normale colorato con timbro vuoto.",
+      infoContext: "Le parole di contesto sono sottolineate. Il grassetto segue ancora lo stato del timbro. Clic singolo per altro contesto; doppio clic per modificare.",
+      infoUnknown: "Le parole sconosciute usano testo normale colorato senza timbro.",
+      matchesFor: "Corrispondenze per",
+      noMatches: "Nessuna parola corrispondente.",
+      worldWord: "Dizionario mondiale",
+      localWord: "Dizionario locale",
+      savedSentences: "Frasi salvate",
+      searchSaved: "Cerca frasi salvate…",
+      saveContexts: "Salva contesti della frase",
+      contextCountOne: "{n} contesto",
+      contextCountMany: "{n} contesti",
+      noSavedMatch: "Nessuna frase salvata corrisponde alla ricerca.",
+      noSavedYet: "Nessun contesto di frase salvato ancora.",
+      editSentence: "Modifica frase",
+    },
+    pt: {
+      title: "Escrever",
+      input: "Entrada",
+      placeholder: "Digite uma frase...",
+      inputMode: "Entrada:",
+      outputMode: "Saída:",
+      output: "Saída",
+      universal: "Universal",
+      infoTitle: "Formato de escrita",
+      contextTitle: "Escolha uma palavra",
+      infoStamped: "Palavras carimbadas usam texto colorido em negrito com carimbo.",
+      infoTempstamped: "Palavras com carimbo temporário usam texto colorido normal com carimbo.",
+      infoUnstamped: "Palavras sem carimbo usam texto colorido normal com carimbo em branco.",
+      infoContext: "Palavras de contexto ficam sublinhadas. O negrito ainda segue o status do carimbo. Clique simples para outro contexto; clique duplo para editar.",
+      infoUnknown: "Palavras desconhecidas usam texto colorido normal sem carimbo.",
+      matchesFor: "Correspondências para",
+      noMatches: "Nenhuma palavra correspondente.",
+      worldWord: "Dicionário mundial",
+      localWord: "Dicionário local",
+      savedSentences: "Frases salvas",
+      searchSaved: "Pesquisar frases salvas…",
+      saveContexts: "Salvar contextos da frase",
+      contextCountOne: "{n} contexto",
+      contextCountMany: "{n} contextos",
+      noSavedMatch: "Nenhuma frase salva corresponde à pesquisa.",
+      noSavedYet: "Ainda não há contextos de frase salvos.",
+      editSentence: "Editar frase",
+    },
+    ko: {
+      title: "쓰기",
+      input: "입력",
+      placeholder: "문장을 입력하세요...",
+      inputMode: "입력:",
+      outputMode: "출력:",
+      output: "출력",
+      universal: "유니버설",
+      infoTitle: "쓰기 형식",
+      contextTitle: "단어 선택",
+      infoStamped: "스탬프된 단어는 굵은 강조색 텍스트와 스탬프를 사용합니다.",
+      infoTempstamped: "임시 스탬프 단어는 일반 강조색 텍스트와 스탬프를 사용합니다.",
+      infoUnstamped: "미스탬프 단어는 일반 강조색 텍스트와 빈 스탬프를 사용합니다.",
+      infoContext: "문맥 단어는 밑줄이 있습니다. 굵기는 스탬프 상태를 따릅니다. 한 번 클릭으로 다른 문맥, 두 번 클릭으로 편집.",
+      infoUnknown: "알 수 없는 단어는 일반 강조색 텍스트이며 스탬프가 없습니다.",
+      matchesFor: "일치:",
+      noMatches: "일치하는 단어가 없습니다.",
+      worldWord: "세계 사전",
+      localWord: "로컬 사전",
+      savedSentences: "저장된 문장",
+      searchSaved: "저장된 문장 검색…",
+      saveContexts: "문장 문맥 저장",
+      contextCountOne: "문맥 {n}개",
+      contextCountMany: "문맥 {n}개",
+      noSavedMatch: "검색과 일치하는 저장 문장이 없습니다.",
+      noSavedYet: "아직 저장된 문장 문맥이 없습니다.",
+      editSentence: "문장 편집",
     },
   };
 
@@ -5309,12 +6068,17 @@ if (page === "write") {
     if (inputLang !== "en" && outputMode && outputMode !== "universal" && outputMode !== "en" && outputMode !== inputLang) {
       return findCrossMatchesForWrite(token, inputLang, outputMode);
     }
+    const coverage = collectWriteWorldCoverage(ensureCoreWordsInDictionary());
     const index = getWorldWriteIndex();
     if (inputLang === "en") {
       const outputOrigin = outputMode && outputMode !== "universal" ? getWorldOriginName(outputMode) : "";
       if (!outputOrigin) return [];
       const lines = index.byEnglishOrigin.get(outputOrigin + "\0" + token) || [];
-      return lines.flatMap((line) => expandWorldLineToMatches(line));
+      return lines.flatMap((line) => {
+        if (coverage.hiddenLines.has(line)) return [];
+        if (coverage.coveredKeys.has(getWorldLineEnglishHubMatchKey(line))) return [];
+        return expandWorldLineToMatches(line);
+      });
     }
 
     const inputOrigin = getWorldOriginName(inputLang);
@@ -5325,6 +6089,8 @@ if (page === "write") {
     refs.forEach((ref) => {
       const line = typeof ref === "string" ? ref : ref.line;
       if (!line || seenLines.has(line)) return;
+      if (coverage.hiddenLines.has(line)) return;
+      if (coverage.coveredKeys.has(getWorldLineEnglishHubMatchKey(line))) return;
       seenLines.add(line);
       expandWorldLineToMatches(line).forEach((match) => matches.push(match));
     });
@@ -5337,12 +6103,13 @@ if (page === "write") {
     return matches;
   }
 
-  function getLocalMatches(token, inputLang) {
+  function getLocalMatches(token, inputLang, outputMode) {
     const entries = ensureCoreWordsInDictionary();
     const matches = [];
     entries.forEach((entry) => {
       const key = getEntryInputKey(entry, inputLang);
       if (!key || key !== token) return;
+      if (!localEntryFitsWriteLanguagePair(entry, inputLang, outputMode)) return;
       matches.push({
         type: "local",
         status: getEntryStampStatus(entry),
@@ -5357,7 +6124,7 @@ if (page === "write") {
   function getMatchesForToken(rawWord, inputLang, outputMode) {
     const token = normalizeWord(rawWord, inputLang);
     if (!token) return [];
-    return getLocalMatches(token, inputLang).concat(getWorldMatches(token, inputLang, outputMode));
+    return getLocalMatches(token, inputLang, outputMode).concat(getWorldMatches(token, inputLang, outputMode));
   }
 
   function resolveTokenState(rawWord, index, inputLang, outputMode, sentenceInfo) {
@@ -5431,9 +6198,13 @@ if (page === "write") {
     }
     if (state.selected && state.selected.isCross) {
       const cross = state.selected.cross || decodeCrossWorldLine(state.selected.worldLine);
-      const sourceLine = (cross && (cross.leftLine || cross.rightLine)) || null;
-      if (sourceLine) {
-        openDictionaryEditor({ worldLine: sourceLine, language: getInputMode() });
+      const crossLine = (cross && cross.worldLine) || state.selected.worldLine ||
+        (cross ? encodeCrossWorldLine(cross) : "");
+      if (crossLine) {
+        openDictionaryEditor({
+          worldLine: crossLine,
+          language: (cross && cross.wordLang) || getInputMode(),
+        });
         return;
       }
     }
@@ -5453,7 +6224,16 @@ if (page === "write") {
     writeWordInfoTitle.textContent = getEntryDisplayWord(entry, getInputMode()) || entry.definition || "Word";
     writeWordInfoSymbols.innerHTML = "";
     writeWordInfoSymbols.appendChild(createCompactStamp(entry, false));
-    writeWordInfoMeta.textContent = entry.isCore ? "Core word" : getEntryStampStatus(entry);
+    if (entry.isCore) {
+      writeWordInfoMeta.textContent = "Core word";
+    } else if (entry.sourceWorldLine) {
+      const worldParts = String(entry.sourceWorldLine).split("\t");
+      const origin = worldParts[7] || (LANG_TO_WORLD_ORIGIN[entry.originLanguage] || "");
+      const pos = [].concat(entry.partOfSpeech || []).filter(Boolean).join(" & ") || worldParts[5] || "";
+      writeWordInfoMeta.textContent = ["World dictionary", origin, pos].filter(Boolean).join(" · ");
+    } else {
+      writeWordInfoMeta.textContent = getEntryStampStatus(entry);
+    }
     if (writeWordInfoNote) writeWordInfoNote.value = entry.note || "";
     writeWordInfoBox.classList.remove("hidden");
   }
@@ -5490,7 +6270,16 @@ if (page === "write") {
         title.textContent = outputLabel && outputLabel !== inputLabel
           ? inputLabel + " → " + outputLabel
           : inputLabel;
-        detail.textContent = t.localWord + " · " + match.status;
+        if (match.entry && match.entry.sourceWorldLine) {
+          const worldParts = String(match.entry.sourceWorldLine).split("\t");
+          const origin = worldParts[7] || (LANG_TO_WORLD_ORIGIN[match.entry.originLanguage] || "");
+          const pos = [].concat(match.entry.partOfSpeech || []).filter(Boolean).join(" & ")
+            || worldParts[5]
+            || "";
+          detail.textContent = t.worldWord + " · " + origin + (pos ? " · " + pos : "");
+        } else {
+          detail.textContent = t.localWord + " · " + match.status;
+        }
       } else {
         let inputLabel;
         let outputLabel;
@@ -5791,6 +6580,42 @@ if (page === "transfers") {
       exportHint: "Export All packs dictionary words, symbol images, saved sentences, and comments into one folder archive.",
       exportAll: "Export All",
       advancedSettings: "Advanced Settings",
+      txtOnly: "Txt Only",
+      txtLangTitle: "Language(s)",
+      txtContentsTitle: "Contents",
+      txtDownloadTitle: "Download Type",
+      txtContentDictionary: "Dictionary",
+      txtContentSentences: "Sentence Contexts",
+      exportTxt: "Export Txt",
+      txtSizeFull: "Full File",
+      txtSizeSplit: "10mb Files",
+      txtLayoutListed: "Words Listed",
+      txtLayoutPerLine: "Word per line",
+      txtSplitConfirm: "This export is about {mb} MB and will download as {count} files (10MB each). Continue?",
+      txtSplitDone: "Exported {count} files.",
+      txtExportBuilding: "Building txt export… this can take a while for large dictionaries.",
+      txtExportMeasuring: "Measuring export size…",
+      txtExportProgress: "Exporting… {percent}%",
+      exportLoading: "Exporting…",
+      exportLoadingPreparing: "Preparing export…",
+      exportLoadingPackaging: "Packaging files…",
+      exportLoadingDownloading: "Starting download…",
+      txtImportSummary: "Approved: {merged} symbol merges, {updated} word updates, {separated} exceptions added, {added} new words. Sentences +{sentenceAdded}/~{sentenceUpdated}.",
+      reviewTitle: "Review Import",
+      reviewMeta: "{count} change(s) to review. Unchecked items are ignored.",
+      reviewNone: "No dictionary changes to review.",
+      reviewSymbols: "Symbols",
+      reviewWordChange: "Word change",
+      reviewExceptions: "Exceptions",
+      reviewNewWords: "New words",
+      reviewSelectAll: "Select All",
+      reviewDeselectAll: "Deselect All",
+      reviewApprove: "Approve",
+      reviewCancel: "Cancel",
+      reviewCurrent: "Current",
+      reviewImport: "Import",
+      reviewWillSeparate: "Will be added as a separate word for exception checking.",
+      reviewAddSymbols: "Add symbols",
       exportSelected: "Export Selected",
       dictSection: "Dictionary",
       imageSection: "Images",
@@ -5809,7 +6634,7 @@ if (page === "transfers") {
       customDefaultSelected: "selected default",
       langAll: "All languages",
       importTitle: "Import",
-      importHint: "Import a transfer folder archive (.zip), a folder, or a legacy .json package. Exact duplicates are skipped.",
+      importHint: "Import a transfer folder archive (.zip), a folder, a legacy .json package, or a Txt Only (.txt) export. Txt imports open a review list of only the changes before anything is saved.",
       dropzone: "Drop transfer file or folder here",
       importFile: "Import File",
       importFolder: "Import Folder",
@@ -5897,10 +6722,73 @@ if (page === "transfers") {
       nothingSelected: "少なくとも1つ選択してください。", exportDone: "エクスポートの準備ができました。",
       importSummary: "インポート: 単語 {words}、画像 {images}、文 {sentences}、コメント {comments}。重複スキップ {skipped}。",
     },
+    it: {
+      title: "Trasferimenti", exportTitle: "Esporta", exportHint: "Esporta tutto raggruppa parole, immagini, frasi e commenti in un archivio cartella.",
+      exportAll: "Esporta tutto", advancedSettings: "Impostazioni avanzate", exportSelected: "Esporta selezionati",
+      txtOnly: "Solo Txt", txtLangTitle: "Lingua/e", txtContentsTitle: "Contenuti", txtDownloadTitle: "Tipo di download",
+      txtContentDictionary: "Dizionario", txtContentSentences: "Contesti di frase", exportTxt: "Esporta Txt",
+      exportLoading: "Esportazione…",
+      exportLoadingPreparing: "Preparazione esportazione…",
+      exportLoadingPackaging: "Creazione pacchetto…",
+      exportLoadingDownloading: "Avvio download…",
+      txtSizeFull: "File intero", txtSizeSplit: "File da 10mb", txtLayoutListed: "Parole elencate", txtLayoutPerLine: "Parola per riga",
+      dictSection: "Dizionario", imageSection: "Immagini", sentenceSection: "Frasi", commentSection: "Commenti",
+      wordSearchPlaceholder: "Cerca parole…", imageSearchPlaceholder: "Cerca simboli…", sentenceSearchPlaceholder: "Cerca frasi…", commentSearchPlaceholder: "Cerca commenti…",
+      fullDictionary: "Seleziona tutte le parole", fullImages: "Seleziona tutte le immagini", fullSentences: "Seleziona tutte le frasi", fullComments: "Seleziona tutti i commenti",
+      imageHint: "Clicca un simbolo per aprire le varianti e selezionare le immagini.", imageLabel: "Immagine", customDefaultSelected: "predefinita", langAll: "Tutte le lingue",
+      importTitle: "Importa", importHint: "Importa un archivio .zip, una cartella, un .json legacy o un export Solo Txt.",
+      dropzone: "Trascina qui file o cartella", importFile: "Importa file", importFolder: "Importa cartella",
+      chooseTransferFileFirst: "Scegli prima un file di trasferimento.", importFailed: "Importazione non riuscita. Usa un pacchetto valido.",
+      nothingSelected: "Seleziona almeno un elemento.", exportDone: "Esportazione pronta.",
+      importSummary: "Importati {words} parole, {images} immagini, {sentences} frasi, {comments} commenti. Saltati {skipped} duplicati.",
+    },
+    pt: {
+      title: "Transferências", exportTitle: "Exportar", exportHint: "Exportar tudo empacota palavras, imagens, frases e comentários em um arquivo de pasta.",
+      exportAll: "Exportar tudo", advancedSettings: "Configurações avançadas", exportSelected: "Exportar selecionados",
+      txtOnly: "Somente Txt", txtLangTitle: "Idioma(s)", txtContentsTitle: "Conteúdos", txtDownloadTitle: "Tipo de download",
+      txtContentDictionary: "Dicionário", txtContentSentences: "Contextos de frase", exportTxt: "Exportar Txt",
+      exportLoading: "Exportando…",
+      exportLoadingPreparing: "Preparando exportação…",
+      exportLoadingPackaging: "Empacotando arquivos…",
+      exportLoadingDownloading: "Iniciando download…",
+      txtSizeFull: "Arquivo completo", txtSizeSplit: "Arquivos de 10mb", txtLayoutListed: "Palavras listadas", txtLayoutPerLine: "Palavra por linha",
+      dictSection: "Dicionário", imageSection: "Imagens", sentenceSection: "Frases", commentSection: "Comentários",
+      wordSearchPlaceholder: "Pesquisar palavras…", imageSearchPlaceholder: "Pesquisar símbolos…", sentenceSearchPlaceholder: "Pesquisar frases…", commentSearchPlaceholder: "Pesquisar comentários…",
+      fullDictionary: "Selecionar todas as palavras", fullImages: "Selecionar todas as imagens", fullSentences: "Selecionar todas as frases", fullComments: "Selecionar todos os comentários",
+      imageHint: "Clique em um símbolo para abrir variantes e selecionar imagens.", imageLabel: "Imagem", customDefaultSelected: "padrão", langAll: "Todos os idiomas",
+      importTitle: "Importar", importHint: "Importe um arquivo .zip, uma pasta, um .json antigo ou um export Somente Txt.",
+      dropzone: "Solte o arquivo ou pasta aqui", importFile: "Importar arquivo", importFolder: "Importar pasta",
+      chooseTransferFileFirst: "Escolha primeiro um arquivo de transferência.", importFailed: "Falha na importação. Use um pacote válido.",
+      nothingSelected: "Selecione pelo menos um item.", exportDone: "Exportação pronta.",
+      importSummary: "Importados {words} palavras, {images} imagens, {sentences} frases, {comments} comentários. {skipped} duplicados ignorados.",
+    },
+    ko: {
+      title: "전송", exportTitle: "내보내기", exportHint: "모두 내보내기는 사전 단어, 이미지, 저장 문장, 댓글을 하나의 폴더 아카이브로 묶습니다.",
+      exportAll: "모두 내보내기", advancedSettings: "고급 설정", exportSelected: "선택 항목 내보내기",
+      txtOnly: "Txt만", txtLangTitle: "언어", txtContentsTitle: "내용", txtDownloadTitle: "다운로드 유형",
+      txtContentDictionary: "사전", txtContentSentences: "문장 문맥", exportTxt: "Txt 내보내기",
+      exportLoading: "내보내는 중…",
+      exportLoadingPreparing: "내보내기 준비 중…",
+      exportLoadingPackaging: "파일 묶는 중…",
+      exportLoadingDownloading: "다운로드 시작 중…",
+      txtSizeFull: "전체 파일", txtSizeSplit: "10mb 파일", txtLayoutListed: "단어 목록", txtLayoutPerLine: "줄당 단어",
+      dictSection: "사전", imageSection: "이미지", sentenceSection: "문장", commentSection: "댓글",
+      wordSearchPlaceholder: "단어 검색…", imageSearchPlaceholder: "기호 검색…", sentenceSearchPlaceholder: "문장 검색…", commentSearchPlaceholder: "댓글 검색…",
+      fullDictionary: "모든 단어 선택", fullImages: "모든 이미지 선택", fullSentences: "모든 문장 선택", fullComments: "모든 댓글 선택",
+      imageHint: "기호를 클릭해 변형을 열고 이미지를 선택하세요.", imageLabel: "이미지", customDefaultSelected: "기본", langAll: "모든 언어",
+      importTitle: "가져오기", importHint: "폴더 .zip, 폴더, 이전 .json 또는 Txt만 내보내기를 가져올 수 있습니다.",
+      dropzone: "전송 파일 또는 폴더를 여기에 놓기", importFile: "파일 가져오기", importFolder: "폴더 가져오기",
+      chooseTransferFileFirst: "먼저 전송 파일을 선택하세요.", importFailed: "가져오기에 실패했습니다. 유효한 패키지를 사용하세요.",
+      nothingSelected: "내보낼 항목을 하나 이상 선택하세요.", exportDone: "내보내기 준비 완료.",
+      importSummary: "가져옴: 단어 {words}, 이미지 {images}, 문장 {sentences}, 댓글 {comments}. 중복 건너뜀 {skipped}.",
+    },
   };
 
   function getTransfersText() {
-    return TRANSFERS_UI_TEXTS[getStoredLang()] || TRANSFERS_UI_TEXTS.en;
+    const en = TRANSFERS_UI_TEXTS.en;
+    const lang = TRANSFERS_UI_TEXTS[getStoredLang()];
+    if (!lang || lang === en) return en;
+    return Object.assign({}, en, lang);
   }
   function formatTransfersText(template, data) {
     let out = template || "";
@@ -5912,6 +6800,16 @@ if (page === "transfers") {
 
   const exportAllBtn = document.getElementById("transfer-export-all");
   const advancedToggle = document.getElementById("transfer-advanced-toggle");
+  const txtOnlyToggle = document.getElementById("transfer-txt-only-toggle");
+  const txtOnlyPanel = document.getElementById("transfer-txt-only");
+  const txtLangFilters = document.getElementById("transfer-txt-lang-filters");
+  const txtContentDictionary = document.getElementById("transfer-txt-content-dictionary");
+  const txtContentSentences = document.getElementById("transfer-txt-content-sentences");
+  const txtSizeToggle = document.getElementById("transfer-txt-size-toggle");
+  const txtLayoutToggle = document.getElementById("transfer-txt-layout-toggle");
+  const exportTxtBtn = document.getElementById("transfer-export-txt");
+  let txtSplit10mb = false;
+  let txtWordPerLine = false;
   const exportSelectedBtn = document.getElementById("transfer-export-selected");
   const advancedPanel = document.getElementById("transfer-advanced");
   const wordSearch = document.getElementById("transfer-word-search");
@@ -5932,12 +6830,27 @@ if (page === "transfers") {
   const transferImportFolder = document.getElementById("transfer-import-folder");
   const transferImportFileBtn = document.getElementById("transfer-import-file-btn");
   const transferImportFolderBtn = document.getElementById("transfer-import-folder-btn");
+  const importReviewBox = document.getElementById("transfer-import-review-box");
+  const importReviewTitle = document.getElementById("transfer-import-review-title");
+  const importReviewMeta = document.getElementById("transfer-import-review-meta");
+  const importReviewList = document.getElementById("transfer-import-review-list");
+  const importReviewSelectAll = document.getElementById("transfer-import-select-all");
+  const importReviewDeselectAll = document.getElementById("transfer-import-deselect-all");
+  const importReviewApprove = document.getElementById("transfer-import-review-approve");
+  const importReviewCancel = document.getElementById("transfer-import-review-cancel");
+  const transferExportLoadingEl = document.getElementById("transfer-export-loading");
+  const transferExportLoadingLabel = document.getElementById("transfer-export-loading-label");
+  const transferExportLoadingBar = document.getElementById("transfer-export-loading-bar");
+  const transferExportLoadingPercent = document.getElementById("transfer-export-loading-percent");
+  let transferExportBusy = false;
+  let pendingTxtImport = null;
 
   const selectedWordIds = new Set();
   const selectedImageKeys = new Set();
   const selectedSentenceIds = new Set();
   const selectedCommentIds = new Set();
   const expandedImageSymbols = new Set();
+  const selectedTxtLangs = new Set(["all"]);
   let activeLangFilter = "all";
 
   function getEntries() {
@@ -5968,6 +6881,26 @@ if (page === "transfers") {
     setText("transfers-export-hint", t.exportHint);
     if (exportAllBtn) exportAllBtn.textContent = t.exportAll;
     if (advancedToggle) advancedToggle.textContent = t.advancedSettings;
+    if (txtOnlyToggle) txtOnlyToggle.textContent = t.txtOnly || "Txt Only";
+    if (exportTxtBtn) exportTxtBtn.textContent = t.exportTxt || "Export Txt";
+    if (txtSizeToggle) txtSizeToggle.textContent = txtSplit10mb ? (t.txtSizeSplit || "10mb Files") : (t.txtSizeFull || "Full File");
+    if (txtLayoutToggle) txtLayoutToggle.textContent = txtWordPerLine ? (t.txtLayoutPerLine || "Word per line") : (t.txtLayoutListed || "Words Listed");
+    if (importReviewTitle) importReviewTitle.textContent = t.reviewTitle || "Review Import";
+    if (importReviewSelectAll) importReviewSelectAll.textContent = t.reviewSelectAll || "Select All";
+    if (importReviewDeselectAll) importReviewDeselectAll.textContent = t.reviewDeselectAll || "Deselect All";
+    if (importReviewApprove) importReviewApprove.textContent = t.reviewApprove || "Approve";
+    if (importReviewCancel) importReviewCancel.textContent = t.reviewCancel || "Cancel";
+    setText("transfers-txt-lang-title", t.txtLangTitle || "Language(s)");
+    setText("transfers-txt-contents-title", t.txtContentsTitle || "Contents");
+    setText("transfers-txt-download-title", t.txtDownloadTitle || "Download Type");
+    if (txtContentDictionary) {
+      const span = txtContentDictionary.parentElement && txtContentDictionary.parentElement.querySelector("span");
+      if (span) span.textContent = t.txtContentDictionary || "Dictionary";
+    }
+    if (txtContentSentences) {
+      const span = txtContentSentences.parentElement && txtContentSentences.parentElement.querySelector("span");
+      if (span) span.textContent = t.txtContentSentences || "Sentence Contexts";
+    }
     if (exportSelectedBtn) exportSelectedBtn.textContent = t.exportSelected;
     setText("transfers-dict-section-title", t.dictSection);
     setText("transfers-image-section-title", t.imageSection);
@@ -6191,7 +7124,52 @@ if (page === "transfers") {
     return list.filter((entry) => entry && selected.has(String(entry.id)));
   }
 
-  async function buildTransferZipFiles(payload) {
+  function setTransferExportProgress(percent, label) {
+    const safe = Math.max(0, Math.min(100, Math.round(Number(percent) || 0)));
+    if (transferExportLoadingBar) transferExportLoadingBar.style.width = safe + "%";
+    if (transferExportLoadingPercent) {
+      transferExportLoadingPercent.textContent = formatTransfersText(
+        getTransfersText().txtExportProgress || "Exporting… {percent}%",
+        { percent: safe }
+      );
+    }
+    if (label && transferExportLoadingLabel) transferExportLoadingLabel.textContent = label;
+  }
+
+  function showTransferExportLoading(label) {
+    transferExportBusy = true;
+    if (!transferExportLoadingEl) return;
+    const t = getTransfersText();
+    if (transferExportLoadingLabel) {
+      transferExportLoadingLabel.textContent = label || t.exportLoading || "Exporting…";
+    }
+    setTransferExportProgress(0, null);
+    transferExportLoadingEl.classList.remove("hidden");
+    transferExportLoadingEl.setAttribute("aria-busy", "true");
+    document.body.style.overflow = "hidden";
+  }
+
+  function hideTransferExportLoading() {
+    transferExportBusy = false;
+    if (!transferExportLoadingEl) return;
+    transferExportLoadingEl.classList.add("hidden");
+    transferExportLoadingEl.setAttribute("aria-busy", "false");
+    document.body.style.overflow = "";
+    if (transferExportLoadingBar) transferExportLoadingBar.style.width = "0%";
+  }
+
+  function mapExportWorkToPercent(done, total, startPercent, endPercent) {
+    const span = Math.max(0, endPercent - startPercent);
+    if (!total || total <= 0) return startPercent;
+    const ratio = Math.max(0, Math.min(1, done / total));
+    return startPercent + (ratio * span);
+  }
+
+  function yieldToUi() {
+    return new Promise((resolve) => setTimeout(resolve, 0));
+  }
+
+  async function buildTransferZipFiles(payload, onProgress) {
     const encoder = new TextEncoder();
     const files = [];
     const sections = [];
@@ -6200,6 +7178,11 @@ if (page === "transfers") {
     if (payload.sentences && payload.sentences.length) sections.push("sentences");
     if (payload.comments && payload.comments.length) sections.push("comments");
 
+    const report = async (percent) => {
+      if (typeof onProgress === "function") await onProgress(percent);
+    };
+
+    await report(8);
     files.push({
       name: "manifest.json",
       data: encoder.encode(JSON.stringify({
@@ -6211,8 +7194,10 @@ if (page === "transfers") {
     });
 
     if (sections.includes("dictionary")) {
+      await report(18);
       const lines = payload.dictionary.map((word) => JSON.stringify(word)).join("\n");
       files.push({ name: "dictionary/words.jsonl", data: encoder.encode(lines) });
+      await yieldToUi();
     }
 
     if (sections.includes("images")) {
@@ -6231,6 +7216,8 @@ if (page === "transfers") {
           variants.push({ file: fileName, hash });
         }
         imageIndex[id] = { selected: cfg.selected || 0, variants };
+        await report(mapExportWorkToPercent(i + 1, ids.length, 25, 75));
+        if (i % 4 === 0) await yieldToUi();
       }
       files.push({
         name: "images/index.json",
@@ -6239,6 +7226,7 @@ if (page === "transfers") {
     }
 
     if (sections.includes("sentences")) {
+      await report(82);
       files.push({
         name: "sentences/sentences.json",
         data: encoder.encode(JSON.stringify(payload.sentences, null, 2)),
@@ -6246,16 +7234,19 @@ if (page === "transfers") {
     }
 
     if (sections.includes("comments")) {
+      await report(90);
       files.push({
         name: "comments/comments.json",
         data: encoder.encode(JSON.stringify(payload.comments, null, 2)),
       });
     }
 
+    await report(95);
     return files;
   }
 
   async function exportTransferPackage(options) {
+    if (transferExportBusy) return;
     const all = !!(options && options.all);
     const dictionary = getSelectedWords(all);
     const images = getSelectedImages(all);
@@ -6265,9 +7256,30 @@ if (page === "transfers") {
       alert(getTransfersText().nothingSelected);
       return;
     }
-    const files = await buildTransferZipFiles({ dictionary, images, sentences, comments });
-    const blob = buildStoreZip(files);
-    triggerDownload("kanji-builder-transfer.zip", blob);
+    const t = getTransfersText();
+    showTransferExportLoading(t.exportLoadingPreparing || t.exportLoading || "Preparing export…");
+    try {
+      await yieldToUi();
+      setTransferExportProgress(5, t.exportLoadingPreparing || "Preparing export…");
+      const files = await buildTransferZipFiles(
+        { dictionary, images, sentences, comments },
+        async (percent) => {
+          setTransferExportProgress(percent, t.exportLoadingPackaging || "Packaging files…");
+          await yieldToUi();
+        }
+      );
+      setTransferExportProgress(97, t.exportLoadingDownloading || "Starting download…");
+      await yieldToUi();
+      const blob = buildStoreZip(files);
+      setTransferExportProgress(100, t.exportLoadingDownloading || "Starting download…");
+      triggerDownload("kanji-builder-transfer.zip", blob);
+      alert(t.exportDone);
+    } catch (err) {
+      console.error(err);
+      alert(getTransfersText().importFailed);
+    } finally {
+      hideTransferExportLoading();
+    }
   }
 
   function normalizePackageFromLegacyJson(data) {
@@ -6446,7 +7458,11 @@ if (page === "transfers") {
       ensureEntryIds(entries);
       const existing = new Set(entries.filter((e) => !e.isCore).map(getTransferWordFingerprint));
       pkg.dictionary.forEach((obj) => {
-        const incoming = Object.assign({}, serializeTransferWord(obj), { _entryId: makeEntryId(), isCore: false });
+        const incoming = Object.assign({}, serializeTransferWord(obj), {
+          _entryId: makeEntryId(),
+          isCore: false,
+          wordId: obj.wordId || allocateNewWordId(entries),
+        });
         if (!incoming.definition) return;
         const fp = getTransferWordFingerprint(incoming);
         if (existing.has(fp)) {
@@ -6555,6 +7571,12 @@ if (page === "transfers") {
 
   async function importFromFiles(fileList) {
     try {
+      const files = Array.from(fileList || []);
+      const txtFiles = files.filter((file) => /\.txt$/i.test(file.name || ""));
+      if (txtFiles.length && txtFiles.length === files.length) {
+        await importTxtOnlyFiles(txtFiles);
+        return;
+      }
       const pkg = await packageFromFileList(fileList);
       await importTransferPackage(pkg);
     } catch (err) {
@@ -6563,12 +7585,389 @@ if (page === "transfers") {
     }
   }
 
+  function recWordLabel(rec) {
+    const left = String(rec.LanguageWord || "").trim();
+    const right = String(rec.PairWord || "").trim();
+    if (left && right && left !== right) return left + " → " + right;
+    return left || right || "(no word)";
+  }
+
+  function closeImportReview() {
+    pendingTxtImport = null;
+    if (importReviewBox) importReviewBox.classList.add("hidden");
+    if (importReviewList) importReviewList.innerHTML = "";
+  }
+
+  function setImportReviewChecks(checked) {
+    if (!importReviewList) return;
+    importReviewList.querySelectorAll('input[type="checkbox"][data-review-key]').forEach((input) => {
+      input.checked = !!checked;
+    });
+  }
+
+  function renderImportReview(preview, sentences) {
+    const t = getTransfersText();
+    const api = window.KanjiBuilderTxtTransfer;
+    if (!importReviewList) return;
+    importReviewList.innerHTML = "";
+    const changeCount = (preview.symbols || []).length
+      + (preview.wordChanges || []).length
+      + (preview.exceptions || []).length
+      + (preview.newWords || []).length;
+    if (importReviewMeta) {
+      importReviewMeta.textContent = formatTransfersText(
+        t.reviewMeta || "{count} change(s) to review. Unchecked items are ignored.",
+        { count: changeCount }
+      );
+    }
+
+    function addSection(title, items, keyPrefix, describe) {
+      if (!items || !items.length) return;
+      const section = document.createElement("section");
+      section.className = "transfer-import-review-section";
+      const heading = document.createElement("h3");
+      heading.textContent = title + " (" + items.length + ")";
+      section.appendChild(heading);
+      items.forEach((item, index) => {
+        const row = document.createElement("label");
+        row.className = "transfer-import-review-item";
+        const checkbox = document.createElement("input");
+        checkbox.type = "checkbox";
+        checkbox.checked = true;
+        checkbox.dataset.reviewKey = keyPrefix + index;
+        const body = document.createElement("div");
+        body.className = "transfer-import-review-item-body";
+        const titleEl = document.createElement("strong");
+        titleEl.textContent = "ID# " + (item.wordId || item.rec["ID#"] || "?") + " · " + recWordLabel(item.rec);
+        body.appendChild(titleEl);
+        describe(item, body);
+        row.appendChild(checkbox);
+        row.appendChild(body);
+        section.appendChild(row);
+      });
+      importReviewList.appendChild(section);
+    }
+
+    addSection(t.reviewSymbols || "Symbols", preview.symbols, "symbols:", (item, body) => {
+      const currentParts = [];
+      if (item.current) {
+        if (item.current.is && item.current.is.length) currentParts.push("Is: " + api.formatSymbolNames(item.current.is));
+        if (item.current.unrelated && item.current.unrelated.length) currentParts.push("Unrelated: " + api.formatSymbolNames(item.current.unrelated));
+        if (item.current.isNot && item.current.isNot.length) currentParts.push("Isn't: " + api.formatSymbolNames(item.current.isNot));
+      }
+      if (currentParts.length) {
+        const current = document.createElement("span");
+        current.textContent = (t.reviewCurrent || "Current") + ": " + currentParts.join(" · ");
+        body.appendChild(current);
+      }
+      const addedParts = [];
+      if (item.addedSymbols) {
+        if (item.addedSymbols.is.length) addedParts.push("Is + " + api.formatSymbolNames(item.addedSymbols.is));
+        if (item.addedSymbols.unrelated.length) addedParts.push("Unrelated + " + api.formatSymbolNames(item.addedSymbols.unrelated));
+        if (item.addedSymbols.isNot.length) addedParts.push("Isn't + " + api.formatSymbolNames(item.addedSymbols.isNot));
+      }
+      const added = document.createElement("span");
+      added.textContent = (t.reviewAddSymbols || "Add symbols") + ": " + (addedParts.join(" · ") || "—");
+      body.appendChild(added);
+    });
+
+    addSection(t.reviewWordChange || "Word change", preview.wordChanges, "word:", (item, body) => {
+      (item.wordDiff || []).forEach((diff) => {
+        const line = document.createElement("span");
+        const langLabel = (LANGUAGES[diff.lang] || diff.lang || "");
+        line.textContent = langLabel + ": " + (diff.current || "—") + " → " + (diff.incoming || "—");
+        body.appendChild(line);
+      });
+    });
+
+    addSection(t.reviewExceptions || "Exceptions", preview.exceptions, "exception:", (item, body) => {
+      const clash = document.createElement("span");
+      clash.textContent = (item.clashes && item.clashes.length)
+        ? item.clashes.join(" · ")
+        : ((t.reviewCurrent || "Current") + " and import disagree on symbol categories.");
+      body.appendChild(clash);
+      (item.wordDiff || []).forEach((diff) => {
+        const line = document.createElement("span");
+        const langLabel = (LANGUAGES[diff.lang] || diff.lang || "");
+        line.textContent = langLabel + ": " + (diff.current || "—") + " → " + (diff.incoming || "—");
+        body.appendChild(line);
+      });
+      const note = document.createElement("span");
+      note.textContent = t.reviewWillSeparate || "Will be added as a separate word for exception checking.";
+      body.appendChild(note);
+    });
+
+    addSection(t.reviewNewWords || "New words", preview.newWords, "new:", (item, body) => {
+      const line = document.createElement("span");
+      line.textContent = recWordLabel(item.rec);
+      body.appendChild(line);
+    });
+
+    if (sentences && sentences.length) {
+      const note = document.createElement("p");
+      note.className = "transfer-import-review-meta";
+      note.textContent = "Sentence contexts in this file: " + sentences.length + " (imported with Approve).";
+      importReviewList.appendChild(note);
+    }
+
+    if (importReviewBox) importReviewBox.classList.remove("hidden");
+  }
+
+  async function importTxtOnlyFiles(files) {
+    const api = window.KanjiBuilderTxtTransfer;
+    if (!api) throw new Error("txt transfer missing");
+    const list = Array.from(files || []).sort((a, b) =>
+      String(a.name || "").localeCompare(String(b.name || ""), undefined, { numeric: true, sensitivity: "base" })
+    );
+    let dictionary = [];
+    let sentences = [];
+    for (let i = 0; i < list.length; i++) {
+      const parsed = api.parseTxtBlocks(await list[i].text());
+      if (parsed.dictionary && parsed.dictionary.length) dictionary = dictionary.concat(parsed.dictionary);
+      if (parsed.sentences && parsed.sentences.length) sentences = sentences.concat(parsed.sentences);
+    }
+    const parsed = { dictionary, sentences };
+    const preview = parsed.dictionary.length
+      ? api.previewTxtDictionaryImport(parsed.dictionary)
+      : { symbols: [], wordChanges: [], exceptions: [], newWords: [] };
+    const hasDictChanges = api.previewHasChanges(preview);
+    if (!hasDictChanges && !(parsed.sentences && parsed.sentences.length)) {
+      alert(getTransfersText().reviewNone || "No dictionary changes to review.");
+      return;
+    }
+    if (!hasDictChanges && parsed.sentences && parsed.sentences.length) {
+      const sentenceStats = api.importTxtSentences(parsed.sentences);
+      alert(formatTransfersText(getTransfersText().txtImportSummary || "Approved: {merged} symbol merges, {updated} word updates, {separated} exceptions added, {added} new words. Sentences +{sentenceAdded}/~{sentenceUpdated}.", {
+        merged: 0,
+        updated: 0,
+        separated: 0,
+        added: 0,
+        sentenceAdded: sentenceStats.added,
+        sentenceUpdated: sentenceStats.updated,
+      }));
+      renderSentenceList();
+      return;
+    }
+    pendingTxtImport = { preview, sentences: parsed.sentences || [] };
+    renderImportReview(preview, pendingTxtImport.sentences);
+  }
+
+  function approvePendingTxtImport() {
+    const api = window.KanjiBuilderTxtTransfer;
+    if (!api || !pendingTxtImport) {
+      closeImportReview();
+      return;
+    }
+    const approved = new Set();
+    if (importReviewList) {
+      importReviewList.querySelectorAll('input[type="checkbox"][data-review-key]').forEach((input) => {
+        if (input.checked && input.dataset.reviewKey) approved.add(input.dataset.reviewKey);
+      });
+    }
+    const dictStats = api.applyTxtDictionaryPreview(pendingTxtImport.preview, approved);
+    const sentenceStats = pendingTxtImport.sentences.length
+      ? api.importTxtSentences(pendingTxtImport.sentences)
+      : { added: 0, updated: 0 };
+    closeImportReview();
+    alert(formatTransfersText(getTransfersText().txtImportSummary || "Approved: {merged} symbol merges, {updated} word updates, {separated} exceptions added, {added} new words. Sentences +{sentenceAdded}/~{sentenceUpdated}.", {
+      merged: dictStats.merged || 0,
+      updated: dictStats.updated || 0,
+      separated: dictStats.separated || 0,
+      added: dictStats.added || 0,
+      sentenceAdded: sentenceStats.added,
+      sentenceUpdated: sentenceStats.updated,
+    }));
+    renderWordList();
+    renderSentenceList();
+  }
+
+  function updateTxtExportButtonState() {
+    if (!exportTxtBtn) return;
+    const hasLang = selectedTxtLangs.size > 0;
+    const hasContent = !!(txtContentDictionary && txtContentDictionary.checked)
+      || !!(txtContentSentences && txtContentSentences.checked);
+    exportTxtBtn.disabled = !(hasLang && hasContent);
+  }
+
+  function renderTxtLangFilters() {
+    if (!txtLangFilters) return;
+    const t = getTransfersText();
+    txtLangFilters.innerHTML = "";
+    const options = [["all", t.langAll || "All languages"]].concat(
+      Object.keys(LANGUAGES).map((code) => [code, LANGUAGES[code]])
+    );
+    options.forEach(([code, label]) => {
+      const chip = document.createElement("label");
+      chip.className = "transfer-lang-chip";
+      const input = document.createElement("input");
+      input.type = "checkbox";
+      input.value = code;
+      input.checked = selectedTxtLangs.has(code);
+      input.addEventListener("change", () => {
+        if (code === "all") {
+          selectedTxtLangs.clear();
+          if (input.checked) selectedTxtLangs.add("all");
+        } else {
+          selectedTxtLangs.delete("all");
+          if (input.checked) selectedTxtLangs.add(code);
+          else selectedTxtLangs.delete(code);
+          if (!selectedTxtLangs.size) selectedTxtLangs.add("all");
+        }
+        renderTxtLangFilters();
+        updateTxtExportButtonState();
+      });
+      const span = document.createElement("span");
+      span.textContent = label;
+      chip.appendChild(input);
+      chip.appendChild(span);
+      txtLangFilters.appendChild(chip);
+    });
+    updateTxtExportButtonState();
+  }
+
+  function exportTxtOnly() {
+    if (transferExportBusy) return;
+    const api = window.KanjiBuilderTxtTransfer;
+    if (!api) {
+      alert(getTransfersText().importFailed);
+      return;
+    }
+    const includeDictionary = !!(txtContentDictionary && txtContentDictionary.checked);
+    const includeSentences = !!(txtContentSentences && txtContentSentences.checked);
+    if (!selectedTxtLangs.size || (!includeDictionary && !includeSentences)) {
+      alert(getTransfersText().nothingSelected);
+      return;
+    }
+    const langs = selectedTxtLangs.has("all") ? ["all"] : Array.from(selectedTxtLangs);
+    const t = getTransfersText();
+    if (exportTxtBtn) {
+      exportTxtBtn.disabled = true;
+      exportTxtBtn.textContent = t.txtExportBuilding || "Building…";
+    }
+    showTransferExportLoading(t.exportLoadingPreparing || t.exportLoading || "Preparing export…");
+
+    function makeTxtProgressHandler(startPercent, endPercent, label) {
+      return async (done, total) => {
+        setTransferExportProgress(
+          mapExportWorkToPercent(done, total, startPercent, endPercent),
+          label
+        );
+      };
+    }
+
+    setTimeout(async () => {
+      try {
+        const filename = api.buildTxtFilename(langs, includeDictionary, includeSentences);
+        if (txtSplit10mb) {
+          setTransferExportProgress(1, t.txtExportMeasuring || "Measuring export size…");
+          const measured = await api.measureTxtExport(
+            langs,
+            includeDictionary,
+            includeSentences,
+            yieldToUi,
+            txtWordPerLine,
+            makeTxtProgressHandler(2, 48, t.txtExportMeasuring || "Measuring export size…")
+          );
+          hideTransferExportLoading();
+          const totalMb = (measured.totalBytes / (1024 * 1024)).toFixed(1);
+          const ok = confirm(formatTransfersText(
+            t.txtSplitConfirm || "This export is about {mb} MB and will download as {count} files (10MB each). Continue?",
+            { mb: totalMb, count: measured.chunks }
+          ));
+          if (!ok) return;
+          showTransferExportLoading(t.txtExportBuilding || t.exportLoading || "Exporting…");
+          setTransferExportProgress(50, t.txtExportBuilding || "Building…");
+          let downloaded = 0;
+          await api.streamTxtExport({
+            selectedLangs: langs,
+            includeDictionary,
+            includeSentences,
+            split10mb: true,
+            oneLine: txtWordPerLine,
+            totalChunks: measured.chunks,
+            yieldFn: yieldToUi,
+            onProgress: makeTxtProgressHandler(50, 92, t.txtExportBuilding || "Building…"),
+            onChunk: async (blob, index) => {
+              triggerDownload(api.chunkTxtFilename(filename, index), blob);
+              downloaded += 1;
+              const downloadPct = mapExportWorkToPercent(downloaded, Math.max(1, measured.chunks), 92, 100);
+              setTransferExportProgress(
+                downloadPct,
+                formatTransfersText(t.txtExportProgress || "Exporting… {percent}%", {
+                  percent: Math.round(downloadPct),
+                })
+              );
+              await new Promise((resolve) => setTimeout(resolve, 450));
+            },
+          });
+          setTransferExportProgress(100, t.exportLoadingDownloading || "Starting download…");
+          alert(formatTransfersText(t.txtSplitDone || "Exported {count} files.", { count: downloaded || measured.chunks }));
+        } else {
+          setTransferExportProgress(2, t.txtExportBuilding || "Building…");
+          const blobParts = [];
+          await api.streamTxtExport({
+            selectedLangs: langs,
+            includeDictionary,
+            includeSentences,
+            split10mb: false,
+            oneLine: txtWordPerLine,
+            yieldFn: yieldToUi,
+            onProgress: makeTxtProgressHandler(2, 96, t.txtExportBuilding || "Building…"),
+            onChunk: async (blob) => {
+              blobParts.push(blob);
+            },
+          });
+          setTransferExportProgress(98, t.exportLoadingDownloading || "Starting download…");
+          await yieldToUi();
+          triggerDownload(filename, blobParts.length === 1 ? blobParts[0] : new Blob(blobParts, { type: "text/plain;charset=utf-8" }));
+          setTransferExportProgress(100, t.exportLoadingDownloading || "Starting download…");
+          alert(t.exportDone);
+        }
+      } catch (err) {
+        console.error(err);
+        alert(getTransfersText().importFailed);
+      } finally {
+        hideTransferExportLoading();
+        if (exportTxtBtn) {
+          exportTxtBtn.textContent = getTransfersText().exportTxt || "Export Txt";
+          updateTxtExportButtonState();
+        }
+      }
+    }, 30);
+  }
+
   if (advancedToggle && advancedPanel) {
     advancedToggle.addEventListener("click", () => {
       advancedPanel.classList.toggle("hidden");
+      if (txtOnlyPanel) txtOnlyPanel.classList.add("hidden");
       if (exportSelectedBtn) exportSelectedBtn.classList.toggle("hidden", advancedPanel.classList.contains("hidden"));
     });
   }
+  if (txtOnlyToggle && txtOnlyPanel) {
+    txtOnlyToggle.addEventListener("click", () => {
+      txtOnlyPanel.classList.toggle("hidden");
+      if (advancedPanel) advancedPanel.classList.add("hidden");
+      if (exportSelectedBtn) exportSelectedBtn.classList.add("hidden");
+      if (!txtOnlyPanel.classList.contains("hidden")) renderTxtLangFilters();
+    });
+  }
+  if (txtContentDictionary) txtContentDictionary.addEventListener("change", updateTxtExportButtonState);
+  if (txtContentSentences) txtContentSentences.addEventListener("change", updateTxtExportButtonState);
+  if (txtSizeToggle) {
+    txtSizeToggle.addEventListener("click", () => {
+      txtSplit10mb = !txtSplit10mb;
+      const t = getTransfersText();
+      txtSizeToggle.textContent = txtSplit10mb ? (t.txtSizeSplit || "10mb Files") : (t.txtSizeFull || "Full File");
+    });
+  }
+  if (txtLayoutToggle) {
+    txtLayoutToggle.addEventListener("click", () => {
+      txtWordPerLine = !txtWordPerLine;
+      const t = getTransfersText();
+      txtLayoutToggle.textContent = txtWordPerLine ? (t.txtLayoutPerLine || "Word per line") : (t.txtLayoutListed || "Words Listed");
+    });
+  }
+  if (exportTxtBtn) exportTxtBtn.addEventListener("click", exportTxtOnly);
   if (exportAllBtn) exportAllBtn.addEventListener("click", () => exportTransferPackage({ all: true }));
   if (exportSelectedBtn) exportSelectedBtn.addEventListener("click", () => exportTransferPackage({ all: false }));
 
@@ -6619,6 +8018,16 @@ if (page === "transfers") {
     });
   }
 
+  if (importReviewSelectAll) importReviewSelectAll.addEventListener("click", () => setImportReviewChecks(true));
+  if (importReviewDeselectAll) importReviewDeselectAll.addEventListener("click", () => setImportReviewChecks(false));
+  if (importReviewApprove) importReviewApprove.addEventListener("click", approvePendingTxtImport);
+  if (importReviewCancel) importReviewCancel.addEventListener("click", closeImportReview);
+  if (importReviewBox) {
+    importReviewBox.addEventListener("click", (event) => {
+      if (event.target === importReviewBox) closeImportReview();
+    });
+  }
+
   if (transferImportFileBtn && transferImportFile) {
     transferImportFileBtn.addEventListener("click", () => transferImportFile.click());
     transferImportFile.addEventListener("change", async () => {
@@ -6650,6 +8059,8 @@ if (page === "transfers") {
   }
 
   updateTransfersUiText();
+  renderTxtLangFilters();
+  updateTxtExportButtonState();
   renderWordList();
   renderImageList();
   renderSentenceList();
@@ -6756,11 +8167,12 @@ if (page === "dictionary") {
   ].filter(Boolean);
   const worldDictionaryRows = Array.isArray(window.WORLD_DICTIONARY_ROWS) ? window.WORLD_DICTIONARY_ROWS : [];
   const worldOrderCache = { en: worldDictionaryRows };
+  let worldRowsByOriginCache = null;
   const selectedPairs = new Set();
   const PASSWORD = ADMIN_PASSWORD;
   const EXCEPTION_LEVEL_ORDER = { red: 0, yellow: 1, blue: 2, green: 3 };
   const approvedExceptions = loadApprovedExceptionsMap();
-  const hiddenWorldLines = new Set(JSON.parse(localStorage.getItem(HIDDEN_WORLD_LINES_KEY) || "[]"));
+  const hiddenWorldLines = loadHiddenWorldLines();
   let activeExceptionGroup = null;
   let activeExceptionItem = null;
   let currentPage = 1;
@@ -6771,18 +8183,26 @@ if (page === "dictionary") {
   const dictionaryLoadingLabel = document.getElementById("dictionary-loading-label");
   const dictionaryLoadingBarOverall = document.getElementById("dictionary-loading-bar-overall");
   const dictionaryLoadingPercent = document.getElementById("dictionary-loading-percent");
+  const dictionaryLoadingProgress = document.getElementById("dictionary-loading-progress");
+  const dictionaryLoadingDone = document.getElementById("dictionary-loading-done");
+  const dictionaryLoadingTime = document.getElementById("dictionary-loading-time");
+  const dictionaryLoadingClose = document.getElementById("dictionary-loading-close");
   let dictionaryLoadingLabelKey = "";
   let dictionaryLoadingOverall = 0;
   let dictionaryLoadingOverallTarget = 0;
   let dictionaryLoadingOverallCurrent = 0;
   let dictionaryLoadingAnimHandle = 0;
-  const DICTIONARY_LOAD_YIELD_MS = 14;
-  const DICTIONARY_WORLD_CHUNK = 4000;
+  let dictionaryLoadingStartedAt = 0;
+  const DICTIONARY_LOAD_YIELD_MS = 0;
+  const DICTIONARY_WORLD_CHUNK = 8000;
   let dictionaryLoadToken = 0;
   let dictionaryViewCache = null;
 
   function yieldDictionaryUi(ms) {
     const delay = ms == null ? DICTIONARY_LOAD_YIELD_MS : ms;
+    if (delay <= 0) {
+      return new Promise((resolve) => window.requestAnimationFrame(() => resolve()));
+    }
     return new Promise((resolve) => {
       window.requestAnimationFrame(() => window.setTimeout(resolve, delay));
     });
@@ -6838,12 +8258,28 @@ if (page === "dictionary") {
     dictionaryLoadingEl.setAttribute("aria-busy", overall < 100 ? "true" : "false");
   }
 
+  function formatDictionaryLoadTime(ms) {
+    const elapsed = Math.max(0, Number(ms) || 0);
+    if (elapsed < 1000) return Math.round(elapsed) + " ms";
+    const seconds = elapsed / 1000;
+    if (seconds < 10) return seconds.toFixed(1) + " s";
+    return Math.round(seconds) + " s";
+  }
+
+  function setDictionaryLoadingMode(mode) {
+    const done = mode === "done";
+    if (dictionaryLoadingProgress) dictionaryLoadingProgress.classList.toggle("hidden", done);
+    if (dictionaryLoadingDone) dictionaryLoadingDone.classList.toggle("hidden", !done);
+  }
+
   function showDictionaryLoading(labelKey) {
     dictionaryLoadingCount += 1;
     if (!dictionaryLoadingEl) return;
     dictionaryLoadingEl.classList.remove("hidden");
+    setDictionaryLoadingMode("progress");
     dictionaryLoadingLabelKey = labelKey || "dictionary.loadingWords";
     if (dictionaryLoadingCount === 1) {
+      dictionaryLoadingStartedAt = performance.now();
       dictionaryLoadingOverall = 0;
       dictionaryLoadingOverallTarget = 0;
       dictionaryLoadingOverallCurrent = 0;
@@ -6861,20 +8297,55 @@ if (page === "dictionary") {
     dictionaryLoadingEl.setAttribute("aria-busy", "true");
   }
 
-  function hideDictionaryLoading() {
-    dictionaryLoadingCount = Math.max(0, dictionaryLoadingCount - 1);
-    if (dictionaryLoadingCount > 0 || !dictionaryLoadingEl) return;
+  function finishDictionaryLoading() {
+    dictionaryLoadingCount = 0;
+    if (!dictionaryLoadingEl) return;
+    if (dictionaryLoadingAnimHandle) {
+      window.cancelAnimationFrame(dictionaryLoadingAnimHandle);
+      dictionaryLoadingAnimHandle = 0;
+    }
+    dictionaryLoadingOverall = 100;
+    dictionaryLoadingOverallTarget = 100;
+    dictionaryLoadingOverallCurrent = 100;
+    if (dictionaryLoadingBarOverall) dictionaryLoadingBarOverall.style.width = "100%";
+    const elapsed = dictionaryLoadingStartedAt
+      ? performance.now() - dictionaryLoadingStartedAt
+      : 0;
+    if (dictionaryLoadingTime) {
+      dictionaryLoadingTime.textContent = formatDictionaryText("dictionary.loadingComplete", {
+        time: formatDictionaryLoadTime(elapsed),
+      }) || ("Loaded in " + formatDictionaryLoadTime(elapsed));
+    }
+    if (dictionaryLoadingClose) {
+      dictionaryLoadingClose.textContent = getTranslation("dictionary.close") || "Close";
+    }
+    setDictionaryLoadingMode("done");
+    dictionaryLoadingEl.setAttribute("aria-busy", "false");
+    dictionaryLoadingLabelKey = "";
+  }
+
+  function dismissDictionaryLoading() {
+    dictionaryLoadingCount = 0;
+    if (!dictionaryLoadingEl) return;
     if (dictionaryLoadingAnimHandle) {
       window.cancelAnimationFrame(dictionaryLoadingAnimHandle);
       dictionaryLoadingAnimHandle = 0;
     }
     dictionaryLoadingEl.classList.add("hidden");
     dictionaryLoadingEl.setAttribute("aria-busy", "false");
+    setDictionaryLoadingMode("progress");
     dictionaryLoadingLabelKey = "";
     dictionaryLoadingOverall = 0;
     dictionaryLoadingOverallTarget = 0;
     dictionaryLoadingOverallCurrent = 0;
+    dictionaryLoadingStartedAt = 0;
     if (dictionaryLoadingBarOverall) dictionaryLoadingBarOverall.style.width = "0%";
+  }
+
+  function hideDictionaryLoading() {
+    dictionaryLoadingCount = Math.max(0, dictionaryLoadingCount - 1);
+    if (dictionaryLoadingCount > 0) return;
+    dismissDictionaryLoading();
   }
 
   ensureCoreWordsInDictionary();
@@ -6887,9 +8358,36 @@ if (page === "dictionary") {
     return text;
   }
 
+  const expandedDictionaryLangs = new Set();
+  let dictionaryIndexesReady = false;
+  let dictionaryHasSearched = false;
+  let dictionarySearchInFlight = false;
+  const dictionarySearchBtn = document.getElementById("dictionary-search-btn");
+
   function applyUiLanguageDictionaryDefaults() {
     selectedPairs.clear();
     getDefaultDictionaryPairIdsForUiLang(getStoredLang()).forEach((id) => selectedPairs.add(id));
+  }
+
+  function showDictionaryIdlePrompt() {
+    if (!list) return;
+    list.innerHTML = "";
+    const empty = document.createElement("p");
+    empty.className = "dictionary-empty";
+    empty.textContent = getTranslation("dictionary.selectLanguagesEmpty") ||
+      "Select languages in Show Language(s), then press Search or Enter.";
+    list.appendChild(empty);
+    if (resultsStatus) resultsStatus.textContent = "";
+    pageTotals.forEach((el) => { el.textContent = "/ 1"; });
+    pageInputs.forEach((input) => { input.value = "1"; });
+  }
+
+  function countSelectedPairIds(pairIds) {
+    let count = 0;
+    (pairIds || []).forEach((id) => {
+      if (selectedPairs.has(id)) count += 1;
+    });
+    return count;
   }
 
   function isWorldDictionarySelected() {
@@ -6897,53 +8395,119 @@ if (page === "dictionary") {
     return all.length > 0 && all.every((id) => selectedPairs.has(id));
   }
 
+  function isWorldDictionaryPartial() {
+    const all = getAllDictionaryPairIds();
+    const count = countSelectedPairIds(all);
+    return count > 0 && count < all.length;
+  }
+
   function setWorldDictionarySelected(on) {
-    selectedPairs.clear();
     if (on) {
       getAllDictionaryPairIds().forEach((id) => selectedPairs.add(id));
-    } else {
-      getDefaultDictionaryPairIdsForUiLang(getStoredLang()).forEach((id) => selectedPairs.add(id));
+      return;
     }
+    applyUiLanguageDictionaryDefaults();
+  }
+
+  function setLanguageGroupSelected(langCode, on) {
+    getPairIdsForLanguage(langCode).forEach((id) => {
+      if (on) selectedPairs.add(id);
+      else selectedPairs.delete(id);
+    });
+  }
+
+  function relayoutLanguageOptions() {
+    const scrollTop = languageOptions ? languageOptions.scrollTop : 0;
+    buildLanguageOptions();
+    if (languageOptions) languageOptions.scrollTop = scrollTop;
   }
 
   function buildLanguageOptions() {
     if (!languageOptions) return;
     languageOptions.innerHTML = "";
-    const uiLang = getStoredLang();
+    const worldSelected = isWorldDictionarySelected();
+    const worldPartial = isWorldDictionaryPartial();
 
+    const worldRow = document.createElement("div");
+    worldRow.className = "dictionary-language-row dictionary-language-world-row";
     const worldLabel = document.createElement("label");
     worldLabel.className = "dictionary-language-world";
     const worldCheckbox = document.createElement("input");
     worldCheckbox.type = "checkbox";
-    worldCheckbox.checked = isWorldDictionarySelected();
+    worldCheckbox.checked = worldSelected;
+    worldCheckbox.indeterminate = !worldSelected && worldPartial;
     worldCheckbox.addEventListener("change", () => {
       setWorldDictionarySelected(worldCheckbox.checked);
-      buildLanguageOptions();
-      currentPage = 1;
-      loadEntries();
+      relayoutLanguageOptions();
     });
     worldLabel.appendChild(worldCheckbox);
     worldLabel.appendChild(document.createTextNode(
       getTranslation("dictionary.worldDictionary") || "World Dictionary"
     ));
-    languageOptions.appendChild(worldLabel);
+    worldRow.appendChild(worldLabel);
+    languageOptions.appendChild(worldRow);
 
-    getOrderedDictionaryPairIds(uiLang).forEach((pairId) => {
-      const label = document.createElement("label");
-      const checkbox = document.createElement("input");
-      checkbox.type = "checkbox";
-      checkbox.value = pairId;
-      checkbox.checked = selectedPairs.has(pairId);
-      checkbox.addEventListener("change", () => {
-        if (checkbox.checked) selectedPairs.add(pairId);
-        else selectedPairs.delete(pairId);
-        buildLanguageOptions();
-        currentPage = 1;
-        loadEntries();
+    getDictionaryFilterLangCodes().forEach((langCode) => {
+      const pairIds = getPairIdsForLanguage(langCode);
+      const selectedCount = countSelectedPairIds(pairIds);
+      const allOn = pairIds.length > 0 && selectedCount === pairIds.length;
+      const partial = selectedCount > 0 && selectedCount < pairIds.length;
+      const expanded = expandedDictionaryLangs.has(langCode);
+
+      const group = document.createElement("div");
+      group.className = "dictionary-language-group";
+
+      const row = document.createElement("div");
+      row.className = "dictionary-language-row";
+      const langLabel = document.createElement("label");
+      const langCheckbox = document.createElement("input");
+      langCheckbox.type = "checkbox";
+      langCheckbox.checked = allOn;
+      langCheckbox.indeterminate = partial;
+      langCheckbox.addEventListener("change", () => {
+        setLanguageGroupSelected(langCode, langCheckbox.checked);
+        relayoutLanguageOptions();
       });
-      label.appendChild(checkbox);
-      label.appendChild(document.createTextNode(formatLanguagePairLabel(pairId, uiLang)));
-      languageOptions.appendChild(label);
+      langLabel.appendChild(langCheckbox);
+      langLabel.appendChild(document.createTextNode(LANGUAGES[langCode] || langCode));
+      const arrow = document.createElement("button");
+      arrow.type = "button";
+      arrow.className = "dictionary-language-arrow";
+      arrow.setAttribute("aria-expanded", expanded ? "true" : "false");
+      arrow.setAttribute("aria-label", expanded ? "Hide language pairs" : "Show language pairs");
+      arrow.textContent = "▸";
+      arrow.addEventListener("click", (event) => {
+        event.preventDefault();
+        event.stopPropagation();
+        if (expandedDictionaryLangs.has(langCode)) expandedDictionaryLangs.delete(langCode);
+        else expandedDictionaryLangs.add(langCode);
+        relayoutLanguageOptions();
+      });
+      row.appendChild(langLabel);
+      row.appendChild(arrow);
+      group.appendChild(row);
+
+      const subs = document.createElement("div");
+      subs.className = "dictionary-language-subs" + (expanded ? "" : " hidden");
+      getSubLangCodesForLanguage(langCode).forEach((otherCode) => {
+        const pairId = pairIdForLangs(langCode, otherCode);
+        if (!pairId) return;
+        const subLabel = document.createElement("label");
+        const subCheckbox = document.createElement("input");
+        subCheckbox.type = "checkbox";
+        subCheckbox.value = pairId;
+        subCheckbox.checked = selectedPairs.has(pairId);
+        subCheckbox.addEventListener("change", () => {
+          if (subCheckbox.checked) selectedPairs.add(pairId);
+          else selectedPairs.delete(pairId);
+          relayoutLanguageOptions();
+        });
+        subLabel.appendChild(subCheckbox);
+        subLabel.appendChild(document.createTextNode(LANGUAGES[otherCode] || otherCode));
+        subs.appendChild(subLabel);
+      });
+      group.appendChild(subs);
+      languageOptions.appendChild(group);
     });
   }
 
@@ -7034,6 +8598,12 @@ if (page === "dictionary") {
 
   function saveHiddenWorldLines() {
     localStorage.setItem(HIDDEN_WORLD_LINES_KEY, JSON.stringify(Array.from(hiddenWorldLines)));
+  }
+
+  function syncHiddenWorldLinesFromStorage() {
+    const latest = loadHiddenWorldLines();
+    hiddenWorldLines.clear();
+    latest.forEach((line) => hiddenWorldLines.add(line));
   }
 
   function exceptionItemId(item) {
@@ -7597,18 +9167,29 @@ if (page === "dictionary") {
     return getWorldField(line, lang === "en" ? 0 : 1);
   }
 
+  function getWorldRowsByOriginCode(originCode) {
+    if (!worldRowsByOriginCache) {
+      worldRowsByOriginCache = {};
+      worldDictionaryRows.forEach((line) => {
+        if (!line) return;
+        const lastTab = line.lastIndexOf("\t");
+        const code = WORLD_ORIGIN_TO_LANG[line.slice(lastTab + 1)] || "";
+        if (!worldRowsByOriginCache[code]) worldRowsByOriginCache[code] = [];
+        worldRowsByOriginCache[code].push(line);
+      });
+    }
+    return worldRowsByOriginCache[originCode] || [];
+  }
+
   function getOrderedWorldRows(lang) {
     if (worldOrderCache[lang]) return worldOrderCache[lang];
+    if (!lang || lang === "en") {
+      worldOrderCache.en = worldDictionaryRows;
+      return worldOrderCache.en;
+    }
     const collator = new Intl.Collator(lang, { sensitivity: "base", numeric: true });
-    const ordered = worldDictionaryRows.slice();
+    const ordered = getWorldRowsByOriginCode(lang).slice();
     ordered.sort((a, b) => {
-      const aLastTab = a.lastIndexOf("\t");
-      const bLastTab = b.lastIndexOf("\t");
-      const aOriginCode = WORLD_ORIGIN_TO_LANG[a.slice(aLastTab + 1)];
-      const bOriginCode = WORLD_ORIGIN_TO_LANG[b.slice(bLastTab + 1)];
-      const aPriority = aOriginCode === lang ? 0 : 1;
-      const bPriority = bOriginCode === lang ? 0 : 1;
-      if (aPriority !== bPriority) return aPriority - bPriority;
       const primary = collator.compare(getWorldPrimaryWord(a, lang), getWorldPrimaryWord(b, lang));
       return primary || collator.compare(getWorldField(a, 0), getWorldField(b, 0));
     });
@@ -7726,8 +9307,8 @@ if (page === "dictionary") {
     let pronunciation = pronunciationParts ? getPronunciationField(pronunciationParts) : ["", ""];
     if (override) {
       pronunciation = [getTranslation(override[0]), override[1]];
-    } else if (!pronunciation[1] && lang === "ru") {
-      pronunciation = [getTranslation("dictionary.latinLetters"), transliterateRussian(displayWord)];
+    } else if (!pronunciation[1] && isLatinLettersLang(lang)) {
+      pronunciation = [getTranslation("dictionary.latinLetters"), lang === "ru" ? transliterateRussian(displayWord) : ""];
     } else if (!pronunciation[1] && lang === "ja" && /[\u30a1-\u30f6]/.test(displayWord)) {
       pronunciation = [getTranslation("dictionary.hiragana"), katakanaToHiragana(displayWord)];
     }
@@ -7745,7 +9326,7 @@ if (page === "dictionary") {
       [getTranslation("dictionary.english"), entry.definition || ""],
       [englishMode ? "" : getTranslation("dictionary.translation"), englishMode ? "" : getEntryDisplayWord(entry, lang)],
       [getTranslation("dictionary.partOfSpeech"), metadata.pos],
-      ["", ""],
+      ["ID#", entry.wordId != null ? String(entry.wordId) : ""],
       metadata.pronunciation,
     ]);
   }
@@ -7756,29 +9337,47 @@ if (page === "dictionary") {
     let translated = entry.translationLanguage || "";
     if (!translated || translated === origin) {
       const keys = Object.keys(translations).filter((code) => code !== origin);
-      if (keys.includes("en")) translated = "en";
-      else if (keys.length) translated = keys[0];
-      else translated = origin === "en" ? "" : "en";
+      if (origin !== "en") {
+        const nonEn = keys.filter((code) => code !== "en");
+        if (nonEn.length) translated = nonEn[0];
+        else if (keys.includes("en")) translated = "en";
+        else if (keys.length) translated = keys[0];
+        else translated = "en";
+      } else if (keys.length) {
+        translated = keys[0];
+      } else {
+        translated = "";
+      }
     }
     let leftLang = origin;
     let rightLang = translated;
-    // English-hub pairs flip with UI: Language-English vs English-Language.
-    const foreignHub = getEntryForeignHubLang(entry);
-    if (foreignHub && (origin === "en" || translated === "en" || translations.en || entry.definition)) {
-      const display = getPairDisplayLangs(makeEnglishHubPairId(foreignHub), getStoredLang());
+    // Cross pairs and English-hub pairs flip with UI language orientation.
+    if (origin !== "en" && translated && translated !== "en") {
+      const display = getPairDisplayLangs(makeCrossPairId(origin, translated), getStoredLang());
       if (display) {
         leftLang = display.wordLang;
         rightLang = display.translationLang;
+      }
+    } else {
+      const foreignHub = getEntryForeignHubLang(entry);
+      if (foreignHub && (origin === "en" || translated === "en" || translations.en || entry.definition)) {
+        const display = getPairDisplayLangs(makeEnglishHubPairId(foreignHub), getStoredLang());
+        if (display) {
+          leftLang = display.wordLang;
+          rightLang = display.translationLang;
+        }
       }
     }
     const leftWord = translations[leftLang] || (leftLang === "en" ? (entry.definition || "") : "");
     const rightWord = rightLang
       ? (translations[rightLang] || (rightLang === "en" ? (entry.definition || "") : ""))
       : "";
+    if (!entry.wordId) ensureEntryWordId(entry, ensureCoreWordsInDictionary());
     const rows = [
       [LANGUAGES[leftLang] || leftLang, leftWord, leftLang],
       [rightLang ? (LANGUAGES[rightLang] || rightLang) : getTranslation("dictionary.translation"), rightWord, rightLang || ""],
       [getTranslation("dictionary.partOfSpeech"), [].concat(entry.partOfSpeech || []).join(", ")],
+      ["ID#", entry.wordId != null ? String(entry.wordId) : ""],
     ];
     [
       [leftLang, "zh", "dictionary.pinyin", "pinyin"],
@@ -7787,6 +9386,8 @@ if (page === "dictionary") {
       [rightLang, "ja", "dictionary.hiragana", "hiragana"],
       [leftLang, "ru", "dictionary.latinLetters", "latinLetters"],
       [rightLang, "ru", "dictionary.latinLetters", "latinLetters"],
+      [leftLang, "ko", "dictionary.latinLetters", "latinLetters"],
+      [rightLang, "ko", "dictionary.latinLetters", "latinLetters"],
     ].forEach(([lang, needed, labelKey, field]) => {
       if (lang !== needed) return;
       if (rows.some((row) => row[0] === getTranslation(labelKey))) return;
@@ -7904,11 +9505,13 @@ if (page === "dictionary") {
     const pairId = makeEnglishHubPairId(originCode);
     // Keep English/Translation columns stable across UI languages: English value stays English.
     const pronunciation = getPronunciationField(parts);
+    const wordId = getWorldLineWordId(line);
     const table = createDictionaryInfoTable([
       [getTranslation("dictionary.english"), parts[0] || "", "en"],
       [getTranslation("dictionary.translation"), parts[1] || "", originCode],
       [getTranslation("dictionary.partOfSpeech"), parts[5]],
       [getTranslation("dictionary.originLanguage"), formatLanguagePairLabel(pairId, lang) || parts[7]],
+      ["ID#", wordId ? String(wordId) : ""],
       pronunciation,
     ]);
     entryDiv.appendChild(stampDiv);
@@ -7923,7 +9526,7 @@ if (page === "dictionary") {
   function pronunciationLabelForLang(langCode) {
     if (langCode === "zh") return getTranslation("dictionary.pinyin");
     if (langCode === "ja") return getTranslation("dictionary.hiragana");
-    if (langCode === "ru") return getTranslation("dictionary.latinLetters");
+    if (isLatinLettersLang(langCode)) return getTranslation("dictionary.latinLetters");
     return "";
   }
 
@@ -7936,11 +9539,13 @@ if (page === "dictionary") {
     stampDiv.className = "world-entry-stamp";
     const wordLabel = LANGUAGES[entry.wordLang] || getTranslation("dictionary.language");
     const translationLabel = LANGUAGES[entry.translationLang] || getTranslation("dictionary.translation");
+    const crossWordId = getCrossEntryWordId(entry);
     const fields = [
       [wordLabel, entry.word || "", entry.wordLang || ""],
       [translationLabel, entry.translation || "", entry.translationLang || ""],
       [getTranslation("dictionary.partOfSpeech"), entry.pos || ""],
       [getTranslation("dictionary.originLanguage"), entry.originLabel || formatLanguagePairLabel(entry.pairId, uiLang)],
+      ["ID#", crossWordId ? String(crossWordId) : ""],
     ];
     if (entry.wordPronunciation) {
       fields.push([pronunciationLabelForLang(entry.wordLang), entry.wordPronunciation]);
@@ -7952,23 +9557,37 @@ if (page === "dictionary") {
     entryDiv.appendChild(stampDiv);
     entryDiv.appendChild(table);
     entryDiv.addEventListener("click", () => {
-      const sourceLine = entry.leftLine || entry.rightLine;
-      if (sourceLine) {
-        openDictionaryEditor({ worldLine: sourceLine, language: entry.wordLang || uiLang });
+      const crossLine = entry.worldLine || encodeCrossWorldLine(entry);
+      if (crossLine) {
+        openDictionaryEditor({ worldLine: crossLine, language: entry.wordLang || uiLang });
       }
     });
     list.appendChild(entryDiv);
   }
 
-  function updateDictionaryPagination(totalCount) {
+  function updateDictionaryPagination(totalCount, uniqueWordCount) {
     const totalPages = Math.max(1, Math.ceil(totalCount / DICTIONARY_PAGE_SIZE));
     currentPage = Math.max(1, Math.min(currentPage, totalPages));
     const startIndex = (currentPage - 1) * DICTIONARY_PAGE_SIZE;
     const endIndex = Math.min(startIndex + DICTIONARY_PAGE_SIZE, totalCount);
+    const wordCount = uniqueWordCount == null ? totalCount : uniqueWordCount;
     if (resultsStatus) {
-      resultsStatus.textContent = totalCount
-        ? formatDictionaryText("dictionary.resultsSummary", { start: startIndex + 1, end: endIndex, count: totalCount })
-        : getTranslation("dictionary.noResults");
+      if (!totalCount) {
+        resultsStatus.textContent = getTranslation("dictionary.noResults");
+      } else if (wordCount === totalCount) {
+        resultsStatus.textContent = formatDictionaryText("dictionary.resultsSummary", {
+          start: startIndex + 1,
+          end: endIndex,
+          count: wordCount,
+        });
+      } else {
+        resultsStatus.textContent = formatDictionaryText("dictionary.resultsUniqueSummary", {
+          start: startIndex + 1,
+          end: endIndex,
+          shown: totalCount,
+          count: wordCount,
+        }) || ((startIndex + 1) + "–" + endIndex + " of " + totalCount + " · " + wordCount + " words");
+      }
     }
     pageInputs.forEach((input) => {
       input.value = currentPage;
@@ -7985,6 +9604,30 @@ if (page === "dictionary") {
       button.disabled = currentPage >= totalPages;
     });
     return { startIndex, endIndex, totalPages };
+  }
+
+  function exceptionRowWordId(row) {
+    const item = row && row.item;
+    if (!item) return 0;
+    if (item.type === "local" && item.entry) return parseInt(item.entry.wordId, 10) || 0;
+    if (item.worldLine) return getWorldLineWordId(item.worldLine) || 0;
+    return parseInt(item.wordId, 10) || 0;
+  }
+
+  function findExactIdPin(exactId, allLocalEntries) {
+    if (!exactId) return null;
+    const local = (allLocalEntries || []).find((entry) => parseInt(entry.wordId, 10) === exactId);
+    if (local) return { kind: "local", entry: local };
+    const rows = Array.isArray(window.WORLD_DICTIONARY_ROWS) ? window.WORLD_DICTIONARY_ROWS : [];
+    if (exactId > 0 && exactId <= rows.length) {
+      const line = rows[exactId - 1];
+      if (!line || getWorldLineWordId(line) !== exactId) return null;
+      if (hiddenWorldLines.has(line)) return null;
+      return { kind: "hub", line };
+    }
+    const crossEntry = findCrossEntryByWordId(exactId, getStoredLang());
+    if (crossEntry) return { kind: "cross", entry: crossEntry };
+    return null;
   }
 
   function includeWorldHubLine(line, originCode, uiLang, coveredWorldKeys, selectedStatus, query) {
@@ -8017,7 +9660,9 @@ if (page === "dictionary") {
   async function loadEntriesAsync() {
     const loadToken = ++dictionaryLoadToken;
     const lang = getStoredLang();
-    const query = (searchBar.value || "").trim().toLocaleLowerCase(lang);
+    const queryRaw = (searchBar.value || "").trim();
+    const query = queryRaw.toLocaleLowerCase(lang);
+    const exactId = parseDictionaryIdQuery(queryRaw);
     const selectedStatus = stampFilter ? stampFilter.value : "all";
     const exceptionsEnabled = checkExceptionsCheckbox && checkExceptionsCheckbox.checked;
     const exceptionsMode = exceptionsModeSelect && exceptionsModeSelect.value
@@ -8040,15 +9685,32 @@ if (page === "dictionary") {
       Array.from(selectedPairs).sort().join(","),
     ].join("|");
 
-    function paintPageFromCache(cache) {
+    function crossItemToEntry(item) {
+      if (!item) return null;
+      if (item.entry) return item.entry;
+      const refs = sharedCrossPairRefCache[item.pairId] || collectCrossPairRefs(item.pairId);
+      const ref = refs[item.refIndex];
+      if (!ref) return null;
+      return adaptCrossEntryForDisplay(makeCrossEntryFromRef(ref, item.pairId), item.pairId, getStoredLang());
+    }
+
+    async function paintPageFromCache(cache) {
       list.innerHTML = "";
       if (cache.mode === "exceptions") {
         updateExceptionCountsDisplay(cache.groups, true, cache.exceptionKind);
-        const page = updateDictionaryPagination(cache.rows.length);
+        const exceptionIds = new Set();
+        cache.rows.forEach((row) => {
+          const id = exceptionRowWordId(row);
+          if (id) exceptionIds.add(id);
+          else if (row.item && row.item.worldLine) exceptionIds.add(row.item.worldLine);
+          else if (row.item && row.item.entry && row.item.entry._entryId) exceptionIds.add(row.item.entry._entryId);
+        });
+        const page = updateDictionaryPagination(cache.rows.length, exceptionIds.size);
         for (let i = page.startIndex; i < page.endIndex; i++) {
           const row = cache.rows[i];
           if (row.item.type === "local") renderLocalEntry(row.item.entry, row);
           else renderWorldEntry(row.item.worldLine, row);
+          if (i > page.startIndex && (i - page.startIndex) % 40 === 0) await yieldDictionaryUi(0);
         }
         if (!cache.rows.length) {
           const empty = document.createElement("p");
@@ -8060,19 +9722,47 @@ if (page === "dictionary") {
       }
 
       updateExceptionCountsDisplay(null, false);
+      const pinnedItems = cache.pinnedItems || [];
       const localEntries = cache.localEntries;
       const worldItems = cache.worldItems;
-      const totalCount = localEntries.length + worldItems.length;
-      const page = updateDictionaryPagination(totalCount);
-      const localEnd = Math.min(page.endIndex, localEntries.length);
-      for (let i = page.startIndex; i < localEnd; i++) renderLocalEntry(localEntries[i]);
-      const worldStart = Math.max(0, page.startIndex - localEntries.length);
-      const worldEnd = Math.max(0, page.endIndex - localEntries.length);
-      for (let i = worldStart; i < worldEnd; i++) {
-        const item = worldItems[i];
+      const totalCount = pinnedItems.length + localEntries.length + worldItems.length;
+      const page = updateDictionaryPagination(totalCount, cache.uniqueWordCount);
+      const visibleCross = [];
+      const jobs = [];
+      for (let i = page.startIndex; i < page.endIndex; i++) {
+        if (i < pinnedItems.length) {
+          const pin = pinnedItems[i];
+          if (pin.kind === "local") jobs.push(() => renderLocalEntry(pin.entry));
+          else if (pin.kind === "cross") {
+            const entry = pin.entry || crossItemToEntry(pin);
+            if (entry) {
+              visibleCross.push(entry);
+              jobs.push(() => renderCrossEntry(entry));
+            }
+          } else jobs.push(() => renderWorldEntry(pin.line));
+          continue;
+        }
+        const afterPin = i - pinnedItems.length;
+        if (afterPin < localEntries.length) {
+          const entry = localEntries[afterPin];
+          jobs.push(() => renderLocalEntry(entry));
+          continue;
+        }
+        const item = worldItems[afterPin - localEntries.length];
         if (!item) continue;
-        if (item.kind === "cross") renderCrossEntry(item.entry);
-        else renderWorldEntry(item.line);
+        if (item.kind === "cross") {
+          const entry = crossItemToEntry(item);
+          if (!entry) continue;
+          visibleCross.push(entry);
+          jobs.push(() => renderCrossEntry(entry));
+        } else {
+          jobs.push(() => renderWorldEntry(item.line));
+        }
+      }
+      if (visibleCross.length) ensureCrossEntriesWordIds(visibleCross);
+      for (let j = 0; j < jobs.length; j++) {
+        jobs[j]();
+        if (j > 0 && j % 40 === 0) await yieldDictionaryUi(0);
       }
       if (!totalCount) {
         const empty = document.createElement("p");
@@ -8085,7 +9775,7 @@ if (page === "dictionary") {
     // Same filters, different page — reuse cached filtered rows (no index rebuild, no overlay).
     if (dictionaryViewCache && dictionaryViewCache.key === filterKey) {
       if (loadToken !== dictionaryLoadToken) return;
-      paintPageFromCache(dictionaryViewCache);
+      await paintPageFromCache(dictionaryViewCache);
       return;
     }
 
@@ -8119,11 +9809,19 @@ if (page === "dictionary") {
         let rows = flattenExceptionDisplay(groups, checkStarExceptions ? { sortBySymbolCount: true } : null);
         if (query) {
           rows = rows.filter((row) => {
+            if (exactId && exceptionRowWordId(row) === exactId) return true;
             const item = row.item;
             const english = (item.english || "").toLocaleLowerCase("en");
             const translation = (item.translation || item.word || "").toLocaleLowerCase(item.lang || checkLang || lang);
             return english.startsWith(query) || translation.startsWith(query);
           });
+          if (exactId) {
+            rows.sort((a, b) => {
+              const aMatch = exceptionRowWordId(a) === exactId ? 0 : 1;
+              const bMatch = exceptionRowWordId(b) === exactId ? 0 : 1;
+              return aMatch - bMatch;
+            });
+          }
         }
         if (selectedStatus !== "all") {
           rows = rows.filter((row) => {
@@ -8136,6 +9834,8 @@ if (page === "dictionary") {
         return { key: filterKey, mode: "exceptions", groups, exceptionKind, rows };
       }
 
+      const allLocalEntries = localEntries.slice();
+      let pinned = findExactIdPin(exactId, allLocalEntries);
       const coveredWorldKeys = new Set();
       localEntries.forEach((entry) => {
         if (!entry || entry.isCore) return;
@@ -8144,6 +9844,7 @@ if (page === "dictionary") {
       });
 
       localEntries = localEntries.filter((entry) => {
+        if (pinned && pinned.kind === "local" && entry === pinned.entry) return false;
         if (hideCore && entry.isCore) return false;
         const status = getLocalStampStatus(entry);
         if (selectedStatus !== "all" && selectedStatus !== status) return false;
@@ -8154,6 +9855,7 @@ if (page === "dictionary") {
           return false;
         }
         if (query) {
+          if (exactId && parseInt(entry.wordId, 10) === exactId) return true;
           const primary = getEntryDisplayWord(entry, lang).toLocaleLowerCase(lang);
           if (!primary.startsWith(query)) return false;
         }
@@ -8163,10 +9865,42 @@ if (page === "dictionary") {
         getEntryDisplayWord(a, lang).localeCompare(getEntryDisplayWord(b, lang), lang, { sensitivity: "base", numeric: true })
       );
 
+      const uniqueWordIds = new Set();
+      let crossEntryCount = 0;
+      localEntries.forEach((entry) => {
+        const id = parseInt(entry && entry.wordId, 10);
+        if (id > 0) uniqueWordIds.add(id);
+      });
+      if (pinned && pinned.kind === "local" && pinned.entry) {
+        const pinnedId = parseInt(pinned.entry.wordId, 10);
+        if (pinnedId > 0) uniqueWordIds.add(pinnedId);
+      }
+
       if (showProgress) setDictionaryLoadingProgress(25, "dictionary.loadingList", Math.max(dictionaryLoadingOverall, 72));
 
-      const worldItems = [];
+      let worldItems = [];
       const uiLang = lang;
+
+      // Pure ID# search: pin the match and skip scanning every language pair.
+      if (exactId && pinned) {
+        if (pinned.kind === "hub") {
+          const hubId = getWorldLineWordId(pinned.line);
+          if (hubId) uniqueWordIds.add(hubId);
+        } else if (pinned.kind === "cross" && pinned.entry) {
+          const crossId = peekCrossWordId(pinned.entry) || exactId;
+          if (crossId) uniqueWordIds.add(crossId);
+        }
+        if (showProgress) setDictionaryLoadingProgress(70, "dictionary.loadingList", Math.max(dictionaryLoadingOverall, 94));
+        return {
+          key: filterKey,
+          mode: "normal",
+          pinnedItems: [pinned],
+          localEntries: [],
+          worldItems: [],
+          uniqueWordCount: uniqueWordIds.size || 1,
+        };
+      }
+
       const orderedPairIds = getOrderedDictionaryPairIds(uiLang).filter((pairId) => selectedPairs.has(pairId));
       const pairCount = Math.max(1, orderedPairIds.length);
       let pairIndex = 0;
@@ -8174,18 +9908,73 @@ if (page === "dictionary") {
       for (const pairId of orderedPairIds) {
         if (loadToken !== dictionaryLoadToken) return null;
         if (isCrossPairId(pairId)) {
-          const collator = new Intl.Collator(uiLang, { sensitivity: "base", numeric: true });
-          let entries = getCrossEntriesForDisplay(pairId, uiLang);
-          if (query) {
-            entries = entries.filter((entry) =>
-              String(entry.word || "").toLocaleLowerCase(uiLang).startsWith(query)
-            );
+          if (selectedStatus !== "all" && selectedStatus !== "unstamped") {
+            pairIndex += 1;
+            continue;
           }
-          if (selectedStatus === "all" || selectedStatus === "unstamped") {
-            entries.sort((a, b) => collator.compare(a.word || "", b.word || "") || collator.compare(a.translation || "", b.translation || ""));
-            entries.forEach((entry) => worldItems.push({ kind: "cross", entry }));
+          if (showProgress) {
+            const overall = Math.max(dictionaryLoadingOverall, 72 + Math.round((pairIndex / pairCount) * 22));
+            setDictionaryLoadingProgress(Math.round((pairIndex / pairCount) * 100), "dictionary.loadingList", overall);
+            await yieldDictionaryUi(0);
           }
+          const refs = await collectCrossPairRefsAsync(
+            pairId,
+            showProgress ? () => yieldDictionaryUi(0) : null,
+            showProgress
+              ? (frac) => {
+                const overall = Math.max(dictionaryLoadingOverall, 72 + Math.round(((pairIndex + frac) / pairCount) * 22));
+                setDictionaryLoadingProgress(Math.round(frac * 100), "dictionary.loadingList", overall);
+              }
+              : null
+          );
+          if (loadToken !== dictionaryLoadToken) return null;
+          let crossCountForIds = 0;
+          if (exactId) {
+            for (let r = 0; r < refs.length; r++) {
+              const candidate = makeCrossEntryFromRef(refs[r], pairId);
+              if (candidate && peekCrossWordId(candidate) === exactId) {
+                worldItems.push({ kind: "cross", pairId, refIndex: r });
+                const crossId = peekCrossWordId(candidate);
+                if (crossId) uniqueWordIds.add(crossId);
+                break;
+              }
+            }
+          } else if (query) {
+            const queryLower = query;
+            const indices = [];
+            for (let r = 0; r < refs.length; r++) {
+              const word = crossRefDisplayWord(refs[r], pairId, uiLang).toLocaleLowerCase(uiLang);
+              if (!word.startsWith(queryLower)) continue;
+              indices.push(r);
+              if (r > 0 && r % 8000 === 0) await yieldDictionaryUi(0);
+            }
+            if (indices.length && indices.length <= 8000) {
+              const collator = new Intl.Collator(uiLang, { sensitivity: "base", numeric: true });
+              indices.sort((ia, ib) => collator.compare(
+                crossRefDisplayWord(refs[ia], pairId, uiLang),
+                crossRefDisplayWord(refs[ib], pairId, uiLang)
+              ));
+            }
+            for (let n = 0; n < indices.length; n++) {
+              worldItems.push({ kind: "cross", pairId, refIndex: indices[n] });
+            }
+            crossCountForIds = indices.length;
+          } else {
+            // Empty query: include all refs without per-row ID Map lookups or sorting.
+            const start = worldItems.length;
+            worldItems.length = start + refs.length;
+            for (let r = 0; r < refs.length; r++) {
+              worldItems[start + r] = { kind: "cross", pairId, refIndex: r };
+            }
+            crossCountForIds = refs.length;
+          }
+          crossEntryCount += crossCountForIds;
           pairIndex += 1;
+          if (showProgress && (pairIndex % 2 === 0 || pairIndex === pairCount)) {
+            const overall = Math.max(dictionaryLoadingOverall, 72 + Math.round((pairIndex / pairCount) * 22));
+            setDictionaryLoadingProgress(Math.round((pairIndex / pairCount) * 100), "dictionary.loadingList", overall);
+            await yieldDictionaryUi(0);
+          }
           continue;
         }
 
@@ -8196,11 +9985,17 @@ if (page === "dictionary") {
           continue;
         }
         if (showProgress) await yieldDictionaryUi();
-        const rows = getOrderedWorldRows(uiLang === "en" ? "en" : originCode);
+        const rows = uiLang === "en"
+          ? getWorldRowsByOriginCode(originCode)
+          : getOrderedWorldRows(originCode);
         for (let ri = 0; ri < rows.length; ri++) {
           const line = rows[ri];
-          if (includeWorldHubLine(line, originCode, uiLang, coveredWorldKeys, selectedStatus, query)) {
+          const hubId = getWorldLineWordId(line);
+          const idHit = exactId && hubId === exactId;
+          if (idHit || includeWorldHubLine(line, originCode, uiLang, coveredWorldKeys, selectedStatus, exactId ? "" : query)) {
+            if (exactId && !idHit) continue;
             worldItems.push({ kind: "hub", line });
+            if (hubId) uniqueWordIds.add(hubId);
           }
           if (ri > 0 && ri % DICTIONARY_WORLD_CHUNK === 0) {
             if (showProgress) {
@@ -8217,23 +10012,138 @@ if (page === "dictionary") {
         pairIndex += 1;
       }
 
+      if (!pinned && exactId) {
+        for (let wi = 0; wi < worldItems.length; wi++) {
+          const item = worldItems[wi];
+          if (item.kind !== "cross") continue;
+          const entry = crossItemToEntry(item);
+          if (entry && peekCrossWordId(entry) === exactId) {
+            pinned = { kind: "cross", entry };
+            break;
+          }
+        }
+      }
+      if (pinned && pinned.kind === "hub") {
+        worldItems = worldItems.filter((item) => item.kind !== "hub" || item.line !== pinned.line);
+      } else if (pinned && pinned.kind === "cross" && pinned.entry) {
+        const pinId = peekCrossWordId(pinned.entry) || exactId;
+        worldItems = worldItems.filter((item) => {
+          if (item.kind !== "cross") return true;
+          const entry = crossItemToEntry(item);
+          return !(entry && pinId && peekCrossWordId(entry) === pinId);
+        });
+      }
+
       if (showProgress) setDictionaryLoadingProgress(70, "dictionary.loadingList", Math.max(dictionaryLoadingOverall, 94));
-      return { key: filterKey, mode: "normal", localEntries, worldItems };
+      return {
+        key: filterKey,
+        mode: "normal",
+        pinnedItems: pinned ? [pinned] : [],
+        localEntries,
+        worldItems,
+        uniqueWordCount: uniqueWordIds.size + crossEntryCount,
+      };
     }
 
     const built = await buildDictionaryView();
     if (!built || loadToken !== dictionaryLoadToken) return;
     dictionaryViewCache = built;
-    paintPageFromCache(built);
+    await paintPageFromCache(built);
   }
 
   function loadEntries() {
+    if (!dictionaryHasSearched) {
+      showDictionaryIdlePrompt();
+      return;
+    }
     dictionaryViewCache = null;
     void loadEntriesAsync();
   }
 
   function loadEntriesForPageChange() {
+    if (!dictionaryHasSearched) return;
     void loadEntriesAsync();
+  }
+
+  async function ensureDictionaryIndexesReady() {
+    if (dictionaryIndexesReady) return;
+    setDictionaryLoadingProgress(100, "dictionary.loadingFile", 8);
+    await yieldDictionaryUi();
+
+    setDictionaryLoadingProgress(0, "dictionary.loadingIndexes", 10);
+    await buildSharedDictionaryIndexesAsync(
+      (stage) => setDictionaryLoadingProgress(stage, "dictionary.loadingIndexes", 10 + Math.round(stage * 0.55)),
+      yieldDictionaryUi
+    );
+    setDictionaryLoadingProgress(100, "dictionary.loadingIndexes", 65);
+    await yieldDictionaryUi();
+
+    getManualHomographIndex();
+    setDictionaryLoadingProgress(100, "dictionary.loadingIndexes", 68);
+    await yieldDictionaryUi();
+    dictionaryIndexesReady = true;
+  }
+
+  function buildDictionaryFilterKey() {
+    const lang = getStoredLang();
+    const queryRaw = (searchBar.value || "").trim();
+    const query = queryRaw.toLocaleLowerCase(lang);
+    const selectedStatus = stampFilter ? stampFilter.value : "all";
+    const exceptionsEnabled = checkExceptionsCheckbox && checkExceptionsCheckbox.checked;
+    const exceptionsMode = exceptionsModeSelect && exceptionsModeSelect.value
+      ? exceptionsModeSelect.value
+      : "symbols";
+    const checkStarExceptions = exceptionsEnabled && exceptionsMode === "stars";
+    const checkSymbolExceptions = exceptionsEnabled && exceptionsMode === "symbols";
+    const checkLanguageExceptions = exceptionsEnabled && exceptionsMode !== "symbols" && exceptionsMode !== "stars";
+    const exceptionsOnly = checkLanguageExceptions || checkSymbolExceptions || checkStarExceptions;
+    const hideCore = !!(hideCoreWordsCheckbox && hideCoreWordsCheckbox.checked);
+    return [
+      lang,
+      query,
+      selectedStatus,
+      exceptionsOnly ? "1" : "0",
+      exceptionsMode,
+      hideCore ? "1" : "0",
+      Array.from(selectedPairs).sort().join(","),
+    ].join("|");
+  }
+
+  async function runDictionarySearch() {
+    if (dictionarySearchInFlight) return;
+    if (!selectedPairs.size) {
+      dictionaryHasSearched = false;
+      dictionaryViewCache = null;
+      showDictionaryIdlePrompt();
+      if (languageFilter && !languageFilter.open) languageFilter.setAttribute("open", "");
+      return;
+    }
+    dictionarySearchInFlight = true;
+    dictionaryHasSearched = true;
+    currentPage = 1;
+    if (languageFilter) languageFilter.removeAttribute("open");
+    try {
+      const nextKey = buildDictionaryFilterKey();
+      const cacheHit = !!(dictionaryViewCache && dictionaryViewCache.key === nextKey);
+      if (!cacheHit) dictionaryViewCache = null;
+      showDictionaryLoading(cacheHit ? "dictionary.loadingList" : "dictionary.loadingFile");
+      if (!cacheHit) {
+        await ensureDictionaryIndexesReady();
+        setDictionaryLoadingProgress(0, "dictionary.loadingList", 70);
+        await yieldDictionaryUi();
+      } else {
+        setDictionaryLoadingProgress(100, "dictionary.loadingAlmost", 90);
+      }
+      await loadEntriesAsync();
+      setDictionaryLoadingProgress(100, "dictionary.loadingAlmost", 100);
+      await yieldDictionaryUi(30);
+      finishDictionaryLoading();
+    } catch (err) {
+      console.error(err);
+      hideDictionaryLoading();
+    } finally {
+      dictionarySearchInFlight = false;
+    }
   }
 
   // --- Word context popup (note + delete) ---
@@ -8263,7 +10173,10 @@ if (page === "dictionary") {
   const adminEditorInput = document.getElementById("admin-edit-editor");
 
   let currentWordEntryId = "";
-  const { openDictionaryEditor, closeDictionaryEditor } = setupSharedDictionaryEditor(() => loadEntries());
+  const { openDictionaryEditor, closeDictionaryEditor } = setupSharedDictionaryEditor(() => {
+    syncHiddenWorldLinesFromStorage();
+    loadEntries();
+  });
 
   const exceptionReviewBox = document.getElementById("exception-review-box");
   const exceptionReviewTitle = document.getElementById("exception-review-title");
@@ -8523,39 +10436,54 @@ if (page === "dictionary") {
   }
 
   // --- Search, filters, and pagination ---
-  searchBar.addEventListener("input", () => {
-    clearTimeout(searchTimer);
-    searchTimer = setTimeout(() => {
-      currentPage = 1;
-      loadEntries();
-    }, 180);
+  function maybeReloadAfterFilterChange() {
+    if (!dictionaryHasSearched) return;
+    currentPage = 1;
+    loadEntries();
+  }
+
+  if (dictionarySearchBtn) {
+    dictionarySearchBtn.addEventListener("click", () => {
+      void runDictionarySearch();
+    });
+  }
+  if (dictionaryLoadingClose) {
+    dictionaryLoadingClose.addEventListener("click", () => {
+      dismissDictionaryLoading();
+    });
+  }
+
+  searchBar.addEventListener("keydown", (event) => {
+    if (event.key !== "Enter") return;
+    event.preventDefault();
+    void runDictionarySearch();
+  });
+
+  document.addEventListener("keydown", (event) => {
+    if (event.key !== "Enter") return;
+    if (event.defaultPrevented) return;
+    const tag = (event.target && event.target.tagName) || "";
+    if (tag === "TEXTAREA" || tag === "BUTTON" || tag === "A" || tag === "SUMMARY" || tag === "SELECT") return;
+    if (event.target && event.target.isContentEditable) return;
+    // Page input / other number fields should keep default Enter behavior.
+    if (tag === "INPUT" && event.target !== searchBar && event.target.type !== "checkbox") return;
+    event.preventDefault();
+    void runDictionarySearch();
   });
 
   if (hideCoreWordsCheckbox) {
-    hideCoreWordsCheckbox.addEventListener("change", () => {
-      currentPage = 1;
-      loadEntries();
-    });
+    hideCoreWordsCheckbox.addEventListener("change", maybeReloadAfterFilterChange);
   }
   if (checkExceptionsCheckbox) {
-    checkExceptionsCheckbox.addEventListener("change", () => {
-      currentPage = 1;
-      loadEntries();
-    });
+    checkExceptionsCheckbox.addEventListener("change", maybeReloadAfterFilterChange);
   }
   if (exceptionsModeSelect) {
     exceptionsModeSelect.addEventListener("change", () => {
-      if (checkExceptionsCheckbox && checkExceptionsCheckbox.checked) {
-        currentPage = 1;
-        loadEntries();
-      }
+      if (checkExceptionsCheckbox && checkExceptionsCheckbox.checked) maybeReloadAfterFilterChange();
     });
   }
   if (stampFilter) {
-    stampFilter.addEventListener("change", () => {
-      currentPage = 1;
-      loadEntries();
-    });
+    stampFilter.addEventListener("change", maybeReloadAfterFilterChange);
   }
   if (languageFilter) {
     document.addEventListener("click", (event) => {
@@ -8589,50 +10517,17 @@ if (page === "dictionary") {
     buildLanguageOptions();
     buildExceptionsModeSelect();
     currentPage = 1;
-    loadEntries();
+    void runDictionarySearch();
   };
-  window.kanjiBuilderRefreshDictionary = loadEntries;
+  window.kanjiBuilderRefreshDictionary = () => {
+    if (dictionaryHasSearched) loadEntries();
+    else void runDictionarySearch();
+  };
 
   applyUiLanguageDictionaryDefaults();
   buildLanguageOptions();
   buildExceptionsModeSelect();
-
-  async function bootstrapDictionaryPage() {
-    showDictionaryLoading("dictionary.loadingFile");
-    setDictionaryLoadingProgress(100, "dictionary.loadingFile", 8);
-    await yieldDictionaryUi();
-
-    setDictionaryLoadingProgress(0, "dictionary.loadingIndexes", 10);
-    await buildSharedHomographIndexAsync(
-      (stage) => setDictionaryLoadingProgress(stage, "dictionary.loadingIndexes", 10 + Math.round(stage * 0.24)),
-      yieldDictionaryUi
-    );
-    setDictionaryLoadingProgress(100, "dictionary.loadingIndexes", 34);
-    await yieldDictionaryUi();
-
-    setDictionaryLoadingProgress(0, "dictionary.loadingIndexes", 36);
-    await buildSharedEnglishHubIndexAsync(
-      (stage) => setDictionaryLoadingProgress(stage, "dictionary.loadingIndexes", 36 + Math.round(stage * 0.24)),
-      yieldDictionaryUi
-    );
-    setDictionaryLoadingProgress(100, "dictionary.loadingIndexes", 60);
-    await yieldDictionaryUi();
-
-    setDictionaryLoadingProgress(0, "dictionary.loadingIndexes", 62);
-    await yieldDictionaryUi();
-    getManualHomographIndex();
-    setDictionaryLoadingProgress(100, "dictionary.loadingIndexes", 68);
-    await yieldDictionaryUi();
-
-    setDictionaryLoadingProgress(0, "dictionary.loadingList", 70);
-    await yieldDictionaryUi();
-    await loadEntriesAsync();
-    setDictionaryLoadingProgress(100, "dictionary.loadingAlmost", 100);
-    await yieldDictionaryUi(100);
-    hideDictionaryLoading();
-  }
-
-  bootstrapDictionaryPage();
+  void runDictionarySearch();
 }
 
 /* --------------------------------
@@ -8994,9 +10889,17 @@ if (page === "web") {
     let translated = entry.translationLanguage || "";
     if (!translated || translated === origin) {
       const keys = Object.keys(translations).filter((code) => code !== origin);
-      if (keys.includes("en")) translated = "en";
-      else if (keys.length) translated = keys[0];
-      else translated = origin === "en" ? "" : "en";
+      if (origin !== "en") {
+        const nonEn = keys.filter((code) => code !== "en");
+        if (nonEn.length) translated = nonEn[0];
+        else if (keys.includes("en")) translated = "en";
+        else if (keys.length) translated = keys[0];
+        else translated = "en";
+      } else if (keys.length) {
+        translated = keys[0];
+      } else {
+        translated = "";
+      }
     }
     const originWord = translations[origin] || (origin === "en" ? (entry.definition || "") : "");
     const translatedWord = translated
@@ -9014,6 +10917,8 @@ if (page === "web") {
       [translated, "ja", "dictionary.hiragana", "hiragana"],
       [origin, "ru", "dictionary.latinLetters", "latinLetters"],
       [translated, "ru", "dictionary.latinLetters", "latinLetters"],
+      [origin, "ko", "dictionary.latinLetters", "latinLetters"],
+      [translated, "ko", "dictionary.latinLetters", "latinLetters"],
     ].forEach(([lang, needed, labelKey, field]) => {
       if (lang !== needed) return;
       if (rows.some((row) => row[0] === getTranslation(labelKey))) return;
@@ -9975,7 +11880,7 @@ if (page === "play") {
   function getPlayPronunciationFromWorldLine(line, originLang) {
     if (originLang === "zh") return [getTranslation("dictionary.pinyin"), getPlayWorldField(line, 2)];
     if (originLang === "ja") return [getTranslation("dictionary.hiragana"), getPlayWorldField(line, 3)];
-    if (originLang === "ru") return [getTranslation("dictionary.latinLetters"), getPlayWorldField(line, 4)];
+    if (isLatinLettersLang(originLang)) return [getTranslation("dictionary.latinLetters"), getPlayWorldField(line, 4)];
     return ["", ""];
   }
 
@@ -10011,7 +11916,7 @@ if (page === "play") {
       ? [getTranslation("dictionary.pinyin"), entry.pinyin || ""]
       : source === "ja"
         ? [getTranslation("dictionary.hiragana"), entry.hiragana || ""]
-        : source === "ru"
+        : isLatinLettersLang(source)
           ? [getTranslation("dictionary.latinLetters"), entry.latinLetters || ""]
           : ["", ""];
     return {

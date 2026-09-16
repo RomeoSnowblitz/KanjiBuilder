@@ -1,0 +1,352 @@
+Old Format:
+A01: Color
+A02: 
+A03: Red
+A04: White
+A05: Yellow
+A06: Brown
+A07: Gray
+A08: 
+A09: Blue
+A10: 
+A11: Purple
+A12: Black
+A13: Clear
+
+B01: State
+B02: Hard
+B03: Sweet
+B04: Soft
+B05: Hot
+B06: 
+B07: Dirty
+B08: 
+B09: Cold
+B10: New
+B11: Old
+B12: Sharp
+B13: Sticky
+
+C01: Shape
+C02: Container
+C03: Hole
+C04: Surface
+C05: Flat
+C06: Curve
+C07: Cord
+C08: Interlock
+C09: Square
+C10: Tilt
+C11: Crushed
+C12: Round
+C13: Stick
+
+D01: Movement
+D02: Above
+D03: Down
+D04: Going
+D05: Coming Back
+D06: 
+D07: 
+D08: 
+D09: Center
+D10: Right
+D11: Arriving
+D12: Leaving
+D13: Left
+
+E01: Human
+E02: Head
+E03: Skin
+E04: Front
+E05: Ear
+E06: Eye
+E07: Nose
+E08: Mouth
+E09: Body
+E10: Arm
+E11: Leg
+E12: Back
+E13: Bone
+
+F01: Life
+F02: Plant
+F03: 
+F04: 
+F05: Reptile
+F06: 
+F07: Amphibian
+F08:
+F09: Water Creature
+F10: Winged Creature
+F11: Land Animal
+F12: Insect
+F13:  
+
+G01: Food
+G02: Spice
+G03: 
+G04: 
+G05: Vegetable
+G06: 
+G07: Plant Product
+G08: 
+G09: Drink
+G10: Fruit
+G11: Mushroom
+G12: 
+G13: 
+
+H01: Autonomy
+H02: Creator
+H03: Cloth
+H04: Light
+H05: Market
+H06: Image
+H07: Money
+H08: Medicine
+H09: Planet
+H10: Tool
+H11: Road
+H12: Weapon
+H13: Building
+
+I01: Matter
+I02: Earth
+I03: 
+I04: Fluid
+I05: Fire
+I06: Semi Solid
+I07: Time
+I08: Sound
+I09: Reflect
+I10: Electricity
+I11: Gravity
+I12: Gas
+I13: 
+
+J01: Emotion
+J02: Strong
+J03: Sexy
+J04: Positive
+J05: Surprise
+J06: Aggressive
+J07: Strange
+J08: Wishful
+J09: Embarrassment
+J10: Playful
+J11: Painful
+J12: Negative
+J13: Fearful
+
+K01: Name
+K02: I
+K03: We
+K04: You
+K05: 
+K06: 
+K07: 
+K08: They
+K09: 
+K10: He
+K11: She
+K12: Dead
+K13: 
+
+L01: Group
+L02: Same
+L03: Two
+L04: All
+L05: Bump
+L06: Dot
+L07: One
+L08: Many
+L09: Numbers
+L10: Small
+L11: Big
+L12: Zero
+L13: 
+
+M01: Change
+M02: Believe
+M03: Allow
+M04: Start
+M05: Deceive
+M06: Cut
+M07: Prevent
+M08: Remove
+M09: Resting
+M10: Make
+M11: Wait
+M12: End
+M13: Fight
+
+New Format:
+A01: Color
+A02: Green
+A03: Red
+A04: White
+A05: Yellow
+A06: Brown
+A07: Gray
+A08: Cyan
+A09: Blue
+A10: Magenta
+A11: Purple
+A12: Black
+
+B01: State
+B02: Hard
+B03: Sweet
+B04: Soft
+B05: Hot
+B06: Clear
+B07: Dirty
+B08: Stripe
+B09: Cold
+B10: New
+B11: Old
+B12: Sharp
+
+C01: Shape
+C02: Container
+C03: Hole
+C04: Surface
+C05: Flat
+C06: Curve
+C07: Cord
+C08: Interlock
+C09: Square
+C10: Tilt
+C11: Crushed
+C12: Round
+
+D01: Movement
+D02: Above
+D03: Down
+D04: Going
+D05: Coming Back
+D06: 
+D07: Center
+D08: Left
+D09: Slip
+D10: Right
+D11: Arriving
+D12: (Leaving will be removed)
+
+E01: Human
+E02: Head
+E03: Skin
+E04: Front
+E05: Ear
+E06: Eye
+E07: Nose
+E08: Mouth
+E09: Body
+E10: Arm
+E11: Leg
+E12: Back
+
+F01: Life
+F02: Plant
+F03: Place
+F04: Stick
+F05: Reptile
+F06: Micro
+F07: Amphibian
+F08: Scary
+F09: Water Creature
+F10: Winged Creature
+F11: Land Animal
+F12: Insect
+
+G01: Food
+G02: Spice
+G03: Building
+G04: 
+G05: Vegetable
+G06: 
+G07: Plant Product
+G08: 
+G09: Drink
+G10: Fruit
+G11: Mushroom
+G12: Bone
+
+H01: Autonomy
+H02: Creator
+H03: Cloth
+H04: Light
+H05: Market
+H06: Image
+H07: Money
+H08: Medicine
+H09: Planet
+H10: Tool
+H11: Road
+H12: Weapon
+
+I01: Matter
+I02: Earth
+I03: Sticky
+I04: Fluid
+I05: Fire
+I06: Semi Solid
+I07: Time
+I08: Sound
+I09: Reflect
+I10: Electricity
+I11: Gravity
+I12: Gas
+
+J01: Emotion
+J02: Strong
+J03: Sexy
+J04: Positive
+J05: Surprise
+J06: Aggressive
+J07: Strange
+J08: Wishful
+J09: Embarrassment
+J10: Playful
+J11: Painful
+J12: Negative
+
+K01: Name
+K02: I
+K03: We
+K04: You
+K05: Fact
+K06: Grammar
+K07: Question
+K08: They
+K09: Fight
+K10: He
+K11: She
+K12: Dead 
+
+L01: Group
+L02: Same
+L03: Two
+L04: All
+L05: Bump
+L06: Dot
+L07: One
+L08: Many
+L09: Numbers
+L10: Small
+L11: Big
+L12: Zero
+
+M01: Change
+M02: Believe
+M03: Allow
+M04: Start
+M05: Deceive
+M06: Cut
+M07: Prevent
+M08: Remove
+M09: Resting
+M10: Make
+M11: Wait
+M12: End

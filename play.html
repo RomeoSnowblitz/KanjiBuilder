@@ -4,11 +4,11 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Kanji Builder</title>
-  <link rel="stylesheet" href="style.css?v=0.5.1" />
-  <script src="translations.js?v=0.5.1"></script>
-  <script defer src="symbols.js?v=0.5.1"></script>
-  <script defer src="world-dictionary-data.js?v=0.5.1"></script>
-  <script defer src="script.js?v=0.5.1"></script>
+  <link rel="stylesheet" href="style.css?v=0.6" />
+  <script src="translations.js?v=0.6"></script>
+  <script defer src="symbols.js?v=0.6"></script>
+  <script defer src="world-dictionary-data.js?v=0.6"></script>
+  <script defer src="script.js?v=0.6"></script>
 </head>
 <body data-page="play">
   <header class="navbar">
@@ -28,20 +28,23 @@
       <div class="lang-wrapper">
         <button type="button" id="lang-btn">English</button>
         <div id="lang-dropdown" class="lang-dropdown hidden">
-          <button type="button" data-lang="en">English</button>
           <button type="button" data-lang="zh">中文</button>
           <button type="button" data-lang="es">Español</button>
-          <button type="button" data-lang="fr">Français</button>
+          <button type="button" data-lang="en">English</button>
+          <button type="button" data-lang="pt">Português</button>
           <button type="button" data-lang="ru">Русский</button>
-          <button type="button" data-lang="de">Deutsch</button>
           <button type="button" data-lang="ja">日本語</button>
+          <button type="button" data-lang="ko">한국어</button>
+          <button type="button" data-lang="de">Deutsch</button>
+          <button type="button" data-lang="fr">Français</button>
+          <button type="button" data-lang="it">Italiano</button>
         </div>
       </div>
       <button id="theme-toggle">🌙</button>
     </div>
   </header>
   <main>
-    <span class="app-version">v0.5</span>
+    <span class="app-version">v0.6</span>
     <h1 data-i18n="play.title">Play</h1>
 
     <section id="play-setup" class="play-setup">

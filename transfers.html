@@ -4,10 +4,12 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Kanji Builder</title>
-  <link rel="stylesheet" href="style.css?v=0.5.1" />
-  <script src="translations.js?v=0.5.1"></script>
-  <script defer src="symbols.js?v=0.5.1"></script>
-  <script defer src="script.js?v=0.5.1"></script>
+  <link rel="stylesheet" href="style.css?v=0.6" />
+  <script src="translations.js?v=0.6"></script>
+  <script defer src="symbols.js?v=0.6"></script>
+  <script defer src="world-dictionary-data.js?v=0.6"></script>
+  <script defer src="script.js?v=0.6"></script>
+  <script defer src="transfer-txt.js?v=0.6"></script>
 </head>
 <body data-page="transfers">
   <header class="navbar">
@@ -26,20 +28,23 @@
       <div class="lang-wrapper">
         <button type="button" id="lang-btn">English</button>
         <div id="lang-dropdown" class="lang-dropdown hidden">
-          <button type="button" data-lang="en">English</button>
           <button type="button" data-lang="zh">中文</button>
           <button type="button" data-lang="es">Español</button>
-          <button type="button" data-lang="fr">Français</button>
+          <button type="button" data-lang="en">English</button>
+          <button type="button" data-lang="pt">Português</button>
           <button type="button" data-lang="ru">Русский</button>
-          <button type="button" data-lang="de">Deutsch</button>
           <button type="button" data-lang="ja">日本語</button>
+          <button type="button" data-lang="ko">한국어</button>
+          <button type="button" data-lang="de">Deutsch</button>
+          <button type="button" data-lang="fr">Français</button>
+          <button type="button" data-lang="it">Italiano</button>
         </div>
       </div>
       <button id="theme-toggle">🌙</button>
     </div>
   </header>
   <main>
-    <span class="app-version">v0.5</span>
+    <span class="app-version">v0.6</span>
     <h1 id="transfers-title">Transfers</h1>
 
     <section class="transfer-card">
@@ -50,7 +55,38 @@
       <div class="transfer-actions">
         <button type="button" id="transfer-export-all">Export All</button>
         <button type="button" id="transfer-advanced-toggle" class="btn-secondary">Advanced Settings</button>
+        <button type="button" id="transfer-txt-only-toggle" class="btn-secondary">Txt Only</button>
         <button type="button" id="transfer-export-selected" class="hidden">Export Selected</button>
+      </div>
+
+      <div id="transfer-txt-only" class="transfer-advanced hidden">
+        <section class="transfer-advanced-section">
+          <h3 id="transfers-txt-lang-title">Language(s)</h3>
+          <div id="transfer-txt-lang-filters" class="transfer-lang-filters"></div>
+        </section>
+        <section class="transfer-advanced-section">
+          <h3 id="transfers-txt-contents-title">Contents</h3>
+          <div id="transfer-txt-content-filters" class="transfer-lang-filters">
+            <label class="transfer-lang-chip">
+              <input type="checkbox" id="transfer-txt-content-dictionary" value="dictionary" />
+              <span>Dictionary</span>
+            </label>
+            <label class="transfer-lang-chip">
+              <input type="checkbox" id="transfer-txt-content-sentences" value="sentences" />
+              <span>Sentence Contexts</span>
+            </label>
+          </div>
+        </section>
+        <section class="transfer-advanced-section">
+          <h3 id="transfers-txt-download-title">Download Type</h3>
+          <div class="transfer-actions">
+            <button type="button" id="transfer-txt-size-toggle" class="btn-secondary">Full File</button>
+            <button type="button" id="transfer-txt-layout-toggle" class="btn-secondary">Words Listed</button>
+          </div>
+        </section>
+        <div class="transfer-actions">
+          <button type="button" id="transfer-export-txt" disabled>Export Txt</button>
+        </div>
       </div>
 
       <div id="transfer-advanced" class="transfer-advanced hidden">
@@ -101,16 +137,42 @@
     <section class="transfer-card">
       <h2 id="transfers-import-title">Import</h2>
       <p id="transfers-import-hint" class="transfer-hint">
-        Import a transfer folder archive (.zip), a folder, or a legacy .json package. Exact duplicates are skipped.
+        Import a transfer folder archive (.zip), a folder, a legacy .json package, or a Txt Only (.txt) export. Exact duplicates are skipped; Txt imports merge by ID#.
       </p>
       <div id="transfer-dropzone" class="transfer-dropzone" tabindex="0">Drop transfer file or folder here</div>
       <div class="transfer-actions">
-        <input id="transfer-import-file" class="transfer-file-input" type="file" accept=".zip,.json,application/zip,application/json" />
+        <input id="transfer-import-file" class="transfer-file-input" type="file" accept=".zip,.json,.txt,application/zip,application/json,text/plain" multiple />
         <input id="transfer-import-folder" class="transfer-file-input" type="file" webkitdirectory multiple />
         <button type="button" id="transfer-import-file-btn">Import File</button>
         <button type="button" id="transfer-import-folder-btn">Import Folder</button>
       </div>
     </section>
+
+    <div id="transfer-export-loading" class="transfer-export-loading hidden" role="status" aria-live="polite" aria-busy="false">
+      <div class="transfer-export-loading-card">
+        <p id="transfer-export-loading-label" class="transfer-export-loading-label">Exporting…</p>
+        <div class="transfer-export-loading-track" aria-hidden="true">
+          <div id="transfer-export-loading-bar" class="transfer-export-loading-bar"></div>
+        </div>
+        <p id="transfer-export-loading-percent" class="transfer-export-loading-percent">0%</p>
+      </div>
+    </div>
+
+    <div id="transfer-import-review-box" class="word-context-box hidden">
+      <div class="word-context-content transfer-import-review-content">
+        <h2 id="transfer-import-review-title">Review Import</h2>
+        <p id="transfer-import-review-meta" class="transfer-import-review-meta"></p>
+        <div class="transfer-import-review-toolbar">
+          <button type="button" id="transfer-import-select-all">Select All</button>
+          <button type="button" id="transfer-import-deselect-all">Deselect All</button>
+        </div>
+        <div id="transfer-import-review-list" class="transfer-import-review-list"></div>
+        <div class="transfer-import-review-actions">
+          <button type="button" id="transfer-import-review-approve" class="btn-primary">Approve</button>
+          <button type="button" id="transfer-import-review-cancel">Cancel</button>
+        </div>
+      </div>
+    </div>
   </main>
 </body>
 </html>

@@ -4,11 +4,11 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Kanji Builder</title>
-  <link rel="stylesheet" href="style.css?v=0.5.1" />
-  <script src="translations.js?v=0.5.1"></script>
-  <script defer src="symbols.js?v=0.5.1"></script>
-  <script defer src="world-dictionary-data.js?v=0.5.1"></script>
-  <script defer src="script.js?v=0.5.1"></script>
+  <link rel="stylesheet" href="style.css?v=0.6" />
+  <script src="translations.js?v=0.6"></script>
+  <script defer src="symbols.js?v=0.6"></script>
+  <script defer src="world-dictionary-data.js?v=0.6"></script>
+  <script defer src="script.js?v=0.6"></script>
 </head>
 <body data-page="dictionary">
   <header class="navbar">
@@ -28,13 +28,16 @@
       <div class="lang-wrapper">
         <button type="button" id="lang-btn">English</button>
         <div id="lang-dropdown" class="lang-dropdown hidden">
-          <button type="button" data-lang="en">English</button>
           <button type="button" data-lang="zh">中文</button>
           <button type="button" data-lang="es">Español</button>
-          <button type="button" data-lang="fr">Français</button>
+          <button type="button" data-lang="en">English</button>
+          <button type="button" data-lang="pt">Português</button>
           <button type="button" data-lang="ru">Русский</button>
-          <button type="button" data-lang="de">Deutsch</button>
           <button type="button" data-lang="ja">日本語</button>
+          <button type="button" data-lang="ko">한국어</button>
+          <button type="button" data-lang="de">Deutsch</button>
+          <button type="button" data-lang="fr">Français</button>
+          <button type="button" data-lang="it">Italiano</button>
         </div>
       </div>
       <button id="theme-toggle">🌙</button>
@@ -42,16 +45,23 @@
   </header>
 
   <main>
-    <span class="app-version">v0.5</span>
+    <span class="app-version">v0.6</span>
     <h1 data-i18n="dictionary.dictionaryTitle">Dictionary</h1>
+    <p class="dictionary-select-note" data-i18n="dictionary.selectLanguagesNote">Please Select Languages in "Show Language(s)" then hit "Search" or hit the "Enter" Key</p>
 
-    <div id="dictionary-loading" class="dictionary-loading" role="status" aria-live="polite" aria-busy="true">
+    <div id="dictionary-loading" class="dictionary-loading hidden" role="status" aria-live="polite" aria-busy="false">
       <div class="dictionary-loading-card">
-        <p id="dictionary-loading-label" class="dictionary-loading-label" data-i18n="dictionary.loadingWords">Loading words…</p>
-        <div class="dictionary-loading-track" aria-hidden="true">
-          <div id="dictionary-loading-bar-overall" class="dictionary-loading-bar"></div>
+        <div id="dictionary-loading-progress" class="dictionary-loading-progress">
+          <p id="dictionary-loading-label" class="dictionary-loading-label" data-i18n="dictionary.loadingWords">Loading words…</p>
+          <div class="dictionary-loading-track" aria-hidden="true">
+            <div id="dictionary-loading-bar-overall" class="dictionary-loading-bar"></div>
+          </div>
+          <p id="dictionary-loading-percent" class="dictionary-loading-percent">0%</p>
         </div>
-        <p id="dictionary-loading-percent" class="dictionary-loading-percent">0%</p>
+        <div id="dictionary-loading-done" class="dictionary-loading-done hidden">
+          <p id="dictionary-loading-time" class="dictionary-loading-time"></p>
+          <button id="dictionary-loading-close" type="button" class="btn-primary" data-i18n="dictionary.close">Close</button>
+        </div>
       </div>
     </div>
 
@@ -81,6 +91,7 @@
           <summary data-i18n="dictionary.showLanguages">Show Language(s)</summary>
           <div id="dictionary-language-options" class="dictionary-language-options"></div>
         </details>
+        <button id="dictionary-search-btn" type="button" class="btn-primary" data-i18n="dictionary.searchButton">Search</button>
       </div>
       <p id="dictionary-results-status" class="dictionary-results-status"></p>
     </section>
