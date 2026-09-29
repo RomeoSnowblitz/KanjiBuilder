@@ -3161,6 +3161,82 @@ function createSymbolVisual(symOrRef, altText) {
   return wrapper.firstChild;
 }
 
+function getZeroSymbolRecord() {
+  if (typeof symbols !== "undefined" && Array.isArray(symbols)) {
+    const found = symbols.find((sym) => Number(sym.id) === 129);
+    if (found) return found;
+  }
+  return { id: 129, name: "Zero", image: "placeholders/zero.png", description: "Zero, No, Not" };
+}
+
+function symbolNegateLabel(symbolName) {
+  const isNot = (typeof getTranslation === "function" && getTranslation("create.isNotCategory")) || "Isn't";
+  return (isNot ? isNot + " " : "") + (symbolName || "");
+}
+
+/**
+ * Symbol image frame.
+ * onNegate: selection grids — Zero is a second hit target (outline only while the pointer is on it).
+ * negated: already chosen — Zero is painted on the symbol and is not its own button.
+ */
+function appendSymbolFace(parent, symOrRef, altText, options) {
+  const opts = options || {};
+  const face = document.createElement("div");
+  face.className = "symbol-face";
+  face.appendChild(createSymbolVisual(symOrRef, altText));
+  if (opts.negated) {
+    const mark = document.createElement("div");
+    mark.className = "symbol-zero-mark";
+    mark.setAttribute("aria-hidden", "true");
+    const visual = createSymbolVisual(getZeroSymbolRecord(), "Zero");
+    if (visual) visual.setAttribute("aria-hidden", "true");
+    mark.appendChild(visual);
+    face.appendChild(mark);
+  }
+  if (typeof opts.onNegate === "function") {
+    const hit = document.createElement("button");
+    hit.type = "button";
+    hit.className = "symbol-zero-hit";
+    hit.draggable = false;
+    const label = symbolNegateLabel(altText);
+    hit.title = label;
+    hit.setAttribute("aria-label", label);
+    const visual = createSymbolVisual(getZeroSymbolRecord(), "Zero");
+    if (visual) visual.setAttribute("aria-hidden", "true");
+    hit.appendChild(visual);
+    hit.addEventListener("click", (event) => {
+      event.preventDefault();
+      event.stopPropagation();
+      opts.onNegate(event);
+    });
+    hit.addEventListener("pointerdown", (event) => {
+      event.stopPropagation();
+      const draggable = hit.closest("[draggable='true']");
+      if (!draggable) return;
+      const blockDrag = (dragEvent) => {
+        dragEvent.preventDefault();
+        dragEvent.stopPropagation();
+        cleanup();
+      };
+      const cleanup = () => {
+        draggable.removeEventListener("dragstart", blockDrag, true);
+        window.removeEventListener("pointerup", cleanup, true);
+        window.removeEventListener("pointercancel", cleanup, true);
+      };
+      draggable.addEventListener("dragstart", blockDrag, true);
+      window.addEventListener("pointerup", cleanup, true);
+      window.addEventListener("pointercancel", cleanup, true);
+    });
+    hit.addEventListener("dragstart", (event) => {
+      event.preventDefault();
+      event.stopPropagation();
+    });
+    face.appendChild(hit);
+  }
+  parent.appendChild(face);
+  return face;
+}
+
 if (langBtn && langDropdown) {
   function setLangButtonLabel(code) {
     langBtn.textContent = LANGUAGES[code] || LANGUAGES.en;
@@ -3620,13 +3696,13 @@ if (page === "create") {
   }
 
   // imageOnly = true for category content (no label under image)
-  function makeSymbolBox(sym, sizeClass, imageOnly) {
+  function makeSymbolBox(sym, sizeClass, imageOnly, negated) {
     const div = document.createElement("div");
     div.className = "symbol-box " + (sizeClass || "");
     div.dataset.symbolId = sym.id;
     const displayName = getSymbolName(sym);
-    div.title = displayName;
-    div.appendChild(createSymbolVisual(sym, displayName));
+    div.title = negated ? symbolNegateLabel(displayName) : displayName;
+    appendSymbolFace(div, sym, displayName, negated ? { negated: true } : null);
     if (!imageOnly) {
       const nameSpan = document.createElement("span");
       nameSpan.textContent = displayName;
@@ -3676,7 +3752,7 @@ if (page === "create") {
       item.dataset.category = category;
       item.dataset.index = index;
       item.setAttribute("draggable", "true");
-      item.appendChild(makeSymbolBox(symbol, "category-symbol-size", true));
+      item.appendChild(makeSymbolBox(symbol, "category-symbol-size", true, category === "isNot"));
       item.addEventListener("dragstart", (event) => {
         completedCategoryDrop = false;
         event.dataTransfer.effectAllowed = "move";
@@ -4382,12 +4458,19 @@ if (page === "create") {
       if (sym) {
         const name = getSymbolName(sym);
         div.title = name;
-        const img = div.querySelector("img");
-        const mask = div.querySelector(".symbol-mask");
-        if (img) img.alt = name;
-        if (mask) mask.setAttribute("aria-label", name);
+        const primary = div.querySelector(".symbol-face > img, .symbol-face > .symbol-mask");
+        if (primary) {
+          if (primary.tagName === "IMG") primary.alt = name;
+          else primary.setAttribute("aria-label", name);
+        }
         const span = div.querySelector("span");
         if (span) span.textContent = name;
+        const zeroHit = div.querySelector(".symbol-zero-hit");
+        if (zeroHit) {
+          const label = symbolNegateLabel(name);
+          zeroHit.title = label;
+          zeroHit.setAttribute("aria-label", label);
+        }
       }
     });
   }
@@ -4408,9 +4491,15 @@ if (page === "create") {
     div.dataset.symbolId = sym.id;
     if (opts.categoryIndex != null) div.dataset.keyCategoryIndex = String(opts.categoryIndex);
     div.setAttribute("draggable", opts.isKeyCategory ? "false" : "true");
-    div.appendChild(createSymbolVisual(sym, getSymbolName(sym)));
+    const displayName = getSymbolName(sym);
+    appendSymbolFace(div, sym, displayName, opts.isKeyCategory ? null : {
+      onNegate: () => {
+        if (isSymbolUsed(sym.id)) return;
+        addSymbolToCategory(sym, "isNot");
+      },
+    });
     const nameSpan = document.createElement("span");
-    nameSpan.textContent = getSymbolName(sym);
+    nameSpan.textContent = displayName;
     div.appendChild(nameSpan);
     div.addEventListener("contextmenu", (e) => {
       e.preventDefault();
@@ -4905,7 +4994,9 @@ if (page === "draw") {
       if (boxOpts.isKeyCategory) box.classList.add("symbol-key-category");
       if (boxOpts.isKeyOpen) box.classList.add("symbol-key-open");
       box.title = name;
-      box.appendChild(createSymbolVisual(sym, name));
+      appendSymbolFace(box, sym, name, boxOpts.isKeyCategory ? null : {
+        onNegate: () => selectSymbol(sym),
+      });
       const span = document.createElement("span");
       span.textContent = name;
       box.appendChild(span);
@@ -10575,14 +10666,23 @@ if (page === "web") {
     return getSymbolsForEntry(entry).slice();
   }
 
+  function getEntryIsNotRefs(entry) {
+    if (!entry || !entry.categories || !Array.isArray(entry.categories.isNot)) return [];
+    return entry.categories.isNot.slice();
+  }
+
   function refsToIds(refs) {
     return (refs || [])
       .map((ref) => (ref && ref.id != null ? String(ref.id) : ""))
       .filter(Boolean);
   }
 
-  function queryIds() {
-    return querySymbols.map((sym) => String(sym.id));
+  function positiveQueryIds() {
+    return querySymbols.filter((sym) => !sym.negated).map((sym) => String(sym.id));
+  }
+
+  function negatedQueryIds() {
+    return querySymbols.filter((sym) => sym.negated).map((sym) => String(sym.id));
   }
 
   function matchesStrict(stampIds, ids) {
@@ -10628,10 +10728,16 @@ if (page === "web") {
     return querySymbols.some((sym) => String(sym.id) === String(symbolId));
   }
 
-  function addQuerySymbol(symbol) {
+  function addQuerySymbol(symbol, negated) {
     if (!symbol || querySymbols.length >= 8) return;
     if (isQuerySelected(symbol.id)) return;
-    querySymbols.push(symbol);
+    querySymbols.push({
+      id: symbol.id,
+      name: symbol.name,
+      image: symbol.image,
+      rgb: symbol.rgb,
+      negated: !!negated,
+    });
     renderQuerySymbols();
     renderWebSymbolGrid();
     runWebSearch();
@@ -10666,14 +10772,15 @@ if (page === "web") {
       const chip = document.createElement("button");
       chip.type = "button";
       chip.className = "web-query-chip";
-      chip.title = "Remove";
+      const displayName = getSymbolName(symbol);
+      chip.title = symbol.negated ? symbolNegateLabel(displayName) : "Remove";
       const slot = document.createElement("span");
       slot.className = "web-query-slot";
       slot.textContent = "#" + (index + 1);
       const name = document.createElement("span");
-      name.textContent = getSymbolName(symbol);
+      name.textContent = displayName;
       chip.appendChild(slot);
-      chip.appendChild(createSymbolVisual(symbol, getSymbolName(symbol)));
+      appendSymbolFace(chip, symbol, displayName, symbol.negated ? { negated: true } : null);
       chip.appendChild(name);
       chip.addEventListener("click", () => removeQuerySymbolAt(index));
       queryRow.appendChild(chip);
@@ -10708,7 +10815,9 @@ if (page === "web") {
     if (opts.categoryIndex != null) box.dataset.keyCategoryIndex = String(opts.categoryIndex);
     const displayName = getSymbolName(symbol);
     box.title = displayName;
-    box.appendChild(createSymbolVisual(symbol, displayName));
+    appendSymbolFace(box, symbol, displayName, opts.isKeyCategory ? null : {
+      onNegate: () => addQuerySymbol(symbol, true),
+    });
     const nameSpan = document.createElement("span");
     nameSpan.textContent = displayName;
     box.appendChild(nameSpan);
@@ -10718,7 +10827,7 @@ if (page === "web") {
         renderWebSymbolGrid();
       });
     } else {
-      box.addEventListener("click", () => addQuerySymbol(symbol));
+      box.addEventListener("click", () => addQuerySymbol(symbol, false));
       box.addEventListener("contextmenu", (e) => {
         e.preventDefault();
         if (typeof window.showSymbolInfo === "function") window.showSymbolInfo(symbol);
@@ -11006,8 +11115,9 @@ if (page === "web") {
   function runWebSearch() {
     if (!resultsEl) return;
     resultsEl.innerHTML = "";
-    const ids = queryIds();
-    if (!ids.length) {
+    const ids = positiveQueryIds();
+    const negatedIds = negatedQueryIds();
+    if (!ids.length && !negatedIds.length) {
       if (resultsStatus) resultsStatus.textContent = getTranslation("web.noQuery") || "";
       return;
     }
@@ -11017,16 +11127,25 @@ if (page === "web") {
     ensureCoreWordsInDictionary().forEach((entry) => {
       const stampIds = refsToIds(getEntryStampRefs(entry));
       const isIds = refsToIds(getEntryIsRefs(entry));
-      if (!stampIds.length && !isIds.length) return;
-      let ok = false;
-      if (mode === "strict") ok = matchesStrict(stampIds, ids);
-      else if (mode === "shapeless") ok = matchesShapeless(stampIds, ids);
-      else ok = matchesContains(stampIds, isIds, ids);
-      if (!ok) return;
-      matches.push({
-        entry,
-        priority: getPriorityIndexes(stampIds, isIds, ids, mode),
-      });
+      const notIds = refsToIds(getEntryIsNotRefs(entry));
+      if (negatedIds.length && !negatedIds.every((id) => notIds.includes(id))) return;
+      let priority = [];
+      if (ids.length) {
+        if (!stampIds.length && !isIds.length) return;
+        let ok = false;
+        if (mode === "strict") ok = matchesStrict(stampIds, ids);
+        else if (mode === "shapeless") ok = matchesShapeless(stampIds, ids);
+        else ok = matchesContains(stampIds, isIds, ids);
+        if (!ok) return;
+        priority = getPriorityIndexes(stampIds, isIds, ids, mode);
+      }
+      if (negatedIds.length) {
+        priority = priority.concat(negatedIds.map((id) => {
+          const index = notIds.indexOf(id);
+          return index >= 0 ? index : 999;
+        }));
+      }
+      matches.push({ entry, priority });
     });
     matches.sort((a, b) => {
       const byPriority = comparePriority(a.priority, b.priority);
@@ -11151,8 +11270,11 @@ if (page === "play") {
     return end < 0 ? line.slice(start) : line.slice(start, end);
   }
 
-  function playSymbolRef(sym) {
-    return sym ? { id: sym.id, name: sym.name, image: sym.image, rgb: sym.rgb } : null;
+  function playSymbolRef(sym, negated) {
+    if (!sym) return null;
+    const ref = { id: sym.id, name: sym.name, image: sym.image, rgb: sym.rgb };
+    if (negated || sym.negated) ref.negated = true;
+    return ref;
   }
 
   function getPlayMatchEnglish(match) {
@@ -11230,12 +11352,22 @@ if (page === "play") {
   function applyPlaySymbolRefsToEntry(entry, symbolRefs) {
     if (!entry || entry.isCore || !symbolRefs || !symbolRefs.length) return false;
     if (!entry.categories) entry.categories = { is: [], unrelated: [], isNot: [] };
+    if (!Array.isArray(entry.categories.is)) entry.categories.is = [];
+    if (!Array.isArray(entry.categories.isNot)) entry.categories.isNot = [];
     let changed = false;
     symbolRefs.forEach((ref) => {
       if (!ref || ref.id == null) return;
-      const exists = entry.categories.is.some((r) => String(r.id) === String(ref.id));
-      if (!exists) {
-        entry.categories.is.push(Object.assign({}, ref));
+      const negated = !!ref.negated;
+      const target = negated ? entry.categories.isNot : entry.categories.is;
+      const other = negated ? entry.categories.is : entry.categories.isNot;
+      const id = String(ref.id);
+      const otherIndex = other.findIndex((item) => item && String(item.id) === id);
+      if (otherIndex >= 0) {
+        other.splice(otherIndex, 1);
+        changed = true;
+      }
+      if (!target.some((item) => item && String(item.id) === id)) {
+        target.push({ id: ref.id, name: ref.name, image: ref.image, rgb: ref.rgb });
         changed = true;
       }
     });
@@ -11395,14 +11527,22 @@ if (page === "play") {
   }
 
   function removePlaySymbolRefsFromEntry(entry, symbolRefs) {
-    if (!entry || entry.isCore || !symbolRefs || !symbolRefs.length || !entry.categories || !Array.isArray(entry.categories.is)) {
+    if (!entry || entry.isCore || !symbolRefs || !symbolRefs.length || !entry.categories) {
       return false;
     }
     const removeIds = new Set(symbolRefs.map((ref) => String(ref && ref.id != null ? ref.id : "")).filter(Boolean));
     if (!removeIds.size) return false;
-    const next = entry.categories.is.filter((ref) => !removeIds.has(String(ref && ref.id != null ? ref.id : "")));
-    if (next.length === entry.categories.is.length) return false;
-    entry.categories.is = next;
+    let changed = false;
+    ["is", "isNot"].forEach((key) => {
+      if (!Array.isArray(entry.categories[key])) return;
+      const next = entry.categories[key].filter((ref) => !removeIds.has(String(ref && ref.id != null ? ref.id : "")));
+      if (next.length !== entry.categories[key].length) {
+        entry.categories[key] = next;
+        changed = true;
+      }
+    });
+    if (!changed) return false;
+    if (!Array.isArray(entry.categories.is)) entry.categories.is = [];
     entry.stampSymbols = entry.categories.is.slice(0, 4);
     entry.symbols = entry.stampSymbols;
     entry.tempstamped = entry.stampSymbols.length > 0;
@@ -12023,7 +12163,9 @@ if (page === "play") {
       }
       const name = getSymbolName(sym);
       box.title = name;
-      box.appendChild(createSymbolVisual(sym, name));
+      appendSymbolFace(box, sym, name, boxOpts.isKeyCategory ? null : {
+        onNegate: () => onPick(sym, true),
+      });
       const span = document.createElement("span");
       span.textContent = name;
       box.appendChild(span);
@@ -12033,7 +12175,7 @@ if (page === "play") {
           paintGrid();
         });
       } else {
-        box.addEventListener("click", () => onPick(sym));
+        box.addEventListener("click", () => onPick(sym, false));
       }
       grid.appendChild(box);
     }
@@ -12108,8 +12250,8 @@ if (page === "play") {
       cell.className = "compact-stamp-symbol";
       const sym = symbols.find((s) => String(s.id) === String(ref.id));
       const name = sym ? getSymbolName(sym) : (ref.name || "");
-      cell.title = name;
-      cell.appendChild(createSymbolVisual(ref, name));
+      cell.title = ref.negated ? symbolNegateLabel(name) : name;
+      appendSymbolFace(cell, sym || ref, name, ref.negated ? { negated: true } : null);
       container.appendChild(cell);
     });
   }
@@ -12123,9 +12265,10 @@ if (page === "play") {
       cell.className = "compact-stamp-symbol play-attached-symbol";
       const sym = symbols.find((s) => String(s.id) === String(ref.id));
       const name = sym ? getSymbolName(sym) : (ref.name || "");
-      cell.title = name;
-      cell.setAttribute("aria-label", "Remove " + name);
-      cell.appendChild(createSymbolVisual(ref, name));
+      const label = ref.negated ? symbolNegateLabel(name) : name;
+      cell.title = label;
+      cell.setAttribute("aria-label", "Remove " + label);
+      appendSymbolFace(cell, sym || ref, name, ref.negated ? { negated: true } : null);
       cell.addEventListener("click", () => {
         if (onRemove) onRemove(ref);
       });
@@ -12684,8 +12827,8 @@ if (page === "play") {
       const gridWrap = document.createElement("div");
       gridWrap.className = "play-symbol-grid-wrap";
       block.appendChild(gridWrap);
-      renderPlaySymbolGrid(gridWrap, (sym) => {
-        const ref = playSymbolRef(sym);
+      renderPlaySymbolGrid(gridWrap, (sym, negated) => {
+        const ref = playSymbolRef(sym, negated);
         if (playState.revealedSymbols.some((r) => String(r.id) === String(ref.id))) return;
         playState.revealedSymbols.push(ref);
         addPlaySymbolsToWordIs(playState.secretWord, [ref], { allowStarredPrimary: true });
@@ -12961,8 +13104,8 @@ if (page === "play") {
       const gridWrap = document.createElement("div");
       gridWrap.className = "play-symbol-grid-wrap";
       block.appendChild(gridWrap);
-      renderPlaySymbolGrid(gridWrap, (sym) => {
-        const ref = playSymbolRef(sym);
+      renderPlaySymbolGrid(gridWrap, (sym, negated) => {
+        const ref = playSymbolRef(sym, negated);
         if (playState.fixedSymbols.some((r) => String(r.id) === String(ref.id))) return;
         if (playState.fixedSymbols.length >= playState.symbolTarget) return;
         playState.fixedSymbols.push(ref);
@@ -13113,11 +13256,20 @@ if (page === "play") {
     return pool[Math.floor(Math.random() * pool.length)];
   }
 
+  function playAttachedRefsFromEntry(entry) {
+    if (!entry) return [];
+    if (entry.categories) {
+      const cats = getEntryCategories(entry);
+      return (cats.is || []).map((ref) => playSymbolRef(ref, false))
+        .concat((cats.isNot || []).map((ref) => playSymbolRef(ref, true)))
+        .filter(Boolean);
+    }
+    return getSymbolsForEntry(entry).map((ref) => playSymbolRef(ref, false)).filter(Boolean);
+  }
+
   function getManualInputAttachedRefs(match) {
     if (!match) return [];
-    if (match.type === "local" && match.entry) {
-      return getSymbolsForEntry(match.entry).map((ref) => playSymbolRef(ref)).filter(Boolean);
-    }
+    if (match.type === "local" && match.entry) return playAttachedRefsFromEntry(match.entry);
     if (match.type === "world") {
       // Prefer local dictionary copy if it already exists.
       const english = getPlayWorldField(match.worldLine, 0);
@@ -13126,7 +13278,7 @@ if (page === "play") {
       const local = entries.find((e) => !e.isCore &&
         normalizeDictionaryWord(e.definition) === normalizeDictionaryWord(english) &&
         (e.originLanguage || e.translationSource || "en") === originLang);
-      if (local) return getSymbolsForEntry(local).map((ref) => playSymbolRef(ref)).filter(Boolean);
+      if (local) return playAttachedRefsFromEntry(local);
     }
     return [];
   }
@@ -13222,8 +13374,8 @@ if (page === "play") {
     const gridWrap = document.createElement("div");
     gridWrap.className = "play-symbol-grid-wrap";
     block.appendChild(gridWrap);
-    renderPlaySymbolGrid(gridWrap, (sym) => {
-      const ref = playSymbolRef(sym);
+    renderPlaySymbolGrid(gridWrap, (sym, negated) => {
+      const ref = playSymbolRef(sym, negated);
       if (!ref || ref.id == null) return;
       if (playState.attachedSymbols.some((r) => String(r.id) === String(ref.id))) return;
       const updated = addPlaySymbolsToWordIs(playState.secretWord, [ref], { allowStarredPrimary: true });
