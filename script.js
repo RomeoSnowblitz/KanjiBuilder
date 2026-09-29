@@ -1251,8 +1251,14 @@ function findEntryIndexByWordId(entries, wordId) {
 
 function getSymbolsForEntry(entry) {
   if (!entry) return [];
+  if (entry.categories && (
+    Array.isArray(entry.categories.is) ||
+    Array.isArray(entry.categories.unrelated) ||
+    Array.isArray(entry.categories.isNot)
+  )) {
+    return getEntryCategories(entry).is.slice(0, 4);
+  }
   if (Array.isArray(entry.stampSymbols)) return entry.stampSymbols;
-  if (entry.categories && Array.isArray(entry.categories.is)) return entry.categories.is.slice(0, 4);
   if (entry.slots) {
     const out = [];
     entry.slots.forEach((slot) => {
@@ -1280,8 +1286,9 @@ function createEntryCompactStamp(entry) {
     const box = document.createElement("div");
     box.className = "compact-stamp-symbol";
     const name = sym ? getSymbolName(sym) : (ref.name || "");
-    box.title = name;
-    box.appendChild(createSymbolVisual(visualRef, name));
+    const label = symbolRefIsNegated(ref) ? symbolNegateLabel(name) : name;
+    box.title = label;
+    appendSymbolFace(box, Object.assign({}, visualRef, symbolRefIsNegated(ref) ? { negated: true } : {}), label, symbolRefIsNegated(ref) ? { negated: true } : null);
     stamp.appendChild(box);
   });
   return stamp;
@@ -2610,26 +2617,83 @@ function setupSharedDictionaryEditor(onSaved) {
   return { openDictionaryEditor, closeDictionaryEditor, saveAndCloseDictionaryEditor };
 }
 
+function symbolRefIsNegated(ref) {
+  return !!(ref && ref.negated);
+}
+
+function cloneSymbolRef(ref, forceNegated) {
+  if (!ref || ref.id == null) return null;
+  const out = {
+    id: ref.id,
+    name: ref.name,
+    image: ref.image,
+    rgb: ref.rgb,
+  };
+  if (forceNegated || ref.negated) out.negated = true;
+  return out;
+}
+
+function symbolQueryToken(ref) {
+  if (!ref || ref.id == null) return "";
+  return (symbolRefIsNegated(ref) ? "0:" : "") + String(ref.id);
+}
+
+function normalizeSymbolList(refs, forceNegated) {
+  const out = [];
+  const seen = new Set();
+  (refs || []).forEach((ref) => {
+    const copy = cloneSymbolRef(ref, forceNegated);
+    if (!copy) return;
+    const key = String(copy.id);
+    if (seen.has(key)) return;
+    seen.add(key);
+    out.push(copy);
+  });
+  return out;
+}
+
+/** Is and Unrelated only. A Zero on a symbol (negated) means "not that symbol". Older Isn't lists fold into Is with Zero. */
 function getEntryCategories(entry) {
   if (entry && entry.categories) {
-    return {
-      is: Array.isArray(entry.categories.is) ? entry.categories.is.slice() : [],
-      unrelated: Array.isArray(entry.categories.unrelated) ? entry.categories.unrelated.slice() : [],
-      isNot: Array.isArray(entry.categories.isNot) ? entry.categories.isNot.slice() : [],
-    };
+    const is = normalizeSymbolList(entry.categories.is, false);
+    const unrelated = normalizeSymbolList(entry.categories.unrelated, false);
+    const taken = new Set(is.concat(unrelated).map((ref) => String(ref.id)));
+    normalizeSymbolList(entry.categories.isNot, true).forEach((ref) => {
+      if (taken.has(String(ref.id))) return;
+      taken.add(String(ref.id));
+      is.push(ref);
+    });
+    return { is, unrelated };
   }
-  return { is: getSymbolsForEntry(entry), unrelated: [], isNot: [] };
+  return { is: normalizeSymbolList(getSymbolsForEntry(entry), false), unrelated: [] };
+}
+
+function entryCategoriesNeedMigration(entry) {
+  if (!entry || !entry.categories) return false;
+  if (Array.isArray(entry.categories.isNot) && entry.categories.isNot.length) return true;
+  if (Object.prototype.hasOwnProperty.call(entry.categories, "isNot")) return true;
+  return false;
+}
+
+function migrateEntrySymbolCategories(entry) {
+  if (!entryCategoriesNeedMigration(entry)) return false;
+  const normalized = getEntryCategories(entry);
+  entry.categories = {
+    is: normalized.is,
+    unrelated: normalized.unrelated,
+  };
+  entry.stampSymbols = normalized.is.slice(0, 4);
+  entry.symbols = entry.stampSymbols;
+  if (entry.schemaVersion == null || entry.schemaVersion < 3) entry.schemaVersion = 3;
+  return true;
 }
 
 function getEntrySignature(entry) {
-  if (entry && entry.categories) {
-    return ["is", "unrelated", "isNot"].map((category) => {
-      const refs = Array.isArray(entry.categories[category]) ? entry.categories[category] : [];
-      return category + ":" + refs.map((ref) => (ref && ref.id != null ? String(ref.id) : "x")).join("-");
-    }).join("|");
-  }
-  const refs = getSymbolsForEntry(entry);
-  return refs.map((r) => (r && r.id != null ? String(r.id) : "x")).join("-");
+  const categories = getEntryCategories(entry);
+  return ["is", "unrelated"].map((category) => {
+    const refs = categories[category] || [];
+    return category + ":" + refs.map((ref) => symbolQueryToken(ref) || "x").join("-");
+  }).join("|");
 }
 
 function triggerDownload(filename, content, mime) {
@@ -2949,6 +3013,11 @@ function ensureCoreWordsInDictionary() {
   });
 
   entries.forEach((entry) => {
+    if (!entry || entry.isCore) return;
+    if (migrateEntrySymbolCategories(entry)) changed = true;
+  });
+
+  entries.forEach((entry) => {
     if (!entry || entry.wordId) return;
     ensureEntryWordId(entry, entries);
     changed = true;
@@ -3159,6 +3228,82 @@ function createSymbolVisual(symOrRef, altText) {
   const wrapper = document.createElement("div");
   wrapper.innerHTML = "<img src=\"\" alt=\"" + escapeHtmlAttr(altText) + "\">";
   return wrapper.firstChild;
+}
+
+function getZeroSymbolRecord() {
+  if (typeof symbols !== "undefined" && Array.isArray(symbols)) {
+    const found = symbols.find((sym) => Number(sym.id) === 129);
+    if (found) return found;
+  }
+  return { id: 129, name: "Zero", image: "placeholders/zero.png", description: "Zero, No, Not" };
+}
+
+function symbolNegateLabel(symbolName) {
+  const isNot = (typeof getTranslation === "function" && getTranslation("create.isNotCategory")) || "Isn't";
+  return (isNot ? isNot + " " : "") + (symbolName || "");
+}
+
+/**
+ * Symbol image frame.
+ * onNegate: selection grids — Zero is a second hit target (outline only while the pointer is on it).
+ * negated: already chosen — Zero is painted on the symbol and is not its own button.
+ */
+function appendSymbolFace(parent, symOrRef, altText, options) {
+  const opts = options || {};
+  const face = document.createElement("div");
+  face.className = "symbol-face";
+  face.appendChild(createSymbolVisual(symOrRef, altText));
+  if (opts.negated) {
+    const mark = document.createElement("div");
+    mark.className = "symbol-zero-mark";
+    mark.setAttribute("aria-hidden", "true");
+    const visual = createSymbolVisual(getZeroSymbolRecord(), "Zero");
+    if (visual) visual.setAttribute("aria-hidden", "true");
+    mark.appendChild(visual);
+    face.appendChild(mark);
+  }
+  if (typeof opts.onNegate === "function") {
+    const hit = document.createElement("button");
+    hit.type = "button";
+    hit.className = "symbol-zero-hit";
+    hit.draggable = false;
+    const label = symbolNegateLabel(altText);
+    hit.title = label;
+    hit.setAttribute("aria-label", label);
+    const visual = createSymbolVisual(getZeroSymbolRecord(), "Zero");
+    if (visual) visual.setAttribute("aria-hidden", "true");
+    hit.appendChild(visual);
+    hit.addEventListener("click", (event) => {
+      event.preventDefault();
+      event.stopPropagation();
+      opts.onNegate(event);
+    });
+    hit.addEventListener("pointerdown", (event) => {
+      event.stopPropagation();
+      const draggable = hit.closest("[draggable='true']");
+      if (!draggable) return;
+      const blockDrag = (dragEvent) => {
+        dragEvent.preventDefault();
+        dragEvent.stopPropagation();
+        cleanup();
+      };
+      const cleanup = () => {
+        draggable.removeEventListener("dragstart", blockDrag, true);
+        window.removeEventListener("pointerup", cleanup, true);
+        window.removeEventListener("pointercancel", cleanup, true);
+      };
+      draggable.addEventListener("dragstart", blockDrag, true);
+      window.addEventListener("pointerup", cleanup, true);
+      window.addEventListener("pointercancel", cleanup, true);
+    });
+    hit.addEventListener("dragstart", (event) => {
+      event.preventDefault();
+      event.stopPropagation();
+    });
+    face.appendChild(hit);
+  }
+  parent.appendChild(face);
+  return face;
 }
 
 if (langBtn && langDropdown) {
@@ -3566,12 +3711,10 @@ if (page === "create") {
   const categoryElements = {
     is: document.getElementById("category-is"),
     unrelated: document.getElementById("category-unrelated"),
-    isNot: document.getElementById("category-is-not"),
   };
   const categorySymbols = {
     is: [],
     unrelated: [],
-    isNot: [],
   };
   let completedCategoryDrop = false;
   const modeToggle = document.getElementById("create-mode-toggle");
@@ -3620,13 +3763,13 @@ if (page === "create") {
   }
 
   // imageOnly = true for category content (no label under image)
-  function makeSymbolBox(sym, sizeClass, imageOnly) {
+  function makeSymbolBox(sym, sizeClass, imageOnly, negated) {
     const div = document.createElement("div");
     div.className = "symbol-box " + (sizeClass || "");
     div.dataset.symbolId = sym.id;
     const displayName = getSymbolName(sym);
-    div.title = displayName;
-    div.appendChild(createSymbolVisual(sym, displayName));
+    div.title = negated ? symbolNegateLabel(displayName) : displayName;
+    appendSymbolFace(div, sym, displayName, negated ? { negated: true } : null);
     if (!imageOnly) {
       const nameSpan = document.createElement("span");
       nameSpan.textContent = displayName;
@@ -3654,12 +3797,30 @@ if (page === "create") {
     });
   }
 
+  function symbolForCategoryDrop(symbolId) {
+    let stored = null;
+    Object.keys(categorySymbols).some((category) => {
+      stored = categorySymbols[category].find((symbol) => symbol.id === symbolId) || null;
+      return !!stored;
+    });
+    if (stored) return stored;
+    return symbols.find((candidate) => candidate.id === symbolId) || null;
+  }
+
   function addSymbolToCategory(symbol, category, insertIndex) {
     if (!symbol || !categorySymbols[category]) return;
     removeSymbolFromCategories(symbol.id);
+    const stored = {
+      id: symbol.id,
+      name: symbol.name,
+      image: symbol.image,
+      rgb: symbol.rgb,
+      description: symbol.description,
+    };
+    if (symbol.negated) stored.negated = true;
     const target = categorySymbols[category];
     const index = Number.isInteger(insertIndex) ? Math.max(0, Math.min(insertIndex, target.length)) : target.length;
-    target.splice(index, 0, symbol);
+    target.splice(index, 0, stored);
     renderCategories();
   }
 
@@ -3676,7 +3837,7 @@ if (page === "create") {
       item.dataset.category = category;
       item.dataset.index = index;
       item.setAttribute("draggable", "true");
-      item.appendChild(makeSymbolBox(symbol, "category-symbol-size", true));
+      item.appendChild(makeSymbolBox(symbol, "category-symbol-size", true, !!symbol.negated));
       item.addEventListener("dragstart", (event) => {
         completedCategoryDrop = false;
         event.dataTransfer.effectAllowed = "move";
@@ -3694,7 +3855,7 @@ if (page === "create") {
         event.stopPropagation();
         completedCategoryDrop = true;
         const symbolId = parseInt(event.dataTransfer.getData("text/plain"), 10);
-        const dragged = symbols.find((candidate) => candidate.id === symbolId);
+        const dragged = symbolForCategoryDrop(symbolId);
         const sourceCategory = event.dataTransfer.getData("sourceCategory");
         const sourceIndex = parseInt(event.dataTransfer.getData("sourceIndex"), 10);
         const insertIndex = sourceCategory === category && sourceIndex < index ? index - 1 : index;
@@ -3899,7 +4060,9 @@ if (page === "create") {
     (match.symbols || []).slice(0, 4).forEach((ref) => {
       const symbol = symbols.find((candidate) => String(candidate.id) === String(ref.id));
       const visual = document.createElement("span");
-      visual.appendChild(createSymbolVisual(symbol || ref, symbol ? getSymbolName(symbol) : (ref.name || "")));
+      const name = symbol ? getSymbolName(symbol) : (ref.name || "");
+      const label = symbolRefIsNegated(ref) ? symbolNegateLabel(name) : name;
+      appendSymbolFace(visual, symbol || ref, label, symbolRefIsNegated(ref) ? { negated: true } : null);
       stamp.appendChild(visual);
     });
     [
@@ -4057,9 +4220,14 @@ if (page === "create") {
   function loadCategoriesIntoEditor(entry) {
     const groups = getEntryCategories(entry);
     Object.keys(categorySymbols).forEach((category) => {
-      categorySymbols[category] = groups[category].map((ref) =>
-        symbols.find((symbol) => String(symbol.id) === String(ref.id)) || ref
-      );
+      categorySymbols[category] = (groups[category] || []).map((ref) => {
+        const sym = symbols.find((symbol) => String(symbol.id) === String(ref.id));
+        const stored = sym
+          ? { id: sym.id, name: sym.name, image: sym.image, rgb: sym.rgb, description: sym.description }
+          : Object.assign({}, ref);
+        if (ref.negated) stored.negated = true;
+        return stored;
+      });
     });
     renderCategories();
   }
@@ -4233,7 +4401,9 @@ if (page === "create") {
       match.symbols.slice(0, 4).forEach((ref) => {
         const symbol = symbols.find((candidate) => String(candidate.id) === String(ref.id));
         const visual = document.createElement("span");
-        visual.appendChild(createSymbolVisual(symbol || ref, symbol ? getSymbolName(symbol) : (ref.name || "")));
+        const name = symbol ? getSymbolName(symbol) : (ref.name || "");
+        const label = symbolRefIsNegated(ref) ? symbolNegateLabel(name) : name;
+        appendSymbolFace(visual, symbol || ref, label, symbolRefIsNegated(ref) ? { negated: true } : null);
         stamp.appendChild(visual);
       });
       [
@@ -4333,7 +4503,7 @@ if (page === "create") {
       if (event.target.closest(".category-symbol-item")) return;
       completedCategoryDrop = true;
       const symbolId = parseInt(event.dataTransfer.getData("text/plain"), 10);
-      const symbol = symbols.find((candidate) => candidate.id === symbolId);
+      const symbol = symbolForCategoryDrop(symbolId);
       addSymbolToCategory(symbol, category);
     });
   });
@@ -4382,12 +4552,19 @@ if (page === "create") {
       if (sym) {
         const name = getSymbolName(sym);
         div.title = name;
-        const img = div.querySelector("img");
-        const mask = div.querySelector(".symbol-mask");
-        if (img) img.alt = name;
-        if (mask) mask.setAttribute("aria-label", name);
+        const primary = div.querySelector(".symbol-face > img, .symbol-face > .symbol-mask");
+        if (primary) {
+          if (primary.tagName === "IMG") primary.alt = name;
+          else primary.setAttribute("aria-label", name);
+        }
         const span = div.querySelector("span");
         if (span) span.textContent = name;
+        const zeroHit = div.querySelector(".symbol-zero-hit");
+        if (zeroHit) {
+          const label = symbolNegateLabel(name);
+          zeroHit.title = label;
+          zeroHit.setAttribute("aria-label", label);
+        }
       }
     });
   }
@@ -4408,9 +4585,15 @@ if (page === "create") {
     div.dataset.symbolId = sym.id;
     if (opts.categoryIndex != null) div.dataset.keyCategoryIndex = String(opts.categoryIndex);
     div.setAttribute("draggable", opts.isKeyCategory ? "false" : "true");
-    div.appendChild(createSymbolVisual(sym, getSymbolName(sym)));
+    const displayName = getSymbolName(sym);
+    appendSymbolFace(div, sym, displayName, opts.isKeyCategory ? null : {
+      onNegate: () => {
+        if (isSymbolUsed(sym.id)) return;
+        addSymbolToCategory(Object.assign({}, sym, { negated: true }), "is");
+      },
+    });
     const nameSpan = document.createElement("span");
-    nameSpan.textContent = getSymbolName(sym);
+    nameSpan.textContent = displayName;
     div.appendChild(nameSpan);
     div.addEventListener("contextmenu", (e) => {
       e.preventDefault();
@@ -4602,7 +4785,10 @@ if (page === "create") {
     }
 
     function toRef(s) {
-      return s ? { id: s.id, name: s.name, image: s.image, rgb: s.rgb } : null;
+      if (!s) return null;
+      const ref = { id: s.id, name: s.name, image: s.image, rgb: s.rgb };
+      if (s.negated) ref.negated = true;
+      return ref;
     }
     let entries = ensureCoreWordsInDictionary();
     if (!retrievedWorldLine && wordAlreadyExists(originWord, originLang, entries, editingEntryId) &&
@@ -4612,7 +4798,6 @@ if (page === "create") {
     const categories = {
       is: categorySymbols.is.map(toRef),
       unrelated: categorySymbols.unrelated.map(toRef),
-      isNot: categorySymbols.isNot.map(toRef),
     };
     const stampSymbols = categories.is.slice(0, 4);
     let saveOriginLang = originLang;
@@ -4675,7 +4860,7 @@ if (page === "create") {
     }
     if (!wordId) wordId = allocateNewWordId(entries);
     const entry = Object.assign(existing || {}, {
-      schemaVersion: 2,
+      schemaVersion: 3,
       _entryId: existing ? existing._entryId : makeEntryId(),
       wordId,
       categories,
@@ -4905,7 +5090,9 @@ if (page === "draw") {
       if (boxOpts.isKeyCategory) box.classList.add("symbol-key-category");
       if (boxOpts.isKeyOpen) box.classList.add("symbol-key-open");
       box.title = name;
-      box.appendChild(createSymbolVisual(sym, name));
+      appendSymbolFace(box, sym, name, boxOpts.isKeyCategory ? null : {
+        onNegate: () => selectSymbol(sym),
+      });
       const span = document.createElement("span");
       span.textContent = name;
       box.appendChild(span);
@@ -6177,8 +6364,9 @@ if (page === "write") {
       cell.className = "write-compact-stamp-symbol";
       const sym = typeof symbols !== "undefined" && symbols.find((s) => s.id === ref.id);
       const name = sym ? getSymbolName(sym) : (ref.name || "");
-      cell.title = name;
-      cell.appendChild(createSymbolVisual(ref, name));
+      const label = symbolRefIsNegated(ref) ? symbolNegateLabel(name) : name;
+      cell.title = label;
+      appendSymbolFace(cell, sym || ref, label, symbolRefIsNegated(ref) ? { negated: true } : null);
       stamp.appendChild(cell);
     });
     return stamp;
@@ -7653,7 +7841,6 @@ if (page === "transfers") {
       if (item.current) {
         if (item.current.is && item.current.is.length) currentParts.push("Is: " + api.formatSymbolNames(item.current.is));
         if (item.current.unrelated && item.current.unrelated.length) currentParts.push("Unrelated: " + api.formatSymbolNames(item.current.unrelated));
-        if (item.current.isNot && item.current.isNot.length) currentParts.push("Isn't: " + api.formatSymbolNames(item.current.isNot));
       }
       if (currentParts.length) {
         const current = document.createElement("span");
@@ -7663,8 +7850,7 @@ if (page === "transfers") {
       const addedParts = [];
       if (item.addedSymbols) {
         if (item.addedSymbols.is.length) addedParts.push("Is + " + api.formatSymbolNames(item.addedSymbols.is));
-        if (item.addedSymbols.unrelated.length) addedParts.push("Unrelated + " + api.formatSymbolNames(item.addedSymbols.unrelated));
-        if (item.addedSymbols.isNot.length) addedParts.push("Isn't + " + api.formatSymbolNames(item.addedSymbols.isNot));
+        if (item.addedSymbols.unrelated && item.addedSymbols.unrelated.length) addedParts.push("Unrelated + " + api.formatSymbolNames(item.addedSymbols.unrelated));
       }
       const added = document.createElement("span");
       added.textContent = (t.reviewAddSymbols || "Add symbols") + ": " + (addedParts.join(" · ") || "—");
@@ -10288,7 +10474,7 @@ if (page === "dictionary") {
   function renderWordContextSymbols(entry) {
     wordContextSymbolGroups.innerHTML = "";
     const groups = getEntryCategories(entry);
-    [["is", "Is"], ["unrelated", "Unrelated"], ["isNot", "Isn't"]].forEach(([key, label]) => {
+    [["is", "Is"], ["unrelated", "Unrelated"]].forEach(([key, label]) => {
       if (!groups[key].length) return;
       const section = document.createElement("section");
       const heading = document.createElement("h3");
@@ -10300,8 +10486,9 @@ if (page === "dictionary") {
         const box = document.createElement("div");
         const name = symbol ? getSymbolName(symbol) : (ref.name || "");
         box.className = "word-context-symbol";
-        box.title = name;
-        box.appendChild(createSymbolVisual(symbol || ref, name));
+        const label = symbolRefIsNegated(ref) ? symbolNegateLabel(name) : name;
+        box.title = label;
+        appendSymbolFace(box, symbol || ref, label, symbolRefIsNegated(ref) ? { negated: true } : null);
         symbolsWrap.appendChild(box);
       });
       section.appendChild(heading);
@@ -10564,25 +10751,19 @@ if (page === "web") {
   }
 
   function getEntryStampRefs(entry) {
-    if (!entry) return [];
-    if (entry.categories && Array.isArray(entry.categories.is)) return entry.categories.is.slice(0, 4);
-    return getSymbolsForEntry(entry).slice(0, 4);
+    return getEntryCategories(entry).is.slice(0, 4);
   }
 
   function getEntryIsRefs(entry) {
-    if (!entry) return [];
-    if (entry.categories && Array.isArray(entry.categories.is)) return entry.categories.is.slice();
-    return getSymbolsForEntry(entry).slice();
+    return getEntryCategories(entry).is.slice();
   }
 
   function refsToIds(refs) {
-    return (refs || [])
-      .map((ref) => (ref && ref.id != null ? String(ref.id) : ""))
-      .filter(Boolean);
+    return (refs || []).map(symbolQueryToken).filter(Boolean);
   }
 
-  function queryIds() {
-    return querySymbols.map((sym) => String(sym.id));
+  function queryTokens() {
+    return querySymbols.map(symbolQueryToken).filter(Boolean);
   }
 
   function matchesStrict(stampIds, ids) {
@@ -10628,10 +10809,16 @@ if (page === "web") {
     return querySymbols.some((sym) => String(sym.id) === String(symbolId));
   }
 
-  function addQuerySymbol(symbol) {
+  function addQuerySymbol(symbol, negated) {
     if (!symbol || querySymbols.length >= 8) return;
     if (isQuerySelected(symbol.id)) return;
-    querySymbols.push(symbol);
+    querySymbols.push({
+      id: symbol.id,
+      name: symbol.name,
+      image: symbol.image,
+      rgb: symbol.rgb,
+      negated: !!negated,
+    });
     renderQuerySymbols();
     renderWebSymbolGrid();
     runWebSearch();
@@ -10666,14 +10853,15 @@ if (page === "web") {
       const chip = document.createElement("button");
       chip.type = "button";
       chip.className = "web-query-chip";
-      chip.title = "Remove";
+      const displayName = getSymbolName(symbol);
+      chip.title = symbol.negated ? symbolNegateLabel(displayName) : "Remove";
       const slot = document.createElement("span");
       slot.className = "web-query-slot";
       slot.textContent = "#" + (index + 1);
       const name = document.createElement("span");
-      name.textContent = getSymbolName(symbol);
+      name.textContent = displayName;
       chip.appendChild(slot);
-      chip.appendChild(createSymbolVisual(symbol, getSymbolName(symbol)));
+      appendSymbolFace(chip, symbol, displayName, symbol.negated ? { negated: true } : null);
       chip.appendChild(name);
       chip.addEventListener("click", () => removeQuerySymbolAt(index));
       queryRow.appendChild(chip);
@@ -10708,7 +10896,9 @@ if (page === "web") {
     if (opts.categoryIndex != null) box.dataset.keyCategoryIndex = String(opts.categoryIndex);
     const displayName = getSymbolName(symbol);
     box.title = displayName;
-    box.appendChild(createSymbolVisual(symbol, displayName));
+    appendSymbolFace(box, symbol, displayName, opts.isKeyCategory ? null : {
+      onNegate: () => addQuerySymbol(symbol, true),
+    });
     const nameSpan = document.createElement("span");
     nameSpan.textContent = displayName;
     box.appendChild(nameSpan);
@@ -10718,7 +10908,7 @@ if (page === "web") {
         renderWebSymbolGrid();
       });
     } else {
-      box.addEventListener("click", () => addQuerySymbol(symbol));
+      box.addEventListener("click", () => addQuerySymbol(symbol, false));
       box.addEventListener("contextmenu", (e) => {
         e.preventDefault();
         if (typeof window.showSymbolInfo === "function") window.showSymbolInfo(symbol);
@@ -11006,7 +11196,7 @@ if (page === "web") {
   function runWebSearch() {
     if (!resultsEl) return;
     resultsEl.innerHTML = "";
-    const ids = queryIds();
+    const ids = queryTokens();
     if (!ids.length) {
       if (resultsStatus) resultsStatus.textContent = getTranslation("web.noQuery") || "";
       return;
@@ -11151,8 +11341,11 @@ if (page === "play") {
     return end < 0 ? line.slice(start) : line.slice(start, end);
   }
 
-  function playSymbolRef(sym) {
-    return sym ? { id: sym.id, name: sym.name, image: sym.image, rgb: sym.rgb } : null;
+  function playSymbolRef(sym, negated) {
+    if (!sym) return null;
+    const ref = { id: sym.id, name: sym.name, image: sym.image, rgb: sym.rgb };
+    if (negated || sym.negated) ref.negated = true;
+    return ref;
   }
 
   function getPlayMatchEnglish(match) {
@@ -11184,9 +11377,9 @@ if (page === "play") {
     const originLang = WORLD_ORIGIN_TO_LANG[getPlayWorldField(line, 7)] || "en";
     const pos = getPlayWorldField(line, 5) || "Noun";
     return {
-      schemaVersion: 2,
+      schemaVersion: 3,
       _entryId: makeEntryId(),
-      categories: { is: [], unrelated: [], isNot: [] },
+      categories: { is: [], unrelated: [] },
       stampSymbols: [],
       symbols: [],
       definition: getPlayWorldField(line, 0),
@@ -11229,15 +11422,29 @@ if (page === "play") {
 
   function applyPlaySymbolRefsToEntry(entry, symbolRefs) {
     if (!entry || entry.isCore || !symbolRefs || !symbolRefs.length) return false;
-    if (!entry.categories) entry.categories = { is: [], unrelated: [], isNot: [] };
+    if (!entry.categories) entry.categories = { is: [], unrelated: [] };
+    if (!Array.isArray(entry.categories.is)) entry.categories.is = [];
+    if (!Array.isArray(entry.categories.unrelated)) entry.categories.unrelated = [];
     let changed = false;
     symbolRefs.forEach((ref) => {
       if (!ref || ref.id == null) return;
-      const exists = entry.categories.is.some((r) => String(r.id) === String(ref.id));
-      if (!exists) {
-        entry.categories.is.push(Object.assign({}, ref));
-        changed = true;
-      }
+      const id = String(ref.id);
+      const stored = cloneSymbolRef(ref, !!ref.negated);
+      const inIs = entry.categories.is.find((item) => item && String(item.id) === id);
+      const samePolarity = inIs && symbolRefIsNegated(inIs) === symbolRefIsNegated(stored);
+      ["unrelated", "isNot"].forEach((key) => {
+        if (!Array.isArray(entry.categories[key])) return;
+        const next = entry.categories[key].filter((item) => !(item && String(item.id) === id));
+        if (next.length !== entry.categories[key].length) {
+          entry.categories[key] = next;
+          changed = true;
+        }
+      });
+      if (entry.categories.isNot && !entry.categories.isNot.length) delete entry.categories.isNot;
+      if (samePolarity) return;
+      entry.categories.is = entry.categories.is.filter((item) => !(item && String(item.id) === id));
+      entry.categories.is.push(stored);
+      changed = true;
     });
     if (!changed) return false;
     entry.stampSymbols = entry.categories.is.slice(0, 4);
@@ -11395,14 +11602,26 @@ if (page === "play") {
   }
 
   function removePlaySymbolRefsFromEntry(entry, symbolRefs) {
-    if (!entry || entry.isCore || !symbolRefs || !symbolRefs.length || !entry.categories || !Array.isArray(entry.categories.is)) {
+    if (!entry || entry.isCore || !symbolRefs || !symbolRefs.length || !entry.categories) {
       return false;
     }
     const removeIds = new Set(symbolRefs.map((ref) => String(ref && ref.id != null ? ref.id : "")).filter(Boolean));
     if (!removeIds.size) return false;
-    const next = entry.categories.is.filter((ref) => !removeIds.has(String(ref && ref.id != null ? ref.id : "")));
-    if (next.length === entry.categories.is.length) return false;
-    entry.categories.is = next;
+    let changed = false;
+    ["is", "unrelated", "isNot"].forEach((key) => {
+      if (!Array.isArray(entry.categories[key])) return;
+      const next = entry.categories[key].filter((ref) => !removeIds.has(String(ref && ref.id != null ? ref.id : "")));
+      if (next.length !== entry.categories[key].length) {
+        entry.categories[key] = next;
+        changed = true;
+      }
+    });
+    if (entry.categories.isNot) {
+      delete entry.categories.isNot;
+      changed = true;
+    }
+    if (!changed) return false;
+    if (!Array.isArray(entry.categories.is)) entry.categories.is = [];
     entry.stampSymbols = entry.categories.is.slice(0, 4);
     entry.symbols = entry.stampSymbols;
     entry.tempstamped = entry.stampSymbols.length > 0;
@@ -12023,7 +12242,9 @@ if (page === "play") {
       }
       const name = getSymbolName(sym);
       box.title = name;
-      box.appendChild(createSymbolVisual(sym, name));
+      appendSymbolFace(box, sym, name, boxOpts.isKeyCategory ? null : {
+        onNegate: () => onPick(sym, true),
+      });
       const span = document.createElement("span");
       span.textContent = name;
       box.appendChild(span);
@@ -12033,7 +12254,7 @@ if (page === "play") {
           paintGrid();
         });
       } else {
-        box.addEventListener("click", () => onPick(sym));
+        box.addEventListener("click", () => onPick(sym, false));
       }
       grid.appendChild(box);
     }
@@ -12108,8 +12329,8 @@ if (page === "play") {
       cell.className = "compact-stamp-symbol";
       const sym = symbols.find((s) => String(s.id) === String(ref.id));
       const name = sym ? getSymbolName(sym) : (ref.name || "");
-      cell.title = name;
-      cell.appendChild(createSymbolVisual(ref, name));
+      cell.title = ref.negated ? symbolNegateLabel(name) : name;
+      appendSymbolFace(cell, sym || ref, name, ref.negated ? { negated: true } : null);
       container.appendChild(cell);
     });
   }
@@ -12123,9 +12344,10 @@ if (page === "play") {
       cell.className = "compact-stamp-symbol play-attached-symbol";
       const sym = symbols.find((s) => String(s.id) === String(ref.id));
       const name = sym ? getSymbolName(sym) : (ref.name || "");
-      cell.title = name;
-      cell.setAttribute("aria-label", "Remove " + name);
-      cell.appendChild(createSymbolVisual(ref, name));
+      const label = ref.negated ? symbolNegateLabel(name) : name;
+      cell.title = label;
+      cell.setAttribute("aria-label", "Remove " + label);
+      appendSymbolFace(cell, sym || ref, name, ref.negated ? { negated: true } : null);
       cell.addEventListener("click", () => {
         if (onRemove) onRemove(ref);
       });
@@ -12684,8 +12906,8 @@ if (page === "play") {
       const gridWrap = document.createElement("div");
       gridWrap.className = "play-symbol-grid-wrap";
       block.appendChild(gridWrap);
-      renderPlaySymbolGrid(gridWrap, (sym) => {
-        const ref = playSymbolRef(sym);
+      renderPlaySymbolGrid(gridWrap, (sym, negated) => {
+        const ref = playSymbolRef(sym, negated);
         if (playState.revealedSymbols.some((r) => String(r.id) === String(ref.id))) return;
         playState.revealedSymbols.push(ref);
         addPlaySymbolsToWordIs(playState.secretWord, [ref], { allowStarredPrimary: true });
@@ -12961,8 +13183,8 @@ if (page === "play") {
       const gridWrap = document.createElement("div");
       gridWrap.className = "play-symbol-grid-wrap";
       block.appendChild(gridWrap);
-      renderPlaySymbolGrid(gridWrap, (sym) => {
-        const ref = playSymbolRef(sym);
+      renderPlaySymbolGrid(gridWrap, (sym, negated) => {
+        const ref = playSymbolRef(sym, negated);
         if (playState.fixedSymbols.some((r) => String(r.id) === String(ref.id))) return;
         if (playState.fixedSymbols.length >= playState.symbolTarget) return;
         playState.fixedSymbols.push(ref);
@@ -13113,11 +13335,16 @@ if (page === "play") {
     return pool[Math.floor(Math.random() * pool.length)];
   }
 
+  function playAttachedRefsFromEntry(entry) {
+    if (!entry) return [];
+    return getEntryCategories(entry).is
+      .map((ref) => playSymbolRef(ref, symbolRefIsNegated(ref)))
+      .filter(Boolean);
+  }
+
   function getManualInputAttachedRefs(match) {
     if (!match) return [];
-    if (match.type === "local" && match.entry) {
-      return getSymbolsForEntry(match.entry).map((ref) => playSymbolRef(ref)).filter(Boolean);
-    }
+    if (match.type === "local" && match.entry) return playAttachedRefsFromEntry(match.entry);
     if (match.type === "world") {
       // Prefer local dictionary copy if it already exists.
       const english = getPlayWorldField(match.worldLine, 0);
@@ -13126,7 +13353,7 @@ if (page === "play") {
       const local = entries.find((e) => !e.isCore &&
         normalizeDictionaryWord(e.definition) === normalizeDictionaryWord(english) &&
         (e.originLanguage || e.translationSource || "en") === originLang);
-      if (local) return getSymbolsForEntry(local).map((ref) => playSymbolRef(ref)).filter(Boolean);
+      if (local) return playAttachedRefsFromEntry(local);
     }
     return [];
   }
@@ -13222,8 +13449,8 @@ if (page === "play") {
     const gridWrap = document.createElement("div");
     gridWrap.className = "play-symbol-grid-wrap";
     block.appendChild(gridWrap);
-    renderPlaySymbolGrid(gridWrap, (sym) => {
-      const ref = playSymbolRef(sym);
+    renderPlaySymbolGrid(gridWrap, (sym, negated) => {
+      const ref = playSymbolRef(sym, negated);
       if (!ref || ref.id == null) return;
       if (playState.attachedSymbols.some((r) => String(r.id) === String(ref.id))) return;
       const updated = addPlaySymbolsToWordIs(playState.secretWord, [ref], { allowStarredPrimary: true });

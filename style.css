@@ -2754,7 +2754,7 @@ body[data-page="transfers"] .transfer-lang-chip {
 
 .category-zones {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1rem;
   margin-bottom: 1rem;
 }
@@ -3183,6 +3183,116 @@ body:not(.ui-accent-gradient) #info-image-file-btn:hover {
   border-style: dashed;
   opacity: 0.25;
   pointer-events: none;
+}
+
+/* Zero sits on the symbol image. In pickers it is a second hit target; after a symbol is chosen it is only paint. */
+.symbol-face {
+  position: relative;
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin-bottom: 0.25rem;
+  flex-shrink: 0;
+}
+
+.symbol-box .symbol-face > img,
+.symbol-box .symbol-face > .symbol-mask,
+.symbol-face > img,
+.symbol-face > .symbol-mask {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  object-fit: contain;
+}
+
+.symbol-zero-hit,
+.symbol-zero-mark {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 46%;
+  height: 46%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 2px solid transparent;
+  border-radius: 4px;
+  background: transparent;
+  line-height: 0;
+  z-index: 2;
+}
+
+.symbol-zero-mark {
+  pointer-events: none;
+  border-color: transparent;
+}
+
+.symbol-zero-hit {
+  cursor: pointer;
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+.symbol-zero-hit:hover,
+.symbol-zero-hit:focus-visible {
+  border-color: var(--accent-color);
+}
+
+.symbol-zero-hit:focus {
+  outline: none;
+}
+
+.symbol-zero-hit > img,
+.symbol-zero-hit > .symbol-mask,
+.symbol-zero-mark > img,
+.symbol-zero-mark > .symbol-mask,
+.symbol-box .symbol-zero-hit > img,
+.symbol-box .symbol-zero-hit > .symbol-mask,
+.symbol-box .symbol-zero-mark > img,
+.symbol-box .symbol-zero-mark > .symbol-mask,
+.category-symbol-item .symbol-box .symbol-zero-hit > img,
+.category-symbol-item .symbol-box .symbol-zero-hit > .symbol-mask,
+.category-symbol-item .symbol-box .symbol-zero-mark > img,
+.category-symbol-item .symbol-box .symbol-zero-mark > .symbol-mask,
+.web-query-chip .symbol-zero-hit > img,
+.web-query-chip .symbol-zero-hit > .symbol-mask,
+.web-query-chip .symbol-zero-mark > img,
+.web-query-chip .symbol-zero-mark > .symbol-mask,
+.compact-stamp-symbol .symbol-zero-mark > img,
+.compact-stamp-symbol .symbol-zero-mark > .symbol-mask {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  object-fit: contain;
+  pointer-events: none;
+}
+
+.category-symbol-item .symbol-box .symbol-face {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.web-query-chip .symbol-face {
+  width: 48px;
+  height: 48px;
+  margin: 0;
+}
+
+.play-revealed-symbols .compact-stamp-symbol .symbol-face,
+.play-attached-symbol .symbol-face {
+  width: 40px;
+  height: 40px;
+  margin: 0;
+}
+
+.entry .compact-stamp-symbol .symbol-face,
+.write-compact-stamp-symbol .symbol-face,
+.word-context-symbol .symbol-face,
+.create-result-stamp .symbol-face {
+  width: 100%;
+  height: 100%;
+  margin: 0;
 }
 
 /* ===============================
