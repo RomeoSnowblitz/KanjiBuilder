@@ -2754,7 +2754,7 @@ body[data-page="transfers"] .transfer-lang-chip {
 
 .category-zones {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1rem;
   margin-bottom: 1rem;
 }
@@ -3283,6 +3283,15 @@ body:not(.ui-accent-gradient) #info-image-file-btn:hover {
 .play-attached-symbol .symbol-face {
   width: 40px;
   height: 40px;
+  margin: 0;
+}
+
+.entry .compact-stamp-symbol .symbol-face,
+.write-compact-stamp-symbol .symbol-face,
+.word-context-symbol .symbol-face,
+.create-result-stamp .symbol-face {
+  width: 100%;
+  height: 100%;
   margin: 0;
 }
 

@@ -4,7 +4,7 @@
    ======================================== */
 
 (function () {
-  const TXT_FORMAT_VERSION = 1;
+  const TXT_FORMAT_VERSION = 2;
   const TXT_LANG_FILE_CODE = {
     en: "EN",
     zh: "ZH",
@@ -37,7 +37,11 @@
   function serializeSymbolRefs(refs) {
     return (refs || [])
       .filter((ref) => ref && ref.id != null)
-      .map((ref) => String(ref.id) + "|" + String(ref.name || "").replace(/[;|]/g, " "))
+      .map((ref) => {
+        const name = String(ref.name || "").replace(/[;|]/g, " ");
+        const base = String(ref.id) + "|" + name;
+        return ref.negated ? base + "|0" : base;
+      })
       .join("; ");
   }
 
@@ -47,31 +51,42 @@
       .map((part) => part.trim())
       .filter(Boolean)
       .map((part) => {
-        const pipe = part.indexOf("|");
-        const idRaw = pipe >= 0 ? part.slice(0, pipe).trim() : part;
-        const name = pipe >= 0 ? part.slice(pipe + 1).trim() : "";
+        const pieces = part.split("|");
+        const idRaw = (pieces[0] || "").trim();
+        const name = pieces.length > 1 ? pieces[1].trim() : "";
+        const zeroMark = pieces.length > 2 ? pieces[2].trim() : "";
         const idNum = parseInt(idRaw, 10);
         const id = Number.isFinite(idNum) ? idNum : idRaw;
         const sym = typeof symbols !== "undefined" && symbols.find((s) => String(s.id) === String(id));
-        return {
+        const ref = {
           id,
           name: name || (sym && sym.name) || "",
           image: sym ? sym.image : undefined,
           rgb: sym ? sym.rgb : undefined,
         };
+        if (zeroMark === "0") ref.negated = true;
+        return ref;
       });
   }
 
   function categoriesFromEntry(entry) {
-    if (entry && entry.categories) {
-      return {
-        is: Array.isArray(entry.categories.is) ? entry.categories.is.slice() : [],
-        unrelated: Array.isArray(entry.categories.unrelated) ? entry.categories.unrelated.slice() : [],
-        isNot: Array.isArray(entry.categories.isNot) ? entry.categories.isNot.slice() : [],
-      };
-    }
+    if (typeof getEntryCategories === "function") return getEntryCategories(entry);
     const is = typeof getSymbolsForEntry === "function" ? getSymbolsForEntry(entry) : [];
-    return { is: is.slice(), unrelated: [], isNot: [] };
+    return { is: is.slice(), unrelated: [] };
+  }
+
+  function categoriesFromTxtRecord(rec) {
+    const is = parseSymbolRefs(rec && rec.Is);
+    const unrelated = parseSymbolRefs(rec && rec.Unrelated);
+    const legacyNot = parseSymbolRefs(rec && (rec["Isn't"] || rec.Isnt));
+    const taken = new Set(is.concat(unrelated).map((ref) => String(ref.id)));
+    legacyNot.forEach((ref) => {
+      ref.negated = true;
+      if (taken.has(String(ref.id))) return;
+      taken.add(String(ref.id));
+      is.push(ref);
+    });
+    return { is, unrelated };
   }
 
   function findLocalOverrideForWorldLine(entries, line) {
@@ -123,7 +138,7 @@
       const local = findLocalOverrideForWorldLine(entries, line);
       const english = (local && local.translations && local.translations.en) || parts[0] || "";
       const foreignWord = (local && local.translations && local.translations[foreign]) || parts[1] || "";
-      const cats = local ? categoriesFromEntry(local) : { is: [], unrelated: [], isNot: [] };
+      const cats = local ? categoriesFromEntry(local) : { is: [], unrelated: [] };
       const homographs = (local && local.homographs) || null;
       const pos = local
         ? [].concat(local.partOfSpeech || []).join(" & ")
@@ -175,7 +190,7 @@
     if (typeof buildCrossPairEntries !== "function") return [];
     const crossEntries = buildCrossPairEntries(pairId);
     return crossEntries.map((cross) => {
-      const cats = { is: [], unrelated: [], isNot: [] };
+      const cats = { is: [], unrelated: [] };
       let languageWord = cross.word || "";
       let languageLang = cross.wordLang || "";
       let pairWord = cross.translation || "";
@@ -299,13 +314,12 @@
   }
 
   function wordRecordFields(rec) {
-    const cats = rec.categories || { is: [], unrelated: [], isNot: [] };
+    const cats = rec.categories || { is: [], unrelated: [] };
     return [
       ["ID#", rec.wordId || ""],
       ["Pair", rec.pairId || ""],
       ["Is", serializeSymbolRefs(cats.is)],
       ["Unrelated", serializeSymbolRefs(cats.unrelated)],
-      ["Isn't", serializeSymbolRefs(cats.isNot)],
       ["LanguageWord", starMark(rec.languageWord, rec.languageLang, rec.homographs)],
       ["LanguageWordLang", rec.languageLang || ""],
       ["PairWord", starMark(rec.pairWord, rec.pairLang, rec.homographs)],
@@ -417,7 +431,7 @@
     if (parts.length < 8) return null;
     const english = (local && local.translations && local.translations.en) || parts[0] || "";
     const foreignWord = (local && local.translations && local.translations[foreign]) || parts[1] || "";
-    const cats = local ? categoriesFromEntry(local) : { is: [], unrelated: [], isNot: [] };
+    const cats = local ? categoriesFromEntry(local) : { is: [], unrelated: [] };
     return {
       pairId,
       wordId: (typeof isPlausibleWordId === "function" && local && isPlausibleWordId(local.wordId)
@@ -462,7 +476,7 @@
       wordId: assignId ? assignId(entry) : (typeof getCrossEntryWordId === "function"
         ? getCrossEntryWordId(entry)
         : (typeof peekCrossWordId === "function" ? peekCrossWordId(entry) : 0)),
-      categories: { is: [], unrelated: [], isNot: [] },
+      categories: { is: [], unrelated: [] },
       languageWord,
       languageLang,
       pairWord,
@@ -981,7 +995,7 @@
   function formatSymbolNames(refs) {
     return (refs || [])
       .filter((ref) => ref && ref.id != null)
-      .map((ref) => ref.name || ("#" + ref.id))
+      .map((ref) => (ref.negated ? "0 " : "") + (ref.name || ("#" + ref.id)))
       .join(", ");
   }
 
@@ -1006,7 +1020,7 @@
       translations,
       definition: parts[0] || "",
       partOfSpeech: String(parts[5] || "").split(/\s*&\s*/).filter(Boolean),
-      categories: { is: [], unrelated: [], isNot: [] },
+      categories: { is: [], unrelated: [] },
       pinyin: parts[2] || "",
       hiragana: parts[3] || "",
       latinLetters: parts[4] || "",
@@ -1089,9 +1103,9 @@
 
   function describeSymbolDiff(localCats, incomingCats) {
     if (categoriesConflict(localCats, incomingCats)) return null;
-    const added = { is: [], unrelated: [], isNot: [] };
+    const added = { is: [], unrelated: [] };
     let any = false;
-    ["is", "unrelated", "isNot"].forEach((cat) => {
+    ["is", "unrelated"].forEach((cat) => {
       const localIds = symbolIdSet(localCats[cat]);
       (incomingCats[cat] || []).forEach((ref) => {
         if (ref && ref.id != null && !localIds.has(String(ref.id))) {
@@ -1106,16 +1120,15 @@
   function describeException(localCats, incomingCats) {
     const localIs = symbolIdSet(localCats.is);
     const localUn = symbolIdSet(localCats.unrelated);
-    const localNot = symbolIdSet(localCats.isNot);
     const inIs = symbolIdSet(incomingCats.is);
     const inUn = symbolIdSet(incomingCats.unrelated);
-    const inNot = symbolIdSet(incomingCats.isNot);
     const clashes = [];
     function namesFor(ids, cats) {
-      const all = [].concat(cats.is || [], cats.unrelated || [], cats.isNot || []);
+      const all = [].concat(cats.is || [], cats.unrelated || []);
       return Array.from(ids).map((id) => {
         const ref = all.find((r) => r && String(r.id) === String(id));
-        return ref && ref.name ? ref.name : ("#" + id);
+        const name = ref && ref.name ? ref.name : ("#" + id);
+        return ref && ref.negated ? ("0 " + name) : name;
       }).join(", ");
     }
     const pushClash = (ids, localCat, importCat) => {
@@ -1127,12 +1140,21 @@
       a.forEach((id) => { if (b.has(id)) out.add(id); });
       return out;
     };
-    pushClash(intersect(localIs, inNot), "Is", "Isn't");
-    pushClash(intersect(localNot, inIs), "Isn't", "Is");
     pushClash(intersect(localIs, inUn), "Is", "Unrelated");
     pushClash(intersect(localUn, inIs), "Unrelated", "Is");
-    pushClash(intersect(localNot, inUn), "Isn't", "Unrelated");
-    pushClash(intersect(localUn, inNot), "Unrelated", "Isn't");
+    ["is", "unrelated"].forEach((cat) => {
+      const localMap = new Map();
+      (localCats[cat] || []).forEach((ref) => {
+        if (ref && ref.id != null) localMap.set(String(ref.id), ref);
+      });
+      (incomingCats[cat] || []).forEach((ref) => {
+        if (!ref || ref.id == null) return;
+        const localRef = localMap.get(String(ref.id));
+        if (!localRef || !!localRef.negated === !!ref.negated) return;
+        const name = localRef.name || ref.name || ("#" + ref.id);
+        clashes.push(name + " (" + cat + " vs Zero)");
+      });
+    });
     return clashes;
   }
 
@@ -1145,15 +1167,11 @@
     const exceptions = [];
     const newWords = [];
     (records || []).forEach((rec, recIndex) => {
-      const incomingCats = {
-        is: parseSymbolRefs(rec.Is),
-        unrelated: parseSymbolRefs(rec.Unrelated),
-        isNot: parseSymbolRefs(rec["Isn't"] || rec.Isnt),
-      };
+      const incomingCats = categoriesFromTxtRecord(rec);
       const match = findMatchForRecord(rec, entries);
       if (match.kind === "none") {
         const hasContent = stripStar(rec.LanguageWord || "") || stripStar(rec.PairWord || "")
-          || incomingCats.is.length || incomingCats.unrelated.length || incomingCats.isNot.length;
+          || incomingCats.is.length || incomingCats.unrelated.length;
         if (hasContent) newWords.push({ rec, recIndex, wordId: match.wordId || 0 });
         return;
       }
@@ -1236,8 +1254,8 @@
     entry.categories = {
       is: mergeSymbolRefs(localCats.is, incomingCats.is),
       unrelated: mergeSymbolRefs(localCats.unrelated, incomingCats.unrelated),
-      isNot: mergeSymbolRefs(localCats.isNot, incomingCats.isNot),
     };
+    if (entry.schemaVersion == null || entry.schemaVersion < 3) entry.schemaVersion = 3;
     entry.stampSymbols = entry.categories.is.slice(0, 4);
     entry.symbols = entry.stampSymbols;
     entry.tempStamp = entry.categories.is.length ? entry.categories.is.slice(0, 4) : null;
@@ -1250,13 +1268,12 @@
     const cats = categoriesFromEntry(base);
     const wordId = match.wordId || parseInt(rec["ID#"] || rec.ID || "0", 10) || allocateNewWordId(entries);
     const fresh = {
-      schemaVersion: 2,
+      schemaVersion: 3,
       _entryId: makeEntryId(),
       wordId,
       categories: {
         is: (cats.is || []).map((ref) => Object.assign({}, ref)),
         unrelated: (cats.unrelated || []).map((ref) => Object.assign({}, ref)),
-        isNot: (cats.isNot || []).map((ref) => Object.assign({}, ref)),
       },
       stampSymbols: (cats.is || []).slice(0, 4),
       symbols: (cats.is || []).slice(0, 4),
@@ -1327,11 +1344,7 @@
         updated += 1;
       }
       if (b.symbols) {
-        applySymbolMerge(entry, b.incomingCats || {
-          is: parseSymbolRefs(b.rec.Is),
-          unrelated: parseSymbolRefs(b.rec.Unrelated),
-          isNot: parseSymbolRefs(b.rec["Isn't"] || b.rec.Isnt),
-        });
+        applySymbolMerge(entry, b.incomingCats || categoriesFromTxtRecord(b.rec));
         merged += 1;
       }
       markEntryEdited(entry);
@@ -1386,20 +1399,28 @@
   function categoriesConflict(localCats, incomingCats) {
     const localIs = symbolIdSet(localCats.is);
     const localUn = symbolIdSet(localCats.unrelated);
-    const localNot = symbolIdSet(localCats.isNot);
     const inIs = symbolIdSet(incomingCats.is);
     const inUn = symbolIdSet(incomingCats.unrelated);
-    const inNot = symbolIdSet(incomingCats.isNot);
     const conflict = (a, b) => {
       for (const id of a) {
         if (b.has(id)) return true;
       }
       return false;
     };
-    // Same symbol cannot live in opposing categories across dictionary vs txt.
-    if (conflict(localIs, inNot) || conflict(localNot, inIs)) return true;
     if (conflict(localIs, inUn) || conflict(localUn, inIs)) return true;
-    if (conflict(localNot, inUn) || conflict(localUn, inNot)) return true;
+    const polarityClash = (localRefs, incomingRefs) => {
+      const local = new Map();
+      (localRefs || []).forEach((ref) => {
+        if (ref && ref.id != null) local.set(String(ref.id), !!ref.negated);
+      });
+      return (incomingRefs || []).some((ref) => {
+        if (!ref || ref.id == null) return false;
+        const id = String(ref.id);
+        return local.has(id) && local.get(id) !== !!ref.negated;
+      });
+    };
+    if (polarityClash(localCats.is, incomingCats.is)) return true;
+    if (polarityClash(localCats.unrelated, incomingCats.unrelated)) return true;
     return false;
   }
 
@@ -1424,16 +1445,12 @@
     if (!translations.en && (languageLang === "en" || pairLang === "en")) {
       translations.en = languageLang === "en" ? languageWord : pairWord;
     }
-    const cats = {
-      is: parseSymbolRefs(rec.Is),
-      unrelated: parseSymbolRefs(rec.Unrelated),
-      isNot: parseSymbolRefs(rec["Isn't"] || rec.Isnt),
-    };
+    const cats = categoriesFromTxtRecord(rec);
     const homographs = {};
     if (/★/.test(rec.LanguageWord || "")) homographs[languageLang] = true;
     if (/★/.test(rec.PairWord || "")) homographs[pairLang] = true;
     return {
-      schemaVersion: 2,
+      schemaVersion: 3,
       _entryId: rec.EntryId || makeEntryId(),
       wordId,
       categories: cats,
