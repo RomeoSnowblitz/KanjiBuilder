@@ -1,0 +1,40 @@
+1 А Б В Г Д
+ а - a
+ б - b
+ в - w
+ г - g
+ д - d
+2 Е Ё Ж З И
+ е - je
+ ё - jo
+ ж - sh
+ з - s
+ и - i
+3 Й К Л М Н
+ й - j
+ к - k
+ л - l
+ м - m
+ н - n
+4 О П Р С Т
+ о - o
+ п - p
+ р - r
+ с - ss
+ т - t
+5 У Ф Х Ц Ч
+ у - u
+ ф - f
+ х - ch
+ ц - z
+ ч - tsch
+6 Ш Щ Ъ Ы Ь
+ ш - sch
+ щ - schtsch
+ ъ - Härtezeichen
+ ы - y
+ ь - Weichheitszeichen
+7 Э Ю Я
+ э - e
+ ю - ju
+ я - ja

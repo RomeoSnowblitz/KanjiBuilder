@@ -1,0 +1,6020 @@
+1 Basics 음식과 음료 주문하기
+ おちゃ - [ocha] - 차
+ ください - [kudasai] - 주다
+ ごはん - [gohan] - 밥
+ すし - [sushi] - 스시
+ です - [desu] - 습니까?, 습니다., 입니까?, 었습니까?, 었습니다., 입니다., 싶습니다., 았
+ と - [to] - 이랑, 케이팝하고, 하고, 과, 색과, 와, 물하고, 트리와, 커피하고, 드레스하고, 으면, ', 톱과, 냐고, 랑, 표랑, 내일이라고
+ みず - [mizu] - 물
+2 People 형용사로 명사 설명하기
+ いしゃ - [isha] - 의사
+ かっこいい - [kakkoii] - 멋있다
+ がくせい - [gakusei] - 학생
+ せんせい - [sensei] - 선생님
+ です - [desu] - 습니까?, 습니다., 입니까?, 었습니까?, 었습니다., 입니다., 싶습니다., 았
+ ひと - [hito] - 사람
+ べんごし - [bengoshi] - 변호사
+ やさしい - [yasashii] - 수월할, 친절합니까, 친절한, 친절해요, 친절하네요, 쉽더라, 친절합니다, 친절하기, 수월해
+3 Greetings 인사하고 작별 인사하기
+ けん - [ken] - 켄
+ こんにちは - [kon'nichiha] - 안녕하세요
+ こんばんは - [konbanha] - 안녕하세요., 안녕하세요!
+ さん - [san] - 씨
+ です - [desu] - 습니까?, 습니다., 입니까?, 었습니까?, 었습니다., 입니다., 싶습니다., 았
+ なおみ - [naomi] - 나오미
+ はな - [hana] - 꽃, 꽃 씨는
+ またあした - [mataashita] - 내일 만나요
+4 Cafe 음식에 대해 이야기하기
+ おいしい - [oishii] - 맛있다
+ か - [ka] - 필요합니까, 받았습니까, 줍니까, 거냐, 낫습니까, 봤습니까, 하니, 어떻습니까, 거나, 보냈습니까, 굽습니까, 든, 보냅니까, 아픕니까, 넘어졌습니까, 받습니까, 있습니까, 냐고, 입니까, 사용합니까, 것인지
+ これ - [kore] - 이것
+ は - [ha] - 이, 가, 는, 은, 356은
+ はい - [hai] - 네
+ ケーキ - [kēki] - 케이크
+ サラダ - [sarada] - 샐러드
+ ピザ - [piza] - 피자
+ ラーメン - [rāmen] - 라멘
+5 Countries 나라와 국적에 대해 이야기하기
+ おおきい - [ookii] - 크다
+ ちいさい - [chiisai] - 작다
+ にほん - [nihon] - 일본
+ にほんじん - [nihonjin] - 일본인
+ アメリカ - [amerika] - 미국
+ アメリカじん - [amerikajin] - 미국인
+ カナダ - [kanada] - 캐나다, 캐나다인
+ カナダじん - [kanadajin] - 캐나다인
+ ブラジル - [burajiru] - 브라질, 브라질의
+ ブラジルじん - [burajirujin] - 브라질인
+ ベトナム - [betonamu] - 베트남
+ ベトナムじん - [betonamujin] - 베트남인
+6 Directions 부정문 만들기 및 질문 답하기
+ いいえ - [iie] - 아니요
+ えき - [eki] - 역
+ ここ - [koko] - 여기
+ じゃない - [janai] - 아니다
+ だいがく - [daigaku] - 대학교
+ どこ - [doko] - 어디
+ コンビニ - [konbini] - 편의점
+ デパート - [depāto] - 백화점
+ バスてい - [basutei] - 버스 정류장
+ ホテル - [hoteru] - 호텔
+7 Belongings 소지품에 대해 이야기하기
+ あかい - [akai] - 빨갛다
+ かばん - [kaban] - 가방
+ くつ - [kutsu] - 신발
+ これ - [kore] - 이것
+ しろい - [shiroi] - 하얀
+ てぶくろ - [tebukuro] - 장갑
+ の - [no] - 엔의, 것, 분의, 거니, 예산의, 것의, 의, 거라는
+ わたしの - [watashino] - 내
+ コート - [kōto] - 코트
+8 Friends 친구 묘사하기
+ あかるい - [akarui] - 밝은
+ おもしろい - [omoshiroi] - 유머러스하, 재미있습니까, 재미있네요, 재미있습니다, 유머러스해, 재미있지만, 유머러스한
+ さん - [san] - 씨
+ たなか - [tanaka] - 다나카
+ ともだち - [tomodachi] - 친구
+ なかやま - [nakayama] - 나카야마
+ やまぐち - [yamaguchi] - 야마구치
+9 Time 시간 말하기
+ いち - [ichi] - 한
+ いま - [ima] - 지금
+ さん - [san] - 씨
+ じ - [ji] - 오늘, 언제, 이따가
+ すみません - [sumimasen] - 죄송합니다
+ なんじ - [nanji] - 몇 시
+ に - [ni] - 을, 에, 께, 한테, 으러, 에다, 데이에, 를, 에서, 로, 러, 에게, 으로, 다에, 데는
+ はん - [han] - 반
+ 一 - 한
+ 三 - 삼
+ 二 - 두
+10 Travel 장소와 여행 물건 찾기
+ あそこ - [asoko] - 저기
+ かさ - [kasa] - 우산
+ きっぷ - [kippu] - 표
+ くうこう - [kuukou] - 공항
+ それ - [sore] - 그것은
+ ちかてつ - [chikatetsu] - 지하철
+ ちず - [chizu] - 지도
+ ぼうし - [boushi] - 모자
+ スマホ - [sumaho] - 스마트폰
+ パスポート - [pasupōto] - 여권
+ 中山 - 나카야마
+ 山口 - 야마구치
+ 田中 - 다나카
+11 Welcome 자기소개 및 거주지 설명하기
+ おおさか - [oosaka] - 오사카에서, 오사카의, 오사카에
+ おなまえは - [onamaeha] - 이름은
+ きれい - [kirei] - 깨끗하다
+ しずか - [shizuka] - 조용하다
+ しゅっしん - [shusshin] - 출신
+ とし - [toshi] - 도시
+ とても - [totemo] - 매우
+ どう - [dou] - 어때요
+ にぎやか - [nigiyaka] - 번화하다
+ にすんでいます - [nisundeimasu] - 살고 있습니까, 살고 있습니다
+ はじめまして - [hajimemashite] - 처음 뵙겠습니다
+ まち - [machi] - 마을
+ も - [mo] - 번이나, 센티미터나, 미터나, 새우도, 엔이나, 명이나, 개나, 도, 반이나, 구요, 나뭇잎도
+ トロント - [toronto] - 토론토
+ ニューヨーク - [nyūyōku] - 뉴욕
+ 京都 - 교토의, 교토에서
+ 日本 - 일본, 일본이
+ 東京 - 도쿄의, 도쿄까지
+ 私 - 저
+12 Hobbies 현재 시제 동사를 사용해 습관 말하기
+ Jポップ - 제이팝
+ えいが - [eiga] - 영화
+ おんがく - [ongaku] - 음악
+ ききます - [kikimasu] - 물어보겠습니다
+ ざっし - [zasshi] - 잡지들
+ します - [shimasu] - 합니다
+ ときどき - [tokidoki] - 가끔
+ まんが - [manga] - 만화
+ やきゅう - [yakyuu] - 야구
+ よく - [yoku] - 자주
+ を - [wo] - 을, 를
+ アニメ - [anime] - 애니메이션
+ サッカー - [sakkā] - 축구
+ ジャズ - [jazu] - 재즈
+ テレビ - [terebi] - 텔레비전
+ ニュース - [nyūsu] - 뉴스
+ バスケットボール - [basukettobōru] - 농구
+ ロック - [rokku] - 록
+ 本 - 책들
+ 見ます - 봅니다
+ 読みます - 읽습니다.
+13 Mealtime 식습관에 대해 이야기하기
+ あさごはん - [asagohan] - 아침밥
+ たべます - [tabemasu] - 먹습니다
+ に - [ni] - 을, 에, 께, 한테, 으러, 에다, 데이에, 를, 에서, 로, 러, 에게, 으로, 다에, 데는
+ のみます - [nomimasu] - 마십니다, 마십니까
+ ばんごはん - [bangohan] - 저녁밥
+ ひるごはん - [hirugohan] - 점심
+ べんとう - [bentou] - 도시락
+ まいあさ - [maiasa] - 매일 아침
+ まいにち - [mainichi] - 매일
+ まいばん - [maiban] - 매일 밤
+ カレー - [karē] - 카레
+ コーヒー - [kōhī] - 커피
+ サンドイッチ - [sandoitchi] - 샌드위치
+ ジュース - [jūsu] - 주스
+ パスタ - [pasuta] - 파스타
+ パン - [pan] - 빵
+ 七時 - 일곱 시
+ 五 - 오
+ 八 - 여덟
+ 六 - 육
+ 四時 - 네 시
+ 時 - 경우에, 순간을, 시절이, 시절을, 데에, 무렵에, 때가, 시, 때, 데를, 순간이, 적에, 때랑, 시절은, 데는, 시절도
+14 Clothes 옷 쇼핑하기
+ Tシャツ - 티셔츠
+ あおい - [aoi] - 파란
+ ありがとうございます - [arigatougozaimasu] - 감사합니다
+ いくら - [ikura] - 얼마
+ えん - [en] - 엔
+ かっこいい - [kakkoii] - 멋지다
+ かわいい - [kawaii] - 귀엽다
+ が - [ga] - 을, 이, 가, 가지만, 반면에, 를, 되지만, 께서, 는, 은, 는데, 있으나
+ くろい - [kuroi] - 검은
+ この - [kono] - 이
+ さいふ - [saifu] - 지갑
+ たかい - [takai] - 비싸다
+ ね - [ne] - 잖아, 하네요, 잖아요, 네요, 이네요, 있잖아요, 구요
+ はちょっと - [hachotto] - 는 좀
+ ふく - [fuku] - 옷
+ ほしい - [hoshii] - 싶습니다
+ みせ - [mise] - 가게
+ やすい - [yasui] - 싸다
+ ジャケット - [jaketto] - 재킷
+ スカート - [sukāto] - 치마
+ ネクタイ - [nekutai] - 넥타이
+ 千 - 천
+ 古い - 오래되다
+ 新しい - 새롭다
+ 百 - 백
+15 New Friend 자신 및 다른 사람 소개하기
+ Kポップ - 케이팝
+ かのじょ - [kanojo] - 여자친구
+ かれし - [kareshi] - 남자친구
+ かんこく - [kankoku] - 한국어, 한국어를, 한국의
+ こちら - [kochira] - 이쪽
+ さんは - [sanha] - 씨는, 님은, 선생님은
+ すき - [suki] - 좋아하다
+ ちゅうごく - [chuugoku] - 중국어, 중국, 중국인
+ と言います - [to yánimasu] - 이라고 합니다., 라고 합니다.
+ どんな - [don'na] - 어떤
+ の - [no] - 엔의, 것, 분의, 거니, 예산의, 것의, 의, 거라는
+ アクション - [akushon] - 액션
+ アメリカの - [amerikano] - 미국의
+ アンドリュー - [andoryū] - 앤드류
+ イギリス - [igirisu] - 영국인, 영국의
+ エリカ - [erika] - 에리카
+ ゲーム - [gēmu] - 게임
+ コメディ - [komedi] - 코미디
+ ダニエル - [danieru] - 다니엘
+ ドラマ - [dorama] - 드라마
+ ファンタジー - [fantajī] - 판타지
+ ホラー - [horā] - 호러
+ 日本の - 일본의
+16 Routines 미래 행동을 나타내는 동사 사용하기
+ あした - [ashita] - 내일
+ いつも - [itsumo] - 항상
+ おきます - [okimasu] - 일어납니다
+ およぎます - [oyogimasu] - 수영합니다
+ からて - [karate] - 가라테
+ ごろ - [goro] - 쯤
+ します - [shimasu] - 합니다
+ つくります - [tsukurimasu] - 만듭니다.
+ でかけます - [dekakemasu] - 나갑니다, 나갑니까
+ ねます - [nemasu] - 잡니다.
+ はしります - [hashirimasu] - 달립니다.
+ まいしゅう - [maishuu] - 매주
+ らいしゅう - [raishuu] - 다음 주
+ シャワーをあびます - [shawāwoabimasu] - 합니다
+ バレーボール - [barēbōru] - 배구
+ メールを読みます - [mēruwo dúmimasu] - 읽습니다
+ ヨガ - [yoga] - 요가
+ ラジオ - [rajio] - 라디오
+ 何時 - 몇 시
+ 十 - 십
+ 十一 - 열하나
+ 十二 - 열두
+ 買います - 살
+ 食べます - 먹습니다, 먹습니까
+ 飲みます - 마십니다.
+17 Transport 여행 정보 묻기
+ あきはばら - [akihabara] - 아키하바라
+ あさくさ - [asakusa] - 아사쿠사
+ うえのこうえん - [uenokouen] - 우에노 공원
+ えき - [eki] - 역
+ かかります - [kakarimasu] - 걸립니다
+ ぐらい - [gurai] - 정도
+ ここ - [koko] - 여기
+ しぶや - [shibuya] - 시부야역의, 시부야역에서, 시부야역에, 시부야에서
+ しゅうてん - [shuuten] - 종점
+ つぎ - [tsugi] - 다음은
+ つぎの - [tsugino] - 다음
+ でんしゃ - [densha] - 전철
+ どのぐらい - [donogurai] - 얼마나
+ ながい - [nagai] - 길다
+ に - [ni] - 을, 에, 께, 한테, 으러, 에다, 데이에, 를, 에서, 로, 러, 에게, 으로, 다에, 데는
+ はやい - [hayai] - 빠르다
+ もうすぐ - [mousugu] - 곧
+ バス - [basu] - 버스
+ 分 - 분이야, 분, 분이라고
+ 十分 - 10분
+ 時間 - 시간
+ 来ます - 옵니다, 옵니까
+ 行きます - 갑니다., 갑니까?
+18 Weekend 주말 활동에 대해 이야기하기
+ あそびます - [asobimasu] - 놉니다, 놉니까
+ あに - [ani] - 형
+ あね - [ane] - 언니
+ かぞく - [kazoku] - 가족
+ しゅうまつ - [shuumatsu] - 주말
+ じゅうどう - [juudou] - 유도
+ と - [to] - 이랑, 케이팝하고, 하고, 과, 색과, 와, 물하고, 트리와, 커피하고, 드레스하고, 으면, ', 톱과, 냐고, 랑, 표랑, 내일이라고
+ どうが - [douga] - 동영상
+ ひとりで - [hitoride] - 혼자서
+ れんあい - [ren'ai] - 로맨스
+ スポーツ - [supōtsu] - 스포츠
+ テニス - [tenisu] - 테니스
+ ミステリー - [misuterī] - 미스터리
+ 土曜日 - 토요일
+ 日曜日 - 일요일
+ 母 - 어머니
+ 父 - 아버지
+ 話します - 이야기합니다.
+19 Weather 계절과 날씨 이야기하기
+ あき - [aki] - 가을
+ あたたかい - [atatakai] - 따뜻하다
+ あつい - [atsui] - 덥습니다, 더워서, 덥습니까
+ あめ - [ame] - 비
+ うみに行きます - [umini xíngkimasu] - 갑니다, 갑니까
+ おんせん - [onsen] - 온천
+ こうえん - [kouen] - 공원
+ さむい - [samui] - 춥다
+ なつ - [natsu] - 여름
+ はなび - [hanabi] - 불꽃놀이
+ はる - [haru] - 봄
+ はれ - [hare] - 맑다
+ ふゆ - [fuyu] - 겨울
+ ゆき - [yuki] - 눈
+ ココア - [kokoa] - 코코아
+ コンサート - [konsāto] - 콘서트
+ プール - [pūru] - 수영장
+ 七月 - 7월
+ 九月 - 9월
+ 休み - 휴식합니다, 휴식할까요, 휴식, 휴무일
+ 日 - 날
+20 Restaurant 음식과 음료 주문하기
+ うどん - [udon] - 우동
+ ええと - [eeto] - 음
+ おにぎり - [onigiri] - 주먹밥
+ こうちゃ - [koucha] - 홍차
+ じゃあ - [jaa] - 그럼
+ すこし - [sukoshi] - 조금
+ その - [sono] - 그, 그곳의
+ そば - [soba] - 소바
+ ていしょく - [teishoku] - 정식
+ てんぷら - [tenpura] - 튀김
+ みそしる - [misoshiru] - 미소시루
+ アイスクリーム - [aisukurīmu] - 아이스크림
+ アイスコーヒー - [aisukōhī] - 아이스커피
+ レストラン - [resutoran] - 레스토랑
+ 一つ - 하나
+ 三つ - 세 개
+ 二つ - 두 개
+ 四つ - 개
+ 大きい - 크던데, 엄청났기에, 컸지만, 컸다고, 커야, 큰, 크다는
+ 小さい - 작습니다, 작은, 작습니까
+ 水 - 물
+21 Pastries 페이스트리 주문하기
+ あきます - [akimasu] - 엽니까, 엽니다
+ あの - [ano] - 저, 저기, 그곳의
+ あまい - [amai] - 달다
+ いちご - [ichigo] - 딸기
+ ぜんぶで - [zenbude] - 전부
+ どうですか - [doudesuka] - 어때요
+ どの - [dono] - 어느
+ はすきですか - [hasukidesuka] - 좋아합니까?
+ まっちゃ - [matcha] - 말차
+ みどり - [midori] - 초록색
+ もの - [mono] - 것
+ カップケーキ - [kappukēki] - 컵케이크
+ クッキー - [kukkī] - 쿠키
+ ケーキや - [kēkiya] - 케이크 가게
+ チョコレート - [chokorēto] - 초콜릿
+ チーズケーキ - [chīzukēki] - 치즈케이크
+ ドーナツ - [dōnatsu] - 도넛
+ パイ - [pai] - 파이
+ 七つ - 일곱
+ 五つ - 다섯 개
+ 六つ - 여섯 개
+22 Station 역에서 길 찾기
+ ATM - 현금자동입출금기
+ WiFi - 와이파이
+ おてあらい - [otearai] - 화장실
+ かいさつ - [kaisatsu] - 개찰구
+ かいだん - [kaidan] - 계단
+ じはんき - [jihanki] - 자판기
+ すみません - [sumimasen] - 죄송합니다
+ ちか - [chika] - 지하
+ ちかい - [chikai] - 가깝다
+ でぐち - [deguchi] - 출구
+ でんわ - [denwa] - 전화
+ とおい - [tooi] - 멀다
+ のりかえ - [norikae] - 환승
+ はありますか - [haarimasuka] - 있습니까?
+ はありません - [haarimasen] - 없습니다.
+ エレベーター - [erebētā] - 엘리베이터
+ カフェ - [kafe] - 카페
+ コインロッカー - [koinrokkā] - 코인 로커
+ コンセント - [konsento] - 콘센트
+ ゴミばこ - [gomibako] - 쓰레기통
+ タクシー - [takushī] - 택시
+ ホーム - [hōmu] - 플랫폼
+ 一階 - 1층
+ 二階 - 2층
+23 New Home 무생물 명사의 소유격 사용하기
+ あかるい - [akarui] - 밝다
+ いい - [ii] - 좋다
+ いえ - [ie] - 집
+ いす - [isu] - 의자
+ いつ - [itsu] - 언제
+ おふろ - [ofuro] - 욕실
+ があります - [gaarimasu] - 있습니다.
+ こんしゅう - [konshuu] - 이번 주
+ せまい - [semai] - 좁다
+ せんたくき - [sentakuki] - 세탁기
+ そうじき - [soujiki] - 청소기
+ たぶん - [tabun] - 아마
+ つくえ - [tsukue] - 책상
+ でんしレンジ - [denshirenji] - 전자레인지
+ ひっこします - [hikkoshimasu] - 이사합니다
+ ひろい - [hiroi] - 넓다
+ ふとん - [futon] - 이불
+ ほんだな - [hondana] - 책장
+ まだ - [mada] - 아직
+ れいぞうこ - [reizouko] - 냉장고
+ アパート - [apāto] - 아파트
+ エアコン - [eakon] - 에어컨
+ キッチン - [kitchin] - 부엌
+ テーブル - [tēburu] - 테이블
+ ベッド - [beddo] - 침대
+ リビング - [ribingu] - 거실
+ 九時 - 아홉 시
+24 Family 2 가족에 대해 이야기하기
+ います - [imasu] - 있다
+ いもうと - [imouto] - 여동생
+ いもうとさん - [imoutosan] - 여동생
+ えいご - [eigo] - 영어
+ おこさん - [okosan] - 자녀
+ おとうと - [otouto] - 남동생
+ おとうとさん - [otoutosan] - 남동생
+ おにいさん - [oniisan] - 형
+ おねえさん - [oneesan] - 누나
+ かんこくご - [kankokugo] - 한국어
+ がいます - [gaimasu] - 있습니다., 있습니까?
+ ができます - [gadekimasu] - 할 수 있습니다.
+ きょうだい - [kyoudai] - 형제자매
+ こども - [kodomo] - 아이
+ たいわん - [taiwan] - 대만에, 대만의
+ ちゅうごくご - [chuugokugo] - 중국어
+ はいますか - [haimasuka] - 있습니까?
+ インドネシア - [indoneshia] - 인도네시아의
+ オーストラリア - [ōsutoraria] - 호주의
+ コーチ - [kōchi] - 코치
+ ソウル - [souru] - 서울의
+ 一人 - 한 명
+ 二人 - 두 명
+ 日本ご - 일본어
+25 Emergency 비상 상황 대처하기
+ 〇 - 공
+ あぶない - [abunai] - 위험하다
+ おねがいします - [onegaishimasu] - 부탁합니다
+ きゅうきゅうしゃ - [kyuukyuusha] - 구급차
+ きょう - [kyou] - 오늘
+ くすりを飲みます - [kusuriwo yǐnmimasu] - 먹습니다
+ ぐあいがわるい - [guaigawarui] - 나빠요
+ けいさつ - [keisatsu] - 경찰
+ ごかぞく - [gokazoku] - 가족
+ ごりょうしん - [goryoushin] - 부모님
+ さい - [sai] - 살
+ すこし - [sukoshi] - 조금
+ すわります - [suwarimasu] - 앉습니다, 앉습니까
+ そこ - [soko] - 거기
+ だいじょうぶ - [daijoubu] - 괜찮다
+ ちかく - [chikaku] - 가까운 곳
+ ちゃんと - [chanto] - 제대로
+ でんわばんごう - [denwabangou] - 전화번호
+ の - [no] - 엔의, 것, 분의, 거니, 예산의, 것의, 의, 거라는
+ はいません - [haimasen] - 없습니다.
+ びょういん - [byouin] - 병원
+ アレルギー - [arerugī] - 알레르기
+ 九 - 구
+ 休みます - 쉽니다
+ 何さい - 몇 살
+ 十 - 열, 10, 십
+26 Sights 새로운 장소 탐험하기
+ あれ - [are] - 저것
+ おかし - [okashi] - 과자
+ おてら - [otera] - 절
+ おみやげ - [omiyage] - 기념품
+ きれい - [kirei] - 아름다운
+ じんじゃ - [jinja] - 신사
+ すてき - [suteki] - 멋지다
+ たてもの - [tatemono] - 건물
+ だいすき - [daisuki] - 사랑하다
+ ところ - [tokoro] - 장소
+ な - [na] - 한, 말아라
+ はな - [hana] - 꽃
+ はらじゅく - [harajuku] - 하라주쿠
+ ふじさん - [fujisan] - 후지산
+ ほんとうに - [hontouni] - 정말
+ ゆうめい - [yuumei] - 유명하다
+ デザート - [dezāto] - 디저트
+ ピザや - [pizaya] - 피자 가게
+ ポストカード - [posutokādo] - 엽서
+ ラーメンや - [rāmenya] - 라멘집
+ 何ですか - 무엇입니까
+ 山 - 산
+ 高い - 높아야, 비싸기, 비싼, 높더라고요, 높았어요, 높을, 비싸네요, 높았던
+27 Date Plans 데이트 계획하기
+ あおい - [aoi] - 파란색
+ うでどけい - [udedokei] - 손목시계
+ えいがかん - [eigakan] - 영화관
+ おしゃれ - [oshare] - 세련되다
+ かんとく - [kantoku] - 감독
+ がたのしみです - [gatanoshimidesu] - 기대됩니다
+ きます - [kimasu] - 입습니다.
+ げんき - [genki] - 활기차다
+ たんじょうび - [tanjoubi] - 생일
+ よやくします - [yoyakushimasu] - 예약하겠습니다
+ ステーキ - [sutēki] - 스테이크
+ スーツ - [sūtsu] - 정장
+ デート - [dēto] - 데이트
+ ドレス - [doresu] - 드레스
+ ネックレス - [nekkuresu] - 목걸이
+ ブラウス - [burausu] - 블라우스
+ プレゼント - [purezento] - 선물
+ ホットドッグ - [hottodoggu] - 핫도그
+ ポップコーン - [poppukōn] - 팝콘
+ ワイン - [wain] - 와인
+ 人 - 사람
+ 高い - 비싸다
+28 Travel 2 의지형 표현 사용하기
+ あと - [ato] - 후에
+ え - [e] - 그림
+ かえります - [kaerimasu] - 돌아갑니까, 돌아갑니다
+ かんこうをします - [kankouwoshimasu] - 관광을 합니다.
+ しゃしん - [shashin] - 사진
+ で - [de] - 에, 만에, 인데, 에서, 로, 으로, 대로, 서, 하나에서
+ とります - [torimasu] - 찍습니다
+ どうぶつえん - [doubutsuen] - 동물원
+ にく - [niku] - 고기
+ ひこうき - [hikouki] - 비행기
+ ひろば - [hiroba] - 광장
+ びじゅつかん - [bijutsukan] - 미술관
+ りょこう - [ryokou] - 여행
+ スーツケース - [sūtsukēsu] - 캐리어
+ チケット - [chiketto] - 표
+ フランス - [furansu] - 프랑스
+ フランスりょうり - [furansuryouri] - 프랑스 요리
+ ライオン - [raion] - 사자
+ 会います - 만납니까?
+ 何 - 무엇
+ 来月 - 다음 달
+ 見ます - 봅니다
+29 Cooking 장보고 요리하기
+ いっしょに - [isshoni] - 같이
+ ぎゅうどん - [gyuudon] - 규동
+ しお - [shio] - 소금
+ しょうゆ - [shouyu] - 간장
+ しょっぱい - [shoppai] - 짜다
+ つかいます - [tsukaimasu] - 사용합니다., 사용합니까?
+ でも - [demo] - 라도, 마시든, 하지만, 있든
+ とうふ - [toufu] - 두부
+ とんかつ - [tonkatsu] - 돈가스
+ なま - [nama] - 생
+ ひま - [hima] - 한가하다
+ ぶたにく - [butaniku] - 돼지고기
+ もっと - [motto] - 더
+ やさい - [yasai] - 야채
+ コーラ - [kōra] - 콜라
+ スーパー - [sūpā] - 슈퍼마켓
+ ソース - [sōsu] - 소스
+ ビール - [bīru] - 맥주
+ レシピ - [reshipi] - 레시피
+ 作ります - 만듭니다
+ 卵 - 달걀
+ 木曜日 - 목요일
+ 魚 - 물고기
+30 Bookstore 비과거 부정 동사 사용하기
+ あまり - [amari] - 별로
+ はいゆう - [haiyuu] - 배우
+ むずかしい - [muzukashii] - 어렵다
+ アニソン - [anison] - 애니송
+ アルバム - [arubamu] - 앨범
+ カードゲーム - [kādogēmu] - 카드 게임
+ コーナー - [kōnā] - 코너
+ セール - [sēru] - 세일
+ ドキュメンタリー - [dokyumentarī] - 다큐멘터리
+ ノンフィクション - [nonfikushon] - 논픽션
+ バンド - [bando] - 밴드
+ パズル - [pazuru] - 퍼즐
+ フィクション - [fikushon] - 픽션
+ ポスター - [posutā] - 포스터
+ ポップス - [poppusu] - 팝송
+ 本や - 서점
+ 話 - 이야기
+31 Office 업무 일정에 대해 이야기하기
+ うけつけ - [uketsuke] - 접수처
+ うたいます - [utaimasu] - 부릅니다, 부릅니까
+ から - [kara] - 길래, 부터, 으므로, 로부터, 좋길래, 므로, 때문이라고
+ きょう - [kyou] - 오늘
+ このあと - [konoato] - 이후에
+ ごご - [gogo] - 오후
+ ごぜん - [gozen] - 오전
+ さいご - [saigo] - 마지막
+ しょくどう - [shokudou] - 식당
+ ひる休み - [hiru xiūmi] - 점심시간
+ まで - [made] - 까지
+ よろしくおねがいします - [yoroshikuonegaishimasu] - 잘 부탁드립니다
+ エンジニア - [enjinia] - 엔지니어
+ オリエンテーション - [orientēshon] - 오리엔테이션
+ カラオケ - [karaoke] - 노래방
+ クライアント - [kuraianto] - 클라이언트
+ チャーハン - [chāhan] - 볶음밥
+ バー - [bā] - 바
+ パソコン - [pasokon] - 컴퓨터
+ フライドポテト - [furaidopoteto] - 감자튀김
+ プリンター - [purintā] - 프린터
+ プレゼン - [purezen] - 프레젠테이션
+ ミーティング - [mītingu] - 미팅
+ 何時 - 몇 시
+ 何階 - 몇 층
+32 Birthday 생일 파티로 가는 길 찾기
+ いとこ - [itoko] - 사촌
+ いらっしゃい - [irasshai] - 어서 오세요
+ おさら - [osara] - 접시
+ おもちゃ - [omocha] - 장난감
+ から - [kara] - 길래, 부터, 으므로, 로부터, 좋길래, 므로, 때문이라고
+ きります - [kirimasu] - 자릅니까
+ でんきや - [denkiya] - 전자제품점
+ とちゅうで - [tochuude] - 도중에
+ どうやって - [douyatte] - 어떻게
+ にのります - [ninorimasu] - 탑니까, 탑니다
+ まちます - [machimasu] - 기다릴까요?
+ まで - [made] - 까지
+ まであるきます - [madearukimasu] - 걸어갑니다
+ みち - [michi] - 길
+ わたります - [watarimasu] - 건넙니다., 건넙니까?
+ カップ - [kappu] - 컵
+ タブレット - [taburetto] - 태블릿
+ ナイフ - [naifu] - 칼
+ フォーク - [fōku] - 포크
+ フライドチキン - [furaidochikin] - 후라이드 치킨
+ ヘッドホン - [heddohon] - 헤드폰
+ ポテトチップス - [potetochippusu] - 포테이토칩
+ 六百 - 육백
+ 円 - 엔
+ 家 - 집
+ 百円ショップ - 100엔 숍
+33 Events 행사에 대해 이야기하기
+ あした - [ashita] - 내일
+ おおみそか - [oomisoka] - 섣달 그믐날
+ おまつり - [omatsuri] - 축제
+ こんしゅうまつ - [konshuumatsu] - 이번 주말
+ たいこ - [taiko] - 타이코
+ ちかくの - [chikakuno] - 근처
+ はなびたいかい - [hanabitaikai] - 불꽃놀이 축제
+ イベント - [ibento] - 이벤트
+ イルミネーション - [iruminēshon] - 조명 장식
+ カウントダウン - [kauntodaun] - 카운트다운
+ クリスマス - [kurisumasu] - 크리스마스
+ コミュニティーセンター - [komyunitīsentā] - 커뮤니티 센터
+ コンテスト - [kontesuto] - 콘테스트
+ ダンス - [dansu] - 댄스
+ チョコバナナ - [chokobanana] - 초코바나나
+ ハロウィン - [harou~in] - 할로윈
+ パレード - [parēdo] - 퍼레이드
+ パーティー - [pātī] - 파티
+ 三十一日 - 31일
+ 八月 - 8월
+ 十二月 - 12월
+ 十月 - 10월
+ 食べ物 - 음식
+34 University 자기소개하고 대학 생활 이야기하기
+ かい - [kai] - 카이
+ げんご - [gengo] - 언어
+ すうがく - [suugaku] - 수학
+ せんこう - [senkou] - 전공
+ にはいります - [nihairimasu] - 들어갑니까, 들어갑니다
+ のちかく - [nochikaku] - 근처
+ りょう - [ryou] - 기숙사
+ キャンパス - [kyanpasu] - 캠퍼스
+ サム - [samu] - 샘 씨
+ サークル - [sākuru] - 동아리
+ タガログご - [tagarogugo] - 타갈로그어
+ チェス - [chesu] - 체스
+ ドイツ - [doitsu] - 독일인, 독일어
+ ドイツご - [doitsugo] - 독일어
+ ビジネス - [bijinesu] - 비즈니스
+ フィリピン - [firipin] - 필리핀
+ ボランティア - [borantia] - 봉사
+ ボードゲーム - [bōdogēmu] - 보드게임
+ ルームメイト - [rūmumeito] - 룸메이트
+ 一年生 - 1학년
+ 三年生 - 3학년
+ 二年生 - 2학년
+ 何年生 - 몇 학년
+ 四年生 - 4학년
+ 駅 - 역
+35 HealthHabs 빈도와 양 표현 사용하기
+ あぶらっこい - [aburakkoi] - 기름진
+ いくつ - [ikutsu] - 몇 개
+ うんどうします - [undoushimasu] - 운동합니다
+ くだもの - [kudamono] - 과일
+ けんこうてき - [kenkouteki] - 건강한
+ これから - [korekara] - 앞으로
+ さとう - [satou] - 설탕
+ すいえい - [suiei] - 수영
+ とうにゅう - [tounyuu] - 두유
+ にでます - [nidemasu] - 나갑니다, 나갑니까
+ らいしゅう - [raishuu] - 다음 주
+ りんご - [ringo] - 사과
+ オレンジ - [orenji] - 오렌지
+ ジム - [jimu] - 헬스장
+ スープ - [sūpu] - 수프
+ ブロッコリー - [burokkorī] - 브로콜리
+ プロテインバー - [puroteinbā] - 프로틴바
+ マラソンをはしります - [marasonwohashirimasu] - 마라톤을 달리나요, 마라톤을 달립니다
+ ヨーグルト - [yōguruto] - 요거트
+ 九つ - 아홉
+ 八つ - 여덟
+ 大会 - 대회
+36 School 수업에 대해 이야기하기
+ あります - [arimasu] - 있어요, 있습니다, 있습니까
+ おもしろい - [omoshiroi] - 재미있다
+ おわります - [owarimasu] - 끝납니까, 끝납니다
+ きょうしつ - [kyoushitsu] - 교실
+ こんしゅう - [konshuu] - 이번 주
+ しつもん - [shitsumon] - 질문
+ しめきり - [shimekiri] - 마감일
+ しゅくだい - [shukudai] - 숙제
+ じゅぎょう - [jugyou] - 수업
+ せんせい - [sensei] - 교수님
+ たくさん - [takusan] - 많다
+ だれ - [dare] - 누구
+ にききます - [nikikimasu] - 물어볼 것입니다.
+ はやく - [hayaku] - 일찍
+ やさしい - [yasashii] - 쉽다
+ スペインご - [supeingo] - 스페인어
+ スミス - [sumisu] - 스미스
+ テスト - [tesuto] - 시험
+ プロジェクト - [purojekuto] - 프로젝트
+ 何曜日 - 무슨 요일
+ 山田 - 야마다
+ 水曜日 - 수요일
+ 火曜日 - 화요일
+37 Hobbies 2 취미에 대해 이야기하기
+ いそがしい - [isogashii] - 바쁘다
+ おどります - [odorimasu] - 춤춥니다.
+ かきます - [kakimasu] - 씁니다
+ きじ - [kiji] - 기사
+ こんや - [kon'ya] - 오늘 밤
+ しあい - [shiai] - 경기
+ たいへん - [taihen] - 힘들다
+ たのしい - [tanoshii] - 재미있다
+ はじまります - [hajimarimasu] - 시작합니까, 시작합니다
+ れんしゅう - [renshuu] - 연습
+ チームメイト - [chīmumeito] - 팀원
+ バドミントン - [badominton] - 배드민턴
+ バレエ - [baree] - 발레
+ パフォーマンス - [pafōmansu] - 공연
+ ブログ - [burogu] - 블로그
+ レッスン - [ressun] - 레슨
+ 九時間 - 아홉 시간
+ 何時間 - 몇 시간
+ 作ります - 만듭니다
+ 半 - 반
+ 四時間 - 네 시간 동안
+ 金曜日 - 금요일
+38 Clothes 2 위치 표현 사용하기
+ Mサイズ - M사이즈
+ くつした - [kutsushita] - 양말
+ こんど - [kondo] - 다음에
+ たな - [tana] - 선반
+ てんいん - [ten'in] - 점원
+ ふわふわ - [fuwafuwa] - 부드럽고 가벼운
+ まず - [mazu] - 먼저
+ むらさき - [murasaki] - 보라색
+ アクセサリー - [akusesarī] - 액세서리
+ キラキラ - [kirakira] - 반짝반짝한
+ ショッピングセンター - [shoppingusentā] - 쇼핑센터
+ ジーンズ - [jīnzu] - 청바지
+ セーター - [sētā] - 스웨터
+ パーカー - [pākā] - 후드티
+ ボロボロ - [boroboro] - 낡다
+ ポイントカード - [pointokādo] - 포인트 카드
+ マフラー - [mafurā] - 목도리
+ メンズ - [menzu] - 남성용
+ レジ - [reji] - 계산대
+ レディース - [redīsu] - 여성용
+ 上 - 위
+ 上がります - 올라갑니까
+ 八千 - 팔천
+ 右 - 오른쪽
+ 左 - 왼쪽
+39 Hotel 호텔 체크인 및 이용하기
+ うしろ - [ushiro] - 뒤
+ かぎ - [kagi] - 열쇠
+ ぎゅうにゅう - [gyuunyuu] - 우유
+ さがします - [sagashimasu] - 찾겠습니다.
+ となり - [tonari] - 옆에서
+ にとまります - [nitomarimasu] - 묵겠습니다
+ ばんごう - [bangou] - 번호
+ へや - [heya] - 방
+ まえ - [mae] - 앞
+ むりょう - [muryou] - 무료
+ りょこうします - [ryokoushimasu] - 여행합니다.
+ クレジットカード - [kurejittokādo] - 신용카드
+ コーヒーメーカー - [kōhīmēkā] - 커피메이커
+ スパ - [supa] - 스파
+ タオル - [taoru] - 수건
+ チェックアウトします - [chekkuautoshimasu] - 체크아웃합니다., 체크아웃합니까?
+ チェックイン - [chekkuin] - 체크인
+ トースト - [tōsuto] - 토스트
+ ネットで - [nettode] - 인터넷
+ パスワード - [pasuwādo] - 비밀번호
+ ロビー - [robī] - 로비
+ 一日 - 1일
+ 三階 - 3층
+ 四 - 사
+ 四階 - 사층
+40 Grocery 가게에서 식료품 찾기
+ いりぐち - [iriguchi] - 입구
+ おく - [oku] - 안쪽
+ おなかがすきました - [onakagasukimashita] - 고팠습니다, 고팠습니까
+ かご - [kago] - 바구니
+ ぎゅう肉 - [gyuu ròu] - 소고기
+ くろこしょう - [kurokoshou] - 후추
+ こむぎこ - [komugiko] - 밀가루
+ こんばん - [konban] - 오늘 저녁
+ じゃがいも - [jagaimo] - 감자
+ すぐ - [sugu] - 바로
+ たまねぎ - [tamanegi] - 양파
+ ちゃわん - [chawan] - 사발
+ にんじん - [ninjin] - 당근
+ はし - [hashi] - 젓가락
+ ひきだし - [hikidashi] - 서랍
+ グラム - [guramu] - 그램
+ スプーン - [supūn] - 숟가락
+ バター - [batā] - 버터
+ ビーフシチュー - [bīfushichū] - 비프 스튜
+ 一番 - 맨
+ 上 - 위에
+ 下 - 아래
+ 中 - 안
+ 肉 - 고기
+41 Meet Up 친구들과 만남 약속하기
+ いまから - [imakara] - 지금부터
+ います - [imasu] - 있습니다.
+ いません - [imasen] - 없습니다.
+ おくれます - [okuremasu] - 늦습니다
+ おそい - [osoi] - 늦었으니, 늦었네요
+ しんじゅく - [shinjuku] - 신주쿠
+ たくさんの - [takusan'no] - 많다
+ たち - [tachi] - 우리들
+ に - [ni] - 을, 에, 께, 한테, 으러, 에다, 데이에, 를, 에서, 로, 러, 에게, 으로, 다에, 데는
+ にしぐち - [nishiguchi] - 서쪽 출구
+ につきます - [nitsukimasu] - 도착합니까, 도착합니다
+ のどこ - [nodoko] - 의 어디에서, 의 어디에, 의 어디
+ みんな - [min'na] - 모두
+ よてい - [yotei] - 계획
+ をでます - [wodemasu] - 아파트를 나갑니다., 집을 나갑니까?, 집을 나갑니다.
+ アレックス - [arekkusu] - 알렉스
+ ターミナル - [tāminaru] - 터미널
+ パンや - [panya] - 빵집
+ メッセージをおくります - [messējiwookurimasu] - 보냅니다, 보냅니까
+ 一分 - 일 분
+ 三分 - 삼십삼 분, 삼분, 십삼 분, 삼 분, 이십삼 분, 삼분이야
+ 乗ります - 탑니까, 탑니다
+ 六分 - 육 분
+ 私たち - 우리는
+42 Healthcare 의료 도움 구하기
+ あの - [ano] - 저, 저기, 그곳의
+ いい - [ii] - 좋다
+ おさけ - [osake] - 술
+ おっと - [otto] - 남편
+ があります - [gaarimasu] - 있습니다.
+ こちら - [kochira] - 이쪽
+ ごご - [gogo] - 오후
+ ごぜん - [gozen] - 오전
+ しっています - [shitteimasu] - 알고 있습니다.
+ しんさつしつ - [shinsatsushitsu] - 진찰실
+ せんせい - [sensei] - 선생님
+ たばこをすいます - [tabakowosuimasu] - 피우십니까, 피웁니다
+ ちゅうしゃじょう - [chuushajou] - 주차장
+ ちょうしがわるい - [choushigawarui] - 나빠요, 나쁜가요
+ つかれます - [tsukaremasu] - 피곤합니까?, 피곤합니다.
+ つま - [tsuma] - 아내
+ にでんわします - [nidenwashimasu] - 전화합니다, 전화합니까
+ によやくをいれます - [niyoyakuwoiremasu] - 예약을 넣습니다., 예약을 넣습니까?
+ はありますか - [haarimasuka] - 있습니까?
+ よやく - [yoyaku] - 예약
+ ファーストフード - [fāsutofūdo] - 패스트푸드
+ 二日 - 2일
+ 今日 - 오늘
+ 少し - 조금
+43 AnimalCafe 동물 카페 즐기기
+ あそびます - [asobimasu] - 놉니다, 놉니까
+ いぬ - [inu] - 개
+ がいます - [gaimasu] - 있습니다., 있습니까?
+ すみ - [sumi] - 구석
+ ちゃいろ - [chairo] - 갈색
+ どうぶつ - [doubutsu] - 동물
+ にんき - [ninki] - 인기
+ ねこ - [neko] - 고양이
+ はな - [hana] - 코
+ みみ - [mimi] - 귀
+ め - [me] - 눈
+ カプチーノ - [kapuchīno] - 카푸치노
+ カメレオン - [kamereon] - 카멜레온
+ カラフルな - [karafuruna] - 화려한
+ トマト - [tomato] - 토마토
+ ハムスター - [hamusutā] - 햄스터
+ パンケーキ - [pankēki] - 팬케이크
+ 一匹 - 마리
+ 三匹 - 세 마리
+ 二匹 - 두 마리
+ 何匹 - 마리
+ 口 - 입
+ 四匹 - 네 마리
+44 Zoo 동물원 방문하기
+ あかちゃん - [akachan] - 아기
+ あし - [ashi] - 다리
+ うさぎ - [usagi] - 토끼
+ きりん - [kirin] - 기린
+ さる - [saru] - 원숭이
+ ところ - [tokoro] - 곳
+ とり - [tori] - 새
+ なでます - [nademasu] - 쓰다듬습니다.
+ ぬいぐるみ - [nuigurumi] - 인형
+ やぎ - [yagi] - 염소
+ よこはま - [yokohama] - 요코하마
+ わたあめ - [wataame] - 솜사탕
+ キーホルダー - [kīhorudā] - 키홀더
+ ギフトショップ - [gifutoshoppu] - 기프트숍
+ スムージー - [sumūjī] - 스무디
+ ハンドジェル - [handojeru] - 손 소독제
+ パンダ - [panda] - 판다
+ ピンク - [pinku] - 핑크색
+ フェンス - [fensu] - 울타리
+ ベンチ - [benchi] - 벤치
+ マグネット - [magunetto] - 자석
+ 五日 - 5일
+ 週末 - 주말
+45 Past Trip 과거 시제 동사 사용하기
+ お母さん - [o mǔsan] - 어머니
+ お父さん - [o fùsan] - 아버님
+ かぶき - [kabuki] - 가부키
+ きのう - [kinou] - 어제
+ きょねん - [kyonen] - 작년
+ ぎんざ - [ginza] - 긴자의, 긴자에서, 긴자는
+ しろ - [shiro] - 성
+ しんかんせん - [shinkansen] - 신칸센
+ すいぞくかん - [suizokukan] - 수족관
+ すしや - [sushiya] - 초밥집
+ ちば - [chiba] - 치바
+ てんき - [tenki] - 날씨
+ なごや - [nagoya] - 나고야
+ はじめて - [hajimete] - 처음으로
+ ぶんか - [bunka] - 문화
+ べんり - [benri] - 편리하다
+ りょうしん - [ryoushin] - 부모님
+ 乗ります - 탑니까, 탑니다
+ 先月 - 지난달
+ 先週 - 지난주
+ 日本りょうり - 일본 요리
+ 見つけます - 찾을
+ 見ます - 봅니다
+46 Computers 전자제품 쇼핑하기
+ おもい - [omoi] - 무거운, 무겁네요
+ かるい - [karui] - 가볍다
+ でんち - [denchi] - 배터리
+ ひかります - [hikarimasu] - 빛납니다, 빛납니까
+ もっといい - [mottoii] - 더 좋은
+ インチ - [inchi] - 인치
+ キーボード - [kībōdo] - 키보드
+ グレー - [gurē] - 회색
+ ケーブル - [kēburu] - 케이블
+ ゲーミング - [gēmingu] - 게이밍
+ スピーカー - [supīkā] - 스피커
+ マウス - [mausu] - 마우스
+ モニター - [monitā] - 모니터
+ レシート - [reshīto] - 영수증
+ レジぶくろ - [rejibukuro] - 비닐봉지
+ ワイヤレス - [waiyaresu] - 무선
+ 一万 - 만
+ 万 - 만
+ 前 - 앞
+ 安い - 저렴해, 싸기, 저렴한지, 싸요, 싼, 저렴할까요
+47 Concert 콘서트에 가기
+ Sサイズ - 스몰 사이즈
+ この - [kono] - 이
+ すきな - [sukina] - 좋아하는
+ せき - [seki] - 자리
+ たい - [tai] - 싶은, 싶습니다
+ つかれました - [tsukaremashita] - 피곤해요
+ てをあらいます - [tewoaraimasu] - 손을 씻다
+ にならびます - [ninarabimasu] - 서나요
+ にもどります - [nimodorimasu] - 돌아갑니까?
+ にんき - [ninki] - 인기
+ はやく - [hayaku] - 빨리
+ また - [mata] - 다시
+ まんなか - [man'naka] - 가운데
+ もう - [mou] - 벌써
+ アーティスト - [ātisuto] - 아티스트
+ グッズ - [guzzu] - 굿즈
+ サイン - [sain] - 사인
+ ステージ - [sutēji] - 무대
+ ペン - [pen] - 펜
+ 三千 - 삼천
+ 今夜 - 오늘 밤
+ 出口 - 출구
+ 外 - 밖
+48 Seasons 긍정 및 부정 형용사 사용하기
+ あまり - [amari] - 별로
+ くらい - [kurai] - 어두우니까, 어둡습니까, 어둡습니다, 어둡네요
+ さきます - [sakimasu] - 핍니다
+ さくら - [sakura] - 벚꽃
+ さつまいも - [satsumaimo] - 고구마
+ すいか - [suika] - 수박
+ だんぼう - [danbou] - 난방
+ つけます - [tsukemasu] - 켭니다
+ なべ - [nabe] - 전골
+ ほっかいどう - [hokkaidou] - 홋카이도
+ みかん - [mikan] - 귤
+ むすこ - [musuko] - 아들
+ むすめ - [musume] - 딸
+ スキー - [sukī] - 스키
+ スケート - [sukēto] - 스케이트
+ スノボ - [sunobo] - 스노보드
+ 一月 - 1월
+ 二月 - 2월
+ 住んでいます - 살고 있습니다., 살고 있습니까?
+ 四月 - 4월
+ 夜 - 밤
+49 Apartment 아파트 평가하기
+ あんぜん - [anzen] - 안전
+ いいですね - [iidesune] - 좋습니다
+ うるさい - [urusai] - 시끄러운, 시끄러우니까, 시끄럽습니다, 시끄럽더라고요, 시끄럽네요, 까다로워서
+ から - [kara] - 길래, 부터, 으므로, 로부터, 좋길래, 므로, 때문이라고
+ きたない - [kitanai] - 더럽다
+ このあたり - [konoatari] - 이 근처
+ しんせつ - [shinsetsu] - 친절하다
+ としょかん - [toshokan] - 도서관
+ となりの人 - [tonarino rén] - 이웃
+ にします - [nishimasu] - 하겠습니다
+ に住みます - [ni zhùmimasu] - 삽니까, 삽니다
+ まど - [mado] - 창문
+ やちん - [yachin] - 월세
+ クローゼット - [kurōzetto] - 옷장
+ ドア - [doa] - 문
+ 三日 - 3일
+ 三月 - 3월
+ 北 - 북쪽
+ 大家 - 집주인
+ 学校 - 학교
+50 WorkPlace 직장 불만 표현하기
+ CEO - 최고경영자
+ いまの - [imano] - 현재의
+ おこります - [okorimasu] - 냅니다
+ おそくまで - [osokumade] - 늦게까지
+ おなじ - [onaji] - 같다
+ かいしゃ - [kaisha] - 회사
+ がんばります - [ganbarimasu] - 열심히 하겠습니다.
+ こわれます - [kowaremasu] - 고장납니다
+ しごと - [shigoto] - 직업
+ しごとします - [shigotoshimasu] - 일합니다
+ しょうかいします - [shoukaishimasu] - 소개합니다
+ どうりょう - [douryou] - 동료
+ べつの - [betsuno] - 다르다
+ まじめ - [majime] - 성실하다
+ まずい - [mazui] - 맛없는
+ やめます - [yamemasu] - 그만둡니다.
+ よくない - [yokunai] - 좋지 않습니다
+ インスタント - [insutanto] - 인스턴트
+ オフィス - [ofisu] - 사무실
+ スキル - [sukiru] - 스킬
+ 十階 - 10층
+ 昼ご飯 - 점심
+ 毎日 - 매일
+51 Slow Day 휴식일 갖기
+ います - [imasu] - 있습니다.
+ うち - [uchi] - 집
+ おかゆ - [okayu] - 죽
+ かじ - [kaji] - 집안일
+ くすり - [kusuri] - 약
+ します - [shimasu] - 합니다
+ そうじ - [souji] - 청소
+ ねむい - [nemui] - 졸리다
+ まだ - [mada] - 아직
+ もうすこし - [mousukoshi] - 조금 더
+ ゆっくりします - [yukkurishimasu] - 쉬어요
+ アラーム - [arāmu] - 알람
+ キャンセルします - [kyanserushimasu] - 취소합니다.
+ バナナ - [banana] - 바나나
+ ブランケット - [buranketto] - 담요
+ リモコン - [rimokon] - 리모컨
+ 今 - 지금
+ 外 - 바깥, 밖, 밖을, 바깥이
+ 明日 - 내일
+52 Sakura 벚꽃 구경 계획하고 가기
+ いけ - [ike] - 연못
+ えきいん - [ekiin] - 역무원
+ じこ - [jiko] - 사고
+ すずしい - [suzushii] - 시원하다
+ そろそろ - [sorosoro] - 슬슬
+ どうしましょうか - [doushimashouka] - 어떻게 하다
+ はし - [hashi] - 다리
+ もう一つ - [mou yītsu] - 하나 더
+ もち - [mochi] - 모찌
+ やきそば - [yakisoba] - 야키소바
+ やたい - [yatai] - 포장마차
+ アナウンス - [anaunsu] - 안내 방송
+ カモ - [kamo] - 오리
+ モノレール - [monorēru] - 모노레일
+ 今週 - 이번 주
+ 八分 - 사십팔 분, 팔분
+ 来年 - 내년
+ 花見をします - 꽃구경을 합니다.
+ 電車 - 전철
+53 Okinawa 오키나와 여행 계획하고 가기
+ うみがめ - [umigame] - 바다거북
+ おきなわ - [okinawa] - 오키나와에서, 오키나와에, 오키나와는, 오키나와의
+ けしき - [keshiki] - 경치
+ げんきん - [genkin] - 현금
+ しらべます - [shirabemasu] - 조사합니다.
+ つめたい - [tsumetai] - 차갑다
+ ねだん - [nedan] - 가격
+ はらいます - [haraimasu] - 지불합니까, 지불합니다
+ まあまあ - [maamaa] - 보통이에요
+ まどがわ - [madogawa] - 창가
+ イルカ - [iruka] - 돌고래
+ カード - [kādo] - 카드
+ サーフィン - [sāfin] - 서핑
+ ストロー - [sutorō] - 빨대
+ タコライス - [takoraisu] - 타코라이스
+ パイナップル - [painappuru] - 파인애플
+ マンゴー - [mangō] - 망고
+ メール - [mēru] - 이메일
+ 五月 - 5월
+ 木 - 나무
+ 海 - 바다
+ 車 - 차
+54 Cruise 크루즈 경험 이야기하기
+ いろいろ - [iroiro] - 여러 가지
+ かいがい - [kaigai] - 해외
+ くもり - [kumori] - 흐리다
+ けっこう - [kekkou] - 꽤
+ こんど - [kondo] - 다음에
+ ご飯 - [go fàn] - 밥, 점심밥, 아침밥
+ しま - [shima] - 섬
+ そふぼ - [sofubo] - 조부모님
+ でした - [deshita] - 였습니다
+ ふくおか - [fukuoka] - 후쿠오카
+ ふね - [fune] - 배
+ みずぎ - [mizugi] - 수영복
+ みなと - [minato] - 항구
+ アトラクション - [atorakushon] - 놀이기구
+ クルーズ - [kurūzu] - 크루즈
+ ツアー - [tsuā] - 투어
+ ハンバーガー - [hanbāgā] - 햄버거
+ ミニゴルフ - [minigorufu] - 미니골프
+ リゾート - [rizōto] - 리조트
+ ロブスター - [robusutā] - 랍스터
+ 一週間 - 일주일
+ 三日間 - 삼일간
+ 何日間 - 며칠간
+ 食べほうだい - 뷔페
+55 Ryokan 여행 경험 설명하기
+ おきゃくさん - [okyakusan] - 손님
+ かならず - [kanarazu] - 꼭
+ きせつの - [kisetsuno] - 제철
+ きのこ - [kinoko] - 버섯
+ さしみ - [sashimi] - 사시미
+ さんぽします - [sanposhimasu] - 산책합니다.
+ しんせん - [shinsen] - 신선하다
+ たたみ - [tatami] - 다다미
+ ぬぎます - [nugimasu] - 벗습니까, 벗습니다
+ まわり - [mawari] - 주변
+ みずうみ - [mizuumi] - 호수
+ むら - [mura] - 마을
+ もり - [mori] - 숲
+ よく - [yoku] - 잘
+ りっぱ - [rippa] - 훌륭한
+ りょかん - [ryokan] - 료칸
+ スタッフ - [sutaffu] - 직원
+ レビュー - [rebyū] - 리뷰
+ 二日間 - 이틀간
+ 入口 - 입구에서, 입구 옆에, 입구에, 입구였습니다
+ 十一月 - 11월
+ 書きます - 씁니다
+56 Sick Day 과거 시제 부정 동사 사용하기
+ あけます - [akemasu] - 엽니다
+ かります - [karimasu] - 빌립니다
+ げんきになります - [genkininarimasu] - 건강해질 것입니다
+ ぜんぜん - [zenzen] - 전혀
+ ちゅうもんします - [chuumonshimasu] - 주문합니다.
+ にがい - [nigai] - 쓰다
+ ねつ - [netsu] - 열
+ の中で - [no zhōngde] - 속에서
+ を休みます - [wo xiūmimasu] - 쉽니까, 쉽니다
+ ティッシュ - [tisshu] - 티슈
+ ノート - [nōto] - 노트를
+ ビタミン - [bitamin] - 비타민
+ マスク - [masuku] - 마스크
+ メールします - [mērushimasu] - 메일합니다.
+ 一日中 - 하루 종일
+ 何も - 아무, 아무것도, 아무것
+ 後で - 나중에
+ 昨日 - 어제
+ 雨 - 비, 비로, 비라고, 비에
+ 電話します - 전화합니다.
+57 New Home 2 집들이에 참석하기
+ あらいます - [araimasu] - 씻습니다.
+ おくさん - [okusan] - 아내
+ かぐ - [kagu] - 가구
+ かびん - [kabin] - 꽃병
+ かべ - [kabe] - 벽
+ げんかん - [genkan] - 현관
+ たな - [tana] - 선반
+ だれの - [dareno] - 누구의
+ だんなさん - [dan'nasan] - 남편
+ てづくりの - [tedzukurino] - 손으로 만든
+ はきます - [hakimasu] - 신습니까
+ もん - [mon] - 문
+ スリッパ - [surippa] - 슬리퍼
+ ソファ - [sofa] - 소파
+ ダイニング - [dainingu] - 다이닝룸
+ チキン - [chikin] - 치킨
+ ドア - [doa] - 문
+ ペット - [petto] - 애완동물
+ 今月 - 이번 달
+ 午後 - 오후
+ 東 - 동쪽
+ 間 - 사이
+58 Hotel 2 여행 중 불만 표현하기
+ うすい - [usui] - 얇습니다.
+ こうこく - [koukoku] - 광고
+ じゃなかった - [janakatta] - 않았습니다
+ ぬるい - [nurui] - 미지근한
+ ほかの - [hokano] - 다르다
+ もう - [mou] - 더 이상
+ わるい - [warui] - 나쁜
+ カーテン - [kāten] - 커튼
+ ゴキブリ - [gokiburi] - 바퀴벌레
+ ゴミ - [gomi] - 쓰레기
+ シャトルバス - [shatorubasu] - 셔틀버스
+ シャワー - [shawā] - 샤워
+ シャンプー - [shanpū] - 샴푸
+ シリアル - [shiriaru] - 시리얼
+ トイレ - [toire] - 화장실
+ ベタベタ - [betabeta] - 끈적끈적하다
+ 六階 - 6층
+ 四日間 - 사일간
+ 朝ご飯 - 아침밥
+ 西 - 서쪽
+59 Bad Date 데이트 실망감 공유하기
+ うるさい - [urusai] - 시끄러운, 시끄러우니까, 시끄럽습니다, 시끄럽더라고요, 시끄럽네요, 까다로워서
+ えんぎ - [engi] - 연기
+ おばけやしき - [obakeyashiki] - 유령의 집
+ かたい - [katai] - 뻣뻣하면, 딱딱한, 뻣뻣하, 딱딱해
+ きっと - [kitto] - 분명히
+ こんでいます - [kondeimasu] - 붐비고 있습니다.
+ さいあく - [saiaku] - 최악
+ ざんねん - [zan'nen] - 안타깝다
+ だけ - [dake] - 만, 뿐
+ もんだい - [mondai] - 문제
+ ゆうえんち - [yuuenchi] - 놀이공원
+ ゆか - [yuka] - 바닥
+ れつ - [retsu] - 줄
+ わかれます - [wakaremasu] - 헤어집니다., 헤어집니까?
+ アプリ - [apuri] - 앱
+ シーン - [shīn] - 장면
+ ダサい - [dasai] - 촌스럽습니다, 촌스러운
+ メイン - [mein] - 메인 요리
+ 七日 - 7일, 칠일
+ 今回 - 이번
+ 先週 - 지난주
+ 六月 - 6월
+ 昨日 - 어제
+ 晩ご飯 - 저녁 식사
+60 Wedding 결혼식에 참석하기
+ あいさつします - [aisatsushimasu] - 인사하다, 인사드리다, 인사말을 하다
+ うつくしい - [utsukushii] - 아름다운
+ おととい - [ototoi] - 그저께
+ お酒 - [o jiǔ] - 술
+ かいじょう - [kaijou] - 행사장
+ かしゅ - [kashu] - 가수
+ かんどうします - [kandoushimasu] - 감동하다, 감격하다, 감명받다, 감탄하다
+ けっこんしき - [kekkonshiki] - 결혼식
+ しんせき - [shinseki] - 친척
+ しんぷ - [shinpu] - 신부
+ しんろう - [shinrou] - 신랑
+ つまらない - [tsumaranai] - 지루합니다, 심심하고, 심심하, 없더라고요
+ とります - [torimasu] - 찍습니다
+ ひくい - [hikui] - 낮은
+ ひどい - [hidoi] - 끔찍한, 나빴, 끔찍해서, 엄청났기에
+ へん - [hen] - 이상하다
+ カーペット - [kāpetto] - 카펫
+ ゲスト - [gesuto] - 손님
+ スピーチ - [supīchi] - 연설
+ 六日 - 6일
+ 色 - 색깔
+ 花 - 꽃
+61 Restaur.3 두 형용사 연결하기
+ おくじょう - [okujou] - 옥상
+ こみます - [komimasu] - 붐빕니다, 붐빕니까
+ さいこう - [saikou] - 최고
+ しらべます - [shirabemasu] - 조사합니다.
+ そうですね - [soudesune] - 맞아요
+ で - [de] - 에, 만에, 인데, 에서, 로, 으로, 대로, 서, 하나에서
+ にあります - [niarimasu] - 에 있습니다, 있습니다
+ にがて - [nigate] - 싫어하다
+ にします - [nishimasu] - 하겠습니다
+ ふんいき - [fun'iki] - 분위기
+ やったー - [yattā] - 야호
+ オーガニック - [ōganikku] - 유기농
+ カジュアル - [kajuaru] - 캐주얼
+ サイト - [saito] - 사이트
+ シェフ - [shefu] - 셰프
+ ブラジル料理 - [burajiru liào lǐ] - 브라질 요리
+ ベジタリアン - [bejitarian] - 채식주의자입니다, 채식주의자, 채식이, 채식에
+ マンション - [manshon] - 아파트
+ 人気 - 인기
+ 入れます - 넣습니다
+ 場所 - 장소
+ 少し - 조금
+ 日本料理 - 일본 요리
+62 Returns 물건 반품 또는 교환하기
+ Lサイズ - L사이즈
+ かくにんします - [kakuninshimasu] - 확인합니다.
+ がおすすめ - [gaosusume] - 추천
+ がら - [gara] - 무늬
+ こうかんできます - [koukandekimasu] - 교환할 수 있습니까?, 교환할 수 있습니다.
+ しょうひん - [shouhin] - 상품
+ すてます - [sutemasu] - 버립니다., 버립니까?
+ そうですか - [soudesuka] - 그렇습니까, 그러시나요
+ だいじょうぶ - [daijoubu] - 괜찮다
+ ちがう - [chigau] - 다르다
+ にあいます - [niaimasu] - 어울리나요, 어울리네요, 어울려요
+ へんぴんできます - [henpindekimasu] - 반품할 수 있습니다, 반품할 수 있습니까
+ みじかい - [mijikai] - 짧은, 짧습니다
+ やわらかい - [yawarakai] - 부드럽다
+ よ - [yo] - 아, 구요
+ よかった - [yokatta] - 좋다
+ オレンジ - [orenji] - 주황색
+ ズボン - [zubon] - 바지
+ ワンピース - [wanpīsu] - 원피스
+ 店 - 매장이, 가게들이, 점을, 가게들은, 가게, 가게네요, 음식점들도, 나가게, 가게면, 음식점이, 가게들, 집, 상점들이, 점은
+63 Essentials 여행 필수품 쇼핑하기
+ あ - [a] - 아
+ いちおう - [ichiou] - 일단
+ いります - [irimasu] - 필요합니다
+ からっぽ - [karappo] - 빈
+ きつい - [kitsui] - 가파른, 끼는, 끼어요, 가파르, 끼네요, 가파르지
+ くし - [kushi] - 빗
+ したぎ - [shitagi] - 속옷
+ じゅんびします - [junbishimasu] - 준비합니다, 준비합니까
+ せっけん - [sekken] - 비누
+ ぜんぶ - [zenbu] - 전부
+ はいりますか - [hairimasuka] - 필요합니까?
+ はいりません - [hairimasen] - 필요 없습니다.
+ はみがきこ - [hamigakiko] - 치약
+ はブラシ - [haburashi] - 칫솔
+ ばんそうこう - [bansoukou] - 반창고
+ コンディショナー - [kondishonā] - 컨디셔너
+ デオドラント - [deodoranto] - 데오도란트
+ ドラッグストア - [doraggusutoa] - 약국
+ バックパック - [bakkupakku] - 백팩
+ 八百 - 팔백
+ 友だち - 친구
+ 持って行きます - 가지고 갑니다., 가지고 갑니까?
+ 来週 - 다음 주
+ 買い物リスト - 쇼핑 목록
+64 Summer 여름 활동 계획하기
+ おそい - [osoi] - 늦다
+ かきごおり - [kakigoori] - 빙수
+ きがえます - [kigaemasu] - 갈아입습니다.
+ じてんしゃに乗ります - [jitenshani chéngrimasu] - 탑니다
+ どこか - [dokoka] - 어딘가
+ ので - [node] - 길래, 싸서, 되므로, 라서, 있어서, 해서, 워서, 으므로, 좋길래, 좋아서, 므로, 좋으므로, 서, 존재하므로
+ ひかげ - [hikage] - 그늘
+ ひやけどめ - [hiyakedome] - 선크림
+ やきとり - [yakitori] - 야키토리
+ サングラス - [sangurasu] - 선글라스
+ サンダル - [sandaru] - 샌들
+ サーフィン - [sāfin] - 서핑
+ レモン - [remon] - 레몬
+ ロッカールーム - [rokkārūmu] - 락커룸
+ 今週の - 이번 주
+ 八日 - 팔일
+ 近い - 가까운, 가까워요, 가까우니까
+ 飲み物 - 음료수
+65 WorkPlace2 직장에서 소통하기
+ いざかや - [izakaya] - 이자카야
+ いただきます - [itadakimasu] - 잘 먹겠습니다
+ うんてんします - [untenshimasu] - 운전합니까
+ おかず - [okazu] - 반찬
+ おつかれさまでした - [otsukaresamadeshita] - 수고하셨습니다
+ おはようございます - [ohayougozaimasu] - 안녕하세요
+ おわります - [owarimasu] - 끝납니까, 끝납니다
+ ざんぎょうします - [zangyoushimasu] - 야근합니다
+ しごと - [shigoto] - 일
+ じてんしゃ - [jitensha] - 자전거
+ だいじ - [daiji] - 중요하다
+ ふくざつ - [fukuzatsu] - 복잡하다
+ わかりました - [wakarimashita] - 알겠습니다
+ タスク - [tasuku] - 작업
+ マネージャー - [manējā] - 매니저
+ メニュー - [menyū] - 메뉴
+ 何日 - 며칠
+ 使います - 사용합니다
+ 帰ります - 돌아갑니까
+ 時間 - 시간
+ 月曜日 - 월요일
+ 朝 - 아침
+66 Gifts 주고받기 동사 사용하기
+ あげます - [agemasu] - 줍니까, 줍니다
+ えほん - [ehon] - 그림책
+ おい - [oi] - 조카
+ お茶 - [o chá] - 차
+ お金 - [o jīn] - 돈
+ かわ - [kawa] - 가죽
+ そふ - [sofu] - 외할아버지
+ そぼ - [sobo] - 외할머니
+ にんぎょう - [ningyou] - 인형
+ めい - [mei] - 조카
+ もらいます - [moraimasu] - 받습니다.
+ やきます - [yakimasu] - 굽습니까?, 굽습니다.
+ ゆびわ - [yubiwa] - 반지
+ よろこびます - [yorokobimasu] - 기뻐합니다
+ カメラ - [kamera] - 카메라
+ ギフトカード - [gifutokādo] - 기프트 카드
+ タブレット - [taburetto] - 태블릿
+ ハンカチ - [hankachi] - 손수건
+ パートナー - [pātonā] - 파트너
+ 今年 - 올해
+ 小さい - 어리다
+ 毎年 - 매년
+67 Clinic 건강에 대해 이야기하기
+ あたま - [atama] - 머리
+ うちます - [uchimasu] - 치다, 때리다, 두드리다, 발사하다, 타격하다
+ うで - [ude] - 팔
+ おだいじに - [odaijini] - 몸조리 잘 하세요
+ かぜ - [kaze] - 감기
+ きず - [kizu] - 상처
+ くび - [kubi] - 목
+ げんいん - [gen'in] - 원인
+ しばらく - [shibaraku] - 잠시
+ ちょっと - [chotto] - 조금
+ て - [te] - 손
+ でんきをつけます - [denkiwotsukemasu] - 켭니다, 켜나요
+ どうしましたか - [doushimashitaka] - 무슨 일이 있었나요?
+ なおります - [naorimasu] - 낫습니다, 낫나요
+ にれんらくします - [nirenrakushimasu] - 연락합니다., 연락합니까?
+ ぬります - [nurimasu] - 바릅니다
+ ほとんど - [hotondo] - 거의
+ も痛いです - [mo tòngidesu] - 아파요
+ やっきょく - [yakkyoku] - 약국
+ クリニック - [kurinikku] - 클리닉
+ ストレス - [sutoresu] - 스트레스
+ 痛い - 아프다
+ 目 - 눈
+68 Hobbies 3 취미에 대해 이야기하기
+ かちます - [kachimasu] - 이깁니다.
+ かっこよかった - [kakkoyokatta] - 멋있다
+ さいきん - [saikin] - 최근
+ すごい - [sugoi] - 엄청났기에, 대단하대, 멋지더라고요, 신기할, 대단한, 대단합니다, 대단하네요, 놀랍더라
+ せんしゅ - [senshu] - 선수
+ たっきゅう - [takkyuu] - 탁구
+ とくい - [tokui] - 잘하다
+ にがて - [nigate] - 서툴다
+ になります - [ninarimasu] - 해집니다, 됩니다, 됩니까
+ ね - [ne] - 잖아, 하네요, 잖아요, 네요, 이네요, 있잖아요, 구요
+ の時 - [no shí] - 때
+ はじめます - [hajimemasu] - 시작합니다.
+ はたち - [hatachi] - 스무 살
+ やってみます - [yattemimasu] - 해보겠습니다.
+ よびます - [yobimasu] - 부릅니다.
+ れんしゅうします - [renshuushimasu] - 연습합니다, 연습합니까
+ ゴルフ - [gorufu] - 골프
+ ジョギング - [jogingu] - 조깅
+ チーム - [chīmu] - 팀
+ ブーツ - [būtsu] - 부츠
+ 毎朝 - 매일 아침
+ 高校 - 고등학교
+69 Univ.2 수업에 대해 이야기하기
+ うけます - [ukemasu] - 봅니다, 봅니까
+ えらびます - [erabimasu] - 선택합니다.
+ きびしい - [kibishii] - 엄격합니다, 엄격한, 엄격합니까, 엄격하지만, 엄하셨습니다, 엄해요, 엄격하더라고요
+ きょうかしょ - [kyoukasho] - 교과서
+ けど - [kedo] - 지만, 던데
+ こんがっき - [kongakki] - 이번 학기
+ せいぶつがく - [seibutsugaku] - 생물학
+ ぜひ - [zehi] - 꼭
+ だけど - [dakedo] - 사람이지만, 인기 있지만, 영국인이지만, 출신이지만, 중국인이지만, 수학이지만, 하지만, 캐나다인이지만, 생물학이지만, 독일인이지만, 힘들지만
+ に聞きます - [ni wénkimasu] - 물어봅니다
+ べんきょうします - [benkyoushimasu] - 공부합니다, 공부합니까
+ らいがっき - [raigakki] - 다음 학기
+ りゅうがくせい - [ryuugakusei] - 유학생
+ オフィスアワー - [ofisuawā] - 오피스 아워
+ クラスメイト - [kurasumeito] - 반 친구
+ グループで - [gurūpude] - 그룹에서, 단체로
+ スケジュール - [sukejūru] - 일정
+ プログラミング - [puroguramingu] - 프로그래밍
+ メディアセンター - [mediasentā] - 미디어 센터
+ ヨーロッパ - [yōroppa] - 유럽
+ 何人 - 몇 명
+ 先生 - 교수님
+ 十一人 - 열한 명
+ 日本語 - 일본어
+ 語 - 어
+70 Pos.OfficE 우체국에서 소포 보내기
+ おくります - [okurimasu] - 보냅니까, 보냅니다
+ きって - [kitte] - 우표
+ じゅうしょ - [juusho] - 주소
+ たいんですけど - [taindesukedo] - 싶은데요
+ てがみ - [tegami] - 편지
+ どうしよう - [doushiyou] - 어떡하지
+ にもつ - [nimotsu] - 짐
+ ね - [ne] - 죠
+ はかります - [hakarimasu] - 잽니다
+ はこ - [hako] - 상자
+ はります - [harimasu] - 붙입니다
+ ふね - [fune] - 배
+ ほうほう - [houhou] - 방법
+ ゆうびんきょく - [yuubinkyoku] - 우체국
+ わかりません - [wakarimasen] - 모르겠습니다., 모르겠습니다!
+ キログラム - [kiroguramu] - 킬로그램
+ サイズ - [saizu] - 사이즈
+ テープ - [tēpu] - 테이프
+ プリントできます - [purintodekimasu] - 프린트할 수 있습니까, 프린트할 수 있어요, 프린트할 수 있습니다
+ ラベル - [raberu] - 라벨
+ 七 - 칠
+ 三百 - 삼백
+ 入れます - 넣습니다
+ 名前 - 이름
+ 四日 - 4일
+71 New Home 3 집들이 가구 쇼핑 논의하기
+ いつでも - [itsudemo] - 언제든지
+ おきます - [okimasu] - 일어납니다
+ かたい - [katai] - 뻣뻣하면, 딱딱한, 뻣뻣하, 딱딱해
+ けっこう - [kekkou] - 꽤
+ すいはんき - [suihanki] - 전기밥솥
+ せい - [sei] - 제
+ ちょうどいい - [choudoii] - 딱 맞다
+ どれ - [dore] - 어느
+ なべ - [nabe] - 냄비
+ に - [ni] - 을, 에, 께, 한테, 으러, 에다, 데이에, 를, 에서, 로, 러, 에게, 으로, 다에, 데는
+ ひつよう - [hitsuyou] - 필요한
+ へん - [hen] - 근처
+ タンス - [tansu] - 옷장
+ ダンボール - [danbōru] - 골판지
+ テーブルクロス - [tēburukurosu] - 식탁보
+ トラック - [torakku] - 트럭
+ 十万 - 십만
+ 家具屋 - 가구점
+ 短い - 짧은, 짧습니까, 짧습니다
+ 近所 - 근처, 근처래요
+ 長い - 깁니까, 긴, 길었는데
+72 Surp Party 깜짝 파티 계획하기
+ うた - [uta] - 노래
+ かいしゃ - [kaisha] - 회사
+ じゅんび - [junbi] - 준비
+ つけます - [tsukemasu] - 켭니다
+ て - [te] - 손, 손으로, 손에, 느라고
+ てつだいます - [tetsudaimasu] - 도와줄게요
+ に立ちます - [ni lìchimasu] - 섭니까, 섭니다
+ ふうせん - [fuusen] - 풍선
+ サプライズ - [sapuraizu] - 서프라이즈
+ デコレーション - [dekorēshon] - 장식
+ トレーニング - [torēningu] - 트레이닝
+ ロウソク - [rousoku] - 양초
+ 十日 - 열흘
+ 早く - 빨리, 일찍, 이르게
+ 電気をけします - 끕니다
+73 Comp. Trip 회사 여행 이야기하기
+ いつか - [itsuka] - 언젠가
+ おかしや - [okashiya] - 과자 가게
+ おまもり - [omamori] - 부적
+ おもいでを作ります - [omoidewo zuòrimasu] - 추억을 만듭니다.
+ が多い - [ga duōi] - 많네요
+ きもの - [kimono] - 기모노
+ しゃいんりょこう - [shainryokou] - 회사 단체 여행
+ とくに - [tokuni] - 특히
+ にわ - [niwa] - 정원
+ に入ります - [ni rùrimasu] - 들어갑니다, 들어갑니까, 들어가는
+ みんなで - [min'nade] - 모두 함께
+ ガイドブック - [gaidobukku] - 가이드북
+ マッサージをします - [massājiwoshimasu] - 마사지를 합니다, 마사지를 합니까
+ ルームサービス - [rūmusābisu] - 룸서비스
+ 九日 - 구일
+ 前 - 전
+ 味 - 맛
+ 温かい - 포근하더라고요, 따뜻했더라면, 따뜻하더니, 포근하, 포근해, 포근한, 따뜻한, 포근해서, 따뜻하겠지요
+ 行ってらっしゃい - 다녀오세요
+74 Family Biz 가족 사업 설명하기
+ うすく - [usuku] - 얇게
+ おかず - [okazu] - 반찬
+ お客さん - [o kèsan] - 손님
+ かんりします - [kanrishimasu] - 관리합니다.
+ きゅうり - [kyuuri] - 오이
+ どんぶり - [donburi] - 돈부리
+ にきがえます - [nikigaemasu] - 갈아입습니다.
+ わりびき - [waribiki] - 할인
+ を閉めます - [wo bìmemasu] - 닫으면
+ アルバイト - [arubaito] - 아르바이트
+ シフト - [shifuto] - 근무조
+ ソフトドリンク - [sofutodorinku] - 청량음료
+ メニュー - [menyū] - 메뉴
+ 以外 - 이외
+ 学生 - 학생
+ 毎週 - 매주
+ 考えます - 생각하겠습니다.
+75 Photo cont 사진 대회 참가하기
+ きめます - [kimemasu] - 결정합니다.
+ けします - [keshimasu] - 지웁니다, 지웁니까
+ けっか - [kekka] - 결과
+ こうさてん - [kousaten] - 교차로
+ さんかします - [sankashimasu] - 참가합니다.
+ しょう - [shou] - 상
+ しろくろ - [shirokuro] - 흑백
+ なるほど - [naruhodo] - 그렇구나
+ はくぶつかん - [hakubutsukan] - 박물관
+ ふつう - [futsuu] - 보통은, 보통, 보통으로
+ ほし - [hoshi] - 별
+ アイデア - [aidea] - 아이디어
+ テーマ - [tēma] - 주제
+ フォトコンテスト - [fotokontesuto] - 사진 콘테스트
+ 二十日 - 이십일까지, 이십일에, 이십일은, 이십일의
+ 位 - 위치해, 번째로, 위치, 순위가
+ 前の - 이전의
+ 空 - 하늘
+ 花火 - 불꽃놀이
+ 見せます - 보여줄게요, 보여줍니다
+76 Socl Media 소셜 미디어 플랫폼 사용법 배우기
+ うれしい - [ureshii] - 기쁘네요, 뿌듯해요, 기쁩니다, 뿌듯해
+ えもじ - [emoji] - 이모지
+ おてつだいしましょうか - [otetsudaishimashouka] - 도와드릴까요?
+ かんたん - [kantan] - 간단하다
+ がわかりません - [gawakarimasen] - 모르겠습니다.
+ が来ます - [ga láimasu] - 옵니다
+ さびしい - [sabishii] - 외롭습니다
+ つながります - [tsunagarimasu] - 연결됩니다.
+ とうこう - [toukou] - 게시물
+ とりあえず - [toriaezu] - 일단
+ どんなこと - [don'nakoto] - 어떤 것
+ にっき - [nikki] - 일기
+ に変えます - [ni biànemasu] - 바꿉니다
+ はがき - [hagaki] - 엽서
+ はじめての - [hajimeteno] - 처음의
+ まご - [mago] - 손주
+ むかし - [mukashi] - 옛날
+ むかしの - [mukashino] - 옛날의
+ アイコン - [aikon] - 아이콘
+ アカウント - [akaunto] - 계정
+ フォローします - [forōshimasu] - 팔로우합니까, 팔로우합니다
+ ボタン - [botan] - 버튼
+ 意外と - 의외로
+ 押します - 누릅니다, 누릅니까
+ 長く - 오랫동안
+77 Outdoors 야외 활동 계획하기
+ がいい - [gaii] - 좋습니다, 좋겠어요
+ きせつ - [kisetsu] - 계절
+ します - [shimasu] - 합니다
+ におい - [nioi] - 냄새
+ やきます - [yakimasu] - 굽습니까?, 굽습니다.
+ キャンプ - [kyanpu] - 캠핑
+ シーフード - [shīfūdo] - 해산물
+ ハイキング - [haikingu] - 하이킹
+ ハンバーグ - [hanbāgu] - 함바그
+ バーベキュー - [bābekyū] - 바비큐
+ ピクニック - [pikunikku] - 피크닉
+ 午前 - 오전
+ 川 - 강
+ 広場 - 광장
+ 早い - 이르게, 일러요, 빠르대, 빠릅니까, 빠릅니다, 이릅니다, 빨라, 빠르더라
+78 Cas Dining 레스토랑에서 음식 주문하기
+ おごり - [ogori] - 한턱, 한턱을
+ おなかがいっぱい - [onakagaippai] - 가득 찼습니다, 부릅니다
+ こい - [koi] - 진합니다
+ すっぱい - [suppai] - 신맛
+ とろとろ - [torotoro] - 부드럽고 걸쭉한
+ どちらがいいですか - [dochiragaiidesuka] - 어느 것이 좋습니까?
+ ぶどう - [budou] - 포도
+ めん - [men] - 면접, 면
+ ようしょく - [youshoku] - 양식
+ オムライス - [omuraisu] - 오므라이스
+ スペシャル - [supesharu] - 스페셜
+ ソーセージ - [sōsēji] - 소시지
+ ドリンクバー - [dorinkubā] - 음료 바
+ ドレッシング - [doresshingu] - 드레싱
+ ファミレス - [famiresu] - 패밀리 레스토랑
+ マヨネーズ - [mayonēzu] - 마요네즈
+ レタス - [retasu] - 상추
+ 半分 - 반쪽
+ 辛い - 민망해요, 매콤해, 민망해, 속상해, 민망해서, 민망했어요, 매콤한, 즐겁지만은, 민망하, 매운, 자극적인, 매워요, 매웠어요
+79 Thrift Shp 중고품 상점에서 쇼핑하기
+ いらない - [iranai] - 필요 없는
+ かたづけます - [katadzukemasu] - 정리합니다.
+ がはやっています - [gahayatteimasu] - 유행하고 있어요
+ が多すぎます - [ga duōsugimasu] - 너무 많다
+ さっか - [sakka] - 작가
+ しょうせつ - [shousetsu] - 소설
+ のほうが - [nohouga] - 쪽이
+ もの - [mono] - 물건
+ より - [yori] - 보다, 기는, 로부터
+ ギター - [gitā] - 기타
+ デジタル - [dejitaru] - 디지털
+ ファッション - [fasshon] - 패션
+ ベルト - [beruto] - 벨트
+ リサイクルショップ - [risaikurushoppu] - 중고 가게
+ レコード - [rekōdo] - 레코드
+ レトロな - [retorona] - 레트로한
+ 中古 - 중고
+ 冊 - 권이, 권, 권으로
+ 少ない - 적었지만, 적습니다, 드물지, 덜해
+ 年代 - 연대, 시대, 연령, 나이, 연령대
+ 時計 - 시계
+ 赤い - 빨간
+80 office 2 회사동료와 프로젝트 협력하기
+ います - [imasu] - 있습니다.
+ かかります - [kakarimasu] - 걸립니다
+ しょるい - [shorui] - 서류
+ じゅうよう - [juuyou] - 중요한
+ まとめます - [matomemasu] - 정리합니다, 정리하겠습니다, 정리할까요, 정리할게요
+ よろしくおねがいします - [yoroshikuonegaishimasu] - 잘 부탁드립니다
+ カレンダー - [karendā] - 달력
+ コピーします - [kopīshimasu] - 복사합니까
+ サインします - [sainshimasu] - 사인합니까, 사인합니다
+ データ - [dēta] - 데이터
+ ホチキス - [hochikisu] - 스테이플러
+ メールアドレス - [mēruadoresu] - 이메일 주소
+ レポート - [repōto] - 보고서, 보고서든
+ 代 - 요금
+ 何か - 무언가
+ 入力します - 입력합니다.
+ 十四日 - 14일의, 14일까지, 14일에는, 14일에
+ 夕方 - 저녁
+ 映画 - 영화
+81 Ski Trip 스키 여행 계획하기
+ あつまります - [atsumarimasu] - 모입니다, 모입니까
+ かぶります - [kaburimasu] - 씁니다, 씁니까?
+ くま - [kuma] - 곰
+ くれませんか - [kuremasenka] - 주시겠어요
+ しゅっぱつします - [shuppatsushimasu] - 출발하므로, 출발합니다, 출발하니까
+ しょしんしゃ - [shoshinsha] - 초심자
+ すばらしい - [subarashii] - 대단하대, 멋진, 뛰어나요, 멋지다고, 멋있대
+ にもつ - [nimotsu] - 짐
+ のけいけん - [nokeiken] - 경험
+ びん - [bin] - 병
+ ようひん - [youhin] - 용품
+ ゴーグル - [gōguru] - 고글
+ スキー場 - [sukī chǎng] - 스키장
+ ヘルメット - [herumetto] - 헬멧
+ 半日 - 반나절
+ 天気 - 날씨
+ 安全 - 안전한
+ 寒い - 춥습니까, 춥습니다, 쌀쌀해
+ 暖かい - 따뜻합니다, 따뜻했더라면, 따뜻하더니, 포근하, 포근해, 따뜻하겠지요
+ 気をつけます - 조심하겠습니까, 조심하겠습니다
+ 短い - 짧은, 짧습니까, 짧습니다
+ 雪 - 눈
+82 Movies 좋아하는 영화 장르 이야기하기
+ あたまが大きい - [atamaga dàkii] - 머리가 크다
+ かいじゅう - [kaijuu] - 괴수
+ かなしい - [kanashii] - 슬픈, 슬프지만, 슬픕니다, 슬프다
+ かみが長い - [kamiga zhǎngi] - 머리가 길다
+ きもちわるい - [kimochiwarui] - 기분 나쁘다, 기분 나쁜
+ こえが大きい - [koega dàkii] - 목소리가 크다
+ さいご - [saigo] - 마지막
+ じょゆう - [joyuu] - 여배우
+ せが高い - [sega gāoi] - 키가 큰
+ その - [sono] - 그, 그곳의
+ わかい - [wakai] - 젊은
+ わくわくする - [wakuwakusuru] - 두근두근하는
+ わらいます - [waraimasu] - 웃습니다.
+ アジア - [ajia] - 아시아
+ スペイン - [supein] - 스페인어
+ 一年中 - 일년 내내
+ 休みの日 - 쉬는 날
+ 外国 - 외국
+ 女の人 - 여자
+ 好き - 좋아하는
+ 明日の夜 - 내일 밤
+ 映画館 - 영화관
+ 男の人 - 남자
+ 目が大きい - 눈이 크다
+83 FUKUOKA 후쿠오카 명소 탐방하기
+ うすい - [usui] - 얇습니다.
+ かんこうち - [kankouchi] - 관광지
+ きゅうしゅう - [kyuushuu] - 큐슈의, 큐슈는
+ こうがい - [kougai] - 교외
+ しゅっちょう - [shutchou] - 출장
+ じょう - [jou] - 성
+ すもう - [sumou] - 스모
+ とおり - [toori] - 거리
+ とんこつラーメン - [tonkotsurāmen] - 돈코츠 라멘
+ にゅうじょうりょう - [nyuujouryou] - 입장료
+ びじゅつ - [bijutsu] - 미술
+ むしあつい - [mushiatsui] - 무덥고 습하다, 무덥고 습해서, 무덥고 습한, 무덥고 습하네요
+ タワー - [tawā] - 타워
+ ドーム - [dōmu] - 돔
+ 三十日 - 30일
+ 冬 - 겨울
+ 十七日 - 십칠일
+ 市 - 시
+ 昨日の夜 - 어젯밤
+ 昼間 - 낮
+ 科学 - 과학
+ 黒い - 검은
+84 Bookstre 2 서점에서 커피 주문하기
+ えんぴつ - [enpitsu] - 연필
+ くない - [kunai] - 않습니다, 않아요, 않습니까, 않다
+ けいざい - [keizai] - 경제
+ けしごむ - [keshigomu] - 지우개
+ こわい - [kowai] - 무서운, 무섭다
+ じしょ - [jisho] - 사전
+ じゃない - [janai] - 아닙니다
+ そう - [sou] - 그렇다, 그렇습니까
+ におります - [niorimasu] - 내릴까요, 내립니다
+ にきょうみがあります - [nikyoumigaarimasu] - 관심이 있습니다
+ ほんやく - [hon'yaku] - 번역
+ れきし - [rekishi] - 역사
+ をもどします - [womodoshimasu] - 돌려놓습니다.
+ エスカレーター - [esukarētā] - 에스컬레이터
+ バニラ - [banira] - 바닐라
+ 文学 - 문학
+ 本屋 - 서점
+ 毎月 - 매월
+ 紙 - 종이
+85 Wedding 2 가족 결혼식 참석하기
+ おじ - [oji] - 삼촌
+ おば - [oba] - 이모
+ かんぱいします - [kanpaishimasu] - 건배하네요, 건배합니다, 건배하자, 건배합니까
+ こうかんします - [koukanshimasu] - 교환합니다.
+ さくらんぼ - [sakuranbo] - 체리
+ どれぐらいの - [doreguraino] - 얼마나 많은
+ なげます - [nagemasu] - 던지는, 던집니다.
+ になります - [ninarimasu] - 해집니다, 됩니다, 됩니까
+ ひさしぶりです - [hisashiburidesu] - 오랜만입니다
+ ウェディングケーキ - [u~edingukēki] - 웨딩 케이크
+ チーズ - [chīzu] - 치즈
+ ブーケ - [būke] - 꽃다발
+ リハーサル - [rihāsaru] - 리허설
+ 大人 - 어른
+ 子ども - 아이
+ 歳 - 살
+ 白い - 하얗습니다, 하얀
+86 HOTEL 3 호텔 옵션 비교하기
+ あずかります - [azukarimasu] - 맡습니까
+ いくつか - [ikutsuka] - 몇몇
+ いなか - [inaka] - 시골
+ うけとります - [uketorimasu] - 받습니다
+ お得 - [o dé] - 이득, 이득이죠, 이득인, 실속
+ きんえん - [kin'en] - 금연
+ きんこ - [kinko] - 금고
+ ここちいい - [kokochiii] - 편안하다
+ せんたく - [sentaku] - 세탁
+ それなら - [sorenara] - 그렇다면
+ になります - [ninarimasu] - 해집니다, 됩니다, 됩니까
+ ひょうか - [hyouka] - 평가
+ ふべん - [fuben] - 불편
+ アイロン - [airon] - 다리미
+ アプリけっさい - [apurikessai] - 앱 결제
+ キャンペーン - [kyanpēn] - 캠페인
+ コピーき - [kopīki] - 복사기
+ フロント - [furonto] - 프런트
+ ミーティングルーム - [mītingurūmu] - 회의실
+ 二十七日 - 이십칠일
+ 四人 - 네 명
+ 急ぎます - 서두릅니다, 서두르니까
+ 旅行 - 여행
+87 Meeting 회의 지연을 정중히 논의하기
+ うら - [ura] - 뒷면
+ が足りません - [ga zúrimasen] - 부족하네요, 부족합니다, 부족한데
+ こうじょう - [koujou] - 공장
+ さっき - [sakki] - 아까
+ しつれいします - [shitsureishimasu] - 실례하겠습니다.
+ しょうしょうお待ちください - [shoushouo dàichikudasai] - 잠시만 기다려 주십시오
+ しりょう - [shiryou] - 자료
+ それでは - [soredeha] - 그럼
+ どうぞ - [douzo] - 앉으세요.
+ について - [nitsuite] - 대한, 대해
+ めいし - [meishi] - 명함
+ インド - [indo] - 인도
+ タイ - [tai] - 태국에서, 태국에는, 태국에, 태국을
+ メキシコ - [mekishiko] - 멕시코
+ 二十九日 - 29일
+ 会社 - 회사
+ 年 - 년, 해에, 해를
+ 枚 - 벌, 장, 장을, 장밖에, 장입니다
+ 空いています - 비어 있습니다
+ 終わり - 끝
+ 返事します - 답장할, 답장합니다, 답장합니까, 답장할게요
+88 Exams 시험 준비 전략 논의하기
+ おきて - [okite] - 일어나다
+ おぼえます - [oboemasu] - 기억합니다.
+ かもく - [kamoku] - 과목
+ がしんぱい - [gashinpai] - 걱정이라서, 걱정
+ きまつしけん - [kimatsushiken] - 기말시험
+ こたえ - [kotae] - 답
+ せいせき - [seiseki] - 성적
+ たんご - [tango] - 단어
+ どういういみですか - [douiuimidesuka] - 무슨 뜻입니까
+ ひるねします - [hiruneshimasu] - 잡니까, 잡니다, 잡아서
+ ふくしゅうします - [fukushuushimasu] - 복습합니까?, 복습합니다.
+ やっと - [yatto] - 드디어
+ ページ - [pēji] - 페이지
+ レポート - [repōto] - 보고서, 보고서든
+ 問題 - 문제든, 이슈를, 문제, 논란, 버그, 이슈가, 문제라고만, 문제라면, 문의가
+ 外国語 - 외국어
+ 大学 - 대학교
+ 正しい - 맞는지는, 옳았더라면, 옳았, 맞으시면, 옳아야, 올바른, 맞았는지
+ 漢字 - 한자
+89 Video Call 영상 통화하기
+ かみなり - [kaminari] - 천둥
+ がめん - [gamen] - 화면
+ こえ - [koe] - 목소리
+ しつれいします - [shitsureishimasu] - 실례하겠습니다.
+ しょうぼうしゃ - [shoubousha] - 소방차
+ だいじょうぶですよ - [daijoubudesuyo] - 괜찮아요
+ ふります - [furimasu] - 흔듭니다., 흔들면
+ ようじ - [youji] - 볼일
+ サイレン - [sairen] - 사이렌
+ マイク - [maiku] - 마이크
+ ミュートにします - [myūtonishimasu] - 음소거로 합니다.
+ ログイン - [roguin] - 로그인
+ 十一日 - 열한일
+ 強い - 강합니다, 세다고, 세찬, 강해서, 거센, 강합니까, 강한지도
+ 終わりにします - 끝내겠습니까?, 끝내겠습니다.
+ 見えます - 보입니다
+ 通ります - 통과합니다.
+ 部屋 - 방
+ 音が大きい - 커서, 크네요
+ 音が小さい - 작습니다, 작아요, 작다, 작네요, 작지만, 작아서
+ 風 - 바람
+90 Wrking Out 스포츠와 활동 이야기하기
+ あせをかきます - [asewokakimasu] - 흘립니다, 흘리나요
+ おふろに入ります - [ofuroni rùrimasu] - 들어갑니다, 들어가니까, 들어갑니까
+ かた - [kata] - 어깨
+ しゅみ - [shumi] - 취미
+ とびます - [tobimasu] - 날아요
+ によります - [niyorimasu] - 들릅니까, 들릅니다
+ の - [no] - 엔의, 것, 분의, 거니, 예산의, 것의, 의, 거라는
+ アメフト - [amefuto] - 미식축구, 미식축구를
+ ストレッチ - [sutoretchi] - 스트레칭
+ ダンベル - [danberu] - 덤벨
+ 回 - 순서야, 번, 박을, 턴을, 번쯤, 번으로, 번을, 라운드가
+ 天気がいい - 날씨가 좋다
+ 室内 - 실내
+ 暑い - 더운, 덥습니다, 뜨거워야
+ 行って - 가다
+ 運動 - 운동
+ 重い - 무거운, 무겁습니다, 부담스러워요
+91 Oshougatsu 일본 새해 풍습 이야기하기
+ あけましておめでとうございます - [akemashiteomedetougozaimasu] - 새해 복 많이 받으세요
+ いのります - [inorimasu] - 기원합니다
+ おおそうじ - [oosouji] - 대청소
+ おせち料理 - [osechi liào lǐ] - 오세치 요리
+ お正月 - [o zhèng yuè] - 설날
+ かざります - [kazarimasu] - 장식합니까, 장식합니다
+ が楽しみです - [ga lèshimidesu] - 기대됩니다
+ しゅうかん - [shuukan] - 풍습
+ すごします - [sugoshimasu] - 보냅니까, 보냅니다
+ ぞうり - [zouri] - 조리
+ ねがいごと - [negaigoto] - 소원
+ ねんがじょう - [nengajou] - 연하장
+ ばんぐみ - [bangumi] - 방송
+ もくひょう - [mokuhyou] - 목표
+ 写真 - 사진
+ 初め - 초
+ 去年 - 작년
+ 日の出 - 일출
+92 Travel 3 해외여행 준비하기
+ じゅんびします - [junbishimasu] - 준비합니다, 준비합니까
+ それから - [sorekara] - 그다음에
+ ぞう - [zou] - 코끼리
+ と思います - [to sīimasu] - 생각하지만, 생각합니다
+ についていきます - [nitsuiteikimasu] - 따라가겠습니다, 따라갈
+ る - [ru] - 먹습니다, 을, 먹습니까, 를
+ エビ - [ebi] - 새우
+ ココナッツ - [kokonattsu] - 코코넛
+ シンガポール - [shingapōru] - 싱가포르
+ マレーシア - [marēshia] - 말레이시아
+ ライドシェア - [raidoshea] - 라이드셰어
+ 人で - 사람에
+ 国 - 나라
+ 店 - 매장이, 가게들이, 점을, 가게들은, 가게, 가게네요, 음식점들도, 나가게, 가게면, 음식점이, 가게들, 집, 상점들이, 점은
+ 服 - 옷
+ 東南アジア - 동남아시아
+ 海外 - 해외
+ 誰 - 누가
+ 長い - 깁니까, 긴, 길었는데
+93 Bank 은행 계좌 개설하기
+ あさって - [asatte] - 모레
+ あずけます - [azukemasu] - 맡깁니다
+ いる - [iru] - 있다
+ うんてんめんきょ - [untenmenkyo] - 운전면허증
+ か - [ka] - 필요합니까, 받았습니까, 줍니까, 거냐, 낫습니까, 봤습니까, 하니, 어떻습니까, 거나, 보냈습니까, 굽습니까, 든, 보냅니까, 아픕니까, 넘어졌습니까, 받습니까, 있습니까, 냐고, 입니까, 사용합니까, 것인지
+ ぎんこう - [ginkou] - 은행
+ こうざ - [kouza] - 계좌
+ すいています - [suiteimasu] - 한산하네요, 한산합니다
+ たいてい - [taitei] - 대체로
+ ちょきんします - [chokinshimasu] - 저금합니다
+ はちょっと - [hachotto] - 는 좀
+ りゅうがくします - [ryuugakushimasu] - 유학합니다, 유학합니까
+ メモをとります - [memowotorimasu] - 메모를 할, 메모를 합니다
+ 三十万 - 삼십만
+ 十九日 - 19일
+ 午前 - 오전
+ 午後 - 오후
+ 南 - 남쪽
+ 四分 - 4분
+ 百万 - 백만
+ 閉まります - 닫힙니다., 닫힙니까?
+94 Research 학술 연구 과정 논의하기
+ いけん - [iken] - 의견
+ が間違っています - [ga jiān wéitteimasu] - 틀렸네요, 틀렸습니다
+ けんきゅう - [kenkyuu] - 연구
+ しょうらい - [shourai] - 장래
+ せんそう - [sensou] - 전쟁
+ その時 - [sono shí] - 그때
+ た - [ta] - 받았습니다, 던, 했습니다, 주었습니다, 샀습니다, 공부했습니다, 었어, 들어갔습니다, 았
+ どう思いますか - [dou sīimasuka] - 어떻게 생각하세요?
+ について - [nitsuite] - 대한, 대해
+ はっぴょう - [happyou] - 발표
+ ふくざつ - [fukuzatsu] - 복잡하다
+ ろんぶん - [ronbun] - 논문
+ リンク - [rinku] - 링크
+ 古代 - 고대
+ 文化 - 문화
+ 新聞 - 신문
+ 生活 - 생활
+ 自分で - 스스로
+ 課題 - 과제
+ 返します - 돌려드리겠습니다.
+95 BBQ 바비큐 모임 열기
+ いえいえ - [ieie] - 아니에요
+ ごちそうさまでした - [gochisousamadeshita] - 잘 먹었습니다
+ つれてきます - [tsuretekimasu] - 데리고 올 거예요., 데리고 옵니까?, 데리고 옵니다.
+ とります - [torimasu] - 찍습니다
+ はだいじょうぶです - [hadaijoubudesu] - 괜찮아요
+ ふくろ - [fukuro] - 봉지
+ へようこそ - [heyoukoso] - 환영합니다
+ むかえに行きます - [mukaeni xíngkimasu] - 마중 나갑니다., 마중 나갑니까?, 마중 나갈
+ れんらくさき - [renrakusaki] - 연락처
+ をどうぞ - [wodouzo] - 드세요
+ インフルエンザ - [infuruenza] - 독감
+ ピーマン - [pīman] - 피망
+ 初めて - 처음으로
+ 大学生 - 대학생
+ 夫 - 남편
+ 妻 - 아내
+ 火をつけます - 붙입니다, 붙입니까
+ 知り合い - 아는 사람
+96 Dietary 식단 요구사항 논의하기
+ いらっしゃいませ - [irasshaimase] - 어서 오십시오
+ おなか - [onaka] - 배
+ ざいりょう - [zairyou] - 재료
+ じょうほう - [jouhou] - 정보
+ すぐ - [sugu] - 바로
+ の味がします - [no wèigashimasu] - 맛이 납니다., 맛이 나네요.
+ は入っていますか - [ha rùtteimasuka] - 들어 있습니까?
+ ひょうじ - [hyouji] - 표지
+ もうしわけありません - [moushiwakearimasen] - 정말 죄송합니다
+ わりびきけん - [waribikiken] - 할인권
+ サービス - [sābisu] - 서비스
+ ビーガン - [bīgan] - 비건
+ ピーナッツ - [pīnattsu] - 땅콩
+ 何色 - 무슨 색
+ 別の - 다른
+ 店員 - 점원
+ 店長 - 점장
+ 来て - 와
+ 気分が悪い - 나쁘다, 나쁩니다, 나빠
+ 遅い - 느립니다, 느렸다고
+97 Who Dun It 범죄 현장에 대해 이야기하기
+ きいろい - [kiiroi] - 노란색, 노란
+ こわい - [kowai] - 무서운, 무섭다
+ つかまえます - [tsukamaemasu] - 잡습니다, 잡습니까, 잡는
+ どろぼう - [dorobou] - 도둑
+ にげます - [nigemasu] - 도망가는지
+ に気づきます - [ni qìdzukimasu] - 알아차립니다., 알아차립니까?
+ よかったです - [yokattadesu] - 다행이다
+ ろうか - [rouka] - 복도
+ われています - [wareteimasu] - 깨져 있습니다.
+ バイク - [baiku] - 오토바이
+ 変 - 이상한
+ 急に - 갑자기
+ 持っています - 가지고 있습니까, 가지고 있습니다
+ 早く - 빨리, 일찍, 이르게
+ 最初は - 처음에는
+ 誰か - 누군가
+98 meeting 2 사업 회의 준비하기
+ あんないします - [an'naishimasu] - 안내할, 안내하겠습니다
+ かいぎ - [kaigi] - 회의
+ じこしょうかいをします - [jikoshoukaiwoshimasu] - 자기소개를 합니다, 자기소개를 할 테니, 자기소개를 할까요
+ じゅうでんします - [juudenshimasu] - 충전하니까, 충전합니다., 충전합니까?
+ じゅんびできました - [junbidekimashita] - 준비됐습니다, 준비됐습니까, 준비됐네요
+ つうやく - [tsuuyaku] - 통역
+ もちろん - [mochiron] - 물론
+ スポンサー - [suponsā] - 스폰서
+ スライド - [suraido] - 슬라이드
+ ネパール - [nepāru] - 네팔
+ ノートパソコン - [nōtopasokon] - 노트북
+ プロジェクター - [purojekutā] - 프로젝터
+ メンバー - [menbā] - 멤버
+ リーダー - [rīdā] - 리더
+ 受付 - 접수처를, 창구, 접수처에는, 창구가, 창구로
+ 本社 - 본사
+ 来る - 오다
+ 温度 - 온도
+99 Reunion 오랜 친구들과 재회하기
+ かみがた - [kamigata] - 헤어스타일
+ かんごし - [kangoshi] - 간호사
+ けいさつかん - [keisatsukan] - 경찰관
+ けっこんしています - [kekkonshiteimasu] - 결혼했습니다
+ でおります - [deorimasu] - 내립니다., 내리네요.
+ です - [desu] - 습니까?, 습니다., 입니까?, 었습니까?, 었습니다., 입니다., 싶습니다., 았
+ に近い - [ni jìni] - 가깝습니다, 가깝습니까, 가까운, 가깝네요
+ のみほうだい - [nomihoudai] - 무제한 음료
+ ほんとうですか - [hontoudesuka] - 정말인가요?
+ めがね - [megane] - 안경
+ よびます - [yobimasu] - 부릅니다.
+ を変えます - [wo biànemasu] - 바꿉니다, 바꿉니까
+ イヤリング - [iyaringu] - 귀걸이
+ カクテル - [kakuteru] - 칵테일
+ コーデ - [kōde] - 코디
+ 今朝 - 오늘 아침
+ 南アメリカ - 남아메리카
+ 行った - 가다
+ 金 - 금
+ 青い - 파란, 파랗, 파랗습니다, 파랗더니
+100 Festivals 전통 문화 축제에 대해 이야기하기
+ いしょう - [ishou] - 의상
+ おいわい - [oiwai] - 축하
+ がっき - [gakki] - 악기
+ ことがあります - [kotogaarimasu] - 적이 있습니까?
+ ことがありません - [kotogaarimasen] - 적이 없습니다.
+ ことはありますか - [kotohaarimasuka] - 적이 있습니까?
+ します - [shimasu] - 합니다
+ そして - [soshite] - 그리고
+ たとえば - [tatoeba] - 예를 들어
+ つれていきます - [tsureteikimasu] - 데리고 갑니까?, 데리고 갑니다.
+ でんとうてき - [dentouteki] - 전통적인
+ で何と言いますか - [de héto yánimasuka] - 뭐라고 합니까?
+ イタリア - [itaria] - 이탈리아
+ 中に - 속에, 안에, 안에는, 내에, 안으로, 속에는
+ 中東 - 중동
+ 今度 - 다음
+ 何月 - 몇 월
+ 屋台 - 포장마차
+ 料理 - 요리
+ 歌 - 노래
+ 特別 - 특별한
+ 甘い - 답니다, 답니까
+101 healthy2 건강한 생활 습관 논의하기
+ えいよう - [eiyou] - 영양
+ おすすめの - [osusumeno] - 추천하는
+ お手洗い - [o shǒu xǐi] - 화장실
+ たいいく - [taiiku] - 체육
+ できるだけ - [dekirudake] - 가능한 한
+ ない - [nai] - 않습니다, 없었는데, 없더라, 없었지요, 없었을, 않, 없더라고요, 싶지 않습니다, 없었던, 없었기
+ のいっしゅです - [noisshudesu] - 의 일종
+ ひかえます - [hikaemasu] - 삼가겠습니다
+ りょう - [ryou] - 량
+ カロリー - [karorī] - 칼로리
+ キロメートル - [kiromētoru] - 킬로미터
+ スタジオ - [sutajio] - 스튜디오
+ ダイエット - [daietto] - 다이어트
+ リットル - [rittoru] - 리터
+ 体にいい - 좋은, 좋습니다, 좋아요
+ 体に悪い - 나쁘다고, 나쁘니까, 나쁘다, 나쁠, 나쁩니까, 나쁜
+ 体重 - 체중
+ 必ず - 반드시
+ 焼肉 - 불고기
+ 高い - 높아야, 비싸기, 비싼, 높더라고요, 높았어요, 높을, 비싸네요, 높았던
+102 Xchg Stdnt 문화 차이에 적응하기
+ じゅく - [juku] - 학원
+ せいふく - [seifuku] - 교복
+ たいそうふく - [taisoufuku] - 체육복
+ では - [deha] - 그렇다면
+ と思います - [to sīimasu] - 생각하지만, 생각합니다
+ ならびます - [narabimasu] - 서, 섭니다, 설
+ びっくりしました - [bikkurishimashita] - 놀랐습니다
+ ほうかご - [houkago] - 방과후
+ スニーカー - [sunīkā] - 스니커즈
+ スポーツドリンク - [supōtsudorinku] - 스포츠 음료
+ チャイム - [chaimu] - 차임벨
+ ホームステイ - [hōmusutei] - 홈스테이
+ 動画 - 동영상
+ 屋上 - 옥상
+ 昼休み - 점심시간
+ 水着 - 수영복
+ 禁止 - 금지
+ 部活 - 동아리
+103 Day Trip 도시 당일치기 여행 계획하기
+ かいそく - [kaisoku] - 쾌속
+ かんこうきゃく - [kankoukyaku] - 관광객
+ きっぷうりば - [kippuuriba] - 매표소
+ しずかに - [shizukani] - 조용히
+ しょうてんがい - [shoutengai] - 상점가
+ てんじ - [tenji] - 전시
+ でゆうめい - [deyuumei] - 유명해요
+ ない - [nai] - 않습니다, 없었는데, 없더라, 없었지요, 없었을, 않, 없더라고요, 싶지 않습니다, 없었던, 없었기
+ にのりかえます - [ninorikaemasu] - 갈아탑니다,, 갈아탑니까?, 갈아탑니다.
+ ふつう - [futsuu] - 보통은, 보통, 보통으로
+ ゆうせんせき - [yuusenseki] - 우선석
+ ボタン - [botan] - 버튼
+ 何番ホーム - 몇 번 플랫폼
+ 牛肉 - 소고기
+ 番 - 번
+ 終電 - 막차
+ 運転手 - 운전사
+ 遠い - 멉니다
+ 間に合います - 맞춥니다, 맞출 수 있습니까
+104 CulturDiff 전통 문화에 대해 이야기하기
+ いわいます - [iwaimasu] - 축하합니까?, 축하합니다.
+ えっ - [e~tsu] - 어
+ お知らせ - [o zhīrase] - 공지
+ かみぶくろ - [kamibukuro] - 종이봉투
+ こくさいこうりゅう - [kokusaikouryuu] - 국제교류
+ つけもの - [tsukemono] - 장아찌
+ と同じです - [to tóngjidesu] - 같습니까, 같습니다
+ と違います - [to wéiimasu] - 다릅니다, 다릅니까, 다르네요
+ べんとうばこ - [bentoubako] - 도시락통
+ もみじ - [momiji] - 단풍잎
+ オムレツ - [omuretsu] - 오믈렛
+ クリスマスツリー - [kurisumasutsurī] - 크리스마스트리
+ コスチューム - [kosuchūmu] - 코스튬
+ ジャム - [jamu] - 잼
+ ハート - [hāto] - 하트
+ バレンタインデー - [barentaindē] - 발렌타인데이
+ ホワイトデー - [howaitodē] - 화이트데이
+ 出身 - 출신
+ 学生会館 - 학생회관
+ 春 - 봄
+ 月見をします - 달맞이를 하는, 달맞이를 합니다, 달맞이를 하나요
+ 秋 - 가을
+ 集まります - 모입니다, 모입니까
+105 SchoolFest 학교 축제 가게 준비하기
+ うまくいきます - [umakuikimasu] - 잘 됩니다
+ えのぐ - [enogu] - 물감
+ おつり - [otsuri] - 거스름돈
+ かんばん - [kanban] - 간판
+ がくえんさい - [gakuensai] - 학교 축제
+ こおり - [koori] - 얼음
+ そうしましょう - [soushimashou] - 그렇게 합시다
+ ぬります - [nurimasu] - 바릅니다
+ のり - [nori] - 풀
+ はさみ - [hasami] - 가위
+ クラス - [kurasu] - 반
+ シロップ - [shiroppu] - 시럽
+ メロン - [meron] - 멜론
+ 会計 - 계산
+ 全部 - 전부
+ 売り切れ - 품절
+ 店を出します - 냅니다, 낼까요
+ 私たち - 우리
+ 紙ナプキン - 종이냅킨
+ 話し合います - 이야기합니까?, 이야기합니다.
+106 Picnic 소풍 모임 준비하기
+ ある - [aru] - 있다
+ おしぼり - [oshibori] - 물수건
+ かぜ - [kaze] - 바람
+ かん - [kan] - 캔
+ しばふ - [shibafu] - 잔디밭
+ すいとう - [suitou] - 물통
+ そつぎょうしき - [sotsugyoushiki] - 졸업식
+ たたみます - [tatamimasu] - 접습니다
+ のせます - [nosemasu] - 올립니다.
+ ふきます - [fukimasu] - 닦습니다
+ ます - [masu] - 있습니다, 있습니까
+ よくて - [yokute] - 좋다
+ られます - [raremasu] - 넣을 수 있습니다, 볼 수 있습니다, 볼 수 있습니까, 빌릴 수 있습니다
+ ガソリン - [gasorin] - 가솔린
+ トランク - [toranku] - 트렁크
+ プラスチック - [purasuchikku] - 플라스틱
+ レジャーシート - [rejāshīto] - 피크닉 매트
+ 台 - 대
+ 天気よほう - 일기예보
+ 気持ちいい - 기분 좋다
+ 道 - 길
+107 Conference 회의에서 사업 논의하기
+ あちら - [achira] - 저쪽
+ いて - [ite] - 있다
+ おぼえていますか - [oboeteimasuka] - 기억하고 있습니까?
+ おぼえていません - [oboeteimasen] - 배우지 않았습니다.
+ かいさいします - [kaisaishimasu] - 개최합니다.
+ せいこうします - [seikoushimasu] - 성공합니다, 성공합니까
+ たんとうします - [tantoushimasu] - 담당합니다., 담당합니까?
+ ちいき - [chiiki] - 지역
+ なふだ - [nafuda] - 명찰
+ のこります - [nokorimasu] - 남습니다, 남습니까
+ カタログ - [katarogu] - 카탈로그
+ カンファレンス - [kanfarensu] - 컨퍼런스
+ サンプル - [sanpuru] - 샘플
+ ネットワーク - [nettowāku] - 네트워크
+ ブース - [būsu] - 부스
+ 一昨年 - 재작년에, 재작년의
+ 中国 - 중국
+ 中央アメリカ - 중앙아메리카
+ 再来年 - 내후년
+ 新商品 - 신상품
+ 来ない - 오지 않는, 오지 않는다, 오지 않은
+ 東ヨーロッパ - 동유럽의
+ 社長 - 사장님
+ 西アフリカ - 서아프리카의, 서아프리카, 서아프리카에서
+ 部長 - 부장
+ 顔 - 얼굴
+108 Bad Date 2 실망스러운 경험 공유하기
+ ううん - [uun] - 아니야
+ うそ - [uso] - 거짓말
+ うん - [un] - 응
+ お母さん - [o mǔsan] - 엄마
+ お父さん - [o fùsan] - 아버지
+ かっこよくなかった - [kakkoyokunakatta] - 멋있지 않았다
+ しょうじき - [shoujiki] - 솔직히
+ じゃあ - [jaa] - 그럼
+ そうだね - [soudane] - 그렇지
+ その人 - [sono rén] - 그 사람
+ ただいま - [tadaima] - 다녀왔어요
+ だった - [datta] - 였어, 였다, 이었다
+ どうだった - [doudatta] - 어땠어
+ やばい - [yabai] - 이상해서, 이상한
+ 元カノ - 전 여자친구
+ 元カレ - 전 남자친구
+ 無理 - 무리
+ 行かない - 가지 않아, 가지 않는
+109 Game Cent 게임센터 놀이에 관해 이야기하기
+ あるよ - [aruyo] - 있어
+ いいね - [iine] - 좋아
+ いいよ - [iiyo] - 괜찮아
+ から - [kara] - 길래, 부터, 으므로, 로부터, 좋길래, 므로, 때문이라고
+ くれない - [kurenai] - 주지 않아
+ ごめん - [gomen] - 미안해
+ すごく - [sugoku] - 정말
+ そうしよう - [soushiyou] - 그렇게 하자
+ だ - [da] - 던, 주야, 거였던가요, 이야, 하더라, 는다, 분이야, 하네, 거였죠, 았
+ ガチャポン - [gachapon] - 가챠폰
+ キャラクター - [kyarakutā] - 캐릭터
+ クレーンゲーム - [kurēngēmu] - 크레인 게임
+ ゲームセンター - [gēmusentā] - 게임센터
+ ゲーム機 - [gēmu jī] - 게임기
+ プライズ - [puraizu] - 프라이즈
+ ボウリング - [bouringu] - 볼링
+ 一時間 - 한 시간
+ 地図 - 지도
+ 晴れ - 맑음
+ 楽しみ - 기대돼
+110 Stu Abroad 유학 경험 이야기하기
+ がやくにたちます - [gayakunitachimasu] - 도움이 됩니다., 도움이 됩니까?
+ きかい - [kikai] - 기회
+ けいじばん - [keijiban] - 게시판
+ こうりゅうします - [kouryuushimasu] - 교류하는, 교류합니다, 교류합니까
+ こくさいかんけい - [kokusaikankei] - 국제관계
+ しょうがくきん - [shougakukin] - 장학금
+ での生活 - [deno shēng huó] - 에서의 생활
+ ないよう - [naiyou] - 내용
+ になれます - [ninaremasu] - 익숙해질 수 있어요
+ べんきょうできます - [benkyoudekimasu] - 공부할 수 있지만, 공부할 수 있습니다, 공부할 수 있어요
+ もうしこみます - [moushikomimasu] - 신청합니다., 신청합니까?
+ りゅうがく - [ryuugaku] - 유학
+ りゅうがくせいセンター - [ryuugakuseisentā] - 유학생 센터
+ インターンシップ - [intānshippu] - 인턴십
+ ビザ - [biza] - 비자
+ プログラム - [puroguramu] - 프로그램
+ 一か月間 - 한 달 동안
+ 南アジア - 남아시아
+ 学期 - 학기
+ 年 - 년, 해에, 해를
+ 年間 - 연간
+ 海外の - 해외의
+ 週間 - 일주일, 주간
+111 Game Night 게임 파티에 참여하기
+ えび - [ebi] - 새우
+ かんせんします - [kansenshimasu] - 관전합니다.
+ だいこん - [daikon] - 무
+ どうして - [doushite] - 왜
+ どちらでも - [dochirademo] - 어느 쪽이든
+ なす - [nasu] - 가지
+ ほかに - [hokani] - 다른
+ んです - [ndesu] - 거예요
+ タコス - [takosu] - 타코스
+ ダーツ - [dātsu] - 다트
+ ポーカー - [pōkā] - 포커
+ 二十歳 - 스무 살
+ 冷たい - 차갑습니다, 쌀쌀해
+ 変わります - 바뀝니다
+ 大好き - 매우 좋아하다
+ 妹さん - 여동생
+ 弟さん - 남동생
+ 眠い - 졸리지만, 졸렸, 졸려서, 졸려요, 졸렸는데
+ 負けます - 질, 집니다
+ 電話 - 전화
+112 Repair 전자기기 수리 서비스 논의하기
+ うっかり - [ukkari] - 깜빡
+ お客さま - [o kèsama] - 고객님
+ お待たせしました - [o dàitaseshimashita] - 기다리게 해서 죄송합니다
+ きえます - [kiemasu] - 사라집니다., 사라집니까?
+ きず - [kizu] - 상처가
+ さいきどうします - [saikidoushimasu] - 시작하니, 시작하겠습니다, 시작하면, 시작합니다
+ しゅうり - [shuuri] - 수리
+ しゅうり屋 - [shuuri wū] - 수리점
+ せつぞく - [setsuzoku] - 연결
+ できます - [dekimasu] - 할 수 있습니까
+ でんちがきれます - [denchigakiremasu] - 나가네요, 나갑니다, 나가나요
+ どうしたらいいですか - [doushitaraiidesuka] - 어떻게 하면 좋을까요?
+ なおります - [naorimasu] - 낫습니다, 낫나요
+ ほしょう - [hoshou] - 보증
+ われます - [waremasu] - 깨집니까?, 깨집니다.
+ アップデートをします - [appudētowoshimasu] - 업데이트를 합니다, 업데이트를 합니까, 업데이트를 하니까
+ インストールします - [insutōrushimasu] - 설치합니까, 설치합니다
+ ウイルス - [uirusu] - 바이러스
+ クリックします - [kurikkushimasu] - 클릭합니다, 클릭합니까
+ システム - [shisutemu] - 시스템
+ ダウンロードします - [daunrōdoshimasu] - 다운로드하시겠습니까, 다운로드합니다
+ ファイル - [fairu] - 파일
+ 今日中に - 오늘 중에
+ 動きます - 움직입니까, 움직입니다
+ 問題 - 문제든, 이슈를, 문제, 논란, 버그, 이슈가, 문제라고만, 문제라면, 문의가
+113 Patient 의사와 건강에 대해 이야기하기
+ おれます - [oremasu] - 부러지는지, 부러집니다., 부러집니까
+ かんじゃ - [kanja] - 환자
+ けっかが出ます - [kekkaga chūmasu] - 결과가 나옵니다, 나오니까
+ しょうじょう - [shoujou] - 증상
+ しんさつ - [shinsatsu] - 진찰
+ ほけん - [hoken] - 보험
+ ほね - [hone] - 뼈
+ ゆっくり - [yukkuri] - 느긋하게, 조심스럽게
+ よびます - [yobimasu] - 부릅니다.
+ リハビリ - [rihabiri] - 재활 치료
+ レントゲン - [rentogen] - 엑스레이
+ 先生 - 선생님
+ 動かします - 움직입니까, 움직입니다
+ 名字 - 성씨
+ 手 - 손
+ 持ちます - 듭니까?, 듭니다.
+ 立ちます - 섭니다, 섭니까
+114 First Job 이룬 성과에 대해 이야기하기
+ いいんですか - [iindesuka] - 괜찮습니까?
+ お会計おねがいします - [o huì jìonegaishimasu] - 계산서 부탁합니다
+ お好み焼き - [o hǎomi shāoki] - 오코노미야키
+ きゅうりょう - [kyuuryou] - 급료
+ そうです - [soudesu] - 그렇네요, 그렇지요, 맞다, 그렇습니다, 그렇다, 이래요
+ てんすうをつけます - [tensuuwotsukemasu] - 매길, 매깁니다, 매기는
+ にそうだんします - [nisoudanshimasu] - 상담합니다., 상담합니까?
+ わりかんします - [warikanshimasu] - 내요, 낼, 낼까요
+ をそつぎょうします - [wosotsugyoushimasu] - 졸업합니다
+ 中学校 - 중학교
+ 中学生 - 중학생
+ 再来週 - 다다음 주
+ 夏 - 여름
+ 年上 - 나이 많은
+ 忙しい - 바쁜, 바빴는지
+ 明るい - 밝아야, 경쾌한, 낙관적인, 밝습니다, 낙관적이, 외향적이, 밝으면
+ 無料 - 무료
+ 返事 - 답장
+115 Karaoke 친구들과 노래방 즐기기
+ お代わりします - [o dàiwarishimasu] - 리필합니다, 리필할까요, 리필한다고, 리필을
+ お休み - [o xiūmi] - 휴무
+ くなくて - [kunakute] - 무섭지 않아서, 비싸지 않아서, 춥지 않아서, 오래되지 않아서, 멀지 않아서, 넓지 않아서, 어렵지 않아서
+ しゅうりょうじかん - [shuuryoujikan] - 종료 시간
+ たまに - [tamani] - 가끔
+ なつかしい - [natsukashii] - 그립습니다
+ のどがかわきました - [nodogakawakimashita] - 말랐기, 말랐습니다, 말랐습니다만
+ ひきます - [hikimasu] - 치는, 칩니다, 칩니까
+ カラオケ店 - [karaoke diàn] - 노래방
+ コース - [kōsu] - 코스
+ ピアノ - [piano] - 피아노
+ ファン - [fan] - 팬
+ マイナー - [mainā] - 마이너
+ 低い - 낮을, 낮습니다, 낮습니까, 낮았던
+ 大ヒット - 대히트
+ 平日 - 평일
+ 最新 - 최신
+ 禁煙 - 금연
+ 私の - 나의, 내, 저의, 제
+ 音楽 - 음악
+116 Healthy 3 건강한 생활 습관 이야기하기
+ あぶら - [abura] - 기름
+ きんにく - [kin'niku] - 근육
+ こし - [koshi] - 허리
+ できます - [dekimasu] - 할 수 있습니까
+ なかま - [nakama] - 동료
+ のぼります - [noborimasu] - 올라갑니다
+ やせます - [yasemasu] - 빠집니까, 빠집니다
+ ゆっくり - [yukkuri] - 느긋하게, 조심스럽게
+ よわい - [yowai] - 약한
+ トレーナー - [torēnā] - 트레이너
+ マシン - [mashin] - 기계
+ 一週間に - 일주일에
+ 医者 - 의사
+ 塩 - 소금
+ 少しだけ - 조금만
+ 時 - 때
+ 熱心に - 열심히
+ 病院 - 병원
+ 足 - 발
+117 Direction2 스마트폰 앱으로 길 찾기
+ あんない - [an'nai] - 안내
+ きごう - [kigou] - 기호
+ ことば - [kotoba] - 말
+ しんごう - [shingou] - 신호등
+ ふみきり - [fumikiri] - 건널목
+ まっすぐ - [massugu] - 곧장
+ むこう - [mukou] - 저쪽
+ を右に曲がります - [wo yòuni qūgarimasu] - 오른쪽으로 돕니다
+ を左に曲がります - [wo zuǒni qūgarimasu] - 왼쪽으로 돕니다
+ ナビ - [nabi] - 내비
+ メニュー - [menyū] - 메뉴
+ メーター - [mētā] - 미터기
+ 何と読みますか - 무엇이라고 읽나요
+ 危ない - 위험합니다
+ 姉 - 언니, 누나, 언니인
+ 歩行者 - 보행자
+ 町 - 마을
+ 知ります - 압니까
+ 道をまよいました - 길을 잃었습니까, 길을 잃었으므로, 잃었습니다, 잃었네요
+118 Kendo 스트레스 해소를 위해 일본검도 배우기
+ いっしょうけんめい - [isshoukenmei] - 열심히
+ きほん - [kihon] - 기본
+ けいこ - [keiko] - 연습
+ けんどう - [kendou] - 켄도
+ しんこきゅうをします - [shinkokyuuwoshimasu] - 합니까, 합니다
+ たまります - [tamarimasu] - 쌓입니까?, 쌓입니다.
+ ふります - [furimasu] - 흔듭니다., 흔들면
+ れいをします - [reiwoshimasu] - 인사를 합니다
+ ウォーミングアップ - [u~ōminguappu] - 워밍업
+ スッキリしました - [sukkirishimashita] - 상쾌해졌습니다., 상쾌해졌으니, 상쾌해졌어요.
+ 体 - 몸
+ 十回 - 열 번
+ 大きいこえを出します - 낼까요, 내면, 내네요, 냅니다
+ 方 - 쪽이에요, 편을, 쪽이나, 분들은, 분도, 분이라고, 분이야, 쪽은, 분, 분들도
+ 親切 - 친절하다
+ 貸します - 빌려줍니까, 빌려줍니다
+ 道場 - 도장
+ 道着 - 도복
+ 集中します - 집중합니까?, 집중합니다.
+ 難しい - 복잡하더라고요, 까다롭, 어려우니, 난처해, 어렵더라고요, 난처한, 어렵겠네요, 어렵던데, 어렵지는, 복잡하더라, 난처하, 까다로워서, 까다롭기로, 어렵습니다, 까다로워, 곤란할지도, 어렵더니
+ 静か - 조용한
+ 頭 - 머리
+119 RoomMates 룸메이트와의 생활에 대해 이야기하기
+ いや - [iya] - 싫다
+ かぎをかけます - [kagiwokakemasu] - 잠급니까?, 잠급니다.
+ か月 - [ka yuè] - 달
+ きげんが悪い - [kigenga èi] - 나쁜, 나빠요, 나쁘면, 나쁠
+ けいやく - [keiyaku] - 계약
+ こうかいしています - [koukaishiteimasu] - 후회하고 있습니다
+ こまっています - [komatteimasu] - 곤란해하다
+ せつやくします - [setsuyakushimasu] - 절약합니다.
+ せんたくもの - [sentakumono] - 빨랫감
+ たまります - [tamarimasu] - 쌓입니까?, 쌓입니다.
+ なくします - [nakushimasu] - 잃어버립니까?, 잃어버립니다.
+ なやみ - [nayami] - 걱정
+ みたい - [mitai] - 같아졌습니다, 같았습니다, 같아
+ イライラします - [irairashimasu] - 짜증이 납니다
+ シェアハウス - [sheahausu] - 쉐어하우스
+ 一人ぐらしをします - 자취를 합니다.
+ 大変 - 힘들다
+ 年下 - 연하
+ 汚い - 더럽습니까, 더럽습니다, 더러운
+ 注意します - 주의하겠습니다
+ 電気 - 전기
+120 Clinic2 전문가와 증상 논의하기
+ かゆい - [kayui] - 가려워요, 가려운, 가려운가요
+ ききます - [kikimasu] - 물어보겠습니다
+ けっか - [kekka] - 결과
+ けつあつ - [ketsuatsu] - 혈압
+ けんさ - [kensa] - 검사
+ しょほうせん - [shohousen] - 처방전
+ せき - [seki] - 기침
+ とめます - [tomemasu] - 세우니까, 세웁니다
+ なくなります - [nakunarimasu] - 없어지는데, 없어집니다
+ のど - [nodo] - 목
+ はちみつ - [hachimitsu] - 꿀
+ はな - [hana] - 코
+ はなみずが出ます - [hanamizuga chūmasu] - 나옵니다, 나오지만, 나와서
+ はれます - [haremasu] - 부어오릅니다, 부어오르기
+ 体温を計ります - 잴, 잽니다, 잽니까
+ 円さつ - 엔권
+ 後 - 이후, 후, 뒤인가요
+ 生年月日 - 생년월일
+ 痛み止め - 진통제
+ 薬 - 약
+121 Golden wk 골든위크 전통 이야기하기
+ おりがみ - [origami] - 종이접기
+ かぶと - [kabuto] - 투구
+ けんこう - [kenkou] - 건강
+ こい - [koi] - 진합니다
+ こいのぼり - [koinobori] - 잉어연
+ さむらい - [samurai] - 사무라이
+ しあわせ - [shiawase] - 행복
+ しゅくじつ - [shukujitsu] - 공휴일
+ じっか - [jikka] - 본가
+ とりい - [torii] - 도리이
+ のかたち - [nokatachi] - 모양
+ の終わり - [no zhōngwari] - 의 끝
+ はた - [hata] - 깃발
+ ひさしぶりに - [hisashiburini] - 오랜만에
+ ゴールデンウイーク - [gōruden'uīku] - 골든위크
+ 一番 - 가장
+ 休みを取ります - 휴가를 받습니까, 휴가를 받습니다, 휴가를 받는지, 휴가를 받으니까
+ 兄 - 형, 오빠
+ 半年 - 반년
+ 妹 - 여동생
+ 子どもの日 - 어린이날
+ 広島 - 히로시마, 히로시마현
+ 県 - 현
+ 連休 - 연휴
+122 Closing 옷과 액세서리 쇼핑하기
+ かっこよくない - [kakkoyokunai] - 멋있지 않습니까, 멋있지 않다, 멋있지 않은, 멋있지 않습니다
+ こぜに - [kozeni] - 잔돈
+ しちゃくしつ - [shichakushitsu] - 피팅룸
+ しつがいい - [shitsugaii] - 질이 좋다
+ ちょうど - [choudo] - 딱
+ ついでに - [tsuideni] - 덧붙여서
+ ない - [nai] - 않습니다, 없었는데, 없더라, 없었지요, 없었을, 않, 없더라고요, 싶지 않습니다, 없었던, 없었기
+ へー - [hē] - 어머
+ まあ - [maa] - 글쎄
+ めん - [men] - 면접, 면
+ もう少し考えます - [mou shǎoshi kǎoemasu] - 생각하겠습니다
+ クレープ - [kurēpu] - 크레페
+ デザイン - [dezain] - 디자인
+ パーセント引き - [pāsento yǐnki] - 퍼센트 할인
+ フードコート - [fūdokōto] - 푸드코트
+ ユニセックス - [yunisekkusu] - 유니섹스
+ 下がります - 내려갑니다, 내려갑니까
+ 会計 - 계산
+ 有料 - 유료
+ 税込み - 세금 포함
+ 閉店 - 폐점
+ 間違えます - 틀립니까, 틀립니다
+123 Cleanup 청소 행사에 참여하기
+ お - [o] - 오
+ おかげさまで - [okagesamade] - 덕분에
+ きょうりょく - [kyouryoku] - 협력
+ しましょうか - [shimashouka] - 할까요
+ しゅるい - [shurui] - 종류
+ においます - [nioimasu] - 나서, 나네요, 나요, 나나요
+ ひろいます - [hiroimasu] - 주웁니다., 주우므로,
+ びん - [bin] - 병
+ むし - [mushi] - 벌레
+ むすびます - [musubimasu] - 묶으니까, 묶으면, 묶습니다
+ もやすゴミ - [moyasugomi] - 소각 쓰레기
+ もやせないゴミ - [moyasenaigomi] - 불연성 쓰레기
+ ゴミすてば - [gomisuteba] - 쓰레기 버리는 곳
+ ゴミぶくろ - [gomibukuro] - 쓰레기봉투
+ ペットボトル - [pettobotoru] - 페트병
+ ホール - [hōru] - 홀
+ 公園 - 공원
+ 分けます - 나누니까, 나눕니다, 나눕니까
+ 危険物 - 위험물
+ 持って帰ります - 가지고 돌아갑니까?, 가지고 돌아갑니다.
+ 歩いて - 걸어서
+ 汚い - 더럽습니까, 더럽습니다, 더러운
+124 P. History 어린 시절 경험 이야기하기
+ うらやましいです - [urayamashiidesu] - 부럽다
+ えさをやります - [esawoyarimasu] - 줍니다
+ かっています - [katteimasu] - 키우고 있습니다, 키우고 있지만, 키우고 있습니까
+ けがします - [kegashimasu] - 다칩니다
+ しゅじゅつを受けます - [shujutsuwo shòukemasu] - 받습니까
+ なかがいい - [nakagaii] - 사이가 좋은, 사이가 좋아서
+ にかくれます - [nikakuremasu] - 숨습니다
+ にのぼります - [ninoborimasu] - 오릅니다, 오르는
+ はなれます - [hanaremasu] - 멀어집니다
+ ひじ - [hiji] - 팔꿈치
+ り - [ri] - 리
+ ミャンマー - [myanmā] - 미얀마의, 미얀마에, 미얀마에서
+ 何度も - 몇 번이나
+ 八歳 - 여덟 살
+ 友だちができます - 사귈 수 있는지, 사귈 수 있습니다, 사귈 수 있습니까
+ 大切 - 소중한
+ 弟 - 남동생
+ 思い出 - 추억
+ 泣きます - 울어서, 울어요
+ 犬 - 개
+ 猫 - 고양이
+ 笑います - 웃습니다., 웃습니까?
+ 耳 - 귀
+ 転校生 - 전학생
+ 頭がいい - 좋아, 좋은
+125 New Guy 일본 사무실 둘러보기
+ おもて - [omote] - 앞면
+ おゆ - [oyu] - 뜨거운 물
+ じゆうに - [jiyuuni] - 마음껏
+ じょうし - [joushi] - 상사
+ せってい - [settei] - 설정
+ せつめいします - [setsumeishimasu] - 설명할, 설명하겠는데, 설명하겠습니다.
+ できる - [dekiru] - 할 수 있다
+ でください - [dekudasai] - 주세요.
+ ふえます - [fuemasu] - 늘어납니다, 늘어납니다만, 늘어납니다니까
+ まで - [made] - 까지
+ もう一度 - [mou yī dù] - 한 번 더
+ シュレッダー - [shureddā] - 문서 분쇄기
+ ハンコを押します - [hankowo yāshimasu] - 찍습니까, 찍을, 찍네요, 찍습니다
+ プリントします - [purintoshimasu] - 프린트합니까, 프린트하는, 프린트합니다
+ マナー - [manā] - 매너
+ ルール - [rūru] - 규칙
+ 数 - 수
+ 新人 - 신입사원
+ 用 - 용
+ 皆さん - 여러분
+ 自分の - 자신의
+ 許可を取ります - 받습니까, 받겠습니다, 받을
+126 Gaming 비디오 게임 특징 이야기하기
+ えー - [ē] - 에-
+ お金をもらいます - [o jīnwomoraimasu] - 받습니다.
+ せかい - [sekai] - 세계
+ たたかいます - [tatakaimasu] - 싸웁니다.
+ てき - [teki] - 적
+ まほうの - [mahouno] - 마법의
+ めんせつ - [mensetsu] - 면접
+ も - [mo] - 번이나, 센티미터나, 미터나, 새우도, 엔이나, 명이나, 개나, 도, 반이나, 구요, 나뭇잎도
+ オンライン - [onrain] - 온라인
+ クモ - [kumo] - 거미
+ クリアします - [kuriashimasu] - 클리어합니다, 클리어합니까
+ ゲーム会社 - [gēmu huì shè] - 게임 회사
+ ステージ - [sutēji] - 스테이지
+ プレイヤー - [pureiyā] - 플레이어
+ ユーザー名 - [yūzā míng] - 사용자 이름
+ 仕事 - 일
+ 助けます - 도와줍니다., 도와주면, 도와줄게요., 도와줄까요?
+ 島 - 섬
+ 強い - 강합니다, 세다고, 세찬, 강해서, 거센, 강합니까, 강한지도
+ 新作 - 신작
+ 石 - 돌
+ 美しい - 멋있대, 아름답습니다, 아름다운, 예쁘대
+127 Moving out 지역 쓰레기 관리법 논의하기
+ いっしょに - [isshoni] - 함께
+ かがみ - [kagami] - 거울
+ きびしい - [kibishii] - 엄격합니다, 엄격한, 엄격합니까, 엄격하지만, 엄하셨습니다, 엄해요, 엄격하더라고요
+ きふします - [kifushimasu] - 기부, 기부합니다, 기부합니까
+ しっかり - [shikkari] - 꼼꼼히
+ しゅうしゅう - [shuushuu] - 수거
+ つつみます - [tsutsumimasu] - 쌉니다, 싸지만
+ できて - [dekite] - 할 수 있다
+ といけません - [toikemasen] - 않으면 안 됩니다.
+ ひも - [himo] - 끈
+ へらします - [herashimasu] - 줄입니까?, 줄입니다.
+ もったいない - [mottainai] - 아깝다고, 아깝다, 아깝습니다
+ や - [ya] - 도쿄나, 테이블이나, 이나, 나, 등은
+ ようき - [youki] - 용기
+ ガラス - [garasu] - 유리
+ キャップ - [kyappu] - 캡
+ ゴミを出します - [gomiwo chūshimasu] - 내놓습니다
+ センチ - [senchi] - 센티미터
+ リサイクルします - [risaikurushimasu] - 재활용합니다, 재활용하지만, 재활용하네요
+ ルールをまもります - [rūruwomamorimasu] - 지킵니다, 지키지만, 지키는, 지키기
+ 以上 - 이상
+ 外します - 제거합니다., 제거합니까?, 제거
+ 家電 - 가전제품
+ 自転車 - 자전거
+128 Senior Yr 미래 목표와 정체성 논의하기
+ おめでとうございます - [omedetougozaimasu] - 축하합니다
+ きんちょうします - [kinchoushimasu] - 긴장합니까, 긴장됩니다, 긴장합니다
+ けんしゅう - [kenshuu] - 연수
+ こと - [koto] - 것
+ ごうかくします - [goukakushimasu] - 합격합니다, 합격합니까
+ しゅうしょく - [shuushoku] - 취직
+ じしん - [jishin] - 지진
+ つなみ - [tsunami] - 쓰나미
+ ら - [ra] - 다음
+ ボーナス - [bōnasu] - 보너스
+ 入社します - 입사합니다, 입사하므로, 입사합니까
+ 勉強 - 공부
+ 十二日 - 12일, 십이일은, 십이일입니다
+ 年目 - 4년 차, 5년 차, 3년 차, 2년 차, 1년 차
+ 本物の - 진짜
+ 海 - 바다
+ 英語 - 영어
+ 遅く - 늦게
+ 食べてみます - 먹어봅니다, 먹어봅니까
+129 Contingen 일본 여행 계획하기
+ icカード - IC카드
+ おうふく - [oufuku] - 왕복
+ お年寄りの人 - [o nián jìrino rén] - 노인
+ こうべ - [koube] - 고베
+ たこ焼き - [tako shāoki] - 타코야키
+ ちゅうか料理 - [chuuka liào lǐ] - 중화요리
+ つゆ - [tsuyu] - 장마
+ でのりかえます - [denorikaemasu] - 에서 갈아탑니다
+ とまります - [tomarimasu] - 멈춥니까, 멈춥니다
+ ふつうれっしゃ - [futsuuressha] - 보통열차
+ ゆずります - [yuzurimasu] - 양보합니다, 양보할까요, 양보할게요, 양보할
+ わん - [wan] - 만
+ チャージします - [chājishimasu] - 충전하니까, 충전합니까, 충전합니다
+ プリン - [purin] - 푸딩
+ レインコート - [reinkōto] - 레인코트
+ 台風 - 태풍
+ 和牛 - 와규
+ 特急 - 특급
+ 番線 - 번선
+ 終点 - 종점
+ 足ります - 충분합니다, 충분한지, 충분합니까
+ 都市 - 도시
+130 Healthy Ch 건강과 웰빙에 대해 논의하기
+ あめ - [ame] - 사탕
+ かいてき - [kaiteki] - 쾌적하다
+ くわえます - [kuwaemasu] - 더합니다
+ しょくぶつ - [shokubutsu] - 식물
+ せなか - [senaka] - 등
+ そだてます - [sodatemasu] - 기릅니까, 기릅니다
+ たね - [tane] - 씨앗
+ にわ - [niwa] - 정원
+ ひざ - [hiza] - 무릎
+ キャベツ - [kyabetsu] - 양배추
+ ジャンクフード - [jankufūdo] - 정크푸드
+ タンパクしつ - [tanpakushitsu] - 단백질
+ バランス - [baransu] - 균형
+ 会員 - 회원
+ 体力がありません - 체력이 없습니다
+ 大事 - 중요
+ 方がいいと思います - 좋다고 생각해요, 좋다고 생각합니다
+ 部分 - 부분
+ 頭痛 - 두통
+131 games 용품: 용품 특징 설명하기
+ サプリ - [sapuri] - 건강 보조제
+ チームワーク - [chīmuwāku] - 팀워크
+ 上品な - 고상한
+ 優先席 - 우선석
+ 参加者 - 참가자
+ 庭 - 정원
+ 普段 - 평소
+ 歯磨き粉 - 치약
+ 理解します - 이해하다, 알다, 파악하다, 숙지하다
+ 用品 - 용품
+ 秒 - 초
+ 美しさ - 아름다움
+ 説明 - 설명, 해명을, 브리핑, 브리핑이, 해명은, 해명이
+ 説明書 - 설명서
+ 財布 - 지갑
+ 販売 - 판매
+ 運 - 운
+ 限界 - 한계
+132 storytelling 일상: 회사 일정 이야기하기
+ うそ - [uso] - 거짓말
+ おどろきます - [odorokimasu] - 놀라다, 깜짝 놀라다, 경악하다
+ ついています - [tsuiteimasu] - 붙어 있다, 달려 있다, 따라가다, 행운이 따르다, 켜져 있다, 묻어 있다
+ ほこりっぽい - [hokorippoi] - 먼지가 많은, 먼지투성이인, 먼지가 낀, 먼지 낀
+ もらいます - [moraimasu] - 받습니다.
+ ゴミ捨て場 - [gomi shěte chǎng] - 쓰레기 버리는 곳
+ ライター - [raitā] - 라이터
+ 一泊 - 1박
+ 帰り道 - 귀가길
+ 扱います - 다루다, 취급하다, 처리하다, 관리하다, 담당하다
+ 日焼け止め - 자외선 차단제
+ 横に - 가로로, 옆에, 옆으로, 옆에는
+ 残念 - 아쉽다
+ 社員旅行 - 회사 여행
+ 自然 - 자연
+ 色々な - 여러 가지
+ 連絡先 - 연락처
+ 逮捕します - 체포하다, 검거하다, 구속하다, 잡다
+ 騙します - 속이다, 사기치다, 기만하다, 속여넘기다, 현혹시키다, 속임수를 쓰다
+133 hobbies 4 활동: 좋아하는 활동 소개하기
+ お湯 - [o tāng] - 뜨거운 물
+ げんかん - [genkan] - 현관
+ こうげきします - [kougekishimasu] - 공격하다, 공격합니다, 공격해요, 공격을 하다
+ どうやら - [douyara] - 아마, 아무래도, 어떻게든, 어쩐지, 대충, 보아하니, 보니까
+ はっきり - [hakkiri] - 명확하게
+ ギリギリ - [girigiri] - 간신히
+ 九州 - 규슈, 구주
+ 他の人 - 다른 사람
+ 作者 - 작가
+ 慣習 - 관습
+ 敵 - 적
+ 次 - 다음에, 다음, 다음번에는
+ 活動 - 활동
+ 点 - 점을, 점일, 점, 데를, 점이라고, 데는, 점은
+ 無くなります - 없어지다, 사라지다, 잃어버리다, 끝나다, 멸종되다, 품절되다
+134 daily routines 동네 생활: 동네 도서관 소개하기
+ う - [u] - 우체국, 친구우를, 씨우를, 사우니다, 보냅우니다, 주우니다, 주우입니다
+ がんばります - [ganbarimasu] - 열심히 하겠습니다.
+ きちんとした - [kichintoshita] - 깔끔한
+ で - [de] - 에, 만에, 인데, 에서, 로, 으로, 대로, 서, 하나에서
+ のど - [nodo] - 목
+ よう - [you] - 방법, 모양, 듯, 것, 것처럼, 용, 모습, 식, 양, 태도, 하려고
+ 健康 - 건강
+ 協力します - 협력하다, 협조하다, 돕다
+ 夜遅く - 늦은 밤
+ 大丈夫 - 괜찮다
+ 思っています - 생각하고 있습니다
+ 横断歩道 - 횡단보도
+ 気を付けます - 조심하다, 주의하다, 신경 쓰다
+ 浅草 - 아사쿠사
+ 神戸 - 고베
+ 絵本 - 그림책
+ 銀行員 - 은행원
+ 電気を消します - 전등을 끄다, 불을 끄다, 전기를 끄다
+135 celebrations 친절: 친절하게 부탁하기
+ いいところ - [iitokoro] - 좋은 점
+ うまく - [umaku] - 능숙하게
+ にくい - [nikui] - 어렵다, 힘들다, 싫다, 밉다, 미워하다
+ やすい - [yasui] - 저렴한
+ カード - [kādo] - 카드
+ 不快な - 불쾌한
+ 不自由な人 - 불편한 사람, 장애인, 거동이 불편한 사람, 불자유한 사람, 청각장애인
+ 今晩 - 오늘 밤
+ 六番目 - 여섯 번째
+ 彼氏 - 남자친구
+ 情報 - 정보
+ 村 - 마을
+ 記号 - 기호
+ 記念日 - 기념일
+ 誕生日 - 생일
+ 遊園地 - 유원지
+136 chores 집안일: 집안일 나누기
+ あいさつ - [aisatsu] - 인사
+ お客様 - [o kè yàng] - 고객님
+ くれます - [kuremasu] - 주다, 주십니다, 주어요, 줍니다
+ コウモリ - [koumori] - 박쥐
+ トラブル - [toraburu] - 문제
+ 十八番目 - 열여덟 번째
+ 向こう - 저쪽
+ 安心します - 안심하다, 마음이 놓이다, 안도하다, 안심되다
+ 家族 - 가족
+ 幅 - 폭
+ 時々 - 가끔
+ 果物 - 과일
+ 洗濯 - 세탁
+ 王女 - 공주
+ 表示 - 표시
+ 電池 - 배터리
+137 seasonal changes 환경: 계절 변화 이야기하기
+ くします - [kushimasu] - 하다, 만들다, 하게 하다
+ くなります - [kunarimasu] - 되다, 좋아지다
+ こうずい - [kouzui] - 홍수
+ します - [shimasu] - 합니다
+ よくします - [yokushimasu] - 잘하다, 좋아지다, 개선하다, 돕다, 돌보다, 향상시키다, 좋게 만들다
+ トンネル - [ton'neru] - 터널
+ 一応 - 일단
+ 回ります - 돌다, 회전하다, 순환하다, 돌아가다, 순회하다, 돌아다니다, 방문하다
+ 季節 - 계절
+ 心地いい - 기분 좋다, 편안하다, 쾌적하다, 상쾌하다, 안락하다, 아늑하다
+ 気温 - 기온
+ 涙 - 눈물
+ 生物学 - 생물학
+ 産業 - 산업
+ 祖父 - 할아버지
+ 簡単 - 쉽다
+ 自分 - 자신
+ 見本 - 견본
+ 言語 - 언어
+ 近づきます - 다가가다, 접근하다, 가까워지다, 다가오다
+ 鼻 - 코
+138 professional life 직장: 근무 환경 묘사하기
+ ほこり - [hokori] - 먼지
+ コミュニケーション - [komyunikēshon] - 커뮤니케이션
+ マッチ - [matchi] - 성냥
+ 久しぶりに - 오랜만에
+ 厳しい - 빡센, 엄한, 혹독한, 험해, 까다로운, 엄격한, 가혹한, 엄하셨습니다, 엄격하더라고요, 엄해요, 까다롭기로
+ 合図 - 신호
+ 同僚 - 동료
+ 実家 - 본가
+ 帽子 - 모자
+ 恋愛 - 연애
+ 成績 - 성적
+ 点 - 점을, 점일, 점, 데를, 점이라고, 데는, 점은
+ 組織 - 조직
+ 職場 - 직장
+ 胸 - 가슴
+ 話しやすい - 말하기 쉽다, 이야기하기 쉽다, 대화하기 쉽다, 편하게 말할 수 있다
+ 通り - 거리
+ 駐車場 - 주차장
+139 free time 예술: 새로운 예술 체험해보기
+ での - [deno] - 에서의, 에서, 의
+ リラックスします - [rirakkusushimasu] - 릴렉스하다, 편안해지다, 긴장을 풀다, 휴식을 취하다, 쉬다, 휴식하다
+ 体験 - 체험
+ 例えば - 예를 들어
+ 冷凍 - 냉동
+ 十七番目 - 열일곱 번째
+ 十年間 - 십 년간
+ 厚い - 두꺼워요, 두꺼운
+ 取り組みます - 노력하다, 다루다, 대처하다, 전념하다, 몰두하다, 착수하다
+ 回復します - 회복하다, 복구하다, 회복되다
+ 契約 - 계약
+ 手順 - 방법, 순서, 과정을, 과정, 절차, 과정이
+ 絵の具 - 물감
+ 美術 - 미술
+ 裏 - 뒷면
+ 調子が悪い - 상태가 안 좋다, 컨디션이 나쁘다, 기분이 안 좋다, 몸 상태가 안 좋다, 조짐이 나쁘다, 몸이 안 좋다
+ 谷 - 계곡
+ 趣味 - 취미
+140 describing events 행사: 최근 행사 소개하기
+ だと思いました - [dato sīimashita] - 라고 생각했습니다, 라고 여겼습니다, 라고 믿었습니다, 라고 판단했습니다, 라고 생각했어요, 라고 여겼어요
+ られます - [raremasu] - 넣을 수 있습니다, 볼 수 있습니다, 볼 수 있습니까, 빌릴 수 있습니다
+ れます - [remasu] - 사용되다
+ チャリティー - [charitī] - 자선
+ ボランティア - [borantia] - 자원봉사자
+ 一本 - 편
+ 作品 - 작품
+ 同い年 - 같은 나이
+ 増やします - 늘리다, 증가시키다, 더하다, 확대하다, 증대하다, 늘이다
+ 手入れ - 손질
+ 担当 - 담당, 담당하는, 보컬을
+ 文化祭 - 문화제
+ 最近 - 최근의, 최근에도, 최근에는, 최근에
+ 期間 - 기간
+ 来られます - 올 수 있습니다, 올 수 있어요, 올 수 있다, 방문할 수 있습니다
+ 環境 - 환경, 주위, 조건, 상황
+ 画家 - 화가
+ 窓 - 창문
+141 social media 사진: 사진으로 추억 나누기
+ と - [to] - 이랑, 케이팝하고, 하고, 과, 색과, 와, 물하고, 트리와, 커피하고, 드레스하고, 으면, ', 톱과, 냐고, 랑, 표랑, 내일이라고
+ めす - [mesu] - 암컷
+ アンケート - [ankēto] - 설문조사
+ グループチャット - [gurūpuchatto] - 그룹 채팅
+ バレバレ - [barebare] - 뻔한
+ 便利 - 편리하다
+ 八本 - 여덟 병
+ 受け入れます - 받아들이다, 수용하다, 인정하다, 수락하다
+ 届きます - 도착하다, 닿다, 전달되다, 배달되다
+ 成功 - 성공
+ 戻ります - 돌아가다, 돌아오다, 되돌아가다, 복귀하다
+ 楽 - 편하, 즐거움, 쉬우니
+ 楽しい - 재미있었나요, 즐거운, 즐겁지는, 재미있대, 재미있어야, 흥겨운, 즐겁지만은, 재미있더라고요, 즐겁습니다, 재미있었대
+ 絵 - 그림
+ 習慣 - 습관
+ 見張ります - 감시하다, 지키다, 감시를 서다, 주시하다, 관찰하다
+ 観光をします - 관광하다, 관광을 하다, 관광을 합니다
+ 面白い - 재미있었나요, 유머러스하, 재미있습니까, 신기할, 재미있대, 재미있어야, 유머러스한, 재미있습니다, 재미있는, 유머러스해, 재미있더라고요, 재미있었대, 유머러스해서
+142 city life 장소: 장소 설명하기
+ あそこ - [asoko] - 저기
+ あの - [ano] - 저, 저기, 그곳의
+ あれ - [are] - 저것
+ ここ - [koko] - 여기
+ この - [kono] - 이
+ これ - [kore] - 이것
+ そこ - [soko] - 거기
+ その - [sono] - 그, 그곳의
+ それ - [sore] - 그것은
+ どこでも - [dokodemo] - 어디에서나
+ スキャナー - [sukyanā] - 스캐너
+ ポンプ - [ponpu] - 펌프
+ 前に - 앞에
+ 茶わん - 찻그릇
+ 警察官 - 경찰관
+ 黄色い - 노란색
+143 personal background 경험: 자신의 경험 이야기하기
+ しょうちょう - [shouchou] - 상징
+ 不便 - 불편하다
+ 体重を量ります - 체중을 재다, 몸무게를 재다, 체중을 측정하다, 몸무게를 측정하다
+ 修士号 - 석사 학위
+ 実は - 사실은
+ 犯人 - 범인
+ 答えます - 대답하다, 답하다, 응답하다, 응대하다
+ 肩 - 어깨
+ 腰 - 허리
+ 自由 - 자유
+ 落ち着いて - 침착하게
+ 間違えます - 틀립니까, 틀립니다
+ 鳥居 - 도리이
+144 personal experiences 추억: 추억 이야기하기
+ かみます - [kamimasu] - 물다, 씹다
+ しょっちゅう - [shotchuu] - 자주
+ ショック - [shokku] - 충격
+ 上げます - 올리다, 드리다, 주다, 높이다, 올려놓다
+ 交通 - 교통
+ 八点 - 여덟 점
+ 励まします - 격려하다, 용기를 북돋우다, 힘내게 하다, 응원하다, 힘을 주다
+ 勉強できます - 공부할 수 있다, 공부할 수 있어요, 공부할 수 있습니다, 공부할 수 있어, 공부할 수 있습니까
+ 司会の人 - 사회자
+ 名古屋 - 나고야
+ 地元 - 고향
+ 平和 - 평화로운
+ 悪い - 나빴다고, 나빴, 나쁩니다, 미안하
+ 終わらせます - 끝내다, 마치다, 완료하다, 마무리하다
+ 緊張します - 긴장하다, 긴장되다
+ 逃げ出します - 도망치다, 달아나다, 탈출하다, 도망가다
+ 連れて来ます - 데리고 오다, 데려오다, 데리고 옵니다, 데려옵니다, 데리고 와요, 데려와요, 데리고 올게요, 데려올게요
+145 school life 대학생활: 설문 결과 공유하기
+ お祈り - [o qíri] - 기도
+ この前 - [kono qián] - 얼마 전에
+ そういうふうに - [souiufuuni] - 그렇게
+ その後 - [sono hòu] - 그 후
+ られます - [raremasu] - 넣을 수 있습니다, 볼 수 있습니다, 볼 수 있습니까, 빌릴 수 있습니다
+ れます - [remasu] - 사용되다
+ 先輩 - 선배
+ 六点 - 여섯 점
+ 北西 - 북서
+ 大阪 - 오사카
+ 怖がらせます - 겁주다, 무섭게 하다, 두렵게 하다
+ 態度 - 태도
+ 病気 - 병
+ 試合 - 경기
+ 調査 - 조사
+ 電子レンジ - 전자레인지
+ 電気 - 전기
+ 順番 - 순서
+ 魔法 - 마법
+146 sports 팀워크: 함께 준비물 챙기기
+ せんたく - [sentaku] - 세탁
+ ために - [tameni] - 위해
+ よかった - [yokatta] - 좋았어요.
+ チャンピオン - [chanpion] - 챔피언
+ 切手 - 우표
+ 動き - 움직임
+ 小道 - 오솔길
+ 屋内 - 실내
+ 洋食 - 양식
+ 牛乳 - 우유
+ 船 - 배
+ 薬局 - 약국
+ 関係 - 관계
+ 飛行機 - 비행기
+ 高さ - 높이
+147 neighborhoods 집안일: 집안 상태 확인하기
+ あちこち - [achikochi] - 여기저기
+ たまたま - [tamatama] - 우연히
+ ゆるい - [yurui] - 느슨한, 헐거운, 완만한, 부드러운, 느긋한, 헐렁한
+ スタート - [sutāto] - 시작, 출발, 스타트, 신호, 시작도
+ ラフ - [rafu] - 러프
+ 不安 - 불안
+ 仲がいい - 사이가 좋다, 친하다, 관계가 좋다, 우호적이다, 친밀하다, 친밀한
+ 冷蔵庫 - 냉장고
+ 学士号 - 학사 학위
+ 温い - 미지근하다, 따뜻하다, 온화하다, 느슨하다, 미온하다
+ 種類 - 종류
+ 経済学 - 경제학
+ 自動ドア - 자동문
+ 薄く - 얇게
+ 話し合い - 대화
+ 速い - 일러요, 빠르대, 빠릅니까, 빠릅니다, 빨라, 빠르더라
+ 音 - 소리
+148 babysitting 아이들: 아이들 소개하기
+ おやつ - [oyatsu] - 간식
+ くちびる - [kuchibiru] - 입술
+ じゃないと - [janaito] - 아니면
+ ほしい - [hoshii] - 싶습니다
+ シッター - [shittā] - 베이비시터
+ 仲良くなります - 친해지다, 사이좋아지다, 가까워지다, 친밀해지다
+ 教室 - 교실
+ 点数をつけます - 점수를 매기다, 점수를 주다, 점수를 부여하다, 평가하다
+ 真似します - 흉내내다, 모방하다, 따라 하다
+ 着物 - 기모노
+ 詩 - 시
+ 質がいい - 품질이 좋다, 질이 좋다, 고급이다, 우수하다
+ 質が悪い - 질이 나쁘다, 품질이 나쁘다, 상태가 안 좋다, 수준이 낮다, 품질이 떨어지다, 맛이 나쁘다, 몸에 안 좋다
+ 迎えに来ます - 마중 나오다, 데리러 오다, 맞으러 오다
+ 銀 - 은
+ 面倒を見ます - 돌보다, 보살피다, 챙기다, 신경 쓰다, 책임지다, 돌봐주다
+149 eating habits 음식: 식습관 이야기하기
+ いました - [imashita] - 있었습니다?, 있었습니다.
+ お菓子 - [o guǒ zi] - 과자
+ ずっと - [zutto] - 계속
+ での - [deno] - 에서의, 에서, 의
+ のころ - [nokoro] - 무렵, 즈음, 때, 시절
+ 外食 - 외식
+ 大根 - 무
+ 小麦粉 - 밀가루
+ 弁当 - 도시락
+ 後ろ - 뒤
+ 患者 - 환자
+ 注意します - 주의하겠습니다
+ 玉ねぎ - 양파
+ 瓶 - 병
+ 研究室 - 연구실
+ 買います - 살
+ 電話番号 - 전화번호
+150 living spaces 이웃: 이웃 소개하기
+ には - [niha] - 번에는
+ まとめ - [matome] - 요약
+ アシスタント - [ashisutanto] - 어시스턴트
+ ベランダ - [beranda] - 베란다
+ 今週末 - 이번 주말
+ 原因 - 원인
+ 友達 - 친구
+ 家具 - 가구
+ 明るい - 밝아야, 경쾌한, 낙관적인, 밝습니다, 낙관적이, 외향적이, 밝으면
+ 本棚 - 책장
+ 机 - 책상
+ 毎週末 - 매주말
+ 砂 - 모래
+ 若い - 젊은, 젊습니다, 젊습니까
+ 遊歩道 - 산책로
+151 moving 동네: 동네 분위기 얘기하기
+ きます - [kimasu] - 입습니다.
+ という - [toiu] - 라고 하는
+ によります - [niyorimasu] - 들릅니까, 들릅니다
+ アウトドア派 - [autodoa pài] - 아웃도어파
+ 助かります - 도움이 되다, 살다, 구원받다, 구조되다, 살아나다
+ 広告 - 광고
+ 建築家 - 건축가
+ 必要 - 필요한
+ 数学 - 수학
+ 期末試験 - 기말시험
+ 水泳 - 수영
+ 田舎 - 시골
+ 知らない人 - 모르는 사람
+ 答えます - 대답하다, 답하다, 응답하다, 응대하다
+ 缶 - 캔
+ 都会 - 도시
+ 電話 - 전화
+152 outdoor activities 모임: 모임 일정 짜기
+ きます - [kimasu] - 입습니다.
+ グループ - [gurūpu] - 그룹
+ コース - [kōsu] - 코스
+ ミス - [misu] - 실수
+ 交換 - 교환
+ 八泊 - 8박
+ 小説 - 소설
+ 文句 - 불평
+ 生徒 - 학생
+ 着きます - 도착하다, 도달하다, 붙다, 닿다
+ 許可 - 허가
+ 迷います - 헤매다, 망설이다, 갈팡질팡하다, 고민하다, 길을 잃다, 길을 헤매다
+153 commuting 출퇴근: 출근 시간 말하기
+ しまいます - [shimaimasu] - 넣다, 치우다, 끝내다, 해버리다, 완료하다, 하고 말다
+ すぎます - [sugimasu] - 지나가다, 넘다, 지나다, 너무 많다, 너무 많이 하다
+ もし - [moshi] - 만일을, 만약, 더라면
+ 一個 - 한 개
+ 今も - 지금도
+ 体育 - 체육
+ 向こうに - 건너에
+ 提供します - 제공하다, 공급하다, 제출하다, 제공해 주다
+ 渋谷 - 시부야
+ 確かに - 확실히
+ 繋げます - 연결하다, 잇다, 이어주다, 연결시키다
+ 訳します - 번역하다, 해석하다, 통역하다
+ 通勤 - 출퇴근
+ 遅刻 - 지각
+ 郵便局 - 우체국
+ 雇います - 고용하다, 채용하다, 일자리를 주다
+ 電池が切れます - 배터리가 다 되다, 배터리가 방전되다, 전지가 다 되다, 전지가 방전되다, 배터리가 빨리 닳다
+ 駅員 - 역원
+154 gatherings 가족사정: 가족 사진 보기
+ あります - [arimasu] - 있어요, 있습니다, 있습니까
+ いいですよ - [iidesuyo] - 좋아요, 괜찮아요, 알겠어요, 좋아, 좋아하다, 해도 돼요
+ こと - [koto] - 것을, 거라는
+ ゲーム - [gēmu] - 게임
+ 具合が悪い - 기분이 나쁘다, 상태가 안 좋다, 건강이 나쁘다, 몸이 아프다, 몸이 안 좋다, 컨디션이 나쁘다, 불편했어
+ 十本 - 열 자루
+ 双子 - 쌍둥이
+ 大掃除 - 대청소
+ 役割 - 역할
+ 研究者 - 연구자
+ 誰の - 누구의
+ 首 - 목
+155 roommates and co-living 목표: 미래 계획 나누기
+ お土産 - [o tǔ chǎn] - 기념품
+ お年寄り - [o nián jìri] - 노인
+ できれば - [dekireba] - 할 수 있다면
+ 予定 - 일정
+ 公式 - 공식
+ 厳しい - 빡센, 엄한, 혹독한, 험해, 까다로운, 엄격한, 가혹한, 엄하셨습니다, 엄격하더라고요, 엄해요, 까다롭기로
+ 教授 - 교수
+ 普通 - 보통, 흔해
+ 暇な時 - 한가할 때
+ 治療 - 치료
+ 火 - 불
+ 目標 - 목표
+156 time periods 유학: 유학 경험 이야기하기
+ かります - [karimasu] - 빌립니다
+ せきたん - [sekitan] - 석탄
+ ところ - [tokoro] - 곳
+ まで - [made] - 까지
+ 九番目 - 아홉 번째
+ 八冊 - 여덟 권
+ 動物園 - 동물원
+ 名札 - 명찰
+ 実用的 - 실용적
+ 数日 - 몇 일
+ 昔の - 옛날의
+ 留学 - 유학
+ 筋肉 - 근육
+ 起こります - 일어나다, 발생하다, 생기다
+ 道具 - 도구
+157 personal goals 목표: 목표 소개하기
+ お互い - [o hùi] - 서로
+ ければ - [kereba] - 만약, If
+ ば - [ba] - 장소는, 말이지, 더라면
+ びっくりするほど - [bikkurisuruhodo] - 놀랄 만큼
+ やる気 - [yaru qì] - 의욕
+ よければ - [yokereba] - 괜찮다
+ れば - [reba] - 으면
+ 十冊 - 열 권
+ 影響力 - 영향력
+ 快適 - 쾌적
+ 日記 - 일기
+ 普通 - 보통, 흔해
+ 普通列車 - 보통열차
+ 案内します - 안내하다, 안내해 드리다, 안내해 주다, 안내해 드리겠습니다, 안내해 드릴게요
+ 段階 - 단계
+ 状態 - 상태
+ 生 - 4학년, 선생님, 2학년, 생
+ 答え - 답
+ 鳥 - 새
+158 workplace communications 사무실: 회의 일정 공유하기
+ きます - [kimasu] - 입습니다.
+ によって - [niyotte] - 에 따라
+ ゴミ袋 - [gomi dài] - 쓰레기봉투
+ シンプル - [shinpuru] - 심플
+ 一人ひとり - 각자
+ 上司 - 상사
+ 信じられない - 믿을 수 없다, 신뢰할 수 없다, 믿기 어렵다, 믿지 못하다, 믿기 힘들다, 믿을 수가 없다
+ 図 - 도표
+ 奥 - 안쪽
+ 思いどおりに - 생각한 대로
+ 意味 - 의미
+ 整理された - 정리된
+ 有名 - 유명한
+ 模様 - 무늬
+ 次 - 다음에, 다음, 다음번에는
+ 物 - 물건
+ 王子 - 왕자
+ 自然 - 자연
+ 芸術的 - 예술적, 예술적인
+ 連絡 - 연락
+159 cost of living 생활: 새 장비 사용법 설명하기
+ かなり - [kanari] - 꽤
+ ご両親 - [go liǎng qīn] - 부모님
+ それから - [sorekara] - 그리고
+ との - [tono] - 와, 과, 와의, 과의
+ どんどん - [dondon] - 점점, 계속, 쭉, 부쩍, 빠르게
+ のに - [noni] - -인데도, 던데
+ カップ麺 - [kappu miàn] - 컵라면
+ サービス - [sābisu] - 서비스
+ フレーム - [furēmu] - 액자
+ 一緒に - 함께
+ 今後 - 앞으로
+ 伝統 - 전통
+ 優先します - 우선하다, 우선시하다, 중시하다
+ 公平 - 공평한
+ 千葉 - 치바, 센바
+ 家賃 - 월세
+ 手紙 - 편지
+ 操作します - 조작하다, 조작합니다, 조작해요, 조작해, 조종하다, 조종합니다, 조종해요, 조종해
+ 犯罪 - 범죄
+ 税金 - 세금
+ 言葉 - 말
+160 medical care 병원: 병원 이용법 설명하기
+ さらに - [sarani] - 더욱
+ ちゃんとした - [chantoshita] - 제대로 된
+ てんてき - [tenteki] - 정맥주사
+ という感じ - [toiu gǎnji] - 느낌
+ 不規則 - 불규칙한
+ 事 - 일
+ 以内 - 이내
+ 十四番目 - 열네 번째
+ 待合室 - 대기실
+ 教育 - 교육
+ 最先端 - 최첨단
+ 来させます - 오게 하다, 부르다
+ 発明 - 발명
+ 看護師 - 간호사
+ 隅 - 구석
+161 directions 2 장소: 갈 곳 정하기
+ お腹がいっぱい - [o fùgaippai] - 배가 부르다
+ デザイナー - [dezainā] - 디자이너
+ 交差点 - 교차로
+ 地下 - 지하
+ 市役所 - 시청
+ 放課後 - 방과후
+ 方向 - 방향
+ 理想的 - 이상적
+ 由来 - 유래
+ 苦い - 쓰기, 씁니다
+ 角 - 모퉁이
+ 隣 - 옆
+ 高速道路 - 고속도로
+162 aspirations 꿈과 목표: 목표를 이야기하기
+ あこがれます - [akogaremasu] - 동경하다, 갈망하다, 흠모하다, 열망하다, 존경하다
+ うれしい - [ureshii] - 기쁘네요, 뿌듯해요, 기쁩니다, 뿌듯해
+ そう - [sou] - 그렇게
+ で - [de] - 에, 만에, 인데, 에서, 로, 으로, 대로, 서, 하나에서
+ セット - [setto] - 세트
+ 分けます - 나누니까, 나눕니다, 나눕니까
+ 夢 - 꿈
+ 完全に - 완전히
+ 将来 - 장래
+ 広い - 넓은
+ 広げます - 펼치다, 넓히다, 확장하다, 벌리다, 퍼뜨리다
+ 挑戦します - 도전하다, 도전해 보다
+ 接続 - 연결
+ 洗濯機 - 세탁기
+ 活発 - 활발한
+ 目指します - 목표로 하다, 지향하다, 겨냥하다, 노리다, 지망하다
+ 真剣な - 진지한
+ 語学学校 - 어학원
+ 途中で - 도중에
+163 future plans 준비: 필요한 물건 챙기기
+ おきます - [okimasu] - 일어납니다
+ こうきしんがつよい - [koukishingatsuyoi] - 호기심이 강하다, 호기심이 많다, 탐구심이 강하다
+ し - [shi] - 하고, 하지
+ ずっと - [zutto] - 계속
+ つばさ - [tsubasa] - 날개
+ のせいにします - [noseinishimasu] - 탓하다, 책임지다, 탓으로 돌리다
+ めいわくをかけます - [meiwakuwokakemasu] - 폐를 끼치다, 귀찮게 하다, 성가시게 하다, 번거롭게 하다, 불편을 주다, 방해하다
+ コピー - [kopī] - 복사본
+ リスト - [risuto] - 리스트
+ 幸せ - 행복
+ 成績 - 성적
+ 成長します - 성장하다, 자라다, 발달하다, 발전하다, 크다
+ 戦争 - 전쟁
+ 折り紙 - 종이접기
+ 歯ブラシ - 칫솔
+ 狙い - 목적
+ 靴下 - 양말
+164 friendships 친구: 친구 소개하기
+ お疲れ様でした - [o píre yàngdeshita] - 수고하셨습니다
+ くれます - [kuremasu] - 주다, 주십니다, 주어요, 줍니다
+ また今度 - [mata jīn dù] - 다음에
+ シリーズ - [shirīzu] - 시리즈
+ 一生 - 평생
+ 二十番目 - 스무 번째
+ 地球 - 지구
+ 心配 - 걱정
+ 恐ろしい - 무서우세요, 무서운, 끔찍해서
+ 本当の - 진짜
+ 環境 - 환경, 주위, 조건, 상황
+ 苦手 - 싫어하다, 잘하지 못하다, 서투르다, 약하다, 어려워하다, 서툴
+ 落ち着いた - 차분한
+ 親友 - 절친한 친구, 친한 친구, 베스트 프렌드, 절친, 우정인
+ 観光地 - 관광지
+ 韓国 - 한국, 한국의, 한국에서
+165 cooking 2 요리: 요리 재료 말하기
+ かき混ぜます - [kaki hùnzemasu] - 젓다, 섞다, 휘젓다
+ すごい - [sugoi] - 엄청났기에, 대단하대, 멋지더라고요, 신기할, 대단한, 대단합니다, 대단하네요, 놀랍더라
+ せっかく - [sekkaku] - 일부러, 애써, 어렵게, 고생해서, 특별히, 어렵게 쓴
+ ところ - [tokoro] - 곳
+ びみょう - [bimyou] - 미묘
+ オーブン - [ōbun] - 오븐
+ スパイス - [supaisu] - 향신료
+ 人 - 사람
+ 勝ち - 승리
+ 形 - 모양
+ 感謝しています - 감사합니다, 고맙습니다, 감사드립니다
+ 料理 - 요리
+ 見えてきます - 보이다, 보이기 시작하다, 나타나기 시작하다
+ 解決します - 해결하다, 해결짓다
+ 風景 - 풍경
+ 香り - 향기
+ 香辛料 - 향신료
+166 crisis response 생활도구: 생활도구 사용법 말하기
+ でも - [demo] - 라도, 마시든, 하지만, 있든
+ どんなに - [don'nani] - 아무리
+ の形 - [no xíng] - 모양
+ も - [mo] - 번이나, 센티미터나, 미터나, 새우도, 엔이나, 명이나, 개나, 도, 반이나, 구요, 나뭇잎도
+ 一点 - 한 개
+ 一部 - 일부
+ 二の次 - 부차적
+ 六本 - 육본, 여섯 개, 여섯 자루, 여섯 병, 여섯 개의
+ 処方せん - 처방전
+ 四番目 - 네 번째
+ 壊れます - 부서지다, 고장나다, 망가지다, 깨지다
+ 掃除 - 청소
+ 気持ち - 기분
+ 水道 - 수도
+ 準備 - 준비
+ 県 - 현
+ 空気 - 공기
+ 結果 - 결과
+167 extreme weather events 자연: 자연 현상 묘사하기
+ けど - [kedo] - 지만, 던데
+ それで - [sorede] - 그래서
+ たき - [taki] - 폭포
+ で - [de] - 에, 만에, 인데, 에서, 로, 으로, 대로, 서, 하나에서
+ 助け合います - 돕다, 서로 돕다, 도와주다, 협력하다, 상부상조하다, 서로 돕고 살다, 함께 돕다
+ 卒業式 - 졸업식
+ 大変 - 심각한
+ 大雨 - 폭우
+ 宇宙 - 우주
+ 油 - 기름
+ 波 - 파도
+ 理由 - 이유
+ 端 - 끝
+ 細い - 가늘어요
+ 経験豊富 - 경험이 풍부한
+ 議論 - 논의
+168 well-being 분위기: 분위기 설명하기
+ お子さん - [o zisan] - 자녀분
+ によると - [niyoruto] - 에 따르면
+ みりょくてき - [miryokuteki] - 매력적, 매혹적, 매력 있는, 매력적인
+ タップします - [tappushimasu] - 탭하다, 두드리다, 톡톡 치다, 누르다
+ 印刷します - 인쇄하다, 출력하다, 프린트하다
+ 取り除きます - 제거하다, 없애다, 치우다, 배제하다, 삭제하다
+ 工学 - 공학
+ 感覚 - 감각
+ 提案します - 제안하다, 제의하다, 건의하다, 권유하다
+ 明後日 - 모레
+ 気をつけます - 조심하겠습니까, 조심하겠습니다
+ 決まった - 정해지다
+ 祖父母 - 조부모
+ 立ち上がります - 일어나다, 일어서다, 기상하다, 시작하다, 출발하다
+ 紅葉 - 단풍
+ 観客 - 관객
+ 資源 - 자원
+ 食事 - 식사
+169 climate 장소: 장소 묘사하기
+ がっかりします - [gakkarishimasu] - 실망하다, 낙담하다, 기대에 어긋나다
+ が必要です - [ga bì yàodesu] - 필요하다, 필요합니다, 필요해요, 필요해
+ くぎ - [kugi] - 못
+ でこぼこ - [dekoboko] - 울퉁불퉁
+ テラス - [terasu] - 테라스
+ 凍ります - 얼다, 얼리다, 동결되다
+ 喜んで - 기꺼이
+ 大雪 - 폭설
+ 宗教的 - 종교적인
+ 工場 - 공장
+ 最近 - 최근의, 최근에도, 최근에는, 최근에
+ 材料 - 재료
+ 汚します - 더럽히다, 오염시키다, 묻히다
+ 洗濯物 - 빨래
+ 自販機 - 자판기
+170 parenting 가정: 아이에게 숙제 설명하기
+ もう一つは - [mou yītsuha] - 또 하나는
+ よくない - [yokunai] - 좋지 않습니다
+ 取っ手 - 손잡이
+ 嫌がります - 싫어하다, 꺼리다, 기피하다, 거부하다, 꺼려하다
+ 家庭 - 가정
+ 展示会 - 전시회
+ 投票します - 투표하다, 투표를 하다
+ 教師 - 선생님
+ 景色 - 경치
+ 特定 - 특정, 특정한
+ 画面 - 화면
+ 自立した - 자립한, 독립한, 자주적인, 독립적인
+ 血圧 - 혈압
+ 親 - 부모
+ 話題 - 화제
+ 野球 - 야구
+ 電気をつけます - 전등을 켜다, 불을 켜다, 전기를 켜다
+171 traffic 동네: 길 안내 요청하기
+ じゅうたい - [juutai] - 정체
+ ちょうこくか - [choukokuka] - 조각가
+ と - [to] - 이랑, 케이팝하고, 하고, 과, 색과, 와, 물하고, 트리와, 커피하고, 드레스하고, 으면, ', 톱과, 냐고, 랑, 표랑, 내일이라고
+ ブランド - [burando] - 브랜드
+ 事故 - 사고
+ 人ごみ - 인파
+ 危険 - 위험하다
+ 塩っぱい - 짜다, 짭짤하다
+ 天ぷら - 덴푸라
+ 新しくします - 새롭게 하다, 새로 하다, 갱신하다, 새로 만들다, 새로 시작하다, 교체하다, 바꾸다
+ 昔 - 옛날
+ 祖母 - 할머니
+ 移動します - 이동하다, 옮기다, 이동시키다
+ 警察 - 경찰
+ 量 - 양
+172 gossip and rumors 일정: 오늘 일정 공유하기
+ うわさ - [uwasa] - 소문
+ かもしれません - [kamoshiremasen] - 일지도 모릅니다
+ ただ - [tada] - 단지
+ どちら - [dochira] - 어느 쪽
+ タイト - [taito] - 빡빡하다
+ 一時的 - 일시적인
+ 何歳 - 몇 살
+ 分かりました - 알았습니다.
+ 北海道 - 홋카이도
+ 十一番目 - 열한 번째
+ 半額 - 반값
+ 広がります - 퍼지다, 확장되다, 넓어지다, 펼쳐지다, 확대되다, 확산되다, 번지다
+ 戻します - 돌려놓다, 되돌리다, 반환하다, 복귀시키다, 되돌아가다, 놓다, 두다
+ 有名人 - 유명인
+ 欠席します - 결석하다, 불참하다, 빠지다
+ 特に - 특히
+ 発音 - 발음
+ 覚えておきます - 기억해 두다, 기억하다, 명심하다, 잘 기억하다, 확실히 기억하다
+173 music 음악: 좋아하는 음악 말하기
+ ながら - [nagara] - 지만, 오면서
+ クラシック - [kurashikku] - 클래식
+ ピアニスト - [pianisuto] - 피아니스트
+ ミュージシャン - [myūjishan] - 뮤지션
+ メロディー - [merodī] - 멜로디
+ リズム - [rizumu] - 리듬
+ 側 - 쪽
+ 元気 - 건강
+ 名作 - 명작
+ 所属しています - 소속되다, 속하다, 가입하다, 소속되어 있다
+ 時には - 때로는
+ 燃えます - 타다, 불타다, 연소하다, 타오르다
+ 言い張ります - 우기다, 주장하다, 고집하다, 고집부리다
+ 金庫 - 금고
+ 鋭い - 날카롭다, 예리하다, 뾰족하다, 예민하다, 신랄하다
+ 録音 - 녹음
+ 電卓 - 계산기
+174 healthy habits 일상: 건강 습관 이야기하기
+ メッセージ - [messēji] - 메시지
+ 七番目 - 일곱 번째
+ 乗り換え - 환승
+ 仕事を探しています - 일을 찾고 있습니다, 직장을 구하고 있습니다, 일자리를 찾고 있습니다, 일을 구하고 있습니다
+ 他に - 또, 외의
+ 割引券 - 할인권
+ 十点 - 열 개
+ 取材します - 취재하다, 취재를 하다, 취재를 진행하다
+ 早起きします - 일찍 일어나다, 일찍 일어납니다, 일찍 일어나요
+ 権利 - 권리
+ 氷 - 얼음
+ 湖 - 호수
+ 登録 - 등록
+ 絶対に - 절대로
+ 薄い - 얇아서, 얇은, 얇습니다, 얇지만
+ 調子 - 컨디션
+ 離婚 - 이혼
+175 safety precautions 안전: 안전 규칙 설명하기
+ から - [kara] - 길래, 부터, 으므로, 로부터, 좋길래, 므로, 때문이라고
+ それから - [sorekara] - 그리고
+ はっきりしていません - [hakkirishiteimasen] - 명확하지 않다
+ 一つずつ - 하나씩
+ 丸い - 둥급니다, 둥근
+ 冷たい - 차갑습니다, 쌀쌀해
+ 列 - 줄
+ 合理的 - 합리적인
+ 娘 - 딸
+ 安全に - 안전하게
+ 料金 - 요금
+ 早めに - 일찍
+ 武器 - 무기
+ 真面目に - 진지하게
+ 空手 - 가라테
+ 進みます - 나아가다, 진행되다, 진척되다, 전진하다, 발전하다, 가다
+ 関係 - 관계
+ 願い事 - 소원
+176 debate 학교생활: 겨울 음식을 소개하기
+ おでん - [oden] - 오뎅
+ お大事に - [o dà shìni] - 몸조리 잘 하세요
+ しまいます - [shimaimasu] - 넣다, 치우다, 끝내다, 해버리다, 완료하다, 하고 말다
+ でしょう - [deshou] - 겠네요., 있겠어요
+ なくします - [nakushimasu] - 잃어버립니까?, 잃어버립니다.
+ コラム - [koramu] - 칼럼
+ ラッキー - [rakkī] - 운이 좋은
+ 一巻 - 1권
+ 不自由のある - 불편한, 불자유한, 장애가 있는
+ 充分 - 충분하다
+ 最後に - 마지막으로
+ 泥 - 진흙
+ 留学生 - 유학생
+ 直接 - 직접
+ 相手 - 상대
+ 誰でも - 누구나
+ 違い - 차이
+ 髪型 - 헤어스타일
+177 public occasions 동아리: 동아리 행사 안내하기
+ くださいます - [kudasaimasu] - 주시다, 주다, 주십니다
+ ご存知 - [go cún zhī] - 아시다, 알고 계시다, 알고 있다
+ ご覧になります - [go lǎnninarimasu] - 보시다, 보다, 관람하다, 감상하다
+ ぜいたく - [zeitaku] - 사치
+ なさいます - [nasaimasu] - 하시다, 하십니다, 하세요
+ ふさわしい - [fusawashii] - 만합니다, 어울리는, 알맞은, 적절한, 적합해요, 합당한, 적합한, 적합할
+ パン屋さん - [pan wūsan] - 빵집 주인
+ 前向き - 긍정적인
+ 声をかけます - 말을 걸다, 인사하다, 부르다
+ 学園祭 - 학교 축제
+ 本 - 책, 자루를, 자루가, 책들이, 자루의, 송이를, 자루, 편을
+ 来学期 - 다음 학기
+ 立候補 - 입후보
+ 結婚 - 결혼, 결혼과는
+ 通訳 - 통역
+178 customer service 도움: 도움을 요청해 보기
+ お礼 - [o lǐ] - 감사 인사
+ になります - [ninarimasu] - 해집니다, 됩니다, 됩니까
+ サポートします - [sapōtoshimasu] - 지원하다, 돕다, 보조하다, 서포트하다, 도와주다
+ バイト先 - [baito xiān] - 아르바이트 장소
+ 優しく - 부드럽게
+ 協力 - 협동, 도와주다, 협력에서는, 협동을, 협력, 협조, 협동이
+ 孫 - 손주의, 손주, 손자, 손주를, 손주는
+ 技術 - 기술
+ 暖房 - 난방
+ 最低 - 최소
+ 比べます - 비교하다, 비교해 보다, 견주다, 대조하다
+ 満足 - 만족하다
+ 箱 - 상자
+ 素晴らしい - 대단하대, 멋진, 뛰어나요, 멋지더라고요
+ 練習 - 연습
+ 見た目 - 외모
+ 銀座 - 긴자
+ 韓国語 - 한국어
+179 visual arts 작품: 작품 설명하기
+ えいきょう - [eikyou] - 영향
+ お花畑 - [o huā tián] - 꽃밭
+ みたい - [mitai] - 같아졌습니다, 같았습니다, 같아
+ よう - [you] - 방법, 모양, 듯, 것, 것처럼, 용, 모습, 식, 양, 태도, 하려고
+ タイトル - [taitoru] - 제목
+ ライティング - [raitingu] - 조명
+ 効果 - 효과
+ 壁 - 벽
+ 本物 - 진짜
+ 森 - 숲
+ 準備万端 - 만반의 준비
+ 科学 - 과학
+ 荷物 - 짐
+ 葉っぱ - 잎사귀
+ 虹 - 무지개
+180 public transit 이동: 대중교통 상황 말하기
+ います - [imasu] - 있습니다.
+ おす - [osu] - 수컷
+ お皿 - [o mǐn] - 접시
+ アプリ決済 - [apuri jué jì] - 앱 결제
+ エンタメ - [entame] - 엔터테인먼트
+ バス停 - [basu tíng] - 버스 정류장
+ ラッシュ - [rasshu] - 러시
+ ルート - [rūto] - 루트
+ 十五番目 - 열다섯 번째
+ 地下鉄 - 지하철
+ 大声で - 큰 소리로
+ 床 - 바닥
+ 得意 - 능숙한
+ 手続き - 절차
+ 着陸 - 착륙
+ 西口 - 서쪽 출구
+181 library 도서관: 도서관 이용 방법 말하기
+ こういう - [kouiu] - 이런, 이러한, 이런 종류의, 이런 식의, 이런 형태의
+ しまいます - [shimaimasu] - 넣다, 치우다, 끝내다, 해버리다, 완료하다, 하고 말다
+ どうしたら - [doushitara] - 어떻게 하면
+ へとへと - [hetoheto] - 기진맥진
+ らいいですか - [raiidesuka] - 해도 되나요, 해도 될까요, 해도 괜찮나요, 해도 좋나요, 세우면 되나요, 두면 되나요
+ らどうですか - [radoudesuka] - 어떻습니까, 어때요, 어떠세요, 어떠니, 해 보는 게 어때요, 해 보는 건 어때요
+ カウンター席 - [kauntā xí] - 카운터석
+ 両親 - 부모님
+ 五番目 - 다섯 번째
+ 先に - 먼저
+ 図書館 - 도서관
+ 境界線 - 경계선
+ 棚 - 선반
+ 正式 - 정식
+ 美術館 - 미술관
+ 蒸し暑い - 습했는데, 후덥지근하다, 무덥다, 덥다, 답답했어요
+ 面接 - 면접, 접견, 인터뷰, 면접을
+182 everyday tech 행사: 행사 경험 말하기
+ お祝い - [o zhùi] - 축하
+ と関係があります - [to guān xìgaarimasu] - 와 관련이 있다, 과 관련이 있다, 와 연관이 있다, 과 연관이 있다, 와 관련되다, 과 관련되다
+ ぶんせき - [bunseki] - 분석
+ イヤホン - [iyahon] - 이어폰
+ ネット - [netto] - 인터넷
+ バッテリー - [batterī] - 배터리
+ 公開します - 공개하다, 발표하다, 공개적으로 알리다, 공개 발표하다
+ 再起動します - 재시작하다, 다시 시작하다, 재부팅하다
+ 割れます - 깨지다, 부서지다, 갈라지다, 쪼개지다, 금가다
+ 宇宙 - 우주
+ 港 - 항구
+ 突然 - 갑작스러운
+ 綿 - 면
+ 花火大会 - 불꽃놀이 축제
+ 間 - 동안
+ 間に - 동안에, 기간에는, 사이에, 동안에는, 이내에, 동안은, 사이에는, 중간에, 내에, 동안, 사이에서
+183 job interview 회사생활: 경험을 소개하기
+ おります - [orimasu] - 있다, 하다, 계시다, 알다, 준비하다, 살다
+ 会議室 - 회의실
+ 伺います - 묻다, 방문하다, 방문드리다, 여쭙다, 듣다, 찾아뵙다
+ 判断します - 판단하다, 결정하다, 평가하다
+ 十二番目 - 열두 번째
+ 子供のころ - 어렸을 때
+ 存じます - 알다, 생각하다, 여기다
+ 拝見します - 뵙다, 보다, 살펴보다, 확인하다
+ 整えます - 정돈하다, 정리하다, 준비하다, 갖추다, 조정하다
+ 注意 - 주의해서, 주의는, 주의라고, 주의사항에
+ 無職 - 무직
+ 申し上げます - 말씀드리다, 전하다, 알리다, 고하다, 올리다
+ 私 - 저
+ 約束 - 약속을, 약속의
+ 細かい - 꼼꼼한, 까다롭, 자세한, 상세해서, 작은, 사소한, 자잘한, 상세해, 세밀한, 상세해요, 까다로워서, 까다롭기로
+ 給料 - 급여
+ 自己紹介します - 자기소개하다, 자신을 소개하다, 자기소개를 하다, 소개하겠습니다, 소개할게요
+184 cultural practices 설명: 위치 설명하기
+ いただきます - [itadakimasu] - 먹겠습니다
+ します - [shimasu] - 합니다
+ でしょうか - [deshouka] - 일지요, 겠습니까, 인지요, 정상일까요, 인가요, 일까요, 얼까
+ コツ - [kotsu] - 요령
+ チーム - [chīmu] - 팀
+ 分かりやすい - 알기 쉬운, 이해하기 쉬운, 명확한, 분명한, 명료한
+ 印象 - 인상
+ 政府 - 정부
+ 日陰 - 그늘
+ 正直に - 솔직하게
+ 汚れ - 얼룩
+ 真面目 - 성실하다
+ 紙袋 - 종이봉투
+ 経験 - 경험
+ 行事 - 행사
+ 門 - 문
+ 静かに - 조용히
+185 restaurant experiences 음식점: 식당 위치 물어보기
+ お腹 - [o fù] - 배
+ そう - [sou] - 그렇다, 그렇습니까
+ ていねい - [teinei] - 정중한, 공손한, 꼼꼼한, 세심한, 신중한, 정성스러운, 자세한
+ よろしくお願いします - [yoroshikuo yuànishimasu] - 잘 부탁드립니다
+ 不機嫌 - 기분이 나쁘다
+ 今学期 - 이번 학기
+ 容量 - 용량
+ 店内 - 매장 내
+ 指輪 - 반지
+ 日差し - 햇살
+ 生き物 - 생물
+ 看板 - 간판
+ 面倒を見ます - 돌보다, 보살피다, 챙기다, 신경 쓰다, 책임지다, 돌봐주다
+ 駅前 - 역 앞
+186 self-expression 추억: 추억 이야기하기
+ きれいに - [kireini] - 깨끗하게
+ この辺り - [kono biānri] - 이 근처
+ せめて - [semete] - 적어도
+ つもり - [tsumori] - 셈이, 예정, 셈이라고, 셈, 셈이네요
+ で - [de] - 에, 만에, 인데, 에서, 로, 으로, 대로, 서, 하나에서
+ 危機 - 위기
+ 夏休み - 여름 방학
+ 岸 - 강가
+ 弱い - 약합니다, 덜해
+ 明け方 - 새벽
+ 正面 - 정면
+ 燃やすゴミ - 소각 쓰레기
+ 絹 - 비단
+ 記事 - 기사
+ 誕生 - 탄생
+ 距離 - 거리
+187 film 영화: 주변 가게 알아보기
+ くだらない - [kudaranai] - 하찮다, 시시하다, 쓸데없다, 무의미하다, 재미없다, 재미있다
+ ずっと - [zutto] - 계속
+ なんとか - [nantoka] - 어떻게든
+ はず - [hazu] - 해야 합니다.
+ 俳優 - 배우
+ 前は - 예전에는
+ 収集 - 수거
+ 実際の - 실제의
+ 影 - 그림자
+ 枝 - 가지
+ 柔らかい - 부드러웠더라면, 부드러운, 부드럽습니다, 포근하, 연해, 포근해, 포근한, 포근해서, 연하면
+ 汚染 - 오염
+ 結末 - 결말
+ 裁判所 - 법원
+ 誰にでも - 누구에게나
+ 貿易 - 무역
+ 農業 - 농업
+ 長さ - 길이, 길이에, 길, 길이는, 길이를
+ 養子 - 양자
+188 geography 자료: 그래프 비교하기
+ かわいそう - [kawaisou] - 불쌍합니다, 불쌍해서, 불쌍하다, 불쌍한
+ がけ - [gake] - 절벽
+ へ - [he] - 으로, 에
+ グラフ - [gurafu] - 그래프
+ メーカー - [mēkā] - 제조업체, 메이커, 생산자, 제작사, 제조사
+ ユーザー - [yūzā] - 사용자
+ 可能性 - 가능성
+ 向こう - 저쪽
+ 基本的 - 기본적이다
+ 大陸 - 대륙
+ 引っ張ります - 당기다, 끌다, 잡아당기다, 견인하다
+ 文章 - 본문이, 본문을, 문장을, 문장이, 글의
+ 書類 - 서류
+ 最優先 - 최우선
+ 最初 - 처음
+ 海岸 - 해안
+ 湾 - 만
+ 近く - 근처
+ 鉄 - 철
+189 future plans 2 시험: 시험 준비 방법 말하기
+ お守り - [o shǒuri] - 부적
+ じゅんすい - [junsui] - 순수, 깨끗함, 청정, 맑음, 순결, 순도, 순도 높은
+ そのあと - [sonoato] - 그 후
+ といいですね - [toiidesune] - 좋겠네요, 좋으면 좋겠어요, 바랄게요, 희망해요, 바라면 좋겠어요, 오면 좋겠네요, 오면 좋겠어요
+ セール品 - [sēru pǐn] - 세일 상품
+ ハヌカ - [hanuka] - 하누카
+ 割 - 할
+ 履歴書 - 이력서
+ 忘れずに - 잊지 않고
+ 早い - 이르게, 일러요, 빠르대, 빠릅니까, 빠릅니다, 이릅니다, 빨라, 빠르더라
+ 月 - 달
+ 条件 - 조건
+ 物価 - 물가
+ 管理 - 관리
+ 試験 - 시험
+ 賞 - 상
+ 赤ちゃん - 아기
+190 scientific discoveries 미래: 미래에 대해 이야기하기
+ そういう - [souiu] - 그런
+ とか - [toka] - 또는, 뭐, 같은, 등, 혹은, 와, 과
+ の代わりに - [no dàiwarini] - 대신에
+ みたい - [mitai] - 같아졌습니다, 같았습니다, 같아
+ わくわくします - [wakuwakushimasu] - 설레다, 두근거리다, 기대되다, 신나다, 흥분되다, 기대하다, 마음이 설레다
+ ロボット - [robotto] - 로봇
+ 世界中 - 전 세계
+ 便 - 편
+ 心理学 - 심리학
+ 恐怖 - 공포
+ 想像力 - 상상력
+ 意見 - 의견
+ 才能があります - 재능이 있다, 능력이 있다, 소질이 있다, 재주가 있다, 재능이 뛰어나다
+ 植物 - 식물
+ 注意 - 주의해서, 주의는, 주의라고, 주의사항에
+ 煙 - 연기
+ 賢い - 똑똑하네요, 똑똑합니다, 똑똑합니까
+ 重要 - 중요한
+ 金色 - 금색
+191 buying goods 물건: 필요한 것 정하기
+ だけ - [dake] - 만, 뿐
+ だけじゃなくて - [dakejanakute] - 뿐만 아니라
+ ちょうどいい - [choudoii] - 좋네요
+ どうしますか - [doushimasuka] - 어떻게 하다, 어떻게 할까요, 어떻게 하시겠습니까, 어떻게 하지요, 어떻게 할래요
+ にいい - [niii] - 에 좋다, 에 유익하다, 에 적합하다, 에 알맞다
+ マナーモード - [manāmōdo] - 매너 모드
+ メーカー - [mēkā] - 제조업체, 메이커, 생산자, 제작사, 제조사
+ モデル - [moderu] - 모델
+ 修理の人 - 수리공
+ 切符 - 표
+ 十個 - 열 개
+ 嬉しい - 뿌듯해요, 기쁩니다, 뿌듯했어요, 흥겨운, 뿌듯했어, 즐겁지만은, 뿌듯해, 좋겠다는
+ 専門家 - 전문가
+ 布団 - 이불
+ 日用品 - 일용품
+ 輝きます - 빛나다, 반짝이다, 빛을 발하다
+ 長持ち - 내구성이 좋다
+192 environmental features 공원: 공원에서 사진 찍기
+ うちに - [uchini] - 동안에, 사이에, 틈에
+ きれい - [kirei] - 아름다운
+ プライベート - [puraibēto] - 프라이빗
+ 人形 - 인형
+ 協会 - 협회
+ 土台 - 기초
+ 埋めます - 묻다, 메우다, 채우다
+ 変わります - 바뀝니다
+ 平ら - 평평하다
+ 曇ります - 흐리다, 구름이 끼다, 흐려지다
+ 水道 - 상수도
+ 緑 - 녹음
+ 耳の不自由 - 귀가 불편한
+ 返品 - 반품
+ 鼻水が出ます - 콧물이 나다, 콧물이 흐르다, 콧물이 나오다, 콧물이 흘리다
+193 religion 모임: 모임 시간 정하기
+ お寺 - [o sì] - 절
+ お菓子屋 - [o guǒ zi wū] - 과자점
+ ことにします - [kotonishimasu] - 결정하다, 하기로 하다, 정하다, 선택하다, 결심하다, 결정하기로 하다, 하기로 결정하다
+ それぞれ - [sorezore] - 각각
+ マイノリティ - [mainoriti] - 소수자
+ 今まで - 지금까지
+ 宗教 - 종교
+ 心配 - 걱정
+ 手作り - 수제
+ 改札 - 개찰구
+ 教会 - 교회
+ 満足している - 만족하다
+ 空港 - 공항
+ 約束 - 약속을, 약속의
+ 考えが変わる - 생각이 바뀌다, 생각이 달라지다, 의견이 바뀌다, 관점이 바뀌다, 생각이 달라질 수 있다
+ 考え方 - 생각하는 방식
+ 設備 - 설비
+ 認めます - 인정하다, 받아들이다, 허락하다, 승인하다, 알아보다
+194 recycling and waste 일상생활: 산책 일정 정하기
+ と思います - [to sīimasu] - 생각하지만, 생각합니다
+ なので - [nanode] - 하기 때문에
+ よね - [yone] - 지요, 잖아
+ ダメ - [dame] - 안 돼
+ リサイクルボックス - [risaikurubokkusu] - 재활용함
+ 例 - 예
+ 全然 - 전혀
+ 刺し身 - 사시미
+ 古着 - 중고 옷
+ 州 - 주
+ 手袋 - 장갑
+ 用意します - 준비하다, 마련하다, 대비하다
+ 発表 - 공개는, 회의든, 발표, 발표든
+ 繋がります - 연결되다, 이어지다, 닿다, 관계되다, 관련되다, 이르다
+ 謝罪 - 사과의, 사과했습니다, 사과하고, 사과를, 용서를
+ 賛成 - 찬성
+ 跡 - 자국
+195 digital tools 공간: 공간 관리 방법 말하기
+ usbメモリー - USB 메모리
+ きかい - [kikai] - 기회
+ って - [tte] - 이라고, 라고, 는, 고, 은, 에 대해, 냐고요
+ と比べて - [to bǐbete] - 와 비교하여, 와 비교해서, 와 견주어, 에 비해, 에 비해서
+ どこからでも - [dokokarademo] - 어디서든
+ スイッチ - [suitchi] - 스위치
+ メモ - [memo] - 메모
+ 他の場所 - 다른 장소
+ 友情 - 우정
+ 手を貸します - 도와주다, 도움을 주다, 손을 빌려주다, 거들다, 협력하다, 지원하다
+ 旅館 - 료칸
+ 有罪 - 유죄
+ 橋 - 다리
+ 涼しい - 시원합니다, 선선하길래, 쌀쌀해, 선선하
+ 番号 - 번호
+ 設定 - 설정
+ 電球 - 전구
+ 頼ります - 의지하다, 기대다, 믿다, 의존하다
+196 gardening 정원: 정원 활동 소개하기
+ つづけます - [tsudzukemasu] - 계속하다, 이어가다, 지속하다
+ ハーブ - [hābu] - 허브
+ 会場 - 현장을, 공연장이, 회장, 공연장에서
+ 傷つけます - 상처를 입히다, 다치게 하다, 아프게 하다, 해치다, 손상시키다, 상처 입히다, 다치다, 아프다
+ 初心者 - 초보자
+ 土 - 흙
+ 水をやります - 물을 주다, 물을 줍니다
+ 神社 - 신사
+ 肌 - 피부
+ 言葉にします - 말하다, 표현하다, 말로 하다, 말로 표현하다, 말로 옮기다
+ 説明 - 설명
+ 軽く - 가볍게
+ 関係 - 관계
+ 隣の - 옆의
+197 weddings 결혼식: 필요한 물건 챙기기
+ ことです - [kotodesu] - 것이다, 것, 일이다, 사실이다, 내용이다, 목표이다
+ つまり - [tsumari] - 즉
+ ということです - [toiukotodesu] - 셈이지요, 셈입니다
+ スタイリスト - [sutairisuto] - 스타일리스트
+ 口座 - 계좌
+ 夫婦 - 부부
+ 建物 - 건물
+ 心から - 진심으로
+ 掃除機 - 청소기
+ 机 - 책상
+ 歴史 - 역사
+ 番組 - 프로그램
+ 絆 - 유대
+ 結婚式 - 결혼식
+ 複雑 - 복잡하다
+ 費用 - 비용
+198 travel experiences 주변: 주변 지역 설명하기
+ ご家族 - [go jiā zú] - 가족
+ と - [to] - 이랑, 케이팝하고, 하고, 과, 색과, 와, 물하고, 트리와, 커피하고, 드레스하고, 으면, ', 톱과, 냐고, 랑, 표랑, 내일이라고
+ のんびり - [nonbiri] - 느긋하게
+ ローマ - [rōma] - 로마
+ 会話 - 대화
+ 動物 - 동물
+ 名刺 - 명함
+ 地元の人 - 지역 주민
+ 寂しい - 외롭습니다, 아쉽더라고요, 한적해
+ 布 - 천
+ 政治的 - 정치적인
+ 暗い - 어두우므로, 둡, 어둡더니
+ 海外旅行 - 해외여행
+ 目的 - 목적
+ 辺り - 주변
+199 getting a haircut / salon 외모: 머리 스타일 설명하기
+ あこがれの人 - [akogareno rén] - 동경하는 사람
+ いい感じ - [ii gǎnji] - 좋은 느낌
+ いただきます - [itadakimasu] - 먹겠습니다
+ ご - [go] - 어
+ しっぽ - [shippo] - 꼬리
+ じょうだん - [joudan] - 농담
+ すごいと思います - [sugoito sīimasu] - 대단하다고 생각합니다, 굉장하다고 생각합니다, 멋지다고 생각합니다, 놀랍다고 생각합니다, 최고라고 생각합니다, 훌륭하다고 생각합니다
+ 任せます - 맡기다, 부탁하다, 위임하다, 의지하다
+ 偶然 - 우연히
+ 八番目 - 여덟 번째
+ 商業 - 상업
+ 四分の一 - 4분의 1
+ 大切にします - 소중히 여기다, 소중히 하다, 귀하게 여기다, 중요하게 생각하다, 아끼다, 잘 돌보다
+ 格好 - 복장
+ 真ん中 - 가운데
+ 美容室 - 미용실
+ 長さ - 길이, 길이에, 길, 길이는, 길이를
+ 風邪を引きます - 감기에 걸리다, 감기 들다
+ 髪 - 머리카락
+200 gift giving 직장과 쇼핑: 선물 고르기
+ こんな - [kon'na] - 이런
+ だいたい - [daitai] - 대체로, 대강, 거의, 대략, 대개, 약, 대충, 대략적으로, 약간
+ ですか - [desuka] - 입니까?
+ ままです - [mamadesu] - 그대로이다, 변하지 않다, 유지되다, 상태가 계속되다, 둔 상태이다, 놓아둔 상태이다, 그대로 두다
+ エコバッグ - [ekobaggu] - 에코백
+ 三本 - 세 개
+ 値段 - 가격
+ 息子 - 아들
+ 悩み - 고민
+ 支えます - 지탱하다, 지지하다, 받치다, 부양하다, 지원하다, 도와주다
+ 新婦 - 신부
+ 注文 - 주문
+ 派手 - 화려한
+ 笑顔 - 미소
+ 表 - 앞면
+ 誕生日パーティー - 생일 파티
+ 転職します - 이직하다, 직장을 옮기다, 전직하다
+ 高級 - 고급
+201 geopolitical issues 정보: 주변 정보 알려 주기
+ しょうこ - [shouko] - 증거
+ らしい - [rashii] - 듯하, 던데, 듯합니다, 본대
+ 三泊 - 3박
+ 予約 - 예약
+ 到着 - 도착
+ 力を入れます - 힘을 쏟다, 노력하다, 열중하다, 집중하다, 전력을 다하다, 전념하다, 힘쓰다
+ 囲みます - 둘러싸다, 에워싸다, 감싸다, 포위하다, 모이다, 둘러앉다
+ 国際ニュース - 국제 뉴스
+ 奥さん - 아내
+ 安定 - 안정
+ 後についていきます - 뒤따르다, 따라가다, 뒤를 따르다, 따라오다
+ 水族館 - 수족관
+ 用事 - 볼일
+ 記者 - 기자
+ 近いうちに - 조만간
+ 金 - 금
+ 食パン - 식빵
+ 首都 - 수도
+202 types of cuisine 음식: 좋아하는 음식 소개하기
+ なら - [nara] - 더라면, 다면, 라도
+ デカい - [dekai] - 크다, 거대하다, 거대한, 큰
+ パン屋 - [pan wū] - 빵집
+ ベジタリアン - [bejitarian] - 채식주의자
+ ラザニア - [razania] - 라자냐
+ 個 - 개
+ 好み - 취향
+ 寿司 - 스시
+ 心 - 마음
+ 快速 - 쾌속
+ 機会 - 기회
+ 焼き鳥 - 야키토리, 닭꼬치, 구운 닭고기
+ 硬い - 딱딱합니다, 뻣뻣하면, 딱딱해
+ 約束 - 약속을, 약속의
+ 舌 - 혀
+ 苦手 - 서툴다
+ 選手 - 선수
+ 食べ放題 - 뷔페, 무제한 식사, 마음껏 먹기, 무한리필
+203 fashion 옷차림: 새 옷 소개하기
+ くせ毛 - [kuse máo] - 곱슬머리
+ ばかり - [bakari] - 막
+ オフィスカジュアル - [ofisukajuaru] - 오피스 캐주얼
+ コレクション - [korekushon] - 컬렉션
+ シャツ - [shatsu] - 셔츠
+ シーズン - [shīzun] - 시즌
+ 効きます - 듣다, 효과가 있다, 잘 듣다, 효력이 있다, 작용하다
+ 十点 - 십 점
+ 方法 - 방법
+ 最大限 - 최대한
+ 毎 - 매일, 매년
+ 簡単に - 간단하게
+ 素敵 - 멋지다
+ 試着室 - 피팅룸
+ 誌 - 지
+ 重さを量ります - 무게를 재다, 무게를 측정하다, 무게를 달다
+204 first aid 온천: 온천용품 준비하기
+ けが - [kega] - 부상
+ さえ - [sae] - 까지, 만 하면, 조차, 심지어, 만 되면, 만, 마저, 라도
+ その間 - [sono jiān] - 그동안
+ ちらっと見ます - [chiratto jiànmasu] - 힐끗 보다, 슬쩍 보다, 잠깐 보다, 흘끗 보다, 슬쩍 쳐다보다
+ 会議 - 회의
+ 割合 - 비율
+ 周りの人 - 주변 사람들
+ 失敗 - 실패
+ 彼女 - 여자친구
+ 擦り傷 - 찰과상
+ 救急車 - 구급차
+ 普通 - 보통
+ 有能 - 유능한
+ 温泉 - 온천
+ 研修 - 연수
+ 種 - 씨앗
+ 観光 - 관광
+ 防災 - 방재
+ 集まり - 모임
+205 destinations 시설: 시설 위치 묻기
+ お願いしました - [o yuànishimashita] - 부탁하다
+ で - [de] - 에, 만에, 인데, 에서, 로, 으로, 대로, 서, 하나에서
+ でしょう - [deshou] - 겠네요., 있겠어요
+ とめます - [tomemasu] - 세우니까, 세웁니다
+ ほっとした - [hottoshita] - 안도하다
+ インフォメーション - [infomēshon] - 정보, 안내, 인포메이션, 안내소, 안내 데스크, 안내센터
+ サウナ - [sauna] - 사우나
+ トレンド - [torendo] - 트렌드
+ 両方 - 둘 다
+ 六個 - 여섯 개
+ 商店街 - 상점가
+ 宿題 - 숙제
+ 池 - 연못
+ 沖縄 - 오키나와
+ 浮きます - 뜨다, 떠오르다, 부유하다, 떠다니다, 떠있다
+ 珍しい - 이례적인, 독특한, 드문, 신기할, 희귀한, 보기 드문, 드물지, 진귀한, 이례적이
+ 砂まみれ - 모래투성이
+ 自由に - 자유롭게
+ 連れて行きます - 데리고 가다, 함께 가다
+ 階段 - 계단
+206 family structure 가족: 가족 역할 설명하기
+ おかげで - [okagede] - 덕분에
+ お祭り - [o jìri] - 축제
+ けっきょく - [kekkyoku] - 결국
+ はっきりと - [hakkirito] - 분명하게
+ コミュニティ - [komyuniti] - 커뮤니티
+ ノックします - [nokkushimasu] - 노크하다, 두드리다, 문을 두드리다
+ レイアウト - [reiauto] - 레이아웃
+ 入院 - 입원
+ 夢 - 꿈
+ 女優 - 여배우
+ 家族会議 - 가족회의
+ 意味 - 의미
+ 知事 - 지사, 도지사, 현지사
+ 郊外 - 교외
+ 離婚した - 이혼한
+ 頼りになります - 의지가 되다, 믿음이 되다, 도움이 되다, 신뢰할 수 있다, 든든하다, 믿음직하다
+207 philosophy 수업: 이웃에 대해 이야기하기
+ じまん - [jiman] - 자랑
+ てつがく - [tetsugaku] - 철학
+ どこにも - [dokonimo] - 아무 데도
+ どこも - [dokomo] - 어디도
+ ワンチャンあります - [wanchanarimasu] - 가능성 있다, 희박한 기회가 있다, 한 번의 기회가 있다, 가능성 있어요, 기회 있어요
+ 丸 - 원
+ 住所 - 주소
+ 何も - 아무것도
+ 全く - 전혀
+ 受け入れられます - 받아들이다, 받아들여지다, 수용하다, 수용되다, 인정받다
+ 強引に - 강제로
+ 必要 - 필요한
+ 忘れられない - 잊을 수 없는, 잊지 못하는, 잊혀지지 않는, 기억에 남는
+ 最悪 - 최악
+ 正解 - 정답
+ 無視します - 무시하다, 외면하다, 모른 척하다
+ 経済 - 경제
+ 能力 - 능력
+ 誰にも - 아무에게도
+ 誰も - 아무도
+208 sports 2 경기: 팀워크 설명하기
+ あきらめます - [akiramemasu] - 포기하다, 단념하다, 체념하다
+ ほど - [hodo] - 정도
+ ゴール - [gōru] - 골
+ プレッシャー - [puresshā] - 압박감
+ マラソン大会 - [marason dà huì] - 마라톤 대회
+ 体力 - 체력
+ 勝負します - 승부하다, 겨루다, 대결하다, 시합하다, 경쟁하다, 겨룬다
+ 商品 - 상품
+ 定食 - 정식
+ 年齢 - 나이
+ 戦い - 전투
+ 打ちます - 치다, 때리다, 두드리다, 부딪치다, 던지다
+ 深さ - 깊이
+ 相手 - 상대
+ 緊急事態 - 긴급 상황
+ 腕 - 팔
+ 袋 - 봉투
+ 進めます - 나아가다, 진행하다, 추진하다, 앞당기다, 권하다, 준비하다
+209 public policy 시내생활: 시내 변화 설명하기
+ だから - [dakara] - 그러니까
+ ほります - [horimasu] - 파다, 새기다, 조각하다, 뚫다
+ よね - [yone] - 지요, 잖아
+ わけ - [wake] - 이유
+ 中国語 - 중국어
+ 作家 - 작가
+ 全ての - 모든, 전부의, 전체의, 다, 모두의
+ 動きやすい - 움직이기 쉽다, 움직이기 편하다, 입기 편하다
+ 十億 - 십억
+ 十泊 - 십 박
+ 市内 - 시내
+ 最高 - 최고
+ 期待します - 기대하다, 바라다, 희망하다, 고대하다
+ 法律 - 법률
+ 謎 - 수수께끼
+ 進めます - 나아가다, 진행하다, 추진하다, 앞당기다, 권하다, 준비하다
+ 面倒 - 번거로운
+210 exercise routines 운동: 운동 계획 말하기
+ そのかわり - [sonokawari] - 그 대신
+ わけ - [wake] - 이유
+ わけじゃない - [wakejanai] - 것은 아니다
+ レベル - [reberu] - 레벨
+ 保護者 - 보호자
+ 優しい - 부드러웠더라면, 자상하, 친절하십니다, 자상하기
+ 前向き - 긍정적인
+ 助ける - 구하기가, 응원해주는, 도우는, 돕기, 도와줬더라면, 도울, 도와준, 구했어요, 도와주니
+ 十三番目 - 열세 번째
+ 嫌がります - 싫어하다, 꺼리다, 기피하다, 거부하다, 꺼려하다
+ 戻ります - 돌아가다, 돌아오다, 되돌아가다, 복귀하다
+ 才能 - 재능
+ 汗 - 땀
+ 無理 - 무리
+ 笑います - 웃습니다., 웃습니까?
+ 膝 - 무릎
+ 電気屋 - 전자제품 가게
+211 concerts and performances 여행: 일정 확인하기
+ か - [ka] - 필요합니까, 받았습니까, 줍니까, 거냐, 낫습니까, 봤습니까, 하니, 어떻습니까, 거나, 보냈습니까, 굽습니까, 든, 보냅니까, 아픕니까, 넘어졌습니까, 받습니까, 있습니까, 냐고, 입니까, 사용합니까, 것인지
+ オーケストラ - [ōkesutora] - 오케스트라
+ パンフレット - [panfuretto] - 팜플렛
+ 全然 - 전혀
+ 判断します - 판단하다, 결정하다, 평가하다
+ 十九番目 - 열아홉 번째
+ 周り - 주변
+ 地域 - 지역
+ 文化的 - 문화적인
+ 曲 - 곡
+ 歌手 - 가수
+ 発見 - 발견
+ 礼儀正しく - 예의 바르게
+ 背景 - 배경
+ 腕時計 - 손목시계
+ 観光 - 관광
+ 開始時間 - 시작 시간
+212 historical events 박물관: 역사적 사건 설명하기
+ あの時 - [ano shí] - 그때
+ だんだん - [dandan] - 점점
+ ついていません - [tsuiteimasen] - 운이 없다
+ ところ - [tokoro] - 곳
+ ショック - [shokku] - 충격
+ 世界 - 세계
+ 優先 - 우선
+ 十六番目 - 열여섯 번째
+ 博物館 - 박물관
+ 始まり - 시작
+ 新宿 - 신주쿠
+ 曇り - 흐림
+ 終了時間 - 종료 시간
+ 船長 - 선장
+ 見学します - 견학하다, 시찰하다
+ 銀行 - 은행
+213 diversity 활동: 활동 경험 공유하기
+ かんげいします - [kangeishimasu] - 환영하다, 맞이하다, 환대하다
+ さえ - [sae] - 까지, 만 하면, 조차, 심지어, 만 되면, 만, 마저, 라도
+ 三番目 - 세 번째
+ 体験します - 체험하다, 경험하다, 겪다
+ 十巻 - 열 권
+ 本当に - 정말
+ 焼きそば - 야키소바, 볶음면, 볶음국수, 소스 야키소바
+ 畳 - 다다미
+ 知識 - 지식
+ 科目 - 과목
+ 興味がない - 관심이 없다, 흥미가 없다, 흥미롭지 않다, 관심 없다
+ 論理 - 논리
+ 配ります - 나눠주다, 나누어 주다, 배포하다, 배부하다, 분배하다, 전달하다, 주다
+ 骨 - 뼈
+214 negotiation and persuasion 준비: 준비 시간 조율하기
+ ですか - [desuka] - -나요?
+ コスト - [kosuto] - 비용
+ スピード - [supīdo] - 속도
+ メートル - [mētoru] - 미터
+ ワゴン車 - [wagon chē] - 왜건차
+ 十番目 - 열 번째
+ 大事なところ - 중요한 부분
+ 態度 - 태도
+ 所 - 곳
+ 点 - 점
+ 燃やせないゴミ - 불연성 쓰레기
+ 緑 - 초록색
+ 習慣 - 습관
+ 解決 - 해결
+ 追加の - 추가의
+215 romantic relationships 감정: 감정 표현하기
+ じゃう - [jau] - 해버리다, 되어버리다, 끝내다, 버리다
+ ちゃう - [chau] - 해버리다, 틀리다, 잘못하다, 다르다, 끝내다
+ と - [to] - 이랑, 케이팝하고, 하고, 과, 색과, 와, 물하고, 트리와, 커피하고, 드레스하고, 으면, ', 톱과, 냐고, 랑, 표랑, 내일이라고
+ なんだか - [nandaka] - 왠지
+ の - [no] - 엔의, 것, 분의, 거니, 예산의, 것의, 의, 거라는
+ んだ - [nda] - 는 거야, 것이다, 거야, 이다, 는 것이다, 거냐
+ んだって - [ndatte] - 래
+ 八個 - 여덟 개
+ 応援します - 응원하다, 지지하다, 지원하다, 격려하다
+ 怒って - 화나서
+ 性格 - 성격
+ 悩みます - 고민하다, 걱정하다, 괴로워하다, 번뇌하다, 고뇌하다
+ 悲しい - 우울해, 슬픕니다, 슬퍼서는, 슬프기는, 속상해
+ 相手 - 상대
+ 素直 - 솔직한
+ 義務 - 의무
+ 賞 - 상
+ 雑誌 - 잡지
+216 public spaces 시설: 시설 분위기 묘사하기
+ かな - [kana] - 걸까, 건가, 을까, 할까
+ かも - [kamo] - 아마, 혹시
+ から - [kara] - 길래, 부터, 으므로, 로부터, 좋길래, 므로, 때문이라고
+ じゃダメ - [jadame] - 안 돼, 안 된다, 하면 안 돼, 하지 마
+ ちゃダメ - [chadame] - 안 돼
+ でかい - [dekai] - 큰
+ でしょ - [desho] - 그렇지
+ にぎやか - [nigiyaka] - 번화하다
+ アルコール - [arukōru] - 알코올
+ キャプテン - [kyaputen] - 캡틴
+ ノンアルコール - [non'arukōru] - 논알코올
+ 何もない - 아무것도 없다, 아무것도 없음, 아무것도 없는, 빈, 텅 빈
+ 刑務所 - 교도소
+ 場合 - 경우
+ 広告を出します - 광고를 게재하다, 광고를 내다, 광고를 게시하다, 광고를 싣다, 홍보를 하다
+ 深呼吸をします - 깊게 숨을 쉬다, 심호흡하다, 심호흡을 하다, 깊은 숨을 들이쉬다
+ 濃い - 짙은
+217 rural life 마을 생활: 마을 풍경 묘사하기
+ と - [to] - 이랑, 케이팝하고, 하고, 과, 색과, 와, 물하고, 트리와, 커피하고, 드레스하고, 으면, ', 톱과, 냐고, 랑, 표랑, 내일이라고
+ め - [me] - 눈이
+ もくげきしゃ - [mokugekisha] - 목격자
+ 一度 - 한 번
+ 個性 - 개성
+ 努力 - 노력
+ 収納 - 수납
+ 家事 - 가사
+ 小さな - 작은
+ 屋外 - 야외
+ 明かり - 불빛
+ 曲がり角 - 모퉁이
+ 泊まるところ - 머무를 곳
+ 直ります - 고쳐지다, 수리되다, 낫다, 바로잡히다
+ 落ち着きます - 진정하다, 안정되다, 차분해지다, 침착해지다, 마음이 가라앉다, 마음이 편안해지다
+ 観光客 - 관광객
+ 軽い - 경량, 가볍습니다, 덜해
+ 離れます - 떨어지다, 떠나다, 멀어지다, 분리되다, 헤어지다, 벗어나다
+218 museum visits 전시관: 전시관 규칙 설명하기
+ あきます - [akimasu] - 엽니까, 엽니다
+ まさかの - [masakano] - 뜻밖의
+ わけがない - [wakeganai] - 리가 없다
+ 上がります - 올라갑니까
+ 信号 - 신호등
+ 兄弟 - 형제
+ 入場 - 입장
+ 勉強になります - 도움이 됩니다, 유익합니다, 배우게 됩니다, 공부가 됩니다
+ 原宿 - 하라주쿠
+ 席 - 좌석
+ 後ろ向きに - 뒤를 향해, 뒤쪽으로, 뒤로, 부정적으로, 소극적으로
+ 意味があります - 의미가 있다, 뜻이 있다, 의미를 지니다, 의미를 갖다, 가치가 있다
+ 最後尾 - 맨 끝
+ 次に - 다음에
+ 欲しい - 갖고 싶습니다., 원하는데
+ 水筒 - 물통
+ 祝日 - 공휴일
+219 landmarks 전시관: 기념품 추천하기
+ ありえない - [arienai] - 있을 수 없는, 말도 안 되는, 불가능한, 상상할 수 없는, 터무니없는, 말도 안 돼, 믿을 수 없는
+ じっと - [jitto] - 가만히
+ と - [to] - 이랑, 케이팝하고, 하고, 과, 색과, 와, 물하고, 트리와, 커피하고, 드레스하고, 으면, ', 톱과, 냐고, 랑, 표랑, 내일이라고
+ めいわく - [meiwaku] - 폐 끼침
+ シリーズ - [shirīzu] - 시리즈
+ 伝統的 - 전통적인
+ 冒険者 - 모험가
+ 国立 - 국립
+ 後ろ向きに - 뒤를 향해, 뒤쪽으로, 뒤로, 부정적으로, 소극적으로
+ 星 - 별
+ 案内の人 - 안내원
+ 資料 - 자료
+ 頂上 - 정상
+220 civic life 문서: 문서 이용 방법 묻기
+ への - [heno] - 에 대한, 으로의, 향한, 에게, 에, 에로의
+ ほとんど - [hotondo] - 거의
+ 代理店 - 대리점
+ 六巻 - 6권
+ 届けます - 배달하다, 전하다, 전달하다, 보내다, 도달하다, 배달해 주다
+ 巻 - 권
+ 市民 - 시민
+ 市長 - 시장
+ 掛かります - 걸리다, 소요되다
+ 掲示板 - 게시판
+ 渡します - 건네다, 넘기다, 주다, 전달하다, 건네주다, 나눠주다
+ 経験 - 경험을, 경험은
+ 親子 - 부모와 자식
+ 言い訳 - 변명
+ 証明します - 증명하다, 입증하다, 증거를 제시하다
+ 論文 - 논문
+ 高校生 - 고등학생
+221 extending accepting and declining invitations 행사: 친구 초대하기
+ お久しぶり - [o jiǔshiburi] - 오랜만이에요
+ けど - [kedo] - 지만, 던데
+ そういうこと - [souiukoto] - 그런 거
+ なら - [nara] - 더라면, 다면, 라도
+ 作家 - 작가
+ 完全 - 완전한
+ 感動します - 감동하다, 감격하다, 감명받다, 감탄하다
+ 手編み - 손뜨개
+ 数えます - 세다, 헤아리다, 세어보다
+ 本当は - 사실은
+ 気にします - 신경 쓰다, 마음에 두다, 걱정하다, 관심을 가지다, 염려하다, 의식하다
+ 消防車 - 소방차
+ 演技 - 연기
+ 状況 - 상황
+ 要素 - 요소
+ 質問 - 질문
+ 間もなく - 곧
+ 風船 - 풍선
+222 volunteering 모임: 모임에서 아이디어 내기
+ として - [toshite] - 하려고, 으려고, 로서
+ になります - [ninarimasu] - 해집니다, 됩니다, 됩니까
+ 多分 - 아마도
+ 嬉しい - 뿌듯해요, 기쁩니다, 뿌듯했어요, 흥겨운, 뿌듯했어, 즐겁지만은, 뿌듯해, 좋겠다는
+ 居酒屋 - 이자카야
+ 引き出し - 서랍
+ 恥ずかしい - 민망한, 민망해요, 민망해, 부끄럽습니다, 민망했어요, 민망하네요, 민망하, 민망해서
+ 毎回 - 매번
+ 研究 - 연구
+ 空っぽ - 텅 빈
+ 考え - 생각
+ 自分勝手 - 이기적인
+ 虫 - 벌레
+ 近所の人 - 이웃 사람
+ 追加で - 추가로
+ 重さ - 무게
+ 野菜 - 야채
+223 governmental systems 캠퍼스: 업무 역할 설명하기
+ だいとうりょう - [daitouryou] - 대통령
+ では - [deha] - 그렇다면
+ とは - [toha] - 이랑, 라는 것, 하고, 과, 와, 오다니, 구나, 이란, 는, 은, 란, 랑, 기는
+ には - [niha] - 번에는
+ 企業 - 기업
+ 会計 - 계산
+ 作物 - 작물
+ 入れます - 넣습니다
+ 国際関係 - 국제관계
+ 女王 - 여왕
+ 政治家 - 정치가
+ 本気で - 진심으로
+ 毎晩 - 매일 밤
+ 民主主義 - 민주주의
+ 現実的 - 현실적인
+ 紅茶 - 홍차
+ 食堂 - 식당
+224 disability 회복: 도움 요청 방법 알아봐
+ しか - [shika] - 밖에, 뿐
+ とします - [toshimasu] - 라고 하다, 라고 정하다, 라고 생각하다, 라고 여기다, 라고 간주하다, 하기로 하다
+ には - [niha] - 번에는
+ はじめ - [hajime] - 처음
+ みんな - [min'na] - 모두
+ 仲間 - 동료
+ 個人的に - 개인적으로
+ 前みたいに - 예전처럼
+ 効率のいい - 효율적이다, 능률적이다, 효율이 좋다
+ 可能 - 가능
+ 地震 - 지진
+ 城 - 성
+ 大きい声を出します - 큰 소리로 말하다, 큰 소리를 내다, 크게 외치다, 큰 소리로 외치다, 큰 소리로 부르다, 크게 말하다
+ 少しずつ - 조금씩
+ 最後 - 마지막
+ 無理しなくていい - 무리하다, 무리하지 않아도 돼, 무리하지 않아도 괜찮아, 무리하지 않아도 됩니다, 무리하지 않아도 돼요
+ 速く - 빠르게
+ 違法 - 불법
+225 pet care 반려동물: 반려동물 상태 말하기
+ ほとんどは - [hotondoha] - 대부분은
+ エサ - [esa] - 사료
+ ゴミ箱 - [gomi xiāng] - 쓰레기통
+ ベル - [beru] - 벨
+ ペットショップ - [pettoshoppu] - 펫샵
+ 一昨日 - 그저께
+ 体調 - 컨디션
+ 内容 - 내용
+ 可愛い - 귀엽습니다, 귀여운
+ 幸せそうに - 행복해 보이게
+ 息 - 숨
+ 新鮮 - 신선한
+ 気持ち悪い - 불쾌했던
+ 象 - 코끼리
+ 革 - 가죽
+226 literature 이야기: 이야기 요약해 보기
+ ぴったり - [pittari] - 딱 맞게
+ ぼうけん - [bouken] - 모험
+ ドキドキ - [dokidoki] - 두근두근
+ メディア - [media] - 미디어
+ 一冊 - 한 권
+ 中 - 중이라고, 속을, 안, 속, 중, 속이, 내부가
+ 伝える - 보고했습니다, 말씀드리지, 전할, 표현하, 퍼뜨려, 표현하려고, 이야기했대, 퍼뜨릴, 표현하고, 보도하는, 공유하자, 알리지, 알려드렸는데도, 말았어, 이야기해줄게요, 퍼뜨려도, 알려줍니다, 말해주는, 퍼뜨렸, 퍼뜨렸다고, 알려야, 이야기했, 이야기해줬어요, 알려줬지만, 알립니다, 퍼뜨렸습니다, 전해져, 이야기하게, 알려드릴, 이야기하든, 공유해주세요, 알려주었어요
+ 利益 - 이익
+ 弓 - 활
+ 怖い - 무섭습니다, 무서우세요
+ 教科書 - 교과서
+ 正確 - 정확한
+ 災害 - 재해
+ 現実 - 현실
+ 辞書 - 사전
+227 economic systems 수업: 수업 주제를 설명하기
+ かわりに - [kawarini] - 대신에
+ それから - [sorekara] - 그리고
+ で - [de] - 에, 만에, 인데, 에서, 로, 으로, 대로, 서, 하나에서
+ どこでも - [dokodemo] - 어디에서나
+ 上げます - 올리다, 드리다, 주다, 높이다, 올려놓다
+ 主に - 주로
+ 他の - 다른
+ 代わりに - 대신
+ 単語 - 단어
+ 声 - 목소리
+ 授業 - 수업
+ 牛 - 소
+ 社会 - 사회
+ 要点 - 요점
+ 論理的 - 논리적
+ 靴 - 신발
+228 sustainability 생활환경: 지출 습관 이야기하기
+ これからも - [korekaramo] - 앞으로도
+ そのまま - [sonomama] - 그대로
+ ほほ - [hoho] - 볼
+ まま - [mama] - 채
+ インドア派 - [indoa pài] - 실내파
+ 一人暮らしをします - 혼자 살다, 1인 가구로 살다, 독신 생활을 하다, 혼자 생활하다
+ 入場料 - 입장료
+ 割引き - 할인
+ 暑さ - 더위
+ 次からは - 다음부터는
+ 比較的 - 비교적
+ 現金 - 현금
+ 目の不自由 - 시각장애인
+ 衣装 - 의상
+ 試着室 - 피팅룸
+ 軽い - 경량, 가볍습니다, 덜해
+ 込みます - 붐비다, 북적이다, 혼잡하다, 가득 차다
+ 音量 - 음량
+229 measurements 집과 생활: 주방 도구 사용해보기
+ それに - [soreni] - 게다가
+ だって - [datte] - 도
+ なめらか - [nameraka] - 부드럽다
+ の一種です - [no yī zhǒngdesu] - 일종이다, 한 종류이다, 종류이다, 유형이다, 일종입니다
+ アピールします - [apīrushimasu] - 어필하다, 호소하다, 매력적으로 보이다, 강조하다, 자신을 어필하다, 자신의 장점을 어필하다
+ エリア - [eria] - 지역
+ スペース - [supēsu] - 공간
+ タイマー - [taimā] - 타이머
+ 取引 - 거래
+ 同じ - 같은, 똑같을, 같았어요
+ 大きさ - 크기
+ 失敗します - 실패하다, 실패합니다, 실패해요
+ 得意じゃない - 잘하지 못하다
+ 数字 - 숫자
+ 決まり - 규칙
+ 若いころ - 어렸을 때
+230 aging 체험: 새로운 운동 제안하기
+ としたら - [toshitara] - -다고 하면
+ どんな - [don'na] - 어떤
+ のままに - [nomamani] - 그대로
+ アイコン - [aikon] - 아이콘
+ チャレンジ - [charenji] - 도전
+ 八巻 - 8권
+ 切符売り場 - 매표소
+ 印象に残る - 기억에 남다, 인상 깊다, 인상에 남다, 인상적이네요, 눈에 띄다, 인상적이었던, 인상적으로 남다, 기억에 오래 남다, 인상적이더라고요
+ 収入 - 수입
+ 年をとります - 나이를 먹다, 나이가 들다, 나이를 먹어가다
+ 意外 - 의외
+ 柔道 - 유도
+ 歴史のある - 역사가 있는
+ 背中 - 등
+ 貯金 - 저축
+ 赤ちゃんがいる - 아기가 있다, 아기가 있어요, 아기가 있습니다, 아기가 있어, 아기가 있는
+ 迷います - 헤매다, 망설이다, 갈팡질팡하다, 고민하다, 길을 잃다, 길을 헤매다
+231 clothes shopping 패션: 패션 아이템 소개하기
+ なんて - [nante] - 같은
+ やめます - [yamemasu] - 그만둡니다.
+ やや - [yaya] - 약간
+ ゆったり - [yuttari] - 편안한
+ アウトレット - [autoretto] - 아울렛
+ ウエスト - [uesuto] - 허리
+ カーディガン - [kādigan] - 가디건
+ ポリエステル - [poriesuteru] - 폴리에스터
+ 上品 - 고상하다
+ 下着 - 속옷
+ 倍 - 배
+ 白 - 백, 백의
+ 紫 - 보라색
+ 茶色 - 갈색
+ 防水 - 방수
+ 黒 - 검은색
+232 personal experiences 2 경험: 중요한 순간 이야기하기
+ きっかけ - [kikkake] - 계기
+ さまざま - [samazama] - 다양한
+ そんな - [son'na] - 그런
+ ところで - [tokorode] - 그런데
+ のせいで - [noseide] - 때문에
+ やはり - [yahari] - 역시
+ 事情 - 사정
+ 人間関係 - 인간관계
+ 出会い - 만남
+ 別に - 별로
+ 後悔 - 후회, 뉘우침, 회한
+ 成長 - 성장
+ 挑戦 - 도전, 도전을
+ 短所 - 단점
+ 結局 - 결국
+ 緊張 - 긴장했습니다, 긴장합니다, 긴장을, 긴장하셨나요, 긴장하지, 긴장감이
+ 自信 - 자신감
+ 記念に - 기념으로
+ 達成感 - 성취감
+ 選択 - 선택
+233 playing or training for a sport 운동: 합숙 훈련 이유 말하기
+ すると - [suruto] - 그렇게 하자, 그때, 그렇게 하면, 그리하여, 그러자, 하다가는
+ アドバイス - [adobaisu] - 조언
+ グラウンド - [guraundo] - 운동장
+ パス - [pasu] - 패스하다
+ ボール - [bōru] - 공
+ メンタル - [mentaru] - 멘탈
+ ユニフォーム - [yunifōmu] - 유니폼
+ 優勝 - 우승
+ 合宿 - 합숙
+ 易しい - 쉽던데, 간단하, 쉬워야
+ 本番 - 본방
+ 泊 - 박, 박으로
+ 防具 - 방어구
+ 陸上 - 육상
+234 school 2 학교생활: 수업 자료 나누기
+ かさ立て - [kasa lìte] - 우산꽂이
+ ずつ - [zutsu] - 조금씩
+ など - [nado] - 등, 따위, 같은 것, 같은 식으로
+ プリント - [purinto] - 프린트
+ 下駄箱 - 신발장
+ 休み時間 - 쉬는 시간
+ 体育館 - 체육관
+ 児童 - 어린이
+ 制服 - 교복
+ 図書室 - 도서실
+ 子供 - 아이
+ 廊下 - 복도
+ 感想 - 감상
+ 校庭 - 운동장
+ 校門 - 교문
+ 消しゴム - 지우개
+ 総合的 - 종합적인
+ 自習 - 자습실에, 자습실에서
+ 集中力 - 집중력
+235 mental health 건강: 휴식 방법 말하기
+ なんか - [nanka] - 뭐, 같은 것, 따위, 뭐냐, 뭐라고, 좀, 뭔가
+ 一時的に - 일시적으로
+ 体操 - 체조
+ 健康的 - 건강한
+ 冷静 - 냉정한
+ 国際交流 - 국제교류
+ 安心 - 안심
+ 心理的 - 심리적
+ 感情 - 감정
+ 栄養 - 영양
+ 精神 - 정신
+ 非常に - 매우
+ 飲み放題 - 무제한 음료
+236 neighborhood 동네: 동네를 소개하기
+ し - [shi] - 하고, 하지
+ コインランドリー - [koinrandorī] - 코인 세탁소
+ ポスト - [posuto] - 우체통
+ 一人暮らし - 혼자 사는 것
+ 一戸建て - 단독 주택
+ 交通量 - 교통량
+ 八百屋 - 야채 가게
+ 宅配 - 택배
+ 弁当屋 - 도시락 가게
+ 日当たり - 일조량
+ 泥棒 - 도둑
+ 清潔 - 청결하다
+ 狭い - 좁습니다
+ 町内 - 동네
+ 空き地 - 빈터
+ 賃貸 - 임대
+ 資源ゴミ - 재활용 쓰레기
+ 踏切 - 건널목
+ 防犯カメラ - 방범 카메라
+ 飲食店 - 음식점
+237 celebration 파티: 파티에 대해 이야기하기
+ あんな - [an'na] - 저런
+ ちなみに - [chinamini] - 그런데
+ シャンパン - [shanpan] - 샴페인
+ 乾杯 - 건배
+ 優雅 - 우아한
+ 勤務先 - 근무지
+ 化粧 - 화장
+ 司会者 - 사회자
+ 忘年会 - 송년회
+ 感謝 - 감사
+ 挨拶 - 인사
+ 新年会 - 신년회
+ 歓迎会 - 환영회
+ 華やか - 화려하다
+ 願い - 소원
+238 politics 정치: 정치인에 대해 이야기하기
+ しばしば - [shibashiba] - 자주
+ ほぼ - [hobo] - 거의
+ インフレ - [infure] - 인플레이션
+ 与党 - 여당
+ 候補者 - 후보자
+ 内閣 - 내각
+ 国民 - 국민
+ 年金 - 연금
+ 投票 - 투표, 표결, 투표하다
+ 政治 - 정치
+ 景気 - 경기
+ 総理大臣 - 총리대신
+ 議会 - 의회
+ 選挙 - 선거
+ 野党 - 야당
+239 time management 일정: 오늘 할 일 확인하기
+ あのさ - [anosa] - 있잖아
+ ありがとう - [arigatou] - 고마워
+ ごめん - [gomen] - 미안해
+ だった - [datta] - 였다
+ ってこと - [ttekoto] - 것
+ の間 - [no jiān] - 사이, 동안, 중, 사이에, 동안에, 중에
+ マルチタスク - [maruchitasuku] - 멀티태스킹
+ ルーティン - [rūtin] - 루틴
+ ワンチャン - [wanchan] - 어쩌면
+ 予定表 - 일정표
+ 代金 - 대금
+ 余裕 - 여유
+ 作業 - 업무, 작업, 논일은, 노동이, 일, 공사, 업무예요
+ 切り替え - 전환, 변경, 전환하다, 바꾸다, 바뀌다
+ 助かる - 살다, 도움이 되다, 구원받다, 구조되다, 살아남다
+ 昼寝 - 낮잠
+ 時期 - 시기
+ 検査 - 검사
+ 熱 - 열
+ 締め切り - 마감
+ 複数 - 복수
+240 recipes 요리법: 다른 레시피 비교하기
+ おたま - [otama] - 국자
+ ごま油 - [goma yóu] - 참기름
+ さっと - [satto] - 휙
+ しょうが - [shouga] - 생강
+ ひとつまみ - [hitotsumami] - 한 꼬집
+ ほど - [hodo] - 정도
+ みじん切り - [mijin qièri] - 다진
+ みりん - [mirin] - 미린
+ アルミホイル - [arumihoiru] - 알루미늄 호일
+ サクサク - [sakusaku] - 바삭바삭
+ 具材 - 재료
+ 出汁 - 다시
+ 大量 - 대량, 다량, 많은 양
+ 弱火 - 약한 불
+ 砂糖 - 설탕
+ 豆腐 - 두부
+ 豚肉 - 돼지고기
+ 酸っぱい - 시
+241 workplace communication 회의: 오해 상황 이야기하기
+ あいまい - [aimai] - 애매하다
+ がち - [gachi] - 쉬워요
+ っぽい - [ppoi] - 느낌이 나는
+ なるべく - [narubeku] - 가급적
+ 丁寧 - 정중한
+ 件名 - 제목
+ 入力ミス - 입력 실수
+ 司会 - 사회자
+ 形式 - 형식
+ 念のため - 혹시 몰라서
+ 社内 - 사내
+ 要求 - 청구, 요청, 요구에, 주장, 요구, 필요를
+ 規則 - 규칙
+ 詳細 - 상세 내용
+ 誤解 - 오해도, 오해, 오해라고
+242 journalism 뉴스: 뉴스 내용 전달하기
+ さすがに - [sasugani] - 역시
+ で - [de] - 에, 만에, 인데, 에서, 로, 으로, 대로, 서, 하나에서
+ とおり - [toori] - 거리
+ どおり - [doori] - 대로
+ アナウンサー - [anaunsā] - 아나운서
+ フェイクニュース - [feikunyūsu] - 가짜 뉴스
+ 下書き - 초안
+ 具体的 - 구체적이다
+ 図表 - 도표
+ 報道 - 보도
+ 批評 - 비평
+ 放送 - 방송은, 방송을
+ 放送局 - 방송국
+ 明らかに - 명백히
+ 独自 - 독자적인
+ 現地 - 현지
+ 現地から中継 - 현지 중계
+ 編集 - 편집, 편집하다, 수정을
+ 視聴者 - 시청자
+ 記者会見 - 기자회견
+ 説得力 - 설득력
+ 重要性 - 중요성
+ 関係者 - 관계자
+243 video games 게임: 게임 소개하기
+ bgm - 배경음악
+ eスポーツ - e스포츠
+ こそ - [koso] - 바로, 때야말로, 이야말로
+ アイテム - [aitemu] - 아이템
+ クエスト - [kuesuto] - 퀘스트
+ コントローラー - [kontorōrā] - 컨트롤러
+ スコア - [sukoa] - 점수
+ ランキング - [rankingu] - 랭킹
+ 古典的 - 고전적인
+ 安定した - 안정된
+ 宝物 - 보물
+ 対戦 - 대전
+ 強力 - 강력한
+ 有利 - 유리
+ 決勝 - 결승
+ 直感的 - 직관적인
+ 装備 - 장비, 설비, 준비, 장비는
+ 難易度 - 난이도
+244 life goals 목표: 꿈을 나눠 봐
+ を通して - [wo tōngshite] - 통해서, 통하여, 지나서, 경유하여, 매개로, 통해, 이용하여
+ チャンス - [chansu] - 기회
+ 中心 - 중심
+ 判断力 - 판단력
+ 力を入れます - 힘을 쏟다, 노력하다, 열중하다, 집중하다, 전력을 다하다, 전념하다, 힘쓰다
+ 効果的 - 효과적
+ 同時に - 동시에
+ 時間管理 - 시간 관리
+ 柔軟性 - 유연성
+ 目安 - 기준
+ 短期的 - 단기적
+ 規模 - 규모
+ 資格 - 자격
+ 達成 - 달성할, 달성한, 달성합니다, 달성이, 성취에, 달성하기, 달성을, 성공이란
+ 長期的 - 장기적
+245 career choices 직업: 직업 선택 이유 설명하기
+ ごとに - [gotoni] - 마다
+ で - [de] - 에, 만에, 인데, 에서, 로, 으로, 대로, 서, 하나에서
+ やりがい - [yarigai] - 보람
+ リモートワーク - [rimōtowāku] - 원격 근무
+ 事務 - 사무
+ 働き方 - 일하는 방식
+ 公務員 - 공무원
+ 出張 - 출장
+ 創造力 - 창의력
+ 勤務時間 - 근무 시간
+ 外資系 - 외자계
+ 学歴 - 학력
+ 専門 - 전문
+ 時給 - 시급
+ 月給 - 월급
+ 有給休暇 - 유급 휴가
+ 職業 - 직업
+ 課長 - 과장
+ 責任 - 책임
+ 開発 - 개발을, 발전, 개척, 개발, 개발로, 개발에
+246 environmental protection 환경: 환경 실천 방법 말하기
+ けれども - [keredomo] - 던데, 하지만, 비겼지만
+ せんぷうき - [senpuuki] - 선풍기
+ っぱなし - [ppanashi] - 계속, 내버려 둔 채, 방치된 상태, 그대로 두다, 유지하다, 켜 둔 채
+ もしも - [moshimo] - 만약, 만일, 혹시, 만약에
+ リサイクル - [risaikuru] - 재활용하네요, 재활용하지만, 재활용해, 재활용할, 재활용을, 재활용해야, 재활용합니다, 재활용에
+ ワニ - [wani] - 악어
+ 以下 - 이하
+ 充電 - 충전하다, 충전이, 충전, 재충전, 재충전을
+ 地球温暖化 - 지구 온난화
+ 大気汚染 - 대기오염
+ 太陽光 - 태양광
+ 工事 - 공사
+ 悔しい - 속상해, 아쉬웠습니다
+ 普及 - 확산이, 확산을, 확산에는
+ 機械 - 기계
+ 漁業 - 어업
+ 火事 - 화재
+ 箸 - 젓가락
+ 節約 - 절약, 아끼기, 절감, 절제, 절약하기
+ 豪雨 - 호우
+ 電気自動車 - 전기자동차
+247 city life 2 교통: 교통비 물어보기
+ ものだ - [monoda] - 것이어야
+ 乗り場 - 승차장
+ 仏像 - 불상
+ 住宅街 - 주택가
+ 公共交通機関 - 대중교통
+ 劇場 - 극장
+ 名物 - 특산품
+ 喫茶店 - 찻집
+ 夜景 - 야경
+ 始発 - 첫차
+ 定期券 - 정기권
+ 小学校 - 초등학교
+ 幼稚園 - 유치원
+ 時刻表 - 시간표
+ 治安 - 치안
+ 消防署 - 소방서
+ 渋滞 - 교통 체증
+ 百貨店 - 백화점
+ 窓側 - 창가
+ 経由 - 경유, 경유하다, 경유지, 통해
+ 運賃 - 운임
+ 都心 - 도심
+248 hiking 산행: 산행 중 문제 설명하기
+ だけで - [dakede] - 만으로
+ どっち - [dotchi] - 어느 쪽
+ テント - [tento] - 텐트
+ バーナー - [bānā] - 버너
+ ロープ - [rōpu] - 로프
+ 予備 - 예비
+ 入り - 들어가지, 들어갑니까, 들어갑니다
+ 六泊 - 6박
+ 寝袋 - 침낭
+ 展望台 - 전망대
+ 山頂 - 산꼭대기
+ 救急箱 - 구급상자
+ 日没 - 일몰
+ 熱中症 - 열사병
+ 赤 - 빨간
+ 遠回り - 우회
+249 corporate rumors 소문: 소문 전하기
+ あっという間 - [attoiu jiān] - 순식간에
+ いただければと思います - [itadakerebato sīimasu] - 주셨으면 합니다
+ つい - [tsui] - 무심코
+ どのよう - [donoyou] - 어떤
+ ひそひそ - [hisohiso] - 속닥속닥
+ わざと - [wazato] - 일부러
+ スキャンダル - [sukyandaru] - 스캔들
+ デリケート - [derikēto] - 민감한
+ 先日 - 얼마 전
+ 場合じゃない - 때가 아니다
+ 大げさ - 과장
+ 必ずしも - 반드시 그렇지는 않다
+ 推測 - 예측이, 예측은, 예측을
+ 曖昧 - 애매하다
+ 真相 - 진상
+250 university 2 대학 생활: 나의 대학 생활 소개하기
+ ゼミ - [zemi] - 세미나
+ 出席 - 출석, 출석할, 출석하면, 참석, 참석이
+ 前期 - 전기
+ 卒業 - 졸업합니다, 졸업하기
+ 博士 - 박사
+ 受験 - 수험, 시험 보기, 응시, 시험 응시, 입시에
+ 合格 - 합격하면, 합격하다, 합격한, 합격할, 합격해서, 합격하고, 합격했다, 합격이
+ 基礎的 - 기초적인
+ 学科 - 학과
+ 学部 - 학부
+ 学食 - 학생식당, 학식, 학교 식당
+ 実習 - 실습
+ 専攻 - 전공
+ 後輩 - 후배
+ 授業料 - 수업료
+ 有益 - 유익하다
+ 詳しい - 밝은, 자세한, 정통한, 상세해, 상세한, 상세해요, 해박한, 상세해서
+ 講師 - 강사
+ 進学 - 진학하기
+251 debate 2 의견: 근거를 설명하기
+ さて - [sate] - 자
+ 一方 - 한편
+ 主張 - 주장, 주장하다, 요구, 견해, 의견
+ 価値観 - 가치관
+ 各 - 각
+ 回答 - 답, 응답, 회답, 답변, 답변은
+ 妥協 - 타협, 양보, 절충, 타협이, 타협을
+ 対立 - 대립
+ 彼ら - 그들
+ 根拠 - 근거
+ 正確に - 정확하게
+ 結論 - 결론
+ 肯定的 - 긍정적인
+ 視点 - 시각, 시점, 관점, 견지, 입장, 관점이
+ 証拠 - 증거
+ 評価 - 후기, 판단, 비판이, 감정, 비판을, 등급, 피드백이, 평가가, 평가액, 평가, 견적, 후기가
+ 説得 - 설득, 설득하다, 설득에, 설득을
+ 貧困問題 - 빈곤 문제
+252 news 이야기: 이야기 듣고 반응하기
+ あやしい - [ayashii] - 수상한, 의심스러운, 미심쩍은, 이상한, 불길한, 의심가는
+ おそらく - [osoraku] - 아마도
+ どころか - [dokoroka] - 커녕
+ まるで - [marude] - 마치
+ 側 - 쪽
+ 大規模 - 대규모
+ 真実 - 진실
+ 解説 - 해설
+ 読者 - 독자
+ 速報 - 속보
+ 重大 - 중대하다
+ 銅メダル - 동메달
+ 非公式 - 비공식적
+253 board games 승부: 승부 상황을 묘사해 봐
+ じっくり - [jikkuri] - 꼼꼼히
+ と言っても - [to yánttemo] - -다고 해도
+ コマ - [koma] - 말
+ サイコロ - [saikoro] - 주사위
+ シャッフル - [shaffuru] - 섞다
+ ターン - [tān] - 턴
+ 人数 - 인원 수
+ 勝利 - 승리
+ 単純 - 단순하다
+ 大胆 - 대담한
+ 失格 - 실격
+ 実力 - 실력
+ 引き分け - 무승부
+ 有効 - 유효한
+ 油断 - 방심, 경솔, 소홀, 부주의, 조심하지 않음
+ 確実 - 확실한
+ 逆転 - 역전은, 역전되어, 반전이, 역전을, 반전은
+ 違反 - 위반
+254 study abroad 유학생활: 새로운 환경에 적응하기
+ しかも - [shikamo] - 게다가
+ やっぱり - [yappari] - 역시
+ 一層 - 한층
+ 中間試験 - 중간시험
+ 以内に - 이내에
+ 作文 - 작문
+ 健康保険 - 건강보험
+ 入学 - 입학
+ 単位 - 학점
+ 寮 - 기숙사
+ 手数料 - 수수료
+ 生活費 - 생활비
+ 聞き取り - 청취, 청해, 듣기가, 이해, 듣기에서, 듣기, 인터뷰든
+ 適度 - 적당한
+ 郵便 - 우편
+255 holidays 여행: 숙소를 추천하기
+ オフシーズン - [ofushīzun] - 비수기
+ ダイビング - [daibingu] - 다이빙
+ ツイン - [tsuin] - 트윈
+ 一軒屋 - 단독주택
+ 事前に - 사전에
+ 入国 - 입국
+ 和室 - 일본식 방
+ 寸前 - 직전
+ 帰省 - 귀성
+ 年末年始 - 연말연시
+ 往復 - 왕복
+ 新幹線 - 신칸센
+ 旅行保険 - 여행자보험
+ 満室 - 만실
+ 登山 - 등산
+ 穴場 - 숨은 명소
+256 entrepreneurship 직장: 상품 개선 아이디어 내기
+ お問い合わせ - [o wèni héwase] - 문의
+ が - [ga] - 을, 이, 가, 가지만, 반면에, 를, 되지만, 께서, 는, 은, 는데, 있으나
+ に関して - [ni guānshite] - 에 관하여, 에 대해, 에 관한
+ または - [mataha] - 또는, 나라나
+ ニーズ - [nīzu] - 니즈
+ フォローします - [forōshimasu] - 팔로우합니까, 팔로우합니다
+ 一旦 - 일단
+ 営業 - 영업, 사업, 영업활동, 영업부
+ 売上 - 매출
+ 戦略 - 전략
+ 改善 - 개선되었습니다
+ 札幌 - 삿포로, 삿포로는
+ 着実に - 착실하게
+ 給与 - 급여
+ 継続的に - 지속적으로
+ 苦情 - 불만
+ 資産 - 자산
+ 配送 - 배송
+257 baby 아기: 아기 돌보는 방법 배우기
+ おしゃぶり - [oshaburi] - 노리개 젖꼭지
+ おむつ - [omutsu] - 기저귀
+ ばかり - [bakari] - 만, 뿐
+ ベビーベッド - [bebībeddo] - 아기 침대
+ ワクチン - [wakuchin] - 백신
+ 予定日 - 예정일
+ 体温計 - 체온계
+ 出産 - 출산
+ 姉妹 - 자매
+ 梅干し - 우메보시
+ 母乳 - 모유
+ 浴室 - 욕실
+ 熟成 - 숙성
+ 粉ミルク - 분유
+ 胃 - 위
+ 身長 - 신장
+ 鍋 - 냄비
+ 風邪 - 감기
+ 鼻水 - 콧물
+258 art 예술: 전시회 일정 묻기
+ かけ - [kake] - 걸지, 내기가
+ キャンバス - [kyanbasu] - 캔버스
+ コントラスト - [kontorasuto] - 대비
+ 傑作 - 걸작
+ 制作 - 제작, 제작하다, 창작, 제작이
+ 展覧会 - 전람회
+ 建築 - 건축
+ 意図 - 의도
+ 暗闇 - 어둠
+ 滑らか - 매끄럽다
+ 灰色 - 회색
+ 炭 - 숯
+ 筆 - 붓
+ 粗い - 거칠지요, 거칠어요
+ 粘土 - 점토
+ 素材 - 소재
+ 絵画 - 회화
+ 自画像 - 자화상
+ 芸術家 - 예술가
+ 鮮やか - 선명한
+259 attending a sporting event 경기장: 입장권 알아보기
+ お尻 - [o kāo] - 엉덩이
+ だらけ - [darake] - 투성이
+ ハーフタイム - [hāfutaimu] - 하프타임
+ 丼物 - 덮밥
+ 天井 - 천장
+ 序盤 - 초반
+ 延長戦 - 연장전
+ 当日券 - 당일권
+ 待ち合わせ - 약속
+ 応援 - 지원으로, 응원, 격려, 응원을, 응원이던데, 지원, 응원도
+ 新刊 - 신간
+ 旗 - 깃발
+ 監督 - 감독
+ 相手 - 상대
+ 自由席 - 자유석
+ 賑やか - 활기차다
+ 非常口 - 비상구
+260 negotiation and persuasion 2 이유: 이유 설명하기
+ そちら - [sochira] - 그쪽
+ でお願いします - [deo yuànishimasu] - 으로 부탁합니다
+ まもなく - [mamonaku] - 곧
+ 不充分 - 불충분
+ 価値 - 가치
+ 反論 - 반론하다
+ 客観的 - 객관적
+ 強調 - 강조할, 강조하
+ 明確 - 명확한
+ 明確に - 명확하게
+ 率直に - 솔직하게
+ 確認 - 확인, 확인해
+ 積極的 - 적극적
+ 立場 - 입장
+ 需要 - 수요
+261 scientific discoveries/advancements 연구: 연구 방법 설명하기
+ これら - [korera] - 이것들
+ それら - [sorera] - 그것들
+ エネルギー - [enerugī] - 에너지
+ 信頼できる - 신뢰할 수 있는
+ 先進的 - 선진적인
+ 副作用 - 부작용
+ 反応 - 반응
+ 基準 - 기준
+ 変化 - 변화, 변화예요
+ 安全性 - 안전성
+ 性質 - 성질
+ 感染症 - 감염병
+ 数値 - 수치
+ 構造 - 구조
+ 詳細な - 상세한
+ 資金 - 자금
+ 進歩 - 진보
+262 advertising 마케팅: 새 광고 아이디어 제안하기
+ イメージ - [imēji] - 이미지
+ オファー - [ofā] - 오퍼
+ キャッチコピー - [kyatchikopī] - 캐치프레이즈
+ サンプル - [sanpuru] - 샘플
+ デメリット - [demeritto] - 단점
+ バナー - [banā] - 배너
+ 予測 - 예측이, 추정, 예측, 예상, 전망, 예측은, 예측을
+ 予算 - 예산
+ 企画 - 기획
+ 信用 - 믿음, 신용, 신뢰, 신용도, 믿음이
+ 口コミ - 후기
+ 宣伝 - 광고하다, 광고일, 프로모션, 광고, 홍보하다, 선전, 홍보, 광고였을, 프로모션이
+ 成果 - 성과
+ 方針 - 방침
+ 比較 - 비교
+ 準備中 - 준비 중
+ 関心 - 관심
+ 魅力 - 매력
+263 medicine 병원: 증상 설명하기
+ お見舞い - [o jiàn wǔi] - 문병
+ めまい - [memai] - 어지러움
+ 下痢 - 설사
+ 保険証 - 보험증
+ 内科 - 내과
+ 同意 - 합의가, 허락, 동의하다, 찬성, 승인, 동의, 합의에, 찬성이
+ 吐き気 - 구역질
+ 呼吸 - 호흡
+ 咳 - 기침
+ 定期的 - 정기적
+ 心臓 - 심장
+ 忘れ物 - 분실물
+ 救急 - 응급
+ 松葉杖 - 목발
+ 注射 - 주사
+ 痒み - 가려움
+ 痛み - 통증
+ 確認中 - 확인 중
+ 肺炎 - 폐렴
+ 血液 - 혈액
+ 車椅子 - 휠체어
+264 voting 선거: 선거 후보 비교하기
+ いずれ - [izure] - 언젠가
+ ただし - [tadashi] - 단, 다만, 그러나, 하지만
+ のもとで - [nomotode] - 아래에서, 밑에서, 아래에, 지도하에, 보호하에, 영향하에, 조건하에, 환경하에
+ 不利 - 불리
+ 主要 - 주요
+ 令和 - 레이와, 영화, 레이와가
+ 判断 - 판단이, 판단, 결정을, 결정에
+ 反対 - 반대
+ 地方 - 지방
+ 建設的 - 건설적
+ 慎重に - 신중하게
+ 投票所 - 투표소
+ 投票率 - 투표율
+ 民主的 - 민주적인
+ 決定 - 결정을, 결정하세요, 결정했습니다, 결정합, 결정했습니까, 결정에
+ 票 - 표
+ 自治体 - 지방 자치 단체
+ 証明 - 증명, 입증, 증명하다, 입증하다
+ 過半数 - 과반수
+265 historic figures 신화: 신화의 의미 설명하기
+ にしては - [nishiteha] - 치고는
+ 伝説的 - 전설적인
+ 偉大 - 위대한
+ 共和国 - 공화국
+ 刃物 - 날붙이
+ 勇敢 - 용감한
+ 哲学 - 철학
+ 大使 - 대사
+ 学者 - 학자
+ 忠実 - 충실한
+ 時代 - 시대
+ 最終的に - 최종적으로
+ 皇帝 - 황제
+ 神話 - 신화
+ 進歩的 - 진보적
+ 遺産 - 유산
+ 野心的 - 야심적
+ 鉱物 - 광물
+266 cooking 3 요리: 요리법 설명하기
+ かぼちゃ - [kabocha] - 호박
+ たて - [tate] - 세로, 수직, 세우기, 세운, 세워진, 세우다, 갓
+ にんにく - [nin'niku] - 마늘
+ ねぎ - [negi] - 파
+ ほうれん草 - [houren cǎo] - 시금치
+ わさび - [wasabi] - 와사비
+ コンロ - [konro] - 레인지
+ 冷凍庫 - 냉동고
+ 味噌 - 된장
+ 消費期限 - 소비기한
+ 炊飯器 - 전기밥솥
+ 胡椒 - 후추
+ 酢 - 식초
+ 醤油 - 간장
+ 鶏肉 - 닭고기
+ 麺 - 면
+267 exercise routines 2 건강: 운동 습관 공유하기
+ さ - [sa] - 사
+ たっぷり - [tappuri] - 충분히
+ め - [me] - 눈이
+ サイクリング - [saikuringu] - 사이클링
+ 休憩 - 휴식
+ 回数 - 횟수
+ 無理に - 무리하게
+ 程度 - 정도
+ 筋力 - 근력
+ 縄跳び - 줄넘기
+ 老後 - 노후
+ 肘 - 팔꿈치
+268 restaurant 2 식사: 식사 예약하기
+ きります - [kirimasu] - 자릅니까
+ しっとり - [shittori] - 촉촉하다
+ キャンセル料 - [kyanseru liào] - 취소 수수료
+ グルテンフリー - [gurutenfurī] - 글루텐프리
+ ジューシー - [jūshī] - 즙이 많은
+ ラストオーダー - [rasutoōdā] - 라스트 오더
+ 不味い - 맛없습니까
+ 予約制 - 예약제
+ 何名様 - 몇 분
+ 個室 - 개인실
+ 割り勘 - 더치페이
+ 品切れ - 품절
+ 小麦 - 밀
+ 抜きで - 빼고
+ 満席 - 만석
+ 空席 - 빈자리
+ 辛口 - 매운
+ 食感 - 식감
+ 鮭 - 연어
+269 conflict resolution 의사소통: 의견을 전달해 보기
+ あいにく - [ainiku] - 안타깝게도
+ に対して - [ni duìshite] - 에 대하여, 에 대해서, 에 비해, 에 반하여, 에 대해, 비해서
+ に対する - [ni duìsuru] - 에 대한
+ もしよろしければ - [moshiyoroshikereba] - 괜찮으시다면
+ 事実 - 사실
+ 委員会 - 위원회
+ 尊重 - 존경심은
+ 感情的 - 감정적
+ 文脈 - 문맥
+ 望ましい - 좋겠다는
+ 期待 - 희망, 바람, 예상, 기대하다, 기대, 기대도
+ 観点 - 관점
+270 social media 2 소셜미디어: 불편한 점 공유하기
+ よかったら - [yokattara] - 괜찮으시면
+ コミュニティー - [komyunitī] - 커뮤니티
+ スパム - [supamu] - 스팸
+ セキュリティー - [sekyuritī] - 보안
+ タグ - [tagu] - 태그
+ パクリ - [pakuri] - 표절
+ フォロー - [forō] - 팔로우합니까, 팔로우합니다
+ ブラウザー - [burauzā] - 브라우저
+ プロフィール - [purofīru] - 프로필
+ 一瞬 - 순간
+ 欧米 - 서양
+ 炎上 - 화재, 불타다, 논란, 비난, 화염
+ 画像 - 이미지
+ 視聴回数 - 조회수
+271 ethical shopping 상품: 상품 비교하기
+ からといって - [karatoitte] - -다고 해서
+ どのくらい - [donokurai] - 얼마나
+ レジ袋 - [reji dài] - 비닐봉투
+ 使い捨て - 일회용
+ 保証期間 - 보증 기간
+ 修理 - 수리했습니다
+ 偽物 - 가짜
+ 労働者 - 노동자
+ 匂い - 냄새
+ 原材料 - 원재료
+ 手頃 - 적당한
+ 期間限定 - 기간 한정
+ 産地 - 산지
+ 皮 - 가죽
+ 評判 - 평판
+ 詰め替え - 리필
+ 鞄 - 가방
+ 食中毒 - 식중독
+272 post office 택배: 택배비 계산하기
+ お釣り - [o diàori] - 거스름돈
+ はかり - [hakari] - 저울
+ 再配達 - 재배달
+ 包装 - 포장
+ 受け取り - 수령, 받음, 인수, 접수, 받기
+ 国際郵便 - 국제우편
+ 姓名 - 성명
+ 宅配便 - 택배
+ 封筒 - 봉투
+ 後払い - 후불제
+ 段ボール - 골판지
+ 液体 - 액체
+ 直径 - 직경
+ 着払い - 착불
+ 貴重品 - 귀중품
+ 追跡番号 - 추적 번호
+ 郵便番号 - 우편번호
+ 配達 - 배달물, 배달, 배송을, 배달을, 배송이
+ 配達員 - 배달원
+ 重量 - 중량
+273 pop culture 팬문화: 좋아하는 아이돌 소개하기
+ っていうか - [tteiuka] - 라기보다는
+ アイドル - [aidoru] - 아이돌
+ インフルエンサー - [infuruensā] - 인플루언서
+ クリエイター - [kurieitā] - 크리에이터
+ コスプレ - [kosupure] - 코스프레
+ コンテンツ - [kontentsu] - 콘텐츠
+ ライブ - [raibu] - 라이브
+ 世代 - 세대
+ 再生回数 - 재생 횟수
+ 吸血鬼 - 흡혈귀
+ 声優 - 성우
+ 歌詞 - 가사
+ 演奏 - 연주합니다
+ 漫画 - 만화
+ 独特 - 독특하다
+ 脚本 - 대본
+ 限定 - 한정
+ 馬 - 말
+ 魅力的 - 매력적
+274 cross-cultural communication 태도: 적절한 태도 선택하기
+ ことわざ - [kotowaza] - 속담
+ どちら - [dochira] - 어디
+ もよろしいでしょうか - [moyoroshiideshouka] - 해도 괜찮을까요?
+ 上下関係 - 상하관계
+ 保守的 - 보수적
+ 口調 - 말투
+ 失礼 - 실례합니다, 무례
+ 姿勢 - 자세
+ 握手 - 악수
+ 本音 - 본심
+ 株 - 주식
+ 異文化 - 이문화
+ 自己紹介 - 자기소개
+ 表情 - 표정
+ 遠慮 - 사양, 삼가, 조심, 거리낌, 주저, 거리낌없이
+275 divorce 가족사: 가족 변화 이야기하기
+ まとめます - [matomemasu] - 정리합니다, 정리하겠습니다, 정리할까요, 정리할게요
+ カウンセリング - [kaunseringu] - 상담
+ 一方的に - 일방적으로
+ 保育園 - 보육원
+ 再婚 - 재혼
+ 冷静に - 침착하게
+ 支援センター - 지원 센터
+ 故郷 - 고향
+ 浮気 - 바람
+ 相性 - 궁합
+ 義理の - 시댁의
+ 財産 - 재산
+ 転校 - 전학, 전학 가다
+ 遠距離 - 원거리
+276 literature 2 소설: 소설 추천하기
+ よう - [you] - 방법, 모양, 듯, 것, 것처럼, 용, 모습, 식, 양, 태도, 하려고
+ クライマックス - [kuraimakkusu] - 클라이맥스
+ ベストセラー - [besutoserā] - 베스트셀러
+ 一人称 - 1인칭
+ 主人公 - 주인공
+ 印刷 - 인쇄
+ 台詞 - 대사
+ 未来 - 미래
+ 深い - 울창한, 깊은, 깊
+ 版 - 판
+ 物語 - 이야기
+ 現代的 - 현대적인
+ 簡潔 - 간결한
+ 脇役 - 조연
+ 表紙 - 표지
+ 読書 - 독서
+ 雰囲気 - 분위기
+277 organizing an event 약속: 모임 장소 정하기
+ テーブル席 - [tēburu xí] - 테이블석
+ ビジネスカジュアル - [bijinesukajuaru] - 비즈니스 캐주얼
+ 仮に - 만약
+ 叔父 - 삼촌
+ 号室 - 호실
+ 大阪 - 오사카
+ 屋敷 - 저택
+ 来週末 - 다음 주말
+ 桜 - 벚꽃
+ 翌日 - 다음 날
+ 騒がしい - 시끄러운, 시끄럽습니다, 시끄럽더라고요
+278 artificial intelligence 시스템: 시스템 설명하기
+ セキュリティ - [sekyuriti] - 보안
+ センサー - [sensā] - 센서
+ 個人情報 - 개인정보
+ 即座に - 즉시
+ 多少 - 다소
+ 学習 - 학업
+ 実験 - 실험, 시험, 테스트
+ 影響 - 영향, 맛에, 효과도
+ 志望者 - 지원자
+ 検索 - 검색, 탐색, 수색
+279 living abroad 해외생활: 해외 경험 이야기하기
+ たとえ - [tatoe] - 가령, 예를 들어, 설령, 비록, 라도
+ 不動産 - 부동산
+ 乾燥機 - 건조기
+ 交流 - 교류
+ 仕送り - 송금
+ 免許 - 면허
+ 契約社員 - 계약직 직원
+ 就職 - 취직할, 취직, 취업하기가
+ 延長 - 연장하다, 연기, 연장선, 연장은, 연장, 연장을
+ 手取り - 실수령액
+ 提出 - 제출은, 제출했습니까, 제출했습니다, 제출이
+ 方言 - 사투리
+ 正社員 - 정규직
+ 残業 - 잔업, 초과근무, 야근
+ 申し出 - 제안이
+ 間取り - 평면도
+ 電柱 - 전봇대
+ 駐輪場 - 자전거 주차장
+280 sustainability 2 여행지: 현지 규칙 설명하기
+ かぎり - [kagiri] - 한계, 범위, 한도, 한정, 한, 한층
+ 交通手段 - 교통수단
+ 参加費 - 참가비
+ 寄付 - 헌금, 기부, 기탁, 기증, 모금에
+ 徹底的に - 철저히
+ 混雑 - 혼잡
+ 熊 - 곰
+ 竹林 - 대나무숲
+ 貴重 - 귀중한
+ 野生動物 - 야생동물
+281 disabilities 배리어프리: 손쉬운 의사소통 방법 제안하기
+ スロープ - [surōpu] - 경사로
+ バリアフリー - [bariafurī] - 배리어프리
+ 充分に - 충분히
+ 効果的に - 효과적으로
+ 取り組み - 노력
+ 合法的 - 합법적인
+ 多様 - 다양한
+ 多目的トイレ - 다목적 화장실
+ 字幕 - 자막
+ 平等 - 평등한
+ 必要性 - 필요성
+ 手すり - 난간
+ 手話 - 수화
+ 斜め - 비스듬한
+ 盲導犬 - 맹도견
+ 相談 - 상담, 상담이나
+ 自立 - 독립, 독립을, 자주, 자립심, 자립, 독립이
+ 補聴器 - 보청기
+ 通路側 - 통로 쪽
+ 音声ガイド - 음성 가이드
+282 driving 운전: 페달 사용법 설명하기
+ ウィンカー - [u~inkā] - 방향지시등
+ エンジン - [enjin] - 엔진
+ ガソリンスタンド - [gasorinsutando] - 주유소
+ クラクション - [kurakushon] - 클락션
+ サービスエリア - [sābisueria] - 휴게소
+ ブレーキ - [burēki] - 브레이크
+ ペダル - [pedaru] - 페달
+ ルームミラー - [rūmumirā] - 룸미러
+ 一方通行 - 일방통행
+ 上り坂 - 오르막길
+ 上旬 - 상순
+ 免許証 - 면허증
+ 死角 - 사각지대
+ 満タン - 가득
+ 燃費 - 연비
+ 速度制限 - 속도 제한
+ 進路変更 - 차선 변경
+283 empathy 소통: 공통점을 찾아보기
+ お互いに - [o hùini] - 서로
+ きちんと - [kichinto] - 꼼꼼하게
+ にとって - [nitotte] - 에게 있어서
+ 不満 - 불만
+ 人柄 - 성격
+ 兎 - 토끼
+ 共通点 - 공통점
+ 同情 - 동정, 동정심, 연민, 공감
+ 孤独 - 고독
+ 微妙 - 미묘한
+ 意識的に - 의식적으로
+ 正直 - 정직한
+ 無意識に - 무의식적으로
+ 眼鏡 - 안경
+ 自然に - 자연스럽게
+284 money management 생활비: 생활비 계획 세우기
+ には - [niha] - 번에는
+ キャッシュレス - [kyasshuresu] - 캐시리스
+ 中期 - 중기
+ 交通費 - 교통비
+ 借金 - 빚
+ 光熱費 - 공과금
+ 全て - 모든
+ 前払い - 선불
+ 医療費 - 의료비
+ 合計 - 합계
+ 平均 - 평균, 평준, 평균치
+ 教育費 - 교육비
+ 消費税 - 소비세
+ 無駄遣い - 낭비
+ 生活水準 - 생활수준
+ 短期 - 단기
+ 範囲 - 범위
+ 経済的 - 경제적
+ 返金 - 환불
+ 通信費 - 통신비
+285 risks 재해: 자연재해 경험 나누기
+ 山火事 - 산불
+ 故障 - 고장
+ 温暖化 - 온난화
+ 潮 - 조수
+ 猿 - 원숭이
+ 確率 - 확률
+ 糸 - 실
+ 羊 - 양
+ 避難 - 피난
+ 鋼鉄 - 강철
+ 雷 - 천둥
+ 震度 - 진도
+286 language learning 회화: 자신을 자연스럽게 소개하기
+ なまり - [namari] - 사투리
+ ひらがな - [hiragana] - 히라가나
+ わりに - [warini] - 편인데
+ カタカナ - [katakana] - 가타카나
+ ネイティブ - [neitibu] - 원어민
+ バイリンガル - [bairingaru] - 이중언어 사용자
+ 不自然 - 부자연스럽다
+ 予習 - 예습하, 예습합니다, 예습이
+ 仕組み - 구조, 제도, 메커니즘, 방식, 시스템, 체계, 시스템이니
+ 例文 - 예문
+ 基礎 - 기초
+ 外来語 - 외래어
+ 大まか - 대략적
+ 文字 - 문자
+ 母語 - 모국어
+ 流暢 - 유창한
+ 直感 - 직감
+ 縦書き - 세로쓰기
+ 言語交換 - 언어 교환
+ 記憶 - 기억
+ 語彙力 - 어휘력
+287 gender orientation 다양성: 사회 문제 설명하기
+ ゲイ - [gei] - 게이
+ ジェンダー - [jendā] - 젠더
+ トランスジェンダー - [toransujendā] - 트랜스젠더
+ バイセクシュアル - [baisekushuaru] - 바이섹슈얼
+ レズビアン - [rezubian] - 레즈비언
+ 不利益 - 불이익
+ 不平等 - 불평등
+ 人種 - 인종
+ 保障 - 보장
+ 偏見 - 편견
+ 共有 - 공유하는, 나눔이, 공유가
+ 同性婚 - 동성 결혼
+ 多様性 - 다양성
+ 差別 - 차별
+ 抵抗 - 반발, 반발을, 반발이
+ 支援 - 후원, 원조, 지원으로, 보조, 도움, 응원이던데, 지원, 응원도
+ 日常生活 - 일상생활
+ 活動 - 활동
+ 社会問題 - 사회 문제
+ 認めます - 인정하다, 받아들이다, 허락하다, 승인하다, 알아보다
+ 配慮 - 배려, 고려, 신경씀, 주의
+288 global trade 국제무역: 시장 규칙 설명하기
+ しかし - [shikashi] - 그러나
+ に限らず - [ni xiànrazu] - 에 한정되지 않고
+ 不景気 - 불경기
+ 交渉 - 교섭, 협상, 협의
+ 価格 - 가격
+ 保険 - 보험
+ 倉庫 - 창고
+ 効率的に - 효율적으로
+ 国際的 - 국제적
+ 実行 - 실행, 수행, 집행, 실행하다, 수행하다
+ 市場 - 시장
+ 支払い - 지불
+ 柔軟 - 유연한
+ 税関 - 세관
+ 積極的に - 적극적으로
+ 競争 - 경쟁
+ 見積もり - 셈이, 셈이네요
+ 諸国 - 여러 나라
+ 輸出 - 수출
+289 rural life 2 시골 생활: 시골 생활 소개하기
+ お爺さん - [o yésan] - 할아버지
+ インフラ - [infura] - 인프라
+ トラクター - [torakutā] - 트랙터
+ 下水道 - 하수도
+ 低価格 - 저렴한
+ 基本的に - 기본적으로
+ 役場 - 읍사무소
+ 暮らし - 생활
+ 現金のみ - 현금만
+ 空き家 - 빈집
+ 絶景 - 절경
+ 肥料 - 비료
+ 蚊 - 모기
+ 軽トラック - 경트럭
+ 農村 - 농촌
+ 農薬 - 농약
+ 近道 - 지름길
+ 運転免許 - 운전 면허증
+ 鹿 - 사슴
+290 the hard sciences 자연: 동물의 서식지 설명하기
+ dna - DNA
+ そのため - [sonotame] - 그 때문에
+ の - [no] - 엔의, 것, 분의, 거니, 예산의, 것의, 의, 거라는
+ 一般的に - 일반적으로
+ 位置 - 위치
+ 光年 - 광년
+ 分析 - 해석, 분해, 분석, 분석은
+ 化石 - 화석
+ 圧力 - 압력
+ 次元 - 차원
+ 温度計 - 온도계
+ 火山 - 화산
+ 神経 - 신경
+ 空間 - 공간
+ 羽根 - 날개
+ 衛星 - 위성
+ 貝類 - 조개류
+ 速度 - 속도
+ 適応 - 적응에, 적응이, 적응력, 적응, 적응을
+ 重力 - 중력
+291 music 2 음악: 노래의 매력 설명하기
+ もしくは - [moshikuha] - 혹은
+ サンバ - [sanba] - 삼바
+ ジャンル - [janru] - 장르
+ テンポ - [tenpo] - 템포
+ デュエット - [de~yuetto] - 듀엣
+ ヒップホップ - [hippuhoppu] - 힙합
+ ブルース - [burūsu] - 블루스
+ ボーカル - [bōkaru] - 보컬
+ レゲエ - [regee] - 레게
+ 印象的 - 인상적
+ 合唱 - 합창
+ 楽器 - 악기
+ 流行 - 유행
+ 脳内 - 뇌내
+292 customer service 2 매장: 영업시간 안내하기
+ サポート - [sapōto] - 지원으로, 지원, 응원도
+ 一粒 - 한 알
+ 丁寧に - 정중하게
+ 依頼 - 의뢰
+ 係員 - 직원
+ 営業時間 - 영업시간
+ 変更 - 바뀌기, 변경하고, 수정을
+ 定休日 - 정기 휴무일
+ 対処 - 대처, 처리, 대응, 대응하다
+ 対策 - 대책
+ 店舗 - 매장
+ 指示 - 지침, 표시, 지시, 안내, 명령, 지시에
+ 敬語 - 경어
+ 案内 - 안내
+ 機能 - 기능
+ 次第 - 순서, 차례, 상황, 대로, 즉시, 곧, 따라서, 하는 대로
+ 特典 - 특전
+ 発送 - 출하, 발송, 배송, 송부, 배송을, 배송이
+ 矢印 - 화살표
+ 確実に - 확실히
+ 送料 - 배송비
+293 friendship 인상: 첫인상 표현하기
+ いざとなると - [izatonaruto] - 막상 일이 닥치면
+ ぎこちない - [gikochinai] - 서투른, 불편한, 서툴, 어색하다, 서툽니다, 부자연스러운, 어색한, 뻣뻣하, 어색해요, 어색하더라고요
+ わりと - [warito] - 꽤
+ 些細 - 사소한
+ 内向的 - 내성적
+ 初対面 - 첫 만남
+ 嫉妬 - 질투
+ 意識 - 의식
+ 社交的 - 사교적인
+ 第一印象 - 첫인상
+ 表現 - 표현할, 표현이, 퍼포먼스로, 표현도
+ 遠慮なく - 사양하지 않고
+ 開放的 - 개방적
+ 頑固 - 고집
+294 globalization 비교: 장단점 비교하기
+ 一方で - 반면에
+ 人材 - 인재
+ 労働力 - 노동력
+ 効率 - 효율
+ 報告 - 브리핑, 보고서, 브리핑이
+ 失業 - 실업
+ 投資 - 투자
+ 気候変動 - 기후변동
+ 消費者 - 소비자
+ 生産 - 생산, 생산하다
+ 発展 - 발전
+ 競争力 - 경쟁력
+ 翻訳 - 번역, 통역, 번역기
+ 賃金 - 임금
+ 通信 - 통신
+295 outer space 우주: 우주에 대해 설명하기
+ あらゆる - [arayuru] - 모든
+ クレーター - [kurētā] - 크레이터
+ 不可能 - 불가능한
+ 太陽系 - 태양계
+ 宇宙ステーション - 우주정거장
+ 宇宙船 - 우주선
+ 宇宙飛行士 - 우주비행사
+ 巨大 - 거대한
+ 惑星 - 행성
+ 撮影 - 촬영합니다, 촬영에는, 촬영을, 촬영하기, 촬영, 촬영용, 촬영용으로, 촬영할
+ 映像 - 영상
+ 望遠鏡 - 망원경
+ 流星 - 유성
+ 画質 - 화질
+ 的確 - 적확한
+ 訓練 - 훈련한, 훈련, 훈련된, 훈련이
+ 豊富 - 풍부한
+296 nature 경치: 경치 묘사하기
+ 噴火 - 분화
+ 地滑り - 산사태
+ 岩 - 바위
+ 日光 - 일광
+ 昆虫 - 곤충
+ 温室効果 - 온실 효과
+ 湿度 - 습도
+ 滝 - 폭포
+ 激しい - 맹렬한, 강한, 심한, 세찬, 격렬한, 거센, 치열한, 세다고
+ 炎上 - 화염
+ 砂浜 - 모래사장
+ 穏やか - 온화한
+ 群れ - 무리
+ 花粉 - 꽃가루
+ 草原 - 초원
+ 葉 - 잎
+ 豊か - 풍부하다
+ 野生の - 야생의
+ 雲 - 구름
+297 crime 사건: 사건 설명하기
+ おわび - [owabi] - 사과
+ アリバイ - [aribai] - 알리바이
+ インタビュー - [intabyū] - 인터뷰
+ リフォーム - [rifōmu] - 리폼
+ 下町 - 하타마치, 구시가지, 옛 시가지, 도심지
+ 公開 - 공개, 공개하다, 공개는
+ 合法 - 합법
+ 命令 - 명령
+ 埼玉 - 사이타마
+ 意義 - 의의
+ 指紋 - 지문
+ 最寄り駅 - 가장 가까운 역
+ 監視カメラ - 감시 카메라
+ 目撃者 - 목격자
+ 落とし物 - 분실물
+ 裁判 - 재판
+ 裁判官 - 재판관
+ 銃 - 총
+ 長所 - 장점
+ 防犯 - 방범
+298 secondary school 교실: 시험 준비 방법 제안하기
+ べき - [beki] - 해야 할까요
+ めったに - [mettani] - 좀처럼
+ 修学旅行 - 수학여행
+ 優秀 - 우수한
+ 公立 - 공립
+ 国語 - 국어
+ 当番 - 당번
+ 役員 - 임원
+ 早退 - 일찍 퇴근하다, 조퇴합니다, 조퇴, 조퇴를, 일찍 퇴근, 조퇴가
+ 時間割 - 시간표
+ 理科 - 과학
+ 生徒会 - 학생회
+ 留年 - 유급
+ 私立 - 사립
+ 職員室 - 교직원실
+ 補習 - 보충수업
+ 課外活動 - 과외활동
+ 黒板 - 칠판
+299 accidents 안전: 사고를 예방하는 방법 말하기
+ たいした - [taishita] - 대단한
+ アクセル - [akuseru] - 액셀
+ エアバッグ - [eabaggu] - 에어백
+ ガス漏れ - [gasu lòure] - 가스 누출
+ シートベルト - [shītoberuto] - 안전벨트
+ タイヤ - [taiya] - 타이어
+ ハンドル - [handoru] - 핸들
+ 一時停止 - 일시정지
+ 交通事故 - 교통사고
+ 保険会社 - 보험 회사
+ 公共交通 - 대중교통
+ 土砂崩れ - 산사태
+ 意図的に - 의도적으로
+ 接触 - 충돌, 접촉하다, 접촉, 접촉을
+ 標識 - 표지판
+ 自己評価 - 자기평가
+ 落石 - 낙석
+ 軽傷 - 경상
+ 通話 - 통화
+ 酷い - 심하다, 끔찍하다, 지독하다, 가혹하다, 잔인하다, 심각하다, 나쁘다
+300 disaster preparedness 준비물: 필요한 물품 써보기
+ あらかじめ - [arakajime] - 미리
+ グリル - [guriru] - 그릴
+ スコップ - [sukoppu] - 삽
+ トング - [tongu] - 집게
+ ノコギリ - [nokogiri] - 톱
+ モバイルバッテリー - [mobairubatterī] - 모바일 배터리
+ ランタン - [rantan] - 랜턴
+ 包丁 - 식칼
+ 包帯 - 붕대
+ 懐中電灯 - 손전등
+ 消毒 - 소독약, 소독을, 소독, 소독이
+ 焚き火 - 모닥불
+ 網 - 그물
+ 調味料 - 조미료
+ 軽量 - 경량
+ 頑丈 - 튼튼하다
+ 食材 - 식재료
+301 romance 연인: 연인에게 감정 표현하기
+ そっと - [sotto] - 살며시
+ もしかして - [moshikashite] - 어쩌면
+ プロポーズ - [puropōzu] - 청혼, 청혼을, 프로포즈, 프러포즈를
+ ロマンチック - [romanchikku] - 로맨틱
+ 仲直り - 화해
+ 外見 - 외모
+ 婚約 - 약혼
+ 安心感 - 안심감
+ 寛容 - 관용
+ 尊敬 - 존경
+ 恋人 - 연인
+ 情熱的 - 열정적인
+ 愛 - 사랑
+ 揉め事 - 분쟁
+ 散歩 - 산책도, 산책합니다, 산책이라도
+ 理想 - 이상
+ 秘密 - 비밀
+ 背徳感 - 죄책감
+ 花束 - 꽃다발
+302 community service 지역사회: 활동을 소개하기
+ もちろん - [mochiron] - 물론
+ チラシ - [chirashi] - 전단지
+ 代表 - 대표
+ 会費 - 회비
+ 住民 - 주민
+ 公民館 - 공민관, 주민센터, 주민회관, 커뮤니티 센터, 공민관은
+ 分 - 분이야, 분, 분이라고
+ 募金 - 모금
+ 底 - 바닥
+ 当日 - 당일
+ 歩道 - 보도
+ 県庁 - 현청
+ 窓口 - 창구
+ 管理人 - 관리인
+ 餅 - 떡
+ 高齢者 - 고령자
+303 bank 2 은행: 서류 작성하기
+ キャッシュカード - [kyasshukādo] - 캐시 카드
+ デビットカード - [debittokādo] - 직불카드
+ 両替 - 환전
+ 休業日 - 휴업일
+ 利子 - 이자
+ 取消 - 폐지, 무효화, 철회, 취소, 취소가
+ 小切手 - 수표
+ 担当者 - 담당자
+ 支店 - 지점
+ 教育ローン - 교육 대출
+ 暗証番号 - 비밀번호
+ 有効期限 - 유효기간
+ 残高 - 잔고
+ 注意事項 - 주의 사항
+ 硬貨 - 동전
+ 記入 - 기입, 작성, 입력
+ 身分証明書 - 신분증
+ 通帳 - 통장
+ 金額 - 금액
+304 digital communication 알림: 알림 내역 확인하기
+ の際 - [no jì] - 할 때
+ スタンプ - [sutanpu] - 스탬프
+ ビデオ会議 - [bideo huì yì] - 화상 회의
+ ミュート - [myūto] - 음소거
+ リマインダー - [rimaindā] - 리마인더
+ 会員 - 회원
+ 履歴 - 내역
+ 日付 - 날짜
+ 更新 - 새로 고침하다, 업그레이드, 업데이트가, 갱신하다, 새로 고침, 갱신, 업데이트, 업데이트하다, 업그레이드가
+ 迷惑メール - 스팸 메일
+ 迷惑行為 - 민폐 행위
+ 通知 - 알림
+305 history 역사: 유명한 장소 소개하기
+ 世界遺産 - 세계유산
+ 世紀 - 세기
+ 伝記 - 전기
+ 伝説 - 전설
+ 信仰 - 신앙
+ 国境 - 국경
+ 天皇 - 천황
+ 憲法 - 헌법
+ 政権 - 정권
+ 文明 - 문명
+ 歴史的 - 역사적인
+ 江戸時代 - 에도 시대
+ 王国 - 왕국
+ 現代 - 현대
+ 職人 - 장인
+ 象徴 - 상징
+ 遺跡 - 유적
+306 immigration 유학 생활: 새로운 환경에 적응하기
+ その結果 - [sono jié guǒ] - 그 결과
+ ところが - [tokoroga] - 그런데, 하지만, 그렇지만, 그런데도, 그럼에도 불구하고
+ 不安定 - 불안정한
+ 住宅 - 주택
+ 保育 - 보육
+ 保護 - 보호를, 보호하다, 보호, 보호에, 보호가
+ 傾向 - 경향
+ 労働時間 - 근무 시간
+ 同居 - 동거, 공동 거주, 거주, 함께 살기, 동거를
+ 国籍 - 국적
+ 在留カード - 재류 카드
+ 奨学金 - 장학금
+ 学生ビザ - 학생 비자
+ 学費 - 학비
+ 希望者 - 희망자
+ 帰国 - 귀국
+ 弁護士 - 변호사
+ 政策 - 정책
+ 滞在 - 머물고, 체재하고
+ 移民 - 이민자
+307 technology 기기: 기기 문제 설명하기
+ お気に入り - [o qìni rùri] - 마음에 드는
+ で大丈夫 - [de dà zhàng fū] - 해도 괜찮다
+ まで - [made] - 까지
+ セール品 - [sēru pǐn] - 세일 상품
+ ディスプレイ - [disupurei] - 디스플레이
+ 不具合 - 불량
+ 充電器 - 충전기
+ 別料金 - 별도 요금
+ 変換プラグ - 변환 플러그
+ 定番 - 기본
+ 対象外 - 대상외
+ 悪いんだけど - 미안한데
+ 順調 - 순조로운
+308 activism 제도: SNS로 제도 홍보하기
+ それでも - [soredemo] - 그럼에도 불구하고
+ ストライキ - [sutoraiki] - 파업
+ ハッシュタグ - [hasshutagu] - 해시태그
+ ボイコット - [boikotto] - 보이콧, 거부, 불매운동, 배척, 거절
+ 公正 - 공정
+ 利用者 - 이용자
+ 制度 - 제도
+ 医療 - 의료
+ 拡大 - 확장, 팽창, 확장이, 확산, 확대, 증대, 확장은
+ 指導 - 지도
+ 支持 - 찬성이
+ 支持者 - 지지자
+ 活動家 - 활동가
+ 縮小 - 축소, 축소하다
+ 計画 - 계획
+ 討論 - 토론, 논쟁, 토의
+ 議員 - 의원
+ 関東 - 관동, 간토
+309 apologizing 직장생활: 실수에 대해 사과하기
+ お時間、いいですか - [o shí jiān、iidesuka] - 시간 괜찮으세요?
+ なさいます - [nasaimasu] - 하시다, 하십니다, 하세요
+ クレーム - [kurēmu] - 클레임
+ 不充分 - 불충분
+ 小銭 - 잔돈
+ 意図的 - 의도적
+ 払戻し - 환불
+ 抹茶 - 말차
+ 様 - 님
+ 決して - 결코
+ 番号札 - 번호표
+ 負担 - 부담
+310 food 식당: 원하는 좌석 고르기
+ お好きな - [o hǎokina] - 좋아하는, 마음에 드는, 선호하는, 원하는
+ お米 - [o mǐ] - 쌀
+ カウンター席 - [kauntā xí] - 카운터석
+ セルフレジ - [serufureji] - 셀프 계산대
+ 付き - 포함
+ 伝票 - 전표
+ 円札 - 엔 지폐
+ 券売機 - 발매기
+ 単品 - 단품
+ 喫煙席 - 흡연석
+ 回転寿司 - 회전초밥
+ 奢り - 한턱
+ 店内 - 매장 내
+ 抜群 - 탁월한
+ 持ち帰り - 포장
+ 氷なしで - 얼음 없이
+ 漬物 - 장아찌
+ 甲殻類 - 갑각류
+ 禁煙 - 금연
+ 税込み - 세금 포함
+ 食券 - 식권

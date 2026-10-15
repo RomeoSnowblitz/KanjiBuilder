@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kanji Builder</title>
+  <link rel="stylesheet" href="style.css?v=0.7" />
+  <script src="translations.js?v=0.7"></script>
+  <script defer src="symbols.js?v=0.7"></script>
+  <script defer src="kanji-data.js?v=0.7"></script>
+  <script defer src="script.js?v=0.7"></script>
+</head>
+<body data-page="kanji">
+  <header class="navbar">
+    <nav>
+      <a href="index.html" data-i18n="nav.home">Home</a>
+      <a href="create.html" data-i18n="nav.create">Create</a>
+      <a href="draw.html" data-i18n="nav.draw">Draw</a>
+      <a href="dictionary.html" data-i18n="nav.dictionary">Dictionary</a>
+      <a href="kanji.html" class="active" data-i18n="nav.kanji">Kanji</a>
+      <a href="web.html" data-i18n="nav.web">Web</a>
+      <a href="write.html" data-i18n="nav.write">Write</a>
+      <a href="play.html" data-i18n="nav.play">Play</a>
+      <a href="learn.html" data-i18n="nav.learn">Learn</a>
+      <a href="comments.html" data-i18n="nav.comments">Comments</a>
+      <a href="transfers.html" data-i18n="nav.transfers">Transfers</a>
+    </nav>
+    <div class="navbar-right">
+      <div class="lang-wrapper">
+        <button type="button" id="lang-btn">English</button>
+        <div id="lang-dropdown" class="lang-dropdown hidden">
+          <button type="button" data-lang="zh">中文</button>
+          <button type="button" data-lang="es">Español</button>
+          <button type="button" data-lang="en">English</button>
+          <button type="button" data-lang="pt">Português</button>
+          <button type="button" data-lang="ru">Русский</button>
+          <button type="button" data-lang="ja">日本語</button>
+          <button type="button" data-lang="ko">한국어</button>
+          <button type="button" data-lang="de">Deutsch</button>
+          <button type="button" data-lang="fr">Français</button>
+          <button type="button" data-lang="it">Italiano</button>
+        </div>
+      </div>
+      <button id="theme-toggle">🌙</button>
+    </div>
+  </header>
+
+  <main>
+    <span class="app-version">v0.7a</span>
+    <h1 class="kanji-title">
+      <span data-i18n="nav.kanji">Kanji</span>
+      <span class="kanji-title-note">- <span data-i18n="kanji.englishNote">Note that currently all Definitions will only be in English at this time</span></span>
+    </h1>
+
+    <section class="kanji-controls">
+      <div class="kanji-row" role="group" aria-label="Character set">
+        <button type="button" class="transfer-lang-chip kanji-chip" data-kanji-set="radical" aria-pressed="false" data-i18n="kanji.setRadical">Radical</button>
+        <button type="button" class="transfer-lang-chip kanji-chip" data-kanji-set="chinese" aria-pressed="false" data-i18n="kanji.setChinese">Chinese</button>
+        <button type="button" class="transfer-lang-chip kanji-chip" data-kanji-set="japanese" aria-pressed="false" data-i18n="kanji.setJapanese">Japanese</button>
+        <button type="button" class="transfer-lang-chip kanji-chip" data-kanji-set="all" aria-pressed="false" data-i18n="kanji.setAll">All</button>
+      </div>
+      <div class="kanji-row">
+        <button type="button" id="kanji-starred-toggle" class="transfer-lang-chip kanji-chip" aria-pressed="false" data-i18n="kanji.starredList">Starred List</button>
+        <button type="button" id="kanji-learn" class="transfer-lang-chip kanji-chip" data-i18n="kanji.learn">Learn</button>
+      </div>
+      <div class="kanji-row">
+        <div class="kanji-sort-wrap">
+          <button type="button" id="kanji-sort" class="transfer-lang-chip kanji-chip kanji-sort-btn" aria-haspopup="menu" data-i18n-title="kanji.sortHint" title="Left-click to cycle, right-click to choose">Radical ID</button>
+          <div id="kanji-sort-menu" class="kanji-sort-menu hidden" role="menu"></div>
+        </div>
+        <input type="search" id="kanji-search" class="kanji-search" autocomplete="off" spellcheck="false" data-i18n-placeholder="kanji.searchPlaceholder" placeholder="Search frequency #, kanji or pinyin" aria-label="Search frequency #, kanji or pinyin" />
+      </div>
+    </section>
+
+    <section id="kanji-grid" class="kanji-grid" aria-label="Characters"></section>
+
+    <div id="kanji-detail-modal" class="kanji-detail-modal hidden">
+      <div class="kanji-detail" role="dialog" aria-modal="true" aria-labelledby="kanji-detail-glyph">
+        <div class="kanji-detail-toolbar">
+          <button type="button" id="kanji-detail-back" class="transfer-lang-chip" data-i18n="kanji.back">← Back</button>
+          <button type="button" id="kanji-detail-close" class="transfer-lang-chip" data-i18n="kanji.close">Close</button>
+          <div class="kanji-detail-nav">
+            <button type="button" id="kanji-detail-prev" class="transfer-lang-chip kanji-detail-arrow" title="Previous" aria-label="Previous">
+              <span class="kanji-detail-arrow-sign">‹</span>
+              <span id="kanji-detail-prev-glyph" class="kanji-detail-arrow-glyph"></span>
+            </button>
+            <span id="kanji-detail-position" class="kanji-detail-position"></span>
+            <button type="button" id="kanji-detail-next" class="transfer-lang-chip kanji-detail-arrow" title="Next" aria-label="Next">
+              <span id="kanji-detail-next-glyph" class="kanji-detail-arrow-glyph"></span>
+              <span class="kanji-detail-arrow-sign">›</span>
+            </button>
+          </div>
+          <button type="button" id="kanji-detail-star" class="kanji-star kanji-detail-star">☆</button>
+        </div>
+        <div id="kanji-detail-body"></div>
+      </div>
+    </div>
+
+    <div id="kanji-peek" class="kanji-peek hidden" aria-hidden="true"></div>
+  </main>
+</body>
+</html>

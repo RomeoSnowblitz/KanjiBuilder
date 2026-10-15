@@ -1,0 +1,10 @@
+# Curriculum characters missing from the HanziCraft simplified frequency list (kb_hanzi.ps1 -Extra).
+# Rank is HanziCraft's "most frequent in Traditional" rank from each character page; blank = no frequency
+# on HanziCraft ("very uncommon character"), placed after the last ranked character.
+# Hanzi	Rank
+著	41
+覆	1456
+藉	1689
+瞭	1953
+甚
+啰

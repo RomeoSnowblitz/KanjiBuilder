@@ -1,0 +1,31 @@
+# Corrections to the OCR of Appendix 5, checked by eye against the page images.
+# Includes entries OCR missed, misread, or that are correct but not in Hanzi.txt / out of its pinyin order.
+# Table	Number	Character
+Table1	478	愤
+Table1	524	覆
+Table1	944	掘
+Table1	945	嚼
+Table1	1019	兰
+Table1	1020	拦
+Table1	1188	忙
+Table1	1534	辱
+Table1	1535	入
+Table1	1601	甚
+Table1	1690	爽
+Table1	1691	谁
+Table1	1877	惟
+Table1	2004	小
+Table1	2212	忧
+Table1	2445	著
+Table2	9	懊
+Table2	225	羔
+Table2	226	膏
+Table2	345	藉
+Table2	451	瞭
+Table2	489	啰
+Table2	611	侨
+Table2	612	憔
+Table2	861	漾
+Table2	862	夭
+Table2	889	樱
+Table2	890	鹦

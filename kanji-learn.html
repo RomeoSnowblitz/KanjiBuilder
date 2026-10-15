@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kanji Builder</title>
+  <link rel="stylesheet" href="style.css?v=0.7" />
+  <script src="translations.js?v=0.7"></script>
+  <script defer src="kanji-data.js?v=0.7"></script>
+  <script defer src="script.js?v=0.7"></script>
+</head>
+<body data-page="kanji-learn">
+  <header class="navbar">
+    <nav>
+      <a href="index.html" data-i18n="nav.home">Home</a>
+      <a href="create.html" data-i18n="nav.create">Create</a>
+      <a href="draw.html" data-i18n="nav.draw">Draw</a>
+      <a href="dictionary.html" data-i18n="nav.dictionary">Dictionary</a>
+      <a href="kanji.html" class="active" data-i18n="nav.kanji">Kanji</a>
+      <a href="web.html" data-i18n="nav.web">Web</a>
+      <a href="write.html" data-i18n="nav.write">Write</a>
+      <a href="play.html" data-i18n="nav.play">Play</a>
+      <a href="learn.html" data-i18n="nav.learn">Learn</a>
+      <a href="comments.html" data-i18n="nav.comments">Comments</a>
+      <a href="transfers.html" data-i18n="nav.transfers">Transfers</a>
+    </nav>
+    <div class="navbar-right">
+      <div class="lang-wrapper">
+        <button type="button" id="lang-btn">English</button>
+        <div id="lang-dropdown" class="lang-dropdown hidden">
+          <button type="button" data-lang="zh">中文</button>
+          <button type="button" data-lang="es">Español</button>
+          <button type="button" data-lang="en">English</button>
+          <button type="button" data-lang="pt">Português</button>
+          <button type="button" data-lang="ru">Русский</button>
+          <button type="button" data-lang="ja">日本語</button>
+          <button type="button" data-lang="ko">한국어</button>
+          <button type="button" data-lang="de">Deutsch</button>
+          <button type="button" data-lang="fr">Français</button>
+          <button type="button" data-lang="it">Italiano</button>
+        </div>
+      </div>
+      <button id="theme-toggle">🌙</button>
+    </div>
+  </header>
+
+  <main>
+    <span class="app-version">v0.7a</span>
+    <div class="kanji-learn-bar">
+      <div class="kanji-learn-actions">
+        <a href="kanji.html" class="transfer-lang-chip" data-i18n="kanji.backToKanji">← Back to Kanji</a>
+        <button type="button" id="kanji-learn-sidebar-toggle" class="transfer-lang-chip kanji-learn-icon-btn" aria-controls="kanji-learn-sidebar" aria-expanded="true" data-i18n-title="kanji.toggleLessons" title="Show or hide lessons" aria-label="Show or hide lessons">☰</button>
+      </div>
+      <div class="kanji-learn-actions">
+        <button type="button" id="kanji-learn-save" class="transfer-lang-chip" data-i18n="kanji.save">Save</button>
+        <button type="button" id="kanji-learn-settings" class="transfer-lang-chip kanji-learn-icon-btn" data-i18n-title="kanji.settings" title="Settings" aria-label="Settings" aria-controls="kanji-learn-settings-panel" aria-expanded="false">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="12" cy="12" r="3" />
+            <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09a1.65 1.65 0 0 0-1.08-1.51 1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09a1.65 1.65 0 0 0 1.51-1.08 1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z" />
+          </svg>
+        </button>
+        <div id="kanji-learn-settings-panel" class="kanji-learn-settings-panel hidden">
+          <div class="kanji-learn-settings-row">
+            <span data-i18n="kanji.learnStyle">Learn Style</span>
+            <button type="button" id="kanji-learn-style" class="transfer-lang-chip kanji-learn-style">Linear</button>
+          </div>
+          <div class="kanji-learn-settings-row" data-learn-style="linear">
+            <label for="kanji-learn-per-lesson" data-i18n="kanji.symbolsPerLesson">Symbols Per Lesson</label>
+            <input type="number" id="kanji-learn-per-lesson" min="1" max="200" step="1" value="10" />
+          </div>
+          <div class="kanji-learn-settings-row" data-learn-style="exponential">
+            <label for="kanji-learn-positive-jump" data-i18n="kanji.positiveJump">Positive Jump</label>
+            <input type="number" id="kanji-learn-positive-jump" data-exp="positiveJump" min="0" max="100000" step="1" />
+          </div>
+          <div class="kanji-learn-settings-row" data-learn-style="exponential">
+            <label for="kanji-learn-negative-jump" data-i18n="kanji.negativeJump">Negative Jump</label>
+            <input type="number" id="kanji-learn-negative-jump" data-exp="negativeJump" min="0" max="100000" step="1" />
+          </div>
+          <div class="kanji-learn-settings-row">
+            <label for="kanji-learn-golden-streak" data-i18n="kanji.goldenStreak">Golden Streak</label>
+            <input type="number" id="kanji-learn-golden-streak" min="1" max="100000" step="1" />
+          </div>
+          <div class="kanji-learn-settings-row">
+            <label for="kanji-learn-star-mode" data-i18n="kanji.starMode">Star mode (starred symbols only)</label>
+            <input type="checkbox" id="kanji-learn-star-mode" />
+          </div>
+          <div class="kanji-learn-settings-row">
+            <label for="kanji-learn-mode-definition" data-i18n="kanji.definitionMode">Definition mode (o / x)</label>
+            <input type="checkbox" id="kanji-learn-mode-definition" data-mode="definition" />
+          </div>
+          <div class="kanji-learn-settings-row">
+            <label for="kanji-learn-mode-kanji" data-i18n="kanji.kanjiMode">Kanji mode (type the character)</label>
+            <input type="checkbox" id="kanji-learn-mode-kanji" data-mode="kanji" />
+          </div>
+          <div class="kanji-learn-settings-row">
+            <label for="kanji-learn-mode-reading" data-i18n="kanji.readingMode">Reading mode (type reading)</label>
+            <input type="checkbox" id="kanji-learn-mode-reading" data-mode="reading" />
+          </div>
+          <button type="button" id="kanji-learn-reset-counts" class="transfer-lang-chip kanji-learn-reset" data-i18n="kanji.resetCounts">Reset Counts</button>
+        </div>
+      </div>
+    </div>
+    <div class="kanji-learn-layout">
+      <aside id="kanji-learn-sidebar" class="kanji-learn-sidebar">
+        <button type="button" id="kanji-learn-filter" class="transfer-lang-chip kanji-learn-filter" aria-pressed="false">To-Do</button>
+        <ol id="kanji-learn-lessons" class="kanji-learn-lessons"></ol>
+      </aside>
+      <section id="kanji-learn-body" class="kanji-learn-body"></section>
+    </div>
+    <div id="kanji-learn-peek" class="kanji-peek kanji-learn-peek hidden" aria-hidden="true"></div>
+  </main>
+</body>
+</html>

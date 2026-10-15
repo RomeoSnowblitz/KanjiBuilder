@@ -1,0 +1,7386 @@
+1 Cafe 在咖啡馆点单
+ agua - 水
+ café - 咖啡
+ chao - 掰掰
+ con azúcar - 加糖
+ con hielo - 加冰
+ con leche - 加牛奶
+ gracias - 谢谢
+ helado - 冰淇淋
+ hola - 你好
+ o - 或者
+ pan - 面包
+ perfecto - 好极了
+ por favor - 拜托
+ quieres - 不要, 想要, 肯, 不想, 你要, 想养, 想来, 还要, 想往
+ quiero - 不要, 我要, 想装, 肯, 不想, 还要, quiero
+ sándwich - 三明治
+ taco - 塔可, 卷饼
+ té - 茶
+ un - 一
+ vaso de - 一杯
+ y - 和
+2 Greetings 打招呼和说再见
+ bien - 好
+ bienvenida - 欢迎
+ bienvenido - 欢迎
+ buenos días - 早上好
+ ella - 她
+ es - 点了, 埃斯, 中是, 他是, 湖是, 节是, 乳是, 可不是, 美是, 并非, 笔是, 是, 张华是, 不是, e, 劳拉对, es, 却是, 就是
+ hasta luego - 待会儿见
+ jugo - 果汁
+ mi mejor amiga - 我最好的朋友
+ mi mejor amigo - 我最好的朋友
+ mucho gusto - 很高兴认识你
+ qué tal - 怎么样啊
+ soy - 私, 我是, 是, 不是
+ yo - 我
+ él - 他
+3 Origin 用“ser de”表示来源
+ Alemania - 德国
+ buenas tardes - 下午好
+ compañero de cuarto - 室友
+ de dónde eres - 你来自哪里
+ encantada - 很高兴认识你
+ encantado - 很高兴认识你
+ eres de - 是来自
+ es de - 是...的
+ mamá - 母亲, 妈, 妈妈, mama
+ mi - 我的, 我右
+ no - 别, 没, 别老, 未, 否, 莫, 非, 别因, 你别, 别冲, 别往, 不会, 别为, 别跟我, 不是, 不, 勿, 千万别
+ soy de - 来自
+ sí - 是的
+ tú - 你
+ verdad - 对吗
+4 Family 介绍家人和朋友
+ amiga - 闺蜜, 朋, 朋友, 友, 好友
+ amigo - 朋友
+ compañera de trabajo - 同事
+ compañero de trabajo - 同事
+ en realidad - 其实
+ hermana - 姐妹
+ hermano - 兄弟
+ hija - 女儿
+ hijo - 儿子
+ quiere - 不肯, 她要, 没人要, 胡安想, 不要, 想要, 男主想, 想干什么, 牙要, 后要, 美想, 胡安要, 肯, 要, 不想, 人想, 您要, 要配, 想养, 还要, 他要, 埃迪要
+ solamente - 只
+ también - 也
+ tengo - 得, 备着, 有信, 不抱, 有, 我有, 我满
+ tía - 姑姑
+ tío - 叔叔
+ una - 一
+ uno - 一
+5 Character 描述性格
+ abuela - 奶奶
+ abuelo - 爷爷
+ como yo - 像我一样
+ creo que - 我认为
+ cómo es - 怎么样
+ en general - 一般来说
+ esposa - 老婆
+ esposo - 老公
+ graciosa - 搞笑, 笑
+ gracioso - 搞笑
+ no crees - 你不觉得吗
+ novia - 女朋友
+ novio - 男朋友
+ papá - 爸爸
+ pero - 但, 却, 但是, 可是, 但雨刷, 不过, 却关, 而是
+ seria - 肃, 严肃, 认真
+ serio - 肃, 认真, 严肃, 要紧
+ simpática - 友好
+ simpático - 友好
+ tu - 你的
+ tímida - 害羞, 羞
+ tímido - 害羞
+6 Packing 用“estar”表示位置
+ aquí - 这里
+ ay - 哎呀
+ cargador - 充电器
+ cartera - 钱包
+ chaqueta - 夹克
+ dónde - 哪里
+ está - 海在, 您在, 他在, 机在, 不在, 劳拉正, b, 他是, 正在, 怎么样, 想得, 处于, 在, 风在, 水是, 是, 不是, 劳拉对, 快好了
+ gorra - 鸭舌帽
+ libro - 书
+ maleta - 行李箱
+ mochila - 背包
+ no - 不
+ no encuentro - 找不到
+ nuevo - 新的
+ pasaporte - 护照
+ pues - 唔
+ reloj - 手表
+ suéter - 衣, 毛衣, 套头衫
+ tableta - 平板电脑, 平板
+ tengo - 得, 备着, 有信, 不抱, 有, 我有, 我满
+ tranquila - 放心
+ tranquilo - 放心
+ vestido - 连衣裙
+7 City 谈论城市中的地方
+ banco - 银行, 长椅, 金融公司
+ barrio - 街区
+ cafetería - 咖啡厅
+ centro comercial - 购物中心
+ cerca - 附近
+ ciudad - 城市
+ en - 用, n, en, 中连, 于, 上, 儿里, 中加, 中能, 中有, 中过, 之中, 里装, 诗里, 上见, 上用, 处于, 内, 在, 上要, 对交, 里, 中向, 里加, 中, 之内
+ estacionamiento - 停车位
+ estación de metro - 地铁站
+ hay - （表示存在的）有, 鼓有, 有纸, 有无, 有床, 有雪, 内有, 有, 放着, 有红, 没有, 有风, 那有, 有股, 上放, 有脏, 班有
+ hotel - 酒店, 旅馆
+ librería - 书店
+ mira - 你看, 瞧瞧, 看, 看看, 瞧
+ museo - 博物馆, 馆
+ no hay - 没有
+ oye - 嘿
+ panadería - 面包店
+ parque - 公园
+ por aquí - 这一带
+ pueblo - 小镇
+ teatro - 戏剧, 剧院, 剧场
+ tienda - 店
+8 Study 谈论语言
+ alemán - 德语
+ arte - 艺术
+ casa - 房子
+ escuela - 学校
+ español - 西班牙语
+ estudias - 学, 学习, 你学习, 你学
+ estudio - 留学, 我学, 学, 学习, 工作室, 书房, 研究, 开间
+ francés - 法语
+ genial - 太好了
+ guau - 哇
+ hablar - 说
+ hablas - 说话, 谈论, 你说, 说, 讲话, 聊起
+ inglés - 英语
+ italiano - 意大利语
+ muy bien - 很好
+ música - 音乐
+ por la mañana - 早上
+ por la noche - 晚上
+ portugués - 葡萄牙语
+ un poco de - 一点
+ y tú - 你呢
+9 Weather 用“hace”描述天气
+ abrigo - 大衣
+ ahora - 现在
+ allí - 那里
+ buen tiempo - 天气好
+ calor - 热
+ diciembre - 十二月
+ en - 用, n, en, 中连, 于, 上, 儿里, 中加, 中能, 中有, 中过, 之中, 里装, 诗里, 上见, 上用, 处于, 内, 在, 上要, 对交, 里, 中向, 里加, 中, 之内
+ enero - 一月
+ frío - 冷
+ hace - 做些, 前才, 年前, 作, 做肉, 前, 做一套, 熊让, （他/她/您）做, 搞些, 就让, 做, 令, 布让, 制冰, 前刚
+ hoy - 今天
+ invierno - 冬天
+ julio - 七月
+ marzo - 三月
+ mucho - 非常
+ no hace - 不
+ octubre - 十月
+ otoño - 秋天
+ país - 国家
+ primavera - 春天
+ septiembre - 九月
+ sol - 太阳
+ traje de baño - 游泳衣
+ uso - 用, 不用, 我用, 使用, 用途, 穿卫衣
+ verano - 夏天
+ viento - 风
+10 Market 购买水果
+ bolsa - 袋子
+ bolsas - 袋子
+ botella de - 瓶子里的, 瓶子里
+ cuánto cuesta - 多少钱
+ cuánto cuestan - 多少钱
+ dos - 两
+ durazno - 桃子
+ duraznos - 桃子
+ este - 这个
+ hay - （表示存在的）有, 鼓有, 有纸, 有无, 有床, 有雪, 内有, 有, 放着, 有红, 没有, 有风, 那有, 有股, 上放, 有脏, 班有
+ kilo de - 公斤
+ kilos de - 公斤
+ mango - 芒果
+ mangos - 芒果
+ mercado - 市场
+ mercados - 市场
+ más - 更多
+ naranja - 橙子
+ naranjas - 橙子
+ necesitas - 需, 需要, 你需要, 不必
+ necesito - 需, 我需要, 需要, 我得取
+ piña - 菠萝
+ piñas - 菠萝
+ sandía - 西瓜
+ sandías - 西瓜
+ tres - 三
+11 Home 描述你的家
+ apartamento - 寓, 公寓, 套房
+ bonito - 漂亮
+ calle - 街道
+ con - 和
+ edificio - 大楼
+ familia - 人家, 家人, 一家人, 家里人, 家庭, 家族, 亲人
+ garaje - 车库
+ gato - 猫
+ grande - 大
+ jardín - 花园
+ lejos - 远
+ me gusta - 我喜欢
+ muchos - 很多
+ muy - 特别
+ pareja - 夫妇, 夫妻, 对象, 一对, 侣, 夫妇俩, 情侣, 爱人, 搭档, 配偶
+ parques - 公园
+ pequeño - 小
+ perro - 狗
+ piso - 地板, 一层, [地/地面], 踩, 地面
+ restaurante - 餐厅, 餐馆, 饭馆, 饭店, 馆子
+ solo - 一个人
+ supermercado - 超市
+ terraza - 露台, 楼顶
+ tiene - 书有, 饺有, 持有, 有球, 谁养, 镇有, 有网, 何塞有, 有, 有长, 负有, 剧有, 茶有, 有着, 张华有, 您有, 留胡子, 美有, 具有, 胡安有, 街有, 汤有
+ tranquilo - 安静
+ vivir - 过活, 过日子, 他活, 生活, 活在, 住, 上住
+12 Interests 用现在时谈论习惯
+ arroz - 米饭
+ bailar - 跳舞
+ bueno - 嗯
+ cantar - 唱歌
+ cocinar - 做饭
+ con pollo - 加鸡肉
+ discoteca - 迪斯科舞厅, 迪斯科, 舞厅, 迪厅
+ en coche - 坐车
+ en tren - 坐火车
+ es divertido - 很好玩
+ escuchar - 听
+ hermanos - 兄弟姐妹
+ mirar - 看
+ mucho - 经常
+ nosotras - 我们
+ nosotros - 我们
+ pasta - 意大利面, 浆, 意面, 面, 面上
+ película - 电影
+ pintar - 绘画
+ por la tarde - 下午
+ qué haces - 你做什么, 你今天做什么, 你在做什么, 你在这里做什么
+ salsa - 萨尔萨舞
+ somos - 我们是, 是, 不是, 我们
+ sopa - 汤, 那汤, 点汤
+ su - 其, 您的, 苏, 他的, 她, 牠的, 它们的, 您, 它的, 她家, 她的, 你们的, 她们的, 他们的
+ tiempo libre - 空闲时间
+ ustedes - 你们
+ viajar - 旅行
+13 Sports 谈论运动
+ a menudo - 时常
+ ah - 啊
+ al aire libre - 在户外
+ atlético - 运动型
+ básquetbol - 篮球
+ béisbol - 棒球
+ caminar - 走路
+ descansar - 休息
+ ellas - 她们
+ ellos - 他们
+ entrenador - 教练
+ entrenar - 锻炼
+ equipo - 队, 伍, 团, 一队, 团队, 队里, 设备, 球队, 队伍, 硬件, 装备
+ esquiar - 滑雪
+ frecuentemente - 频繁地
+ fútbol - 足球
+ gimnasio - 健身房
+ honestamente - 说实话
+ nadar - 游泳
+ perezoso - 懒
+ piscina - 游泳池
+ porque - 因为
+ practicar - 练习, 来练, 练练, 练起来, 他练, 排练
+ siempre - 总是
+ tenis - 网球
+ todos los días - 每天
+ ya no - 不再
+14 Hobbies 谈论爱好
+ España - 西班牙
+ aburrido - 无聊
+ bien - 好
+ cuatro - 四
+ curso - 课程, 班级, 入门, 程, 教程, 趋势
+ dibujar - 画图
+ empieza - 始, 开始, 着手
+ enseñar - 教
+ entonces - 那么
+ favorito - 最喜爱的, 最喜欢的, 喜爱
+ interesante - 有趣
+ mal - 糟糕
+ mañana - 明天
+ pasear - 散步
+ patinar - 溜冰
+ perdón - 对不起
+ persona - 坏人, 人, 人去, 人向, 人上, 人士, 人时
+ pescar - 钓点, 钓鱼, 捕鱼
+ pódcast - 播客
+ solo - 只
+ son de - 是...的
+ tango - 探戈舞
+ vecino - 邻居
+ yoga - 瑜伽
+ árabe - 阿拉伯语
+15 Classroom 参与课堂活动
+ así es - 就是这样
+ biblioteca - 图书馆, 馆
+ chino - 中文
+ clase - 课上, 课堂, 品种, 班上, 戈课, 课, 班, 班级, 有课, 同班, 入门, 课会
+ colegio - 学校
+ compañero - 同学
+ de - 出自, 之, 来自, 的, 起, 关于, de
+ difícil - 难
+ director - 主管, 校长, 团长, 主任, 导演, 院长, 社长
+ ejercicio - 习题
+ el - 一辆, 这, 那, l, el
+ en grupo - 一组人一起
+ en línea - 线上
+ fácil - 简单
+ geografía - 地理
+ historia - 历史
+ japonés - 日语
+ la - 这个, 这, 那, l, la
+ lección - 教程
+ literatura - 文学
+ maestro - 老师
+ matemáticas - 数学
+ química - 化学
+ repasar - 复习
+ ruso - 俄语, 俄
+ súper - 超级
+ tarea - 功课, 家庭作业, 任务, 作业, 使命
+ trabajar - 工作
+ un poco - 一点点
+16 Restaur. 谈论食物
+ azúcar - 糖
+ batido - 奶昔
+ bebida - 饮料
+ carne - 肉
+ claro - 当然
+ con - 用, 配, 跟迪, 加, c, 有加, 和, 带雨, 凭借, 随着, 肉配, 随, 凭, 带有, 装有, 对, 跟, 以, 配着
+ cuenta - 买单
+ de - 出自, 之, 来自, 的, 起, 关于, de
+ disculpe - 抱歉
+ frijol - 豆子
+ galleta - 饼干
+ hamburguesa - 汉堡, 汉堡包
+ hielo - 冰块
+ huevo - 鸡蛋
+ las - 那些, 这些, 维
+ leche - 牛奶
+ llevar - 戴, 带水, 带防, 带, 带花, 携带, 架来, 只带, 能带, 携, 带得, 带上, 扛过去, 车载, 扛着, 随身携带, 拎, 扛
+ lo siento - 不好意思
+ los - 那些, 这些, 那, 们, los
+ papa - 土豆
+ pastel - 蛋糕
+ queso - 奶酪
+ sal - 盐
+ salsa - 蹈, 莎, 酱料, 萨酱, 调味酱, 加酱, 酱, 酱汁, 沙司, 调味汁, 酱会, 萨跳, 萨舞, 配酱, 那酱
+ sin - 不加
+ sin gluten - 无麸质
+ verdura - 蔬菜
+17 Reviews 评价食物和服务
+ bar - 酒吧
+ bueno - 好
+ caro - 贵
+ comida - 食物
+ cómodo - 舒服
+ desayuno - 早餐
+ excelente - 很棒
+ grosero - 粗鲁
+ lugar - 地方
+ malo - 难吃
+ mesero - 服务员
+ nuevo - 新长, 新人, 新任, 新来, 清新, 新开, 再次, 新, 新的, 新型, 新修
+ pero - 但是
+ pizza - 披萨, 比萨
+ postre - 甜点
+ precio - 要价, 价, 价格, 价钱, 价位, 代价
+ silla - 椅子
+ simpáticos - 友好
+ son - 点了, 他们是, 是, 不是
+ tomate - 西红柿
+18 Tourist 问路
+ a - 给, 到, 向, 在, 阿, 去, 二比
+ a la derecha - 右边
+ a la izquierda - 左边
+ aeropuerto - 机场
+ bastante - 挺
+ buscar - 找
+ centro - 市中心
+ cerca de - 附近
+ cine - 电影院
+ enfrente de - 对面
+ estación de tren - 火车站
+ están - 正为, 不在, 他们, 离得, 在, 身处, 正以
+ kilómetro - 千米, 公里
+ lago - 湖, 湖泊, 湖都
+ lejos de - 离很远
+ montaña - 山
+ oficina de información - 信息办公室
+ parada de taxi - 出租车站
+ playa - 海滩
+ plaza - 广场, 位子
+ salida - 出口
+ taxi - 出租车
+19 Clothes 购买衣服
+ abrigo - 大衣
+ amarillo - 黄色
+ aquí tiene - 给您
+ barato - 便宜
+ blanco - 白色
+ blusa - 女上衣
+ bolso - 包
+ bufanda - 围巾
+ camisa - 衬衫
+ chaqueta - 夹克
+ cinturón - 腰带
+ collar - 项链
+ en oferta - 打折
+ en serio - 真的
+ falda - 裙子
+ largo - 更长, 很长, 漫长, 长长的, 最长, 长的, 长, 长头发, 悠久
+ morado - 紫色
+ necesitar - 需要
+ negro - 黑色
+ quiero - 我要
+ rojo - 红色, 红色的, 朱, 红, 赤
+ sombrero - 帽子
+ traje - 西装
+20 Colleagues 谈论工作
+ abogado - 律师
+ adiós - 再见
+ alemán - 德国人
+ empresa - 公司
+ francés - 法国人
+ hombre - 男人
+ hospital - 医院
+ inglés - 英国人
+ japonés - 日本人
+ jefa - 老板, 老大, 女老板, 上司, (女) 老板, 女上司
+ jefe - 老板
+ juntos - 一起
+ moderno - 时尚, 尚, 现代, 现代化的, 新型, 潮酷
+ mujer - 女人
+ oficina - 办事处, 事务所, 局, 办公室, 司, 工作室
+ peluquería - 理发店
+ trabajador - 勤奋
+ universidad - 大学
+ viejo - 老
+21 Groceries 使用不定冠词
+ aguacate - 牛油果
+ ahora mismo - 马上
+ almuerzo - 午餐
+ ensalada - 沙拉
+ espere - 请等一下
+ fresa - 草莓
+ jugo - 果汁, 汁
+ lima - 利马
+ manzana - 苹果
+ minuto - 分钟, 分, 一分钟
+ para - 针对, 为了, 而言, 给, 用来做, 于, 扑出来, 用于, 对 ... 来说, 用来, 以便, 用于 ... 的, 对于, 停, 对 ... 而言, 给 ... 准备的, 来说, 以备, 为, 替, 鸟用
+ pepino - 黄瓜
+ pera - 梨
+ pimiento - 甜椒
+ plátano - 香蕉
+ señor - 先生
+ señora - 女士
+ unas - 一些, 几把, 加入, 几盏
+ unos - 一些
+ zanahoria - 胡萝卜
+22 Chores 做家务活
+ a veces - 有时候
+ baño - 卫生间
+ caja - 盒子
+ cocina - 厨房
+ comprar - 买
+ cuarto - 卧室
+ en - 用, n, en, 中连, 于, 上, 儿里, 中加, 中能, 中有, 中过, 之中, 里装, 诗里, 上见, 上用, 处于, 内, 在, 上要, 对交, 里, 中向, 里加, 中, 之内
+ encima de - 上, 上面
+ fiesta - 派对
+ lavar - 洗
+ limpiar - 打扫
+ merienda - 下午茶
+ mesa - 桌子
+ mis - 我的
+ muy bien - 很好
+ nunca - 从不
+ plato - 碟, 菜品, [菜/餐点], 菜, 肴, 菜肴, 道菜, 盘子, 盘, 一盘
+ preparar - 备, 筹备, 配一, 准备, 泡茶, 准备考, 预备, 预先安排
+ regalo - 礼物
+ ropa - 衣服
+ rápido - 快
+ su - 其, 您的, 苏, 他的, 她, 牠的, 它们的, 您, 它的, 她家, 她的, 你们的, 她们的, 他们的
+ sus - 其, 您的, 他的, 它们的, 它的, 她的, 你们的, 她们的, 他们的, 们, 他们
+ tus - 你的, 们
+ vaso - 杯子
+23 Project 讨论学校项目
+ borrador - 橡皮
+ calificación - 成绩
+ cierto - 真的
+ clase - 课上, 课堂, 品种, 班上, 戈课, 课, 班, 班级, 有课, 同班, 入门, 课会
+ computadora - c, 电脑, 计算机, 电脑前
+ copia - 复本, 摹, 临摹, 时抄, 副本, 复印件, 草稿
+ creativo - 创造力, 创意
+ diccionario - 字典, 词典
+ estudiante - 学生
+ está bien - 没关系
+ lindo - 可爱
+ lápiz - 铅笔
+ mapa - 地图
+ ni idea - 不知道
+ nuestra - 我们的, 咱, 我们, 咱们
+ nuestras - 我们的, 我们
+ nuestro - 我们的, 我们
+ nuestros - 我们的
+ pluma - 笔
+ proyecto - 计划, 项目, 草稿, 稿子
+ qué - 什么
+ seguro - 定, 确信, 安全的, 一定, 确定的, 有把握, 保险, 安, 安全, 确定, 保险金
+ su - 其, 您的, 苏, 他的, 她, 牠的, 它们的, 您, 它的, 她家, 她的, 你们的, 她们的, 他们的
+ sus - 其, 您的, 他的, 它们的, 它的, 她的, 你们的, 她们的, 他们的, 们, 他们
+ usar - 用, 说用, 打领带, 于用, 使出, 穿鞋, 用书, 穿, 使用, 用笔, 过用, 穿厚, 换用, 穿卫衣, 用卡, 用布, 占用
+24 Check In 问候他人感受
+ competencia - 竞争, 比赛, 竞赛
+ contento - 开心
+ emocionado - 兴奋
+ en - 用, n, en, 中连, 于, 上, 儿里, 中加, 中能, 中有, 中过, 之中, 里装, 诗里, 上见, 上用, 处于, 内, 在, 上要, 对交, 里, 中向, 里加, 中, 之内
+ estamos - 我们在, 感到, 我们是, 我们, 在, 是, 处于
+ estoy - 我是, 我在, 在, 是, 不在
+ estás - 怎么样, 着, 在, 是, 你是, 你在, 不在
+ feria - 博览会
+ festival - 音乐节, 节日, 节庆, 节会
+ me alegro - 我很高兴
+ muchas gracias - 多谢
+ muchos - 很多, 许多, 好多, 多得
+ nervioso - 紧张
+ organizar - 举办, 安排, 来订, 办得, 地办, 组织, 筹办, 预先安排, 收纳
+ pocos - 很少
+ por qué - 为什么
+ preocupado - 着急
+ qué pena - 好可惜
+ qué suerte - 真幸运
+ relajado - 放松, 轻松, 不紧, 轻松愉快
+ sorprendido - 惊讶
+ todos - 所有的, 都, 每, 所有, 大伙儿, 大家, 皆, 完全的, 所有人, 全都, 整, 全都会
+ triste - 难过
+ voluntario - 志愿者, 自愿, 自觉
+ yo también - 我也是
+25 Places 问路
+ a - 给, 到, 向, 在, 阿, 去, 二比
+ a pie - 走路
+ a tiempo - 准时
+ al - 到, 在, 时要
+ al lado de - 旁边
+ autobús - 公交车
+ cinco - 五
+ cuadra - 街
+ cuesta - 要价, 这要, 要花费, 花费, 多少钱, 陡路, 上坡, 下坡
+ cuándo - 什么时候
+ cuánto - 多少
+ cómo - 怎么
+ diez - 十
+ en - 用, n, en, 中连, 于, 上, 儿里, 中加, 中能, 中有, 中过, 之中, 里装, 诗里, 上见, 上用, 处于, 内, 在, 上要, 对交, 里, 中向, 里加, 中, 之内
+ entre - 之间
+ estación de metro - 地铁站
+ farmacia - 药店, 药房
+ hora - 时候, 时间, 小时, 时
+ llegar - 到
+ manejar - 开车
+ metro - 地铁
+ oye - 嘿
+ pronto - 很快
+ puerto - 港口
+ quién - 谁
+ sale - 出发
+ tomar - 服药, 乘坐, 记笔记, 拍张, 拍照片, 拍一, 搭乘, 拍下, 喝一杯, 取, 搭, 要花些, 拍照, 服用, 乘, 拿, 拍自
+ tren - 火车, 列车
+ va - 延长, （他/她/您）去, 不去
+26 Recipe 询问食材
+ aceite - 油
+ ajo - 大蒜
+ ayuda - 帮助
+ cebolla - 洋葱
+ cuánta - 多少
+ cuántas - 多少, 几个, 几件, 几张, 多少所, 几套, 几顶, 几门, 几座
+ cuánto - 多少
+ cuántos - 多少
+ de - 出自, 之, 来自, 的, 起, 关于, de
+ harina - 面粉
+ ingrediente - 成分, 食材
+ kilo - 公斤
+ lechuga - 生菜
+ limón - 檬, 柠檬, 柠
+ listo - 准备好了
+ litro - 一升, 半升
+ medio - 半
+ picante - 辣
+ pimienta - 胡椒
+ quieres - 不要, 想要, 肯, 不想, 你要, 想养, 想来, 还要, 想往
+ receta - 处方, 菜谱, 食谱, 配方
+ rico - 好吃
+ tienes - 有
+ tortilla - 玉米饼, 土豆饼
+ tradicional - 传统的, 传统, 悠久, 民间
+27 Party 在聚会上介绍自己
+ alto - 高个子
+ bajo - 矮个子
+ bigote - 八字胡
+ camiseta - T恤
+ chica - 女生
+ chico - 男生
+ colega - 队友, 僚, 同事, 搭档
+ compañero de cuarto - 室友
+ con - 穿
+ cómo estás - 你好吗
+ cómo te llamas - 你叫什么名字
+ divertido - 好玩
+ eres - 是, 你是, 不是
+ ex - 前任
+ extranjero - 外国人
+ introvertido - 内向的, 内向, 性格内向
+ invitado - 客人
+ otro - 再一
+ prima - 表妹, 表姐, 表姐妹, 堂姐, 堂妹
+ primo - 表兄弟
+ sociable - 善于交际
+ uno de - 之一
+ verde - 绿色
+ ya - 已经
+ zapato - 鞋子
+28 Families 描述外貌
+ abuelos - 祖父母
+ azul - 蓝色
+ barba - 胡子
+ corto - 短
+ de - 出自, 之, 来自, 的, 起, 关于, de
+ flaco - 瘦
+ foto - 照, 照片, 合照, 张照
+ fuerte - 强壮
+ guapo - 好看
+ hijos - 儿女
+ joven - 年轻
+ moreno - 黑发的
+ ojo - 眼睛
+ padres - 父母
+ pelirrojo - 红发的
+ pelo - 头发
+ quiénes - 谁
+ rubio - 金发的
+ sobrina - 外甥女
+ sobrino - 外甥
+ tienen - 他们, 包有, 有, （他们/她们）有, 有着, 劳拉有, 们, 人有
+29 Plans 在时间表达中使用定冠词
+ a las - 在
+ cena - 晚餐
+ concierto - 演唱会, 音乐会, 演奏会, 歌会
+ de - 出自, 之, 来自, 的, 起, 关于, de
+ el - 一辆, 这, 那, l, el
+ entrada - 票
+ fin de semana - 周末
+ hora - 时间
+ invitación - 邀请, 邀请函, 请帖
+ lunes - 周一
+ mañana - 早上
+ ocupado - 忙于, 担任, 比较忙, 很忙, 忙碌, 碌, 太忙, 忙, 繁忙, 载客
+ partido - 球赛
+ perdón - 对不起
+ pizzería - 披萨店, 披萨
+ plan - 计划, 方案, 点子, 企划, 计, 制订, 大纲
+ por la - 在
+ reloj - 时钟
+ seis - 六
+ sábado - 周六
+ tarde - 下午
+ temprano - 早
+ tiempo - 空儿, 时, 时间, 时光
+ una - 一样, 一辆, 一款, 一张, 一封, 1, 一场, 一名, 一件, 一面, 一本, 一所, 一口, 一段, 一篇, 一处, 一人, 一间, 一尊, 一家, 一门, 一条, 一根, 一顶, 一位, 一盏, 一种, 一朵, 一套, 一只, 一支, 一座, 一台, 一扇, 一把, 一通, 一颗, 一桩, 一部, 一个, 一, 一节, 一记
+ vegetariano - 素食的, 者, 素食, 素, 素食者, 吃素
+ viernes - 星期五, 周五
+30 Formality 正式介绍自己
+ apellido - 姓氏
+ arquitecto - 建筑师
+ bailarín - 舞者
+ chef - 厨师, 大厨
+ contador - 会计
+ disculpa - 请问
+ es - 点了, 埃斯, 中是, 他是, 湖是, 节是, 乳是, 可不是, 美是, 并非, 笔是, 是, 张华是, 不是, e, 劳拉对, es, 却是, 就是
+ escritor - 作家
+ famoso - 蹈, 著, 著名, 有名的, 出名, 有名, 走红
+ fotógrafo - 摄影师, 摄
+ importante - 重要的, 重大, 重要, 要紧, 攸关, 很重要, 深远
+ nombre - 名称, 名, 名字, 名下
+ novela - 小说, 小说吧
+ original - 最初, 原来, 原创, 独特, 原作, 原版, 初始的, 原始
+ profesor - 师, 老师, 教授
+ reunión - 会议
+ señor - 君, 先生, 大爷
+ señora - 女士
+ usted - 您
+ y usted - 您呢
+31 Diary 表达你的感受
+ aburrido - 无聊
+ antipático - 不友善
+ bueno - 好
+ cita - 约会
+ compartir - 分享
+ diario - 日记
+ discutir - 争执
+ en realidad - 其实
+ enamorado - 恋爱
+ enojado - 生气
+ es verdad - 确实是
+ escribir - 写
+ feliz - 快乐
+ feo - 丑
+ increíble - 不可思议
+ mal - 心情很差
+ mejor amigo - 最好的朋友
+ pareja - 爱人
+ poema - 诗
+ problema - 问题
+ querido - 亲爱的
+ romántico - 浪漫
+ salir - 出去
+ secreto - 秘密
+32 Diet 讨论你的饮食习惯
+ agua - 水
+ beber - 喝
+ bien - 很好
+ cansado - 累
+ chocolate - 巧克力
+ comer - 吃
+ correr - 跑步
+ crudo - 生
+ desayunar - 吃早餐
+ dieta - 饮食习惯
+ dulces - 糖果
+ fruta - 水果
+ hacer ejercicio - 做运动
+ mantequilla - 黄油
+ menos - 更少
+ más - 更多
+ pan - 面包
+ pescado - 鱼
+ poco - 很少
+ refresco - 汽水
+ salmón - 三文鱼
+ saludable - 健康
+ vender - 卖
+ vino - 葡萄酒
+ yogur - 酸奶
+33 Animals 谈论动物
+ animal - 动物
+ bosque - 森林
+ caballo - 马
+ conocer - 熟悉
+ desierto - 沙漠
+ insecto - 昆虫
+ leer - 读
+ mar - 海
+ mascota - 宠物
+ mosquito - 蚊子
+ país - 国家
+ peligroso - 危险
+ pez - 鱼
+ pingüino - 企鹅
+ planta - 植物
+ pájaro - 鸟
+ revista - 杂志
+ río - 河
+ serpiente - 蛇
+ sobre - 信封, 关乎, 有关, 上, 在 ... 上面, 关于, 身上, 对于
+ vaca - 牛
+34 Daily life 用反身动词描述日常活动
+ a qué hora - 几点
+ antes de - 之前
+ bañarse - 洗澡
+ blog - 博客
+ cada - 每
+ cara - 脸
+ cepillarse - 刷牙
+ después de - 之后
+ diente - 牙齿
+ domingo - 周日
+ lavarse - 洗
+ levantarse - 起床
+ llamarse - 叫做, 叫坏
+ mano - 手
+ mes - 月
+ normalmente - 通常
+ once - 十一
+ por la noche - 在晚上
+ relajarse - 放松
+ siete - 七
+ tarde - 晚
+ televisión - 电视
+ todo el tiempo - 一直
+ y media - 半
+35 Gossip 谈论他人的生活
+ actor - 男演员
+ actriz - 女演员
+ coche - 车
+ ducharse - 冲澡
+ hasta - 到
+ impaciente - 没耐心
+ limpio - 干净
+ maleducado - 没礼貌
+ mexicano - 墨西哥人
+ muchas veces - 很多次
+ no - 不是吗
+ no sé - 我不知道
+ ocho - 八
+ peinarse - 梳头发
+ por supuesto - 当然
+ quedarse - 待
+ regresar - 回来
+ tampoco - 也不
+ todos - 所有的
+ usar - 用, 说用, 打领带, 于用, 使出, 穿鞋, 用书, 穿, 使用, 用笔, 过用, 穿厚, 换用, 穿卫衣, 用卡, 用布, 占用
+36 Free time 讨论你的兴趣爱好
+ además - 此外
+ artista - 艺术家
+ clásico - 古典
+ cosa - 东西
+ de hecho - 事实上
+ deporte - 运动
+ exposición - 展览
+ favorito - 最喜爱
+ fotografía - 摄影
+ golf - 高尔夫
+ karate - 空手道
+ le gusta - 喜欢
+ le gustan - 喜欢
+ le interesa - 感兴趣
+ le interesan - 感兴趣
+ mañana - 明天
+ me gusta - 我喜欢
+ me gustan - 喜欢
+ me interesa - 感兴趣
+ me interesan - 感兴趣
+ mucho - 特别
+ pasatiempo - 爱好
+ poesía - 诗歌
+ te gusta - 你喜欢
+ te gustan - 你喜欢
+ te interesa - 感兴趣
+ te interesan - 对你感兴趣吗, 感兴趣
+ videojuego - 电子游戏
+37 Music 谈论音乐喜好
+ batería - 鼓
+ canción - 歌
+ cantante - 歌手
+ evento - 活动
+ guitarra - 吉他
+ instrumento - 乐器
+ les gusta - 喜欢
+ les gustan - 他们喜欢, 他们不喜欢
+ les interesa - 对他们感兴趣, 感兴趣
+ les interesan - 感兴趣
+ más o menos - 差不多
+ músico - 音乐家
+ nos gusta - 不喜欢, 我们喜欢
+ nos gustan - 我们不喜欢, 我们喜欢, 我们非常喜欢
+ nos interesa - 感兴趣
+ piano - 钢琴
+ pop - 流行
+ próximo - 下一
+ relajante - 解压
+ tocar - 弹
+ violín - 小提琴
+38 Recreation 谈论你喜欢的活动
+ agosto - 八月
+ campo - 乡下
+ cenar - 吃晚餐
+ demasiado - 太
+ diferente - 不一样
+ en casa - 在家里
+ encantar - 非常喜欢
+ español - 西班牙的
+ ir - 去
+ jugar a - 玩
+ malo - 糟糕
+ musical - 音乐剧
+ navegar - 上网, 浏, 航, 航海, 海, 浏览
+ paella - 西班牙海鲜饭
+ pasar - 闯过, 进来, 花上, 转达, 经过, 路过, 顺便来, 消磨, 递给, 消磨时光, 卡进, 度过, 顺道去, 过桥, 超车
+ por suerte - 幸好
+ serie - 电视剧
+ sin embargo - 然而
+ tortilla - 西班牙土豆饼
+ turista - 游客
+ vacaciones - 假期
+ ver - 看
+ vida - 生活
+ vóleibol - 排球
+39 Doctor 使用间接宾语代词
+ amable - 亲切
+ brazo - 手臂
+ cita - 预约
+ cuello - 脖子
+ cuerpo - 身体
+ derecho - 右
+ doler - 疼
+ enfermero - 护士
+ enfermo - 生病
+ espalda - 背
+ esta - 这支, 这个, 这颗, 这首, 这台, 这家, 这辆, 这项, 这堂, 这座, 这, 这顿, 这所, 这扇, 这出, 这处, 这条, 这件, 这片, 这本, 这张, 这位, 它, 这节, 这批
+ estómago - 胃
+ garganta - 喉咙
+ hombro - 肩膀
+ izquierdo - 左
+ medicina - 药
+ médico - 医生
+ otra vez - 又
+ pierna - 腿
+ rodilla - 膝盖
+ tomar - 吃
+40 Commute 说说你的通勤方式
+ allí - 那里
+ avión - 飞机
+ barco - 船
+ bicicleta - 自行车
+ boleto - 票
+ compañero de trabajo - 同事
+ cuando - 的时候
+ día - 天
+ en - 用, n, en, 中连, 于, 上, 儿里, 中加, 中能, 中有, 中过, 之中, 里装, 诗里, 上见, 上用, 处于, 内, 在, 上要, 对交, 里, 中向, 里加, 中, 之内
+ especialmente - 尤其是
+ estación - 车站
+ extraño - 奇怪
+ horrible - 糟糕透顶
+ jueves - 周四
+ luego - 然后
+ martes - 周二
+ mismo - 同一
+ miércoles - 周三
+ moto - 摩托车
+ nueve - 九
+ peso - 比索
+ roto - 坏
+ rápido - 快
+ trabajo - 工作
+ vamos - 我们去
+ van - 去, 梵
+ vas - 离开, （你）去, 不去, 去, 去一趟
+ voy - 离开, 不去, (我) 走, 我过, (我) 去, 去, 过去
+41 Birthday 谈论生日
+ abril - 四月
+ año - 岁
+ catorce - 十四
+ celebrar - 庆祝, 过生日, 庆, 做生日, 开完
+ cumpleaños - 生日
+ cuántos años - 几岁
+ de - 出自, 之, 来自, 的, 起, 关于, de
+ dieciocho - 十八
+ diecisiete - 十七
+ dieciséis - 十六
+ doce - 十二
+ febrero - 二月
+ feliz cumpleaños - 生日快乐
+ junio - 六月
+ mayo - 五月
+ noviembre - 十一月
+ quince - 十五
+ tenemos - (我们) 有, 有, 我们
+ tengo - 得, 备着, 有信, 不抱, 有, 我有, 我满
+ tiene - 书有, 饺有, 持有, 有球, 谁养, 镇有, 有网, 何塞有, 有, 有长, 负有, 剧有, 茶有, 有着, 张华有, 您有, 留胡子, 美有, 具有, 胡安有, 街有, 汤有
+ tienes - 你有, 有, 有止
+ todavía - 还
+ trece - 十三
+ vela - 蜡烛
+42 Problem 购买衣服
+ ancho - 宽
+ bota - 靴子
+ calcetín - 袜子
+ color - 颜色
+ corbata - 领带
+ de nada - 不客气
+ estrecho - 紧
+ gris - 灰色
+ guante - 手套
+ hasta pronto - 回头见
+ jeans - 牛仔裤
+ media - 丝袜
+ pantalones - 裤子
+ perfecto - 完美
+ preferimos - 更喜欢, 我们
+ prefiero - 更愿意, 宁愿, 更喜欢, 宁可
+ queremos - 不要, 我们要, 我们, 想带, 不想, 人想, 要组
+ rosa - 粉红色
+ talla - 尺码
+43 Hang out 谈论活动
+ cerveza - 啤酒
+ delicioso - 美味
+ dulce - 甜
+ frito - 炸
+ fuera - 外面
+ gracias por - 谢谢你的
+ juego - 游戏
+ lista - 清单
+ música en vivo - 现场演奏
+ no importa - 没事
+ noche - 晚上
+ plato - 菜
+ pollo - 鸡肉
+ reserva - 预订
+ tener hambre - 感到饥饿
+ vengo - 来
+ venimos - 我们, 我们来
+ vienen - 生活, 住在, 只来
+ útil - 有用
+44 Well-being 计划健康活动
+ abrir - 开门
+ actividad - 活动
+ activo - 活跃
+ baile - 舞蹈
+ boxeo - 拳击
+ desde - 从
+ dos veces por - 两次
+ energía - 精力
+ gimnasia - 体操
+ hacer - 做些, 再列, 闹出, 做果, 交到, 办, 交新, 铺床, 生火, 结新, 办得, 做加, 结交, 煮汤, 做, 做鱼, 来和面, 使, 打成, 做酱, 做出, 打个, 写个
+ hockey - 曲棍球
+ honestamente - 说实话
+ horario - 时间表
+ instructor - 教练
+ montar en bicicleta - 骑自行车
+ por eso - 因此
+ semana - 周
+ tipo de - 类型的, 类型
+ tomar clases - 上课
+45 Invite 在条件句中使用简单现在时
+ aproximadamente - 大约
+ chicos - 大伙儿
+ chino - 中国
+ comida rápida - 快餐
+ descanso - 休息
+ después - 之后
+ discoteca - 夜店
+ estar de acuerdo - 同意
+ estresado - 压力很大
+ examen - 考试
+ idea - 主意
+ karaoke - 卡拉OK
+ para - 为了
+ perdón - 对不起
+ por aquí - 这一带
+ primero - 首先
+ recital - 演唱会
+ si - 如果
+ sushi - 寿司
+ tan - 这么
+ todos - 大家
+ tomar - 喝
+ un par de - 几
+ un rato - 一会儿
+46 Trip 计划旅行
+ al norte - 北边
+ allá - 那边
+ celular - 手机
+ de ida y vuelta - 往返
+ dinero - 金钱, 有钱, 取钱, 钱, 出钱
+ dirección - 地址
+ gente - 人们
+ guía - 导游
+ hace sol - 有太阳
+ hacer las maletas - 收拾行李
+ hacer un viaje - 去旅行
+ isla - 岛
+ mochila - 背包
+ paraguas - 雨伞
+ planear - 计划
+ popular - 受欢迎
+ reservar - 预订
+ responsable - 负责任
+ souvenir - 纪念品
+ tal vez - 可能
+ traje de baño - 游泳衣
+ va a - 将, 会, 去
+ vamos a - 会, (我们) 将会
+ van a - 会
+ vas a - 会, 将会
+ visitar - 游览
+ voy a - (我)将会, 要
+ vuelo - 航班
+47 Surprise 策划惊喜派对
+ a punto de - 正要
+ abuela - 外婆
+ abuelo - 外公
+ aquí - 这里
+ cubiertos - 餐具
+ cuchara - 汤匙
+ cuchillo - 刀子
+ de cumpleaños - 生日
+ decoración - 装饰品
+ elegante - 高雅
+ enviar - 寄
+ flor - 花
+ hacer una fiesta - 举办
+ hermana - 姐姐
+ hermano - 哥哥
+ impresionante - 令人赞叹
+ llevar - 戴, 带水, 带防, 带, 带花, 携带, 架来, 只带, 能带, 携, 带得, 带上, 扛过去, 车载, 扛着, 随身携带, 拎, 扛
+ madre - 妈妈
+ mensaje - 短信
+ padre - 爸爸
+ que viene - 下
+ sorpresa - 惊喜
+ tenedor - 叉子
+ tía - 阿姨
+ tío - 舅舅
+ veinte - 二十
+ venir - 来
+48 City Life 探索城市
+ agradable - 令人愉快
+ ahí - 那儿
+ al final de - 的尽头
+ antes de - 之前
+ avenida - 大道
+ catedral - 大教堂
+ centro comercial - 购物中心
+ confundido - 困惑
+ de - 出自, 之, 来自, 的, 起, 关于, de
+ enorme - 巨大
+ entrada - 入口
+ esa - 那
+ esas - 那些
+ ese - 那
+ esos - 那些
+ espera - 等一下
+ estas - 这些
+ estos - 这些
+ fuente - 喷泉
+ metro - 米
+ monumento - 纪念碑
+ pastelería - 糕点店
+ perdido - 迷路
+ pescadería - 鱼店
+ por - 为了, 因为, 由于, 乘以, 每, 由, 通, 通过, 被, 凭, 出于, 支持, 沿着, 在, 为期, 为, 顺着
+49 Travel 描述旅行情况
+ andén - 站台
+ aquel - 那
+ aquella - 那
+ aquellas - 那些
+ aquellos - 那些
+ aventura - 冒险
+ cajero automático - 自动柜员机
+ cambiar dinero - 换钱
+ campamento - 营地
+ capital - 首都
+ castillo - 城堡
+ desafortunadamente - 很不幸
+ destino - 目的地
+ distraído - 心不在焉
+ dólar - 美金
+ empleado - 员工
+ encontrar - 找到
+ equivocado - 错
+ generoso - 慷慨
+ número - 号
+ optimista - 乐观
+ pantalla - 屏幕
+ por fin - 终于
+ puerta - 门
+ qué mala suerte - 真倒霉
+ qué tonto - 真笨
+ tener prisa - 着急
+ turismo - 旅游
+50 Ingredient 使用指示形容词
+ africano - 非洲的
+ alérgico - 过敏
+ asado - 烤
+ bolsa - 袋子
+ camarón - 虾子
+ cerdo - 猪肉
+ chile - 辣椒
+ de ahí - 那儿的
+ de allá - 那边的
+ dolor de estómago - 胃疼
+ en vez de - 代替
+ especia - 香料
+ está bueno - 味道不错
+ exótico - 异国
+ hacer la compra - 购物
+ infusión - 花茶
+ marca - 品牌
+ maíz - 玉米
+ me puede ayudar - 您可以帮助我吗
+ necesario - 必要
+ odiar - 讨厌
+ rellenar - 填充
+ tarta - 派
+ típico - 特色
+ vendedor - 小贩
+51 Celebrate 享受派对乐趣
+ argentino - 阿根廷的
+ asustado - 害怕
+ basta de - 停止吧
+ botella - 瓶子
+ champán - 香槟
+ chisme - 八卦
+ criticón - 爱批评
+ cumplir - 满
+ cámara - 相机
+ desastre - 灾难
+ empanada - 馅饺
+ enchilada - 肉馅玉米卷饼
+ limonada - 柠檬水
+ piso - 地板
+ piñata - 皮纳塔
+ qué emoción - 真激动
+ qué haces - 你在做什么
+ qué lástima - 真遗憾
+ raro - 古怪
+ rock - 摇滚乐
+ salud - 干杯
+ sucio - 脏
+ terrible - 可怕
+ todo el mundo - 所有人
+ treinta - 三十
+52 Shop 购买衣服
+ arete - 耳环
+ bah - 哼
+ caja - 收银台
+ cuál - 哪
+ cuáles - 哪几
+ de acuerdo - 好的
+ incómodo - 不舒服
+ internet - 互联网
+ le gusta - 喜欢
+ le gustan - 喜欢
+ lluvia - 雨天
+ marrón - 棕色
+ mejor - 更好
+ moneda - 硬币
+ nieve - 雪天
+ pagar - 付钱
+ pañuelo - 领巾
+ pijama - 睡衣
+ probador - 试衣间
+ página web - 网站
+ ropa interior - 内衣裤
+ sandalia - 凉鞋
+ shorts - 短裤
+ tarjeta de crédito - 信用卡
+53 Babysitter 处理保姆任务
+ al mediodía - 中午
+ como - 当
+ cuaderno - 笔记本
+ en punto - 钟
+ experiencia - 经验
+ generalmente - 一般
+ hago - 搞, 办, 作, 做, （我）做, 怎么弄
+ inteligente - 聪明
+ invitar a - 邀请
+ juguete - 玩具
+ lavadora - 洗衣机
+ niñero - 保姆
+ ordenar - 整理
+ papel - 纸
+ patineta - 滑板
+ regla - 尺子
+ salgo de - 我离开
+ salir de - 离开
+ tener sueño - 困
+ terminar - 结束
+ traer - 带
+ traigo - 带
+ uniforme - 制服
+ y cuarto - 一刻
+ útil - 文具
+54 Hospital 讨论你的健康状况
+ alcohol - 酒
+ alergia - 过敏
+ ambulancia - 救护车
+ aspirina - 阿司匹林
+ auxilio - 救命
+ bien - 舒服
+ cabeza - 头
+ conducir - 开车
+ conduzco - 我开车, 开, 开车
+ conocer a - 认识
+ conozco a - 认识
+ corazón - 心脏
+ eh - 呃
+ emergencia - 紧急情况
+ enfermedad - 病
+ fumar - 吸烟
+ grave - 严重
+ idioma - 语言
+ instrucción - 指示
+ lento - 慢
+ mal - 糟糕
+ no entiendo - 我不明白
+ paciente - 有耐心
+ sentirse - 我感觉
+ tener - 有
+ tos - 咳嗽
+ traducir - 翻译
+ traduzco - 翻译, 翻译成, 翻成
+ urgente - 紧急
+ vamos - 走吧
+55 Pharmacy 使用不定形容词
+ abierto - 开门
+ algo - 东西
+ alguien - 有人
+ alguna - 某个, 任何, 某, 一些, 曾经
+ algunas - 几朵, 某些, 一些, 几个, 几位, 有些, 几, 几枚, 几项, 几所, 些, 几颗, 几只, 几片, 几部
+ algunos - 几
+ algún - 某个, 任何, 某项, 某位, 某片
+ clínica - 诊所
+ dentista - 牙医
+ doctor - 医师
+ dolor - 疼痛
+ fiebre - 烧
+ mascarilla - 口罩
+ muela - 磨牙
+ oído - 耳朵
+ paciente - 患者
+ pastilla - 药片
+ pañuelo - 纸巾
+ pie - 脚
+ por allí - 那一带
+ receta - 处方
+ resfriado - 感冒
+ vitamina - 维生素
+56 Complaints 处理工作场所问题
+ anotar - 记下
+ antes - 早一点
+ anuncio - 广告
+ bienvenido - 欢迎
+ calendario - 日历
+ cambiar de - 换
+ cliente - 客户
+ contestar - 接
+ correo electrónico - 邮件
+ director - 主管
+ documento - 文档
+ entrevista - 面试
+ equipo - 团队
+ exigente - 要求很高
+ información - 信息
+ ingeniero - 工程师
+ mejorar - 优化
+ mil - 一千
+ nada - 什么也不
+ nadie - 谁也不
+ negocio - 企业
+ ninguna - 没有任何, 没有
+ ningún - 没有任何, 没有, 全无
+ pregunta - 疑问
+ quejarse - 抱怨
+ teléfono - 电话
+ trabajo - 工作
+57 Which one 购物时选择商品
+ aquel - 那个, 远处的那个
+ aquella - 那个, 它, 远处的那
+ aquellas - 远处的那些
+ aquellos - 远处的那些
+ carrito - 购物车
+ cepillo - 刷牙, 刷子, 刷, 扫把
+ crema - 奶油
+ de - 出自, 之, 来自, 的, 起, 关于, de
+ desodorante - 止汗剂
+ disculpen - 抱歉
+ esa - 那杯, 那颗, 那座, 那面, 那张, 那口, 那次, 那篇, 那尊, 那扇, 那个, 那盏, 那条, 那名, 那头, 那顿, 那片, 那首, 那位, 那朵, 那, 那套, 那场, 那封, 它, 那处
+ esas - 那些
+ ese - 那杯, 那幅, 那束, 那趟, 那枚, 那艘, 那架, 那台, 那张, 那段, 那份, 那件, 那声, 那顶, 那个, 那支, 那家, 那条, 那匹, 那根, 那起, 那辆, 那位, 那, 那棵, 那款, 这笔, 那股
+ esos - 那些
+ esta - 这支, 这个, 这颗, 这首, 这台, 这家, 这辆, 这项, 这堂, 这座, 这, 这顿, 这所, 这扇, 这出, 这处, 这条, 这件, 这片, 这本, 这张, 这位, 它, 这节, 这批
+ estas - 这些
+ este - 这只, 这支, 这个, 这颗, 这桩, 这名, 埃斯特, 这款, 这家, 这套, 这匹, 这门, 这棵, 这篇, 这枚, 这辆, 这栋, 这杯, 这倒, 这则, 这座, 这一, 这份, 东部, 这幅, 该项, 这块, 这部, 这起, 这道, 这条, 这顶, 这趟, 这件, 这场, 这片, 这本, 这列, 此, 这张, 这根, 这笔, 这位, 东, 东边
+ estos - 这些
+ fila - 排
+ fuerte - 浓烈
+ lista de la compra - 购物清单
+ mayonesa - 蛋黄酱
+ mermelada - 果酱
+ pasillo - 走道
+ producto - 产品
+58 Movie 讨论电影
+ actuar - 演
+ aquello - 那个
+ chileno - 智利人
+ colombiano - 哥伦比亚人
+ director - 导演
+ diálogo - 对白
+ en general - 一般来说
+ entretenido - 有趣味
+ es mentira - 是骗人的
+ eso - 那
+ estadounidense - 美国人
+ esto - 这
+ final - 结局
+ historia - 故事
+ italiano - 意大利人
+ lento - 慢
+ magnífico - 出色
+ perdona - 原谅我吧
+ peruano - 秘鲁人
+ protagonista - 主角
+ quizás - 也许
+ sin duda - 毫无疑问
+ sorprendente - 令人惊讶
+59 Tour 使用间接宾语代词
+ agradezco - 感谢, 谢, 感谢您
+ carrera - 竞速
+ ciclista - 自行车手
+ ciencia ficción - 科幻
+ club - 俱乐部
+ costa - 海边
+ dar - 给
+ doy - 给, 提个
+ enseñar - 教, 来教
+ entrenamiento - 训练
+ esquina - 街角
+ estatua - 雕塑
+ explorar - 探索
+ flamenco - 弗拉门戈
+ iglesia - 教堂
+ le - (对于) 他/她/它/您, 您, l
+ me - 我, 我十
+ más tarde - 过一会儿
+ naturaleza - 大自然
+ opinión - 意见
+ participar - 参加
+ prestar - 借
+ raqueta - 球拍
+ te - 你（宾格代词）, 尔, 你, 你（与格代词）, te
+ tenis de mesa - 乒乓球
+ tour - 导览
+ zoológico - 动物园
+ árbol - 树
+60 Postcard 寄送和接收邮件
+ Estados unidos - 美国
+ buzón - 邮箱
+ carta - 信
+ cartero - 邮递员
+ código postal - 邮政编码
+ de - 出自, 之, 来自, 的, 起, 关于, de
+ debajo de - 下面
+ del - 德尔, 的
+ destinatario - 收件人
+ estampilla - 邮票
+ felicidad - 幸福
+ lamentablemente - 很遗憾
+ les - (对于) 他们/她们/你们
+ nos - 我们, 们
+ oficina de correos - 邮局
+ paquete - 包裹
+ postal - 明信片
+ qué interesante - 真有趣
+ recibir - 收到
+ remitente - 发件人
+ responder - 回
+ sobre - 信封
+ tantos - 这么多
+ una vez por - 每月, 每天一次, 每天, 每周, 每周一次, 每年一次, 每月一次
+61 Nightclub 享受夜生活
+ ajedrez - 国际象棋
+ antiguo - 古老
+ apagar - 关
+ bachata - 巴恰塔舞
+ buenas noches - 晚安
+ calvo - 秃头
+ charlar - 聊天
+ conmigo - 和我一起
+ cóctel - 鸡尾酒
+ disfrutar - 享受
+ dj - DJ
+ en común - 共同
+ esperar - 等
+ fuerte - 大声
+ gritar - 喊
+ grupo - 群
+ hermoso - 美
+ luz - 灯光
+ medianoche - 午夜
+ negativo - 消极
+ paso - 舞步
+ pista de baile - 舞池
+ ritmo - 节奏
+ saltar - 跳
+ tener razón - 说得对
+62 Right Now 谈论天气
+ Argentina - 阿根廷
+ abrir - 开
+ caminata - 远足
+ charco - 水坑
+ cielo - 天空
+ de repente - 突然
+ despejado - 放晴
+ impermeable - 雨衣
+ llover - 下雨
+ mojado - 湿
+ nevar - 下雪
+ nublado - 多云
+ qué alivio - 真轻松
+ qué bien - 真好
+ qué tiempo hace - 天气怎么样
+ refugio - 避难所
+ seguro - 安全
+ subir - 上
+ tormenta - 暴风雨
+ trueno - 雷声
+ vez - 次
+ ya - 已经
+63 Work 询问他人感受
+ aliviado - 安心
+ apoyo - 支持
+ ascensor - 电梯
+ ayudar - 帮助
+ año - 年
+ complicado - 复杂
+ egoísta - 自私
+ empezar a - 开始
+ empiezo a - 开始
+ en este momento - 此刻
+ entregar - 交付
+ estrés - 压力
+ firmar - 签
+ frustrado - 沮丧
+ libre - 休假
+ llave - 钥匙
+ me despierto - 醒
+ meta - 目标
+ por ejemplo - 例如
+ profesional - 专业
+ respuesta - 答案
+ sin parar - 不停地
+ solución - 解决方案
+ tarea - 任务
+64 Faster! 寻找走失的宠物
+ agotado - 疲惫
+ ahí - 那儿
+ bastante - 挺
+ cama - 床
+ cerrar - 关
+ cierro - 我关
+ conductor - 司机
+ demasiado - 太多
+ escaparse - 逃跑
+ especial - 特别
+ funcionar - 运行
+ garaje - 车库
+ jugar - 玩
+ lento - 慢
+ patio - 院子
+ perdone - 对不起
+ perrito - 狗狗
+ poco - 很少
+ preocuparse - 着急
+ pues - 那
+ taxista - 出租车司机
+ te quiero - 我爱你
+ ventana - 窗户
+ y si - 要不
+ zona - 区域
+65 Fun 与名词搭配使用量词
+ acampar - 露营
+ al aire libre - 在户外
+ al sur - 南边
+ bastante - 挺多
+ bastantes - 挺多
+ ciclismo - 骑自行车
+ demasiado - 太
+ demasiados - 太多, 多得
+ depende - 要看
+ durante - 之中
+ empezar - 开始
+ entrenador - 教练
+ espacio - 空间
+ físico - 体育
+ ir a - 去
+ mucho - 很多
+ natación - 游泳
+ nos vemos - 我们再见
+ ola - 海浪, 浪, 波
+ pilates - 普拉提
+ por - 为了, 因为, 由于, 乘以, 每, 由, 通, 通过, 被, 凭, 出于, 支持, 沿着, 在, 为期, 为, 顺着
+ sendero - 小路
+ surfear - 冲浪
+ trotar - 慢跑
+66 Texting 在线聊天
+ Europa - 欧洲
+ Sudamérica - 南美洲
+ adolescente - 青少年
+ competitivo - 有竞争性
+ despierto - 醒着
+ dormir - 睡觉
+ duermo - （我）睡觉, 睡觉
+ el extranjero - 国外
+ fantasía - 幻想类
+ foro - 论坛
+ juego - 我玩
+ madrugada - 凌晨
+ más de - 超过
+ nivel - 级
+ oscuro - 暗
+ personaje - 角色
+ red social - 社交网络
+ ruido - 噪音
+ seguramente - 肯定
+ tecnología - 科技
+ terminar de - 完
+ videollamada - 视频电话
+ wifi - 无线网
+67 Training 谈论运动
+ ansioso - 焦虑
+ campeón - 冠军
+ cancha - 球场
+ casi siempre - 几乎总是
+ centro - 中心
+ confundirse - 搞错
+ despertador - 闹钟
+ el mejor - 最好的
+ en fin - 总之
+ equipo - 队
+ estar seguro - 确定
+ exacto - 没错
+ excusa - 借口
+ felicitaciones - 恭喜
+ ganar - 赢
+ jugador - 运动员
+ menos - 更少
+ revisar - 检查
+ rival - 对手
+ siguiente - 下一
+ solucionar - 解决
+ sí o sí - 一定要
+ torneo - 锦标赛
+ últimamente - 最近
+68 At Home 做家务活
+ alfombra - 地毯
+ almorzar - 吃午餐
+ almuerzo - 我吃午餐
+ armario - 柜子
+ aspiradora - 吸尘器
+ balcón - 阳台
+ barrer - 扫
+ bañera - 浴缸
+ colgar - 挂
+ cuelgo - 挂
+ detergente - 洗涤剂
+ encuentro - 我找到
+ escoba - 扫帚
+ esforzarse - 努力
+ esponja - 海绵
+ estufa - 炉灶
+ habitación - 房间
+ inodoro - 马桶
+ lavaplatos - 洗碗机
+ lámpara - 灯
+ me esfuerzo - 努力
+ más - 更多
+ planchar - 熨烫
+ sala - 客厅
+ sartén - 平底锅
+ secar - 弄干
+ taza - 咖啡杯
+ tendedero - 晾衣架
+ todo - 全部
+69 Emergency 应对紧急情况
+ antibiótico - 抗生素
+ completar - 完成
+ crema - 乳膏
+ esperar a - 等
+ evitar - 避免
+ examen médico - 体检
+ formulario - 表格
+ hay que - 应该
+ jarabe - 糖浆
+ lentamente - 慢慢地
+ levantar - 抬起
+ llamar a - 打电话给
+ mareado - 头晕
+ mover - 太动, 挪动, 搬, 移动, 动, 动它, 搬得, 移出, 搬东西, 移动者, 挪, 摆动
+ muevo - 移动, 动, 我动
+ normal - 正常
+ poder - 能
+ puedo - 我会, （我）行/可以, 不能, 可以, 我能, 没法, 不了, （我）会/能/能够, 不行, 无法, (我) 无法, 说不出
+ respirar - 呼吸
+ sala de urgencias - 急诊室
+ temperatura - 体温
+ tener que - 必须
+ tengo que - 必须
+ tienes que - 你必须
+ tranquilo - 你放心
+ va a estar bien - 会好起来的
+70 Package 解决邮局问题
+ acabar de - 刚
+ afortunadamente - 很幸运
+ ahora sí - 现在好了
+ almacén - 仓库
+ bolígrafo - 圆珠笔
+ buenas noticias - 好消息
+ camión - 卡车
+ firma - 签名
+ gerente - 经理
+ hacer fila - 排队
+ identificación - 证件
+ incorrecto - 不正确
+ mandar - 寄
+ mostrar - 出示
+ nota - 便条
+ perdido - 遗失
+ pesado - 重
+ poder - 可以
+ recoger - 领取
+ retrasado - 延误
+ sistema - 系统
+ tener que - 必须
+ verificar - 核实
+71 For 使用“por”和“para”
+ Canadá - 加拿大
+ Colombia - 哥伦比亚
+ Venezuela - 委内瑞拉
+ archivo - 文件
+ canadiense - 加拿大的
+ completo - 完成
+ cuarenta - 四十
+ diecinueve - 十九
+ duro - 辛苦
+ escritorio - 办公桌
+ estar - 在, 身处
+ euro - 欧元
+ fantástico - 太棒了
+ fecha de entrega - 交付日期
+ fábrica - 工厂
+ ganar - 赚
+ multinacional - 跨国企业
+ panameño - 巴拿马的
+ presentación - 演示
+ secretario - 秘书
+ sudamericano - 南美洲的
+ sueldo - 工资
+ todo - 整
+ vacío - 空
+ venezolano - 委内瑞拉的
+72 Tomorrow 计划社交活动
+ bingo - 宾果游戏
+ carta - 封, 信件, 信, 牌玩, 函, 卡牌
+ chismoso - 八卦者
+ cocina - 烹饪, 饪, 烹, cocina, 厨房, 下厨, 厨, 做饭, (他/她/您) 煮, 厨艺, 烹调
+ comenzar - 开始, 开启, 起天来
+ comienzo - 开头, 开始, 好的开始, 开场, 起点
+ concurso - 比赛
+ confiar en - 信任
+ conseguir - 给 (某人某物), 完成, 能办, 得手, 得到, 挣过, 弄些, 选到, 拿, 抽到
+ de - 出自, 之, 来自, 的, 起, 关于, de
+ distraído - 心不在焉, 分心
+ espectáculo - 小节目, 表演 (名词), 节目, 综艺
+ mientras - 一边, 当, 同时, 一边倒
+ orgánico - 有机, 有机的
+ parece que - 看起来
+ principal - 主要的, 主题曲, 主要, 首要
+ probar - 试玩, 一试, 尝试, 试试, 品尝, 尝, 试吃, 尝遍, 试睡, 尝尝, 试证, 试点, 试喝, 调试
+ programa - 计划, 小节目, 程序, 大纲, 节目单, 日程, 节目, 综艺
+ pruebo - 尝一尝, 不试, 品尝, 试戴, 尝尝, 时尝, 不尝
+ puesto - 职位, 小摊, 摊, 放, 落山, 着, 摊上, 席位, 变蓝, 摆, 既, 摊位, 位子
+ quedarse dormido - 睡着了
+ recomendar - 推荐
+ recomiendo - 荐, 推荐, 强烈推荐
+ resolver - 侦破, 解, 解决问题, 解决, 解答
+ resuelvo - 解决
+ taller - 修理店, 工作坊, 坊, 车间, 修理厂, 工作室
+ varios - 好几本, 好几只, 好几个, 多项, 好几篇, 几个, 几场, 好几种, 好几名, 好几, 好几位, 几家, 数次, 几起, 几番
+ veintiuno - 二十一
+ ves - （你）看（到/见）
+73 Tech 解决技术问题
+ aplicación - 应用, 应用程序, app
+ aún - 尚
+ batería - 架子鼓, 电池, 电瓶
+ cable - 电缆, 缆
+ cargar - 负担, 充电, 扛过去, 充, 扛, 冲, 扛着, 充值
+ conexión - 转机, 连接, 联程
+ contraseña - 密码
+ desconectar - 断开
+ desde hace - 从...开始
+ explicar - 交代, 解说, 进一步, 解释, 解释一下, 释, 讲道理
+ finalmente - 最后
+ funcionar - 运作, 车开
+ pedir - 请假, 点, 订餐, 请求, 请点, 会要, 许愿, 再要, 许下, 要点, 能点, 订购, 点单, 要饭, 求助, 点个, 就点, 求救, 索要, 点菜, 再点, 美请
+ pido - 点, 讨, 请求, 许愿, (我) 问, 请, 求, （我）点, 只求
+ presionar - 按, 催得
+ programa - 计划, 小节目, 程序, 大纲, 节目单, 日程, 节目, 综艺
+ reparar - 缮, 修车, 修理, 修理点, 修, 来修, 补救, r, 能修, 修缮, 要修, 修复, 重修
+ repetir - 复, 重复, 迭
+ repito - 复, 重复
+ servir - 斟, 服务, 斟酒
+ simple - 简易, 朴素, 单纯, 简, 简单, 简单的, 简洁
+ sirvo - 适合, 上菜
+ sugerencia - 点子, 建议, 暗示
+ técnico - 技术型, 正派, 技术员, 技师, 师傅
+ urgentemente - 紧急地
+ virus - 病毒
+74 World 描述周围环境
+ atracción - 吸引力, 魅力, 魅
+ ayuntamiento - 市政府
+ celebración - 庆祝, 庆典
+ clima - 天气, 气候, 氛围
+ comunidad - 团体, 小区, 社区, 公众
+ cultural - 文化
+ decir - 中说, 一说, 说, 说不出, 谓, 读出
+ deportista - 运动员, 选手
+ describir - 形容, 描述, 描写
+ durar - 持续
+ gratis - 免费
+ la verdad - 说实话
+ laguna - 泻湖, 潟, 潟湖, 空白
+ lleno de - 满是
+ molestar - 惹人烦, 打扰, 得罪, 烦得
+ niño - 小孩, 孩, 男孩, 男孩儿, 孩子, 小孩儿
+ parte - 一部分, 部分, 环节, 第二部, 片段
+ periodista - 记者, 新闻记者
+ por algo - 因为某些原因
+ pícnic - 野餐
+ sobre todo - 主要是
+ tema - 题目, 议题, 主题, 话题, 题材, 选题, 正题, 单元
+ turístico - 旅游的, 旅游, 观光
+ venir a - 来
+75 Critic 评论娱乐节目
+ Ecuador - 厄瓜多尔
+ Uruguay - 乌拉圭
+ claro - 当然, 清, 简洁, 浅色, 清爽, 明, 干净的, 浅, 清脆, 楚, 清楚, 明确, 朗, 动听
+ comedia - 喜剧
+ conocido - 知名, 闻名, 众所周知, 见, 著称, 认识, 广为人知, 熟人
+ controvertido - 有争议的
+ cómico - 滑稽, 稽
+ de acción - 动作片
+ de terror - 恐怖片
+ despacio - 慢地, 慢速, 慢, 慢慢来, 开慢
+ documental - 纪录片
+ el otro - 另一个
+ emocionante - 精彩, 太精彩, 令人激动, 激动人心的, 激动人心, 令人兴奋
+ estrella - 星星, 明星, 星, 之星
+ europeo - 欧洲人
+ heroína - 女英雄
+ héroe - 英雄
+ la otra - 另一, 另一个
+ para nada - 根本不
+ peor - 更差的, 每况愈下, 更差, 最差, 最糟, 更惨
+ que - 比, 的
+76 My Family 讨论家庭特征
+ arruga - 皱纹
+ bonito - 要好看, 美的, 漂亮, 美, 好听, 很漂亮, 美小
+ cana - 白头发
+ carácter - 性格, 字, 意志品质
+ como - 般的, 当, 吃生, 仿佛, 身为, 过像, 作为, 吃饭, 不吃, 吃糖, 似的, 我吃, 如, 云像, 正像, 吃豆腐, 既然
+ creo que - 我认为
+ delgado - 很瘦, 瘦, 很薄, 不厚
+ edad - 龄, 年龄, 年纪
+ generación - 辈, 一代, 一代人, 年代
+ honesto - 诚实, 老实, 坦白, 说实话, 坦率, 诚恳, 说真的, 直率
+ maravilloso - 精彩, 奇妙, 绝妙, 可棒
+ mayor - 最大, 成人, 更大的, 年上, 年长的, 越大, 年老, 大一岁, 姐, 越高
+ menor - 年幼的, 更小的, 未成年人, 美小, 次要
+ muchacho - 男孩, 男孩儿, 小伙子
+ musculoso - 肌肉发达
+ nariz - 鼻子, 鼻
+ nietos - 孙子们, 孙子, 孙辈
+ primo - 堂哥, 表哥, 堂兄, 表弟, 表兄, 堂弟, 表兄弟
+ sobrina - 侄女, 外甥女, 侄
+ sobrino - 侄子, 侄, 外甥, 侄儿
+ tan - 多么, 如此, 这般, 这么, 歌可
+ travieso - 调皮, 捣蛋
+ verse - 诗节, 碰面
+ viejo - 年老的, 旧的, 年老
+77 Celebrity 用形容词的最高级形式
+ alegre - 欢快, 活泼, 性格开朗, 痛快, 快乐, 开朗, 轻松愉快
+ atractivo - 吸引, 吸引人, 引, 可火
+ celebridad - 名人
+ chaleco - 背心, 马甲
+ comentario - 评论, 解说词, 反馈, 感想, 解说
+ compartir - 分担, r, 共享, 分给, 分享, 共用
+ coreano - 韩, 韩国, 韩国的, 韩文
+ de - 出自, 之, 来自, 的, 起, 关于, de
+ entrevista - 访谈, 面谈, 采访, 面试, 问话
+ fan - 粉丝, 歌迷
+ formal - 正式, 正规
+ grupo - 团, 一群, 小组, 群体, 群组, 组, 群, 团体, 班级, 小组会, 一组, 组合, 串, 集团, 社团
+ guapísimo - 非常帅, 帅得
+ interesantísimo - 非常有趣
+ periódico - 报纸
+ presentador - 主持人
+ programa - 计划, 小节目, 程序, 大纲, 节目单, 日程, 节目, 综艺
+ publicar - 发帖, 发布, 出新
+ radio - 广播, 收音机, 电台
+ rap - 说唱
+ talentoso - 才华, 有才华的, 有才华, 才华横溢
+78 Meeting 在职场沟通
+ aceptar - 收下, 乐意, 承, 接受, 赞成, 认同
+ alarma - 警报器, 闹钟, 警报, 报警器
+ anoche - 昨晚, 昨天晚上
+ anuncio - 公告, 广告
+ asistente - 助理, 佐, 帮手
+ ayer - 昨天, 昨日
+ dejar - 离开, 阻止, 不留, 让, 离职, 停止, 他放, 上留, 写个, 放下, 退学, 抛弃
+ empresario - 商人, 企业家
+ especialista - 专家, 专科医生, 权威
+ faltar - 缺席
+ fecha - 日期
+ flexible - 灵活, 弹性, 随和
+ hasta tarde - 直到很晚
+ hoja - 叶子, 张, 扇
+ intentar - 一试, 尝试, 再试, 尽量
+ malo - 坏的, 很糟, 坏事, 恶劣, 难吃, 不好的, 不好, 差, 好差, 这可糟, 不良, 糟糕, 太糟, 很差, 糟, 好坏
+ preguntar - 提问, 问修, 询问, 询, 问, 问个, 问而, 地问, 分别, 问问, 问话
+ preparar - 备, 筹备, 配一, 准备, 泡茶, 准备考, 预备, 预先安排
+ profesión - 专业, 职业
+ puntual - 准时, 守时
+ ser - 当, 被, 遭到, 做, 成为, 是, 要系
+ tomarse - 拿, 吃, 喝, 花费, 认为, 采取, 休息
+ tráfico - 车流, 堵车, 交通, 流量, 城市交通, 塞车
+79 No way! 使用过去时态
+ amargo - 苦, 苦涩, 苦得, 辛, 发苦
+ anaranjado - 橙色, 橙色的
+ anillo - 戒指, 指环
+ boda - 婚礼
+ conocer a - 认识
+ hace - 做些, 前才, 年前, 作, 做肉, 前, 做一套, 熊让, （他/她/您）做, 搞些, 就让, 做, 令, 布让, 制冰, 前刚
+ lentes - 眼镜
+ nieta - 孙女, 小孙女
+ nieto - 孙儿, 孙子, 外孙, 小孙子
+ novia - 娘, 男女朋友, 女朋友, 新娘, 女友, 未婚妻
+ novio - 新郎, 男, 男友, 郎, 男朋友, 未婚夫
+ novios - 新婚夫妇
+ pasar - 闯过, 进来, 花上, 转达, 经过, 路过, 顺便来, 消磨, 递给, 消磨时光, 卡进, 度过, 顺道去, 过桥, 超车
+ pavo - 火鸡肉
+ qué asco - 真恶心
+ reguetón - 雷鬼舞
+ suegra - 婆婆
+ suegro - 岳, 岳父, 公公
+ vegano - 素食, 素食者, 素食者的
+80 Volunteer 参与志愿活动
+ acera - 人行道
+ adoptar - 采用, 收养, 改用
+ agradable - 愉, 悦耳, 愉快, 好闻, 清爽, 随和, 愉快的, 动听
+ aprender - 学得, 学得会, 要学, 学新, 对学, 学, 学法语, 学习, 学会, 虚心学习
+ basura - 垃, 垃圾桶, 垃圾
+ conversar - 交谈, 聊着, 起天来
+ cuidar - 照看, 护理, 养, 养猫, 看家, 完猫, 关爱, 爱护, 看守, 照顾, 讲究
+ cultura - 文化, 文明
+ experiencia - 经历, 体验, 经验, 传奇
+ jardinero - 园丁
+ limpieza - 清洁
+ pariente - 亲戚, 亲人
+ pasado - 过去的, 昔, 去年
+ plantar - 种树, 栽, 种, 他种, 种梨, 种上, 就种
+ positivo - 积极的, 积极
+ refugio - 收容所, 庇护所, 栖身, 收容, 避难所, 之所时
+ regar - 浇水, 灌, 浇, 浇灌
+ regué - 浇水, 浇了, 浇
+ riego - 浇
+ tutor - 导师, 监护人, 家教, 班主任
+ veterinario - 兽医
+81 Objects 找到你的物品
+ a - 给, 到, 向, 在, 阿, 去, 二比
+ agenda - 议程, 记事本, 日程表, 行程表, 日程
+ almohada - 枕头, 枕
+ apurado - 赶, 赶时间
+ audífono - 耳机, 助听器
+ bebé - 婴儿, 宝宝
+ cepillo de dientes - 牙刷
+ dañado - 损, 损坏, 受损, 害, 破损
+ estantería - 书架, 书柜
+ gemelo - 双胞胎
+ la - 这个, 这, 那, l, la
+ lentes de sol - 太阳镜
+ lo - l, 它, lo
+ me - 我, 我十
+ peluche - 毛绒玩具
+ perder - 要输, 错过, 丢, 不输, 输, 里输, 浪费时间, 一输, 输给, 亏下, 减掉, 错失, 可惜, 他输
+ por casualidad - 偶然
+ resulta que - 结果是
+ robar - 偷拿, 胡安偷, 偷东西, 偷, 抢走了
+ sorprendentemente - 出乎意料地
+ te - 你（宾格代词）, 尔, 你, 你（与格代词）, te
+82 Food 购买食品杂货
+ aderezo - 调料
+ almendra - 杏仁, 仁, 杏
+ cien - 一百
+ cilantro - 香菜
+ duro - 坚硬, 辛苦, 困难, 很硬, 艰难, 严厉, 艰苦, 不软, 可难
+ espinacas - 菠菜
+ fresco - 嫩, 凉快, 新鲜, 清爽, 清新, 爽, 凉爽, 潮酷
+ fruto seco - 坚果
+ gramo - 克, 一克, 公克
+ las - 那些, 这些, 维
+ llamar - 打电话, 打电话给..., 叫水, 称不上, 打, 报警, 称呼, 喊一声
+ los - 那些, 这些, 那, 们, los
+ melón - 瓜, 甜瓜
+ nos - 我们, 们
+ nuez - 核桃, 坚果
+ olvidar - 忘记, 会忘点
+ orégano - 牛至
+ qué más - 还
+ salado - 咸, 含盐, 咸了
+ vainilla - 香草
+ vinagre - 醋
+ volver - 回去, 回家, 回得去, 回来, 不回
+ vuelvo - 回家
+83 Gifts 谈论礼物
+ Navidad - 圣诞节
+ a - 给, 到, 向, 在, 阿, 去, 二比
+ autor - 作者, 作家
+ claro - 当然, 清, 简洁, 浅色, 清爽, 明, 干净的, 浅, 清脆, 楚, 清楚, 明确, 朗, 动听
+ colección - 收集, 收藏, 藏品
+ completamente - 完全地
+ devolver - 还给, 退回, 还书, 还车, 退, 退掉, 退还, 带回
+ dinosaurio - 恐龙
+ espantoso - 可怕的, 可怕
+ etiqueta - 标记, 礼仪, 标签, 名牌, 礼节
+ gusto - 品味, 风味, 偏好, 味觉, 喜欢, 乐趣, 口味, 味儿, 喜好
+ hacer - 做些, 再列, 闹出, 做果, 交到, 办, 交新, 铺床, 生火, 结新, 办得, 做加, 结交, 煮汤, 做, 做鱼, 来和面, 使, 打成, 做酱, 做出, 打个, 写个
+ innecesario - 多余的
+ montón de - 许多
+ mí - 我（人称代词夺格形式，用在前置词之后）
+ parecer - 看起来, 仿佛
+ perfume - 香水, 香味
+ póster - 海报
+ regalar - 赠送, 送, 捐
+ secreto - 诀, 秘, 秘诀, 密, 秘密, 保密
+ ti - 你（人称代词夺格形式，用在前置词之后）, 尔
+ tiene sentido - 有道理
+84 Knowledge 使用“saber”的现在时
+ agregar - 加盐, 添加
+ asiático - 亚洲的, 亚洲
+ batidora - 搅拌机, 搅拌器
+ centro comunitario - 社区中心
+ cocido - 熟
+ cocinero - 厨师
+ condimento - 调料, 调味料, 配料
+ congelador - 冰箱, 冷冻柜
+ exactamente - 确切地
+ horno - 烤箱, 炉子, 炉
+ miel - 蜂蜜, 蜜
+ poner - 放盐, 放书, 放进, 包放, 放个, 列为, 把, 穿, 书放, 放, 关进, 摆得, 插些, 放油, 他放, 放在, 放小, 多放, 放到, 摆在, 来放, 撒上
+ pongo - (我) 放
+ primer - 第一批, 第一把, 第一班, 第一根, 第一幅, 第一份, 第一道, 底漆, 第一任, 第一支
+ principiante - 初学者, 新手
+ práctico - 简易, 实用, 轻便, 实践性, 使用方便
+ saber - 知道, 得知, 晓, 知晓, 懂得, 懂, 会, 懂吗
+ sé - 我知道, 知道, 只会, 我会, 做个, 会
+ vecindario - 邻居, 邻居里, 街坊, 邻居中, 周边环境
+85 Event 在活动上社交
+ bistec - 牛排
+ camarero - 男, 男服务员, 服务员, 服务生, 侍者
+ cambiar de tema - 换话题
+ ceremonia - 式, 仪式, 仪, 典礼, 礼节
+ contar - 数星星, 去数, 数数, 他数, 数, 数一下
+ cuarto de hora - 一刻钟
+ cuento - (我) 数, 童话
+ cómodo - 最自, 轻便, 合脚, 舒服, 使用方便, 不紧, 舒适, 轻松愉快
+ luna de miel - 蜜月
+ madrastra - 继母, 后妈
+ mantel - 桌布
+ marisco - 海鲜
+ matrimonio - 夫妇, 姻, 婚, 婚姻, 夫妇俩
+ pareja - 夫妇, 夫妻, 对象, 一对, 侣, 夫妇俩, 情侣, 爱人, 搭档, 配偶
+ pienso que - 认为
+ por cierto - 顺便说一下
+ por curiosidad - 出于好奇
+ realmente - 确实, 真正地
+ rosado - 粉红色的, 粉红色, 粉红
+ servilleta - 餐巾, 餐巾纸
+ tinto - 酒红色
+ tropical - 热带
+ vidrio - 玻璃
+86 Housing 评估住房条件
+ alquilar - 租个, 租房, 出租, 租房子, 租用, 租赁, 租车, 租, 赁, 租得
+ apagado - 没关, 关着的, 偏暗
+ arreglar - 修理, 预先安排
+ cerca - 附近, 近, 靠, 笆, 不远, 栅栏, 篱, 栅, 亲近, 临, 接近, 围栏, 靠近, 篱笆, 很近, 近距离
+ cuadro - 绘画, 画, 这画儿, 幅, 进画
+ de memoria - 凭记忆
+ ducha - 淋浴器, 淋浴, 淋浴间
+ electricidad - 电力
+ estudio - 留学, 我学, 学, 学习, 工作室, 书房, 研究, 开间
+ estufa - 炉灶, 灶台, estufa, 炉子, 灶具
+ lavabo - 洗手盆
+ microondas - 微波炉
+ mueble - 家具
+ no te preocupes - 别担心
+ parada - 站, 一站
+ pared - 墙壁, 墙面, 壁, 墙, 堵墙
+ plomero - 水管工
+ refrigerador - 冰箱
+ sillón - 沙发椅
+ techo - 屋顶, 天花板, 楼顶
+87 Files 管理工作任务
+ actualizar - 更新, 同步
+ breve - 简短, 短暂, 简洁
+ congelado - 冷冻, 冰冻, 冻结, 冻结的, 冻坏, 冻, 冻得
+ datos - 数据
+ estrategia - 战略, 策略, 略, 思路, 策, 战术
+ factura - 账单
+ final - 结局, 尽头, 结尾, 最后的, 尽, 末尾, 决赛, 最后, 大结局, 期末, 冠军赛
+ funcionario - 官员, 官, 公务员, 仕
+ futuro - 将来, 未, 未来, 前途
+ guardar - 储存, 留着, 收纳, 来装, 留好, 保存, 水留, 我存
+ impresora - 打印机
+ informe - 报告, 报道, 汇报
+ lograr - 实现目标, 能够, 完成, 能办, 打成, 设法, 获得, 得手
+ media hora - 半小时
+ opción - 选项, 别无选择
+ por - 为了, 因为, 由于, 乘以, 每, 由, 通, 通过, 被, 凭, 出于, 支持, 沿着, 在, 为期, 为, 顺着
+ presentar - 表达, 绍, 介绍, 出新, 主持, 展示, 献, 展现
+ responder - 回, 回信, 回应, 回答, 回复, 答得, 反击
+ resumen - 梗, 梗概, 要点, 综, 大纲, 总结, 概述, 纲
+ sala de reuniones - 会议室
+ tener cuidado - 注意
+ versión - 版本, 版有, 版, 说法, 稿子
+88 Date 讨论人际关系和感受
+ amor - 爱情
+ arrogante - 自以为是, 自大, 傲慢, 自负
+ así es - 确实如此
+ cita a ciegas - 相亲
+ como - 般的, 当, 吃生, 仿佛, 身为, 过像, 作为, 吃饭, 不吃, 吃糖, 似的, 我吃, 如, 云像, 正像, 吃豆腐, 既然
+ consejo - 建议, 劝告
+ ecuatoriano - 厄瓜多尔人, 厄瓜多尔
+ egocéntrico - 自我中心
+ entonces - 那么
+ es que - 是因为
+ escribir - r, 写字, 课写, 写出, 写个, 写作, 写下, 诗写, 写, 不写, 谱写
+ hermoso - h, 美丽的, 美丽, r, 太美, 美的, 最美, 美好, 美小
+ obviamente - 显然地
+ proponer - 提议
+ propongo - 建议, 提议
+ qué tal - 怎么样
+ relación - 关联, 关系, 名单
+ se - 他们, 您, 被
+ sinceramente - 真诚地
+ verdad - 真相
+89 Directions 根据路线指示进行导航
+ a la derecha - 向右
+ a la izquierda - 向左
+ a lo mejor - 可能
+ a ver - 去看
+ al final - 最终
+ camino - 走时, 走, 道, 径, 途, 路, 路去, 路径, 走路, （我）走, 条路, 这趟路
+ correcto - 不对, 没错, 正确, 对的, 对错
+ cruce - 过, 过马路, 十字路口
+ cruzar - 跨, 穿越, 跨越, 渡, 越, 涉, 横穿, 过步, 渡过, 过河, 横渡, 过路, 路过
+ delante de - 前面
+ doblar - 折叠, 转弯, 叠, 拐弯
+ estacionamiento - 停车场, 停车位, 车位
+ hacia - 冲着, 朝着, 走向, 往, 地向, 朝, 通往, 飞往, 正朝, 向, 球朝, 去, 别朝, 开往
+ indicación - 指示
+ intersección - 交叉路口, 十字路口, 路口, 交叉口
+ licencia - 驾照, 执照
+ parque de diversiones - 游乐园
+ prestar atención - 注意
+ puente - 桥梁, 桥, 大桥
+ segundo - 一秒钟, 秒, 第二座, 第二个, 第, 第二条, 第二, 第二名, 一秒
+ semáforo - 红绿灯, 交通灯
+ todo recto - 一直走
+ tomar - 服药, 乘坐, 记笔记, 拍张, 拍照片, 拍一, 搭乘, 拍下, 喝一杯, 取, 搭, 要花些, 拍照, 服用, 乘, 拿, 拍自
+90 Recovery 使用命令式
+ adulto - 成年人, 成人
+ apoyar - 支持, 有利于
+ boca - 嘴, 口, 嘴巴, 嘴里
+ de nuevo - 再次
+ deprimido - 闷闷不乐, 沮丧, 郁闷, 低落, 压抑, 苦闷, 情绪低落, 消沉
+ débil - 虚弱, 弱, 很弱
+ entender - 看得懂, 能看懂, 不难理解, 理解, 明白, 懂得, 搞不懂, 读懂, 了解, 懂点, 看不懂, 懂吗
+ entiendo - 听不懂, 理解, 明白, 懂, 了解, 略懂
+ escalera - 梯, 楼梯间, 梯子, 楼梯, 楼道
+ herida - 受伤, 创口, 伤, 伤口, 有伤
+ jabón - 香皂, 肥皂, 皂
+ negativo - 消极, 消极的, 负面, 阴性, 阴, 不利
+ piel - 皮, 皮肤, 肤, 肌
+ proteína - 蛋白质
+ recuperación - 早日康复, 康复, 恢复, 补考
+ regular - 定期, 正常, 不新不旧, 规律, 一般般, 常规, 调节
+ resultado - 下场, 结果, 效应
+ salud - 健康
+ sentir - 感到, 感觉, 感受, 感觉良好, 觉, 不禁
+ suficiente - 充足, 足够的, 够, 充分, 足够, 足以, 得够, 不够, 钱够, 够不够, 够用
+ síntoma - 症状
+91 Team 在命令式中使用宾语代词
+ agarrar - 接住, 手握
+ con fuerza - 用力地
+ empatar - 打平, 扳, 扳平
+ estadio - 运动场, 球场, 体育馆, 体育场
+ final - 结局, 尽头, 结尾, 最后的, 尽, 末尾, 决赛, 最后, 大结局, 期末, 冠军赛
+ futbolista - 足球运动员
+ gol - 个球, 球门, 进球
+ jugada - 招式, 步棋
+ meter - 米, 丢进
+ milagro - 奇迹
+ pasar - 闯过, 进来, 花上, 转达, 经过, 路过, 顺便来, 消磨, 递给, 消磨时光, 卡进, 度过, 顺道去, 过桥, 超车
+ patear - 踢
+ pelota - 球, 球时
+ penal - 点球
+ por la derecha - 沿着右边
+ por lo menos - 至少
+ portero - 守门员, 看门人, 门卫, 门房
+ tiempo - 空儿, 时, 时间, 时光
+ triunfo - 胜利
+ vamos - 加油
+ ya - 立刻
+92 Chores 2 做家务活
+ afuera - 外面
+ así - 这样
+ cocina - 烹饪, 饪, 烹, cocina, 厨房, 下厨, 厨, 做饭, (他/她/您) 煮, 厨艺, 烹调
+ colcha - 被子
+ cuarto de huéspedes - 客房
+ cómodo - 最自, 轻便, 合脚, 舒服, 使用方便, 不紧, 舒适, 轻松愉快
+ di - 下达, 说, 包给, 组给, 说点, 给钱
+ dormitorio - 舍, 寝室, 宿, 卧室, 宿舍
+ enseguida - 马上
+ haz - 做, 做好
+ olla - 锅, 一锅
+ piso - 地板, 一层, [地/地面], 踩, 地面
+ pon - 放盐, 放进, 放点, 把, 放糖, 放, 放在, 多放, 放到, 少放
+ por último - 最后
+ propietario - 业主, 所有者, 房主
+ recogedor - 簸箕, 箕
+ sal - 萨尔, 盐, 出来
+ sofá - 沙发
+ sábana - 床单, 被单
+ sé - 我知道, 知道, 只会, 我会, 做个, 会
+ ten cuidado - 小心
+ toalla - 毛巾
+ ve - 看见, 看到, （她）看（到/见）, 观看
+ ven - （他们）看（到/见）, 来看, 过来 (虚拟式现在时), 看到, 视, 去, 见到
+ video - 视频
+93 Life Story 分享你的生活故事
+ abierto - 打开, 敞开, 开门, 开放, 开店, 坦率, 开着, 开封, 痛快, 直率
+ agricultor - 农民
+ andar - 走步, 走路
+ aula - 课堂, 教室, 自习室
+ bañarse - 洗澡
+ broma - 笑话, 玩笑, 笑谈
+ calmado - 平静而, 平静, 平静的
+ carnicería - 肉店
+ dar clases - 上
+ de niño - 小时候
+ derecho - 法律
+ divorcio - 离婚
+ graduación - 毕业
+ guerra - 战, 战争, 仗, 交战
+ hijo único - 独生子女
+ hoy en día - 现在
+ juntarse - 团圆, 在一起, 聚在
+ rebelde - 叛逆者, 叛逆
+ época - 时代, 年代
+94 Shops 讨论购物经历
+ aburrirse - 无聊
+ calculadora - 计算器
+ cereal - 谷物早餐
+ chicle - 口香糖
+ cincuenta - 五十
+ de plástico - 塑料
+ disfraz - 服装, 吉祥物
+ escoger - 看中, 选择, 选到, 选完, 筛选
+ fácilmente - 容易, 轻松
+ gigante - 巨型, 巨, 巨手, 巨大, 巨人
+ goma - goma, 橡皮, 橡胶
+ imaginario - 想象的, 假想, 虚拟
+ marcador - 记号笔, 比分
+ miedo - 害怕
+ monstruo - 怪物, 怪兽
+ muñeca - 腕, 娃娃, 手腕
+ pulsera - 手镯, 手链
+ rana - 青蛙
+ romper - 打破, 分手, 打蛋
+ según - 根据, 据 ... 所言, 在 ... 看来
+ usado - 用过的, 使过, 不新不旧, 用过, 二手
+95 Memories 使用过去未完成时态
+ antes - 以前
+ castaño - 棕色
+ como - 般的, 当, 吃生, 仿佛, 身为, 过像, 作为, 吃饭, 不吃, 吃糖, 似的, 我吃, 如, 云像, 正像, 吃豆腐, 既然
+ era - 纪, 是(过去未完成时), 年代
+ eran - 是(过去未完成时)
+ eras - 时代
+ gordo - 胖
+ iba - 去
+ iban - 去
+ ibas - 去
+ instituto - 研究所, 院
+ llorar - 落泪, 我流, 哭, 哭个, 哭过, 哭闹
+ malo - 坏的, 很糟, 坏事, 恶劣, 难吃, 不好的, 不好, 差, 好差, 这可糟, 不良, 糟糕, 太糟, 很差, 糟, 好坏
+ marido - 丈夫, 新郎
+ menos cuarto - 差一刻钟
+ pasar - 闯过, 进来, 花上, 转达, 经过, 路过, 顺便来, 消磨, 递给, 消磨时光, 卡进, 度过, 顺道去, 过桥, 超车
+ reservado - 预订, 订好, 订床, 拘谨, 含蓄
+ rizado - 卷曲
+ éramos - (我们)是 (过去未完成时)
+ íbamos - 我们去, 我们
+96 House 讨论住房费用
+ ahorro - 储蓄, 蓄, 储
+ alquiler - 租赁, 赁, 租金, 房租
+ alto - 树太高, 高个子, 高大, 很高, 高, 高于
+ ciento veinte - 一百二十
+ condición - 状况, 处境, 好坏, 条件, 病情, 前提
+ confirmar - 确认
+ contrato - 合约, 合同
+ conveniente - 便利, 方便, 使用方便
+ cuadrado - 正方形, 平方, 方形
+ cuanto antes - 尽快
+ cuenta - 这算, 账号, 账户, 数数, 账, 不算, 帐号, 不算数, 进账单, 买单, 帐户, 讲得, 算作
+ depositar - 钱存, 存款, 我存
+ detalle - 细节
+ en efectivo - 现金
+ en las afueras - 郊区
+ limitado - 狭窄, 片面, 有限的, 限量
+ mediano - 中等, 不大不小, 不长不短
+ presupuesto - 预算, 经费
+ recorrer - 走走看看, 走遍全国, 观光, 游览, 转来转去
+ tamaño - 规模, 尺码, 大小, 尺寸, 长短, 码数, 体积
+ vivienda - 住房
+ volver a - 再
+ ya mismo - 马上
+97 Tour 2 计划你的旅行
+ amanecer - 日出, 旦, 天亮, 黎明, 曙, 拂晓
+ bikini - 比基尼
+ carpa - 帐篷
+ cascada - 瀑布, 瀑
+ compartir - 分担, r, 共享, 分给, 分享, 共用
+ deber - 要系, 本分, 使命, 职责, 生要
+ decidir - 决, 决定, 做主, 好要
+ desordenado - 邋遢, 条理, 乱, 杂乱, 乱七八糟, 太乱, 乱糟糟, 很乱, 无序, 脏乱
+ detrás de - 后面
+ jamás - 从不
+ lata - 罐, 一罐
+ luna - 月亮, 月球
+ manta - 毯子
+ mil gracias - 非常感谢
+ millón - 百万
+ paquete - 快递, 一包, 包裹, 套餐
+ parecido - 类似, 相似
+ paseo - 散步, 散散步, 遛狗, 一会儿步, 遛, 兜风
+ protector solar - 防晒霜
+ público - 公共, 公开, 公开的, 大众, 公共的, 公众, 公用的, 公, 听众
+ repelente - 驱虫剂
+ sorprender - 惊讶, 震惊
+ tener que - 得
+ tomar el sol - 晒太阳
+98 Ever? 分享旅行经历
+ Brasil - 巴西
+ alguna vez - 曾经
+ congelado - 冷冻, 冰冻, 冻结, 冻结的, 冻坏, 冻, 冻得
+ de todas maneras - 无论如何
+ escalar - 攀, 攀爬, 登, 爬山, 攀登
+ excursión - 短途旅行, 郊游, 远足, 观光
+ ha - (他/她/它)用于构成现在完成时, 并未
+ han - 汉, 用于构成现在完成时, 未
+ has - (你) 用于构成现在完成时
+ he - (我) 用于构成现在完成时, 未
+ hemos - (我们) 用于构成现在完成时, 未
+ hormiga - 蚂蚁, 蚂, 蚁
+ impactante - 震撼
+ local - 本地的, 本地人, 当地, 本地
+ mochilero - 背包客
+ mundo - 界, 世, 世界, 人间
+ ni - 也不, 既非, 妮, ni
+ por - 为了, 因为, 由于, 乘以, 每, 由, 通, 通过, 被, 凭, 出于, 支持, 沿着, 在, 为期, 为, 顺着
+ tapa - 小吃, 盖子, 瓶盖
+ volcán - 火山
+99 Community 讨论社区问题
+ abandonado - 被遗弃, 废弃
+ araña - 蜘蛛, 蜘, 蛛
+ calefacción - 暖气
+ cómoda - 舒, 舒服的, 舒服, 舒适
+ dos mil - 两千
+ dos mil veinte - 二千二十
+ fantasma - 幽灵
+ hecho - 办, 做, 弄, 事实, 干得
+ herramienta - 工具
+ ido - 去, 去过
+ igual - 一样, 相等, 仍旧, 照样, 依旧
+ incendio - 火灾
+ madera - 木, 木制, 木质, 木头, 木材, 柴
+ mosca - 苍蝇, 蝇
+ polvo - 粉末, 尘, 粉, 粉尘, 灰尘
+ rata - 老鼠
+ robo - 抢, 抢劫, 盗, 窃, 盗窃案, 大劫案
+ sangre - 血, 血液
+ sido - 是, 被
+ sin querer - 不小心
+ solo - 只
+ supongo que - 我想
+ visto - 看见, 看过, 见过, 看到, 见过面
+ vuelto - 回去, 归还, 返回, 回来, 复合
+ ático - 阁楼
+100 Work Life 使用现在完成时态
+ bajo - 矮的, 矮, 矮个子, 我下, 低, 下待, 下面, 低的, 之下, 贝斯
+ buen día - 早安
+ cliente - 客户, 顾客
+ currículum - 简历, 履历
+ cómo está - 您好吗
+ doctor - 医生, 博士
+ dueño - 房东, 主人
+ enhorabuena - 恭喜
+ escrito - 写给, 写下, 写, 稿子
+ fotocopia - 复印件, 复印
+ fotocopiadora - 复印机
+ informal - 非正式的, 休闲
+ jubilarse - 退休
+ maletín - 公文包, 手提箱
+ mecánico - 机动, 修理工, 机修工, 机械师, 师傅
+ multinacional - 跨国公司, 跨国企业
+ pizarra - 黑板
+ presidente - 总统, 省长, 总裁, 主席, 董事长, 社长
+ regla - 规, 矩, 规矩, 规则, 尺子, 尺, 原则
+ salario - 工资, 薪, 薪水
+ sentarse - 坐下, 坐坐
+ trabajo - 工作, 劳, 工, 办公
+101 Chatting 计划社交活动
+ adentro - 里
+ anillo - 戒指, 指环
+ arroba - 艾特符号, @, 艾特
+ billetera - 钱包
+ cancelar - 取消, 注销
+ casi - 差点, 几乎
+ coco - 椰, coco, 可可, 椰子, 脑袋
+ contactar - 联系
+ correo - 电子邮件
+ costa rica - 哥斯达黎加
+ dirección - 地址, 方向, 址, 管理层, 带领, 趋势
+ emoji - 表情符号, emoji
+ encargarse de - 负责
+ falta - 缺, 缺少, 不缺, 疏忽, falta, 缺乏, 缺席, 就会少, 缺什么, 乏, 不, 缺失, 里少, 犯规
+ frío - 冷, 寒冷, 寒, 发冷, 冷淡
+ grabar - 录音, 录制, 录个, 录, 上刻
+ mago - 魔法师
+ me encargué de - 负责
+ mensaje de texto - 短信
+ mensaje de voz - 语音消息
+ nube - 云, 云对
+ organizado - 举办, 整理好, 整理, 有条理
+ pesimista - 悲观者
+ sesenta - 六十
+ sin - 不含, 未经, 不加, 无, 没有, 毫不, sin
+ tener suerte - 有运气
+102 Opinions 表达健康观点
+ agua mineral - 矿泉水
+ cafeína - 咖啡因
+ cantidad - 金额, 额, 数量, 量, 用量, 分量
+ carne roja - 红肉
+ definitivamente - 肯定地, 确定地；一定，肯定, 确实
+ en forma - 身材好
+ esencial - 必不可少的, 必要的, 要紧
+ estricto - 严, 严格
+ inscribirse - 注册, 签到
+ jengibre - 姜
+ maratón - 马拉松
+ meditar - 冥想, 琢, 琢磨
+ motivación - 动力, 动机
+ natural - 天然的, 自然, 天然, 自然的, 原味
+ perder peso - 减肥
+ procesado - 加工
+ reducir - 降低, 减压, 减轻负担, 放小, 减速, 减少, 减轻, 缩短
+ reduzco - 减少
+ regularmente - 经常地
+ rutina - 日常, 常规, 惯例
+ salud mental - 心理健康
+ tener éxito - 成功
+ tratar de - 尽量
+103 Past 分享过去的经历
+ al horno - 烤
+ así que - 所以
+ atún - 金枪鱼
+ bien cocido - 煮得很熟
+ bol - 碗
+ brócoli - 西兰花
+ cortar - 斩, 剪掉, 切断, 剪发, 切割, 割, 切, 剪, 锯成, 切菜, 切鱼, 刀切, 剪碎, 切开, 截, 中断
+ crujiente - 酥脆, 酥, 脆, 香脆, 脆脆, 很脆, 既脆, 清脆
+ esconder - 藏
+ guiso - 炖菜, 炖
+ hongo - 蘑菇
+ jamón - 火腿, 火腿肉
+ justo - 公平的
+ malcriado - 被宠坏的, 被宠坏, 惯坏
+ maní - 花生
+ mezclar - 混合, 搅拌, 混, 拌, 融合
+ recordar - 记(得/住), 回想, 记住, 提醒, 想念, 忆, 回忆, 记不住
+ recuerdo - 记得, 纪念品, 提醒, 忆, 回忆, 记忆, 回想
+ salir - 离开, 外出, 出来, 交往, 退出, 出门, 出去, 下班, 出, 开走
+ tostada - 墨西哥玉米饼
+ trozo - 块, 一块
+ una vez - 曾经
+104 Childhood 讨论电影和电视剧
+ Cuba - 古巴
+ India - 印度
+ Inglaterra - 英格兰
+ anteayer - 前天
+ caricatura - 漫画
+ de misterio - 悬疑
+ de suspenso - 悬疑片
+ descargar - 卸, 下载, 卸下来
+ dramático - 戏剧性的, 戏剧性, 戏剧化
+ harto de - 厌倦
+ libre - 免费, 闲, 自由, 休假, 空闲, 自由式
+ mejor - 好些, 佳, 更加, 比较, 最, 较, 好得多, 最佳, 最棒, 好受, 最好, 更好的, 更会, 更好, 干脆
+ ochenta - 八十
+ poco - 有点
+ política - 政治, 政策
+ setenta - 七十
+ soler - 通常
+ suelo - 地板, 地上, 地面, 泥土
+ telenovela - 肥皂剧, 电视剧, 连续剧
+ veía - (我) 看见, (我) 看到, 观看
+105 Success 庆祝成就
+ abrir - 打开, 开瓶, 来开, 开新, 开设, 我开, 睁开, 开放, 开店, 开, 开户, 开封, 瓶开, 车开, 开通, 开立, 解锁
+ agradecer - 感谢, 可谢
+ dar - 给, 付出, 给钱
+ de verdad - 真
+ dedicarse a - 从事
+ demás - 其他人
+ dos mil diez - 二千一十
+ emocionado - 激动, 兴奋, 心动
+ en particular - 特别是
+ exitoso - 得意, 功, 顺利, 成功的, 成功, 可火
+ fin de curso - 学期结束
+ medicina - 医学
+ momento - 候, 片时, 时刻, 时候, 一下, 时机
+ noventa - 九十
+ orgulloso - 自豪, 得意
+ pasarlo - 过得
+ por - 为了, 因为, 由于, 乘以, 每, 由, 通, 通过, 被, 凭, 出于, 支持, 沿着, 在, 为期, 为, 顺着
+ premio - 奖, 奖项, 奖品
+ profesional - 职业, 专业的, 专业, 专业人士, 人才
+ propio - 自己的, 本方, 自家, 自身
+ respetar - 讲究, 给面子, 尊敬, 尊重, 佩服
+ valioso - 价值, 有价值的, 值钱, 难得, 有价值, 值, 可贵
+106 Furniture 讨论家具和家居布置
+ amueblado - 配家具的, 布置
+ arriba - 仰, 上面, 仰卧
+ bajar - 沉下, 搬下, 退烧, 调小, 下降, 下楼, 搬下来, 降, 降温, 下去, 调低, 下山, 沉下去, 走下坡
+ carpintero - 木匠
+ confiable - 可靠的
+ contratar - 增聘, 聘请, 雇个, 雇用, 招聘
+ cortina - 窗帘
+ decorar - 装饰
+ diseño - 设计, 设
+ electricista - 电工
+ espejo - 镜子, 镜, 一面镜子
+ estante - 书架, 架子, 书柜
+ estresante - 压力大的
+ martillo - 锤, 锤子, martillo
+ mesita de noche - 床头柜
+ mudarse - 搬, 搬到, 搬家, 搬迁
+ pedir - 请假, 点, 订餐, 请求, 请点, 会要, 许愿, 再要, 许下, 要点, 能点, 订购, 点单, 要饭, 求助, 点个, 就点, 求救, 索要, 点菜, 再点, 美请
+ práctico - 简易, 实用, 轻便, 实践性, 使用方便
+ que - 比, 的
+ televisor - 电视, 电视机
+ tercer - 第三个, 第, 第三, 第三间, 第三位, 第三任
+107 Mishaps 抱怨旅行中的问题
+ a cada rato - 经常
+ adónde - 去哪里
+ arena - 沙子, 沙
+ complicado - 艰难, 复杂, 难学, 难懂, 棘手, 可难
+ doscientos - 二百
+ feriado - 假日, 节假日
+ fue - 去了, 达去, 被, 包被, 是, 不是, 正是
+ fueron - (他们/她们/它们/你们) (曾经) 是, 去了, （他们/她们/它们/诸位）去（简单过去时）, 被, 走远
+ fui - 去了, (我) (曾经) 是, (我) (曾经) 去, 被
+ fuimos - (我们) (曾经) 去, (我们) (曾经) 是, 去了, 被, 前去
+ fuiste - (你) (曾经) 去, 去了
+ gasolinera - 加油站
+ hasta - 为止, 止, 迄, 至, 截至, 等到, 多达, 到, 至多, 才, 直到, 甚至
+ hora pico - 高峰时段
+ igual - 还是
+ insistir - 坚持
+ lluvioso - 多雨, 多雨的
+ lo lamento - 我很抱歉
+ molesto - 恼, 不烦, 令人烦恼, 好烦, 更烦, 太烦, 烦人, 很烦, 懊恼, 太烦人, 烦恼, 恼火, 恼人, 烦, 刺耳
+ montar a caballo - 骑马
+ ni hablar - 别想
+ parar - 停, 站, 停歇
+ perdonar - 原谅, 舍得
+ piedra - 石, 石头
+ recoger - 摘花, 拾, 领取, 先接, 捡起来, 取票, 取, 取信, 捡, 我取, 摘, 收纳
+ recojo - 接
+ repetir - 复, 重复, 迭
+ sabes - 知道, 知不知道, 会弹, (你) 知道, 你明
+ selva - 丛林, 雨林
+ tiburón - 鲨鱼, 鲨
+108 Accident 寻求事故后的帮助
+ accidente - 事故, 发生意外
+ asustarse - 害怕, 怕不怕
+ bombero - 消防员
+ caerse - 摔倒, 滑下
+ carretera - 马路, 街, 公路, 道路
+ carro - 推车, 车开, 车, 牛车
+ chocar - 撞, 撞到, 撞车, 撞击
+ choqué - 撞上了
+ comisaría - 警察局, 派出所, 警局
+ dedo - 手指, 指, 趾
+ dedo del pie - 脚趾
+ estuve - 是在, 就是, 在, 是, 我病
+ farola - 路灯
+ fracturarse - 骨折
+ lastimarse - 受伤
+ oreja - 耳
+ policía - 警方, 警察, 警
+ rueda - 轮子, rueda, 轮, 轮轮, 车轮, 车轮子
+ se cayó - 掉进了, 掉下来, 掉下来了
+ socorro - 救命
+ tobillo - 脚踝, 踝
+ tuve - (我) (曾经) 有, 我出, 我患
+ vivo - 不住, 活, 活着, 生动, 只活, 住, 鲜艳
+109 Tradition 讨论庆祝活动
+ Año nuevo - 新年
+ anterior - 之前, 之前的
+ anécdota - 轶事, 趣闻
+ brindis - 敬酒
+ costumbre - 俗, 往常, 风俗, 习俗, 惯例
+ criticar - 评, 批评
+ cuñado - 小舅子
+ deseo - 愿望, 欲望, (我) 希望, 祝, 愿, 心愿, 欲, 意照
+ dije - 说出, 诉, (我) 说/告诉 (过去时), 告诉, 没说
+ festejar - 庆祝
+ inolvidable - 难忘的, 难忘, 令人难忘
+ más - 更多
+ nochebuena - 平安夜
+ recuerdo - 记得, 纪念品, 提醒, 忆, 回忆, 记忆, 回想
+ ridículo - 荒唐, 荒谬, 可笑
+ ron - 朗姆酒
+ tontería - 蠢话, 蠢事, 胡话, 傻事
+ traje - 西服, 戏服, 西装, 衣, 没带, 袍
+ treinta y uno - 三十一
+ uva - 葡, 萄
+110 Project II 使用“hacer”的过去时
+ al final de - 的尽头
+ alumno - 学生
+ aprobar - 点赞, 通过, 批准, 批过
+ apruebo - 通过
+ añadir - 加, 添, 添加, 加点, 加进去, 加上, 多加, 要加
+ beige - 米色
+ claro - 当然, 清, 简洁, 浅色, 清爽, 明, 干净的, 浅, 清脆, 楚, 清楚, 明确, 朗, 动听
+ comprender - 明白, 解与, 读懂, 了解, 懂吗
+ contigo - 和你一起, 跟你一起
+ cuarto - 第四场, 房间, 第, 第四, 屋子, 第四个, 一刻, 刻, 房会
+ dibujo - 画画, 画, 图画, 我画, 绘图, 小画儿, 画图, 绘制
+ error - 对错, 误, 有误, 疏忽, 大错, 失误, 错误, 错, 过失, 差错, 误差
+ hice - 交到, 搞了个, (我) (曾经) 做, 做了, 我费, 我列, 开了个
+ imagen - 图片, 图像, 形象
+ memorizar - 记住, 记忆, 背熟
+ ojo - 小心
+ oración - 句, 句子, 祷告, 祷
+ oscuro - 很暗, 黯, 暗色, 暗暗, 不黑, 阴暗的, 太黑, 暗, 昧, 深蓝色, 深, 深色, 冥, 黑暗, 偏暗
+ palabra - 言, 话
+ pupitre - 课桌
+ satisfecho - 知足, 十分满意, 痛快, 满意, 得意
+ semestre - 学期
+ tiza - 粉笔
+ usualmente - 通常
+111 Clue 识别物品的所有者
+ adentro de - 里面的
+ cajón - 抽屉, 屉
+ carpeta - 文件夹
+ estuche - 笔盒
+ física - 物理学
+ guardar - 储存, 留着, 收纳, 来装, 留好, 保存, 水留, 我存
+ informática - 信息学
+ lonchera - 午餐盒
+ muchísimas gracias - 非常感谢
+ mío - 我的
+ nuestro - 我们的, 我们
+ pincel - 画笔, 毛笔
+ pulóver - 毛衣
+ si no - 如果不
+ sobre - 信封, 关乎, 有关, 上, 在 ... 上面, 关于, 身上, 对于
+ suyo - 您的, 他的, 它们的, 它的, 她的, 她们的, 他们的, 你们的
+ tuyo - 你的
+112 Eating Out 处理用餐问题
+ a la parrilla - 烤
+ bien hecho - 全熟, 熟
+ cacahuete - 花生
+ calidad - 质量, 质, 优质, 品质, 成色, 好坏
+ confusión - 混乱, 上乱, 惑, 多人乱
+ descuento - 折, 扣, 打折, 包打, 折扣
+ estornudar - 嚏, 打喷嚏
+ gamba - 虾
+ huelo - 闻起来, 我闻
+ ofrecer - 报价, 出价, 提供, 献, 开设
+ ofrezco - (我) 提供, 提供
+ oler - 闻, 闻起来
+ orden - 订单, 条理, 序, 命令, 顺序
+ patata - 土豆
+ perejil - 欧芹
+ plato del día - 今日特餐
+ propina - 小费
+ quemar - 烧糊, 烧, 燃烧, 糊成
+ sabor - 味道, 滋, 风味, 滋味, 味, 口味, 味儿, 口感
+ salteado - 炒
+ salud - 医疗, 健康, 干杯
+113 Genius 讨论个人成就
+ adivinar - 猜到, 猜出, 猜, 猜中, 猜出来
+ alfabeto - 字母表
+ apuntes - 笔记
+ aunque - 虽然
+ avanzado - 先进
+ calcular - 算, 算算, 计较
+ ciencia - 科学
+ complejo - 复杂, 非常复杂
+ estupendo - 真牛, 极好的, 可棒
+ experimento - 实验, 试验
+ explotar - 爆炸
+ extraordinario - 了不起, 非凡
+ genio - 天才, 奇才, 脾气
+ habilidad - 本事, 手艺, 能力, 球技, 绝活, 手腕
+ impacto - 影响, 冲击, 效应
+ inventar - 编造, 编个
+ investigar - 调查, 研究, 考察
+ laboratorio - 实验室, 研究所
+ millonario - 百万富翁
+ real - 真的, 真实的, 确有其事, 真实, 实际, 真的假
+ talento - 人才, 赋, 才能, 天赋, 天分
+114 Worldwide 讨论文化背景
+ Chile - 智利
+ Escocia - 苏格兰
+ Panamá - 巴拿马
+ Tailandia - 泰国
+ academia - 学院, 学术
+ acento - 口音
+ casualidad - 偶然
+ cubano - 古巴的, 古巴人, 古巴
+ darse cuenta - 自觉, 意识到
+ de qué - 哪个
+ escocés - 苏格兰人, 苏格兰
+ espectacular - 壮观的, 精彩绝伦
+ exquisito - 美味的, 美味, 精美
+ haitiano - 海地人, 海地
+ me divierto - 很开心
+ nicaragüense - 尼加拉瓜人, 尼加拉瓜, nica
+ nos divertimos - 玩得很开心
+ paisaje - 景, 风景, 景色, 景观, 风景画, 风光
+ popular - 民间, 受欢迎, 流行, 受, 受欢迎的, 火多, 很火, 热门, 可火
+ preferido - 最喜欢的
+ salvadoreño - 萨尔瓦多人
+ se divirtió - 玩得很开心
+ tailandés - 泰国, 泰国人, 泰语
+ tradición - 传统
+ veintidós - 二十二
+115 Excuses 解释你不能做某事的原因
+ abajo - 楼下
+ avergonzado - 羞愧, 难为情, 臊, 害臊
+ centro estudiantil - 学生中心
+ cerrado - 关门了, 封闭
+ decepcionado - 失望, 大失所望
+ desconectado - 断开
+ desorganizado - 有条理, 不够有条理, 脏乱
+ diploma - 文凭, 学位, 奖状
+ enfadado - 生气
+ enfocarse - 集中, 关注, 对焦, 专注, 专注于
+ es decir - 也就是说
+ es posible - 可能
+ graduarse - 毕业, 大学毕业
+ imprimir - 打印, 打印文件
+ incompleto - 不完整, 片面
+ irresponsable - 不负责任
+ me enfoqué - 我专注于, 专注
+ nada más - 没有其他的
+ psicología - 心理学
+ tonto - 傻, 蠢, 真笨, 笨, 很傻, 傻乎乎, 愚, 愚蠢, 傻得
+ trescientos - 三百
+ virus - 病毒
+116 Event 2 数字的实际应用
+ acompañar - 陪
+ adelante - 请进
+ apurarse - 赶紧, 赶时间, 赶忙
+ asiento - 席, 座位, 席位, 位子
+ asistir - 上, 辅, 参加, 赴, 在场, 协助, 抢救
+ chequear - 检查
+ chin chin - 干杯
+ contestar - 接听, 回, 接, 接电话, 回复, 顶嘴
+ costar - 花钱, 花
+ costoso - 昂贵, 吃力
+ dedicarse a - 从事
+ en total - 总共
+ entrar - 进入, 进门, 一进, 踏进, 卡来, 进, 卡进, 走进, 进得进
+ exmarido - 前夫
+ guitarrista - 吉他手
+ intermedio - 中场休息, 不新不旧
+ jazz - 爵士乐
+ joven - 年轻, 幼, junior, 嫩, 年轻的, 年轻人, 年幼, 少年, 小伙子, 青年, 年下, 晚辈
+ letra - 歌词, 字迹
+ obra - 工作, 所为, 剧, 作品, 藏品
+ pianista - 女钢琴家, 钢琴家
+ sentado - 坐, 坐在, 着, 坐下, 理所当然
+ te parece - 你觉得
+ ópera - 歌剧
+117 Politics 讨论政治和社会
+ alcalde - 市长
+ alcaldesa - 女市长
+ candidato - 候选人, 人选, 候选, 人才
+ elección - 美选, 选举, 选择, 投票选举
+ elegir - 要选, 好要, 美选, 选, 投票选举, 中选, 挑个, 择, 看中, 挑出, 选择, 选到, 选那门, 选完, 选个, 筛选
+ elijo - 选择, 我选
+ gobierno - 府, 政府, 政, 执政
+ habitante - 居民
+ mentiroso - 骗子, 说谎者
+ ministro - 总理, 部长, 首相
+ partido político - 政党
+ paz - 和平, 安
+ político - 政客, 政治, 政治家
+ presidente - 总统, 省长, 总裁, 主席, 董事长, 社长
+ primer ministro - 首相
+ región - 地域, 地区, 区域
+ sincero - 真诚, 坦率, 诚, 诚恳, 挚, 直率
+ social - 社会
+ sociedad - 伙伴关系, 公众, 社会, 社团
+ tanto como - 一样
+ votar - 请点, 投票, 投票选举
+ voto - 投票, 一票
+118 Service 评价商品和服务
+ almacén - 仓库, 仓
+ chamarra - 夹克
+ chancla - 拖鞋
+ cupón - 优惠券, 代金券
+ céntimo - 分钱
+ dorado - 金色的
+ efectivamente - 确实
+ en absoluto - 根本
+ encargado - 负责人
+ estilo - 式, 格调, 风味, 风格, 造型, 字体
+ inútil - 无济于事, 无用, 没用
+ llevar - 戴, 带水, 带防, 带, 带花, 携带, 架来, 只带, 能带, 携, 带得, 带上, 扛过去, 车载, 扛着, 随身携带, 拎, 扛
+ ni siquiera - 甚至不
+ objeto - 物件, 物体, 对象, 件物品, 物品, 藏品
+ ponerse - 变得, 换上
+ probarse - 试穿
+ quitarse - 脱掉
+ reembolso - 还款, 退款, 报销, 补偿
+ sitio - 站点, 网站, 位置, 地方, 地点, 位子
+ sostén - 胸罩
+ sudadera - 卫衣
+ tanto - 多, 如此多的, 这么, 这么多, 既
+119 Haircut 使用比较级描述数量
+ afeitarse - 刮掉, 刮胡子, 刮脸
+ centímetro - 厘米
+ champú - 洗发水
+ cita - 预约, 相亲, 预, 约, 约会, 面谈
+ corte de pelo - 发型
+ detallado - 细致, 内容丰富
+ encima - 上, 上面
+ estar de moda - 时尚
+ flequillo - 刘海
+ forma - 形, 格, 形状, 形态, 形式, 身材
+ gastar - 花一, 花, 多花, 花点, 交通费, 而花, 不花, 中花, 消磨
+ liso - 直, 直的, 夷
+ me tiño - 我染发, 我染
+ natural - 天然的, 自然, 天然, 自然的, 原味
+ peine - 梳, 梳子
+ peluquero - 理发师, 美发师, 造型师
+ recortar - 削减, 修剪, 缩短
+ reseña - 评论
+ secador - 吹风机
+ tardar - 花
+ teñirse - 染发, 染
+ volumen - 容量, 册, 每卷, 音量, 体积
+ último - 最后的, 上次, 最后, ltimo
+120 Crime 识别被盗物品
+ arma - 武器
+ arrestar - 逮捕, 逮
+ billete - 钞票, 火车票, 票, 钞, 车票, 纸币
+ bolsillo - 口袋
+ creer - 相信
+ cuatrocientos - 四百
+ cárcel - 牢, 监狱
+ de oro - 金, 金的
+ de plata - 银制的
+ di - 下达, 说, 包给, 组给, 说点, 给钱
+ equivocarse - 做错事, 犯错, 闹笑话
+ inocente - 无辜的
+ joya - 瑰宝, 珠宝, 宝贝
+ joyería - 珠宝店
+ ladrón - 劫匪, 小偷, 人偷, 窃贼, 贼
+ menos mal - 幸好
+ pedir disculpas - 请求道歉
+ policía - 警方, 警察, 警
+ soltar - 松开, 放, 放下, 他放
+ suelto - 放下, 太松, 不紧
+ testigo - 证人, 见证人, 目击者
+ vi - 见到, 看见, 我看见了, 看出
+121 To Do 照顾宠物
+ acostarse - 躺, 躺下, 上床
+ alrededor de - 周围
+ bote - 罐子, 罐
+ caliente - 热乎, 发烫, 热, 可热
+ cariñoso - 亲切, 亲热, 慈爱
+ cerdo - 猪, 猪肉
+ conejo - 兔子, 兔
+ dar de comer - 喂食
+ de emergencia - 紧急情况下的
+ escondido - 藏着的, 隐藏
+ hace - 做些, 前才, 年前, 作, 做肉, 前, 做一套, 熊让, （他/她/您）做, 搞些, 就让, 做, 令, 布让, 制冰, 前刚
+ ladrar - 吠叫, 叫唤
+ me acuesto - 上床, 上床睡觉
+ pasear - 散步, 逛逛, 走走看看, 遛狗, 去逛, 遛弯, 漫步, 溜达, 散个步, 遛, 逛, 过步
+ pata - 爪子, 肢
+ pude - (我) 能
+ puse - 我放, 放进, 把, 我少放, 放, 放上去, 搁, 放在, 放到, 披上
+ quedar - 留 (下), 待, 碰面
+ redondo - 圆, 圆形, 圆圆的
+ rico - 不穷, 富有的, 有钱, 美味的, 好吃的, 富, 富裕的, 富有, 富人, 有钱人, 有钱的, 浓郁
+ roncar - 打鼾
+ soltero - 单身
+ sótano - 地下室
+ tierno - 松软, 嫩, 可爱, 温柔, 柔和
+122 News 讨论新闻
+ artículo - 文章, 篇, 物品, 篇文章, 款, 藏品
+ bien - 得来, 好好, 好, 良好, 不差, 安好, 对劲, 做好, 舒服, 对劲儿, 做得好, 可好
+ corrupto - 腐败
+ creyó - 相信, 相信了, 他信
+ creí - 相信, 以为, 我信
+ crisis - 危机
+ decisión - 决, 判罚, 决定, 决心
+ divorciarse - 离婚
+ economía - 经济, 经济学
+ exmujer - 前妻
+ falso - 假, 很假, 伪, 真的假
+ fiable - 可靠
+ fuente - 资源, 来源, 源, 泉, 喷泉, 字体
+ imposible - 不可能的
+ leyó - 读了, 读到, 读过, 他读, 上读
+ leí - 读了, 只读
+ mentir - 撒谎, 说谎
+ miento - 撒谎
+ mintió - 撒谎了
+ noticias - 新闻
+ periodismo - 新闻学
+ piloto - 飞行员, 机长
+ que - 比, 的
+ renunciar - 辞, 放弃, 辞职, 辞去, 抛弃
+ reportero - 记者, 新闻记者
+123 Accomplish 申请大学
+ albañil - 泥瓦匠, 瓦工
+ arquitectura - 建筑, 建筑学
+ beca - 奖学金
+ construir - 要建, 造出, 建造, 砌, 建房, 建座, 来建, 打造
+ construyó - 建了, 建
+ costo - 价钱, 费用, 成本, 代价
+ duda - 疑惑, 疑问, 怀疑, 疑虑
+ importar - 重要
+ incluir - 算进去, 包容, 记入, 包含, 房含
+ incluyó - 包括了, 列入
+ ingeniería - 工程学
+ logro - 绩, 成就, 成就感
+ matricularse - 注册
+ pensar - 想起, 思考, 想想, 动脑子, 想得, 思, 想到, 琢, 琢磨
+ pienso - 想起
+ probable - 很可能的
+ programa - 计划, 小节目, 程序, 大纲, 节目单, 日程, 节目, 综艺
+ página - 页, 一页, 页面
+ requisito - 前提, 要求, 前提条件, 门槛, 槛
+ solicitud - 申请
+ sueño - 困意, 寐, 梦像, 梦, 困, 睡眠, 眠, (我) 做梦, 睡意, 梦想, 梦里, 瞌
+ viaje - 出行, 旅程, 旅, 一路平安, 旅途, 之旅, 短途旅行, 旅在, 一趟, 出差, 趟, 旅行, 旅途愉快
+124 Art 讨论艺术
+ a través de - 通过
+ abuelita - 奶奶
+ analizar - 析, 进一步, 分析, 琢磨, 考察
+ artístico - 艺术, 艺术的
+ cafecito - 小咖啡
+ cambiar - 改, 改改, 换点, 换, 换掉, 换零钱, 积分换, 换成, 改成, 换个, 改变, 更改, 要换, 来换, 改名, 换用, 能换, 变, 零钱, 更换, 替换, 换钱, 转换
+ ciertos - 某些, 有些
+ contexto - 上下文, 背景, 时代背景
+ frecuente - 频, 常冷, 普遍
+ grandecito - 有点大
+ hacer - 做些, 再列, 闹出, 做果, 交到, 办, 交新, 铺床, 生火, 结新, 办得, 做加, 结交, 煮汤, 做, 做鱼, 来和面, 使, 打成, 做酱, 做出, 打个, 写个
+ influencia - 势力, 权威, 影响力, 感化, 影响, 效应
+ mesita - 小桌子, 小桌
+ origen - 来源, 产地, 来历, 原, 由来, 起源, 起点
+ palacio - 宫殿, 殿, 殿堂, 宫, palacio
+ perfectamente - 完全地
+ recientemente - 最近
+ reina - 女后, 女王, 王后, 皇后
+ rey - 之王, 王, king, 国王, rey
+ rosa - 粉色, 朵玫瑰, 玫, 玫瑰, 瑰, 粉红色, 玫瑰花
+ rápidamente - 快速地
+ simplemente - 只是
+ suponer - 假设, 认为, 意味着, 推测, 设想, 假定
+ técnica - 技, 技巧, 技术, 手法, 技术型
+ viejito - 老头, 老爷子
+125 Salad 讨论健康饮食
+ albahaca - 罗勒
+ albóndiga - 肉丸
+ aliño - 调料
+ berenjena - 茄子
+ caloría - 卡路里
+ cordero - 羔羊
+ de manera - 方式
+ grasoso - 油腻
+ hervido - 煮沸, 水煮, 烧开
+ lleno - 填, 满满的, 装满, 饱, 很饱, 充满, 塞满, 坐满, 吃不饱
+ menú - 菜单
+ merendar - 吃下午茶, 吃
+ meriendo - 吃下午茶
+ merluza - 无须鳕鱼
+ perrito caliente - 热狗
+ res - 牛肉
+ sano - 健康
+ servir - 斟, 服务, 斟酒
+ sugerir - 建议
+ sugiero - 建议
+ vegano - 素食, 素食者, 素食者的
+ vegetal - 植物的
+ zumo - 汁
+126 Fiction 使用过去时态
+ advertir - 警告
+ advierto - 警告
+ advirtió - 嘱, 警告, 警告了, 咐, 嘱咐
+ bruja - 女巫, 巫, 巫婆
+ casado - 已婚, 结过婚, 结过
+ casarse - 结婚, 娶
+ cola - 尾, 可乐, 尾巴, 胶水
+ convertir - 转换, 变成
+ convierto - 变成
+ convirtió - 变成了, 变成, 改信
+ cuento - (我) 数, 童话
+ dragón - 龙时, 龙, 一条龙
+ envidia - 嫉妒
+ hervir - 煮, 煮沸, 沸
+ hiervo - 煮沸, 烧水
+ hirvió - 煮开, 煮了, 水开
+ matar - 杀掉, 杀, 杀害, 杀死, 杀人
+ mentira - 谎言, 谎, 弥天大谎
+ muerto - (他/它) 死, 死掉, 死去
+ mágico - 魔法, 神奇的, 神奇
+ pelear - 吵起, 吵个, 打架, 计较
+ princesa - 公主
+ príncipe - 王子
+ ratón - 老鼠, 鼠, 鼠标
+ reino - 王国
+ sintió - 觉得, 感觉
+ valiente - 勇敢, 勇
+127 Doctor II 讨论健康问题
+ acostado - 躺着, 着
+ bastón - 拐杖, 杖
+ codo - 肘部, 手肘, 胳膊肘, 肘
+ descubierto - 发现
+ descubrir - 说穿, 发现, 猜出来
+ dicho - 告诉, 所说, 明说, 话虽如此
+ disponible - 可用, 最闲, 可用的, 有空, 现有
+ divorciado - 离婚了, 离过婚
+ documento de identidad - 身份证
+ estado civil - 婚姻状况
+ gripe - 流感
+ hecha - (他/她/它) 做, 制成, 办妥
+ lastimar - 伤害, 伤到, 弄伤
+ lengua - 语言, 舌头, 母语, 舌, 语文
+ medicamento - 药对, 药, 药品
+ parado - 站着, 站, 出过, 停过
+ pecho - 胸, 胸部, 胸口
+ puesto - 职位, 小摊, 摊, 放, 落山, 着, 摊上, 席位, 变蓝, 摆, 既, 摊位, 位子
+ recetar - 开, 药开
+ seguro - 定, 确信, 安全的, 一定, 确定的, 有把握, 保险, 安, 安全, 确定, 保险金
+ sentada - 坐
+ separado - 分居, 分开, 分着, 个别
+ suave - 顺, 委婉, 温和, 柔, 松软, 嫩, 清淡, 柔软, 平稳, 软, 柔和, 婉
+ uña - 指甲
+ viudo - 鳏夫, 鳏
+128 Tradition2 探索文化景点
+ aburrido - 无聊, 没趣, 闷, 很无聊, 闲得无聊, 没意思, 不好玩, 无趣, 枯燥
+ armar - 组装, 组建, 装备
+ brasileño - 巴西, 巴西的
+ budista - 佛教徒
+ cristiano - 基督教徒, 基督徒
+ encender - 打开, 开火, 点起, 点燃, 燃, 开机
+ enciendo - 点燃
+ escenario - 台上, 舞台, 剧场
+ estrella - 星星, 明星, 星, 之星
+ fuego - 火里, 火势, 火时, 火, 有火
+ indio - 印度人, 印度
+ malo - 坏的, 很糟, 坏事, 恶劣, 难吃, 不好的, 不好, 差, 好差, 这可糟, 不良, 糟糕, 太糟, 很差, 糟, 好坏
+ mezquita - 清真寺
+ misa - 弥撒
+ musical - 音乐的, 乐
+ musulmán - 穆斯林
+ olor - 味道, 菜闻, 味儿, 气味, 香味
+ religioso - 信仰宗教的, 宗教
+ religión - 宗教, 宗, 信仰, 宗教信仰
+ sinagoga - 犹太教堂, 会堂
+ templo - 寺庙, 庙里
+129 Emphasis 讨论政治观点
+ América latina - 拉丁美洲
+ Seguridad social - 社会保障
+ alcanzar - 超越, 足够了, 达成, 人到, 伸手, 赶上, 伸得, 得手
+ cambiar - 改, 改改, 换点, 换, 换掉, 换零钱, 积分换, 换成, 改成, 换个, 改变, 更改, 要换, 来换, 改名, 换用, 能换, 变, 零钱, 更换, 替换, 换钱, 转换
+ cambio - 更替, 革, 变动, 变迁, 变化, 迁, 变革, 找零, 零钱, 改变 (名词), 反转
+ campaña política - 政治活动
+ ciudadano - 市民, 公民；市民, 公民
+ económico - 实惠, 经济, 廉价
+ educación - 教育
+ ejército - 部队, 军队, 军
+ haber - 有
+ impuesto - 赋税, 捐税
+ injusto - 不公平
+ internacional - 国际, 国际的, 国际化的, 国际化
+ juez - 法官, 裁判
+ jueza - 法官, 女法官
+ justo - 公平的, 刚好, 价格公道, 公平, 恰, 不长不短, 正好, 就, 不大不小, 恰好
+ legal - 合法
+ ley - 法律, 法, 律
+ nacional - 国家的, 全国性, 全国
+ opinar - 发表意见
+ persona mayor - 年长的人
+ puertorriqueño - 波多黎各人
+ reunirse - 集合, 团圆, 聚会, 聚在一起, 聚在, 碰面
+130 Friends 讨论健康活动
+ a la semana - 每周
+ aconsejar - 建议
+ al día - 一天
+ baloncesto - 篮球
+ bucear - 潜水
+ caramelo - 焦糖
+ dormido - 睡着了, 睡着
+ gafas de sol - 太阳镜
+ hace poco - 最近
+ hueso - 骨, 骨头
+ meditación - 冥想
+ músculo - 肌肉
+ probar - 试玩, 一试, 尝试, 试试, 品尝, 尝, 试吃, 尝遍, 试睡, 尝尝, 试证, 试点, 试喝, 调试
+ ramo - 束, 一束
+ senderismo - 徒步旅行
+ terapia - 治疗, 疗
+ toronja - 柚子
+ vine - 我来, 我来练
+ viniste - (你) (曾经) 来
+ vino - 前来, 葡萄酒, 酒去, 萄, 传来, 酒来, 把酒
+ visitar - 看望, 访, 访问, 览, 拜访, 游览, 做客, 参观, 观光
+ vuelta - 一圈, 往返, 圈
+131 Witness 报告犯罪情况
+ acá - 这里
+ arriba - 仰, 上面, 仰卧
+ atrapar - 抓住
+ crimen - 罪行, 罪案, 犯罪, 罪犯, 凶案
+ criminal - 犯罪分子, 犯人, 罪犯, 人犯
+ cuidado - 小心
+ de metal - 金属制的
+ dentro - 里面, 里, 之内
+ detective - 侦探
+ engañar - 欺骗, 误导, 骗过, 骗钱
+ entrevistar - 采访
+ esconderse - 躲藏, 躲起来, 躲过去
+ golpear - 敲打, 击球, 击中
+ gorro - 帽子
+ ilegal - 非法, 违法
+ investigar - 调查, 研究, 考察
+ mire - 请您看
+ ni - 也不, 既非, 妮, ni
+ quiosco - 小卖部, 报亭, 摊位
+ valer - 值
+ veinticinco - 二十五
+ veinticuatro - 二十四
+ veintitrés - 二十三
+ violento - 暴力, 激烈
+ víctima - 受害者, 被害人, 受害人
+132 In Town 市区: 描述你喜欢的街区
+ a pie - 步行
+ anual - 年度, 一年一度
+ barrio - 邻居, 街坊, 小区, 街区
+ circo - 马戏团, 马戏
+ cola - 尾, 可乐, 尾巴, 胶水
+ enorme - 庞, 巨大的, 庞大, 超大
+ entero - 了解到, 一整只
+ festival - 音乐节, 节日, 节庆, 节会
+ frutería - 水果店
+ habitante - 居民
+ las afueras - 郊区
+ lindo - 可爱, 漂亮, 林多
+ llevar - 戴, 带水, 带防, 带, 带花, 携带, 架来, 只带, 能带, 携, 带得, 带上, 扛过去, 车载, 扛着, 随身携带, 拎, 扛
+ mayoría - 大部分, [多数/大多数], 多数
+ monumento - 纪念碑
+ panadería - 面包店
+ parque de atracciones - 游乐园
+ pasado mañana - 后天
+ pasar - 闯过, 进来, 花上, 转达, 经过, 路过, 顺便来, 消磨, 递给, 消磨时光, 卡进, 度过, 顺道去, 过桥, 超车
+ pensar - 想起, 思考, 想想, 动脑子, 想得, 思, 想到, 琢, 琢磨
+ plaza - 广场, 位子
+ principal - 主要的, 主题曲, 主要, 首要
+ quiosco - 小卖部, 报亭, 摊位
+ solamente - 只
+ terraza - 露台, 楼顶
+133 Reading 诗文: 分享你写的诗歌
+ amor - 爱
+ autobiografía - 自传
+ breve - 简短, 短暂, 简洁
+ capítulo - 一章, 章节, 新篇章, 章, 章会
+ charlar - 聊天, 聊, 谈, 喋, 聊聊, 聊着, 起天来
+ ciencia ficción - 科幻
+ creativo - 创造力, 创意
+ empezar - 蹈, 始, 开始, 起天来
+ escribir - r, 写字, 课写, 写出, 写个, 写作, 写下, 诗写, 写, 不写, 谱写
+ escritor - 作家
+ estudiar - 留学, 该学, 念, 研读, 攻读, 学习, 研究, 琢磨, 学医, 考察
+ firmar - 署, 签名, 签署, 签, 签字, 签个
+ hispano - 西班牙裔
+ leer - 读, 看书, 读着, 读好, 看, 读题, 读读, 读出, 读书, 扫描
+ literatura - 文学, 语文, 文献
+ llamarse - 叫做, 叫坏
+ novela - 小说, 小说吧
+ poema - 诗, 诗歌
+ protagonista - 主演, 主角, 女主角, 主人公
+ párrafo - 段落, 段, 段话
+ romántico - 浪漫的, 浪漫, 浪漫主义
+ terminar - 完成, 吃得完, 结束, 开完, 办完, 终结, 选完
+ texto - 课文, 课本, 文字, 文本, 稿子
+ traducir - 翻译, 译, 翻译成
+ usado - 用过的, 使过, 不新不旧, 用过, 二手
+134 Online 科技: 介绍你用的科技产品
+ anteayer - 前天
+ arroba - 艾特符号, @, 艾特
+ blog - 博客
+ borrar - 消, 删掉
+ buzón de voz - 语音信箱
+ cable - 电缆
+ chatear - 聊天
+ comunicarse - 沟通
+ conectar - 插上, 连接, 对接
+ conectarse - 连接
+ contraseña - 密码
+ crear - 制作, 创造, 打造, 造, 创做, 谱写, 写个, 创立, 开设
+ exacto - 没错, 精确
+ experto - 权威, 专家, 高手, 熟练, 擅, 师傅, 人才
+ foro - 论坛
+ informática - 计算机科学
+ instalar - 装个, 会装灯, 能装
+ publicidad - 广告, 广告宣传
+ página web - 网站
+ solución - 解决方案, 解决办法, 解决之道
+ subir - 别上, 拿上来, 上来, 上去, 上涨, 涨, 传到, 发到, 上升, 调大, 升高
+ tableta - 平板电脑, 平板
+ tecnología - 科技, 技术, 科技界
+ tema - 题目, 议题, 主题, 话题, 题材, 选题, 正题, 单元
+ videojuego - 电子游戏
+135 In Love 婚姻: 表达对婚姻的感受
+ abrazo - 拥抱
+ aceptar - 收下, 乐意, 承, 接受, 赞成, 认同
+ alegre - 欢快, 活泼, 性格开朗, 痛快, 快乐, 开朗, 轻松愉快
+ amor - 恋, 之爱, amor, 爱情, 爱, 爱心, 爱意, 爱会, 宝贝
+ beso - 接吻, 吻, 亲吻
+ boda - 婚礼
+ carácter - 性格, 字, 意志品质
+ celebrar - 庆祝, 过生日, 庆, 做生日, 开完
+ discoteca - 迪斯科舞厅, 迪斯科, 舞厅, 迪厅
+ divorcio - 离婚
+ en el - 在
+ encantado - 很高兴, 乐意
+ estado civil - 婚姻状况
+ ex - 前任
+ excusa - 借口
+ hubo - (曾) 有
+ humor - 脾气, 幽默, 情绪，心情
+ pareja - 夫妇, 夫妻, 对象, 一对, 侣, 夫妇俩, 情侣, 爱人, 搭档, 配偶
+ paseo - 散步, 散散步, 遛狗, 一会儿步, 遛, 兜风
+ ponerse - 变得, 换上
+ regalar - 赠送, 送, 捐
+ relación - 关联, 关系, 名单
+ romance - 浪漫关系
+ sueño - 困意, 寐, 梦像, 梦, 困, 睡眠, 眠, (我) 做梦, 睡意, 梦想, 梦里, 瞌
+136 News 原因: 说明你的理由
+ actual - 当前, 当下, 现有, 现任
+ actualmente - 目前
+ artículo - 文章, 篇, 物品, 篇文章, 款, 藏品
+ causa - 动机, 缘, 原因, 起因, 缘由, 造成, 导致, 因, 案件
+ causar - 造成
+ crisis - 危机
+ curioso - 好奇, 好奇心
+ dañar - 损害, 伤害
+ daño - 损, 侵害, 危害, 损伤, 害, 坏处
+ escapar - 脱身, 逃避, 未能幸免, 逃脱, 逃出
+ frecuente - 频, 常冷, 普遍
+ mundial - 世界的
+ paz - 和平, 安
+ población - 民族, 人群, 人口, 老百姓
+ por el momento - 目前
+ publicar - 发帖, 发布, 出新
+ reciente - 最新的, 最近的, 新近, 最新, 近期
+ recientemente - 最近
+ según - 根据, 据 ... 所言, 在 ... 看来
+ silenciosamente - 悄悄地
+ silencioso - 默, 安静
+ situación - 状况, 处境, 形势, 情形, 情况, 情境, 况, 局势, 局面
+ total - 总, 总数, 总计, 总共, 一共, 总额
+ título - 标题, 书名, 学位, 学历
+ zona - 区域, 保护区, 地域, 地区, 地段, 地带
+137 Studying 复习: 复述重点句子
+ apoyo - 辅导, 支持者, 支持, 后台, 支援, 援, 配套
+ aprobar - 点赞, 通过, 批准, 批过
+ apuntes - 笔记
+ contar - 数星星, 去数, 数数, 他数, 数, 数一下
+ contenido - 综艺, 上下文, 含蓄, 内容, 稿子
+ corregir - 订正, 批过, 改错, 纠正, 校对, 批改作业, 补救
+ corrijo - 改正
+ frase - 句子, 一段话, 那句话, 一句, 短语
+ instructor - 教练, 师傅, 向导
+ lección - 教训, 一课, 课, 那一课, 单元
+ memorizar - 记住, 记忆, 背熟
+ para - 针对, 为了, 而言, 给, 用来做, 于, 扑出来, 用于, 对 ... 来说, 用来, 以便, 用于 ... 的, 对于, 停, 对 ... 而言, 给 ... 准备的, 来说, 以备, 为, 替, 鸟用
+ recordar - 记(得/住), 回想, 记住, 提醒, 想念, 忆, 回忆, 记不住
+ repaso - 复习, 课后复习
+ resultado - 下场, 结果, 效应
+ resumen - 梗, 梗概, 要点, 综, 大纲, 总结, 概述, 纲
+ significado - 意义, 意思, 含义
+ tarea - 功课, 家庭作业, 任务, 作业, 使命
+ traducción - 翻译, 中文翻译, 英文翻译
+ traducir - 翻译, 译, 翻译成
+ traduzco - 翻译, 翻译成, 翻成
+ útil - 有用的, 好用, 有用, 中用
+138 Health 3 生活: 描述看病经历
+ antibiótico - 抗生素
+ análisis de sangre - 血液检查
+ así - 这样
+ bastante - 不少, 相当, 挺善, 挺, 多水, 相当多
+ clínica - 诊所, l
+ codo - 肘部, 手肘, 胳膊肘, 肘
+ dieta - 节食, 饮食
+ doctor - 医生, 博士
+ enfermarse - 生病
+ estrés - 压力
+ evitar - 避免, 克制, 免, 躲过去, 防止出现, 躲过, 避免出现, 以免, 尽量减少, 避, 躲避, 免受, 不爱, 避开, 抵制
+ farmacia - 药店, 药房
+ herida - 受伤, 创口, 伤, 伤口, 有伤
+ lo - l, 它, lo
+ mareado - 头晕, 晕
+ mayor - 最大, 成人, 更大的, 年上, 年长的, 越大, 年老, 大一岁, 姐, 越高
+ mejor - 好些, 佳, 更加, 比较, 最, 较, 好得多, 最佳, 最棒, 好受, 最好, 更好的, 更会, 更好, 干脆
+ paciente - 者, 患者, 患, 病人, 病患
+ peor - 更差的, 每况愈下, 更差, 最差, 最糟, 更惨
+ peso - 称重, 体重, 重量
+ piel - 皮, 皮肤, 肤, 肌
+ por suerte - 幸运的是
+ quemarse - 烧着, 会糊
+ resfriado - 感冒
+ tos - 咳嗽
+139 Opinions 看法: 表达你的看法
+ decisión - 决, 判罚, 决定, 决心
+ descripción - 描述
+ discutir - 争论, 争执, 讨论, 吵起, 商量一下, 讨论一下, 计较
+ distinto - 不同
+ experiencia - 经历, 体验, 经验, 传奇
+ honesto - 诚实, 老实, 坦白, 说实话, 坦率, 诚恳, 说真的, 直率
+ importancia - 意义, 重要, 事关重大, 无关紧要, 重要性
+ imposible - 不可能的
+ incorrecto - 不对, 错话, 说错, 正确, 错误的, 对错
+ necesario - 必, 必需的, 有必要的, 必要的, 必要
+ ni - 也不, 既非, 妮, ni
+ o - 要么, 或者, 或是, 还是, 或者说
+ obvio - 显, 明显
+ opción - 选项, 别无选择
+ opinión - 看法, 感想, 意见反馈, 意见, 反馈
+ oportunidad - 大好机会, 机会, 时机, 好时机, 可能性
+ para - 针对, 为了, 而言, 给, 用来做, 于, 扑出来, 用于, 对 ... 来说, 用来, 以便, 用于 ... 的, 对于, 停, 对 ... 而言, 给 ... 准备的, 来说, 以备, 为, 替, 鸟用
+ personal - 个私, 个人, 私人的, 工作人员, 人员, 主观
+ progreso - 新进展, 进度, 进展, 起色, 进步, 突破, 病情
+ punto de vista - 观点
+ sentido - 没道理, 得通, 感觉, 感受, 道理, 含义
+ ventaja - 占优势, 好处, 优点, 上风
+ vez - 一遍, 一次, 次, 番, 趟, 遍, 一回
+ ya - 早已, 了, 早就, 已, 既, 已经, 十了
+ único - 独一无二, 唯, 独特, 唯一的, 独, 唯一, 特有
+140 Clothing 品牌: 表达你对品牌的看法
+ algodón - 绵, 棉布, 棉质, 棉, 棉花
+ apretado - 挤, 紧凑, 紧不紧, 勒, 凑, 紧, 太挤
+ caja registradora - 收银台
+ cajero automático - 自动取款机
+ calidad - 质量, 质, 优质, 品质, 成色, 好坏
+ centro comercial - 商场
+ de - 出自, 之, 来自, 的, 起, 关于, de
+ de talla única - 均码
+ diseño - 设计, 设
+ faltar - 缺席
+ feo - 丑的, 很丑, 丑, 难看, 真丑, 最丑
+ gorro - 帽子
+ importar - 重要
+ informal - 非正式的, 休闲
+ llevar - 戴, 带水, 带防, 带, 带花, 携带, 架来, 只带, 能带, 携, 带得, 带上, 扛过去, 车载, 扛着, 随身携带, 拎, 扛
+ marca - 刻印, 牌子, 盯防, 商标, 斑点, 牌, 印章, 名牌, 品牌, 标记
+ original - 最初, 原来, 原创, 独特, 原作, 原版, 初始的, 原始
+ por - 为了, 因为, 由于, 乘以, 每, 由, 通, 通过, 被, 凭, 出于, 支持, 沿着, 在, 为期, 为, 顺着
+ ropa interior - 内衣
+ sandalia - 凉鞋
+ sudadera - 卫衣
+ tamaño - 规模, 尺码, 大小, 尺寸, 长短, 码数, 体积
+ tela - 布料, 布, 面料
+ total - 总, 总数, 总计, 总共, 一共, 总额
+141 Cooking 菜谱: 列出所需食材
+ atún - 金枪鱼
+ batir - 搅拌
+ brócoli - 西兰花
+ cereza - 樱桃
+ compra - 多买, 买件, 购买, 买些, 买辆, 买, （动词）买, 收购, 消费
+ deme - 给我, 给
+ durazno - 桃子, 桃
+ especia - 香料
+ fresa - 草莓
+ freír - 炸
+ helado - 冰淇淋, 淇, 冰冷, 寒冷
+ ingrediente - 成分, 食材
+ lechuga - 生菜
+ libra - 磅, 磅重
+ maní - 花生
+ mayonesa - 蛋黄酱
+ maíz - 玉米
+ merienda - 点心
+ mezcla - (她/他/它) 混合, 混合物, 搅匀, 混, 融合
+ microondas - 微波炉
+ mostaza - 芥末
+ receta - 处方, 菜谱, 食谱, 配方
+ sabor - 味道, 滋, 风味, 滋味, 味, 口味, 味儿, 口感
+ vainilla - 香草
+ vinagre - 醋
+142 Advice 提醒: 给家人提建议
+ abras - 打开, 别开
+ bebas - (你) 喝 (虚拟式)
+ buzón - 信箱, 邮箱
+ cafetería - 小店, 咖啡店, 咖啡馆, 咖啡吧, 咖啡厅, 小吃店
+ comas - (你) 吃 (虚拟式), 吃零食
+ compres - 买, 买会, 买车
+ contaminado - 污染了
+ currículum - 简历
+ documento de identidad - 身份证
+ embajada - 大使馆
+ entrevista - 访谈, 面谈, 采访, 面试, 问话
+ florero - 花瓶, 花插
+ fuente - 资源, 来源, 源, 泉, 喷泉, 字体
+ hables - 说话
+ huracán - 飓, 飓风, 台风
+ lleves - 戴, 别戴, 带狗, 别穿, 别带
+ lluvias - 降雨
+ presentación - 文稿, 报告, 演讲, 发布会, 展示, 开场, 演示, 演讲时, 演示会, 开场白
+ rosa - 粉色, 朵玫瑰, 玫, 玫瑰, 瑰, 粉红色, 玫瑰花
+ salario - 工资, 薪, 薪水
+ subas - 上去, 别上
+ temporada - 季, 季会, 季节, 新季会, 一季, 本赛季
+ viajes - 旅行
+ visa - 签证
+ visites - 参观
+143 Warnings 安全: 表达你的担忧
+ campo - 乡村, 田野, 乡间, 网球场, 乡, 场, 田里, 野, 野外, 场上, 乡下, 出界, 田间, 农村, 田地, 田, 地被
+ costa - 岸, 海岸边, 海岸, 科斯塔, 海滨, 岸边, 滨
+ des - 给
+ desconocido - 不知名的, 未知, 冷门
+ digas - 告诉
+ evento - 日会, 事件, 活动, 事会, 盛会
+ explorar - 探讨, 走走看看, 探索, 探, 浏览
+ frágil - 脆弱
+ galería - 美术馆, 画廊, 看台
+ grupo - 团, 一群, 小组, 群体, 群组, 组, 群, 团体, 班级, 小组会, 一组, 组合, 串, 集团, 社团
+ hagas - (你) 做 (虚拟式现在时), 别出
+ local - 本地的, 本地人, 当地, 本地
+ oficina de correos - 邮局
+ polvo - 粉末, 尘, 粉, 粉尘, 灰尘
+ pongas - 不要, 把, 别放, 放在首位
+ región - 地域, 地区, 区域
+ salgas - 离开, 出门, 别出去
+ salida de emergencia - 紧急出口
+ suelo - 地板, 地上, 地面, 泥土
+ taxista - 出租车司机, 出租车
+ tengas - 养, (你) 有 (虚拟式), 别养
+ terremoto - 地震
+ tigre - 老虎, 虎
+ vayas - 别去, 一去, 赶得, 去, 别总去
+ vengas - 来, 过来, 别来
+144 Tourist 行程: 询问航班信息
+ agencia - 代理商, 代理处, 代理, 中介
+ antiguo - 古代, 复古, 原始, 古老的, 古董, 古, 古老, 悠久
+ apellido - 姓氏, 姓, 氏
+ conexión - 转机, 连接, 联程
+ conocer - 了解, 认识, 交新
+ código postal - 邮政编码
+ destino - 命运, 目的地, 缘
+ dirección - 地址, 方向, 址, 管理层, 带领, 趋势
+ directo - 简洁, 坦率, 直飞, 直达, 痛快, 直率
+ distancia - 距离, 街离, 距, 远处, 区离, 异地, 相距, 差距
+ distrito - 区, 区里
+ dueño - 房东, 主人
+ espectacular - 壮观的, 精彩绝伦
+ estación - 车站, 这站, 季节, 站, 季
+ estado - 来, 状态, 状况良好, 状, 到, 好坏
+ frontera - 界限, 边境, 边界, 界面
+ guiar - 引导
+ hispanohablante - 说西班牙语的
+ itinerario - 行程, 线路, 日程
+ llegada - 到达，抵达, 到来
+ saber - 知道, 得知, 晓, 知晓, 懂得, 懂, 会, 懂吗
+ tour - 游览, 导览
+ típico - 典型的, 典型
+145 At Home 家具: 描述你最喜欢的家具
+ adicional - 额外
+ aire acondicionado - 空调
+ alfombra - 地毯
+ bien - 非常
+ botón - 纽扣, 按钮, 扣子, 按键
+ calefacción - 暖气
+ cantidad - 数量
+ clásico - 古典风格, 典, 经典作品, 古典, 复古
+ cobrar - 收, 加收
+ comedor - 食堂
+ deber - 要系, 本分, 使命, 职责, 生要
+ electrodoméstico - 家用电器, 电器
+ entonces - 那么
+ entrega - 交, 送信, 送书, 送货, 配送, 递, 交，交给, 交付, 期限
+ estilo - 式, 格调, 风味, 风格, 造型, 字体
+ forma - 形, 格, 形状, 形态, 形式, 身材
+ material - 材, 材料, 资料, 料, 材质, 装备
+ mediano - 中等, 不大不小, 不长不短
+ mesa de noche - 床头柜
+ objeto - 物件, 物体, 对象, 件物品, 物品, 藏品
+ por - 为了, 因为, 由于, 乘以, 每, 由, 通, 通过, 被, 凭, 出于, 支持, 沿着, 在, 为期, 为, 顺着
+ por ciento - 百分之
+ raro - 古怪, 稀奇, 罕, 不对劲, 稀有, 稀罕, 稀, 奇怪, 难得
+ renovar - 翻修, 刷新, 换发, 翻新, 续借
+ sección - 专区, 节, 节上, 部分, 环节, 段, 班级
+146 Habits 日常: 比较日常习惯
+ a - 给, 到, 向, 在, 阿, 去, 二比
+ activo - 活跃, 爱动, 积极, 活泼
+ al mismo tiempo - 同时
+ ay - 哎呀
+ basura - 垃圾
+ cepillarse - 刷牙
+ de - 出自, 之, 来自, 的, 起, 关于, de
+ despertador - 闹钟
+ divertirse - 玩耍, 开心玩
+ ducharse - 洗澡
+ gemelo - 双胞胎
+ lavarse - 洗澡
+ levantarse - 起床, 起天来
+ maquillarse - 化妆, 化得
+ menos que - 少
+ más que - 比
+ ojo - 小心
+ preocuparse - 担心, 计较
+ relajarse - 解压, 放松, 减压
+ rutina - 日常, 常规, 惯例
+ sacar - 抽到, 取钱, 取出, 取, 拿出, 移出, 抽取
+ tanto como - 一样
+ tiempo libre - 空闲时间
+147 Imagine 想象: 描述你的想象世界
+ aprender - 学得, 学得会, 要学, 学新, 对学, 学, 学法语, 学习, 学会, 虚心学习
+ comer - 完饭, 吃, 吃火锅, 吃红肉, 吃遍, 吃饺子, 吃饭, 开饭
+ competir - 竞, 比快, 竞争, 争夺
+ comprar - 买房, 买入, 买千, 买菜, 买房子, 购买, 买热, 家买, 买下, 摊买, 买, 买票, 消费
+ concurso - 比赛
+ conocer - 了解, 认识, 交新
+ cultura - 文化, 文明
+ dormir - 睡觉, 睡, 入睡
+ en mi lugar - 在我这个位置
+ entre - 请进, 其中, 在 ... 之间, 在 ... 中间, 之间, 当中, 丛中
+ escribir - r, 写字, 课写, 写出, 写个, 写作, 写下, 诗写, 写, 不写, 谱写
+ imaginar - 想象, 想不到, 想像, 畅想, 设想
+ imaginario - 想象的, 假想, 虚拟
+ leer - 读, 看书, 读着, 读好, 看, 读题, 读读, 读出, 读书, 扫描
+ maravilloso - 精彩, 奇妙, 绝妙, 可棒
+ planeta - 星球, 行星, 地球, 大行星
+ preferir - 看中, 更喜欢, 偏好
+ secreto - 诀, 秘, 秘诀, 密, 秘密, 保密
+ tanto - 多, 如此多的, 这么, 这么多, 既
+ trabajar - 工作, 下活, 办公, 上班, 工, 琢
+ u - 或者
+ viajar - 出行, 坐车, 旅, 坐火车, 行, 旅行, 乘车
+ visitar - 看望, 访, 访问, 览, 拜访, 游览, 做客, 参观, 观光
+ vivir - 过活, 过日子, 他活, 生活, 活在, 住, 上住
+ éxito - 获得成功, 功, 吃得开, 成功, 流行歌
+148 At Work 公司: 介绍你的工作内容
+ abogado - 律师
+ alto - 树太高, 高个子, 高大, 很高, 高, 高于
+ asistente - 助理, 佐, 帮手
+ beneficio - 好处, 惠, 利, 收益
+ búsqueda - 搜索, 寻找, 追求
+ calculadora - 计算器
+ contabilidad - 会计, 会计工作, 会计专业
+ copia - 复本, 摹, 临摹, 时抄, 副本, 复印件, 草稿
+ dato - 数据
+ dedicarse - 从事
+ desorganizado - 有条理, 不够有条理, 脏乱
+ empleado - 员工, 雇员, 雇
+ exportar - 出口, 移出
+ firma - 签, 签名
+ general - 通常的, 普遍
+ ley - 法律, 法, 律
+ producción - 产量, 生产量, 产品, 产出
+ producto - 品, 产品, 产, 商品
+ profesional - 职业, 专业的, 专业, 专业人士, 人才
+ profesión - 专业, 职业
+ quien - 谁
+ rol - 角色
+ servicio - 劳务费, 服务区, 厕所, 卫生间, 洗手间, 服务
+ tercio - 三分之一
+ valor - 价值, 贵重物品, 值, 代价
+149 Politics 社会: 表达你对选举的看法
+ alguna - 某个, 任何, 某, 一些, 曾经
+ algunos - 某些, 一些, 几本, 几个, 几款, 几棵, 几位, 几篇, 有些, 几, 些, 几根, 几下
+ algún - 某个, 任何, 某项, 某位, 某片
+ comunidad - 团体, 小区, 社区, 公众
+ debate - 辩, 辩论, 争议
+ demócrata - 民主党人
+ derechos - 权利
+ elección - 美选, 选举, 选择, 投票选举
+ gobierno - 府, 政府, 政, 执政
+ humano - 人类, 人为
+ ilegal - 非法, 违法
+ inmigración - 移民
+ mencionar - 提到, 提起
+ municipal - 市政, 市级
+ oficial - 官员, 警官, 官方, 正规
+ optimista - 乐观, 乐观者, 充满希望
+ público - 公共, 公开, 公开的, 大众, 公共的, 公众, 公用的, 公, 听众
+ regional - 地区, 地区性
+ reportaje - 报道
+ republicano - 共和党人
+ social - 社会
+ sociedad - 伙伴关系, 公众, 社会, 社团
+ tolerante - 宽容
+ voluntario - 志愿者, 自愿, 自觉
+ votar - 请点, 投票, 投票选举
+150 Right Now 认识: 结识新朋友
+ academia - 学院, 学术
+ acento - 口音
+ autor - 作者, 作家
+ biografía - 传记
+ cocinando - 煮饭 (副动词), 烹饪, 做饭
+ cocinándolas - 煮它们
+ corrigiendo - 修改, 修改中, 改正
+ eligiendo - 选择中
+ en este momento - 现在
+ ficción - 虚构
+ héroe - 英雄
+ lentejas - 扁豆
+ llamando - 打电话
+ llamándolo - 打电话给他
+ línea - 一条线, 线, 号线, 行, 一行, 上线, 线路
+ multiplicar - 乘法, 相乘
+ poniendo - 放着, 摆桌
+ poniéndola - 正在把它放
+ respondiendo - 回复
+ siguiendo - 跟着 (副动词), 顺着
+ solo - 只有, 只当, 只用, 只是, 只管, 光是, 我仅, 单独, 独自, 只, 只要, 独自一人, 就是, 仅, 孤, 孤单, 只收, 单打独斗, 孤身一人, 孤独, 他空, 仅供, 一个人, 劳拉只, 落单, 才, 仅限, 光靠, 罢了
+ viendo - 视, 看 (副动词), 看电视
+ visitando - 访问, 正在访问
+ visitándolos - 拜访他们, 探望
+151 People 5 关系: 描述你们的关系
+ alguien - 有人, 别人, 某人, 人来
+ amistad - 谊, 友谊，友情, 友情, 友谊
+ antipático - 不友好
+ con calma - 从容地
+ confiar - 信任
+ cruel - 残, 残酷, 残忍, 刻薄
+ divorciado - 离婚了, 离过婚
+ eficiente - 能干, 真能干, 高效, 节能
+ egoísta - 自私, 自私的, 自我
+ gay - 同性恋
+ generoso - 慷慨的, 慷慨, 大方, 无私
+ hijo único - 独生子女
+ jubilado - 退休
+ nadie - 谁也不, 无人, 没有人, 没人会
+ paciencia - 耐心
+ paciente - 者, 患者, 患, 病人, 病患
+ pareja - 夫妇, 夫妻, 对象, 一对, 侣, 夫妇俩, 情侣, 爱人, 搭档, 配偶
+ personalidad - 性格, 个性
+ reservado - 预订, 订好, 订床, 拘谨, 含蓄
+ sentirse - 感到
+ serio - 肃, 认真, 严肃, 要紧
+ todos - 所有的, 都, 每, 所有, 大伙儿, 大家, 皆, 完全的, 所有人, 全都, 整, 全都会
+ tímido - 害羞, 腆, 腼, 腼腆
+ viudo - 鳏夫, 鳏
+152 Places 回忆: 描述你的童年回忆
+ al fondo de - 尽头
+ ayuntamiento - 市政府
+ balcón - 阳台
+ carnicería - 肉店
+ centro - 中路, 中心, 中央, 中部, 央, 市中心, 市区, 核心
+ comisaría - 警察局, 派出所, 警局
+ con - 用, 配, 跟迪, 加, c, 有加, 和, 带雨, 凭借, 随着, 肉配, 随, 凭, 带有, 装有, 对, 跟, 以, 配着
+ criar - 养鸡, 养, 上养, 养大, 养狗, 抚养, 养猪, 里养
+ de - 出自, 之, 来自, 的, 起, 关于, de
+ delante de - 前面
+ desde - 从, 天起, 以来, 自二零一, 起, 自从, 水从
+ estrecho - 狭, 窄, 狭窄
+ gasolinera - 加油站
+ hasta - 为止, 止, 迄, 至, 截至, 等到, 多达, 到, 至多, 才, 直到, 甚至
+ luminoso - 明亮
+ papelería - 文具店
+ parecer - 看起来, 仿佛
+ pasado - 过去的, 昔, 去年
+ pasear - 散步, 逛逛, 走走看看, 遛狗, 去逛, 遛弯, 漫步, 溜达, 散个步, 遛, 逛, 过步
+ reunirse - 集合, 团圆, 聚会, 聚在一起, 聚在, 碰面
+ salir - 离开, 外出, 出来, 交往, 退出, 出门, 出去, 下班, 出, 开走
+ ser - 当, 被, 遭到, 做, 成为, 是, 要系
+ venir - 来, 卡来, 过来, 花来
+153 Today 礼物: 邀请朋友做运动
+ agradecerle - 感谢, 道谢
+ alfabeto - 字母表
+ atención - 注意, 关注, 注意力, 服务, 用心
+ atleta - 运动员, 选手
+ comprándoles - 给他们买
+ de ida y vuelta - 往返
+ débil - 虚弱, 弱, 很弱
+ emergencia - 急诊, 急事, 应急, 紧急情况, 紧急事件
+ estresado - 紧张
+ hacer - 做些, 再列, 闹出, 做果, 交到, 办, 交新, 铺床, 生火, 结新, 办得, 做加, 结交, 煮汤, 做, 做鱼, 来和面, 使, 打成, 做酱, 做出, 打个, 写个
+ histórico - 历史性的, 悠久
+ infancia - 童年, 童, 童年时期
+ invento - 发明
+ invitarlos - 邀请他们, 邀请
+ los años - 年代
+ pastilla - 药片
+ personaje - 角色, 人物, 吉祥物
+ período - 段时间, 期, 时期, 时段, 期间, 周期
+ público - 公共, 公开, 公开的, 大众, 公共的, 公众, 公用的, 公, 听众
+ qué te pasa - 你怎么了
+ regla - 规, 矩, 规矩, 规则, 尺子, 尺, 原则
+ torneo - 锦标赛, 比赛, 竞赛, 冠军赛
+ universo - 宇宙, 宙, 宇, 太空
+ árbitro - 裁判员, 裁判
+154 At Home 2 家务: 介绍家里的电器
+ aspiradora - 吸尘器
+ barrer - 扫, 扫掉, 扫地, 扫得
+ congelador - 冰箱, 冷冻柜
+ desordenado - 邋遢, 条理, 乱, 杂乱, 乱七八糟, 太乱, 乱糟糟, 很乱, 无序, 脏乱
+ escalera - 梯, 楼梯间, 梯子, 楼梯, 楼道
+ grifo - 水龙头
+ hacer la cama - 整理床铺
+ lavavajillas - 洗碗机
+ mancha - 污渍, 渍, 斑点
+ me la - 给我它
+ me lo - 给我它
+ me los - 给我它们
+ nos lo - 我们
+ ordenar - 订购, 点单, 整理, 就点, 收拾, 收纳
+ pasar - 闯过, 进来, 花上, 转达, 经过, 路过, 顺便来, 消磨, 递给, 消磨时光, 卡进, 度过, 顺道去, 过桥, 超车
+ planchar - 熨烫, 熨, 熨过
+ quitar - 剔, 去掉, 卸下, 去除, 拿下, 抢走了
+ reciclar - 回收利用, 重复使用, 再用
+ se lo - 给他
+ sábana - 床单, 被单
+ tareas domésticas - 家务
+ te lo - 你说
+155 Imagine 2 幻想: 描述你理想的魔法世界
+ araña - 蜘蛛, 蜘, 蛛
+ arena - 沙子, 沙
+ aventura - 冒险类, 冒险, 冒, 外遇, 探险, 有染, 传奇
+ cocodrilo - 鳄, 鳄鱼
+ cueva - 山洞, 洞穴, 洞里
+ decir - 中说, 一说, 说, 说不出, 谓, 读出
+ gigante - 巨型, 巨, 巨手, 巨大, 巨人
+ habría - (他/她/它) (复合条件式), 本来会, 里会
+ hacer - 做些, 再列, 闹出, 做果, 交到, 办, 交新, 铺床, 生火, 结新, 办得, 做加, 结交, 煮汤, 做, 做鱼, 来和面, 使, 打成, 做酱, 做出, 打个, 写个
+ hoja - 叶子, 张, 扇
+ imaginación - 想象, 想象力
+ invisible - 隐形, 看不见, 隐身
+ mágico - 魔法, 神奇的, 神奇
+ poder - 能够, 权力, 没法, 未能, 权威
+ poner - 放盐, 放书, 放进, 包放, 放个, 列为, 把, 穿, 书放, 放, 关进, 摆得, 插些, 放油, 他放, 放在, 放小, 多放, 放到, 摆在, 来放, 撒上
+ ponerse - 变得, 换上
+ por todas partes - 到处
+ querer - 要, 好要
+ saber - 知道, 得知, 晓, 知晓, 懂得, 懂, 会, 懂吗
+ sabrías - 会知道, 会
+ salir - 离开, 外出, 出来, 交往, 退出, 出门, 出去, 下班, 出, 开走
+ tener - 要开, 班有, 养, 多备, 要养, 有, 养狗, 拥有, 碰上, 心怀, 常备, 只开, 对交, 手握
+ valiente - 勇敢, 勇
+ venir - 来, 卡来, 过来, 花来
+ ángel - 天使
+156 Office 工作日: 描述你的工作日
+ actualizar - 更新, 同步
+ ayudándolas - 帮助她们
+ contestar - 接听, 回, 接, 接电话, 回复, 顶嘴
+ continuar - 进一步, 继, 继续, 仍旧, 继续下去
+ contratar - 增聘, 聘请, 雇个, 雇用, 招聘
+ correo - 电子邮件
+ enseñar - 教, 来教
+ enseñándoles - 教, 教他们
+ enviándole - 给他发送, 发消息
+ llamándola - 打电话给她
+ llevar - 戴, 带水, 带防, 带, 带花, 携带, 架来, 只带, 能带, 携, 带得, 带上, 扛过去, 车载, 扛着, 随身携带, 拎, 扛
+ montón - 一堆, 堆里
+ máximo - 最大, 最大值
+ promoción - 宣传, 推广, 促销, 优惠活动, 推销产品
+ rato - 一阵, 一点儿, 阵, 一会儿天, 一会儿, 会儿
+ respuesta - 答案, 回信, 答复, 答, 反馈, 回复, 反击
+ seguimos - 继续
+ seguir - 跟着, 保留, 跟上, 循, 照着, 接着, 继续, 仍旧, 遵守规则, 遵, 我照, 遵循, 继续下去
+ sigo - (我) 跟着, 我照
+ sigues - 还在
+ solicitud - 申请
+ traductor - 翻译员, 译者
+ urgente - 急事, 情况紧急, 紧迫, 紧急, 紧急的, 要紧
+157 In Class 说明: 借用物品
+ apropiado - 适当, 适当的, 不大不小
+ ayúdame - 帮我, 帮帮我
+ beca - 奖学金
+ cuarto - 第四场, 房间, 第, 第四, 屋子, 第四个, 一刻, 刻, 房会
+ dale - 给他, 给
+ dele - 给, 给他
+ dile - 告诉
+ dígale - 告诉
+ enséñame - 请教我
+ envíele - 给他寄, 给他发, 寄给
+ envíeselo - 把它送给
+ equivocado - 错号, 做错, 错误的, 大错特错
+ explicación - 解说词, 讲解, 解释, 说明, 解说
+ explícame - 向我解释
+ explícamelo - 给我解释一下
+ lea - 读, 阅读, 读一读, 请读
+ matricularse - 注册
+ obligatorio - 强制, 强制性的, 强制性
+ pregúntele - 问
+ pregúnteselo - 问问
+ préstame - 借给我
+ préstamelo - 借给我
+ pídaselo - 请求
+ pídele - 请求, 要个
+ pídeselo - 问他要吧, 问安东尼奥要, 问她要, 问露丝要
+158 Since Then 时光: 分享儿时回忆
+ cabaña - 小屋, 小木屋
+ comienzo - 开头, 开始, 好的开始, 开场, 起点
+ cuánto hace que - 多久了
+ desde hace - 从...开始
+ desde que - 自从
+ despierto - 晚醒, 不困, 醒着, 醒, 清醒
+ durar - 持续
+ década - 十年, 年代
+ en punto - 整
+ extranjero - 境外, 国外人, 外国, 海外, 国外, 外国人, 外语, 国外的, 夷
+ extrañar - 想念, 怀念
+ hace - 做些, 前才, 年前, 作, 做肉, 前, 做一套, 熊让, （他/她/您）做, 搞些, 就让, 做, 令, 布让, 制冰, 前刚
+ hacer - 做些, 再列, 闹出, 做果, 交到, 办, 交新, 铺床, 生火, 结新, 办得, 做加, 结交, 煮汤, 做, 做鱼, 来和面, 使, 打成, 做酱, 做出, 打个, 写个
+ lotería - 彩票, 抽奖
+ musical - 音乐的, 乐
+ más o menos - 大约
+ músico - 音乐家
+ poesía - 诗歌
+ salsa - 萨尔萨
+ saludar - 问好, 问候, 打个招呼, 伸手
+ sin parar - 不停地
+ teatro - 戏剧
+ telenovela - 肥皂剧, 电视剧, 连续剧
+ trompeta - 小号
+ yoga - 瑜伽
+159 Vacation 4 假期: 描述你的假期计划
+ a tiempo - 准时
+ buscar - 查找, 找找看, 找点, 寻找, 查一, 寻, 找, 找车, 完猫, 寻求, 找人, 找烂, 一查
+ busqué - 找了, 找, 找遍, 搜想
+ caerse - 摔倒, 滑下
+ creer - 相信
+ crucero - 游轮, 邮轮
+ crucé - 过, 过了
+ cruzar - 跨, 穿越, 跨越, 渡, 越, 涉, 横穿, 过步, 渡过, 过河, 横渡, 过路, 路过
+ de vacaciones - 度假
+ incluir - 算进去, 包容, 记入, 包含, 房含
+ jugar - 地玩, 玩儿, 玩耍, 打牌, 玩上, 玩雪, 打高尔夫, 耍, 玩吧, 打球, 玩电脑, 闹着玩, 打, 玩起来, 玩游戏, 玩, 打麻将, 我玩过
+ jugué - 没玩, 玩了, 我玩过
+ lancé - 投, 抛
+ lanzar - 投球, 戈, 掷骰子, 发射
+ madrastra - 继母, 后妈
+ oír - 闻, 听, 听不见
+ padrastro - 继父
+ retrasado - 迟到了, 迟到, 延误
+ sobrino - 侄子, 侄, 外甥, 侄儿
+ tiburón - 鲨鱼, 鲨
+160 Customs 庆典: 介绍你的庆典习惯
+ animado - 活泼, 繁华, 热闹, 轻松愉快
+ carnaval - 狂欢节, 嘉年华
+ celebración - 庆祝, 庆典
+ ceremonia - 式, 仪式, 仪, 典礼, 礼节
+ costumbre - 俗, 往常, 风俗, 习俗, 惯例
+ cultural - 文化
+ fuera - 在外, 出去, 外面, 是, 换作
+ novio - 新郎, 男, 男友, 郎, 男朋友, 未婚夫
+ se almuerza - 吃
+ se baila - 跳舞, 跳
+ se celebra - 庆祝
+ se celebran - 庆祝
+ se come - 吃
+ se desayuna - 早餐吃, 吃
+ se puede cenar - 可以, 可以吃晚饭
+ se puede ir - 不可以去, 可以去
+ se regala - 送
+ se regalan - 送
+ se trabaja - 工作
+ se usa - 穿
+ se vive - 生活
+ tango - 蹈, 探戈, 探戈舞
+ tradicional - 传统的, 传统, 悠久, 民间
+161 Mystery 恐怖: 描述可怕的经历
+ a punto de - 正准备
+ asesino - 凶手, 杀人犯, 杀手, 刺客, asesino
+ daba - (我) 给
+ dar - 给, 付出, 给钱
+ de repente - 突然
+ de terror - 恐怖
+ despierto - 晚醒, 不困, 醒着, 醒, 清醒
+ disfraz - 服装, 吉祥物
+ el otro día - 前几天
+ era - 纪, 是(过去未完成时), 年代
+ esconderse - 躲藏, 躲起来, 躲过去
+ fantasma - 幽灵
+ gritar - 叫喊, 尖叫, 大喊, 哭闹, 喊出来, 喊一声, 喊出
+ grito - 哭声, 喊, 喊声, 叫声
+ misterio - 神秘, 谜团, 谜, 之谜
+ monstruo - 怪物, 怪兽
+ moverse - 能动, 它动, 动, 乱动
+ oscuridad - 黑暗
+ paso - 花上, 逝, 步, 经过, 一步, 流逝, 小步, 通行, 过步, 打发, 步骤, 环节
+ pesadilla - 噩梦
+ silencio - 寂, 安静, 沉默, 寂静, 静音
+ sombra - 影, 影子, 阴, 阴影
+ suspenso - 悬疑
+ últimamente - 最近
+162 Healthcare 看病: 描述感冒症状
+ ambulancia - 救护车
+ aspirina - 阿司匹林
+ atender - 陪, 招待, 倾听, 仔细听
+ cirujano - 外科医生
+ consultorio - 诊, 诊所
+ corte - 停水, 中断, 廷, 法庭, 伤口, 法院
+ entre - 请进, 其中, 在 ... 之间, 在 ... 中间, 之间, 当中, 丛中
+ fiebre - 发烧, 发热
+ fracturarse - 骨折
+ frente - 额头, 对面, 前方
+ garganta - 喉咙, 嗓, 喉, 嗓子, 嗓音
+ gripe - 流感
+ hombro - 膀, 肩膀, 肩, 肩部
+ lastimarse - 受伤
+ llame - 打电话
+ mucho - 不怎么, 大大, 很久, 很多, 多, 很, 经常, 没多久, 非常, 时不太, 多得
+ operación - 手术, 营业, 外科手术
+ operar - 做手术, 营业
+ profundo - 深刻, 浓郁, 深的, 沉沉的, 深远
+ receta - 处方, 菜谱, 食谱, 配方
+ rodilla - 膝盖, 膝
+ se preocupe - 担心
+ tome - 服用, 拿, 乘坐
+ vaya - (我/他/她/它/您) 走 (虚拟式), 去
+ venga - 来, 报复
+163 Traffic 交通: 描述路上的情况
+ GPS - GPS
+ auto - 汽车, 车
+ buscar - 查找, 找找看, 找点, 寻找, 查一, 寻, 找, 找车, 完猫, 寻求, 找人, 找烂, 一查
+ camino - 路, 走, 走路, （我）走
+ chocar - 撞, 撞到, 撞车, 撞击
+ cinturón de seguridad - 安全带
+ cruce peatonal - 人行横道
+ cruces - 过, 涉, 越界
+ deber - 要系, 本分, 使命, 职责, 生要
+ dobles - 转弯
+ estacionamiento - 停车场, 停车位, 车位
+ licencia de conducir - 驾驶执照
+ mira - 你看, 瞧瞧, 看, 看看, 瞧
+ pon - 放盐, 放进, 放点, 把, 放糖, 放, 放在, 多放, 放到, 少放
+ por - 为了, 因为, 由于, 乘以, 每, 由, 通, 通过, 被, 凭, 出于, 支持, 沿着, 在, 为期, 为, 顺着
+ prohibido - 禁止, 禁
+ respetar - 讲究, 给面子, 尊敬, 尊重, 佩服
+ semáforo - 红绿灯, 交通灯
+ señal de tránsito - 交通标志
+ ten cuidado - 小心
+ tener que - 得
+ toma - 乘坐, 搭乘, 打车, 搭, 乘, 拿, 喝, 吃药, 镜头
+ tránsito - 交通
+ ubicación - 位置
+164 Plans 2 旅馆: 预订住宿
+ alojamiento - 宿, 住处, 住宿, 住宿费
+ busquemos - 寻找, 寻, 找, 查一查, 多查
+ cerremos - 我们关, 我们关上
+ colombiano - 哥伦比亚人
+ compremos - 我们买, 买水
+ confirmar - 确认
+ decidamos - 决定
+ encontremos - 遭
+ excursión - 短途旅行, 郊游, 远足, 观光
+ extraordinario - 了不起, 非凡
+ hagamos - 做
+ hostal - 旅舍, 青年旅舍, 旅店, 旅社
+ lleguemos - 到达, 达
+ lujo - 奢华, 豪华, 奢
+ no vayamos - 不要
+ organicemos - 组织, 办个
+ paisaje - 景, 风景, 景色, 景观, 风景画, 风光
+ pasarla bien - 玩得开心
+ reserva - 预订, 保留, 预, 保护区, 订, 替补
+ vamos - 走吧, （我们）去, （我们）走, 吧, 我们, 进城, 们, 得了吧
+ veamos - 让我们一起看, 让我们看, 看个
+ volvamos - 回家吧, 让我们, 回去
+ y si - 如果
+165 Wishes 愿望: 表达你的愿望
+ aniversario - 周年纪念日, 纪念日, 周年
+ aprenda - 学习
+ aprendamos - 让我们学习, 学学
+ celebren - 庆祝
+ comamos - 吃, 吧, 吃顿
+ comedia - 喜剧
+ compre - 购物, 买治
+ disfrutes - 享受
+ en familia - 和家人一起
+ en vez de - 而不是
+ escriba - (您) 写 (命令式), 写些
+ escultura - 雕, 塑, 雕塑
+ graduación - 毕业
+ invite - 邀请
+ lean - 读
+ letra - 歌词, 字迹
+ miremos - 我们看
+ ojalá - 但愿, 恨不得
+ pasemos - 传球
+ poeta - 诗人
+ pronunciación - 发音, 语音
+ trabajes - 工作
+ turístico - 旅游的, 旅游, 观光
+ viajen - 旅行
+ vivan - (他们/她们/它们) 活
+166 Favors 设备: 询问网络连接
+ actualizar - 更新, 同步
+ aire acondicionado - 空调
+ antivirus - 杀毒软件
+ aplicación - 应用, 应用程序, app
+ arreglar - 修理, 预先安排
+ auricular - 耳机
+ cargador - 充电器, 充
+ conectar - 插上, 连接, 对接
+ control remoto - 遥控器
+ cámara web - 网络摄像头
+ enchufar - 插上
+ equipo de música - 音响设备
+ favor - 帮个, 帮忙, 帮, 人情
+ guardar - 储存, 留着, 收纳, 来装, 留好, 保存, 水留, 我存
+ mensaje de voz - 语音消息
+ navegador - 浏览器, 导航仪
+ publicar - 发帖, 发布, 出新
+ red social - 社交网络
+ reenviar - 重新发送, 重新发, 转发给, 转发
+ sin querer - 不小心
+ subir - 别上, 拿上来, 上来, 上去, 上涨, 涨, 传到, 发到, 上升, 调大, 升高
+ técnico - 技术型, 正派, 技术员, 技师, 师傅
+ virus - 病毒
+ volumen - 容量, 册, 每卷, 音量, 体积
+ wifi - 无线网络
+167 At Work 2 职业: 介绍你的工作环境
+ ansioso - 急切, 迫不及待, 着急, 焦躁, 很着急, 焦虑, 焦急, 地想
+ arquitecto - 建筑师
+ arrogante - 自以为是, 自大, 傲慢, 自负
+ contador - 会计, 会计师
+ desempleado - 失业, 失业者
+ estresante - 压力大的
+ fotocopia - 复印件, 复印
+ gráfico - 图形, 图表
+ impaciente - 不耐烦, 耐心
+ informe - 报告, 报道, 汇报
+ las afueras de la ciudad - 城市郊区
+ llevarse - 清走, 带走, 抢走了
+ molesto - 恼, 不烦, 令人烦恼, 好烦, 更烦, 太烦, 烦人, 很烦, 懊恼, 太烦人, 烦恼, 恼火, 恼人, 烦, 刺耳
+ ni idea - 一无所知
+ orgulloso - 自豪, 得意
+ primer piso - 一楼
+ reportero - 记者, 新闻记者
+ sala de reunión - 会议室
+ satisfecho - 知足, 十分满意, 痛快, 满意, 得意
+ separarse - 分开
+ sincero - 真诚, 坦率, 诚, 诚恳, 挚, 直率
+ socio - 帮手, 合伙人, 搭档
+ tener razón - 有理
+168 Events 场馆: 询问展览信息
+ a - 给, 到, 向, 在, 阿, 去, 二比
+ además - 而且, 另外, 不仅, 此外, 以及, 并且
+ aunque - 即使, 虽说, 虽然, 不过, 虽, 哪怕
+ callado - 安静
+ cansador - 累人
+ conversador - 健谈者
+ cuadro - 绘画, 画, 这画儿, 幅, 进画
+ deprimido - 闷闷不乐, 沮丧, 郁闷, 低落, 压抑, 苦闷, 情绪低落, 消沉
+ escena - 一幕, 景色, 画面, 情景, 场景, 片段
+ exposición - 展览, 摄影展, 展会, 展, 博会, 曝光
+ extrovertido - 外向
+ final - 结局, 尽头, 结尾, 最后的, 尽, 末尾, 决赛, 最后, 大结局, 期末, 冠军赛
+ fotografía - 摄影
+ hace un rato - 刚才
+ húmedo - 潮湿, 闷热, 松软
+ obra de arte - 艺术品
+ puntual - 准时, 守时
+ qué - 哪款, 何, 多么, 啥, 什, 哪趟, 哪个, 哪家, 怎么着, 什么, 么, 哪些, 哪只, 哪, 哪支, 哪间
+ qué raro - 真奇怪
+ radiante - 明亮的
+ razonable - 合理, 价格合理, 公道
+ regular - 定期, 正常, 不新不旧, 规律, 一般般, 常规, 调节
+ relajado - 放松, 轻松, 不紧, 轻松愉快
+ salmón - 鲑, 三文鱼, 鲑鱼
+ vestido - 裙装, 衣, 穿成, 连衣裙, 裙子, 袍
+169 College 课程: 介绍你正在学的课程
+ aprendan - 学习
+ campus - 校园
+ carrera - 赛跑, 生涯, 竞速, 职业, 涯, 事业, 比赛, 职业生涯, 竞赛, 科系
+ comentario - 评论, 解说词, 反馈, 感想, 解说
+ completar - 顺利完成, 办齐, 完成, 填写表格, 填空, 选完, 毕, 完善
+ cuanto antes - 尽快
+ director - 主管, 校长, 团长, 主任, 导演, 院长, 社长
+ economía - 经济
+ es importante que - 很重要
+ es necesario que - 必须
+ es urgente que - 紧急的是
+ escribas - (你) 写 (虚拟式)
+ estudies - 学习
+ hablen - 说话, 说慢
+ hacer - 做些, 再列, 闹出, 做果, 交到, 办, 交新, 铺床, 生火, 结新, 办得, 做加, 结交, 煮汤, 做, 做鱼, 来和面, 使, 打成, 做酱, 做出, 打个, 写个
+ inscribirse - 注册, 签到
+ leas - 租赁, 看漫
+ materia - 学科, 物质, 材料, 题材
+ material - 材, 材料, 资料, 料, 材质, 装备
+ método - 做法, 方法, 思路
+ recomendable - 建议
+ repasar - 复习, 课后复习
+ sociología - 社会学
+ terminen - 完成
+ universitario - 大学, 大学的
+170 Eating Out 餐厅: 点餐和点饮料
+ crudo - 生, 鸡太生, 生的, 石油
+ elegí - 选择了, 选错, 没选, 择
+ eligió - 选张, 选用, 选择, 他选
+ entrada - 入口处, 门票, 入, 入场券, 输入, 入口, 门口, 前菜, 入门
+ frió - 煎了
+ me reí - 我笑了
+ me sentí - 感到
+ me vestí - 我穿了, 我穿上了
+ pepino - 黄瓜
+ piña - 菠萝, 菠
+ plato principal - 主菜
+ preferí - 更喜欢
+ prefirió - 更喜欢
+ repetí - 重复了
+ repitió - 重复了, 重复
+ sabroso - 好喝, 清爽, 浓郁, 香浓, 香甜
+ se rió - 笑
+ se sintió - 感觉
+ se vistió - 穿上了
+ seguí - 而行, 跟踪, 跟随, 顺着, 我顺
+ serví - 端上了
+ siguió - 跟踪, 跟随, 听从, 跟从, 遵守规则
+ sirvió - 鱼端, 时上, 服侍, 有用, 侍
+171 Intentions 沟通: 分享重要消息
+ a - 给, 到, 向, 在, 阿, 去, 二比
+ ahora mismo - 马上
+ al final - 最后
+ aumentar - 加快, 增长, 增加, 提高, 升高, 增大, 增, 加重
+ avisar - 通知
+ compositor - 作曲家
+ consultar - 请教, 查询, 参考, 咨, 查一, 分别, 查阅, 咨询, 查好, 一查
+ contar - 数星星, 去数, 数数, 他数, 数, 数一下
+ convencer - 说服
+ dejar - 离开, 阻止, 不留, 让, 离职, 停止, 他放, 上留, 写个, 放下, 退学, 抛弃
+ entregar - 交代, 交, 上交, 该交, 派送, 要交, 交接, 交付, 送出去
+ exitoso - 得意, 功, 顺利, 成功的, 成功, 可火
+ iba a - 去
+ iban a - 去
+ mentir - 撒谎, 说谎
+ nunca más - 再也不
+ participar - 加入, 参与, 参加, 参
+ pasar por - 经过
+ portarse - 表现
+ recital - 演奏会, 独奏会
+ seguro - 定, 确信, 安全的, 一定, 确定的, 有把握, 保险, 安, 安全, 确定, 保险金
+ sorprender - 惊讶, 震惊
+ sueldo - 工资
+ ya - 早已, 了, 早就, 已, 既, 已经, 十了
+172 News 2 事件: 描述最近的事件
+ afortunadamente - 幸运地
+ alguna vez - 曾经
+ aún - 仍然
+ campeonato - 锦标赛, 冠军赛
+ candidato - 候选人, 人选, 候选, 人才
+ caído - 坠, 掉, 下跌, 坠入, 摔下去
+ decidido - 决定, 果断
+ descubrir - 说穿, 发现, 猜出来
+ desempleo - 失业
+ dicho - 告诉, 所说, 明说, 话虽如此
+ enterado - 听说, 获知
+ escrito - 写给, 写下, 写, 稿子
+ final - 结局, 尽头, 结尾, 最后的, 尽, 末尾, 决赛, 最后, 大结局, 期末, 冠军赛
+ ganado - 得, 赢得, 赚过
+ incendio - 火灾
+ ladrón - 劫匪, 小偷, 人偷, 窃贼, 贼
+ leído - 读, 看, 读过, 所读
+ liga - 联赛
+ medida - 测量, 措施, 尺寸, 长短, 措, 分寸
+ perdido - 失散, 丢失, 赔过, 佚, 输过, 遗失, 遗, 失, 迷路, 失去, 佚失, 错失
+ publicado - 公布, 公开, 出版, 博主发
+ sido - 是, 被
+ tomado - 拍过, 占领, 做, 采取, 拿, 坐过
+ tornado - 龙卷风
+ visto - 看见, 看过, 见过, 看到, 见过面
+173 Free Time 娱乐: 推荐一部电视剧
+ conseguir - 给 (某人某物), 完成, 能办, 得手, 得到, 挣过, 弄些, 选到, 拿, 抽到
+ divertido - 好玩, 很好玩, 好玩儿
+ en mi vida - 一生中
+ en vivo - 现场
+ había - (我/他/她/它/您) 用于构成过去完成时, 有, 从前
+ habíamos - (我们) 用于构成过去完成时
+ habían - (他们/她们/它们) 用于构成过去完成时
+ habías - (你) 用于构成过去完成时
+ ido - 去, 去过
+ igual - 还是
+ impresionante - 赞叹, 厉, 真牛, 令人, 厉害, 令人赞叹, 令人印象深刻, 可棒
+ invitado - 宾, 受邀, 客人, 嘉宾, 请过
+ olvidado - 遗忘的, 遗忘
+ palacio - 宫殿, 殿, 殿堂, 宫, palacio
+ película - 电影, 悬疑片, 影片, 电影吧, 片中
+ permiso - 假, 许可证, 许可
+ personalmente - 就我个人而言
+ prometido - 承诺, 诺, 未婚夫
+ pícnic - 野餐
+ serie - 系列, 剧时, 一系列, 系列剧, 串, 剧, 系列片, 剧里, 剧集, 轮轮
+ tan - 如此
+ temporada - 季, 季会, 季节, 新季会, 一季, 本赛季
+ verdad - 对吧
+174 Sports 运动: 谈论你喜欢的球类运动
+ boxeo - 拳击
+ campeón - 冠军
+ cancha - 球场
+ cancha de golf - 高尔夫球场
+ club - 俱乐部, 社团
+ competidor - 竞争对手, 选手
+ cuenta - 这算, 账号, 账户, 数数, 账, 不算, 帐号, 不算数, 进账单, 买单, 帐户, 讲得, 算作
+ de pie - 站着
+ despedirse - 告别, 分别
+ empatar - 打平, 扳, 扳平
+ entrenamiento - 训练
+ futbolista - 足球运动员
+ gol - 个球, 球门, 进球
+ golfista - 高尔夫球手, 女高尔夫球手
+ gritar - 叫喊, 尖叫, 大喊, 哭闹, 喊出来, 喊一声, 喊出
+ hincha - 球迷
+ injusto - 不公平
+ juntarse - 团圆, 在一起, 聚在
+ la mano - 手
+ marcar - 上刻, 进了球, 进, 进球, 进一球, 标出来
+ pelear - 吵起, 吵个, 打架, 计较
+ saludar - 问好, 问候, 打个招呼, 伸手
+ talentoso - 才华, 有才华的, 有才华, 才华横溢
+ tenista - 网球运动员
+175 Art Events 展览: 推荐喜欢的书
+ aburrirse - 无聊
+ acción - 行动, 动作
+ anteriormente - 以前
+ banda - 乐队, 乐团, 团伙
+ capítulo - 一章, 章节, 新篇章, 章, 章会
+ colección - 收集, 收藏, 藏品
+ confirmado - 确认
+ contemporáneo - 当代
+ divertido - 好玩, 很好玩, 好玩儿
+ documental - 纪录片
+ encendido - 开着
+ entretenido - 有趣
+ fila - 排, 里排, 列, 队伍, 排队, 一排, 一列
+ muestra - 显, 给 ... 看, 样本, 展示, 示, 展现
+ orquesta - 交响乐团, 管弦乐队, 管弦乐团, 乐团
+ recomendado - 推荐的, 最受
+ reconocido - 上广受, 认出, 认可
+ sala - 厅, 堂, 房间, 剧场, 大厅, 室, 交谊厅, 客厅, 休息室, 室里, 法庭
+ talento - 人才, 赋, 才能, 天赋, 天分
+ vendido - 卖了, 卖完, 售出
+ versión - 版本, 版有, 版, 说法, 稿子
+ último - 最后的, 上次, 最后, ltimo
+176 Banking 银行业务: 感谢银行工作人员
+ ahorros - 储蓄
+ ayúdala - 帮助她
+ billete - 钞票, 火车票, 票, 钞, 车票, 纸币
+ cajero - 收银员, 银行柜员, 柜员
+ cambio - 更替, 革, 变动, 变迁, 变化, 迁, 变革, 找零, 零钱, 改变 (名词), 反转
+ cuenta - 这算, 账号, 账户, 数数, 账, 不算, 帐号, 不算数, 进账单, 买单, 帐户, 讲得, 算作
+ cuenta corriente - 活期账户
+ depositar - 钱存, 存款, 我存
+ depósito - 存款, 押, 押金
+ explícame - 向我解释
+ léalo - 阅读它, 阅读
+ límite - 分寸, 极限, 界限, 际, 限制, 期限, 界面, 涯, 限量, 门槛, 额度, 限额, 上限, 槛
+ moneda - 钱币, 硬币, 货币
+ móvil - 手机
+ pago electrónico - 电子支付
+ recomendación - 荐, 推荐, 好评
+ registrarse - 注册, 挂号, 报到, 入住, 登记, 签到
+ requisito - 前提, 要求, 前提条件, 门槛, 槛
+ retirar - 取款, 取, 抽走
+ saldo - 余额
+ sucursal - 分支机构, 分店, 分行, 分公司
+ tarjeta de débito - 借记卡
+ transferencia - 转账, 转会
+177 Weather 2 天气: 描述天气变化
+ bajar - 沉下, 搬下, 退烧, 调小, 下降, 下楼, 搬下来, 降, 降温, 下去, 调低, 下山, 沉下去, 走下坡
+ brisa - 微风
+ caer granizo - 下冰雹
+ cubierto - 覆盖, 盖起来
+ despejado - 天晴, 晴朗, 畅通
+ en cualquier momento - 随时
+ humedad - 湿气, 水分, 湿度, 潮气
+ inundación - 洪水, 洪, 淹水
+ llegar - 花来, 到达, 卡来, 达, 得出, 人到, 来到, 生到
+ lloviznar - 下毛毛雨, 毛毛雨
+ neblina - 雾, 起雾
+ nevada - 降雪, 大雪
+ parece que - 看起来
+ por eso - 所以
+ pronóstico - 预报
+ rayo - 闪电, 比拉约
+ salir - 离开, 外出, 出来, 交往, 退出, 出门, 出去, 下班, 出, 开走
+ templado - 温和, 钢化
+ temporal - 一时, 临时, 暂, 暂时
+ tiempo - 空儿, 时, 时间, 时光
+ tormenta eléctrica - 雷暴
+ tronar - 打雷
+ trueno - 雷声, 雷, 打雷, 霆
+178 I Disagree 观点: 表达你的看法
+ a pesar de - 尽管
+ así - 如此, 那样, 这样, 从而
+ bueno - 嗯, 好, 良好, 善, 美味的, 好极了, 美味, 很棒, 不错, 擅长, 良, 擅, 队好, 好坏
+ como siempre - 像往常一样
+ conclusión - 结论, 结尾
+ desacuerdo - 不合, 争议, 矛盾, 不同意, 不满, 分歧
+ en contra de - 反对
+ en general - 总体来说
+ en serio - 真的
+ enojarse - 生气
+ equivocarse - 做错事, 犯错, 闹笑话
+ está bien - 好
+ historia - 史上, 故事, 历史学, 史, historia, 历史, 剧情, 轶, 传奇
+ inventar - 编造, 编个
+ llegar - 花来, 到达, 卡来, 达, 得出, 人到, 来到, 生到
+ lo contrario - 相反
+ lo mismo - 一样
+ lo que - 什么
+ locura - 疯狂, 傻事
+ obviamente - 显然地
+ opuesto - 相反, 反面
+ para nada - 一点也不
+ ponerse de acuerdo - 达成一致
+ sinceramente - 真诚地
+ tontería - 蠢话, 蠢事, 胡话, 傻事
+179 Romance 爱情: 表达你的爱意
+ a primera vista - 一见钟情
+ abrazar - 拥抱
+ ansioso - 急切, 迫不及待, 着急, 焦躁, 很着急, 焦虑, 焦急, 地想
+ besar - 亲吻
+ capaz - 可以的, 能, 能干
+ divorciarse - 离婚
+ enamorado - 爱着, 爱上了, 恋爱, 爱了, 爱河
+ enamorarse - 坠入爱河, 谈恋爱
+ felicidad - 幸福
+ juntarse - 团圆, 在一起, 聚在
+ luna de miel - 蜜月
+ mago - 魔法师
+ para siempre - 永远
+ por ahora - 目前
+ por amor - 为了爱情
+ por mi culpa - 因为我的错
+ prioridad - 优先级, 头等大事, 当务之急, 优先, 先轮
+ pulsera - 手镯, 手链
+ salir con - 约会
+ sentido del humor - 幽默感
+ sería - (他/她/它) 会是
+ sonreír - 微笑
+ sugerir - 建议
+ voz - 嗓音, 声音, 语音, 嗓子
+ éxito - 获得成功, 功, 吃得开, 成功, 流行歌
+180 Office 2 计划: 提出会议建议
+ análisis - 检查
+ conferencia - 报告会, 会议, 会谈, 讲座, 大会
+ contrato - 合约, 合同
+ dar - 给, 付出, 给钱
+ en cuanto a - 关于
+ es bueno que - 最好
+ es mejor que - 最好
+ es preferible que - 最好
+ estar - 在, 身处
+ hacer - 做些, 再列, 闹出, 做果, 交到, 办, 交新, 铺床, 生火, 结新, 办得, 做加, 结交, 煮汤, 做, 做鱼, 来和面, 使, 打成, 做酱, 做出, 打个, 写个
+ ir - 去了, 去数, 前去, 去往, 不去, 去, 生去
+ lograr - 实现目标, 能够, 完成, 能办, 打成, 设法, 获得, 得手
+ objetivo - 目标, 镜头
+ pedir que - 请求
+ por mi parte - 就我而言
+ presupuesto - 预算, 经费
+ principalmente - 主要
+ proponer - 提议
+ realista - 现实主义者, 现实主义, 逼真
+ recomendar - 推荐
+ revisar - 审阅, 查看, 订正, 批过, 检查一下, 查一, 要查, 校对, 地翻, 检查, 过目, 完床, 检查数据, 浏览
+ ser - 当, 被, 遭到, 做, 成为, 是, 要系
+ tener - 要开, 班有, 养, 多备, 要养, 有, 养狗, 拥有, 碰上, 心怀, 常备, 只开, 对交, 手握
+ venta - 书卖, 销, 出售, 售, 销售
+181 Goal! 足球: 介绍你的球队
+ apenas - 只是, 刚刚, 很少, 在 ... 的时候, 才刚
+ arco - 球门
+ atajar - 扑救
+ atrapar - 抓住
+ atrápenla - 抓住她
+ atájaselo - 扑住它
+ echar - 赶走, 扔掉, 开除, 扔, 赶出去, 撒上
+ entrenador - 教练, 蹈
+ escúchalo - 听他
+ fuerza - 力量
+ grites - 别喊, 喊, 越喊
+ lancen - 扔, 投球
+ patear - 踢
+ patees - 踢, 别踢
+ patéala - 踢球, 踢
+ pegar - 贴, 黏
+ penal - 点球
+ portero - 守门员, 看门人, 门卫, 门房
+ pásame - 递给我, 递给
+ pásamela - 把它给我
+ suavemente - 轻柔地
+ tirar - 牵, 扔掉, 拉, 扔, 丢弃
+ tires - 轮胎, 扔掉
+ tírame - 扔给我
+ tírasela - 把球扔给, 把球扔给她, 把球扔给他
+ vamos - 走吧, （我们）去, （我们）走, 吧, 我们, 进城, 们, 得了吧
+182 Clothing 2 配饰: 推荐适合的配饰
+ al revés - 反了
+ aro - 圈式, 环, 圈, 轮子
+ atar - 捆, 系鞋带, 系在, 系紧
+ chaleco - 背心, 马甲
+ colorido - 彩, 鲜艳, 五颜六色
+ combinar - 结合, 融合
+ de segunda mano - 二手
+ etiqueta - 标记, 礼仪, 标签, 名牌, 礼节
+ ganga - 便宜货
+ joyería - 珠宝店
+ lino - 亚麻
+ lunar - 月食, 斑点
+ manga - 漫画, 漫画书, 袖, 袖子
+ pantufla - 拖鞋
+ perfumería - 香水店
+ pulóver - 毛衣
+ quedar - 留 (下), 待, 碰面
+ raya - 线, 条纹, 划痕, 界线, 条, 斑纹, 鱼类, 界限
+ saco - 袋子, sacos
+ seda - 绸, 丝, 丝绸, 丝质
+ suelto - 放下, 太松, 不紧
+ tejer - 织, 织毛衣
+ zapatería - 鞋店
+183 Hygiene 用品: 选购合适的用品
+ acondicionador - 护发素
+ afeitarse - 刮掉, 刮胡子, 刮脸
+ antibacterial - 抗菌
+ belleza - 美妆, 美人, 美女, 美容
+ cambiar - 换
+ cepillo de uñas - 指甲刷
+ corporal - 身体的
+ cortarse - 理发
+ cortaúñas - 指甲刀, 指甲钳, 指甲剪
+ crema de afeitar - 剃须膏
+ desodorante - 除臭剂, 汗剂, 止汗剂
+ esmalte de uñas - 指甲油
+ gel - 啫喱, 啫, 凝胶
+ loción - 乳液
+ lápiz labial - 口红
+ pasta de dientes - 牙膏
+ pañuelo - 纸巾, 手帕, 领巾
+ peluquero - 理发师, 美发师, 造型师
+ peluquería - 美发店, 理发店, 沙龙
+ protector solar - 防晒霜
+ rizado - 卷曲
+ secador de pelo - 吹风机
+ servir - 斟, 服务, 斟酒
+ uña - 指甲
+184 Purchases 服饰: 介绍你喜欢的服饰
+ bikini - 比基尼
+ chal - 披肩
+ claro - 当然, 清, 简洁, 浅色, 清爽, 明, 干净的, 浅, 清脆, 楚, 清楚, 明确, 朗, 动听
+ colonia - 殖民, 殖民地, 古龙水
+ corto - 短的, 短, 我切, 不短, 短发
+ cosmético - 化妆品
+ deportivo - 运动型
+ extragrande - 特大号, 特大号的
+ floreado - 花卉图案
+ formal - 正式, 正规
+ hacer un descuento - 打折
+ hebilla - 扣, 扣子, 搭扣
+ incómodo - 尴尬, 尬, 不舒服, 舒服, 尴, 不自在
+ liso - 直, 直的, 夷
+ mostrar - 出示, 展示, 指一指, 示, 展现
+ perla - 珠
+ plateado - 银色的
+ rebaja - 打折
+ regalártelo - 送给你
+ salón de belleza - 美容院
+ sofisticado - 复杂的
+ tacón - 鞋跟
+ top - 上衣
+ unos cuantos - 几个, 一些
+185 Returns 问题: 询问保修信息
+ además de - 除了
+ apenas - 只是, 刚刚, 很少, 在 ... 的时候, 才刚
+ bañera - 浴缸
+ bombilla - 灯泡
+ caer - 沉下, 跌倒, 坠, 落下, 掉, 滑下, 掉下, 倒, 摔下, 坠入, 沉下去
+ dejar de - 停止
+ devolución - 退货
+ enseguida - 马上
+ fuerte - 健壮的, 最强者, 猛, 强烈, 强项, 健壮, 更强, 健硕, 最强, 强劲, 壮, 大声, 浓郁, 还响, 很烈, 烈, 强壮的, 好紧, 响亮, 强壮, 强, 坚强, 浓烈, 顽强
+ garantía - 保修单, 保障, 保修, 押金
+ manchar - 弄脏
+ mudanza - 搬迁, 乔迁
+ prender - 打开
+ radiador - 暖气片
+ realizar - 施展, 进行, 办得, 办理, 实现, 开完, 能开成, 实践
+ reparación - 修理, 维修, 补偿
+ se - 他们, 您, 被
+ se nos - 我们, 我们的
+ se paga - 付款
+ se puede - 可以
+ si no - 如果不
+ similar - 似, 类似, 相似, 相似的, 犹
+ tirar - 牵, 扔掉, 拉, 扔, 丢弃
+ vidrio - 玻, 玻璃, 璃
+186 Be Polite! 餐桌: 点饮料和食物
+ carne de res - 牛肉
+ cerdo - 猪, 猪肉
+ chuleta - 猪排
+ cocido - 熟
+ con gas - 气泡
+ cordero - 羊肉, 羔羊, 羊羔肉, 羔
+ cubierto - 覆盖, 盖起来
+ importaría - 在乎
+ manzanilla - 洋甘菊
+ mariscos - 海鲜
+ me gustaría - 我想要
+ me gustaría que - 我希望
+ molestaría - 介意
+ necesitaría - 需要
+ no podría - 不能
+ poder - 能够, 权力, 没法, 未能, 权威
+ puede ser - 可能是
+ querer - 要, 好要
+ sabor - 味道, 滋, 风味, 滋味, 味, 口味, 味儿, 口感
+ se podría - 可以
+ servilleta - 餐巾, 餐巾纸
+ sería posible - 是否可以
+ tocino - 培根
+ traería - 带来
+187 Customers 购物: 表达你的购物需求
+ actitud - 心态, 态, 态度, 语气
+ artículo - 文章, 篇, 物品, 篇文章, 款, 藏品
+ atención - 注意, 关注, 注意力, 服务, 用心
+ buscar - 查找, 找找看, 找点, 寻找, 查一, 寻, 找, 找车, 完猫, 寻求, 找人, 找烂, 一查
+ chequear - 检查
+ comenzar - 开始, 开启, 起天来
+ de más - 多付
+ en cuanto - 至于
+ entregar - 交代, 交, 上交, 该交, 派送, 要交, 交接, 交付, 送出去
+ envío - 运费, 发送, 发货, 寄去
+ explicar - 交代, 解说, 进一步, 解释, 解释一下, 释, 讲道理
+ faltar - 缺席
+ llamar - 打电话, 打电话给..., 叫水, 称不上, 打, 报警, 称呼, 喊一声
+ llegar - 花来, 到达, 卡来, 达, 得出, 人到, 来到, 生到
+ negocio - 企业, 生意, 业务, 买卖
+ ni siquiera - 连
+ pagar - 支付, 付票, 不起, 付, 现金支付, 付款, 付钱, 要付, 付得, 结账, 交税
+ pedido - 问, 要求, 订单
+ preguntar - 提问, 问修, 询问, 询, 问, 问个, 问而, 地问, 分别, 问问, 问话
+ queja - 抱怨, 埋怨
+ rastrear - 追踪, 跟踪
+ reclamo - 投诉
+ reembolso - 还款, 退款, 报销, 补偿
+ supervisor - 主管, 督
+ una vez que - 一旦
+188 Complaints 投诉: 表达你的不满
+ aceptable - 可以接受, 不可接受
+ agotado - 罄, 累死, 疲惫, 累, 累坏, 售罄, 累坏了, 耗尽, 缺货, 殆尽, 人累
+ atender - 陪, 招待, 倾听, 仔细听
+ comparar - 比较, 对比, 对照, 校对
+ dañado - 损, 损坏, 受损, 害, 破损
+ diferente - 有所不同, 与众不同, 不同, 不同的, 大不相同
+ en cualquier caso - 无论如何
+ en primer lugar - 首先
+ en segundo lugar - 其次
+ encargarse - 负责
+ este - 这只, 这支, 这个, 这颗, 这桩, 这名, 埃斯特, 这款, 这家, 这套, 这匹, 这门, 这棵, 这篇, 这枚, 这辆, 这栋, 这杯, 这倒, 这则, 这座, 这一, 这份, 东部, 这幅, 该项, 这块, 这部, 这起, 这道, 这条, 这顶, 这趟, 这件, 这场, 这片, 这本, 这列, 此, 这张, 这根, 这笔, 这位, 东, 东边
+ fijarse - 看看, 留意
+ gasto - 多花钱, (我) 花费, 支出, 交通费, 上花, 消费
+ lógico - 合乎逻辑, 逻辑的, 逻
+ manchado - 弄脏, 弄脏的
+ parecido - 类似, 相似
+ perder el tiempo - 浪费时间
+ plazo - 期限
+ promoción - 宣传, 推广, 促销, 优惠活动, 推销产品
+ quejarse - 投诉, 发牢骚, 会怪
+ quinto - 第五
+ reemplazar - 代替, 替换
+ salir - 离开, 外出, 出来, 交往, 退出, 出门, 出去, 下班, 出, 开走
+ uno - 1, 一个, 一号, 一, 一数
+ vencido - 过期
+189 Small Talk 家乡: 描述你的家乡
+ acostumbrarse - 习惯于
+ además de - 除了
+ arquitectura - 建筑, 建筑学
+ ciudad natal - 故乡
+ con qué - 用什么
+ cumplir - 年满, 满, 遵从, 履行, 履
+ económico - 实惠, 经济, 廉价
+ extranjero - 境外, 国外人, 外国, 海外, 国外, 外国人, 外语, 国外的, 夷
+ guitarrista - 吉他手
+ llevar - 戴, 带水, 带防, 带, 带花, 携带, 架来, 只带, 能带, 携, 带得, 带上, 扛过去, 车载, 扛着, 随身携带, 拎, 扛
+ lo más divertido - 最有趣的
+ mayor - 最大, 成人, 更大的, 年上, 年长的, 越大, 年老, 大一岁, 姐, 越高
+ menor - 年幼的, 更小的, 未成年人, 美小, 次要
+ pariente - 亲戚, 亲人
+ plato del día - 今日特餐
+ poco - 不久, 一点点, 点儿, 稍, 有点儿, 少, 一点儿, 很少, 一二
+ poco a poco - 渐渐
+ por lo general - 一般来说
+ qué - 哪款, 何, 多么, 啥, 什, 哪趟, 哪个, 哪家, 怎么着, 什么, 么, 哪些, 哪只, 哪, 哪支, 哪间
+ sexto - 六, 第六, 第六个
+ un poco - 一点
+ vecindario - 邻居, 邻居里, 街坊, 邻居中, 周边环境
+ vida nocturna - 夜生活
+ visitado - 访, 访问过, 去过, 访问
+190 Ecology 自然: 介绍海洋生物
+ arroyo - 小溪, 溪, 溪流, 小河
+ atracción - 吸引力, 魅力, 魅
+ ave - 鸟
+ bahía - 海湾, 湾, 巴亚
+ ballena - 鲸鱼, 蓝鲸, 鲸
+ cambio climático - 气候变化
+ científico - 科学家, 科学
+ común - 共, 普通, 共同, 凡, 常见, 寻常, 普遍
+ contaminación - 污染, 海洋污染
+ cultivo - 作物, 培
+ delfín - 海豚
+ desastre - 牢狱之灾, 灾, 祸, 一团糟, 灾难, 烂摊子
+ ecologista - 生态学家
+ en ninguna parte - 哪里都不
+ esencial - 必不可少的, 必要的, 要紧
+ jirafa - 长颈鹿
+ marino - 海洋
+ mariposa - 蝴蝶
+ medio ambiente - 环境
+ natural - 天然的, 自然, 天然, 自然的, 原味
+ ola - 海浪, 浪, 波
+ pingüino - 企鹅
+ proteger - 保护环境, 保, 护, 防邪, 保护, 守住, 守护
+ selva - 丛林, 雨林
+ tortuga - 乌龟, 海龟, 龟, 图加
+191 Art Talk 名人: 介绍你喜欢的名人
+ admirar - 欣赏, 崇拜, 佩服, 羡慕
+ anterior - 之前, 之前的
+ aplaudir - 鼓掌, 拍拍
+ autorretrato - 自画像, 自拍
+ ballet - 芭蕾舞
+ brillante - 精彩, 辉煌, 闪亮, 赫, 前途无量, 焕, 高明, 亮亮, 灿, 亮亮的, 亮, 鲜艳, 杰出, 光明, 灿烂, 艳, 清脆
+ celebridad - 名人
+ cine - 电影
+ desconocido - 不知名的, 未知, 冷门
+ el de - 的
+ entrevistar - 采访
+ episodio - 插曲, 集中
+ escultor - 雕塑家
+ estreno - 首映, 上映, 首播
+ exhibición - 展览, 展品, 展区
+ historia del arte - 艺术史
+ internacionalmente - 国际上
+ obra - 工作, 所为, 剧, 作品, 藏品
+ paisaje - 景, 风景, 景色, 景观, 风景画, 风光
+ película de suspenso - 惊悚电影
+ presentador - 主持人
+ retrato - 肖像, 人像, 肖像画
+ seguramente - 很可能
+192 Travelers 旅程: 描述你的行程
+ ahora sí - 现在是, 现在好了
+ amanecer - 日出, 旦, 天亮, 黎明, 曙, 拂晓
+ asustar - 吓唬
+ atardecer - 黄昏, 傍晚, 夕阳, 夕, 昏
+ bañarse - 洗澡
+ casi nunca - 几乎从不
+ coleccionar - 收集
+ con vista a - 可以看到
+ de ida - 单程
+ despegar - 起飞
+ dormirse - 打瞌睡
+ embarcar - 登机
+ escala - 规模, 经停, 爬, 梯子, 中转, 秤
+ horario - 班次, 日程, 时间表, 作息时间
+ juventud - 青年时期的, 青年时期, 青春
+ leyenda - 传说, 传奇
+ magnífico - 壮观, 出色, 壮观的, 豪, 伟大
+ recuerdo - 记得, 纪念品, 提醒, 忆, 回忆, 记忆, 回想
+ registrarse - 注册, 挂号, 报到, 入住, 登记, 签到
+ salir - 离开, 外出, 出来, 交往, 退出, 出门, 出去, 下班, 出, 开走
+ siempre que - 每当
+ turbulencia - 颠簸
+ viajero - 旅行者
+193 I agree 政治: 表达你的政治观点
+ absolutamente - 绝对地
+ admitir - 承认
+ alcalde - 市长
+ brillante - 精彩, 辉煌, 闪亮, 赫, 前途无量, 焕, 高明, 亮亮, 灿, 亮亮的, 亮, 鲜艳, 杰出, 光明, 灿烂, 艳, 清脆
+ ciudadano - 市民, 公民；市民, 公民
+ claro - 当然, 清, 简洁, 浅色, 清爽, 明, 干净的, 浅, 清脆, 楚, 清楚, 明确, 朗, 动听
+ de mi lado - 我这边
+ derecho - 权利, 法律, 资格, 权, 右, 右脚, 法学
+ discutir - 争论, 争执, 讨论, 吵起, 商量一下, 讨论一下, 计较
+ económico - 实惠, 经济, 廉价
+ es mejor - 更好
+ exactamente - 恰好, 完全相同, 准确地, 究竟, 完全 (一致), 竟, 就是
+ impuesto - 赋税, 捐税
+ intercambiar - 交换, 交换意见, 替换
+ mente - 脑子里, 头脑, 心上, 脑海, 脑海中, 智力, 思想, 心智, 记忆, 心头, 内心
+ ministro - 总理, 部长, 首相
+ minoría - 少数, 少数派
+ pensamiento - 思维, 思, 思路, 想法, 感想, 观念
+ podría ser - 可能是
+ política - 政治
+ político - 政客, 政治, 政治家
+ punto - 点, 点子, 斑点, 核心
+ reconocer - 辨认出, 认识, 认出, 辨别
+ religión - 宗教, 宗, 信仰, 宗教信仰
+ yo diría - 我会说
+194 Questions 办公室: 介绍你的工作经历
+ a dónde - 去哪儿
+ a quién - 谁
+ a qué distancia - 多远
+ aproximadamente - 大约
+ capacitación - 培训
+ carta de presentación - 求职信
+ complicado - 艰难, 复杂, 难学, 难懂, 棘手, 可难
+ cualidad - 品质
+ desde cuándo - 从什么时候
+ escáner - 扫描仪
+ hasta dónde - 到哪里
+ ingeniería - 工程, 工程学
+ jubilarse - 退休
+ multinacional - 跨国公司, 跨国企业
+ mínimo - 起码, 极小, 最小程度, 轻微
+ periodista - 记者, 新闻记者
+ por dónde - 从哪里
+ propietario - 业主, 所有者, 房主
+ qué tan - 多么
+ rechazar - 抵制, 拒绝, 否决, 驳回, 回绝, 嫌弃
+ recursos humanos - 人力资源
+ renunciar - 辞, 放弃, 辞职, 辞去, 抛弃
+ secretario - 秘书
+ valer - 值
+ vendedor - 销, 售货员, 卖家, 卖方, 销售员, 推销员
+195 Probably 感受: 表达你的感受
+ cariñoso - 亲切, 亲热, 慈爱
+ celoso - 嫉妒, 妒忌
+ confundido - 迷茫, 困惑, 惑, 茫, 糊涂
+ culpa - 辜, 归咎, 这事算, 疚, 愧疚, 内疚
+ cumplir - 年满, 满, 遵从, 履行, 履
+ encantador - 有魅力, 动听
+ envidioso - 嫉妒, 嫉妒的
+ es posible que - 可能
+ es probable que - 很可能
+ furioso - 暴怒, 气冲冲
+ hacer una broma - 开玩笑
+ llamar - 打电话, 打电话给..., 叫水, 称不上, 打, 报警, 称呼, 喊一声
+ mentira - 谎言, 谎, 弥天大谎
+ nada más - 仅此而已
+ no crees - 你不觉得吗
+ poner - 放盐, 放书, 放进, 包放, 放个, 列为, 把, 穿, 书放, 放, 关进, 摆得, 插些, 放油, 他放, 放在, 放小, 多放, 放到, 摆在, 来放, 撒上
+ promesa - 诺, 承诺
+ puede que - 可能
+ salir - 离开, 外出, 出来, 交往, 退出, 出门, 出去, 下班, 出, 开走
+ seguro que - 肯定
+ sentimiento - 情, 感情, 感觉, 感, 感想
+ sentirse - 感到
+ solo - 只有, 只当, 只用, 只是, 只管, 光是, 我仅, 单独, 独自, 只, 只要, 独自一人, 就是, 仅, 孤, 孤单, 只收, 单打独斗, 孤身一人, 孤独, 他空, 仅供, 一个人, 劳拉只, 落单, 才, 仅限, 光靠, 罢了
+ tomar - 服药, 乘坐, 记笔记, 拍张, 拍照片, 拍一, 搭乘, 拍下, 喝一杯, 取, 搭, 要花些, 拍照, 服用, 乘, 拿, 拍自
+ tomar con calma - 冷静对待
+196 Doubts 信念: 表达你的信念
+ alegrarse - 庆幸
+ algún día - 有一天
+ cara a cara - 面对面
+ comprometido - 订婚, 订过
+ cuanto antes - 尽快
+ de nuevo - 再次
+ decir - 中说, 一说, 说, 说不出, 谓, 读出
+ dudar - 怀疑
+ en común - 共同点
+ en contacto - 接触
+ en secreto - 秘密地
+ falso - 假, 很假, 伪, 真的假
+ felizmente - 幸福地
+ hablar - 说话, 聊些, 谈论, 时谈, 通话, 说个, 谈谈, 聊起, 谈, 说, 谈话, 聊着, 发言
+ inseguro - 不自信
+ matrimonio - 夫妇, 姻, 婚, 婚姻, 夫妇俩
+ no creo que - 我不认为
+ no es seguro que - 不确定
+ no me parece que - 我不觉得
+ perdonar - 原谅, 舍得
+ querer - 要, 好要
+ sensato - 明智的
+ sugerencia - 点子, 建议, 暗示
+197 Hospital 医院: 询问宝宝出生时间
+ dentro de - 在...内
+ enfermedad - 病, 疾病, [病症/病], 疾
+ estornudar - 嚏, 打喷嚏
+ estricto - 严, 严格
+ grave - 大不了, 严重的, 病严, 严重, 峻, 严峻, 沉沉的, 要紧
+ internar - 送进
+ morir - 死, 要死
+ muela - 臼齿, 牙疼, 槽牙, 磨牙, 大牙
+ nacer - 出生
+ parto - 分娩, 娩
+ pecho - 胸, 胸部, 胸口
+ pesar - [称重/称], 称量
+ pulmón - 肺部, 肺
+ radiografía - X光片
+ respirar - 呼吸, 透气
+ seguro médico - 医疗保险
+ toser - 嗽, 咳, 咳得
+ tratamiento - 治疗方法, 治疗, 治疗手段, 后处理
+ urgentemente - 紧急地
+198 Hard Work 产业: 讨论项目进展
+ a cuánto - 多少钱
+ aprovechar - 利用
+ aumento - 价格上涨, 涨, 加薪, 增多
+ comenzado - 开始, 开局
+ considerar - 考虑, 进一步, 当, 讲究, 顾, 考虑一下, 把 ... 当成, 正确看待, 认为, 琢磨, 计较
+ construcción - 施工
+ demanda - 需求
+ despedir - 解雇, 开除
+ dificultad - 困难, 不畅, 难关, 难度
+ en total - 总共
+ equipo - 队, 伍, 团, 一队, 团队, 队里, 设备, 球队, 队伍, 硬件, 装备
+ esfuerzo - 下点, 全力以赴, 功夫, 努, 付出, 努力, 勉, 加把劲, 努力实现, 劲, 多大劲, 尽力, 费心
+ falta - 缺乏
+ financiero - 财务, 财务状况, 金融
+ industria - 行业, 业, 工业, 产业
+ inútil - 无济于事, 无用, 没用
+ ir - 去了, 去数, 前去, 去往, 不去, 去, 生去
+ mercado - 市集, 市场, 集市, 菜市场, 市面上
+ producir - 生产
+ préstamo - 贷款, 借款, 贷, 借用
+ recurso - 资源
+ reunido - 汇
+ trimestre - 季度
+199 Urgency 紧急情况: 描述交通事故
+ acompañe - 陪
+ apurarse - 赶紧, 赶时间, 赶忙
+ asustado - 害怕, 受惊, 吓, 好怕
+ bombero - 消防员
+ cargar gasolina - 加油
+ centro médico - 医疗中心
+ con llave - 锁上
+ cuidado - 护理, 当心, 小心, 留神, 照护
+ de inmediato - 立即
+ disminuir - 放小, 变少, 缩短
+ doméstico - 国内, 家用
+ humo - 烟
+ lastimado - 伤, 受过伤
+ llevar - 戴, 带水, 带防, 带, 带花, 携带, 架来, 只带, 能带, 携, 带得, 带上, 扛过去, 车载, 扛着, 随身携带, 拎, 扛
+ parabrisas - 挡风玻璃
+ por - 为了, 因为, 由于, 乘以, 每, 由, 通, 通过, 被, 凭, 出于, 支持, 沿着, 在, 为期, 为, 顺着
+ por si acaso - 以防万一
+ robo - 抢, 抢劫, 盗, 窃, 盗窃案, 大劫案
+ socorro - 救命, 救援
+ tardar - 花
+ velocidad - 速度, 时速, 速, 车速
+ víctima - 受害者, 被害人, 受害人
+ ya mismo - 马上
+200 Gratitude 感谢: 回应别人的感谢
+ amabilidad - 亲切
+ ayudado - 帮助过, 帮过
+ colegio - 学校
+ cuidado - 护理, 当心, 小心, 留神, 照护
+ de nada - 不客气
+ gracias a - 由于
+ gracias por - 感谢
+ gusto - 爱好, 乐趣
+ haberme - 给我
+ mil gracias - 非常感谢
+ muchas gracias - 非常感谢
+ muchísimas gracias - 非常感谢
+ muy amable - 非常友好
+ niñero - 保姆, 男保姆
+ no hay de qué - 不用谢
+ no hay problema - 没问题
+ no tienes por qué - 你没有必要
+ placer - 乐趣, 荣幸, 乐事
+ por anticipado - 预先
+ por nada - 用任何东西
+ ramo - 束, 一束
+ tanto - 多, 如此多的, 这么, 这么多, 既
+201 Let's Go! 道路: 描述交通状况
+ acceso - 取用, 访问, 存取, 获取, 入门
+ acera - 人行道
+ bajémonos - 下车
+ buscar - 查找, 找找看, 找点, 寻找, 查一, 寻, 找, 找车, 完猫, 寻求, 找人, 找烂, 一查
+ caber - 放得下
+ calle sin salida - 死胡同
+ camión - 卡车, 大卡车, 货车
+ carril - 车道
+ ciclovía - 自行车道
+ cruce - 过, 过马路, 十字路口
+ diagonal - 对角线
+ doblemos - 折叠
+ embotellamiento - 堵塞, 塞车
+ hora pico - 高峰时间
+ moto - 摩托车
+ parada - 站, 一站
+ peatonal - 人行
+ por - 为了, 因为, 由于, 乘以, 每, 由, 通, 通过, 被, 凭, 出于, 支持, 沿着, 在, 为期, 为, 顺着
+ regresemos - 回去吧
+ rotonda - 环岛
+ seguir - 跟着, 保留, 跟上, 循, 照着, 接着, 继续, 仍旧, 遵守规则, 遵, 我照, 遵循, 继续下去
+ todo recto - 一直直走
+ túnel - 隧道
+ veámonos - 见面, 见
+ vámonos - 走吧
+202 Bad Day 学习: 表达学习目标
+ a propósito - 故意
+ atentamente - 仔细
+ bastante - 不少, 相当, 挺善, 挺, 多水, 相当多
+ composición - 作文, 组合
+ concentrarse - 专心, 专注
+ correctamente - 正确地
+ desaprobar - 不及格
+ duro - 努力
+ escuela primaria - 小学
+ escuela secundaria - 中学
+ experimento - 实验, 试验
+ fatal - 致命
+ fuerte - 健壮的, 最强者, 猛, 强烈, 强项, 健壮, 更强, 健硕, 最强, 强劲, 壮, 大声, 浓郁, 还响, 很烈, 烈, 强壮的, 好紧, 响亮, 强壮, 强, 坚强, 浓烈, 顽强
+ jurar - 发誓
+ laboratorio - 实验室, 研究所
+ lento - 慢
+ nada - 泳, 游泳, 游得, 之类, 他游, 什么也不, 没什么, 任何事物
+ ni - 也不, 既非, 妮, ni
+ preparado - 备, 准备, 调配
+ promedio - 平均, 平均分, 平均数, 平均值
+ resolver - 侦破, 解, 解决问题, 解决, 解答
+ revisión - 修改, 检查
+ totalmente - 完全地
+ unidad - 单位, 枚, 支, 合意, 团结, 单元
+203 Bad News 犯罪: 描述犯罪经过
+ algunos de - 一些
+ arma - 武器
+ arrestar - 逮捕, 逮
+ asesinato - 谋杀案, 谋杀, 凶杀, 杀人
+ atacar - 攻击, 反击
+ atentado - 袭击
+ bomba - 炸弹
+ cárcel - 牢, 监狱
+ delincuente - 歹徒, 犯罪者, 人犯, 犯, 犯人
+ delito - 犯罪
+ denunciar - 举报
+ disparo - 枪声, 射门
+ explotar - 爆炸
+ la mayoría de - 大多数
+ la mitad de - 一半的
+ muchos de - 许多
+ ninguno de - 两个都不
+ prensa - 出版社, 新闻界
+ terrorista - 恐怖分子
+ testigo - 证人, 见证人, 目击者
+ un grupo de - 一群
+ un tercio de - 三分之一
+ una parte de - 一部分
+ uno de - 之一
+204 Comfort 饮食: 介绍你的早餐
+ avena - 燕麦
+ calentar - 热身, 热一热
+ casero - 家庭的, 家常, 房东, 家用
+ cocinemos - 做饭
+ cucharada - 勺, 一勺
+ despierte - 醒来, 醒醒
+ duerma - 睡觉
+ guiso - 炖菜, 炖
+ hierba - 草
+ hoy en día - 如今
+ huevos revueltos - 炒鸡蛋
+ jugoso - 多汁, 嫩
+ lasaña - 千层面
+ mantequilla de maní - 花生酱
+ merendar - 吃下午茶, 吃
+ olor - 味道, 菜闻, 味儿, 气味, 香味
+ palomitas de maíz - 爆米花
+ para que - 为了
+ pedir - 请假, 点, 订餐, 请求, 请点, 会要, 许愿, 再要, 许下, 要点, 能点, 订购, 点单, 要饭, 求助, 点个, 就点, 求救, 索要, 点菜, 再点, 美请
+ poco después - 不久之后
+ quiera - (他/她/它) 想要, (他/她/它) 要
+ recordar a - 纪念
+ recuerde - 记住
+205 Empathy 挑战: 分享你的经历
+ a fin de cuentas - 总而言之
+ agotado - 罄, 累死, 疲惫, 累, 累坏, 售罄, 累坏了, 耗尽, 缺货, 殆尽, 人累
+ aliviado - 宽慰, 如释重负
+ bucear - 潜水
+ debe haber - 必须有, 必须
+ debe haber sido - 一定是
+ debo haber - 一定是
+ desafío - 挑战, 挑
+ dolido - 痛苦, 疼过
+ doloroso - 太疼
+ energía - 精力, 能源, 点能, 能量, 体力, 劲儿, 活力, 力度
+ haberme - 给我
+ hacer ejercicio - 锻炼
+ increíble - 了不起, 真牛, 难以置信, 不可思议, 可棒
+ justo - 公平的, 刚好, 价格公道, 公平, 恰, 不长不短, 正好, 就, 不大不小, 恰好
+ lástima - 遗憾
+ pista - 跑道, 头绪, 线索, 提示, 绪
+ por lo menos - 至少
+ positivo - 积极的, 积极
+ rodilla - 膝盖, 膝
+ sucedido - 发生
+ sufrir - 受苦, 遭, 点苦
+ tranquilo - 安稳, 宁静, 宁, 放心, 安静, 平静, 安心, 安, 静, 平稳
+ victoria - 胜利, 胜, 维多利亚, victoria
+206 Sorry 日常生活: 表达感谢与道歉
+ a la perfección - 完美地
+ acostumbrado - 习惯
+ al revés - 反了
+ caer - 沉下, 跌倒, 坠, 落下, 掉, 滑下, 掉下, 倒, 摔下, 坠入, 沉下去
+ cuidar - 照看, 护理, 养, 养猫, 看家, 完猫, 关爱, 爱护, 看守, 照顾, 讲究
+ desorden - 混乱
+ disculparse - 道歉
+ enchufe - 插头, 电源插头
+ es una lástima que - 真遗憾
+ es una pena que - 真遗憾
+ herramienta - 工具
+ lamento que - 我很遗憾
+ limpiar - 洁, 扫得, 清扫, 打扫, 洗起来, 擦车, 先擦, 擦擦, 打, 清洁, 清理, 擦, 清洗, 打扫卫生, 冲洗
+ mantel - 桌布
+ marco - 马尔科, 框架, 我进, 马可道, 画框, 马可, marco, 框, 槛
+ ordenado - 整理, 有序, 整洁
+ pegar - 贴, 黏
+ quemar - 烧糊, 烧, 燃烧, 糊成
+ qué mala suerte - 真是倒霉
+ regar - 浇水, 灌, 浇, 浇灌
+ servir - 斟, 服务, 斟酒
+ siento mucho que - 我很遗憾
+207 Too Bad 租房: 询问租房条件
+ acogedor - 温馨
+ al menos - 至少
+ ambiente - 空气, 气氛, 环境, 氛围, 周边环境
+ arreglaran - 修理
+ barriera - 扫
+ compraran - 买
+ condición - 状况, 处境, 好坏, 条件, 病情, 前提
+ céntrico - 中心的
+ decidieran - 决定
+ espacio - 空格, 空间, 太空
+ fregar - 擦洗, 洗起来
+ hablaran - 谈论, 说话
+ humedad - 湿气, 水分, 湿度, 潮气
+ ideal - 理想, 理想的, ideal
+ limpiaran - 打扫
+ llamara - 打电话
+ medida - 测量, 措施, 尺寸, 长短, 措, 分寸
+ pintara - 画
+ portero - 守门员, 看门人, 门卫, 门房
+ práctico - 简易, 实用, 轻便, 实践性, 使用方便
+ ruidoso - 闹, 吵, 嘈杂, 太吵, 嘈
+ timbre - 嗓音, 门铃, 印章
+ ubicación - 位置
+ vendiera - 卖
+ viera - 见到
+208 Blind Date 婚礼: 表达对婚礼的期待
+ al aire libre - 户外
+ anticuado - 过时, 落伍
+ aquí mismo - 就在这里
+ chiste - 玩笑, 笑话
+ cita a ciegas - 相亲
+ desilusionado - 失望
+ discusión - 讨论, 讨论会, 议, 争议
+ educado - 有礼貌, 教养
+ estuviera - 在
+ estúpido - 愚蠢, 傻得
+ evidente - 显, 明显, 显而易见
+ fuera - 在外, 出去, 外面, 是, 换作
+ fuéramos - 是
+ hiciera - (他/她/它) 做, 搞了个
+ ilusionado - 兴奋
+ introvertido - 内向的, 内向, 性格内向
+ ocasión - 场面, 场合
+ ojalá - 但愿, 恨不得
+ precioso - 珍贵, 瑰, 珍, 宝贵
+ pudiera - (他/她/它) 可能, (他/她/它) 能
+ pudiéramos - 能够
+ supiera - 知道
+ supiéramos - 知道
+ tonto - 傻, 蠢, 真笨, 笨, 很傻, 傻乎乎, 愚, 愚蠢, 傻得
+ tuviera - 有
+209 Recipes 食材: 描述你要买的食材
+ alimento - 食物
+ berenjena - 茄子
+ calabacín - 西葫芦
+ camarón - 虾, 虾子, 这虾
+ chile - 辣椒, chile
+ dijera - 告诉
+ docena - 半打, 一打
+ espinaca - 菠菜
+ fuera - 在外, 出去, 外面, 是, 换作
+ fuéramos - 是
+ horno - 烤箱, 炉子, 炉
+ líquido - 液体, 液
+ olla - 锅, 一锅
+ orgánico - 有机, 有机的
+ pavo - 火鸡
+ pimiento - 辣椒, 甜椒, pimiento
+ por último - 最后
+ tarta - 馅饼, 派
+ trajera - 带
+ trajéramos - 带
+ verdulería - 蔬菜店
+ viniera - 来
+ viniéramos - 来
+ yema - 蛋黄
+210 Got WiFi? 网络: 描述你的网络设备
+ batería - 架子鼓, 电池, 电瓶
+ bloguero - 博主
+ buscador - 浏览器
+ celular - 手机
+ configurar - 设置, 调试
+ datos - 数据
+ el que - 的那个
+ enlace - 链接, 环节, 联系人
+ estafar - 欺骗, 骗过, 骗钱
+ innecesario - 多余的
+ los de - 那些人
+ los que - 那些
+ nombre de usuario - 用户名
+ pasar - 闯过, 进来, 花上, 转达, 经过, 路过, 顺便来, 消磨, 递给, 消磨时光, 卡进, 度过, 顺道去, 过桥, 超车
+ presionar - 按, 催得
+ robot - 机器人
+ rúter - 路由器
+ seguridad - 安全, 安全措施
+ señal - 征兆, 信号, 标志, 警示牌, 手势, 兆头, 标记, 暗示, 迹象, 暗号
+ símbolo - 符号, 标记, 符
+ tecla - 键
+ tendencia - 热门
+ ícono - 图标
+211 Fix It! 维修: 咨询维修价格
+ antes de que - 在...之前
+ aproximado - 大约的
+ cable - 电缆, 缆
+ calentador - 加热器
+ caño - 管子
+ clavo - 钉子, 丁, 钉
+ cortar - 斩, 剪掉, 切断, 剪发, 切割, 割, 切, 剪, 锯成, 切菜, 切鱼, 刀切, 剪碎, 切开, 截, 中断
+ cortarse la luz - 停电
+ desenchufar - 拔掉插头, 拔下
+ después de que - 之后
+ destornillador - 螺丝刀
+ electricista - 电工
+ escalera - 梯, 楼梯间, 梯子, 楼梯, 楼道
+ ferretería - 五金店
+ gas - 气, 气体, 燃气, 煤气, 加斯, 屁
+ gotera - 漏水
+ hasta que - 直到
+ luz - 光线, luz, luc, 卢兹, z, 灯光, 灯, 灯来, 道光, 露斯, 卢斯干, 光亮, 露兹, 卢斯, 卢斯会
+ mano de obra - 人工费
+ mantenimiento - 维护, 保养
+ martillo - 锤, 锤子, martillo
+ mudarse - 搬, 搬到, 搬家, 搬迁
+ plomero - 水管工
+ presupuesto - 预算, 经费
+ pérdida - 损失, 遗, 浪费, 亏下
+212 Decor 家装: 分享家居装饰想法
+ aluminio - 铝
+ bandeja - 托盘
+ candelabro - 烛台
+ cojín - 靠垫, 垫子
+ colgar - 挂
+ colocar - 摆放, 放, 置, 他放, 放小, 摆, 包放
+ de alto - 高
+ de largo - 长
+ de madera - 木制
+ deberían - 应该, 理应
+ decoración - 装饰, 摆设
+ decorar - 装饰
+ hay que - 需要, 应该
+ jarrón - 花瓶
+ maceta - 花盆里, 花盆, 一盆
+ medir - 测, 量体温, 量, 测量
+ metal - 金属
+ persiana - 百叶窗
+ remodelar - r
+ rincón - 角落, 转角
+ tendré que - 将不得不
+ tendría que - 应该
+ unos - 1, 一些, 几个
+ vela - 蜡烛, 帆
+213 Insurance 医疗: 预约医生
+ adecuado - 适合, 非常适合, 合适的, 充分, 合用, 最合适, 合脚, 宜, 他合, 不大不小, 到位, 适用, 适, 不紧, 合适, 完善
+ alergia - 过敏, 过敏症
+ aprobar - 点赞, 通过, 批准, 批过
+ atención médica - 医疗护理
+ centro de salud - 健康中心
+ cobertura - 覆盖, 保险, 覆盖范围
+ credencial - 证件
+ cuidador - 护工, 看护, 护理员
+ de hecho - 事实上
+ discapacidad - 残疾, 残障
+ extranjero - 境外, 国外人, 外国, 海外, 国外, 外国人, 外语, 国外的, 夷
+ inscribirse - 注册, 签到
+ mayor de - 超过
+ medicamento - 药对, 药, 药品
+ menor de - 不到
+ médico - 医师, 医生, 医, 医疗
+ obtener - 考取, 得, 取水, 抽到, 获, 得手, 获取, 得到, 挣过, 选到, 获得, 争夺
+ privado - 私人, 私立, 个私
+ sano - 健康
+ seguro - 定, 确信, 安全的, 一定, 确定的, 有把握, 保险, 安, 安全, 确定, 保险金
+ seguro social - 社会保险
+ silla de ruedas - 轮椅
+ sin receta - 非处方
+ solicitar - 请求, 请点, 申, 申请, 点单
+ tarifa - 票价, 费率, 价位
+214 Talk Show 节目: 介绍你喜欢的节目
+ a continuación - 接下来
+ aparecer - 里变, 出现, 露面, 花来
+ apodo - 绰号, 外号
+ comedia - 喜剧
+ común - 共, 普通, 共同, 凡, 常见, 寻常, 普遍
+ cosmopolita - 世界主义者, 世界主义
+ curiosidad - 好奇, 好奇心
+ cómico - 滑稽, 稽
+ diseñador - 设计师
+ estilista - 发型师, 造型师
+ generación - 辈, 一代, 一代人, 年代
+ hablando de - 谈论
+ insistir - 坚持
+ interrumpir - 打断, 中断
+ peinado - 发型, 梳过
+ pensar - 想起, 思考, 想想, 动脑子, 想得, 思, 想到, 琢, 琢磨
+ presentar - 表达, 绍, 介绍, 出新, 主持, 展示, 献, 展现
+ reencarnación - 转世
+ secreto - 诀, 秘, 秘诀, 密, 秘密, 保密
+ sentido común - 常识
+ soñar - 做梦
+ terminar - 完成, 吃得完, 结束, 开完, 办完, 终结, 选完
+ tratar de - 尽量
+ volviendo al tema - 回到主题
+215 Celebrate! 节日: 描述你喜欢的节日
+ Día de los Muertos - 亡灵节
+ al aire libre - 户外
+ anciano - 翁, 大爷, 老人家, 老人, 老先生, 长者, 年老
+ atraer - 吸引
+ budista - 佛教徒
+ católico - 天主教徒
+ decoración - 装饰, 摆设
+ día festivo - 节假日
+ encender - 打开, 开火, 点起, 点燃, 燃, 开机
+ festejar - 庆祝
+ fiesta - 派对, 节日, 聚会, 晚会
+ fuegos artificiales - 烟花
+ judío - 犹太人, 犹太
+ musulmán - 穆斯林
+ religioso - 信仰宗教的, 宗教
+ se - 他们, 您, 被
+ se debe - 必须
+ se está realizando - 正在举行, 正在进行
+ se festeja - 庆祝
+ se han vendido - 卖完了, 卖出
+ se tiene que - 必须
+ se visita - 拜访
+216 World News 事件: 讲述最近的事件
+ aerolínea - 航空公司
+ británico - （属于）英国, 英国人, 英国式
+ causado - 引起, 闯祸
+ desarrollar - 增长, 开发新, 发展, 打造, 阐述, 开放, 培养, 研制, 开发, 扩展
+ destruidos - 摧毁
+ embajador - 大使
+ encontrar - 找到, 找, 遇到, 找纯素
+ fue desarrollado - 开发的, 开发了
+ fueron invitados - 被邀请
+ huelga - 罢工, 罢
+ informar - 通知, 汇报, 告知
+ investigación - 研, 调查, 新闻调查
+ joven - 年轻, 幼, junior, 嫩, 年轻的, 年轻人, 年幼, 少年, 小伙子, 青年, 年下, 晚辈
+ monarquía - 君主制
+ noroeste - 西北部
+ norteamericano - 美国人（阳性）, 北美的（阳性）, 美国的（阳性）, 北美
+ organizada - 有条理地, 有条理
+ partido - 赛, 党, 政党, 比赛, 该党, 球赛, 场比
+ por - 为了, 因为, 由于, 乘以, 每, 由, 通, 通过, 被, 凭, 出于, 支持, 沿着, 在, 为期, 为, 顺着
+ primer ministro - 首相
+ protestar - 抗议, 哭闹
+ respecto a - 关于
+ sudamericano - 南美洲人
+217 Harvest 种植: 介绍常见作物
+ arruinar - 毁掉
+ bajo cero - 零下
+ cereal - 谷物早餐
+ coco - 椰, coco, 可可, 椰子, 脑袋
+ congelar - 冷冻, 会冻, 冻结, 冻硬
+ consecuencia - 后果
+ crecer - 增长, 生长, 成长, 想长
+ cultivar - 种出, 栽培品种, 就种, 培养
+ depender - 依靠
+ efecto - 见效, 影响, 效果, 效, 作用, 效应
+ evitable - 可以避免的, 可避免的
+ frutal - 果树
+ helada - 霜冻, 冰水, 冰凉
+ huerto - 果园, 菜园
+ la verdad - 说实话
+ lejos - 远
+ llovido - 下雨
+ plantar - 种树, 栽, 种, 他种, 种梨, 种上, 就种
+ rural - 农村, 农村的, 乡村
+ secarse - 擦干
+ semilla - 种子
+ terreno - 地块, 土地, 地面
+ trigo - 麦, 小麦
+218 Buy Now! 广告: 描述广告内容
+ ahorra - 省钱, 省, 节省, 节省时间
+ comercial - 购, 商业, 商场
+ confiable - 可靠的
+ conforme - 符合, 合规
+ cómpralo - 买下它
+ cómprelo - 买吧
+ de regalo - 赠品
+ demás - 其他
+ encuentre - 找到
+ fenomenal - 极好, 极好的
+ hasta - 为止, 止, 迄, 至, 截至, 等到, 多达, 到, 至多, 才, 直到, 甚至
+ hogar - 家园, 户, 家, 一个家
+ maravilla - 奇观, 奇迹, 妙处
+ mejor - 好些, 佳, 更加, 比较, 最, 较, 好得多, 最佳, 最棒, 好受, 最好, 更好的, 更会, 更好, 干脆
+ merecer - 配得
+ no te lo pierdas - 不要错过它
+ novedad - 新意, 新鲜事
+ piense - 想
+ pienses - 想, 想都别想, 想一想, 别想
+ por nada - 用任何东西
+ realidad - 现实
+ salir - 离开, 外出, 出来, 交往, 退出, 出门, 出去, 下班, 出, 开走
+ solo - 只有, 只当, 只用, 只是, 只管, 光是, 我仅, 单独, 独自, 只, 只要, 独自一人, 就是, 仅, 孤, 孤单, 只收, 单打独斗, 孤身一人, 孤独, 他空, 仅供, 一个人, 劳拉只, 落单, 才, 仅限, 光靠, 罢了
+ suscribirse - 订阅
+ una vez - 一次
+219 TV Chef 比赛: 介绍比赛规则
+ agrio - 酸味
+ amargo - 苦, 苦涩, 苦得, 辛, 发苦
+ bailando - 跳着, 跳舞, 跳, 跳巴, 萨舞时
+ batiendo - 搅拌, 搅打, 打匀
+ calabaza - 南瓜
+ cantando - 唱歌
+ clara - 清晰, 克拉拉, 蛋白, 晰, 清, 明, 干净的, 楚, 清楚, 明确, 朗, clara
+ descongelar - 解冻, 融化
+ harina - 玉米面, 面粉, 米粉
+ hervir - 煮, 煮沸, 沸
+ hirviendo - 水开, 煮, 沸腾, 滚烫
+ juez - 法官, 裁判
+ leche descremada - 脱脂牛奶
+ leyendo - 看书, 在读, 读 (副动词), 看 (副动词), 正读
+ participante - 玩家, 参与者, 选手
+ pelar - 削, 削苹果, 去皮
+ perejil - 芹, 香菜, 欧芹
+ perfectamente - 完全地
+ programa de cocina - 烹饪节目
+ revolver - 搅, 搅拌
+ saber - 知道, 得知, 晓, 知晓, 懂得, 懂, 会, 懂吗
+ sartén - 锅, 平底锅
+ seleccionar - 筛选, 抽取, 看中, 挑选, 选到, 选完, 筛
+220 Concerns 新闻: 表达你对新闻的看法
+ democracia - 民主
+ desagradable - 难闻, 令人不快, 刺耳
+ desventaja - 弊, 劣势, 缺点, 坏处
+ dictadura - 独裁, 专政, 独裁统治
+ ecología - 生态环境
+ educación - 教育
+ empleo - 职, 就业
+ esperanza - 希望
+ estabilidad - 稳定
+ gobernador - 州长, 省长
+ haber - 有
+ impresión - 好感, 印象, 感想, 第一印象, 刻印
+ intención - 有意, 打算, 意图, 心意, 意, 意志
+ investigar - 调查, 研究, 考察
+ libertad - 自由
+ me da miedo que - 我害怕
+ me molesta que - 让我恼火的是
+ me preocupa que - 我担心
+ muerte - 死亡
+ no soporto que - 无法忍受
+ noticiero - 新闻节目
+ periodismo - 新闻学
+ pobreza - 贫苦
+ terrorismo - 恐怖主义
+221 Adventures 选择: 表达你的选择
+ armar - 组装, 组建, 装备
+ aun así - 尽管如此
+ calmo - 平静
+ canal - 频道, 渠道, 运河
+ carpa - 帐篷
+ cima - 顶, 顶峰, cima
+ congelado - 冷冻, 冰冻, 冻结, 冻结的, 冻坏, 冻, 冻得
+ llevar - 戴, 带水, 带防, 带, 带花, 携带, 架来, 只带, 能带, 携, 带得, 带上, 扛过去, 车载, 扛着, 随身携带, 拎, 扛
+ mochilero - 背包客
+ murciélago - 蝙蝠, 蝙, 蝠
+ más - 更胜, 更, 最有, 进一步, 更加, 比较, 最像, 比威, 最让人, 较, 多点, 多多, 再添, 最为, 更为, 更具, 再有, 更多, 别多, 更让人, 更高, 还要, 格外
+ nadie más - 没有其他人
+ parecer - 看起来, 仿佛
+ punto de encuentro - 集合点
+ saco de dormir - 睡袋
+ senderismo - 徒步旅行
+ snowboard - 滑雪板
+ sobre todo - 最重要的是
+ soplar - 吹
+ sí - 是, 对, 是的
+ sí o sí - 无论如何
+ y después - 然后
+ ya que - 因为
+ yo no - 我不
+ yo sí - 我可以
+222 Jobs 人物: 介绍同事的职责
+ administración - 施政, 管理方, 管理（部门）, 后台
+ aparentemente - 显然
+ apoyar - 支持, 有利于
+ astronauta - 宇航员, 宇航员的
+ azafato - 空乘
+ capitán - 船长, 队长, 机长
+ cartero - 邮递员
+ colaborar - 合作, 互相配合
+ detective - 侦探
+ dirigir - 指挥, 管理, 主持
+ editorial - 编辑部, 出版社
+ evidentemente - 显然
+ funcionario - 官员, 官, 公务员, 仕
+ licenciado - 学士
+ lo curioso - 奇怪的是
+ lo interesante - 有趣的事
+ lo más importante - 最重要的
+ lo raro - 奇怪的事
+ marinero - 水手
+ permanente - 永久
+ resultar - 结果, 导致, 产生, 显得, 证明
+ se supone que - 应该
+ suspender - 不挂科, 中断
+ tiempo completo - 全职
+223 Neighbors 邻里: 介绍你的邻居
+ adoptar - 采用, 收养, 改用
+ bigote - 胡子, 小胡子
+ calvo - 秃头, 秃顶, 光头
+ de al lado - 隔壁
+ dueño - 房东, 主人
+ en voz baja - 小声
+ gallo - 公鸡
+ inapropiado - 不妥, 不当, 不得体
+ jardinero - 园丁
+ lo es - 是的
+ lo está - 是
+ loro - 鹦鹉, loro
+ mellizo - 孪生兄弟
+ ni - 也不, 既非, 妮, ni
+ panadero - 面包师
+ parecer - 看起来, 仿佛
+ pianista - 女钢琴家, 钢琴家
+ psicólogo - 心理医生, 心理学家
+ puesto - 职位, 小摊, 摊, 放, 落山, 着, 摊上, 席位, 变蓝, 摆, 既, 摊位, 位子
+ qué horror - 太可怕了
+ separado - 分居, 分开, 分着, 个别
+ sinagoga - 犹太教堂, 会堂
+ soportar - 承受, 扛过, 受得住, 扛过去, 扛着, 扛
+ séptimo - 第七, 第七个
+ veterinario - 兽医
+224 Counsel 回忆: 描述家庭往事
+ adolescencia - 青春期, 青春
+ animar - 加油
+ artístico - 艺术, 艺术的
+ brevemente - 简短地
+ colorear - 涂色
+ comportamiento - 表现, 行为, 不良行为
+ controlar - 克制, 控, 调节, 控制, 管住, 统治
+ existir - 存在
+ familiar - 熟悉的, 不太熟, 面熟, 家用, 亲人
+ hacer caso - 听
+ hábito - 惯, 坏习惯, 袍
+ marcharse - 离开, 开走
+ meterse en problemas - 惹麻烦
+ par - 双, 偶数的, 匹
+ presente - 现在, 在场
+ relacionar - 联想
+ relajación - 放松
+ reunión - 集会, 次会, 留尼汪岛, 团圆, 会议, 聚餐, 集结, 聚会, 会面, 开会, 集, 大会, 开会 (名词), 面谈
+ sensible - 敏, 敏感
+ terapia - 治疗, 疗
+ todos - 所有的, 都, 每, 所有, 大伙儿, 大家, 皆, 完全的, 所有人, 全都, 整, 全都会
+ trabajara - 工作
+ técnico - 技术型, 正派, 技术员, 技师, 师傅
+225 Patients 病痛: 描述身体不适
+ acostado - 躺着, 着
+ caloría - 卡路里
+ caminara - 走路
+ cintura - 腰
+ circulación - 血液循环
+ comiera - 吃
+ cáncer - 癌症, 癌
+ descansara - 休息
+ diabético - 糖尿病患者, 糖尿病人
+ era necesario que - 有必要, 需要, 是必要的
+ fibra - 纤维
+ gota - 滴
+ muñeca - 腕, 娃娃, 手腕
+ músculo - 肌肉
+ oculista - 眼科医生
+ postura - 姿, 姿势, 体态, 立场
+ primeros auxilios - 急救
+ pulgar - 拇指, 拇, 大拇指
+ qué alivio - 真是松了一口气
+ resaca - 宿醉
+ sangrar - 出血
+ tobillo - 脚踝, 踝
+ tomara - 喝
+ urgencia - 紧急情况
+ vitamina - 维生素
+226 Disbelief 疑案: 描述可疑人物
+ borracho - 醉
+ ciego - 盲人, 失明
+ compañero - 同伴, 队友, 伴, 合作伙伴, 哥们儿, 伴侣, 伙伴, 朋友, 搭档, 同学, 好友
+ desaparecer - 消失
+ esconder - 藏
+ estar en problemas - 有麻烦
+ estatua - 雕像, 雕塑
+ guardia - 保安, 警卫, 守卫, 门卫
+ horóscopo - 星座
+ inevitable - 难免会, 不可避免, 不可避免的, 难免, 不免有些
+ masculino - 男性, 男款
+ mil millones - 十亿
+ muchacho - 男孩, 男孩儿, 小伙子
+ no es cierto que - 这不是真的
+ no puede ser que - 不可能
+ no puedo creer que - 我不能相信
+ notar - 注意, 留意
+ pescador - 渔夫, 渔民
+ pista - 跑道, 头绪, 线索, 提示, 绪
+ princesa - 公主
+ príncipe - 王子
+ robar - 偷拿, 胡安偷, 偷东西, 偷, 抢走了
+ sospechoso - 嫌疑人, 嫌, 可疑
+ típico - 典型的, 典型
+ vigilar - 监视, 留意
+227 Surprise 惊讶: 回应别人的惊讶
+ bromear - 开玩笑
+ cabina - 舱, 机舱, 舱室
+ calzoncillos - 内裤
+ casco - 头盔
+ corte de pelo - 发型
+ cuánto - 多少
+ derramar - 上乱, 泼到, 洒, 泼水
+ en serio - 真的
+ filmar - 拍, 拍电影
+ guau - 哇
+ hacia atrás - 向后
+ maletero - 后备箱
+ mirada - 目光, 眼神, 外表, 眼光, 视线
+ no me digas - 别告诉我
+ no puede ser - 不可能
+ no te creo - 我不相信你
+ octavo - 八世, 第八个, 第八任, 八开本, 第八
+ pasillo - 走道, 廊, 过道, 走廊, 通道, 楼道
+ peinarse - 梳头发
+ pero - 但, 却, 但是, 可是, 但雨刷, 不过, 却关, 而是
+ qué - 哪款, 何, 多么, 啥, 什, 哪趟, 哪个, 哪家, 怎么着, 什么, 么, 哪些, 哪只, 哪, 哪支, 哪间
+ sorprendente - 讶, 惊, 不足为奇, 惊艳, 惊讶, 惊人, 令人惊讶, 艳, 奇妙
+ uy - 哎呀
+ ventanilla - 窗户, 舷窗
+228 Elementary 课堂: 介绍你的幼儿园
+ bandera - 旗, 旗子, 旗帜, 帜
+ batalla - 大战, 战役, 役
+ callarse - 闭嘴
+ cartón - 纸板, 纸箱
+ continente - 州, 大陆, 洲
+ es estresante que - 让人感到压力的是
+ es fantástico que - 太好了
+ grado - 程度, 一年级, 度, 几年级, 学位
+ guardería - 托儿所, 幼儿园
+ hemisferio - 半球
+ jardín de infantes - 幼儿园
+ lector - 读者
+ llorar - 落泪, 我流, 哭, 哭个, 哭过, 哭闹
+ mamífero - 哺乳动物
+ me gusta que - 我喜欢
+ noveno - 九年级, 第九
+ obedecer - 服从, 听话
+ origen - 来源, 产地, 来历, 原, 由来, 起源, 起点
+ pronunciar - 能念出, 发音, 读出
+ qué interesante que - 真有趣
+ qué raro que - 真奇怪
+ rectángulo - 长方形, 矩形
+ tierra - 地球
+ triángulo - 三角形
+229 Speculate 经历: 分享旅行经历
+ adelgazar - 减肥
+ alianza - 联盟, 伙伴关系
+ asiático - 亚洲的, 亚洲
+ atletismo - 田径
+ ayudante - 助手, 帮手
+ casarse - 结婚, 娶
+ chequeo - 查看
+ de tiempo parcial - 兼职
+ estadía - 逗留
+ guiar - 引导
+ haber - 有
+ habrá ido - 可能去
+ habrá sido - 一定, 一定是, 肯定
+ natación - 游泳
+ novios - 新郎新娘
+ químico - 化学, 化学家
+ ser - 当, 被, 遭到, 做, 成为, 是, 要系
+ sudeste - 东南
+ suegros - 岳父
+ templo - 寺庙, 庙里
+ tener - 要开, 班有, 养, 多备, 要养, 有, 养狗, 拥有, 碰上, 心怀, 常备, 只开, 对交, 手握
+ trotar - 慢跑
+ vacuna - 疫苗, 苗
+ valle - 月亮谷, 山谷
+230 Animals 动物: 描述见到的动物
+ acercarse - 走近, 卡来
+ asustarse - 害怕, 怕不怕
+ cucaracha - 蟑螂
+ es decir - 也就是说
+ espera - 希, 期待, 希望, 望, 等候, (他/她/它) 等待, 等等, 稍等一下
+ gallina - 母鸡
+ lo - l, 它, lo
+ lobo - 狼
+ mira - 你看, 瞧瞧, 看, 看看, 瞧
+ morder - 咬, 咬得
+ mosca - 苍蝇, 蝇
+ mosquito - 蚊子
+ orilla - 畔, 滨, 岸边, 河边
+ oye - 喂
+ oíste que - 你听说
+ paloma - 鸽子, 鸽
+ permitir - 允许
+ picar - 切碎, 切, 咬得
+ por lo que veo - 据我所见
+ rama - 树枝
+ rana - 青蛙
+ ratón - 老鼠, 鼠, 鼠标
+ rescatar - 救出, 拯救, 救, 救助, 抢救
+ te lo - 你说
+231 Gossip 关系: 表达你对别人的看法
+ amante - 情人, 爱人, 恋人
+ barriga - 肚子
+ bronceado - 晒黑
+ cambiarse de - 换
+ casino - 赌场
+ chisme - 八卦, 闲话, 谣言
+ como - 般的, 当, 吃生, 仿佛, 身为, 过像, 作为, 吃饭, 不吃, 吃糖, 似的, 我吃, 如, 云像, 正像, 吃豆腐, 既然
+ cortarse el pelo - 剪头发
+ dejar - 离开, 阻止, 不留, 让, 离职, 停止, 他放, 上留, 写个, 放下, 退学, 抛弃
+ engañar - 欺骗, 误导, 骗过, 骗钱
+ figura - 形状
+ hablar mal de - 说坏话
+ ir a pasear - 去散步
+ juzgar - 裁, 评判, 判断
+ millonario - 百万富翁
+ preferir - 看中, 更喜欢, 偏好
+ roncar - 打鼾
+ se nota - 看不出来
+ separado - 分居, 分开, 分着, 个别
+ suegra - 婆婆
+ suegro - 岳, 岳父, 公公
+ superar - 超越, 战胜, 克服, 高于, 扛过去, 超过, 过步, 扛过
+232 Big Trip 请求: 表达你的愿望
+ apostar - 打赌, 投注, 赌注, 押注, 下赌注
+ definitivamente - 肯定地, 确定地；一定，肯定, 确实
+ dejar - 离开, 阻止, 不留, 让, 离职, 停止, 他放, 上留, 写个, 放下, 退学, 抛弃
+ en ese caso - 在那种情况下
+ excepción - 个例, 例外, 破例
+ hacer un trato - 做个交易
+ insistir - 坚持
+ ir - 去了, 去数, 前去, 去往, 不去, 去, 生去
+ lagartija - 蜥蜴
+ ma - 妈妈
+ no estoy seguro de que - 不确定
+ pa - 爸
+ para que quede claro - 为了让事情清楚
+ pensándolo bien - 再想一想
+ posada - 客栈, 栈
+ puede ser - 可能是
+ pues - 那
+ que no - 不
+ que sea - 是
+ quería - 本想, 想以, 想切, 我本, 正想, 想，想要, 想演, 埃迪想
+ qué tal si - 要不
+ qué te parece si - 你觉得如果
+ si es así - 如果是这样
+ una y otra vez - 一遍又一遍, 一次又一次, 一次又一次地
+233 Lifestyle 生活习惯: 分享健康建议
+ a la larga - 从长远来看
+ aliviar - 缓解, 止痛, 缓和
+ ansiedad - 焦虑
+ automedicarse - 自我用药
+ calmante - 镇静剂, 安神
+ continuamente - 持续地
+ crees que si - 你觉得如果
+ cuidarse - 照顾
+ de acuerdo a - 根据
+ dicen que - 说, 他们说
+ esguince - 扭伤, 拉伤
+ estado físico - 身体状况
+ generalizar - 以偏概全, 一概而论, 普及
+ hablando de eso - 说到这个
+ hacer bien - 有好处
+ hidratarse - 补充水分, 补水
+ lo suficiente - 足够
+ mantenerse en forma - 保持身材
+ perjudicial - 不利, 有害
+ pomada - 药膏
+ sedentario - 久坐不动, 坐不动
+ supuestamente - 据说
+ yo que tú - 如果我是你
+234 New Home 房子: 描述理想的房子
+ a fin de - 月底
+ a fondo - 彻底
+ agente inmobiliario - 房地产经纪人
+ agrandar - 扩大, 增大
+ albañil - 泥瓦匠, 瓦工
+ alcanzar - 超越, 足够了, 达成, 人到, 伸手, 赶上, 伸得, 得手
+ amueblar - 布置家具
+ azotea - 屋顶, 楼顶
+ azulejo - 彩釉瓷砖
+ carpintero - 木匠
+ cerámica - 陶瓷, 瓷, 陶
+ condición - 状况, 处境, 好坏, 条件, 病情, 前提
+ dar - 给, 付出, 给钱
+ depósito - 存款, 押, 押金
+ dúplex - 复式公寓
+ en alquiler - 出租
+ ensuciarse - 弄脏, 污染, 弄污, 弄脏自己, 沾上污渍
+ hipoteca - 抵押, 抵押贷款, 房贷
+ mudarse - 搬, 搬到, 搬家, 搬迁
+ propiedad - 地产, 财产, 房产
+ trato - 我对待, 尽量
+ ubicado - 位于
+ vestidor - 衣柜, 衣帽间
+ ático - 阁楼
+ ía - 不会, 会
+235 Management 团队: 分配团队任务
+ a - 给, 到, 向, 在, 阿, 去, 二比
+ a última hora - 最后一刻
+ acción - 行动, 动作
+ ampliar - 延长, 扩建, 扩大, 增大, 放大, 扩展
+ calcular - 算, 算算, 计较
+ con rapidez - 快速
+ costos - 成本
+ definir - 定义, 明确, 确定, 界定
+ deuda - 债务, 欠款
+ en equipo - 团队中
+ estadística - 统计
+ exportación - 出口
+ ganancia - 收益
+ legal - 合法
+ pago - 我付, 支付, 现金支付, 付款, 付钱, 缴税, (我) 付 (钱), 代价
+ porcentaje - 百分比, 百分率
+ presentar - 表达, 绍, 介绍, 出新, 主持, 展示, 献, 展现
+ proveedor - 供应商
+ resumir - 总结, 总结经验
+ simultáneamente - 同时
+ un vistazo - 看一眼
+236 Doctors 健康: 描述关节疼痛
+ bronquitis - 支气管炎
+ cansancio - 疲劳
+ cicatriz - 疤痕, 伤疤
+ contagiarse - 感染
+ de antemano - 提前
+ debería haber - 应该
+ debería haberte - 应该
+ decaído - 虚弱, 低迷, 消沉
+ deshidratar - 脱水
+ efecto secundario - 副作用
+ especialista - 专家, 专科医生, 权威
+ hígado - 肝脏
+ leve - 轻微
+ mareo - 头晕, 晕车, 头昏
+ molestia - 麻烦
+ podría haber - 本可以
+ presión - 压力
+ sentir - 感到, 感觉, 感受, 感觉良好, 觉, 不禁
+ síntoma - 症状
+ termómetro - 温度计, 体温计
+ torcer - 扭转, 扭伤
+ traumatólogo - 创伤科医生
+ vendar - 包扎
+237 Mechanic 汽车问题: 请求道路救援
+ arrancar - 开机, 启动, 车开
+ atascado - 卡住, 卡着
+ batería - 架子鼓, 电池, 电瓶
+ capó - 引擎盖
+ fiable - 可靠
+ freno - 制动器, 刹车, 刹
+ grúa - 拖车
+ habitualmente - 习惯性地
+ llanta - 轮子, 轮胎, 车轮子
+ lo mejor sería - 最好是
+ luces delanteras - 前灯
+ marca - 刻印, 牌子, 盯防, 商标, 斑点, 牌, 印章, 名牌, 品牌, 标记
+ ni se te ocurra - 你别想
+ parar - 停, 站, 停歇
+ pinchar una llanta - 爆胎
+ remolcar - 牵, 拖, 拖走, 牵引
+ repuesto - 备用
+ revisar - 审阅, 查看, 订正, 批过, 检查一下, 查一, 要查, 校对, 地翻, 检查, 过目, 完床, 检查数据, 浏览
+ si fuera tú - 如果我是你
+ si fuera yo - 如果是我
+ taller - 修理店, 工作坊, 坊, 车间, 修理厂, 工作室
+ vez - 一遍, 一次, 次, 番, 趟, 遍, 一回
+ yo mismo - 我自己
+238 Career 规划: 表达你的期望
+ al contrario - 相反
+ consejero - 顾问, 辅导员
+ costar - 花钱, 花
+ derecho - 权利, 法律, 资格, 权, 右, 右脚, 法学
+ duda - 疑惑, 疑问, 怀疑, 疑虑
+ en cambio - 相反
+ en cierto modo - 在某种程度上
+ en particular - 特别是
+ expectativa - 期待, 预期
+ flexible - 灵活, 弹性, 随和
+ igual de - 一样
+ intérprete - 演奏家, 演奏者, 口译员
+ más vale tarde que nunca - 迟到总比不到好
+ pasante - 实习生
+ plan de estudio - 学习计划
+ por el otro - 另一方面
+ por un lado - 一方面
+ programador - 程序员
+ pésimo - 糟糕, 好差
+ que - 比, 的
+ sino - 而, 但, 而是
+ trabajador autónomo - 自由职业者
+239 Reunion 朋友: 表达对朋友的看法
+ actuar - 会演, 表演, 下手
+ aparentar - 显得
+ budista - 佛教徒
+ cana - 白头发
+ como si nada - 若无其事
+ con razón - 难怪
+ de mediana edad - 中年
+ editor - 编辑
+ el que - 的那个
+ ese que - 那个, 那本
+ hacerse - 成为
+ heredar - 继承, 遗传, 传承
+ humilde - 谦虚, 谦逊, 谦, 卑
+ idéntico - 一模一样
+ imaginarse - 设想
+ imitar - 跟风, 模仿, 模拟
+ indignado - 愤怒
+ pelirrojo - 红头发, 红发
+ presumido - 自负
+ que te decía - 跟你说的
+ que yo sepa - 据我所知
+ ridículo - 可笑
+ rumor - 谣, 传言, 传闻, 谣言
+ íntimo - 亲密, 密切, 私密, 亲近, 深厚, 亲密的
+240 Campaign 选举: 介绍候选人
+ alcanzar - 超越, 足够了, 达成, 人到, 伸手, 赶上, 伸得, 得手
+ anunciar - 宣布
+ asegurar - 确保, 认定, 投保
+ campaña - 竞选
+ derrota - 打败, 击败
+ electoral - 选举
+ encuesta - 民意调查
+ estar - 在, 身处
+ estrategia - 战略, 策略, 略, 思路, 策, 战术
+ etapa - 阶段, 环节
+ haber - 有
+ no es para menos - 这也不足为奇
+ ocupar un cargo - 占据
+ para - 针对, 为了, 而言, 给, 用来做, 于, 扑出来, 用于, 对 ... 来说, 用来, 以便, 用于 ... 的, 对于, 停, 对 ... 而言, 给 ... 准备的, 来说, 以备, 为, 替, 鸟用
+ para ese entonces - 到那时
+ presentarse - 出现, 卡来
+ probabilidad - 概率, 几率, 可能性
+ propuesta - 方案, 建议, 提案, 提议, 倡
+ reflexionar - 反思, 琢, 琢磨
+ representante - 代表, 班长
+ triunfar - 成功, 走红
+241 Climate 环保: 描述气候变化影响
+ cada vez más - 越来越
+ calentamiento - 热身, 变暖, 热身运动
+ consumo - 消耗
+ créeme - 相信我
+ deberse - 应该, 归因于, 由于, 欠, 应当
+ drástico - 剧烈的
+ ecológico - 生态, 环保
+ empeorar - 恶化, 加重, 走下坡
+ exagerar - 夸张
+ global - 全球, 全球性
+ invertir - 投资
+ ola de calor - 热浪
+ panel solar - 太阳能板
+ poner fin - 结束
+ proponer - 提议
+ provocar - 引起
+ reciclaje - 回收
+ reducir - 降低, 减压, 减轻负担, 放小, 减速, 减少, 减轻, 缩短
+ seguido - 经常
+ sequía - 干旱, 旱
+ sostenible - 可持续的, 可持续, 可持续性, 环保
+ talar - 砍树, 砍, 砍伐, 伐
+ tecnológico - 技术的
+242 Admonish 危险: 提醒他人注意安全
+ advertir - 警告
+ arriesgado - 冒险, 冒险的
+ chaleco salvavidas - 救生衣
+ consciente - 清醒, 理解的, 自觉
+ dar de comer - 喂食
+ desordenar - 弄乱
+ gana - 打赢, 赚, 赢, 零赢
+ justo - 公平的, 刚好, 价格公道, 公平, 恰, 不长不短, 正好, 就, 不大不小, 恰好
+ madurar - 成熟
+ mojarse - 淋湿, 打湿
+ más te vale que - 你最好
+ no me extraña que - 我不惊讶
+ ponerse a - 开始
+ por tu bien - 为你好
+ principiante - 初学者, 新手
+ que no se - 不会被
+ quieto - 静止
+ responsabilidad - 责, 责任, 担当, 责任心, 责任感
+ sacar a pasear - 遛狗
+ siempre y cuando - 只要
+ soltar - 松开, 放, 放下, 他放
+ tender - 晾, 趋
+ terco - 顽, 固执
+243 New Parent 婴儿: 准备迎接新生儿
+ adoptar - 采用, 收养, 改用
+ al inicio - 一开始
+ al tanto - 知道
+ alimentar - 喂鸡, 喂食, 喂猪, 喂饭
+ biberón - biber, tetero, 奶瓶, mamadera
+ bisabuelo - 曾祖父
+ cargar - 负担, 充电, 扛过去, 充, 扛, 冲, 扛着, 充值
+ cariño - 感情, 宝贝
+ caótico - 混乱, 脏乱
+ con el paso de - 随着几个月的流逝, 随着岁月的流逝, 随着日子的流逝
+ crianza - 育儿
+ cuna - 婴儿床, 摇篮
+ cuñado - 小舅子
+ dar a luz - 生孩子, 生
+ de sobra - 充足的
+ gatear - 爬
+ hay - （表示存在的）有, 鼓有, 有纸, 有无, 有床, 有雪, 内有, 有, 放着, 有红, 没有, 有风, 那有, 有股, 上放, 有脏, 班有
+ hay que - 需要, 应该
+ muchísimo - 要命, 极了, 非常, 万分
+ no hay por qué - 没有必要
+ pañal - 尿布
+ pediatra - 儿科医生
+ ya - 早已, 了, 早就, 已, 既, 已经, 十了
+244 Folklore 迷信: 分享你听过的迷信
+ absurdo - 谬, 荒谬, 离谱, 不合理
+ caldo - 汤, 高汤
+ cinta - 胶带, 带子
+ con sinceridad - 真诚地
+ creencia popular - 流行信念, 流行的信念
+ curar - 治, 治疗
+ daño - 损, 侵害, 危害, 损伤, 害, 坏处
+ de boca en boca - 口口相传
+ dolor de garganta - 喉咙痛
+ estará - (他/她/它) 会 在, (他/她/它) 会 是
+ gusto - 品味, 风味, 偏好, 味觉, 喜欢, 乐趣, 口味, 味儿, 喜好
+ hacer - 做些, 再列, 闹出, 做果, 交到, 办, 交新, 铺床, 生火, 结新, 办得, 做加, 结交, 煮汤, 做, 做鱼, 来和面, 使, 打成, 做酱, 做出, 打个, 写个
+ hipo - 打嗝
+ mal de ojo - 邪眼
+ masticar - 咀嚼, 咬得
+ mito - 神话, 神话中的
+ pasar - 闯过, 进来, 花上, 转达, 经过, 路过, 顺便来, 消磨, 递给, 消磨时光, 卡进, 度过, 顺道去, 过桥, 超车
+ picadura - 叮咬, 叮
+ que - 比, 的
+ sabelotodo - 自以为是的人, 自以为是, 万事通
+ si mal no recuerdo - 如果我没记错
+ sonar - 响, 它会响
+245 Regrets 误会: 解释误会原因
+ aclarar - 理清, 阐明, 澄清, 阐, 冲洗
+ alma gemela - 灵魂伴侣
+ armar una escena - 大吵大闹
+ avergonzado - 羞愧, 难为情, 臊, 害臊
+ celos - 嫉妒
+ cometer - 犯, 犯错
+ convivir - 相处
+ desconfiado - 不信任
+ fiel - 忠诚, 专一, 逼真
+ habría - (他/她/它) (复合条件式), 本来会, 里会
+ hubiera - 有
+ hubieras - 会
+ lamentar - 哀悼, 可惜
+ malentendido - 误会, 误解
+ motivo - 原因, 缘故, 理由, 动机
+ patético - 可悲的, 可悲
+ reconciliarse - 和解, 交好
+ reencontrarse - 重新相遇
+ remordimiento - 悔意, 悔恨, 内疚
+ rencor - 怨恨
+ tarde o temprano - 迟早
+246 Higher Ed 大学课题: 询问选课建议
+ acaso - 难道
+ al fin y al cabo - 毕竟
+ comentar - 评论, 告诉
+ concepto - 概, 理念, 概念, 观念
+ confuso - 令人困惑, 模糊, 混乱, 难懂
+ copiar - 跟风, 抄, 复制, 抄写
+ cursar - 攻读
+ egresado - 毕业生
+ ensayo - 随笔, 散文, 排练
+ entrar - 进入, 进门, 一进, 踏进, 卡来, 进, 卡进, 走进, 进得进
+ evaluar - 批过, 评价, 评估, 来考, 打分
+ examen parcial - 期中考试
+ facultad - 院系
+ había que - 需要
+ horas de consulta - 办公时间
+ investigación - 研, 调查, 新闻调查
+ malinterpretar - 误解, 曲解, 误释, 误读
+ ni jota - 一点也不懂
+ o sea - 也就是说
+ optativo - 选修, 选修课
+ prácticas - 实习
+ sabático - 休, 休假
+ teórico - 理论的
+247 Reminisce 童年: 分享童年趣事
+ abuelito - 本爷爷
+ albergue - 旅馆
+ anochecer - 黄昏
+ cascada - 瀑布, 瀑
+ dicho sea de paso - 顺便说一句
+ enojadísimo - 非常生气
+ escondidas - 捉迷藏
+ espantoso - 可怕的, 可怕
+ feria - 博览会
+ finca - 农场, 庄园
+ fogata - 篝火
+ laguna - 泻湖, 潟, 潟湖, 空白
+ lo máximo - 最棒的
+ lugarcito - 小地方
+ madrugar - 早起
+ niñez - 童年
+ nuez - 核桃, 坚果
+ pasar el rato - 消磨时间
+ qué bueno que - 真好
+ travieso - 调皮, 捣蛋
+ tristeza - 悲伤, 忧伤
+ unidos - 团结
+ verse con - 见
+248 Together 家庭: 表达对家人的思念
+ acomodar - 整理
+ anécdota - 轶事, 趣闻
+ atento - 关注, 细心
+ chuparse los dedos - 吮手指
+ diverso - 多样化, 多样
+ elogio - 表扬, 夸奖
+ fideo - 细面条
+ hacer de comer - 做饭
+ inolvidable - 难忘的, 难忘, 令人难忘
+ lindo - 可爱, 漂亮, 林多
+ más - 更胜, 更, 最有, 进一步, 更加, 比较, 最像, 比威, 最让人, 较, 多点, 多多, 再添, 最为, 更为, 更具, 再有, 更多, 别多, 更让人, 更高, 还要, 格外
+ ni modo - 没办法
+ no es para tanto - 没那么严重
+ oler - 闻, 闻起来
+ qué asco - 真恶心
+ qué cosa - 什么东西
+ sobremesa - 饭后闲聊
+ sumamente - 非常
+ tanto tiempo - 好久
+ vínculo - 纽带, 环节
+249 Colleagues 办公室: 安排会议日程
+ a fin de cuentas - 总而言之
+ agendar - 预约
+ analizar - 析, 进一步, 分析, 琢磨, 考察
+ básicamente - 基本上
+ clave - 键, 重点, 钥匙, 密码, 关键词, 暗号
+ compañero - 同伴, 队友, 伴, 合作伙伴, 哥们儿, 伴侣, 伙伴, 朋友, 搭档, 同学, 好友
+ conocimiento - 知识
+ de cualquier manera - 无论如何
+ déjame - 让我
+ en fin - 总之
+ hasta ahora - 到目前为止
+ imprescindible - 不可或缺的
+ interminable - 无止境的, 无尽, 无限, 漫长
+ justo - 公平的
+ laboral - 工作, 劳动
+ lo primero - 首先
+ los pros y los contras - 利弊
+ mensual - 每月, 月度
+ mientras tanto - 与此同时
+ no sabes - 你不知道
+ por lo visto - 显然
+ puesto - 职位, 小摊, 摊, 放, 落山, 着, 摊上, 席位, 变蓝, 摆, 既, 摊位, 位子
+ se me pasó - 忘了
+ subdirector - 副主任
+ ya - 早已, 了, 早就, 已, 既, 已经, 十了
+250 Paperwork 手续: 说明办理流程
+ a menos que - 除非
+ a primera hora - 一大早
+ administrativo - 行政
+ burocracia - 官僚主义
+ certificado - 办证, 证明, 证书, 奖状
+ con tal de que - 只要
+ consulado - 领事馆
+ diera - 给
+ estar dispuesto a - 愿意
+ forma - 形, 格, 形状, 形态, 形式, 身材
+ idas y vueltas - 来回奔波
+ ineficiente - 低效
+ inscripción - 入学, 注册, 报名处, 刻印
+ papeleo - 文书工作
+ por más que - 无论我多么, 无论他多么, 无论多么, 无论你多么
+ renovar - 翻修, 刷新, 换发, 翻新, 续借
+ sacar - 抽到, 取钱, 取出, 取, 拿出, 移出, 抽取
+ sello - 邮票, 印章, 刻印
+ simplificar - 简化
+ sistema - 系统, 体制, 体系, 制, 模式
+ trámite - 手续
+ vencer - 战胜
+ válido - 有效, 有效的, 无效
+251 Emergency 护理: 请求护理帮助
+ algo de - 有些, 有点, 一些
+ arder - 刺痛
+ curita - 创可贴
+ determinar - 决定
+ dolor de oído - 耳痛
+ escalofríos - 发冷
+ fortalecerse - 强壮起来, 加强
+ hacer efecto - 起作用
+ hinchado - 肿
+ indicar - 交代, 示意, 暗示, 指路, 指一指, 标出来
+ infección - 感染
+ jarabe - 糖浆
+ malestar - 不适
+ me avisas - 你告诉我
+ nada de - 任何
+ picar - 切碎, 切, 咬得
+ por poco - 差点
+ puntos - 缝针
+ resbalarse - 滑倒
+ sala de espera - 候诊室
+ salir de dudas - 消除疑虑
+ terapeuta - 治疗师
+252 Fix It Up 房屋: 描述你的房子
+ acabarse - 用完
+ asegurarse - 确保, 保证, 弄清楚, 确认, 使安全, 核实
+ cañería - 管道
+ cerca - 附近, 近, 靠, 笆, 不远, 栅栏, 篱, 栅, 亲近, 临, 接近, 围栏, 靠近, 篱笆, 很近, 近距离
+ cerradura - 锁, 门锁
+ confianza - 自信, 信心, 信任, 有把握, 信赖, 诚信
+ cuidadoso - 小心, 有分寸
+ gotear - 漏雨, 滴水
+ grieta - 裂, 裂缝
+ hace falta - 需要
+ haya sido - 已经是
+ interruptor - 开关
+ inundado - 水淹, 被淹
+ inversión - 投资, 反转
+ ladrillo - 块砖, 砖, 砖头
+ limpieza - 清洁
+ maleza - 杂草
+ para colmo - 更糟的是
+ por dentro - 里面
+ por fuera - 外面
+ tapado - 堵住了
+ torcido - 扭伤, 歪歪扭扭
+ urgir - 迫
+253 Bickering 家庭关系: 表达对家人的不满
+ alternativa - 替代物, 替代品, 供替代的选择
+ aprobación - 认可
+ aunque - 即使, 虽说, 虽然, 不过, 虽, 哪怕
+ cambiar de parecer - 改变想法
+ como si - 好像
+ disco rayado - 跳针的唱片
+ excluir - 排除, 淘汰
+ hablar hasta por los codos - 喋喋不休
+ harto - 厌倦了, 吃腻, 烦透了
+ interferir - 干涉
+ irritar - 激怒, 得罪, 烦得
+ malcriar - 宠坏
+ mandón - 专横
+ no lo tomes a mal - 不要介意
+ no te metas - 别插手
+ pesado - 很沉, 重得, 吃力, 重不重, 厚重, 沉沉的, 重, 枯燥
+ pleno - 正中, 正值, 充分
+ pretexto - 借口
+ quedar mal - 显得很糟糕
+ recoger la mesa - 收拾桌子
+ regañar - 责备, 我训
+ respetuoso - 恭
+ solo eso faltaba - 就差这个了
+ tensión - 张力
+254 Telenovela 剧情: 讲述电视剧剧情
+ a escondidas - 偷偷地
+ arrastrarse - 爬进
+ cachetada - 一巴掌
+ cojear - 一瘸一拐, 一瘸一拐地
+ cuanto más - 越
+ desmayarse - 晕倒, 厥, 昏厥
+ dolido - 痛苦, 疼过
+ envenenar - 毒死, 下毒, 中毒
+ fingir - 假装
+ huérfano - 孤儿
+ ingenuo - 太天真, 天真, 傻得
+ mansión - 豪宅
+ papel - 角色
+ pedir perdón - 请求原谅
+ proponer matrimonio - 求婚
+ rogar - 乞求
+ salir - 离开, 外出, 出来, 交往, 退出, 出门, 出去, 下班, 出, 开走
+ salir corriendo - 跑出去
+ salvar - 挽救, 拯救, 挽, 树救, 中救, 抢救
+ testamento - 遗嘱
+ trama - 情节, 故事情节, 剧情
+ una y otra vez - 一遍又一遍, 一次又一次, 一次又一次地
+ vengarse - 报仇, 复仇, 报复
+ villano - 恶棍, 反派
+255 Changes 变化: 描述朋友的变化
+ a lo largo de - 在多年的期间
+ agobiado - 压抑
+ al poco tiempo - 不久
+ alrededores - 周围
+ ambicioso - 野心勃勃, 雄心勃勃
+ cambiado - 改变, 变化, 换过, 变更
+ chico - 男, 男孩儿, 男生, 小伙子
+ cotidiano - 日常
+ graduarse - 毕业, 大学毕业
+ hace mucho que - 很久以来
+ hacía - (他/她/它) 做
+ hacía mucho tiempo que - 很久以来
+ maestría - 硕士学位
+ maternidad - 母亲身份
+ para mejor - 变得更好
+ por completo - 完全
+ progresar - 进步, 进一步
+ pueblito - 小镇
+ que nunca - 从不
+ quién lo diría - 谁会想到
+ se ve que - 看来
+ tacaño - 吝, 啬, 吝啬, 小气
+ teñir - 染色
+ transporte - 交通
+256 Monotony 日常事务: 描述你的日常作息
+ angustiado - 焦虑
+ como mucho - 最多
+ de mala gana - 不情愿
+ el día a día - 日常生活
+ empanada - 馅饼
+ en ese entonces - 那时候
+ es que - 是因为
+ estresarse - 紧张
+ eterno - 永久, 永恒, 悠久
+ faltar a - 缺席
+ frustrante - 沮丧
+ levantar el ánimo - 提振精神
+ licuadora - 搅拌机
+ monotonía - 单调
+ muerto de cansancio - 累死了
+ nada que hacer - 没什么事可做
+ planificar - 规划, 预先安排, 制订
+ ponerse - 变得, 换上
+ quedarse - 留下
+ quedarse dormido - 睡着了
+ rutinario - 例行
+ únicamente - 只
+257 Really?! 性格: 描述邻居的性格
+ a todo volumen - 很大声
+ asombrar - 震惊
+ cachorro - 小狗
+ criticar - 评, 批评
+ desesperado - 绝望的, 绝望
+ distraído - 心不在焉, 分心
+ echar en cara - 责怪
+ el de - 的
+ escaparse - 逃脱, 乱跑
+ extraterrestre - 外星人, 外星
+ honestamente - 老实说
+ insoportable - 难以忍受, 受不了, 热得让人受不了, 难熬
+ madrugada - 黎明, 早晨, 清晨
+ pasado de moda - 过时, 过时的
+ pijamada - 睡衣派对
+ qué - 哪款, 何, 多么, 啥, 什, 哪趟, 哪个, 哪家, 怎么着, 什么, 么, 哪些, 哪只, 哪, 哪支, 哪间
+ rencoroso - 记仇
+ tatuaje - 纹身
+ terminar - 完成, 吃得完, 结束, 开完, 办完, 终结, 选完
+ torpe - 拙, 笨拙, 蹩脚, 笨手笨脚, 蹩
+258 Bad Trip 意外: 表达对意外的反应
+ a última hora - 最后一刻
+ apurado - 赶, 赶时间
+ asco - 恶心
+ averiguar - 弄清楚, 查查
+ colchón - 床垫
+ de la nada - 什么都没有的地方
+ de lo que - 比我所
+ de vuelta - 回程
+ escapada - 逃亡
+ esperar - 等待, 等, 等到
+ gusano - 蛆虫
+ haber - 有
+ hormiga - 蚂蚁, 蚂, 蚁
+ inesperado - 意外, 突发
+ la otra vez - 上次
+ medio - 半, 半个, 中间, 手段
+ pasar - 闯过, 进来, 花上, 转达, 经过, 路过, 顺便来, 消磨, 递给, 消磨时光, 卡进, 度过, 顺道去, 过桥, 超车
+ por ninguna parte - 哪儿都没有
+ por si fuera poco - 更糟的是
+ puente - 桥梁, 桥, 大桥
+ recuperar - 挽回, 找回, 追回来, 回收, 康复, 恢复, 拉回来
+ salida - 出口处, 出口, 起点
+ servicios - 服务项目, 服务, 配套
+ ubicar - 定位
+259 Adapting 感受: 表达你的感受
+ amigable - 友好, 可亲
+ como mínimo - 至少
+ cuanto más - 越
+ dar la mano - 握手
+ desde ahora - 从现在起
+ dicho esto - 话虽如此
+ doctorado - 博士学位, 博士
+ estudios - 学业
+ exquisito - 美味的, 美味, 精美
+ familiarizado - 熟悉, 悉, 不太熟悉
+ fascinante - 迷人
+ problemita - 小问题
+ qué te pareció - 你觉得怎么样
+ recorrer - 走走看看, 走遍全国, 观光, 游览, 转来转去
+ relativamente - 相对地
+ si - 是否是, 是（的）, 的话, 是不是, 若, 如果, 正确, 要是, 是否, 若是, 是, 对, 假如
+ socializar - 社交, 应酬
+ tomar en cuenta - 考虑到
+ trasladar - 转移, 移出, 接送
+ tratar - 相处, 尝试, 治, 试, 治疗, 打交道, 对待
+ tratar de usted - 使用敬语
+ tutear - 用“你”
+260 New Cook 厨房用具: 介绍厨房用具
+ abrelatas - 开罐器
+ algo así - 类似的东西
+ aparato - 小工具, 玩意儿
+ batidora - 搅拌机, 搅拌器
+ bicho - 虫子
+ comestible - 不可食用, 可食用
+ como se llame - 叫什么名字来着
+ coso - 东西
+ cómo se llama - 叫什么名字
+ destapador - 开瓶器
+ esa cosa - 那个东西
+ escoba - 扫帚, 扫把
+ esponja - 海绵
+ exprimir - 榨, 来榨
+ licuado - 奶昔
+ me explico - 我解释清楚了吗
+ picar - 切碎, 切, 咬得
+ podrido - 腐, 腐烂
+ rallador - 刨丝器
+ rallar - 擦丝, 刨丝, 擦, 前擦丝
+ sacacorchos - 开瓶器
+ sería bueno que - 最好是
+ suciedad - 脏东西
+ trapo - 抹布
+261 Growing Up 成长: 描述你的成长经历
+ afectar - 影响, 作用, 影响到
+ aguafiestas - 扫兴的人
+ arruga - 皱纹
+ aventurero - 冒险者, 探险家
+ chismear - 八卦
+ comprensivo - 理解, 善解人意, 通情达理
+ de grande - 长大后
+ decepcionar - 失望
+ detener - 阻止, 止住, 拦, 中断, 拘留, 停产, 拦下, 阻挡
+ exigente - 苛, 苛求, 要求很高, 艰苦, 苛刻, 挑剔, 讲究
+ exigir - 要求
+ inseguridad - 不安, 不安全感
+ más que nunca - 比以往任何时候
+ obstáculo - 碍, 障, 障碍
+ popularidad - 人气
+ que nada - 最重要的是
+ que nadie - 没有人
+ rebelde - 叛逆者, 叛逆
+ significativo - 意义, 重大, 深远
+ volverse - 变得, 转身
+ y eso que - 尽管
+262 Caring 情感: 表达你的感受
+ algo - 东西, 某一些, 什么, 到些, 某物, 某事, 不免有些, 某件事, 某样, 点事, 少许
+ alguna cosa - 什么东西, 什么事情, 什么
+ apresurado - 仓促, 草率
+ astrólogo - 占星家, 占星师
+ claridad - 清晰度, 起见
+ consolar - 抚慰, 安慰
+ contar - 数星星, 去数, 数数, 他数, 数, 数一下
+ cualquier - 任何
+ cualquier cosa - 任何事情
+ de mal en peor - 越来越糟
+ desahogar - 发泄
+ desanimado - 丧, 灰心, 泄气, 消沉
+ equivocación - 对错, 错误, 失误
+ impedir - 决不允许, 阻, 防止出现, 防止, 阻挡
+ lado positivo - 积极面
+ negar - 决不允许, 否认, 摇头
+ pasar - 闯过, 进来, 花上, 转达, 经过, 路过, 顺便来, 消磨, 递给, 消磨时光, 卡进, 度过, 顺道去, 过桥, 超车
+ pensativo - 沉思, 若有所思
+ preocupación - 烦恼, 疑虑
+ racha - 连胜
+ salir adelante - 走出来
+ ya veremos - 我们拭目以待
+263 Break Up 感情: 表达你的感受
+ al tanto - 知道
+ autoestima - 自尊心, 自尊
+ brindar - 祝酒, 敬酒
+ como - 般的, 当, 吃生, 仿佛, 身为, 过像, 作为, 吃饭, 不吃, 吃糖, 似的, 我吃, 如, 云像, 正像, 吃豆腐, 既然
+ cuando - 时才, 当何, 时向, 时该, 时候, 当 ... 的时候, 当艾丽, 上时
+ dar vueltas - 转圈
+ de pareja - 伴侣, 伴侣的
+ desgastado - 消磨, 不新不旧
+ distraer - 分心, 分散
+ donde - ... 的地方, 哪里
+ fracasado - 失败者
+ infiel - 出轨
+ lo que - 什么
+ lo sé - 我知道。
+ o no - 是不是
+ pasajero - 旅客
+ pelea - 吵架, 格斗, 打斗
+ querer - 要, 好要
+ quien - 谁
+ serenata - 小夜曲
+ sinceridad - 真诚
+ sospechar - 怀疑, 疑心
+ terminar con - 结束
+264 Interrupt 客厅: 回应朋友的看法
+ a la vez - 同时
+ a partir de - 以后, 从
+ aunque sea - 即使是
+ basta - 够了
+ coincidir - 一致
+ como decía - 正如我所说
+ complejo - 复杂, 非常复杂
+ de una buena vez - 一次了结
+ diputado - 议员
+ distraerse - 分心, 消遣, 放松, 娱乐
+ en fin - 总之
+ en qué estábamos - 我们刚才说到哪里了
+ momentito - 一小会儿
+ obsesionado - 痴迷
+ perder el hilo - 失去谈话的思路, 失去思路
+ perderse - 迷路
+ postura - 姿, 姿势, 体态, 立场
+ puré - 土豆泥
+ sea como sea - 无论如何
+ sobras - 剩饭
+ tapa - 小吃, 盖子, 瓶盖
+ tardar - 花
+ tema - 题目, 议题, 主题, 话题, 题材, 选题, 正题, 单元
+265 Disaster 灾难: 描述灾难经过
+ aislado - 个别, 隔绝, 僻静, 偏远
+ al - 到, 在, 时要
+ cada tanto - 偶尔
+ cuál - 哪本, 哪一首, 哪个, 哪所, 哪一位, 哪套, 哪位, 哪座, 哪一条, 哪一个, 什么, 哪条, 哪只, 哪一部, 哪, 哪项, 哪辆
+ de la noche a la mañana - 一夜之间
+ derrumbarse - 倒塌
+ enfrentar - 对付, 面临, 面对
+ herido - 受伤, 疼, 伤害, 伤, 受了伤, 受过伤
+ incomodar - 打扰
+ indiscreto - 不礼貌
+ irreparable - 不可弥补的, 无法弥补
+ perdón - 你说什么, 对不起, 饶
+ puedo saber - 我可以知道
+ quedar - 留 (下), 待, 碰面
+ reacción - 反应, 反馈, 感想, 反击
+ reconstruir - 重建, 重修
+ refugio - 收容所, 庇护所, 栖身, 收容, 避难所, 之所时
+ repartir - 分发, 发完
+ sobrevivir - 生存, 活下去, 中活
+ temblor - 颤
+266 Siblings 争执: 表达你的不满
+ acusar - 指责, 会怪
+ castigado - 禁足, 惩, 惩罚, 挨罚, 受罚
+ columpio - 秋千
+ constantemente - 不断地
+ dar el ejemplo - 做榜样
+ destrozar - 毁掉
+ es poco probable que - 很可能不会
+ estirar - 撑大, 拉伸, 伸得, 伸伸
+ exagerar - 夸张
+ fastidio - 烦人
+ haber - 有
+ hacer las paces - 和好
+ ignorar - 忽视, 无视, 不顾
+ malo con - 对...不好
+ marcador - 记号笔, 比分
+ mentiroso - 骗子, 说谎者
+ privacidad - 隐私
+ que sea la última vez - 希望这是最后一次
+ te lo suplico - 我求你, 求你
+ trofeo - 奖杯
+267 Criticism 厨房: 表达你对食物的看法
+ al vapor - 蒸
+ con todo respeto - 恕我直言
+ condimentar - 调味
+ criticón - 爱批评, 爱批评的人
+ cómo puede ser que - 你怎么可能
+ dar el gusto - 满足他的愿望
+ desabrido - 淡
+ desde cero - 从零开始
+ hongo - 蘑菇
+ incapaz - 无能
+ incomible - 难吃
+ langosta - 龙虾
+ marinar - 腌制, 腌肉
+ masa - 面团
+ meterse - 惹, 钻进去
+ negarse - 拒绝
+ ni pienso - 我连想都不想
+ nuera - 媳妇, 儿媳妇, 媳
+ pulpo - 章鱼
+ recetario - 食谱
+ rodaja - 薄片, 片, 切片, 圆片, 薄轮
+ salado - 咸, 含盐, 咸了
+ subestimar - 低估
+ yerno - 女婿, 婿
+268 Theme Park 规则: 解释你的理由
+ berrinche - 大发脾气, 闹脾气
+ como - 般的, 当, 吃生, 仿佛, 身为, 过像, 作为, 吃饭, 不吃, 吃糖, 似的, 我吃, 如, 云像, 正像, 吃豆腐, 既然
+ contar - 数星星, 去数, 数数, 他数, 数, 数一下
+ contestar - 接听, 回, 接, 接电话, 回复, 顶嘴
+ cómo que - 你说什么
+ dar la razón - 给我理由, 给你理由
+ del todo - 完全
+ demostrar - 示范
+ digas lo que digas - 不管你说什么
+ emoción - 激动
+ eso te pasa por - 这就是你...的后果
+ extremadamente - 非常
+ incluso si - 即使
+ juegos mecánicos - 游乐设施
+ montaña rusa - 过山车
+ negociar - 谈判, 协商
+ obediente - 我乖, 最乖, 乖, 很乖, 听话
+ parque de diversiones - 游乐园
+ por haber - 因为
+ un no rotundo - 坚决的拒绝
+ vomitar - 吐, 呕, 呕吐
+269 Projects 家居: 询问装饰建议
+ a simple vista - 乍一看
+ arcoíris - 彩虹
+ conocido - 知名, 闻名, 众所周知, 见, 著称, 认识, 广为人知, 熟人
+ de calidad - 优质
+ de por sí - 本身
+ demoler - 拆除
+ doble - 两倍
+ en forma de - 形状为
+ hierro - 铁
+ hoy por hoy - 现在
+ indicado - 合适的, 合适
+ inmenso - 巨大, 广阔
+ interior - 内部
+ jaula - 笼子, 笼
+ mármol - 大理石
+ no le parece - 您不觉得
+ ovni - 飞碟, ufo
+ plano - 平, 扁, 蓝图, 平面图, 平板, 平坦, 平平, 夷, 平的, 镜头
+ poco común - 不常见
+ ponerse a - 开始
+ se podría - 可以
+ se puede - 可以
+ ser difícil de - 很难
+ ya nadie - 已经没有人
+270 Negotiate 退货: 说明退货原因
+ a no ser que - 除非
+ autorizar - 授权, 批过
+ comprar - 买房, 买入, 买千, 买菜, 买房子, 购买, 买热, 家买, 买下, 摊买, 买, 买票, 消费
+ crédito - 信用, 赊, 赊账, 抵用, 学分
+ cupón - 优惠券, 代金券
+ de ninguna manera - 绝不可能
+ decepción - 失望
+ defectuoso - 缺陷, 有缺陷的
+ destrozado - 破损
+ encargado - 负责人
+ encogerse - 缩水
+ incompetente - 无能的
+ inodoro - 马桶
+ lo que - 什么
+ ni loco - 你疯了吗
+ nunca jamás - 绝不
+ política - 政治, 政策
+ poner pie - 踏进
+ reputación - 誉, 名声, 声誉, 口碑, 面子
+ si fuera por mí - 如果是我的话
+ si no es mucho pedir - 如果不麻烦的话
+ sin abrir - 未开封
+ tarjeta de regalo - 礼品卡
+ temer - 惧怕, 怕不怕
+ vestido de novia - 婚纱
+271 Newscast 环境: 表达你对环境的看法
+ a que no - 你猜不到吧
+ avance - 预告片, 突破
+ barro - 泥巴
+ corrupto - 腐败
+ discurso - 演讲, 讲话, 致辞, 演讲稿, 发言
+ envase - 容器
+ eso me lo dijo - 这是告诉我的
+ eso sí - 不过
+ galaxia - 星系
+ impresionar - 打动
+ ito - 伊托
+ lo que - 什么
+ mente - 脑子里, 头脑, 心上, 脑海, 脑海中, 智力, 思想, 心智, 记忆, 心头, 内心
+ obligar - 强迫
+ placentero - 悦耳, 动听, 愉快, 痛快, 惬意, 轻松愉快
+ por si no - 以防
+ probar - 试玩, 一试, 尝试, 试试, 品尝, 尝, 试吃, 尝遍, 试睡, 尝尝, 试证, 试点, 试喝, 调试
+ reciclable - 回收, 可回收
+ recoger - 摘花, 拾, 领取, 先接, 捡起来, 取票, 取, 取信, 捡, 我取, 摘, 收纳
+ risa - 笑
+ senador - 參议员
+ silbar - 吹口哨, 吹
+ utilizar - 说用, 借用, (采)用, 过用
+272 Equality 平权: 表达对不平等的看法
+ acceso - 取用, 访问, 存取, 获取, 入门
+ administrar - 理财, 管理, 负责管理
+ desigualdad - 不平等, 差距
+ discriminación - 歧视
+ embarazo - 怀孕
+ empoderar - 赋权
+ género - 性别, 题材
+ igualdad - 平等, 公平, 同等
+ indígena - 土著, 原住民
+ liderazgo - 领导
+ lograr - 实现目标, 能够, 完成, 能办, 打成, 设法, 获得, 得手
+ luchar - 打仗, 搏, 斗, 搏斗, 战斗, 争取, 挣扎
+ lugar de trabajo - 工作场所
+ marcha - 游行
+ por cuestiones de - 因为法律问题, 因为生活的问题, 因为性别问题
+ prejuicio - 偏见
+ prohibir - 决不允许
+ si bien - 尽管
+ tesis - 论题, 论文, 课题, 论点, 毕业论文
+ tomar conciencia - 提高了意识, 提高意识
+ violencia - 暴力
+ visto - 看见, 看过, 见过, 看到, 见过面
+ voto - 投票, 一票
+ época - 时代, 年代
+273 Art 艺术: 介绍艺术流派
+ barroco - 巴洛克
+ colonial - 殖, 殖民地的, 殖民
+ comunicar - 转告, 传达, 转达
+ decorativo - 装饰性
+ electrónico - 电子, 电子产品
+ expresar - 表达, 宣泄, 描写, 倾诉, 形容, 读出, 转达
+ fachada - 外墙, 外立面, 立面
+ hecho - 办, 做, 弄, 事实, 干得
+ identidad - 身份, 认同
+ influencia - 影响, 影响力
+ latinoamericano - 拉丁美洲
+ latinoamérica - 拉丁美洲
+ los - 那些, 这些, 那, 们, los
+ movimiento - 动静, 这招, 动作, 招, 举动, 招式
+ mural - 壁画
+ por medio de - 通过
+ reflejar - 体现, 表现, 反映, 反射, 显示, 映射, 展现
+ representar - 描绘, 代表, 描写, 形容
+ siglo - 世纪
+ surgir - 涌现, 起天来
+ surrealismo - 超现实主义
+ sustentable - 可持续
+ urbano - 城市
+274 Wrestling 摔跤: 描述摔跤比赛
+ arrastrar - 拖出, 拖, 拖拽, 拖重, 拖动
+ combate - 搏击, 战斗, 中见
+ con el tiempo - 随着时间
+ cuadrilátero - 擂台
+ el mejor de todos los tiempos - 有史以来最棒的
+ evolucionar - 进化
+ ganar - 战胜, 获胜, 赢球, 赢取, 挣, 取胜, 得四比, 赚, 赢, 赢得, 中奖, 挣过, 挣得, 得奖, 赚钱, 赚到, 赢下, 争夺
+ igual a - 像...一样
+ igual de - 一样
+ igual que - 和...一样, 一样
+ levantar - 抬床, 抬起, 捡起来, 起, 提, 一下子站, 起来, 举不起, 手举, 高举
+ lucha libre - 墨西哥摔跤
+ luchador - 摔角, 摔跤手, 手是
+ musculoso - 肌肉发达
+ máscara - 面具
+ parecer - 看起来, 仿佛
+ perdedor - 失败者, 败, 输家
+ rudo - 恶棍
+ salto - (我) 跳, 跳跃
+ seguidor - 追随者, 歌迷, 支持者
+ todo vale - 一切皆可
+ técnica - 技, 技巧, 技术, 手法, 技术型
+ técnico - 技术型, 正派, 技术员, 技师, 师傅
+ vestimenta - 着装, 服饰, 服装, 衣着
+ ágil - 敏捷, 动作迅速
+275 Soccer 足球赛: 表达对比赛的预测
+ a - 给, 到, 向, 在, 阿, 去, 二比
+ al contrario - 相反
+ clasificar - 晋级, 列为, 分组
+ copa - 爵, 酒杯, 奖杯, 杯子, 杯会
+ defensa - 防守
+ delantero - 前锋
+ desgraciadamente - 不幸的是
+ eliminatoria - 淘汰赛
+ esforzarse - 努力, 挣扎
+ fallar - 失败, 失灵
+ femenino - 女子, 女性的, 女款
+ hacerlo - 上办, 做这件事, 做会
+ hábil - 巧, 能干, 熟练, 巧妙
+ jugada - 招式, 步棋
+ meter - 米, 丢进
+ milagro - 奇迹
+ mundial - 世界的
+ por más que - 无论我多么, 无论他多么, 无论多么, 无论你多么
+ sacar - 抽到, 取钱, 取出, 取, 拿出, 移出, 抽取
+ salir - 离开, 外出, 出来, 交往, 退出, 出门, 出去, 下班, 出, 开走
+ seguidos - 连续
+ selección - 选集, 球队, 选择, 足球队, 美选
+ tiempo - 空儿, 时, 时间, 时光
+ triunfo - 胜利
+276 Arguing 规章: 表达对规章的看法
+ alarma - 警报器, 闹钟, 警报, 报警器
+ asociación - 协会, 联想, 伙伴关系, 社团
+ conserje - 女管理员, 管理员, 门卫
+ cooperación - 配合, 合作, 配合默契
+ cumplir - 年满, 满, 遵从, 履行, 履
+ cuyo - 的
+ hasta cierto punto - 在某种程度上
+ iluminado - 照明, 照亮
+ inseguridad - 不安, 不安全感
+ ladrar - 吠叫, 叫唤
+ lo veo - 觉得
+ mayor - 最大, 成人, 更大的, 年上, 年长的, 越大, 年老, 大一岁, 姐, 越高
+ menos - 少点, 更少, 越来越少, 减, 糖少, 最少, 越少
+ no lo es - 不是
+ pendiente - 待定, 下坡, 坡, 悬而未决, 陡路, 上坡, 陡
+ preocupación - 烦恼, 疑虑
+ reglamento - 规章, 规定
+ residente - 居民, 驻
+ responsable - 有责任的, 责, 任, 负责, 责任人, 负责任的, 负责人, 自觉
+ restricción - 限制
+ tranquilo - 安稳, 宁静, 宁, 放心, 安静, 平静, 安心, 安, 静, 平稳
+277 Annoyed 小烦恼: 表达你的小烦恼
+ agotador - 疲惫, 累人, 吃力
+ agujero - 洞, 穴, 孔
+ bloquear - 堵住, 过滤, 挡, 抵制, 挡风, 阻挡, 挡住, 占用, 滤
+ conmigo mismo - 自己
+ dicho y hecho - no sooner said than done
+ día libre - 休息日
+ encima - 上, 上面
+ frustrar - 沮丧
+ impuntual - 不守时
+ inaceptable - 不可
+ irse - 离开, 开走, 生去
+ lo de - 关于...的事
+ lo que faltaba - 真是雪上加霜
+ malhumorado - 坏脾气
+ papel higiénico - 卫生纸
+ relajante - 松, 放松的, 放松, 轻松
+ tocar la bocina - 按喇叭
+ tolerar - 不能容忍
+ tropezar - 绊倒
+ vendedor - 销, 售货员, 卖家, 卖方, 销售员, 推销员
+ videollamada - 视频电话, 视频聊, 视频, 通话
+278 Games 桌游: 介绍你喜欢的桌游
+ a toda costa - 不惜一切代价
+ así es - 确实如此
+ avanzar - 进一步, 出线, 推进, 前进, 过步, 冲上去
+ baraja - 牌, 扑克牌
+ competitivo - 竞, 竞争力, 有竞争性, 好胜
+ concordar - 一致
+ dado - 给, 骰子, 骰
+ damas - 跳棋
+ dar para rato - 花很长时间
+ dominó - 多米诺骨牌
+ entretenerse - 娱乐自己
+ ficha - 棋子
+ hacer trampa - 作弊
+ opinar - 发表意见
+ otra cosa - 别的事情
+ para que - 为了
+ paso a paso - 一步一步
+ repartir - 分发, 发完
+ revancha - 复仇, 再战
+ ronda - 回合, 一轮, 轮轮
+ siempre es lo mismo contigo - 总是和你一样
+ tablero - 棋盘
+ tener toda la razón - 完全正确
+ turno - 番, 轮轮
+ y pensar que - 想想看
+279 Detective 案件: 描述失窃经过
+ a eso de - 大约
+ anónimo - 匿名
+ arrestar - 逮捕, 逮
+ caja fuerte - 保险箱
+ coartada - 不在场证明
+ confesar - 坦白, 表白, 交代
+ convincente - 令人信服的, 令人信服
+ culpable - 罪魁祸首, 内疚, 疚, 有罪, 愧疚, 犯人
+ cómplice - 同谋者, 同伙
+ desconectar - 断开
+ diamante - 钻石
+ familiar - 熟悉的, 不太熟, 面熟, 家用, 亲人
+ forzar - 强行, 撬开, 撬
+ hipótesis - 假设
+ huella - 迹
+ improvisado - 即兴, 即兴的
+ inocente - 无辜的
+ investigador - 学者, 调查员, 研究员
+ no pudo haber - 不可能
+ ocultar - 瞒
+ peluca - 假发
+ recompensa - 奖励, 悬赏, 酬金
+ sin que - zonder dat
+ sospechoso - 嫌疑人, 嫌, 可疑
+ tuvo que haber - 一定是
+280 Legends 灵异: 讲一个灵异故事
+ abandonar - 抛弃, 放弃, 丢弃
+ andar - 走步, 走路
+ así - 如此, 那样, 这样, 从而
+ aterrador - 可怕, 恐, 恐怖, 吓人
+ bruja - 女巫, 巫, 巫婆
+ cementerio - 墓地, 公墓
+ de solo - 仅仅
+ espantar - 吓跑
+ espíritu - 灵, 精神, 灵体
+ grito - 哭声, 喊, 喊声, 叫声
+ hombre lobo - 狼人
+ linterna - 手电筒
+ observar - 看鸟, 观察, 留意, 围观
+ piel de gallina - 鸡皮疙瘩
+ pánico - 恐慌
+ que - 比, 的
+ qué susto - 好吓人, 吓人
+ sensación - 有种, 感觉, 口感
+ solitario - solitario, 孤独, 孤零零
+ solo - 只有, 只当, 只用, 只是, 只管, 光是, 我仅, 单独, 独自, 只, 只要, 独自一人, 就是, 仅, 孤, 孤单, 只收, 单打独斗, 孤身一人, 孤独, 他空, 仅供, 一个人, 劳拉只, 落单, 才, 仅限, 光靠, 罢了
+ supersticioso - 迷信, 迷信的
+ tumba - 坟墓, 墓穴, 墓, 坟
+281 Job Search 工作: 描述理想工作
+ a distancia - 远程
+ asesor - 顾问
+ caracol - 蜗牛, 螺, 蜗
+ competente - 不称职, 胜任, 能干, 不胜任, 能干的, 有能力的, 称职, 熟练
+ con fluidez - 流利
+ coordinador - 协调员, 班长
+ de - 出自, 之, 来自, 的, 起, 关于, de
+ facilidad - 轻而易举
+ finanzas - 金融
+ fundamental - 基本的, 根本的
+ horas extra - 加班时间
+ importación - 进口
+ llegar a ser - 成为
+ líder - 组长, 头目, 魁, 领导, 领导者
+ moda - 时尚, 髦, 主流
+ noticiero - 新闻节目
+ perfeccionista - 完美主义者
+ perseverante - 坚持不懈, 顽强
+ precisamente - 正是, 明明, 恰好, 偏偏, 就是
+ sastre - 裁缝, 裁缝师
+ un - 一辆, 个, 一款, 一片, 一张, 一头, 一具, 一场, 一份, 有位, 一项, 一名, 一件, 一面, 一幅, 一本, 一则, 一间, 一家, 一宗, 一架, 一门, 一条, 一根, 一匹, 一顶, 一位, 一艘, 一只, 一支, 一杯, 一座, 一栋, 一台, 一把, 一粒, 一颗, 一部, 一个, 一枚, 一, 一档
+ vacante - 职位空缺, 空缺
+ valorar - 珍惜, 看中, 讲究
+282 Fam Event 仪式: 确认仪式物品清单
+ alcanzar - 超越, 足够了, 达成, 人到, 伸手, 赶上, 伸得, 得手
+ antes de tiempo - 提前
+ bautizo - 洗礼
+ brindis - 敬酒
+ camisón - 睡衣, 睡裙
+ centro de mesa - 中央花瓶
+ compromiso - 约定, 承诺, 责任感
+ esmoquin - 燕尾服
+ falta que - 缺少
+ funeral - 葬礼
+ hacer de cuenta - 假装
+ llegaba - (我/他/她/它) 来到, (我/他/她/它) 到达
+ lograr - 实现目标, 能够, 完成, 能办, 打成, 设法, 获得, 得手
+ maquillador - 化妆师, 造型师
+ ni mucho menos - 更别说
+ organizador - 组织者
+ padrinos - 教父母
+ pista de baile - 舞池
+ rabino - 拉比
+ respirar hondo - 深呼吸
+ sacerdote - 牧师, 神父
+ se supone - 应该
+ tenso - 紧张
+283 Zombies 僵尸灾难: 表达对僵尸灾难的看法
+ a salvo - 安全
+ apocalipsis - 末日
+ autoridad - 上级部门, 当局, 权威
+ cadáver - 尸体, 尸
+ caos - 混乱
+ convertirse - 成为
+ cueste lo que cueste - 不惜一切代价
+ darse prisa - 快点
+ defender - 保护, 保卫
+ enemigo - 对手, 敌人, 敌
+ hacha - 斧子, 斧头, 斧
+ huir - 逃离, 逃跑, 逃出
+ infectado - 感染, 感染者
+ invadir - 占用
+ mantener la calma - 保持冷静
+ perseguir - 追求
+ por si - 以防
+ provisiones - 储备
+ recapacitar - 反思
+ refugiarse - 避难
+ supervivencia - 生存
+ sótano - 地下室
+ tener a la mano - 手边有
+ zombi - 僵尸
+284 Magic show 魔术: 描述你喜欢的魔术
+ abuchear - 嘘
+ anotar - 记下, 记到, 记下来, 写个
+ así de fácil - 就这么简单
+ ataúd - 棺材, 棺
+ atravesar - 穿过, 路过
+ cualquiera - 任何, 任何人
+ desatarse - 解开, 解开自己
+ espada - 剑
+ esposas - 手铐
+ fallar - 失败, 失灵
+ farsante - 骗子
+ impactante - 震撼
+ imán - 磁铁
+ mago - 魔法师
+ no - 别, 没, 别老, 未, 否, 莫, 非, 别因, 你别, 别冲, 别往, 不会, 别为, 别跟我, 不是, 不, 勿, 千万别
+ pegar - 贴, 黏
+ revelar - 揭露, 说穿, 揭示, 喊出, 泄露, 透露, 展现
+ sacar - 抽到, 取钱, 取出, 取, 拿出, 移出, 抽取
+ soga - 绳子
+ tragar - 咽, 吞, 地吞, 吞下, 下咽
+ truco - 把戏, 戏法, 窍门, 点子, 伎俩, 招数, 窍, 伎, 诀窍, 手腕
+ varita - 魔杖
+285 Quince 婚礼: 描述婚礼现场
+ ahijada - 教女, 干女儿
+ arreglado - 修好了
+ bufé - 自助餐
+ cangrejo - 螃, 螃蟹, 蟹
+ chancla - 拖鞋
+ coreógrafa - 编舞者, 编舞
+ descalzo - 赤脚, 脚来
+ discreto - 低调, 含蓄
+ emotivo - 感人
+ empalagoso - 甜得, 甜腻, 腻, 发腻, 太腻
+ exacto - 没错, 精确
+ excesivo - 过分
+ fiesta de quince - 十五岁生日派对
+ modista - 裁缝
+ ostra - 牡蛎
+ pobre - 贫穷的, 可怜的, 可怜, 穷, 穷人
+ postizo - 假发
+ quinceañera - 十五岁女孩庆典
+ recepción - 接待处, 前台, 招待会
+ sacar a bailar - 带
+ tal cual - 就是这样
+ trago - 一杯酒
+ vals - 华尔兹
+ vergüenza - 羞愧, 臊, 害臊
+286 New Life 祝福: 表达对新家的期待
+ a ver si - 来看看
+ adaptarse - 适应, 融入
+ afortunado - 吉利, 庆幸, 幸, 祥
+ al fin - 终于
+ alentar - 鼓励
+ amplio - 宽, 宽阔, 广泛, 很广, 宽广, 广, 泛, 博, 广阔, 很松, 深远
+ de mi parte - 替我
+ desaprovechar - 错过
+ despedida - 送别, 告别, 拜拜
+ dramático - 戏剧性的, 戏剧性, 戏剧化
+ entusiasmado - 热情
+ envidiar - 羡慕
+ eso espero - 我希望如此
+ hasta pronto - 回头见
+ incansable - 不知疲倦
+ independizarse - 独立生活
+ molesto - 恼, 不烦, 令人烦恼, 好烦, 更烦, 太烦, 烦人, 很烦, 懊恼, 太烦人, 烦恼, 恼火, 恼人, 烦, 刺耳
+ que - 比, 的
+ que la pases - 过得
+ que te vaya bien - 顺利
+ quedar - 留 (下), 待, 碰面
+ rodeado de - 包围下, 包围, 在身边
+ saludos - 问好
+ temporal - 一时, 临时, 暂, 暂时
+ vivienda - 住房
+287 Pets 宠物: 描述你喜欢的宠物
+ cabra - 山羊
+ callejero - 街头, 流浪
+ canario - 金丝雀
+ chillar - 尖叫, 哭闹
+ compinche - 伙伴
+ el uno para el otro - 彼此的唯一
+ hacer compañía - 陪伴
+ hurón - 雪貂
+ hámster - 仓鼠
+ inconveniente - 不便, 坏处, 不利
+ juguetón - 顽皮, 活泼
+ lechuza - 猫头鹰
+ meter - 米, 丢进
+ pecera - 鱼缸
+ peluche - 毛绒玩具
+ poni - 小马
+ regatear - 讨价还价, 砍价
+ repasar - 复习, 课后复习
+ sapo - 蟾, 蟾蜍, 蜍
+ sin falta - 一定
+ solitario - solitario, 孤独, 孤零零
+ tierno - 松软, 嫩, 可爱, 温柔, 柔和
+ travesura - 恶作剧
+288 The Future 未来: 分享你的未来目标
+ ambición - 野心, 雄心, 雄心壮志
+ apasionado - 热衷于, 热心
+ ascender - 升职者, 升职
+ billón - 兆
+ bola de cristal - 水晶球
+ comprometerse - 订婚
+ convertirse - 成为
+ dar a elegir - 提供选择
+ destacarse - 脱颖而出
+ el tiempo dirá - 时间会告诉我们
+ envejecer - 变老
+ fama - 名誉, 名声
+ formar - 组个, 组建, 结下, 组成, 培养
+ haber - 有
+ jubilación - 退休
+ mellizos - 双胞胎
+ productivo - 成效
+ proponer - 提议
+ re - 复, 再
+ sin descanso - 不停地
+ uno tras otro - 一个接一个地
+ verse - 诗节, 碰面
+ vivir de - 靠...生活
+289 Technology 故障: 解释故障原因
+ ajustes - 设置
+ audífonos - 耳机
+ calcular - 算, 算算, 计较
+ cargar - 负担, 充电, 扛过去, 充, 扛, 冲, 扛着, 充值
+ cinta adhesiva - 胶带
+ copia de seguridad - 备份
+ dineral - 一大笔钱
+ dispositivo - 设备, 装备
+ estado - 来, 状态, 状况良好, 状, 到, 好坏
+ extraviar - 弄丢
+ funda - 壳
+ hacer todo lo posible - 尽一切可能
+ instalado - 装好
+ monitor - 显示器, 电脑屏幕
+ más de lo habitual - 比平常要慢, 比平常要久, 比平常更频繁
+ pantalla táctil - 触摸屏
+ pieza - 件, 片, 条, 颗, 棋子, 藏品
+ pisar - 踏, 踏足
+ protector de pantalla - 屏幕保护膜
+ reiniciar - 重新启动, 重启
+ resistente al agua - 防水
+ tornillo - 螺丝
+ tutorial - 教程
+290 Assignment 小组作业: 分配小组任务
+ ahora sí que - 现在真的
+ argumento - 争论, 论点, 题材, 剧情
+ asignar - 指派, 分配, 重新分配, 预先安排
+ borrador - 稿子, 橡皮, 草稿, 稿, 第一版
+ como sea - 无论如何
+ constelación - 星座
+ coordinar - 协调
+ cuestionario - 问卷
+ de memoria - 凭记忆
+ diapositiva - 幻灯片
+ diálogo - 对话, 对白
+ entregar - 交代, 交, 上交, 该交, 派送, 要交, 交接, 交付, 送出去
+ hacerse cargo - 负责
+ indiferente - 无所谓, 冷漠, 冷淡
+ maqueta - 模型
+ mitad - 下半场, 半数, 一半, 半山腰, 半场, 中途
+ por mí - 就我而言
+ que - 比, 的
+ que lo haga - 让亚历杭德罗来做吧, 让洛雷娜来做, 让露丝来做, 让索菲娅来做吧, 让胡安来做吧, 让加布里埃尔来做, 让他做吧, 让迭戈来做吧
+ redactar - 撰写, 起草, 写个, 谱写
+ renovable - 再生能源
+ trabajo - 工作, 劳, 工, 办公
+ volador - 飞行者, 飞鸟, 飞行的, 翱翔者, 飞行物, 飞盘
+ volver a - 再
+291 Gym 锻炼: 分享锻炼计划
+ a mover - 动起来
+ abdominales - 仰卧起坐
+ adolorido - 疼痛
+ aguantar - 撑得住, 坚持, 扛过, 扛过去, 扛
+ beneficioso - 益, 有益, 有利, 有益于
+ bueno - 嗯, 好, 良好, 善, 美味的, 好极了, 美味, 很棒, 不错, 擅长, 良, 擅, 队好, 好坏
+ cardio - 有氧, 有氧运动
+ dar lo mejor - 付出最好
+ de mucha ayuda - 非常有帮助
+ detenerse - 停止, 停留, 中止, 阻止, 停顿, 停机
+ entrenador - 教练, 蹈
+ entrenar - 炼, 锻, 训练, 练腿
+ fortalecer - 强化, 强壮, 强健, 加强
+ intenso - 紧凑, 激烈, 激, 强烈, 浓郁, 鲜艳, 剧烈, 香浓, 沉沉的, 极端
+ mental - 心理
+ pesas - 哑铃
+ recuperarse - 复苏, 恢复健康
+ resistencia - 抵抗, 耐, 耐力, 体力
+ sentadilla - 深蹲
+ sin aliento - 气喘吁吁
+ ánimo - 加油
+292 A date 活动: 提出活动建议
+ a domicilio - 外卖
+ apático - 冷漠的
+ asistir - 上, 辅, 参加, 赴, 在场, 协助, 抢救
+ casualidad - 偶然
+ complicar - 使复杂
+ danza - 舞蹈, 舞曲
+ de haberlo sabido - 如果早知道
+ de humor - 心情
+ desfile - 游行, 秀里, 秀上
+ desperdiciar - 浪费, 可惜
+ eclipse - 月食
+ feria - 博览会
+ inauguración - 开幕
+ indeciso - 犹豫, 犹豫不决, 优柔寡断
+ llevar la contraria - 唱反调
+ lluvioso - 多雨, 多雨的
+ medieval - 中世纪
+ ni en sueños - 做梦都不会
+ para llevar - 外带
+ pasar - 闯过, 进来, 花上, 转达, 经过, 路过, 顺便来, 消磨, 递给, 消磨时光, 卡进, 度过, 顺道去, 过桥, 超车
+ pegado - 贴在, 贴着
+ por nada del mundo - 无论如何都不
+ porción - 份, 每份, 份量
+293 Getaway 徒步: 规划徒步行程
+ a este paso - 照这样下去
+ acantilado - 悬崖
+ acuático - 水上
+ arrecife de coral - 珊瑚礁
+ botiquín - 急救箱
+ caminata - 徒步旅行
+ catarata - 瀑布
+ de cerca - 近距离
+ estar dispuesto a - 愿意
+ glaciar - 冰川
+ guardabosques - 护林员
+ letrero - 标志, 路牌
+ mirador - 观景台
+ no poder más - 受不了了
+ paraíso - 天堂, 乐园
+ remar - 划, 划船
+ rendirse - 投降, 放弃, 屈服, 认输, 放弃努力
+ repelente - 驱虫剂
+ sendero - 径, 小径, 小路, 步道
+ sin - 不含, 未经, 不加, 无, 没有, 毫不, sin
+ subterráneo - 地下
+ un par de - 几个
+ volcán - 火山
+294 Politics 2 政见: 简述政策成果
+ alumbrado - 照明
+ cada vez menos - 越来越少
+ cifra - 数目
+ comprobar - 检查, 查
+ concluir - 结束, 最后, 开完
+ considerablemente - 显著地
+ contradictorio - 自相矛盾, 自相矛盾的, 矛盾
+ dar la cara - 面对
+ de más está decir - 不用说
+ debatir - 辩论
+ defraudar - 失望, 骗过, 骗钱
+ diga lo que diga - 无论候选人说什么, 无论总统说什么, 无论他说什么
+ generar - 生成
+ indignante - 愤慨
+ inmigrante - 移民, 新移民
+ llevar a cabo - 执行
+ logro - 绩, 成就, 成就感
+ más - 更胜, 更, 最有, 进一步, 更加, 比较, 最像, 比威, 最让人, 较, 多点, 多多, 再添, 最为, 更为, 更具, 再有, 更多, 别多, 更让人, 更高, 还要, 格外
+ pese a todo - 尽管如此
+ preocupante - 担忧, 令人担忧
+ prestación laboral - 工作福利
+ sin techo - 无家可归
+ tasa - 费, 税, 率
+ vice - 副
+295 Mischief 秘密: 表达自己的怀疑
+ astuto - 精明, 狡猾, 巧妙
+ con normalidad - 正常地
+ desarmar - 拆
+ disfrazarse - 装扮, 装扮成
+ esqueleto - 骷髅, 骨骼, 骨架, 骷, 髅
+ frasco - 罐子
+ goma - goma, 橡皮, 橡胶
+ hacerse - 成为
+ mejor no - 最好别
+ meter la pata - 犯错误, 犯错
+ miedoso - 胆小
+ pegamento - 胶, 胶水
+ pincel - 画笔, 毛笔
+ seguir la corriente - 顺着
+ siesta - 午睡
+ soler - 通常
+ soplón - 告密者
+ sospechar de - 怀疑
+ traicionar - 背叛
+ y qué - 那又怎样
+296 Auto 汽车: 比较不同的汽车
+ acelerador - 加速器, 油门
+ agencia - 代理商, 代理处, 代理, 中介
+ al contado - 一次性付款
+ alcance - 能力范围
+ amargarse - 变苦
+ caja de velocidades - 变速箱
+ camioneta - 皮卡车, 皮卡, 皮卡比, 卡车, 货车
+ característica - 特色, 特征, 特点
+ cargo - 职位, 位置, 职, 充, 职务
+ compra - 多买, 买件, 购买, 买些, 买辆, 买, （动词）买, 收购, 消费
+ consumir - 食用, 摄入
+ convertible - 敞篷车
+ cuota - 费用, 车费
+ darse el gusto - 享受一下
+ en caso de que - 以防
+ falla - 失败, 失手, 不进
+ limpiaparabrisas - 雨刷
+ lo único es que - 唯一的问题是
+ ni más ni menos - 仅此而已
+ permitirse - 负担得起, 买得起
+ solo que - 只是
+ solucionar - 解决, 补救
+ tapizado - 内饰
+ vibrar - 震动
+ volante - 方向盘
+297 Newspaper 事件: 预测下一次降雨
+ alimentación - 饮食
+ chubasco - 阵雨
+ comenzar - 开始, 开启, 起天来
+ con las manos en la masa - 当场抓住
+ cura - 医治, 治疗, 治愈
+ desconfiar - 不信任
+ descubrimiento - 发明, 发现, 突破
+ despido - 解雇
+ detener - 阻止, 止住, 拦, 中断, 拘留, 停产, 拦下, 阻挡
+ específico - 特定, 具体, 个别
+ estafador - 骗子
+ haga lo que haga - 无论她做什么, 无论人们做什么, 无论做什么
+ indemnizar - 赔偿, 赔钱
+ medio - 半, 半个, 中间, 手段
+ mismo - 相同, 同一, 一样的, 同样的, 相同的, 本人
+ primera plana - 头版
+ rescate - 赎金, 救援
+ salvarse de - 躲避
+ sindicato - 工会
+ titular - 标题
+ trasplante - 移植
+ único - 独一无二, 唯, 独特, 唯一的, 独, 唯一, 特有
+298 Olympics 奖牌: 表达对比赛结果的看法
+ bronce - 青铜, 铜, 青铜牌, 季军
+ caer en la cuenta - 意识到
+ darle la vuelta a - 扭转
+ deportista - 运动员, 选手
+ en breve - 很快
+ en este instante - 这个瞬间
+ estar a la altura - 达到
+ gimnasta - 体操运动员, 体操选手
+ hazaña - 壮举
+ lesionarse - 受伤
+ lo - l, 它, lo
+ medalla - 奖牌
+ muscular - 肌肉发达
+ nadador - 游泳运动员
+ olimpiadas - 奥运会
+ piragüismo - 皮划艇
+ podio - 领奖台
+ predecir - 预测, 预言
+ premiación - 颁奖典礼
+ que - 比, 的
+ quedar - 留 (下), 待, 碰面
+ rendimiento - 考核成绩, 表现, 收益, 性能
+ récord - 纪录
+ y así fue - 确实如此
+299 First Date 约会: 分享约会经历
+ alejarse - 远点, 开走, 乱跑
+ amorío - 恋情
+ así - 如此, 那样, 这样, 从而
+ bostezar - 打哈欠
+ defecto - 缺陷, 瑕疵
+ egocéntrico - 自我中心
+ enamoradizo - 容易坠入爱河
+ grosero - 粗鲁, 无礼
+ herir - 伤害
+ hilo dental - 牙线
+ justificar - 辩解
+ manipular - 玩手, 操控, 乱动
+ mentira piadosa - 善意的谎言
+ no será porque - 难道不是因为
+ pasarse - 过分
+ por culpa de - 因为
+ por lo que - 根据
+ presentarse - 出现, 卡来
+ reaccionar - 反应
+ ser - 当, 被, 遭到, 做, 成为, 是, 要系
+ sonámbulo - 梦游者, 梦游
+ sudar - 出汗, 冒汗
+ super - 非常
+300 Convention 职场: 介绍创新项目
+ acerca de - 关于
+ crecimiento - 增长
+ de una vez - 立刻
+ ejercer de - 做过, 做
+ eliminar - 淘汰, 祛, 消除, (他/她/它) 排除, 删除, 开除, 会裁, 移出, 删, 滤
+ fabricar - 制造, 打造
+ fluir - 流动
+ ganarse la vida - 谋生
+ gracias a dios - 谢天谢地
+ impacto - 影响, 冲击, 效应
+ innovador - 创新, 新型
+ inteligencia artificial - 人工智能
+ interactuar - 互动
+ intrascendente - 无关紧要的
+ por - 为了, 因为, 由于, 乘以, 每, 由, 通, 通过, 被, 凭, 出于, 支持, 沿着, 在, 为期, 为, 顺着
+ posibilidad - 可能 (名词), 可能性
+ preguntón - 爱问问题的人, 爱问
+ presionar - 按, 催得
+ profundizar - 深究, 加深, 深入, 进一步
+ qué hay de - 有什么
+ sacar - 抽到, 取钱, 取出, 取, 拿出, 移出, 抽取
+ timidez - 害羞
+ trayectoria - 职业生涯
+301 Old Friend 回忆: 分享童年趣事
+ a - 给, 到, 向, 在, 阿, 去, 二比
+ a gusto - 自在
+ arreglar - 修理, 预先安排
+ como - 般的, 当, 吃生, 仿佛, 身为, 过像, 作为, 吃饭, 不吃, 吃糖, 似的, 我吃, 如, 云像, 正像, 吃豆腐, 既然
+ complacer - 取悦, 悦, 讨好
+ desde hacía - 多年来, 才, 几个月来, 已经
+ en pareja - 在一起
+ expulsar - 罚下场, 逐, 开除, 移出
+ inquieto - 不安, 坐立不安
+ no te creas - 别以为
+ piedra - 石, 石头
+ prudente - 谨慎, 有分寸
+ que digamos - 可以这么说
+ querer - 要, 好要
+ rememorar - 回忆
+ retomar - 恢复
+ revoltoso - 淘气
+ saber nada - 不想知道
+ trepar - 爬树
+302 Mishap 生活事: 讲讲搬家趣事
+ acabarse - 用完
+ adaptador - 适配器
+ agradecido - 谢, 非常感激
+ alcantarilla - 下水道
+ apagón - 停电
+ asado - 烤菜, 烤, 烤制
+ bacalao - 鳕, 无须鳕, 鳕鱼
+ caer - 沉下, 跌倒, 坠, 落下, 掉, 滑下, 掉下, 倒, 摔下, 坠入, 沉下去
+ canela - 肉桂, 桂
+ ciudadanía - 公民身份
+ documentación - 文件
+ elaborado - 制作, 精心制作的, 巧妙
+ en regla - 合规
+ en sentido contrario - 逆向
+ gratificante - 令人欣慰, 成就感
+ intimidante - 令人生畏的, 令人生畏
+ lidiar con - 处理
+ perder la paciencia - 失去耐心
+ puesto callejero - 街头摊位
+ quedar - 留 (下), 待, 碰面
+ sí - 是, 对, 是的
+303 Learning 学习法: 分享你的学习方法
+ a medida que - 随着
+ adicionalmente - 此外
+ arreglárselas - 应付
+ dominar - 克制, 掌握, 统治
+ en conclusión - 总之
+ en todo caso - 无论如何
+ enfocarse - 集中, 关注, 对焦, 专注, 专注于
+ enseñanza - 教学
+ entretenido - 有趣
+ escritura - 文, 写作
+ hay mucho que - 有很多要
+ ir - 去了, 去数, 前去, 去往, 不去, 去, 生去
+ motivación - 动力, 动机
+ pista - 跑道, 头绪, 线索, 提示, 绪
+ por lo tanto - 因此
+ quedarse - 留下
+ racha - 连胜
+ ritmo - 律动, 旋律, 节奏
+ tener constancia - 有恒心
+ y mucho menos - 更别说

@@ -1,0 +1,113 @@
+ZH EN FR DE IT JP KO PO RU ES FT 
+55 100 55 55 55 55 55 55 61 55 60
+
+Lang	Vocab	Sentences	Total
+ZH	9/9	1/9(310/2466)	55%
+ZH-DE	Good	Null(0/310)	0%
+ZH-EN	Good	Good(310/310)	100%  6197/6442(96%)
+ZH-ES	Good	Null(0/303)	0%
+ZH-FR	Good	Null(0/302)	0%
+ZH-IT	Good	Null(0/310)	0%
+ZH-JP	Good	Null(0/310)	0%
+ZH-KO	Good	Null(0/310)	0%
+ZH-PO	Good	Null(0/311)	0%
+ZH-RU	Good	Null(?)		0%  5924/6427(92%)
+
+EN	9/9	9/9(2771/2771)	100%
+EN-DE	Good	Good(310/310)	100%
+EN-ES	Good	Good(303/303)	100%
+EN-FR	Good	Good(302/302)	100%
+EN-IT	Good	Good(310/310)	100%
+EN-JP	Good	Good(310/310)	100%
+EN-KO	Good	Good(310/310)	100%
+EN-PO	Good	Good(311/311)	100%
+EN-ZH	Good	Good(310/310)	100%
+EN-RU	Good	Good(305/305)	100%  5373/7125(75%)
+
+FR	9/9	1/9(302/2466)	55%
+FR-DE	Good	Null(0/310)	0%
+FR-EN	Good	Good(302/302)	100%  6532/7210(90%)
+FR-ES	Good	Null(0/303)	0%
+FR-IT	Good	Null(0/310)	0%
+FR-JP	Good	Null(0/310)	0%
+FR-KO	Good	Null(0/310)	0%
+FR-PO	Good	Null(0/311)	0%
+FR-ZH	Good	Null(0/310)	0%
+FR-RU	Good	Null(?)		0%  6129/7091(86%)
+
+DE	9/9	1/9(310/2466)	55%
+DE-EN	Good	Good(310/310)	100%  6015/6873(87%)
+DE-ES	Good	Null(0/303)	0%
+DE-FR	Good	Null(0/302)	0%
+DE-IT	Good	Null(0/310)	0%
+DE-JP	Good	Null(0/310)	0%
+DE-KO	Good	Null(0/310)	0%
+DE-PO	Good	Null(0/311)	0%
+DE-ZH	Good	Null(0/310)	0%
+DE-RU	Good	Null(?)		0%  4581/6856(66%)
+
+IT	9/9	1/9(310/2466)	55%
+IT-DE	Good	Null(0/310)	0%
+IT-EN	Good	Good(310/310)	100%
+IT-ES	Good	Null(0/303)	0%
+IT-FR	Good	Null(0/302)	0%
+IT-JP	Good	Null(0/310)	0%
+IT-KO	Good	Null(0/310)	0%
+IT-PO	Good	Null(0/311)	0%
+IT-ZH	Good	Null(0/310)	0%
+IT-RU	Good	Null(?)		0%  4384/6259(70%)
+
+JP	9/9	1/9(310/2466)	55%
+JP-DE	Good	Null(0/310)	0%
+JP-EN	Good	Good(310/310)	100%  5636/6096(92%)
+JP-ES	Good	Null(0/303)	0%
+JP-FR	Good	Null(0/302)	0%
+JP-IT	Good	Null(0/310)	0%
+JP-KO	Good	Null(0/310)	0%
+JP-PO	Good	Null(0/311)	0%
+JP-ZH	Good	Null(0/310)	0%
+JP-RU	Good	Null(?)		0%  5196/5690(91%)
+
+KO	9/9	1/9(310/2466)	55%
+KO-DE	Good	Null(0/310)	0%
+KO-EN	Good	Good(310/310)	100%
+KO-ES	Good	Null(0/303)	0%
+KO-FR	Good	Null(0/302)	0%
+KO-IT	Good	Null(0/310)	0%
+KO-JP	Good	Null(0/310)	0%
+KO-PO	Good	Null(0/311)	0%
+KO-ZH	Good	Null(0/310)	0%
+KO-RU	Good	Null(?)		0%  5221/6219(83%)
+
+PO	9/9	1/9(311/2466)	55%
+PO-DE	Good	Null(0/310)	0%
+PO-EN	Good	Good(311/311)	100%  6002/6712(89%)
+PO-ES	Good	Null(0/303)	0%
+PO-FR	Good	Null(0/302)	0%
+PO-IT	Good	Null(0/310)	0%
+PO-JP	Good	Null(0/310)	0%
+PO-KO	Good	Null(0/310)	0%
+PO-ZH	Good	Null(0/310)	0%
+PO-RU	Good	Null(?)		0%  4528/6683(67%)
+
+RU	9/9	2/9(749/2771)	61%
+RU-DE	Good	Null(0/310)	0%
+RU-EN	Good	Good(305/305)	100%
+RU-ES	Good	Null(0/303)	0%
+RU-FR	Good	Good(302/302)	100%
+RU-IT	Good	Partial(50/310)	16%
+RU-JP	Good	Null(0/310)	0%
+RU-KO	Good	Partial(91/310)	29%
+RU-PO	Good	Partial(1/311)	0%
+RU-ZH	Good	Null(0/310)	0%
+
+ES	9/9	1/9(323/2466)	55%
+ES-DE	Good	Null(0/310)	0%
+ES-EN	Good	Good(303/303)	100%  6610/7158(92%)
+ES-FR	Good	Null(0/302)	0%
+ES-IT	Good	Partial(20/310)	6%
+ES-JP	Good	Null(0/310)	0%
+ES-KO	Good	Null(0/310)	0%
+ES-PO	Good	Null(0/311)	0%
+ES-ZH	Good	Null(0/310)	0%
+ES-RU	Good	Null(?)		0%  5885/7061(83%)

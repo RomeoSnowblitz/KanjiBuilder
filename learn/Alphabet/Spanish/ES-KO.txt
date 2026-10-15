@@ -1,0 +1,85 @@
+1 아 야 어 여 오
+ 아 - a
+ 야 - ya
+ 어 - eo
+ 여 - yeo
+ 오 - o
+2 요 우 유 으 이
+ 요 - yo
+ 우 - u
+ 유 - yu
+ 으 - eu
+ 이 - i
+3 가 나 다 라 마
+ 가 - ga
+ 나 - na
+ 다 - da
+ 라 - ra
+ 마 - ma
+4 바 사 자 차 하
+ 바 - ba
+ 사 - sa
+ 자 - ja
+ 차 - cha
+ 하 - ha
+5 카 타 파
+ 카 - ka
+ 타 - ta
+ 파 - pa
+6 까 따 빠 싸 짜
+ 까 - kka
+ 따 - tta
+ 빠 - ppa
+ 싸 - ssa
+ 짜 - jja
+7 애 얘 에 예
+ 애 - ae
+ 얘 - yae
+ 에 - e
+ 예 - ye
+8 와 왜 외 워 웨 위 의
+ 와 - wa
+ 왜 - wae
+ 외 - oe
+ 워 - wo
+ 웨 - we
+ 위 - wi
+ 의 - ui
+9 고 노 도 로 모 보 소
+ 고 - go
+ 노 - no
+ 도 - do
+ 로 - ro
+ 모 - mo
+ 보 - bo
+ 소 - so
+10 조 초 코 토 포 호
+ 조 - jo
+ 초 - cho
+ 코 - ko
+ 토 - to
+ 포 - po
+ 호 - ho
+11 기 니 디 리 미 비 시
+ 기 - gi
+ 니 - ni
+ 디 - di
+ 리 - ri
+ 미 - mi
+ 비 - bi
+ 시 - si
+12 지 치 키 티 피 히
+ 지 - ji
+ 치 - chi
+ 키 - ki
+ 티 - ti
+ 피 - pi
+ 히 - hi
+13 각 간 갇 갈 감 갑 강
+ 각 - gak
+ 간 - gan
+ 갇 - gat
+ 갈 - gal
+ 감 - gam
+ 갑 - gap
+ 강 - gang

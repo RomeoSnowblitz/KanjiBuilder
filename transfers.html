@@ -18,9 +18,11 @@
       <a href="create.html" data-i18n="nav.create">Create</a>
       <a href="draw.html" data-i18n="nav.draw">Draw</a>
       <a href="dictionary.html" data-i18n="nav.dictionary">Dictionary</a>
+      <a href="kanji.html" data-i18n="nav.kanji">Kanji</a>
       <a href="web.html" data-i18n="nav.web">Web</a>
       <a href="write.html" data-i18n="nav.write">Write</a>
       <a href="play.html" data-i18n="nav.play">Play</a>
+      <a href="learn.html" data-i18n="nav.learn">Learn</a>
       <a href="comments.html" data-i18n="nav.comments">Comments</a>
       <a href="transfers.html" class="active" data-i18n="nav.transfers">Transfers</a>
     </nav>
@@ -44,7 +46,7 @@
     </div>
   </header>
   <main>
-    <span class="app-version">v0.6</span>
+    <span class="app-version">v0.7a</span>
     <h1 id="transfers-title">Transfers</h1>
 
     <section class="transfer-card">
@@ -81,6 +83,10 @@
           <h3 id="transfers-txt-download-title">Download Type</h3>
           <div class="transfer-actions">
             <button type="button" id="transfer-txt-size-toggle" class="btn-secondary">Full File</button>
+            <label id="transfer-txt-split-size" class="transfer-txt-split-size hidden">
+              <input type="number" id="transfer-txt-split-mb" min="1" max="1024" step="1" value="10" />
+              <span id="transfers-txt-split-mb-label">MB per file</span>
+            </label>
             <button type="button" id="transfer-txt-layout-toggle" class="btn-secondary">Words Listed</button>
           </div>
         </section>

@@ -1,0 +1,31 @@
+1 A B C D E
+ a - 아
+ b - 베
+ c - 세
+ d - 데
+ e - 으
+2 F G H I J
+ f - 에프
+ g - 제
+ h - 아슈
+ i - 이
+ j - 지
+3 K L M N O
+ k - 카
+ l - 엘
+ m - 엠
+ n - 엔
+ o - 오
+4 P Q R S T
+ p - 페
+ q - 퀴
+ r - 에르
+ s - 에스
+ t - 테
+5 U V W X Y Z
+ u - 위
+ v - 베(v)
+ w - 두블르베
+ x - 익스
+ y - 이그레크
+ z - 제드

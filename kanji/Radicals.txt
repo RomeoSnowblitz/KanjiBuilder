@@ -1,0 +1,215 @@
+ID	Radical	Kangxi	Strokes	Meaning	Reading	Position	Important	Variants
+1	一	⼀	1	one, horizontal stroke	いち			
+2	丨	⼁	1	vertical stroke	たてぼう			
+3	丶	⼂	1	dot	てん			
+4	丿	⼃	1	diagonal sweeping stroke	の			(のかんむり)
+5	乙	⼄	1	the second	おつ			乚 (おつ)
+6	亅	⼅	1	vertical stroke with a hook	はねぼう			
+7	二	⼆	2	two	に			
+8	亠	⼇	2	lid, top	なべぶた	かんむり	yes	
+9	人	⼈	2	person	ひと			亻 (にんべん); 𠆢 (ひとやね)
+10	儿	⼉	2	human legs	ひとあし	あし	yes	
+11	入	⼊	2	to enter	いる			
+12	八	⼋	2	eight	はち			(はちがしら)
+13	冂	⼌	2	to enclose	けいがまえ	けいがまえ		
+14	冖	⼍	2	cover, crown	わかんむり	かんむり	yes	
+15	冫	⼎	2	ice	にすい	へん		
+16	几	⼏	2	table	きにょう	つくり		𠘨 (かぜかんむり)
+17	凵	⼐	2	container, open box	かんにょう	にょう		
+18	刀	⼑	2	knife, sword	かたな			刂 (りっとう)
+19	力	⼒	2	power	ちから			
+20	勹	⼓	2	to wrap	つつみがまえ	つつみがまえ		
+21	匕	⼔	2	spoon	さじ	つくり		
+22	匚	⼕	2	box	はこがまえ	はこがまえ		
+23	匸	⼖	2	to conceal, hide	かくしがまえ	はこがまえ		
+24	十	⼗	2	ten	じゅう			
+25	卜	⼘	2	oracle	ぼく			
+26	卩	⼙	2	stamp, seal	ふしづくり	つくり		
+27	厂	⼚	2	cliff	がんだれ	たれ	yes	
+28	厶	⼛	2	private, Katakana Mu	む			
+29	又	⼜	2	again, right hand	また			
+30	口	⼝	3	mouth	くち			(くちへん)
+31	囗	⼞	3	border, territorial boundaries	くにがまえ	くにがまえ	yes	
+32	土	⼟	3	earth	つち			(つちへん)
+33	士	⼠	3	man, scholar, samurai	さむらい			(さむらいかんむり)
+34	夂	⼡	3	to follow	のまた			
+35	夊	⼢	3	to go slowly	なつあし	あし		
+36	夕	⼣	3	evening	ゆうべ			
+37	大	⼤	3	large, big	だい			
+38	女	⼥	3	woman	おんな			(おんなへん)
+39	子	⼦	3	child, son	こ			(こへん)
+40	宀	⼧	3	roof, house	うかんむり	かんむり	yes	
+41	寸	⼨	3	inch, (2.25 cm)	すん			(すんづくり)
+42	小	⼩	3	small	しょう			(しょうかんむり); (つ)
+43	尢	⼪	3	lame leg	だいのまげあし	つくり		
+44	尸	⼫	3	corpse, awning	しかばね	たれ		
+45	屮	⼬	3	sprout	くさのめ			
+46	山	⼭	3	mountain	やま			(やまへん); (やまかんむり)
+47	巛	⼮	3	winding river	まがりがわ			川 (さんぼんがわ)
+48	工	⼯	3	work, carpenter, skill	たくみ			(たくみへん)
+49	己	⼰	3	self	おのれ			
+50	巾	⼱	3	cloth	はば			(はばへん)
+51	干	⼲	3	to dry, shield	かん			
+52	幺	⼳	3	young, slight	いとがしら			
+53	广	⼴	3	slanting roof	まだれ	たれ	yes	
+54	廴	⼵	3	to move, stretch	えんにょう	にょう		
+55	廾	⼶	3	folded hands	にじゅうあし	あし		
+56	弋	⼷	3	javelin	いぐるみ			
+57	弓	⼸	3	bow（in archery）	ゆみ			(ゆみへん)
+58	彐	⼹	3	pig’s head	けいがしら			𫜹 (けいがしら); 彑 (けいがしら)
+59	彡	⼺	3	hair-style, light rays	さんづくり	つくり		
+60	彳	⼻	3	step, stride, street, to go	ぎょうにんべん	へん	yes	
+61	心	⼼	4	heart, mind, spirit	こころ			忄 (りっしんべん); (したごころ)
+62	戈	⼽	4	spear, weapon	ほこ			
+63	戶	⼾	4	door	と			(とだれ)
+64	手	⼿	4	hand	て			扌 (てへん)
+65	支	⽀	4	branch	しにょう			
+66	攴	⽁	4	activity, to strike, hit	ぼくづくり	つくり		攵 (ぼくづくり)
+67	文	⽂	4	literature, letters	ぶん			
+68	斗	⽃	4	big dipper, ladle, 18 liters	ますづくり	つくり		
+69	斤	⽄	4	axe	おのづくり	つくり		
+70	方	⽅	4	direction, flag	ほう			(ほうへん)
+71	无	⽆	4	not	むにょう			旡 (むにょう)
+72	日	⽇	4	sun, day, time	ひ			(ひへん)
+73	曰	⽈	4	to say	ひらび			
+74	月	⽉	4	moon, month, period	つき			(つきへん)
+75	木	⽊	4	tree, wood	き			(きへん)
+76	欠	⽋	4	to lack, yawn	あくび			
+77	止	⽌	4	to stop	とめる			
+78	歹	⽍	4	death & dying, to decompose	がつ			(がつへん)
+79	殳	⽎	4	lance shaft, action	るまた	つくり		
+80	毋	⽏	4	not, mother	なかれ			
+81	比	⽐	4	to compare	くらべる			
+82	毛	⽑	4	hair	け			
+83	氏	⽒	4	family, clan	うじ			
+84	气	⽓	4	steam, air	きがまえ	きがまえ		
+85	水	⽔	4	water	みず			氵 (さんずい); 氺 (したみず)
+86	火	⽕	4	fire	ひ			(ひへん); 灬 (れっか)
+87	爪	⽖	4	claw, nail	つめ			爫 (つめかんむり); 爫 (つめかんむり)
+88	父	⽗	4	father	ちち			
+89	爻	⽘	4	to mix	こう			
+90	爿	⽙	4	split wood	しょうへん	へん		
+91	片	⽚	4	split wood	かた			(かたへん)
+92	牙	⽛	4	fang, canine tooth	きば			(きば); (きばへん)
+93	牛	⽜	4	cow	うし			(うしへん)
+94	犬	⽝	4	dog	いぬ			犭 (けものへん)
+95	玄	⽞	5	darkness	げん			
+96	玉	⽟	5	jewelry	たま			(おうへん)
+97	瓜	⽠	5	melon	うり			(うり)
+98	瓦	⽡	5	tile	かわら			
+99	甘	⽢	5	sweet	あまい			
+100	生	⽣	5	birth, to be born, live	うまれる			
+101	用	⽤	5	to use	もちいる			
+102	田	⽥	5	rice paddy	た			(たへん)
+103	疋	⽦	5	bolt of cloth	ひき			𤴔 (ひきへん)
+104	疒	⽧	5	sickness	やまいだれ	たれ	yes	
+105	癶	⽨	5	outspread legs, departure	はつがしら	かんむり		
+106	白	⽩	5	white	しろ			(はくへん)
+107	皮	⽪	5	skin, hide	けがわ			
+108	皿	⽫	5	plate, bowl	さら			
+109	目	⽬	5	eye	め			(めへん); (よこめ)
+110	矛	⽭	5	halberd	ほこ			(ほこへん)
+111	矢	⽮	5	arrow	や			(やへん)
+112	石	⽯	5	stone	いし			(いしへん)
+113	示	⽰	5	altar, festival, religious service	しめす			礻 (しめすへん)
+114	禸	⽱	5	footprint	じゅうのあし			
+115	禾	⽲	5	grain	のぎへん	へん	yes	
+116	穴	⽳	5	hole, cave	あな			(あなかんむり)
+117	立	⽴	5	to stand	たつ			(たつへん)
+118	竹	⽵	6	bamboo	たけ			𥫗 (たけかんむり)
+119	米	⽶	6	rice	こめ			(こめへん)
+120	糸	⽷	6	thread	いと			(いとへん)
+121	缶	⽸	6	earthen jar	みずがめ			
+122	网	⽹	6	net	あみめ			㓁 (あみがしら); 目 (あみがしら); 𦉰 (あみがしら)
+123	羊	⽺	6	sheep	ひつじ			𦍌 (ひつじ)
+124	羽	⽻	6	feather, wing	はね			(はね)
+125	老	⽼	6	old, old-age	おいかんむり			耂 (おいかんむり)
+126	而	⽽	6	and also	しこうして			
+127	耒	⽾	6	plow	らいすき	へん		
+128	耳	⽿	6	ear	みみ			(みみへん)
+129	聿	⾀	6	writing brush	ふでづくり			
+130	肉	⾁	6	flesh, meat	にく			(にくづき)
+131	臣	⾂	6	retainer, minister	しん			(しん)
+132	自	⾃	6	self	みずから			
+133	至	⾄	6	to arrive, reach	いたる			(いたるへん)
+134	臼	⾅	6	mortar, quern	うす			
+135	舌	⾆	6	tongue	した			
+136	舛	⾇	6	contrary, to err	まいあし			(まいあし)
+137	舟	⾈	6	ship, boat	ふね			(ふねへん)
+138	艮	⾉	6	boundary	こん			
+139	色	⾊	6	color	いろ			
+140	艸	⾋	6	grass, plant	くさ			艹 (くさかんむり)
+141	虍	⾌	6	tiger	とらがしら	かんむり		
+142	虫	⾍	6	worm, insect, bug	むし			(むしへん)
+143	血	⾎	6	blood	ち			
+144	行	⾏	6	to go	ぎょうがまえ	ぎょうがまえ	yes	
+145	衣	⾐	6	clothing	ころも			衤 (ころもへん)
+146	襾	⾑	6	cover, west	にし			覀 (にし)
+147	見	⾒	7	to see	みる			
+148	角	⾓	7	horn, corner	つの			(つのへん)
+149	言	⾔	7	words, to speak, say	げん			(ごんべん)
+150	谷	⾕	7	valley	たに			(たにへん)
+151	豆	⾖	7	bean	まめ			(まめへん)
+152	豕	⾗	7	pig	いのこ			
+153	豸	⾘	7	badger	むじなへん	へん		
+154	貝	⾙	7	shell, property, wealth	かい			(かいへん)
+155	赤	⾚	7	red	あか			
+156	走	⾛	7	to run	はしる			(そうにょう)
+157	足	⾜	7	foot, leg	あし			𧾷 (あしへん)
+158	身	⾝	7	body	み			(みへん)
+159	車	⾞	7	vehicle, wheel, car	くるま			(くるまへん)
+160	辛	⾟	7	bitter	からい			
+161	辰	⾠	7	Fifth zodiac sign, 7–9 A.M.	しんのたつ			
+162	辵	⾡	7	to advance, move ahead	しんにょう			辶 (しんにょう)
+163	邑	⾢	7	community	むら			(おおざと)
+164	酉	⾣	7	sake jar, bird	ひよみのとり			(とりへん)
+165	釆	⾤	7	to separate	のごめ			(のごめへん)
+166	里	⾥	7	village, (3.93 km)	さと			(さとへん)
+167	金	⾦	8	metal, gold, mineral	かね			(かねへん)
+168	長	⾧	8	long	ながい			
+169	門	⾨	8	gate, door	もんがまえ	もんがまえ	yes	
+170	阜	⾩	8	hill	こざと			阝 (こざとへん)
+171	隶	⾪	8	to capture	れいづくり	つくり		
+172	隹	⾫	8	small bird	ふるとり			
+173	雨	⾬	8	rain	あめ			(あめかんむり)
+174	靑	⾭	8	blue, green	あお			青 (あお)
+175	非	⾮	8	wrong, non-	あらず			
+176	面	⾯	9	face, surface	めん			
+177	革	⾰	9	leather	つくりがわ			
+178	韋	⾱	9	leather	なめしがわ			(なめしがわ)
+179	韭	⾲	9	leek	にら			
+180	音	⾳	9	sound, noise	おと			
+181	頁	⾴	9	head, page	おおがい	つくり	yes	
+182	風	⾵	9	wind	かぜ			
+183	飛	⾶	9	to fly	とぶ			
+184	食	⾷	9	food, to eat	しょく			飠 (しょくへん)
+185	首	⾸	9	head	くび			
+186	香	⾹	9	scent	かおり			
+187	馬	⾺	10	horse	うま			(うまへん)
+188	骨	⾻	10	bone	ほね			(ほねへん)
+189	高	⾼	10	high	たかい			
+190	髟	⾽	10	long hair	かみかんむり	かんむり		
+191	鬥	⾾	10	fighting	たたかいがまえ			
+192	鬯	⾿	10	herbs	においざけ			
+193	鬲	⿀	10	tripod	れき			
+194	鬼	⿁	10	demon	おに			
+195	魚	⿂	11	fish	うお			(うおへん)
+196	鳥	⿃	11	bird	とり			
+197	鹵	⿄	11	salt	しお			
+198	鹿	⿅	11	deer	しか			
+199	麥	⿆	11	wheat	むぎ			麦 (むぎ)
+200	麻	⿇	11	hemp	あさ			(あさかんむり)
+201	黃	⿈	12	yellow	き			黄 (き)
+202	黍	⿉	12	millet	きび			
+203	黑	⿊	12	black	くろ			黒 (くろ)
+204	黹	⿋	12	embroider	ぬいとり			
+205	黽	⿌	13	frog	かえる			
+206	鼎	⿍	13	tripod	かなえ			
+207	鼓	⿎	13	drum	つづみ			
+208	鼠	⿏	13	rat, mouse	ねずみ			
+209	鼻	⿐	14	nose	はな			
+210	齊	⿑	14	alike	せい			斉 (せい)
+211	齒	⿒	15	tooth	は			歯 (は)
+212	龍	⿓	16	dragon	りゅう			
+213	龜	⿔	16	turtle	かめ			亀 (かめ)
+214	龠	⿕	17	flute	やく			

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kanji Builder</title>
+  <link rel="stylesheet" href="style.css?v=0.7" />
+  <script src="translations.js?v=0.7"></script>
+  <script defer src="script.js?v=0.7"></script>
+</head>
+<body data-page="learn-area">
+  <header class="navbar">
+    <nav>
+      <a href="index.html" data-i18n="nav.home">Home</a>
+      <a href="create.html" data-i18n="nav.create">Create</a>
+      <a href="draw.html" data-i18n="nav.draw">Draw</a>
+      <a href="dictionary.html" data-i18n="nav.dictionary">Dictionary</a>
+      <a href="kanji.html" data-i18n="nav.kanji">Kanji</a>
+      <a href="web.html" data-i18n="nav.web">Web</a>
+      <a href="write.html" data-i18n="nav.write">Write</a>
+      <a href="play.html" data-i18n="nav.play">Play</a>
+      <a href="learn.html" class="active" data-i18n="nav.learn">Learn</a>
+      <a href="comments.html" data-i18n="nav.comments">Comments</a>
+      <a href="transfers.html" data-i18n="nav.transfers">Transfers</a>
+    </nav>
+    <div class="navbar-right">
+      <div class="lang-wrapper">
+        <button type="button" id="lang-btn">English</button>
+        <div id="lang-dropdown" class="lang-dropdown hidden">
+          <button type="button" data-lang="zh">中文</button>
+          <button type="button" data-lang="es">Español</button>
+          <button type="button" data-lang="en">English</button>
+          <button type="button" data-lang="pt">Português</button>
+          <button type="button" data-lang="ru">Русский</button>
+          <button type="button" data-lang="ja">日本語</button>
+          <button type="button" data-lang="ko">한국어</button>
+          <button type="button" data-lang="de">Deutsch</button>
+          <button type="button" data-lang="fr">Français</button>
+          <button type="button" data-lang="it">Italiano</button>
+        </div>
+      </div>
+      <button id="theme-toggle">🌙</button>
+    </div>
+  </header>
+
+  <main>
+    <span class="app-version">v0.7a</span>
+    <div class="learn-area-bar">
+      <a href="learn.html" class="transfer-lang-chip" data-i18n="learn.backToLearn">← Back to Learn</a>
+    </div>
+    <h1 id="learn-area-title">Learn</h1>
+    <div class="coming-soon" data-i18n="common.comingSoon">Coming Soon!</div>
+  </main>
+</body>
+</html>

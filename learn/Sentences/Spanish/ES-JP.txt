@@ -1,0 +1,620 @@
+1 Pide comida y bebidas
+ null
+2 Usa adjetivos para describir sustantivos
+ null
+3 Saluda y despídete
+ null
+4 Habla sobre comida
+ null
+5 Habla sobre países y nacionalidades
+ null
+6 Forma oraciones negativas y responde
+ null
+7 Habla sobre tus pertenencias
+ null
+8 Describe a tus amigos
+ null
+9 Di la hora
+ null
+10 Encuentra lugares y objetos de viaje
+ null
+11 Preséntate y describe dónde vives
+ null
+12 Usa verbos en presente para hábitos
+ null
+13 Habla sobre tus hábitos alimenticios
+ null
+14 Compra ropa
+ null
+15 Preséntate y presenta a otros
+ null
+16 Usa verbos para indicar acciones futuras
+ null
+17 Pregunta sobre detalles de viaje
+ null
+18 Habla sobre actividades de fin de semana
+ null
+19 Habla sobre las estaciones y el clima
+ null
+20 Pide comida y bebidas
+ null
+21 Pide pasteles
+ null
+22 Desplázate por la estación
+ null
+23 Usa posesivos con objetos inanimados
+ null
+24 Habla sobre tu familia
+ null
+25 Gestiona emergencias
+ null
+26 Explora nuevos lugares
+ null
+27 Planifica una cita
+ null
+28 Usa la forma volitiva
+ null
+29 Compra y cocina alimentos
+ null
+30 Usa verbos negativos no pasados
+ null
+31 Habla sobre horarios de trabajo
+ null
+32 Navega la ciudad para ir a un cumpleaños
+ null
+33 Habla sobre eventos
+ null
+34 Preséntate y habla de tu universidad
+ null
+35 Usa expresiones de frecuencia y cantidad
+ null
+36 Habla sobre las clases
+ null
+37 Habla sobre tus pasatiempos
+ null
+38 Usa estructuras locativas
+ null
+39 Regístrate y desplázate por el hotel
+ null
+40 Encuentra alimentos en una tienda
+ null
+41 Organiza una reunión con amigos
+ null
+42 Busca ayuda médica
+ null
+43 Disfruta de una cafetería con animales
+ null
+44 Visita el zoológico
+ null
+45 Usa verbos en pasado
+ null
+46 Compra electrónicos
+ null
+47 Asiste a un concierto
+ null
+48 Usa adjetivos afirmativos y negativos
+ null
+49 Evalúa un apartamento
+ null
+50 Expresa frustraciones laborales
+ null
+51 Tómate un día de descanso
+ null
+52 Planifica para ir a ver cerezos en flor
+ null
+53 Organiza y haz un viaje a Okinawa
+ null
+54 Habla sobre una experiencia de crucero
+ null
+55 Describe una experiencia de viaje
+ null
+56 Usa verbos en pasado negativo
+ null
+57 Asiste a una fiesta de inauguración
+ null
+58 Expresa insatisfacción en un viaje
+ null
+59 Comparte tu decepción en una cita
+ null
+60 Asiste a una boda
+ null
+61 Conecta dos adjetivos
+ null
+62 Devuelve o cambia objetos
+ null
+63 Compra lo esencial para viajar
+ null
+64 Planifica actividades de verano
+ null
+65 Comunicate en el trabajo
+ null
+66 Usa verbos para dar y recibir
+ null
+67 Habla sobre tu salud
+ null
+68 Habla sobre tus pasatiempos
+ null
+69 Habla sobre tus clases
+ null
+70 Envía un paquete en la oficina postal
+ null
+71 Habla de comprar muebles nuevos
+ null
+72 Planea una fiesta sorpresa
+ null
+73 Habla de un viaje de la empresa
+ null
+74 Describe un negocio familiar
+ null
+75 Participa en concurso de fotos
+ null
+76 Navega redes sociales
+ null
+77 Planea actividades al aire libre
+ null
+78 Pide comida en "レストラン"
+ null
+79 Compra en una tienda de segunda mano
+ null
+80 Colabora con "同僚" en proyectos
+ null
+81 Planea un viaje de esquí
+ null
+82 Habla de géneros de cine favoritos
+ null
+83 Explora atracciones de Fukuoka
+ null
+84 Pide café en una librería
+ null
+85 Asiste a una boda familiar
+ null
+86 Compara opciones de hotel
+ null
+87 Habla de retrasos con cortesía
+ null
+88 Habla de estrategias de estudio
+ null
+89 Haz una videollamada
+ null
+90 Habla de deportes y actividades
+ null
+91 Habla de costumbres de Año Nuevo japonés
+ null
+92 Coordina un viaje internacional
+ null
+93 Abre una cuenta bancaria
+ null
+94 Discute un proceso de investigación
+ null
+95 Organiza una parrillada
+ null
+96 Habla de necesidades dietéticas
+ null
+97 Debate sobre una escena del crimen
+ null
+98 Organiza una reunión de negocios
+ null
+99 Reúnete con viejos amigos
+ null
+100 Habla sobre tradiciones festivas
+ null
+101 Habla de hábitos saludables
+ null
+102 Adáptate a diferencias culturales
+ null
+103 Navega un día en la ciudad
+ null
+104 Habla sobre tradiciones culturales
+ null
+105 Organiza una tienda del festival escolar
+ null
+106 Organiza un picnic juntos
+ null
+107 Habla de negocios en una conferencia
+ null
+108 Comparte una experiencia decepcionante
+ null
+109 Habla de actividades en "ge-sen"
+ null
+110 Habla de estudiar en el extranjero
+ null
+111 Navega una noche de juegos
+ null
+112 Habla de servicios de reparación
+ null
+113 Habla de salud con "医者"
+ null
+114 Comparte logros recientes
+ null
+115 Disfruta karaoke con amigos
+ null
+116 Habla de hábitos saludables
+ null
+117 Navega con apps de smartphone
+ null
+118 Explora "kendo" para aliviar estrés
+ null
+119 Habla de vivir con compañeros
+ null
+120 Habla de síntomas con médicos
+ null
+121 Habla sobre tradiciones de Golden Week
+ null
+122 Compra ropa y accesorios
+ null
+123 Participa en limpieza comunitaria
+ null
+124 Comparte experiencias de infancia
+ null
+125 Explora una oficina japonesa
+ null
+126 Habla de características de juegos
+ null
+127 Habla de gestión de residuos locales
+ null
+128 Discute aspiraciones futuras e identidad
+ null
+129 Planea un viaje a Japón
+ null
+130 Habla de salud y bienestar
+ null
+131 Objetos: Pregunta por objetos perdidos
+ null
+132 Sorpresa: Comparte lo que te sorprendió
+ null
+133 Amistad: Pide ayuda a un amigo
+ null
+134 Rutina: Habla de tu rutina diaria
+ null
+135 Fiesta: Organiza una fiesta
+ null
+136 Tareas: Organiza las tareas en casa
+ null
+137 Estaciones: Describe el clima de hoy
+ null
+138 Oficina: Habla del trabajo en la oficina
+ null
+139 Evento: Cuenta lo que quieres probar
+ null
+140 Cultura: Habla de eventos de caridad
+ null
+141 Opinión: Recomienda lugares a amigos
+ null
+142 Lugares: Ubica equipos en la oficina
+ null
+143 Momentos: Describe un momento especial
+ null
+144 Personas: Presenta a tus amigos
+ null
+145 Grupo: Describe el trabajo del grupo
+ null
+146 El viaje: Organiza tu equipaje
+ null
+147 La casa: Pide que cuiden tu casa
+ null
+148 Infancia: Describe tu rutina de niño
+ null
+149 Comida: Cuenta tus hábitos al comer
+ null
+150 Vivienda: Describe tu casa
+ null
+151 Comunidad: Habla sobre tu vecindario
+ null
+152 Campamento: Explica el plan de acampada
+ null
+153 Ciudad: Menciona lugares que visitas
+ null
+154 Familia: Presenta a tu familia
+ null
+155 Planes: Comparte tus planes
+ null
+156 Experiencia: Cuenta lo que haces ahora
+ null
+157 Metas: Comparte tus metas personales
+ null
+158 Orden: Expón ideas importantes
+ null
+159 Nueva vida: Cuenta cómo te adaptas
+ null
+160 Salud: Habla de hábitos saludables
+ null
+161 Ciudad: Describe lugares en la ciudad
+ null
+162 Retos: Organiza los materiales
+ null
+163 Objetivos: Habla de tus planes de viaje
+ null
+164 Amistad: Habla sobre tus amistades
+ null
+165 Recetas: Describe los ingredientes clave
+ null
+166 Preparar: Organiza tu mochila
+ null
+167 Eventos: Expresa cómo te sentiste
+ null
+168 Recursos: Explica cómo relajas tu mente
+ null
+169 La fábrica: Describe la vista desde aquí
+ null
+170 Ambiente: Describe cómo usas la luz
+ null
+171 Vecindad: Comenta sobre el tráfico
+ null
+172 Fama: Habla de personas famosas
+ null
+173 Música: Habla de música clásica
+ null
+174 Hábitos: Comparte tus hábitos diarios
+ null
+175 Normas: Explica una norma
+ null
+176 Vida diaria: Describe tu rutina diaria
+ null
+177 Evento: Presenta a un invitado
+ null
+178 Trabajo: Ayuda a un cliente mayor
+ null
+179 Arte: Describe una pintura
+ null
+180 Estación: Pregunta por el horario del tren
+ null
+181 Rutina: Comenta tu rutina en verano
+ null
+182 Tecnología: Comenta sobre tus auriculares
+ null
+183 Oficina: Habla de tu experiencia laboral
+ null
+184 Evento: Pregunta por el horario
+ null
+185 Tienda: Describe la tienda
+ null
+186 Rutina: Comparte tu rutina diaria
+ null
+187 Temas: Averigua si un lugar abre
+ null
+188 Información: Explica gráficos y mapas
+ null
+189 Eventos: Organiza un evento escolar
+ null
+190 Ideas: Expón tus ideas
+ null
+191 Compras: Expresa si algo te gusta o no
+ null
+192 Naturaleza: Describe el paisaje
+ null
+193 Templos: Habla de rituales en templos
+ null
+194 Reciclaje: Comenta sobre el reciclaje local
+ null
+195 Ayuda: Pide ayuda al equipo
+ null
+196 Jardín: Habla de las flores
+ null
+197 Bodas: Organiza los preparativos
+ null
+198 Viaje: Comparte tus experiencias de viaje
+ null
+199 Peinados: Describe tu peinado favorito
+ null
+200 Regalos: Sugiere un regalo especial
+ null
+201 Noticias: Explica un rumor que oíste
+ null
+202 Comidas: Habla de tus comidas favoritas
+ null
+203 Ropa: Describe tu ropa
+ null
+204 Seguridad: Habla de kits de emergencia
+ null
+205 Resort: Elige tu asiento en el café
+ null
+206 Familia: Describe a tu familia
+ null
+207 Situación: Habla de tus vecinos
+ null
+208 Equipo: Describe el material deportivo
+ null
+209 Ciudad: Habla de cambios en la ciudad
+ null
+210 Ejercicio: Habla sobre tu rutina
+ null
+211 Concierto: Consulta horarios y lugares
+ null
+212 Museos: Cuenta un hecho histórico
+ null
+213 Clase: Comparte tu experiencia en clase
+ null
+214 Reglas: Explica las reglas del grupo
+ null
+215 Relaciones: Habla de tus relaciones
+ null
+216 Café: Comenta el ambiente del café
+ null
+217 Rutina: Cuenta tu rutina diaria
+ null
+218 Museo: Pregunta por las reglas
+ null
+219 Cultura: Describe tradiciones locales
+ null
+220 Actividades: Explica cómo participar
+ null
+221 Evento: Describe la decoración
+ null
+222 Vecindad: Comparte ideas con vecinos
+ null
+223 Universidad: Informa sobre trámites
+ null
+224 Preparación: Propón soluciones fáciles
+ null
+225 Mascotas: Expresa tu preocupación
+ null
+226 Realidad: Busca el significado correcto
+ null
+227 Notas: Comenta notas en grupo
+ null
+228 Eventos: Cuenta tus gastos recientes
+ null
+229 Errores: Reconoce tus errores
+ null
+230 Situación: Habla sobre nuevos retos
+ null
+231 Ropa: Reacciona a ofertas de ropa
+ null
+232 Decisión: Comenta si ya decidiste participar
+ null
+233 Entreno: Comparte tu motivación
+ null
+234 Escuela: Sugiere reglas para la clase
+ null
+235 Bienestar: Cuenta cómo descansas
+ null
+236 Barrio: Describe tu barrio
+ null
+237 Fiesta: Cuenta lo que pasó en la fiesta
+ null
+238 Política: Comenta sobre políticos locales
+ null
+239 Rutina: Cuenta tu rutina diaria
+ null
+240 Recetas: Describe una receta simple
+ null
+241 Oficina: Describe un compañero de trabajo
+ null
+242 Noticias: Habla sobre las noticias
+ null
+243 Juego: Cuenta tus logros en el juego
+ null
+244 Metas: Comparte tus metas
+ null
+245 Trabajo: Explica por qué elegiste tu trabajo
+ null
+246 Ambiente: Da consejos ecológicos
+ null
+247 La ciudad: Compara medios de transporte
+ null
+248 Excursión: Habla de un contratiempo
+ null
+249 Rumores: Explica qué sucedió realmente
+ null
+250 Universidad: Explica tu rutina universitaria
+ null
+251 Debate: Justifica tu punto de vista
+ null
+252 Información: Aclara lo que escuchaste
+ null
+253 Juegos: Habla de tus juegos favoritos
+ null
+254 Estudios: Describe tus planes de estudio
+ null
+255 Viaje: Describe tu alojamiento favorito
+ null
+256 Empresa: Responde consultas de clientes
+ null
+257 Bebés: Habla sobre clases para bebés
+ null
+258 Arte: Describe una exposición de arte
+ null
+259 El partido: Cuenta cómo llegas al partido
+ null
+260 Opinión: Expresa tu opinión
+ null
+261 Ciencia: Explica un experimento
+ null
+262 Publicidad: Comparte ideas para un anuncio
+ null
+263 Clínica: Describe un accidente
+ null
+264 Voto: Justifica tu elección
+ null
+265 Mitos: Describe una leyenda
+ null
+266 Cocina: Habla de fechas de caducidad
+ null
+267 Ejercicio: Cuenta tu rutina de ejercicio
+ null
+268 Restaurante: Reserva una mesa
+ null
+269 Reunión: Responde a opiniones de colegas
+ null
+270 Redes: Comenta publicaciones virales
+ null
+271 Productos: Compara distintos productos
+ null
+272 Envíos: Pregunta sobre tarifas de envío
+ null
+273 Artistas: Describe a tu artista favorito
+ null
+274 Relaciones: Aclara detalles de la reunión
+ null
+275 Familia: Explica cambios en tu familia
+ null
+276 Novela: Recomienda una novela
+ null
+277 Evento: Sugiere un plan para el evento
+ null
+278 Seguridad: Menciona riesgos potenciales
+ null
+279 Mudanza: Explica cómo te adaptaste
+ null
+280 Naturaleza: Explica cómo ahorrar energía
+ null
+281 Acceso: Explica el uso de audífonos
+ null
+282 Autopista: Comenta sonidos del motor
+ null
+283 Sentimientos: Habla de gustos similares
+ null
+284 Finanzas: Habla de metas financieras
+ null
+285 Desastres: Describe un desastre
+ null
+286 Idiomas: Habla sobre aprender idiomas
+ null
+287 Diversidad: Habla sobre la diversidad
+ null
+288 Negocios: Describe mercados globales
+ null
+289 Campo: Describe la vida en el campo
+ null
+290 Naturaleza: Compara hábitats naturales
+ null
+291 Música: Describe una canción memorable
+ null
+292 Atención: Advierte sobre riesgos
+ null
+293 Amistad: Describe a tus amigos
+ null
+294 Sociedad: Habla sobre consumidores
+ null
+295 Planetas: Describe un planeta
+ null
+296 Clima: Describe el clima hoy
+ null
+297 Ley: Describe sistemas de vigilancia
+ null
+298 Clases: Sugiere métodos de estudio
+ null
+299 Accidentes: Describe un accidente
+ null
+300 Campamento: Elige artículos resistentes
+ null
+301 Romance: Describe una cita romántica
+ null
+302 Comunidad: Presenta a los representantes
+ null
+303 Banco: Completa un formulario bancario
+ null
+304 Aplicaciones: Reporta cuentas de spam
+ null
+305 Historia: Cuenta una leyenda
+ null
+306 Visados: Comenta tus problemas de visado
+ null
+307 Tecnología: Explica un problema técnico
+ null
+308 Grupos: Apoya una causa en línea
+ null
+309 Servicio: Atiende a un cliente
+ null
+310 Restaurantes: Elige tu asiento favorito
+ null

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kanji Builder</title>
+  <link rel="stylesheet" href="style.css?v=0.7" />
+  <script src="translations.js?v=0.7"></script>
+  <script src="learn/data/ready.js?v=0.7"></script>
+  <script defer src="script.js?v=0.7"></script>
+</head>
+<body data-page="learn">
+  <header class="navbar">
+    <nav>
+      <a href="index.html" data-i18n="nav.home">Home</a>
+      <a href="create.html" data-i18n="nav.create">Create</a>
+      <a href="draw.html" data-i18n="nav.draw">Draw</a>
+      <a href="dictionary.html" data-i18n="nav.dictionary">Dictionary</a>
+      <a href="kanji.html" data-i18n="nav.kanji">Kanji</a>
+      <a href="web.html" data-i18n="nav.web">Web</a>
+      <a href="write.html" data-i18n="nav.write">Write</a>
+      <a href="play.html" data-i18n="nav.play">Play</a>
+      <a href="learn.html" class="active" data-i18n="nav.learn">Learn</a>
+      <a href="comments.html" data-i18n="nav.comments">Comments</a>
+      <a href="transfers.html" data-i18n="nav.transfers">Transfers</a>
+    </nav>
+    <div class="navbar-right">
+      <div class="lang-wrapper">
+        <button type="button" id="lang-btn">English</button>
+        <div id="lang-dropdown" class="lang-dropdown hidden">
+          <button type="button" data-lang="zh">中文</button>
+          <button type="button" data-lang="es">Español</button>
+          <button type="button" data-lang="en">English</button>
+          <button type="button" data-lang="pt">Português</button>
+          <button type="button" data-lang="ru">Русский</button>
+          <button type="button" data-lang="ja">日本語</button>
+          <button type="button" data-lang="ko">한국어</button>
+          <button type="button" data-lang="de">Deutsch</button>
+          <button type="button" data-lang="fr">Français</button>
+          <button type="button" data-lang="it">Italiano</button>
+        </div>
+      </div>
+      <button id="theme-toggle">🌙</button>
+    </div>
+  </header>
+
+  <main>
+    <span class="app-version">v0.7a</span>
+    <h1 data-i18n="nav.learn">Learn</h1>
+    <section class="learn-chart-section">
+      <div class="learn-chart-wrap">
+        <table class="learn-chart" id="learn-chart">
+          <thead><tr></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <p class="learn-chart-note" data-i18n="learn.chartNote">Left-click a box to open just that area. Right-click boxes to select several at once. Hold right-click on a box or a language to see its stats.</p>
+      <p class="learn-chart-note" data-i18n="learn.notReadyNote">✓ has content. ✗ still needs content and is planned for the next update (v0.7b).</p>
+    </section>
+  </main>
+</body>
+</html>

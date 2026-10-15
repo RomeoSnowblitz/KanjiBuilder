@@ -1,0 +1,5938 @@
+1 Basics Pide comida y bebidas
+ おちゃ - [ocha] - té
+ ください - [kudasai] - por favor
+ ごはん - [gohan] - arroz
+ すし - [sushi] - sushi
+ です - [desu] - es, está
+ と - [to] - y, o
+ みず - [mizu] - agua
+2 People Usa adjetivos para describir sustantivos
+ いしゃ - [isha] - médico
+ かっこいい - [kakkoii] - guay
+ がくせい - [gakusei] - estudiante
+ せんせい - [sensei] - profesor
+ です - [desu] - es, está
+ ひと - [hito] - persona
+ べんごし - [bengoshi] - abogado
+ やさしい - [yasashii] - amable
+3 Greetings Saluda y despídete
+ けん - [ken] - Ken
+ こんにちは - [kon'nichiha] - hola
+ こんばんは - [konbanha] - buenas noches
+ さん - [san] - señora
+ です - [desu] - es, está
+ なおみ - [naomi] - Naomi
+ はな - [hana] - flores, flor
+ またあした - [mataashita] - hasta mañana
+4 Cafe Habla sobre comida
+ おいしい - [oishii] - delicioso
+ か - [ka] - ¿
+ これ - [kore] - Esto, esto
+ は - [ha] - son, está, es
+ はい - [hai] - sí
+ ケーキ - [kēki] - pastel
+ サラダ - [sarada] - ensalada
+ ピザ - [piza] - pizza
+ ラーメン - [rāmen] - ramen
+5 Countries Habla sobre países y nacionalidades
+ おおきい - [ookii] - grande
+ ちいさい - [chiisai] - pequeño
+ にほん - [nihon] - Japón
+ にほんじん - [nihonjin] - japonés
+ アメリカ - [amerika] - sudamericanas
+ アメリカじん - [amerikajin] - estadounidense
+ カナダ - [kanada] - Canadá
+ カナダじん - [kanadajin] - canadiense
+ ブラジル - [burajiru] - Brasil
+ ブラジルじん - [burajirujin] - brasileño
+ ベトナム - [betonamu] - Vietnam
+ ベトナムじん - [betonamujin] - vietnamita
+6 Directions Forma oraciones negativas y responde
+ いいえ - [iie] - no
+ えき - [eki] - estación
+ ここ - [koko] - aquí
+ じゃない - [janai] - no es, no son
+ だいがく - [daigaku] - universidad
+ どこ - [doko] - dónde
+ コンビニ - [konbini] - tienda de conveniencia
+ デパート - [depāto] - almacén
+ バスてい - [basutei] - parada de autobús
+ ホテル - [hoteru] - hotel
+7 Belongings Habla sobre tus pertenencias
+ あかい - [akai] - rojo
+ かばん - [kaban] - bolso
+ くつ - [kutsu] - zapato
+ これ - [kore] - Esto, esto
+ しろい - [shiroi] - blanco
+ てぶくろ - [tebukuro] - guante
+ の - [no] - de, cuyo, cuya, cuyos, del, cuyas
+ わたしの - [watashino] - mi
+ コート - [kōto] - abrigo
+8 Friends Describe a tus amigos
+ あかるい - [akarui] - brillante
+ おもしろい - [omoshiroi] - interesante
+ さん - [san] - señora
+ たなか - [tanaka] - Tanaka
+ ともだち - [tomodachi] - amigo
+ なかやま - [nakayama] - Nakayama
+9 Time Di la hora
+ いち - [ichi] - uno
+ いま - [ima] - ahora
+ さん - [san] - señora
+ じ - [ji] - días
+ すみません - [sumimasen] - Lo siento, lo siento
+ なんじ - [nanji] - hora
+ に - [ni] - en, por
+ はん - [han] - media
+ 一 - uno
+ 三 - tres
+ 二 - dos
+10 Travel Encuentra lugares y objetos de viaje
+ あそこ - [asoko] - allí
+ かさ - [kasa] - paraguas
+ きっぷ - [kippu] - boleto
+ くうこう - [kuukou] - aeropuerto
+ それ - [sore] - Eso
+ ちかてつ - [chikatetsu] - metro
+ ちず - [chizu] - mapa
+ ぼうし - [boushi] - sombrero
+ スマホ - [sumaho] - teléfono inteligente
+ パスポート - [pasupōto] - pasaporte
+ 中山 - Nakayama
+ 山口 - Yamaguchi
+ 田中 - Tanaka
+11 Welcome Preséntate y describe dónde vives
+ おおさか - [oosaka] - Osaka
+ おなまえは - [onamaeha] - nombre
+ きれい - [kirei] - bonito
+ しずか - [shizuka] - tranquilo
+ しゅっしん - [shusshin] - Soy
+ とし - [toshi] - ciudad
+ とても - [totemo] - muy
+ どう - [dou] - cómo
+ にぎやか - [nigiyaka] - animado
+ にすんでいます - [nisundeimasu] - Vivo
+ はじめまして - [hajimemashite] - mucho gusto
+ まち - [machi] - pueblo
+ も - [mo] - tampoco, también
+ トロント - [toronto] - Toronto
+ ニューヨーク - [nyūyōku] - Nueva York
+ 京都 - Kioto
+ 日本 - Japón, japonés
+ 東京 - Tokio
+ 私 - Nosotros, mí, yo, Yo
+12 Hobbies Usa verbos en presente para hábitos
+ Jポップ - J-pop
+ えいが - [eiga] - cine, película
+ おんがく - [ongaku] - música
+ ききます - [kikimasu] - Escucho, Escuchas
+ ざっし - [zasshi] - revistas
+ します - [shimasu] - hago, patino, haces
+ ときどき - [tokidoki] - a veces
+ まんが - [manga] - manga
+ やきゅう - [yakyuu] - béisbol
+ よく - [yoku] - a menudo
+ を - [wo] - los, de, esta, a, dos, una, la, ese, mucha, el, vas
+ アニメ - [anime] - anime
+ サッカー - [sakkā] - fútbol
+ ジャズ - [jazu] - jazz
+ テレビ - [terebi] - televisión
+ ニュース - [nyūsu] - noticia
+ バスケットボール - [basukettobōru] - baloncesto
+ ロック - [rokku] - rock
+ 本 - libros, libro
+ 見ます - ve
+ 読みます - Lees, leo, Leo
+13 Mealtime Habla sobre tus hábitos alimenticios
+ あさごはん - [asagohan] - desayuno, desayunas
+ たべます - [tabemasu] - como
+ に - [ni] - en, por
+ のみます - [nomimasu] - bebe, Bebo, bebo, Bebes
+ ばんごはん - [bangohan] - cena
+ ひるごはん - [hirugohan] - almorzar
+ べんとう - [bentou] - bento
+ まいあさ - [maiasa] - cada mañana
+ まいにち - [mainichi] - todos los días
+ まいばん - [maiban] - cada noche
+ カレー - [karē] - curry
+ コーヒー - [kōhī] - café
+ サンドイッチ - [sandoitchi] - sándwich
+ ジュース - [jūsu] - jugo
+ パスタ - [pasuta] - pasta
+ パン - [pan] - pan
+ 七時 - siete
+ 五 - cinco
+ 八 - ocho
+ 六 - seis
+ 四時 - cuatro
+ 時 - horario, hora, horas
+14 Clothes Compra ropa
+ Tシャツ - camiseta
+ あおい - [aoi] - azul
+ ありがとうございます - [arigatougozaimasu] - gracias
+ いくら - [ikura] - ¿Cuánto
+ えん - [en] - yen
+ かっこいい - [kakkoii] - genial
+ かわいい - [kawaii] - lindo
+ が - [ga] - pero, vas, que, ha
+ くろい - [kuroi] - negro
+ この - [kono] - Este
+ さいふ - [saifu] - cartera
+ たかい - [takai] - caro
+ ね - [ne] - ¿verdad?
+ はちょっと - [hachotto] - es un poco
+ ふく - [fuku] - ropa
+ ほしい - [hoshii] - quieres
+ みせ - [mise] - tienda
+ やすい - [yasui] - barato
+ ジャケット - [jaketto] - chaqueta
+ スカート - [sukāto] - falda
+ ネクタイ - [nekutai] - corbata
+ 千 - mil
+ 古い - viejo
+ 新しい - nuevo
+ 百 - cien
+15 New Friend Preséntate y presenta a otros
+ Kポップ - K-pop
+ かのじょ - [kanojo] - novia
+ かれし - [kareshi] - novio
+ かんこく - [kankoku] - Corea
+ こちら - [kochira] - este
+ さんは - [sanha] - señor, señora, señorita, don, doña
+ すき - [suki] - gustar
+ ちゅうごく - [chuugoku] - China
+ と言います - [to yánimasu] - me llamo
+ どんな - [don'na] - qué tipo de
+ の - [no] - de, cuyo, cuya, cuyos, del, cuyas
+ アクション - [akushon] - acción
+ アメリカの - [amerikano] - estadounidense
+ アンドリュー - [andoryū] - Andrés
+ イギリス - [igirisu] - Inglaterra
+ エリカ - [erika] - Erika
+ ゲーム - [gēmu] - juego
+ コメディ - [komedi] - comedia
+ ダニエル - [danieru] - Daniel
+ ドラマ - [dorama] - telenovela
+ ファンタジー - [fantajī] - fantasía
+ ホラー - [horā] - terror
+ 日本の - japonesas, japoneses, japonesa
+16 Routines Usa verbos para indicar acciones futuras
+ あした - [ashita] - mañana
+ いつも - [itsumo] - siempre
+ おきます - [okimasu] - levantaré
+ およぎます - [oyogimasu] - nadas, nado
+ からて - [karate] - karate
+ ごろ - [goro] - alrededor de
+ します - [shimasu] - hago, patino, haces
+ つくります - [tsukurimasu] - preparo
+ でかけます - [dekakemasu] - salgo, salimos
+ ねます - [nemasu] - Duermo
+ はしります - [hashirimasu] - corro, corres
+ まいしゅう - [maishuu] - cada semana
+ らいしゅう - [raishuu] - la próxima semana
+ バレーボール - [barēbōru] - voleibol
+ ヨガ - [yoga] - yoga
+ ラジオ - [rajio] - radio
+ 何時 - ni
+ 十 - diez
+ 十一 - once
+ 十二 - doce
+ 買います - compraré, Compraré
+ 食べます - Como
+ 飲みます - bebo
+17 Transport Pregunta sobre detalles de viaje
+ あきはばら - [akihabara] - Akihabara
+ あさくさ - [asakusa] - Asakusa
+ うえのこうえん - [uenokouen] - parque Ueno
+ えき - [eki] - estación
+ かかります - [kakarimasu] - toma
+ ぐらい - [gurai] - aproximadamente
+ ここ - [koko] - aquí
+ しぶや - [shibuya] - Shibuya
+ しゅうてん - [shuuten] - final de la línea
+ つぎ - [tsugi] - la siguiente
+ つぎの - [tsugino] - próximo
+ でんしゃ - [densha] - tren
+ どのぐらい - [donogurai] - cuánto
+ ながい - [nagai] - largo
+ に - [ni] - en, por
+ はやい - [hayai] - rápido
+ もうすぐ - [mousugu] - pronto
+ バス - [basu] - autobús
+ 分 - quince, minutos
+ 十分 - diez minutos
+ 時間 - hora
+ 来ます - vienen, viene
+ 行きます - ir, voy
+18 Weekend Habla sobre actividades de fin de semana
+ あそびます - [asobimasu] - juego, juegas
+ あに - [ani] - hermano mayor
+ あね - [ane] - hermana mayor
+ かぞく - [kazoku] - familia
+ しゅうまつ - [shuumatsu] - fin de semana
+ じゅうどう - [juudou] - judo
+ と - [to] - y, o
+ どうが - [douga] - video
+ ひとりで - [hitoride] - solo
+ れんあい - [ren'ai] - amor
+ スポーツ - [supōtsu] - deporte
+ テニス - [tenisu] - tenis
+ ミステリー - [misuterī] - misterio
+ 土曜日 - sábado
+ 日曜日 - domingo, domingos
+ 母 - madre
+ 父 - padre
+ 話します - Hablas
+19 Weather Habla sobre las estaciones y el clima
+ あき - [aki] - otoño
+ あたたかい - [atatakai] - cálido
+ あつい - [atsui] - caliente
+ あめ - [ame] - lluvia
+ おんせん - [onsen] - onsen
+ こうえん - [kouen] - parque
+ さむい - [samui] - frío
+ なつ - [natsu] - verano
+ はなび - [hanabi] - fuegos artificiales
+ はる - [haru] - primavera
+ はれ - [hare] - soleado
+ ふゆ - [fuyu] - invierno
+ ゆき - [yuki] - nieva, nieve
+ ココア - [kokoa] - chocolate caliente
+ コンサート - [konsāto] - concierto
+ プール - [pūru] - piscina
+ 七月 - julio
+ 九月 - septiembre
+ 休み - vacaciones
+ 日 - día
+20 Restaurant Pide comida y bebidas
+ うどん - [udon] - udon
+ ええと - [eeto] - Bueno
+ おにぎり - [onigiri] - onigiri
+ こうちゃ - [koucha] - té negro
+ じゃあ - [jaa] - entonces
+ すこし - [sukoshi] - un poco
+ その - [sono] - ese, esa
+ そば - [soba] - soba
+ ていしょく - [teishoku] - menú
+ てんぷら - [tenpura] - tempura
+ みそしる - [misoshiru] - sopa de miso
+ アイスクリーム - [aisukurīmu] - helado
+ アイスコーヒー - [aisukōhī] - café helado
+ レストラン - [resutoran] - restaurante
+ 一つ - uno
+ 三つ - tres
+ 二つ - dos
+ 四つ - cuatro
+ 大きい - grande
+ 小さい - pequeño
+ 水 - agua, aguas
+21 Pastries Pide pasteles
+ あの - [ano] - esa
+ あまい - [amai] - dulce
+ いちご - [ichigo] - fresa
+ ぜんぶで - [zenbude] - en total
+ どうですか - [doudesuka] - te parece
+ どの - [dono] - Cuál
+ はすきですか - [hasukidesuka] - ¿le gusta?
+ まっちゃ - [matcha] - matcha
+ みどり - [midori] - verde
+ もの - [mono] - cosa
+ カップケーキ - [kappukēki] - cupcake
+ クッキー - [kukkī] - galleta
+ ケーキや - [kēkiya] - pastelería
+ チョコレート - [chokorēto] - chocolate
+ チーズケーキ - [chīzukēki] - pastel de queso
+ ドーナツ - [dōnatsu] - dona
+ パイ - [pai] - pastel
+ 七つ - siete
+ 五つ - cinco
+ 六つ - seis
+22 Station Desplázate por la estación
+ ATM - cajero automático
+ おてあらい - [otearai] - baño
+ かいさつ - [kaisatsu] - barrera de boletos
+ かいだん - [kaidan] - escalera
+ じはんき - [jihanki] - máquina expendedora
+ すみません - [sumimasen] - lo siento
+ ちか - [chika] - subterráneo
+ ちかい - [chikai] - cerca
+ でぐち - [deguchi] - salida
+ でんわ - [denwa] - teléfono
+ とおい - [tooi] - lejos
+ のりかえ - [norikae] - transbordo
+ エレベーター - [erebētā] - ascensor
+ カフェ - [kafe] - café
+ コインロッカー - [koinrokkā] - taquilla automática
+ コンセント - [konsento] - enchufe
+ ゴミばこ - [gomibako] - basurero
+ タクシー - [takushī] - taxi
+ ホーム - [hōmu] - andén
+ 一階 - planta baja
+ 二階 - el segundo piso
+23 New Home Usa posesivos con objetos inanimados
+ あかるい - [akarui] - brillante
+ いい - [ii] - bueno
+ いえ - [ie] - casa
+ いす - [isu] - silla
+ いつ - [itsu] - cuándo
+ おふろ - [ofuro] - baño
+ があります - [gaarimasu] - tengo, hay
+ こんしゅう - [konshuu] - esta semana
+ せまい - [semai] - estrecho
+ せんたくき - [sentakuki] - lavadora
+ そうじき - [soujiki] - aspiradora
+ たぶん - [tabun] - quizás
+ つくえ - [tsukue] - escritorio
+ でんしレンジ - [denshirenji] - microondas
+ ひっこします - [hikkoshimasu] - mudo, muda
+ ひろい - [hiroi] - amplio
+ ふとん - [futon] - futón
+ ほんだな - [hondana] - estantería
+ まだ - [mada] - todavía
+ れいぞうこ - [reizouko] - refrigerador
+ アパート - [apāto] - apartamento
+ エアコン - [eakon] - aire acondicionado
+ キッチン - [kitchin] - cocina
+ テーブル - [tēburu] - mesa
+ ベッド - [beddo] - cama
+ リビング - [ribingu] - sala de estar
+ 九時 - nueve en punto
+24 Family 2 Habla sobre tu familia
+ います - [imasu] - hay
+ いもうと - [imouto] - hermana menor
+ いもうとさん - [imoutosan] - hermana menor
+ えいご - [eigo] - inglés
+ おこさん - [okosan] - hijo
+ おとうと - [otouto] - hermano menor
+ おとうとさん - [otoutosan] - hermano menor
+ おにいさん - [oniisan] - su hermano mayor
+ おねえさん - [oneesan] - hermana mayor
+ かんこくご - [kankokugo] - coreano
+ ができます - [gadekimasu] - pueden hablar, puedo hablar, puede hablar, hablar
+ きょうだい - [kyoudai] - hermano
+ こども - [kodomo] - hijo
+ たいわん - [taiwan] - Taiwán
+ ちゅうごくご - [chuugokugo] - chino
+ はいますか - [haimasuka] - ¿tienes?
+ インドネシア - [indoneshia] - Indonesia
+ オーストラリア - [ōsutoraria] - Australia
+ コーチ - [kōchi] - entrenador
+ ソウル - [souru] - Seúl
+ 一人 - solo
+ 二人 - dos
+ 日本ご - japonés
+25 Emergency Gestiona emergencias
+ 〇 - cero
+ あぶない - [abunai] - peligroso
+ おねがいします - [onegaishimasu] - por favor
+ きゅうきゅうしゃ - [kyuukyuusha] - ambulancia
+ きょう - [kyou] - hoy
+ ぐあいがわるい - [guaigawarui] - malestar
+ けいさつ - [keisatsu] - policía
+ ごかぞく - [gokazoku] - su familia
+ ごりょうしん - [goryoushin] - padres
+ さい - [sai] - edad
+ すこし - [sukoshi] - un poco
+ すわります - [suwarimasu] - sientas, siento
+ そこ - [soko] - allí
+ だいじょうぶ - [daijoubu] - bien
+ ちかく - [chikaku] - cerca
+ ちゃんと - [chanto] - adecuadamente
+ でんわばんごう - [denwabangou] - número de teléfono
+ の - [no] - de, cuyo, cuya, cuyos, del, cuyas
+ びょういん - [byouin] - hospital
+ アレルギー - [arerugī] - alergia
+ 九 - nueve
+ 休みます - Descansas, Descanso
+ 何さい - cuántos años
+ 十 - dieciséis, diez, trece
+26 Sights Explora nuevos lugares
+ あれ - [are] - Ah
+ おかし - [okashi] - aperitivo
+ おてら - [otera] - templo
+ おみやげ - [omiyage] - recuerdo
+ きれい - [kirei] - hermoso
+ じんじゃ - [jinja] - santuario
+ すてき - [suteki] - hermoso
+ たてもの - [tatemono] - edificio
+ だいすき - [daisuki] - me encanta
+ ところ - [tokoro] - lugar
+ な - [na] - ¿no?
+ はな - [hana] - flor
+ はらじゅく - [harajuku] - Harajuku
+ ふじさん - [fujisan] - Monte Fuji
+ ほんとうに - [hontouni] - realmente
+ ゆうめい - [yuumei] - famoso
+ デザート - [dezāto] - postre
+ ピザや - [pizaya] - pizzería
+ ポストカード - [posutokādo] - postal
+ ラーメンや - [rāmenya] - restaurante de ramen
+ 何ですか - ¿qué es?
+ 山 - montaña
+ 高い - alta
+27 Date Plans Planifica una cita
+ あおい - [aoi] - azul
+ うでどけい - [udedokei] - reloj de pulsera
+ えいがかん - [eigakan] - cine
+ おしゃれ - [oshare] - elegante
+ かんとく - [kantoku] - director
+ がたのしみです - [gatanoshimidesu] - emocionado
+ きます - [kimasu] - pongo, pones
+ げんき - [genki] - enérgico
+ たんじょうび - [tanjoubi] - cumpleaños
+ よやくします - [yoyakushimasu] - Reservaré, reservaré
+ ステーキ - [sutēki] - filete
+ スーツ - [sūtsu] - traje
+ デート - [dēto] - cita, citas
+ ドレス - [doresu] - vestido
+ ネックレス - [nekkuresu] - collar
+ ブラウス - [burausu] - blusa
+ プレゼント - [purezento] - regalo
+ ホットドッグ - [hottodoggu] - hot dog
+ ポップコーン - [poppukōn] - palomitas
+ ワイン - [wain] - vino
+ 人 - persona
+ 高い - caro
+28 Travel 2 Usa la forma volitiva
+ あと - [ato] - después
+ え - [e] - cuadro
+ しゃしん - [shashin] - fotografía
+ で - [de] - en, es
+ とります - [torimasu] - Tomaré
+ どうぶつえん - [doubutsuen] - zoológico
+ にく - [niku] - carne
+ ひこうき - [hikouki] - avión
+ ひろば - [hiroba] - plaza
+ びじゅつかん - [bijutsukan] - museo
+ りょこう - [ryokou] - viaje
+ スーツケース - [sūtsukēsu] - maleta
+ チケット - [chiketto] - boletos, boleto
+ フランス - [furansu] - Francia
+ フランスりょうり - [furansuryouri] - comida francesa
+ ライオン - [raion] - león
+ 会います - encuentras, encontramos, encuentro
+ 何 - qué
+ 来月 - próximo mes
+ 見ます - ve
+29 Cooking Compra y cocina alimentos
+ いっしょに - [isshoni] - juntos
+ ぎゅうどん - [gyuudon] - gyudon
+ しお - [shio] - sal
+ しょうゆ - [shouyu] - salsa de soja
+ しょっぱい - [shoppai] - salado
+ つかいます - [tsukaimasu] - usas, Usas
+ でも - [demo] - Pero
+ とうふ - [toufu] - tofu
+ とんかつ - [tonkatsu] - tonkatsu
+ なま - [nama] - crudo
+ ひま - [hima] - libre
+ ぶたにく - [butaniku] - cerdo
+ もっと - [motto] - más
+ やさい - [yasai] - verdura
+ コーラ - [kōra] - cola
+ スーパー - [sūpā] - supermercado
+ ソース - [sōsu] - salsa
+ ビール - [bīru] - cerveza
+ レシピ - [reshipi] - receta
+ 作ります - Haré
+ 卵 - huevo
+ 木曜日 - jueves
+ 魚 - pez
+30 Bookstore Usa verbos negativos no pasados
+ SF - ciencia ficción
+ あまり - [amari] - mucho
+ はいゆう - [haiyuu] - actor
+ むずかしい - [muzukashii] - difícil
+ アニソン - [anison] - canciones de anime
+ アルバム - [arubamu] - álbum
+ カードゲーム - [kādogēmu] - juego de cartas
+ コーナー - [kōnā] - sección
+ セール - [sēru] - rebaja
+ ドキュメンタリー - [dokyumentarī] - documental
+ ノンフィクション - [nonfikushon] - no ficción
+ バンド - [bando] - banda
+ パズル - [pazuru] - rompecabezas
+ フィクション - [fikushon] - ficción
+ ポスター - [posutā] - póster
+ ポップス - [poppusu] - pop
+ 本や - librería
+ 話 - historia
+31 Office Habla sobre horarios de trabajo
+ うけつけ - [uketsuke] - recepción
+ うたいます - [utaimasu] - canto
+ から - [kara] - de
+ きょう - [kyou] - hoy
+ このあと - [konoato] - después de esto
+ ごご - [gogo] - tarde
+ ごぜん - [gozen] - mañana
+ さいご - [saigo] - último
+ しょくどう - [shokudou] - cafetería
+ ひる休み - [hiru xiūmi] - descanso del mediodía
+ まで - [made] - hasta
+ よろしくおねがいします - [yoroshikuonegaishimasu] - encantado de conocerte
+ エンジニア - [enjinia] - ingeniero
+ オリエンテーション - [orientēshon] - orientación
+ カラオケ - [karaoke] - karaoke
+ クライアント - [kuraianto] - cliente
+ チャーハン - [chāhan] - arroz frito
+ バー - [bā] - bar
+ パソコン - [pasokon] - computadora
+ フライドポテト - [furaidopoteto] - papa frita
+ プリンター - [purintā] - impresora
+ プレゼン - [purezen] - presentación
+ ミーティング - [mītingu] - reunión
+ 何時 - qué hora
+ 何階 - qué piso
+32 Birthday Navega la ciudad para ir a un cumpleaños
+ いとこ - [itoko] - primo
+ いらっしゃい - [irasshai] - bienvenido
+ おさら - [osara] - plato
+ おもちゃ - [omocha] - juguete
+ から - [kara] - de
+ きります - [kirimasu] - cortas
+ でんきや - [denkiya] - tienda de electrodomésticos
+ とちゅうで - [tochuude] - en el camino
+ どうやって - [douyatte] - cómo
+ まちます - [machimasu] - Esperaré
+ まで - [made] - hasta
+ みち - [michi] - calle
+ わたります - [watarimasu] - cruzo, Cruzo
+ カップ - [kappu] - taza
+ タブレット - [taburetto] - tableta
+ ナイフ - [naifu] - cuchillo
+ フォーク - [fōku] - tenedor
+ フライドチキン - [furaidochikin] - pollo frito
+ ヘッドホン - [heddohon] - auriculares
+ ポテトチップス - [potetochippusu] - fritas
+ 六百 - seiscientos
+ 円 - yen
+ 家 - casa
+ 百円ショップ - tienda de cien yenes
+33 Events Habla sobre eventos
+ あした - [ashita] - mañana
+ おおみそか - [oomisoka] - Nochevieja
+ おまつり - [omatsuri] - festival
+ こんしゅうまつ - [konshuumatsu] - fin de semana
+ たいこ - [taiko] - taiko
+ ちかくの - [chikakuno] - cercano
+ はなびたいかい - [hanabitaikai] - festival de fuegos artificiales
+ イベント - [ibento] - evento
+ イルミネーション - [iruminēshon] - luces decorativas
+ カウントダウン - [kauntodaun] - cuenta regresiva
+ クリスマス - [kurisumasu] - Navidad
+ コミュニティーセンター - [komyunitīsentā] - centro comunitario
+ コンテスト - [kontesuto] - concurso
+ ダンス - [dansu] - bailar
+ チョコバナナ - [chokobanana] - chocobanano
+ ハロウィン - [harou~in] - Halloween
+ パレード - [parēdo] - desfile
+ パーティー - [pātī] - fiesta
+ 三十一日 - treinta y uno, Treinta y uno
+ 八月 - agosto
+ 十二月 - diciembre
+ 十月 - octubre
+ 食べ物 - comida
+34 University Preséntate y habla de tu universidad
+ かい - [kai] - Kai
+ げんご - [gengo] - idioma
+ すうがく - [suugaku] - matemática
+ せんこう - [senkou] - especialidad
+ のちかく - [nochikaku] - cerca
+ りょう - [ryou] - residencia
+ キャンパス - [kyanpasu] - campus
+ サム - [samu] - Sam
+ サークル - [sākuru] - club
+ タガログご - [tagarogugo] - tagalo
+ チェス - [chesu] - ajedrez
+ ドイツ - [doitsu] - Alemania
+ ドイツご - [doitsugo] - alemán
+ ビジネス - [bijinesu] - negocio
+ フィリピン - [firipin] - Filipinas
+ ボランティア - [borantia] - voluntariado
+ ボードゲーム - [bōdogēmu] - juegos de mesa
+ ルームメイト - [rūmumeito] - compañero de cuarto
+ 一年生 - estudiante de primer año
+ 三年生 - estudiante de tercer año
+ 二年生 - estudiante de segundo año
+ 何年生 - año escolar
+ 四年生 - estudiante de cuarto año
+ 駅 - estación
+35 HealthHabs Usa expresiones de frecuencia y cantidad
+ あぶらっこい - [aburakkoi] - grasosa, grasosas, grasoso
+ いくつ - [ikutsu] - cuántos
+ くだもの - [kudamono] - fruta
+ けんこうてき - [kenkouteki] - saludable
+ これから - [korekara] - de ahora en adelante
+ さとう - [satou] - azúcar
+ すいえい - [suiei] - natación
+ とうにゅう - [tounyuu] - leche de soja
+ らいしゅう - [raishuu] - la próxima semana
+ りんご - [ringo] - manzana
+ オレンジ - [orenji] - naranja
+ ジム - [jimu] - gimnasio
+ スープ - [sūpu] - sopa
+ ブロッコリー - [burokkorī] - brócoli
+ プロテインバー - [puroteinbā] - barra de proteína
+ ヨーグルト - [yōguruto] - yogur
+ 九つ - nueve
+ 八つ - ocho
+ 大会 - torneo
+36 School Habla sobre las clases
+ あります - [arimasu] - Hay, hay
+ おもしろい - [omoshiroi] - interesante
+ おわります - [owarimasu] - termina
+ きょうしつ - [kyoushitsu] - aula
+ こんしゅう - [konshuu] - esta semana
+ しつもん - [shitsumon] - preguntas, pregunta, Pregunta
+ しめきり - [shimekiri] - plazo
+ しゅくだい - [shukudai] - tarea
+ じゅぎょう - [jugyou] - clase
+ せんせい - [sensei] - profesor
+ たくさん - [takusan] - mucho
+ だれ - [dare] - quién
+ にききます - [nikikimasu] - preguntaré
+ はやく - [hayaku] - temprano
+ やさしい - [yasashii] - fácil
+ スペインご - [supeingo] - español
+ スミス - [sumisu] - Smith
+ テスト - [tesuto] - examen
+ プロジェクト - [purojekuto] - proyecto
+ 何曜日 - qué día de la semana
+ 山田 - Yamada
+ 水曜日 - miércoles
+ 火曜日 - martes
+37 Hobbies 2 Habla sobre tus pasatiempos
+ いそがしい - [isogashii] - ocupado
+ おどります - [odorimasu] - Bailo, bailo
+ かきます - [kakimasu] - escribo, escribiré, escribes
+ きじ - [kiji] - artículo
+ こんや - [kon'ya] - esta noche
+ しあい - [shiai] - partido
+ たいへん - [taihen] - difícil
+ たのしい - [tanoshii] - divertido
+ はじまります - [hajimarimasu] - comenzará
+ れんしゅう - [renshuu] - práctica
+ チームメイト - [chīmumeito] - compañeros de equipo
+ バドミントン - [badominton] - bádminton
+ バレエ - [baree] - ballet
+ パフォーマンス - [pafōmansu] - actuación
+ ブログ - [burogu] - blog
+ レッスン - [ressun] - clase
+ 九時間 - durante nueve horas
+ 何時間 - cuántas horas
+ 作ります - Haré
+ 半 - media
+ 四時間 - durante cuatro horas
+ 金曜日 - viernes
+38 Clothes 2 Usa estructuras locativas
+ Mサイズ - talla M
+ くつした - [kutsushita] - calcetín
+ こんど - [kondo] - próxima vez
+ たな - [tana] - estante
+ てんいん - [ten'in] - empleado
+ ふわふわ - [fuwafuwa] - suave y esponjoso
+ まず - [mazu] - primero
+ むらさき - [murasaki] - morada, morado, morados
+ アクセサリー - [akusesarī] - accesorio
+ キラキラ - [kirakira] - brillante
+ ショッピングセンター - [shoppingusentā] - centro comercial
+ ジーンズ - [jīnzu] - vaquero
+ セーター - [sētā] - suéter
+ パーカー - [pākā] - sudadera con capucha
+ ボロボロ - [boroboro] - desgastado
+ ポイントカード - [pointokādo] - tarjeta de puntos
+ マフラー - [mafurā] - bufanda
+ メンズ - [menzu] - hombre
+ レジ - [reji] - caja
+ レディース - [redīsu] - mujer
+ 上 - encima
+ 上がります - Subes
+ 八千 - ocho mil
+ 右 - derecha
+ 左 - izquierda
+39 Hotel Regístrate y desplázate por el hotel
+ うしろ - [ushiro] - detrás
+ かぎ - [kagi] - llave
+ ぎゅうにゅう - [gyuunyuu] - leche
+ さがします - [sagashimasu] - buscaré, Buscaré
+ となり - [tonari] - al lado de
+ にとまります - [nitomarimasu] - alojas
+ ばんごう - [bangou] - número
+ へや - [heya] - habitación
+ まえ - [mae] - frente
+ むりょう - [muryou] - gratis
+ りょこうします - [ryokoushimasu] - viajaré
+ クレジットカード - [kurejittokādo] - tarjeta de crédito
+ コーヒーメーカー - [kōhīmēkā] - cafetera
+ スパ - [supa] - spa
+ タオル - [taoru] - toalla
+ チェックアウトします - [chekkuautoshimasu] - hacer el check-out, haces el check-out, hago el check-out
+ チェックイン - [chekkuin] - check-in
+ トースト - [tōsuto] - tostada
+ ネットで - [nettode] - en línea
+ パスワード - [pasuwādo] - contraseña
+ ロビー - [robī] - vestíbulo
+ 一日 - primero
+ 三階 - tercer piso
+ 四 - cuatro
+ 四階 - cuarto piso
+40 Grocery Encuentra alimentos en una tienda
+ いりぐち - [iriguchi] - entrada
+ おく - [oku] - fondo
+ おなかがすきました - [onakagasukimashita] - tengo hambre, Tengo hambre
+ かご - [kago] - cesta
+ ぎゅう肉 - [gyuu ròu] - carne de res
+ くろこしょう - [kurokoshou] - pimienta negra
+ こむぎこ - [komugiko] - harina de trigo
+ こんばん - [konban] - esta noche
+ じゃがいも - [jagaimo] - patata
+ すぐ - [sugu] - justo
+ たまねぎ - [tamanegi] - cebolla
+ ちゃわん - [chawan] - tazón
+ にんじん - [ninjin] - zanahoria
+ はし - [hashi] - palillo
+ ひきだし - [hikidashi] - cajón
+ グラム - [guramu] - gramo
+ スプーン - [supūn] - cuchara
+ バター - [batā] - mantequilla
+ ビーフシチュー - [bīfushichū] - estofado de ternera
+ 一番 - más
+ 上 - arriba, atas
+ 下 - debajo
+ 中 - dentro
+ 肉 - carne, carnes
+41 Meet Up Organiza una reunión con amigos
+ いまから - [imakara] - ahora
+ います - [imasu] - hay
+ いません - [imasen] - no hay
+ おくれます - [okuremasu] - llega tarde
+ おそい - [osoi] - lento
+ しんじゅく - [shinjuku] - Shinjuku
+ たくさんの - [takusan'no] - muchos
+ たち - [tachi] - los demás
+ に - [ni] - en, por
+ にしぐち - [nishiguchi] - entrada oeste
+ につきます - [nitsukimasu] - llegan, llegamos
+ のどこ - [nodoko] - dónde
+ みんな - [min'na] - todos
+ よてい - [yotei] - plan
+ をでます - [wodemasu] - sales, Salgo
+ アレックス - [arekkusu] - Alex
+ ターミナル - [tāminaru] - terminal
+ パンや - [panya] - panadería
+ メッセージをおくります - [messējiwookurimasu] - Enviaré, Enviarás
+ 一分 - minuto, minutos
+ 三分 - tres minutos, tres
+ 乗ります - Tomaré, Tomarás
+ 六分 - seis minutos
+ 私たち - nosotros
+42 Healthcare Busca ayuda médica
+ あの - [ano] - esa
+ いい - [ii] - bueno
+ おさけ - [osake] - alcohol
+ おっと - [otto] - esposo
+ があります - [gaarimasu] - tengo, hay
+ こちら - [kochira] - por aquí
+ ごご - [gogo] - de la tarde
+ ごぜん - [gozen] - mañana
+ しっています - [shitteimasu] - conoce, Conoces, Conozco
+ しんさつしつ - [shinsatsushitsu] - sala de examen
+ せんせい - [sensei] - doctor
+ たばこをすいます - [tabakowosuimasu] - fumo, fuma
+ ちゅうしゃじょう - [chuushajou] - estacionamiento
+ ちょうしがわるい - [choushigawarui] - mal de salud
+ つかれます - [tsukaremasu] - cansas, canso
+ つま - [tsuma] - esposa
+ にでんわします - [nidenwashimasu] - llamaré, llamarás
+ によやくをいれます - [niyoyakuwoiremasu] - haré una reserva, harás una reserva
+ よやく - [yoyaku] - reserva
+ ファーストフード - [fāsutofūdo] - comida rápida
+ 二日 - dos de septiembre
+ 今日 - hoy
+ 少し - un poco
+43 AnimalCafe Disfruta de una cafetería con animales
+ あそびます - [asobimasu] - juego, juegas
+ いぬ - [inu] - perro
+ すみ - [sumi] - rincón
+ ちゃいろ - [chairo] - marrón
+ どうぶつ - [doubutsu] - animal
+ にんき - [ninki] - popular
+ ねこ - [neko] - gato
+ はな - [hana] - nariz
+ みみ - [mimi] - oreja
+ め - [me] - ojo
+ カプチーノ - [kapuchīno] - capuchino
+ カメレオン - [kamereon] - camaleón
+ カラフルな - [karafuruna] - colorida, colorido
+ トマト - [tomato] - tomate
+ ハムスター - [hamusutā] - hámster
+ パンケーキ - [pankēki] - panqueque
+ 一匹 - un
+ 三匹 - tres
+ 二匹 - dos
+ 何匹 - cuántos
+ 口 - boca
+ 四匹 - cuatro
+44 Zoo Visita el zoológico
+ あかちゃん - [akachan] - Bebé, bebé
+ あし - [ashi] - pierna
+ うさぎ - [usagi] - conejo
+ きりん - [kirin] - jirafa
+ さる - [saru] - mono
+ ところ - [tokoro] - lugar
+ とり - [tori] - pájaro
+ なでます - [nademasu] - acaricio
+ ぬいぐるみ - [nuigurumi] - peluche
+ やぎ - [yagi] - cabra
+ よこはま - [yokohama] - Yokohama
+ わたあめ - [wataame] - algodón de azúcar
+ キーホルダー - [kīhorudā] - llavero
+ ギフトショップ - [gifutoshoppu] - tienda de regalos
+ スムージー - [sumūjī] - batido
+ ハンドジェル - [handojeru] - gel desinfectante
+ パンダ - [panda] - panda
+ ピンク - [pinku] - rosa
+ フェンス - [fensu] - cerca
+ ベンチ - [benchi] - banco
+ マグネット - [magunetto] - imán
+ 五日 - cinco
+ 週末 - fin de semana
+45 Past Trip Usa verbos en pasado
+ お母さん - [o mǔsan] - madre
+ お父さん - [o fùsan] - padre
+ かぶき - [kabuki] - kabuki
+ きのう - [kinou] - ayer
+ きょねん - [kyonen] - el año pasado
+ ぎんざ - [ginza] - Ginza
+ しろ - [shiro] - castillo
+ しんかんせん - [shinkansen] - tren bala
+ すいぞくかん - [suizokukan] - acuario
+ すしや - [sushiya] - restaurante de sushi
+ ちば - [chiba] - Chiba
+ てんき - [tenki] - tiempo
+ なごや - [nagoya] - Nagoya
+ はじめて - [hajimete] - primera vez
+ ぶんか - [bunka] - cultura
+ べんり - [benri] - conveniente
+ りょうしん - [ryoushin] - padres
+ 乗ります - Tomaré, Tomarás
+ 先月 - mes pasado
+ 先週 - semana pasada
+ 日本りょうり - comida japonesa
+ 見つけます - encontraré
+ 見ます - ve
+46 Computers Compra electrónicos
+ おもい - [omoi] - pesada, pesado
+ かるい - [karui] - ligero
+ でんち - [denchi] - pila
+ ひかります - [hikarimasu] - brilla
+ もっといい - [mottoii] - mejor
+ インチ - [inchi] - pulgada
+ キーボード - [kībōdo] - teclado
+ グレー - [gurē] - gris
+ ケーブル - [kēburu] - cable
+ ゲーミング - [gēmingu] - para juegos
+ スピーカー - [supīkā] - altavoz
+ マウス - [mausu] - ratón
+ モニター - [monitā] - monitor
+ レシート - [reshīto] - recibo
+ レジぶくろ - [rejibukuro] - bolsa de plástico
+ ワイヤレス - [waiyaresu] - inalámbrico
+ 一万 - diez mil
+ 万 - diez mil
+ 前 - delante
+ 安い - barato, baratos
+47 Concert Asiste a un concierto
+ Sサイズ - talla S
+ この - [kono] - Este
+ すきな - [sukina] - favorito
+ せき - [seki] - asiento
+ たい - [tai] - quieres, quiero, queremos
+ つかれました - [tsukaremashita] - cansado
+ てをあらいます - [tewoaraimasu] - lavarse las manos
+ にならびます - [ninarabimasu] - te pones en la fila
+ にもどります - [nimodorimasu] - regresas
+ にんき - [ninki] - popular
+ はやく - [hayaku] - rápido
+ また - [mata] - otra vez
+ まんなか - [man'naka] - medio
+ もう - [mou] - ya
+ アーティスト - [ātisuto] - artista
+ グッズ - [guzzu] - merchandising
+ サイン - [sain] - autógrafo
+ ステージ - [sutēji] - escenario
+ ペン - [pen] - rotulador
+ 三千 - tres mil
+ 今夜 - esta noche
+ 出口 - salida
+ 外 - afuera
+48 Seasons Usa adjetivos afirmativos y negativos
+ あまり - [amari] - mucho
+ くらい - [kurai] - aproximadamente
+ さきます - [sakimasu] - florecerán
+ さくら - [sakura] - cerezos en flor
+ さつまいも - [satsumaimo] - batata
+ すいか - [suika] - sandía
+ だんぼう - [danbou] - calefacción
+ つけます - [tsukemasu] - pongo, pones
+ なべ - [nabe] - olla
+ ほっかいどう - [hokkaidou] - Hokkaido
+ みかん - [mikan] - mandarina
+ むすこ - [musuko] - hijo
+ むすめ - [musume] - hija
+ スキー - [sukī] - esquí
+ スケート - [sukēto] - patinaje
+ スノボ - [sunobo] - snowboard
+ 一月 - enero
+ 二月 - febrero
+ 住んでいます - vivo, vives, Vivo
+ 四月 - abril
+ 夜 - noche
+49 Apartment Evalúa un apartamento
+ あんぜん - [anzen] - seguro
+ いいですね - [iidesune] - está bien
+ うるさい - [urusai] - ruidoso, ruidosa
+ から - [kara] - de
+ きたない - [kitanai] - sucio
+ このあたり - [konoatari] - área
+ しんせつ - [shinsetsu] - amable
+ としょかん - [toshokan] - biblioteca
+ となりの人 - [tonarino rén] - vecino
+ にします - [nishimasu] - Elijo, eliges
+ に住みます - [ni zhùmimasu] - Vivo, vivir
+ まど - [mado] - ventana
+ やちん - [yachin] - alquiler
+ クローゼット - [kurōzetto] - armario
+ ドア - [doa] - puerta
+ 三日 - tercer día
+ 三月 - marzo
+ 北 - norte
+ 大家 - casero
+ 学校 - escuela
+50 WorkPlace Expresa frustraciones laborales
+ いまの - [imano] - actual
+ おこります - [okorimasu] - se enoja
+ おそくまで - [osokumade] - hasta tarde
+ おなじ - [onaji] - el mismo
+ かいしゃ - [kaisha] - empresa
+ がんばります - [ganbarimasu] - esforzaré
+ こわれます - [kowaremasu] - se rompen, se rompe
+ しごと - [shigoto] - trabajo
+ しごとします - [shigotoshimasu] - trabajo, trabajas
+ しょうかいします - [shoukaishimasu] - presentaré, Presentaré
+ どうりょう - [douryou] - compañero de trabajo
+ べつの - [betsuno] - otro
+ まじめ - [majime] - serio
+ まずい - [mazui] - malos, malo
+ やめます - [yamemasu] - dejo
+ よくない - [yokunai] - no es buena
+ インスタント - [insutanto] - instantáneo
+ オフィス - [ofisu] - oficina
+ スキル - [sukiru] - habilidad
+ 十階 - décimo piso
+ 昼ご飯 - almuerzo
+ 毎日 - todos los días
+51 Slow Day Tómate un día de descanso
+ います - [imasu] - hay
+ うち - [uchi] - casa
+ おかゆ - [okayu] - gachas de arroz
+ かじ - [kaji] - tareas del hogar
+ くすり - [kusuri] - medicina
+ します - [shimasu] - hago, patino, haces
+ そうじ - [souji] - limpieza
+ ねむい - [nemui] - sueño
+ まだ - [mada] - todavía
+ もうすこし - [mousukoshi] - un poco más
+ ゆっくりします - [yukkurishimasu] - relajaré
+ アラーム - [arāmu] - alarma
+ キャンセルします - [kyanserushimasu] - Cancelo
+ バナナ - [banana] - banana
+ ブランケット - [buranketto] - manta
+ リモコン - [rimokon] - control remoto
+ 今 - ahora
+ 外 - fuera, afuera
+ 明日 - mañana
+52 Sakura Planifica para ir a ver cerezos en flor
+ いけ - [ike] - estanque
+ えきいん - [ekiin] - empleado de la estación
+ じこ - [jiko] - accidente
+ すずしい - [suzushii] - fresco
+ そろそろ - [sorosoro] - ya
+ どうしましょうか - [doushimashouka] - qué hacer
+ はし - [hashi] - puente
+ もう一つ - [mou yītsu] - otro
+ もち - [mochi] - mochi
+ やきそば - [yakisoba] - yakisoba
+ やたい - [yatai] - puesto de comida
+ アナウンス - [anaunsu] - anuncio
+ カモ - [kamo] - pato
+ モノレール - [monorēru] - monorriel
+ 今週 - semana
+ 八分 - ocho minutos
+ 来年 - próximo año
+ 花見をします - ver los cerezos en flor
+ 電車 - tren
+53 Okinawa Organiza y haz un viaje a Okinawa
+ うみがめ - [umigame] - tortuga marina
+ おきなわ - [okinawa] - Okinawa
+ けしき - [keshiki] - paisaje
+ げんきん - [genkin] - efectivo
+ しらべます - [shirabemasu] - Investigaré
+ つめたい - [tsumetai] - frío
+ ねだん - [nedan] - precio
+ はらいます - [haraimasu] - pagarás, pagaré
+ まあまあ - [maamaa] - regular
+ まどがわ - [madogawa] - junto a la ventana
+ イルカ - [iruka] - delfín
+ カード - [kādo] - tarjeta
+ サーフィン - [sāfin] - surf
+ ストロー - [sutorō] - pajita
+ タコライス - [takoraisu] - taco rice
+ パイナップル - [painappuru] - piña
+ マンゴー - [mangō] - mango
+ メール - [mēru] - correo electrónico
+ 五月 - mayo
+ 木 - árbol
+ 海 - mar
+ 車 - coche
+54 Cruise Habla sobre una experiencia de crucero
+ いろいろ - [iroiro] - varios
+ かいがい - [kaigai] - extranjero
+ くもり - [kumori] - nublado
+ けっこう - [kekkou] - bastante
+ こんど - [kondo] - próxima vez
+ ご飯 - [go fàn] - comida
+ しま - [shima] - isla
+ そふぼ - [sofubo] - abuelos
+ でした - [deshita] - era
+ ふくおか - [fukuoka] - Fukuoka
+ ふね - [fune] - barco
+ みずぎ - [mizugi] - traje de baño
+ みなと - [minato] - puerto
+ アトラクション - [atorakushon] - atracción
+ クルーズ - [kurūzu] - crucero
+ ツアー - [tsuā] - tour
+ ハンバーガー - [hanbāgā] - hamburguesa
+ ミニゴルフ - [minigorufu] - minigolf
+ リゾート - [rizōto] - resort
+ ロブスター - [robusutā] - langosta
+ 一週間 - semana
+ 三日間 - tres días
+ 何日間 - Cuántos días
+ 食べほうだい - todo lo que puedas comer
+55 Ryokan Describe una experiencia de viaje
+ おきゃくさん - [okyakusan] - huésped
+ かならず - [kanarazu] - ciertamente
+ きせつの - [kisetsuno] - de temporada
+ きのこ - [kinoko] - hongo
+ さしみ - [sashimi] - sashimi
+ さんぽします - [sanposhimasu] - paseo
+ しんせん - [shinsen] - fresco
+ たたみ - [tatami] - tatami
+ ぬぎます - [nugimasu] - quitan
+ まわり - [mawari] - alrededor
+ みずうみ - [mizuumi] - lago
+ むら - [mura] - aldea
+ もり - [mori] - bosque
+ よく - [yoku] - bien
+ りっぱ - [rippa] - magnífico
+ りょかん - [ryokan] - ryokan
+ スタッフ - [sutaffu] - personal
+ レビュー - [rebyū] - reseña
+ 二日間 - dos días
+ 入口 - entradas, entrada
+ 十一月 - noviembre
+ 書きます - escriba, escribiré
+56 Sick Day Usa verbos en pasado negativo
+ あけます - [akemasu] - abro
+ かります - [karimasu] - pedir prestado
+ げんきになります - [genkininarimasu] - pondré
+ ぜんぜん - [zenzen] - en absoluto
+ ちゅうもんします - [chuumonshimasu] - Ordeno
+ にがい - [nigai] - amargo
+ ねつ - [netsu] - fiebre
+ の中で - [no zhōngde] - bajo la lluvia
+ を休みます - [wo xiūmimasu] - ausento, ausente, ausentas
+ ティッシュ - [tisshu] - pañuelo
+ ノート - [nōto] - cuadernos, cuaderno
+ ビタミン - [bitamin] - vitamina
+ マスク - [masuku] - mascarilla
+ メールします - [mērushimasu] - enviaré un correo
+ 一日中 - todo el día
+ 何も - ninguna
+ 後で - después
+ 昨日 - Ayer
+ 雨 - lluvia, lluvias, ame
+ 電話します - llamar
+57 New Home 2 Asiste a una fiesta de inauguración
+ あらいます - [araimasu] - lavo
+ おくさん - [okusan] - esposa
+ かぐ - [kagu] - mueble
+ かびん - [kabin] - florero
+ かべ - [kabe] - pared
+ げんかん - [genkan] - entrada
+ たな - [tana] - estante
+ だれの - [dareno] - de quién
+ だんなさん - [dan'nasan] - esposo
+ てづくりの - [tedzukurino] - hecho a mano
+ はきます - [hakimasu] - pones
+ もん - [mon] - puerta
+ スリッパ - [surippa] - pantufla
+ ソファ - [sofa] - sofá
+ ダイニング - [dainingu] - comedor
+ チキン - [chikin] - pollo
+ ドア - [doa] - puerta
+ ペット - [petto] - mascota
+ 今月 - este mes
+ 午後 - tarde
+ 東 - este
+ 間 - entre
+58 Hotel 2 Expresa insatisfacción en un viaje
+ うすい - [usui] - delgado
+ こうこく - [koukoku] - anuncio
+ じゃなかった - [janakatta] - estaba, fueron, estaban, fue
+ ぬるい - [nurui] - tibio
+ ほかの - [hokano] - diferente
+ もう - [mou] - ya no
+ わるい - [warui] - mala, malas
+ カーテン - [kāten] - cortina
+ ゴキブリ - [gokiburi] - cucaracha
+ ゴミ - [gomi] - basura
+ シャトルバス - [shatorubasu] - autobús lanzadera
+ シャワー - [shawā] - ducha
+ シャンプー - [shanpū] - champú
+ シリアル - [shiriaru] - cereal
+ トイレ - [toire] - inodoro
+ ベタベタ - [betabeta] - pegajoso
+ 六階 - sexto piso
+ 四日間 - cuatro días
+ 朝ご飯 - desayuno
+ 西 - oeste
+59 Bad Date Comparte tu decepción en una cita
+ うるさい - [urusai] - ruidoso, ruidosa
+ えんぎ - [engi] - actuación
+ おばけやしき - [obakeyashiki] - casa embrujada
+ かたい - [katai] - dura, duro
+ きっと - [kitto] - seguramente
+ けんかします - [kenkashimasu] - pelear, pelearse, discutir, luchar, combatir
+ こんでいます - [kondeimasu] - lleno
+ さいあく - [saiaku] - lo peor
+ ざんねん - [zan'nen] - lástima
+ だけ - [dake] - solo, Solo
+ もんだい - [mondai] - problema
+ ゆうえんち - [yuuenchi] - parque de atracciones
+ ゆか - [yuka] - suelo
+ れつ - [retsu] - fila
+ わかれます - [wakaremasu] - separarás, separaré
+ アプリ - [apuri] - aplicación
+ シーン - [shīn] - escena
+ ダサい - [dasai] - feos, feo
+ メイン - [mein] - plato principal
+ 七日 - siete de día
+ 今回 - esta vez
+ 先週 - la semana pasada
+ 六月 - junio
+ 昨日 - ayer
+ 晩ご飯 - cena
+60 Wedding Asiste a una boda
+ うつくしい - [utsukushii] - Hermoso
+ おととい - [ototoi] - anteayer
+ お酒 - [o jiǔ] - alcohol
+ かいじょう - [kaijou] - lugar del evento
+ かしゅ - [kashu] - cantante
+ けっこんしき - [kekkonshiki] - boda
+ しんせき - [shinseki] - pariente
+ しんぷ - [shinpu] - novia
+ しんろう - [shinrou] - novio
+ つまらない - [tsumaranai] - aburrido, aburrida
+ とります - [torimasu] - Tomaré
+ ひくい - [hikui] - baja
+ ひどい - [hidoi] - terrible
+ へん - [hen] - extraño
+ カーペット - [kāpetto] - alfombra
+ ゲスト - [gesuto] - invitado
+ スピーチ - [supīchi] - discurso
+ 六日 - día seis, seis de
+ 色 - color
+ 花 - flor
+61 Restaur.3 Conecta dos adjetivos
+ おくじょう - [okujou] - azotea
+ こみます - [komimasu] - se llena
+ さいこう - [saikou] - excelente
+ しらべます - [shirabemasu] - Investigaré
+ そうですね - [soudesune] - sí
+ で - [de] - en, es
+ にあります - [niarimasu] - está
+ にがて - [nigate] - difícil para mí, difíciles para mí
+ にします - [nishimasu] - Elijo, eliges
+ ふんいき - [fun'iki] - ambiente
+ やったー - [yattā] - ¡Yupi!
+ オーガニック - [ōganikku] - orgánico
+ カジュアル - [kajuaru] - informal
+ サイト - [saito] - sitio
+ シェフ - [shefu] - chef
+ ブラジル料理 - [burajiru liào lǐ] - comida brasileña
+ ベジタリアン - [bejitarian] - vegetariano
+ マンション - [manshon] - edificio de apartamentos
+ 人気 - popular
+ 入れます - Meto, metes
+ 場所 - lugar
+ 少し - poco
+ 日本料理 - comida japonesa
+62 Returns Devuelve o cambia objetos
+ Lサイズ - talla L
+ かくにんします - [kakuninshimasu] - Confirmo
+ がおすすめ - [gaosusume] - es recomendable
+ がら - [gara] - diseño
+ こうかんできます - [koukandekimasu] - se puede cambiar
+ しょうひん - [shouhin] - producto
+ すてます - [sutemasu] - tiran, tira
+ そうですか - [soudesuka] - ¿Es así?, ¿es así?
+ だいじょうぶ - [daijoubu] - bien
+ ちがう - [chigau] - diferente
+ にあいます - [niaimasu] - queda, quedan
+ へんぴんできます - [henpindekimasu] - se puede devolver
+ みじかい - [mijikai] - corta
+ やわらかい - [yawarakai] - suave
+ よ - [yo] - eh
+ よかった - [yokatta] - bueno
+ オレンジ - [orenji] - naranja
+ ズボン - [zubon] - pantalón
+ ワンピース - [wanpīsu] - vestido
+ 店 - tienda, tiendas
+63 Essentials Compra lo esencial para viajar
+ あ - [a] - Ah
+ いちおう - [ichiou] - por si acaso
+ いります - [irimasu] - necesita
+ からっぽ - [karappo] - vacío
+ きつい - [kitsui] - apretada, apretados, apretado
+ くし - [kushi] - peine
+ したぎ - [shitagi] - ropa interior
+ じゅんびします - [junbishimasu] - prepararé
+ せっけん - [sekken] - jabón
+ ぜんぶ - [zenbu] - todo
+ はいりますか - [hairimasuka] - Necesitas
+ はいりません - [hairimasen] - necesito
+ はみがきこ - [hamigakiko] - pasta de dientes
+ はブラシ - [haburashi] - cepillo de dientes
+ ばんそうこう - [bansoukou] - curita
+ コンディショナー - [kondishonā] - acondicionador
+ デオドラント - [deodoranto] - desodorante
+ ドラッグストア - [doraggusutoa] - farmacia
+ バックパック - [bakkupakku] - mochila
+ 八百 - ochocientos
+ 友だち - amigo
+ 持って行きます - llevarás, Llevaré, Llevarás
+ 来週 - la próxima semana
+ 買い物リスト - lista de compras
+64 Summer Planifica actividades de verano
+ おそい - [osoi] - tarde
+ かきごおり - [kakigoori] - kakigori
+ きがえます - [kigaemasu] - cambio
+ じてんしゃに乗ります - [jitenshani chéngrimasu] - monto
+ どこか - [dokoka] - algún lugar
+ ので - [node] - Como
+ ひかげ - [hikage] - sombra
+ ひやけどめ - [hiyakedome] - protector solar
+ やきとり - [yakitori] - yakitori
+ サングラス - [sangurasu] - gafas de sol
+ サンダル - [sandaru] - sandalia
+ サーフィン - [sāfin] - surf
+ レモン - [remon] - limón
+ ロッカールーム - [rokkārūmu] - vestuario
+ 今週の - este, Este
+ 八日 - ocho de día de julio, ocho de día de agosto, ocho
+ 近い - cerca
+ 飲み物 - bebida
+65 WorkPlace2 Comunicate en el trabajo
+ いざかや - [izakaya] - izakaya
+ いただきます - [itadakimasu] - buen provecho
+ うんてんします - [untenshimasu] - Conduce
+ おかず - [okazu] - acompañamiento
+ おつかれさまでした - [otsukaresamadeshita] - buen trabajo
+ おはようございます - [ohayougozaimasu] - buenos días
+ おわります - [owarimasu] - termina
+ ざんぎょうします - [zangyoushimasu] - trabajaré horas extras
+ しごと - [shigoto] - trabajo
+ じてんしゃ - [jitensha] - bicicleta
+ だいじ - [daiji] - importante
+ ふくざつ - [fukuzatsu] - complejo
+ わかりました - [wakarimashita] - Entendido, entendido
+ タスク - [tasuku] - tarea
+ マネージャー - [manējā] - gerente
+ メニュー - [menyū] - menú
+ 何日 - cuántos
+ 使います - utilizo
+ 帰ります - regresas
+ 時間 - tiempo
+ 月曜日 - lunes
+ 朝 - mañana
+66 Gifts Usa verbos para dar y recibir
+ あげます - [agemasu] - doy, das, da
+ えほん - [ehon] - libro ilustrado
+ おい - [oi] - sobrino
+ お茶 - [o chá] - té
+ お金 - [o jīn] - dinero
+ かわ - [kawa] - cuero
+ そふ - [sofu] - abuelo materno
+ そぼ - [sobo] - abuela materna
+ にんぎょう - [ningyou] - muñeca
+ めい - [mei] - sobrina
+ もらいます - [moraimasu] - recibo
+ やきます - [yakimasu] - hornearé, hornearás
+ ゆびわ - [yubiwa] - anillo
+ よろこびます - [yorokobimasu] - alegrará
+ カメラ - [kamera] - cámara
+ ギフトカード - [gifutokādo] - tarjeta de regalo
+ タブレット - [taburetto] - tableta
+ ハンカチ - [hankachi] - pañuelo
+ パートナー - [pātonā] - pareja
+ 今年 - este año
+ 小さい - pequeño
+ 毎年 - cada año
+67 Clinic Habla sobre tu salud
+ SNS - redes sociales
+ あたま - [atama] - cabeza
+ うで - [ude] - brazo
+ おだいじに - [odaijini] - cuídate
+ かぜ - [kaze] - resfriado
+ きず - [kizu] - herida
+ くび - [kubi] - cuello
+ げんいん - [gen'in] - causa
+ しばらく - [shibaraku] - rato
+ ちょっと - [chotto] - poco
+ て - [te] - mano
+ でんきをつけます - [denkiwotsukemasu] - enciendo, enciendes
+ どうしましたか - [doushimashitaka] - qué ha pasado
+ なおります - [naorimasu] - curará
+ にれんらくします - [nirenrakushimasu] - Contactaré, contactarás
+ ぬります - [nurimasu] - aplicaré
+ ほとんど - [hotondo] - casi
+ も痛いです - [mo tòngidesu] - duele, duelen
+ やっきょく - [yakkyoku] - farmacia
+ クリニック - [kurinikku] - clínica
+ ストレス - [sutoresu] - estrés
+ 痛い - doloroso
+ 目 - ojo
+68 Hobbies 3 Habla sobre tus pasatiempos
+ かちます - [kachimasu] - ganan
+ かっこよかった - [kakkoyokatta] - genial
+ さいきん - [saikin] - reciente
+ すごい - [sugoi] - increíble
+ せんしゅ - [senshu] - jugador
+ たっきゅう - [takkyuu] - ping-pong
+ とくい - [tokui] - bueno
+ にがて - [nigate] - difícil para mí, difíciles para mí
+ になります - [ninarimasu] - se vuelve, vuelves
+ ね - [ne] - ¿verdad?
+ の時 - [no shí] - Cuando
+ はじめます - [hajimemasu] - comenzamos
+ はたち - [hatachi] - veinte años
+ やってみます - [yattemimasu] - intentaré hacer
+ よびます - [yobimasu] - llamo
+ れんしゅうします - [renshuushimasu] - practico, practicas
+ ゴルフ - [gorufu] - golf
+ ジョギング - [jogingu] - hacer jogging
+ チーム - [chīmu] - equipo
+ ブーツ - [būtsu] - bota
+ 毎朝 - cada mañana
+ 高校 - escuela secundaria
+69 Univ.2 Habla sobre tus clases
+ うけます - [ukemasu] - tomaré, tomarás, Tomaré
+ えらびます - [erabimasu] - elijo
+ きびしい - [kibishii] - estricto
+ きょうかしょ - [kyoukasho] - libro de texto
+ けど - [kedo] - pero
+ こんがっき - [kongakki] - este semestre
+ せいぶつがく - [seibutsugaku] - biología
+ ぜひ - [zehi] - sin falta
+ だけど - [dakedo] - pero
+ に聞きます - [ni wénkimasu] - Pregunto
+ べんきょうします - [benkyoushimasu] - estudiaré, estudiarás, Estudio, estudio
+ らいがっき - [raigakki] - próximo semestre
+ りゅうがくせい - [ryuugakusei] - estudiante extranjero
+ オフィスアワー - [ofisuawā] - horas de oficina
+ クラスメイト - [kurasumeito] - compañero de clase
+ グループで - [gurūpude] - en grupo
+ スケジュール - [sukejūru] - horario
+ プログラミング - [puroguramingu] - programación
+ メディアセンター - [mediasentā] - centro de medios
+ ヨーロッパ - [yōroppa] - Europa
+ 何人 - cuántos, cuántas
+ 先生 - profesor
+ 十一人 - once personas
+ 日本語 - japonés
+ 語 - idiomas, idioma
+70 Pos.OfficE Envía un paquete en la oficina postal
+ おくります - [okurimasu] - Enviaré, enviaré, enviarás
+ きって - [kitte] - sello
+ じゅうしょ - [juusho] - dirección
+ たいんですけど - [taindesukedo] - quisiera... pero...
+ てがみ - [tegami] - carta
+ どうしよう - [doushiyou] - qué hago
+ にもつ - [nimotsu] - paquete
+ ね - [ne] - ¿verdad?
+ はかります - [hakarimasu] - pesamos
+ はこ - [hako] - caja
+ はります - [harimasu] - Pego
+ ふね - [fune] - barco
+ ほうほう - [houhou] - método
+ ゆうびんきょく - [yuubinkyoku] - oficina de correos
+ わかりません - [wakarimasen] - entiendo
+ キログラム - [kiroguramu] - kilogramo
+ サイズ - [saizu] - talla
+ テープ - [tēpu] - cinta
+ プリントできます - [purintodekimasu] - se puede imprimir
+ ラベル - [raberu] - etiqueta
+ 七 - siete
+ 三百 - trescientos
+ 入れます - Meto, metes
+ 名前 - nombre
+ 四日 - cuatro
+71 New Home 3 Habla de comprar muebles nuevos
+ いつでも - [itsudemo] - en cualquier momento
+ おきます - [okimasu] - levantaré
+ かけます - [kakemasu] - cuelgo, Cuelgo
+ かたい - [katai] - dura, duro
+ けっこう - [kekkou] - bastante
+ すいはんき - [suihanki] - olla arrocera
+ せい - [sei] - de fabricación
+ ちょうどいい - [choudoii] - justo
+ どれ - [dore] - cuál
+ なべ - [nabe] - olla
+ に - [ni] - en, por
+ ひつよう - [hitsuyou] - necesario
+ へん - [hen] - zona
+ タンス - [tansu] - armario
+ ダンボール - [danbōru] - cartón
+ テーブルクロス - [tēburukurosu] - mantel
+ トラック - [torakku] - camión
+ 十万 - cien mil
+ 家具屋 - tienda de muebles
+ 短い - corta
+ 近所 - vecindario
+ 長い - largo
+72 Surp Party Planea una fiesta sorpresa
+ うた - [uta] - canción
+ かいしゃ - [kaisha] - empresa
+ じゅんび - [junbi] - preparación
+ つけます - [tsukemasu] - pongo, pones
+ て - [te] - y
+ てつだいます - [tetsudaimasu] - ayudaré
+ に立ちます - [ni lìchimasu] - paro, paras
+ ふうせん - [fuusen] - globo
+ サプライズ - [sapuraizu] - sorpresa
+ デコレーション - [dekorēshon] - decoración
+ トレーニング - [torēningu] - entrenamiento
+ ロウソク - [rousoku] - vela
+ 十日 - día diez
+ 早く - temprano
+ 電気をけします - apago
+73 Comp. Trip Habla de un viaje de la empresa
+ いつか - [itsuka] - algún día
+ おかしや - [okashiya] - pastelería
+ おまもり - [omamori] - amuleto
+ おもいでを作ります - [omoidewo zuòrimasu] - Haremos, Haré
+ が多い - [ga duōi] - hay muchos
+ きもの - [kimono] - kimono
+ しゃいんりょこう - [shainryokou] - viaje de empresa
+ とくに - [tokuni] - particularmente
+ にわ - [niwa] - jardín
+ に入ります - [ni rùrimasu] - Entro, entrar, entras
+ みんなで - [min'nade] - todos juntos
+ ガイドブック - [gaidobukku] - guía turística
+ マッサージをします - [massājiwoshimasu] - Hacer, Haré
+ ルームサービス - [rūmusābisu] - servicio de habitaciones
+ 九日 - noveno día
+ 前 - antes
+ 味 - sabor
+ 温かい - caliente
+ 行ってらっしゃい - Que te vaya bien
+74 Family Biz Describe un negocio familiar
+ うすく - [usuku] - finamente
+ おかず - [okazu] - guarnición
+ お客さん - [o kèsan] - cliente
+ かんりします - [kanrishimasu] - Gestiono, gestiona
+ きゅうり - [kyuuri] - pepino
+ どんぶり - [donburi] - donburi
+ にきがえます - [nikigaemasu] - me cambio
+ わりびき - [waribiki] - descuento
+ を閉めます - [wo bìmemasu] - cierre
+ アルバイト - [arubaito] - trabajo a tiempo parcial
+ シフト - [shifuto] - turno
+ ソフトドリンク - [sofutodorinku] - refresco
+ メニュー - [menyū] - menú, Menú
+ 以外 - excepto
+ 学生 - estudiante
+ 毎週 - cada semana
+ 考えます - pensar
+75 Photo cont Participa en concurso de fotos
+ きめます - [kimemasu] - decide
+ けします - [keshimasu] - borrar, borro
+ けっか - [kekka] - resultado
+ こうさてん - [kousaten] - cruce de calles
+ さんかします - [sankashimasu] - Participaremos
+ しょう - [shou] - premio
+ しろくろ - [shirokuro] - blanco y negro
+ なるほど - [naruhodo] - ya veo
+ はくぶつかん - [hakubutsukan] - museo
+ ふつう - [futsuu] - normal
+ ほし - [hoshi] - estrella
+ アイデア - [aidea] - idea
+ テーマ - [tēma] - tema
+ フォトコンテスト - [fotokontesuto] - concurso de fotografía
+ 二十日 - veinte
+ 位 - posición
+ 前の - anterior
+ 空 - cielo
+ 花火 - fuego artificial
+76 Socl Media Navega redes sociales
+ うれしい - [ureshii] - felices
+ えもじ - [emoji] - emoji
+ おてつだいしましょうか - [otetsudaishimashouka] - ¿Le ayudo?
+ かんたん - [kantan] - fácil
+ がわかりません - [gawakarimasen] - entiendo, entendí
+ が来ます - [ga láimasu] - viene
+ さびしい - [sabishii] - triste
+ つながります - [tsunagarimasu] - conecto
+ とうこう - [toukou] - publicación
+ とりあえず - [toriaezu] - por ahora
+ どんなこと - [don'nakoto] - qué tipo de cosas
+ にっき - [nikki] - diario
+ に変えます - [ni biànemasu] - cambio
+ はがき - [hagaki] - postal
+ はじめての - [hajimeteno] - primer
+ まご - [mago] - nietos, nieto
+ むかし - [mukashi] - hace tiempo
+ むかしの - [mukashino] - antiguo
+ アイコン - [aikon] - icono
+ アカウント - [akaunto] - cuenta
+ フォローします - [forōshimasu] - sigo
+ ボタン - [botan] - botón
+ 意外と - inesperadamente
+ 長く - por mucho tiempo
+77 Outdoors Planea actividades al aire libre
+ がいい - [gaii] - ser mejor
+ きせつ - [kisetsu] - estación
+ します - [shimasu] - hago, patino, haces
+ におい - [nioi] - olor
+ やきます - [yakimasu] - hornearé, hornearás
+ キャンプ - [kyanpu] - campamento
+ シーフード - [shīfūdo] - marisco
+ ハイキング - [haikingu] - senderismo
+ ハンバーグ - [hanbāgu] - hamburguesa a la japonesa
+ バーベキュー - [bābekyū] - barbacoa
+ ピクニック - [pikunikku] - picnic
+ 午前 - mañana
+ 川 - río
+ 広場 - plazas, plaza
+ 早い - temprano
+78 Cas Dining Pide comida en "レストラン"
+ おごり - [ogori] - invitación
+ おなかがいっぱい - [onakagaippai] - lleno
+ こい - [koi] - carpa, carpas
+ すっぱい - [suppai] - agrio
+ とろとろ - [torotoro] - cremoso
+ どちらがいいですか - [dochiragaiidesuka] - ¿Cuál prefieres?
+ ぶどう - [budou] - uva
+ めん - [men] - algodón
+ ようしょく - [youshoku] - comida occidental
+ オムライス - [omuraisu] - Omurice, omurice
+ スペシャル - [supesharu] - especial
+ ソーセージ - [sōsēji] - salchicha
+ ドリンクバー - [dorinkubā] - barra de bebidas
+ ドレッシング - [doresshingu] - aderezo
+ ファミレス - [famiresu] - restaurante familiar
+ マヨネーズ - [mayonēzu] - mayonesa
+ レタス - [retasu] - lechuga
+ 半分 - la mitad
+ 辛い - picantes, picante
+79 Thrift Shp Compra en una tienda de segunda mano
+ いらない - [iranai] - innecesario
+ かたづけます - [katadzukemasu] - ordenar
+ がはやっています - [gahayatteimasu] - está de moda, están de moda
+ が多すぎます - [ga duōsugimasu] - demasiado
+ さっか - [sakka] - escritor
+ しょうせつ - [shousetsu] - novela
+ のほうが - [nohouga] - es más
+ もの - [mono] - objeto
+ より - [yori] - que
+ ギター - [gitā] - guitarra
+ デジタル - [dejitaru] - digital
+ ファッション - [fasshon] - moda
+ ベルト - [beruto] - cinturón
+ リサイクルショップ - [risaikurushoppu] - tienda de segunda mano
+ レコード - [rekōdo] - disco
+ レトロな - [retorona] - retro
+ 中古 - de segunda mano
+ 冊 - ejemplares, tomos
+ 少ない - poco, escasa
+ 年代 - época, era, período, generación, década, edad
+ 時計 - reloj
+ 赤い - roja
+80 office 2 Colabora con "同僚" en proyectos
+ います - [imasu] - hay
+ かかります - [kakarimasu] - toma
+ しょるい - [shorui] - documento
+ じゅうよう - [juuyou] - importante
+ までに - [madeni] - para
+ まとめます - [matomemasu] - resumimos, resumiré
+ カレンダー - [karendā] - calendario
+ コピーします - [kopīshimasu] - Copias
+ サインします - [sainshimasu] - firmará, Firmar, Firmaremos, Firmarás, firmaremos
+ データ - [dēta] - dato
+ ホチキス - [hochikisu] - grapadora
+ メールアドレス - [mēruadoresu] - dirección de correo electrónico
+ レポート - [repōto] - informe
+ 代 - tarifa
+ 何か - algo
+ 入力します - Ingreso, Ingresamos
+ 十四日 - día catorce
+ 夕方 - tarde
+ 映画 - película
+81 Ski Trip Planea un viaje de esquí
+ あつまります - [atsumarimasu] - reunimos
+ かぶります - [kaburimasu] - pondré, pondrá, pondrás
+ くま - [kuma] - oso
+ くれませんか - [kuremasenka] - ¿puedes?
+ しゅっぱつします - [shuppatsushimasu] - salgo, Salgo
+ しょしんしゃ - [shoshinsha] - principiante
+ すばらしい - [subarashii] - maravilloso
+ にもつ - [nimotsu] - equipaje
+ のけいけん - [nokeiken] - experiencia
+ びん - [bin] - botella, botellas
+ ようひん - [youhin] - equipo
+ ゴーグル - [gōguru] - gafas de protección
+ スキー場 - [sukī chǎng] - estación de esquí
+ ヘルメット - [herumetto] - casco
+ 半日 - medio día
+ 天気 - clima
+ 安全 - seguro
+ 寒い - frío
+ 暖かい - cálido
+ 気をつけます - tendremos cuidado
+ 短い - corta
+ 雪 - nieve
+82 Movies Habla de géneros de cine favoritos
+ あたまが大きい - [atamaga dàkii] - la cabeza grande
+ かいじゅう - [kaijuu] - monstruo
+ かなしい - [kanashii] - triste
+ かみが長い - [kamiga zhǎngi] - pelo largo
+ きもちわるい - [kimochiwarui] - desagradables, desagradable
+ こえが大きい - [koega dàkii] - la voz fuerte
+ さいご - [saigo] - final
+ じょゆう - [joyuu] - actriz
+ せが高い - [sega gāoi] - alto
+ その - [sono] - ese, esa
+ わかい - [wakai] - joven
+ わくわくする - [wakuwakusuru] - emocionante
+ わらいます - [waraimasu] - Río
+ アジア - [ajia] - asiáticos, asiático, asiática, Asia, asiáticas
+ スペイン - [supein] - España
+ 一年中 - durante todo el año
+ 休みの日 - día libre
+ 外国 - extranjero
+ 女の人 - mujer
+ 好き - gustar
+ 明日の夜 - la noche de mañana
+ 映画館 - cine
+ 男の人 - hombre
+ 目が大きい - con ojos grandes
+83 FUKUOKA Explora atracciones de Fukuoka
+ うすい - [usui] - delgado
+ かんこうち - [kankouchi] - lugar turístico
+ きゅうしゅう - [kyuushuu] - Kyushu
+ こうがい - [kougai] - suburbio
+ しゅっちょう - [shutchou] - viaje de negocios
+ じょう - [jou] - castillo
+ すもう - [sumou] - sumo
+ とおり - [toori] - calle
+ とんこつラーメン - [tonkotsurāmen] - ramen tonkotsu
+ にゅうじょうりょう - [nyuujouryou] - tarifa de entrada
+ びじゅつ - [bijutsu] - arte
+ むしあつい - [mushiatsui] - bochornosos, bochornoso
+ タワー - [tawā] - torre
+ ドーム - [dōmu] - domo, Domo
+ 三十日 - treinta días
+ 冬 - invierno
+ 十七日 - diecisiete
+ 市 - ciudad
+ 昨日の夜 - anoche
+ 昼間 - durante el día
+ 科学 - ciencia
+ 黒い - negro, negra
+84 Bookstre 2 Pide café en una librería
+ えんぴつ - [enpitsu] - lápiz
+ くない - [kunai] - es, está
+ けいざい - [keizai] - economía
+ けしごむ - [keshigomu] - goma de borrar
+ こわい - [kowai] - miedo
+ じしょ - [jisho] - diccionario
+ じゃない - [janai] - no es, no son
+ そう - [sou] - parece
+ におります - [niorimasu] - Estoy, Estamos
+ にきょうみがあります - [nikyoumigaarimasu] - tener interés en
+ ほんやく - [hon'yaku] - traducción
+ れきし - [rekishi] - historia
+ をもどします - [womodoshimasu] - Devuelvo
+ エスカレーター - [esukarētā] - escalera mecánica
+ バニラ - [banira] - vainilla
+ 文学 - literatura
+ 本屋 - librería
+ 毎月 - cada mes
+ 紙 - papel
+85 Wedding 2 Asiste a una boda familiar
+ おじ - [oji] - tío
+ おば - [oba] - tía
+ かんぱいします - [kanpaishimasu] - brindamos
+ こうかんします - [koukanshimasu] - intercambio
+ さくらんぼ - [sakuranbo] - cereza
+ どれぐらいの - [doreguraino] - cuánto
+ なげます - [nagemasu] - Lanzar, lanzo
+ になります - [ninarimasu] - se vuelve, vuelves
+ ひさしぶりです - [hisashiburidesu] - Hace mucho tiempo que no nos vemos
+ ウェディングケーキ - [u~edingukēki] - tarta de boda
+ チーズ - [chīzu] - queso
+ ブーケ - [būke] - ramo
+ リハーサル - [rihāsaru] - ensayo
+ 大人 - adulto
+ 子ども - niño
+ 歳 - años
+ 白い - blanca, blancos
+86 HOTEL 3 Compara opciones de hotel
+ あずかります - [azukarimasu] - guardará
+ いくつか - [ikutsuka] - algunos
+ いなか - [inaka] - campo
+ うけとります - [uketorimasu] - recibe, recibo
+ お得 - [o dé] - ventajoso
+ きんえん - [kin'en] - libre de humo
+ きんこ - [kinko] - caja fuerte
+ ここちいい - [kokochiii] - cómodo
+ せんたく - [sentaku] - lavar la ropa
+ それなら - [sorenara] - Si es así
+ になります - [ninarimasu] - se vuelve, vuelves
+ ひょうか - [hyouka] - evaluación
+ ふべん - [fuben] - inconveniente
+ アイロン - [airon] - plancha
+ アプリけっさい - [apurikessai] - pago por aplicación
+ キャンペーン - [kyanpēn] - campaña
+ コピーき - [kopīki] - fotocopiadora
+ フロント - [furonto] - recepción
+ ミーティングルーム - [mītingurūmu] - sala de reuniones
+ 二十七日 - día veintisiete
+ 四人 - cuatro
+ 旅行 - viaje
+87 Meeting Habla de retrasos con cortesía
+ うら - [ura] - reverso
+ が足りません - [ga zúrimasen] - no hay suficiente, no hay suficientes
+ こうじょう - [koujou] - fábrica
+ さっき - [sakki] - hace un momento
+ しつれいします - [shitsureishimasu] - disculparé
+ しょうしょうお待ちください - [shoushouo dàichikudasai] - espere un momento
+ しりょう - [shiryou] - material
+ それでは - [soredeha] - entonces
+ どうぞ - [douzo] - adelante
+ について - [nitsuite] - sobre
+ めいし - [meishi] - tarjeta de presentación
+ インド - [indo] - India
+ タイ - [tai] - tailandés, Tailandia, tailandesa
+ メキシコ - [mekishiko] - México
+ 二十九日 - día veintinueve
+ 会社 - empresa
+ 会社員 - empleado de empresa
+ 年 - año
+ 枚 - pieza, piezas
+ 空いています - libre
+ 終わり - final
+88 Exams Habla de estrategias de estudio
+ おきて - [okite] - levántate, levantarte, levanto, levantarme
+ おぼえます - [oboemasu] - Aprendo
+ かもく - [kamoku] - asignatura
+ がしんぱい - [gashinpai] - preocupado por
+ きまつしけん - [kimatsushiken] - examen final
+ こたえ - [kotae] - respuesta
+ せいせき - [seiseki] - calificación
+ たんご - [tango] - palabra
+ どういういみですか - [douiuimidesuka] - ¿qué significa?
+ ひるねします - [hiruneshimasu] - siesta
+ ふくしゅうします - [fukushuushimasu] - repasaré, repaso, repasas
+ やっと - [yatto] - finalmente
+ ページ - [pēji] - página
+ レポート - [repōto] - informe
+ 問題 - problemas, problema
+ 外国語 - idioma extranjero
+ 大学 - universidad
+ 正しい - correcto, Correcto
+ 漢字 - kanji
+89 Video Call Haz una videollamada
+ かみなり - [kaminari] - trueno
+ がめん - [gamen] - pantalla
+ こえ - [koe] - voz
+ しつれいします - [shitsureishimasu] - disculparé
+ しょうぼうしゃ - [shoubousha] - camión de bomberos
+ だいじょうぶですよ - [daijoubudesuyo] - todo bien
+ ふります - [furimasu] - Llueve
+ ようじ - [youji] - asunto
+ サイレン - [sairen] - sirena
+ マイク - [maiku] - micrófono
+ ミュートにします - [myūtonishimasu] - silenciaré
+ ログイン - [roguin] - inicio de sesión
+ 十一日 - once
+ 強い - fuerte
+ 終わりにします - Terminamos, terminamos
+ 聞こえます - escuchar
+ 通ります - Paso
+ 部屋 - habitación
+ 音が大きい - fuerte
+ 音が小さい - bajo
+ 風 - viento
+90 Wrking Out Habla de deportes y actividades
+ あせをかきます - [asewokakimasu] - sudas, sudo, suda
+ おふろに入ります - [ofuroni rùrimasu] - baño, bañas
+ かた - [kata] - hombro
+ しゅみ - [shumi] - pasatiempo
+ とびます - [tobimasu] - Volará, Volarás, Volaré
+ によります - [niyorimasu] - paso, pasas
+ の - [no] - de, cuyo, cuya, cuyos, del, cuyas
+ アメフト - [amefuto] - fútbol americano
+ ストレッチ - [sutoretchi] - estiramiento
+ ダンベル - [danberu] - mancuerna
+ 回 - vez, veces
+ 天気がいい - tiempo está bueno
+ 室内 - interior
+ 暑い - caluroso
+ 行って - ve
+ 運動 - ejercicio
+ 重い - pesado, cargada
+91 Oshougatsu Habla de costumbres de Año Nuevo japonés
+ あけましておめでとうございます - [akemashiteomedetougozaimasu] - Feliz Año Nuevo
+ いのります - [inorimasu] - rezamos
+ おおそうじ - [oosouji] - gran limpieza
+ おせち料理 - [osechi liào lǐ] - comida de Año Nuevo japonesa
+ お正月 - [o zhèng yuè] - Año Nuevo
+ かざります - [kazarimasu] - Decoramos, decoramos
+ が楽しみです - [ga lèshimidesu] - estoy ilusionado con
+ しゅうかん - [shuukan] - costumbre
+ すごします - [sugoshimasu] - pasas, paso
+ ぞうり - [zouri] - sandalias japonesas
+ ねがいごと - [negaigoto] - deseo
+ ねんがじょう - [nengajou] - tarjeta de Año Nuevo
+ ばんぐみ - [bangumi] - programa
+ もくひょう - [mokuhyou] - objetivo
+ 写真 - foto
+ 初め - principio
+ 去年 - el año pasado
+ 日の出 - amanecer
+92 Travel 3 Coordina un viaje internacional
+ じゅんびします - [junbishimasu] - prepararé
+ それから - [sorekara] - luego
+ ぞう - [zou] - elefante
+ と思います - [to sīimasu] - Pienso
+ についていきます - [nitsuiteikimasu] - seguiré, seguiremos
+ る - [ru] - llegaré, está, levanto, nevando, planchar, ver, vienen, conduzco, ganar, hago, Salgo, ir, Hay, como, venir, cenar, vienes
+ エビ - [ebi] - camarón
+ ココナッツ - [kokonattsu] - coco
+ シンガポール - [shingapōru] - Singapur
+ マレーシア - [marēshia] - Malasia
+ ライドシェア - [raidoshea] - ride share
+ 国 - país
+ 店 - restaurante
+ 服 - ropa
+ 東南アジア - el sudeste asiático
+ 海外 - extranjero
+ 誰 - quién
+ 長い - largo
+93 Bank Abre una cuenta bancaria
+ あさって - [asatte] - pasado mañana
+ あずけます - [azukemasu] - deposito, Deposito
+ いる - [iru] - estar
+ うんてんめんきょ - [untenmenkyo] - licencia de conducir
+ か - [ka] - ¿
+ ぎんこう - [ginkou] - banco
+ こうざ - [kouza] - cuenta
+ すいています - [suiteimasu] - vacío, vacía
+ たいてい - [taitei] - generalmente
+ ちょきんします - [chokinshimasu] - ahorrar, Ahorro
+ はちょっと - [hachotto] - es un poco difícil
+ りゅうがくします - [ryuugakushimasu] - estudiaremos, estudiaré, estudiarás, estudiar, estudia
+ メモをとります - [memowotorimasu] - tomaré
+ 三十万 - trescientos mil
+ 会社員 - empleado de empresa
+ 十九日 - día diecinueve
+ 午前 - mañana
+ 午後 - tarde
+ 南 - sur
+ 四分 - cuatro minutos
+ 百万 - millón
+94 Research Discute un proceso de investigación
+ いけん - [iken] - opinión
+ が間違っています - [ga jiān wéitteimasu] - está equivocado, están equivocados, está equivocada
+ けんきゅう - [kenkyuu] - investigación
+ しょうらい - [shourai] - futuro
+ せんそう - [sensou] - guerra
+ その時 - [sono shí] - ese momento
+ た - [ta] - gustó, fue, hizo, recibimos, quiso, supe, bailamos, leímos, estuvo, vimos, estudié, hubo, buscamos, quise
+ どう思いますか - [dou sīimasuka] - ¿qué piensas?
+ について - [nitsuite] - sobre
+ はっぴょう - [happyou] - presentación
+ ふくざつ - [fukuzatsu] - complejo
+ ろんぶん - [ronbun] - artículo
+ リンク - [rinku] - enlace
+ 古代 - antiguo
+ 文化 - cultura
+ 新聞 - periódico
+ 生活 - vida
+ 自分で - por mí mismo
+ 課題 - tarea
+ 返します - devolveré, devuelvo
+95 BBQ Organiza una parrillada
+ いえいえ - [ieie] - No, no
+ ごちそうさまでした - [gochisousamadeshita] - gracias por la comida
+ つれてきます - [tsuretekimasu] - traerás, traeré, traerá
+ とります - [torimasu] - Tomaré
+ はだいじょうぶです - [hadaijoubudesu] - está bien
+ ふくろ - [fukuro] - bolsa
+ へようこそ - [heyoukoso] - bienvenido
+ むかえに行きます - [mukaeni xíngkimasu] - ir a recoger
+ れんらくさき - [renrakusaki] - información de contacto
+ をどうぞ - [wodouzo] - aquí tienes
+ インフルエンザ - [infuruenza] - gripe
+ ピーマン - [pīman] - pimiento
+ 初めて - primera vez
+ 大学生 - estudiante universitario
+ 夫 - esposo
+ 妻 - esposa
+ 火をつけます - enciendo
+ 知り合い - conocido
+96 Dietary Habla de necesidades dietéticas
+ いらっしゃいませ - [irasshaimase] - bienvenido
+ おなか - [onaka] - estómago
+ ざいりょう - [zairyou] - ingrediente
+ じょうほう - [jouhou] - información
+ すぐ - [sugu] - inmediatamente
+ の味がします - [no wèigashimasu] - tiene sabor a
+ は入っていますか - [ha rùtteimasuka] - tiene
+ ひょうじ - [hyouji] - visualización
+ もうしわけありません - [moushiwakearimasen] - lo siento
+ わりびきけん - [waribikiken] - cupón de descuento
+ サービス - [sābisu] - servicio
+ ビーガン - [bīgan] - vegano
+ ピーナッツ - [pīnattsu] - cacahuete
+ 何色 - qué color
+ 別の - otro
+ 店員 - empleado
+ 店長 - gerente
+ 来て - venir
+ 気分が悪い - siento mal
+ 遅い - lento
+97 Who Dun It Debate sobre una escena del crimen
+ きいろい - [kiiroi] - amarillo, amarilla
+ こわい - [kowai] - miedo
+ つかまえます - [tsukamaemasu] - captura, Capturamos, capturar
+ どろぼう - [dorobou] - ladrón
+ なります - [narimasu] - me pondré
+ に気づきます - [ni qìdzukimasu] - da cuenta, das cuenta
+ よかったです - [yokattadesu] - me alegro
+ ろうか - [rouka] - pasillo
+ われています - [wareteimasu] - está rota, está roto
+ バイク - [baiku] - moto
+ 変 - raro
+ 急に - de repente
+ 早く - temprano
+ 最初は - al principio
+ 誰か - alguien
+98 meeting 2 Organiza una reunión de negocios
+ あんないします - [an'naishimasu] - guiaré
+ かいぎ - [kaigi] - reunión
+ じこしょうかいをします - [jikoshoukaiwoshimasu] - hacemos, hacer una auto-presentación
+ じゅうでんします - [juudenshimasu] - Cargo, cargo
+ じゅんびできました - [junbidekimashita] - listo
+ つうやく - [tsuuyaku] - interpretar
+ もちろん - [mochiron] - por supuesto
+ スポンサー - [suponsā] - patrocinador
+ スライド - [suraido] - diapositiva
+ ネパール - [nepāru] - Nepal
+ ノートパソコン - [nōtopasokon] - computadora portátil
+ プロジェクター - [purojekutā] - proyector
+ メンバー - [menbā] - miembro
+ リーダー - [rīdā] - líder
+ 受付 - recepción
+ 本社 - sede central
+ 来る - venir
+ 温度 - temperatura
+99 Reunion Reúnete con viejos amigos
+ お兄さん - [o xiōngsan] - hermano mayor
+ お姉さん - [o zǐsan] - hermana mayor
+ かみがた - [kamigata] - peinado
+ かんごし - [kangoshi] - enfermero
+ けいさつかん - [keisatsukan] - policía
+ けっこんしています - [kekkonshiteimasu] - está casado
+ でおります - [deorimasu] - se baja, se bajan, me bajo
+ です - [desu] - es, está
+ に近い - [ni jìni] - cerca del, cerca de
+ のみほうだい - [nomihoudai] - todo lo que puedas beber
+ ほんとうですか - [hontoudesuka] - ¿de verdad?
+ めがね - [megane] - gafas
+ よびます - [yobimasu] - llamo
+ を変えます - [wo biànemasu] - Cambiarás, Cambiaré, cambiará
+ イヤリング - [iyaringu] - pendiente
+ カクテル - [kakuteru] - cóctel
+ コーデ - [kōde] - conjunto
+ 今朝 - esta mañana
+ 行った - fui
+ 金 - oro
+ 青い - azul
+100 Festivals Habla sobre tradiciones festivas
+ いしょう - [ishou] - atuendo
+ おいわい - [oiwai] - celebración
+ がっき - [gakki] - instrumento musical
+ ことがあります - [kotogaarimasu] - has
+ ことがありません - [kotogaarimasen] - he escuchado, he bailado, me he puesto, he participado, he tocado, he ido, he visto
+ ことはありますか - [kotohaarimasuka] - ¿has hecho alguna vez?
+ します - [shimasu] - hago, patino, haces
+ そして - [soshite] - y
+ たとえば - [tatoeba] - por ejemplo
+ つれていきます - [tsureteikimasu] - llevaré, llevarás
+ でんとうてき - [dentouteki] - tradicional
+ で何と言いますか - [de héto yánimasuka] - ¿Cómo se dice?
+ イタリア - [itaria] - italiana, italiano, Italia
+ 中に - adentro
+ 中東 - Medio Oriente
+ 今度 - próximo
+ 何月 - qué mes
+ 屋台 - puesto
+ 料理 - cocina
+ 歌 - canción
+ 特別 - especial
+ 甘い - dulce
+101 healthy2 Habla de hábitos saludables
+ えいよう - [eiyou] - nutriente
+ おすすめの - [osusumeno] - recomendado
+ お手洗い - [o shǒu xǐi] - aseo
+ たいいく - [taiiku] - educación física
+ できるだけ - [dekirudake] - lo más posible
+ ない - [nai] - hay
+ のいっしゅです - [noisshudesu] - clase de
+ ひかえます - [hikaemasu] - abstendré
+ りょう - [ryou] - cantidad
+ カロリー - [karorī] - caloría
+ キロメートル - [kiromētoru] - kilómetro
+ スタジオ - [sutajio] - estudio
+ ダイエット - [daietto] - dieta
+ リットル - [rittoru] - litro
+ 体にいい - buenas para el cuerpo, buena para el cuerpo, bueno para el cuerpo
+ 体に悪い - malas para el cuerpo, malo para el cuerpo, mala para el cuerpo
+ 体重 - peso corporal
+ 必ず - sin falta
+ 焼肉 - yakiniku
+ 高い - alta
+102 Xchg Stdnt Adáptate a diferencias culturales
+ じゅく - [juku] - academia
+ せいふく - [seifuku] - uniforme
+ たいそうふく - [taisoufuku] - ropa de gimnasia
+ では - [deha] - Fuera de, En
+ と思います - [to sīimasu] - Pienso
+ ならびます - [narabimasu] - formamos, formas, formo, forman
+ びっくりしました - [bikkurishimashita] - sorprendió
+ ほうかご - [houkago] - después de la escuela
+ スニーカー - [sunīkā] - zapatilla deportiva
+ スポーツドリンク - [supōtsudorinku] - bebida isotónica
+ チャイム - [chaimu] - timbre
+ ホームステイ - [hōmusutei] - casa de familia
+ 動画 - video
+ 屋上 - azotea
+ 昼休み - descanso para el almuerzo
+ 水着 - traje de baño
+ 禁止 - prohibición
+ 部活 - club
+103 Day Trip Navega un día en la ciudad
+ かいそく - [kaisoku] - rápido
+ かんこうきゃく - [kankoukyaku] - turista
+ きっぷうりば - [kippuuriba] - taquilla
+ しずかに - [shizukani] - tranquilamente
+ しょうてんがい - [shoutengai] - calle comercial
+ てんじ - [tenji] - exposición
+ でゆうめい - [deyuumei] - famoso por
+ ない - [nai] - hay
+ にのりかえます - [ninorikaemasu] - Cambiamos, cambio, Cambio
+ ふつう - [futsuu] - normal
+ ゆうせんせき - [yuusenseki] - asiento reservado
+ ボタン - [botan] - botón
+ 何番ホーム - andén número
+ 牛肉 - carne de res
+ 番 - número
+ 終電 - último tren
+ 運転手 - conductor
+ 遠い - lejano
+ 間に合います - llego a tiempo
+104 CulturDiff Habla sobre tradiciones culturales
+ いわいます - [iwaimasu] - Celebramos, celebramos, celebran, celebra
+ えっ - [e~tsu] - ¿eh?
+ お知らせ - [o zhīrase] - aviso
+ かみぶくろ - [kamibukuro] - bolsa de papel
+ こくさいこうりゅう - [kokusaikouryuu] - intercambio internacional
+ つけもの - [tsukemono] - encurtido
+ と同じです - [to tóngjidesu] - igual que
+ と違います - [to wéiimasu] - diferente al, diferente a
+ べんとうばこ - [bentoubako] - caja de bento
+ もみじ - [momiji] - hoja de arce japonés
+ オムレツ - [omuretsu] - tortilla
+ クリスマスツリー - [kurisumasutsurī] - árbol de Navidad
+ コスチューム - [kosuchūmu] - disfraz
+ ジャム - [jamu] - mermelada
+ ハート - [hāto] - corazón
+ バレンタインデー - [barentaindē] - Día de San Valentín
+ ホワイトデー - [howaitodē] - White Day
+ 出身 - lugar de origen
+ 学生会館 - centro estudiantil
+ 春 - primavera
+ 月見をします - observación de la luna
+ 秋 - otoño
+105 SchoolFest Organiza una tienda del festival escolar
+ うまくいきます - [umakuikimasu] - va bien
+ えのぐ - [enogu] - pintura
+ おつり - [otsuri] - cambio
+ かんばん - [kanban] - cartel
+ がくえんさい - [gakuensai] - festival escolar
+ こおり - [koori] - hielo
+ そうしましょう - [soushimashou] - Hagámoslo
+ ぬります - [nurimasu] - aplicaré
+ のり - [nori] - pegamento
+ はさみ - [hasami] - tijeras
+ クラス - [kurasu] - clase
+ シロップ - [shiroppu] - jarabe
+ メロン - [meron] - melón
+ 会計 - caja
+ 全部 - todo
+ 売り切れ - agotado
+ 店を出します - abrimos, Abrimos
+ 私たち - nosotros
+ 紙ナプキン - servilleta de papel
+ 話し合います - Hablaremos, hablaremos
+106 Picnic Organiza un picnic juntos
+ ある - [aru] - haber
+ おしぼり - [oshibori] - toallita húmeda
+ かぜ - [kaze] - viento
+ かん - [kan] - lata
+ しばふ - [shibafu] - césped
+ すいとう - [suitou] - botella de agua
+ そつぎょうしき - [sotsugyoushiki] - ceremonia de graduación
+ たたみます - [tatamimasu] - Doblo
+ のせます - [nosemasu] - pongo
+ ふきます - [fukimasu] - limpio
+ ます - [masu] - puedes, se puede
+ よくて - [yokute] - bueno
+ られます - [raremasu] - se pueden, se puede
+ ガソリン - [gasorin] - gasolina
+ トランク - [toranku] - maletero
+ プラスチック - [purasuchikku] - plástico
+ レジャーシート - [rejāshīto] - esterilla de ocio
+ 台 - unidades
+ 天気よほう - pronóstico del tiempo
+ 気持ちいい - agradable
+ 道 - camino
+107 Conference Habla de negocios en una conferencia
+ あちら - [achira] - allá
+ いて - [ite] - estar
+ おぼえていますか - [oboeteimasuka] - ¿Recuerdas
+ おぼえていません - [oboeteimasen] - recuerda
+ かいさいします - [kaisaishimasu] - llevará a cabo, lleva a cabo
+ せいこうします - [seikoushimasu] - tendrá éxito
+ たんとうします - [tantoushimasu] - encargaré, encargará, encargo
+ ちいき - [chiiki] - zona
+ なふだ - [nafuda] - placa de identificación
+ のこります - [nokorimasu] - queda, quedan, quedo
+ カタログ - [katarogu] - catálogo
+ カンファレンス - [kanfarensu] - conferencia
+ サンプル - [sanpuru] - muestra
+ ネットワーク - [nettowāku] - red
+ ブース - [būsu] - stand
+ 一昨年 - antepasado
+ 中国 - chino
+ 中央アメリカ - América Central
+ 再来年 - el año después del próximo
+ 新商品 - nuevo producto
+ 東ヨーロッパ - Europa del Este
+ 社長 - presidente
+ 西アフリカ - África Occidental
+ 部長 - jefe de departamento
+ 顔 - cara
+108 Bad Date 2 Comparte una experiencia decepcionante
+ ううん - [uun] - no
+ うそ - [uso] - No puede ser
+ うん - [un] - sí
+ お母さん - [o mǔsan] - mamá
+ お父さん - [o fùsan] - papá
+ かっこよくなかった - [kakkoyokunakatta] - no fue guay
+ しょうじき - [shoujiki] - honestamente
+ じゃあ - [jaa] - entonces
+ そうだね - [soudane] - sí
+ その人 - [sono rén] - esa persona
+ ただいま - [tadaima] - ya llegué
+ どうだった - [doudatta] - estuvo
+ やばい - [yabai] - peligroso, peligrosa
+ 元カノ - exnovia
+ 元カレ - exnovio
+ 無理 - imposible
+ 行かない - vas
+109 Game Cent Habla de actividades en "ge-sen"
+ あるよ - [aruyo] - hay
+ いいね - [iine] - bien
+ いいよ - [iiyo] - está bien
+ から - [kara] - de
+ くれない - [kurenai] - No, No me
+ ごめん - [gomen] - lo siento
+ すごく - [sugoku] - muy
+ そうしよう - [soushiyou] - hagamos eso
+ だ - [da] - es, somos
+ ガチャポン - [gachapon] - máquina de cápsulas
+ キャラクター - [kyarakutā] - personaje
+ クレーンゲーム - [kurēngēmu] - máquina de garra
+ ゲームセンター - [gēmusentā] - centro de juegos
+ ゲーム機 - [gēmu jī] - máquina de juegos
+ プライズ - [puraizu] - premio
+ ボウリング - [bouringu] - boliche
+ 一時間 - por hora
+ 地図 - mapa
+ 晴れ - soleado
+ 楽しみ - emoción
+110 Stu Abroad Habla de estudiar en el extranjero
+ がやくにたちます - [gayakunitachimasu] - útil
+ きかい - [kikai] - oportunidad
+ けいじばん - [keijiban] - tablón de anuncios
+ こうりゅうします - [kouryuushimasu] - intercambio
+ こくさいかんけい - [kokusaikankei] - relaciones internacionales
+ しょうがくきん - [shougakukin] - beca
+ での生活 - [deno shēng huó] - la vida en
+ ないよう - [naiyou] - contenido
+ になれます - [ninaremasu] - acostumbras
+ べんきょうできます - [benkyoudekimasu] - Puedo estudiar, puedes estudiar
+ もうしこみます - [moushikomimasu] - inscribirás, inscribiré
+ りゅうがく - [ryuugaku] - estudio en el extranjero
+ りゅうがくせいセンター - [ryuugakuseisentā] - centro de estudiantes extranjeros
+ インターンシップ - [intānshippu] - práctica profesional
+ ビザ - [biza] - visa
+ プログラム - [puroguramu] - programa
+ 一か月間 - mes
+ 南アジア - Asia del Sur
+ 学期 - semestre
+ 年 - año
+ 年間 - año
+ 海外の - del extranjero
+ 週間 - semanas
+111 Game Night Navega una noche de juegos
+ えび - [ebi] - camarón
+ かんせんします - [kansenshimasu] - veré
+ だいこん - [daikon] - rábano blanco
+ どうして - [doushite] - por qué
+ どちらでも - [dochirademo] - cualquiera de las dos
+ なす - [nasu] - berenjena
+ ほかに - [hokani] - más
+ んです - [ndesu] - es que
+ タコス - [takosu] - taco
+ ダーツ - [dātsu] - dardos
+ ポーカー - [pōkā] - póker
+ 二十歳 - veinte años
+ 冷たい - frío, cool
+ 大好き - encantar
+ 妹さん - hermana menor
+ 弟さん - hermano menor
+ 眠い - soñolientos, soñoliento
+ 負けます - perderé, pierdo
+ 電話 - teléfono
+112 Repair Habla de servicios de reparación
+ うっかり - [ukkari] - inadvertidamente
+ お客さま - [o kèsama] - cliente
+ お待たせしました - [o dàitaseshimashita] - Perdón por la espera
+ きえます - [kiemasu] - desaparecen, desaparece
+ きず - [kizu] - rasguño
+ こぼします - [koboshimasu] - Derramo
+ さいきどうします - [saikidoushimasu] - Reiniciaré, reiniciaré, reinicio
+ しゅうり - [shuuri] - reparación
+ しゅうり屋 - [shuuri wū] - taller de reparaciones
+ せつぞく - [setsuzoku] - conexión
+ できます - [dekimasu] - Puede
+ でんちがきれます - [denchigakiremasu] - se queda sin, se agota
+ どうしたらいいですか - [doushitaraiidesuka] - qué debería hacer
+ なおります - [naorimasu] - curará
+ ほしょう - [hoshou] - garantía
+ われます - [waremasu] - se romperá, se rompe
+ アップデートをします - [appudētowoshimasu] - Haré, Actualizarás, actualizará
+ インストールします - [insutōrushimasu] - Instalarás, Instalaré, instalar
+ ウイルス - [uirusu] - virus
+ クリックします - [kurikkushimasu] - clic
+ システム - [shisutemu] - sistema
+ ダウンロードします - [daunrōdoshimasu] - descarga, Descargo
+ ファイル - [fairu] - archivo
+ 今日中に - dentro de hoy
+ 問題 - problemas, problema
+113 Patient Habla de salud con "医者"
+ おれます - [oremasu] - rompe
+ かんじゃ - [kanja] - Paciente
+ けっかが出ます - [kekkaga chūmasu] - saldrán
+ しょうじょう - [shoujou] - síntoma
+ しんさつ - [shinsatsu] - consulta
+ ほけん - [hoken] - seguro
+ ほね - [hone] - hueso
+ ゆっくり - [yukkuri] - despacio, Despacio
+ よびます - [yobimasu] - llamo
+ リハビリ - [rihabiri] - rehabilitación
+ レントゲン - [rentogen] - radiografía
+ 先生 - doctor
+ 名字 - apellido
+ 手 - mano
+ 持ちます - Sostengo, Sostienes
+ 立ちます - paras, paro
+114 First Job Comparte logros recientes
+ いいんですか - [iindesuka] - está bien
+ おごります - [ogorimasu] - invito
+ お会計おねがいします - [o huì jìonegaishimasu] - la cuenta por favor
+ お好み焼き - [o hǎomi shāoki] - okonomiyaki
+ きゅうりょう - [kyuuryou] - salario
+ そうです - [soudesu] - parece que
+ てんすうをつけます - [tensuuwotsukemasu] - pondrá puntos, pondremos puntos, pondré puntos, poner puntos
+ にそうだんします - [nisoudanshimasu] - consulto
+ わりかんします - [warikanshimasu] - Dividimos, dividimos
+ をそつぎょうします - [wosotsugyoushimasu] - me graduaré, se graduará
+ 中学校 - escuela secundaria
+ 中学生 - estudiante de secundaria
+ 再来週 - la semana después de la próxima
+ 夏 - verano
+ 年上 - mayor
+ 忙しい - ocupado
+ 明るい - brillantes, brillante, luminosos
+ 無料 - gratuito
+ 返事 - respuesta
+115 Karaoke Disfruta karaoke con amigos
+ お代わりします - [o dàiwarishimasu] - pediría, pido, piden, pedimos
+ お休み - [o xiūmi] - descanso
+ くなくて - [kunakute] - no está y, no daba y, no es y, no sea y, no fue y
+ しゅうりょうじかん - [shuuryoujikan] - hora de finalización
+ じゃなくて - [janakute] - sino
+ たまに - [tamani] - de vez en cuando
+ なつかしい - [natsukashii] - nostálgica
+ のどがかわきました - [nodogakawakimashita] - tengo sed, Tengo sed
+ ひきます - [hikimasu] - toca, tocas, tocan, tocar, toco
+ カラオケ店 - [karaoke diàn] - tienda de karaoke
+ コース - [kōsu] - curso
+ ピアノ - [piano] - piano
+ ファン - [fan] - fan
+ マイナー - [mainā] - menor
+ 低い - bajos, bajo, baja
+ 大ヒット - gran éxito
+ 平日 - día laborable
+ 最新 - reciente
+ 禁煙 - no fumar
+ 私の - mis
+ 音楽 - música
+116 Healthy 3 Habla de hábitos saludables
+ あぶら - [abura] - aceite
+ きんにく - [kin'niku] - músculo
+ こし - [koshi] - cintura
+ できます - [dekimasu] - Puede
+ なかま - [nakama] - compañero
+ のぼります - [noborimasu] - Subo, Subimos, Sube
+ やせます - [yasemasu] - Adelgazo
+ ゆっくり - [yukkuri] - despacio, Despacio
+ よわい - [yowai] - débil
+ トレーナー - [torēnā] - entrenador
+ マシン - [mashin] - máquina
+ 一週間に - una vez a la semana
+ 医者 - médico
+ 塩 - sal
+ 少しだけ - solo un poco
+ 時 - cuando
+ 熱心に - con entusiasmo
+ 病院 - hospital
+ 足 - pie
+117 Direction2 Navega con apps de smartphone
+ あんない - [an'nai] - guía
+ きごう - [kigou] - símbolo
+ ことば - [kotoba] - palabra
+ しんごう - [shingou] - semáforo
+ ふみきり - [fumikiri] - paso a nivel
+ まっすぐ - [massugu] - recto
+ むこう - [mukou] - al otro lado
+ を右に曲がります - [wo yòuni qūgarimasu] - Doblo a la derecha en
+ を左に曲がります - [wo zuǒni qūgarimasu] - gira a la izquierda
+ ナビ - [nabi] - navegador
+ メニュー - [menyū] - menú, Menú
+ メーター - [mētā] - medidor
+ 何と読みますか - ¿Cómo se lee?
+ 分かります - entiendes, entiendo
+ 危ない - peligrosos, peligroso
+ 姉 - hermana mayor
+ 歩行者 - peatón
+ 町 - ciudad, pueblo, pueblitos
+ 知ります - Sabes
+ 道をまよいました - perdimos, perdiste, perdí
+118 Kendo Explora "kendo" para aliviar estrés
+ いっしょうけんめい - [isshoukenmei] - con mucho esfuerzo
+ かっこよくて - [kakkoyokute] - guapos, guapo
+ きほん - [kihon] - fundamento
+ けいこ - [keiko] - práctica
+ けんどう - [kendou] - kendo
+ しない - [shinai] - shinai
+ しんこきゅうをします - [shinkokyuuwoshimasu] - hacemos, haces
+ たまります - [tamarimasu] - acumula
+ ふります - [furimasu] - Llueve
+ れいをします - [reiwoshimasu] - Hago una reverencia, Hacemos una reverencia
+ ウォーミングアップ - [u~ōminguappu] - calentamiento
+ スッキリしました - [sukkirishimashita] - despejado
+ 体 - cuerpo
+ 十回 - veces
+ 大きいこえを出します - emitir, emite
+ 方 - manera
+ 親切 - amable
+ 道場 - dojo
+ 道着 - dobok
+ 集中します - concentraré, concentras, concentro
+ 難しい - difícil
+ 静か - tranquilo
+ 頭 - cabeza
+119 RoomMates Habla de vivir con compañeros
+ いや - [iya] - desagradable
+ かぎをかけます - [kagiwokakemasu] - cierro con llave
+ か月 - [ka yuè] - mes, meses
+ きげんが悪い - [kigenga èi] - de mal humor
+ けいやく - [keiyaku] - contrato
+ こうかいしています - [koukaishiteimasu] - arrepentido
+ こまっています - [komatteimasu] - preocupado
+ せつやくします - [setsuyakushimasu] - ahorro, ahorraba
+ せんたくもの - [sentakumono] - ropa para lavar
+ たまります - [tamarimasu] - acumula
+ なくします - [nakushimasu] - pierden, pierde, pierdo
+ なやみ - [nayami] - problema
+ みたい - [mitai] - como
+ イライラします - [irairashimasu] - irritado, irrito
+ シェアハウス - [sheahausu] - casa compartida
+ 一人ぐらしをします - Viviré solo
+ 大変 - difícil
+ 年下 - más joven
+ 汚い - sucio, sucia
+ 注意します - prestaré atención
+ 電気 - electricidad
+120 Clinic2 Habla de síntomas con médicos
+ かゆい - [kayui] - picazón
+ ききます - [kikimasu] - Escucho, Escuchas
+ けっか - [kekka] - resultado
+ けつあつ - [ketsuatsu] - presión arterial
+ けんさ - [kensa] - examen
+ しょほうせん - [shohousen] - receta médica
+ せき - [seki] - tos
+ とめます - [tomemasu] - estaciono, estacionar
+ なくなります - [nakunarimasu] - se acabará
+ のど - [nodo] - garganta
+ はちみつ - [hachimitsu] - miel
+ はな - [hana] - nariz
+ はなみずが出ます - [hanamizuga chūmasu] - Me sale mucosidad nasal
+ はれます - [haremasu] - se hinchan, se hincha
+ 体温を計ります - medir, mide, mides
+ 円さつ - billete de yen
+ 受けます - recibirás, recibiré, recibo, recibir
+ 後 - después
+ 生年月日 - fecha de nacimiento
+ 痛み止め - analgésico
+ 薬 - medicina
+121 Golden wk Habla sobre tradiciones de Golden Week
+ おりがみ - [origami] - origami
+ かぶと - [kabuto] - cascos, casco
+ けんこう - [kenkou] - salud
+ こい - [koi] - carpa, carpas
+ こいのぼり - [koinobori] - koinobori
+ さむらい - [samurai] - samurái
+ しあわせ - [shiawase] - felicidad
+ しゅくじつ - [shukujitsu] - día festivo
+ じっか - [jikka] - casa familiar
+ とりい - [torii] - torii
+ のかたち - [nokatachi] - con forma de
+ の終わり - [no zhōngwari] - final
+ はた - [hata] - bandera
+ ひさしぶりに - [hisashiburini] - después de mucho tiempo
+ ゴールデンウイーク - [gōruden'uīku] - Semana Dorada
+ 一番 - más
+ 休みを取ります - tomaré, toman, tomas, tomará
+ 兄 - hermano mayor
+ 半年 - seis meses
+ 妹 - hermana menor
+ 子どもの日 - Día del Niño
+ 広島 - Hiroshima
+ 県 - prefectura
+ 連休 - vacaciones consecutivas
+122 Closing Compra ropa y accesorios
+ かっこよくない - [kakkoyokunai] - no es guay, no son guays, no es un poco guay
+ こぜに - [kozeni] - moneda
+ しちゃくしつ - [shichakushitsu] - probador
+ しつがいい - [shitsugaii] - buena calidad
+ ちょうど - [choudo] - exactamente
+ ついでに - [tsuideni] - de paso
+ ない - [nai] - hay
+ へー - [hē] - vaya
+ まあ - [maa] - bueno
+ めん - [men] - algodón
+ もう少し考えます - [mou shǎoshi kǎoemasu] - lo pensaré un poco más
+ クレープ - [kurēpu] - crepe
+ デザイン - [dezain] - diseño
+ パーセント引き - [pāsento yǐnki] - descuento porcentual
+ フードコート - [fūdokōto] - área de comida
+ ユニセックス - [yunisekkusu] - unisex
+ 下がります - bajan, baja
+ 会計 - contabilidad, tesorero
+ 引き出します - retiro
+ 有料 - de pago
+ 着てみます - probaré
+ 税込み - con impuestos incluidos
+ 閉店 - cierre
+123 Cleanup Participa en limpieza comunitaria
+ お - [o] - un
+ おかげさまで - [okagesamade] - gracias a usted
+ きょうりょく - [kyouryoku] - cooperación
+ しましょうか - [shimashouka] - ¿deberíamos
+ しゅるい - [shurui] - tipo
+ においます - [nioimasu] - huele
+ ひろいます - [hiroimasu] - recogemos, Recogemos, recojo, Recojo, recogen
+ びん - [bin] - botella, botellas
+ むし - [mushi] - insecto
+ むすびます - [musubimasu] - ataré, Ataré, ato
+ もやすゴミ - [moyasugomi] - residuo combustible
+ もやせないゴミ - [moyasenaigomi] - residuo no combustible
+ ゴミすてば - [gomisuteba] - vertedero
+ ゴミぶくろ - [gomibukuro] - bolsa de basura
+ ペットボトル - [pettobotoru] - botella de plástico
+ ホール - [hōru] - salón
+ 公園 - parque
+ 分けます - separa, separan, Separamos, separamos
+ 危険物 - sustancia peligrosa
+ 持って帰ります - llevas, llevo
+ 歩いて - a pie
+ 汚い - sucio, sucia
+124 P. History Comparte experiencias de infancia
+ うらやましいです - [urayamashiidesu] - estoy envidioso
+ えさをやります - [esawoyarimasu] - doy comida
+ かっています - [katteimasu] - tengo, tienes, tiene, tenemos
+ けがします - [kegashimasu] - se lastima
+ しゅじゅつを受けます - [shujutsuwo shòukemasu] - someterá
+ なかがいい - [nakagaii] - me llevo, se llevaba, se llevan, te llevas, se lleva
+ にかくれます - [nikakuremasu] - se esconde
+ にのぼります - [ninoborimasu] - subo, subir
+ はなれます - [hanaremasu] - aleja
+ ひじ - [hiji] - codo
+ り - [ri] - trabajador, librería, feria
+ ミャンマー - [myanmā] - Birmania
+ 何度も - varias veces
+ 八歳 - ocho años
+ 友だちができます - hacer amigos
+ 大切 - importante
+ 弟 - hermano menor
+ 思い出 - recuerdo
+ 泣きます - lloro, llora, lloras
+ 犬 - perro
+ 猫 - gato
+ 笑います - ríe, río
+ 耳 - oreja
+ 転校生 - estudiante transferido
+ 頭がいい - inteligente, inteligentes
+125 New Guy Explora una oficina japonesa
+ おもて - [omote] - anverso
+ おゆ - [oyu] - agua caliente
+ じゆうに - [jiyuuni] - libremente
+ じょうし - [joushi] - jefe
+ せってい - [settei] - configuración
+ せつめいします - [setsumeishimasu] - Explicará, Explicaré
+ できる - [dekiru] - poder
+ でください - [dekudasai] - por favor
+ ふえます - [fuemasu] - aumentará, aumentarán
+ まで - [made] - hasta
+ もう一度 - [mou yī dù] - una vez más
+ シュレッダー - [shureddā] - trituradora
+ ハンコを押します - [hankowo yāshimasu] - poner, poner el sello
+ プリントします - [purintoshimasu] - imprimir, imprimo
+ マナー - [manā] - modales
+ ルール - [rūru] - regla
+ 取り出します - Saco
+ 数 - cantidad
+ 新人 - nuevo empleado
+ 用 - para
+ 皆さん - todos ustedes
+ 自分の - propio
+ 許可を取ります - obtener permiso
+126 Gaming Habla de características de juegos
+ えー - [ē] - eh
+ お金をもらいます - [o jīnwomoraimasu] - Recibo, Recibe
+ せかい - [sekai] - mundo
+ たたかいます - [tatakaimasu] - Lucharé, lucha
+ てき - [teki] - enemigo
+ まほうの - [mahouno] - mágico
+ めんせつ - [mensetsu] - entrevista
+ も - [mo] - tampoco, también
+ やります - [yarimasu] - juega, Haré, haré, Jugaré
+ オンライン - [onrain] - en línea
+ クモ - [kumo] - araña
+ クリアします - [kuriashimasu] - Completo, completarás
+ ゲーム会社 - [gēmu huì shè] - empresa de videojuegos
+ ステージ - [sutēji] - nivel
+ プレイヤー - [pureiyā] - jugador
+ ユーザー名 - [yūzā míng] - nombre de usuario
+ 仕事 - trabajo
+ 島 - isla
+ 強い - fuerte
+ 新作 - nueva obra
+ 死にます - muero
+ 死んだ - morí
+ 石 - piedra
+ 美しい - hermosa, hermoso
+127 Moving out Habla de gestión de residuos locales
+ いっしょに - [isshoni] - juntos
+ かがみ - [kagami] - espejo
+ きびしい - [kibishii] - estricto
+ きふします - [kifushimasu] - Donas, donamos, donan, Donaré
+ しっかり - [shikkari] - bien
+ しゅうしゅう - [shuushuu] - recolección
+ つつみます - [tsutsumimasu] - envuelve, envuelven
+ できて - [dekite] - poder
+ といけません - [toikemasen] - se deben, se debe
+ ひも - [himo] - cuerda
+ へらします - [herashimasu] - Disminuirás, Disminuiré
+ もったいない - [mottainai] - desperdicio
+ や - [ya] - y
+ ようき - [youki] - recipiente
+ ガラス - [garasu] - vidrio
+ キャップ - [kyappu] - tapa
+ ゴミを出します - [gomiwo chūshimasu] - saca la basura
+ センチ - [senchi] - centímetro
+ リサイクルします - [risaikurushimasu] - recicla, reciclo, reciclan
+ ルールをまもります - [rūruwomamorimasu] - seguimos, sigo, sigue, seguir las reglas
+ 以上 - más de
+ 外します - quitas, quitan, quito
+ 家電 - electrodoméstico
+ 自転車 - bicicleta
+128 Senior Yr Discute aspiraciones futuras e identidad
+ おめでとうございます - [omedetougozaimasu] - felicidades
+ きんちょうします - [kinchoushimasu] - pongo nervioso, pones nervioso
+ けんしゅう - [kenshuu] - entrenamiento
+ こと - [koto] - Cosas, cosas
+ ごうかくします - [goukakushimasu] - aprobará, aprobarás, aprobaré
+ しゅうしょく - [shuushoku] - conseguir empleo
+ じしん - [jishin] - terremoto
+ つなみ - [tsunami] - tsunami
+ ら - [ra] - ellos
+ ボーナス - [bōnasu] - bono
+ 入社します - entrarás, entraré
+ 勉強 - estudio
+ 十二日 - día doce
+ 年目 - años, año
+ 本物の - auténtico
+ 海 - mar
+ 英語 - inglés
+ 通います - Asisto, Asistiré
+ 遅く - tarde
+ 食べてみます - probaré, probarás, Probaremos, Probaré
+129 Contingen Planea un viaje a Japón
+ icカード - tarjeta IC
+ おうふく - [oufuku] - billete de ida y vuelta
+ お年寄りの人 - [o nián jìrino rén] - personas mayores
+ こうべ - [koube] - Kōbe
+ たこ焼き - [tako shāoki] - takoyaki
+ ちゅうか料理 - [chuuka liào lǐ] - cocina china
+ つゆ - [tsuyu] - temporada de lluvias
+ でのりかえます - [denorikaemasu] - Cambio
+ とまります - [tomarimasu] - se detiene
+ ふつうれっしゃ - [futsuuressha] - tren local
+ ゆずります - [yuzurimasu] - cedo, cedes
+ わん - [wan] - bahía
+ チャージします - [chājishimasu] - Cargo, cargas
+ プリン - [purin] - flan
+ レインコート - [reinkōto] - impermeable
+ 台風 - tifón
+ 和牛 - wagyu
+ 特急 - tren expreso limitado
+ 番線 - andén
+ 終点 - terminal
+ 足ります - suficiente
+ 都市 - ciudad
+130 Healthy Ch Habla de salud y bienestar
+ あめ - [ame] - caramelo
+ かいてき - [kaiteki] - cómodo
+ くわえます - [kuwaemasu] - Añadiré
+ しょくぶつ - [shokubutsu] - planta
+ せなか - [senaka] - espalda
+ そだてます - [sodatemasu] - Cultivo, cultivo
+ たね - [tane] - semilla
+ にわ - [niwa] - jardín
+ ひざ - [hiza] - rodilla
+ キャベツ - [kyabetsu] - repollo
+ ジャンクフード - [jankufūdo] - comida chatarra
+ タンパクしつ - [tanpakushitsu] - proteína
+ バランス - [baransu] - equilibrio
+ 会員 - miembro
+ 体力がありません - No tengo energía física
+ 大事 - importante
+ 方がいいと思います - creo que es mejor
+ 部分 - parte
+ 頭痛 - dolor de cabeza
+131 games Objetos: Pregunta por objetos perdidos
+ サプリ - [sapuri] - suplemento
+ チームワーク - [chīmuwāku] - trabajo en equipo
+ 上品な - elegante
+ 優先席 - asiento preferente
+ 参加者 - participante
+ 庭 - jardín
+ 普段 - normalmente
+ 歯磨き粉 - pasta de dientes
+ 用品 - equipamiento
+ 秒 - segundo
+ 美しさ - belleza
+ 説明 - explicación
+ 説明書 - manual, instructivo, guía, folleto
+ 財布 - cartera
+ 販売 - venta
+ 運 - suerte
+ 限界 - límite
+132 storytelling Sorpresa: Comparte lo que te sorprendió
+ うそ - [uso] - mentira
+ ついています - [tsuiteimasu] - estar, tener suerte, acompañar, adherir, seguir, estar pegado
+ もらいます - [moraimasu] - recibo
+ ゴミ捨て場 - [gomi shěte chǎng] - vertedero
+ ライター - [raitā] - encendedor
+ 一泊 - una noche
+ 帰り道 - ruta de regreso a casa
+ 日焼け止め - protector solar
+ 横に - horizontalmente
+ 残念 - decepcionante
+ 社員旅行 - viaje de empresa
+ 自然 - naturaleza
+ 色々な - varias
+ 連絡先 - contacto
+133 hobbies 4 Amistad: Pide ayuda a un amigo
+ お湯 - [o tāng] - agua caliente
+ げんかん - [genkan] - entrada
+ こうげきします - [kougekishimasu] - atacar, agredir, acometer, embestir, lanzar un ataque
+ どうやら - [douyara] - al parecer
+ はっきり - [hakkiri] - claramente
+ ギリギリ - [girigiri] - justo
+ 九州 - Kyushu, isla de Kyushu, región de Kyushu, región
+ 他の人 - otra persona
+ 作者 - autor
+ 嘘をつきます - mentir, decir una mentira, engañar, decir mentiras, contar mentiras
+ 慣習 - costumbre
+ 撮ります - tomar, sacar, fotografiar, filmar
+ 敵 - enemigo
+ 次 - próximo, próxima
+ 活動 - actividad
+ 点 - puntos
+ 無くなります - desaparecer, perderse, agotarse, terminarse, extinguirse, venderse
+ 申し込みます - solicitar, inscribirse, registrarse, aplicar, pedir, apuntarse
+134 daily routines Rutina: Habla de tu rutina diaria
+ う - [u] - u
+ がんばります - [ganbarimasu] - esforzaré
+ きちんとした - [kichintoshita] - ordenado
+ で - [de] - en, es
+ のど - [nodo] - garganta
+ よう - [you] - como
+ 付き合います - salir con, acompañar, acompañar en, relacionarse, tratar con, asociarse
+ 伝えます - transmitir, comunicar, informar, contar, decir, avisar, pasar
+ 健康 - salud
+ 夜遅く - tarde por la noche
+ 大丈夫 - bien
+ 寄ります - acercarse, visitar, detenerse, juntarse, reunirse, pasar por, hacer una parada
+ 思っています - pensar
+ 来よう - venir, llegar, acudir, asistir, volver, regresar
+ 横断歩道 - paso de peatones
+ 気を付けます - tener cuidado, prestar atención, estar atento, cuidar, vigilar, evitar
+ 浅草 - Asakusa
+ 神戸 - Kobe
+ 絵本 - libro ilustrado, libro de imágenes, álbum ilustrado
+ 銀行員 - banquero
+ 電気を消します - apagar la luz, apagar la electricidad, apagar la lámpara
+135 celebrations Fiesta: Organiza una fiesta
+ いいところ - [iitokoro] - buena cualidad
+ うまく - [umaku] - hábilmente
+ にくい - [nikui] - difícil, complicado, duro, arduo, costoso, molesto, desagradable, odioso, detestable, repugnante, difícil de entender, poco claro
+ やすい - [yasui] - barata, baratas, baratos, barato
+ カード - [kādo] - tarjeta
+ 不快な - desagradable
+ 不自由な人 - persona con discapacidad
+ 今晩 - esta noche
+ 六番目 - sexto
+ 彼氏 - novio
+ 情報 - información
+ 断ります - rechazar, negar, declinar, denegar, rehusar, no aceptar
+ 村 - pueblo
+ 記号 - símbolo
+ 記念日 - aniversario
+ 誕生日 - cumpleaños
+ 遊園地 - parque de atracciones
+ 音楽を流します - poner música, reproducir música, emitir música, pasar música, tocar música
+136 chores Tareas: Organiza las tareas en casa
+ あいさつ - [aisatsu] - saludo
+ お客様 - [o kè yàng] - cliente
+ くれます - [kuremasu] - dar, regalar, ofrecer, conceder, decir, contar
+ コウモリ - [koumori] - murciélago
+ トラブル - [toraburu] - problema
+ 十八番目 - decimoctavo
+ 向こう - allí, allá, enfrente, otro lado, más allá, opuesto, al otro lado
+ 家族 - familia
+ 幅 - ancho
+ 時々 - a veces
+ 果物 - fruta
+ 洗濯 - colada
+ 王女 - princesa
+ 表示 - etiqueta
+ 電池 - batería
+137 seasonal changes Estaciones: Describe el clima de hoy
+ くなります - [kunarimasu] - volverse, llegar a ser, convertirse en, ponerse, llegar a estar
+ こうずい - [kouzui] - inundación
+ します - [shimasu] - hago, patino, haces
+ なります - [narimasu] - me pondré
+ トンネル - [ton'neru] - túnel
+ 一応 - por ahora
+ 季節 - estación
+ 心地いい - cómodo
+ 気温 - temperatura
+ 涙 - lágrima
+ 生物学 - biología
+ 産業 - industria
+ 祖父 - abuelo
+ 簡単 - fácil
+ 自分 - uno mismo
+ 見本 - muestra
+ 言語 - idioma
+ 鼻 - nariz
+138 professional life Oficina: Habla del trabajo en la oficina
+ ほこり - [hokori] - polvo
+ コミュニケーション - [komyunikēshon] - comunicación
+ マッチ - [matchi] - fósforo
+ 久しぶりに - después de mucho tiempo
+ 厳しい - estricto
+ 合図 - señal
+ 同僚 - colega
+ 実家 - casa familiar
+ 帽子 - sombrero
+ 恋愛 - romance
+ 成績 - calificaciones
+ 点 - puntos
+ 組織 - organización
+ 職場 - lugar de trabajo
+ 胸 - pecho
+ 話しやすい - fácil de hablar, accesible, comunicativo, amigable, cómodo para hablar, fácil de conversar
+ 通り - calle
+ 駐車場 - estacionamiento
+139 free time Evento: Cuenta lo que quieres probar
+ での - [deno] - en, en el, en la, en los, en las
+ みます - [mimasu] - ver, mirar, observar, examinar, consultar, intentar
+ 体験 - experiencia
+ 例えば - por ejemplo
+ 冷凍 - congelado
+ 十七番目 - decimoséptimo
+ 十年間 - diez años
+ 厚い - grueso, espeso, denso, voluminoso, gruesa, espesa, densa, voluminosas
+ 契約 - contrato
+ 手順 - paso
+ 絵の具 - pintura
+ 美術 - arte
+ 裏 - parte trasera
+ 谷 - valle
+ 趣味 - afición
+140 describing events Cultura: Habla de eventos de caridad
+ されます - [saremasu] - ser hecho, ser realizado, ser llevado a cabo, ser anunciado, ser publicado
+ だと思いました - [dato sīimashita] - pensé que, creí que, consideré que, me pareció que
+ られます - [raremasu] - se pueden, se puede
+ れます - [remasu] - poder, ser capaz de, recibir, ser, estar, ocurrir, suceder, ser celebrado
+ チャリティー - [charitī] - caridad
+ ボランティア - [borantia] - voluntario
+ 一本 - un
+ 作品 - obra
+ 同い年 - de la misma edad
+ 増やします - aumentar, incrementar, ampliar, añadir
+ 手入れ - mantenimiento
+ 担当 - encargué, encargamos, encarguémonos, encargarte, encargarse, encargarme, encarga, encargo, encargas
+ 文化祭 - festival cultural
+ 最近 - Últimamente
+ 期間 - período
+ 来られます - venir, poder venir, llegar, ser capaz de venir, asistir, acudir
+ 構いません - no importar, no pasar nada, estar bien, no haber problema, poder, estar permitido, estar bien que
+ 環境 - medio ambiente
+ 画家 - pintor
+ 窓 - ventana
+141 social media Opinión: Recomienda lugares a amigos
+ と - [to] - y, o
+ めす - [mesu] - hembra
+ アンケート - [ankēto] - encuesta
+ グループチャット - [gurūpuchatto] - chat grupal
+ バレバレ - [barebare] - obvio
+ 便利 - conveniente
+ 八本 - ocho
+ 届きます - llegar, alcanzar, recibir, enviar, entregar
+ 成功 - éxito
+ 楽 - divertido, divertidas, divertida
+ 楽しい - divertido, divertida
+ 絵 - imagen
+ 習慣 - costumbre
+ 面白い - interesante
+142 city life Lugares: Ubica equipos en la oficina
+ あそこ - [asoko] - allí
+ あの - [ano] - esa
+ あれ - [are] - eso
+ ここ - [koko] - aquí
+ この - [kono] - Este
+ これ - [kore] - esto
+ そこ - [soko] - allí
+ その - [sono] - ese, esa
+ それ - [sore] - Eso
+ どこでも - [dokodemo] - en cualquier lugar
+ スキャナー - [sukyanā] - escáner
+ ポンプ - [ponpu] - bomba
+ 前に - delante
+ 茶わん - cuenco
+ 警察官 - policía
+ 黄色い - amarillas
+143 personal background Momentos: Describe un momento especial
+ しょうちょう - [shouchou] - símbolo
+ 不便 - inconveniente
+ 修士号 - título de máster
+ 実は - en realidad
+ 犯人 - criminal
+ 肩 - hombro
+ 腰 - cintura
+ 自由 - libertad
+ 落ち着いて - con calma
+ 鳥居 - torii
+144 personal experiences Personas: Presenta a tus amigos
+ かみます - [kamimasu] - morder, masticar, morderse
+ しょっちゅう - [shotchuu] - frecuente
+ ショック - [shokku] - shock
+ 交通 - tráfico
+ 八点 - ocho
+ 励まします - animar, alentar, estimular, motivar, apoyar
+ 勉強できます - poder estudiar, ser capaz de estudiar, tener la capacidad de estudiar, poder estudiar tranquilamente, poder estudiar juntos, poder estudiar despacio
+ 司会の人 - presentador
+ 名古屋 - Nagoya
+ 地元 - localidad
+ 平和 - pacífico
+ 悪い - mala
+ 緊張します - ponerse nervioso, estar nervioso, tensarse, estar tenso, ponerse tenso, sentir nervios
+ 逃げ出します - escapar, huir, fugarse, salir corriendo, salir huyendo
+ 連れて来ます - traer, llevar, acompañar
+145 school life Grupo: Describe el trabajo del grupo
+ お祈り - [o qíri] - oración
+ この前 - [kono qián] - de la otra vez
+ そういうふうに - [souiufuuni] - de esa manera
+ その後 - [sono hòu] - después
+ られます - [raremasu] - se pueden, se puede
+ れます - [remasu] - poder, ser capaz de, recibir, ser, estar, ocurrir, suceder, ser celebrado
+ 先輩 - senpai
+ 六点 - seis puntos
+ 北西 - noroeste
+ 大阪 - Osaka
+ 態度 - actitud
+ 病気 - enfermedad
+ 試合 - partido
+ 調査 - investigación
+ 電子レンジ - microondas
+ 電気 - electricidad
+ 順番 - turno
+ 魔法 - magia
+146 sports El viaje: Organiza tu equipaje
+ せんたく - [sentaku] - lavar la ropa
+ ために - [tameni] - para
+ よかった - [yokatta] - fueron, fue
+ チャンピオン - [chanpion] - campeón
+ 切手 - sello
+ 動き - movimiento
+ 困っています - estar en apuros, estar en problemas, estar preocupado, estar angustiado, estar confundido, estar molesto, estar incómodo
+ 小道 - sendero
+ 屋内 - interior
+ 洋食 - comida occidental
+ 牛乳 - leche
+ 船 - barco
+ 薬局 - farmacia
+ 関係 - relación
+ 飛行機 - avión
+ 高さ - altura
+147 neighborhoods La casa: Pide que cuiden tu casa
+ あちこち - [achikochi] - por todas partes
+ たまたま - [tamatama] - por casualidad
+ ゆるい - [yurui] - flojo, suelto, holgado, relajado, suave, ancho
+ スタート - [sutāto] - inicio
+ ラフ - [rafu] - boceto
+ 不安 - inseguro
+ 仲がいい - llevarse bien, tener buena relación, ser amigos, estar en buenos términos
+ 冷蔵庫 - refrigerador
+ 学士号 - título de grado
+ 温い - tibio, templado, cálido, suave, blando
+ 種類 - tipo
+ 経済学 - economía
+ 自動ドア - puerta automática
+ 薄く - delgado, fino, tenue, ligero, escaso
+ 話し合い - conversación
+ 速い - rápido
+ 連絡します - contactar, comunicar, avisar, informar, ponerse en contacto, llamar
+ 音 - sonido
+148 babysitting Infancia: Describe tu rutina de niño
+ おやつ - [oyatsu] - merienda
+ くちびる - [kuchibiru] - labio
+ じゃないと - [janaito] - si no
+ ほしい - [hoshii] - quieres
+ シッター - [shittā] - niñera
+ 仲良くなります - hacerse amigo, llevarse bien, congeniar, acercarse, familiarizarse
+ 伝えます - transmitir, comunicar, informar, contar, decir, avisar, pasar
+ 教室 - aula
+ 真似します - imitar, copiar, emular
+ 着物 - kimono
+ 詩 - poema
+ 質がいい - de buena calidad, de alta calidad, bueno, excelente, bien hecho, de buena manufactura
+ 質が悪い - de mala calidad, deficiente, pésimo, malo
+ 迎えに来ます - venir a buscar, ir a buscar, recoger
+ 銀 - plata
+ 面倒を見ます - cuidar, cuidar de, atender, encargarse de, ocuparse de
+149 eating habits Comida: Cuenta tus hábitos al comer
+ いました - [imashita] - había, Había
+ お菓子 - [o guǒ zi] - dulces
+ ずっと - [zutto] - siempre, todo el tiempo, durante, mucho tiempo, continuamente, constantemente
+ での - [deno] - en, en el, en la, en los, en las
+ のころ - [nokoro] - cuando era niño
+ 外食 - comida fuera de casa
+ 大根 - rábano blanco
+ 小麦粉 - harina de trigo
+ 弁当 - bento
+ 後ろ - detrás
+ 患者 - paciente
+ 注意します - prestaré atención
+ 玉ねぎ - cebolla
+ 瓶 - frasco
+ 研究室 - laboratorio
+ 買います - compraré, Compraré
+ 電話番号 - número de teléfono
+150 living spaces Vivienda: Describe tu casa
+ には - [niha] - en, para, a, hacia, con respecto a
+ まとめ - [matome] - resumen
+ アシスタント - [ashisutanto] - asistente
+ ベランダ - [beranda] - balcón
+ 今週末 - este fin de semana
+ 原因 - causa
+ 友達 - amigo
+ 家具 - mueble
+ 明るい - brillantes, brillante, luminosos
+ 本棚 - estante para libros
+ 机 - escritorio
+ 毎週末 - cada fin de semana
+ 砂 - arena
+ 脂っこい - grasientas, grasienta, grasientos, grasiento
+ 若い - joven
+ 遊歩道 - paseo
+151 moving Comunidad: Habla sobre tu vecindario
+ きます - [kimasu] - pongo, pones
+ という - [toiu] - que se dice que
+ によります - [niyorimasu] - paso, pasas
+ 助かります - ayudar, salvar, ser útil, ser de ayuda, ser beneficioso, ser conveniente, ser un alivio
+ 広告 - anuncio
+ 建築家 - arquitecto
+ 必要 - necesario
+ 数学 - matemáticas
+ 期末試験 - examen final
+ 水泳 - natación
+ 田舎 - rural
+ 知らない人 - desconocido
+ 缶 - lata
+ 都会 - ciudad
+ 電話 - teléfono
+152 outdoor activities Campamento: Explica el plan de acampada
+ きます - [kimasu] - pongo, pones
+ けんかします - [kenkashimasu] - pelear, pelearse, discutir, luchar, combatir
+ しかたない - [shikatanai] - no hay remedio, inevitable, no se puede evitar, no tiene solución, es inevitable
+ グループ - [gurūpu] - grupo
+ コース - [kōsu] - curso
+ ミス - [misu] - error
+ 交換 - intercambio
+ 八泊 - ocho noches
+ 削ります - afilar, raspar, recortar, reducir, limar, sacar punta
+ 小説 - novela
+ 文句 - queja
+ 生徒 - estudiante
+ 白黒 - blanco y negro
+ 許可 - permiso
+ 迷います - dudar, vacilar, perderse, confundirse, titubear
+ 都合がいい - conveniente, favorable, adecuado, oportuno, práctico, disponible
+153 commuting Ciudad: Menciona lugares que visitas
+ しまいます - [shimaimasu] - guardar, poner, terminar, acabar, meter, hacer sin querer, acabar haciendo
+ すぎます - [sugimasu] - pasar, exceder, sobrepasar, terminar, acabar, comprar demasiado
+ もし - [moshi] - si, en caso de que, suponiendo que, por si acaso, en caso de, si acaso
+ 一個 - pieza
+ 今も - incluso ahora
+ 体育 - educación física
+ 向こうに - al otro lado
+ 混みます - llenarse, congestionarse, abarrotarse, amontonarse, atascarse, llenarse de gente
+ 渋谷 - Shibuya
+ 確かに - ciertamente
+ 繋げます - conectar, unir, enlazar, vincular, atar, enchufar
+ 訳します - traducir, interpretar, explicar
+ 通勤 - desplazamiento al trabajo
+ 遅れます - retrasar, llegar tarde, demorar, atrasar, tardar
+ 遅刻 - retraso
+ 郵便局 - oficina de correos
+ 電池が切れます - se acabar la batería, agotarse la pila, descargarse la batería, terminarse la batería, terminarse la carga
+ 駅員 - empleado de estación
+154 gatherings Familia: Presenta a tu familia
+ あります - [arimasu] - Hay, hay
+ いいですよ - [iidesuyo] - está bien, de acuerdo, vale, no hay problema, claro, no te preocupes
+ こと - [koto] - Cosas, cosas
+ ゲーム - [gēmu] - juego
+ 具合が悪い - estar enfermo, sentirse mal, estar indispuesto, encontrarse mal, estar mal, encontrarse indispuesto
+ 十本 - diez
+ 双子 - gemelo
+ 大掃除 - gran limpieza
+ 役割 - papel
+ 研究者 - investigador
+ 誰の - de quién
+ 首 - cuello
+155 roommates and co-living Planes: Comparte tus planes
+ お土産 - [o tǔ chǎn] - souvenir
+ お年寄り - [o nián jìri] - anciano
+ ければよかった - [kerebayokatta] - hubiera sido mejor, debería haber, ojalá hubiera, habría sido mejor, debería haber hecho, no debería haber, no debí
+ すれば - [sureba] - hacer, si haces, si practicas, si se hace, si se realiza
+ できれば - [dekireba] - si es posible
+ ばよかった - [bayokatta] - ojalá, hubiera, habría sido mejor, sería mejor, habría sido mejor que, hubiera hecho bien en
+ ればよかった - [rebayokatta] - hubiera sido mejor, debería haber, ojalá hubiera, habría sido mejor, debería haber hecho, habría debido
+ 予定 - plan
+ 公式 - oficial
+ 厳しい - estricto
+ 教授 - profesor
+ 普通 - normal
+ 暇な時 - tiempo libre
+ 暮らします - vivir, habitar, residir, pasar tiempo, convivir
+ 治療 - tratamiento
+ 火 - fuego
+ 目標 - meta
+156 time periods Experiencia: Cuenta lo que haces ahora
+ かります - [karimasu] - pedir prestado
+ せきたん - [sekitan] - carbón
+ ところ - [tokoro] - lugar
+ まで - [made] - hasta
+ 九番目 - noveno
+ 出てきます - salir, aparecer, venir
+ 動物園 - zoológico
+ 名札 - placa de identificación
+ 実用的 - práctico
+ 数日 - varios días
+ 昔の - antiguo
+ 留学 - estudiar en el extranjero
+ 筋肉 - músculo
+ 起こります - ocurrir, suceder, pasar, levantarse, provocar, producirse
+ 道具 - herramienta
+157 personal goals Metas: Comparte tus metas personales
+ お互い - [o hùi] - mutuo
+ ければ - [kereba] - si, cuando, en caso de que, si no
+ ば - [ba] - sí, si, Si
+ びっくりするほど - [bikkurisuruhodo] - sorprendentemente
+ やる気 - [yaru qì] - motivación
+ よければ - [yokereba] - si te parece bien
+ れば - [reba] - Si
+ 十冊 - diez libro
+ 増えます - aumentar, incrementar, crecer, añadir
+ 影響力 - influencia
+ 快適 - cómodo
+ 日記 - diario
+ 普通 - normal
+ 普通列車 - tren local
+ 曲げます - doblar, torcer, curvar, inclinar
+ 案内します - guiar, acompañar, informar, mostrar, conducir
+ 段階 - etapa
+ 状態 - estado
+ 生 - crudo, cruda, crudos, crudas
+ 答え - respuesta
+ 鳥 - pájaro
+158 workplace communications Orden: Expón ideas importantes
+ きます - [kimasu] - pongo, pones
+ によって - [niyotte] - dependiendo de
+ ゴミ袋 - [gomi dài] - bolsa de basura
+ シンプル - [shinpuru] - simple
+ 一人ひとり - cada persona
+ 上司 - superior
+ 図 - diagrama
+ 奥 - fondo
+ 思いどおりに - como esperaba
+ 意味 - significado
+ 整理された - ordenado
+ 有名 - famoso
+ 模様 - diseño
+ 次 - próximo, próxima
+ 物 - cosa
+ 王子 - príncipe
+ 自然 - naturaleza
+ 連絡 - mensaje
+159 cost of living Nueva vida: Cuenta cómo te adaptas
+ かなり - [kanari] - bastante
+ ご両親 - [go liǎng qīn] - padre y madre
+ それから - [sorekara] - luego
+ との - [tono] - con, de
+ どんどん - [dondon] - rápidamente
+ のに - [noni] - aunque, a pesar de, pese a, sin embargo, pero
+ カップ麺 - [kappu miàn] - fideo instantáneo en vaso
+ サービス - [sābisu] - servicio
+ フレーム - [furēmu] - marco
+ 一緒に - junto
+ 今後 - futuro
+ 伝統 - tradición
+ 公平 - justo
+ 家賃 - alquiler
+ 手紙 - carta
+ 犯罪 - crimen
+ 税金 - impuesto
+ 言葉 - palabra
+160 medical care Salud: Habla de hábitos saludables
+ さらに - [sarani] - además
+ ちゃんとした - [chantoshita] - adecuado
+ てんてき - [tenteki] - infusión
+ という感じ - [toiu gǎnji] - como si
+ 不規則 - irregular
+ 事 - cosa
+ 以内 - Dentro de
+ 十四番目 - decimocuarto
+ 待合室 - sala de espera
+ 教育 - educación
+ 最先端 - avanzado
+ 流行っています - estar de moda, estar en boga, ser popular, estar vigente, estar en tendencia
+ 発明 - invento
+ 看護師 - enfermero
+ 隅 - esquina
+161 directions 2 Ciudad: Describe lugares en la ciudad
+ いきます - [ikimasu] - ir, viajar, dirigirse, asistir, llevar
+ お腹がいっぱい - [o fùgaippai] - lleno
+ デザイナー - [dezainā] - diseñador
+ 交差点 - cruce
+ 地下 - subterráneo
+ 市役所 - ayuntamiento
+ 放課後 - después de clase
+ 方向 - dirección
+ 理想的 - ideal
+ 由来 - origen
+ 苦い - amargo, Amargo, amargas, amarga
+ 角 - esquina
+ 隣 - al lado
+ 高速道路 - autopista
+162 aspirations Retos: Organiza los materiales
+ あこがれます - [akogaremasu] - anhelar, admirar, añorar, desear, idealizar, respetar, venerar
+ うれしい - [ureshii] - felices
+ そう - [sou] - así
+ で - [de] - en, es
+ セット - [setto] - conjunto
+ 分けます - separa, separan, Separamos, separamos
+ 夢 - sueño
+ 完全に - completamente
+ 将来 - futuro
+ 広い - amplio
+ 広げます - expandir, extender, abrir, desplegar, difundir
+ 挑戦します - desafiar, intentar, retar, afrontar, probar, emprender
+ 接続 - conexión
+ 洗濯機 - lavadora
+ 活発 - activo
+ 目指します - apuntar, aspirar, dirigirse, tener como objetivo, buscar, pretender, buscar ser
+ 真剣な - serio
+ 語学学校 - escuela de idiomas
+ 途中で - a mitad de
+163 future plans Objetivos: Habla de tus planes de viaje
+ おきます - [okimasu] - levantaré
+ こうきしんがつよい - [koukishingatsuyoi] - curioso, inquisitivo, interesado, ávido de conocimiento
+ し - [shi] - y, si, o
+ ずっと - [zutto] - siempre, todo el tiempo, durante, mucho tiempo, continuamente, constantemente
+ つばさ - [tsubasa] - ala
+ のせいにします - [noseinishimasu] - culpar, echar la culpa, responsabilizar, atribuir
+ めいわくをかけます - [meiwakuwokakemasu] - molestar, incomodar, causar molestias, fastidiar, perturbar
+ コピー - [kopī] - copia
+ リスト - [risuto] - lista
+ 幸せ - felicidad
+ 成績 - calificaciones
+ 戦争 - guerra
+ 折り紙 - origami
+ 歯ブラシ - cepillo de dientes
+ 狙い - objetivo
+ 靴下 - calcetín
+164 friendships Amistad: Habla sobre tus amistades
+ お疲れ様でした - [o píre yàngdeshita] - gracias por tu esfuerzo
+ くれます - [kuremasu] - dar, regalar, ofrecer, conceder, decir, contar
+ また今度 - [mata jīn dù] - otra vez en otra ocasión
+ シリーズ - [shirīzu] - serie
+ 一生 - toda la vida
+ 二十番目 - vigésimo
+ 地球 - Tierra
+ 心配 - preocupación
+ 恐ろしい - horribles, horrible
+ 本当の - verdadero
+ 環境 - medio ambiente
+ 苦手 - no gustar
+ 落ち着いた - tranquilo
+ 親友 - mejor amigo
+ 観光地 - lugar turístico
+ 韓国 - coreano, coreana, coreanos
+165 cooking 2 Recetas: Describe los ingredientes clave
+ すごい - [sugoi] - increíble
+ せっかく - [sekkaku] - con esfuerzo, especialmente, a propósito, con mucho cuidado, con dificultad, con esfuerzo especial, con dedicación
+ ところ - [tokoro] - lugar
+ びみょう - [bimyou] - regular
+ オーブン - [ōbun] - horno
+ スパイス - [supaisu] - especia
+ 人 - persona
+ 勝ち - victoria
+ 形 - forma
+ 料理 - plato
+ 風景 - paisaje
+ 香り - aroma
+ 香辛料 - especia
+166 crisis response Preparar: Organiza tu mochila
+ でも - [demo] - Pero
+ どんなに - [don'nani] - por muy
+ の形 - [no xíng] - forma
+ も - [mo] - tampoco, también
+ 一点 - pieza
+ 一部 - en parte
+ 二の次 - secundaria
+ 六本 - seis, seis unidades, seis objetos largos, seis piezas
+ 処方せん - receta
+ 四番目 - cuarto
+ 壊れます - romperse, estropearse, descomponerse, averiarse, quebrarse, colapsar, derrumbarse
+ 掃除 - limpieza
+ 気持ち - sentimiento
+ 水道 - suministro de agua
+ 準備 - preparativo
+ 県 - prefectura
+ 空気 - aire
+ 結果 - resultado
+167 extreme weather events Eventos: Expresa cómo te sentiste
+ けど - [kedo] - pero
+ それで - [sorede] - Entonces
+ たき - [taki] - cascada
+ で - [de] - en, es
+ 卒業式 - ceremonia de graduación
+ 大変 - grave
+ 大雨 - lluvia intensa
+ 宇宙 - universos, universo
+ 油 - aceite
+ 波 - ola
+ 理由 - razón
+ 端 - borde
+ 細い - delgada, delgado, delgados
+ 経験豊富 - experimentado
+ 議論 - discusión
+168 well-being Recursos: Explica cómo relajas tu mente
+ お子さん - [o zisan] - hijo
+ かなと思います - [kanato sīimasu] - creo que, pienso que, me pregunto si, me parece que, tal vez
+ によると - [niyoruto] - según
+ みりょくてき - [miryokuteki] - atractivo, fascinante, encantador, seductor, agradable, maravilloso, hermoso
+ ように - [youni] - para que
+ タップします - [tappushimasu] - tocar, pulsar, golpear, dar un toque, presionar
+ 取り除きます - eliminar, quitar, remover, suprimir, despejar, sacar
+ 工学 - ingeniería
+ 感覚 - sentido
+ 明後日 - pasado mañana
+ 気をつけます - tendremos cuidado
+ 決まった - decidido
+ 祖父母 - abuelos
+ 立ち上がります - levantarse, ponerse de pie, alzarse, incorporarse
+ 紅葉 - hoja de arce
+ 観客 - público
+ 資源 - recurso
+ 食事 - comida
+169 climate La fábrica: Describe la vista desde aquí
+ が必要です - [ga bì yàodesu] - es necesario, se necesita, hace falta, es preciso
+ くぎ - [kugi] - clavo
+ せいで - [seide] - debido a, por culpa de, a causa de, gracias a
+ でこぼこ - [dekoboko] - desigual, irregular, áspero, rugoso, accidentado, lleno de baches, con altibajos, caminos irregulares, caminos con baches, caminos accidentados, nieve irregular, hielo irregular
+ テラス - [terasu] - terraza
+ 凍ります - congelar, helar, congelarse, helarse
+ 喜んで - con gusto
+ 大雪 - gran nevada
+ 宗教的 - religioso
+ 工場 - fábrica
+ 最近 - Últimamente
+ 材料 - ingrediente
+ 汚します - ensuciar, manchar, contaminar, corromper, empañar
+ 洗濯物 - ropa para lavar
+ 育ちます - crecer, desarrollarse, criarse, educarse, prosperar, crecer bien
+ 自販機 - máquina expendedora
+170 parenting Ambiente: Describe cómo usas la luz
+ もう一つは - [mou yītsuha] - otra cosa
+ よくない - [yokunai] - no es buena
+ 取っ手 - asa
+ 嫌がります - disgustar, detestar, odiar, no gustar, rechazar, evitar, resistirse a, rehusar
+ 家庭 - familia
+ 展示会 - exposición
+ 教師 - profesor
+ 景色 - paisaje
+ 特定 - específico, determinado, particular, definido, concreto
+ 画面 - pantalla
+ 自立した - independiente, autosuficiente, autónomo, auto sostenible
+ 血圧 - presión arterial
+ 親 - padres, padre
+ 話題 - tema
+ 野球 - béisbol
+ 電気をつけます - encender la luz, prender la luz, poner la luz
+171 traffic Vecindad: Comenta sobre el tráfico
+ じゅうたい - [juutai] - atasco
+ ちょうこくか - [choukokuka] - escultor
+ と - [to] - y, o
+ ブランド - [burando] - marca
+ 事故 - accidente
+ 人ごみ - multitud
+ 危険 - peligroso
+ 塩っぱい - salado, salobre, salino
+ 天ぷら - tempura
+ 新しくします - renovar, actualizar, hacer nuevo, modernizar, reemplazar, cambiar
+ 昔 - hace mucho tiempo
+ 祖母 - abuela
+ 移動します - mover, trasladar, cambiar de lugar, desplazarse, transferir, caminar, ir
+ 警察 - policía
+ 量 - cantidad
+172 gossip and rumors Fama: Habla de personas famosas
+ うわさ - [uwasa] - rumor
+ かもしれません - [kamoshiremasen] - puede que
+ ただ - [tada] - simplemente
+ どちら - [dochira] - cuál
+ タイト - [taito] - ajustado
+ 一時的 - temporal
+ 何歳 - cuántos años
+ 分かりました - entendí
+ 北海道 - Hokkaidō, Hokkaido
+ 十一番目 - undécimo
+ 半額 - medio precio
+ 広がります - expandir, extender, ampliar, esparcirse, propagarse, difundirse, correr, extenderse
+ 戻します - devolver, regresar, volver, retornar, reponer, colocar, poner
+ 有名人 - celebridad
+ 欠席します - ausentarse, faltar, no asistir
+ 特に - particularmente
+ 発音 - pronunciación
+ 覚えておきます - recordar, memorizar, tener presente, retener
+173 music Música: Habla de música clásica
+ ながら - [nagara] - mientras, durante, a la vez que
+ クラシック - [kurashikku] - música clásica
+ ピアニスト - [pianisuto] - pianista
+ ミュージシャン - [myūjishan] - músico
+ メロディー - [merodī] - melodía
+ リズム - [rizumu] - ritmo
+ 側 - lado
+ 元気 - animado
+ 名作 - obra maestra
+ 所属しています - pertenecer, estar afiliado, formar parte, integrarse, ser miembro
+ 時には - a veces
+ 言い張ります - insistir, afirmar, sostener, persistir, mantener
+ 金庫 - caja fuerte
+ 鋭い - agudo, afilado, penetrante, incisivo, perspicaz, cortante
+ 録音 - grabación
+ 電卓 - calculadora
+174 healthy habits Hábitos: Comparte tus hábitos diarios
+ メッセージ - [messēji] - mensaje
+ 七番目 - séptimo
+ 乗り換え - trasbordo
+ 他に - algo más
+ 割引券 - cupón de descuento
+ 十点 - diez puntos, diez marcas, diez notas
+ 権利 - derecho
+ 氷 - hielo
+ 湖 - lago
+ 登録 - registro
+ 絶対に - absolutamente
+ 薄い - claro
+ 調子 - estado
+ 離婚 - divorcio
+175 safety precautions Normas: Explica una norma
+ から - [kara] - de
+ それから - [sorekara] - luego
+ はっきりしていません - [hakkirishiteimasen] - no estar claro, no ser evidente, no ser preciso, no estar definido, no ser concreto
+ 一つずつ - una por una
+ 丸い - redonda, redondos, redondo
+ 冷たい - frío, cool
+ 列 - fila
+ 合理的 - racional
+ 娘 - hija
+ 安全に - de manera segura
+ 料金 - tarifa
+ 早めに - antes de lo habitual
+ 武器 - arma
+ 真面目に - seriamente
+ 空手 - karate
+ 進みます - avanzar, progresar, continuar, seguir, adelantar
+ 関係 - relación
+ 願い事 - deseo
+176 debate Vida diaria: Describe tu rutina diaria
+ おでん - [oden] - oden
+ お大事に - [o dà shìni] - cuídese
+ しまいます - [shimaimasu] - guardar, poner, terminar, acabar, meter, hacer sin querer, acabar haciendo
+ でしょう - [deshou] - sería
+ なくします - [nakushimasu] - pierden, pierde, pierdo
+ コラム - [koramu] - columna
+ ラッキー - [rakkī] - afortunado
+ 一巻 - volumen
+ 不自由のある - discapacitado, limitado, con discapacidad, impedido, con dificultades, con movilidad reducida, con dificultades de movimiento
+ 充分 - suficiente
+ 最後に - por último
+ 泥 - barro
+ 留学生 - estudiante extranjero
+ 直接 - directamente
+ 相手 - oponente
+ 誰でも - cualquiera, cualquier persona, cualquiera que sea, todo el mundo
+ 違い - diferencia
+ 髪型 - peinado
+177 public occasions Evento: Presenta a un invitado
+ いらっしゃいます - [irasshaimasu] - estar, encontrarse, estar presente
+ くださいます - [kudasaimasu] - dar, regalar, conceder, ofrecer, entregar
+ ご存知 - [go cún zhī] - saber, conocer, conocimiento, estar al tanto
+ ご覧になります - [go lǎnninarimasu] - ver, mirar, observar, contemplar, revisar, examinar
+ ぜいたく - [zeitaku] - lujo
+ なさいます - [nasaimasu] - hacer, realizar, llevar a cabo, dar
+ ふさわしい - [fusawashii] - adecuado, apropiado, conveniente, idóneo, pertinente, honorable, adecuado para, apropiado para
+ パン屋さん - [pan wūsan] - panadero
+ 前向き - positivo
+ 声をかけます - llamar, saludar, dirigirse a, hablar a, invitar a, acercarse a
+ 学園祭 - festival escolar
+ 本 - libros, libro
+ 来学期 - próximo semestre
+ 立候補 - candidato
+ 結婚 - matrimonio
+ 通訳 - intérprete
+178 customer service Trabajo: Ayuda a un cliente mayor
+ いらっしゃいます - [irasshaimasu] - estar, encontrarse, estar presente
+ お礼 - [o lǐ] - agradecimiento
+ になります - [ninarimasu] - se vuelve, vuelves
+ 優しく - suavemente
+ 協力 - cooperación
+ 孫 - nietos, nieto
+ 技術 - tecnología
+ 暖房 - calefactor
+ 最低 - al menos
+ 満足 - satisfecho
+ 箱 - caja
+ 素晴らしい - maravilloso, ¡Maravilloso!, Maravilloso
+ 練習 - práctica
+ 見た目 - aspecto
+ 韓国語 - coreano
+179 visual arts Arte: Describe una pintura
+ えいきょう - [eikyou] - influencia
+ お花畑 - [o huā tián] - campo de flores
+ みたい - [mitai] - como
+ よう - [you] - como
+ タイトル - [taitoru] - título
+ ライティング - [raitingu] - iluminación
+ 効果 - efecto
+ 壁 - pared
+ 本物 - auténtico
+ 森 - bosque
+ 準備万端 - listo
+ 科学 - científicas, ciencia
+ 荷物 - paquete
+ 葉っぱ - hoja
+ 虹 - arcoíris
+180 public transit Estación: Pregunta por el horario del tren
+ います - [imasu] - hay
+ おす - [osu] - macho
+ お皿 - [o mǐn] - plato
+ アプリ決済 - [apuri jué jì] - pago por aplicación
+ エンタメ - [entame] - entretenimiento
+ バス停 - [basu tíng] - parada de autobús
+ ラッシュ - [rasshu] - hora punta
+ ルート - [rūto] - ruta
+ 十五番目 - quinceavo
+ 地下鉄 - metro
+ 大声で - en voz alta
+ 床 - suelo
+ 得意 - experta, experto
+ 手続き - procedimiento
+ 着陸 - aterrizaje
+ 西口 - entrada oeste
+181 library Rutina: Comenta tu rutina en verano
+ こういう - [kouiu] - así, de este tipo, tal, semejante, este tipo de
+ しまいます - [shimaimasu] - guardar, poner, terminar, acabar, meter, hacer sin querer, acabar haciendo
+ どうしたら - [doushitara] - cómo puedo
+ へとへと - [hetoheto] - agotado
+ らいいですか - [raiidesuka] - debería, conviene, es mejor, puedo, está bien
+ らどうですか - [radoudesuka] - ¿qué tal?, ¿cómo está?, ¿qué le parece?, ¿por qué no?, ¿qué tal si?, ¿qué te parece si?
+ カウンター席 - [kauntā xí] - asiento en la barra
+ 両親 - padres
+ 五番目 - quinto
+ 先に - antes
+ 図書館 - biblioteca
+ 境界線 - línea fronteriza
+ 棚 - estantería
+ 正式 - formal
+ 美術館 - museo de arte
+ 蒸し暑い - bochornoso, húmedo, caluroso, pegajoso, sofocante
+ 解きます - resolver, desatar, deshacer, explicar, aclarar, solucionar
+ 面接 - entrevista, entrevistas
+182 everyday tech Tecnología: Comenta sobre tus auriculares
+ お祝い - [o zhùi] - celebración
+ と関係があります - [to guān xìgaarimasu] - estar relacionado con, tener relación con, guardar relación con, tener que ver con
+ ぶんせき - [bunseki] - análisis
+ イヤホン - [iyahon] - auricular
+ ネット - [netto] - Internet
+ バッテリー - [batterī] - batería
+ 割れます - romperse, quebrarse, partirse, agrietarse, fracturarse, estallar
+ 宇宙 - universos, universo
+ 港 - puerto
+ 突然 - repentino
+ 綿 - algodón
+ 花火大会 - festival de fuegos artificiales, espectáculo de fuegos artificiales, exhibición de fuegos artificiales, evento de fuegos artificiales, celebración de fuegos artificiales
+ 間 - intervalo
+ 間に - durante
+183 job interview Oficina: Habla de tu experiencia laboral
+ おります - [orimasu] - estar, bajar, descender, encontrarse, haber, tener, preparar, vivir, saber
+ お目にかかります - [o mùnikakarimasu] - encontrarse, ver, reunirse, conocer
+ 会議室 - sala de reuniones
+ 伺います - preguntar, visitar, consultar, escuchar, pedir permiso, ir, acudir, llevar
+ 十二番目 - duodécimo
+ 子供のころ - infancia
+ 存じます - saber, conocer, pensar, creer, considerar, estimar
+ 拝見します - ver, mirar, observar, revisar, examinar
+ 注意 - atención
+ 無職 - desempleado
+ 申し上げます - decir, expresar, manifestar, comunicar, ofrecer, mencionar, relatar, contar, informar
+ 私 - yo
+ 約束 - prometieron, prometían
+ 細かい - pequeño, minucioso, detallado, fino, minúsculo
+ 給料 - salario
+ 辞職します - renunciar, dimitir, dejar el cargo, presentar la renuncia
+184 cultural practices Evento: Pregunta por el horario
+ いただきます - [itadakimasu] - recibir, aceptar, tomar, comer, beber, permitir, hacer, dejar
+ します - [shimasu] - hago, patino, haces
+ でしょうか - [deshouka] - ¿podría ser?
+ コツ - [kotsu] - truco
+ チーム - [chīmu] - equipo
+ 分かりやすい - claro, comprensible, fácil de entender, sencillo, evidente
+ 印象 - impresión
+ 政府 - gobierno
+ 日陰 - sombra
+ 正直に - honestamente
+ 汚れ - mancha
+ 真面目 - serio
+ 紙袋 - bolsa de papel
+ 経験 - experiencia
+ 行事 - evento
+ 門 - puerta, portón
+ 静かに - silenciosamente
+185 restaurant experiences Tienda: Describe la tienda
+ お腹 - [o fù] - estómago
+ そう - [sou] - así
+ ていねい - [teinei] - cuidadoso, atento, cortés, educado, respetuoso, detallado, minucioso
+ よろしくお願いします - [yoroshikuo yuànishimasu] - le pido su cooperación
+ 不機嫌 - de mal humor
+ 今学期 - semestre actual
+ 容量 - capacidad
+ 店内 - dentro de la tienda
+ 指輪 - anillo
+ 日差し - luz solar
+ 混んでいます - estar lleno, estar concurrido, estar atestado, estar abarrotado, estar congestionado, estar lleno de gente, estar muy concurrido
+ 生き物 - ser vivo
+ 看板 - cartel
+ 面倒を見ます - cuidar, cuidar de, atender, encargarse de, ocuparse de
+ 駅前 - frente de la estación
+186 self-expression Rutina: Comparte tu rutina diaria
+ きれいに - [kireini] - limpiamente
+ この辺り - [kono biānri] - esta zona
+ しない - [shinai] - shinai
+ せめて - [semete] - al menos
+ つもり - [tsumori] - intención
+ で - [de] - en, es
+ 危機 - crisis
+ 夏休み - vacaciones de verano
+ 岸 - orilla
+ 弱い - débiles, débil
+ 明け方 - amanecer
+ 正面 - frente
+ 燃やすゴミ - basura quemable
+ 絹 - seda
+ 記事 - artículo
+ 誕生 - nacimiento
+ 距離 - distancia
+187 film Temas: Averigua si un lugar abre
+ くだらない - [kudaranai] - tontas, tonto
+ ずっと - [zutto] - todo el tiempo
+ なんとか - [nantoka] - de alguna manera
+ はず - [hazu] - debería
+ 俳優 - actor
+ 前は - antes
+ 収集 - recolección
+ 実際の - real
+ 影 - sombra
+ 枝 - rama
+ 柔らかい - suave
+ 汚染 - contaminación
+ 結末 - final
+ 裁判所 - tribunal
+ 誰にでも - cualquiera
+ 貿易 - comercio
+ 農業 - agricultura
+ 長さ - longitud, tamaño, medida, extensión
+ 養子 - hijo adoptivo
+188 geography Información: Explica gráficos y mapas
+ かわいそう - [kawaisou] - pobre, lamentable, lastimoso, digno de lástima, desafortunado, triste, desdichado
+ がけ - [gake] - acantilado
+ へ - [he] - al, a, para
+ グラフ - [gurafu] - gráfico
+ メーカー - [mēkā] - fabricante, productor, empresa fabricante, marca
+ ユーザー - [yūzā] - usuario
+ 可能性 - posibilidad
+ 向こう - allí, allá, enfrente, otro lado, más allá, opuesto, al otro lado
+ 基本的 - básico
+ 大陸 - continente
+ 引っ張ります - tirar, jalar, arrastrar, halar, estirar
+ 文章 - texto
+ 書類 - documento
+ 最優先 - máxima prioridad
+ 最初 - primero
+ 海岸 - costa
+ 湾 - bahía
+ 近く - cercanía
+ 鉄 - hierro
+189 future plans 2 Eventos: Organiza un evento escolar
+ お守り - [o shǒuri] - amuleto
+ じゅんすい - [junsui] - puro, auténtico, genuino, inocente, simple, limpio, sin adulterar
+ そのあと - [sonoato] - después de eso
+ といいですね - [toiidesune] - ojalá
+ セール品 - [sēru pǐn] - artículo en oferta
+ ハヌカ - [hanuka] - Janucá
+ 割 - división
+ 履歴書 - currículum
+ 忘れずに - sin olvidar
+ 早い - temprano
+ 月 - luna
+ 条件 - condición
+ 物価 - costo de vida
+ 管理 - gestión
+ 試験 - examen
+ 賞 - premio
+ 赤ちゃん - bebé
+190 scientific discoveries Ideas: Expón tus ideas
+ そういう - [souiu] - ese tipo de
+ とか - [toka] - o
+ の代わりに - [no dàiwarini] - en lugar de
+ みたい - [mitai] - parece que
+ わくわくします - [wakuwakushimasu] - emocionarse, estar emocionado, estar entusiasmado, estar ilusionado, estar ansioso, sentirse emocionado
+ ロボット - [robotto] - robot
+ 世界中 - en todo el mundo
+ 便 - vuelo
+ 心理学 - psicología
+ 恐怖 - miedo
+ 想像力 - imaginación
+ 意見 - opinión
+ 植物 - planta
+ 注意 - atención
+ 煙 - humo
+ 賢い - sabia
+ 重要 - importante
+ 金色 - dorado
+191 buying goods Compras: Expresa si algo te gusta o no
+ だけ - [dake] - solo
+ だけじゃなくて - [dakejanakute] - no solo, no solamente, además de, no únicamente, no exclusivamente
+ ちょうどいい - [choudoii] - adecuada
+ マナーモード - [manāmōdo] - modo silencio
+ メーカー - [mēkā] - fabricante, productor, empresa fabricante, marca
+ モデル - [moderu] - modelo
+ 修理の人 - técnico
+ 切符 - billete
+ 十個 - diez
+ 嬉しい - feliz
+ 専門家 - experto
+ 布団 - futón
+ 日用品 - artículos de uso diario
+ 長持ち - durable
+192 environmental features Naturaleza: Describe el paisaje
+ うちに - [uchini] - mientras, durante, dentro de, en casa, antes de que, durante el tiempo en que, mientras todavía
+ きれい - [kirei] - hermoso
+ プライベート - [puraibēto] - privado
+ 人形 - muñeca
+ 協会 - asociación
+ 土台 - base
+ 埋めます - enterrar, llenar, cubrir, tapar
+ 平ら - llano
+ 成功します - tener éxito, lograr, triunfar, conseguir, alcanzar el éxito
+ 拾います - recoger, levantar, encontrar, reunir
+ 曇ります - nublarse, estar nublado, cubrirse
+ 水道 - agua corriente, acueducto, suministro de agua, red de agua, agua potable
+ 緑 - vegetación
+ 耳の不自由 - con discapacidad auditiva
+ 返品 - devolución
+ 鼻水が出ます - moquear, tener mocos, gotear la nariz, tener secreción nasal
+193 religion Templos: Habla de rituales en templos
+ お寺 - [o sì] - templo
+ お菓子屋 - [o guǒ zi wū] - pastelería
+ それぞれ - [sorezore] - cada
+ マイノリティ - [mainoriti] - minoría
+ 今まで - hasta ahora
+ 宗教 - religión
+ 心配 - preocupante
+ 手作り - hechos a mano
+ 教会 - iglesia
+ 満足している - satisfecho
+ 空港 - aeropuerto
+ 約束 - prometieron, prometían
+ 考え方 - manera de pensar
+ 設備 - instalación
+194 recycling and waste Reciclaje: Comenta sobre el reciclaje local
+ と思います - [to sīimasu] - Pienso
+ なので - [nanode] - porque
+ よね - [yone] - ¿verdad?, ¿no es así?, ¿cierto?, ¿verdad que sí?
+ ダメ - [dame] - no está bien
+ リサイクルボックス - [risaikurubokkusu] - contenedor de reciclaje
+ 例 - ejemplo
+ 全然 - completamente
+ 刺し身 - sashimi
+ 古着 - ropa usada
+ 州 - estado
+ 手袋 - guante
+ 発表 - anuncio
+ 謝罪 - disculparse
+ 賛成 - aprobación
+ 跡 - marca
+195 digital tools Ayuda: Pide ayuda al equipo
+ usbメモリー - memoria USB
+ きかい - [kikai] - oportunidad
+ って - [tte] - que
+ どこからでも - [dokokarademo] - desde cualquier lugar
+ スイッチ - [suitchi] - interruptor
+ メモ - [memo] - nota
+ 他の場所 - otro lugar
+ 友情 - amistad
+ 旅館 - posada, hostal, casa de huéspedes, hotel tradicional japonés
+ 有罪 - culpable
+ 橋 - puente
+ 涼しい - fresco, cool
+ 番号 - número
+ 設定 - configuración
+ 電球 - bombilla
+196 gardening Jardín: Habla de las flores
+ つづけます - [tsudzukemasu] - continuar, seguir, proseguir, persistir, mantener
+ ハーブ - [hābu] - hierba
+ 会場 - lugar del evento
+ 初心者 - principiante
+ 土 - tierra
+ 拾います - recoger, levantar, encontrar, reunir
+ 神社 - santuario
+ 肌 - piel
+ 言葉にします - expresar, poner en palabras, verbalizar, decir, comunicar, articular
+ 説明 - explicación
+ 軽く - ligeramente
+ 関係 - relación
+ 隣の - vecino
+197 weddings Bodas: Organiza los preparativos
+ ことです - [kotodesu] - cosa es, asunto es, hecho es, cuestión es, tema es
+ つまり - [tsumari] - en resumen
+ ということです - [toiukotodesu] - eso significa que
+ スタイリスト - [sutairisuto] - estilista
+ 口座 - cuenta
+ 夫婦 - pareja
+ 建物 - edificio
+ 心から - sinceramente
+ 掃除機 - aspiradora
+ 机 - escritorio
+ 歴史 - historia
+ 番組 - programa
+ 絆 - vínculo
+ 結婚式 - boda
+ 複雑 - complejo
+ 費用 - costo
+198 travel experiences Viaje: Comparte tus experiencias de viaje
+ ご家族 - [go jiā zú] - familia
+ と - [to] - y, o
+ のんびり - [nonbiri] - tranquilamente
+ ローマ - [rōma] - Roma
+ 会話 - conversación
+ 動物 - animal
+ 名刺 - tarjeta de presentación
+ 地元の人 - gente local
+ 寂しい - triste, solo, solitario, melancólico, desolado, echar de menos, extrañar
+ 布 - tela
+ 政治的 - político
+ 暗い - oscura, oscuro
+ 海外旅行 - viaje al extranjero
+ 目的 - propósito
+ 辺り - zona
+199 getting a haircut / salon Peinados: Describe tu peinado favorito
+ あこがれの人 - [akogareno rén] - persona admirada
+ いい感じ - [ii gǎnji] - bien
+ いただきます - [itadakimasu] - recibir, aceptar, tomar, comer, beber, permitir, hacer, dejar
+ ご - [go] - su, tu, sus, tus
+ しっぽ - [shippo] - cola
+ じょうだん - [joudan] - chiste
+ すごいと思います - [sugoito sīimasu] - creo que es increíble, pienso que es asombroso, me parece impresionante, considero que es estupendo, opino que es genial, admiro, me impresiona
+ 任せます - encargar, confiar, dejar, encomendar, delegar
+ 偶然 - por casualidad
+ 八番目 - octavo
+ 商業 - comercio
+ 四分の一 - cuarto
+ 大切にします - cuidar, valorar, apreciar, respetar, estimar
+ 格好 - aspecto
+ 真ん中 - centro
+ 美容室 - peluquería
+ 長さ - longitud, tamaño, medida, extensión
+ 隠れた - oculto
+ 風邪を引きます - resfriarse, coger un resfriado, enfermarse, pillar un resfriado
+ 髪 - cabello
+200 gift giving Regalos: Sugiere un regalo especial
+ こんな - [kon'na] - esto
+ だいたい - [daitai] - aproximadamente
+ ですか - [desuka] - ¿es?, ¿está?, ¿son?, ¿están?, ¿es que?, ¿es necesario?
+ ままです - [mamadesu] - tal como
+ エコバッグ - [ekobaggu] - bolsa ecológica
+ 値段 - precio
+ 息子 - hijo
+ 悩み - preocupación
+ 新婦 - novia
+ 注文 - pedido
+ 派手 - llamativo
+ 笑顔 - sonrisa
+ 表 - parte frontal
+ 誕生日パーティー - fiesta de cumpleaños
+ 高級 - lujoso
+201 geopolitical issues Noticias: Explica un rumor que oíste
+ しょうこ - [shouko] - prueba
+ らしい - [rashii] - típico, característico, parece que, se dice que, según rumores, se cree que
+ 三泊 - tres noches, tres estancias, tres pernoctaciones, estadía de tres noches, alojamiento por tres noches
+ 予約 - reserva
+ 到着 - llegada
+ 力を入れます - esforzarse, poner esfuerzo, dedicar energía, aplicar fuerza, concentrarse, dedicarse, enfocarse
+ 囲みます - rodear, cercar, envolver, acorralar, encerrar
+ 国際ニュース - noticia internacional
+ 奥さん - esposa
+ 安定 - estabilidad
+ 後についていきます - seguir, acompañar, ir detrás de, seguir a
+ 水族館 - acuario
+ 用事 - tarea
+ 記者 - reportero
+ 近いうちに - pronto
+ 金 - oro
+ 食パン - pan de molde
+ 首都 - capital
+202 types of cuisine Comidas: Habla de tus comidas favoritas
+ なら - [nara] - si, en caso de, respecto a, sobre, con respecto a, en cuanto a, con esa, con ese
+ パン屋 - [pan wū] - panadería
+ ベジタリアン - [bejitarian] - vegetariano
+ ラザニア - [razania] - lasaña
+ 個 - unidad
+ 好み - preferencia
+ 寿司 - sushi
+ 心 - corazón
+ 機会 - oportunidad
+ 約束 - prometieron, prometían
+ 舌 - lengua
+ 苦手 - malo, débil, no ser bueno en, tener dificultad con, no gustar, no ser hábil en, evitar, tener aversión a
+ 選手 - jugador
+ 食べ放題 - comida ilimitada
+203 fashion Ropa: Describe tu ropa
+ くせ毛 - [kuse máo] - cabello encrespado
+ ばかり - [bakari] - acabar de
+ みます - [mimasu] - ver, mirar, observar, examinar, consultar, intentar
+ オフィスカジュアル - [ofisukajuaru] - casual de oficina
+ コレクション - [korekushon] - colección
+ シャツ - [shatsu] - camisa
+ シーズン - [shīzun] - temporada
+ 並びます - alinearse, hacer fila, colocarse, ponerse en fila, ordenarse, hacer cola
+ 効きます - funcionar, ser efectivo, surtir efecto, tener efecto, aliviar
+ 十点 - diez puntos, diez marcas, diez notas
+ 履きます - calzar, llevar puestos, ponerse, usar
+ 方法 - método
+ 最大限 - máximo
+ 毎 - cada
+ 簡単に - fácilmente
+ 素敵 - encantador
+ 試着室 - probador
+ 誌 - revista
+ 重さを量ります - medir el peso, pesar, calcular el peso
+204 first aid Seguridad: Habla de kits de emergencia
+ けが - [kega] - lesión
+ さえ - [sae] - siquiera
+ その間 - [sono jiān] - mientras tanto
+ ちらっと見ます - [chiratto jiànmasu] - echar un vistazo, mirar de reojo, ojear, echar un ojo, mirar rápidamente, echar un vistazo rápido, mirar brevemente
+ 会議 - reunión
+ 割合 - proporción
+ 周りの人 - personas alrededor, gente cercana, personas próximas, compañeros, personas del entorno, personas cercanas
+ 失敗 - fracaso
+ 彼女 - mi novia
+ 擦り傷 - raspón
+ 救急車 - ambulancia
+ 普通 - normal
+ 有能 - capaz
+ 温泉 - balneario termal
+ 研修 - formación
+ 種 - semilla
+ 観光 - turístico
+ 防災 - prevención de desastres
+ 集まり - reunión
+205 destinations Resort: Elige tu asiento en el café
+ お願いしました - [o yuànishimashita] - pedir
+ で - [de] - en, es
+ でしょう - [deshou] - sería
+ とめます - [tomemasu] - estaciono, estacionar
+ ほっとした - [hottoshita] - aliviado
+ インフォメーション - [infomēshon] - información
+ サウナ - [sauna] - sauna
+ トレンド - [torendo] - tendencia
+ 両方 - ambos
+ 六個 - seis
+ 商店街 - calle comercial cubierta
+ 宿題 - tarea
+ 池 - estanque
+ 珍しい - raro
+ 砂まみれ - cubierto de arena
+ 自由に - libremente
+ 階段 - escalera
+206 family structure Familia: Describe a tu familia
+ おかげで - [okagede] - gracias a
+ お祭り - [o jìri] - festival
+ けっきょく - [kekkyoku] - al final
+ はっきりと - [hakkirito] - claramente
+ コミュニティ - [komyuniti] - comunidad
+ レイアウト - [reiauto] - diseño
+ 入院 - hospitalización
+ 受けます - recibirás, recibiré, recibo, recibir
+ 夢 - sueño
+ 女優 - actriz
+ 家族会議 - reunión familiar
+ 意味 - significado
+ 知事 - gobernador
+ 郊外 - suburbio
+ 離婚した - divorciado
+207 philosophy Situación: Habla de tus vecinos
+ じまん - [jiman] - orgulloso
+ てつがく - [tetsugaku] - filosofía
+ どこにも - [dokonimo] - a ningún lado
+ どこも - [dokomo] - en ningún lugar
+ ワンチャンあります - [wanchanarimasu] - hay una oportunidad, existe una posibilidad, puede que haya chance, hay una chance, puede que funcione, hay una pequeña oportunidad
+ 丸 - círculo
+ 住所 - dirección
+ 何も - nada
+ 全く - en absoluto
+ 強引に - de manera forzada
+ 必要 - necesario
+ 最悪 - lo peor
+ 正解 - respuesta correcta
+ 無視します - ignorar, hacer caso omiso, pasar por alto
+ 経済 - economía
+ 能力 - capacidad
+ 誰にも - a nadie
+ 誰も - nadie
+208 sports 2 Equipo: Describe el material deportivo
+ あきらめます - [akiramemasu] - rendirse, abandonar, desistir, renunciar, dejar
+ ほど - [hodo] - aproximadamente, alrededor de, tanto como, hasta, grado, medida, extensión, cuanto más, mientras más, cuanto menos, cuanto mejor, cuanto peor
+ ゴール - [gōru] - gol
+ プレッシャー - [puresshā] - presión
+ マラソン大会 - [marason dà huì] - competencia de maratón
+ 体力 - fuerza física, resistencia, energía, vigor
+ 勝負します - competir, desafiar, apostar, enfrentarse, jugar, disputar
+ 商品 - producto
+ 定食 - menú del día
+ 年齢 - edad
+ 戦い - batalla
+ 深さ - profundidad
+ 相手 - oponente
+ 緊急事態 - emergencia
+ 腕 - brazo
+ 袋 - bolsa
+209 public policy Ciudad: Habla de cambios en la ciudad
+ かけます - [kakemasu] - cuelgo, Cuelgo
+ だから - [dakara] - por eso
+ よね - [yone] - ¿verdad?, ¿no es así?, ¿cierto?, ¿verdad que sí?
+ わけ - [wake] - razón
+ 中国語 - chino
+ 作家 - escritor
+ 全ての - todo, todos, todas, toda, todos los, todas las, cada
+ 十億 - mil millones
+ 十泊 - diez noches
+ 市内 - dentro de la ciudad
+ 最高 - mejor
+ 法律 - ley
+ 謎 - misterio
+ 面倒 - molesto
+210 exercise routines Ejercicio: Habla sobre tu rutina
+ そのかわり - [sonokawari] - en cambio
+ わけ - [wake] - razón
+ わけじゃない - [wakejanai] - no es que
+ レベル - [reberu] - nivel
+ 保護者 - tutor
+ 優しい - amable
+ 前向き - positivo
+ 助ける - ayudar, asisten
+ 十三番目 - decimotercer
+ 嫌がります - disgustar, detestar, odiar, no gustar, rechazar, evitar, resistirse a, rehusar
+ 才能 - talento
+ 汗 - sudor
+ 無理 - exceso
+ 笑います - ríe, río
+ 膝 - rodilla
+211 concerts and performances Concierto: Consulta horarios y lugares
+ か - [ka] - ¿
+ オーケストラ - [ōkesutora] - orquesta
+ パンフレット - [panfuretto] - folleto
+ 全然 - en absoluto
+ 十九番目 - decimonoveno
+ 周り - alrededor
+ 地域 - zona
+ 文化的 - cultural
+ 曲 - canción
+ 歌手 - cantante
+ 発見 - descubrimiento
+ 背景 - fondo
+ 腕時計 - reloj de pulsera
+ 観光 - turismo
+ 開始時間 - hora de inicio
+212 historical events Museos: Cuenta un hecho histórico
+ あの時 - [ano shí] - aquella vez
+ だんだん - [dandan] - poco a poco
+ ついていません - [tsuiteimasen] - no tener suerte
+ ところ - [tokoro] - lugar
+ ショック - [shokku] - shock
+ 世界 - mundo
+ 優先 - prioritario
+ 十六番目 - decimosexto
+ 博物館 - museo
+ 始まり - comienzo
+ 曇り - nublado
+ 終了時間 - hora de finalización
+ 船長 - capitán
+ 銀行 - banco
+213 diversity Clase: Comparte tu experiencia en clase
+ さえ - [sae] - siquiera
+ 三番目 - tercer
+ 十巻 - diez volumen
+ 本当に - realmente
+ 焼きそば - yakisoba
+ 畳 - tatami
+ 知識 - conocimiento
+ 科目 - asignatura
+ 論理 - lógica
+ 骨 - hueso
+214 negotiation and persuasion Reglas: Explica las reglas del grupo
+ ですか - [desuka] - ¿verdad?
+ ようなきがします - [younakigashimasu] - tengo la sensación de que
+ コスト - [kosuto] - costo
+ スピード - [supīdo] - velocidad
+ メートル - [mētoru] - metro
+ ワゴン車 - [wagon chē] - furgoneta
+ 十番目 - décimo
+ 大事なところ - punto importante
+ 態度 - actitud
+ 所 - lugar
+ 点 - artículo
+ 燃やせないゴミ - residuo no combustible
+ 緑 - verde
+ 習慣 - costumbre
+ 解決 - solución
+ 追加の - adicional
+ 違います - estar equivocado, ser diferente, no ser correcto, diferir, discrepar, variar
+215 romantic relationships Relaciones: Habla de tus relaciones
+ じゃう - [jau] - acabar, terminar, hacer completamente, lamentar, arrepentirse, consumir, leer compulsivamente
+ ちゃう - [chau] - equivocarse, terminar, hacer sin querer, arrepentirse, cambiar, ponerse nervioso, preocuparse, olvidarse, pelearse
+ と - [to] - y, o
+ なんだか - [nandaka] - de alguna manera
+ の - [no] - de, cuyo, cuya, cuyos, del, cuyas
+ んだ - [nda] - es que, porque, resulta que, se trata de, explicación, razón, es así
+ んだって - [ndatte] - dicen que
+ 八個 - ocho
+ 応援します - apoyar, animar, respaldar, alentar
+ 怒って - enojado
+ 性格 - carácter
+ 悩みます - preocupar, angustiar, sufrir, afligirse, atormentar, dudar, pensar, reflexionar
+ 悲しい - triste
+ 相手 - compañero, oponente, interlocutor, pareja, adversario, rival, contrincante
+ 素直 - sincero
+ 義務 - obligación
+ 賞 - premio
+ 雑誌 - revista
+216 public spaces Café: Comenta el ambiente del café
+ かな - [kana] - quizás, tal vez, me pregunto, será que, espero, ojalá
+ かも - [kamo] - quizás
+ から - [kara] - de
+ じゃダメ - [jadame] - no está bien, no sirve, no es aceptable, no puede ser, no funciona, no debes, no puedes, no es permitido
+ ちゃダメ - [chadame] - no, prohibido, no se debe, está mal, no permitido, no debes, no se puede
+ でかい - [dekai] - grande, enorme, gigante, inmenso, mayúsculo
+ でしょ - [desho] - ¿verdad?
+ にぎやか - [nigiyaka] - animado
+ アルコール - [arukōru] - alcohol
+ キャプテン - [kyaputen] - capitán
+ ノンアルコール - [non'arukōru] - sin alcohol
+ 何もない - no hay nada, nada, no tener nada, vacío, sin nada, en blanco
+ 刑務所 - prisión
+ 場合 - caso
+ 広告を出します - publicar un anuncio, poner un anuncio, hacer publicidad, anunciar, promocionar
+ 深呼吸をします - respirar profundamente, hacer una respiración profunda, tomar una respiración profunda, tomar aire profundamente
+ 濃い - fuerte
+ 観戦します - ver el partido, asistir al partido, presenciar el juego, seguir el partido, mirar el partido, observar el partido
+217 rural life Rutina: Cuenta tu rutina diaria
+ と - [to] - y, o
+ め - [me] - ojo
+ もくげきしゃ - [mokugekisha] - testigo
+ 一度 - una vez
+ 個性 - individualidad
+ 努力 - esfuerzo
+ 収納 - almacenamiento
+ 家事 - tarea doméstica
+ 小さな - pequeño
+ 屋外 - al aire libre
+ 明かり - luz
+ 曲がり角 - curva
+ 泊まるところ - lugar para quedarse
+ 観光客 - turista
+ 軽い - leve, liviana, livianas
+218 museum visits Museo: Pregunta por las reglas
+ まさかの - [masakano] - inesperado
+ わけがない - [wakeganai] - no puede ser que
+ 上がります - Subes
+ 信号 - semáforo
+ 兄弟 - hermanos
+ 入場 - entrada
+ 席 - asiento
+ 最後尾 - última posición
+ 次に - a continuación
+ 欲しい - quiere, deseados
+ 水筒 - termo
+ 祝日 - día festivo
+219 landmarks Cultura: Describe tradiciones locales
+ いけません - [ikemasen] - no está bien, no se debe, no puede, no es permitido, no es correcto, hay que, es necesario
+ じっと - [jitto] - quieto
+ と - [to] - y, o
+ めいわく - [meiwaku] - molestia
+ シリーズ - [shirīzu] - serie
+ 伝統的 - tradicional
+ 冒険者 - aventurero
+ 国立 - nacional
+ 星 - estrella
+ 案内の人 - persona guía
+ 資料 - material
+ 頂上 - cima
+220 civic life Actividades: Explica cómo participar
+ への - [heno] - a
+ ほとんど - [hotondo] - casi no
+ 代理店 - agencia
+ 巻 - tomo
+ 市民 - ciudadano
+ 市長 - alcalde
+ 掲示板 - tablón de anuncios
+ 経験 - experiencia
+ 親子 - padres e hijos
+ 言い訳 - excusa
+ 論文 - tesis
+ 高校生 - estudiante de secundaria
+221 extending accepting and declining invitations Evento: Describe la decoración
+ お久しぶり - [o jiǔshiburi] - cuánto tiempo sin verte
+ けど - [kedo] - pero
+ そういうこと - [souiukoto] - eso
+ なら - [nara] - si
+ んですけど - [ndesukedo] - es que, pero, aunque, sin embargo, resulta que, disculpa, perdona
+ 作家 - escritor
+ 完全 - completo
+ 感動します - emocionar, conmover, impresionar, afectar
+ 手編み - tejido a mano
+ 数えます - contar, enumerar, calcular, computar
+ 本当は - en realidad
+ 気にします - preocuparse, importar, tener en cuenta, considerar, cuidar, fijarse, prestar atención
+ 消防車 - camión de bomberos
+ 演技 - actuación
+ 状況 - situación
+ 要素 - elemento
+ 質問 - pregunta
+ 間もなく - pronto
+ 風船 - globo
+222 volunteering Vecindad: Comparte ideas con vecinos
+ として - [toshite] - como, en calidad de, a modo de, en función de, en el papel de, como representante de
+ になります - [ninarimasu] - se vuelve, vuelves
+ 多分 - probablemente
+ 嬉しい - feliz
+ 居酒屋 - izakaya
+ 引き出し - cajón
+ 恥ずかしい - vergonzoso, avergonzado
+ 持ち上げます - levantar, alzar, elevar, subir
+ 毎回 - cada vez
+ 研究 - investigación
+ 空っぽ - vacío
+ 繋ぎます - conectar, unir, enlazar, atar, vincular, enchufar
+ 考え - idea
+ 自分勝手 - egoísta
+ 虫 - insecto
+ 近所の人 - vecino
+ 追加で - adicionalmente
+ 重さ - peso
+ 野菜 - verdura
+223 governmental systems Universidad: Informa sobre trámites
+ からは - [karaha] - desde, a partir de, después de
+ だいとうりょう - [daitouryou] - presidente
+ では - [deha] - Fuera de, En
+ とは - [toha] - que
+ には - [niha] - en, para, a, hacia, con respecto a
+ までは - [madeha] - hasta, hasta que, hasta el momento en que, hasta la hora en que, hasta el punto en que, hasta aquí
+ 企業 - empresa
+ 会計 - caja
+ 作物 - cultivo
+ 入れます - Meto, metes
+ 国際関係 - relaciones internacionales, estudios internacionales, carrera de relaciones internacionales
+ 女王 - reina
+ 政治家 - político
+ 本気で - seriamente
+ 毎晩 - cada noche
+ 民主主義 - democracia
+ 現実的 - realista
+ 紅茶 - té negro
+ 預かります - guardar, encargarse, custodiar, cuidar
+ 食堂 - comedor
+224 disability Preparación: Propón soluciones fáciles
+ しか - [shika] - Solo
+ とします - [toshimasu] - suponer, decidir, considerar, asumir, hacer, establecer, acordar, decidirse a
+ には - [niha] - en, para, a, hacia, con respecto a
+ はじめ - [hajime] - inicial
+ みんな - [min'na] - todos
+ 仲間 - compañero
+ 個人的に - personalmente
+ 前みたいに - como antes
+ 効率のいい - eficiente, productivo, rentable
+ 可能 - posible
+ 地震 - terremoto
+ 城 - castillo
+ 大きい声を出します - hablar en voz alta, gritar, levantar la voz, hablar fuerte, alzar la voz
+ 少しずつ - poco a poco
+ 最後 - final
+ 無理しなくていい - no te esfuerces, no te exijas, no te sobrecargues, está bien no forzar, no tienes que esforzarte, está bien no esforzarse, no hace falta que te esfuerces
+ 速く - rápidamente
+ 違法 - ilegal
+225 pet care Mascotas: Expresa tu preocupación
+ ほとんどは - [hotondoha] - la mayoría
+ エサ - [esa] - comida para animales
+ ゴミ箱 - [gomi xiāng] - cubo de basura
+ ベル - [beru] - campana
+ ペットショップ - [pettoshoppu] - tienda de mascotas
+ 一昨日 - anteayer
+ 体調 - condición física
+ 内容 - contenido
+ 可愛い - lindo
+ 幸せそうに - felizmente
+ 息 - respiración
+ 新鮮 - fresco
+ 気持ち悪い - asqueroso
+ 象 - elefante
+ 革 - cuero
+ 首輪 - collar
+226 literature Realidad: Busca el significado correcto
+ ぴったり - [pittari] - perfectamente
+ ぼうけん - [bouken] - aventura
+ みたいに - [mitaini] - como
+ ドキドキ - [dokidoki] - latido
+ メディア - [media] - medio
+ 一冊 - un libro
+ 中 - medio, dentro, adentro
+ 伝える - comunícate, informé, transmites, reporté
+ 利益 - ganancia
+ 弓 - arco
+ 怖い - miedoso, miedosa
+ 教科書 - libro de texto
+ 正確 - exacto
+ 災害 - desastre
+ 現実 - realidad
+ 辞書 - diccionario
+227 economic systems Notas: Comenta notas en grupo
+ かわりに - [kawarini] - en lugar de
+ それから - [sorekara] - luego
+ で - [de] - en, es
+ どこでも - [dokodemo] - en cualquier lugar
+ 主に - principalmente
+ 他の - otro
+ 代わりに - en lugar de
+ 単語 - palabra
+ 声 - voz
+ 授業 - clase
+ 牛 - vacas, vaca
+ 社会 - sociedad
+ 要点 - punto principal
+ 論理的 - lógico
+ 靴 - zapato
+228 sustainability Eventos: Cuenta tus gastos recientes
+ これからも - [korekaramo] - de ahora en adelante
+ そのまま - [sonomama] - tal cual
+ ほほ - [hoho] - mejilla
+ まま - [mama] - tal cual, sin cambiar, sin modificar, mientras, en estado de, dejado, permaneciendo, quedando
+ インドア派 - [indoa pài] - casero
+ 一人暮らしをします - vivir solo, vivir por cuenta propia, vivir independientemente, comenzar a vivir solo
+ 入場料 - entrada
+ 割引き - descuento
+ 暑さ - calor
+ 次からは - a partir de la próxima vez, desde la próxima vez, de ahora en adelante, desde ahora, de aquí en adelante
+ 比較的 - relativamente
+ 現金 - efectivo
+ 目の不自由 - con discapacidad visual
+ 衣装 - traje
+ 試着室 - probador
+ 軽い - leve, liviana, livianas
+ 込みます - llenarse, congestionarse, abarrotarse, estar lleno, estar atestado, llenarse de gente, estar concurrido
+ 音量 - volumen
+229 measurements Errores: Reconoce tus errores
+ それに - [soreni] - además
+ だって - [datte] - también
+ だもの - [damono] - porque
+ なめらか - [nameraka] - suave
+ の一種です - [no yī zhǒngdesu] - es un tipo de, es una clase de, es una variedad de, es una especie de, es una forma de
+ アピールします - [apīrushimasu] - apelar, atraer, destacar, promocionar, hacer un llamado, mostrar, resaltar
+ エリア - [eria] - área
+ スペース - [supēsu] - espacio
+ タイマー - [taimā] - temporizador
+ 取引 - transacción
+ 同じ - mismo, misma
+ 大きさ - tamaño
+ 失敗します - fracasar, fallar, equivocarse, errar, cometer errores
+ 得意じゃない - no ser bueno en, no ser hábil en, no ser experto en, no destacar en, no tener destreza en, no ser diestro en, no tener habilidad para
+ 折れます - romperse, quebrarse, doblarse, partirse
+ 数字 - número
+ 決まり - norma
+ 若いころ - juventud
+230 aging Situación: Habla sobre nuevos retos
+ としたら - [toshitara] - si
+ どんな - [don'na] - qué tipo de
+ のままに - [nomamani] - tal como está
+ アイコン - [aikon] - icono
+ チャレンジ - [charenji] - desafío
+ 八巻 - ocho volúmenes, ocho rollos, ocho tomos
+ 切符売り場 - taquilla
+ 印象に残る - dejar impresión, ser memorable, quedar grabado, impresionar, ser impactante, ser inolvidable
+ 収入 - ingreso
+ 増えます - aumentar, incrementar, crecer, añadir
+ 年をとります - envejecer, hacerse mayor, cumplir años, madurar
+ 意外 - inesperado
+ 柔道 - judo
+ 歴史のある - histórico
+ 残業します - hacer horas extras, trabajar horas extras, hacer horas adicionales
+ 背中 - espalda
+ 貯金 - ahorro
+ 赤ちゃんがいる - hay un bebé, tener un bebé, estar con un bebé, tener un bebé presente
+ 迷います - dudar, vacilar, perderse, confundirse, titubear
+231 clothes shopping Ropa: Reacciona a ofertas de ropa
+ なんて - [nante] - Qué
+ やめます - [yamemasu] - dejo
+ やや - [yaya] - algo
+ ゆったり - [yuttari] - holgado
+ アウトレット - [autoretto] - outlet
+ ウエスト - [uesuto] - cintura
+ カーディガン - [kādigan] - cárdigan
+ ポリエステル - [poriesuteru] - poliéster
+ 上品 - elegante
+ 下着 - ropa interior
+ 倍 - duplicaremos
+ 値下げ - rebaja
+ 白 - blanca, blancos, blanco
+ 紫 - morado
+ 茶色 - marrón
+ 防水 - impermeable
+ 黒 - negro
+232 personal experiences 2 Decisión: Comenta si ya decidiste participar
+ きっかけ - [kikkake] - motivo
+ さまざま - [samazama] - varios
+ そんな - [son'na] - eso
+ ところで - [tokorode] - por cierto
+ のせいで - [noseide] - debido a
+ やはり - [yahari] - como esperaba
+ 事情 - circunstancia
+ 人間関係 - relaciones humanas
+ 出会い - encuentro
+ 別に - particularmente
+ 大半 - la mayoría de, mayoría
+ 後悔 - arrepentiré, arrepintió, arrepentirás, arrepentí, arrepientes, arrepiento
+ 成長 - crecimiento
+ 挑戦 - desafié
+ 短所 - debilidad
+ 結局 - al final
+ 緊張 - nerviosismo
+ 自信 - confianza
+ 覚悟 - determinación
+ 記念に - como recuerdo
+ 達成感 - sensación de logro
+ 選択 - elección
+233 playing or training for a sport Entreno: Comparte tu motivación
+ すると - [suruto] - Cuando, cuando
+ つもりで - [tsumoride] - con la intención de
+ まだまだ - [madamada] - todavía no es suficiente
+ わけにはいかない - [wakenihaikanai] - no poder evitar
+ アドバイス - [adobaisu] - consejo
+ グラウンド - [guraundo] - campo
+ パス - [pasu] - pasar
+ ボール - [bōru] - pelota
+ メンタル - [mentaru] - mental
+ ユニフォーム - [yunifōmu] - uniforme
+ 作戦 - estrategia
+ 優勝 - victoria
+ 合宿 - campamento
+ 易しい - fáciles
+ 本番 - evento
+ 泊 - pernoctaré
+ 防具 - equipo de protección
+ 陸上 - atletismo
+234 school 2 Escuela: Sugiere reglas para la clase
+ かさ立て - [kasa lìte] - paragüero
+ ずつ - [zutsu] - cada
+ など - [nado] - etcétera
+ プリント - [purinto] - material impreso
+ 下駄箱 - zapatero
+ 休み時間 - recreo
+ 体育館 - gimnasio
+ 児童 - niño
+ 制服 - uniforme
+ 図書室 - biblioteca
+ 子供 - niño
+ 廊下 - pasillo
+ 感想 - opinión
+ 校庭 - patio
+ 校門 - puerta principal
+ 消しゴム - goma de borrar
+ 総合的 - integral
+ 集中力 - concentración
+235 mental health Bienestar: Cuenta cómo descansas
+ なんか - [nanka] - De alguna manera
+ 一時的に - temporalmente
+ 体操 - gimnasia
+ 健康的 - saludable
+ 冷静 - calmado
+ 国際交流 - intercambio internacional
+ 安心 - tranquilidad
+ 心理的 - psicológico
+ 感情 - emoción
+ 栄養 - nutrición
+ 瞑想 - meditación, meditar
+ 精神 - espíritu
+ 非常に - extremadamente
+ 飲み放題 - todo lo que puedas beber
+236 neighborhood Barrio: Describe tu barrio
+ し - [shi] - y, si, o
+ コインランドリー - [koinrandorī] - lavandería automática
+ ポスト - [posuto] - buzón
+ 一人暮らし - vida sola
+ 一戸建て - casa independiente
+ 交通量 - tráfico
+ 八百屋 - verdulería
+ 宅配 - entrega a domicilio
+ 弁当屋 - tienda de bentō
+ 日当たり - exposición al sol
+ 泥棒 - ladrón
+ 清潔 - limpio
+ 狭い - estrecho
+ 町内 - barrio
+ 空き地 - terreno baldío
+ 賃貸 - propiedad en alquiler
+ 資源ゴミ - residuo reciclable
+ 踏切 - paso a nivel
+ 防犯カメラ - cámara de seguridad
+237 celebration Fiesta: Cuenta lo que pasó en la fiesta
+ あんな - [an'na] - así
+ ちなみに - [chinamini] - por cierto
+ っけ - [kke] - verdad
+ シャンパン - [shanpan] - champán
+ 乾杯 - brindis
+ 優雅 - elegante
+ 勤務先 - lugar de trabajo
+ 化粧 - maquillaje
+ 司会者 - presentador
+ 忘年会 - fiesta de fin de año
+ 感謝 - Agradezco, agradecimiento
+ 挨拶 - saludo
+ 新年会 - fiesta de Año Nuevo
+ 歓迎会 - fiesta de bienvenida
+ 華やか - festivo
+ 願い - deseo
+238 politics Política: Comenta sobre políticos locales
+ しばしば - [shibashiba] - a menudo
+ ほぼ - [hobo] - casi
+ インフレ - [infure] - inflación
+ 与党 - partido gobernante
+ 候補者 - candidato
+ 内閣 - gabinete
+ 国民 - pueblo
+ 年金 - pensión
+ 投票 - vota, votar, votarán, votan, votaron, votará
+ 政治 - política
+ 景気 - economía
+ 総理大臣 - primer ministro
+ 議会 - parlamento
+ 選挙 - elección
+ 野党 - oposición
+239 time management Rutina: Cuenta tu rutina diaria
+ あのさ - [anosa] - oye
+ ありがとう - [arigatou] - gracias
+ ごめん - [gomen] - perdón
+ だった - [datta] - ser
+ ってこと - [ttekoto] - eso significa que
+ マルチタスク - [maruchitasuku] - multitarea
+ ルーティン - [rūtin] - rutina
+ ワンチャン - [wanchan] - quizás
+ 予定表 - horario
+ 代金 - precio
+ 余裕 - margen
+ 作業 - trabajo
+ 切り替え - cambio, conmutación, alternancia, sustitución, reemplazo
+ 助かる - ayuda
+ 昼寝 - siesta
+ 時期 - periodo
+ 検査 - examen
+ 熱 - fiebre
+ 締め切り - fecha límite
+ 複数 - varios
+240 recipes Recetas: Describe una receta simple
+ おたま - [otama] - cucharón
+ ごま油 - [goma yóu] - aceite de sésamo
+ さっと - [satto] - rápidamente
+ しょうが - [shouga] - jengibre
+ ひとつまみ - [hitotsumami] - una pizca
+ ほど - [hodo] - aproximadamente, alrededor de, tanto como, hasta, grado, medida, extensión, cuanto más, mientras más, cuanto menos, cuanto mejor, cuanto peor
+ みじん切り - [mijin qièri] - picado
+ みりん - [mirin] - mirin
+ アルミホイル - [arumihoiru] - papel de aluminio
+ サクサク - [sakusaku] - crujiente
+ 具材 - ingrediente
+ 出汁 - dashi
+ 大量 - cantidad
+ 弱火 - fuego bajo
+ 砂糖 - azúcar
+ 豆腐 - tofu
+ 豚肉 - carne de cerdo
+ 酸っぱい - ácida, ácido
+241 workplace communication Oficina: Describe un compañero de trabajo
+ あいまい - [aimai] - ambiguo
+ がち - [gachi] - tendente a
+ っぽい - [ppoi] - moderno
+ なるべく - [narubeku] - lo antes posible
+ 丁寧 - cortés
+ 件名 - asunto
+ 入力ミス - error de tipeo
+ 司会 - conducción
+ 形式 - formato
+ 念のため - por si acaso
+ 社内 - interno
+ 要求 - exigencias, exige
+ 規則 - regla
+ 詳細 - detalle
+ 誤解 - malinterpretando
+242 journalism Noticias: Habla sobre las noticias
+ さすがに - [sasugani] - como era de esperar
+ で - [de] - en, es
+ とおり - [toori] - calle
+ どおり - [doori] - según
+ アナウンサー - [anaunsā] - presentador
+ フェイクニュース - [feikunyūsu] - noticia falsa
+ 下書き - borrador
+ 具体的 - concreto
+ 図表 - gráfico
+ 報道 - informe
+ 批評 - crítica
+ 放送 - transmitirá
+ 放送局 - emisora
+ 明らかに - claramente
+ 独自 - único
+ 現地 - lugar
+ 編集 - edición
+ 視聴者 - espectador
+ 記者会見 - rueda de prensa
+ 説得力 - persuasión
+ 重要性 - importancia
+ 関係者 - persona involucrada
+243 video games Juego: Cuenta tus logros en el juego
+ bgm - música de fondo
+ eスポーツ - e-sports
+ こそ - [koso] - esta vez
+ アイテム - [aitemu] - objeto
+ クエスト - [kuesuto] - misión
+ コントローラー - [kontorōrā] - controlador
+ スコア - [sukoa] - puntuación
+ ランキング - [rankingu] - ranking
+ 古典的 - clásico
+ 安定した - estable
+ 宝物 - tesoro
+ 対戦 - enfrentarse
+ 強力 - poderoso
+ 有利 - ventaja
+ 決勝 - final
+ 直感的 - intuitivo
+ 難易度 - dificultad
+244 life goals Metas: Comparte tus metas
+ を通して - [wo tōngshite] - a través de
+ チャンス - [chansu] - oportunidad
+ 中心 - centro
+ 判断力 - criterio
+ 力を入れます - esforzarse, poner esfuerzo, dedicar energía, aplicar fuerza, concentrarse, dedicarse, enfocarse
+ 効果的 - efectivo
+ 同時に - al mismo tiempo
+ 実現 - realizará
+ 時間管理 - gestión del tiempo
+ 柔軟性 - flexibilidad
+ 目安 - guía
+ 短期的 - a corto plazo
+ 規模 - escala
+ 資格 - certificación
+ 達成 - Logro, lograremos, lograrlo
+ 長期的 - a largo plazo
+245 career choices Trabajo: Explica por qué elegiste tu trabajo
+ ごとに - [gotoni] - cada
+ で - [de] - en, es
+ やりがい - [yarigai] - satisfacción
+ リモートワーク - [rimōtowāku] - trabajo remoto
+ 事務 - administración
+ 働き方 - forma de trabajar
+ 公務員 - funcionario
+ 出張 - viaje de negocios
+ 創造力 - creatividad
+ 勤務時間 - horas de trabajo
+ 学歴 - formación académica
+ 専門 - especialidad
+ 時給 - salario por hora
+ 月給 - salario mensual
+ 有給休暇 - permiso pagado
+ 職業 - profesión
+ 課長 - jefe de sección
+ 責任 - responsabilidad
+ 開発 - desarrolló, desarrollado
+246 environmental protection Ambiente: Da consejos ecológicos
+ けれども - [keredomo] - pero
+ しかたない - [shikatanai] - no hay remedio, inevitable, no se puede evitar, no tiene solución, es inevitable
+ せんぷうき - [senpuuki] - ventilador
+ っぱなし - [ppanashi] - abierta
+ もしも - [moshimo] - Si
+ リサイクル - [risaikuru] - recicla, reciclemos, reciclar, reciclan, Reciclo
+ ワニ - [wani] - cocodrilo
+ 以下 - inferior a
+ 充電 - carga
+ 地球温暖化 - calentamiento global
+ 大気汚染 - contaminación del aire
+ 太陽光 - luz solar
+ 工事 - construcción
+ 悔しい - frustrante
+ 機械 - máquina
+ 漁業 - pesca
+ 火事 - incendio
+ 箸 - palillos
+ 節約 - ahorrará
+ 豪雨 - lluvia intensa
+ 電気自動車 - coche eléctrico
+247 city life 2 La ciudad: Compara medios de transporte
+ ものだ - [monoda] - es natural
+ 乗り場 - andén
+ 仏像 - estatua budista
+ 住宅街 - barrio residencial
+ 公共交通機関 - transporte público
+ 劇場 - teatro
+ 名物 - producto típico
+ 喫茶店 - cafetería
+ 夜景 - paisaje nocturno
+ 始発 - primera salida
+ 定期券 - abono
+ 小学校 - escuela primaria
+ 幼稚園 - jardín de infancia
+ 時刻表 - horario
+ 治安 - seguridad pública
+ 消防署 - estación de bomberos
+ 渋滞 - atasco
+ 百貨店 - gran almacén
+ 窓側 - lado de la ventana
+ 経由 - escala
+ 運賃 - precio del billete
+ 都心 - centro de la ciudad
+248 hiking Excursión: Habla de un contratiempo
+ だけで - [dakede] - solo con
+ どっち - [dotchi] - cuál de los dos
+ テント - [tento] - tienda de campaña
+ バーナー - [bānā] - hornillo
+ ロープ - [rōpu] - cuerda
+ 予備 - de repuesto
+ 入り - con
+ 六泊 - seis noches
+ 寝袋 - saco de dormir
+ 展望台 - plataforma de observación
+ 山頂 - cima
+ 救急箱 - botiquín
+ 日没 - atardecer
+ 熱中症 - golpe de calor
+ 赤 - rojos, roja, rojo, rojas
+ 遠回り - desvío
+249 corporate rumors Rumores: Explica qué sucedió realmente
+ あっという間 - [attoiu jiān] - abrir y cerrar de ojos
+ いただければと思います - [itadakerebato sīimasu] - me gustaría que
+ かぎりでは - [kagirideha] - según
+ それなのに - [sorenanoni] - aun así, Aun así
+ だが - [daga] - Pero
+ つい - [tsui] - inadvertidamente
+ とのことです - [tonokotodesu] - se dice que
+ と言えば - [to yáneba] - hablando de
+ どのよう - [donoyou] - qué tipo de
+ ひそひそ - [hisohiso] - en susurros
+ わざと - [wazato] - intencionadamente
+ スキャンダル - [sukyandaru] - escándalo
+ デリケート - [derikēto] - delicado
+ 先日 - reciente
+ 場合じゃない - no es momento de
+ 大げさ - exageración
+ 必ずしも - no necesariamente
+ 推測 - suposición
+ 曖昧 - ambiguo
+ 真相 - verdad
+250 university 2 Universidad: Explica tu rutina universitaria
+ ゼミ - [zemi] - seminario
+ 出席 - asistiendo, asistencia, asistan
+ 前期 - primer semestre
+ 卒業 - graduó, graduación
+ 博士 - doctor
+ 受験 - examen, prueba, evaluación
+ 合格 - apruebas, aprobaré, aprueban, aprobarás, Aprobar, aprobar, apruebo
+ 基礎的 - básico
+ 学科 - departamento
+ 学部 - facultad
+ 学食 - cafetería universitaria
+ 実習 - práctica
+ 専攻 - especializarse
+ 後輩 - junior
+ 授業料 - matrícula
+ 有益 - útil
+ 詳しい - detallada
+ 講師 - profesor
+ 進学 - ingreso a la escuela superior, continuar estudios, avanzar en la educación, matriculación en la escuela secundaria, progresar en la educación, ingresar a la facultad
+251 debate 2 Debate: Justifica tu punto de vista
+ さて - [sate] - bueno
+ 一方 - lado
+ 主張 - insistió, Insistí, Insistía, insiste, Insistimos
+ 各 - cada
+ 回答 - respuesta
+ 対立 - conflicto
+ 彼ら - ellos
+ 根拠 - fundamento
+ 正確に - con precisión
+ 結論 - conclusión
+ 肯定的 - positivo
+ 視点 - punto de vista
+ 証拠 - prueba
+ 評価 - evaluación, evaluada
+ 説得 - persuasión
+ 貧困問題 - problema de la pobreza
+252 news Información: Aclara lo que escuchaste
+ あやしい - [ayashii] - sospechoso, dudoso, extraño, misterioso, sospechable, inseguro
+ おそらく - [osoraku] - probablemente
+ どころか - [dokoroka] - lejos de
+ まるで - [marude] - como si
+ 会見 - conferencia de prensa
+ 側 - lado
+ 大規模 - a gran escala
+ 真実 - verdad
+ 解説 - explicación
+ 読者 - lector
+ 速報 - informe de última hora
+ 重大 - grave
+ 銅メダル - medalla de bronce
+ 非公式 - no oficial
+253 board games Juegos: Habla de tus juegos favoritos
+ じっくり - [jikkuri] - cuidadosamente
+ と言っても - [to yánttemo] - aunque digo que
+ コマ - [koma] - ficha
+ サイコロ - [saikoro] - dado
+ シャッフル - [shaffuru] - barajar
+ ターン - [tān] - turno
+ 人数 - número de personas
+ 勝利 - victoria
+ 単純 - simple
+ 大胆 - audaz
+ 失格 - descalificación
+ 実力 - habilidad
+ 引き分け - empate
+ 有効 - eficaz
+ 確実 - seguro
+ 逆転 - reversión, revertir
+ 違反 - infracción
+254 study abroad Estudios: Describe tus planes de estudio
+ しかも - [shikamo] - además
+ にちがいない - [nichigainai] - seguro que es
+ やっぱり - [yappari] - después de todo
+ 一層 - aún más
+ 中間試験 - examen parcial
+ 以内に - dentro de
+ 作文 - ensayo
+ 健康保険 - seguro de salud
+ 入学 - ingreso
+ 単位 - crédito
+ 寮 - residencia, dormitorios
+ 手数料 - comisión
+ 生活費 - gasto de vida
+ 聞き取り - comprensión auditiva
+ 適度 - moderado
+ 郵便 - correo
+255 holidays Viaje: Describe tu alojamiento favorito
+ オフシーズン - [ofushīzun] - temporada baja
+ ダイビング - [daibingu] - buceo
+ 一軒屋 - casa independiente
+ 事前に - con anticipación
+ 入国 - entrada al país
+ 和室 - habitación japonesa
+ 寸前 - justo antes
+ 帰省 - regreso a casa
+ 年末年始 - fin de año y año nuevo
+ 往復 - ida y vuelta
+ 新幹線 - tren bala
+ 旅行保険 - seguro de viaje
+ 満室 - completo
+ 登山 - montañismo
+256 entrepreneurship Empresa: Responde consultas de clientes
+ お問い合わせ - [o wèni héwase] - consulta
+ が - [ga] - pero, vas, que, ha
+ に関して - [ni guānshite] - con respecto a
+ または - [mataha] - o
+ ニーズ - [nīzu] - necesidad
+ フォローします - [forōshimasu] - sigo
+ 営業 - negocio
+ 売上 - ventas
+ 戦略 - estrategia
+ 改善 - mejorará
+ 札幌 - Sapporo
+ 着実に - de manera constante
+ 給与 - salarios
+ 継続的に - continuamente
+ 苦情 - queja
+ 資産 - activo
+ 配送 - entrega
+257 baby Bebés: Habla sobre clases para bebés
+ おしゃぶり - [oshaburi] - chupete
+ おむつ - [omutsu] - pañal
+ ばかり - [bakari] - acabas de, acabamos de, acaban de, acaba de
+ ベビーベッド - [bebībeddo] - cuna
+ ワクチン - [wakuchin] - vacuna
+ 体温計 - termómetro
+ 出産 - parto
+ 妊娠の方 - persona embarazada
+ 姉妹 - hermana
+ 母乳 - leche materna
+ 浴室 - baño
+ 熟成 - maduración
+ 粉ミルク - leche en polvo
+ 胃 - estómago
+ 身長 - estatura
+ 鍋 - olla
+ 風邪 - resfriado
+ 鼻水 - moco
+258 art Arte: Describe una exposición de arte
+ かけ - [kake] - cierran
+ キャンバス - [kyanbasu] - lienzo
+ コントラスト - [kontorasuto] - contraste
+ 傑作 - obra maestra
+ 制作 - producción
+ 展覧会 - exposición
+ 建築 - arquitectura
+ 意図 - intención
+ 暗闇 - oscuridad
+ 滑らか - suave
+ 灰色 - gris
+ 炭 - carbón
+ 筆 - pincel
+ 粘土 - arcilla
+ 素材 - material
+ 絵画 - pintura
+ 自画像 - autorretrato
+ 芸術家 - artista
+ 鮮やか - vivo
+259 attending a sporting event El partido: Cuenta cómo llegas al partido
+ お尻 - [o kāo] - nalga
+ だらけ - [darake] - lleno
+ ハーフタイム - [hāfutaimu] - descanso
+ 丼物 - donburi
+ 天井 - techo
+ 序盤 - primera fase
+ 延長戦 - prórroga
+ 待ち合わせ - cita
+ 応援 - apóyalo, apoyas
+ 新刊 - nueva publicación
+ 旗 - bandera
+ 監督 - director
+ 相手 - equipo contrario
+ 自由席 - asiento libre
+ 賑やか - animado
+ 非常口 - salida de emergencia
+260 negotiation and persuasion 2 Opinión: Expresa tu opinión
+ そちら - [sochira] - ustedes
+ まもなく - [mamonaku] - pronto
+ 不充分 - insuficiente
+ 価値 - valor
+ 保証 - garantía
+ 反論 - refutar
+ 客観的 - objetivo
+ 明確 - claro
+ 明確に - claramente
+ 率直に - francamente
+ 確認 - confirma, confirmar, confirmáis, confirmé, confirmará, confirmas, Confirmaré, confirmaré, confirmando
+ 立場 - posición
+ 需要 - demanda
+261 scientific discoveries/advancements Ciencia: Explica un experimento
+ これら - [korera] - estos
+ それら - [sorera] - esos
+ エネルギー - [enerugī] - energía
+ 信頼できる - confiable
+ 先進的 - avanzado
+ 副作用 - efecto secundario
+ 反応 - reacción
+ 基準 - criterio
+ 変化 - cambio, cambios
+ 安全性 - seguridad
+ 性質 - naturaleza
+ 数値 - valor numérico
+ 構造 - estructura
+ 詳細な - detallado
+ 資金 - fondo
+ 進歩 - progreso
+262 advertising Publicidad: Comparte ideas para un anuncio
+ イメージ - [imēji] - imagen
+ オファー - [ofā] - oferta
+ キャッチコピー - [kyatchikopī] - eslogan
+ サンプル - [sanpuru] - muestra
+ デメリット - [demeritto] - inconveniente
+ バナー - [banā] - banner
+ 予測 - predicción
+ 予算 - presupuesto
+ 企画 - plan
+ 信用 - confiaba
+ 口コミ - boca en boca
+ 成果 - resultado
+ 方針 - política
+ 比較 - comparación
+ 準備中 - en preparación
+ 関心 - interés
+ 魅力 - encanto
+263 medicine Clínica: Describe un accidente
+ お見舞い - [o jiàn wǔi] - visita a un enfermo
+ かけます - [kakemasu] - cuelgo, Cuelgo
+ めまい - [memai] - mareo
+ 下痢 - diarrea
+ 保険証 - tarjeta de seguro
+ 内科 - medicina interna
+ 同意 - acuerdo
+ 吐き気 - náusea
+ 呼吸 - respiración
+ 咳 - tos
+ 定期的 - regular
+ 心臓 - corazón
+ 忘れ物 - objeto perdido
+ 救急 - emergencia, emergencias
+ 松葉杖 - muleta
+ 痒み - picor
+ 痛み - dolor
+ 肺炎 - neumonía
+ 血液 - sangre
+ 診察 - examina
+ 車椅子 - silla de ruedas
+ 骨折 - fracturarme, fracturó, fracturado, Fracturarse
+264 voting Voto: Justifica tu elección
+ あるいは - [aruiha] - o
+ いずれ - [izure] - algún día
+ ただし - [tadashi] - Sin embargo
+ のもとで - [nomotode] - bajo, bajo la tutela de, bajo la supervisión de, bajo la dirección de, bajo el amparo de, bajo la guía
+ 不利 - desventaja
+ 主要 - principal
+ 判断 - decisiones
+ 反対 - oposición
+ 地方 - región
+ 建設的 - constructivo
+ 当選 - ganado
+ 慎重に - cuidadosamente
+ 投票所 - centro de votación
+ 投票率 - tasa de participación
+ 民主的 - democrático
+ 決定 - decisión
+ 票 - voto
+ 自治体 - entidad gubernamental
+ 証明 - prueba
+ 過半数 - mayoría
+265 historic figures Mitos: Describe una leyenda
+ にしては - [nishiteha] - para ser
+ 伝説的 - legendario
+ 偉大 - grandioso
+ 共和国 - república
+ 刃物 - herramienta cortante
+ 勇敢 - valiente
+ 哲学 - filosofía
+ 大使 - embajador
+ 学者 - erudito
+ 忠実 - leal
+ 時代 - periodo
+ 最終的に - finalmente
+ 皇帝 - emperador
+ 神話 - mito
+ 進歩的 - progresista
+ 遺産 - patrimonio
+ 野心的 - ambicioso
+ 鉱物 - mineral
+266 cooking 3 Cocina: Habla de fechas de caducidad
+ かぼちゃ - [kabocha] - calabaza
+ たて - [tate] - vertical, altura, longitud, dirección vertical, orientación vertical, recién exprimido
+ にんにく - [nin'niku] - ajo
+ ねぎ - [negi] - cebolleta
+ ほうれん草 - [houren cǎo] - espinaca
+ わさび - [wasabi] - wasabi
+ コンロ - [konro] - cocina
+ 冷凍庫 - congelador
+ 味噌 - miso
+ 消費期限 - fecha de caducidad
+ 炊飯器 - olla arrocera
+ 胡椒 - pimienta
+ 酢 - vinagre
+ 醤油 - salsa de soja
+ 鶏肉 - carne de pollo
+ 麺 - fideo
+267 exercise routines 2 Ejercicio: Cuenta tu rutina de ejercicio
+ さ - [sa] - pues
+ たっぷり - [tappuri] - abundantemente
+ め - [me] - ojo
+ サイクリング - [saikuringu] - ciclismo
+ 休憩 - descanso
+ 回数 - veces
+ 無理に - a la fuerza
+ 程度 - grado
+ 筋力 - fuerza muscular
+ 縄跳び - salto de cuerda
+ 老後 - vejez
+ 肘 - codo
+268 restaurant 2 Restaurante: Reserva una mesa
+ きります - [kirimasu] - cortas
+ しっとり - [shittori] - jugoso
+ キャンセル料 - [kyanseru liào] - tarifa de cancelación
+ グルテンフリー - [gurutenfurī] - sin gluten
+ ジューシー - [jūshī] - jugoso
+ ラストオーダー - [rasutoōdā] - última orden
+ 予約制 - sistema de reserva
+ 何名様 - cuántas personas
+ 個室 - sala privada
+ 割り勘 - pago a escote
+ 品切れ - agotado
+ 大盛り - ración grande
+ 小麦 - trigo
+ 抜きで - sin
+ 満席 - completo
+ 空席 - asiento disponible
+ 辛口 - picante
+ 食感 - textura
+ 鮭 - salmón
+269 conflict resolution Reunión: Responde a opiniones de colegas
+ あいにく - [ainiku] - lamentablemente
+ に対して - [ni duìshite] - hacia
+ に対する - [ni duìsuru] - hacia
+ もしよろしければ - [moshiyoroshikereba] - Si le parece bien
+ 事実 - hecho
+ 共感 - empatizo
+ 委員会 - comité
+ 尊重 - respetar
+ 感情的 - emocional
+ 文脈 - contexto
+ 望ましい - deseable, deseados
+ 期待 - expectativas
+ 観点 - punto de vista
+270 social media 2 Redes: Comenta publicaciones virales
+ よかったら - [yokattara] - si quieres
+ コミュニティー - [komyunitī] - comunidad
+ スパム - [supamu] - spam
+ セキュリティー - [sekyuritī] - seguridad
+ タグ - [tagu] - etiqueta
+ パクリ - [pakuri] - plagio
+ フォロー - [forō] - sigo
+ ブラウザー - [burauzā] - navegador
+ プロフィール - [purofīru] - perfil
+ 一瞬 - un instante
+ 欧米 - Occidente
+ 炎上 - escándalo
+ 画像 - imagen
+ 視聴回数 - número de visualizaciones
+271 ethical shopping Productos: Compara distintos productos
+ からといって - [karatoitte] - no significa que
+ どのくらい - [donokurai] - cuánto
+ レジ袋 - [reji dài] - bolsa de plástico
+ 使い捨て - desechable
+ 保証期間 - período de garantía
+ 修理 - Reparar, reparar, reparación, reparando
+ 偽物 - falsos
+ 労働者 - trabajador
+ 匂い - olor
+ 原材料 - materia prima, material básico, insumo, ingrediente
+ 手頃 - asequible
+ 期間限定 - edición limitada
+ 産地 - lugar de producción
+ 皮 - cuero
+ 評判 - reputación
+ 詰め替え - recarga
+ 鞄 - bolsa
+ 食中毒 - intoxicación alimentaria
+272 post office Envíos: Pregunta sobre tarifas de envío
+ お釣り - [o diàori] - cambio
+ はかり - [hakari] - balanza
+ 再配達 - reentrega
+ 包装 - embalaje
+ 受け取り - recibirán
+ 国際郵便 - correo internacional
+ 姓名 - nombre completo
+ 宅配便 - servicio de mensajería
+ 封筒 - sobre
+ 段ボール - caja de cartón, cajas de cartón, cartón
+ 液体 - líquido
+ 直径 - diámetro
+ 着払い - pago contra reembolso
+ 貴重品 - objeto de valor
+ 追跡番号 - número de seguimiento
+ 郵便番号 - código postal
+ 配達 - entrega, entregas
+ 配達員 - repartidor
+ 重量 - peso
+273 pop culture Artistas: Describe a tu artista favorito
+ っていうか - [tteiuka] - o más bien
+ アイドル - [aidoru] - ídolo
+ インフルエンサー - [infuruensā] - influencer
+ クリエイター - [kurieitā] - creador
+ コスプレ - [kosupure] - cosplay
+ コンテンツ - [kontentsu] - contenido
+ ライブ - [raibu] - concierto en vivo
+ 世代 - generación
+ 再生回数 - número de reproducciones
+ 吸血鬼 - vampiro
+ 歌詞 - letra
+ 殺す - matar
+ 演奏 - interpretar
+ 漫画 - manga
+ 独特 - único
+ 脚本 - guion
+ 限定 - edición limitada
+ 馬 - caballo
+ 魅力的 - atractivo
+274 cross-cultural communication Relaciones: Aclara detalles de la reunión
+ ことわざ - [kotowaza] - proverbio
+ どちら - [dochira] - cuál de los dos
+ 上下関係 - jerarquía
+ 保守的 - conservador
+ 口調 - tono
+ 咳払い - aclaramiento de garganta
+ 失礼 - grosero
+ 姿勢 - postura
+ 握手 - apretón de manos
+ 本音 - sentimiento verdadero
+ 株 - acción
+ 異文化 - cultura diferente
+ 自己紹介 - presentación personal
+ 表情 - expresión facial
+ 遠慮 - reserva
+275 divorce Familia: Explica cambios en tu familia
+ だろう - [darou] - probablemente
+ まとめます - [matomemasu] - resumimos, resumiré
+ カウンセリング - [kaunseringu] - consejería
+ 一方的に - unilateralmente
+ 保育園 - guardería
+ 再婚 - segundo matrimonio
+ 冷静に - con calma
+ 別居 - separación
+ 支援センター - centro de apoyo
+ 故郷 - ciudad natal
+ 浮気 - engaño
+ 相性 - compatibilidad
+ 財産 - propiedad
+ 転校 - transferirse, transferencia de escuela
+ 遠距離 - larga distancia
+276 literature 2 Novela: Recomienda una novela
+ よう - [you] - como
+ ように - [youni] - como si
+ クライマックス - [kuraimakkusu] - clímax
+ ベストセラー - [besutoserā] - best seller
+ 一人称 - primera persona
+ 主人公 - protagonista
+ 印刷 - impresión, imprimo, imprimir
+ 台詞 - diálogo
+ 未来 - futuro
+ 深い - profundo, profundos
+ 版 - edición
+ 物語 - historia
+ 現代的 - moderno
+ 簡潔 - conciso
+ 脇役 - papel secundario
+ 表紙 - portada
+ 読書 - lectura
+ 雰囲気 - atmósfera
+277 organizing an event Evento: Sugiere un plan para el evento
+ テーブル席 - [tēburu xí] - asiento de mesa
+ ビジネスカジュアル - [bijinesukajuaru] - business casual
+ 仮に - en caso de que
+ 叔父 - tío
+ 号室 - habitación número
+ 大阪 - Osaka
+ 屋敷 - mansión
+ 来週末 - el próximo fin de semana
+ 桜 - cerezos, sakura
+ 翌日 - siguiente día
+ 騒がしい - ruidoso, ruidosa, agitada
+278 artificial intelligence Seguridad: Menciona riesgos potenciales
+ セキュリティ - [sekyuriti] - seguridad
+ センサー - [sensā] - sensor
+ 個人情報 - información personal
+ 即座に - inmediatamente
+ 多少 - algo
+ 学習 - aprendizaje
+ 実験 - experimento, experimentos
+ 影響 - impacto, Impacto
+ 志望者 - candidato
+ 検索 - búsqueda
+279 living abroad Mudanza: Explica cómo te adaptaste
+ たとえ - [tatoe] - incluso si
+ というより - [toiuyori] - más que
+ 不動産 - bienes raíces
+ 乾燥機 - secadora
+ 交流 - interacción
+ 仕送り - remesa
+ 免許 - licencia
+ 契約社員 - empleado contratado
+ 就職 - empleo
+ 手取り - ingreso neto
+ 提出 - entregar, entrego
+ 方言 - dialecto
+ 正社員 - empleado fijo
+ 残業 - horas extras, trabajo extra, horas adicionales, trabajo fuera de horario
+ 申し出 - solicitud
+ 間取り - distribución
+ 電柱 - poste eléctrico
+280 sustainability 2 Naturaleza: Explica cómo ahorrar energía
+ かぎり - [kagiri] - mientras
+ 交通手段 - medio de transporte
+ 参加費 - cuota de participación
+ 寄付 - donación, contribución, aporte, donativo
+ 徹底的に - a fondo
+ 混雑 - congestión
+ 熊 - oso
+ 竹林 - bambusal
+ 貴重 - valioso
+ 野生動物 - fauna silvestre
+281 disabilities Acceso: Explica el uso de audífonos
+ スロープ - [surōpu] - rampa
+ バリアフリー - [bariafurī] - accesible
+ 充分に - suficientemente
+ 効果的に - efectivamente
+ 取り組み - esfuerzo
+ 合法的 - legal
+ 多様 - diverso
+ 多目的トイレ - baño multiusos
+ 字幕 - subtítulo
+ 平等 - igualdad
+ 必要性 - necesidad
+ 手すり - barandilla
+ 手話 - lengua de señas
+ 斜め - inclinado
+ 盲導犬 - perro guía
+ 相談 - Consultará, consulté, Consultar, Consultaré, consultaría, consulto, consultar, consulte
+ 自立 - independencia, autosuficiencia, autonomía, responsabilidad
+ 補聴器 - audífono
+ 音声ガイド - guía de audio
+282 driving Autopista: Comenta sonidos del motor
+ ウィンカー - [u~inkā] - intermitente
+ エンジン - [enjin] - motor
+ ガソリンスタンド - [gasorinsutando] - gasolinera
+ クラクション - [kurakushon] - claxon
+ サービスエリア - [sābisueria] - área de servicio
+ ブレーキ - [burēki] - freno
+ ペダル - [pedaru] - pedal
+ ルームミラー - [rūmumirā] - espejo retrovisor
+ 一方通行 - sentido único
+ 上り坂 - cuesta
+ 上旬 - principio de mes
+ 免許証 - licencia de conducir
+ 死角 - punto ciego
+ 満タン - lleno
+ 燃費 - consumo de combustible
+ 速度制限 - límite de velocidad
+ 進路変更 - cambio de carril
+283 empathy Sentimientos: Habla de gustos similares
+ お互いに - [o hùini] - mutuamente
+ きちんと - [kichinto] - adecuadamente
+ にとって - [nitotte] - para
+ 不満 - insatisfacción
+ 人柄 - personalidad
+ 伯母 - tía
+ 兎 - conejo
+ 共通点 - punto en común
+ 孤独 - soledad
+ 微妙 - sutil
+ 意識的に - conscientemente
+ 正直 - honesto
+ 無意識に - inconscientemente
+ 眼鏡 - gafas
+ 納得 - convencerte, convenceré, convencí, convence
+ 自然に - naturalmente
+ 自覚 - consciente
+284 money management Finanzas: Habla de metas financieras
+ には - [niha] - en, para, a, hacia, con respecto a
+ キャッシュレス - [kyasshuresu] - sin efectivo
+ 中期 - medio plazo
+ 交通費 - gasto de transporte
+ 借金 - deuda
+ 全て - todo
+ 前払い - pago por adelantado
+ 医療費 - gasto médico
+ 合計 - total
+ 平均 - promedio
+ 教育費 - gasto de educación
+ 消費税 - impuesto al consumo
+ 無駄遣い - gastar dinero inútilmente
+ 生活水準 - nivel de vida
+ 短期 - corto plazo
+ 範囲 - alcance
+ 経済的 - económico
+ 返金 - reembolso
+ 通信費 - gasto de comunicación
+285 risks Desastres: Describe un desastre
+ 山火事 - incendio forestal
+ 故障 - avería
+ 温暖化 - calentamiento global
+ 潮 - marea
+ 猿 - mono
+ 確率 - probabilidad
+ 糸 - hilo
+ 羊 - oveja
+ 通報 - informa, informar, informe
+ 避難 - evacuación
+ 鋼鉄 - acero
+ 雷 - trueno
+ 震度 - intensidad sísmica
+286 language learning Idiomas: Habla sobre aprender idiomas
+ なまり - [namari] - acento
+ ひらがな - [hiragana] - hiragana
+ わりに - [warini] - para ser
+ カタカナ - [katakana] - katakana
+ ネイティブ - [neitibu] - nativo
+ バイリンガル - [bairingaru] - bilingüe
+ 不自然 - antinatural
+ 仕組み - estructura
+ 例文 - ejemplo
+ 基礎 - base
+ 大まか - general
+ 文字 - carácter
+ 母語 - lengua materna
+ 流暢 - fluido
+ 直感 - intuición
+ 縦書き - escritura vertical
+ 言語交換 - intercambio de idiomas
+ 記憶 - memoria
+287 gender orientation Diversidad: Habla sobre la diversidad
+ ゲイ - [gei] - gay
+ ジェンダー - [jendā] - género
+ トランスジェンダー - [toransujendā] - transgénero
+ バイセクシュアル - [baisekushuaru] - bisexual
+ レズビアン - [rezubian] - lesbiana
+ 不利益 - desventajoso
+ 不平等 - desigualdad
+ 人種 - raza
+ 保障 - garantía
+ 偏見 - prejuicio
+ 共有 - compartiendo
+ 否定 - negativa
+ 多様性 - diversidad
+ 差別 - discriminación
+ 抵抗 - resistencia
+ 支援 - apoyando, refuerzo
+ 日常生活 - vida cotidiana
+ 活動 - actividad
+ 社会問題 - problema social
+ 配慮 - cuenta, consideración
+288 global trade Negocios: Describe mercados globales
+ しかし - [shikashi] - Sin embargo
+ に限らず - [ni xiànrazu] - no solo a
+ 不景気 - recesión
+ 交渉 - negociaron
+ 価格 - precio
+ 保険 - seguro
+ 倉庫 - almacén
+ 効率的に - eficientemente
+ 国際的 - internacional
+ 実行 - ejecutar
+ 市場 - mercado
+ 支払い - pago
+ 柔軟 - flexible
+ 税関 - aduana
+ 積極的に - activamente
+ 競争 - competencia
+ 見積もり - presupuesto
+ 輸出 - exporta
+289 rural life 2 Campo: Describe la vida en el campo
+ お爺さん - [o yésan] - abuelo
+ インフラ - [infura] - infraestructura
+ トラクター - [torakutā] - tractor
+ 下水道 - alcantarillado
+ 低価格 - bajo precio
+ 基本的に - básicamente
+ 役場 - ayuntamiento
+ 暮らし - modo de vida
+ 現金のみ - solo efectivo
+ 空き家 - casa vacía
+ 絶景 - vista impresionante
+ 肥料 - fertilizante
+ 蚊 - mosquito
+ 軽トラック - camioneta ligera
+ 農村 - área rural
+ 農薬 - pesticida
+ 近道 - atajo
+ 運転免許 - licencia de conducir
+ 鹿 - ciervo
+290 the hard sciences Naturaleza: Compara hábitats naturales
+ dna - ADN
+ そのため - [sonotame] - por eso
+ の - [no] - de, cuyo, cuya, cuyos, del, cuyas
+ 一般的に - generalmente
+ 位置 - posición
+ 光年 - años luz
+ 分析 - analizar, Analizo, Analicemos, Analizar, analizáramos, analizamos, Analizamos
+ 化石 - fósil
+ 圧力 - presión
+ 次元 - dimensión
+ 温度計 - termómetro
+ 火山 - volcán
+ 生息 - habitan
+ 神経 - nervio
+ 空間 - espacio
+ 羽根 - ala
+ 衛星 - satélite
+ 貝類 - molusco
+ 速度 - velocidad
+ 適応 - adaptación, ajuste, adecuación
+ 重力 - gravedad
+291 music 2 Música: Describe una canción memorable
+ もしくは - [moshikuha] - o, u, o bien, o acaso, o si no, ya sea
+ サンバ - [sanba] - samba
+ ジャンル - [janru] - género
+ テンポ - [tenpo] - tempo
+ デュエット - [de~yuetto] - dueto
+ ヒップホップ - [hippuhoppu] - hip-hop
+ ブルース - [burūsu] - blues
+ ボーカル - [bōkaru] - vocal
+ レゲエ - [regee] - reggae
+ 印象的 - impresionante
+ 合唱 - coro
+ 楽器 - instrumento
+ 流行 - moda
+ 脳内 - dentro del cerebro
+292 customer service 2 Atención: Advierte sobre riesgos
+ サポート - [sapōto] - apoyo
+ 一粒 - grano
+ 丁寧に - cuidadosamente
+ 依頼 - solicitud
+ 係員 - empleado
+ 営業時間 - horario de atención
+ 変更 - cambio
+ 定休日 - día de cierre
+ 対処 - manejo
+ 対策 - medida
+ 店舗 - tienda
+ 指示 - instrucciones, directiva
+ 敬語 - lenguaje respetuoso
+ 案内 - información
+ 機能 - función
+ 次第 - depende
+ 特典 - beneficio
+ 発送 - enviados
+ 矢印 - flecha
+ 確実に - con seguridad
+ 送料 - gasto de envío
+293 friendship Amistad: Describe a tus amigos
+ いざとなると - [izatonaruto] - cuando llega el momento
+ わりと - [warito] - relativamente
+ 些細 - insignificante
+ 内向的 - introvertido
+ 初対面 - primer encuentro
+ 嫉妬 - celos
+ 意識 - conciencia
+ 社交的 - sociable
+ 第一印象 - primera impresión
+ 表現 - expresan, expresión
+ 遠慮なく - sin reservas
+ 開放的 - abierto
+ 頑固 - terco
+294 globalization Sociedad: Habla sobre consumidores
+ 一方で - por otro lado
+ 人材 - talento, recurso humano, personal, profesional, capital humano
+ 労働力 - fuerza laboral
+ 効率 - eficiencia
+ 報告 - informe
+ 失業 - desempleo
+ 投資 - inversión
+ 気候変動 - cambio climático
+ 消費者 - consumidor
+ 生産 - producción
+ 発展 - desarrollo
+ 競争力 - competitividad
+ 翻訳 - traducción
+ 賃金 - salario
+ 通信 - comunicación
+295 outer space Planetas: Describe un planeta
+ あらゆる - [arayuru] - todo
+ クレーター - [kurētā] - cráter
+ 不可能 - imposible
+ 太陽系 - sistema solar
+ 宇宙ステーション - estación espacial
+ 宇宙船 - nave espacial
+ 宇宙飛行士 - astronauta
+ 巨大 - gigante
+ 惑星 - planeta
+ 撮影 - recibir
+ 映像 - imagen
+ 望遠鏡 - telescopio
+ 画質 - calidad de imagen
+ 的確 - preciso
+ 訓練 - Entrena, entrenamiento, entrenemos, entrenando, entrenar, Entrenar
+ 豊富 - abundante
+ 金星 - Venus, planeta, victoria, triunfo
+296 nature Clima: Describe el clima hoy
+ 噴火 - erupción
+ 地滑り - deslizamiento de tierra
+ 岩 - roca
+ 日光 - luz solar
+ 昆虫 - insecto
+ 温室効果 - efecto invernadero
+ 湿度 - humedad
+ 滝 - cascada
+ 激しい - agitada, intenso, tormentoso
+ 炎上 - incendio
+ 砂浜 - playa de arena
+ 穏やか - tranquilo
+ 群れ - manada
+ 花粉 - polen
+ 草原 - pradera
+ 葉 - hoja
+ 豊か - rico
+ 野生の - silvestre
+ 雲 - nube
+297 crime Ley: Describe sistemas de vigilancia
+ おわび - [owabi] - disculpa
+ アリバイ - [aribai] - coartada
+ インタビュー - [intabyū] - entrevista
+ リフォーム - [rifōmu] - reforma
+ 下町 - barrio antiguo
+ 公開 - publicaste, publicó, publicar, publiqué
+ 合法 - legal
+ 命令 - orden
+ 意義 - significado, sentido, importancia, valor, propósito, trascendencia, relevancia
+ 指紋 - huella dactilar
+ 最寄り駅 - estación más cercana
+ 監視カメラ - cámara de vigilancia
+ 目撃者 - testigo
+ 落とし物 - objeto perdido
+ 裁判 - juicio
+ 裁判官 - juez
+ 銃 - arma
+ 長所 - virtud
+ 防犯 - seguridad
+298 secondary school Clases: Sugiere métodos de estudio
+ べき - [beki] - debe
+ めったに - [mettani] - rara vez
+ 修学旅行 - viaje escolar
+ 優秀 - excelente
+ 公立 - pública
+ 国語 - lengua japonesa
+ 当番 - encargado
+ 役員 - miembro del comité
+ 早退 - salida anticipada, salida temprano, irse antes
+ 時間割 - horario
+ 理科 - ciencia
+ 生徒会 - consejo estudiantil
+ 留年 - repetir curso
+ 私立 - privado
+ 職員室 - sala de profesores
+ 補習 - clase de refuerzo
+ 課外活動 - actividad extracurricular
+ 黒板 - pizarra
+299 accidents Accidentes: Describe un accidente
+ たいした - [taishita] - importante
+ アクセル - [akuseru] - acelerador
+ エアバッグ - [eabaggu] - airbag
+ ガス漏れ - [gasu lòure] - fuga de gas
+ シートベルト - [shītoberuto] - cinturón de seguridad
+ タイヤ - [taiya] - neumático
+ ハンドル - [handoru] - volante
+ 一時停止 - parada temporal
+ 交通事故 - accidente de tráfico
+ 保険会社 - compañía de seguros
+ 公共交通 - transporte público
+ 土砂崩れ - deslizamiento de tierra
+ 意図的に - intencionalmente
+ 接触 - contacto, colisión
+ 標識 - señal
+ 自己評価 - autoevaluación
+ 落石 - caída de roca
+ 軽傷 - herida leve
+ 通話 - llamada
+ 酷い - horrible
+300 disaster preparedness Campamento: Elige artículos resistentes
+ あらかじめ - [arakajime] - de antemano
+ グリル - [guriru] - parrilla
+ スコップ - [sukoppu] - pala
+ トング - [tongu] - pinza
+ ノコギリ - [nokogiri] - sierra
+ モバイルバッテリー - [mobairubatterī] - batería portátil
+ ランタン - [rantan] - linterna
+ 包丁 - cuchillo
+ 包帯 - vendaje
+ 懐中電灯 - linterna
+ 消毒 - desinfección, desinfectar, antisepsia, esterilización
+ 焚き火 - fogata
+ 網 - red
+ 調味料 - condimento
+ 軽量 - ligero
+ 頑丈 - resistente
+ 食材 - ingrediente
+ 飲料水 - agua potable
+301 romance Romance: Describe una cita romántica
+ そっと - [sotto] - suavemente
+ もしかして - [moshikashite] - quizás
+ プロポーズ - [puropōzu] - propuso
+ ロマンチック - [romanchikku] - romántico
+ 仲直り - reconciliación
+ 外見 - aspecto
+ 婚約 - compromiso
+ 安心感 - sensación de tranquilidad
+ 寛容 - tolerante
+ 尊敬 - respeto
+ 恋人 - novio
+ 情熱的 - apasionado
+ 愛 - amor
+ 揉め事 - conflicto
+ 散歩 - pasear
+ 理想 - ideal
+ 秘密 - secreto
+ 背徳感 - culpa
+ 花束 - ramo de flores
+302 community service Comunidad: Presenta a los representantes
+ もちろん - [mochiron] - por supuesto
+ チラシ - [chirashi] - folleto
+ 代表 - representante
+ 会費 - cuota de membresía
+ 住民 - residente
+ 公民館 - centro comunitario
+ 分 - quince, minutos
+ 募金 - recaudación de fondos
+ 底 - fondo
+ 当日 - mismo día
+ 歩道 - acera
+ 県庁 - gobierno prefectural, oficina prefectural, administración prefectural, edificio gubernamental, sede de la prefectura
+ 窓口 - mostrador
+ 管理人 - conserje
+ 餅 - mochi
+ 高齢者 - persona mayor
+303 bank 2 Banco: Completa un formulario bancario
+ デビットカード - [debittokādo] - tarjeta de débito
+ 両替 - cambio de divisas
+ 休業日 - día de cierre
+ 利子 - interés
+ 小切手 - cheque
+ 担当者 - responsable
+ 支店 - sucursal
+ 教育ローン - préstamo educativo
+ 暗証番号 - número secreto
+ 有効期限 - fecha de validez
+ 残高 - saldo
+ 硬貨 - moneda
+ 記入 - llenando, llenas, llenar
+ 身分証明書 - documento de identidad
+ 通帳 - libreta de ahorros
+ 金額 - cantidad
+304 digital communication Aplicaciones: Reporta cuentas de spam
+ の際 - [no jì] - en el momento de
+ スタンプ - [sutanpu] - sello, estampilla, matasellos, tampón, pegatina, sticker
+ ビデオ会議 - [bideo huì yì] - videoconferencia
+ ミュート - [myūto] - silenciar
+ リマインダー - [rimaindā] - recordatorio
+ 会員 - miembro
+ 履歴 - historial
+ 日付 - fecha
+ 更新 - actualizamos
+ 迷惑メール - correo no deseado
+ 迷惑行為 - acción molesta
+ 通知 - notificación
+305 history Historia: Cuenta una leyenda
+ 世界遺産 - patrimonio mundial
+ 世紀 - siglo
+ 伝記 - biografía
+ 伝説 - leyenda
+ 信仰 - fe
+ 国境 - frontera
+ 天皇 - emperador
+ 憲法 - constitución
+ 政権 - régimen
+ 文明 - civilización
+ 歴史的 - histórico
+ 江戸時代 - período Edo
+ 王国 - reino
+ 現代 - actualidad
+ 職人 - artesano
+ 象徴 - símbolo
+ 遺跡 - ruinas
+306 immigration Visados: Comenta tus problemas de visado
+ その結果 - [sono jié guǒ] - como resultado
+ ところが - [tokoroga] - sin embargo
+ 不安定 - inestable
+ 住宅 - vivienda
+ 保育 - cuidado infantil
+ 保護 - protegiendo, protege, protección
+ 傾向 - tendencia
+ 労働時間 - horas de trabajo
+ 同居 - convivencia
+ 国籍 - nacionalidad
+ 在留カード - tarjeta de residencia
+ 奨学金 - beca
+ 学生ビザ - visa de estudiante
+ 学費 - matrícula
+ 希望者 - candidato
+ 帰国 - regreso
+ 弁護士 - abogado
+ 政策 - política
+ 滞在 - estancia
+ 移民 - inmigrante
+307 technology Tecnología: Explica un problema técnico
+ お気に入り - [o qìni rùri] - favorito
+ で大丈夫 - [de dà zhàng fū] - está bien con
+ まで - [made] - hasta
+ セール品 - [sēru pǐn] - artículo en oferta
+ ディスプレイ - [disupurei] - monitor
+ 不具合 - fallo
+ 充電器 - cargador
+ 別料金 - cargo adicional
+ 変換プラグ - adaptador
+ 定番 - clásico
+ 対象外 - excluido
+ 順調 - bien
+308 activism Grupos: Apoya una causa en línea
+ それでも - [soredemo] - aun así
+ ストライキ - [sutoraiki] - huelga
+ ハッシュタグ - [hasshutagu] - hashtag
+ ボイコット - [boikotto] - boicot, boicotear
+ 公正 - justo
+ 利用者 - usuario
+ 制度 - sistema
+ 医療 - atención médica
+ 拡大 - expandiéndose
+ 指導 - orientación
+ 支持 - apoyo, apoyarte, apoye, apoyarla, apoyamos, apóyala, apóyalo
+ 支持者 - partidario
+ 活動家 - activista
+ 縮小 - reducción, disminución, contracción, reducción de tamaño, achicamiento, recorte
+ 計画 - plan
+ 討論 - discusión
+ 議員 - diputado
+ 関東 - área de Kanto, Kanto, región de Kanto, kantō
+309 apologizing Servicio: Atiende a un cliente
+ いかがですか - [ikagadesuka] - ¿qué le parece?
+ お時間、いいですか - [o shí jiān、iidesuka] - ¿Tiene un momento?
+ なさいます - [nasaimasu] - hacer, realizar, llevar a cabo, dar
+ クレーム - [kurēmu] - queja
+ 不充分 - insuficiente
+ 小銭 - moneda
+ 意図的 - intencional
+ 払戻し - reembolso
+ 抹茶 - té matcha
+ 様 - señor
+ 決して - nunca
+ 番号札 - ticket numerado
+ 負担 - carga
+310 food Restaurantes: Elige tu asiento favorito
+ お好きな - [o hǎokina] - que prefiera
+ お米 - [o mǐ] - arroz
+ カウンター席 - [kauntā xí] - asiento en la barra
+ セルフレジ - [serufureji] - caja automática
+ 付き - con
+ 伝票 - factura
+ 円札 - billete de yenes
+ 単品 - plato individual
+ 喫煙席 - asiento para fumadores
+ 奢り - invitación
+ 店内 - dentro de la tienda
+ 抜群 - excelente
+ 持ち帰り - para llevar
+ 氷なしで - sin hielo
+ 漬物 - encurtido
+ 甲殻類 - marisco
+ 禁煙 - no fumar
+ 税込み - con impuestos incluidos
+ 食券 - vale de comida

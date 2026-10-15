@@ -1,0 +1,620 @@
+1 Nomeie comidas e bebidas
+ null
+2 Fale sobre nacionalidades
+ null
+3 Fale sobre profissões
+ null
+4 Fale sobre seus cursos
+ null
+5 Use pronomes possessivos
+ null
+6 Fale sobre os lugares que visita
+ null
+7 Peça bebidas
+ null
+8 Encontre itens essenciais de viagem
+ null
+9 Apresente-se e suas aulas
+ null
+10 Fale sobre preferências esportivas
+ null
+11 Use adjetivos para descrever
+ null
+12 Explore Pequim
+ null
+13 Use partículas de sugestão
+ null
+14 Use comandos
+ null
+15 Verbos modais para expressar habilidade
+ null
+16 Peça permissão
+ null
+17 Limpe e organize sua casa
+ null
+18 Use o presente contínuo
+ null
+19 Busque ajuda médica
+ null
+20 Planeje uma festa de aniversário
+ null
+21 Peça direções no campus
+ null
+22 Use comparativos
+ null
+23 Fale sobre sua infância
+ null
+24 Planeje suas atividades
+ null
+25 Use expressões de tempo
+ null
+26 Comprar roupas
+ null
+27 Vá a um concerto
+ null
+28 Faça perguntas
+ null
+29 Falar sobre posse
+ null
+30 Expresse sentimentos
+ null
+31 Fale sobre o tempo
+ null
+32 Fale sobre amigos
+ null
+33 Descreva sua rotina diária
+ null
+34 Gerencie tarefas diárias
+ null
+35 Compre online
+ null
+36 Discuta detalhes do aluguel
+ null
+37 Use objetos indiretos
+ null
+38 Peça direções
+ null
+39 Fale sobre a empolgação esportiva
+ null
+40 Lidar com uma emergência
+ null
+41 Navegue pela cidade
+ null
+42 Compre produtos de saúde
+ null
+43 Participe de uma formatura
+ null
+44 Relate um problema
+ null
+45 Explore estudar no exterior
+ null
+46 Fale sobre filmes
+ null
+47 Use expressões de tempo para eventos
+ null
+48 Peça esclarecimentos
+ null
+49 Conheça novas pessoas
+ null
+50 Participe de atividades
+ null
+51 Formule perguntas de sim/não
+ null
+52 Use comparativos
+ null
+53 Avalie comidas e bebidas
+ null
+54 Compre mantimentos
+ null
+55 Cozinhe com receitas
+ null
+56 Curta um festival de música
+ null
+57 Atualize-se com amigos
+ null
+58 Forme frases complexas com contraste
+ null
+59 Organize sua casa
+ null
+60 Resolva problemas de trabalho
+ null
+61 Destacar detalhes de eventos passados
+ null
+62 Conte sua história de vida
+ null
+63 Use frases e perguntas de direção
+ null
+64 Fale sobre detalhes pessoais
+ null
+65 Converse sobre interesses com vizinhos
+ null
+66 Forme frases com conjunções
+ null
+67 Explore um shopping
+ null
+68 Lidar com uma emergência
+ null
+69 Dê desculpas
+ null
+70 Faça tarefas
+ null
+71 Compartilhar semana agitada
+ null
+72 Relembrar memórias da escola
+ null
+73 Descrever um dia desconectado
+ null
+74 Confortar amigo estressado
+ null
+75 Celebrar festivais chineses tradicionais
+ null
+76 Comprar em promoções de festival
+ null
+77 Descrever experiência ruim em restaurante
+ null
+78 Discutir detalhes do projeto
+ null
+79 Usar vocabulário de cozinha
+ null
+80 Pedir conselhos de intercâmbio
+ null
+81 Descrever acidentes de viagem passados
+ null
+82 Ligar para casa em viagens
+ null
+83 Resolver mistério no escritório
+ null
+84 Descrever obras de arte
+ null
+85 Vlogar sobre experiências de viagem
+ null
+86 Fazer resoluções de ano novo
+ null
+87 Discutir avaliações da equipe
+ null
+88 Comparar apresentações do festival
+ null
+89 Fazer pesquisa para escola
+ null
+90 Fazer perguntas ao viajar
+ null
+91 Falar sobre pessoas e eventos
+ null
+92 Discutir pedido de casamento
+ null
+93 Ligar para seus pais
+ null
+94 Planejar uma noite divertida
+ null
+95 Planejar viagem juntos
+ null
+96 Discutir escolhas saudáveis
+ null
+97 Fazer festa de inauguração
+ null
+98 Discutir álbum de fotos da família
+ null
+99 Discutir celebridades favoritas
+ null
+100 Discutir boletim do seu filho
+ null
+101 Comparar campo passado e presente
+ null
+102 Comprar no supermercado
+ null
+103 Discutir séries favoritas
+ null
+104 Negociar compra de casa
+ null
+105 Falar sobre sentimentos com amigos
+ null
+106 Discutir sua agenda semanal
+ null
+107 Explorar cidades da China
+ null
+108 Descrever sintomas ao médico
+ null
+109 Reencontrar velhos amigos
+ null
+110 Conhecer a história de Xi'an
+ null
+111 Compartilhar perrengues de viagem
+ null
+112 Participar de treino esportivo
+ null
+113 Descrever animais no zoológico
+ null
+114 Descrever estado dos móveis
+ null
+115 Convidar amigos para a festa
+ null
+116 Discutir cenas favoritas de filmes
+ null
+117 Descrever um barulho estranho
+ null
+118 Falar sobre compras em promoções
+ null
+119 Apresentar-se aos vizinhos
+ null
+120 Comunicar-se com colegas à distância
+ null
+121 Marcar consulta médica
+ null
+122 Discutir atividades de equipe
+ null
+123 Discutir livros no clube
+ null
+124 Abrir conta no banco
+ null
+125 Discutir tradições do jantar em família
+ null
+126 Decidir atividades no parque
+ null
+127 Discutir mudanças e futuro do negócio
+ null
+128 Entrevistar uma celebridade
+ null
+129 Ligar para a polícia
+ null
+130 Discutir culturas diferentes
+ null
+131 Talentos: Descreva suas habilidades
+ null
+132 Sentimentos: Fale sobre seu humor
+ null
+133 Pessoas: Descreva a aparência de alguém
+ null
+134 Rotina: Fale sobre sua rotina diária
+ null
+135 Viagem: Planeje sua próxima viagem
+ null
+136 Trabalho: Fale sobre reuniões de equipe
+ null
+137 Mudança: Peça ajuda para carregar caixas
+ null
+138 Emergência: Avalie a gravidade do caso
+ null
+139 Amizade: Conte um desafio em grupo
+ null
+140 Restaurante: Descreva o ambiente
+ null
+141 Cabelo: Pedir um novo corte de cabelo
+ null
+142 Preferências: Diga o que você não gosta
+ null
+143 Equipe: Fale sobre treinos em grupo
+ null
+144 Alimentos: Fale sobre preparar refeições
+ null
+145 Transporte: Explique um atraso no trânsito
+ null
+146 Relacionamento: Fale sobre superação
+ null
+147 Desastres: Descreva eventos extremos
+ null
+148 Inclusão: Sugira ideias para inclusão
+ null
+149 Interesses: Fala sobre teus interesses
+ null
+150 Fantasia: Descreva um sonho
+ null
+151 Esporte: Fale sobre esportes novos
+ null
+152 Festa: Compartilhe fotos da celebração
+ null
+153 Trânsito: Fale sobre seu trajeto
+ null
+154 Família: Fala sobre sua família
+ null
+155 Convívio: Conte sobre sua família
+ null
+156 Ruas: Pergunte como chegar a um lugar
+ null
+157 Apartamentos: Decore um cômodo confortável
+ null
+158 Atitude: Mostre vontade de melhorar
+ null
+159 Casamento: Fala sobre o convite
+ null
+160 Lazer: Fale sobre seus hobbies
+ null
+161 Vizinhança: Conheça seus vizinhos
+ null
+162 Organização: Organize suas roupas
+ null
+163 Meio ambiente: Fale sobre reciclagem
+ null
+164 Equipe: Descreva sua equipe
+ null
+165 Treino: Fale sobre sua rotina de treino
+ null
+166 Cuidados: Anote recados para os pais
+ null
+167 Ajuda: Pede ajuda no escritório
+ null
+168 Alergias: Descreva seus sintomas
+ null
+169 Objetivos: Defina metas com a equipe
+ null
+170 Livros: Descreva a capa do livro
+ null
+171 Voluntário: Apresente outros voluntários
+ null
+172 Ambiente: Descreva a decoração do local
+ null
+173 Cidades: Dê razões para mudar de cidade
+ null
+174 Produtos: Descreva os produtos ao cliente
+ null
+175 Ciência: Descreva um experimento
+ null
+176 Arte: Descreva obras de arte
+ null
+177 Família: Compartilhe experiências médicas
+ null
+178 Problemas: Descreva um problema
+ null
+179 Amizade: Expresse gratidão pela amizade
+ null
+180 Segurança: Pergunte sobre a localização
+ null
+181 Ferramentas: Enviar tarefas ao professor
+ null
+182 Tradição: Escreva nomes em cartões
+ null
+183 Meio ambiente: Avalie ideias do projeto
+ null
+184 Certificados: Fale do seu diploma
+ null
+185 Reciclagem: Sugira formas de reciclar
+ null
+186 Culinária: Descreva um prato típico
+ null
+187 Segurança: Descreva regras de segurança
+ null
+188 Artesanato: Dê um presente feito à mão
+ null
+189 Projeto: Organize as tarefas do projeto
+ null
+190 Música: Apresente-se ao clube
+ null
+191 Comunidade: Leia avisos do bairro
+ null
+192 Relacionamento: Dê um presente simples
+ null
+193 Sociedade: Expresse suas opiniões
+ null
+194 Literatura: Ler textos em voz alta
+ null
+195 Passeios: Fale sobre um passeio recente
+ null
+196 Compras: Fale sobre seus gastos
+ null
+197 Roupas: Peça opinião sobre roupas
+ null
+198 Futuro: Fale sobre seus objetivos
+ null
+199 Cidade: Fale sobre melhorias na cidade
+ null
+200 Hábitos: Descreva seus hábitos diários
+ null
+201 Geografia: Descreva lugares do mundo
+ null
+202 Saúde: Fale sobre sua saúde mental
+ null
+203 Governo: Debate políticas do governo
+ null
+204 Lar: Descreva tarefas em casa
+ null
+205 Rotina: Dê sugestões para o trajeto
+ null
+206 Regras: Converse sobre regulamentos
+ null
+207 Saúde: Compartilhe dicas para bem-estar
+ null
+208 Orçamento: Ajuste o orçamento do evento
+ null
+209 Desafios: Compartilhe sua opinião
+ null
+210 Economia: Descreva uma empresa
+ null
+211 Animais: Compartilhe dicas sobre animais
+ null
+212 Lar: Descreva tarefas em casa
+ null
+213 Família: Descreva seu pai
+ null
+214 Carreira: Compartilhe seus objetivos
+ null
+215 Opções: Sugira um filme para ver
+ null
+216 Identidade: Diga quem estava lá
+ null
+217 Sensações: Descreva as luzes que vê
+ null
+218 Campo: Peça ajuda com a rotina
+ null
+219 Viagem: Encontre hospedagem
+ null
+220 Tendências: Explora ferramentas novas
+ null
+221 Ajuda: Pedir ajuda aos amigos
+ null
+222 Mudanças: Dê sua opinião
+ null
+223 Princípios: Expresse sua opinião
+ null
+224 Estações: Fale sobre o clima
+ null
+225 Show: Confirme detalhes do show
+ null
+226 História: Explique causas de um evento
+ null
+227 Jantar: Verifique os ingredientes
+ null
+228 Filosofia: Compartilhe seus valores
+ null
+229 Museu: Descreva fósseis antigos
+ null
+230 Cultura: Fala sobre tradições
+ null
+231 Futebol: Descreva seu time de futebol
+ null
+232 Condomínio: Fale sobre pagar a taxa
+ null
+233 Faculdade: Explique seu plano de estudos
+ null
+234 Custos: Descreva seus gastos mensais
+ null
+235 Banco: Leve todos os documentos
+ null
+236 Estádio: Compara preços de bebidas
+ null
+237 Tendências: Comente novidades populares
+ null
+238 Correios: Preencher dados do destinatário
+ null
+239 Desafio: Descreva um desafio marcante
+ null
+240 Experiência: Fale do apoio que recebeu
+ null
+241 Disciplina: Siga uma rotina diária
+ null
+242 Ciência: Fale sobre avanços da medicina
+ null
+243 Sugestões: Expressa tua opinião
+ null
+244 Publicidade: Avalie a qualidade dos brindes
+ null
+245 Carreira: Fale sobre profissões
+ null
+246 Pesquisa: Descreva a equipe de pesquisa
+ null
+247 Tradição: Conte uma tradição
+ null
+248 Equipe: Resolva conflitos na equipe
+ null
+249 Finanças: Fale sobre seus gastos recentes
+ null
+250 Opinião: Compartilhe sua opinião
+ null
+251 Adaptação: Escolha um bairro ideal
+ null
+252 Camping: Conte como lida com o frio
+ null
+253 Boatos: Expresse sua opinião sobre boatos
+ null
+254 Negociação: Sugerir ajustes no acordo
+ null
+255 Crescimento: Fale sobre suas ambições
+ null
+256 Oportunidade: Fale sobre avanços recentes
+ null
+257 Recomeço: Fale sobre apoio da família
+ null
+258 Bem estar: Cuide da mente
+ null
+259 Jogos: Explique as regras do jogo
+ null
+260 Escola: Reaja ao anúncio da escola
+ null
+261 Aulas: Comparar professores
+ null
+262 Problemas: Note diferença de opiniões
+ null
+263 Bebês: Falar sobre a rotina do bebê
+ null
+264 Exercício: Falar sobre seu esporte favorito
+ null
+265 Empatia: Descrever ações que acalmam
+ null
+266 Evento: Recomenda um lugar
+ null
+267 Lendas: Apresente uma lenda histórica
+ null
+268 Mistério: Descreva a cena do crime
+ null
+269 Relacionamento: Diga o que te faz feliz
+ null
+270 Restaurante: Fale da textura dos alimentos
+ null
+271 Trilha: Descreva como você se sentiu
+ null
+272 Amizade: Seja sincero ao falar
+ null
+273 Eleições: Explica o teu voto
+ null
+274 Redes sociais: Veja tendências de uso
+ null
+275 Música: Fale sobre reações à música
+ null
+276 Sociedade: Expressar sua opinião
+ null
+277 Artes: Descreva uma obra de arte
+ null
+278 Cidade: Descreva os sons da cidade
+ null
+279 Festas: Organize uma festa de inauguração
+ null
+280 Passeio: Escolha seu quarto no navio
+ null
+281 Celular: Explica um problema no celular
+ null
+282 Meio ambiente: Use energia renovável
+ null
+283 Mídia: Explique uma reportagem
+ null
+284 Fábula: Compartilhe frases marcantes
+ null
+285 Cultura: Fale sobre saudações
+ null
+286 Aplicativos: Descreva apps para crianças
+ null
+287 Produtos: Identifique produtos falsos
+ null
+288 Ecologia: Dê ideias para cuidar da área
+ null
+289 Atendimento: Diz por que está insatisfeito
+ null
+290 Voluntariado: Fale sobre ajudar animais
+ null
+291 Saúde: Expresse suas preocupações
+ null
+292 Culinária: Explique como marinar carnes
+ null
+293 Empresas: Negocie um acordo
+ null
+294 Acidente: Descreva o acidente
+ null
+295 Vida rural: Dê motivos para viver no campo
+ null
+296 Roupas: Fale sobre preços de roupas
+ null
+297 Negócios: Comente mudanças recentes
+ null
+298 Sabores: Descreva sabores na salada
+ null
+299 Comunidade: Sugira melhorias locais
+ null
+300 Cirurgia: Conte o que viu na enfermaria
+ null
+301 Universidade: Escolha sua moradia
+ null
+302 Desculpas: Pedir desculpa por um erro
+ null
+303 Acessibilidade: Fale sobre pedir ajuda
+ null
+304 Direitos: Expresse suas opiniões
+ null
+305 Espaço: Descreva características do Sol
+ null
+306 Tecnologia: Use IA para revisar textos
+ null
+307 Classe: Descreva colegas de classe
+ null
+308 Dirigir: Ajuste o banco e o volante
+ null
+309 Notícias: Compartilhe uma notícia
+ null
+310 Natureza: Descreva um lugar natural
+ null

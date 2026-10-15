@@ -1,0 +1,90 @@
+Note that files (ZH-EN, FR-EN, DE-EN, JP-EN, PO-EN, ES-EN) have been left empty, and I would like to keep it that way for now.
+
+For the test Let's take a look at both EN-IT.txt and IT-EN.txt
+
+We will need to make 4 categories (Matches, Exceptions, onlyLangA, onlyLangB)
+
+To search for matches let's take a look at two types of examples
+
+A direct match will look like this:
+ 
+ goodbye - arrivederci
+ arrivederci - goodbye
+
+Both of these definitions are defined perfectly as each other
+take a look at another Direct example that is more complex
+
+ coffee - caffè
+ caffè - coffee
+
+Note that in IT-EN there is a second 
+ caffè - coffee tree, cups of coffee, cafes, cup of coffee, coffee shop, café's, café, coffee, espresso, coffee bar, coffees, bar's
+
+However in EN-IT
+caffè is only defined as  "caffè - coffee" therefore we can ignore the second line
+
+The next section are Exceptions
+
+An Exception will look like this:
+
+ salve - hello
+
+since there is a Direct Match for
+ hello - ciao
+ ciao - hello
+
+if there was no direct match then "salve - hello" would be considered an "Italian Only", but since it's defined as "hello" but in English both "hello" is "ciao" and there is no "hello - salve" in IT-EN then it's an Exception
+
+The Last two Categories are for when there is a definition that is not at all found in the other dictionary
+for example:
+
+ dedication - consacrazione, dedicazione, dedizione, impegno, dedica
+
+This is only an English Word since there is No match for "dedication" in EN-IT.txt
+and the same can be said the other way
+
+
+FORMAT (For X and Y write the Language Name)
+
+Matches
+A-B
+B-A
+C-D
+D-C
+
+Exceptions
+E-C
+F-B
+
+X Only Exceptions
+G-H
+I-J
+
+Y Only Exceptions
+K-L
+M-N
+
+so AA-BB.txt would look like:
+
+Matches
+goodbye - arrivederci
+arrivederci - goodbye
+coffee - caffè
+caffè - coffee
+hello - ciao
+ciao - hello
+
+Exceptions
+salve - hello
+
+English Only Exceptions
+dedication - consacrazione, dedicazione, dedizione, impegno, dedica
+
+Italian Only Exceptions
+
+
+
+
+
+
+

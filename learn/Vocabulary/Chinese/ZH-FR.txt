@@ -1,0 +1,7324 @@
+ Cafe 在咖啡厅点餐
+ au revoir - 再见
+ bonjour - 你好
+ café - 咖啡
+ croissant - 面包, 羊角, 牛角面包, 可颂
+ et - 和
+ je voudrais - 想要
+ madame - 女士
+ merci - 谢谢
+ monsieur - 先生
+ non - 不
+ ou - 或, 还, 或者, 或是, 否则, 还是, 要么
+ oui - 是的
+ parfait - 太好了
+ s'il vous plaît - 请
+ sandwich - 三明治
+ thé - 茶
+ un - 一
+ éclair - 闪, 闪电, 闪电泡芙, 芙
+2 Hello 问候并介绍自己
+ bien - 很好
+ enchanté - 很高兴认识你
+ et toi - 你呢
+ je - 我
+ je m'appelle - 我叫
+ moi aussi - 我也是
+ tu viens d'où - 你从哪里来
+ tu viens de - 你来自
+ viens de - 来自, 刚刚
+ à bientôt - 待会儿见
+ ça va - 怎么样
+3 Family 谈论你的家庭
+ de - 个, 从, 上, 之, 种, 来自, 的, 要, 对, 离, 能, de
+ elle habite - 住
+ elle vient - 来自
+ fille - 女儿
+ fils - 儿子
+ frère - 兄弟
+ il habite - 住
+ il vient - 来
+ j'ai - 我
+ maintenant - 现在
+ neveu - 侄子
+ nièce - 侄女
+ oh - 喔, 哦, 哟, 噢
+ oncle - 叔, 舅, 叔叔, 舅舅, 伯伯, 伯, 大爷
+ sœur - 姐妹
+ tante - 姑姑, 姨, 姑, 姨妈, 阿姨, 大妈
+ tu as - 你
+ une - 一辆, 一片, 一张, 一封, 一头, 座, 一场, 一份, 有位, 一名, 一件, 一幅, 一本, 一所, 一块, 一口, 一出, 一处, 一间, 一家, 一门, 一条, 一根, 一班, 一幢, 一顶, 一次, 一盏, 一种, 一朵, 一株, 有件, 一首, 一趟, 一只, 一枝, 一支, 一杯, 一座, 一栋, 一台, 一扇, 一把, 一颗, 一部, 一个, 一枚, 一, 一节, 一宗
+ à - 给, 于, 至, 来, 念, 靠, à, 的, 到, 向, 在, 对, 离, 跟, 三到, 去, 之内
+4 People 描述性格
+ amusant - 风趣的
+ bien sûr - 当然
+ elle - 她
+ est - 师是, 当, 河在, 东边, 屋在, 很, è, 水在, 包是, 在, 美是, 屋是, 笔是, 是, 离, 张华是, 课是, e, 东, 便是
+ il - 他
+ intéressant - 有趣的
+ ma nièce - 我侄女, 侄女
+ ma sœur - 我姐姐
+ ma tante - 我姑姑, 我的姑姑
+ mais - 但是
+ mon fils - 我儿子
+ mon frère - 我哥哥
+ méchant - 坏的
+ pas du tout - 一点也不
+ toujours - 总是
+ très - 非常
+5 Shopping 购买衣服
+ avec - 跟着, 用, 配, 带, 加, 和, 穿, 随着, 有, 一起, avec, 带有, 包含, 带着, 对, 跟, 盖着, 用桃, 一同
+ bleu - 蓝色, 淤青, 青, 瘀, 蓝色的, 瘀伤, 淤
+ ceinture - 腰带
+ chapeau - 帽子
+ chemise - 衬衫
+ cravate - 领带
+ d'accord - 好的
+ excusez-moi - 对不起
+ je cherche - 我在找
+ manteau - 大衣
+ noir - 黑色的
+ pull - 套衫
+ robe - 连衣裙
+ super - 太棒了
+ vert - 绿色的
+ vous cherchez - 您在找
+6 Languages 谈论语言
+ allemand - 德语, 德国的, 德国, 德国人
+ américain - 美国的, 美国人, 美国, 美式
+ anglais - 英语
+ avec moi - 和我一起, 在身边
+ espagnol - 西班牙语
+ femme - 女的, 女人, 妻子, 婆, 老婆, 妇, 女性, 妇女, 女子, 女士, 女式, 太太
+ français - 法语
+ intelligent - 聪明, 聪, 聪明的, 智能
+ japonais - 日语
+ ma - 我的, 我, 玛
+ mari - 丈夫
+ mexicain - 墨西哥的, 墨西哥人, 墨西哥
+ mon - 我的, 我, my, 我个
+ mère - 母亲
+ parle - 说起, 说话, 谈论, 谈起, 不聊, 说慢, 说个, 谈谈, 先不聊, 谈, 说, 谈到, 念叨
+ père - 父亲
+ tu parles - 说话, 说
+ vient de - 刚刚, 来自
+7 Ready? 找到你的东西
+ ah - 啊
+ attention - 小心
+ chargeur - 充电器
+ clé - 钥匙
+ dans - 里演, 里会, 过, 来, 之内, 之中, 内会, 内, dans, 在, 里, 中, 儿里
+ elle - 它
+ en retard - 迟到了
+ es - 是, 在, 很
+ excuse-moi - 对不起
+ ici - 这里
+ il - 它
+ lourd - 很沉, 重不重, 重的, 好重, 闷热, 厚重, 沉重, 重, 沉沉的
+ on y va - 我们走吧
+ où - 哪里
+ poche - 口袋
+ portable - 手机
+ portefeuille - 钱包
+ prêt - 准备好的
+ rapide - 速度快, 快速, 迅速, 很快, 快, 迅, 超快, 速, 飞速
+ sac - 包
+ suis - 当, 很, 跟踪, 照着, 遵照, 在, 是, 身在
+ taxi - 出租车
+ tu - 你
+ un peu - 有点
+ valise - 行李箱
+ vite - 快点
+ voiture - 车
+8 At home 描述你的家
+ adore - 热爱, 喜爱, 爱, 喜欢, 爱看, 爱鸟, 钟爱, 超爱, 酷爱
+ canapé - 沙发
+ chaise - 椅子
+ chat - 猫
+ chien - 狗
+ content - 高兴, 愉快, 好开心, 乐意, 太高兴, 痛快, 高兴的, 皆大欢喜, 满意, 得意
+ cuisine - 厨房
+ grand - 大的
+ il y a - 有
+ j'adore - 我超, 爱, 超爱雪, 热爱
+ jardin - 花园
+ joli - 漂亮的
+ maison - 房子
+ non - 不是吗
+ parce qu'elle - 因为它, 因为她
+ parce qu'il - 因为, 因为他, 因为它
+ parce que - 因为
+ petit - 小的
+ plante - 植物
+ pour - 给
+ salon - 客厅
+ ta - 你的, 妳的, 你
+ table - 台面, 桌子, 桌面, 小桌子, 张, 桌, 桌边
+ ton - 你的
+9 Party 问候和提问
+ allemand - 德语
+ bien - 很好
+ bienvenue - 欢迎
+ bureau - 办公室
+ comment tu t'appelles - 你叫什么名字
+ copain - 哥们, 朋, 男友, 朋友, 小伙伴, 男朋友, 好友
+ copine - 朋, 女朋友, 女友, 朋友, 好友
+ espagnol - 西班牙的, 西班牙人, 西班牙语, 西班牙
+ habiter - 住在, 住, 家住
+ j'habite - 住
+ pardon - 不好意思
+ parler - 说
+ portugais - 葡萄牙, 葡萄牙人, 葡萄牙语
+ restaurant - 餐厅, 餐馆, 饭馆, 馆子
+ salut - 嗨
+ toi aussi - 你也是
+ travailler - 工作
+ ça va bien - 你好吗
+10 Neighbors 谈论你的社区
+ arabe - 阿拉伯语
+ aussi - 也
+ banque - 银行
+ c'est - c, 很, 这, 就是, 兹, 在, 这是, 今天是, 现在是, 这倒
+ calme - 安静的
+ chinois - 中国的, 中国, 中文, 汉语, 中国人, 中式
+ cool - 酷
+ dans - 里演, 里会, 过, 来, 之内, 之中, 内会, 内, dans, 在, 里, 中, 儿里
+ italien - 意大利语, 意大利人, 意大利, 意式
+ là-bas - 那里
+ manger - 吃
+ marcher - 走路
+ marocain - 摩洛哥的, 摩洛哥人, 摩洛哥
+ parc - 公园
+ propre - 干净的
+ quartier - 街区
+ rue - 街
+ souvent - 经常
+ tous les jours - 每天
+ tu connais - 认识, 了解, 会
+ voisin - 邻居
+ voisine - 邻居, 邻, 相邻, 大妈
+ école - 学校
+11 And you? 介绍并询问他人
+ anglais - 英国, 英国的, 英, 英语, 英国人, 英文, 英式
+ c'est - c, 很, 这, 就是, 兹, 在, 这是, 今天是, 现在是, 这倒
+ comment - 如何, 怎样, 怎么样, 什么, 怎, 怎么, 何
+ elle s'appelle - 她叫
+ enchanté - 很高兴认识你
+ et toi - 你呢
+ français - 法国人, 法语, 法式, 法国的, 法国, french
+ il s'appelle - 他叫
+ j'étudie - 我学, 学习, 我念
+ japonais - 日本人, 日本的, 日语, 日本
+ livre - 书
+ professeur - 教授
+ professeure - 女教师, 教师
+ s'appelle - 歌叫, 叫, 称呼
+ stylo - 笔
+ super - 超级
+ université - 大学
+ ville - 城市
+ à demain - 明天见
+ étudiant - 大学生
+ étudiante - 大学生, 学生
+ étudier - 学习
+12 City 问路
+ appartement - 公寓
+ aujourd'hui - 今天
+ boulangerie - 面包店
+ bus - 公交车
+ cassé - 坏了的
+ chambre - 房间
+ chauffeur - 司机
+ devant - 前方, 当着, 前有, 前头, 面前, 当面, 前面, 跟前, 前车, 前排
+ fatigué - 累的
+ fermé - 桥关, 关门, 关紧, 闭, 关着, 关闭, 我闭, 没合
+ la - 这个, 那座, 这辆, 这座, 这, 这幢, 那个, 她, 那幢, 那辆, 那, 它, 一, la
+ le - 这个, 这家, 他, le, 那本, 这辆, 那张, 这, 的, 了, 那个, 那列, 那家, 那辆, 这本, 这列, 那, 这张, 它, 那起
+ loin - 远的
+ magasin - 商店
+ ouf - 喔唷
+ ouvert - 开着的
+ porte - 门
+ pourquoi - 为什么
+ pressé - 赶时间的
+ près d'ici - 这里附近
+ station de métro - 地铁站
+ vendeur - 售货员
+ vendeuse - 售货员, 女店员
+ voilà - 这就是
+13 Birthday 庆祝生日
+ a - 山有, 地有, 正有, 怀有, 有没有, 中有, 古斯古斯有, 有, 店有, 茶有, 有着, 湖有, 词有, 美有, 具有, 有股, 心存
+ ai - 有, 艾, 有没有
+ ami - 朋友
+ amie - 女朋友, 女友, 朋友, 好友
+ apporter - 带
+ assiette - 盘子
+ cadeau - 礼物
+ chanter - 唱歌
+ chez - 家有, 家时, 家一, 家, 家办, 在家, 家才
+ d' - 的, 离, 能
+ danser - 跳舞
+ de - 个, 从, 上, 之, 种, 来自, 的, 要, 对, 离, 能, de
+ fort - 用力, 激烈, 强烈, 强项, 大不大, 强劲, 壮, 大声, 坞, 很强, 浓, 厉害, 烈, 响亮, 强壮, 强, 很浓, 坚强, 浓烈, 浓郁
+ fête - 派对
+ grand-mère - 外祖母
+ grand-père - 外祖父
+ gâteau - 蛋糕
+ j' - 我, 我以, 我边
+ joyeux anniversaire - 生日快乐
+ l' - 这只, 这个, 这名, 这家, 他, 给他, 那架, 这, 这架, 那个, 她, 那只, 那家, 那条, 那名, 那位, 那, 这位, 它
+ pour - 给整, 为了, 而言, 因为, 而, 给, 当, 适合, 来, 用于, 人用, 用来, 会为, 的, 飞往, 来放在, 对于, 支持, 来做, 对, 来说, 地为, 水给, 以, 为, 替, 起见
+ qui - 谁
+ sur - 给, 上, 临, 关于, 在, 乘, 上下, r
+ trop - 太
+14 Airport 在机场走动
+ arriver - 到了
+ avion - 飞机
+ aéroport - 机场
+ billet - 票
+ bon voyage - 旅途愉快
+ bonsoir - 晚上好
+ c'est - c, 很, 这, 就是, 兹, 在, 这是, 今天是, 现在是, 这倒
+ café - 咖啡店, 咖啡, 咖啡馆, 咖啡吧, 咖啡厅, 啡, 咖, 乐吧
+ chercher - 在找
+ déjà - 已经
+ excusez-moi - 对不起
+ je vais à - 去
+ madame - 女士
+ merci beaucoup - 非常感谢
+ monsieur - 先生
+ par carte - 用卡
+ passeport - 护照
+ payer - 付
+ seul - 自己
+ vite - 快
+ votre - 你们的, 您的, 妳们的
+ vous - 您
+ vous allez à - 您去
+ voyager - 旅行
+ à l'heure - 准时
+15 Lunch 使用现在时
+ avons - 很, 有, 有来
+ bon - 课好, 好, 好喝, 好闻, 好吃的, 太行, 不错, 状况良好, 对的, 很好吃, 好喝的, 良, 美好的, 代金券, 良好
+ brésilien - 巴西人, 巴西
+ cafétéria - 食堂
+ chef - 主管
+ cheffe - 女上司
+ collègue - 同事
+ discuter - 讨论
+ déjeuner - 吃午饭
+ en général - 通常
+ ensemble - 一起
+ important - 重要的
+ maintenant - 现在
+ nous - 我们
+ parfois - 有时候
+ pause - 休息时间
+ pendant - 时别, 期间, 中要, 间别
+ pizza - 披萨, 比萨
+ préparer - 炒菜, 备, 筹备, 准备, 预先, 配制, 做好, 做, 做鱼, 亲手做
+ repas - 餐食
+ rester - 待
+ réunion - 会议
+ salade - 沙拉
+ végétarien - 素食者
+16 Bakery 在面包店点食物
+ au café - 咖啡味的
+ au chocolat - 巧克力味的
+ avez - 有, 有十
+ baguette - 法棍面包
+ bonne journée - 今天过得愉快
+ brioche - 奶油圆蛋糕
+ cinq - 五
+ combien ça coûte - 这要多少钱
+ crêpe - 可丽饼
+ des - 一些, 的
+ deux - 两
+ en espèces - 用现金
+ euro - 欧元, 欧
+ il y a - 有
+ je voudrais - 想要
+ macaron - 马卡龙
+ quatre - 四
+ six - 六
+ trois - 三
+ un - 一
+ une - 一辆, 一片, 一张, 一封, 一头, 座, 一场, 一份, 有位, 一名, 一件, 一幅, 一本, 一所, 一块, 一口, 一出, 一处, 一间, 一家, 一门, 一条, 一根, 一班, 一幢, 一顶, 一次, 一盏, 一种, 一朵, 一株, 有件, 一首, 一趟, 一只, 一枝, 一支, 一杯, 一座, 一栋, 一台, 一扇, 一把, 一颗, 一部, 一个, 一枚, 一, 一节, 一宗
+ ça coûte - 这要花
+17 Places 谈论地方
+ France - 法国
+ Italie - 意大利
+ Rome - 罗马
+ Suisse - 瑞士
+ adorer - 超爱
+ allemand - 德语
+ capitale - 首都
+ connais - 知道, 识, 认得, 认, 了解, 认识, 知
+ cousin - 表兄弟
+ cousine - 表姐, 表姐妹, 堂妹, 妹, 表妹
+ elles - 她们
+ en - en, 对此, 一些, 打着, 之内, 穿, 之中, 那个, 内, 在, 用时, 去, 从中, 儿里
+ enfant - 小孩子, 小孩, 子, 童, 小孩儿, 孩子, 儿童, 小朋友
+ européen - 欧洲的
+ ils - 他们
+ lac - 湖
+ mes - 我的, 我, 们, mes
+ ont - 有, 心存
+ pays - 国家
+ près de - 边, 靠近
+18 Guests 为客人准备
+ attention - 小心
+ bon appétit - 用餐愉快
+ chaud - 烫的
+ couteau - 刀
+ de rien - 不客气
+ dessert - 甜点
+ excellent - 超棒的
+ farine - 面粉
+ fourchette - 叉子
+ fragile - 易碎的
+ invité - 宾客
+ laver - 洗
+ les - 它们, 那些, 这, 他们, 这些, 她们, 那, 们, 凡事
+ miam - 嗯
+ mince - 糟糕
+ placard - 壁橱
+ s'il te plaît - 请, 请你, 麻烦你, 请给我, 好吗
+ sale - 脏的
+ serviette - 毛巾, 餐巾, 巾
+ sont - 是, 很, 在, 当
+ sucre - 糖
+ tasse - 杯子
+ verre - 玻璃杯
+ veux - 不要, 想要, 我要, 想得到, 想靠, 想配, 愿, 愿意, 想练, 要, 不想, 我想学, 想要拿到, 随你便
+19 Presents 跟朋友一起庆祝
+ anniversaire - 生日
+ beau - 美丽的
+ belle - 贝儿, 丽, 美丽的, 美丽, 优美, belle, 美的, 漂亮, 美好, 好看, 而贝儿, 美, 好美, 美女, 帅, 美好的, 好看的, 貌美
+ bonne soirée - 今晚过得愉快
+ content - 高兴的
+ de - 个, 从, 上, 之, 种, 来自, 的, 要, 对, 离, 能, de
+ eau - 水
+ idée - 点子
+ juste - 只
+ limonade - 柠檬水
+ merci pour - 谢谢你的
+ non - 不是吗
+ nouveau - 新的
+ nouvelle - 新人, 短篇小说, 新任, 新来, 消息, 颖, 新开, 新, 新的, 歌新, 新颖, 新型
+ part - 块
+ peut-être - 也许
+ quoi - 什么
+ surprise - 惊喜
+ veut - 不要, 想要, 熊想, 吕克想, 愿, 后要, 美想, 要, 想回, 不想, 想生
+ veux - 不要, 想要, 我要, 想得到, 想靠, 想配, 愿, 愿意, 想练, 要, 不想, 我想学, 想要拿到, 随你便
+ vraiment - 真的
+ vélo - 自行车
+20 Lost 找到你的路
+ autre - 另一只, 其他的, 另外的, 另, 别的
+ bon - 课好, 好, 好喝, 好闻, 好吃的, 太行, 不错, 状况良好, 对的, 很好吃, 好喝的, 良, 美好的, 代金券, 良好
+ dans - 里演, 里会, 过, 来, 之内, 之中, 内会, 内, dans, 在, 里, 中, 儿里
+ dix - 十
+ enfin - 终于
+ gare - 火车站
+ glace - 冰, 冰淇淋, 淇
+ heure - 小时
+ je ne sais pas - 我不知道
+ loin de - 远离
+ minute - 分钟
+ perdu - 迷路
+ plan - 地图
+ quand - 什么时候
+ regarder - 瞧一瞧, 看一遍, 看新, 看电视, 围观, 看, 看归, 看点, 观看, 看看, 比看, 浏览
+ sommes - 很, 在, 身处, 是, 处在
+ sommes perdus - 迷路了
+ super - 太好了, 棒得很, 这超棒, 真牛, 棒极了, 超级, 超棒, 棒极了的, 太棒了, 好极了, 很棒, 好得很, 雅超棒, 超, 可棒
+ voulez - 想要, 愿意, 要, 愿
+ voulons - 不要, 想要, 不想
+ vous - 你们
+ à - 给, 于, 至, 来, 念, 靠, à, 的, 到, 向, 在, 对, 离, 跟, 三到, 去, 之内
+ à l'hôtel - 在酒店
+ êtes - 很, 在, 是, 处于
+21 Jobs 谈论工作
+ Brésil - 巴西
+ Canada - 加拿大
+ Japon - 日本
+ au - 给, 到, 向, 在, 对, 跟, 去, au
+ aussi - 也
+ avocat - 律师
+ avocate - 律师
+ beaucoup - 不怎么, 实在, 很多, 常常, 多, 很, 不少, 多着呢, 许多, 很努力, 多多, 多不多, 非常, 会多
+ canadien - 加拿大人
+ connaissez - 知道, 认得, 认, 认识, 识
+ connaissons - 认得, 认识, 知道, 了解
+ docteur - 医生
+ docteure - 女医生, 女博士
+ entreprise - 公司
+ hôpital - 医院
+ ingénieur - 工程师
+ ingénieure - 工程师
+ japonais - 日本人
+ métier - 职业
+ notre - 我们的, 这届
+ quelqu'un - 有人, 人, 一个人, 某人
+ ville - 城市
+22 Routine 谈论日常生活
+ au - 给, 到, 向, 在, 对, 跟, 去, au
+ aujourd'hui - 今天
+ avec qui - 跟谁一起
+ bonne nuit - 晚安
+ ce soir - 今晚
+ cuisiner - 做饭
+ demain - 明天
+ dîner - 晚餐
+ enfant - 小孩子, 小孩, 子, 童, 小孩儿, 孩子, 儿童, 小朋友
+ froid - 冷的
+ lit - 床
+ légume - 蔬菜
+ maman - 妈妈
+ nager - 游泳
+ papa - 爸爸
+ petit déjeuner - 早餐
+ piscine - 游泳池
+ supermarché - 超市
+ travail - 工作, 活儿, 劳, 劳动, 工, 加工
+ va - 贝娅会, 风会, 即将, 就要, 埃迪要, 走, 滑得, 天要, 没事, 狗会, 将会, 到, 莱娅要, 骑得, 狗要, 萨姆去, 林要, 吕克要, 向右走, 去, 会, 血会, 阿梅莉会
+ vais - 将要, 我会, 前去, 没事, 我往, 上班, 去, 会, 會
+ vas - 去, 会, 没事
+ vont - 会为, 没事, 将会, 要, 不合身, 去, 会, 根会
+ à - 给, 于, 至, 来, 念, 靠, à, 的, 到, 向, 在, 对, 离, 跟, 三到, 去, 之内
+ à plus tard - 晚点见
+ école - 学校
+23 My family 谈论你的家庭
+ Chine - 中国
+ Espagne - 西班牙
+ chinois - 汉语
+ comme - 一样, 时像, 宛, 般的, 般, 仿佛, 像, 宛如, 作为, 如同, 当作, 正如, 地像, 画般, 似的, 如, 当成, 加上
+ d'où - 自哪里
+ de - 个, 从, 上, 之, 种, 来自, 的, 要, 对, 离, 能, de
+ du - 从, 一些, 的, 杜, 对, du
+ espagnol - 西班牙的, 西班牙人, 西班牙语, 西班牙
+ famille - 家人
+ grand-mère - 祖母
+ grand-père - 祖父
+ génial - 棒极了的
+ langue - 语言
+ parent - 父母
+ passer - 逝, 每天花, 过生日, 共度, 花一, 转为, 路过, 去度, 递, 过去, 递给, 参加, 过个, passer, 转过, 度过, 升入, 通个, 顺道去, 及格
+ plusieurs - 几个
+ vacances - 假期
+ viennent - 来, 人来
+ viens - 来, 刚, 我来
+ vient - 出自, 他来, 来, 刚, 来得, 来时
+24 Education 使用否定句
+ apprend - 学, 教
+ apprends - 学得, 请教, 学点, 你学, 学, 学法语, 学说话, 学好
+ cahier - 笔记本
+ comprend - 知道, 理解, 听得懂, 懂, 了解, 体谅
+ comprends - 知道, 听不懂, 理解, 明白, 谅, 懂得, 搞不懂, 懂, 了解, 略懂
+ cours - 课
+ de - 个, 从, 上, 之, 种, 来自, 的, 要, 对, 离, 能, de
+ difficile - 难的
+ géographie - 地理
+ heure - 点, 点了, 点钟, 时, 时间, 小时, 时刻
+ huit - 八
+ leçon - 课
+ maths - 数学
+ n' - 别, 没, n, 未, 非, 不, ne
+ ne - 别, 没, n, 否, 非, 你别, 不, ne
+ neuf - 九
+ prof - 老师
+ sept - 七
+ sympa - 讨人喜欢的, 亲切
+ tout - 全都
+ à - 给, 于, 至, 来, 念, 靠, à, 的, 到, 向, 在, 对, 离, 跟, 三到, 去, 之内
+ à la maison - 在家
+ à quelle heure - 几点
+25 Sports 谈论运动
+ acheter - 买
+ aimer - 喜欢
+ ballon - 球
+ billet - 纸条, 门票, 便条, 纸币, 票, 张, 车票, 票会
+ bière - 啤酒
+ bleu - 蓝色的
+ cher - 贵的
+ chère - 贵的, 亲, 贵, 很贵
+ foot - 足球
+ jouer - 踢球
+ joueur - 球员
+ joueuse - 球员, 女选手
+ match - 比赛
+ populaire - 受欢迎的
+ préférer - 更喜欢
+ rapide - 快的
+ regarder - 看
+ rugby - 橄榄球
+ sport - 运动
+ stade - 体育场
+ à la télé - 在电视上
+ équipe - 队
+26 Invitation 邀请别人外出
+ cinéma - 电影院
+ concert - 音乐会
+ dommage - 可惜
+ détester - 讨厌
+ et moi - 和我
+ film - 电影
+ matin - 早上
+ nul - 没意思的
+ nulle - 烂
+ occupé - 忙的
+ on - 我们, 人家
+ parce que - 因为
+ peux - 时能, 不能, 可以, 我能, 可, 能, 无法, 不起
+ prof - 老师
+ soir - 晚
+ sors - 出门, 出去, 出院, 谈恋爱
+ sort - 离开, 出门, 出去, 传出, 咒, 谈恋爱, 去, 冒出
+ sortez - 出去
+ sportif - 爱运动的
+ sportive - 爱运动的, 体育
+ sympa - 不错的
+ série - 连续剧, 一系列, 电视剧, 剧集, 节目, 串
+ tous les - 所有的
+ télé - 电视
+ week-end - 周末
+ yoga - 瑜伽
+27 Flight 用"avoir"表达状态和拥有
+ as - 有, 拿到, 阿斯
+ attends - 期待, 等一下, 等, 等等, 等候
+ avec - 跟着, 用, 配, 带, 加, 和, 穿, 随着, 有, 一起, avec, 带有, 包含, 带着, 对, 跟, 盖着, 用桃, 一同
+ bientôt - 很快
+ bonbon - 糖果
+ bouteille - 瓶子
+ chaud - 热
+ chut - 嘘
+ climatisation - 空调
+ couverture - 毯子
+ durer - 持续
+ faim - 饥, 饿, 饥饿, 一饿
+ froid - 冷, 冷不冷, 冷的, 很冷, 寒冷, 寒, 凉, 天冷
+ hôtesse - 空中乘务员
+ oh là là - 哎呀呀
+ pilote - 飞行员
+ pétillant - 气泡的
+ sans - 没有
+ soif - 渴, 很渴, 口渴
+ sommeil - 困
+ steward - 空中乘务员
+ sur - 给, 上, 临, 关于, 在, 乘, 上下, r
+ tablette - 平板电脑
+ tout le monde - 所有人
+ vend - 卖
+ vendez - 卖
+ vol - 班机
+28 Clothes 购买衣服
+ avec - 跟着, 用, 配, 带, 加, 和, 穿, 随着, 有, 一起, avec, 带有, 包含, 带着, 对, 跟, 盖着, 用桃, 一同
+ beau - 帅气, 英俊, 很好, 美丽的, 好, 漂亮的, 美丽, 好帅, 天晴, 美的, 不帅, 美好, 好看, 美, 俊, 帅, 美好的, 好看的, 优美
+ besoin de - 需要
+ bizarre - 奇怪的
+ bof - 诶
+ ce - 这只, 这瓶, 这支, 这个, 那门, 这颗, 那幅, 这桩, 这名, 这款, 这家, 那趟, 这套, 那艘, 那班, 那座, 这匹, 这门, 这棵, 这篇, 对此, 那道, 那本, 这辆, 那面, 这堂, 这杯, 这座, 这一, 那节, 这, 这架, 这份, 本届, 这些, 这顿, 这幅, 那个, 这艘, 这块, 这部, 这所, 这把, 这道, 这条, 这顶, 这趟, 那名, 那起, 这件, 那片, 这班, 这场, 那辆, 这片, 那位, 这本, 这列, 此, 这张, 那场, 这具, 这根, 这笔, 这位, 本场, 这节, 那款
+ ces - 这副, 那些, 这, 这些, 这双, 这把, 那, 那双
+ cette - 这只, 这支, 这个, 这颗, 这首, 这台, 这名, 这款, 这家, 那枚, 那颗, 那座, 这门, 这口, 这种, 这篇, 这枚, 这次, 这辆, 这项, 这封, 那张, 这号, 这则, 那段, 这座, 那次, 这, 这幢, 这份, 那株, 这幅, 这株, 这块, 那支, 这部, 这所, 这扇, 这出, 这道, 这朵, 这处, 这条, 这顶, 这趟, 那条, 那头, 这档, 这件, 那片, 那首, 这盏, 这场, 那位, 那局, 那朵, 那, 这户, 这头, 此, 这张, 那栋, 这根, 这届, 这位, 那封, 这节, 这匹
+ chaussure - 鞋子
+ court - 短的
+ en - en, 对此, 一些, 打着, 之内, 穿, 之中, 那个, 内, 在, 用时, 去, 从中, 儿里
+ essayer - 试着, 一试, 尝试, 试试, 试一试, 着, 试用, 试一下, 试, 尽量, 里试, 尽力
+ gris - 灰色的
+ jupe - 裙子
+ long - 长的
+ longue - 悠久, 很长的, 漫长, 长篇, 长长的, 悠, 长, 长途
+ moche - 丑的
+ pantalon - 裤子
+ parfait - 完美的, 完美, 太好了
+ porter - 戴, 带, 担, 携带, 佩戴, 携, 穿, 戴帽子, 穿厚, 提, 佩, 着, 抱狗, 穿戴
+ t-shirt - T恤衫
+ un peu - 有点
+ veste - 夹克
+ vieille - 老的, 旧旧, 老, 旧, 年老
+ vieux - 旧的
+ vêtement - 服装
+29 Price 讨论价格
+ album - 专辑
+ auteur - 作家
+ autre - 另一
+ autres - 另外, 其他的, 别的, 另外的, 其他, 他人
+ centime - 分钱
+ cet - 这只, 这个, 这台, 这名, 这家, 这棵, 这篇, 那台, 这封, 那张, 这栋, 那次, 这, 那篇, 这间, 那年, 这起, 那名, 那根, 这件, 这场, 这张, 这笔, 此次, 这位, 那笔
+ choix - 选择
+ combien - 多少钱
+ coûter - 要
+ de - 个, 从, 上, 之, 种, 来自, 的, 要, 对, 离, 能, de
+ en promotion - 在促销
+ gratuit - 免费的
+ groupe - 乐队
+ lourd - 重的
+ musique - 音乐
+ prends - 请假, 戴, 带, 乘坐, 上, 拿张, 走, 拍, 吃, 搭乘, 拿脏, 打车, 带上, 坐火车, 乘火车, 照相, 乘车, 买, 过弯, 拿, 喝, 立下
+ prenez - 带, 拿点, 乘坐, 上, 吃, 搭乘, 提, 坐火车, 买, 拿, 喝, 认真对待
+ roman - 小说
+ ticket de caisse - 收据
+ vingt - 二十
+ voudrait - 想要
+ ça - 这个, 这, 那个, 那样, 那, 样子, 这样, ç
+ ça fait - 这要
+30 Mystery 使用定冠词在元音和"h"之前
+ acteur - 演员
+ actrice - 女演员, 演员, 影视明星
+ arbre - 树
+ arrête - 止, 停止, 遏
+ blague - 笑话
+ blond - 金发的
+ ce - 这只, 这瓶, 这支, 这个, 那门, 这颗, 那幅, 这桩, 这名, 这款, 这家, 那趟, 这套, 那艘, 那班, 那座, 这匹, 这门, 这棵, 这篇, 对此, 那道, 那本, 这辆, 那面, 这堂, 这杯, 这座, 这一, 那节, 这, 这架, 这份, 本届, 这些, 这顿, 这幅, 那个, 这艘, 这块, 这部, 这所, 这把, 这道, 这条, 这顶, 这趟, 那名, 那起, 这件, 那片, 这班, 这场, 那辆, 这片, 那位, 这本, 这列, 此, 这张, 那场, 这具, 这根, 这笔, 这位, 本场, 这节, 那款
+ chanteur - 歌手
+ chanteuse - 歌手, 女歌手
+ célèbre - 有名的
+ en fait - 其实
+ entrer - 走进
+ femme - 女人
+ grand - 大, 大的, 伟, 大型, 更大, 优秀的, 高大, 好大, 大获, 大型的, 越大, 伟大, 伟大的, 一大, 高, 大绿, 宽敞明亮
+ homme - 男人
+ hôtel - 酒店
+ lunettes - 眼镜
+ petit - 矮, 小, 小而, 小小的, petit, 崽, 小型, 家小, 很矮, 仔, 小的, 渺小, 小朋友
+ quel - 哪
+ quelle - 哪张, 多么, 哪一家, 如此, 哪一首, 哪一把, 哪个, 哪间, 哪所, 哪台, 哪一位, 哪位, 哪则, 哪座, 哪一条, 哪一个, 哪份, 哪一, 哪一辆, 什么, 哪件, 哪根, 哪门, 哪辆, 哪条, 哪场, 哪, 哪项, 哪部, 何等, 哪一号, 哪一部
+ triste - 难过的
+ vois - 不见, 我见, 看见, 见, 看, 看到, 视, 见到
+ vrai - 真的
+ à droite de - 在演员的右边, 树的右边, 树右边, 在蓝色房子的右边, 在门的右边, 在树的右边, 在这个商店的右边, 蓝色房子右边, 在酒店的右边, 在车的右边
+ à gauche de - 在...左边, 左边
+31 Weekend 计划你的周末
+ allez - 走, 没事, 将会, 去, 会, 加油, 加把劲
+ après-midi - 下午
+ dimanche - 星期天
+ du temps - 一段时间
+ elle - 她, 它
+ en - en, 对此, 一些, 打着, 之内, 穿, 之中, 那个, 内, 在, 用时, 去, 从中, 儿里
+ en ville - 在城市里
+ fais - 办, 发出声音, 留心, 拍电影, 我犯, 炼, 注意安全, 我扮, 犯错, 做华夫, 犯错误, 做, 我许, 假装, 使, 生闷气, 做作业, 面对
+ faites - 手工, 考得, 做, 做坏, 迈得
+ gentil - 很好
+ lui - 他, 给他, 跟她, 向她, 向他, 给她, 对他, 她, 跟他, 彼
+ moi - 我, 给我
+ musée - 博物馆
+ pourquoi pas - 为什么不
+ prochain - 下
+ rentrer - 回, 回去, 回得去
+ samedi - 星期六
+ semaine - 星期
+ tard - 很晚
+ toi - 你, 妳, 侬
+ train - 火车
+ vendredi - 星期五
+ venez - 来, 去, 刚
+ village - 村庄
+ visiter - 参观
+ à la campagne - 在乡下, 乡下
+ église - 教堂
+32 Vacation 谈论旅行计划
+ au - 给, 到, 向, 在, 对, 跟, 去, au
+ bar - 酒吧
+ combien de - 几, 几条, 几本, 几个, 几张, 多少件, 多少幢, 几套
+ cool - 酷, 很酷, 潮酷
+ dors - 睡觉, 睡, 觉, 睡得, 睡个
+ elles - 它们, 她们, 们
+ en - en, 对此, 一些, 打着, 之内, 穿, 之中, 那个, 内, 在, 用时, 去, 从中, 儿里
+ en vacances - 休假
+ eux - 他们
+ jour - 天, 几号, 一天, 昼, 日子, 天会, 白昼
+ jusqu'à - 等到, 直到现在, 到, 直到, 甚至
+ lundi - 星期一
+ mardi - 星期二
+ mercredi - 星期三
+ midi - 中午
+ minuit - 午夜
+ nous - 为我们, 咱们, 向我们, 给我们, 彼, 对我们, 咱, 我们, 跟我们, 们, 本会
+ pars - 离开, 出发去, 出发
+ part - 离开, 出发, 走掉, 块, 去, 开行
+ partez - 出发, 离开, 去
+ pendant - 时别, 期间, 中要, 间别
+ plage - 沙滩
+ serveur - 服务员
+ serveuse - 服务员, 务
+ soirée - 晚会
+ surfer - 冲浪
+ vous - 您们, 你们, 和你们, 向你们, 和您, 你, 为你们, 给你们, 您, 妳们, vous
+ être - 是
+33 New Outfit 购买衣服
+ aide - 帮助
+ an - 年
+ beaucoup de - 很多
+ bon - 课好, 好, 好喝, 好闻, 好吃的, 太行, 不错, 状况良好, 对的, 很好吃, 好喝的, 良, 美好的, 代金券, 良好
+ chaussette - 袜子
+ chéri - 亲爱的, 宝贝
+ chérie - 婆, 亲爱的, 老婆
+ couleur - 颜色
+ depuis - 前起, 从, 以来, 自二零一, 自从, 大起, 早就
+ désolé - 抱歉
+ mauvais - 很糟, 难闻, 恶劣, 难吃, 不好, 差, 好差, 不差, 糟糕, 太差, 低劣, 太糟, 恶, 差劲, 错误, 糟, 歹
+ même - 同样的
+ onze - 十一
+ pantalons - 裤子
+ question - 问题
+ regarde - 看时, 看电视, 看吧, 事看, 看, 看剧, 瞧, 看墙, 看看, 别看
+ seulement - 只
+ taille - 尺码
+ tous - 所有的, 都, 所有, 大家, 皆, 全都会, 全部, 所有人, 一同, 全员, 所有都, 一齐
+ toutes - 所有的, 每, 所有, 全都, 全部
+ truc - 东西, truc, 玩意儿, 点子
+ écharpe - 围巾
+34 Nature 描述你的周围环境
+ animal - 动物
+ animal de compagnie - 宠物
+ automne - 秋天
+ blanc - 白色的
+ blanche - 白色的, 白色, 白
+ cheval - 马
+ connaissent - 知道, 识, 认得, 认, 了解, 认识, 了如指掌
+ connaît - 知道, 晓, 识, 认得, 人人皆知, 认, 了解, 认识, 知晓
+ différent - 不同的
+ fleur - 花
+ gentil - 亲切的
+ gentille - 亲切, 和善, 善良, 人好
+ grand-parent - 祖父母
+ hiver - 冬天
+ nom - 名字
+ poisson - 鱼
+ printemps - 春天
+ pêcher - 钓鱼
+ rivière - 河
+ saison - 季节
+ été - 夏天
+35 Coffee? 使用部分冠词
+ avec plaisir - 我很乐意
+ beurre - 黄油
+ bois - 树林, 喝啤酒, 喝点, 饮, 喝牛奶, 喝酒, 喝一杯, 喝咖啡, 在喝, 正在喝, 喝, 木头
+ boit - 喝啤酒, 喝得, 喝酒, 喝咖啡, 喝, 喝奶
+ confiture - 果酱
+ céréales - 麦片
+ de l' - 的
+ de la - 一些
+ du - 从, 一些, 的, 杜, 对, du
+ encore - 还
+ fait - 干什么, 怎么弄, 闹出, 干吗, 不办, 办, 无妨, 干得, 手工, 迈出, 考得, 办理, 让, 拍电影, 引起轰动, 迈, 做过, 付出, 在做, 结交, 发愁, 出牙, 做华夫, 做, 炒, 犯小, 假装, 弄, 使, 生闷气, 风让, 事实, 办到, 做够, 做出, 发出, fait
+ frigo - 冰箱
+ jus - 汁
+ jus d'orange - 橙汁
+ lait - 牛奶
+ le matin - 早上
+ met - 搽, 放进, 穿, 凸, 放, 他放, 凸显, 上放, 放在首位
+ mets - 放醋, 戴上, 戴, 涂到, 换上, 我放, 搽, 放进, 着手, 把, 穿, 放糖, 里装, 放, 放在首位, 放小, 放到, 只放, 弄成
+ miel - 蜂蜜
+ pain - 面包
+ pomme - 苹果
+ prends - 请假, 戴, 带, 乘坐, 上, 拿张, 走, 拍, 吃, 搭乘, 拿脏, 打车, 带上, 坐火车, 乘火车, 照相, 乘车, 买, 过弯, 拿, 喝, 立下
+ œuf - 鸡蛋
+36 At the gym 谈论运动
+ après - 后带, 后, 过后, 事后, 接着, 经过, 书后, 之后, 后满, 完后, 后头
+ basket - 篮球
+ d'habitude - 通常
+ danse - 舞蹈
+ du sport - 运动
+ du yoga - 瑜伽
+ détendu - 放松的
+ faire - 闹出, 搞, 办, 做点, 交新, 办点, 生火, 做蕾娅, 交好, 迈出, 考得, 逛街, 办理, 煮, 拍电影, 引起轰动, 迈, 做一套, faire, 付出, 煮汤, 做, 骑骑, 弄个, 假装, 弄, 使, 做个, 盘个, 组队
+ fais - 办, 发出声音, 留心, 拍电影, 我犯, 炼, 注意安全, 我扮, 犯错, 做华夫, 犯错误, 做, 我许, 假装, 使, 生闷气, 做作业, 面对
+ faisons - 做到, 交朋友, 发愁, 做, 竭尽所能, 弄, 做个, 做饭, 组队
+ fois - 次
+ font - 干吗, 办, 让, 做, 发出, 做华夫
+ maillot de bain - 泳衣
+ mois - 月
+ moto - 摩托车
+ natation - 游泳
+ par - 相对, 从, 由, 通过, 出于, 对, 药由
+ salle de sport - 健身房
+ serviette - 毛巾
+ travail - 工作
+ une fois - 一次
+ vraiment - 真的
+ à - 给, 于, 至, 来, 念, 靠, à, 的, 到, 向, 在, 对, 离, 跟, 三到, 去, 之内
+ à côté de - 旁边
+ à pied - 走路
+37 Music 谈论音乐
+ angleterre - 英格兰
+ artiste - 艺术家, 表演者
+ batterie - 鼓
+ botte - 靴子
+ chanson - 音乐
+ festival - 音乐节
+ guitare - 吉他
+ il pleut - 雨下得, 下雨了
+ instrument - 乐器
+ jazz - 爵士乐
+ jouer - 中玩得, 上扮, 打网球, 战下, 扮, 玩儿, 中玩, 演出, 玩耍, 出演, 打牌, 演, 耍, 弹钢琴, 玩吧, 打球, 玩电脑, 饰演, 拉, 会弹, 演奏, 玩, 打麻将, 扮演, 踢足球, 起到
+ musicien - 音乐家
+ musicienne - 女音乐家, 音乐家
+ parce qu' - 因为
+ piano - 钢琴
+ préféré - 最喜欢的
+ rock - 摇滚乐
+ tout le temps - 一直
+ violon - 小提琴
+ ça - 这个, 这, 那个, 那样, 那, 样子, 这样, ç
+ écouter - 听
+ écris - 写过信, 在写, 正在写, 写信, 笔写, 写日记, 写, 时写
+38 Hotel 使用情态动词表示义务
+ appeler - 工打个, 打电话, 唤, 相称, 喊一声, 报警, 称呼, 喊出
+ appelle - 呼唤, 打电话, 叫, 称呼, 号召
+ avant - 之前, 前吵, 以前, 前会, 前先, 往前, 在之前, 前, 饭前, 先, 前要, 前头
+ chambre - 房间
+ client - 客人
+ couloir - 走廊
+ de l'après-midi - 下午
+ devez - 须, 应该, 必须, 应当
+ dois - 须, 不得不, 只好, 应该, 必须, 欠
+ doit - 欠, 该帮, 只得, 非得, 应该, 必须, 想必, 劳拉要
+ doivent - 须, 应该, 必须, 需在
+ dorment - 睡觉, 睡, 觉
+ du matin - 早上
+ du soir - 晚上
+ en vacances - 度假
+ nuit - 夜色, 夜间, 夜, 一夜, 晚安, 夜晚, 晚, 夜幕, 宵, 之夜, 夜班, 害, 夜要
+ ok - 好的
+ partir - 离开, 出发, 人去, 出去, 启程, 生去
+ personne - 人
+ pour - 给整, 为了, 而言, 因为, 而, 给, 当, 适合, 来, 用于, 人用, 用来, 会为, 的, 飞往, 来放在, 对于, 支持, 来做, 对, 来说, 地为, 水给, 以, 为, 替, 起见
+ réserver - 预订
+ tôt - 很早
+ valise - 手提箱, 行李箱
+ wifi - 无线网络
+39 At work 管理工作任务
+ absent - 缺席的
+ assistant - 助理
+ assistante - 助理
+ au - 给, 到, 向, 在, 对, 跟, 去, au
+ avoir - 有
+ bureau - 署, 局, 办公桌, 书桌, 办公室, 张, 书房, 办事处
+ chaque - 每个
+ du - 从, 一些, 的, 杜, 对, du
+ employé - 员工
+ employée - 员工
+ encore - 又
+ jeune - 年轻的
+ nouvel - 新, 新的, 新来
+ ordinateur - 电脑
+ peut - 他会, 能够, 上能, 不能, 可以, 剑能, 能, 可能, 美会, 茶能
+ peux - 时能, 不能, 可以, 我能, 可, 能, 无法, 不起
+ pouvez - 可以, 能, 可
+ prendre - 拿
+ problème - 问题
+ sûrement - 肯定
+ toilettes - 厕所
+ une pause - 休息
+ utiliser - 用
+ veulent - 不要, 想要, 不想, 要付
+40 Exam 讨论考试
+ aller - 去
+ de - 个, 从, 上, 之, 种, 来自, 的, 要, 对, 离, 能, de
+ dictionnaire - 词典
+ examen - 考试
+ exercice - 练习
+ lire - 阅读
+ mauvais - 差的
+ mot - 单词
+ note - 分数
+ peuvent - 可以, 可, 狗能, 能, 可能, 猫会
+ phrase - 句子
+ quelques - 几条, 几名, 几块, 一些, 几份, 几座, 几本, 几个, 几棵, 几场, 几位, 几首, 短短, 几家, 几幅, 几课, 几班, 几, 几粒, 几道, 几张, 几片, 几根, 几颗
+ réponse - 答案
+ répéter - 重复
+ sais - 知道, 会弹, 知道怎么, 不会, 知, 会, 并不知道
+ sait - 知道, 知不知道, 晓得, 知道怎么, 美会, 会, 不知
+ savez - 知道, 不会, 会, 并不知道
+ stylo - 笔
+ traduire - 翻译
+ écrire - 写
+ écrit - 写过信, 写字, 地写, 写信, 诗写, 写, 写给
+ étudier - 努力学习, 留学, 该学, 认真学习, 究, 攻读, 学习, 研究, 念书
+41 Phone 和朋友制定计划
+ allô - 喂
+ alors - 所以
+ choisir - 选
+ commander - 叫
+ dîner - 进晚餐, 吃晚饭, 晚饭, 聚餐, 吃晚餐, 晚餐, 晚宴
+ et demie - 半
+ et quart - 一刻
+ finir - 完辣, 做完, 结束, 下班, 收尾, 选完
+ finit - 做完, 结束, 完, 下班, 做完作业
+ jeudi - 星期四
+ libre - 空着, 有空, 有空时, 空闲, 闲
+ ou pas - 还是不
+ quoi de neuf - 有什么新鲜事
+ seconde - 秒
+ sonner - 响
+ sous - 下, 底下, 下面, 手下
+ sushi - 寿司
+ téléphone - 电话
+ vers - 他朝, 朝着, 左右, 去往, 走向, 往, 地向, 朝, 半左右, 诗节, 将近, 蚯
+ vin - 葡萄酒
+ à - 给, 于, 至, 来, 念, 靠, à, 的, 到, 向, 在, 对, 离, 跟, 三到, 去, 之内
+ ça marche - 可以
+42 Weather 谈论天气
+ alpes - 阿尔卑斯山, 阿尔卑斯, 阿尔卑斯山脉
+ au printemps - 在春天
+ beau - 帅气, 英俊, 很好, 美丽的, 好, 漂亮的, 美丽, 好帅, 天晴, 美的, 不帅, 美好, 好看, 美, 俊, 帅, 美好的, 好看的, 优美
+ chaud - 热的
+ ciel - 天空
+ degré - 度
+ dehors - 外面
+ douze - 十二
+ en - en, 对此, 一些, 打着, 之内, 穿, 之中, 那个, 内, 在, 用时, 去, 从中, 儿里
+ fait - 干什么, 怎么弄, 闹出, 干吗, 不办, 办, 无妨, 干得, 手工, 迈出, 考得, 办理, 让, 拍电影, 引起轰动, 迈, 做过, 付出, 在做, 结交, 发愁, 出牙, 做华夫, 做, 炒, 犯小, 假装, 弄, 使, 生闷气, 风让, 事实, 办到, 做够, 做出, 发出, fait
+ froid - 冷的
+ fromage - 奶酪
+ il - 他, 它, 们, 彼
+ jouer - 中玩得, 上扮, 打网球, 战下, 扮, 玩儿, 中玩, 演出, 玩耍, 出演, 打牌, 演, 耍, 弹钢琴, 玩吧, 打球, 玩电脑, 饰演, 拉, 会弹, 演奏, 玩, 打麻将, 扮演, 踢足球, 起到
+ lunettes de soleil - 太阳镜
+ montagne - 山
+ mouillé - 湿的
+ neiger - 下雪
+ nuage - 云
+ parapluie - 雨伞
+ pluie - 雨
+ skier - 滑雪
+ sortir - 上市, 外出, 出来, 冒出来, 挑出来, 下床, 掏出, 出门, 出去, 取出, 掏, 出院, 出新, 拿出, 上映, 逃出, 出国, 谈恋爱, 生去
+ temps - 天气
+ tout de suite - 立刻
+ venir - 来, 来看, 过来, 去, 来换
+ vent - 风
+43 Yikes! 说出时间并讨论日程
+ attendez - 等一下, 等待, 等, 候
+ attendre - 候, 地盼, 正等待, 等一等, 等待, 等, 等候, 听候, 等到
+ attends - 期待, 等一下, 等, 等等, 等候
+ au téléphone - 讲电话
+ avant - 之前, 前吵, 以前, 前会, 前先, 往前, 在之前, 前, 饭前, 先, 前要, 前头
+ banque - 银行
+ banquier - 银行员
+ banquière - 女银行家
+ boîte aux lettres - 邮筒
+ carte postale - 明信片
+ colis - 包裹
+ encore - 还
+ envoyer - 发射, 发送到, 发完, 遣, 发短信, 发给, 寄, 发, 寄到, 发送, 寄往, 送出去, 寄出, 寄信, 推送
+ fermer - 关门
+ il est - 他, 在, 现在是, 很
+ il est quelle heure - 现在几点了
+ la queue - 队伍, 排队
+ ouvre - 打开, 启, 开门, 睁开, 它开, 张嘴, 张得, 开一, 开启, 睁, 敞开
+ poste - 邮局
+ presque - 快到, 几乎, 差不多, 乎, 差点, 快要, 差一点
+ rendez-vous - 约
+ réveil - 闹钟
+ timbre - 邮票
+ urgent - 紧急的
+ vingt-cinq - 二十五
+44 Travel 准备旅行
+ affaires - 东西
+ ascenseur - 电梯
+ bagage - 行李
+ c'est bon - 好了
+ ce sont - 他们是, 她们是
+ d'abord - 先
+ en panne - 故障了
+ fille - 女孩
+ garçon - 男孩
+ heureusement - 幸好
+ léger - 轻的
+ légère - 很轻, 清淡, 微, 轻, 轻微, 淡, 汤不重
+ moins - 差
+ nos - 我们的
+ porter - 提
+ prendre - 请假, 摄, 带, 坐地铁, 乘坐, 上, 立下, 走错, 服下, 拍, 吃, 养成, 作出, 拍出, 拍下, 拍摄, 夺走, 打车, 抽出, 接个, 带上, 拍照, 记个, 拿件, 拍自, 量体温, 照相, 量, 吃顿, 采取, 服用, 抢走了, 我取, 要取, 吕克拿起, 要休, 做出, 拿, 带伞, 喝, 占用
+ préparer - 准备
+ s' - 如果, 是不是
+ si - 如此, 的话, 那么, 是不是, 这么, 若, 如果, 能否, 假如, 要是, 是否, 若是, 斯, si
+ vos - 您的, 妳们的, 你们的, 你们
+ vérifier - 查, 查看, 检查一下, 核对, 验证, 查一查, 要查, 校对, 检查, 查验, 核实, 检, 核查, 对照
+ à - 给, 于, 至, 来, 念, 靠, à, 的, 到, 向, 在, 对, 离, 跟, 三到, 去, 之内
+ à qui - 是谁的
+45 Chat 在线聊天
+ Internet - 网络
+ blog - 博客
+ cuisine - 厨房用, 烹饪, 美食, 厨房, 菜, 正在做饭, 做, 厨, 做饭, 在做饭, 做菜, 烹
+ de - 个, 从, 上, 之, 种, 来自, 的, 要, 对, 离, 能, de
+ de quelle couleur - 什么颜色的
+ drôle - 好笑的
+ l'air - 空气, 晕机, 看起来, 一脸
+ mode - 时尚
+ partager - 分享
+ photo - 照片
+ poster - 发
+ recette - 食谱
+ rouge - 红色的
+ sa - 他, 他的, 她, 她的, 它, 萨
+ ses - 他, 他的, 她, 她的, 它, 其
+ site internet - 网站
+ son - 音, 他, 嗓音, 声音, 他的, 她, 她的, 音效, 声, 音响
+ sur - 给, 上, 临, 关于, 在, 乘, 上下, r
+ vidéo - 视频
+ vie - 生活
+ voyage - 旅行
+46 Our family 谈论你的家庭
+ avoir - 取得, 有, 要个, 拿到, 版有
+ ballon - 气球, 球
+ bougie - 蜡烛
+ comment - 好吗
+ célibataire - 单身的
+ fêter - 庆祝
+ gros - 大的
+ inviter - 邀请
+ jaune - 黄色的
+ leur - 她们, 给他们, 她们的, 向她们, 他们, 他们的, 向他们, 给她们
+ leurs - 他们的, 她们的
+ marié - 结婚了
+ mignon - 可爱的
+ petit-enfant - 孙子孙女
+ petit-fils - 孙子
+ petite-fille - 孙女
+ quel âge - 几岁
+ tes - 你的, 你, 妳的, tes
+ tout - 所有的, 共, 都, 所有东西, 整栋, 一整, 十分, 满脸, 整个, 整趟, 一切, 整块, 一切都是, 皆, 事事, 全部, 全, 整家, 凡事, 全都, 整, 整张
+ toute - 整整, 所有的, 都, 一整, 整个, 一整条, 他整, 全部, 全, 整, 整张
+ trente - 三十
+ trente-deux - 三十二
+ trente-et-un - 三十一
+ à l'étranger - 在外国
+ âge - 年龄
+47 Healthy 讨论锻炼
+ avant de - 在……前
+ banane - 香蕉
+ besoin de - 需要
+ boire - 喝下, 喝, 完奶
+ car - 车
+ chocolat - 巧克力
+ confortable - 舒服的
+ courir - 跑步
+ cours - 一堂, 大课, 课里, 跑步, 节课, 课, 课程, 讲课, 四节课, 一堂课, 跑得, 跑, 上课, 门课, 课会, 课堂
+ court - 跑步, 跑得, 简短
+ dormir - 睡觉, 睡, 睡不着, 睡上, 觉, 睡得, 睡过去
+ dort - 睡觉, 睡, 在睡觉, 睡得, 觉
+ en ce moment - 这会儿
+ ensuite - 然后
+ envie de - 想要, 想
+ essayer - 试试
+ est-ce que - 吗, 是否, 是不是
+ kilomètre - 公里
+ lis - 读, 阅, 阅读, 读得, 我读, 看漫
+ moi aussi - 我也是
+ qu' - 多么, ', 的, 什么事, 什么, 比去, qu
+ quand - 的时候, 何时, 几时, 当, 什么时候, 时候, 时会
+ short - 短裤
+48 Trip 计划你的旅行
+ Opéra - 歌剧院
+ art - 艺术
+ cher - 贵的, 昂贵, 很贵, 更贵, 亲, 太贵, 贵不贵, 太高, 贵, 可贵
+ commencer - 开始
+ comment - 怎么
+ derrière - 身后, 背后, 后面, 后头
+ devoir - 欠, 将要, 后该, 作业, 责任, 职责, 不可, 生要
+ dormons - 睡觉, 睡, 觉
+ expo - 展览
+ guide - 指南
+ moderne - 现代的, 现代, 先进, 当代
+ monument - 纪念建筑
+ métro - 地铁
+ parisien - 巴黎
+ pièce - 房里, 戏剧, 证件, 房间, 件, 一出, 枚, 戏里, 戏, 一出戏, 藏品, 剧, 出戏, 条, 颗, 曲子, 房含
+ premier - 第一
+ première - 首映式, 首个, 首, 第一辆, 第一把, 第一, 第一枚, 首映, 初次, 第一根, 第一套, 第一项, 首次, 第一个, 首映礼, 第一条, 第一篇
+ quelles - 多么, 哪些
+ quels - 什么, 多么, 如此, 哪些
+ station - 车站, 基地
+ théâtre - 剧院
+ ticket - 票
+ tour eiffel - 埃菲尔铁塔
+ visite - 参观
+ voir - 看
+ vois - 不见, 我见, 看见, 见, 看, 看到, 视, 见到
+ voit - 看见, 见, 看, 看到, 视
+49 Time Off 使用最近将来时
+ apprendre - 多学, 得知, 学得会, r, 对学, 学, 学着点, 学习, 教, 学会, 学到, 会得
+ beaucoup de monde - 很多人
+ bruit - 音, 动静, 噪, 噪音, 响动, 喧, 哗, 声响, 声音, 噪声, 一声, 声, 闹腾
+ camper - 露营者, 露营
+ chouette - 猫头鹰, 真牛
+ des - 一些, 的
+ entendre - 听见, 所闻, 听, 合得来, 听得出来, 听不见, 听到, 听得见
+ forêt - 森林, 树林
+ moustique - 蚊子
+ nature - 大自然, 自然, 野外, 然, 原味, 脾气
+ oiseau - 小鸟, 鸟, 禽
+ ours - 熊
+ par terre - 在地上
+ pas - 不小, 没, 步子, 步, 不用, 不高, 一步, 脚步, 过步, 不是, 没有, 不, 步伐
+ peur - 害怕, 怕, 怖, 恐惧, 恐, 好怕
+ randonnée - 远足
+ rencontrer - 遇见, 会见, 见个面, 见面, 拜访, 碰到, 相识, 碰上, 碰面, 见见, 遇到, 遇, 个面, 当面
+ sac à dos - 背包
+ sauvage - 野生的, 野性, 野, 荒郊野外, 野生, 荒野
+ tente - 帐, 帐篷, 篷
+ trouver - 哪里找, 找出, 找到, 找个, 查出, 猜出
+ énorme - 庞, 巨大的, 庞大, 超大
+50 Beauty 购买健康和卫生用品
+ bon - 香的
+ brosse à dents - 牙刷
+ bébé - 宝宝
+ caisse - 收银台
+ cheveux - 头发
+ crème solaire - 防晒霜
+ dent - 牙齿
+ dentifrice - 牙膏
+ douche - 澡, 个澡, 淋浴间, 淋浴
+ il n'y a - 没有
+ ils - 他们
+ non plus - 也, 也不, 也没有
+ qu'est-ce que - 怎么样, 什么, 如何, 怎样
+ quelque chose - 些什么
+ ranger - 收拾
+ salle de bain - 浴室
+ savon - 肥皂
+ sent - 闻起来, 感到, 臭得
+ shampoing - 洗发水
+ tant pis - 算了
+ tiroir - 抽屉
+ treize - 十三
+ vendent - 卖, 卖得, 卖票, 出售
+ vendons - 出售, 卖, 销售
+51 In love 使用否定句
+ amoureuse - 爱, 恋爱了, 爱上
+ amoureux - 恋人, 恩爱, 恋人们, 爱, 爱河, 恋爱, 爱人, 相爱, 男友
+ arrêt de bus - 公交车站
+ comprendre - 体谅, 理会, 看得懂, 能看懂, 理解, 弄懂, 猜出, 搞不清楚, 谅, 读懂, 懂, 理出, 了解, 看不懂, 会得
+ dedans - 里面
+ dis - 告, 诉, 总, 说, 告诉, 说声, 吭
+ facile - 容易的
+ heureuse - 很快乐, 快乐, 福
+ heureux - 快乐的
+ inquiet - 担心的
+ inquiète - 忧, 着急, 担忧, 担心, 很着急
+ jamais - 从不
+ je crois que - 我相信
+ message - 消息
+ plus - 更, 更加, 比较, 最, 多一些, 多一点, 多点, 不了, 越, plus, 更为, 更多, 些, 越为, 越高
+ rien - 什么都不
+ réponds - 别接, 回复, 顶嘴
+ sors - 出门, 出去, 出院, 谈恋爱
+ sortons - 出门, 出去, 谈恋爱
+ tout à l'heure - 待会儿
+ à - 给, 于, 至, 来, 念, 靠, à, 的, 到, 向, 在, 对, 离, 跟, 三到, 去, 之内
+52 Teenager 表达感受
+ ado - 青少年
+ apprend à - 学会, 学
+ apprenez - 学, 学些
+ apprennent - 学得, 学, 孙辈教
+ apprenons - 学, 学得
+ collège - 中学
+ compliqué - 复杂的
+ comprenez - 理解, 了解, 懂, 明白
+ comprennent - 知道, 理解, 明白, 懂得, 懂, 了解, 懂花
+ comprenons - 理解, 明白, 懂得, 懂, 了解, 听不懂
+ devoirs - 家庭作业
+ dix-sept - 十七
+ j'en ai marre - 我受够了
+ la vaisselle - 碗碟
+ mal - 不好
+ normal - 正常的
+ paresseuse - 懒惰, 懒
+ paresseux - 懒的
+ quatorze - 十四
+ quinze - 十五
+ seize - 十六
+ situation - 情况
+ stressé - 紧张的
+ vivre - 活, 生活, 过像, 活着, 为生, 碰上
+53 Going out 点餐和饮料
+ addition - 账单
+ alcool - 酒
+ chose - 东西
+ commander - 点餐, 订餐, 订过, 点单, 叫外卖, 订, 点菜, 下单
+ cuillère - 勺子
+ dernier - 最后的
+ dernière - 最后一, 最后的, 最后, 上次
+ entrée - 头盘
+ frites - 薯条
+ jus de fruits - 果汁
+ menu - 套餐
+ plat - 菜
+ poisson - 条鱼, 鱼, 鱼时, 那家鱼
+ prendre - 请假, 摄, 带, 坐地铁, 乘坐, 上, 立下, 走错, 服下, 拍, 吃, 养成, 作出, 拍出, 拍下, 拍摄, 夺走, 打车, 抽出, 接个, 带上, 拍照, 记个, 拿件, 拍自, 量体温, 照相, 量, 吃顿, 采取, 服用, 抢走了, 我取, 要取, 吕克拿起, 要休, 做出, 拿, 带伞, 喝, 占用
+ quel est - 是多少, 是什么
+ rose - 粉色的
+ réfléchir - 考虑
+ salade de fruits - 水果沙拉
+ salé - 咸的
+ sucré - 甜的
+ verre - 玻璃杯, 酒杯, 璃, 杯, 玻, 杯子, 玻璃, 窗玻璃
+ viande - 肉
+ voilà - 这就是
+ végan - 纯素食, 纯素食者
+54 Doctor 谈论你的健康
+ assez - 够
+ bon courage - 加油
+ buvez - 喝
+ chocolat chaud - 热巧克力
+ depuis - 前起, 从, 以来, 自二零一, 自从, 大起, 早就
+ dos - 背
+ en train de - 正在, 在
+ faire - 闹出, 搞, 办, 做点, 交新, 办点, 生火, 做蕾娅, 交好, 迈出, 考得, 逛街, 办理, 煮, 拍电影, 引起轰动, 迈, 做一套, faire, 付出, 煮汤, 做, 骑骑, 弄个, 假装, 弄, 使, 做个, 盘个, 组队
+ gorge - 喉咙
+ grave - 严重的
+ mal au - 痛
+ mal à la - 喉咙痛, 头痛
+ malade - 生病了的
+ mouchoir - 纸巾
+ médicament - 药
+ patient - 病人
+ pharmacie - 药店
+ rendez-vous - 预约, 约见, 约, 约会, 赴约
+ salle d'attente - 候诊室
+ tousser - 咳嗽
+ tête - 头
+ ventre - 肚子
+55 Routine 2 使用反身动词
+ baignoire - 浴缸
+ brosse - 梳子
+ comme d'habitude - 跟平常一样
+ en avance - 提前
+ grand - 大, 大的, 伟, 大型, 更大, 优秀的, 高大, 好大, 大获, 大型的, 越大, 伟大, 伟大的, 一大, 高, 大绿, 宽敞明亮
+ jean - 牛仔裤
+ journée - 日, 一天, 白天
+ me - 我, 为我, 向我, 给我
+ miroir - 镜子
+ pain au chocolat - 巧克力面包
+ parfum - 香水
+ partout - 到处
+ pour - 给整, 为了, 而言, 因为, 而, 给, 当, 适合, 来, 用于, 人用, 用来, 会为, 的, 飞往, 来放在, 对于, 支持, 来做, 对, 来说, 地为, 水给, 以, 为, 替, 起见
+ pyjama - 睡衣
+ s'habiller - 穿衣服
+ se - 自己, se
+ se coiffer - 梳头发
+ se doucher - 洗澡
+ se lever - 起床
+ te - te, 为你, 跟你, 你, 给你, 妳, 向你, 你介
+ tout seul - 自己
+ toute seule - 自己
+56 Lifestyle 谈论日常作息
+ agréable - 令人愉快的
+ bibliothèque - 图书馆
+ frais - 新鲜的
+ fraîche - 新鲜, 鲜, 清凉
+ fruit - 水果
+ grand - 大, 大的, 伟, 大型, 更大, 优秀的, 高大, 好大, 大获, 大型的, 越大, 伟大, 伟大的, 一大, 高, 大绿, 宽敞明亮
+ jouet - 玩具
+ levez - 请举, 起, 起床, 举高
+ lisent - 读, 阅读, 阅
+ lisez - 阅, 阅读, 上读
+ magazine - 杂志
+ marché - 市场
+ nous - 为我们, 咱们, 向我们, 给我们, 彼, 对我们, 咱, 我们, 跟我们, 们, 本会
+ petit - 矮, 小, 小而, 小小的, petit, 崽, 小型, 家小, 很矮, 仔, 小的, 渺小, 小朋友
+ plus tard - 更晚
+ poire - 梨子
+ promenez - 散步
+ quelque chose de - 一些不同的东西, 一些简单的东西, 一些好的东西, 一些新的事情, 一些美丽的东西
+ s'amuser - 玩乐
+ se dêpécher - 赶
+ se promener - 散步
+ se reposer - 休息
+ simple - 简单的
+ vous - 您们, 你们, 和你们, 向你们, 和您, 你, 为你们, 给你们, 您, 妳们, vous
+57 Shopping 2 使用比较级
+ adresse - 地址
+ autre - 另一
+ autres - 另外, 其他的, 别的, 另外的, 其他, 他人
+ bouquet - 花束
+ bracelet - 手镯
+ comparer - 比较
+ conseil - 建议
+ en laine - 羊毛的
+ en or - 金的, 金
+ finalement - 最后
+ fleuriste - 花商
+ horrible - 难看的
+ magnifique - 美极了的
+ moins - 比较不
+ orange - 橙色的
+ plus - 更, 更加, 比较, 最, 多一些, 多一点, 多点, 不了, 越, plus, 更为, 更多, 些, 越为, 越高
+ prix - 价格
+ quarante - 四十
+ que - 何, 只要, 的, 什么
+ sandales - 凉鞋
+ sweat - 汗衫
+ étiquette - 标签
+58 Contest 参加体育比赛
+ année - 年
+ bravo - 真棒
+ champion - 冠军
+ changer - 改变
+ compétition - 比赛
+ courent - 跑步, 跑得
+ courons - 跑步, 跑得, 乱跑
+ course - 比赛
+ dans - 里演, 里会, 过, 来, 之内, 之中, 内会, 内, dans, 在, 里, 中, 儿里
+ deuxième - 第二
+ déçu - 失望的
+ gagner - 赢
+ habitude - 习惯
+ haut - 高
+ j'aimerais - 我想
+ longtemps - 久
+ mieux - 更好
+ motivé - 有动力的
+ médaille - 奖牌
+ nuit - 晚上
+ samia - 萨米娅, 娅, 萨
+ sauter - 跳
+ se préparer - 准备
+ trop - 超
+59 Games 玩游戏和运动
+ aux - 给, 向, 在, 跟, 去, 对
+ carte - 扑克牌
+ chinois - 中国的, 中国, 中文, 汉语, 中国人, 中式
+ connaître - 了解, 认识, 知道
+ contre - 对抗, 出乎
+ en même temps - 同时
+ faux - 假的
+ fort - 用力, 激烈, 强烈, 强项, 大不大, 强劲, 壮, 大声, 坞, 很强, 浓, 厉害, 烈, 响亮, 强壮, 强, 很浓, 坚强, 浓烈, 浓郁
+ grand - 大, 大的, 伟, 大型, 更大, 优秀的, 高大, 好大, 大获, 大型的, 越大, 伟大, 伟大的, 一大, 高, 大绿, 宽敞明亮
+ jeu - 游戏
+ meilleur - 更厉害的
+ perdre - 输
+ perds - 输, 弄丢, 失
+ pire - 更糟
+ pour - 给整, 为了, 而言, 因为, 而, 给, 当, 适合, 来, 用于, 人用, 用来, 会为, 的, 飞往, 来放在, 对于, 支持, 来做, 对, 来说, 地为, 水给, 以, 为, 替, 起见
+ règle - 规则
+ savent - 知道, 晓得, 清楚, 知道怎么, 会, 知
+ savons - 知道, 晓得, 清楚, 只会用
+ échecs - 国际象棋
+60 Cooking 准备和烹饪食物
+ abricot - 杏果
+ allumer - 开启
+ assez de - 足够的, 够多的
+ au - 给, 到, 向, 在, 对, 跟, 去, au
+ bol - 碗
+ brûlé - 糊, 烧毁, 烧糊, 烤糊, 烧焦, 烤焦, 全烧, 烧伤, 烧焦了, 辣到, 这焦, 燃, 烧焦的, 烧坏
+ cookie - 饼干
+ couper - 切
+ délicieuse - 美味的, 美味, 好吃
+ délicieux - 美味的
+ four - 烤箱
+ fraise - 草莓
+ goûter - 尝尝
+ gramme - 克
+ il faut - 应该, 需要
+ ingrédient - 食材
+ kilo - 公斤
+ mettre - 戴上, 戴, 换上, 搽, 放进, 着手, 把, 穿, 贴, 置于, 装进, 上桌, 凸, 放, 放在首位, 弄成, 放在, 放到, 凸显, 投进, 披上
+ mélanger - 搅拌
+ pas encore - 还没有, 还没, 还
+ sel - 盐
+ tarte - 挞
+ trop de - 太多
+ un peu de - 一点
+ vanille - 香草
+ évier - 水槽
+61 My City 探索城市
+ Londres - 伦敦
+ Venise - 威尼斯
+ animé - 热闹的
+ avril - 四月
+ bateau - 船
+ bruit - 噪音
+ carnaval - 嘉年华会
+ commencer - 开始读, 始, 开始, 下手, 做起, 动手
+ en terrasse - 在露台上
+ endroit - 地方
+ environ - 大约
+ février - 二月
+ immense - 极大的
+ janvier - 一月
+ mai - 五月
+ mars - 三月
+ météo - 天气
+ neige - 雪
+ prendre - 请假, 摄, 带, 坐地铁, 乘坐, 上, 立下, 走错, 服下, 拍, 吃, 养成, 作出, 拍出, 拍下, 拍摄, 夺走, 打车, 抽出, 接个, 带上, 拍照, 记个, 拿件, 拍自, 量体温, 照相, 量, 吃顿, 采取, 服用, 抢走了, 我取, 要取, 吕克拿起, 要休, 做出, 拿, 带伞, 喝, 占用
+ rose - 粉色的, 粉色, 朵玫瑰, 玫, 玫瑰, 粉红色, rosa
+ touriste - 游客
+62 Bad Day 使用最高级
+ cette année - 今年
+ classe - 班
+ contrôle - 考试
+ cours - 一堂, 大课, 课里, 跑步, 节课, 课, 课程, 讲课, 四节课, 一堂课, 跑得, 跑, 上课, 门课, 课会, 课堂
+ dumas - Dumas, 仲马, 杜马
+ fier - 感到骄傲的
+ fière - 骄傲
+ histoire - 历史
+ juste - 就
+ lycée - 高中
+ là - 啦, 那边, 呐, 焉, 这儿
+ matière - 科目
+ même - 即使, 即使是, 连, 相同, 哪怕, 同一, 老样子, 同样, 居然, 同, 相同的, 甚至, 同一个, 样, 连觉
+ oublier - 忘记
+ règle - 规, 规矩, 规则, 尺子, 尺, 矩
+ réviser - 复习
+ sérieux - 认真的
+ sévère - 严厉的
+ trousse - 笔袋
+ élève - 学生
+63 Let's go 遵循旅行指示
+ annulé - 被取消了的
+ au nom de - 用的名字是
+ comptoir - 柜台
+ fenêtre - 窗户
+ fermer - 关门, 闭, 关闭, 烊, 关不上, 关上, 打烊
+ formulaire - 表格
+ laisser - 留
+ lavabo - 洗手盆
+ monter - 上
+ navette - 接驳车
+ nom de famille - 姓
+ numéro - 号, 号码, 小节目
+ ouvrez - 打开, 开
+ passager - 乘客
+ passagère - 女乘客
+ prénom - 名字
+ réception - 前台
+ réservation - 预订
+ sac à main - 手提包
+ sage - 乖的
+ signer - 签名
+ sortent - 出来, 出去, 出, 出门
+64 Chores 做家务
+ aider - 帮
+ apéro - 餐前酒
+ armoire - 衣橱
+ au milieu de - 中间
+ balai - 扫帚
+ chips - 薯片
+ en colère - 生气
+ le bazar - 一团糟
+ le ménage - 清洁
+ lessive - 洗衣粉
+ linge - 衣服
+ lumière - 灯
+ penser - 想着, 想, 思维, 想来想去
+ plein - 很多, 满的, 满怀, 太满, 全职, 盈, 充满, 坐满, 满满的
+ plein de - 很多, 满满的, 满
+ poubelle - 垃圾桶
+ ranger - 收着, 收, 整理, 收拾, 排好
+ télé - 电视
+ à boire - 喝的
+ à manger - 吃的
+ à moi - 我的
+ éteins - 关灯, 关, 关掉
+65 Driving 问路
+ arrêter - 戒烟, 戒, 挡, 停止, 刹车, 戒酒, 到此为止, 停下, 挡不住, 逮捕
+ conduis - 开, 开车, 开车开得, 骑, 我开
+ continuer - 继续走
+ dangereuse - 险, 危险的, 危, 危险
+ dangereux - 危险的
+ devant - 前方, 当着, 前有, 前头, 面前, 当面, 前面, 跟前, 前车, 前排
+ gps - 全球定位系统
+ interdit - 禁止的
+ marcher - 走, 行走, 踏, 走路, 步行, 脚踏
+ mouton - 羊
+ pont - 桥
+ prudent - 谨慎的
+ route - 路
+ sûr - 确定的
+ tourner - 转
+ tout droit - 一直往前
+ traverser - 过
+ va - 贝娅会, 风会, 即将, 就要, 埃迪要, 走, 滑得, 天要, 没事, 狗会, 将会, 到, 莱娅要, 骑得, 狗要, 萨姆去, 林要, 吕克要, 向右走, 去, 会, 血会, 阿梅莉会
+ à droite - 右
+ à gauche - 左
+ à la maison - 家, 在家里
+66 Love Life 表达感情在关系中
+ au mois de - 六月份, 在一月份, 在五月份, 六月, 七月份, 五月份
+ bien - 很好
+ blague - 笑话, 玩笑
+ bouclé - 卷的
+ brun - 棕色的
+ coiffeur - 理发师
+ coiffeuse - 造型师, 师, 理发师, 发型师
+ couple - 情侣
+ en plus - 还有
+ juillet - 七月
+ juin - 六月
+ le mois de - 六月份, 一月份, 月份, 九月份
+ marron - 栗色的
+ mince - 瘦的
+ riche - 有钱的
+ se marier - 结婚
+ sortent - 出来, 出去, 出, 出门
+ sortir - 上市, 外出, 出来, 冒出来, 挑出来, 下床, 掏出, 出门, 出去, 取出, 掏, 出院, 出新, 拿出, 上映, 逃出, 出国, 谈恋爱, 生去
+ timide - 害羞的
+ troisième - 第三
+ une personne - 一个人
+ vieux - 老旧, 老, 很老, 旧, 很旧, 年老
+ violet - 紫色的
+ yeux - 眼睛
+67 Life 谈谈你的生活
+ accepter - 接受
+ août - 八月
+ club - 俱乐部, 兴趣小组, 乐吧, 会所, 社团
+ contrat - 合同
+ dernier - 最新的, 上一个, 去年, 上, 最后一个, 最后, 最新
+ divorcer - 离婚
+ déménager - 搬家
+ hier - 昨天
+ immeuble - 楼房
+ l'autre jour - 前几天
+ pleurer - 哭
+ pour la première fois - 第一次
+ projet - 项目
+ raquette - 球拍
+ rigoler - 笑
+ riz - 米饭
+ salade - 沙拉
+ septembre - 九月
+ tennis - 网球
+ épicé - 辣的
+ épisode - 集
+68 Groceries 使用复合过去时
+ boisson - 饮料
+ boulanger - 面包店, 面包师, 师
+ boulangère - 师, 女面包师, 面包师
+ chariot - 购物车
+ demander - 要求
+ les courses - 食品杂货
+ liste - 清单
+ mûr - 太熟, 成熟
+ panier - 篮子
+ parking - 停车场
+ payer - 支付, 全付, 付, 付账, 付钱, 用卡付, 结账, 钱付, 付得
+ plat principal - 主菜
+ portefeuille - 钱包
+ pour - 给整, 为了, 而言, 因为, 而, 给, 当, 适合, 来, 用于, 人用, 用来, 会为, 的, 飞往, 来放在, 对于, 支持, 来做, 对, 来说, 地为, 水给, 以, 为, 替, 起见
+ pourboire - 小费
+ pâtes - 面
+ rayon - 货架
+ resto - 饭馆
+ saucisse - 香肠
+ tomate - 番茄
+69 Family 2 谈论家庭活动
+ assis - 坐, 坐下, 坐在
+ barbe - 胡子
+ cette nuit - 今晚
+ cinquième - 第五
+ content de - 高兴
+ costume - 西装
+ cravate - 领带
+ en - en, 对此, 一些, 打着, 之内, 穿, 之中, 那个, 内, 在, 用时, 去, 从中, 儿里
+ ennuyeux - 无聊的
+ invitation - 邀请函
+ j'espère que - 我希望
+ la fête - 庆祝
+ mariage - 婚礼
+ octobre - 十月
+ partent - 离开
+ pied - 脚
+ quatrième - 第四
+ quel - 哪一名, 哪款, 多么, 哪一家, 如此, 哪本, 多少, 哪一列, 哪一份, 哪个, 哪台, 哪一位, 哪家, 哪位, 哪一条, 哪一个, 什么, 怎, 哪辆, 哪一件, 哪条, 哪只, 哪名, 哪一架, 哪一部
+ rousse - 头发是红色的
+ roux - 红棕色的
+ tellement - 如此
+ trop - 太多
+ élégant - 优雅的
+70 Fashion 使用复合过去时
+ argent - 钱
+ bague - 戒指
+ bonnet - 帽子
+ boutique - 商店, 精品店, 小卖部
+ cabine d'essayage - 试衣间
+ carte bancaire - 银行卡
+ casquette - 鸭舌帽
+ centre-ville - 市中心
+ cinquante - 五十个, 五十, 五十根
+ de - 个, 从, 上, 之, 种, 来自, 的, 要, 对, 离, 能, de
+ distributeur - 自动取款机
+ dix-neuf heures - 晚上七点
+ dépenser - 花, 花钱, 花掉, 花光
+ en face de - 对面
+ grandir - 长大
+ les magasins - 商店
+ mais - 但别, 但, 却, 而是, 但是, 可是, 却说, 不过, 然而, 却是, 就是
+ manche - 袖子
+ retirer - 撤, 取款, 取钱, 取些, 取, 抽走, 拔出, 卸下
+ sauf - 除了
+ tennis - 运动鞋
+ à la mode - 时尚
+ à ma taille - 我的尺寸
+71 Help! 应对紧急情况
+ article - 文章, 篇, 篇文章, 商品, 藏品, 条, 展品
+ bijou - 珠, 珠宝, 首饰
+ crier - 尖叫, 大叫, 喊出, 喊叫, 喊起来, 喊一声, 哭闹
+ dame - 第一夫人, 女士, 夫人, 大妈
+ gens - 人们
+ il y a - 有, 前
+ incroyable - 真牛, 难以置信, 不可思议, 不可思议的, 奇妙
+ journal - 日记, 报纸, 报, 报上
+ jusque - 到
+ lu - 地读, 读了, 鲁, 读出
+ montre - 手表, 出示, 指, 龇, 展示, 显示, 示, 龇牙
+ numéro - 号, 号码, 小节目
+ perdu - 迷茫, 丢失, 走失, 输, 输过, 减了, 迷路, 迷路了, 体重减轻, 一头雾水, perdu, 流失, 减掉, 迷失, 丢钱, 偏远
+ police - 警方, 警察, 警, 字体
+ policier - 警察
+ policière - 女警察
+ quelqu'un - 有人, 人, 一个人, 某人
+ quelque part - 某个地方
+ répondre - 会接, 作答, 回应, 回答, 接电话, 回复, 接听
+ trottoir - 人行道, 路边
+ voler - 抢, 窃取, 飞翔, 翔, 鸟飞, 飞去, 飞, 抢走了, 飞着, 偷拿
+ voleur - 小偷, 盗, 人偷, 偷, 窃贼
+ voleuse - 小偷, 贼, 女贼
+ vu - 见到, 看过, 看, 见过, 上见, 视, 看出
+72 Theater 讨论戏剧表演
+ cinéma - 影院, 电影, 电影院, 院, 电影吧, 影视
+ costume - 西服, 西装, 服装, 套装
+ créatif - 创意的
+ dialogue - 对话
+ en - en, 对此, 一些, 打着, 之内, 穿, 之中, 那个, 内, 在, 用时, 去, 从中, 儿里
+ fin - 末, 结局, 尽头, 终, 结尾, 细, 太薄, 末尾, 结束, 尾声, 最后, 毕, 细细的
+ impressionnant - 真牛, 印象, 震撼, 令人印象深刻, 壮观
+ jouer - 中玩得, 上扮, 打网球, 战下, 扮, 玩儿, 中玩, 演出, 玩耍, 出演, 打牌, 演, 耍, 弹钢琴, 玩吧, 打球, 玩电脑, 饰演, 拉, 会弹, 演奏, 玩, 打麻将, 扮演, 踢足球, 起到
+ page - 页, 页面, 一页
+ par cœur - 背诵
+ penser - 想着, 想, 思维, 想来想去
+ personnage - 角色
+ poésie - 诗歌
+ prendre - 请假, 摄, 带, 坐地铁, 乘坐, 上, 立下, 走错, 服下, 拍, 吃, 养成, 作出, 拍出, 拍下, 拍摄, 夺走, 打车, 抽出, 接个, 带上, 拍照, 记个, 拿件, 拍自, 量体温, 照相, 量, 吃顿, 采取, 服用, 抢走了, 我取, 要取, 吕克拿起, 要休, 做出, 拿, 带伞, 喝, 占用
+ public - 公共, 公开, 大众, 观众, 公众, 公共场合, 受众, 众, 公, 听众
+ rôle - 角色, 身份, 作用, 功能
+ scène - 一幕, 舞台, 场景, 场面, 一闹, 景色
+ sur - 给, 上, 临, 关于, 在, 乘, 上下, r
+ surprenant - 讶, 惊讶, 惊人, 意外, 惊人的, 不足为奇
+ théâtre - 戏剧
+ tout - 所有的, 共, 都, 所有东西, 整栋, 一整, 十分, 满脸, 整个, 整趟, 一切, 整块, 一切都是, 皆, 事事, 全部, 全, 整家, 凡事, 全都, 整, 整张
+ waouh - 哇
+ écrit - 写过信, 写字, 地写, 写信, 诗写, 写, 写给
+73 Meet Up 做比较
+ ambitieux - 抱负, 雄心勃勃, 雄心, 宏大
+ architecte - 建筑师
+ attend - 候, 在等, 期待, 等, 等候
+ aussi - 一样, 也是, 也好, 也, 那么, 并且, 这么, 还念, 更是, 还会, 居然, 甚至, 此外
+ aux - 给, 向, 在, 跟, 去, 对
+ c'était - 那是, 就是
+ chance - 运气, 运, 吉, 好运, 可能性, 祝你好运, 胜算, 机遇
+ château - 城堡, 古堡
+ devenir - 变得, 成为成员, 而变, 变瘦, 变成, 成为, 变秃, 变蠢
+ devoir - 欠, 将要, 后该, 作业, 责任, 职责, 不可, 生要
+ décembre - 十二月
+ fort en - 在音乐上很强, 在数学上很强, 在法语上很强, 在历史上很强, 在运动上很强, 在地理上很强, 在英语上很强
+ malheureusement - 不幸的是
+ merveilleux - 很棒的, 美妙, 妙, 奇妙, 出色的, 最妙
+ nouvelles - 新鲜事, 新来, 新, 情况, 新的, 新闻, 好消息, 新闻报道
+ novembre - 十一月
+ ressembler - 像
+ revenir - 折返, 回来, 回归
+ région - 一带, 区域, 大区, 地区, 外地, 边境
+ salut - 再见
+ toujours - 仍然
+ vieillir - 变老, 老得
+ États-unis - 美国
+74 Wellness 制定健康计划
+ ailleurs - 别处
+ autant - 一样多
+ bon pour la santé - 对健康有好处
+ changer de - 换
+ donner - 给, 给出, 报以, 起个, 出个, 捐钱, 让, 施, 捐给, 包给, 捐, 给予, 予, 送给, 捐书, 交给, 付得
+ en forme - 精神好, 精神很好
+ ex - 前, 前任
+ grâce à - 多亏有
+ généreux - 慷慨, 大方, 无私
+ lit - 读, 阅读, 铺, 读着, 床, 床铺, 他读, lit, 但床
+ me sens - 感觉
+ possible - 尽, 可能, 若能
+ prévoir - 计划, 预先, 预先安排, 预言
+ quitter - 人去, 退出, 逃避者, 下班, 生去
+ raison - 缘, 缘故, 说得对, 道理, 理, 理由, 无缘无故
+ relaxant - 放松的, 放松
+ se réveiller - 醒
+ stressant - 有压力的
+ te sens - 感觉
+ temps libre - 空闲时间
+ était - 很, 车是, 处于, 在, 是, e, 正为
+75 Preference 讨论自己的喜好
+ activité - 活动
+ bande dessinée - 漫画
+ chaîne - 频道, 链, 串
+ course à pied - 跑步
+ créer - 创造, 成立, 创, 打造, 结新, 设立, 造, 创业, 创办, 谱写, 创建, 创新, 创立, 开发新
+ d'accord - 同意, 好的, 一致, ok
+ d'ailleurs - 此外
+ documentaire - 纪录片
+ emprunter - 借, 借书, 借用, 借款, 取阅, 借点
+ groupe - 圈子, 团, 一群, 派别, 小组, 群体, 一大群, 群组, 组, 群, 团体, 乐队, 一组, 组合, 乐团, 分组, 一行, 社团
+ jeu vidéo - 电子游戏
+ le temps - 时间
+ pas d'accord - 不同意
+ passionnant - 令人兴奋的
+ peintre - 画家, 油漆工
+ pourrait - 可以, 可能, 吕克会
+ recommander - 推荐, 荐
+ spectacle - 大戏, 演出, 场秀, 表演, 秀, 景象, 综艺
+ surtout - 主要是
+ tableau - 图表, 油画, 画, 图画, 这画儿, 幅, 画时, 名单
+ titre - 标题, 书名, 称呼
+ ça te dit de - 你想要
+76 At the Zoo 用“être”构成复合过去时
+ adorable - 可爱的, 可爱
+ avant-hier - 前天
+ bêtise - 傻事
+ cage - 鸟笼, 笼子, 笼里
+ coincé - 卡住, 卡, 困住, 被困
+ directeur - 董, 主任, 总监, 导, 负责人, 经理, 社长
+ directrice - 导, 经理, 校长
+ dixième - 第十, 第十封, 第十个
+ entrée - 进入, 门厅, 头盘, 口, 入, 入内, 入口, 门口, 入场, 前菜, 前菜会
+ fatigant - 太累, 真累, 辛苦, 累, 累人, 人累
+ furieux - 怒不可遏, 生气, 怒气冲冲
+ insupportable - 难以忍受, 令人受不了, 受不了, 无法忍受, 吃不消
+ lion - 狮子, 狮
+ monter sur - 爬上
+ panda - 熊猫, 大熊猫
+ perroquet - 鹦鹉
+ pompier - 消防员
+ singe - 猴子, 猴
+ tomber - 跌倒, 坠, 掉, 摔下去, 摔下, 落下
+ zoo - 动物园
+ à l'intérieur - 里面, 在里面
+ étais - 是, 很
+77 Paris 分享旅行故事
+ aimable - 蔼, 和蔼可亲, 友善的, 和蔼
+ appareil photo - 相机
+ avenue - 大街
+ banc - 长椅, 长凳
+ en haut de - 上, 上面
+ escalier - 楼梯, 楼道
+ guide - 导游, 向导, 旅行指南, 指南, 带路, 讲解员, 手册, 攻略
+ horaire - 班次, 时间表, 课程表
+ lieu - 场所, 之地, 地方, 地点, 场地, 角落
+ office de tourisme - 旅游中心
+ parti - 离开, 党, 走时, 政党
+ pigeon - 鸽子
+ place - 位置, 位, 置, 名额, 广场, 位子
+ première classe - 头等舱
+ retourner - 重返, 回到, 退, 返回, 翻, 退还, 回头, 返, 退掉
+ réceptionniste - 接待员
+ sorti - 出来, 搬出来, 出门, 取出, 拿出, 上映, 出院
+ souvenir - 记得, 纪念品, 记, 忆, 回忆, 记忆, 想不起来
+ touristique - 旅游化
+78 Wedding 使用复合过去时
+ alliance - 联盟, 姻, 婚戒, 伙伴关系, 盟, 联合
+ bu - 喝, 饮用
+ champagne - 香槟, 香槟酒, 槟
+ cérémonie - 式, 仪式, 毕业典礼, 仪, 典礼, 礼节
+ discours - 演讲
+ dj - DJ
+ en panne - 坏了
+ grève - 罢工, 罢课
+ lune de miel - 蜜月
+ mairie - 市政府
+ mais - 但别, 但, 却, 而是, 但是, 可是, 却说, 不过, 然而, 却是, 就是
+ marié - 新郎, 婚, 郎, 结婚, 已婚的, 结过
+ mariée - 婚, 已婚的, 新娘
+ micro - 微, 话筒
+ moins le quart - 差一刻
+ pratique - 便, 简易, 便利, 实用, 实用的, 使用方便, 方便, 好用, 实际, 轻便
+ renverser - 打翻
+ trottinette - 踏板车, 滑板车
+ venu - 来, 来过, 来到, 狗来
+ vive - 万岁
+ à cause de - 由于
+ émouvant - 动容, 感人, 动人, 伤感, 动情
+79 Online 在线交流
+ Noël - 圣诞节
+ attention - 当心, 注意, 关注, 小心, 注意力
+ caméra - 摄像机, 摄影机, 镜头
+ clavier - 键盘
+ conduire - 驾, 驶, 开车, 引领, 驾驶, 车开, 主持
+ connexion - 连接, 连网
+ coucou - 嗨
+ doucement - 慢慢地
+ là - 啦, 那边, 呐, 焉, 这儿
+ mamie - 奶奶
+ me - 我, 为我, 向我, 给我
+ nous - 为我们, 咱们, 向我们, 给我们, 彼, 对我们, 咱, 我们, 跟我们, 们, 本会
+ papi - 爷爷
+ rarement - 不常
+ te - te, 为你, 跟你, 你, 给你, 妳, 向你, 你介
+ tous les deux - 两个都
+ tout près - 很近
+ vendre - 转让, 出售, 卖掉, 卖, 卖书, 推销
+ vide - 荡, 空着, 空了, 空, 空洞, 空荡, 空无一人, 空虚, 空空, 空的, 空荡荡, 虚, 空白
+ vous - 您们, 你们, 和你们, 向你们, 和您, 你, 为你们, 给你们, 您, 妳们, vous
+80 Foodies 购买食物
+ autre chose - 别的, 别的东西
+ barbecue - 烧烤, 烤肉
+ bio - 有机
+ camembert - 卡门贝奶酪, 卡芒
+ dessus - 上面, 上风
+ gourmand - 贪吃者
+ huile - 油, 油对
+ la - 这个, 那座, 这辆, 这座, 这, 这幢, 那个, 她, 那幢, 那辆, 那, 它, 一, la
+ le - 这个, 这家, 他, le, 那本, 这辆, 那张, 这, 的, 了, 那个, 那列, 那家, 那辆, 这本, 这列, 那, 这张, 它, 那起
+ les - 它们, 那些, 这, 他们, 这些, 她们, 那, 们, 凡事
+ moi-même - 我自己
+ poivre - 胡椒, 椒, 胡椒粉
+ pomme de terre - 土豆
+ poulet - 鸡肉
+ prochain - 下, 下一, 下个, 班要, 下节
+ sauce - 辣酱, 酱, 酱汁, 酱来
+ toi-même - 你自己
+ tout ça - 这一切
+ voilà - 这就是
+ épicerie - 杂货店
+81 Gossip 闲聊邻里八卦
+ bavard - 多嘴, 健谈
+ cacher - 隐, 蔽, 藏, 隐藏, 藏不住, 遮起来
+ curieux - 感兴趣, 好奇, 好奇者
+ discret - 低, 低调, 含蓄
+ discrète - 低调, 低
+ dit - 说出, 歌说, 时说, 说错, 说肉, 说, 告诉, 讲过, 说声, 说来, 所谓
+ facteur - 元素, 邮递员, 邮差, 因素
+ journaliste - 记者, 新闻记者
+ mur - 墙, 堵墙, 面墙
+ par contre - 另一方面
+ peut-être que - 也许
+ pièce - 房里, 戏剧, 证件, 房间, 件, 一出, 枚, 戏里, 戏, 一出戏, 藏品, 剧, 出戏, 条, 颗, 曲子, 房含
+ rideau - 窗帘, 幕
+ secret - 诀, 秘, 秘诀, 密, 秘密, 保密
+ tant mieux - 那就好
+ terrasse - 露台
+ trouver - 哪里找, 找出, 找到, 找个, 查出, 猜出
+ vit - 不住, 活, 狼住
+ voient - 看, 见, 看到
+ voyez - 看见, 见, 看得到, 看到, 视, 见到
+ voyons - 看见, 见, 看到, 视, 见到
+82 Childhood 谈论你的童年
+ allais - 正在去, 去, 常去
+ buvais - 喝
+ camping - 露营, 露营地
+ cantine - 食堂
+ enfance - 童年, 儿时, 童年时期, 孩提时代
+ exister - 存在, 生存, 有, 活着, 显现
+ faisais - 逛街, 做, 打拳击
+ gaufre - 华夫饼
+ mangeais - 吃
+ on - 我们, 人家
+ prenais - 正在吃, 乘坐
+ réparer - 缮, 修车, 修理, 修, 来修, 补救, 能修, 修过, 我修, 修缮, 修复, 莱娅修, 换好
+ salle à manger - 餐厅
+ souvenir - 记得, 纪念品, 记, 忆, 回忆, 记忆, 想不起来
+ tram - 电车
+ trou - 洞, 大洞, 孔, 坑, 穴, 大坑, 破洞, 填空
+ usine - 工厂, 厂
+ à table - 开饭了
+ étais - 是, 很
+83 Festival 使用未完成过去时
+ auberge de jeunesse - 青年旅舍
+ avais - 有
+ brouillard - 霧, 雾, 薄雾, 雾气
+ copain - 哥们, 朋, 男友, 朋友, 小伙伴, 男朋友, 好友
+ drap - 床单
+ dégoûtant - 恶心的, 恶心, 恶
+ escargot - 蜗牛
+ expérience - 经历, 体验, 经验, 实验
+ franchement - 坦率地说
+ il y avait - 有
+ jambe - 小腿, 腿, 腿部, 肢
+ mayonnaise - 蛋黄酱
+ monde - 人
+ musique électro - 电子音乐
+ organisé - 办得, 没办, 组织, 筹办, 办得好, 多开
+ pleuvait - 下雨
+ ravi - 高兴, 乐坏了
+ stand - 摊来, 摊位, 小卖部
+ transport en commun - 公共交通
+ énervé - 生气, 不耐烦
+84 Colleagues 与同事合作
+ ambiance - 氛围
+ carafe - 玻璃水壶
+ comment - 如何, 怎样, 怎么样, 什么, 怎, 怎么, 何
+ erreur - 对错, 失误, 错误, 疏忽
+ expliquer - 交代, 讲解, 解释, 解释一下, 喻, 讲清, 释, 解说
+ inutile - 无用
+ logiciel - 软件
+ me - 我, 为我, 向我, 给我
+ moitié - 一半
+ montrer - 展现出, 表明, 以示, 出示, 指, 示范, 展示, 指一指, 表示, 示, 展现
+ nous - 为我们, 咱们, 向我们, 给我们, 彼, 对我们, 咱, 我们, 跟我们, 们, 本会
+ offrent - 赠送, 赠, 送, 赠送给
+ offres - 赠送, 赠, 送, 报价
+ passer - 逝, 每天花, 过生日, 共度, 花一, 转为, 路过, 去度, 递, 过去, 递给, 参加, 过个, passer, 转过, 度过, 升入, 通个, 顺道去, 及格
+ poser - 提问, 您提, 问, 放下, 搁
+ proposer - 提议者, 开出, 提议, 贡献
+ stagiaire - 实习生
+ te - te, 为你, 跟你, 你, 给你, 妳, 向你, 你介
+ texte - 课文, 文章, 文字, 文本, 歌词
+ tout à l'heure - 待会儿
+ utile - 有用吗, 挺好用, 有用, 用场
+ vieil - 老的, 老, 老旧
+ viennoiserie - 酥皮糕点
+ vous - 您们, 你们, 和你们, 向你们, 和您, 你, 为你们, 给你们, 您, 妳们, vous
+ à - 给, 于, 至, 来, 念, 靠, à, 的, 到, 向, 在, 对, 离, 跟, 三到, 去, 之内
+85 Again? 与家人交流
+ beau-père - 继父
+ beaux-parents - 岳父母
+ belle-mère - 岳母
+ commentaire - 评论, 解说, 评价, 评语, 反馈, 留言, 解说词
+ courageux - 勇敢, 勇敢的
+ disent - 说, 说点, 说海
+ dites - 告, 说, 说好听
+ donc - 所以
+ donner - 给, 给出, 报以, 起个, 出个, 捐钱, 让, 施, 捐给, 包给, 捐, 给予, 予, 送给, 捐书, 交给, 付得
+ décider - 拿定主意, 打定主意, 决定, 好要
+ leur - 她们, 给他们, 她们的, 向她们, 他们, 他们的, 向他们, 给她们
+ lui - 他, 给他, 跟她, 向她, 向他, 给她, 对他, 她, 跟他, 彼
+ offre - 赠送给, 送花, 出价, 优惠, 提供, 赠送, 赠, 送, 要约
+ offrons - 给, 送, 送礼物
+ pas de problème - 没问题
+ peur - 害怕, 怕, 怖, 恐惧, 恐, 好怕
+ portugais - 葡萄牙语
+ présenter - 递交, 呈献, 自我介绍, 呈, 绍, 讲解, 介绍, 报到, 推销, 汇报, 献, 主持
+ tenue - 服装
+86 Doctor 2 安排医生预约
+ actuellement - 目前
+ ambulance - 救护车
+ annuler - 取消, annuler
+ bras - 胳膊
+ crois - 相信, 觉得, 全信
+ date - 日期
+ de retard - 晚, 延误, 迟到
+ dentiste - 牙医
+ disponible - 可用, 很闲, 空, 有空, 有贩售, 现有
+ droit - 右侧, 权利, 法律, 权, 权力, 右, 往前走, 法学, 右边, 正义
+ fièvre - 发烧
+ gauche - 左侧, 左翼, 左脚的, 左, 左边, 左派
+ impossible - 行不通, 不成, 不行, 可能, 无法, 不可
+ médecin - 医生, 医
+ ordonnance - 处方, 凭处方
+ pharmacien - 药剂师, 药师
+ pharmacienne - 女药剂师, 药剂师
+ rendez-vous - 预约, 约见, 约, 约会, 赴约
+ rhume - 感冒
+ souhaiter - 祝, 祝愿, 许愿
+87 Plans 使用将来时
+ aquarium - 水族馆, 大鱼缸, 鱼缸
+ camping-car - 房车
+ chef - 厨师, 当头, 厨师长, 长官, 头儿, 大哥, 首脑, 主厨, 领导, 师傅, 负责人, 大厨, 上级领导, 社长
+ confirmer - 确认者, 证实
+ destination - 目的地, 去向
+ découvrir - 发现, 有待, 查出, 猜出
+ exotique - 异国, 异, 异域
+ jeu de société - 桌游
+ logement - 住宅, 住宿, 房含
+ machine à café - 咖啡机
+ me manque - 想念
+ patron - 大爷, 老板, 上司, 大哥, 赞助人, 模式
+ patronne - 女老板
+ propriétaire - 房主, 所有者, 房东, 主人
+ raconter - 叙, 讲述, 诉, 叙述, 讲故事, 述
+ rez-de-chaussée - 一楼
+ silencieux - 默, 沉默, 静音
+ étage - 层, 几层, 几楼, 楼层, 一层楼
+ étoile - 星, 星星
+ île - 岛离, 岛, 岛屿
+88 School 制定学习计划
+ appart - 公寓
+ biologie - 生物, 生物学
+ capable - 能干, 有能力, 能够
+ chimie - 化学
+ colocataire - 室友, 同住者
+ du - 从, 一些, 的, 杜, 对, du
+ europe - 欧洲
+ fac - 大学
+ ferai - 将会做, 做出, 做会
+ insecte - 昆虫, 虫, 虫子, 昆
+ monde entier - 全世界
+ pas cher - 便宜
+ place - 位置, 位, 置, 名额, 广场, 位子
+ rendre visite - 拜访
+ régulièrement - 定期地
+ scientifique - 科学, 科学家
+ semestre - 学期, 期末
+ soupe - 汤, 锅汤
+ stage - 阶段, 实习
+ sérieusement - 认真地
+ études - 学业
+89 Bon voyage 准备旅行
+ aurai - 将会取得, 将会通过, 将会有
+ aussi - 一样, 也是, 也好, 也, 那么, 并且, 这么, 还念, 更是, 还会, 居然, 甚至, 此外
+ bronzé - 晒成, 黝黑, 晒黑, 古铜色
+ bureau de change - 换汇处
+ de plus - 另外
+ dollar - 美元
+ douane - 海关
+ faudra - 需要
+ international - 国际的, 国际
+ irai - 将会去
+ ne t'inquiète pas - 别担心
+ oublier - 忘记, 忘, 落下
+ sable - 沙子, 沙, 砂
+ se perdre - 迷路
+ serai - 将会, 时会
+ super - 非常
+ tranquille - 宁静, 宁, 安心, 安静的, 清静
+ visa - 签证
+ voudrai - 将想要
+ voyage - 旅, 之旅, 旅途愉快, 一趟, 旅游, 趟, 旅行, 旅途
+ à clé - 锁上
+90 Baking 处理烘焙问题
+ aider - 帮你忙, 帮忙, 帮女, 帮助, 帮, 帮人, 帮个
+ ajouter - 加个, 加一, 加, 加多少, 添, 上加, 加水, 增添, 留言, 添加, 加点, 加一点, 加上
+ biscuit - 饼干
+ boîte - 盒子, 盒, 箱子, 匣, 夜店, 盒饭, 箱, 小盒子, 匣子, 包装盒
+ chose - 东西, 事儿, 有件事, 什么, 事时, 事别, 事情, 事, 好事, 物, 事来
+ citron - 柠檬, 柠
+ crème fraîche - 鲜奶油
+ cuillère à café - 茶匙
+ cuillère à soupe - 汤匙
+ en - en, 对此, 一些, 打着, 之内, 穿, 之中, 那个, 内, 在, 用时, 去, 从中, 儿里
+ fait - 干什么, 怎么弄, 闹出, 干吗, 不办, 办, 无妨, 干得, 手工, 迈出, 考得, 办理, 让, 拍电影, 引起轰动, 迈, 做过, 付出, 在做, 结交, 发愁, 出牙, 做华夫, 做, 炒, 犯小, 假装, 弄, 使, 生闷气, 风让, 事实, 办到, 做够, 做出, 发出, fait
+ fini - 没完, 完课, 做完作业, 完事, 完, 开完, 下班, 弄完
+ framboise - 覆盆子
+ goûter - 品尝, 尝, 尝尝, 尝到
+ il n'y a plus - 没有了
+ il n'y en a - 没有
+ il y en a - 有
+ monstre - 怪物
+ pâtisserie - 糕点店, 糕点, 酥点, 蛋糕店, 甜品
+ quantité - 数量, 量, 分量
+ secret - 诀, 秘, 秘诀, 密, 秘密, 保密
+ yaourt - 酸奶
+91 Holidays 讨论节日庆祝活动
+ Genève - 日内瓦
+ Guadeloupe - 瓜德罗普
+ Pâques - 复活节
+ Ramadan - 斋月
+ beau-frère - 小舅子
+ belle-sœur - 嫂子
+ cacher - 隐, 蔽, 藏, 隐藏, 藏不住, 遮起来
+ chrétien - 基督徒的, 基督徒
+ climat - 气候
+ en famille - 和家人在一起
+ fête - 晚会, 派对, 节日, 聚会, 我过, 狂欢
+ joyeux - 开开心心, 愉快, 快乐的, 快乐, 痛快
+ juif - 犹太, 犹
+ louer - 租借, 租个, 扬, 租得, 租用, 租到, 赞扬, 租车, 租, 表扬, 夸, 出租
+ mosquée - 清真寺
+ musulman - 穆斯林
+ religieux - 宗教, 宗教的
+ réveillon - 除夕夜
+ studio - 工作室, 制片厂, 演播室
+ synagogue - 犹太教堂, 犹, 会堂
+ y - 在那里, 那里, y
+92 Show 使用最高级
+ accident - 事故
+ aimer - 欢, 喜欢
+ avis - 意见
+ danseur - 舞者, 男舞者, 舞蹈演员, 蹈
+ danseuse - 蹈, 女舞者, 舞者, 舞蹈家
+ du monde - 世界
+ début - 初, 开头, 开始, 开局, 开场, 好头, 开幕, 开业
+ embouteillage - 堵车, 不堵车, 交通堵塞, 塞, 塞车
+ fan - 粉丝, 歌迷
+ meilleur - 佳, 较好, 最好的, 最佳, 最棒, 最好, 更好, 佼
+ million - 一百万
+ moment - 時候, 这会儿, 片刻, 会儿, 时刻, 时候, 时分, 时光, 一会儿, 一时, 时机
+ peur de - 害怕
+ pire - 最坏, 更糟了, 更糟, 最差, 最糟
+ place - 位置, 位, 置, 名额, 广场, 位子
+ plutôt - 相当
+ pop - 流行音乐
+ quelqu'un de - 一个人
+ rater - 赶不上
+ revoir - 见到, 再见面, 重看, 再见到, 相见
+ réussir - 取得成功, 顺利完成, 过关, 能办, 通过, 考过, 设法, 成, 及格
+ sans - 不含, 没, 没有, 无
+ star - 明星
+ voix - 声音
+ vrai - 真的, 真, 真实
+ à mon avis - 在我看来
+93 Meal 处理用餐问题
+ allergique - 过敏
+ après-demain - 后天
+ au moins - 至少
+ bœuf - 牛, 牛肉
+ calendrier - 日历, 日程表, 历, 日程安排
+ carotte - 胡萝卜
+ cru - 生的, 听信
+ cuit - 没熟, 熟透, 煮熟, 煮, 熟, 锅里煮
+ douzaine - 一打
+ férié - 节假日
+ il faut - 应该, 需要
+ meuble - 家具, 松软
+ mis - 放进, 包放, 放入, 装进去, 把, 醋放, 上桌, 放, 放上去, 更新, 放在, 放到, 纸放, 放正, 伸进
+ n'importe quoi - 任何
+ nettoie - 打扫, 清洁, 清理, 打扫卫生
+ nettoyer - 打扫, 洗起来, 清洁, 清理, 洗一洗, 清洗, 汰, 打扫卫生, 冲洗
+ noter - 记在, 记下, 会记, 打分
+ piment - 辣椒, 椒
+ poussière - 尘, 灰尘
+ puis - 然后
+ quel jour - 哪一天
+ sauce tomate - 番茄酱
+ saumon - 鲑鱼
+ tapis - 地毯
+ vin blanc - 白葡萄酒
+ vin rouge - 红酒
+94 New Trip 准备旅行
+ bagage cabine - 随身行李
+ c'est la vie - 这就是生活
+ compris - 正确理解, 明白, 谅, 包含在内的, 听懂, 懂, 全包, 弄清
+ confirmation - 确认
+ contrôler - 掌控, 控, 控制, 检查, 监测
+ e-mail - 邮件, 信, 电子邮件, 电邮
+ emporter - 带走的, 带上, 挟, 带走, 裹挟
+ enregistrer - 托运, 录, 登记, 录制
+ fast-food - 快餐店
+ imprimer - 打印, 印
+ mer - 大海, 海, 海里
+ neuf - 九个, 9, 新的, 九, 焕然一新
+ neuve - 新的, 焕然一新
+ patient - 病人, 耐心, 患者
+ plus jamais - 再也不会, 再也不
+ pénible - 艰难, 艰苦, 麻烦, 可难
+ reçu - 小票, 受, 接到, 收到, 得到, 收据, 受过
+ s'ennuyer - 闲着没事, 闲得无聊
+ satisfait - 心满意足, 满足, 十分满意, 满意, 得意
+ sous-vêtement - 内衣
+ température - 体温, 气温, 温度, 低温
+ toujours pas - 仍然没有
+ voulu - 想要
+ zéro - 零
+ été - 夏, 夏天, 夏季
+95 Neighbors2 与社区交流
+ aucun - 任何, 任何一种, 没有任何的, 毫无
+ boulot - 工作
+ demi-heure - 半小时
+ devrais - 该试, 我该, 应该, 应, 该, 真该
+ découvre - 发现
+ découvrent - 发现
+ déranger - 打扰, 扰, 吵到
+ emménager - 搬进去, 搬来
+ escalade - 攀, 攀岩, 爬山, 登山
+ judo - 柔道
+ maître - 硕, 傅, 师傅, 主, 权威
+ maîtresse - 老师
+ n'importe quand - 随时
+ outil - 工具, 具
+ par ici - 在这附近
+ personne - 任何人, 者, 无人, 人, 人向, 人士, 没有人, 人到, 他人
+ pizzeria - 披萨店
+ pourrai - 将可以
+ prêter - 借, 借给, 借出
+ robinet - 水龙头
+ récréation - 休息时间, 课间休息
+ se faire des amis - 交朋友
+ se retrouver - 见面
+ solidaire - 团结
+ ça vous dit de - 你们想要, 您想要
+96 Mall 讨论购物经历
+ clair - 清醒, 清晰, 透明, 晰, 清, 动听, 可见, 清淡, 明朗, 简洁, 讲清楚, 浅, 清脆, 楚, 太浅, 天气晴朗, 明确, 朗, 晴朗, 宽敞明亮
+ collier - 项链, 链, 项圈
+ en coton - 棉制的
+ en cuir - 皮革制的
+ excuse-moi - 对不起
+ foncé - 深色
+ gant - 手套
+ me plaît - 喜欢
+ négatif - 负面的, 消极
+ négative - 消极, 否定, 负面
+ poli - 有礼貌, 礼貌
+ positif - 正面的, 积极, 良好
+ positive - 正面, 正面的, 积极
+ pourquoi - 为什么, 干吗, 干嘛, 为何, 何必
+ promis - 保证
+ rester - 留下来, 地待, 呆, 留, 待在, 耐着, 再待, 仍旧, 家待, 待, 再多待, 上多待, 下待, 依然
+ rien - 任何东西都, 任何东西, 没什么
+ râler - 抱怨, 吐槽
+ sinon - 要不然, 否则, 不然, 要么
+ style - 花样, 风味, 风格, 款式, 造型, 潮流
+ tache - 污渍, 污点, 渍
+ te plaît - 你喜欢, 你最喜欢, 你不喜欢
+ à partir de - 从...开始
+ étagère - 书架, 架, 架子, 货架, 搁板
+97 School 2 用"venir de"构成最近过去时
+ agenda - 议程, 日程, 记事本
+ arabe - 阿拉伯语, 阿拉伯
+ au courant de - 知道
+ comme ça - 这么
+ complète - 补, 完成, 充分, 补充, 客满
+ compléter - 补, 完成, 补齐, 补充, 填空, 选完
+ crayon - 铅笔
+ dire - 说
+ document - doc, 证件, 文件, 文书, 份文件, 文档, 文本
+ doute - 疑, 怀疑, 存疑
+ du mal à - 很难
+ eu - 有, 有过, 考了
+ gomme - 橡皮, 橡皮擦
+ il y a eu - 发生了
+ information - 新闻报道, 信息, 通讯
+ italien - 意大利语
+ japonais - 日语
+ l'heure de - 时间
+ ouvrir - 打开
+ photocopie - 复印
+ salle - 厅, 堂, 大厅, 室, 馆, 室里
+ secrétaire - 秘书, 会记
+ universitaire - 大学的, 学者
+ vocabulaire - 词汇
+ ça s'écrit - 写, 怎么写
+98 Recovery 做出医疗决策
+ amener - 带
+ amène - 送到
+ au bord de - 在...边
+ cachet - 药片, 药, 片酬
+ chance de - 机会
+ chercher - 搜索, 查找, 哪里找, 找点, 接, 找份, 寻找, 先接, 寻, 找, 找寻, 搜, 取信, 找花, 查资料, 寻求, 找个, 争取
+ ciné - 电影院
+ comédie - 喜剧
+ de mieux en mieux - 越来越好
+ essayer - 试着, 一试, 尝试, 试试, 试一试, 着, 试用, 试一下, 试, 尽量, 里试, 尽力
+ faire plaisir à - 让...高兴
+ fauteuil roulant - 轮椅
+ fromager - 奶酪店, 乳酪
+ infirmier - 护士, 男护士
+ infirmière - 护士
+ masque - 假面舞会, 口罩, 面具
+ morceau - 曲, 一截, 一块, 条, 块, 片段
+ pansement - 绷带, 创可贴, 敷料
+ penser - 想着, 想, 思维, 想来想去
+ plaisir - 乐意, 乐趣, 乐事, 过瘾
+ prêt à - 准备, 准备好
+ récupère - 恢复
+ récupérer - 取回, 内拿回, 恢复, 拉回来
+ se sent - 感觉
+ téléphoner - 打电话
+99 New career 庆祝职业成功
+ ancien - 古代, 陈, 老旧, 老式, 年代久远, 古, 古老, 悠久
+ au courant - 知道
+ bonne chance - 好运
+ carrière - 事业, 职业生涯, 生涯
+ changement - 变化, 有变, 变更, 换乘
+ contacter - 联系, 联络
+ cv - 简历, 履, 履历
+ du tout - 一点都
+ dynamique - 充满活力, 有活力, 活泼
+ désagréable - 不愉快, 刺耳
+ espère - 希, 希望, 巴不得
+ espérer - 希望, 期望, 盼望, 期待, 指望
+ fantastique - 很棒的, 棒, 可棒
+ félicitations - 祝贺
+ lettre de motivation - 动机信
+ membre - 员, 肢, 一员, 成员, 用户, 会员, 肢体
+ par e-mail - 通过电子邮件
+ profession - 职业, 职
+ rencontrer - 遇见, 会见, 见个面, 见面, 拜访, 碰到, 相识, 碰上, 碰面, 见见, 遇到, 遇, 个面, 当面
+ s'habituer à - 适应
+ salaire - 工资, 薪水, 薪, 薪资
+ un seul - 一只
+ à l'extérieur - 外面, 在外面
+100 Bank 处理银行事务
+ bancaire - 银行的
+ bien - 很好, 好好, 还好, 洽, 对错, 得很好, 好, 良好, 很, 干得, bien, 很顺, ben, 好不好, 舒服, 不严, 顺利, 化得, 很好地, 商品
+ carte d'identité - 身份证
+ classeur - 文件夹
+ clé usb - U盘
+ code - 法典, 密码, 代码, 符号
+ compte - 账号, 账户, 数数, 账, 不算, 帐户, 数一数, 指望
+ confiance en - 对...有信心
+ dossier - 文件夹, 病历, 材料, 档案, 作品集
+ en réunion - 在开会
+ entre - 进来, 之间, 进, 介于
+ feuille - 叶子, 树叶
+ lettre - 封, 信件, 信, 函, 字母
+ ouvert - 开没开, 启, 敞开, 开门, 开设, 开业, 营业, 开放, 开, 张开, 开着, 张开嘴巴, 新开, 睁, 痛快
+ par courrier - 通过邮寄
+ par exemple - 例如
+ professionnel - 专业的, 专业人士
+ proposer - 提议者, 开出, 提议, 贡献
+ quelqu'un d'autre - 别人
+ recevoir - 收到
+ remercier - 感谢, 道谢
+ reviendrai - 回来
+101 Abroad 申请出国留学
+ aucune idée - 不知道
+ certainement - 肯定地
+ comment on fait pour - 怎么做才能
+ croire - 相信
+ culture - 农作物, 文化, 文明
+ diplôme - 学位证书, 毕业, 毕业文凭, 毕业证, 凭, 文凭, 学位, 奖状
+ en ligne - 在线
+ hésiter - 不敢肯定, 犹豫, 豫, 为难
+ il me manque - 缺少
+ inscrit - 注册, 报名, 列入
+ intéressé - 感兴趣, 不感兴趣, 很感兴趣
+ j'ai hâte de - 迫不及待地想
+ laboratoire - 实验室
+ licence - 执照, 许可, 本科
+ participer à - 参加
+ physique - 物理学
+ portugais - 葡萄牙, 葡萄牙人, 葡萄牙语
+ postuler - 申请
+ programme - 课程内容, 程序, 教学进度, 大纲, 节目, 综艺
+ public - 公共, 公开, 大众, 观众, 公众, 公共场合, 受众, 众, 公, 听众
+ publique - 公共, 公开, 公立, 公, 大众
+ savoir - 知道
+102 Be Careful 整理和维修家居
+ aimerait - 想要, 想
+ aspirateur - 吸尘器
+ avec - 跟着, 用, 配, 带, 加, 和, 穿, 随着, 有, 一起, avec, 带有, 包含, 带着, 对, 跟, 盖着, 用桃, 一同
+ bibliothèque - 图书馆, 书柜
+ chambre - 闺, 客房, 房间, 卧室, 房, 房含, 房会
+ compter - 我数, 数数, 数一下, 数, 指望, 依靠, 数过
+ efficace - 有效率, 有效, 管用
+ elle-même - 自己
+ garage - 车库
+ inquiète - 忧, 着急, 担忧, 担心, 很着急
+ installer - 再装, 安装, 设立
+ lui-même - 他自己, 自己
+ lumineux - 明亮, 太亮, 很亮, 亮, 鲜艳, 光明, 宽敞明亮
+ marteau - 锤子
+ peindre - 画成, 上漆, 绘画, 画画, 漆成, 涂, 作画, 漆, 绘, 涂成, 刷成, 粉刷, 涂漆, 描写
+ peins - 涂, 画, 墙刷成
+ pinceau - 画笔, 毛笔
+ plafond - 天花板
+ s'amuser - 开心玩, 玩, 尽兴
+ s'inquiéter - 计较
+ se faire mal - 弄疼自己
+ se sentir - 感觉
+ éponge - 海绵
+103 Party 2 在过去时中使用反身动词
+ autoroute - 高速公路
+ cent - 一百
+ conduit - 驾, 驶, 开, 开车, 开车开得, 开快车, 驾驶, 骑, 管道
+ décoré - 装饰的, 装饰
+ déodorant - 除臭剂, 汗剂, 止汗剂
+ en dessert - 作为甜点
+ jeunesse - 青春, 青年时代, 年少时
+ né - 生来, 出生, 诞生
+ proche - 类似, 近, 贴近, 亲密, 家属, 亲近, 接近, 靠近, 很近, 更近, 亲人
+ radio - 广播, 收音机, 电台
+ s'excuser - 道歉
+ salle - 厅, 堂, 大厅, 室, 馆, 室里
+ se préparer - 梳洗穿戴, 准备
+ senti - 感到, 闻到
+ souffler - 吹灭, 呼, 吹, 吹风
+ trousse de toilette - 洗漱包
+104 Love Story 讲述爱情故事
+ adolescent - 青少年
+ adulte - 成年人, 大人, 成人
+ beau-fils - 继子
+ belle-fille - 继女
+ dispute - 争执, 争吵, 事非
+ déprimé - 闷闷不乐, 沮丧, 低落, 情绪低落, 消沉
+ désert - 沙漠, 漠, 荒
+ opinion - 主张, 看法, 感想, 说法, 意见, 观念
+ personne d'autre - 其他人
+ quotidien - 日常, 每日, 家常
+ québécois - 魁北克人, 魁, 魁北克
+ robe de mariée - 婚纱
+ se revoir - 再相见
+ séjour - 逗留, 居留
+ triste - 伤心, 很难过, 哀, 悲, 悲伤, 难过, 悲哀
+ égoïste - 自私
+105 Customer 评价商品和服务
+ appel - 通话, 呼叫, 电话, 点名
+ casser - 破, 打破, 弄坏, 磕断
+ complètement - 完全地
+ dizaine - 十个, 十天, 十几
+ défaut - 缺陷, 缺点
+ faire la cuisine - 做饭
+ fonctionner - 运作
+ grille-pain - 烤面包机
+ inacceptable - 不可接受, 不可接受的
+ lave-vaisselle - 洗碗机
+ micro-ondes - 微波炉
+ par rapport à - 关于
+ payant - 收费, 收费的, 付费
+ prendre - 请假, 摄, 带, 坐地铁, 乘坐, 上, 立下, 走错, 服下, 拍, 吃, 养成, 作出, 拍出, 拍下, 拍摄, 夺走, 打车, 抽出, 接个, 带上, 拍照, 记个, 拿件, 拍自, 量体温, 照相, 量, 吃顿, 采取, 服用, 抢走了, 我取, 要取, 吕克拿起, 要休, 做出, 拿, 带伞, 喝, 占用
+ prise électrique - 插座
+ produit - 产奶, 收益, 产品, 奢侈品, 商品
+ qualité - 性能, 质量, 身份, 优质, 品质, 素质
+ rembourser - 偿, 赔给, 退款, 报销, 退票, 偿还, 回报
+ service client - 客服
+ solution - 解决方案, 点子, 办法, 解决办法
+ toutes nos excuses - 我们深表歉意
+106 New House 评价房子
+ adopter - 收养, 收养者, 模仿, 换用
+ chambre d'amis - 客房
+ chèvre - 山羊
+ chêne - 橡树, 橡, 槲
+ courrai - 会跑步, 会跑
+ devrai - 将应该, 不得不
+ en bon état - 状况良好
+ en dessous - 下面
+ en mauvais état - 状况不好
+ faire du vélo - 骑自行车
+ fauteuil - 扶手椅
+ genre de - 这种, 种类, 一种
+ grosse - 大, 肥, 大的, 厚, 胖的, 胖, 粗大
+ lampe - 盏灯, 灯, 盏, 一盏灯, 电灯
+ peindrai - 涂, 会, 粉刷
+ pelouse - 草坪, 草地
+ placard - 壁橱, 壁, 橱柜
+ poule - 母鸡
+ rechercher - 研, 研究, 搜索
+ sombre - 很暗, 昏, 暗暗, 昏暗, 阴暗的, 沉, 暗, 阴郁, 冥, 沉沉的, 幽, 阴, 阴暗, 偏暗
+ à l'étage - 在楼上
+107 Wardrobe 购买衣服
+ centre commercial - 购物中心
+ chaussures de sport - 运动鞋
+ d'occasion - 二手
+ en soie - 丝绸制的
+ enlever - 脱掉, 去掉, 脱下来, 脱衣服, 画取, 摘掉, 抽走, 脱, 脱厚, 脱下, 卸下
+ enlève - 脱掉, 撤, 拿开, 挪开, 撤下
+ habit - 衣服, 袍
+ je ne sais pas quoi - 不知道
+ legging - 紧身裤
+ marque - 符号, 牌子, 商标, 标, 我进, 名牌, 品牌, 标记
+ mettre - 戴上, 戴, 换上, 搽, 放进, 着手, 把, 穿, 贴, 置于, 装进, 上桌, 凸, 放, 放在首位, 弄成, 放在, 放到, 凸显, 投进, 披上
+ offrir - 赠送
+ original - 有创意, 原创, 新意, 别致, 新颖
+ paire - 双, 副, 一双, 对, 一副
+ pouvoir - 权力, 权势, 能, 既会
+ probablement - 可能
+ rayure - 条纹
+ vingtaine - 大约二十种, 大约二十个, 大约二十双, 大约二十顶, 大约二十件, 大约二十条
+ économiser - 省钱, 攒钱, 存钱, 省, 节约使用, 存, 节约, 省下
+108 Recipes 使用物主代词
+ au lait - 加奶的
+ aux pommes - 含苹果的
+ brûlant - 灼热, 烧, 灼
+ couvert - 贴满, 餐具, 天阴
+ crevette - 虾
+ cuisinier - 厨师
+ cuisinière - 厨师
+ en entrée - 作为前菜
+ expresso - 浓缩咖啡
+ fort - 用力, 激烈, 强烈, 强项, 大不大, 强劲, 壮, 大声, 坞, 很强, 浓, 厉害, 烈, 响亮, 强壮, 强, 很浓, 坚强, 浓烈, 浓郁
+ mien - 我的
+ mienne - 我的
+ miens - 我的
+ moutarde - 芥末, 芥
+ piquant - 辣, 完辣
+ plus rien - 不再有任何东西
+ pâtissier - 糕点师
+ pâtissière - 糕点师
+ sien - 他的, 她的
+ sienne - 她的, 他的
+ siens - 他的, 她的
+ tien - 你的
+ tienne - 你的
+ tiens - 喏, 拿稳, 你的, 咦, 抱, 执
+ transpirer - 出汗, 流汗, 漓
+ à table - 开饭了
+109 History 讨论历史事件
+ ainsi - 因此, 从而, ainsi, 于是
+ cathédrale - 大教堂
+ certain - 某个, 某, 某种, 某位, 确信无疑, 肯定, 确定, 个别
+ diriger - 指挥, 指导, 领导, 主持
+ en haut - 上面
+ gouvernement - 政府
+ guerre - 战争, 战乱
+ généralement - 通常地
+ historique - 性, 历史性, 历史悠久
+ objet - 物品, 藏品, 展品
+ population - 人口数量, 公众, 人口, 老百姓
+ prince - 王子, prince
+ princesse - 公主
+ précieux - 值钱, 难得, 贵重, 珍贵, 可贵
+ président - 总统, 总裁, 主席, 会长, 社长
+ qui - 的, 谁, 哪一位
+ reine - 女王, 王后, 皇后
+ roi - 国王, 王
+ royal - 皇家
+ voter - 投票, 选民, 投票选举
+ épouser - 娶, 嫁给, 嫁
+ évidemment - 显然地
+110 Reading 使用关系从句
+ autrice - 女作家
+ c'est pour ça que - 这就是为什么
+ chapitre - 一章, 章节, 章, 单元
+ deux-cents - 两百
+ découvert - 发现
+ détective - 侦探, 侦, 探, 女侦探
+ histoire - 故事, 历史学, 史, 历史, 剧情
+ inventer - 编出, 编造, 要编, 编出来
+ librairie - 书店
+ liseuse - 电子书阅读器
+ littérature - 文学
+ magique - 神奇, 魔法
+ marque-page - 书签
+ mystérieux - 神秘
+ offrirai - 会送, 会给, 会请
+ présentateur - 主持人, 主播
+ présentatrice - 女主持人, 主播
+ que - 何, 只要, 的, 什么
+ raison - 缘, 缘故, 说得对, 道理, 理, 理由, 无缘无故
+ roman policier - 侦探小说
+ style - 花样, 风味, 风格, 款式, 造型, 潮流
+ trois-cents - 三百
+ trésor - 宝, 宝藏
+ vu que - 既然
+ émission - 一档, 档, 节目, 综艺
+111 Memories 谈谈自己的过去
+ au nord de - 在巴黎的北边, 在我们村庄的北边, 在森林的北边, 在...的北边, 在房子的北边, 在农场的北边, 在我们农场北边, 在河的北边, 在我们学校的北边, 在山的北边, 在我们家的北边, 在高速公路的北边, 在城市的北边, 在我们农场的北边
+ au sud de - 在...的南边
+ campagne - 乡村, 乡间, 役, 竞选活动, 乡, 农, 乡下, 农村, 郊外, 竞选, 野外
+ cela - 那个
+ champ - 田野, 田地, 田, 田里
+ cochon - 猪
+ dessiner - 画画, 画
+ ferme - 门关, 封闭, 闭, 果断, 关窗户, 关掉, 工厂倒闭, 关闭, 坚定, 关上, 农场, 坚决
+ litre - 升, 一升, 那升, 公升
+ mille - 千
+ moustache - 胡子
+ où - 哪里, 在哪里, 的地方, 的, 哪儿, 何处
+ papillon - 蝴蝶, 蝴, 蝶
+ passer - 逝, 每天花, 过生日, 共度, 花一, 转为, 路过, 去度, 递, 过去, 递给, 参加, 过个, passer, 转过, 度过, 升入, 通个, 顺道去, 及格
+ paysage - 景, 风景, 景色, 景观, 风景画, 格局
+ rappeler - 回个, 提醒, 牢记, 回电, 联想
+ rappelle - 提醒, 回忆起, 提醒您
+ temps - 时间
+ trentaine - 三十
+ vache - 牛, 奶牛, 母牛
+ à l'est de - 在...的东边, 在巴黎的东边, 在森林的东边, 在河的东边, 在学校的东边, 在房子的东边, 城市的东边, 在农场的东边, 海滩东边, 在城市的东边
+ à l'ouest de - 的西边, 在我城市的西边, 在山的西边, 在学校的西边, 在城市的西边, 在我们家的西边, 在我们学校的西边, 在巴黎的西边, 在我家的西边, 在我们农场的西边, 在河的西边, 在...的西边
+ époque - 时代
+112 Siblings 谈论你的宠物
+ aboie - 叫, 吠
+ aboyer - 吠叫, 吠, 唤
+ bruyant - 吵闹, 吵, 吵不吵, 嘈, 嘈杂
+ coussin - 靠垫, 坐垫
+ douce - 绵, 温和, 柔, 柔软, 温柔, 甜蜜, 甜不甜, 不软, 软, 轻柔, 柔和
+ doux - 柔软的
+ fidèle - 忠诚, 忠实, 忠诚的, 忠于
+ grenouille - 青蛙
+ injuste - 不公正
+ miauler - 喵喵叫, 喵, 猫叫
+ mord - 咬, 咬人
+ mordre - 咬
+ oreille - 耳朵
+ patte - 爪子, 肢
+ poil - 毛
+ promenade - 散步, 散个步, 观光
+ proprement - 干净地
+ ronfler - 打鼾
+ sol - 地板, 地面, 土壤, 泥土, 壤, 地, 土地
+ tortue - 乌龟, 龟, 龟兔
+ vouloir - 想要
+113 Office 讨论工作任务
+ batterie - 电池电量, 架子鼓, 电池, 鼓, 电瓶
+ bref - 总之
+ calmement - 平静地
+ combien de - 几, 几条, 几本, 几个, 几张, 多少件, 多少幢, 几套
+ correct - 没错, 不太对, 正确, 对劲儿, 正, 适当
+ décrire - 描, 形容, 描述, 描写
+ détail - 详细, 细节, 详
+ en effet - 确实
+ félicitations - 恭喜, 祝贺, 贺
+ incroyable - 真牛, 难以置信, 不可思议, 不可思议的, 奇妙
+ lentement - 慢慢地
+ objectif - 镜头, 旨, 目标, 宗旨, 中立
+ photocopieuse - 复印机
+ pourtant - 然而
+ rapidement - 快速地
+ respecter - 尊, 遵, 给面子, 尊重, 佩服
+ soulagé - 宽慰, 如释重负
+ succès - 成功
+ à demain - 明天见
+ ça veut dire - 这个意思是
+ écrivons - 写东西, 地写, 写信, 写得, 写, 写下
+114 Traveling 准备旅行
+ absolument - 根本, 绝不能, 绝对的, 绝对, 压根儿, 绝不, 绝对地, 绝, 简直
+ agence de voyages - 旅行社
+ aller simple - 单程票
+ aller-retour - 往返票
+ chaud - 炎热, 热腾腾, 很热, 热不热, 熱, 温暖, 保暖, 暖和, 烫, 热, 暖, 闷热, 可热
+ commander - 点餐, 订餐, 订过, 点单, 叫外卖, 订, 点菜, 下单
+ deux-mille - 两千
+ enregistrement - 值机, 录音, 托运, 登记, 录像
+ fréquemment - 经常地
+ heureusement que - 幸好
+ il faudrait - 应该
+ master - 硕士, 研究生
+ parfaitement - 完美地
+ peser - 称重, 称, 先称
+ pèse - 称重, 称, 我重, 那瓶重, 包重
+ soixante - 六十
+ tous - 所有的, 都, 所有, 大家, 皆, 全都会, 全部, 所有人, 一同, 全员, 所有都, 一齐
+ toutes - 所有的, 每, 所有, 全都, 全部
+ Écosse - 苏格兰
+ ça suffit - 够了, 够
+ échange - 交, 换货, 交流, 交换, 替换
+ ému - 激动, 感动, 心动
+115 Dinner 使用被动语态
+ acide - 酸, 汤酸
+ beurk - 呸
+ cerise - 樱桃
+ champignon - 菇, 蘑菇, 蘑, 菌
+ courgette - 西葫芦, 葫
+ en papier - 纸制的
+ il reste - 还剩
+ ketchup - 番茄酱
+ nappe - 桌布, 餐布
+ nous-mêmes - 我们自己
+ oignon - 洋葱
+ omelette - 鸡蛋卷, 煎蛋卷
+ ouvre - 打开, 启, 开门, 睁开, 它开, 张嘴, 张得, 开一, 开启, 睁, 敞开
+ ouvres - 打开, 睁
+ paquet - 一包, 小包, 包裹, 大包
+ par - 相对, 从, 由, 通过, 出于, 对, 药由
+ poêle - 锅, 平底锅, 煎锅
+ servi - 上, 上桌, 端上来
+ servir - 自取, 供应, 时上些, 为您服务, 上菜
+ soixante-dix - 七十
+ soixante-douze - 七十二
+ soixante-et-onze - 七十一
+ vinaigre - 醋
+ vous-mêmes - 你们自己
+116 Yoga Class 参加瑜伽课
+ asseyez-vous - 坐
+ assieds-toi - 坐
+ bailler - 打哈欠
+ ce n'est pas grave - 没关系
+ comme - 一样, 时像, 宛, 般的, 般, 仿佛, 像, 宛如, 作为, 如同, 当作, 正如, 地像, 画般, 似的, 如, 当成, 加上
+ corps - 身体
+ encore - 仍然, 至今, 还, 还有, 又, 再来一个, 仍, 仍旧, 再次, 一再, 再有, 都还没, 再行, 再, 还要, 依然
+ gourde - 水壶, 水杯
+ le bas - 下方
+ le haut - 上面
+ lever - 解除, 杠杆, 日出, 使劲, 举杯, 举手, 高举
+ méditation - 冥想
+ ne t'assieds pas - 不要坐
+ ne vous asseyez pas - 不要坐, 不要坐下
+ pratiquer - 练习, 玩好
+ profondément - 深深地
+ respirer - 呼吸
+ récemment - 最近
+ s'allonger - 趴在, 越长
+ s'endormir - 入睡
+ s'étirer - 伸展, 拉伸, 伸伸
+ salle - 厅, 堂, 大厅, 室, 馆, 室里
+ souple - 柔软
+ sur le dos - 仰卧
+ sur le ventre - 趴下, 趴着
+ tapis - 地毯, 垫
+ vers - 他朝, 朝着, 左右, 去往, 走向, 往, 地向, 朝, 半左右, 诗节, 将近, 蚯
+117 Broken 解决技术问题
+ appareil - 台, 设备, 机器, 装置, 器, 电器
+ bon - 课好, 好, 好喝, 好闻, 好吃的, 太行, 不错, 状况良好, 对的, 很好吃, 好喝的, 良, 美好的, 代金券, 良好
+ cause - 因为, 原因, 造成, 成因, 因, 因素
+ cliquer - 点击
+ coller - 粘, 粘贴, 粘住
+ copier - 抄写, 地抄, 复制, 模仿
+ câble - 线缆, 电缆, 缆, 缆绳
+ de temps en temps - 时不时
+ fichier - 文件
+ imprimante - 打印机
+ informatique - 计算机科学, 计算机, 计算机专业
+ modèle - 型号, 一款, 杆, 榜样, 标杆, 同款, 示范, 模范, 型, 款, 模型, 模, 模式
+ moi - 我, 给我
+ ordinateur portable - 笔记本电脑
+ panne - 坏了, 坏, 故障
+ récent - 最近的, 最新的
+ réparateur - 修理工, 师傅
+ souris - 鼠标
+ tout - 所有的, 共, 都, 所有东西, 整栋, 一整, 十分, 满脸, 整个, 整趟, 一切, 整块, 一切都是, 皆, 事事, 全部, 全, 整家, 凡事, 全都, 整, 整张
+ télécharger - 上传, 下载, 传到
+ virus - 病毒
+ écran - 屏幕, 屏, 界面, 荧屏, 银幕, 页面
+ éteignez - 关
+ évident - 显, 明显, 可见
+118 Together 表达你的感受
+ amour - 爱情
+ exactement - 确切地
+ formidable - 太好了, 很棒的, 太棒, 真牛, 棒极了, 令人敬畏的, 可棒
+ honnête - 不诚实, 诚实, 单纯, 老实, 诚, 诚恳, 厚道, 真诚
+ mensonge - 谎言, 谎
+ mentir - 撒谎
+ moi - 我, 给我
+ optimiste - 乐观
+ pessimiste - 悲观者
+ rire - 笑
+ sois - 是
+ soyez - 要
+ stupide - 笨, 愚, 愚蠢, 呆呆
+ tout à fait - 完全
+ un jour - 有一天
+ vivons - 活, 活在
+ vérité - 真相, 实话, 真理, 真话, 对错
+119 Cooking 2 应对厨房意外
+ boucher - 屠夫, 肉贩
+ brûler - 烧着, 焚, 烤糊, 烧, 着火
+ casserole - 连锅, 锅, 砂锅, 锅来
+ catastrophe - 灾难
+ crudités - 生菜拼盘
+ cuire - 烹饪
+ disparu - 不知去向, 荡然无存, 消失, 失踪者
+ eau gazeuse - 气泡水
+ fait tomber - 弄掉
+ glaçon - 冰块
+ il vaut mieux - 最好
+ livrer - 送达, 送货, 送出去, 送, 递交
+ normalement - 通常情况下
+ pendant que - 的时候
+ poissonnerie - 鱼店
+ poivron - 辣椒, 青椒
+ quatre-vingts - 八十
+ remplir - 填, 填补, 填满, 装满, 倒满, 填写, 填空
+ robot - 机器人
+ rosé - 桃红葡萄酒
+ sans alcool - 不含酒精
+ steak - 牛排
+ thon - 金枪鱼
+120 Oh là là! 计划社交聚会
+ accueillir - 欢迎
+ croiser - 碰上, 遇到, 路过
+ de rêve - 梦想的
+ discussion - 讨论, 讨论的, 讨论会
+ dit - 说出, 歌说, 时说, 说错, 说肉, 说, 告诉, 讲过, 说声, 说来, 所谓
+ ex-mari - 前夫
+ exagère - 夸大, 夸大其词
+ exagérer - 夸大, 夸张
+ filer - 走
+ fumer - 抽, 抽烟, 吸烟
+ jardinier - 园丁
+ libanais - 黎巴嫩人, 黎巴嫩的, 黎巴嫩
+ marrant - 有趣
+ mec - 家伙
+ millier - 千
+ peu importe - 不管
+ pu - 能, 得以
+ quelque chose de prévu - 安排
+ se voir - 见面
+ superbe - 漂亮, 可棒
+ terrible - 可怕, 不怎么样, 糟透, 噩, 可怕的, 糟透了
+ villa - 别墅
+ ça fait - 这要
+121 Museum 使用过去时
+ bondé - 拥挤
+ charmant - 魅, 迷人, 优美, 动听
+ cher - 贵
+ dix-huitième - 第十八
+ dix-neuvième - 第十九
+ dix-septième - 第十七
+ exprimer - 抒发, 表达, 发声, 一再表示, 抒, 反映, 发表意见, 描写, 表示, 表白, 展现
+ extrêmement - 非常
+ féliciter - 祝贺
+ galerie - 廊, 画廊
+ historique - 性, 历史性, 历史悠久
+ impressionné - 印象深刻
+ mort - 死亡, 人死, 亡, 戴之死
+ peint - 涂红, 画, 刷漆, 画了, 粉刷, 已画, 涂得
+ peinture - 画画, 画, 幅画, 张画作, 油漆
+ photographe - 摄影师
+ religion - 宗教, 宗教的, 信仰
+ siècle - 世纪, 世
+ talent - 才华横溢, 天分, 赋, 才能, 天赋, 才华, 人才
+ visite guidée - 导游参观
+ vécu - 住过, 住
+ énormément - 非常
+ événement - 事件, 个会, 大事
+ œuvre - 之作, 作, 作品, 藏品
+122 Running 制定运动计划
+ actif - 积极, 活跃
+ admirer - 欣赏, 崇拜, 崇拜者, 钦佩, 佩, 佩服, 羡慕
+ applaudir - 鼓掌
+ athlète - 运动员, 选手
+ blessé - 受伤, 受伤了, 受伤的, 受过伤
+ cheville - 脚踝, 踝
+ coureur - 跑步者
+ coureuse - 女跑者
+ couru - 追赶
+ douloureux - 痛, 痛苦的, 痛苦, 疼痛
+ encourager - 鼓励, 培养, 鼓励者, 推动
+ entraînement - 训练, 体能训练
+ foule - 人群, 人多, 群众, 人潮, 众, 扭伤
+ genou - 膝盖
+ gravement - 严重地
+ huitième - 第八, 第八个
+ kilomètre-heure - 公里每小时
+ marathon - 马拉松
+ pareil - 一样, 这样, 类似
+ pendant ce temps - 与此同时
+ quatre-vingt-deux - 八十二
+ record - 记录, 纪录
+ s'entraîner - 练, 训, 训练
+ vainqueur - 胜利者, 胜者
+123 Learning 与社区交流
+ Afrique - 非洲
+ Algérie - 阿尔及利亚
+ Maroc - 摩洛哥
+ accent - 口音, 重点
+ africain - 非洲人, 非洲的, 非洲
+ algérien - 阿尔及利亚的, 阿尔及利亚人, 阿尔及利亚
+ apprendre - 多学, 得知, 学得会, r, 对学, 学, 学着点, 学习, 教, 学会, 学到, 会得
+ association - 协会, 组合, 社团, 联合
+ autour - 周围
+ communauté - 圈子, 社群, 社区, 公众
+ communiquer - 用, 和, 在线, 努力, 与, 分享, 沟通
+ correctement - 正确地
+ couscous - 古斯米
+ culturel - 文化
+ en - en, 对此, 一些, 打着, 之内, 穿, 之中, 那个, 内, 在, 用时, 去, 从中, 儿里
+ humain - 人性化, 人类, 人性
+ lisant - 看着, 读着
+ nationalité - 国籍, 籍
+ partager - 分担, 合住, 转发, 分享, 认同
+ principalement - 主要地
+ relation - 关系, 熟人
+ échanger - 换货, 兑换, 交流, 积分换, 交换, 兑, 换好
+ étranger - 外地人, 外国, 国外, 外国人, 陌生人
+ étrangère - 外国人, 外语, 陌生
+124 Injuries 讨论受伤和症状
+ allergie - 过敏, 过敏反应
+ ayant - 有
+ aïe - 哎哟
+ bloqué - 卡住, 封锁, 堵, 堵住
+ bouton - 纽扣, 按钮, 钮, 按键, 扣子, 旋钮
+ compétent - 能干, 称职, 熟练
+ cou - 脖子, 颈, 脖, 颈部, 脖颈
+ devoir - 欠, 将要, 后该, 作业, 责任, 职责, 不可, 生要
+ doigt - 手指
+ explication - 解释, 说明, 释, 解说
+ gonflé - 肿
+ immédiatement - 立即
+ main - 手里, 手, 只手, 一手
+ massage - 按摩
+ patienter - 等候, 稍候
+ piqûre - 叮咬
+ sachant - 知道
+ samu - 急救中心
+ sans doute - 毫无疑问
+ urgences - 急诊室
+ visage - 脸蛋, 面部, 脸, 面孔, 脸色, 脸庞, 面子
+ ça fait mal - 疼
+ étant - 由于, 因为
+125 Champions 参与体育活动
+ adversaire - 对手
+ allez - 走, 没事, 将会, 去, 会, 加油, 加把劲
+ battre - 打败
+ but - 目的, 进球, but
+ championnat - 冠军赛, 冠军
+ coach - 教练
+ encourageant - 鼓舞人心
+ faute - 过错, 对错, 错误, 疏忽
+ finale - 决赛, 冠军赛
+ gymnase - 健身房, 体育馆
+ handball - 手球
+ marquer - 进, 进球, 中进, 得分
+ national - 全国, 国家级, 全国性的, 全国性
+ neuvième - 第九, 第九个
+ olympique - 奥运, 奥林匹克
+ parmi - 其中, 中是, 之中, 当中, 人中
+ résultat - 考试分数, 结果, 比分, 成果, 后果
+ saison - 赛季, 季, 季会, 季节, 一季, 时令
+ saluer - 打招呼, 招呼, 鞠, 打个招呼, 鞠躬
+ se sentent - 感觉
+ supporter - 承受, 支持者, 经得住, 受得了, 忍一忍, 忍到, 堪, 扛不住
+ supportrice - 女支持者
+ victoire - 胜利, 胜选
+ viser - 瞄准
+126 Workplace 使用条件语气
+ clairement - 清楚地
+ de bonne humeur - 心情好
+ de mauvaise humeur - 心情不好
+ décision - 决定, 决策, 裁定
+ emploi - 工作, 雇用
+ en congé - 休假
+ exemple - 例子, 典范, 示范, 范例, 例, 比如说, 范, 比喻
+ feutre - 记号笔
+ habituel - 习惯吃的, 平常的, 普遍
+ insister - 坚持, 再三, 一再表示
+ licencier - 解雇
+ mondial - 全球, 全球性
+ nous tous - 我们所有人
+ présentation - 解说, 发布会, 演示, 简介
+ rangerais - 会整理
+ retournerais - 不会回到, 会回到, 回到, 会去, 返, 返回
+ résultat - 考试分数, 结果, 比分, 成果, 后果
+ salarié - 员工
+ saurais - 会
+ tableau - 图表, 油画, 画, 图画, 这画儿, 幅, 画时, 名单
+ trimestre - 季度, 一季度
+ à ma place - 如果我是你
+ à ta place - 如果我是你
+127 Life Goals 规划你的未来
+ agriculteur - 农民
+ agricultrice - 农民, 果农
+ avenir - 将来, 未来, 前途
+ bel - 美丽的, 贝尔, 美的, 好看的, 帅气
+ bonheur - 幸福
+ cours particulier - 私人课程
+ différemment - 不同地
+ droit - 右侧, 权利, 法律, 权, 权力, 右, 往前走, 法学, 右边, 正义
+ décevant - 失望, 失望的, 扫兴
+ enrichissant - 有益
+ gendarme - 宪兵
+ imaginer - 想象, 想像, 想不到
+ juge - 法官, 女法官, 裁
+ motiver - 激励
+ rater - 赶不上
+ rentrée - 开学
+ s'améliorer - 改善, 提高
+ sauver - 挽救, 拯救, 挽, 抢救
+ tribunal - 法院, 法庭, 廷
+ uniforme - 匀, 制服, 均, 单调
+ âne - 驴, 驴子
+128 Robbery 报告犯罪情况
+ agent - 特工, 剂, 经纪人
+ bizarrement - 奇怪地
+ bâtiment - 建筑物, 厦, 建筑, 大厦
+ châtain - 栗色
+ clair - 清醒, 清晰, 透明, 晰, 清, 动听, 可见, 清淡, 明朗, 简洁, 讲清楚, 浅, 清脆, 楚, 太浅, 天气晴朗, 明确, 朗, 晴朗, 宽敞明亮
+ commissariat - 警察局
+ dans - 里演, 里会, 过, 来, 之内, 之中, 内会, 内, dans, 在, 里, 中, 儿里
+ de luxe - 豪华的
+ diamant - 钻石
+ direction - 方向, 管理层
+ humain - 人性化, 人类, 人性
+ laquelle - 哪一个
+ lequel - 哪一家, 哪一位, 哪一个, 哪一块, 哪一道, 哪一部
+ lesquelles - 哪些
+ lesquels - 哪些
+ masque - 假面舞会, 口罩, 面具
+ nez - 鼻子
+ quelque chose d'autre - 别的东西
+ raide - 僵硬
+ recevoir - 招待, 领取, 接到, 收到, 接收, 接待客人, 接待, 收着
+ s'arrêter - 停下来, 停歇, 到此为止, 就此打住
+ suivre - 跟随
+ témoin - 目击者, 证人, 伴娘
+ vitrine - 橱窗, 展示柜
+ voiture de police - 警车
+ œil - 眼睛
+129 Flying 探索机场
+ angoissé - 焦虑
+ arrivées - 到达区
+ asseoir - 坐, 坐成, 坐坐, 就座
+ attacher - 上系, 系上, 系好, 拴, 系得, 系在, 系紧, 先系
+ atterrir - 降落, 着地
+ ceinture - 腰带, 皮带
+ debout - 站着
+ direct - 现场直播, 直飞, 直达, 痛快
+ décoller - 起飞
+ départs - 出发点
+ embarquement - 登机
+ entre - 进来, 之间, 进, 介于
+ escale - 中转, 停留
+ hall - 大堂, 大厅, 礼堂, 门厅
+ marchand de journaux - 报刊亭
+ paniquer - 恐慌
+ renseignement - 信息
+ se garer - 把车停在, 停
+ siège - 总部, 位子, 席, 座位, 座椅
+ tempête - 暴风雨, 风暴, 暴雨, 暴风, 风雨
+ terminal - 航站楼
+ à destination de - 开往
+130 Bistro 美食: 描述喜欢的食物
+ absolument - 根本, 绝不能, 绝对的, 绝对, 压根儿, 绝不, 绝对地, 绝, 简直
+ agneau - 羊肉, 羔羊, 羔, 羊羔肉
+ ananas - 菠萝
+ boisson fraîche - 清凉饮料, 清凉
+ bœuf - 牛, 牛肉
+ dégoûtant - 恶心的, 恶心, 恶
+ franchement - 坦率地, 坦, 干脆
+ juste - 只
+ menu - 菜单, 套餐
+ morue - 鳕鱼
+ olive - 榄, 橄榄
+ piment - 辣椒, 椒
+ plat - 料理, 平, 菜里, 一道, 菜, 肴, 特色菜, 菜肴, 道菜, 平坦
+ poivron - 辣椒, 青椒
+ porc - 猪肉
+ portugais - 葡萄牙, 葡萄牙人, 葡萄牙语
+ pourrions - 可能
+ pétillant - 起泡
+ renverser - 打翻
+ sauce - 辣酱, 酱, 酱汁, 酱来
+ tarte - 馅饼, 挞
+ typiquement - 典型地
+ végétarien - 素食者, 素食
+131 Festival 音乐会: 介绍你喜欢的乐队
+ accent - 口音, 重点
+ chauve - 秃头, 秃, 秃顶
+ cinéma - 影院, 电影, 电影院, 院, 电影吧, 影视
+ courriel - 封, 新邮件
+ créatif - 创意的
+ donc - 可见, 只好, 因此, 从而, 所以, 于是
+ désagréable - 不愉快, 刺耳
+ enfin - 终于
+ exposition - 展览, 展品, 展, 展览会, 曝光
+ festival - 节, 节日, 节庆, 电影节
+ formidable - 太好了, 很棒的, 太棒, 真牛, 棒极了, 令人敬畏的, 可棒
+ guitariste - 吉他手
+ irlandais - 爱尔兰, 爱尔兰的
+ message - 个言, 帖子, 信息, 消息, 留言, 信件, 通讯
+ moustache - 胡子
+ orchestre - 乐团
+ par contre - 不过
+ photographie - 摄影
+ plaire - 喜欢, 讨好
+ plaisent - 喜欢
+ plaît - 请
+ raconter - 叙, 讲述, 诉, 叙述, 讲故事, 述
+ sourire - 多笑, 笑容, 微笑, 面带微笑
+132 Let's Fly 机场: 办理登机手续
+ annonce - 告, 公告, 公布, 声明, 宣, 宣布, 广告宣传
+ arrivée - 快到, 到来, 到达, 车来, 到了, 赶到
+ attacher - 上系, 系上, 系好, 拴, 系得, 系在, 系紧, 先系
+ atterrir - 降落, 着地
+ auberge de jeunesse - 青年旅舍
+ calme - 镇定, 宁静, 沉着, 宁, 平静的, 安静, 平静, 冷静, 沉着的, 安, 静, 冷静的, 风平浪静
+ ceinture - 腰带, 皮带
+ compagnie aérienne - 航空公司
+ complet - 齐, 满员, 彻底, 十足, 满房, 充分, 包全, 订满, 完整, 客满, 满满的
+ confirmer - 确认者, 证实
+ contrôler - 掌控, 控, 控制, 检查, 监测
+ direct - 现场直播, 直飞, 直达, 痛快
+ durer - 持续, 持续一年
+ décoller - 起飞
+ défaire - 打开, 拆, 拆开
+ départ - 离开, 退房, 班次
+ enregistrer - 托运, 录, 登记, 录制
+ monter - 搬上去, 登上, 上来, 爬上去, 上去, 爬楼梯, 上台, 登, 上楼, 上升, 顺着, 爬到, 升高
+ personne - 任何人, 者, 无人, 人, 人向, 人士, 没有人, 人到, 他人
+ personne ne - 没有人
+ retarder - 耽误, 推迟, 耽搁, 拖延
+ rien - 任何东西都, 任何东西, 没什么
+ rien ne - 什么都不, 什么都没有, 什么都不会, 什么都不能
+ sinon - 要不然, 否则, 不然, 要么
+ souvenir - 记得, 纪念品, 记, 忆, 回忆, 记忆, 想不起来
+ séjour - 逗留, 居留
+ visite - 访, 访问, 去玩, 游在, 来访, 参观, 做客
+ voyageur - 旅客, 旅行者
+133 For You 家人: 表达对家人的关心
+ acheter - 想买, 买房, 不买, 买纸, 购买, 买些, 买热, 买下, 采, 买手机, 买, 买桃, 买过
+ adopter - 收养, 收养者, 模仿, 换用
+ apporter - 自带, 拿来, 带水, 带, 带酒, 带花, 带到, 带些, 带书来, 带来, 带个, 带上去, 带止, 送来, 上菜
+ beau-père - 继父
+ beaux-parents - 岳父母
+ belle-mère - 岳母
+ blague - 笑话, 玩笑
+ bouquet - 簇, 一束, 束, 花束, 一簇
+ centaine - 百位, 来本, 百来件
+ chéri - 亲爱的, 宝贝
+ cinquantaine - 大约五十本, 大约五十个, 大约五十朵, 大约五十双, 大约五十棵
+ comme - 一样, 时像, 宛, 般的, 般, 仿佛, 像, 宛如, 作为, 如同, 当作, 正如, 地像, 画般, 似的, 如, 当成, 加上
+ donner - 给, 给出, 报以, 起个, 出个, 捐钱, 让, 施, 捐给, 包给, 捐, 给予, 予, 送给, 捐书, 交给, 付得
+ leur en - 给他们, 一些, 这些, 对他们
+ lui en - 借给他, 给他买一些, 给她送, 给他织很多, 给他织得太多, 给她一些, 给他织了一百件, 给他, 给他一些, 给他织一个, 给他买了
+ m'en - 给我, 给他, 送我
+ mensonge - 谎言, 谎
+ nous en - 我们一些
+ oh là là - 哎呀呀
+ rose - 粉色的, 粉色, 朵玫瑰, 玫, 玫瑰, 粉红色, rosa
+ t'en - 给你
+ tricoter - 织, 他织, 织毛衣
+ trompette - 小号
+ vingtaine - 大约二十种, 大约二十个, 大约二十双, 大约二十顶, 大约二十件, 大约二十条
+ vous en - 您的
+134 At School 学校生活: 表达对成绩的看法
+ affaires - 东西, 事儿, 案件, 办事, 业务
+ attitude - 态度
+ brillant - 闪亮, 明亮, 鲜艳
+ choisir - 选课, 选张, 来选, 选定, 要选, 挑, 选在, 好要, 选修, 选, 该选, 选人, 中选, 看中, 挑选, 挑出, 取个, 选择, 选个, 选完
+ compliqué - 复杂, 可难
+ de - 个, 从, 上, 之, 种, 来自, 的, 要, 对, 离, 能, de
+ devoir - 欠, 将要, 后该, 作业, 责任, 职责, 不可, 生要
+ explication - 解释, 说明, 释, 解说
+ fatigant - 太累, 真累, 辛苦, 累, 累人, 人累
+ fier - 骄傲, 得意, 自豪, 引以为豪, 引以为傲
+ finir - 完辣, 做完, 结束, 下班, 收尾, 选完
+ grandir - 长大
+ inacceptable - 不可接受, 不可接受的
+ intermédiaire - 介, 中级
+ paragraphe - 段落, 几段, 一段话, 段, 段话
+ prononcer - 发音
+ rédaction - 撰写, 作文, 报社, 编辑
+ réfléchir - 考虑, 思考, 想一想, 琢, 琢磨, 想来想去
+ résultat - 考试分数, 结果, 比分, 成果, 后果
+ réussir - 取得成功, 顺利完成, 过关, 能办, 通过, 考过, 设法, 成, 及格
+ scolaire - 学校, 学校的
+ sens - 意义, 义项, 没道理, 得通, 感官, 感到, 思, 毫无道理, 意思, 含义
+ à - 给, 于, 至, 来, 念, 靠, à, 的, 到, 向, 在, 对, 离, 跟, 三到, 去, 之内
+ énerver - 生气, 惹怒
+135 Together 友情: 表达对朋友的感受
+ amitié - 谊, 友谊, 友情
+ complètement - 彻底, 完全, 彻, 充分
+ de - 个, 从, 上, 之, 种, 来自, 的, 要, 对, 离, 能, de
+ demander - 请求, 询问, 询, 征求, 请教, 问, 问询, 求, 要求, 求个, 要, 美问
+ espoir - 希望
+ faire plaisir - 高兴
+ faire plaisir à - 让...高兴
+ généreux - 慷慨, 大方, 无私
+ jaloux - 嫉妒, 吃醋, 嫉, 妒
+ malheureux - 不开心, 不幸
+ méchant - 坏人, 坏, 很坏, 刻薄, 反派
+ même pas - 甚至
+ non plus - 也, 也不, 也没有
+ pardonner - 原谅
+ part - 离开, 出发, 走掉, 块, 去, 开行
+ plaisir - 乐意, 乐趣, 乐事, 过瘾
+ refuser - 拒绝, 拒绝者, 谢绝
+ rend - 信让, 抓狂
+ rendre - 回报, 还给, 还, 还书, 归还, 归还给, 使人, 发回, 归, 交回, 再交, 拍出来, 交还, 包让
+ sentiment - 情, 有种, 感觉, 感, 感想
+ stupide - 笨, 愚, 愚蠢, 呆呆
+ égoïste - 自私
+136 Career 2 职业: 介绍理想职业
+ agence - 旅行社, 机构, 代理处
+ ambition - 野心, 雄心, 抱负
+ apprendre - 多学, 得知, 学得会, r, 对学, 学, 学着点, 学习, 教, 学会, 学到, 会得
+ architecte - 建筑师
+ avenir - 将来, 未来, 前途
+ avocat - 律师, 牛油果
+ boulanger - 面包店, 面包师, 师
+ comptable - 会计, 会记
+ comédien - 演员
+ courageux - 勇敢, 勇敢的
+ devenir - 变得, 成为成员, 而变, 变瘦, 变成, 成为, 变秃, 变蠢
+ droit - 右侧, 权利, 法律, 权, 权力, 右, 往前走, 法学, 右边, 正义
+ expérience - 经历, 体验, 经验, 实验
+ patient - 病人, 耐心, 患者
+ patron - 大爷, 老板, 上司, 大哥, 赞助人, 模式
+ professeure - 女教师, 教师
+ quand - 的时候, 何时, 几时, 当, 什么时候, 时候, 时会
+ revenir - 折返, 回来, 回归
+ souvenir - 记得, 纪念品, 记, 忆, 回忆, 记忆, 想不起来
+ stressant - 有压力的
+ sûrement - 肯定
+ talent - 才华横溢, 天分, 赋, 才能, 天赋, 才华, 人才
+ venir - 来, 来看, 过来, 去, 来换
+ vétérinaire - 兽医
+137 Opinion 2 艺术: 表达你对作品的看法
+ bravo - 太棒了
+ ce qu' - 的东西
+ ce que - 什么
+ comédie - 喜剧
+ demande-lui - 问她, 问, 问他
+ dis-moi - 告诉我
+ exprimer - 抒发, 表达, 发声, 一再表示, 抒, 反映, 发表意见, 描写, 表示, 表白, 展现
+ lire - 读, 阅, 看书, 阅读, 能读, 读出来, 书读, 读归读
+ organiser - 举办, 协调, 预先, 组织, 筹办, 排好
+ original - 有创意, 原创, 新意, 别致, 新颖
+ peindre - 画成, 上漆, 绘画, 画画, 漆成, 涂, 作画, 漆, 绘, 涂成, 刷成, 粉刷, 涂漆, 描写
+ pingouin - 企鹅
+ poème - 诗歌, 诗篇
+ roman - 小说, 长篇小说
+ savoir - 会, 既会
+ succès - 功, 成功, 成果
+ tout ce - 所有这些
+ trouver - 哪里找, 找出, 找到, 找个, 查出, 猜出
+ utiliser - 用, 说用, 他用, 使用, 用年, 地用, 过用, 用刀, 用到, 用油, 占用
+ vendre - 转让, 出售, 卖掉, 卖, 卖书, 推销
+ vivre - 活, 生活, 过像, 活着, 为生, 碰上
+138 Nature 2 自然: 描述公园里的景色
+ abeille - 蜜蜂, 蜂
+ allonger - 延长, 趴, 仰卧, 躺下, 伸得
+ bord - 边, 岸边, 边缘
+ bronzer - 晒, 晒太阳, 会晒
+ dormir - 睡觉, 睡, 睡不着, 睡上, 觉, 睡得, 睡过去
+ découvrir - 发现, 有待, 查出, 猜出
+ feuille - 叶子, 树叶
+ forêt - 森林, 树林
+ grenouille - 青蛙
+ herbe - 草, 草地
+ jouer - 中玩得, 上扮, 打网球, 战下, 扮, 玩儿, 中玩, 演出, 玩耍, 出演, 打牌, 演, 耍, 弹钢琴, 玩吧, 打球, 玩电脑, 饰演, 拉, 会弹, 演奏, 玩, 打麻将, 扮演, 踢足球, 起到
+ louer - 租借, 租个, 扬, 租得, 租用, 租到, 赞扬, 租车, 租, 表扬, 夸, 出租
+ marcher - 走, 行走, 踏, 走路, 步行, 脚踏
+ nager - 泳, 游, 游泳, 游动
+ papillon - 蝴蝶, 蝴, 蝶
+ perdre - 丢掉, 落败, 输, 亏了, 输给, 亏下, 弄丢, 减肥, 很亏
+ plaire - 喜欢, 讨好
+ pleuvoir - 下雨
+ préparer - 炒菜, 备, 筹备, 准备, 预先, 配制, 做好, 做, 做鱼, 亲手做
+ regarder - 瞧一瞧, 看一遍, 看新, 看电视, 围观, 看, 看归, 看点, 观看, 看看, 比看, 浏览
+ sable - 沙子, 沙, 砂
+ travailler - 下功夫, 工作, 劳, 办公, 上班, 干活, 琢磨
+ voir - 见到, 看见, 瞧一瞧, 见识, 目睹, 看得出, 见, 看, 看到, 中见, 看不出, 见见, 看场, 看不到, 一见, 看出, 看得见, 视, 地看, 看能, 看归
+ étoile - 星, 星星
+139 Couples 情感: 表达你的感受
+ aimer - 欢, 喜欢
+ arriver - 早到, 抵达, 到达, 驶来, 赶到, 到, 来到, 生到
+ ce qui - 什么
+ compte - 账号, 账户, 数数, 账, 不算, 帐户, 数一数, 指望
+ compte de - 意识到
+ confiance - 信心, 信任, 有把握, 自信
+ couple - 夫妻, 一对, 情侣, 夫妇
+ dis-lui - 告诉他
+ discuter - 讨论, 上聊, 商量一下, 聊天, 上谈, 网上聊, 协商, 起天来, 商量, 商谈, 聊聊, 聊聊天, 计较
+ disputer - 争, 闹矛盾, 争吵, 别吵
+ déranger - 打扰, 扰, 吵到
+ en ce moment - 最近
+ faire - 闹出, 搞, 办, 做点, 交新, 办点, 生火, 做蕾娅, 交好, 迈出, 考得, 逛街, 办理, 煮, 拍电影, 引起轰动, 迈, 做一套, faire, 付出, 煮汤, 做, 骑骑, 弄个, 假装, 弄, 使, 做个, 盘个, 组队
+ honnête - 不诚实, 诚实, 单纯, 老实, 诚, 诚恳, 厚道, 真诚
+ impossible - 行不通, 不成, 不行, 可能, 无法, 不可
+ mouchoir - 纸巾, 手帕
+ peur - 害怕, 怕, 怖, 恐惧, 恐, 好怕
+ plaire - 喜欢, 讨好
+ pleurer - 泣, 流泪, 落泪, 哭闹, 哭泣, 哭, 一哭
+ sortir - 上市, 外出, 出来, 冒出来, 挑出来, 下床, 掏出, 出门, 出去, 取出, 掏, 出院, 出新, 拿出, 上映, 逃出, 出国, 谈恋爱, 生去
+ sourire - 多笑, 笑容, 微笑, 面带微笑
+ tout ce qui - 一切你喜欢的东西, 一切发生的东西, 一切我想做的东西, 一切东西, 一切...的东西
+ toutes les deux - 两个人都
+140 Athletes 比赛: 讲述参赛经历
+ améliorer - 提升, 优化, 提高, 拓展
+ assister - 参加, 围观
+ athlète - 运动员, 选手
+ avais l'habitude - 过去习惯
+ connu - 众所周知的, 已知, 鲜为人知, 知名的, 所知, 熟知
+ contre - 对抗, 出乎
+ costaud - 强壮, 很壮
+ courir - 跑步, 奔跑, 奔, 跑跑步
+ devoir - 欠, 将要, 后该, 作业, 责任, 职责, 不可, 生要
+ entraîner - 训练, 导致
+ escalade - 攀, 攀岩, 爬山, 登山
+ gagner - 挣, 取胜, 赚, 赢, 赢得, 中奖, 赚到, 赢下, 挣过
+ l'année où - 那一年
+ l'habitude - 习惯
+ la saison où - 的季节, 的赛季
+ le jour où - 那一天
+ lever - 解除, 杠杆, 日出, 使劲, 举杯, 举手, 高举
+ lundi - 周一, 星期一, 礼拜一
+ meilleur - 佳, 较好, 最好的, 最佳, 最棒, 最好, 更好, 佼
+ participer - 参赛, 参, 参与, 参加, 参演
+ pire - 最坏, 更糟了, 更糟, 最差, 最糟
+ raquette - 球拍
+ rêver - 心驰神往, 做梦, 神往, 梦见
+ à cette époque - 那个时候
+141 Memories 2 回忆: 表达过去的感受
+ annuler - 取消, annuler
+ boire - 喝下, 喝, 完奶
+ ce jour-là - 那一天
+ ce matin-là - 那天早上
+ cette année-là - 那一年
+ comme d'habitude - 像往常一样
+ devoir - 欠, 将要, 后该, 作业, 责任, 职责, 不可, 生要
+ dès que - 一看到, 一有, 一
+ falloir - 得, 不可, 生要
+ neiger - 下雪
+ par - 相对, 从, 由, 通过, 出于, 对, 药由
+ penser - 想着, 想, 思维, 想来想去
+ pensé à - 想到
+ promener - 转转, 遛狗, 遛, 带狗
+ revoir - 见到, 再见面, 重看, 再见到, 相见
+ sentir - 闻闻, 我闻, 感到, 闻来闻去
+ sonner - 电话响, 敲响, 响, 会响
+ souvenir - 记得, 纪念品, 记, 忆, 回忆, 记忆, 想不起来
+ sur - 给, 上, 临, 关于, 在, 乘, 上下, r
+ tout à coup - 突然
+ vouloir - 想要, 地想, 好要
+ à ce moment-là - 就在那一刻
+142 Earth 环境: 表达保护环境的想法
+ battre - 打败, 而战, 打架, 败, 战胜
+ cacher - 隐, 蔽, 藏, 隐藏, 藏不住, 遮起来
+ du mal à - 很难
+ en feu - 着火
+ environnement - 环境, 上下文
+ ferme - 门关, 封闭, 闭, 果断, 关窗户, 关掉, 工厂倒闭, 关闭, 坚定, 关上, 农场, 坚决
+ girafe - 长颈鹿
+ habitant - 居民, 市民
+ jungle - 丛林, 丛林中
+ mouche - 苍蝇, 蝇
+ mourir - 死, 吓死, 死去, 枯死
+ pollution - 污染
+ protéger - 护, 保护, 挡风
+ pêcher - 垂钓, 钓鱼, 钓
+ recycler - 回收者, 回收
+ respecter - 尊, 遵, 给面子, 尊重, 佩服
+ réduire - 降低, 缩小, 减, 减少, 减轻, 节约, 缩短
+ surtout - 尤, 尤其, 更是
+ terre - 地上, 土地, 泥土, 地球, 陆, 土, 土里
+ tigre - 老虎, 虎
+ trier - 分类者, 汰
+ à mon avis - 在我看来
+143 Health 2 健康: 描述身体不适
+ allergique - 过敏
+ aveugle - 盲人
+ buvant - 喝着, 喝热
+ cachet - 药片, 药, 片酬
+ continuer - 续, 继, 继续, 仍旧, 读归读
+ faible - 虚弱, 很弱, 弱, 微弱, 淡淡的
+ faire - 闹出, 搞, 办, 做点, 交新, 办点, 生火, 做蕾娅, 交好, 迈出, 考得, 逛街, 办理, 煮, 拍电影, 引起轰动, 迈, 做一套, faire, 付出, 煮汤, 做, 骑骑, 弄个, 假装, 弄, 使, 做个, 盘个, 组队
+ fièvre - 发烧, 发热
+ front - 额头, 额, 前额
+ fumer - 抽, 抽烟, 吸烟
+ gorge - 喉咙, 嗓, 喉, 咙, 嗓子
+ grippe - 流感
+ grossir - 变胖
+ langue - 文, 语言, 语, 舌, 言, 舌头
+ maigrir - 变瘦, 减肥
+ maladie - 疾病, 疾
+ manger - 进食, 吃得下, 吃生, 吃够, 吃, 吃东西, 吃饭, 吃得, 吃花, 喝, 完辣
+ menton - 下巴
+ peu - 少
+ raser - 剃, 刮胡子, 剃成
+ rhume - 感冒
+ régime - 节食, 饮食
+ sourd - 失聪, 聋, 聋人
+ tomber - 跌倒, 坠, 掉, 摔下去, 摔下, 落下
+ urgence - 紧急情况, 应急
+144 Office 职场: 描述你的工作情况
+ actuellement - 时下, 现, 当下, 目前, 眼下
+ ancien - 古代, 陈, 老旧, 老式, 年代久远, 古, 古老, 悠久
+ bien réussi - 成功地
+ chacun - 各, 每个人, 每人
+ chic - 时髦
+ confiance - 信心, 信任, 有把握, 自信
+ depuis - 前起, 从, 以来, 自二零一, 自从, 大起, 早就
+ déménager - 搬, 搬家
+ emploi - 工作, 雇用
+ encore - 仍然, 至今, 还, 还有, 又, 再来一个, 仍, 仍旧, 再次, 一再, 再有, 都还没, 再行, 再, 还要, 依然
+ encore plus - 更
+ gêner - 困扰, 为难
+ livraison - 送货, 外卖, 交货, 交付, 物流
+ ne pas - 不
+ ne plus - 不再
+ nulle part - 哪儿也不
+ parler - 讲讲, 说起, 说话, 谈论, 说个, 谈谈, 谈一谈, 说, 地说, 交谈, 说说话, 讲话, 地谈, 商量一下
+ produit - 产奶, 收益, 产品, 奢侈品, 商品
+ propre - 洁, 干干净净, 洁净, 干净的, 净, 干净, 整洁, 特有
+ rangé - 收进, 整理, 整洁
+ remarquer - 注意到
+ responsabilité - 负担, 责任, 责任感
+ réussite - 成就, 成功
+ supporter - 承受, 支持者, 经得住, 受得了, 忍一忍, 忍到, 堪, 扛不住
+ vérité - 真相, 实话, 真理, 真话, 对错
+145 Town 出行: 带孩子去学校
+ amener - 带
+ caisse - 收银台
+ camion - 卡车, 货车
+ carrefour - 十字路口, 路口
+ cirque - 马戏团, r
+ debout - 站着, 站立, 站, 地站
+ direction - 方向, 管理层
+ emmener - 带上, 带走
+ en arrière - 往后
+ fontaine - 水泉, 喷泉
+ l'y - 带他去那里, 带她去那里
+ les y - 带他们去那里
+ montrer - 展现出, 表明, 以示, 出示, 指, 示范, 展示, 指一指, 表示, 示, 展现
+ municipal - 市立, 市政, 市民
+ panneau - 标志, 标牌, 路牌
+ piéton - 行人, 路上行人
+ poste - 邮局
+ s'en aller - 离开
+ suivant - 循, 照着, 随, 遵循, 随着
+ trottoir - 人行道, 路边
+ vers - 他朝, 朝着, 左右, 去往, 走向, 往, 地向, 朝, 半左右, 诗节, 将近, 蚯
+ épicerie - 杂货店
+146 Siblings 关系: 介绍你的亲人
+ adorable - 可爱的, 可爱
+ antipathique - 不友好
+ aîné - 大爷, 长兄, 老人, 大哥
+ bise - 亲吻脸颊
+ dernière fois que - 上次当
+ divorcer - 离婚者
+ intention - 心意, 意, 好意, 本意
+ manquer - 错过, 亏了, 想念, 容错过, 辜负, 很亏, 缺席
+ parfaitement - 完美地, 完美
+ s'entendre - 和睦相处, 互相理解
+ se parler - 互相说话
+ se voir - 见面
+ seul - 唯, 唯一的, 独, 独自, 独自一人, 一人, 孤, 孤单, 唯一, 一个人, 只有
+ taille - 个子高, 尺码, 腰, 个子, 码, 人多高, 身高, 修剪, 尺寸, 多高, 大小
+ unique - 独一无二, 独特, 与众不同, 独到, 特有
+ âgé - 老, 年老, 年纪
+147 Recipes 食谱: 分享做菜经验
+ boîte de conserve - 罐头
+ brocoli - 西兰花
+ cacahuète - 花生
+ concombre - 黄瓜
+ congeler - 冷冻
+ congélateur - 冷冻柜, 冰箱, 冷冻室
+ douzaine - 一打
+ fait maison - 自制的
+ goût - 品味, 味道, 风味, 味觉, 心意, 口感, 口味, 味儿, 喜好
+ ingrédient - 成分, 食材
+ lardons - 培根, 培根丁
+ maïs - 玉米
+ mélange - 掺, 混合, 混合物, 混合体, 混, 融合
+ odeur - 恶臭, 股, 味儿, 气味, 异味
+ petit pois - 小豌豆
+ pot - 盆, 罐子, 花盆, 一盆
+ pêche - 垂钓, 桃, 钓鱼, 用桃, 渔
+ saumon - 鲑鱼
+ saveur - 风味, 味, 味儿, 口感
+ sentir - 闻闻, 我闻, 感到, 闻来闻去
+ suivre - 跟着, 跟上, 循, 追踪, 照着, 跟随, 随, 按照, 随大流, 跟不上, 遵循, 顺着, 向前走
+ thon - 金枪鱼
+ épinards - 菠菜
+148 Interview 媒体: 分享好消息
+ action - 行动, 剧情
+ alors - alors, 喽, 则, 就, 那要, 所以, 那去, 于是
+ célébrité - 名人
+ drame - 戏剧
+ en direct - 现场直播
+ fiction - 小说, 虚构
+ inconnu - 陌, 陌生人, 默默无闻, 未知
+ intéresser - 吸引
+ milliard - 十亿
+ mort - 死亡, 人死, 亡, 戴之死
+ musical - 音乐剧
+ nouvelle - 消息
+ onzième - 第十一, 十一, 第十一段, 第十一个
+ passer - 逝, 每天花, 过生日, 共度, 花一, 转为, 路过, 去度, 递, 过去, 递给, 参加, 过个, passer, 转过, 度过, 升入, 通个, 顺道去, 及格
+ poser - 提问, 您提, 问, 放下, 搁
+ presse - 催促, 催, 新闻界
+ précédent - 先前, 此前, 之前的, 先系
+ public - 公共, 公开, 大众, 观众, 公众, 公共场合, 受众, 众, 公, 听众
+ recevoir - 招待, 领取, 接到, 收到, 接收, 接待客人, 接待, 收着
+ romantique - 浪漫
+ rôle - 角色, 身份, 作用, 功能
+ succès - 功, 成功, 成果
+ sujet - 题目, 议题, 主题, 科目, 作文题目, 话题, 题材, 帖子
+ à la mode - 时尚
+149 Wedding 婚礼: 描述婚礼场景
+ animé - 动画, 活泼, 闹, 繁华, 热闹, 生动有趣
+ chèvre - 山羊
+ en colère - 生气
+ feu d'artifice - 烟花
+ fêter - 庆祝, 过节, 过生日
+ gêner - 困扰, 为难
+ jean - jean, 牛仔裤, 约翰, john
+ laid - 丑, 很丑
+ mairie - 市政府
+ mal à l'aise - 不自在
+ mariage - 婚礼, 婚姻, 婚事
+ marier - 结婚
+ marié - 新郎, 婚, 郎, 结婚, 已婚的, 结过
+ me taire - 沉默
+ passer - 逝, 每天花, 过生日, 共度, 花一, 转为, 路过, 去度, 递, 过去, 递给, 参加, 过个, passer, 转过, 度过, 升入, 通个, 顺道去, 及格
+ quitter - 人去, 退出, 逃避者, 下班, 生去
+ rigoler - 笑
+ réunion - 有会, 集会, 团圆, 会议, 会谈, 会面时, 汇, 会上, 会面, 开会, 发布会
+ se déshabiller - 脱衣服
+ se taire - 安静
+ évident - 显, 明显, 可见
+150 Tourism 景点: 介绍你去过的景点
+ asseoir - 坐, 坐成, 坐坐, 就座
+ attraction - 吸引力
+ brochure - 小册子, 宣传册
+ bâtiment - 建筑物, 厦, 建筑, 大厦
+ centre - 中心, 中央, 中部, 央, 核心
+ climatisation - 空调
+ comparer - 比较, 相比, 比较者, 比看, 对照
+ côte - 岸, 海岸, 岸边
+ de l'est - 东欧, 东区, 东方的, 东方, 东亚
+ drap - 床单
+ découvert - 发现
+ déplacer - 挪动, 移开, 搬动, 乱动, 移动, 抽走, 移, 搬得, 搬东西, 挪, 拖动
+ entrée - 进入, 门厅, 头盘, 口, 入, 入内, 入口, 门口, 入场, 前菜, 前菜会
+ ne t'assieds pas - 不要坐
+ peu importe - 不管
+ première fois que - 第一次
+ service - 务, 大忙, 效劳, 班次, 服务, 贡献
+ séparer - 分开, 隔得
+ tourisme - 旅游业, 旅游, 观光
+ visiteur - 游客, 参观者
+ ça fait - 这要
+ énorme - 庞, 巨大的, 庞大, 超大
+151 At Home 5 家务: 表达对家务的看法
+ aider - 帮你忙, 帮忙, 帮女, 帮助, 帮, 帮人, 帮个
+ bout - 尽头, 端, 另一头
+ brosse - 刷子, 牙刷, 刷牙
+ chaton - 猫咪, 小猫, 小猫咪
+ dentifrice - 牙膏
+ dizaine - 十个, 十天, 十几
+ en bas - 楼下
+ en haut - 上面
+ mettre - 戴上, 戴, 换上, 搽, 放进, 着手, 把, 穿, 贴, 置于, 装进, 上桌, 凸, 放, 放在首位, 弄成, 放在, 放到, 凸显, 投进, 披上
+ nettoyer - 打扫, 洗起来, 清洁, 清理, 洗一洗, 清洗, 汰, 打扫卫生, 冲洗
+ peigner - 梳头
+ pile - 堆
+ poussière - 尘, 灰尘
+ ranger - 收着, 收, 整理, 收拾, 排好
+ sweat - 汗衫
+ sèche-cheveux - 吹风机
+ sécher - 烘, 干, 晒晒, 晾干, 晾着, 晾晒, 吹干, 烘干
+ sécher avec - 被吹干
+ tube - 筒, 管子
+ à l'extérieur - 外面, 在外面
+ à l'intérieur - 里面, 在里面
+ écouter - 聆听, 收听, 听, 听取, 倾听, 聆, 听讲
+ éponge - 海绵
+ évier - 水槽
+152 Abroad 旅行: 描述你想去的地方
+ caché - 隐, 藏, 隐藏, 隐没
+ contraire - 反而, 相反, 反着
+ culturel - 文化
+ devant - 前方, 当着, 前有, 前头, 面前, 当面, 前面, 跟前, 前车, 前排
+ douane - 海关
+ drapeau - 帜, 国旗帜, 国旗, 旗子, 旗帜, 旗
+ déclarer - 申报, 声明, 一再表示, 表白, 发表声明
+ enchanté - 很高兴认识你
+ glisser - 滑倒, 拖动, 溜, 滑, 滑来滑去
+ haut - 顶部, 上, 上衣, 树太高
+ impression - 好感, 印象, 深刻印象, 感想, 真实感
+ lendemain - 第二天
+ moins bien - 不如好
+ naturel - 朴, 朴素, 自然, 然, 自发
+ nord-est - 东北
+ nord-ouest - 西北部
+ paix - 和平
+ plat - 料理, 平, 菜里, 一道, 菜, 肴, 特色菜, 菜肴, 道菜, 平坦
+ sud-est - 东南, 东南部
+ sud-ouest - 西南部
+ terrasse - 露台
+ un tour - 转一圈
+ à travers - 穿越
+ état - 状况, 状态, 州, 状, 邦
+ étranger - 外地人, 外国, 国外, 外国人, 陌生人
+153 Internet 网络生活: 输入用户名和密码
+ arobase - 艾特, @
+ avoir - 取得, 有, 要个, 拿到, 版有
+ blog - 博客
+ coller - 粘, 粘贴, 粘住
+ comme ça - 这么
+ comment - 如何, 怎样, 怎么样, 什么, 怎, 怎么, 何
+ connexion - 连接, 连网
+ contact - 接触, 联系方式, 联系人, 熟人
+ du mal à comprendre - 难以理解
+ en même temps - 同时
+ endormir - 入睡
+ expression - 表情, 用语, 神情, 表达, 短语, 脸色, 说法, 眼神
+ généralement - 通常
+ incapable - 不能
+ incorrect - 不对, 有误, 不正确, 写错, 不当
+ inutile - 无用
+ logique - 逻辑, 逻辑思维
+ nom d'utilisateur - 用户名
+ point - 一个点, 地步, 句号, 一分, 终点, 得分, 核心
+ poster - 海报, 留言
+ remplacer - 交代, 顶替, 接替, 代替, 换成, 换用, 更换, 替换, 换好
+ surveiller - 照看, 监视, 监测
+ taper - 打字, 打, 拍了拍
+154 Leisure 5 用品: 描述日常用品
+ amélioration - 好转, 改进
+ article - 文章, 篇, 篇文章, 商品, 藏品, 条, 展品
+ boucher - 屠夫, 肉贩
+ boîte de nuit - 夜总会
+ dame - 第一夫人, 女士, 夫人, 大妈
+ dur - 困难, 艰难, 硬, 艰苦, 可难
+ emballer - 打包
+ en tout - 总共
+ fini - 没完, 完课, 做完作业, 完事, 完, 开完, 下班, 弄完
+ joue - 踢得, 打网球, 扮, 演出, 少玩, 玩耍, 打牌, 我下, 玩时, 耍, 弹钢琴, 踢球, 打球, 打得, 我演, 赵小月弹, 打, 拉得, 玩游戏, 弹, 脸颊, 颊, 演奏, 玩, 打麻将, 他弹, 别玩, 面颊, 扮演, 打鼓, 踢足球, 弹奏, 演得, 打高尔夫
+ mou - 软, 很软
+ offert - 赠送, 赠
+ privé - 私, 私人, 私有
+ renseignement - 信息
+ sorte - 种类, 种, 哪种, 我出
+ statue - 雕像
+ tout à fait - 完全
+ à emporter - 外卖
+ échanger - 换货, 兑换, 交流, 积分换, 交换, 兑, 换好
+ élevé - 养过, 提高, 太高, 更高
+ élégant - 典雅, 优美, 优雅, 高雅, 豪华
+ événement - 事件, 个会, 大事
+ être - 当, 当会, 很, 处于, 是, 就是
+155 Wardrobe 服饰: 描述你喜欢的服饰
+ ample - 宽敞, 宽广, 充分, 宽松, 很松, 宽阔
+ argenté - 银色
+ celle - 那个, 那根, 那种, 那瓶, 那款
+ celles - 的
+ celui - 那种, 那块, 那本, 那件织, 那个, 那一丛
+ ceux - 那些
+ col - 领, 领口, 领子
+ collants - 连裤袜
+ de - 个, 从, 上, 之, 种, 来自, 的, 要, 对, 离, 能, de
+ doré - 金色
+ fourrure - 皮草, 毛皮, fur
+ manche - 袖子
+ pois - 波点, 圆点, 豌, 豌豆
+ porter - 戴, 带, 担, 携带, 佩戴, 携, 穿, 戴帽子, 穿厚, 提, 佩, 着, 抱狗, 穿戴
+ rayure - 条纹
+ serrer - 握紧, 系得, 勒, 手握
+ soie - 绸, 丝, 丝绸, 丝质
+ sous-vêtement - 内衣
+ soutien-gorge - 胸罩
+ style - 花样, 风味, 风格, 款式, 造型, 潮流
+ taille unique - 均码
+ tissu - 布料, 面料, 布, 织物, 布时
+ trou - 洞, 大洞, 孔, 坑, 穴, 大坑, 破洞, 填空
+ à - 给, 于, 至, 来, 念, 靠, à, 的, 到, 向, 在, 对, 离, 跟, 三到, 去, 之内
+ à l'envers - 反
+156 Let's Eat 饮食: 介绍剩菜处理方法
+ acide - 酸, 汤酸
+ amer - 苦, 辛, 很苦, 苦涩
+ cerise - 樱桃
+ chou - 大白菜, 卷心菜, 甘蓝
+ dinde - 火鸡
+ escargot - 蜗牛
+ goûter - 品尝, 尝, 尝尝, 尝到
+ heures - 点, 点钟, 时, 五小时, 小时, 四点, 時
+ laitue - 生菜
+ mayonnaise - 蛋黄酱
+ mettre - 戴上, 戴, 换上, 搽, 放进, 着手, 把, 穿, 贴, 置于, 装进, 上桌, 凸, 放, 放在首位, 弄成, 放在, 放到, 凸显, 投进, 披上
+ nappe - 桌布, 餐布
+ nature - 原味
+ ni - 也不
+ purée - 土豆泥
+ que - 何, 只要, 的, 什么
+ reste - 上待, 呆, 留, 待在, 剩, 我待, 待, 其余, 所剩, 他待, 留下, 剩下, 剩余
+ servir - 自取, 供应, 时上些, 为您服务, 上菜
+ sucrerie - 甜食, 甜品
+ tisane - 花草茶
+ vanille - 香草
+ veau - 小牛肉, 小牛
+ viennoiserie - 酥皮糕点
+ vinaigre - 醋
+157 Old Flames 往事: 讲述一段往事
+ avant-hier - 前天
+ beau-père - 继父
+ belle-mère - 岳母
+ brosser - 梳, 刷牙
+ dernièrement - 最近
+ détester - 讨厌
+ en secret - 偷偷地
+ ex - 前, 前任
+ façon - 方式, 解决办法
+ finalement - 最终
+ habiller - 穿衣服, 换好
+ humour - 幽默
+ lune de miel - 蜜月
+ offrir - 赠送给, 时送, 赠送, 赠, 送, 送人, 贡献
+ ordinaire - 普通, 普, 平凡, 太普通, 家常
+ passer - 逝, 每天花, 过生日, 共度, 花一, 转为, 路过, 去度, 递, 过去, 递给, 参加, 过个, passer, 转过, 度过, 升入, 通个, 顺道去, 及格
+ payer - 支付, 全付, 付, 付账, 付钱, 用卡付, 结账, 钱付, 付得
+ plus maintenant - 现在不再
+ relation - 关系, 熟人
+ rencontrer - 遇见, 会见, 见个面, 见面, 拜访, 碰到, 相识, 碰上, 碰面, 见见, 遇到, 遇, 个面, 当面
+ ressembler - 像
+ secret - 诀, 秘, 秘诀, 密, 秘密, 保密
+ seul - 唯, 唯一的, 独, 独自, 独自一人, 一人, 孤, 孤单, 唯一, 一个人, 只有
+ si - 如此, 的话, 那么, 是不是, 这么, 若, 如果, 能否, 假如, 要是, 是否, 若是, 斯, si
+ séparer - 分开, 隔得
+ énervant - 烦人
+158 Tech 网络: 表达你对社交网络的看法
+ ajouter - 加个, 加一, 加, 加多少, 添, 上加, 加水, 增添, 留言, 添加, 加点, 加一点, 加上
+ amuser - 娱乐者
+ blogueur - 博主
+ brancher - 插上, 接上
+ chercher - 搜索, 查找, 哪里找, 找点, 接, 找份, 寻找, 先接, 寻, 找, 找寻, 搜, 取信, 找花, 查资料, 寻求, 找个, 争取
+ dossier - 文件夹, 病历, 材料, 档案, 作品集
+ débrancher - 拔掉
+ déconnecter - 断开连接
+ en ligne - 网上, 在网上
+ envoyer - 发射, 发送到, 发完, 遣, 发短信, 发给, 寄, 发, 寄到, 发送, 寄往, 送出去, 寄出, 寄信, 推送
+ fichier - 文件
+ indispensable - indispensable, 必不可少的, 必不可少, 不可或缺, 必要
+ informatique - 计算机科学, 计算机, 计算机专业
+ installer - 再装, 安装, 设立
+ logiciel - 软件
+ perdre - 丢掉, 落败, 输, 亏了, 输给, 亏下, 弄丢, 减肥, 很亏
+ pièce jointe - 附件
+ supprimer - 删除, 删掉, 清除, 删, 杀掉
+ sur pause - 暂停
+ surtout - 尤, 尤其, 更是
+ sélectionner - 挑出, 选择, 选完
+ téléchargement - 下载
+ à jour - 更新
+ électronique - 电子
+159 Colleagues 工作: 安排工作任务
+ assistant - 助理, 助手, 帮手
+ bavard - 多嘴, 健谈
+ contrarier - 得罪
+ copie - 副本, 复印件, 抄, 复制, 试卷
+ dire - 讲个, 告, 诉, 却说, 说, 告诉, 地说, 讲, 谓, 说用
+ donner - 给, 给出, 报以, 起个, 出个, 捐钱, 让, 施, 捐给, 包给, 捐, 给予, 予, 送给, 捐书, 交给, 付得
+ expliquer - 交代, 讲解, 解释, 解释一下, 喻, 讲清, 释, 解说
+ fixer - 定个, 指定, 约个, 盯, 系在, 系得
+ obligatoire - 必修, 强制的, 强制性, 强制, 必要
+ opportunité - 良机, 机会, 机遇
+ proposer - 提议者, 开出, 提议, 贡献
+ raconter - 叙, 讲述, 诉, 叙述, 讲故事, 述
+ rappeler - 回个, 提醒, 牢记, 回电, 联想
+ rembourser - 偿, 赔给, 退款, 报销, 退票, 偿还, 回报
+ rendre - 回报, 还给, 还, 还书, 归还, 归还给, 使人, 发回, 归, 交回, 再交, 拍出来, 交还, 包让
+ reporter - 记者, 改期, 新闻记者
+ spécialiste - 专家, 人才
+ supplémentaire - 额外的, 额外, 进一步
+ surprenant - 讶, 惊讶, 惊人, 意外, 惊人的, 不足为奇
+ tout à l'heure - 待会儿
+160 Clean Up 家务: 描述家务用品
+ aspirateur - 吸尘器
+ baignoire - 浴缸
+ balai - 扫帚, 帚, 扫把
+ cafetière - 咖啡机
+ casser - 破, 打破, 弄坏, 磕断
+ devoir - 欠, 将要, 后该, 作业, 责任, 职责, 不可, 生要
+ désordre - 乱摊子, 混乱, 上乱, 乱成, 乱, 乱成一团, 杂乱, 乱七八糟, 乱糟糟, 慌乱, 乱放, 乱套, 一乱, 多人乱
+ en dessous - 下面
+ enlever - 脱掉, 去掉, 脱下来, 脱衣服, 画取, 摘掉, 抽走, 脱, 脱厚, 脱下, 卸下
+ falloir - 得, 不可, 生要
+ il va y avoir - 会有
+ l'aspirateur - 吸尘器
+ la vaisselle - 餐具
+ lave-vaisselle - 洗碗机
+ le balai - 扫帚
+ lit - 读, 阅读, 铺, 读着, 床, 床铺, 他读, lit, 但床
+ objet - 物品, 藏品, 展品
+ occuper - 照顾, 占用
+ placard - 壁橱, 壁, 橱柜
+ pouvoir - 权力, 权势, 能, 既会
+ reposer - 休, 再放
+ salle à manger - 餐厅
+ table de chevet - 床头柜
+ toucher - 摸, 碰, 触摸, 乱动, 手摸, 接触, 地摸, 触, 涉及
+ vaisselle - 餐具, 洗碗, 碗碟, 碗盘
+ vase - 花瓶
+ échelle - 梯, 梯子
+ évidemment - 显然, 明明
+161 Mysteries 谜团: 描述神秘事件
+ approcher - 靠近
+ après avoir - 之后, 后
+ après s'être - ……后, 在……后
+ après être - 之后, 后
+ arrêter - 戒烟, 戒, 挡, 停止, 刹车, 戒酒, 到此为止, 停下, 挡不住, 逮捕
+ battre - 打败, 而战, 打架, 败, 战胜
+ cage - 鸟笼, 笼子, 笼里
+ catastrophe - 灾难
+ coup d'œil - 瞥一眼
+ disparaître - 消失, 失踪
+ drogue - 毒品
+ feu - 信号灯, 火调, 炉火, 壁炉, 红灯, 火力, 火, 火上
+ fumée - 烟, 烟雾
+ incendie - 火, 火灾
+ mystère - 谜团
+ ombre - 影, 荫, 影子, 幽影
+ par hasard - 偶然
+ quelque part - 某个地方
+ sauver - 挽救, 拯救, 挽, 抢救
+ silencieux - 默, 沉默, 静音
+ sur le point de - 正要
+ sûr - 敢肯定, 定, 保险, 确, 肯定, 安全, 确定, 稳妥
+ à clé - 锁上
+ échapper - 躲过, 逃离, 逃跑, 逃不过
+162 Show 艺术展: 介绍艺术展览
+ accueillir - 招待, 迎接, 容易接受
+ acte - 幕
+ annuel - 年刊, 年度, 一年一度
+ applaudir - 鼓掌
+ collection - 系列, 藏品, 作品集
+ créateur - 创作者, 设计师, 创造者
+ décoration - 装饰, 潢, 装潢
+ feuilleton - 连续剧
+ fête - 晚会, 派对, 节日, 聚会, 我过, 狂欢
+ gâcher - 搞砸
+ offrir - 赠送给, 时送, 赠送, 赠, 送, 送人, 贡献
+ par - 相对, 从, 由, 通过, 出于, 对, 药由
+ par qui - 被谁
+ portrait - 肖像画, 肖像, 肖, 头像
+ principal - 主要的, 首要
+ recommander - 推荐, 荐
+ réalisateur - 导演
+ sculpteur - 雕塑家
+ sculpture - 雕塑
+ toucher - 摸, 碰, 触摸, 乱动, 手摸, 接触, 地摸, 触, 涉及
+ tradition - 传统
+ traditionnel - 民间, 传统, 悠久
+ éclairer - 照亮, 打光, 打亮
+ éclairé - 照亮, 照
+ œuvre - 之作, 作, 作品, 藏品
+163 Sports 3 运动: 描述你喜欢的运动
+ attendre - 候, 地盼, 正等待, 等一等, 等待, 等, 等候, 听候, 等到
+ baleine - 鲸, 鲸鱼
+ battre - 打败, 而战, 打架, 败, 战胜
+ bonnet - 帽子
+ boxe - 拳击, 打拳
+ cascade - 瀑布, 瀑
+ coude - 肘部, 手肘
+ couler - 沉没, 沉
+ course - 赛跑, 比赛, 差事
+ de l'exercice - 运动
+ finale - 决赛, 冠军赛
+ flotter - 漂着, 浮, 漂浮
+ footing - 慢跑
+ gymnase - 健身房, 体育馆
+ gymnastique - 体操
+ hibou - 猫头鹰
+ hiboux - 猫头鹰
+ natation - 游泳
+ naviguant - 航行
+ observer - 瞧一瞧, 目睹, 监测, 看归, 观察, 比看, 围观
+ piste - 雪道, 线索, 滑雪道, 跑道
+ planche à voile - 帆板
+ plongeur - 潜水员, 潜
+ plongée - 潜水, 潜
+ record - 记录, 纪录
+ ski - 滑雪
+ squash - 壁球
+ voile - 帆, 航行, 帆船, 帆板, 风帆
+164 Cooking 2 美食: 描述你最喜欢的美食
+ aliment - 食物
+ arête - 鱼刺, 骨头
+ besoin - 需, 不用, 需要, 用得着
+ biologique - 有机
+ boucherie - 肉店, 肉铺
+ casserole - 连锅, 锅, 砂锅, 锅来
+ de - 个, 从, 上, 之, 种, 来自, 的, 要, 对, 离, 能, de
+ dont - 的
+ doucement - 轻轻地, 慢慢地, 柔, 轻声, 轻轻, 悄悄, 小声, 慢慢来, 温柔, 甜甜, 悄悄地
+ débarrasser - 摆脱, 脱
+ en plein air - 在户外
+ envie - 想要
+ fier - 骄傲, 得意, 自豪, 引以为豪, 引以为傲
+ gaspiller - 浪费, 乱花钱
+ goutte - 滴, 一滴
+ noix - 坚果
+ noix de coco - 椰子
+ os - 骨头
+ parler - 讲讲, 说起, 说话, 谈论, 说个, 谈谈, 谈一谈, 说, 地说, 交谈, 说说话, 讲话, 地谈, 商量一下
+ poêle - 锅, 平底锅, 煎锅
+ remuer - 乱动, 搅, 摆动, 晃
+ rêve - 梦中, 梦, è, 梦到, 做梦, 梦想, 梦见, 梦像
+ verser - 撒上, 泼, 倒, 倒水, 泼到, 流下, 地倒, 付得
+ épais - 稠, 很厚, 太厚, 厚, 厚不厚, 厚实, 太浓稠, 浓得, 粗壮, 厚重
+165 Studying 学习: 表达学习目标
+ améliorer - 提升, 优化, 提高, 拓展
+ comprendre - 体谅, 理会, 看得懂, 能看懂, 理解, 弄懂, 猜出, 搞不清楚, 谅, 读懂, 懂, 理出, 了解, 看不懂, 会得
+ compter - 我数, 数数, 数一下, 数, 指望, 依靠, 数过
+ concentrer - 专注, 专心, 拉回来
+ effort - 努, 勉, 奋, 力气
+ expérience - 经历, 体验, 经验, 实验
+ laboratoire - 实验室
+ licence - 执照, 许可, 本科
+ noter - 记在, 记下, 会记, 打分
+ objectif - 镜头, 旨, 目标, 宗旨, 中立
+ obtenir - 取得, 考取, 拿个, 想得到, 获, 获取, 获得了, 得到, 读个, 获得, 拿到, 挣过
+ prononciation - 发音, 词念
+ rater - 赶不上
+ réviser - 订正, 复, 再修, 校对, 复习, 重修
+ scientifique - 科学, 科学家
+ soutenir - 擎, 互相支持, 扶, 支援, 扶持, 赞成
+ économie - 济, 经济, 经济学
+ écrire - 写字, 写信, 留言, 笔写, 写出, 写日记, 写个, 写作, 写得, 书写, 写, 谱写
+ écriture - 写作, 字迹
+ éducation - 教育
+166 Phone Call 通话: 接听电话
+ allô - 喂
+ appel - 通话, 呼叫, 电话, 点名
+ appuyer - 按, 押
+ après-demain - 后天
+ au courant - 知道
+ au fait - 顺便问一下
+ composer - 拨打, 拨, 谱写
+ coucou - 嗨
+ de toute façon - 反正
+ doute - 疑, 怀疑, 存疑
+ décrocher - 接
+ en attente - 等待
+ hésiter - 不敢肯定, 犹豫, 豫, 为难
+ laisser - 留个, 落下, 留, 留给, 不留, 他任, 上留
+ passe - 过, 改用, 花, 递, 过去, 播放, 递给, passer, 转过, 度过, 上花, 打个, 我花
+ patienter - 等候, 稍候
+ peux plus - 受不了
+ pour le moment - 暂时
+ pouvoir - 权力, 权势, 能, 既会
+ quand même - 还是
+ raccrocher - 挂
+ rappeler - 回个, 提醒, 牢记, 回电, 联想
+ touche - 碰, 键, 别碰, 打动, 一抹
+ veuillez - 请
+ y - 在那里, 那里, y
+ écoute - 听听, 仔细听, 听, 听从, 听得, 听力
+167 Adventure 旅行: 描述你的旅行计划
+ avec enthousiasme - 满怀热情地
+ camping - 露营, 露营地
+ carte d'embarquement - 登机牌
+ choisir - 选课, 选张, 来选, 选定, 要选, 挑, 选在, 好要, 选修, 选, 该选, 选人, 中选, 看中, 挑选, 挑出, 取个, 选择, 选个, 选完
+ comprendre - 体谅, 理会, 看得懂, 能看懂, 理解, 弄懂, 猜出, 搞不清楚, 谅, 读懂, 懂, 理出, 了解, 看不懂, 会得
+ croisière - 游轮旅行, 游轮, 邮轮
+ explorer - 探索, 探, 浏览
+ expédition - 探险, 远征
+ extraordinaire - 非凡, 凡, 非同寻常, 奇妙
+ faire - 闹出, 搞, 办, 做点, 交新, 办点, 生火, 做蕾娅, 交好, 迈出, 考得, 逛街, 办理, 煮, 拍电影, 引起轰动, 迈, 做一套, faire, 付出, 煮汤, 做, 骑骑, 弄个, 假装, 弄, 使, 做个, 盘个, 组队
+ historique - 性, 历史性, 历史悠久
+ libre - 空着, 有空, 有空时, 空闲, 闲
+ logement - 住宅, 住宿, 房含
+ luxe - 奢侈, 奢华
+ maison de vacances - 度假屋
+ palais - 宫殿
+ papiers - 纸
+ partir - 离开, 出发, 人去, 出去, 启程, 生去
+ payer - 支付, 全付, 付, 付账, 付钱, 用卡付, 结账, 钱付, 付得
+ perroquet - 鹦鹉
+ place - 位置, 位, 置, 名额, 广场, 位子
+ tarif - 价格
+ tour - 把戏, 第一轮, 一圈, 塔, 旅游, 周轮, 轮轮, 厦
+ train de nuit - 夜车
+ trajet - 行程, 旅程, 车程, 通勤, 路途, 路程, 交通路线
+ valise - 手提箱, 行李箱
+ voir - 见到, 看见, 瞧一瞧, 见识, 目睹, 看得出, 见, 看, 看到, 中见, 看不出, 见见, 看场, 看不到, 一见, 看出, 看得见, 视, 地看, 看能, 看归
+168 Childhood 童年: 分享童年回忆
+ asseoir - 坐, 坐成, 坐坐, 就座
+ boîte aux lettres - 邮箱
+ bronzé - 晒成, 黝黑, 晒黑, 古铜色
+ chariot - 战车, 推车
+ croire - 觉得, 难以相信
+ créer - 创造, 成立, 创, 打造, 结新, 设立, 造, 创业, 创办, 谱写, 创建, 创新, 创立, 开发新
+ danse classique - 古典芭蕾舞
+ enfance - 童年, 儿时, 童年时期, 孩提时代
+ fantôme - 幽灵, 有鬼, 鬼
+ invention - 发明
+ jeunesse - 青春, 青年时代, 年少时
+ maternel - 母系的
+ moment - 時候, 这会儿, 片刻, 会儿, 时刻, 时候, 时分, 时光, 一会儿, 一时, 时机
+ monstre - 怪物
+ plaisanter - 开玩笑, 别闹
+ plus jamais - 再也不会, 再也不
+ poli - 有礼貌, 礼貌
+ prier - 祈祷
+ rester - 留下来, 地待, 呆, 留, 待在, 耐着, 再待, 仍旧, 家待, 待, 再多待, 上多待, 下待, 依然
+ sans arrêt - 一直
+ surnom - 绰号, 小名, 昵称
+ tronc - 树干
+169 Feelings 性格: 描述人的性格
+ après leur - 在他们之后
+ après lui - 在他之后
+ après m' - 在我之后, 之后
+ après nous - 在我们之后
+ après t' - 在给了你...之后, 在跟你...之后, 在把你...后, 在你...后, 在见到你...之后, 在听你...后, 在给你...后
+ après vous - 之后
+ charmant - 魅, 迷人, 优美, 动听
+ curieux - 感兴趣, 好奇, 好奇者
+ embrasser - 接吻, 拥抱
+ gentiment - 亲切地
+ gênant - 麻烦
+ impoli - 无礼, 粗鲁
+ jumeau - 双胞胎兄弟, 孪
+ mettre - 戴上, 戴, 换上, 搽, 放进, 着手, 把, 穿, 贴, 置于, 装进, 上桌, 凸, 放, 放在首位, 弄成, 放在, 放到, 凸显, 投进, 披上
+ pareil - 一样, 这样, 类似
+ personnalité - 个性
+ prince - 王子, prince
+ qu' - 多么, ', 的, 什么事, 什么, 比去, qu
+ que - 何, 只要, 的, 什么
+ sensible - 敏, 很灵, 敏感
+ situation - 局面, 处境, 势, 情况, 况, 局势, 形势
+ verre - 玻璃杯, 酒杯, 璃, 杯, 玻, 杯子, 玻璃, 窗玻璃
+170 Mischief 物品: 描述你看到的物品
+ alors que - 而
+ apercevoir - 看到, 瞥见
+ baby-sitter - 保姆
+ bouton - 纽扣, 按钮, 钮, 按键, 扣子, 旋钮
+ camionnette - 货车, 小货车, 面包车
+ chiot - 小狗
+ discussion - 讨论, 讨论的, 讨论会
+ doux - 温和, 柔, 清淡, 毛好, 甘, 柔软, 小火, 温柔, 香甜, 不软, 软, 轻柔, 柔和, 淡淡的, 动听
+ décision - 决定, 决策, 裁定
+ effrayant - 可怕, 噩, 吓人
+ ennuyer - 无聊
+ facteur - 元素, 邮递员, 邮差, 因素
+ mordre - 咬, 咬人
+ pantoufle - 拖鞋
+ pas mal - 还不错
+ poil - 毛
+ propriétaire - 房主, 所有者, 房东, 主人
+ ramasser - 拾, 收上来, 捡起来
+ reconnaître - 识别, 认清, 认出, 认同
+ sage - 乖, 很乖, 不乖, 明智, 太乖
+ tout à l'heure - 待会儿
+ étiquette - 标记, 标签, 礼节
+171 At Work 6 工作: 介绍你的工作
+ agriculture - 农, 农业
+ candidature - 候选资格, 候选
+ choisir - 选课, 选张, 来选, 选定, 要选, 挑, 选在, 好要, 选修, 选, 该选, 选人, 中选, 看中, 挑选, 挑出, 取个, 选择, 选个, 选完
+ conclusion - 结论, 结束语
+ de travail - 工作
+ efficace - 有效率, 有效, 管用
+ employeur - 雇主
+ en - en, 对此, 一些, 打着, 之内, 穿, 之中, 那个, 内, 在, 用时, 去, 从中, 儿里
+ entretien - 保养, 面谈, 面试, 维护, 维修
+ il faut - 应该, 需要
+ il ne faut pas - 不应该
+ juge - 法官, 女法官, 裁
+ option - 选项
+ présentation - 解说, 发布会, 演示, 简介
+ rapport - 报告, 报, 汇报, 回报
+ reporter - 记者, 改期, 新闻记者
+ réussir - 取得成功, 顺利完成, 过关, 能办, 通过, 考过, 设法, 成, 及格
+ selon - 按, 按照, 根据, 依, 来说
+ signature - 签名, 招牌菜
+ solution - 解决方案, 点子, 办法, 解决办法
+ traduction - 翻译
+172 Get Well 健康: 描述你的症状
+ air - 空气, 气, 旋律, 氣, 歌当
+ allergie - 过敏, 过敏反应
+ après qu' - ……后, 在……后
+ après que - 之后
+ aussi - 一样, 也是, 也好, 也, 那么, 并且, 这么, 还念, 更是, 还会, 居然, 甚至, 此外
+ avis - 一则, 反馈, 看法, 意见反馈
+ cheville - 脚踝, 踝
+ le droit - 权利
+ mal - 疼, 不对的, 不好受, 邪恶, 痛, 不好, 差, 很不好, 坏处, 不错, 邪, 不舒服, 很差, 对错
+ merci de - 请
+ médical - 医疗
+ ordonnance - 处方, 凭处方
+ peser - 称重, 称, 先称
+ pharmacien - 药剂师, 药师
+ poids - 重量, 多重, 体重, 负担
+ pouce - 拇指
+ pur - 纯, 纯净的, 清新, 纯净, 粹, 单纯
+ respirer - 呼吸
+ souhaits - 愿望, souhaits, 意愿
+ talon - 爪, 脚后跟
+ température - 体温, 气温, 温度, 低温
+ tousser - 咳嗽
+ épaule - 肩膀
+ épuiser - 发完
+ éternuer - 打喷嚏, 嚏
+173 In Class 课堂: 翻译课堂内容
+ biographie - 传记, 简介
+ chercher - 搜索, 查找, 哪里找, 找点, 接, 找份, 寻找, 先接, 寻, 找, 找寻, 搜, 取信, 找花, 查资料, 寻求, 找个, 争取
+ clé usb - U盘
+ d'occasion - 二手
+ dissertation - 论文
+ distribuer - 发放, 分发, 送出去, 发完
+ découvrir - 发现, 有待, 查出, 猜出
+ en effet - 确实
+ entendre - 听见, 所闻, 听, 合得来, 听得出来, 听不见, 听到, 听得见
+ feuille - 叶子, 树叶
+ inscrire - 注册, 写进
+ lever - 解除, 杠杆, 日出, 使劲, 举杯, 举手, 高举
+ lire - 读, 阅, 看书, 阅读, 能读, 读出来, 书读, 读归读
+ note - 考试分数, 分数, 帖子, 注, 成绩, 留言, 得分, 标记
+ pas que - 不只, 不只是
+ primaire - 小学
+ rendre - 回报, 还给, 还, 还书, 归还, 归还给, 使人, 发回, 归, 交回, 再交, 拍出来, 交还, 包让
+ traduire - 翻译, 翻译成
+ traduisent - 翻译
+ voix - 嗓音, 得票, 声音, 声来, 嗓门, 嗓子, 语音
+ vouloir - 想要, 地想, 好要
+174 Society 社会: 表达你对法律的看法
+ République - 共和国
+ actuel - 当前, 现, 现有, 现任, 当代
+ chômage - 失业
+ communauté - 圈子, 社群, 社区, 公众
+ coupe de cheveux - 发型
+ diriger - 指挥, 指导, 领导, 主持
+ empêcher - 阻止, 防止出现, 防止, 预防
+ exister - 存在, 生存, 有, 活着, 显现
+ faim - 饥饿
+ genre - 类, 类型, 种, 种类
+ gouvernement - 政府
+ homosexuel - 同性, 同性恋
+ immigration - 移民
+ loi - 律, 法
+ nombre - 数字, 数目, 数量, 数, 人数
+ permettre - 允许, 允, 包让
+ politique - 政坛, 政, 政治, 政策
+ population - 人口数量, 公众, 人口, 老百姓
+ pour cent - 百分比
+ président - 总统, 总裁, 主席, 会长, 社长
+ société - 社, 社会, 社团
+ soutien - 支持, 援助
+ vote - 投票, 一票, 选票, 赞成票, 投票选举
+ élection - 选举, 当选, 投票选举
+175 Would You 选择: 说明原因
+ aussi - 一样, 也是, 也好, 也, 那么, 并且, 这么, 还念, 更是, 还会, 居然, 甚至, 此外
+ boue - 泥巴
+ chemin - 路子, 途, 路, 小路, 路通
+ dauphin - 海豚, 豚, 亚军
+ entrer - 进来, 进入, 进门, 钻进去, 入, 卡进, 钻进, 进得进
+ fourmi - 蚂蚁, 蚂, 蚁
+ grotte - 洞穴, 山洞
+ ma place - 我的地方
+ moustique - 蚊子
+ météo - 天气
+ n'importe où - 任何地方
+ n'importe quand - 随时
+ n'importe quoi - 任何
+ personnellement - 亲自, 亲手
+ plonger - 潜水, 潜, 潜入
+ plutôt - 较为, 与其说, 相当, 不如说
+ prévision - 预报, 预测
+ requin - 鲨鱼, 鲨
+ rouler - 滚, rouler, 翻白眼, 骑得, 行驶, 打滚
+ ta place - 你的位置
+ visiter - 访, 去玩, 览, 拜访, 观光, 参观, 浏览
+ vivant - 活泼, 鲜活, 活着的, 活着, 生动, 形象, 繁华, 生动有趣
+ voyager - 出行, 旅, 去旅行, 旅行, 出国, 越游
+ étroit - 狭窄, 狭
+ éviter - 避免, 以防, 防止出现, 躲开, 防止, 免得, 避开, 嫌弃
+176 New Job 合同: 谈谈签约意向
+ accepter - 接纳, 收下, 说好, 收着, 承, 接受, 赞成, 认同
+ architecture - 建筑, 建筑学
+ au chômage - 失业
+ avantage - 好处, 利, 优点, 优势, 利益
+ chimiste - 化学家
+ clair - 清醒, 清晰, 透明, 晰, 清, 动听, 可见, 清淡, 明朗, 简洁, 讲清楚, 浅, 清脆, 楚, 太浅, 天气晴朗, 明确, 朗, 晴朗, 宽敞明亮
+ comme - 一样, 时像, 宛, 般的, 般, 仿佛, 像, 宛如, 作为, 如同, 当作, 正如, 地像, 画般, 似的, 如, 当成, 加上
+ conseiller - 建议, 顾问
+ contrat - 合同, 契, 协议
+ débarrasser - 摆脱, 脱
+ inconvénient - 缺点, 坏处
+ industrie - 行业, 工业, 工业界, 产业
+ jour de congé - 休假日
+ manifester - 示威者, 展现
+ peut-être que - 也许
+ postuler - 申请
+ proposer - 提议者, 开出, 提议, 贡献
+ préférer - 宁可, 更喜欢, 比看
+ rater - 赶不上
+ rester - 留下来, 地待, 呆, 留, 待在, 耐着, 再待, 仍旧, 家待, 待, 再多待, 上多待, 下待, 依然
+ salaire - 工资, 薪水, 薪, 薪资
+ signer - 签名, 签合同, 签署, 签, 签字, 签完
+ souhaiter - 祝, 祝愿, 许愿
+ votre place - 你的立场
+ à temps partiel - 兼职
+ à temps plein - 全职
+177 Pastimes 日常生活: 描述日常活动
+ achat - 购, 采购, 收购
+ balcon - 阳台, 看台
+ bouillir - 煮沸
+ bâton - 棍, 棍子, 杖
+ changer - 换种, 改, 改签, 换, 后换, 改成, 换个, 改变, 更改, 彻底改变, 别改, 换换, 转变, 变, 替换, 换身, 换钱, 换好
+ d'ailleurs - 此外
+ deviner - 猜, 猜出来, 猜得到, 猜猜, 猜出
+ divertissement - 游乐, 娱乐, 综艺
+ flûte - 长笛, 笛子
+ horreur - 恐怖
+ livrer - 送达, 送货, 送出去, 送, 递交
+ manger - 进食, 吃得下, 吃生, 吃够, 吃, 吃东西, 吃饭, 吃得, 吃花, 喝, 完辣
+ ne - 别, 没, n, 否, 非, 你别, 不, ne
+ noir - 黑暗
+ ouais - 嗯
+ parent - 亲戚, 戚, 家属, 家长, 亲人
+ promesse - 承诺, 诺, 诺言
+ silence - 寂, 安静, 肃静
+ studio - 工作室, 制片厂, 演播室
+ tente - 帐, 帐篷, 篷
+ terre - 地上, 土地, 泥土, 地球, 陆, 土, 土里
+ à suspense - 悬疑
+178 The Party 聚会: 介绍聚会嘉宾
+ apparaître - 出现
+ appartenir - 属于
+ attacher - 上系, 系上, 系好, 拴, 系得, 系在, 系紧, 先系
+ bougie - 蜡烛, 烛
+ dirait - 看起来
+ en dernier - 最后
+ en premier - 首先
+ et en plus - 而且
+ excuse - 借口, 致歉, 对不起, 任何借口
+ gardien de but - 守门员
+ immense - 巨大的
+ magique - 神奇, 魔法
+ passer - 逝, 每天花, 过生日, 共度, 花一, 转为, 路过, 去度, 递, 过去, 递给, 参加, 过个, passer, 转过, 度过, 升入, 通个, 顺道去, 及格
+ payant - 收费, 收费的, 付费
+ santé - 身, 身体, 健, 健康, 康, 身体健康, 干杯
+ se coucher - 睡觉, 睡
+ se lever - 起床
+ souffler - 吹灭, 呼, 吹, 吹风
+ tenir - 撑, 撑不住, 兑现, 坚持, 要握, 收着, 抱, 站, 信守, 手握
+ veille - 前夕, 前夜, 熬夜, 守望
+ ça va - 还好吗, 很好, 还好
+ étranger - 外地人, 外国, 国外, 外国人, 陌生人
+179 Abroad 2 出行: 选择出行方式
+ aider - 帮你忙, 帮忙, 帮女, 帮助, 帮, 帮人, 帮个
+ aller simple - 单程票
+ aller-retour - 往返票
+ annoncer - 宣传, 告, 宣, 发表声明
+ arriver - 早到, 抵达, 到达, 驶来, 赶到, 到, 来到, 生到
+ douter - 怀疑, 疑惑, 不确定, 犹豫, 质疑, 不信任
+ durée - 期限, 持续时间, 片长
+ embarquer - 登机, 登船, 上船
+ en vente - 出售
+ goûter - 品尝, 尝, 尝尝, 尝到
+ guide - 导游, 向导, 旅行指南, 指南, 带路, 讲解员, 手册, 攻略
+ guider - 指引, 指导, 带领, 讲解
+ gérer - 怎么弄, 得来, 搞得定, 克服, 得定, 搞不定, 管理, 应对
+ libérer - 释放, 腾出
+ local - 本地人, 当地, 本地
+ penser - 想着, 想, 思维, 想来想去
+ possible - 尽, 可能, 若能
+ que - 何, 只要, 的, 什么
+ rechercher - 研, 研究, 搜索
+ retour - 回报, 回程, 返程, 返, 往返, 反馈
+ transport - 交通工具, 运输, 交通, 物流
+ visite guidée - 导游参观
+ voie ferrée - 铁轨
+ écrire - 写字, 写信, 留言, 笔写, 写出, 写日记, 写个, 写作, 写得, 书写, 写, 谱写
+180 New Home 家居: 谈论家里的家具
+ bas - 底部, 下, 低, 低得, 下装, 下方, 楼下, 低开
+ bureau de tabac - 烟草店
+ centimètre - 厘米
+ chauffage - 供暖, 供暖设备
+ en libre-service - 自助, 自助服务
+ eux - 他们
+ fond - 底部, 即化, 底, 背景, 高汤
+ largeur - 宽度
+ longueur - 长度, 长短
+ mesurer - 来量, 测量, 监测
+ millimètre - 毫米
+ minuscule - 微小, 微小的, 极小
+ mode d'emploi - 说明书
+ moi - 我, 给我
+ nous - 为我们, 咱们, 向我们, 给我们, 彼, 对我们, 咱, 我们, 跟我们, 们, 本会
+ offrir - 赠送给, 时送, 赠送, 赠, 送, 送人, 贡献
+ prendre - 请假, 摄, 带, 坐地铁, 乘坐, 上, 立下, 走错, 服下, 拍, 吃, 养成, 作出, 拍出, 拍下, 拍摄, 夺走, 打车, 抽出, 接个, 带上, 拍照, 记个, 拿件, 拍自, 量体温, 照相, 量, 吃顿, 采取, 服用, 抢走了, 我取, 要取, 吕克拿起, 要休, 做出, 拿, 带伞, 喝, 占用
+ propriété - 地产, 财产, 房产, 物业, 土地
+ sécurité - 平安, 安全, 保安
+ tour - 把戏, 第一轮, 一圈, 塔, 旅游, 周轮, 轮轮, 厦
+181 Neighbors 礼仪: 介绍邻居之间的礼仪
+ adapté - 非常适合, 改编自, 适, 般配
+ arabe - 阿拉伯语, 阿拉伯
+ baby-sitting - 保姆
+ britannique - 英国的, 英国人
+ comporter - 表现
+ d'à côté - 隔壁
+ devoir - 欠, 将要, 后该, 作业, 责任, 职责, 不可, 生要
+ excuser - 道歉者, 见谅
+ excuses - 道歉
+ fauteuil roulant - 轮椅
+ filer - 走
+ handicapé - 残疾人
+ honnêtement - 老实说
+ hâte - 期待
+ prince - 王子, prince
+ ravi - 高兴, 乐坏了
+ respect - 尊重
+ serrer - 握紧, 系得, 勒, 手握
+ tenir - 撑, 撑不住, 兑现, 坚持, 要握, 收着, 抱, 站, 信守, 手握
+ tout de suite - 马上
+ tutoyer - 用“你”称呼
+ vie nocturne - 夜生活
+ voisinage - 邻里, 邻里关系
+ vouvoyer - 用敬语对待
+ époux - 丈夫, 夫妇
+182 Dress Up 时尚: 描述流行款式
+ abîmer - 弄坏
+ ce dont - 的东西
+ celle dont - 的
+ celles dont - 那些
+ celui dont - 的
+ ceux dont - 那些
+ coiffure - 发型, 发型店, 美发, 造型, 沙龙
+ coloré - 彩, 彩色, 鲜艳, 五颜六色
+ coudre - 缝衣服, 缝纫, 缝制, 缝好, 缝, 纫
+ cérémonie - 式, 仪式, 毕业典礼, 仪, 典礼, 礼节
+ de sport - 运动
+ de valeur - 贵重的
+ déchirer - 撕破, 撕, 撕裂
+ décontracté - 随性, 休闲, 随意
+ mannequin - 模特
+ modèle - 型号, 一款, 杆, 榜样, 标杆, 同款, 示范, 模范, 型, 款, 模型, 模, 模式
+ montant - 登上, 登, 金额
+ motif - 图案, 题材, 纹, 花纹
+ occasion - 场合, 二手的, 时机, 二手, 好时机, 机遇
+ similaire - 类似, 相近
+ tenue - 服装
+ tout ce dont - alles wat
+ uni - 英国, 团结一致, 统一, 纯色, 素色
+183 Imagine 度假: 描述理想度假方式
+ aile - 翅膀, 机翼
+ aller - 将要, 去了, 人去, 地去, 能配, 上班, 去, 生去
+ auraient - 会有, 会
+ aurait - 本会, 可能, 据称
+ avoir - 取得, 有, 要个, 拿到, 版有
+ chameau - 骆驼
+ cigale - 蝉
+ ensoleillé - 晴, 晴天, 阳光充足
+ humide - 润, 湿湿的, 潮湿, 湿润, 多雨
+ imagination - 想象力
+ imaginer - 想象, 想像, 想不到
+ iraient - 适合
+ irait - 会, 会去
+ paysage - 景, 风景, 景色, 景观, 风景画, 格局
+ port - 港, 港口, 码头
+ seraient - 会
+ serait - 会, 会是
+ sommet - 顶部, 頂, 上端, 顶端, 巅, 峰, 顶上, 顶层, 巅峰, 顶, 山顶, 顶峰, 山頂, 高潮
+ station balnéaire - 海滨度假胜地
+ être - 当, 当会, 很, 处于, 是, 就是
+184 Office 2 自主: 自己动手完成任务
+ association - 协会, 组合, 社团, 联合
+ chance - 运气, 运, 吉, 好运, 可能性, 祝你好运, 胜算, 机遇
+ concurrent - 竞争对手, 选手
+ démissionner - 辞职
+ expert - 权威, 专家, 高手, 行家, 人才
+ faire - 闹出, 搞, 办, 做点, 交新, 办点, 生火, 做蕾娅, 交好, 迈出, 考得, 逛街, 办理, 煮, 拍电影, 引起轰动, 迈, 做一套, faire, 付出, 煮汤, 做, 骑骑, 弄个, 假装, 弄, 使, 做个, 盘个, 组队
+ feraient - 会做, 会
+ ferait - 会, 会许
+ héros - 杰, 英雄
+ indépendant - 独立
+ moi-même - 我自己
+ nous-mêmes - 我们自己
+ parmi - 其中, 中是, 之中, 当中, 人中
+ particulièrement - 特别
+ perte de temps - 浪费时间
+ pourraient - 可能会
+ préparé - 备, 预制, 准备, 做好, 准备了, 备齐
+ sauraient - 会知道, 会
+ saurait - 会知道, 会
+ savoir - 会, 既会
+ toi-même - 你自己
+ vous-même - 你自己
+ à peine - 几乎
+185 Fix It 天气: 描述天气变化
+ alarme - 警报器, 警报, 报警器
+ ampoule - 灯泡
+ appeler - 工打个, 打电话, 唤, 相称, 喊一声, 报警, 称呼, 喊出
+ branche - 枝, 插上, 树枝
+ coffre - 箱子
+ foudre - 闪电
+ jeter - 施法, 投, 扔掉, 抛, 丢弃, 扔到, 扔进, 扔, 泼
+ jetteraient - 扔掉, 会扔掉, 就会少
+ jetterait - 扔掉, 会扔掉
+ orage - 暴风雨, 雷雨, 雷暴
+ outil - 工具, 具
+ prise - 插头, 拍, 作出, 插座, 人握
+ radiateur - 暖气片, 取暖器
+ serrure - 门锁, 锁
+ tas - 堆
+ tonnerre - 雷声, 打雷, 雷鸣
+ éteindraient - 会关掉, 会关
+ éteindrait - 会关掉, 关掉
+ éteindre - 关掉, 熄, 扑灭, 关, 灭, 熄灭
+186 Arts 2 故事: 讲述一个故事
+ admirer - 欣赏, 崇拜, 崇拜者, 钦佩, 佩, 佩服, 羡慕
+ aimer - 欢, 喜欢
+ animation - 动画, 繁华
+ avec - 跟着, 用, 配, 带, 加, 和, 穿, 随着, 有, 一起, avec, 带有, 包含, 带着, 对, 跟, 盖着, 用桃, 一同
+ bande dessinée - 漫画
+ chapitre - 一章, 章节, 章, 单元
+ classique - 典, 古典的, 经典, 古典, 经典电影
+ cruel - 残酷, 残忍, 残
+ créature - 生物
+ d'amour - 爱情
+ d'aventure - 冒险
+ différemment - 不同的, 不同地
+ effet - 后果, 效果, 效, 作用, 滤镜
+ génération - 辈, 一代人, 代, 一代
+ humain - 人性化, 人类, 人性
+ paroles - 歌词
+ passionnant - 令人兴奋的
+ penser - 想着, 想, 思维, 想来想去
+ personnage - 角色
+ pleurer - 泣, 流泪, 落泪, 哭闹, 哭泣, 哭, 一哭
+ rire - 发笑, 笑笑, 笑, 笑个
+ robot - 机器人
+ réaliste - 现实主义者, 写实
+ science-fiction - 科幻片
+ sourire - 多笑, 笑容, 微笑, 面带微笑
+ titre - 标题, 书名, 称呼
+ à la main - 手工
+ être humain - 人类
+187 Studying 2 教师: 描述理想教师
+ alphabet - 字母表, 字母
+ attestation - 证明
+ connaissance - 知识, 感知, 学识, 熟人
+ corriger - 我批, 改正, 订正, 批过, 纠正, 批错, 校对, 编辑, 批改, 纠, 改完, 补救
+ demander - 请求, 询问, 询, 征求, 请教, 问, 问询, 求, 要求, 求个, 要, 美问
+ encourager - 鼓励, 培养, 鼓励者, 推动
+ enseignant - 教师
+ enseignement - 中学, 中学教育, 教育
+ enseignement secondaire - 中学教育
+ exact - 没错, 精确的, 精确, 完全一致
+ inscription - 注册, 招新
+ méthode - 解决办法, 做法, 方法, 攻略
+ préparation - 筹备, 筹备工作, 准备, 筹备会议
+ scientifique - 科学, 科学家
+ si - 如此, 的话, 那么, 是不是, 这么, 若, 如果, 能否, 假如, 要是, 是否, 若是, 斯, si
+ technique - 技, 技巧, 手法
+ tenir - 撑, 撑不住, 兑现, 坚持, 要握, 收着, 抱, 站, 信守, 手握
+ venir - 来, 来看, 过来, 去, 来换
+ à voix haute - 大声
+ échec - 失败
+ évaluer - 鉴, 估, 评估, 评定, 打分
+188 Garden 花园: 描述你的花园
+ arroser - 浇水, 浇, 泼水
+ baigner - 游泳
+ chasser - 赶走, 打猎, 狩, 猎杀, 狩猎
+ chauve-souris - 蝙蝠
+ creuser - 挖掘, 挖得, 挖, 掘
+ de plein air - 户外
+ doux - 温和, 柔, 清淡, 毛好, 甘, 柔软, 小火, 温柔, 香甜, 不软, 软, 轻柔, 柔和, 淡淡的, 动听
+ détendre - 放松, 缓和
+ entourer - 围, 围观
+ jardinage - 园艺
+ mourir - 死, 吓死, 死去, 枯死
+ ombre - 影, 荫, 影子, 幽影
+ paisible - 宁静
+ pierre - pedro, 石, 皮埃尔, 石头, pierre
+ planter - 种成, 种树, 栽种, 栽, 将种, 花盆里的, 地种, 种些, 上种, 就种
+ pousser - 使劲, 推得动, 推, 推动
+ rare - 稀有的, 稀有, 稀, 难得
+ régulièrement - 定期, 一向, 定时, 时常
+ tondre - 修剪, 割草
+ âne - 驴, 驴子
+189 En Route 行李: 询问行李位置
+ cabine - 舱, 小房间, 客舱
+ cela vous dérangerait-il - 这会打扰到您
+ coincé - 卡住, 卡, 困住, 被困
+ comprendre - 体谅, 理会, 看得懂, 能看懂, 理解, 弄懂, 猜出, 搞不清楚, 谅, 读懂, 懂, 理出, 了解, 看不懂, 会得
+ cycliste - 骑自行车的人
+ dangereusement - 危险地
+ de - 个, 从, 上, 之, 种, 来自, 的, 要, 对, 离, 能, de
+ description - 描述, 描写
+ devant - 前方, 当着, 前有, 前头, 面前, 当面, 前面, 跟前, 前车, 前排
+ devoir - 欠, 将要, 后该, 作业, 责任, 职责, 不可, 生要
+ distance - 距离, 距, 相距, 段距离
+ dont - 的
+ effectivement - 确实
+ frontière - 界限, 边界, 边境
+ guichet - 柜台, 售票处, 票房
+ mondialement - 世界闻名地
+ prudent - 慎, 谨慎, 谨
+ rail - 轨
+ sac de couchage - 睡袋
+ terriblement - 非常
+ tromper - 欺骗, 骗, 欺, 误导
+ tunnel - 隧道
+ visa - 签证
+ visiter - 访, 去玩, 览, 拜访, 观光, 参观, 浏览
+ énerver - 生气, 惹怒
+190 And Then 家务: 描述日常家务
+ appli - 应用程序
+ arracher - 拔, 抢走了, 挣过
+ avaient - 有, 鸡有
+ avait - 有
+ avoir - 取得, 有, 要个, 拿到, 版有
+ cadre - 架子, 画框, 框, 白领
+ casser - 破, 打破, 弄坏, 磕断
+ communiquer - 用, 和, 在线, 努力, 与, 分享, 沟通
+ couverture - 毯子, 被, 罩, 被子, 毯, 封面
+ décorer - 装饰
+ déjà - 早已, 曾经, 了, 早有, 曾, 早就, 已有, 已, 已经, 中曾
+ en désordre - 乱七八糟
+ fil - 电话线
+ laver - 洗澡, 洗起来, 洗个, 洗, 洗一洗, 汰, 冲洗
+ linge - 衣物
+ lire - 读, 阅, 看书, 阅读, 能读, 读出来, 书读, 读归读
+ oublier - 忘记, 忘, 落下
+ panier - 篮子, 篮
+ plier - 折叠, 折起, 折, 弯曲
+ puisque - 既然, 加上
+ repasser - 熨斗, 熨, 再考
+ tablette - 平板
+ étonner - 惊讶
+191 Criminals 案件: 描述你看到的案发现场
+ arrêter - 戒烟, 戒, 挡, 停止, 刹车, 戒酒, 到此为止, 停下, 挡不住, 逮捕
+ attaquer - 攻, 攻击
+ cacher - 隐, 蔽, 藏, 隐藏, 藏不住, 遮起来
+ cambrioleur - 窃贼
+ commissariat - 警察局
+ coupable - 罪魁祸首, 罪责, 人犯, 有罪, 犯人, 罪犯, 疚
+ criminel - 犯罪, 人犯, 罪, 罪犯, 犯人
+ d'âge moyen - 中年
+ descendre - 下楼去, 滑下, 下, 降, 下车, 爬下来, 下去, 下山, 下楼梯, 下机, 落下
+ détective - 侦探, 侦, 探, 女侦探
+ frein - 刹车
+ innocent - 辜, 无辜, 没罪, 无罪, 无辜的, 单纯
+ inquiétant - 令人不安
+ juger - 判断, 看待
+ partir - 离开, 出发, 人去, 出去, 启程, 生去
+ perdre - 丢掉, 落败, 输, 亏了, 输给, 亏下, 弄丢, 减肥, 很亏
+ pickpocket - 扒手
+ prison - 牢, 狱, 监狱
+ reconnaissant - 感激, 非常感激
+ sortir - 上市, 外出, 出来, 冒出来, 挑出来, 下床, 掏出, 出门, 出去, 取出, 掏, 出院, 出新, 拿出, 上映, 逃出, 出国, 谈恋爱, 生去
+ tribunal - 法院, 法庭, 廷
+ véhicule - 大车, 辆, 车辆, 交通工具
+ échapper - 躲过, 逃离, 逃跑, 逃不过
+ étaient - 是, 很
+ était - 很, 车是, 处于, 在, 是, e, 正为
+ être - 当, 当会, 很, 处于, 是, 就是
+192 Get Well 2 想法: 表达你的想法
+ air - 空气, 气, 旋律, 氣, 歌当
+ cerveau - 大脑, 脑子, 脑, 脑袋
+ clinique - 诊所
+ en urgence - 紧急
+ enceinte - 怀孕, 音响
+ enrhumé - 感冒
+ mal - 疼, 不对的, 不好受, 邪恶, 痛, 不好, 差, 很不好, 坏处, 不错, 邪, 不舒服, 很差, 对错
+ nécessaire - 必要, 必要的, 不可避免
+ opération - 手术, 操作, 外科手术
+ pas que - 不只, 不只是
+ pense pas que - 不认为
+ pense que - 觉得
+ prendre - 请假, 摄, 带, 坐地铁, 乘坐, 上, 立下, 走错, 服下, 拍, 吃, 养成, 作出, 拍出, 拍下, 拍摄, 夺走, 打车, 抽出, 接个, 带上, 拍照, 记个, 拿件, 拍自, 量体温, 照相, 量, 吃顿, 采取, 服用, 抢走了, 我取, 要取, 吕克拿起, 要休, 做出, 拿, 带伞, 喝, 占用
+ soient - 是
+ soit - 要么, 是, soit
+ venir - 来, 来看, 过来, 去, 来换
+ vue - 目睹, 视野, 景观, 睹, 视力, 观, 景象, 视, 景色
+ être - 当, 当会, 很, 处于, 是, 就是
+193 Life 2 社区: 介绍社区的节日
+ ailleurs - 别的地方, 别处
+ athée - 无神论者
+ banlieue - 郊区, 城市边缘
+ bonheur - 幸福, 幸福感
+ briller - 发亮, 大放异彩, 耀, 闪耀, 晃
+ ce serait bien si - 如果...那就好了
+ chrétien - 基督徒的, 基督徒
+ citoyen - 公民, 市民
+ cloche - 鐘
+ en commun - 共同
+ familier - 熟悉, 悉, 眼熟, 不太熟, 很熟, 耳熟
+ fête - 晚会, 派对, 节日, 聚会, 我过, 狂欢
+ géant - 巨人
+ juif - 犹太, 犹
+ musulman - 穆斯林
+ par - 相对, 从, 由, 通过, 出于, 对, 药由
+ pare-brise - 挡风玻璃
+ province - 省份, 省
+ rayon - 缕, 人造丝, 一缕
+ religion - 宗教, 宗教的, 信仰
+ salon de beauté - 美容院
+ surprendre - 惊讶, 大吃一惊
+ épouser - 娶, 嫁给, 嫁
+194 Business 工作: 提出加班请求
+ apercevoir - 看到, 瞥见
+ besoin que - 需要你
+ calmement - 平静地
+ croire - 觉得, 难以相信
+ désordonné - 不整洁, 脏乱
+ détendu - 松, 我松, 放松, 轻松, 舒展
+ en particulier - 特别是
+ fabriquer - 制作, 亲手做
+ faire - 闹出, 搞, 办, 做点, 交新, 办点, 生火, 做蕾娅, 交好, 迈出, 考得, 逛街, 办理, 煮, 拍电影, 引起轰动, 迈, 做一套, faire, 付出, 煮汤, 做, 骑骑, 弄个, 假装, 弄, 使, 做个, 盘个, 组队
+ importance - 重要性, 大小
+ inquiéter - 担心
+ inventer - 编出, 编造, 要编, 编出来
+ le plus tôt possible - 尽快
+ normalement - 通常
+ publier - 发布, 出版, 刚发
+ retraite - 退休
+ syndicat - 工会, 工会组织
+ valent - 值得, 更有价值
+ vaut - 最, 值得
+195 Buildings 城市生活: 表达对城市的看法
+ ambassade - 大使馆
+ arracher - 拔, 抢走了, 挣过
+ banc - 长椅, 长凳
+ coffre - 箱子
+ combien de temps - 多久
+ composer - 拨打, 拨, 谱写
+ construire - 建造, 构建, 来建, 打造
+ contre - 对抗, 出乎
+ direction - 方向, 管理层
+ déposer - 存款, 寄存, 递交
+ détruire - 破坏, 摧, 摧毁, 毁掉
+ gazole - 柴油
+ maçon - 泥瓦匠, 瓦工
+ photographie - 摄影
+ pigeon - 鸽子
+ piéton - 行人, 路上行人
+ plutôt que - 而不是
+ poster - 海报, 留言
+ raison - 缘, 缘故, 说得对, 道理, 理, 理由, 无缘无故
+ récent - 最近的, 最新的
+ trajet - 行程, 旅程, 车程, 通勤, 路途, 路程, 交通路线
+ vivant - 活泼, 鲜活, 活着的, 活着, 生动, 形象, 繁华, 生动有趣
+ voie - 轨道, 车道, 道, 正轨
+196 In Touch 愿望: 表达你的愿望
+ admettre - 承认
+ avaient - 有, 鸡有
+ avait - 有
+ avoir - 取得, 有, 要个, 拿到, 版有
+ chacun - 各, 每个人, 每人
+ contact - 接触, 联系方式, 联系人, 熟人
+ dernier - 最新的, 上一个, 去年, 上, 最后一个, 最后, 最新
+ dire - 讲个, 告, 诉, 却说, 说, 告诉, 地说, 讲, 谓, 说用
+ envoyer - 发射, 发送到, 发完, 遣, 发短信, 发给, 寄, 发, 寄到, 发送, 寄往, 送出去, 寄出, 寄信, 推送
+ par - 相对, 从, 由, 通过, 出于, 对, 药由
+ pensée - 思维, 思, 思路, 思想, 感想
+ profondément - 深深的, 深深地
+ promettre - 承诺, 诺, 包让
+ réaliser - 实现, 执行
+ signifier - 能指, 喻
+ technologie - 科技, 技术
+ vœu - 愿望
+ écouter - 聆听, 收听, 听, 听取, 倾听, 聆, 听讲
+ écrire - 写字, 写信, 留言, 笔写, 写出, 写日记, 写个, 写作, 写得, 书写, 写, 谱写
+ étaient - 是, 很
+ était - 很, 车是, 处于, 在, 是, e, 正为
+ être - 当, 当会, 很, 处于, 是, 就是
+197 Cuisine 烹饪: 描述烹饪过程
+ au plat - 菜
+ cacao - 可可
+ comme - 一样, 时像, 宛, 般的, 般, 仿佛, 像, 宛如, 作为, 如同, 当作, 正如, 地像, 画般, 似的, 如, 当成, 加上
+ concours - 比赛
+ convaincre - 说服
+ cuire - 烹, 煮, 烹煮, 做熟
+ cuisiner - 炒菜, 烹饪, 饪, 烹, 下厨, 做菜, 学做
+ dur - 困难, 艰难, 硬, 艰苦, 可难
+ extrêmement - 不得了, 极为, 极其, 极了, 极, 万分, 时超
+ fonctionner - 运作
+ fondre - 融化
+ frire - 煎炒
+ griller - 烤
+ macaron - 马卡龙
+ mettre - 戴上, 戴, 换上, 搽, 放进, 着手, 把, 穿, 贴, 置于, 装进, 上桌, 凸, 放, 放在首位, 弄成, 放在, 放到, 凸显, 投进, 披上
+ poudre - 粉, 粉末
+ qualité - 性能, 质量, 身份, 优质, 品质, 素质
+ quantité - 数量, 量, 分量
+ ratatouille - 炖菜
+ surgelé - 冷冻
+ typique - 典型
+ à moitié - 半
+198 Politics 经济: 表达对经济的看法
+ appeler - 工打个, 打电话, 唤, 相称, 喊一声, 报警, 称呼, 喊出
+ augmenter - 增加, 扩大, 调高, 升高, 增大, 增, 加薪, 要涨, 增多
+ cas - 病例
+ cause - 因为, 原因, 造成, 成因, 因, 因素
+ causer - 导致者, 导致
+ changer - 换种, 改, 改签, 换, 后换, 改成, 换个, 改变, 更改, 彻底改变, 别改, 换换, 转变, 变, 替换, 换身, 换钱, 换好
+ crime - 罪行, 罪案, 犯罪, 案发, 作案
+ croire - 觉得, 难以相信
+ diminuer - 减少, 减轻, 缩短
+ développement - 发展, 繁荣
+ envoyer - 发射, 发送到, 发完, 遣, 发短信, 发给, 寄, 发, 寄到, 发送, 寄往, 送出去, 寄出, 寄信, 推送
+ essayer - 试着, 一试, 尝试, 试试, 试一试, 着, 试用, 试一下, 试, 尽量, 里试, 尽力
+ homme politique - 政治家
+ mentionner - 提到
+ ministre - 女部长, 部长
+ officiel - 官方, 正规
+ pauvreté - 贫困
+ peuple - 民众, 民族, 百姓, 民, 人民, 老百姓
+ plupart - 多数
+ politique - 政坛, 政, 政治, 政策
+ principal - 主要的, 首要
+ principalement - 主要, 为主
+ période - 段时间, 一段时间, 月经, 期, 一段, 时刻, 时期, 阵, 周期
+ rubrique - 专栏, 栏目
+ réunir - 聚, 聚在一起, 相聚
+ système - 模式, 系统, 体制, 体系, 制度, 秩序
+ tiers - 三分之一, 他人
+ total - 彻底, 总数, 总共, 完整
+ échange - 交, 换货, 交流, 交换, 替换
+ économique - 经济
+199 In Class 2 课堂: 表达对课堂的看法
+ asseoir - 坐, 坐成, 坐坐, 就座
+ assiéraient - 会坐
+ assiérait - 会坐
+ blanc - 白色的, 白, 白色, 白衣
+ brouillon - 稿, 草稿
+ enverraient - 会寄, 会发
+ enverrait - 送, 发, 发送
+ envoyer - 发射, 发送到, 发完, 遣, 发短信, 发给, 寄, 发, 寄到, 发送, 寄往, 送出去, 寄出, 寄信, 推送
+ essayer - 试着, 一试, 尝试, 试试, 试一试, 着, 试用, 试一下, 试, 尽量, 里试, 尽力
+ labo - 实验室
+ lecteur - 读者, 阅读器, 播放器, 播放机
+ maths - 数学
+ progrès - 进步
+ rang - 排, 秩
+ recherche - 搜索, recherche, 查询, 寻找, 寻, 研究, 科学研究
+ relire - 重读, 再读, 校对
+ souligner - 强调, 突出重点, 突出
+ sévère - 苛, 严苛, 严厉, 苛刻, 极端
+ volume - 单行本, 册, 音量, 体积
+ égal - 一样, 一样的, 平等
+ énerver - 生气, 惹怒
+200 Reactions 情感: 表达你的感受
+ actif - 积极, 活跃
+ aille - 去
+ aillent - 去
+ aller - 将要, 去了, 人去, 地去, 能配, 上班, 去, 生去
+ choquant - 震惊, 震撼, 令人震惊
+ comportement - 表现, 行为, 举止
+ divorce - 离婚
+ dépendre - 取决于
+ déprimer - 沮丧
+ injuste - 不公正
+ offrir - 赠送给, 时送, 赠送, 赠, 送, 送人, 贡献
+ partir - 离开, 出发, 人去, 出去, 启程, 生去
+ personnel - 个私, 工作人员, 人员, 劳动力
+ raisonnable - 懂事, 合理, 价格合理, 合情合理, 讲道理
+ social - 社会的
+ souffrir - 遭受, 受苦
+ tomber - 跌倒, 坠, 掉, 摔下去, 摔下, 落下
+201 Clothes 衣物: 描述穿衣习惯
+ abîmé - 弄坏
+ acceptable - 可以接受的, 可以接受, 容易接受
+ aller - 将要, 去了, 人去, 地去, 能配, 上班, 去, 生去
+ approprié - 最合适, 般配, 宜, 合适, 适当
+ cintre - 衣架, 挂衣架, 衣钩, 衣撑, 衣挂
+ concernant - 针对, 对花, 关于, re, 对于
+ d'autres - 别的, 别人, 他人
+ en - en, 对此, 一些, 打着, 之内, 穿, 之中, 那个, 内, 在, 用时, 去, 从中, 儿里
+ fer à repasser - 熨斗
+ le - 这个, 这家, 他, le, 那本, 这辆, 那张, 这, 的, 了, 那个, 那列, 那家, 那辆, 这本, 这列, 那, 这张, 它, 那起
+ messieurs-dames - 先生们女士们
+ moi - 我, 给我
+ plaindre - 诉, 抱怨
+ rapporter - 归还, 汇报
+ remboursement - 退款, 还款
+ renvoyer - 开除
+ sortir - 上市, 外出, 出来, 冒出来, 挑出来, 下床, 掏出, 出门, 出去, 取出, 掏, 出院, 出新, 拿出, 上映, 逃出, 出国, 谈恋爱, 生去
+ suspendre - 暂停, 系在
+ tache - 污渍, 污点, 渍
+ vitrine - 橱窗, 展示柜
+ vous - 您们, 你们, 和你们, 向你们, 和您, 你, 为你们, 给你们, 您, 妳们, vous
+202 Commentary 展览: 描述展览作品
+ aient - 已经
+ ait - 已经
+ avoir - 取得, 有, 要个, 拿到, 版有
+ beauté - 美丽, 美女
+ chef-d'œuvre - 杰作
+ chut - 嘘
+ coup de foudre - 一见钟情
+ entracte - 幕间休息, 间歇, 中场休息, 中场
+ entraîneur - 教练
+ galerie - 廊, 画廊
+ marquer - 进, 进球, 中进, 得分
+ mettre - 戴上, 戴, 换上, 搽, 放进, 着手, 把, 穿, 贴, 置于, 装进, 上桌, 凸, 放, 放在首位, 弄成, 放在, 放到, 凸显, 投进, 披上
+ métal - 金属, 金属材料
+ place - 位置, 位, 置, 名额, 广场, 位子
+ point de vue - 观点
+ score - 得分, 分数, 成绩, 评分, 比分
+ sens - 意义, 义项, 没道理, 得通, 感官, 感到, 思, 毫无道理, 意思, 含义
+ spectateur - 观众
+ séance - 训练
+ terrain - 地形, 操场, 球场, 地势, 土地
+ valeur - 价值, 值
+ à l'avance - 提前
+203 Outdoors 自然: 描述你看到的动物
+ GPS - GPS
+ apercevoir - 看到, 瞥见
+ baie - 湾, 海湾
+ bord - 边, 岸边, 边缘
+ bouger - 不许动, 乱动, 去动, 动, 动一动, 都动, 就动, 摆动, 里动, 摇晃
+ bruyamment - 吵闹地
+ coquillage - 贝壳
+ courant - 派别, 潮流, 流, 流派, 普遍, 常见, 主流
+ courir - 跑步, 奔跑, 奔, 跑跑步
+ eaux - 水, 水域
+ falaise - 悬崖
+ femelle - 雌性, 只母
+ geler - 冻坏, 结冰, 会冻
+ glacé - 冰, 冰镇
+ loup - 狼
+ mâle - 雄性, 雄, 公的
+ petit - 矮, 小, 小而, 小小的, petit, 崽, 小型, 家小, 很矮, 仔, 小的, 渺小, 小朋友
+ phare - 大灯, 灯塔
+ rivage - 汀, 滨, 岸边
+ ruisseau - 小溪, 溪, 小河, 溪水
+ taureau - 公牛
+ totalement - 完全地
+ vallée - 谷, 山谷
+ veau - 小牛肉, 小牛
+204 Families 家庭: 介绍你的家庭成员
+ PACS - 民事结合
+ adapter - 适配器
+ ange - 小天使, 天使
+ armée - 军, 军队
+ capitaine - 队长, 机长, 船长
+ divorcer - 离婚者
+ extraverti - 外向
+ installer - 再装, 安装, 设立
+ maire - 市长
+ officier - 官, 警官
+ ordre - 顺序, 秩, 条理, 序, 命令, 秩序
+ partager - 分担, 合住, 转发, 分享, 认同
+ pendant ce temps-là - 与此同时
+ peu après - 不久之后
+ peu à peu - 渐渐地
+ punir - 惩罚
+ sentir - 闻闻, 我闻, 感到, 闻来闻去
+ soldat - 兵
+ sur - 给, 上, 临, 关于, 在, 乘, 上下, r
+ séduire - 诱惑
+ à la retraite - 退休
+ élever - 高举, 养, 养大, 养猫, 养狗, 升高, 里养, 喂养
+205 Services 房屋: 描述家里的问题
+ a - 山有, 地有, 正有, 怀有, 有没有, 中有, 古斯古斯有, 有, 店有, 茶有, 有着, 湖有, 词有, 美有, 具有, 有股, 心存
+ accrocher - 挂, 挂到
+ au-dessus - 在上方
+ avez - 有, 有十
+ bricolage - 手工活
+ carton - 纸箱
+ cave - 窖, 洞穴, 地窖
+ concierge - 门卫
+ descendre - 下楼去, 滑下, 下, 降, 下车, 爬下来, 下去, 下山, 下楼梯, 下机, 落下
+ directement - 直接
+ est - 师是, 当, 河在, 东边, 屋在, 很, è, 水在, 包是, 在, 美是, 屋是, 笔是, 是, 离, 张华是, 课是, e, 东, 便是
+ facture - 发票, 账单, bill
+ faut - 应该
+ fuite - 小漏, 漏气, 逃跑, 泄漏
+ gaz - 气体
+ grenier - 阁楼
+ marche - 走太快, 走得, 一阶, 走, 运作, 能使用, 走路, 行得通, 迈着
+ monter - 搬上去, 登上, 上来, 爬上去, 上去, 爬楼梯, 上台, 登, 上楼, 上升, 顺着, 爬到, 升高
+ ont - 有, 心存
+ plombier - 水管工, 管工
+ service - 务, 大忙, 效劳, 班次, 服务, 贡献
+ sont - 是, 很, 在, 当
+ sortir - 上市, 外出, 出来, 冒出来, 挑出来, 下床, 掏出, 出门, 出去, 取出, 掏, 出院, 出新, 拿出, 上映, 逃出, 出国, 谈恋爱, 生去
+ ça y est - 好了
+ électricien - 电工
+ êtes - 很, 在, 是, 处于
+206 On TV 新闻: 表达对新闻的看法
+ actualité - 新闻
+ bêtise - 傻事
+ diffuser - 播, 推广, 流传, 推送, 会播
+ disparaître - 消失, 失踪
+ documentaire - 纪录片
+ dormir - 睡觉, 睡, 睡不着, 睡上, 觉, 睡得, 睡过去
+ envie - 想要
+ fait - 干什么, 怎么弄, 闹出, 干吗, 不办, 办, 无妨, 干得, 手工, 迈出, 考得, 办理, 让, 拍电影, 引起轰动, 迈, 做过, 付出, 在做, 结交, 发愁, 出牙, 做华夫, 做, 炒, 犯小, 假装, 弄, 使, 生闷气, 风让, 事实, 办到, 做够, 做出, 发出, fait
+ honte - 羞愧
+ informer - 告密者, 告, 通知, 告知
+ magazine - 杂志
+ marre - 厌烦
+ mourir - 死, 吓死, 死去, 枯死
+ parler - 讲讲, 说起, 说话, 谈论, 说个, 谈谈, 谈一谈, 说, 地说, 交谈, 说说话, 讲话, 地谈, 商量一下
+ passer - 逝, 每天花, 过生日, 共度, 花一, 转为, 路过, 去度, 递, 过去, 递给, 参加, 过个, passer, 转过, 度过, 升入, 通个, 顺道去, 及格
+ peur - 害怕, 怕, 怖, 恐惧, 恐, 好怕
+ policier - 警察
+ présentateur - 主持人, 主播
+ réel - 实, 真实, 实际
+ sincèrement - 真诚地
+ tendance - 派别, 潮流, 潮酷, 势, 热点, 趋势, 趋, 很潮, 倾向, 主流
+ télécommande - 遥控器
+ à partir - 从
+ à peu près - 大约
+207 Athletics 比赛: 描述比赛过程
+ arbitre - 裁判
+ athlétisme - 田径
+ attendre - 候, 地盼, 正等待, 等一等, 等待, 等, 等候, 听候, 等到
+ championnat - 冠军赛, 冠军
+ communication - 宣传, 沟通, 通讯
+ composé - 拨打, 拨错
+ coureur - 跑步者
+ courir - 跑步, 奔跑, 奔, 跑跑步
+ cyclisme - 骑自行车
+ de - 个, 从, 上, 之, 种, 来自, 的, 要, 对, 离, 能, de
+ défaite - 失败, 败选
+ estimer - 佩服
+ handisport - 残疾人体育
+ lieu - 场所, 之地, 地方, 地点, 场地, 角落
+ maillot - 泳衣, 球衣
+ malgré - 尽管, 不顾
+ manquer - 错过, 亏了, 想念, 容错过, 辜负, 很亏, 缺席
+ motivé - 动力
+ mouiller - 弄湿
+ médaille - 奖牌
+ nombreux - 很多, 多, 束多, 众多, 居多, 会多
+ partie - 一部分, 部, 部分, 环节
+ poignet - 腕, 手腕
+ supporter - 承受, 支持者, 经得住, 受得了, 忍一忍, 忍到, 堪, 扛不住
+ victoire - 胜利, 胜选
+208 At Home 6 生活: 描述日常生活
+ acheter - 想买, 买房, 不买, 买纸, 购买, 买些, 买热, 买下, 采, 买手机, 买, 买桃, 买过
+ appeler - 工打个, 打电话, 唤, 相称, 喊一声, 报警, 称呼, 喊出
+ apéro - 开胃酒
+ bâiller - 打哈欠
+ cheminée - 烟囱, 囱
+ façade - 立面, 外立面, 外表
+ gâté - 被宠坏, 宠坏
+ lessive - 洗衣液, 洗衣粉, 洗衣
+ miette - 碎屑
+ moquer - 嘲笑, 嘲
+ mûr - 太熟, 成熟
+ nettoyer - 打扫, 洗起来, 清洁, 清理, 洗一洗, 清洗, 汰, 打扫卫生, 冲洗
+ nu - 裸体
+ oreiller - 枕头, 枕
+ pourri - 腐, 朽, 糟透了, 腐烂
+ poussette - 婴儿车, 推车
+ ronfler - 打鼾
+ rouge à lèvres - 口红
+ sans alcool - 不含酒精
+ sieste - 小憩, 午休, 睡午觉, 午睡, 小睡, 午觉
+209 Take Care 医疗: 询问医生建议
+ aide - 助, 有助于, 求助, 帮忙, 助手, 帮助, 帮, 施以援, 人帮, 援, 援助
+ annuler - 取消, annuler
+ bien qu' - 尽管
+ bien que - 尽管
+ cabinet médical - 医务室
+ cancer - 癌症, 癌
+ ce sera tout - 这样
+ confirmer - 确认者, 证实
+ coupure - 割伤, 伤口
+ crème - 乳膏, 奶油, 乳霜
+ divertir - 娱乐, 娱
+ déodorant - 除臭剂, 汗剂, 止汗剂
+ fréquemment - 频繁, 时时, 繁, 经常, 常见, 时常
+ guérir - 治病, 治愈, 愈, 康复, 能治好
+ je vous en prie - 不客气
+ pas - 步伐
+ pour qu' - 以便
+ pour que - 以便
+ réveillé - 唤醒, 没醒, 醒, 清醒
+ sein - 内, 胸部
+ sirop - 糖浆, 糖水
+ soigner - 疗, 治疗, 救治
+ soit - 要么, 是, soit
+ sécher - 烘, 干, 晒晒, 晾干, 晾着, 晾晒, 吹干, 烘干
+ virus - 病毒, 毒
+210 Paris 2 出行: 介绍你喜欢的城市
+ accès - 接入, 接触
+ ancien - 古代, 陈, 老旧, 老式, 年代久远, 古, 古老, 悠久
+ croix - 十字架
+ d'accord - 同意, 好的, 一致, ok
+ depuis que - 自从
+ important - 重要
+ interdit - 禁止
+ messe - 弥撒
+ normal - 正常
+ on - 我们, 人家
+ parisien - 巴黎
+ permettez - 允许
+ province - 省份, 省
+ prudent - 慎, 谨慎, 谨
+ rive - 岸边, 河边
+ ruine - 墟, 破败, 废墟, 古迹
+ réduit - 减, 减少, 极小
+ soi - 自己
+ sortie de secours - 紧急出口
+ spectaculaire - 精彩, 壮观, 太精彩, 震撼
+ sur - 给, 上, 临, 关于, 在, 乘, 上下, r
+ tarif - 价格
+ utile - 有用吗, 挺好用, 有用, 用场
+211 Vacation 2 日常: 回应指责
+ accueil - 接待处
+ accuser - 指控, 会怪, 原告, 埋怨
+ amende - 罚款, 罚金
+ briquet - 打火机
+ cacher - 隐, 蔽, 藏, 隐藏, 藏不住, 遮起来
+ car - 车
+ coucher - 卧, 上床睡觉, 日落
+ covoiturage - 拼车
+ de - 个, 从, 上, 之, 种, 来自, 的, 要, 对, 离, 能, de
+ décalage horaire - 时差
+ exprès - 故意
+ forme - 形, 形状, 形态, 型, 形式, 形了, 造型, 好身材, 图形
+ inquiéter - 担心
+ justement - 恰好, 正想, 偏偏, 正好, 就是
+ promener - 转转, 遛狗, 遛, 带狗
+ péage - 收费站
+ routine - 常规, 惯例
+ réveiller - 醒过来, 叫醒, 弄醒, 醒来, 吵醒
+ se - 自己, se
+ stop - 停下来
+212 School 4 学校生活: 介绍你的课程安排
+ abandonner - 抛弃, 放弃, 丢下, 丢弃, 弃, 退学, 舍得
+ accompagner - 陪, 陪陪
+ atteindre - 我够, 达到, 致, 达, 剪到
+ chiffre - 数字
+ colorier - 涂色
+ commander - 点餐, 订餐, 订过, 点单, 叫外卖, 订, 点菜, 下单
+ compétence - 水平, 素质
+ cours magistral - 讲座课
+ diviser - 隔得, 除法, 除以, 划分
+ encre - 墨, 墨水
+ fac - 大学
+ matériel - 器材, 材料, 硬件
+ point - 一个点, 地步, 句号, 一分, 终点, 得分, 核心
+ pouvoir - 权力, 权势, 能, 既会
+ programme - 课程内容, 程序, 教学进度, 大纲, 节目, 综艺
+ présent - 在场, 现有
+ résoudre - 解, 解决问题, 解决, 解出, 解答, 能克服
+ savoir - 会, 既会
+ sortie - 搬出来, 出门, 出口, 拿出, 上映, 出院
+ virgule - 逗号
+213 Teamwork 许可: 表达接受或拒绝请求
+ autorisation - 授权
+ avant - 之前, 前吵, 以前, 前会, 前先, 往前, 在之前, 前, 饭前, 先, 前要, 前头
+ boutique - 商店, 精品店, 小卖部
+ cependant - 然而
+ conseiller - 建议, 顾问
+ croiser - 碰上, 遇到, 路过
+ cuisiner - 炒菜, 烹饪, 饪, 烹, 下厨, 做菜, 学做
+ détendre - 放松, 缓和
+ exister - 存在, 生存, 有, 活着, 显现
+ fermer - 关门, 闭, 关闭, 烊, 关不上, 关上, 打烊
+ fleuriste - 花商, 花店, 当花商
+ insister - 坚持, 再三, 一再表示
+ laisser - 留个, 落下, 留, 留给, 不留, 他任, 上留
+ livreur - 送货员
+ loto - 彩票
+ manège - 游乐设施
+ moyens - 能力
+ peigner - 梳头
+ pleuve - 下雨, 不下雨
+ rester - 留下来, 地待, 呆, 留, 待在, 耐着, 再待, 仍旧, 家待, 待, 再多待, 上多待, 下待, 依然
+ rien d'autre - 没有别的
+ vouloir - 想要, 地想, 好要
+ à moins - 除非
+214 Fresh Food 美食: 描述你喜欢的美食
+ abricot - 杏子, 杏, 果, 杏果
+ au moins - 至少
+ bof - 唉
+ brûler - 烧着, 焚, 烤糊, 烧, 着火
+ charcuterie - 熟食店, 熟食, 冷肉
+ coq - 公鸡
+ crocodile - 鳄鱼, 鳄
+ cueillir - 采摘, 采, 摘, 摘花
+ déguster - 品尝
+ exploser - 爆裂, 爆炸了, 发生爆炸
+ faire - 闹出, 搞, 办, 做点, 交新, 办点, 生火, 做蕾娅, 交好, 迈出, 考得, 逛街, 办理, 煮, 拍电影, 引起轰动, 迈, 做一套, faire, 付出, 煮汤, 做, 骑骑, 弄个, 假装, 弄, 使, 做个, 盘个, 组队
+ framboise - 覆盆子
+ grille-pain - 烤面包机
+ marmite - 锅子, 锅, 炖锅
+ menthe - 薄荷, menthe
+ miam - 好吃
+ plateau - 高原, 拼盘, 托盘
+ poisson rouge - 金鱼
+ poule - 母鸡
+ préparer - 炒菜, 备, 筹备, 准备, 预先, 配制, 做好, 做, 做鱼, 亲手做
+ saigner - 流血
+ sirop - 糖浆, 糖水
+ spécialité - 拿手好戏, 特色菜, 专长, 专业, 特长, 风味
+ ver - 看见, 蚯
+215 On Board 旅程: 描述登机流程
+ au-delà - 之外
+ ce que - 什么
+ combien - 多少家, 多少, 多少钱, 几
+ comptoir - 柜台
+ contenir - 容, 装不下
+ correspondance - 通信, 转机, 对照, 通讯
+ embarquement - 登机
+ escale - 中转, 停留
+ frais - 费用
+ hôtesse de l'air - 空姐
+ livre - 本, 磅, 书上, 书籍, 带书, 书, 一磅
+ où - 哪里, 在哪里, 的地方, 的, 哪儿, 何处
+ poliment - 礼貌地
+ quand - 的时候, 何时, 几时, 当, 什么时候, 时候, 时会
+ que - 何, 只要, 的, 什么
+ ralentir - 放慢速度, 放慢
+ réclamation - 投诉
+ steward - 空乘
+ supplément - 额外费用, 附加费
+ voiture - 车子, 车上, 汽车, 辆车, 一辆车, 小车
+ à bord - 在船上
+216 Arts 3 剧场: 表达对剧情的看法
+ abonnement - 订阅
+ c'est-à-dire - 也就是说
+ costume - 西服, 西装, 服装, 套装
+ coutume - 习俗
+ critique - 评论, 批评, 批
+ déguiser - 装扮
+ en parlant - 谈到
+ esprit - 头脑, 灵, 心目, 脑海, 脑海中, 那灵体, 精神, 心灵, 心态
+ fiancé - 订婚, 未婚夫
+ impatient - 迫不及待, 等不及, 耐心, 不耐烦
+ inattendu - 意外, 出乎意料
+ jour - 天亮
+ littérature - 文学
+ mensuel - 每月, 月刊, 月度
+ mot - 词, 语词, 单词, 词时
+ nuit - 黑夜
+ peine - 值得, 刑
+ perruque - 假发
+ pièce - 房里, 戏剧, 证件, 房间, 件, 一出, 枚, 戏里, 戏, 一出戏, 藏品, 剧, 出戏, 条, 颗, 曲子, 房含
+ poète - 诗人
+ poésie - 诗歌
+ prévenir - 预防, 防止, 通知, 防止出现
+ public - 公共, 公开, 大众, 观众, 公众, 公共场合, 受众, 众, 公, 听众
+ réaction - 反应, 反响, 回应
+ répétition - 排练
+ univers - 宇宙
+ à la fois - 同时
+217 Holidays 节日: 分享你的节日经历
+ Nouvel An - 新年
+ accepter - 接纳, 收下, 说好, 收着, 承, 接受, 赞成, 认同
+ attirer - 引人注目, 招来
+ avaler - 吞下, 下咽
+ bûche - 树桩蛋糕, 原木
+ c'est bien - 这很好
+ c'est nul - 糟糕
+ carnaval - 狂欢节, 嘉年华会, 嘉年华
+ cimetière - 墓地
+ créer - 创造, 成立, 创, 打造, 结新, 设立, 造, 创业, 创办, 谱写, 创建, 创新, 创立, 开发新
+ dragon - 龙, 一条龙
+ embrasser - 接吻, 拥抱
+ en - en, 对此, 一些, 打着, 之内, 穿, 之中, 那个, 内, 在, 用时, 去, 从中, 儿里
+ fève - 豆子
+ galette des rois - 国王饼
+ marron - 栗色的, 棕色, 栗, 栗色
+ poisson d'avril - 愚人节玩笑
+ rire - 发笑, 笑笑, 笑, 笑个
+ râler - 抱怨, 吐槽
+ réveillon - 除夕夜
+ stress - 压力
+ ému - 激动, 感动, 心动
+218 World News 环境: 描述气候变化
+ attaque - 攻击, 冲击
+ bataille - 战, 战役, 一仗, 仗
+ climat - 气候
+ climatique - 气候
+ défendre - 保卫, 辩, 辩护, 捍卫, 捍, 自卫
+ défi - 挑战
+ environnemental - 环境
+ fréquent - 频繁
+ inondation - 洪水, 淹水, 发大水, 淹, 积水
+ lutter - 抗, 斗, 对抗, 奋斗, 斗争, 挣扎
+ militant - 激进分子
+ ouragan - 飓风, 飓
+ planète - 行星
+ plus - 更, 更加, 比较, 最, 多一些, 多一点, 多点, 不了, 越, plus, 更为, 更多, 些, 越为, 越高
+ polluer - 污染
+ produire - produire, 表演, 发电, 拍出来
+ prévoir - 计划, 预先, 预先安排, 预言
+ puissant - 力量, 强大, 强烈
+ recyclage - 回收
+ recyclé - 回收
+ sain et sauf - 安全无恙
+ secourir - 救援, 援, 抢救
+ survivre - 中活, 活下去, 存活
+ tremblement de terre - 地震
+ victime - 受害者
+ à propos - 关于
+219 Families 2 家族: 讲述祖先的故事
+ accoucher - 分娩
+ alliance - 联盟, 姻, 婚戒, 伙伴关系, 盟, 联合
+ ancêtre - 祖先
+ belle-fille - 继女
+ croire - 觉得, 难以相信
+ de nos jours - 如今
+ demi - 半, 半个
+ dispute - 争执, 争吵, 事非
+ décès - 死, 去世
+ enterré - 埋, 埋着
+ faire-part - 请柬
+ faute - 过错, 对错, 错误, 疏忽
+ funérailles - 葬礼
+ gendre - 女婿
+ installer - 再装, 安装, 设立
+ maison de retraite - 养老院
+ miracle - 奇迹
+ méfier - 提防
+ nostalgique - 怀念, 怀旧
+ personne âgée - 老年人
+ temporaire - 临时, 暂时
+ veuf - 鳏夫, 鳏
+ vieillir - 变老, 老得
+ vive - 万岁
+ émouvant - 动容, 感人, 动人, 伤感, 动情
+220 Workplace 申请: 描述申请过程
+ agent - 特工, 剂, 经纪人
+ apparemment - 显然
+ bien - 很好, 好好, 还好, 洽, 对错, 得很好, 好, 良好, 很, 干得, bien, 很顺, ben, 好不好, 舒服, 不严, 顺利, 化得, 很好地, 商品
+ candidat - 候选人, 人选, 候选
+ convenir - 约定
+ demande - 要价, 请求, 问, 要求, 要, 申请, 请教
+ immobilier - 房地产
+ interrompre - 打断
+ joindre - 联系
+ opposé - 反对
+ pénible - 艰难, 艰苦, 麻烦, 可难
+ quitter - 人去, 退出, 逃避者, 下班, 生去
+ reste - 上待, 呆, 留, 待在, 剩, 我待, 待, 其余, 所剩, 他待, 留下, 剩下, 剩余
+ rumeur - 流言
+ récent - 最近的, 最新的
+ s'agit - 是, 是关于
+ scandale - 丑闻
+ scanner - 扫描器, 扫描仪, 扫描机, 扫描
+ suggestion - 点子, 暗示, 建议, 提示
+ tendance - 派别, 潮流, 潮酷, 势, 热点, 趋势, 趋, 很潮, 倾向, 主流
+221 On The Set 电影: 表达你对电影的看法
+ caméra - 摄像机, 摄影机, 镜头
+ créativité - 创意, 创造力
+ de - 个, 从, 上, 之, 种, 来自, 的, 要, 对, 离, 能, de
+ dialogue - 对话
+ doubler - 超越, 增加一倍
+ en plus - 而且
+ inspirer - 激励者, 启发
+ intrigue - 情节, 故事情节, 剧情
+ limite - 分寸, 极限, 界限, 限制, 限, 涯, 边境, 截止, 限量
+ oser - 敢, 居然
+ plateau - 高原, 拼盘, 托盘
+ régler - 调节, 搞定
+ scénario - 剧本, 剧情
+ stéréotype - 刻板印象, 刻板
+ suggérer - 建议, 暗示
+ tournage - 拍摄
+ tourner - 翻过去, 转身, 向右转, 右转, 转弯, 转, 掉头, 左转, 转动, 拐弯
+ version originale - 原版
+ à - 给, 于, 至, 来, 念, 靠, à, 的, 到, 向, 在, 对, 离, 跟, 三到, 去, 之内
+ été - 夏, 夏天, 夏季
+ être - 当, 当会, 很, 处于, 是, 就是
+222 Studies 学习生活: 谈谈学习经验
+ auraient - 会有, 会
+ aurait - 本会, 可能, 据称
+ auriez - 会有, 原本会
+ aurions - 会有, 会
+ avoir - 取得, 有, 要个, 拿到, 版有
+ bavarder - 聊
+ bref - 总之
+ bulletin - 公告
+ contenu - 内容, 含, 文本, 含蓄
+ entrée - 进入, 门厅, 头盘, 口, 入, 入内, 入口, 门口, 入场, 前菜, 前菜会
+ formation - 形成, 培训, 组合
+ grec - 希腊语
+ impressionner - 打动, 震撼
+ informer - 告密者, 告, 通知, 告知
+ latin - 拉丁语
+ master - 硕士, 研究生
+ passer - 逝, 每天花, 过生日, 共度, 花一, 转为, 路过, 去度, 递, 过去, 递给, 参加, 过个, passer, 转过, 度过, 升入, 通个, 顺道去, 及格
+ regret - 憾, 疚, 遗憾, 内疚
+ responsable - 组织者, 负责, 负有, 负责人
+ réagir - 反应, 回应
+ stage - 阶段, 实习
+ tant - 如此之多
+ trimestre - 季度, 一季度
+223 In Transit 旅行: 分享旅行计划
+ afficher - 展示, 露出
+ allumer - 打开, 点, 开机, 开, 点着, 点燃
+ au cas où - 以防万一
+ baisser - 降低, 调小, 降价, 下跌
+ brésilien - 巴西人, 巴西
+ chargeur - 充电器
+ commande - 别点, 订单, 订购, 点冰, 下单, 点菜, 点单
+ d'avance - 提前
+ demi-heure - 半个小时, 半小时
+ dernier - 最新的, 上一个, 去年, 上, 最后一个, 最后, 最新
+ fin - 末, 结局, 尽头, 终, 结尾, 细, 太薄, 末尾, 结束, 尾声, 最后, 毕, 细细的
+ impressionnant - 真牛, 印象, 震撼, 令人印象深刻, 壮观
+ là-haut - 那上面
+ occuper - 照顾, 占用
+ plutôt - 较为, 与其说, 相当, 不如说
+ poser - 提问, 您提, 问, 放下, 搁
+ remboursable - 可退款, 不可退款
+ risque - 风险
+ seraient - 会
+ serait - 会, 会是
+ seriez - 能, 会
+ serions - 会
+ tortue - 乌龟, 龟, 龟兔
+ vitesse - 速度, 速, 车速
+ être - 当, 当会, 很, 处于, 是, 就是
+224 Blame 家中物品: 描述常用工具
+ aiguille - 针
+ avocat - 律师, 牛油果
+ avoir - 取得, 有, 要个, 拿到, 版有
+ bibliothèque - 图书馆, 书柜
+ caisse - 收银台
+ car - 车
+ cheminée - 烟囱, 囱
+ clou - 钉, 丁, 钉子
+ couvert - 贴满, 餐具, 天阴
+ encore - 仍然, 至今, 还, 还有, 又, 再来一个, 仍, 仍旧, 再次, 一再, 再有, 都还没, 再行, 再, 还要, 依然
+ fil - 电话线
+ impôt - 贡
+ marteau - 锤子
+ moquette - 地毯
+ pièce - 房里, 戏剧, 证件, 房间, 件, 一出, 枚, 戏里, 戏, 一出戏, 藏品, 剧, 出戏, 条, 颗, 曲子, 房含
+ pot - 盆, 罐子, 花盆, 一盆
+ précis - 准确
+ puzzle - 拼图
+ salir - 弄脏
+ être - 当, 当会, 很, 处于, 是, 就是
+225 Mishaps 举止: 描述他人的举止
+ anneau - 环
+ apprécier - 欣, 领略, 佩服
+ attention - 当心, 注意, 关注, 小心, 注意力
+ avoir - 取得, 有, 要个, 拿到, 版有
+ courage - 勇气
+ dommage - 遗憾
+ drôle - 搞笑, 好笑, 风趣, 滑稽, 稽
+ décevoir - 失望, 辜负
+ ironique - 讽刺的, 讽, 讽刺
+ manière - 那样, 方式, 解决办法
+ manquer - 错过, 亏了, 想念, 容错过, 辜负, 很亏, 缺席
+ mépriser - 轻视, 嫌弃
+ ongle - 指甲
+ orteil - 脚趾, 趾头, 脚指头
+ paniquer - 恐慌
+ regretter - 后悔, 感到遗憾
+ rentrer - 回, 回去, 回得去
+ sincère - 单纯, 真心, 诚恳, 挚, 真诚
+ sourcil - 眉毛, 眉
+ tatouage - 纹身, 纹个
+ trahir - 辜负
+ vernis à ongles - 指甲油
+ être - 当, 当会, 很, 处于, 是, 就是
+226 Harvest 果园: 描述采摘过程
+ arbuste - 灌木
+ caillou - 小石头, 石子
+ cerisier - 樱, 樱桃树
+ cueillir - 采摘, 采, 摘, 摘花
+ cultiver - 能种, 培, 培养, 就种, 种植, 殖
+ disparaître - 消失, 失踪
+ emporter - 带走的, 带上, 挟, 带走, 裹挟
+ exister - 存在, 生存, 有, 活着, 显现
+ graine - 种子, 籽, 粒, 胚芽
+ guêpe - 黄蜂
+ ignorer - 忽视, 忽, 不问, 漠视, 不顾, 忽略
+ lavande - 薰衣草
+ nid - 窝, 一窝, 巢, 巢穴
+ noyau - 果核, 核, noyau, 核心
+ olivier - 橄榄树
+ piquer - 刺, 蜇
+ poirier - 梨树
+ pommier - 苹果树
+ potager - 菜园
+ racine - 萝, 根, 拉辛
+ ruche - 蜂巢, 蜂箱
+ récolte - 农作物, 歉收, 收获, 收成, 丰收
+ semer - 播下, 播种, 捣, 就种
+ variété - 综, 各种各样的, 品种
+ verger - 果园管理员, 果园
+227 At Work 7 决策: 解释做决定的原因
+ approuver - 批过, 赞同, 批准, 赞成, 认同
+ augmentation - 增加, 涨幅, 加薪, 上升
+ baisse - 下降, 调低, 下跌
+ beau-frère - 小舅子
+ c'est bon - 好的
+ comme - 一样, 时像, 宛, 般的, 般, 仿佛, 像, 宛如, 作为, 如同, 当作, 正如, 地像, 画般, 似的, 如, 当成, 加上
+ conclure - 结新, 达成协议, 结束, 下结论
+ discours - 演讲, 演讲时, 致辞
+ développer - 拓, 发展, 打造, 拓展, 扩大, 推广, 扩展, 培养, 研制, 开发, 开发新
+ hocher - 点头, 摇头, 颔首, 摇动
+ insulter - 侮辱者, 冒犯
+ parole - 假释, 语音
+ peu probable - 不太可能
+ pour en revenir - 回到
+ probable - 可能
+ puissance - 权威, 威, 力气, 力度, 权力
+ quoi de neuf - 有什么新鲜事
+ rejeter - 抛弃, 淘汰, 嫌弃
+ secouer - 振, 震撼, 摇晃, 晃
+ stagiaire - 实习生
+ utilisateur - 消费者, 用户名, 用户
+ à - 给, 于, 至, 来, 念, 靠, à, 的, 到, 向, 在, 对, 离, 跟, 三到, 去, 之内
+ à tout à l'heure - 回头见
+ émotion - 情感
+ étrange - 奇, 怪, 怪异, 奇怪, 怪怪的
+228 See You 旅途: 分享出行计划
+ adieu - 告别
+ aire - 区域
+ assurance - 保险
+ bon courage - 加油
+ bon voyage - 一路顺风
+ bonne continuation - 一切顺利
+ camping-car - 房车
+ couette - 被子
+ doubler - 超越, 增加一倍
+ freiner - 刹车, 刹
+ grandes vacances - 暑假
+ larme - 眼泪
+ location - 位置, 出租
+ matelas - 床垫
+ n'importe qui - 任何人
+ phare - 大灯, 灯塔
+ reculer - 回退, 倒车
+ rentrée - 回, 开学
+ rond-point - 环岛
+ route - 路
+ terrasse - 露台
+ volant - 会飞, 飞行的, 方向盘
+ à la prochaine - 下次见
+ écraser - 撞死
+229 Learning 课程: 描述上课经历
+ acquérir - 获得, 培养
+ attentif - 细心, 精心, 细致, 用心
+ bourse - 奖学金
+ comprendre - 体谅, 理会, 看得懂, 能看懂, 理解, 弄懂, 猜出, 搞不清楚, 谅, 读懂, 懂, 理出, 了解, 看不懂, 会得
+ contre - 对抗, 出乎
+ davantage - 更多
+ dû - 应该, 所致
+ en - en, 对此, 一些, 打着, 之内, 穿, 之中, 那个, 内, 在, 用时, 去, 从中, 儿里
+ exigeant - 苛求, 讲究
+ exprimer - 抒发, 表达, 发声, 一再表示, 抒, 反映, 发表意见, 描写, 表示, 表白, 展现
+ geste - 姿态
+ mentir - 撒谎
+ médiocre - 劣, 不佳
+ profiter - 享用
+ pu - 能, 得以
+ quand même - 还是
+ suivre - 跟着, 跟上, 循, 追踪, 照着, 跟随, 随, 按照, 随大流, 跟不上, 遵循, 顺着, 向前走
+ y - 在那里, 那里, y
+ à - 给, 于, 至, 来, 念, 靠, à, 的, 到, 向, 在, 对, 离, 跟, 三到, 去, 之内
+ à l'aise - 自在
+ échouer - 中挂科
+ épeler - 拼字母
+230 School 5 课堂: 询问课堂规定
+ autoriser - 授权, 批过
+ bien - 很好, 好好, 还好, 洽, 对错, 得很好, 好, 良好, 很, 干得, bien, 很顺, ben, 好不好, 舒服, 不严, 顺利, 化得, 很好地, 商品
+ chargé - 充电, 负责人, 排得, 满满的
+ conseil de classe - 班级委员会
+ cour - 庭院, 院子, 法院, 廷
+ décevant - 失望, 失望的, 扫兴
+ défendre - 保卫, 辩, 辩护, 捍卫, 捍, 自卫
+ délégué - 委, 班长
+ dérangerait - 打扰
+ emploi du temps - 日程安排
+ encourageant - 鼓舞人心
+ exclure - 排除, 淘汰
+ favorable - 良好, 有利的, 吉利, 祥
+ féliciter - 祝贺
+ hors de question - 绝对不可能
+ il n'en est pas question - 这不可能
+ insuffisant - 不足
+ moyenne - passing grade
+ permis - 驾照, 允许, 许可证, 不准, 允, 许可
+ permission - 允许
+ que - 何, 只要, 的, 什么
+ représenter - 代表, 描写
+ récompenser - 馈, 回馈, 奖励, 报答
+ sur - 给, 上, 临, 关于, 在, 乘, 上下, r
+ sécher - 烘, 干, 晒晒, 晾干, 晾着, 晾晒, 吹干, 烘干
+ à - 给, 于, 至, 来, 念, 靠, à, 的, 到, 向, 在, 对, 离, 跟, 三到, 去, 之内
+231 Hiring 职场: 介绍你的工作岗位
+ appris - 教会, 课学得, 学了, 学会, 学到, 学到了, 时学过
+ comptabilité - 账目, 财务, 会计, 会计工作, 核算, 会计专业
+ considérer - 考虑, 看待, 琢, 琢磨, 虑, 想来想去
+ coup de main - 帮助
+ d'après - 根据, 来说
+ dynamique - 充满活力, 有活力, 活泼
+ défaut - 缺陷, 缺点
+ embaucher - 雇用
+ entendu - 听说, 听见
+ entretien d'embauche - 面试
+ fainéant - 懒惰
+ il paraît - 听说
+ lu - 地读, 读了, 鲁, 读出
+ on m'a dit - 有人告诉我
+ pourquoi ne pas - 为什么不
+ promu - 提升, 升职
+ qualification - 资格
+ qualifié - 合格
+ qualité - 性能, 质量, 身份, 优质, 品质, 素质
+ ressources humaines - 人力资源
+ salarié - 员工
+ secteur - 部门
+ service - 务, 大忙, 效劳, 班次, 服务, 贡献
+ si - 如此, 的话, 那么, 是不是, 这么, 若, 如果, 能否, 假如, 要是, 是否, 若是, 斯, si
+ sûr - 敢肯定, 定, 保险, 确, 肯定, 安全, 确定, 稳妥
+232 Criticizen 家常菜: 描述家常菜做法
+ auraient - 会有, 会
+ aurais - 会有
+ aurait - 本会, 可能, 据称
+ aurions - 会有, 会
+ bien sûr - 当然
+ courgette - 西葫芦, 葫
+ couvercle - 盖, 盖子, 锅盖
+ d'accord - 同意, 好的, 一致, ok
+ en boîte - 罐装
+ essuyer - 擦, 别擦
+ les mains vides - 空着手
+ moelleux - 柔软, 糯, 香甜
+ n'importe quoi - 任何
+ piquant - 辣, 完辣
+ plaisanter - 开玩笑, 别闹
+ seraient - 会
+ serais - 会
+ serait - 会, 会是
+ serions - 会
+ vachement - 非常
+ viande hachée - 碎肉
+ à la dernière minute - 在最后一刻
+233 Mischief 2 日常生活: 表达日常感受
+ ballon - 气球, 球
+ bouilloire - 水壶
+ embêter - 烦
+ et alors - 那又怎样
+ flaque - 水坑
+ hurler - 喊出, 嚎叫, 喊一声, 哭闹
+ mordu - 咬了, 咬
+ obéi - 听, 听话
+ obéir - 服从
+ parquet - 镶木地板, 木地板
+ partie - 一部分, 部, 部分, 环节
+ pelle - 铲子, 铁铲
+ quel - 哪一名, 哪款, 多么, 哪一家, 如此, 哪本, 多少, 哪一列, 哪一份, 哪个, 哪台, 哪一位, 哪家, 哪位, 哪一条, 哪一个, 什么, 怎, 哪辆, 哪一件, 哪条, 哪只, 哪名, 哪一架, 哪一部
+ quelle - 哪张, 多么, 哪一家, 如此, 哪一首, 哪一把, 哪个, 哪间, 哪所, 哪台, 哪一位, 哪位, 哪则, 哪座, 哪一条, 哪一个, 哪份, 哪一, 哪一辆, 什么, 哪件, 哪根, 哪门, 哪辆, 哪条, 哪场, 哪, 哪项, 哪部, 何等, 哪一号, 哪一部
+ rire - 发笑, 笑笑, 笑, 笑个
+ seau - 桶
+ si - 如此, 的话, 那么, 是不是, 这么, 若, 如果, 能否, 假如, 要是, 是否, 若是, 斯, si
+ siffler - 吹口哨
+ tabouret - 脚凳, 凳, 凳子
+ tombé - 摔, 中掉, 鱼掉, 摔倒, 落, 掉下来, 摔了一跤, 跌下来
+ trébucher - 绊倒
+ éclater - 爆发, 发生爆炸
+234 Services 2 装修: 表达装修需求
+ bricoler - 修修补补
+ bricoleur - 手工艺人
+ capable - 能干, 有能力, 能够
+ capacité - 容量, 性能, 大容量, 能力, 素质, 功能
+ changer - 换种, 改, 改签, 换, 后换, 改成, 换个, 改变, 更改, 彻底改变, 别改, 换换, 转变, 变, 替换, 换身, 换钱, 换好
+ compétent - 能干, 称职, 熟练
+ crevé - 累坏了, 扎破
+ débrouiller - 应付, 凑合着, 凑合
+ entièrement - 完全地
+ entretenir - 维护, 保养
+ haie - 树篱, 篱, 篱笆
+ incompétent - 不称职, 无能
+ jardiner - 园艺
+ jardinier - 园丁
+ klaxon - 喇叭, 喇, 叭
+ monter - 搬上去, 登上, 上来, 爬上去, 上去, 爬楼梯, 上台, 登, 上楼, 上升, 顺着, 爬到, 升高
+ nettoyer - 打扫, 洗起来, 清洁, 清理, 洗一洗, 清洗, 汰, 打扫卫生, 冲洗
+ pare-choc - 保险杠
+ parvenir - 达成
+ poignée - 把手, 人握
+ rénover - 装修, 翻新
+ réparer - 缮, 修车, 修理, 修, 来修, 补救, 能修, 修过, 我修, 修缮, 修复, 莱娅修, 换好
+ tondre - 修剪, 割草
+ tuyau - 管子, 管道
+ tâche - 任务
+ vitre - 玻璃
+ à l'abandon - 被遗弃的, 被遗弃的房子
+235 Opinion 3 评价: 表达你的看法
+ agréablement - 愉快地
+ assumer - 负
+ audacieux - 大胆
+ bouleverser - 震撼
+ bref - 总之
+ carrément - 简直
+ composer - 拨打, 拨, 谱写
+ compositeur - 作曲家, 作曲者
+ composition - 作文
+ critiquer - 批错, 批评者, 批评, 埋怨
+ franc - 直率, 诚实, 坦率, 法郎, 真诚
+ horreur - 恐怖
+ imaginer - 想象, 想像, 想不到
+ incroyable - 真牛, 难以置信, 不可思议, 不可思议的, 奇妙
+ interpréter - 扮演, 讲解
+ penses - 相信, 想, 觉得, 认为, 想些
+ phénomène - 现象
+ phénoménal - 了不起
+ pour ma part - 就我来说
+ rien de spécial - niets bijzonders
+ rock - 摇滚
+ rythme - 节奏
+ sans aucun doute - 毫无疑问
+ sans parler de - 更别说
+ surprenant - 讶, 惊讶, 惊人, 意外, 惊人的, 不足为奇
+ toutefois - 不过
+ yeux - 眼睛
+ à vrai dire - to be honest
+236 Lifestyles 生活方式: 比较城市与乡村生活
+ au calme - 安静
+ auquel - 的
+ auxquelles - 所
+ auxquels - 给他们
+ centre commercial - 购物中心
+ coin - 角落里, 角, 角落, 转角
+ côté - 侧, 旁边, 旁, 一侧
+ d'une part - 一方面
+ de laquelle - 其中的
+ débat - 争论, 辩, 辩论, 论坛
+ en revanche - 反之
+ ici même - 就在这里
+ il vaut mieux - 最好
+ incontestable - 无可争辩的
+ non seulement - 不仅
+ penser - 想着, 想, 思维, 想来想去
+ point - 一个点, 地步, 句号, 一分, 终点, 得分, 核心
+ rural - 乡村, 农村, 田园, 乡下, 乡镇
+ résidentiel - 住宅的, 居住的, 住宅区的
+ s'éloigner - 走不开, 游远
+ se voir - 见面
+ télétravail - 远程办公
+ urbain - 城市
+ vaudrait - 最好
+ vaut - 最, 值得
+ à laquelle - 在...的情况下
+237 Our Planet 生态: 谈论气候变化
+ agir - 行事
+ aura - 将会有, 将会通过
+ aurai - 将会取得, 将会通过, 将会有
+ auras - 将会拿到, 将会有, 将会取得, 将会通过
+ aurons - 要有, 会养
+ auront - 会有
+ d'ici - 从现在起
+ destruction - 破坏, 毁灭, 摧毁, 消灭, 毁坏
+ désastre - 灾难, 灾
+ désormais - 从今以后
+ en danger - 有危险
+ espèce - 种类, 物种
+ futur - 未来
+ polaire - 极地的, 极光
+ prochainement - 很快
+ préserver - 保护
+ quasiment - 几乎
+ radicalement - 彻底
+ réchauffement - 热身, 变暖
+ sera - 将会是, 将会很, 将会, 将会当, 时会
+ serai - 将会, 时会
+ seras - 将会, 将会很
+ serons - 将会, 将会很
+ seront - 将会是, 将会很, 将会, 时会
+ à l'avenir - 将来
+ écologie - 生态, 生态学, 环保
+ écologique - 生态, 生态化, 环保
+ énergie - 精力, 能量, 劲儿, 活力, 力气
+238 Crime 案件: 讲述案件经过
+ affirmer - 断言, 声明, 却说, 一再表示
+ arme - 枪, 武器
+ armé - 武装着, 持械
+ avec - 跟着, 用, 配, 带, 加, 和, 穿, 随着, 有, 一起, avec, 带有, 包含, 带着, 对, 跟, 盖着, 用桃, 一同
+ bagarre - 殴, 打架, 斗殴
+ cambriolage - 入室盗窃
+ ce à quoi - 所期待的, 所想到的, 所想的
+ commettre - 不犯
+ dans - 里演, 里会, 过, 来, 之内, 之中, 内会, 内, dans, 在, 里, 中, 儿里
+ délit - 罪行, 罪
+ empoisonner - 毒害, 毒死
+ enquête - 调查
+ indice - 绪, 暗示, 线索
+ injustement - 不公正地
+ jury - 评审团, 陪审团
+ justice - 公平, 公正, 义, 正义
+ meurtrier - 凶手, 谋杀
+ par - 相对, 从, 由, 通过, 出于, 对, 药由
+ pistolet - 枪, 手枪
+ pour - 给整, 为了, 而言, 因为, 而, 给, 当, 适合, 来, 用于, 人用, 用来, 会为, 的, 飞往, 来放在, 对于, 支持, 来做, 对, 来说, 地为, 水给, 以, 为, 替, 起见
+ preuve - 据, 证明, 证据, 凭证, 为证, 见证
+ précisément - 正好
+ rigoureusement - 严格, rigoureusement
+ sur - 给, 上, 临, 关于, 在, 乘, 上下, r
+ tout à fait - 完全
+ témoignage - 证词, 见证
+ témoin - 目击者, 证人, 伴娘
+ vol - 班机, 飞行, 窃, 盗窃案, 被盗案, 航班, 偷窃, 盗窃, 班次
+239 Outdoors 2 天气: 描述今天的天气
+ arc-en-ciel - 彩虹
+ avec un peu de chance - 如果运气好
+ blé - 麦, 小麦
+ brise - 挡风玻璃, 微风
+ brume - 雾气, 雾
+ buisson - 灌木丛
+ chaleur - 暑, 温暖
+ coup de soleil - 晒伤
+ dès - 从
+ dégagé - 空旷, 宽阔, 宽敞
+ faner - 萎, 枯, 枯萎
+ fané - 凋谢, 凋
+ frileux - 怕冷
+ froid - 冷, 冷不冷, 冷的, 很冷, 寒冷, 寒, 凉, 天冷
+ grandi - 成长, 长大, 长得
+ il se peut - 有可能
+ il se pourrait - 可能, 有可能
+ il y a de grandes chances - 很有可能
+ il y a peu de chances - 几乎没有可能
+ marché - 踩到, 市场, 走, 赶集, 踩, 走路, 集市, 市集
+ mûri - 成熟
+ mûrir - 成熟, 会熟
+ peu probable - 不太可能
+ pluvieux - 阴雨, 多雨, 雨的, 遇雨
+ s'éclaircir - 放晴
+ sécheresse - 干旱
+ tailler - 修剪, 剪到, 琢
+ verglas - black ice
+ éclairci - 晴朗
+ étang - 池塘, 塘
+240 Together 2 友情: 分享你的感受
+ affectueux - 亲热, 亲昵
+ arrogant - 傲, 傲慢, 自大
+ avertir - 警告
+ ayant - 有
+ blessant - 伤人
+ briser - 打破
+ brisé - 破碎, 砸碎
+ caractère - 符号, 性格, 字, 风味, 好字, 脾气, 字母
+ colère - 气坏, 怒气, 愤, 我气, 愤怒, 怒, 生气, 怒火
+ compliquer - 复杂化
+ du mal - 困难
+ déprimer - 沮丧
+ en - en, 对此, 一些, 打着, 之内, 穿, 之中, 那个, 内, 在, 用时, 去, 从中, 儿里
+ en garde - 警惕
+ exceptionnel - 才华出众, 突出, 出众, 非凡, 杰出, 难得
+ méfiant - 多疑, 多疑的, 戒心
+ perplexe - 困惑
+ pour toujours - 永远
+ prévenir - 预防, 防止, 通知, 防止出现
+ prévenu - 警告过
+ rassurer - 安慰
+ sachant - 知道
+ têtu - 固执, 倔
+ à ne pas - 不要
+ à sa tête - 自己的想法
+ également - 也
+ étant - 由于, 因为
+241 Obligation 工作: 描述你的工作任务
+ ambitieux - 抱负, 雄心勃勃, 雄心, 宏大
+ associé - 合伙人, 搭档, 伙伴
+ c'est à - 这是, 是, 是在
+ chargé - 充电, 负责人, 排得, 满满的
+ désorganisé - 混乱的
+ en - en, 对此, 一些, 打着, 之内, 穿, 之中, 那个, 内, 在, 用时, 去, 从中, 儿里
+ en congé - 休假
+ en cours - 正在进行的
+ exemplaire - 版本, 版有
+ facultatif - 选修
+ faille - 裂缝, 缺陷, 断层, 裂隙, 缺口
+ licencier - 解雇
+ lundi - 周一, 星期一, 礼拜一
+ nécessairement - 一定
+ obligatoirement - 必须
+ ponctuel - 守时
+ priorité - 优先事项, 要务, 优先, 优先级
+ s'entraider - 互相配合
+ s'impliquer - 涉, 涉足
+ soulagé - 宽慰, 如释重负
+ à faire - 要做
+ à finir - 完成
+ à temps - 按时
+ égal - 一样, 一样的, 平等
+ être - 当, 当会, 很, 处于, 是, 就是
+242 Cliché 刻板印象: 质疑常见观念
+ absurde - 谬, 荒唐, 荒谬, 荒诞
+ accordéon - 手风琴
+ accueillant - 热情, 温暖
+ béret - 贝雷帽
+ cliché - 陈词滥调
+ comment ça - 怎么回事
+ confondre - 混淆, 弄混, 搞混, 淆, 混为一谈
+ convaincu - 确信, 信服, 坚信
+ cowboy - 牛仔
+ dans le doute - 有疑问时
+ des idées - 多心
+ démesuré - 不成比例的
+ folklorique - 民俗, 民间
+ grincheux - 脾气暴躁
+ idée reçue - 成见
+ marinière - 水手衫, 海魂衫
+ non - 否, 对不对, 不行, 不用了, 不, 不可
+ parisien - 巴黎
+ persuadé - 说服
+ prouver - 证明
+ remettre - 递交, 再装, 颁, 交上来, 颁奖, 再交, 提交, 付得
+ râleur - 爱发牢骚
+ réalité - 现实, 现实情况
+ réputation - 名声, 面子
+ sceptique - 怀疑态度, 怀疑者
+ souriant - 微笑着, 微笑
+ à prouver - 证明
+243 Hang Out 遗憾: 表达你的遗憾
+ aimé - 喜欢, 相中, 爱戴, 爱过
+ ait - 已经
+ amèrement - bitterly
+ attaché - 绑, 系, 扎起来
+ bande - 带
+ désolé - 抱歉, 歉, 对不起, 不好意思
+ embêtant - 讨厌, 麻烦, 烦人, 令人恼火, 令人烦恼, 麻烦的
+ embêté - 烦
+ en - en, 对此, 一些, 打着, 之内, 穿, 之中, 那个, 内, 在, 用时, 去, 从中, 儿里
+ fâché - 生气
+ idéal - 理想
+ lâche - 松, 懦弱, 太松, 懦
+ mal à l'aise - 不自在
+ pote - 朋友, 小伙伴
+ quel dommage - 真遗憾
+ remords - 内疚
+ retrouvé - 找回, 找到, retrouv
+ se retrouver - 见面
+ sois - 是
+ taquiner - 逗弄, 戏弄, 挑逗, 捉弄, 取笑, 逗
+ traîner - 乱放, 拖动
+ vexer - 惹恼的, 生气的, 得罪, 冒犯
+ à - 给, 于, 至, 来, 念, 靠, à, 的, 到, 向, 在, 对, 离, 跟, 三到, 去, 之内
+244 Problems 机上对话: 确认航班信息
+ attente - 期待, 等待, 等, 意料
+ atterrissage - 落, 降落
+ au milieu de nulle part - 荒无人烟的地方
+ avec - 跟着, 用, 配, 带, 加, 和, 穿, 随着, 有, 一起, avec, 带有, 包含, 带着, 对, 跟, 盖着, 用桃, 一同
+ bien compris - 理解, 理解正确
+ c'est bien ça - 是这样吗
+ carburant - 燃料
+ ce n'est pas - 不
+ côte à côte - 并排
+ dire - 讲个, 告, 诉, 却说, 说, 告诉, 地说, 讲, 谓, 说用
+ décollage - 起飞
+ embarquement - 登机
+ en fin de compte - 归根结底
+ en raison - 由于
+ immédiat - 即
+ incident - 事件
+ indiquer - 示意, 指出, 标示, 指一指, 暗示
+ issue - 问题, 发行, 议题, 结果, 争论点, 结束
+ malentendu - 误会, 误解, 误区
+ navette - 梭, 接驳, 班车, 接送车
+ saisir - 会得, 输入, 输入您, 手握
+ terminal - 航站楼
+ éclaircissement - 澄清
+ équipage - 机组人员, 机组成员
+245 Foodies 美食: 描述你喜欢的美食
+ accro - 上瘾
+ appétissant - 诱人
+ beurk - 呸
+ bien - 很好, 好好, 还好, 洽, 对错, 得很好, 好, 良好, 很, 干得, bien, 很顺, ben, 好不好, 舒服, 不严, 顺利, 化得, 很好地, 商品
+ chips - 薯片
+ croquant - 脆, 香脆, 既脆
+ croustillant - 酥脆, 酥, 香脆, 好脆, 既脆
+ de bon - 好的
+ déguster - 品尝
+ fade - 单调, 淡, 不淡, 太淡, 清淡
+ gras - 多油, 油腻, 油对
+ infect - 恶心
+ légèrement - 轻地, 稍微, 略有
+ meilleur - 佳, 较好, 最好的, 最佳, 最棒, 最好, 更好, 佼
+ pire - 最坏, 更糟了, 更糟, 最差, 最糟
+ plus - 更, 更加, 比较, 最, 多一些, 多一点, 多点, 不了, 越, plus, 更为, 更多, 些, 越为, 越高
+ poireau - 韭葱
+ périmé - 过期
+ raffoler - 痴迷
+ seul - 唯, 唯一的, 独, 独自, 独自一人, 一人, 孤, 孤单, 唯一, 一个人, 只有
+ tartine - 面包片
+ tonne - 吨
+ une faim de loup - 饿得像狼一样
+ à base - 为基础
+ à la vapeur - 蒸
+ écœurant - 令人作呕, 作呕
+ épouvantable - 可怕
+246 Nostalgia 回忆: 分享你的旧物故事
+ autocollant - 贴纸
+ autrefois - 以前
+ bon vieux temps - 美好的旧时光
+ bouquin - 书
+ brocante - 旧货市场, 二手店
+ chiner - 淘宝, 淘
+ collectionner - 收集
+ dames - 女士们
+ de - 个, 从, 上, 之, 种, 来自, 的, 要, 对, 离, 能, de
+ dit - 说出, 歌说, 时说, 说错, 说肉, 说, 告诉, 讲过, 说声, 说来, 所谓
+ dit rien - 没印象, 没有印象
+ déguisement - 装扮, 伪装
+ dénicher - 挑出
+ en - en, 对此, 一些, 打着, 之内, 穿, 之中, 那个, 内, 在, 用时, 去, 从中, 儿里
+ inoubliable - 令人难忘, 忘不了, 难忘, 记忆犹新
+ jeu de cartes - 扑克牌
+ m'échappe - 想不起来
+ me - 我, 为我, 向我, 给我
+ mélancolique - 郁
+ repense - 回想
+ sur le bout de la langue - 嘴边
+ théière - 茶壶
+ trou de mémoire - 记忆空白
+ trésor - 宝, 宝藏
+ vintage - 复古
+ vinyle - 黑胶
+ à carreaux - 格子
+247 Break Time 对话: 表达你的看法
+ allez - 走, 没事, 将会, 去, 会, 加油, 加把劲
+ au boulot - 开始工作
+ boss - 老板
+ bosser - 工作
+ boîte - 盒子, 盒, 箱子, 匣, 夜店, 盒饭, 箱, 小盒子, 匣子, 包装盒
+ coq à l'âne - 跳跃式转换话题
+ d'ailleurs - 此外
+ dis donc - 说真的
+ failli - 差点
+ filer - 走
+ flemme - 懒
+ gaffe - 失误, lagaffe
+ moi - 我, 给我
+ ok - 好的
+ on fait comme ça - 我们就按你方便的来
+ pas de problème - 没问题
+ pas terrible - 不怎么样
+ ras-le-bol - 受够了
+ reparler - 再聊, 再谈
+ virer - 解雇
+ voilà quoi - 就是这样
+ y - 在那里, 那里, y
+ à la bourre - 迟到
+ à plus - 再见
+248 Pharmacy 药房: 表达健康需求
+ Sécurité sociale - 社会保障
+ antibiotique - 抗生素
+ besoin - 需, 不用, 需要, 用得着
+ bouton - 纽扣, 按钮, 钮, 按键, 扣子, 旋钮
+ béquilles - 拐杖
+ cicatrice - 伤疤, 疤痕, 疤
+ comprimé - 药片, 一片
+ consulter - 查看, 浏, 商量一下, 查书, 咨, 一查, 咨询, 浏览
+ en charge - 承担费用
+ entorse - 扭伤
+ froid - 冷, 冷不冷, 冷的, 很冷, 寒冷, 寒, 凉, 天冷
+ homéopathie - 顺势疗法
+ hydrater - 滋润, 保湿
+ insérer - 插, 插进去, 插进, 插入
+ musculaire - 肌肉
+ nausée - 恶心, 恶心感
+ nez qui coule - 流鼻涕
+ piquer - 刺, 蜇
+ pommade - 药膏
+ puis-je - 我可以
+ rembourser - 偿, 赔给, 退款, 报销, 退票, 偿还, 回报
+ ressentir - 感受, 感知
+ soulager - 缓解, 减轻, 卸下
+ symptôme - 症, 症状
+ vacciner - 疫苗, 接种疫苗, 接种
+ ça - 这个, 这, 那个, 那样, 那, 样子, 这样, ç
+249 Wedding 2 婚礼: 描述婚礼当天的天气
+ adapté - 非常适合, 改编自, 适, 般配
+ affolé - 慌张
+ craignons - 害怕, 恐怕
+ craindre - 害怕, 好怕
+ dans les plus brefs délais - 尽快
+ en - en, 对此, 一些, 打着, 之内, 穿, 之中, 那个, 内, 在, 用时, 去, 从中, 儿里
+ faut - 应该
+ habit - 衣服, 袍
+ inquiétude - 担忧, 担心, 不安
+ moindre - 最小的
+ rassuré - 放心, 安心
+ souci - 关心, 忧虑, 愁
+ tarder - 迟延, 拖延
+ traiteur - 餐饮师
+ tranquillement - 安静地
+ témoin - 目击者, 证人, 伴娘
+ un sang d'encre - 非常担心
+ voile - 帆, 航行, 帆船, 帆板, 风帆
+ à plus tard - 以后
+250 Paperwork 证件: 询问需要哪些证件
+ acte de mariage - 结婚证
+ administratif - 行政
+ afin - 以便
+ afin que - 以便
+ avant tout - 首先
+ bureaucratie - 官僚主义
+ de façon à ce que - 以便
+ demande - 要价, 请求, 问, 要求, 要, 申请, 请教
+ deuxièmement - 其次
+ décès - 死, 去世
+ délai - 期限
+ démarche - 手续
+ formule de politesse - 礼貌用语
+ justificatif de domicile - 居住证明
+ livret de famille - 家庭手册
+ maintenant que - 既然
+ pour finir - 最后
+ préfecture - 府
+ quant - 量化分析师, 至于
+ renouveler - 换新, 更新, 换发, 续借
+ renseigner - 了解, 打听
+ requis - 所需, 必要
+ récupérer - 取回, 内拿回, 恢复, 拉回来
+ titre de séjour - 居留证
+ tout d'abord - 首先
+ une fois que - 一旦
+ étape - 阶, 小步, 步骤, 环节, 阶段, 步是
+ état civil - 民政局
+251 Comics 漫画: 分享你喜欢的漫画
+ a priori - 先验地
+ adaptation - 改编, 个性化
+ album - 专辑, 辑, 张, 相册, 画册
+ bd - 漫画
+ bulle - 泡, 泡泡
+ concerne - 关于, 这不关
+ dessinateur - 画家
+ dis donc - 说真的
+ découvrir - 发现, 有待, 查出, 猜出
+ fan - 粉丝, 歌迷
+ fascinant - 迷人, 迷人的, 奇妙
+ gag - 笑话
+ graphique - 图形, 图表
+ hilarant - 搞笑
+ hormis - 除了
+ libraire - 书店老板
+ ne - 别, 没, n, 否, 非, 你别, 不, ne
+ neuvième art - 第九艺术
+ re - 重新
+ référence - 参考, 对照, 权威
+ scénariste - 编剧
+ si ce n'est - 除了
+ spécialisé - 专
+ y - 在那里, 那里, y
+ à l'honneur - 推崇
+252 Tales 童话: 介绍故事人物
+ alors - alors, 喽, 则, 就, 那要, 所以, 那去, 于是
+ baguette - 法棍面包, 法棍, 法棍奖, 魔杖, 长棍
+ c'est l'histoire - 这是故事
+ conte - 故事, 谭, 神话
+ donjon - 地牢, 主堡
+ dévorer - 吞噬
+ esprit - 头脑, 灵, 心目, 脑海, 脑海中, 那灵体, 精神, 心灵, 心态
+ fort - 用力, 激烈, 强烈, 强项, 大不大, 强劲, 壮, 大声, 坞, 很强, 浓, 厉害, 烈, 响亮, 强壮, 强, 很浓, 坚强, 浓烈, 浓郁
+ fée - 仙女
+ il était une fois - 从前
+ lointain - 远, 远方, 遥, 偏远, 遥远, 深远
+ lorsque - 时才, 当, 时要, 时替, 时用, 指当
+ légende - 传说, 传奇, 神话
+ magicien - 魔术师
+ magie - 魔术, 魔力, 法术, 魔法
+ posséder - 拥有, 版有
+ potion - 药剂, 魔药, 药水
+ pouvoir - 权力, 权势, 能, 既会
+ royaume - 英国, 王国, 王国里
+ sorcier - 巫师, 巫
+ sorcière - 女巫, 巫
+ sort - 离开, 出门, 出去, 传出, 咒, 谈恋爱, 去, 冒出
+ soudain - 突然
+ tandis que - 而
+ tout est bien qui finit bien - 皆大欢喜
+ transformer - 做成, 改建
+ épée - 剑, 之剑
+253 Gossip 新闻: 表达你对新闻的看法
+ affaires - 东西, 事儿, 案件, 办事, 业务
+ ah bon - 真的吗
+ alors là - 这可真是
+ après tout - 毕竟
+ aurais - 会有
+ aventure - 冒险
+ bée - 目瞪口呆
+ comme c'est - 多么
+ en mariage - 结婚
+ enregistrer - 托运, 录, 登记, 录制
+ envisager - 考虑, 设想, 看待, 拟
+ exclusif - 独家, 专享, 专属, 特有
+ hein - 呢, 嘛
+ joie - 喜, 欢乐, 悦, 喜悦, jos
+ n'en - 再也受不了
+ paparazzi - 狗仔队
+ passionnément - 热烈地
+ presse à scandale - 小报
+ quitterait - 会离开
+ ragot - 谣言
+ s'abonner - 订阅
+ séparation - 分离
+ tromper - 欺骗, 骗, 欺, 误导
+ y croire - 相信
+ étonnant - 惊人, 奇妙
+ évoquer - 提及, 联想, 聊到
+254 Reunion 家庭生活: 表达久别重逢的感受
+ au courant - 知道
+ bien - 很好, 好好, 还好, 洽, 对错, 得很好, 好, 良好, 很, 干得, bien, 很顺, ben, 好不好, 舒服, 不严, 顺利, 化得, 很好地, 商品
+ comme - 一样, 时像, 宛, 般的, 般, 仿佛, 像, 宛如, 作为, 如同, 当作, 正如, 地像, 画般, 似的, 如, 当成, 加上
+ compagne - 伴侣, 女友
+ compagnon - 同伴, 伴侣, 男友, 伙伴, 搭档, 小伙伴
+ crèche - 托儿所, 幼儿园
+ depuis - 前起, 从, 以来, 自二零一, 自从, 大起, 早就
+ dès - 从
+ emménager - 搬进去, 搬来
+ euh - 呃
+ hein - 呢, 嘛
+ jeunes - 年轻, 年轻的, 年轻人, 年, 幼
+ l'air - 空气, 晕机, 看起来, 一脸
+ le courage - 勇气
+ pendant - 时别, 期间, 中要, 间别
+ pour - 给整, 为了, 而言, 因为, 而, 给, 当, 适合, 来, 用于, 人用, 用来, 会为, 的, 飞往, 来放在, 对于, 支持, 来做, 对, 来说, 地为, 水给, 以, 为, 替, 起见
+ premiers pas - 第一步
+ quand - 的时候, 何时, 几时, 当, 什么时候, 时候, 时会
+ reconnu - 认可, 认出, 公认
+ reconversion - 转行, 转型
+ téléphoner - 打电话
+ à - 给, 于, 至, 来, 念, 靠, à, 的, 到, 向, 在, 对, 离, 跟, 三到, 去, 之内
+ éternité - eternity
+ évoluer - 演变
+255 Computer 数据: 询问设备用途
+ accessible - 可见, 可访问, 容易接受
+ annuler - 取消, annuler
+ bien - 很好, 好好, 还好, 洽, 对错, 得很好, 好, 良好, 很, 干得, bien, 很顺, ben, 好不好, 舒服, 不严, 顺利, 化得, 很好地, 商品
+ bloquer - 屏蔽, 滤, 阻挡, 过滤
+ comment on dit - 怎么说
+ câble - 线缆, 电缆, 缆, 缆绳
+ disque dur - 硬盘
+ donnée - 给出, 捐赠
+ effacer - 消, 别擦, 擦掉, 抹掉, 磨灭, effacer
+ favori - 最喜欢的
+ fiable - 可靠, 靠得住
+ interactif - 互动, 互动性
+ matériel informatique - 计算机设备
+ moniteur - 显示器
+ navigateur - 浏览器
+ objectif - 镜头, 旨, 目标, 宗旨, 中立
+ page web - 网页
+ qu'est-ce que c'est que - 这到底是什么
+ réseau - 圈子, 络, 网络, 网, 管道
+ sauvegarder - 保存, 储存起来, 储存
+ servir - 自取, 供应, 时上些, 为您服务, 上菜
+ si je ne me trompe pas - 如果我没记错的话
+ viser - 瞄准
+ vois - 不见, 我见, 看见, 见, 看, 看到, 视, 见到
+256 School 6 考试: 描述考试经历
+ apprentissage - 就学, 学徒, 学习, 学徒制
+ brevet - 中学毕业考试
+ conseiller d'orientation - 职业顾问
+ de colle - 留校
+ discipliné - 有纪律的, 守纪律
+ en - en, 对此, 一些, 打着, 之内, 穿, 之中, 那个, 内, 在, 用时, 去, 从中, 儿里
+ eps - 体育课, 体育
+ mention - 荣誉
+ oral - 口试, 英语口语, 口语
+ ouf - 呼
+ particulier - 特别的, 个别, 特定, 特有
+ philosophie - 哲学, 哲
+ principale - 主要的, 女校长, 首要
+ pro - 职业
+ proviseur - 校长
+ rattrapage - 补考
+ redoubler - 留级, 重修
+ seconde - 秒, 秒钟, 第二个, 第二, 一秒, 一秒钟
+ sixième - 六年级, 第六, 第六部, 六日
+ svt - 生物, 生物学
+ tel - 土丘
+ tellement - 如此, 那么, 如此多, 以至于
+ tels - 这样的, 如此
+ terminale - 高三
+ tricher - 作弊, 耍赖
+ vu que - 既然
+ à tel point - 以至于
+ écrit - 写过信, 写字, 地写, 写信, 诗写, 写, 写给
+ épreuve - 考验, 试卷, 考试题
+ étant donné - 鉴于
+257 Fables 寓言: 介绍寓言作家
+ alla - 去
+ aujourd'hui - 今天
+ bec - 嘴, 嘴里, 喙
+ corbeau - 乌鸦
+ dut - 不得不
+ fable - 寓言, 童话
+ flatter - 奉承
+ insouciant - 无忧无虑, 漫不经心
+ langage courant - 日常语言
+ lent - 太慢, 慢, 好慢
+ littéraire - 文学
+ lièvre - 兔子, 野兔, 龟兔
+ morale - 寓意, 道德
+ méprisant - 轻蔑, 轻蔑的, 轻蔑地
+ persévérant - 毅, 坚持不懈, 毅力
+ pertinent - 相关
+ plume - 羽, 羽毛, 钢笔
+ prévoyant - 有远见, 有远见的, 未雨绸缪
+ renard - 狐狸, 狐
+ réciter - 朗诵, 背诵, 诵, 朗读
+ subtil - 微妙, 淡淡的, 含蓄
+ tortue - 乌龟, 龟, 龟兔
+ travailleur - 勤奋, 努力, 劳动者, 勤奋的, 勤劳
+ écolier - 小学生
+258 Moving 搬家: 描述搬家的经历
+ administration - 行政
+ au final - 最终
+ barrière - 障碍, 阂, 隔阂, 界限
+ bout du monde - 世界尽头
+ congés - 休, 休假
+ conteneur - 集装箱
+ dur - 困难, 艰难, 硬, 艰苦, 可难
+ déballer - 拆, 拆开
+ déménagement - 搬, 搬家
+ dépaysé - 不习惯
+ en - en, 对此, 一些, 打着, 之内, 穿, 之中, 那个, 内, 在, 用时, 去, 从中, 儿里
+ en sorte - 确保
+ face - 面对
+ fonctionnaire - 官员, 女官员, 公务员
+ formel - 正式, 正规
+ la mer à boire - 难以完成的事
+ le nécessaire - 必要的事情
+ le pont - 连休
+ mal du pays - 思乡病
+ marrant - 有趣
+ paperasse - 繁琐的文件
+ pendaison de crémaillère - 乔迁派对
+ preuves - 证明
+ s'orienter - 认路
+ souci - 关心, 忧虑, 愁
+259 Heartache 情感: 询问朋友的心情
+ chagrin - 悲伤, 心痛, 悲痛
+ compréhensif - 理解
+ compter - 我数, 数数, 数一下, 数, 指望, 依靠, 数过
+ consoler - 安慰者, 哄哄
+ de tout cœur - 全心全意
+ draguer - 勾引
+ facile à vivre - 容易相处
+ fidèle - 忠诚, 忠实, 忠诚的, 忠于
+ le moral - 士气
+ les idées - 想法
+ là - 啦, 那边, 呐, 焉, 这儿
+ léger - 不沉, 会轻, 很轻, 清淡, 轻便, 微, 轻, 轻装, 轻微, 淡, 轻盈, 轻松, 较轻, 轻不轻, 更淡, 淡淡的, 清爽
+ mieux vaut être seul que mal accompagné - 宁愿一个人也不要和坏人一起
+ naïf - 天真, 单纯
+ optimiste - 乐观
+ page - 页, 页面, 一页
+ peine - 值得, 刑
+ plutôt - 较为, 与其说, 相当, 不如说
+ problèmes de cœur - 感情问题
+ profiter - 享用
+ réconforter - 安慰
+ sur le cœur - 心里的, 心里
+ à cœur ouvert - 敞开心扉
+ à part - 除此之外, 除了
+ éprouver - 感受
+260 Changes 人生转变: 分享转行的原因
+ ambiance - 氛围
+ autre chose - 别的, 别的东西
+ ayant - 有
+ berger - 牧羊人
+ bilan - 健康报告
+ burn-out - 精疲力竭
+ changé - 大变样, 变样, 改了, 码改, 变迁, 改成, 换过, 变化很大, 换了, 他变, 彻底改变, 有变, 转变, 改为
+ compris - 正确理解, 明白, 谅, 包含在内的, 听懂, 懂, 全包, 弄清
+ concevoir - 设计, 构想, 设, 构思, 开发新
+ domaine - 方面, 域, 庄园, 领域, 大庄园, 这方面, 领地
+ déterminer - 确定
+ gestion - 管理, 管理方面
+ mettre - 戴上, 戴, 换上, 搽, 放进, 着手, 把, 穿, 贴, 置于, 装进, 上桌, 凸, 放, 放在首位, 弄成, 放在, 放到, 凸显, 投进, 披上
+ modifier - 修改, 修饰语, 编辑
+ moniteur - 显示器
+ motivation - 动力, 积极性, 干劲, 动机
+ pression - 压, 负担, 压力, 力度
+ proposition - 提议, 解决办法
+ refusé - 拒绝
+ renoncer - 放弃
+ s'épanouir - 绽放, 绽
+ sabbatique - 休
+ sens - 意义, 义项, 没道理, 得通, 感官, 感到, 思, 毫无道理, 意思, 含义
+ vision des choses - 看法
+ zéro - 零分, 0, 零, 一个零
+ à quel point - 多, 多么
+ étant - 由于, 因为
+261 Downtown 城市改造: 描述城市变化
+ avec - 跟着, 用, 配, 带, 加, 和, 穿, 随着, 有, 一起, avec, 带有, 包含, 带着, 对, 跟, 盖着, 用桃, 一同
+ bobo - 布波族
+ chantier - 工地, 施工
+ commerce - 贸易, 商, 贸
+ constater - 目睹
+ construction - 建设, 构, 筑, 修路
+ dirait - 看起来
+ en ruines - 破败
+ gentrification - 绅士化
+ grue - 起重机
+ hôtel particulier - 独立式豪宅
+ marché immobilier - 房地产市场
+ mener - 进行, 引向, 通向
+ mobiliser - 动员者, 动员
+ métamorphosé - 改变
+ natal - 出生的
+ petit à petit - 逐渐, 一点一点地
+ place - 位置, 位, 置, 名额, 广场, 位子
+ retrouver - 重聚, 重获
+ réhabiliter - 修复
+ rénovation - 装修, 新装修, 翻新, 翻修
+ sens de circulation - 交通方向
+ travaux - 施工
+262 Chores 意外: 描述厨房的意外
+ bocal - 鱼缸, 罐子
+ ce n'est rien - 这没什么
+ cramer - 烧, 烤焦, 烧焦
+ dans - 里演, 里会, 过, 来, 之内, 之中, 内会, 内, dans, 在, 里, 中, 儿里
+ déborder - 溢出来, 溢, 溢出
+ démarrer - 启动, 发动
+ faute - 过错, 对错, 错误, 疏忽
+ forcément - 一定
+ garagiste - 修车师傅
+ gronder - 被骂
+ heureusement que - 幸好
+ il n'y a pas de mal - 没关系
+ justement - 恰好, 正想, 偏偏, 正好, 就是
+ mauvaise foi - 不诚实
+ n'en parlons plus - 不再谈论它
+ pardon - 对不起, 抱歉
+ pas de souci - 没关系
+ pour rien - 没有责任
+ queue - 尾, 排队, 尾巴
+ rayer - 划了, 划
+ reconnaître - 识别, 认清, 认出, 认同
+ rentré dedans - 撞到
+ repassage - 熨, 熨衣服
+ s'enfuir - 跑掉
+ sèche-linge - 烘干机
+ ça ne fait rien - 没关系
+ étendre - 拓, 伸展, 拓展, 扩大, 晾衣服, 推广, 伸, 伸得, 扩展
+263 Politeness 服务: 请求帮忙
+ Carré famille - Family Square
+ amabilité - 和蔼可亲地
+ audioguide - 语音导览器
+ auprès - 向, 身边
+ bonne dégustation - 品尝愉快
+ compartiment - 车厢
+ confirmation - 确认
+ consigne - 寄存处
+ convenance - 方便
+ correspondre - 符合
+ dérangerait - 打扰
+ ennuierait - 介意
+ excusez-moi de vous déranger - 打扰一下
+ expiré - 过期, 失效
+ gentillesse - 善意地
+ inclure - 包括, 算进去
+ l'on - 我们
+ nocturne - 夜间夜曲, 夜行
+ quoi qu'il en soit - 无论如何
+ surclassement - 升舱
+ taxe - 税
+ transfert - 转运, 接送, 转会, 交接, 接送车
+ vestiaire - 衣帽间
+ à la place - 代替
+264 Dreaming 幻想: 表达你对幻想的看法
+ Antiquité - 古代
+ chevalier - 骑士
+ conte de fées - 童话故事
+ de manière à - 以便
+ génie - 灯神, 天才, 精灵
+ imaginaire - 虚构的, 虚拟
+ invisible - 隐形, 看不见, 隐身
+ libre cours - 自由发挥
+ licorne - 独角兽
+ mal - 疼, 不对的, 不好受, 邪恶, 痛, 不好, 差, 很不好, 坏处, 不错, 邪, 不舒服, 很差, 对错
+ milliardaire - 亿万富翁
+ méchant - 坏人, 坏, 很坏, 刻薄, 反派
+ paradisiaque - 天堂般的, 天堂
+ pensées - 思绪, 想法, 心思
+ pieds sur terre - 脚踏实地
+ rêveur - 梦想家
+ sirène - 美人鱼
+ souhait - 愿望
+ super- - 超级
+ téléporter - 传送
+ tête dans les nuages - 心不在焉
+ voyager - 出行, 旅, 去旅行, 旅行, 出国, 越游
+ évader - 逃避, 逃离
+265 Debate 辩论: 介绍候选人
+ comme je le disais - 正如我所说的
+ croissance - 增长, 繁荣
+ de gauche - 左派, 左翼
+ difficulté - 吃力, 词难, 费劲, 课难, 难度, 困境
+ durable - 耐用的, 漫长, 持久, 永久, 长期, 深远, 悠久
+ démocratie - 民主
+ eh bien - 好吧
+ en tout cas - 无论如何
+ en venir - 到达这个点
+ engager - 雇个, 请人来, 雇用, 包让
+ essentiel - 要点, 必要, 要紧, 核心
+ hausse - 上涨
+ inflation - 通货膨胀
+ interrompre - 打断
+ intervenir - 介入, 干预, 抢救
+ la parole - 说话
+ le mot de la fin - 最后一句话
+ mais enfin - 但是
+ mandat - 任, 任期
+ mesure - 测, 它长, mesure, 身高, 措, 分寸
+ pour en revenir - 回到
+ pouvoir d'achat - 购买力
+ présidentiel - 总统
+ prétendre - 假装
+ renforcer - 加强, 拓展, 加重
+ reprendre - 继续, 重修
+ tour - 把戏, 第一轮, 一圈, 塔, 旅游, 周轮, 轮轮, 厦
+ à - 给, 于, 至, 来, 念, 靠, à, 的, 到, 向, 在, 对, 离, 跟, 三到, 去, 之内
+ à présent - 现在
+ éducatif - 教育
+ élire - 投票选举, 选举, 选出, 选完
+266 Favor 请求: 表达借宿请求
+ absence - 缺勤, 缺乏, 缺席
+ arrangeant - 通融
+ arranger - 编曲者, 摆花, 协调
+ du coup - 所以
+ du fond du cœur - 衷心地
+ dépanner - 帮助, 帮
+ embêterait - 介意
+ escabeau - 梯子, 梯凳
+ garder - 保持, 留, 看管, 守, 收着, 保住, 储存起来, 看守, 留些, 保持平衡, 想留, 省下, 储存
+ gonflable - 充气
+ héberger - 收留
+ la pareille - 回报
+ mètre - 米, 一米
+ ne - 别, 没, n, 否, 非, 你别, 不, ne
+ nourrir - 饲, 喂食, 喂奶, 喂, 哺, 喂养
+ perceuse - 钻, 电钻
+ quitte - 离开, 下班
+ sans - 不含, 没, 没有, 无
+ serviable - 乐于助人, 热心
+ service - 务, 大忙, 效劳, 班次, 服务, 贡献
+ sûrement pas - 绝对不行
+ tondeuse - 割草机
+ à l'improviste - 突然
+267 Negotiate 职场: 表达你的期望
+ aborder - 讨论, 聊到, 看待
+ accord - 契, 协议, 默契, 协商, 一致, 谐
+ accorder - 给予, 不予
+ ainsi que - 以及
+ attente - 期待, 等待, 等, 意料
+ audace - 大胆, 胆量, 勇气
+ augmentation - 增加, 涨幅, 加薪, 上升
+ collaborer - 合作, 共事, 互相合作, 互相配合, 联合
+ compte - 账号, 账户, 数数, 账, 不算, 帐户, 数一数, 指望
+ de - 个, 从, 上, 之, 种, 来自, 的, 要, 对, 离, 能, de
+ dépasser - 超过, 高于
+ en position de - 有资格, 没有资格
+ entretien - 保养, 面谈, 面试, 维护, 维修
+ envisageable - 不可行, 可行的
+ investissement - 投资
+ lors de - 在...中, 在...时
+ négocier - 谈判, 协商, 商量一下
+ pour l'instant - 目前
+ prime - 主要的
+ remplaçable - 可替代的, 可替代
+ rémunération - 薪酬, 酬, 报酬
+ salarial - 薪资方面, 薪资方面的
+ sur le plan - 在经济方面, 在薪资方面, 在职业方面
+ voiture de fonction - 公务车
+ à condition que - 条件是
+268 Roommates 室友: 表达对室友的不满
+ abuser - 滥用者
+ appart - 公寓
+ bien - 很好, 好好, 还好, 洽, 对错, 得很好, 好, 良好, 很, 干得, bien, 很顺, ben, 好不好, 舒服, 不严, 顺利, 化得, 很好地, 商品
+ c'est juste que - 只是
+ c'est n'importe quoi - 这简直是胡闹, 简直是胡闹
+ coloc - 室友
+ comme - 一样, 时像, 宛, 般的, 般, 仿佛, 像, 宛如, 作为, 如同, 当作, 正如, 地像, 画般, 似的, 如, 当成, 加上
+ compter - 我数, 数数, 数一下, 数, 指望, 依靠, 数过
+ crevé - 累坏了, 扎破
+ fait - 干什么, 怎么弄, 闹出, 干吗, 不办, 办, 无妨, 干得, 手工, 迈出, 考得, 办理, 让, 拍电影, 引起轰动, 迈, 做过, 付出, 在做, 结交, 发愁, 出牙, 做华夫, 做, 炒, 犯小, 假装, 弄, 使, 生闷气, 风让, 事实, 办到, 做够, 做出, 发出, fait
+ justifier - 辩解者, 辩解
+ l'œil - 目
+ laisser - 留个, 落下, 留, 留给, 不留, 他任, 上留
+ mais - 但别, 但, 却, 而是, 但是, 可是, 却说, 不过, 然而, 却是, 就是
+ nickel - 镍
+ nier - 否认
+ prends pour - 当成
+ quoi - 怎么着, 怎么样, 什么, 么, quoi
+ tant - 如此之多
+ tant pis - 没关系
+ trop - 太
+ tu parles - 说话, 说
+ tu rigoles - 你开玩笑吧
+269 Work Party 惊喜: 描述一次意外发现
+ c'est que - 是, 是因为
+ cagnotte - 份子, 公款, 小金库
+ carte cadeau - 礼品卡
+ choré - 舞蹈动作
+ contexte - 背景, 语境, 情境, 上下文
+ déchaîné - 失控
+ et là - 然后
+ et tu ne sais pas tout - 你还不知道所有的事情
+ faux - 不对, 走调, 错误的, 跑调
+ jeu - 底牌
+ karaoké - 卡拉OK, ktv, 卡拉
+ la meilleure - 最好
+ le coup - 时刻
+ micro - 微, 话筒
+ non mais attends - 等等
+ parier - 打赌, 赌
+ petit four - 小点心
+ piste - 雪道, 线索, 滑雪道, 跑道
+ pot de départ - 欢送会
+ qu'on ne le dit - 人们说的
+ qu'on ne le pense - 比人们想的
+ radin - 小气
+ tout - 所有的, 共, 都, 所有东西, 整栋, 一整, 十分, 满脸, 整个, 整趟, 一切, 整块, 一切都是, 皆, 事事, 全部, 全, 整家, 凡事, 全都, 整, 整张
+ tu m'enlèves les mots de la bouche - 你把我的话从嘴里拿走了
+270 Cinema 电影: 分享你喜欢的电影
+ amateur - 爱好者, 业余, 新手
+ cinéaste - 电影导演, 女电影导演
+ cinéphile - 电影迷, 电影爱好者, 影迷
+ décisif - 决定性, 果断
+ déroule - 进行
+ en couleurs - 彩色
+ grand écran - big screen
+ immortel - 仙, 不朽
+ lancer - 施放, 发射, 开发新, 泼, 投入, 开展, 投篮
+ marquant - 难忘, 突出
+ marquer - 进, 进球, 中进, 得分
+ moment clé - 关键时刻
+ muet - 无声, 哑, 静音
+ métrage - 影片长度
+ nommé - 提名, 任命
+ première - 首映式, 首个, 首, 第一辆, 第一把, 第一, 第一枚, 首映, 初次, 第一根, 第一套, 第一项, 首次, 第一个, 首映礼, 第一条, 第一篇
+ projection - 投影, 放映
+ prometteur - 有前途
+ remettre - 递交, 再装, 颁, 交上来, 颁奖, 再交, 提交, 付得
+ remporter - 获得最佳, 赢得, 中奖, 挣过
+ réaliser - 实现, 执行
+ révolutionner - 革命化, 革新
+ septième art - 第七艺术
+271 Time Off 工作: 表达对工作的看法
+ Code du travail - 劳动法
+ au fil du temps - 随着时间的推移
+ auparavant - 以前
+ besoin - 需, 不用, 需要, 用得着
+ bien-être - 福祉
+ congés - 休, 休假
+ congés payés - 带薪假期
+ date clé - 关键日期
+ de plus en plus - 越来越
+ de travail - 工作
+ demi-journée - 半天
+ en freelance - 自由职业
+ hors vacances scolaires - 非学校假期期间
+ métro boulot dodo - 地铁、工作、睡觉
+ passé - 参加考试, 过得, 过去, 转过, 度过, 升入, 昔, 转为
+ prendre - 请假, 摄, 带, 坐地铁, 乘坐, 上, 立下, 走错, 服下, 拍, 吃, 养成, 作出, 拍出, 拍下, 拍摄, 夺走, 打车, 抽出, 接个, 带上, 拍照, 记个, 拿件, 拍自, 量体温, 照相, 量, 吃顿, 采取, 服用, 抢走了, 我取, 要取, 吕克拿起, 要休, 做出, 拿, 带伞, 喝, 占用
+ privilégier - 优先考虑
+ quotidien - 日常, 每日, 家常
+ réforme - 改革
+ tendre - 伸向, 绷, 嫩, 鲜嫩, 伸得
+ travailleur - 勤奋, 努力, 劳动者, 勤奋的, 勤劳
+ trente-cinq heures - 35小时
+ à distance - 远程
+ à mi-temps - 兼职
+ évolution - 演变, 推移
+272 Cook Off 比赛: 介绍比赛对手
+ adversaire - 对手
+ amertume - 苦味, 苦涩
+ assaisonné - 调味
+ au fur et à mesure - 逐渐
+ autrement - 另一种方式
+ contrairement - 与...不同
+ contraste - 反差, 对比, 对照
+ contre toute attente - 出乎意料
+ crémeux - 奶油的, 奶油
+ cuisson - 烹饪, 火候, 蒸煮
+ de même que - 也
+ gastronomique - 美食
+ gratin - 焗烤
+ l'unanimité - 一致, 一致通过
+ le suspense est à son comble - 悬念达到顶点
+ n'importe lequel - 随便哪一把, 随便哪一个
+ opposer - 对抗
+ remarquer - 注意到
+ revenir - 折返, 回来, 回归
+ savoureux - 美味, 香甜, 浓郁
+ tandis que - 而
+ terroir - 风土的, 风土
+ verdict - 宣判, 判决, 裁决
+ à feu doux - 小火
+ à l'inverse - 相反
+ émincer - 切丝, 切薄片, 切碎
+ épreuve - 考验, 试卷, 考试题
+ étonner - 惊讶
+273 Beauty 美发: 预约理发或化妆
+ affreux - 可怕, affreux
+ avoir - 取得, 有, 要个, 拿到, 版有
+ calme - 镇定, 宁静, 沉着, 宁, 平静的, 安静, 平静, 冷静, 沉着的, 安, 静, 冷静的, 风平浪静
+ chignon - 发髻, 髻
+ coiffer - 做头发, 梳个
+ couper - 剪
+ de leçon - 教训
+ de mes nouvelles - 消息
+ esthéticienne - 美容师
+ hors de - 发怒
+ indigné - 震怒, 愤怒, 愤慨
+ insatisfait - 不满意
+ loin - 远
+ maquiller - 化妆
+ non mais je rêve - 不，我是在做梦
+ négliger - 忽视, 忽略, 不顾, 少看
+ ongles - 指甲
+ outré - 愤怒
+ ouverture - 开放, 开场, 开幕, 开业
+ pas près de - 不会很快
+ que puis-je faire pour vous - 我今天能为您做些什么, 我能为您做些什么
+ reproduire - 模仿, 再现, 模拟
+ s'évanouir - 晕过去, 晕倒
+ satisfaire - 满意, 满足
+ scandaleux - 丑闻
+ teindre - 染
+274 Shopping 5 客服: 说明商品问题
+ achat - 购, 采购, 收购
+ ainsi - 因此, 从而, ainsi, 于是
+ arrangement - 安排, 组合
+ article - 文章, 篇, 篇文章, 商品, 藏品, 条, 展品
+ avoir - 取得, 有, 要个, 拿到, 版有
+ bien entendu - 当然
+ clientèle - 客户, 客户群
+ d'accord - 同意, 好的, 一致, ok
+ dentelle - 蕾丝
+ désagrément - 不便
+ fidélité - 忠, 忠诚度
+ foulard - 围巾
+ geste commercial - 商业举措
+ jusqu'à ce que - 直到, 到
+ le client est roi - 顾客就是上帝
+ mécontent - 不满
+ possible - 尽, 可能, 若能
+ regrettable - 遗憾, 遗憾的, 令人遗憾
+ retourner - 重返, 回到, 退, 返回, 翻, 退还, 回头, 返, 退掉
+ résumer - 总结, 概括
+ ticket de caisse - 收据
+ troué - 破洞
+ valable - 有效, 有效期
+ veiller - 熬夜
+275 Dinner 家庭聚会: 避免尴尬话题
+ censé - 应该
+ constamment - 不断地
+ décidément - 真是
+ délicat - 微妙
+ en ce qui concerne - 关于
+ en partie - 部分
+ générationnel - 世代, 世代的
+ il n'empêche que - 尽管如此
+ imposer - 强加者, 强加
+ je comprends que - 理解
+ je ne comprends pas que - 我不明白
+ je te le concède - 我承认给你
+ jugement - 判决, 判断, 眼光, 评判, 对错
+ le sujet sur la table - 把话题摆到桌面上
+ les pieds dans le plat - 直言不讳
+ malgré tout - 尽管如此
+ mince - 糟糕
+ ou bien - 还
+ propos - 言论
+ repas de famille - 家庭聚餐
+ référence - 参考, 对照, 权威
+ tendu - 绷
+ à la limite - 勉强
+276 First date 约会: 描述你的约会经历
+ aurais - 会有
+ aurais entendu - 本来会听到
+ baguette - 法棍面包, 法棍, 法棍奖, 魔杖, 长棍
+ charme - 风情, 魅力
+ comme si de rien n'était - 若无其事
+ cou - 脖子, 颈, 脖, 颈部, 脖颈
+ culot - 脸, 好意思
+ de rencontre - 交友
+ dorénavant - 从今以后
+ en cachette - 偷偷地
+ en rester là - 就此打住
+ horrifié - 惊恐
+ la tête - 头
+ larguer - 甩掉
+ mettre - 戴上, 戴, 换上, 搽, 放进, 着手, 把, 穿, 贴, 置于, 装进, 上桌, 凸, 放, 放在首位, 弄成, 放在, 放到, 凸显, 投进, 披上
+ nouille - 面条
+ on aurait dit - 我们会说
+ prétentieux - 自负, 自命不凡
+ rendez-vous - 预约, 约见, 约, 约会, 赴约
+ soupirer - 叹气
+ tomber - 跌倒, 坠, 掉, 摔下去, 摔下, 落下
+ transpirer - 出汗, 流汗, 漓
+ un lapin - 一只兔子
+277 Detective 案件: 说明遇到的问题
+ appel - 通话, 呼叫, 电话, 点名
+ aucun sens - 意义
+ coupable - 罪魁祸首, 罪责, 人犯, 有罪, 犯人, 罪犯, 疚
+ discret - 低, 低调, 含蓄
+ déduire - 推断出, 得出, 下结论
+ démontrer - 证明
+ détective privé - 私家侦探
+ empreinte - 印记, 指纹
+ en compte - 考虑
+ enquêter - 调查
+ filature - 跟踪
+ hypothèse - 假设
+ interrogatoire - 审问, 审讯
+ meurtre - 谋杀案, 谋杀, 杀人
+ mobile - 动机, 作案动机
+ mystérieux - 神秘
+ piste - 雪道, 线索, 滑雪道, 跑道
+ preuve - 据, 证明, 证据, 凭证, 为证, 见证
+ raisonnement - 推理
+ révéler - 说穿, 揭示, 揭, 喊出, 曝光, 表白, 展现
+ soupçon - 嫌疑
+ soupçonner - 怀疑
+ vers - 他朝, 朝着, 左右, 去往, 走向, 往, 地向, 朝, 半左右, 诗节, 将近, 蚯
+ à voir avec - 关系
+ élémentaire - 起码, 单纯, 小学, 简易
+ émettre - 开具, 发出, 发射
+ énigme - 谜题
+278 Fashion 穿搭: 描述理想的服装
+ assorti - 般配
+ attention - 当心, 注意, 关注, 小心, 注意力
+ autant que - 既然如此
+ bas - 底部, 下, 低, 低得, 下装, 下方, 楼下, 低开
+ boutonner - 扣
+ chemisier - 衬衫
+ convenable - 适合, 合适的, 般配, 适当
+ couturier - 裁缝, 裁缝师
+ célébrer - 庆, 庆祝
+ de loin - 远远
+ décolleté - 低胸
+ fait - 干什么, 怎么弄, 闹出, 干吗, 不办, 办, 无妨, 干得, 手工, 迈出, 考得, 办理, 让, 拍电影, 引起轰动, 迈, 做过, 付出, 在做, 结交, 发愁, 出牙, 做华夫, 做, 炒, 犯小, 假装, 弄, 使, 生闷气, 风让, 事实, 办到, 做够, 做出, 发出, fait
+ froisser - 皱, 得罪, 冒犯
+ haut - 顶部, 上, 上衣, 树太高
+ lin - 亚麻
+ par-dessus - 外面, 上面
+ ravissant - 迷人
+ remettre - 递交, 再装, 颁, 交上来, 颁奖, 再交, 提交, 付得
+ ringard - 过时
+ sensation - 轰动
+ sur mesure - 定制
+ tailleur - 裁缝
+ unique - 独一无二, 独特, 与众不同, 独到, 特有
+ velours - 天鹅绒
+ vêtement - 衣服
+ à l'endroit - 正面
+ ça se met - 戴, 戴上
+279 New Baby 家庭: 表达对新生儿的祝福
+ accouchement - 分娩, 娩
+ au courant - 知道
+ aux anges - 欣喜若狂
+ bien - 很好, 好好, 还好, 洽, 对错, 得很好, 好, 良好, 很, 干得, bien, 很顺, ben, 好不好, 舒服, 不严, 顺利, 化得, 很好地, 商品
+ bluffé - 惊讶
+ bon - 课好, 好, 好喝, 好闻, 好吃的, 太行, 不错, 状况良好, 对的, 很好吃, 好喝的, 良, 美好的, 代金券, 良好
+ compote - 果泥
+ en cas - 如果
+ fou de joie - 欣喜若狂
+ manquer - 错过, 亏了, 想念, 容错过, 辜负, 很亏, 缺席
+ mon pauvre - 我可怜的
+ nouveau-né - 新生儿
+ nuit blanche - 不眠之夜
+ place - 位置, 位, 置, 名额, 广场, 位子
+ radieux - 容光焕发, 容光焕发的
+ rassure-toi - 放心
+ sans blague - 不开玩笑
+ tu me fais marcher - 逗
+ vivement - 盼望着
+ ça ira mieux - 会好起来
+280 Problems 2 困境: 表达对大自然的向往
+ canicule - 酷热, 酷暑
+ cerise sur le gâteau - 锦上添花
+ changement de programme - 行程变更
+ du bien - 好处
+ grand air - 大自然中, 新鲜空气
+ grêle - 冰雹, 雹
+ gîte - 小屋
+ le sourire - 微笑
+ loger - 安置, 借住
+ mieux - 好些, 更棒, 好受, 更好地, 最好, 好过, 更好的, 更会, 更妙, 更好, 尽力, 尽其所能
+ mouvement de grève - 罢工行动
+ on s'en souviendra - 我们会记得
+ perturbé - 扰乱, 捣乱, 慌张
+ plan b - 备用方案
+ qu'à - 只好
+ relativiser - 看淡
+ relax - 放松
+ remédier - 解决, 补救
+ reste plus qu'à - 只剩下
+ réputé - 著名的, 有名的, 著称
+ sncf - 国铁, 法国国家铁路公司, sncf
+ un moyen - 一种方法
+ ça aurait pu être pire - 本来可能更糟
+281 Tensions 生活小事: 表达对小事的看法
+ accélérer - 加快, 加速, 开快, 表快
+ au sérieux - 当真
+ casanier - 别太宅, 个宅, 宅, 宅男, 太宅
+ ce serait - 这将是, 将是
+ de temps en temps - 时不时
+ en amoureux - 两人浪漫
+ en matière de - 在……方面
+ gnangnan - 幼稚
+ on en serait où si - 我们会在哪里如果
+ petit nom - 小名
+ propreté - 清洁
+ raccourci - 捷径, 快捷方式, 抄近
+ rangement - 整理, 收纳
+ solide - 敦, 稳固, 结实, 坚, 固, 牢固, 坚固
+ sortie - 搬出来, 出门, 出口, 拿出, 上映, 出院
+ supplier - 恳, 供应商, 恳求
+ tu ne pourrais pas - 你不能
+ tu ne voudrais pas - 你不想
+ un amour - 爱人
+ un resto - 餐馆
+ virage - 弯道, 弯, 转角, 拐弯
+ à désirer - 有待提高
+ ça me ferait plaisir - 我会很高兴
+282 Traffic 堵车: 建议避开高峰
+ accidenté - 事故
+ au niveau - 附近
+ bande d'arrêt d'urgence - 紧急停车带
+ bonne heure - 早点
+ bouchon - 堵车, 塞车
+ conducteur - 司机
+ de quoi - 的东西
+ demi-tour - 掉头
+ des fourmis dans les jambes - 腿麻
+ heure de route - 小时的路程
+ il me tarde - 迫不及待地想
+ improbable - 不可能
+ le volant - 方向盘
+ mal en patience - 忍耐
+ paraître - 显老
+ pour de bon - 真的
+ rocade - 环城公路
+ sûr et certain - 非常确定
+ à prévoir - 预计, 预见
+ ça m'étonnerait que - 我会感到惊讶如果
+ ça ne fait aucun doute - 这毫无疑问
+283 Runway 时装秀: 表达对时装秀的期待
+ attendu - 最受, 意料之中, 等待, 等, 盼望已久
+ ce dont - 的东西
+ ce que - 什么
+ ce qui - 什么
+ ce à quoi - 所期待的, 所想到的, 所想的
+ coulisse - 后台
+ dans les pommes - 昏倒
+ déception - 失望
+ défilé - 走秀离, 时装秀, 走秀, 秀里, 秀上
+ désillusion - 失望, 幻灭
+ effervescence - 沸腾, 热火朝天
+ haute couture - 高级定制
+ l' - 这只, 这个, 这名, 这家, 他, 给他, 那架, 这, 这架, 那个, 她, 那只, 那家, 那条, 那名, 那位, 那, 这位, 它
+ le - 这个, 这家, 他, le, 那本, 这辆, 那张, 这, 的, 了, 那个, 那列, 那家, 那辆, 这本, 这列, 那, 这张, 它, 那起
+ loin de ce que - 离……很远
+ maison de couture - 时装屋
+ maquilleur - 化妆师, 造型师
+ milieu - 圈子, 当中, 中途, 中间, 内部, 上下文
+ n'importe comment - haphazardly
+ podium - 讲台, 领奖台
+ prêt-à-porter - 成衣
+ raté - 错过, 考砸过
+ styliste - 造型师, 设计师, 发型师
+ tout de même - 仍然
+284 New Pet 宠物: 描述宠物店经历
+ aboyer - 吠叫, 吠, 唤
+ animalerie - 动物店
+ avais dit - 曾告诉, 之前说过, 曾告诉过, 曾说过
+ avait dit - 说好
+ avis - 一则, 反馈, 看法, 意见反馈
+ caresser - 抚摸者, 抚, 抚摸
+ collier - 项链, 链, 项圈
+ compagnie - 陪伴
+ crotte - 屎
+ et puis quoi encore - 然后呢
+ gamelle - 饭碗, 食碗
+ garder - 保持, 留, 看管, 守, 收着, 保住, 储存起来, 看守, 留些, 保持平衡, 想留, 省下, 储存
+ laisse - 牵引绳, 丢, 留, 我留, 就让, 任由, 不让, 牵狗绳, 留在, 他任
+ les bras m'en tombent - 真是让我大吃一惊
+ niche - 狗屋, 狗窝, 冷门
+ par rapport à - 关于
+ parti pour - 去
+ patte - 爪子, 肢
+ pour projet - 计划
+ regard - 目光, 眼神, 眼光
+ supposé - 应该
+ tu te rends compte - 你意识到吗
+ à - 给, 于, 至, 来, 念, 靠, à, 的, 到, 向, 在, 对, 离, 跟, 三到, 去, 之内
+ à la rigueur - 在必要时
+285 Trip 选择: 同意或拒绝提议
+ c'est toi qui vois - 是你看着办
+ dans l'idéal - 理想情况下
+ de façon que - 为了, 以便
+ département - 部门
+ département d'outre-mer - 海外省
+ dépaysement - 换环境
+ désir - 欲望, 欲, 渴望
+ et si - 那
+ faudrait savoir - 应该知道
+ incontournable - 必去, 必看, 不可避免
+ j'aimerais autant - 宁愿
+ l'important - 重要
+ mouvement - 动, 动作
+ métropole - 法国本土, 本土, 大都市
+ où que - 无论
+ pour - 给整, 为了, 而言, 因为, 而, 给, 当, 适合, 来, 用于, 人用, 用来, 会为, 的, 飞往, 来放在, 对于, 支持, 来做, 对, 来说, 地为, 水给, 以, 为, 替, 起见
+ préférence - 偏好
+ quoi que - 无论
+ superbe - 漂亮, 可棒
+ tant que - 只要
+ tenter - 尝试, 试一试, 尝试者, 尽力
+ tout me va - 我都可以
+ à condition - 条件是
+ éventuellement - 可能
+286 Sports 4 锻炼: 谈论你的锻炼计划
+ au bout - 后
+ au cours - 在...中
+ bon - 课好, 好, 好喝, 好闻, 好吃的, 太行, 不错, 状况良好, 对的, 很好吃, 好喝的, 良, 美好的, 代金券, 良好
+ c'est déjà ça - 这已经不错了
+ d'ici - 从现在起
+ faire de mal - 有坏处
+ gourde - 水壶, 水杯
+ kiné - 物理治疗师
+ l'habitude - 习惯
+ l'équilibre - 平衡
+ malaise - 感到不适, 不适, 不安
+ mieux que rien - 总比没有好
+ musculation - 力量训练
+ plus qu'à - 只需要
+ prof - 老师
+ reprendre - 继续, 重修
+ résolution - 决心
+ s'étirer - 伸展, 拉伸, 伸伸
+ soulever - 使劲, 举铁, 举起, 高举
+ séance - 训练
+ série - 连续剧, 一系列, 电视剧, 剧集, 节目, 串
+ tenir - 撑, 撑不住, 兑现, 坚持, 要握, 收着, 抱, 站, 信守, 手握
+ tout au long - 整个过程中
+ à force - 因为
+ étirement - 拉伸
+287 Chatting 问候: 赞美对方气色
+ attentionné - 体贴, 贴心
+ au plaisir - 希望如此
+ biberon - 奶瓶
+ bien - 很好, 好好, 还好, 洽, 对错, 得很好, 好, 良好, 很, 干得, bien, 很顺, ben, 好不好, 舒服, 不严, 顺利, 化得, 很好地, 商品
+ ce n'est pas tout mais - 这还不是全部，但
+ comblé - 满足
+ connaissance - 知识, 感知, 学识, 熟人
+ couche - 层, 但床, 纸尿裤
+ course - 赛跑, 比赛, 差事
+ de ma part - 替我
+ devenir - 变得, 成为成员, 而变, 变瘦, 变成, 成为, 变秃, 变蠢
+ déjà - 早已, 曾经, 了, 早有, 曾, 早就, 已有, 已, 已经, 中曾
+ gentil - 好 贴心 体贴
+ l'heure de - 时间
+ le thé - 茶
+ marques - 品牌, 牌子
+ maternité - 产院, 产科病房, 产科
+ mes amitiés - 问候
+ mine - 矿, 气色, 脸色
+ passer - 逝, 每天花, 过生日, 共度, 花一, 转为, 路过, 去度, 递, 过去, 递给, 参加, 过个, passer, 转过, 度过, 升入, 通个, 顺道去, 及格
+ portrait craché - 活脱脱的翻版
+ retenir - 保留, 屏住, 克制
+ saluer - 打招呼, 招呼, 鞠, 打个招呼, 鞠躬
+ tous nos vœux de bonheur - 我们所有的幸福祝愿
+ transmettre - 交代, 转让, 发完, 转达, 继承, 遗传, 转告, 推送, 传达, 传染
+ un plaisir de - 很高兴
+288 New House 购房: 描述理想的房子
+ artisan - 工匠, 匠, 师傅
+ assurance habitation - 住房保险
+ bien à vous - 此致敬礼
+ contacter - 联系, 联络
+ cordialement - 此致, cordialement
+ coup de cœur - 一见钟情
+ coup de fil - 电话
+ de plain-pied - 单层
+ de plus amples informations - 更多信息
+ devis - 报价单
+ débordé - 溢出来了, 溢出
+ emplacement - 位置, 地段, 位子
+ financement - 融资, 教育经费
+ garantir - 保证, 包让
+ m. - 中号
+ notaire - 公证人, 公证员, 公证处
+ prêt immobilier - 房屋贷款
+ relancer - 重新联系, 跟进, 重新启动
+ rien qu'en - alleen al door te
+ suite à - 根据
+ surface - 表面
+ taux - 利率
+ tout en - 一边, 同时
+ à votre disposition - 在您的处置
+289 At Work 8 办公室: 提醒同事遵守规则
+ avancer - 前行, 推进, 表快, 取得进展, 向前, 向前走
+ avancé - 推进, 高级的, 高级, 先进
+ ayant - 有
+ c'est comme si c'était fait - 就像已经完成了一样
+ convoquer - 召唤, 约谈, 传唤
+ d'affilée - 连续
+ dans - 里演, 里会, 过, 来, 之内, 之中, 内会, 内, dans, 在, 里, 中, 儿里
+ de ce pas - 立刻
+ embarrassant - 尴尬的, 尴尬, 无地自容, 为难
+ entendu - 听说, 听见
+ gare à - 小心
+ le plaisir - plezier
+ matinée - 上午, 早晨
+ maîtriser - 会得, 克服, 精通, 熟练掌握
+ obliger - 强迫
+ on se croirait - 感觉, 感觉像
+ planning - 计划, 课程表
+ que - 何, 只要, 的, 什么
+ ricaner - 傻笑
+ sans attendre - 立刻
+ sans faute - 一定
+ à vos ordres - 遵命
+ écureuil - 松鼠
+ étant - 由于, 因为
+290 Reception 宴会: 猜测缺席原因
+ ambassadeur - 大使
+ aucune envie - 一点都不想
+ campagne électorale - 竞选活动
+ canapé - 沙发
+ congé - 休, 休假, 假来
+ coupe - 剪断, 剪掉, 切成, 双门轿跑车, 我切, 砍断, 剪一剪, 奖杯
+ d'ici là - 到那时
+ de trop - 多余的
+ décliner - 拒绝
+ empêchement - 阻碍
+ en aucun cas - 绝对不会
+ exquis - 精美
+ hôte - 主人
+ je vous prie - 我求您
+ les pieds - 脚
+ mieux à faire - 更重要的事情要做
+ prendrez bien - 会吃, 会喝
+ quel qu'il soit - 无论是哪一个, 无论是什么
+ réception - 接待处, 前台, 招待会
+ sans doute - 毫无疑问
+ smoking - 晚礼服
+ sommelier - 侍酒师, 侍
+ égarer - 误导
+291 Nature 3 动物: 分享动物观察体验
+ aigle - 鹰, 只鹰
+ chasse - 猎捕, 捕捉, 打猎, 逐出, 狩, 狩猎
+ dans l'ensemble - 总体来说
+ déforestation - 砍伐森林, 砍伐
+ en permanence - 持续
+ faune - 动物群
+ globalement - 总体上, 整体上, 大致
+ grandiose - 宏伟, 伟, 宏, 隆, 壮观
+ habituellement - 通常
+ hiberner - 冬眠, 冬眠中
+ il n'est pas rare - 并不少见
+ inoffensif - 无害的, 无害
+ jumelles - 双胞胎, 双胞胎姐妹, 双筒, 望远镜
+ lézard - 蜥, 蜥蜴, 蜴
+ marmotte - 旱獭, 土拨鼠
+ milieu naturel - 自然环境
+ montagneux - 多山的
+ proie - 猎物
+ rapace - 猛禽
+ répertorier - 编目
+ réserve naturelle - 自然保护区
+ sanglier - 野猪
+ terme - 期限, 术语
+292 Teenager 家庭生活: 表达不满家务分配
+ adolescence - 青春期, 少女时期
+ alors ça - 那可真是
+ assurer - 确保, 包让
+ bazar - 乱七八糟
+ bouder - 生气, 生闷气
+ caleçon - 内裤
+ céder - 让给, 让步, 转让
+ dans le fond - 其实
+ dos - 背上
+ du moment que - 只要
+ débarrasser - 摆脱, 脱
+ déjà que - 已经
+ en échange - 作为交换
+ faisable - 可以, 可行的, 可行
+ grand-chose - 大事
+ impitoyable - 无情, 毫不留情
+ je t'explique - 我跟你解释一下
+ les yeux au ciel - 把眼睛抬向天空
+ par là - 那样的事情
+ pas besoin de - 不需要
+ répondre - 会接, 作答, 回应, 回答, 接电话, 回复, 接听
+ se faire - 做到
+ semblant - 假装, 仿佛
+ tout seul - 自己
+ à bout - 到极限
+ à ce point - 到这种程度
+ ça marche - 行吗, 行
+293 Heritage 历史: 介绍著名历史遗址
+ anciennement - 以前
+ centenaire - 百岁, 百年, 百年老
+ château fort - 城堡
+ citadelle - 城堡
+ cité - 城市
+ classé - 名列, 分类, 列为
+ demeure - 住所
+ en avant - 突出
+ ennemi - 敌人
+ jadis - 从前
+ journées du patrimoine - 文化遗产日
+ noble - 贵族, 高尚
+ on raconte - 人们说
+ patrimoine - 文化遗产, 遗产, 家产
+ peste - 鼠疫
+ quand on pense - 想想
+ révolu - 过去的, 过去
+ seigneur - 领主
+ tournoi - 比武, 比赛, 大会, 冠军赛
+ à l'origine - 最初
+ édifice - 厦, 建筑, 大厦
+294 Crisis 挑战: 描述你的冒险经历
+ casse-cou - 冒险家
+ conscient - 意识到, 清醒
+ coup de vieux - 老态
+ crise de la quarantaine - 中年危机
+ décapotable - 敞篷车
+ déjà - 早已, 曾经, 了, 早有, 曾, 早就, 已有, 已, 已经, 中曾
+ en parachute - 跳伞
+ escalader - 攀登, 爬, 翻越
+ extrême - 极端
+ froid aux yeux - 不怕困难
+ il ne manquerait plus - 就差
+ irréfléchi - 不经思考, 欠考虑, 轻率
+ les pédales - 脚踏板
+ limites - 分寸, 极限, 界限, 际, 限, 限度
+ mots croisés - 填字游戏
+ non plus - 也, 也不, 也没有
+ parapente - 滑翔伞
+ quarantenaire - 四十多岁的人
+ sage - 乖, 很乖, 不乖, 明智, 太乖
+ volcan - 火山
+ vtt - 山地车
+ à - 给, 于, 至, 来, 念, 靠, à, 的, 到, 向, 在, 对, 离, 跟, 三到, 去, 之内
+ à l'élastique - 蹦极
+ à tes côtés - 并肩
+295 Elections 选举: 描述选举过程
+ acclamer - 喝彩, 欢呼
+ compte à rebours - 倒计时
+ dépouillement - 点票, 计票
+ encore - 仍然, 至今, 还, 还有, 又, 再来一个, 仍, 仍旧, 再次, 一再, 再有, 都还没, 再行, 再, 还要, 依然
+ estimation - 估计
+ favori - 最喜欢的
+ imminent - 迫在眉睫, 眼看
+ l'avenir nous le dira - 未来会告诉我们
+ le voilà - 他在这儿
+ perdant - 落败, 败者, 失败, 失败者, 输家
+ pesant - 沉重, 沉沉的
+ peut-être - 也许
+ prédire - 预测, 预测到, 预知
+ quinquennat - 五年任期
+ recueillir - 收集
+ sans doute - 毫无疑问
+ semble-t-il - 似乎是这样, 似乎
+ souffle - 吹灭, 息, 呼
+ tomber - 跌倒, 坠, 掉, 摔下去, 摔下, 落下
+ vainqueur - 胜利者, 胜者
+ voix - 嗓音, 得票, 声音, 声来, 嗓门, 嗓子, 语音
+ à l'annonce - 宣布
+ à peine - 几乎
+296 Alien 外星人: 描述你见到的外星人
+ admettons que - 假设
+ alors comme ça - 原来如此
+ antenne - 天线, 触角
+ au beau milieu de la nuit - 半夜
+ aurais - 会有
+ concrètement - in concrete terms
+ du moins - 至少
+ débordante - 丰富的, 丰富
+ en photo - 照片
+ extraterrestre - 外星人, 外星
+ incohérent - 不连贯, 贯
+ jamais - 从未
+ je te pensais - 我以为你
+ n'y compte pas - 别指望
+ ovni - 不明飞行物, ufo
+ qu'est-ce que tu racontes - 你又在说什么, 你在说什么
+ quelqu'un de - 一个人
+ s'envoler - 飞扬, 飞去, 上天
+ soi-disant - 所谓的
+ soucoupe volante - 飞碟
+ tentacule - 触手
+ à dormir debout - 荒诞离奇
+ à tout prix - 不惜一切代价
+ ça ne colle pas - 这不合理
+297 Market 集市: 描述市场摊位
+ brebis - 母羊
+ cabas - 购物袋
+ coriandre - 香菜, 荽, 芫, 芫荽
+ curcuma - 姜黄
+ du brebis - 绵羊奶酪
+ du rouge - 红酒
+ faire le marché - 逛市场
+ figurez-vous - 想象一下
+ fromager - 奶酪店, 乳酪
+ halle - 大厅
+ herbe aromatique - 香草
+ il n'y a plus qu'à - 只剩下
+ l'eau à la bouche - 垂涎欲滴
+ la monnaie - 零钱
+ livre - 本, 磅, 书上, 书籍, 带书, 书, 一磅
+ marchand - 货, 商人
+ où ça - 在哪里
+ pile-poil - 恰好
+ plat cuisiné - 熟食
+ poissonnier - 鱼贩
+ primeur - 蔬菜商
+ producteur - 生产者, 生产商
+ produits locaux - 当地产品
+ ça se mange - 可以吃, 可以
+ étal - 摊位
+298 Talk Show 话题: 分享激动时刻
+ accueil - 接待处
+ affaire - 一事, 事上, 案子, 案件, 事会, 业务, 交易, 桩, 事非
+ ampleur - 重要
+ bruit - 音, 动静, 噪, 噪音, 响动, 喧, 哗, 声响, 声音, 噪声, 一声, 声, 闹腾
+ ce à quoi - 所期待的, 所想到的, 所想的
+ en exclusivité - 独家
+ en haleine - 屏息以待
+ et encore - 而且
+ franchise - 直率, 真心, 坦白, 坦率, 坦诚, 真诚
+ honneur - 荣幸
+ incroyablement - 难以置信地
+ là-dessus - 对此
+ moment d'émotion - 情感的时刻, 情感时刻
+ médiatisé - 媒体化
+ où - 哪里, 在哪里, 的地方, 的, 哪儿, 何处
+ précédemment - 之前
+ qu'en est-il - 情况如何
+ rajouter - 再添
+ retenir - 保留, 屏住, 克制
+ récapituler - 总结
+ rétablir - 恢, 康复, 还原
+ révélation - 揭露, 揭示, 揭, 启示, 曝光
+ souhaitez-vous - 想
+ sous le choc - 震惊
+ version - 版本, 版有, 版, 说法
+299 Worst Day 糟心事: 回应别人的抱怨
+ aller - 将要, 去了, 人去, 地去, 能配, 上班, 去, 生去
+ au bout du rouleau - 筋疲力尽
+ averse - 雨淋, 暴雨, 阵雨, 雨会
+ coup de téléphone - 电话
+ de travers - 不顺利
+ des cordes - 倾盆大雨
+ déluge - 洪水
+ en plein - 中间
+ faire - 闹出, 搞, 办, 做点, 交新, 办点, 生火, 做蕾娅, 交好, 迈出, 考得, 逛街, 办理, 煮, 拍电影, 引起轰动, 迈, 做一套, faire, 付出, 煮汤, 做, 骑骑, 弄个, 假装, 弄, 使, 做个, 盘个, 组队
+ fermeture - 关闭, 休业
+ gardien - 守卫, 门将, 门卫
+ jusqu'aux os - 浑身湿透
+ la goutte d'eau - 压垮骆驼的最后一根稻草
+ messagerie - 电子邮件
+ partir - 离开, 出发, 人去, 出去, 启程, 生去
+ photocopieuse - 复印机
+ quand ça ne veut pas ça ne veut pas - 不行就是不行
+ remonter - 振作, 打起精神
+ rentrer - 回, 回去, 回得去
+ reprocher - 自责, 责备, 会怪, 埋怨
+ revêche - 暴躁
+ sonnerie - 铃, 铃声
+ sortir - 上市, 外出, 出来, 冒出来, 挑出来, 下床, 掏出, 出门, 出去, 取出, 掏, 出院, 出新, 拿出, 上映, 逃出, 出国, 谈恋爱, 生去
+ trempé - 湿透, 淋得, 湿湿的
+ ça ira mieux demain - 明天会更好
+300 Classics 童话: 回忆喜欢的童话片段
+ BO - soundtrack
+ Bossu - 驼背人
+ Bête - 野兽
+ c'est alors - 就在那时
+ carrosse - 马车
+ citrouille - 南瓜
+ connaître - 认识
+ fidèle - 忠诚, 忠实, 忠诚的, 忠于
+ gargouille - 石像鬼
+ grille - 烤架
+ ils se marièrent et eurent beaucoup d'enfants - 他们结婚了，并有了很多孩子
+ malédiction - 诅咒, 诅
+ marraine - 教母
+ parvis - 广场
+ prisonnier - 囚, 囚徒, 人犯
+ religieusement - 虔诚地
+ ruelle - 小巷, 巷, 胡同
+ réplique - 台词, 回应
+ sombre - 很暗, 昏, 暗暗, 昏暗, 阴暗的, 沉, 暗, 阴郁, 冥, 沉沉的, 幽, 阴, 阴暗, 偏暗
+ tout aussi - 同样
+ une miette - 一点
+ à tue-tête - 放声
+ écrivain - 作家
+301 Poetry 诗意: 欣赏诗歌美
+ atelier - 工作坊, 坊, 兴趣小组
+ aube - 晓, 曙光, 黎明, 凌晨, 曙, 早晨
+ breuvage - 饮料
+ chant - 吟唱, 歌声, 歌唱, 唱歌, 鸣, 歌当
+ couler - 沉没, 沉
+ crépuscule - 黄昏, 暮色, 暮, 傍
+ destin - 命运
+ divin - 天来, 神圣的, 上天
+ douceur - 柔滑, 温柔, 甜味
+ flot - 洪流
+ hélas - 唉
+ lampadaire - 路灯
+ lueur - 光芒, 柔和光芒, 微弱光芒, 微光, 微弱, 光
+ pareil - 一样, 这样, 类似
+ poétique - 诗意, 诗意的
+ précieux - 值钱, 难得, 贵重, 珍贵, 可贵
+ rayon - 缕, 人造丝, 一缕
+ recueil - 文集, 诗集, 作品集
+ rimer - 押韵, 韵
+ scintiller - 闪烁, 闪耀, 发光, 闪闪发光, 闪闪亮, 闪光
+ spectre - 幽灵
+ strophe - 诗节
+ tel - 土丘
+ écriture - 写作, 字迹
+ ô - 噢, ô
+302 Well Done 动力: 表达自豪和坚持
+ accomplir - 成
+ approfondir - 加深, 深入研究, 深化
+ bel et bien - 确实
+ bilingue - 双语者, 双语
+ chouette - 猫头鹰, 真牛
+ enchaîner - 继续
+ endurer - 忍
+ enrichissant - 有益
+ fierté - 自豪
+ fini - 没完, 完课, 做完作业, 完事, 完, 开完, 下班, 弄完
+ force - 实力, 力气, 力量, 勉强, 力, 劲儿, 劲, 逼, 力度
+ le monde m'appartient - 世界属于我
+ les bras - 双胳膊
+ notification - 通知
+ parcouru - 走遍
+ pour changer - 换换口味
+ soif - 渴望
+ soulagement - 解脱, 如释重负, 人松
+ valait - 值得
+ vide de sens - 没有意义
+ voilà - 这就是
+ volonté - 意愿, 意志, 意志力, 善意
+ à moi - 我的
+ à quoi bon - 有什么意义

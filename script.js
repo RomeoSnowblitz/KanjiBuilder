@@ -1253,7 +1253,6 @@ function getSymbolsForEntry(entry) {
   if (!entry) return [];
   if (entry.categories && (
     Array.isArray(entry.categories.is) ||
-    Array.isArray(entry.categories.unrelated) ||
     Array.isArray(entry.categories.isNot)
   )) {
     return getEntryCategories(entry).is.slice(0, 4);
@@ -2638,13 +2637,19 @@ function symbolQueryToken(ref) {
   return (symbolRefIsNegated(ref) ? "0:" : "") + String(ref.id);
 }
 
+/** A symbol and its Zero version are separate picks, so both can sit on the same word. */
+function sameSymbolRef(a, b) {
+  return !!a && !!b && a.id != null && b.id != null &&
+    String(a.id) === String(b.id) && symbolRefIsNegated(a) === symbolRefIsNegated(b);
+}
+
 function normalizeSymbolList(refs, forceNegated) {
   const out = [];
   const seen = new Set();
   (refs || []).forEach((ref) => {
     const copy = cloneSymbolRef(ref, forceNegated);
     if (!copy) return;
-    const key = String(copy.id);
+    const key = symbolQueryToken(copy);
     if (seen.has(key)) return;
     seen.add(key);
     out.push(copy);
@@ -2652,27 +2657,28 @@ function normalizeSymbolList(refs, forceNegated) {
   return out;
 }
 
-/** Is and Unrelated only. A Zero on a symbol (negated) means "not that symbol". Older Isn't lists fold into Is with Zero. */
+/**
+ * A word's symbols are a single Is list. A Zero on a symbol (negated) means "not that symbol".
+ * Older Isn't lists fold into Is with Zero; the old Unrelated list is dropped.
+ */
 function getEntryCategories(entry) {
   if (entry && entry.categories) {
     const is = normalizeSymbolList(entry.categories.is, false);
-    const unrelated = normalizeSymbolList(entry.categories.unrelated, false);
-    const taken = new Set(is.concat(unrelated).map((ref) => String(ref.id)));
+    const taken = new Set(is.map(symbolQueryToken));
     normalizeSymbolList(entry.categories.isNot, true).forEach((ref) => {
-      if (taken.has(String(ref.id))) return;
-      taken.add(String(ref.id));
+      const key = symbolQueryToken(ref);
+      if (taken.has(key)) return;
+      taken.add(key);
       is.push(ref);
     });
-    return { is, unrelated };
+    return { is };
   }
-  return { is: normalizeSymbolList(getSymbolsForEntry(entry), false), unrelated: [] };
+  return { is: normalizeSymbolList(getSymbolsForEntry(entry), false) };
 }
 
 function entryCategoriesNeedMigration(entry) {
   if (!entry || !entry.categories) return false;
-  if (Array.isArray(entry.categories.isNot) && entry.categories.isNot.length) return true;
-  if (Object.prototype.hasOwnProperty.call(entry.categories, "isNot")) return true;
-  return false;
+  return ["isNot", "unrelated"].some((key) => Object.prototype.hasOwnProperty.call(entry.categories, key));
 }
 
 function migrateEntrySymbolCategories(entry) {
@@ -2680,7 +2686,6 @@ function migrateEntrySymbolCategories(entry) {
   const normalized = getEntryCategories(entry);
   entry.categories = {
     is: normalized.is,
-    unrelated: normalized.unrelated,
   };
   entry.stampSymbols = normalized.is.slice(0, 4);
   entry.symbols = entry.stampSymbols;
@@ -2689,11 +2694,7 @@ function migrateEntrySymbolCategories(entry) {
 }
 
 function getEntrySignature(entry) {
-  const categories = getEntryCategories(entry);
-  return ["is", "unrelated"].map((category) => {
-    const refs = categories[category] || [];
-    return category + ":" + refs.map((ref) => symbolQueryToken(ref) || "x").join("-");
-  }).join("|");
+  return "is:" + getEntryCategories(entry).is.map((ref) => symbolQueryToken(ref) || "x").join("-");
 }
 
 function triggerDownload(filename, content, mime) {
@@ -3306,6 +3307,16 @@ function appendSymbolFace(parent, symOrRef, altText, options) {
   return face;
 }
 
+/** Grey out the symbol and its Zero corner independently in a picker grid. */
+function setSymbolBoxUsage(box, symbolUsed, zeroUsed) {
+  if (!box) return;
+  box.classList.toggle("symbol-used", !!symbolUsed);
+  box.classList.toggle("symbol-zero-used", !!zeroUsed);
+  box.setAttribute("aria-disabled", symbolUsed ? "true" : "false");
+  const hit = box.querySelector(".symbol-zero-hit");
+  if (hit) hit.setAttribute("aria-disabled", zeroUsed ? "true" : "false");
+}
+
 if (langBtn && langDropdown) {
   function setLangButtonLabel(code) {
     langBtn.textContent = LANGUAGES[code] || LANGUAGES.en;
@@ -3710,11 +3721,9 @@ if (page === "create") {
   const grid = document.getElementById("symbol-grid");
   const categoryElements = {
     is: document.getElementById("category-is"),
-    unrelated: document.getElementById("category-unrelated"),
   };
   const categorySymbols = {
     is: [],
-    unrelated: [],
   };
   let completedCategoryDrop = false;
   const modeToggle = document.getElementById("create-mode-toggle");
@@ -3778,38 +3787,49 @@ if (page === "create") {
     return div;
   }
 
-  function isSymbolUsed(symbolId) {
-    return Object.values(categorySymbols).some((items) => items.some((symbol) => symbol.id === symbolId));
+  function isSymbolUsed(symbolId, negated) {
+    const probe = { id: symbolId, negated: !!negated };
+    return Object.values(categorySymbols).some((items) => items.some((symbol) => sameSymbolRef(symbol, probe)));
   }
 
   function updateUsedGridSymbols() {
     grid.querySelectorAll(".symbol-box[data-symbol-id]").forEach((box) => {
-      const used = isSymbolUsed(parseInt(box.dataset.symbolId, 10));
-      box.classList.toggle("symbol-used", used);
-      box.setAttribute("draggable", used ? "false" : "true");
-      box.setAttribute("aria-disabled", used ? "true" : "false");
+      const id = parseInt(box.dataset.symbolId, 10);
+      const used = isSymbolUsed(id, false);
+      setSymbolBoxUsage(box, used, isSymbolUsed(id, true));
+      if (!box.classList.contains("symbol-key-category")) box.setAttribute("draggable", used ? "false" : "true");
     });
   }
 
-  function removeSymbolFromCategories(symbolId) {
+  function removeSymbolFromCategories(symbolId, negated) {
+    const probe = { id: symbolId, negated: !!negated };
     Object.keys(categorySymbols).forEach((category) => {
-      categorySymbols[category] = categorySymbols[category].filter((symbol) => symbol.id !== symbolId);
+      categorySymbols[category] = categorySymbols[category].filter((symbol) => !sameSymbolRef(symbol, probe));
     });
   }
 
-  function symbolForCategoryDrop(symbolId) {
+  function readDraggedSymbol(dataTransfer) {
+    return {
+      id: parseInt(dataTransfer.getData("text/plain"), 10),
+      negated: dataTransfer.getData("symbolNegated") === "1",
+    };
+  }
+
+  function symbolForCategoryDrop(dragged) {
     let stored = null;
     Object.keys(categorySymbols).some((category) => {
-      stored = categorySymbols[category].find((symbol) => symbol.id === symbolId) || null;
+      stored = categorySymbols[category].find((symbol) => sameSymbolRef(symbol, dragged)) || null;
       return !!stored;
     });
     if (stored) return stored;
-    return symbols.find((candidate) => candidate.id === symbolId) || null;
+    const sym = symbols.find((candidate) => candidate.id === dragged.id);
+    if (!sym) return null;
+    return dragged.negated ? Object.assign({}, sym, { negated: true }) : sym;
   }
 
   function addSymbolToCategory(symbol, category, insertIndex) {
     if (!symbol || !categorySymbols[category]) return;
-    removeSymbolFromCategories(symbol.id);
+    removeSymbolFromCategories(symbol.id, !!symbol.negated);
     const stored = {
       id: symbol.id,
       name: symbol.name,
@@ -3842,6 +3862,7 @@ if (page === "create") {
         completedCategoryDrop = false;
         event.dataTransfer.effectAllowed = "move";
         event.dataTransfer.setData("text/plain", String(symbol.id));
+        event.dataTransfer.setData("symbolNegated", symbol.negated ? "1" : "0");
         event.dataTransfer.setData("source", "category");
         event.dataTransfer.setData("sourceCategory", category);
         event.dataTransfer.setData("sourceIndex", String(index));
@@ -3854,8 +3875,7 @@ if (page === "create") {
         event.preventDefault();
         event.stopPropagation();
         completedCategoryDrop = true;
-        const symbolId = parseInt(event.dataTransfer.getData("text/plain"), 10);
-        const dragged = symbolForCategoryDrop(symbolId);
+        const dragged = symbolForCategoryDrop(readDraggedSymbol(event.dataTransfer));
         const sourceCategory = event.dataTransfer.getData("sourceCategory");
         const sourceIndex = parseInt(event.dataTransfer.getData("sourceIndex"), 10);
         const insertIndex = sourceCategory === category && sourceIndex < index ? index - 1 : index;
@@ -3863,13 +3883,13 @@ if (page === "create") {
       });
       item.addEventListener("dragend", () => {
         if (!completedCategoryDrop) {
-          removeSymbolFromCategories(symbol.id);
+          removeSymbolFromCategories(symbol.id, !!symbol.negated);
           renderCategories();
         }
         completedCategoryDrop = false;
       });
       item.addEventListener("click", () => {
-        removeSymbolFromCategories(symbol.id);
+        removeSymbolFromCategories(symbol.id, !!symbol.negated);
         renderCategories();
       });
       item.addEventListener("contextmenu", (event) => {
@@ -4502,8 +4522,7 @@ if (page === "create") {
       event.preventDefault();
       if (event.target.closest(".category-symbol-item")) return;
       completedCategoryDrop = true;
-      const symbolId = parseInt(event.dataTransfer.getData("text/plain"), 10);
-      const symbol = symbolForCategoryDrop(symbolId);
+      const symbol = symbolForCategoryDrop(readDraggedSymbol(event.dataTransfer));
       addSymbolToCategory(symbol, category);
     });
   });
@@ -4518,9 +4537,9 @@ if (page === "create") {
     if (event.dataTransfer.getData("source") !== "category") return;
     event.preventDefault();
     completedCategoryDrop = true;
-    const symbolId = parseInt(event.dataTransfer.getData("text/plain"), 10);
-    if (symbolId) {
-      removeSymbolFromCategories(symbolId);
+    const dragged = readDraggedSymbol(event.dataTransfer);
+    if (dragged.id) {
+      removeSymbolFromCategories(dragged.id, dragged.negated);
       renderCategories();
     }
   });
@@ -4588,7 +4607,7 @@ if (page === "create") {
     const displayName = getSymbolName(sym);
     appendSymbolFace(div, sym, displayName, opts.isKeyCategory ? null : {
       onNegate: () => {
-        if (isSymbolUsed(sym.id)) return;
+        if (isSymbolUsed(sym.id, true)) return;
         addSymbolToCategory(Object.assign({}, sym, { negated: true }), "is");
       },
     });
@@ -4607,15 +4626,16 @@ if (page === "create") {
       });
     } else {
       div.addEventListener("dragstart", (e) => {
-        if (isSymbolUsed(sym.id)) {
+        if (isSymbolUsed(sym.id, false)) {
           e.preventDefault();
           return;
         }
         e.dataTransfer.setData("text/plain", sym.id);
+        e.dataTransfer.setData("symbolNegated", "0");
         e.dataTransfer.setData("source", "grid");
       });
       div.addEventListener("click", () => {
-        if (isSymbolUsed(sym.id)) return;
+        if (isSymbolUsed(sym.id, false)) return;
         addSymbolToCategory(sym, "is");
       });
     }
@@ -4709,7 +4729,7 @@ if (page === "create") {
       const match =
         name.includes(query) || (desc && desc.includes(query)) || (extraText && extraText.includes(query));
       if (!match) return;
-      if (isSymbolUsed(sym.id)) usedMatches.push(sym);
+      if (isSymbolUsed(sym.id, false) && isSymbolUsed(sym.id, true)) usedMatches.push(sym);
       else unusedMatches.push(sym);
     });
     unusedMatches.concat(usedMatches).forEach((sym) => appendCreateSymbolBox(sym));
@@ -4797,7 +4817,6 @@ if (page === "create") {
     }
     const categories = {
       is: categorySymbols.is.map(toRef),
-      unrelated: categorySymbols.unrelated.map(toRef),
     };
     const stampSymbols = categories.is.slice(0, 4);
     let saveOriginLang = originLang;
@@ -5090,9 +5109,7 @@ if (page === "draw") {
       if (boxOpts.isKeyCategory) box.classList.add("symbol-key-category");
       if (boxOpts.isKeyOpen) box.classList.add("symbol-key-open");
       box.title = name;
-      appendSymbolFace(box, sym, name, boxOpts.isKeyCategory ? null : {
-        onNegate: () => selectSymbol(sym),
-      });
+      appendSymbolFace(box, sym, name, null);
       const span = document.createElement("span");
       span.textContent = name;
       box.appendChild(span);
@@ -6776,10 +6793,11 @@ if (page === "transfers") {
       txtContentSentences: "Sentence Contexts",
       exportTxt: "Export Txt",
       txtSizeFull: "Full File",
-      txtSizeSplit: "10mb Files",
+      txtSizeSplit: "Sized Files",
+      txtSplitMbLabel: "MB per file",
       txtLayoutListed: "Words Listed",
       txtLayoutPerLine: "Word per line",
-      txtSplitConfirm: "This export is about {mb} MB and will download as {count} files (10MB each). Continue?",
+      txtSplitConfirm: "This export is about {mb} MB and will download as {count} files (up to {size}MB each). Continue?",
       txtSplitDone: "Exported {count} files.",
       txtExportBuilding: "Building txt export… this can take a while for large dictionaries.",
       txtExportMeasuring: "Measuring export size…",
@@ -6788,13 +6806,12 @@ if (page === "transfers") {
       exportLoadingPreparing: "Preparing export…",
       exportLoadingPackaging: "Packaging files…",
       exportLoadingDownloading: "Starting download…",
-      txtImportSummary: "Approved: {merged} symbol merges, {updated} word updates, {separated} exceptions added, {added} new words. Sentences +{sentenceAdded}/~{sentenceUpdated}.",
+      txtImportSummary: "Approved: {merged} symbol merges, {updated} word updates, {added} new words. Sentences +{sentenceAdded}/~{sentenceUpdated}.",
       reviewTitle: "Review Import",
       reviewMeta: "{count} change(s) to review. Unchecked items are ignored.",
       reviewNone: "No dictionary changes to review.",
       reviewSymbols: "Symbols",
       reviewWordChange: "Word change",
-      reviewExceptions: "Exceptions",
       reviewNewWords: "New words",
       reviewSelectAll: "Select All",
       reviewDeselectAll: "Deselect All",
@@ -6802,7 +6819,6 @@ if (page === "transfers") {
       reviewCancel: "Cancel",
       reviewCurrent: "Current",
       reviewImport: "Import",
-      reviewWillSeparate: "Will be added as a separate word for exception checking.",
       reviewAddSymbols: "Add symbols",
       exportSelected: "Export Selected",
       dictSection: "Dictionary",
@@ -6919,7 +6935,7 @@ if (page === "transfers") {
       exportLoadingPreparing: "Preparazione esportazione…",
       exportLoadingPackaging: "Creazione pacchetto…",
       exportLoadingDownloading: "Avvio download…",
-      txtSizeFull: "File intero", txtSizeSplit: "File da 10mb", txtLayoutListed: "Parole elencate", txtLayoutPerLine: "Parola per riga",
+      txtSizeFull: "File intero", txtSizeSplit: "File dimensionati", txtSplitMbLabel: "MB per file", txtLayoutListed: "Parole elencate", txtLayoutPerLine: "Parola per riga",
       dictSection: "Dizionario", imageSection: "Immagini", sentenceSection: "Frasi", commentSection: "Commenti",
       wordSearchPlaceholder: "Cerca parole…", imageSearchPlaceholder: "Cerca simboli…", sentenceSearchPlaceholder: "Cerca frasi…", commentSearchPlaceholder: "Cerca commenti…",
       fullDictionary: "Seleziona tutte le parole", fullImages: "Seleziona tutte le immagini", fullSentences: "Seleziona tutte le frasi", fullComments: "Seleziona tutti i commenti",
@@ -6939,7 +6955,7 @@ if (page === "transfers") {
       exportLoadingPreparing: "Preparando exportação…",
       exportLoadingPackaging: "Empacotando arquivos…",
       exportLoadingDownloading: "Iniciando download…",
-      txtSizeFull: "Arquivo completo", txtSizeSplit: "Arquivos de 10mb", txtLayoutListed: "Palavras listadas", txtLayoutPerLine: "Palavra por linha",
+      txtSizeFull: "Arquivo completo", txtSizeSplit: "Arquivos dimensionados", txtSplitMbLabel: "MB por arquivo", txtLayoutListed: "Palavras listadas", txtLayoutPerLine: "Palavra por linha",
       dictSection: "Dicionário", imageSection: "Imagens", sentenceSection: "Frases", commentSection: "Comentários",
       wordSearchPlaceholder: "Pesquisar palavras…", imageSearchPlaceholder: "Pesquisar símbolos…", sentenceSearchPlaceholder: "Pesquisar frases…", commentSearchPlaceholder: "Pesquisar comentários…",
       fullDictionary: "Selecionar todas as palavras", fullImages: "Selecionar todas as imagens", fullSentences: "Selecionar todas as frases", fullComments: "Selecionar todos os comentários",
@@ -6959,7 +6975,7 @@ if (page === "transfers") {
       exportLoadingPreparing: "내보내기 준비 중…",
       exportLoadingPackaging: "파일 묶는 중…",
       exportLoadingDownloading: "다운로드 시작 중…",
-      txtSizeFull: "전체 파일", txtSizeSplit: "10mb 파일", txtLayoutListed: "단어 목록", txtLayoutPerLine: "줄당 단어",
+      txtSizeFull: "전체 파일", txtSizeSplit: "크기 지정 파일", txtSplitMbLabel: "파일당 MB", txtLayoutListed: "단어 목록", txtLayoutPerLine: "줄당 단어",
       dictSection: "사전", imageSection: "이미지", sentenceSection: "문장", commentSection: "댓글",
       wordSearchPlaceholder: "단어 검색…", imageSearchPlaceholder: "기호 검색…", sentenceSearchPlaceholder: "문장 검색…", commentSearchPlaceholder: "댓글 검색…",
       fullDictionary: "모든 단어 선택", fullImages: "모든 이미지 선택", fullSentences: "모든 문장 선택", fullComments: "모든 댓글 선택",
@@ -6996,8 +7012,33 @@ if (page === "transfers") {
   const txtSizeToggle = document.getElementById("transfer-txt-size-toggle");
   const txtLayoutToggle = document.getElementById("transfer-txt-layout-toggle");
   const exportTxtBtn = document.getElementById("transfer-export-txt");
-  let txtSplit10mb = false;
+  const txtSplitSizeWrap = document.getElementById("transfer-txt-split-size");
+  const txtSplitMbInput = document.getElementById("transfer-txt-split-mb");
+  const TXT_SPLIT_MB_MIN = 1;
+  const TXT_SPLIT_MB_MAX = 1024;
+  let txtSplitFiles = false;
+  let txtSplitMb = clampTxtSplitMb(localStorage.getItem("txtSplitMb"));
   let txtWordPerLine = false;
+
+  function clampTxtSplitMb(value) {
+    if (value == null || value === "") return 10;
+    const n = Math.round(Number(value));
+    if (!Number.isFinite(n)) return 10;
+    return Math.min(TXT_SPLIT_MB_MAX, Math.max(TXT_SPLIT_MB_MIN, n));
+  }
+
+  function renderTxtSizeControls() {
+    const t = getTransfersText();
+    if (txtSizeToggle) {
+      txtSizeToggle.textContent = txtSplitFiles
+        ? (t.txtSizeSplit || "Sized Files")
+        : (t.txtSizeFull || "Full File");
+    }
+    if (txtSplitSizeWrap) txtSplitSizeWrap.classList.toggle("hidden", !txtSplitFiles);
+    if (txtSplitMbInput && document.activeElement !== txtSplitMbInput) txtSplitMbInput.value = String(txtSplitMb);
+    const label = document.getElementById("transfers-txt-split-mb-label");
+    if (label) label.textContent = t.txtSplitMbLabel || "MB per file";
+  }
   const exportSelectedBtn = document.getElementById("transfer-export-selected");
   const advancedPanel = document.getElementById("transfer-advanced");
   const wordSearch = document.getElementById("transfer-word-search");
@@ -7071,7 +7112,7 @@ if (page === "transfers") {
     if (advancedToggle) advancedToggle.textContent = t.advancedSettings;
     if (txtOnlyToggle) txtOnlyToggle.textContent = t.txtOnly || "Txt Only";
     if (exportTxtBtn) exportTxtBtn.textContent = t.exportTxt || "Export Txt";
-    if (txtSizeToggle) txtSizeToggle.textContent = txtSplit10mb ? (t.txtSizeSplit || "10mb Files") : (t.txtSizeFull || "Full File");
+    renderTxtSizeControls();
     if (txtLayoutToggle) txtLayoutToggle.textContent = txtWordPerLine ? (t.txtLayoutPerLine || "Word per line") : (t.txtLayoutListed || "Words Listed");
     if (importReviewTitle) importReviewTitle.textContent = t.reviewTitle || "Review Import";
     if (importReviewSelectAll) importReviewSelectAll.textContent = t.reviewSelectAll || "Select All";
@@ -7800,7 +7841,6 @@ if (page === "transfers") {
     importReviewList.innerHTML = "";
     const changeCount = (preview.symbols || []).length
       + (preview.wordChanges || []).length
-      + (preview.exceptions || []).length
       + (preview.newWords || []).length;
     if (importReviewMeta) {
       importReviewMeta.textContent = formatTransfersText(
@@ -7837,23 +7877,14 @@ if (page === "transfers") {
     }
 
     addSection(t.reviewSymbols || "Symbols", preview.symbols, "symbols:", (item, body) => {
-      const currentParts = [];
-      if (item.current) {
-        if (item.current.is && item.current.is.length) currentParts.push("Is: " + api.formatSymbolNames(item.current.is));
-        if (item.current.unrelated && item.current.unrelated.length) currentParts.push("Unrelated: " + api.formatSymbolNames(item.current.unrelated));
-      }
-      if (currentParts.length) {
+      if (item.current && item.current.is && item.current.is.length) {
         const current = document.createElement("span");
-        current.textContent = (t.reviewCurrent || "Current") + ": " + currentParts.join(" · ");
+        current.textContent = (t.reviewCurrent || "Current") + ": " + api.formatSymbolNames(item.current.is);
         body.appendChild(current);
       }
-      const addedParts = [];
-      if (item.addedSymbols) {
-        if (item.addedSymbols.is.length) addedParts.push("Is + " + api.formatSymbolNames(item.addedSymbols.is));
-        if (item.addedSymbols.unrelated && item.addedSymbols.unrelated.length) addedParts.push("Unrelated + " + api.formatSymbolNames(item.addedSymbols.unrelated));
-      }
       const added = document.createElement("span");
-      added.textContent = (t.reviewAddSymbols || "Add symbols") + ": " + (addedParts.join(" · ") || "—");
+      added.textContent = (t.reviewAddSymbols || "Add symbols") + ": "
+        + ((item.addedSymbols && item.addedSymbols.is.length) ? api.formatSymbolNames(item.addedSymbols.is) : "—");
       body.appendChild(added);
     });
 
@@ -7864,23 +7895,6 @@ if (page === "transfers") {
         line.textContent = langLabel + ": " + (diff.current || "—") + " → " + (diff.incoming || "—");
         body.appendChild(line);
       });
-    });
-
-    addSection(t.reviewExceptions || "Exceptions", preview.exceptions, "exception:", (item, body) => {
-      const clash = document.createElement("span");
-      clash.textContent = (item.clashes && item.clashes.length)
-        ? item.clashes.join(" · ")
-        : ((t.reviewCurrent || "Current") + " and import disagree on symbol categories.");
-      body.appendChild(clash);
-      (item.wordDiff || []).forEach((diff) => {
-        const line = document.createElement("span");
-        const langLabel = (LANGUAGES[diff.lang] || diff.lang || "");
-        line.textContent = langLabel + ": " + (diff.current || "—") + " → " + (diff.incoming || "—");
-        body.appendChild(line);
-      });
-      const note = document.createElement("span");
-      note.textContent = t.reviewWillSeparate || "Will be added as a separate word for exception checking.";
-      body.appendChild(note);
     });
 
     addSection(t.reviewNewWords || "New words", preview.newWords, "new:", (item, body) => {
@@ -7915,7 +7929,7 @@ if (page === "transfers") {
     const parsed = { dictionary, sentences };
     const preview = parsed.dictionary.length
       ? api.previewTxtDictionaryImport(parsed.dictionary)
-      : { symbols: [], wordChanges: [], exceptions: [], newWords: [] };
+      : { symbols: [], wordChanges: [], newWords: [] };
     const hasDictChanges = api.previewHasChanges(preview);
     if (!hasDictChanges && !(parsed.sentences && parsed.sentences.length)) {
       alert(getTransfersText().reviewNone || "No dictionary changes to review.");
@@ -7923,10 +7937,9 @@ if (page === "transfers") {
     }
     if (!hasDictChanges && parsed.sentences && parsed.sentences.length) {
       const sentenceStats = api.importTxtSentences(parsed.sentences);
-      alert(formatTransfersText(getTransfersText().txtImportSummary || "Approved: {merged} symbol merges, {updated} word updates, {separated} exceptions added, {added} new words. Sentences +{sentenceAdded}/~{sentenceUpdated}.", {
+      alert(formatTransfersText(getTransfersText().txtImportSummary, {
         merged: 0,
         updated: 0,
-        separated: 0,
         added: 0,
         sentenceAdded: sentenceStats.added,
         sentenceUpdated: sentenceStats.updated,
@@ -7955,10 +7968,9 @@ if (page === "transfers") {
       ? api.importTxtSentences(pendingTxtImport.sentences)
       : { added: 0, updated: 0 };
     closeImportReview();
-    alert(formatTransfersText(getTransfersText().txtImportSummary || "Approved: {merged} symbol merges, {updated} word updates, {separated} exceptions added, {added} new words. Sentences +{sentenceAdded}/~{sentenceUpdated}.", {
+    alert(formatTransfersText(getTransfersText().txtImportSummary, {
       merged: dictStats.merged || 0,
       updated: dictStats.updated || 0,
-      separated: dictStats.separated || 0,
       added: dictStats.added || 0,
       sentenceAdded: sentenceStats.added,
       sentenceUpdated: sentenceStats.updated,
@@ -8044,7 +8056,9 @@ if (page === "transfers") {
     setTimeout(async () => {
       try {
         const filename = api.buildTxtFilename(langs, includeDictionary, includeSentences);
-        if (txtSplit10mb) {
+        if (txtSplitFiles) {
+          const splitMb = txtSplitMb;
+          const maxBytes = splitMb * 1024 * 1024;
           setTransferExportProgress(1, t.txtExportMeasuring || "Measuring export size…");
           const measured = await api.measureTxtExport(
             langs,
@@ -8052,13 +8066,14 @@ if (page === "transfers") {
             includeSentences,
             yieldToUi,
             txtWordPerLine,
-            makeTxtProgressHandler(2, 48, t.txtExportMeasuring || "Measuring export size…")
+            makeTxtProgressHandler(2, 48, t.txtExportMeasuring || "Measuring export size…"),
+            maxBytes
           );
           hideTransferExportLoading();
           const totalMb = (measured.totalBytes / (1024 * 1024)).toFixed(1);
           const ok = confirm(formatTransfersText(
-            t.txtSplitConfirm || "This export is about {mb} MB and will download as {count} files (10MB each). Continue?",
-            { mb: totalMb, count: measured.chunks }
+            t.txtSplitConfirm || "This export is about {mb} MB and will download as {count} files (up to {size}MB each). Continue?",
+            { mb: totalMb, count: measured.chunks, size: splitMb }
           ));
           if (!ok) return;
           showTransferExportLoading(t.txtExportBuilding || t.exportLoading || "Exporting…");
@@ -8068,7 +8083,8 @@ if (page === "transfers") {
             selectedLangs: langs,
             includeDictionary,
             includeSentences,
-            split10mb: true,
+            split: true,
+            maxBytes,
             oneLine: txtWordPerLine,
             totalChunks: measured.chunks,
             yieldFn: yieldToUi,
@@ -8095,7 +8111,7 @@ if (page === "transfers") {
             selectedLangs: langs,
             includeDictionary,
             includeSentences,
-            split10mb: false,
+            split: false,
             oneLine: txtWordPerLine,
             yieldFn: yieldToUi,
             onProgress: makeTxtProgressHandler(2, 96, t.txtExportBuilding || "Building…"),
@@ -8141,9 +8157,19 @@ if (page === "transfers") {
   if (txtContentSentences) txtContentSentences.addEventListener("change", updateTxtExportButtonState);
   if (txtSizeToggle) {
     txtSizeToggle.addEventListener("click", () => {
-      txtSplit10mb = !txtSplit10mb;
-      const t = getTransfersText();
-      txtSizeToggle.textContent = txtSplit10mb ? (t.txtSizeSplit || "10mb Files") : (t.txtSizeFull || "Full File");
+      txtSplitFiles = !txtSplitFiles;
+      renderTxtSizeControls();
+    });
+  }
+  if (txtSplitMbInput) {
+    txtSplitMbInput.addEventListener("input", () => {
+      if (txtSplitMbInput.value === "") return;
+      txtSplitMb = clampTxtSplitMb(txtSplitMbInput.value);
+      localStorage.setItem("txtSplitMb", String(txtSplitMb));
+      renderTxtSizeControls();
+    });
+    txtSplitMbInput.addEventListener("change", () => {
+      txtSplitMbInput.value = String(txtSplitMb);
     });
   }
   if (txtLayoutToggle) {
@@ -10473,15 +10499,12 @@ if (page === "dictionary") {
 
   function renderWordContextSymbols(entry) {
     wordContextSymbolGroups.innerHTML = "";
-    const groups = getEntryCategories(entry);
-    [["is", "Is"], ["unrelated", "Unrelated"]].forEach(([key, label]) => {
-      if (!groups[key].length) return;
+    const refs = getEntryCategories(entry).is;
+    if (refs.length) {
       const section = document.createElement("section");
-      const heading = document.createElement("h3");
       const symbolsWrap = document.createElement("div");
-      heading.textContent = label;
       symbolsWrap.className = "word-context-symbol-list";
-      groups[key].forEach((ref) => {
+      refs.forEach((ref) => {
         const symbol = typeof symbols !== "undefined" && symbols.find((candidate) => String(candidate.id) === String(ref.id));
         const box = document.createElement("div");
         const name = symbol ? getSymbolName(symbol) : (ref.name || "");
@@ -10491,10 +10514,9 @@ if (page === "dictionary") {
         appendSymbolFace(box, symbol || ref, label, symbolRefIsNegated(ref) ? { negated: true } : null);
         symbolsWrap.appendChild(box);
       });
-      section.appendChild(heading);
       section.appendChild(symbolsWrap);
       wordContextSymbolGroups.appendChild(section);
-    });
+    }
     if (Array.isArray(entry.compoundParts) && entry.compoundParts.length) {
       const section = document.createElement("section");
       const heading = document.createElement("h3");
@@ -10805,13 +10827,14 @@ if (page === "web") {
     return 0;
   }
 
-  function isQuerySelected(symbolId) {
-    return querySymbols.some((sym) => String(sym.id) === String(symbolId));
+  function isQuerySelected(symbolId, negated) {
+    const probe = { id: symbolId, negated: !!negated };
+    return querySymbols.some((sym) => sameSymbolRef(sym, probe));
   }
 
   function addQuerySymbol(symbol, negated) {
     if (!symbol || querySymbols.length >= 8) return;
-    if (isQuerySelected(symbol.id)) return;
+    if (isQuerySelected(symbol.id, negated)) return;
     querySymbols.push({
       id: symbol.id,
       name: symbol.name,
@@ -10891,7 +10914,8 @@ if (page === "web") {
     box.className = "symbol-box";
     if (opts.isKeyCategory) box.classList.add("symbol-key-category");
     if (opts.isKeyOpen) box.classList.add("symbol-key-open");
-    if (isQuerySelected(symbol.id) && !opts.isKeyCategory) box.classList.add("web-symbol-selected");
+    const plainSelected = !opts.isKeyCategory && isQuerySelected(symbol.id, false);
+    if (plainSelected) box.classList.add("web-symbol-selected");
     box.dataset.symbolId = symbol.id;
     if (opts.categoryIndex != null) box.dataset.keyCategoryIndex = String(opts.categoryIndex);
     const displayName = getSymbolName(symbol);
@@ -10899,6 +10923,7 @@ if (page === "web") {
     appendSymbolFace(box, symbol, displayName, opts.isKeyCategory ? null : {
       onNegate: () => addQuerySymbol(symbol, true),
     });
+    if (!opts.isKeyCategory) setSymbolBoxUsage(box, plainSelected, isQuerySelected(symbol.id, true));
     const nameSpan = document.createElement("span");
     nameSpan.textContent = displayName;
     box.appendChild(nameSpan);
@@ -11281,6 +11306,183 @@ if (page === "web") {
 }
 
 /* --------------------------------
+   KANVERSION
+   Every radical gets a Kanmoji: one of the app's symbols (two radicals may share one). Breakdown pieces that
+   are neither a radical nor a listed character get one too. A character (one per glyph, shared by the Chinese
+   and Japanese lists) gets a Kanversion, a drawing, once every part of one of its breakdowns has its own.
+   Units are keyed "R:<radical id>", "P:<piece glyph>" and "C:<character glyph>".
+-------------------------------- */
+const KANVERSION_KANMOJI_KEY = "kanversionKanmoji";
+const KANVERSION_IMAGES_KEY = "kanversionImages";
+// Radical forms the breakdowns use that the radical list does not name among its variants.
+const KANVERSION_RADICAL_FORMS = {
+  "⺅": 9, "⺆": 13, "⺈": 18, "⺊": 25, "⺁": 27, "卄": 55, "⺕": 58, "⺖": 61, "⺗": 61, "⺘": 64, "⺙": 66,
+  "⺌": 42, "⺍": 42, "⺡": 85, "⺣": 86, "⺤": 87, "丬": 90, "⺧": 93, "⺨": 94, "⺩": 96, "⺪": 103, "⺬": 113,
+  "⺭": 113, "⺮": 118, "纟": 120, "糹": 120, "罒": 122, "⺫": 122, "⺲": 122, "⺶": 123, "⺷": 123, "⺹": 125,
+  "⺺": 129, "⺻": 129, "⺼": 130, "⺾": 140, "⺿": 140, "⻀": 140, "⻂": 145, "⻃": 146, "⻄": 146, "讠": 149,
+  "⻊": 157, "⻌": 162, "⻍": 162, "⻎": 162, "钅": 167, "镸": 168, "⻗": 173, "饣": 184, "⻞": 184, "⻟": 184,
+};
+
+function readKanversionStore(key) {
+  try {
+    const value = JSON.parse(localStorage.getItem(key));
+    return value && typeof value === "object" ? value : {};
+  } catch (_) {
+    return {};
+  }
+}
+
+function readKanversionState() {
+  return { kanmoji: readKanversionStore(KANVERSION_KANMOJI_KEY), images: readKanversionStore(KANVERSION_IMAGES_KEY) };
+}
+
+const isKanversionDone = (key, state) => (key.startsWith("C:") ? !!state.images[key] : state.kanmoji[key] != null);
+
+// "白 (white); 勺 (spoon)" -> [{ glyph, name }]; "[亻+土]" is a shape made of the glyphs inside it.
+function parseKanversionParts(text) {
+  const parts = [];
+  String(text || "").split("; ").forEach((raw) => {
+    const part = raw.trim();
+    if (!part) return;
+    if (part.startsWith("[")) {
+      part.replace(/^\[|\].*$/g, "").split("+").forEach((glyph) => {
+        if (glyph && glyph !== "?") parts.push({ glyph, name: "" });
+      });
+      return;
+    }
+    const match = part.match(/^(\S+)\s*(?:\((.*)\))?$/);
+    parts.push({ glyph: match ? match[1] : part.split(" (")[0], name: (match && match[2]) || "" });
+  });
+  return parts;
+}
+
+// "1. guó (guo2) - country • nation | 2. ..." -> "country"
+function kanversionHanziGloss(readings) {
+  const match = String(readings || "").match(/\)\s*-\s*([^•|;]*)/);
+  return match ? match[1].trim() : "";
+}
+
+let kanversionIndex = null;
+
+// Built once from window.KANJI_DATA (kanji-data.js).
+function getKanversionIndex() {
+  if (kanversionIndex) return kanversionIndex;
+  const data = window.KANJI_DATA;
+  if (!data) return null;
+  const rows = (list) => (Array.isArray(list) ? list : []).map((line) => String(line).split("\t"));
+
+  const radicals = [];
+  const radicalOf = new Map();
+  rows(data.radicals).forEach((c) => {
+    const radical = { key: `R:${c[0]}`, id: Number(c[0]) || 0, glyph: c[1] || "", meaning: c[4] || "" };
+    radicals.push(radical);
+    const variants = String(c[8] || "").split(";").map((v) => v.trim().split(" ")[0]).filter((g) => g && !g.startsWith("("));
+    [radical.glyph, c[2], ...variants].forEach((glyph) => {
+      if (glyph && !radicalOf.has(glyph)) radicalOf.set(glyph, radical);
+    });
+  });
+  const radicalById = new Map(radicals.map((radical) => [radical.id, radical]));
+  Object.entries(KANVERSION_RADICAL_FORMS).forEach(([glyph, id]) => {
+    if (!radicalOf.has(glyph) && radicalById.has(id)) radicalOf.set(glyph, radicalById.get(id));
+  });
+
+  // A character that is itself a radical (口, 人) takes the radical's Kanmoji instead of a drawing of its own.
+  const chars = new Map();
+  const addChar = (glyph, meaning, partsText) => {
+    if (!glyph || radicalOf.has(glyph)) return;
+    let char = chars.get(glyph);
+    if (!char) {
+      char = { key: `C:${glyph}`, glyph, meaning: "", rawParts: [] };
+      chars.set(glyph, char);
+    }
+    if (meaning && !char.meaning) char.meaning = meaning;
+    const parts = parseKanversionParts(partsText).filter((part) => part.glyph !== glyph);
+    if (parts.length) char.rawParts.push(parts);
+  };
+  rows(data.kanji).forEach((c) => addChar(c[0], String(c[5] || "").split(",")[0].trim(), c[8]));
+  rows(data.hanzi).forEach((c) => addChar(c[1], kanversionHanziGloss(c[5]), c[4]));
+
+  const pieces = new Map();
+  const unitKeyOf = (glyph) => {
+    const radical = radicalOf.get(glyph);
+    if (radical) return radical.key;
+    if (chars.has(glyph)) return chars.get(glyph).key;
+    return `P:${glyph}`;
+  };
+  chars.forEach((char) => {
+    const seen = new Set();
+    char.breakdowns = [];
+    char.rawParts.forEach((parts) => {
+      parts.forEach(({ glyph, name }) => {
+        if (radicalOf.has(glyph) || chars.has(glyph) || pieces.has(glyph)) return;
+        pieces.set(glyph, { key: `P:${glyph}`, glyph, meaning: name });
+      });
+      const keys = Array.from(new Set(parts.map(({ glyph }) => unitKeyOf(glyph))));
+      const id = keys.join(" ");
+      if (seen.has(id)) return;
+      seen.add(id);
+      char.breakdowns.push(keys);
+    });
+    delete char.rawParts;
+  });
+
+  const unitByKey = new Map();
+  radicals.forEach((unit) => unitByKey.set(unit.key, unit));
+  pieces.forEach((unit) => unitByKey.set(unit.key, unit));
+  chars.forEach((unit) => unitByKey.set(unit.key, unit));
+  kanversionIndex = {
+    radicals,
+    pieces: Array.from(pieces.values()),
+    chars: Array.from(chars.values()),
+    unitByKey,
+    unitKeyOf,
+  };
+  return kanversionIndex;
+}
+
+// A character with no breakdown is ready as soon as the radicals are.
+function kanversionReadyParts(char, state) {
+  if (!char.breakdowns.length) return [];
+  return char.breakdowns.find((keys) => keys.every((key) => isKanversionDone(key, state))) || null;
+}
+
+// A unit has one or two Kanmojis; early saves stored a single id rather than a list.
+function kanversionKanmojiIds(key, state) {
+  const value = state.kanmoji[key];
+  return value == null ? [] : [].concat(value);
+}
+
+function kanversionSymbols(key, state) {
+  if (typeof symbols === "undefined") return [];
+  return kanversionKanmojiIds(key, state)
+    .map((id) => symbols.find((s) => String(s.id) === String(id)))
+    .filter(Boolean);
+}
+
+// The Kanmoji (a symbol, or two side by side) or Kanversion (a drawing) for a unit, or null when it has none yet.
+function createKanversionVisual(key, state) {
+  if (key.startsWith("C:")) {
+    const image = state.images[key];
+    return image ? createSymbolVisual({ image }, key.slice(2)) : null;
+  }
+  const syms = kanversionSymbols(key, state);
+  if (!syms.length) return null;
+  if (syms.length === 1) return createSymbolVisual(syms[0], getSymbolName(syms[0]));
+  const pair = document.createElement("div");
+  pair.className = "kanversion-pair";
+  syms.forEach((sym) => {
+    const half = document.createElement("div");
+    half.appendChild(createSymbolVisual(sym, getSymbolName(sym)));
+    pair.appendChild(half);
+  });
+  return pair;
+}
+
+function kanversionSymbolName(key, state) {
+  return kanversionSymbols(key, state).map(getSymbolName).join(" + ");
+}
+
+/* --------------------------------
    PLAY PAGE
 -------------------------------- */
 if (page === "play") {
@@ -11290,6 +11492,8 @@ if (page === "play") {
     "ladder-guesser": { minPlayers: 2, titleKey: "play.ladderGuesserTitle" },
     "guess-stamp": { minPlayers: 1, titleKey: "play.guessStampTitle" },
     "manual-input": { minPlayers: 1, titleKey: "play.manualInputTitle" },
+    // Played alone: no scores, languages or Context option.
+    kanversion: { minPlayers: 1, titleKey: "play.kanversionTitle", solo: true },
   };
 
   const setupSection = document.getElementById("play-setup");
@@ -11379,7 +11583,7 @@ if (page === "play") {
     return {
       schemaVersion: 3,
       _entryId: makeEntryId(),
-      categories: { is: [], unrelated: [] },
+      categories: { is: [] },
       stampSymbols: [],
       symbols: [],
       definition: getPlayWorldField(line, 0),
@@ -11422,27 +11626,13 @@ if (page === "play") {
 
   function applyPlaySymbolRefsToEntry(entry, symbolRefs) {
     if (!entry || entry.isCore || !symbolRefs || !symbolRefs.length) return false;
-    if (!entry.categories) entry.categories = { is: [], unrelated: [] };
+    let changed = migrateEntrySymbolCategories(entry);
+    if (!entry.categories) entry.categories = { is: [] };
     if (!Array.isArray(entry.categories.is)) entry.categories.is = [];
-    if (!Array.isArray(entry.categories.unrelated)) entry.categories.unrelated = [];
-    let changed = false;
     symbolRefs.forEach((ref) => {
       if (!ref || ref.id == null) return;
-      const id = String(ref.id);
       const stored = cloneSymbolRef(ref, !!ref.negated);
-      const inIs = entry.categories.is.find((item) => item && String(item.id) === id);
-      const samePolarity = inIs && symbolRefIsNegated(inIs) === symbolRefIsNegated(stored);
-      ["unrelated", "isNot"].forEach((key) => {
-        if (!Array.isArray(entry.categories[key])) return;
-        const next = entry.categories[key].filter((item) => !(item && String(item.id) === id));
-        if (next.length !== entry.categories[key].length) {
-          entry.categories[key] = next;
-          changed = true;
-        }
-      });
-      if (entry.categories.isNot && !entry.categories.isNot.length) delete entry.categories.isNot;
-      if (samePolarity) return;
-      entry.categories.is = entry.categories.is.filter((item) => !(item && String(item.id) === id));
+      if (entry.categories.is.some((item) => sameSymbolRef(item, stored))) return;
       entry.categories.is.push(stored);
       changed = true;
     });
@@ -11605,23 +11795,16 @@ if (page === "play") {
     if (!entry || entry.isCore || !symbolRefs || !symbolRefs.length || !entry.categories) {
       return false;
     }
-    const removeIds = new Set(symbolRefs.map((ref) => String(ref && ref.id != null ? ref.id : "")).filter(Boolean));
-    if (!removeIds.size) return false;
-    let changed = false;
-    ["is", "unrelated", "isNot"].forEach((key) => {
-      if (!Array.isArray(entry.categories[key])) return;
-      const next = entry.categories[key].filter((ref) => !removeIds.has(String(ref && ref.id != null ? ref.id : "")));
-      if (next.length !== entry.categories[key].length) {
-        entry.categories[key] = next;
-        changed = true;
-      }
-    });
-    if (entry.categories.isNot) {
-      delete entry.categories.isNot;
+    const removeKeys = new Set(symbolRefs.map(symbolQueryToken).filter(Boolean));
+    if (!removeKeys.size) return false;
+    let changed = migrateEntrySymbolCategories(entry);
+    if (!Array.isArray(entry.categories.is)) entry.categories.is = [];
+    const next = entry.categories.is.filter((ref) => !removeKeys.has(symbolQueryToken(ref)));
+    if (next.length !== entry.categories.is.length) {
+      entry.categories.is = next;
       changed = true;
     }
     if (!changed) return false;
-    if (!Array.isArray(entry.categories.is)) entry.categories.is = [];
     entry.stampSymbols = entry.categories.is.slice(0, 4);
     entry.symbols = entry.stampSymbols;
     entry.tempstamped = entry.stampSymbols.length > 0;
@@ -12237,14 +12420,17 @@ if (page === "play") {
       box.className = "symbol-box";
       if (boxOpts.isKeyCategory) box.classList.add("symbol-key-category");
       if (boxOpts.isKeyOpen) box.classList.add("symbol-key-open");
-      if (opts.selectedIds && opts.selectedIds.some((id) => String(id) === String(sym.id))) {
-        box.classList.add("web-symbol-selected");
-      }
+      const selectedRefs = opts.selectedRefs || [];
+      const plainSelected = !boxOpts.isKeyCategory && selectedRefs.some((ref) => sameSymbolRef(ref, { id: sym.id }));
+      const zeroSelected = !boxOpts.isKeyCategory && selectedRefs.some((ref) => sameSymbolRef(ref, { id: sym.id, negated: true }));
+      if (plainSelected) box.classList.add("web-symbol-selected");
+      if (!boxOpts.isKeyCategory && (opts.pickedIds || []).some((id) => String(id) === String(sym.id))) box.classList.add("is-picked");
       const name = getSymbolName(sym);
       box.title = name;
       appendSymbolFace(box, sym, name, boxOpts.isKeyCategory ? null : {
         onNegate: () => onPick(sym, true),
       });
+      if (!boxOpts.isKeyCategory) setSymbolBoxUsage(box, plainSelected, zeroSelected);
       const span = document.createElement("span");
       span.textContent = name;
       box.appendChild(span);
@@ -12319,6 +12505,7 @@ if (page === "play") {
       paintGrid();
     });
     paintGrid();
+    return { repaint: paintGrid };
   }
 
   function renderRevealedSymbols(container, refs) {
@@ -12435,12 +12622,16 @@ if (page === "play") {
     setupSection.classList.add("hidden");
     gameSection.classList.remove("hidden");
     activeGameTitle.textContent = playText(game.titleKey);
-    renderScoreboard(0);
+    const contextLabel = contextToggle && contextToggle.closest(".play-context-toggle");
+    if (contextLabel) contextLabel.classList.toggle("hidden", !!game.solo);
+    if (game.solo) scoreboardEl.innerHTML = "";
+    else renderScoreboard(0);
     startRound();
   }
 
   function backToMenu() {
     closePlayContextPicker();
+    destroyKanversionDraw();
     playState = null;
     gamePanel.innerHTML = "";
     scoreboardEl.innerHTML = "";
@@ -12474,6 +12665,7 @@ if (page === "play") {
     else if (playState.game === "ladder-guesser") startLadderRound();
     else if (playState.game === "guess-stamp") startGuessStampRound();
     else if (playState.game === "manual-input") startManualInputRound();
+    else if (playState.game === "kanversion") startKanversionRound();
   }
 
   function getPlaySymbolText(sym, lang, field) {
@@ -12908,7 +13100,7 @@ if (page === "play") {
       block.appendChild(gridWrap);
       renderPlaySymbolGrid(gridWrap, (sym, negated) => {
         const ref = playSymbolRef(sym, negated);
-        if (playState.revealedSymbols.some((r) => String(r.id) === String(ref.id))) return;
+        if (playState.revealedSymbols.some((r) => sameSymbolRef(r, ref))) return;
         playState.revealedSymbols.push(ref);
         addPlaySymbolsToWordIs(playState.secretWord, [ref], { allowStarredPrimary: true });
         playState.awaitingMarkCorrect = false;
@@ -12917,7 +13109,7 @@ if (page === "play") {
         playState.guesserIndex = 1;
         playState.activePlayer = playState.guesserIndex;
         renderLadderPanel();
-      }, { selectedIds: playState.revealedSymbols.map((r) => r.id) });
+      }, { selectedRefs: playState.revealedSymbols });
 
       if (message && isError && playState.awaitingMarkCorrect) {
         const markCorrectBtn = document.createElement("button");
@@ -13185,7 +13377,7 @@ if (page === "play") {
       block.appendChild(gridWrap);
       renderPlaySymbolGrid(gridWrap, (sym, negated) => {
         const ref = playSymbolRef(sym, negated);
-        if (playState.fixedSymbols.some((r) => String(r.id) === String(ref.id))) return;
+        if (playState.fixedSymbols.some((r) => sameSymbolRef(r, ref))) return;
         if (playState.fixedSymbols.length >= playState.symbolTarget) return;
         playState.fixedSymbols.push(ref);
         if (playState.fixedSymbols.length >= playState.symbolTarget) {
@@ -13195,7 +13387,7 @@ if (page === "play") {
           playState.activePlayer = 0;
         }
         renderGuessStampPanel();
-      }, { selectedIds: playState.fixedSymbols.map((r) => r.id) });
+      }, { selectedRefs: playState.fixedSymbols });
     } else if (playState.phase === "guess") {
       const status = document.createElement("p");
       status.className = "play-status";
@@ -13452,17 +13644,17 @@ if (page === "play") {
     renderPlaySymbolGrid(gridWrap, (sym, negated) => {
       const ref = playSymbolRef(sym, negated);
       if (!ref || ref.id == null) return;
-      if (playState.attachedSymbols.some((r) => String(r.id) === String(ref.id))) return;
+      if (playState.attachedSymbols.some((r) => sameSymbolRef(r, ref))) return;
       const updated = addPlaySymbolsToWordIs(playState.secretWord, [ref], { allowStarredPrimary: true });
       if (!updated && playState.secretWord.isCore) return;
       playState.attachedSymbols.push(ref);
       // Keep match pointing at local entry after first save.
       playState.attachedSymbols = getManualInputAttachedRefs(playState.secretWord);
-      if (!playState.attachedSymbols.some((r) => String(r.id) === String(ref.id))) {
+      if (!playState.attachedSymbols.some((r) => sameSymbolRef(r, ref))) {
         playState.attachedSymbols.push(ref);
       }
       renderManualInputPanel();
-    }, { selectedIds: playState.attachedSymbols.map((r) => r.id) });
+    }, { selectedRefs: playState.attachedSymbols });
 
     const actions = document.createElement("div");
     actions.className = "play-actions";
@@ -13483,6 +13675,347 @@ if (page === "play") {
       msg.textContent = message;
       block.appendChild(msg);
     }
+  }
+
+  /* ---------- Kanversion ---------- */
+
+  let kanversionDraw = null;
+
+  function destroyKanversionDraw() {
+    if (kanversionDraw) kanversionDraw.destroy();
+    kanversionDraw = null;
+  }
+
+  // kanji-data.js is large, so it is only loaded when Kanversion starts.
+  function loadKanjiData(done) {
+    if (window.KANJI_DATA) return done();
+    const script = document.createElement("script");
+    script.src = "kanji-data.js?v=0.7";
+    script.onload = script.onerror = () => done();
+    document.head.appendChild(script);
+  }
+
+  // Every radical comes first; after that, any piece without a Kanmoji and any character whose parts are done.
+  function kanversionPool(index, state) {
+    const radicals = index.radicals.filter((unit) => !isKanversionDone(unit.key, state));
+    if (radicals.length) return radicals;
+    return [
+      ...index.pieces.filter((unit) => !isKanversionDone(unit.key, state)),
+      ...index.chars.filter((unit) => !isKanversionDone(unit.key, state) && kanversionReadyParts(unit, state)),
+    ];
+  }
+
+  function startKanversionRound(message, isError) {
+    if (!playState || playState.game !== "kanversion") return;
+    const index = getKanversionIndex();
+    if (!index) {
+      renderKanversionPanel(playText("play.kanversionLoading"));
+      loadKanjiData(() => {
+        if (getKanversionIndex()) startKanversionRound(message, isError);
+      });
+      return;
+    }
+    const pool = kanversionPool(index, readKanversionState());
+    const previous = playState.kanversionUnit;
+    // A skipped unit does not come straight back while there is anything else to do.
+    const choices = pool.length > 1 && previous ? pool.filter((unit) => unit !== previous) : pool;
+    showKanversionUnit(choices.length ? choices[Math.floor(Math.random() * choices.length)] : null, false, message, isError);
+  }
+
+  // Changing a unit that is already done starts from its current Kanmojis.
+  function showKanversionUnit(unit, editing, message, isError) {
+    playState.kanversionUnit = unit;
+    playState.kanversionEditing = !!(unit && editing);
+    playState.kanversionPick = unit && editing ? kanversionKanmojiIds(unit.key, readKanversionState()) : [];
+    renderKanversionPanel(message, isError);
+  }
+
+  // Remembers what a save replaced so "Undo last" can put it back.
+  function saveKanversionUnit(storeKey, unitKey, value) {
+    const map = readKanversionStore(storeKey);
+    const previous = map[unitKey];
+    if (value == null) delete map[unitKey];
+    else map[unitKey] = value;
+    if (!saveKanversionStore(storeKey, map)) return false;
+    playState.kanversionUndo = { storeKey, unitKey, previous };
+    return true;
+  }
+
+  function undoKanversion() {
+    const undo = playState.kanversionUndo;
+    const index = getKanversionIndex();
+    if (!undo || !index) return;
+    const map = readKanversionStore(undo.storeKey);
+    if (undo.previous == null) delete map[undo.unitKey];
+    else map[undo.unitKey] = undo.previous;
+    if (!saveKanversionStore(undo.storeKey, map)) {
+      renderKanversionPanel(playText("play.kanversionStorageFull"), true);
+      return;
+    }
+    playState.kanversionUndo = null;
+    const unit = index.unitByKey.get(undo.unitKey);
+    showKanversionUnit(unit || null, undo.previous != null, playText("play.kanversionUndone", { glyph: unit ? unit.glyph : undo.unitKey.slice(2) }));
+  }
+
+  function saveKanversionStore(key, map) {
+    try {
+      localStorage.setItem(key, JSON.stringify(map));
+      return true;
+    } catch (_) {
+      return false;
+    }
+  }
+
+  function kanversionProgressText(index, state) {
+    const done = (units) => units.filter((unit) => isKanversionDone(unit.key, state)).length;
+    const ready = index.chars.filter((unit) => !isKanversionDone(unit.key, state) && kanversionReadyParts(unit, state)).length;
+    return playText("play.kanversionProgress", {
+      radicals: done(index.radicals),
+      radicalTotal: index.radicals.length,
+      pieces: done(index.pieces),
+      pieceTotal: index.pieces.length,
+      chars: done(index.chars),
+      charTotal: index.chars.length,
+      ready,
+    });
+  }
+
+  function renderKanversionPanel(message, isError) {
+    destroyKanversionDraw();
+    gamePanel.innerHTML = "";
+    const index = getKanversionIndex();
+    const unit = playState.kanversionUnit;
+    const isChar = !!unit && unit.key.startsWith("C:");
+    const state = readKanversionState();
+
+    const layout = document.createElement("div");
+    layout.className = "play-core-layout" + (isChar ? " has-draw-panel" : "");
+    const block = document.createElement("div");
+    block.className = "play-panel-block";
+    layout.appendChild(block);
+
+    const addText = (tag, className, text) => {
+      const node = document.createElement(tag);
+      node.className = className;
+      node.textContent = text;
+      block.appendChild(node);
+      return node;
+    };
+
+    if (index) addText("p", "play-hint play-core-progress", kanversionProgressText(index, state));
+    if (index && !unit) addText("p", "play-message is-success", playText("play.kanversionAllDone"));
+
+    if (unit) {
+      const stepKey = unit.key.startsWith("R:") ? "play.kanversionRadicalStep" : unit.key.startsWith("P:") ? "play.kanversionPieceStep" : "play.kanversionCharStep";
+      addText("p", "play-status", playText(stepKey));
+      const head = document.createElement("div");
+      head.className = "kanversion-head";
+      const glyph = document.createElement("div");
+      glyph.className = "kanversion-glyph";
+      glyph.lang = "ja";
+      glyph.textContent = unit.glyph;
+      const about = document.createElement("div");
+      about.className = "kanversion-about";
+      const kind = unit.key.startsWith("R:")
+        ? playText("play.kanversionRadicalLabel", { n: unit.id })
+        : unit.key.startsWith("P:") ? playText("play.kanversionPieceLabel") : "";
+      if (kind) about.appendChild(Object.assign(document.createElement("div"), { className: "kanversion-kind", textContent: kind }));
+      if (unit.meaning) about.appendChild(Object.assign(document.createElement("div"), { className: "kanversion-meaning", textContent: unit.meaning }));
+      head.appendChild(glyph);
+      head.appendChild(about);
+      block.appendChild(head);
+    }
+
+    if (message) addText("p", "play-message" + (isError ? " is-error" : " is-success"), message);
+
+    if (unit && playState.kanversionEditing) addText("p", "play-hint", playText("play.kanversionEditing", { glyph: unit.glyph }));
+
+    // Clicking symbols only picks them (two at most); nothing is saved until Confirm.
+    if (unit && !isChar) {
+      const picks = playState.kanversionPick;
+      const bar = document.createElement("div");
+      bar.className = "kanversion-pick-bar";
+      const pickLabel = document.createElement("span");
+      pickLabel.className = "kanversion-pick-label";
+      const pickedRow = document.createElement("div");
+      pickedRow.className = "kanversion-picked";
+      const confirmBtn = document.createElement("button");
+      confirmBtn.type = "button";
+      confirmBtn.className = "btn-primary";
+      confirmBtn.textContent = playText("play.kanversionConfirm");
+      bar.append(pickLabel, pickedRow, confirmBtn);
+      block.appendChild(bar);
+      const gridWrap = document.createElement("div");
+      block.appendChild(gridWrap);
+
+      let grid = null;
+      const paintPicks = () => {
+        pickLabel.textContent = playText(picks.length ? "play.kanversionPicked" : "play.kanversionPickNone");
+        renderAttachedSymbols(pickedRow, picks.map((id) => ({ id })), (ref) => {
+          picks.splice(picks.indexOf(ref.id), 1);
+          paintPicks();
+          if (grid) grid.repaint();
+        });
+        confirmBtn.disabled = !picks.length;
+      };
+      const togglePick = (sym) => {
+        const at = picks.findIndex((id) => String(id) === String(sym.id));
+        if (at >= 0) picks.splice(at, 1);
+        else if (picks.length < 2) picks.push(sym.id);
+        else picks[1] = sym.id;
+        paintPicks();
+        if (grid) grid.repaint();
+      };
+      confirmBtn.addEventListener("click", () => {
+        if (!picks.length) return;
+        if (!saveKanversionUnit(KANVERSION_KANMOJI_KEY, unit.key, picks.slice())) {
+          renderKanversionPanel(playText("play.kanversionStorageFull"), true);
+          return;
+        }
+        const name = kanversionSymbolName(unit.key, readKanversionState());
+        startKanversionRound(playText("play.kanversionAssigned", { glyph: unit.glyph, name }));
+      });
+      grid = renderPlaySymbolGrid(gridWrap, (sym) => togglePick(sym), { pickedIds: picks }) || null;
+      paintPicks();
+    }
+
+    if (isChar) {
+      const partsTitle = addText("h3", "kanversion-parts-title", playText("play.kanversionParts"));
+      const parts = kanversionReadyParts(unit, state) || [];
+      if (!parts.length) partsTitle.remove();
+      const row = document.createElement("div");
+      row.className = "kanversion-parts";
+      parts.forEach((key) => {
+        const part = index.unitByKey.get(key);
+        const chip = document.createElement("div");
+        chip.className = "kanversion-part";
+        const visual = document.createElement("div");
+        visual.className = "kanversion-part-visual";
+        const image = createKanversionVisual(key, state);
+        if (image) visual.appendChild(image);
+        const label = document.createElement("span");
+        label.className = "kanversion-part-glyph";
+        label.lang = "ja";
+        label.textContent = part ? part.glyph : key.slice(2);
+        chip.title = [part && part.meaning, kanversionSymbolName(key, state)].filter(Boolean).join(" · ");
+        chip.appendChild(visual);
+        chip.appendChild(label);
+        row.appendChild(chip);
+      });
+      block.appendChild(row);
+
+      const drawCol = document.createElement("div");
+      drawCol.className = "play-core-draw";
+      const drawTitle = document.createElement("h3");
+      drawTitle.textContent = playText("play.kanversionTitle");
+      const drawHint = document.createElement("p");
+      drawHint.className = "play-hint";
+      drawHint.textContent = playText("play.kanversionDrawHint");
+      const canvasWrap = document.createElement("div");
+      canvasWrap.className = "play-core-draw-canvas-wrap";
+      const canvas = document.createElement("canvas");
+      canvas.width = 128;
+      canvas.height = 128;
+      canvas.className = "play-core-draw-canvas";
+      canvasWrap.appendChild(canvas);
+      const drawTools = document.createElement("div");
+      drawTools.className = "play-core-draw-tools";
+      const clearBtn = document.createElement("button");
+      clearBtn.type = "button";
+      clearBtn.textContent = playText("draw.clear");
+      const saveBtn = document.createElement("button");
+      saveBtn.type = "button";
+      saveBtn.className = "btn-primary";
+      saveBtn.textContent = playText("play.kanversionSave");
+      drawTools.appendChild(clearBtn);
+      drawTools.appendChild(saveBtn);
+      drawCol.appendChild(drawTitle);
+      drawCol.appendChild(drawHint);
+      drawCol.appendChild(canvasWrap);
+      drawCol.appendChild(drawTools);
+      layout.appendChild(drawCol);
+
+      kanversionDraw = bindSymbolDrawCanvas(canvas);
+      clearBtn.addEventListener("click", () => kanversionDraw.clearCanvas());
+      saveBtn.addEventListener("click", () => {
+        if (!kanversionDraw.hasInk()) {
+          renderKanversionPanel(playText("draw.canvasEmpty"), true);
+          return;
+        }
+        if (!saveKanversionUnit(KANVERSION_IMAGES_KEY, unit.key, kanversionDraw.exportDataUrl())) {
+          addText("p", "play-message is-error", playText("play.kanversionStorageFull"));
+          return;
+        }
+        startKanversionRound(playText("play.kanversionSaved", { glyph: unit.glyph }));
+      });
+    }
+
+    if (unit || playState.kanversionUndo) {
+      const actions = document.createElement("div");
+      actions.className = "play-actions";
+      if (unit) {
+        const skipBtn = document.createElement("button");
+        skipBtn.type = "button";
+        skipBtn.textContent = playText("play.kanversionSkip");
+        skipBtn.addEventListener("click", () => startKanversionRound());
+        actions.appendChild(skipBtn);
+      }
+      if (playState.kanversionUndo) {
+        const undoBtn = document.createElement("button");
+        undoBtn.type = "button";
+        undoBtn.textContent = playText("play.kanversionUndo");
+        undoBtn.addEventListener("click", undoKanversion);
+        actions.appendChild(undoBtn);
+      }
+      block.appendChild(actions);
+    }
+
+    if (index) block.appendChild(buildKanversionEditList(index, state));
+
+    gamePanel.appendChild(layout);
+  }
+
+  // Everything already given a Kanmoji or drawing; clicking one brings it back to change it.
+  function buildKanversionEditList(index, state) {
+    const details = document.createElement("details");
+    details.className = "kanversion-edit";
+    const summary = document.createElement("summary");
+    summary.textContent = playText("play.kanversionEdit");
+    details.appendChild(summary);
+    let built = false;
+    details.addEventListener("toggle", () => {
+      if (!details.open || built) return;
+      built = true;
+      const done = [...index.radicals, ...index.pieces, ...index.chars].filter((unit) => isKanversionDone(unit.key, state));
+      const hint = document.createElement("p");
+      hint.className = "play-hint";
+      hint.textContent = playText(done.length ? "play.kanversionEditHint" : "play.kanversionEditEmpty");
+      details.appendChild(hint);
+      const list = document.createElement("div");
+      list.className = "kanversion-edit-list";
+      done.forEach((unit) => {
+        const chip = document.createElement("button");
+        chip.type = "button";
+        chip.className = "kanversion-edit-item";
+        chip.title = [unit.meaning, kanversionSymbolName(unit.key, state)].filter(Boolean).join(" · ");
+        const glyph = document.createElement("span");
+        glyph.className = "kanversion-edit-glyph";
+        glyph.lang = "ja";
+        glyph.textContent = unit.glyph;
+        const visual = document.createElement("span");
+        visual.className = "kanversion-edit-visual";
+        const image = createKanversionVisual(unit.key, state);
+        if (image) visual.appendChild(image);
+        chip.append(glyph, visual);
+        chip.addEventListener("click", () => {
+          showKanversionUnit(unit, true);
+          gamePanel.scrollIntoView({ block: "start", behavior: "smooth" });
+        });
+        list.appendChild(chip);
+      });
+      details.appendChild(list);
+    });
+    return details;
   }
 
   gameCards.forEach((card) => {
@@ -13519,4 +14052,4228 @@ if (page === "play") {
 -------------------------------- */
 if (page === "comments") {
   // Theme / language / shared chrome only.
+}
+
+/* --------------------------------
+   LEARN PAGE
+-------------------------------- */
+const LEARN_AREAS = ["alphabet", "vocabulary", "sentence"];
+
+// "German Vocabulary" in the UI language; the browser supplies the language's name.
+function learnAreaTitle(code, area) {
+  let name = "";
+  try {
+    name = new Intl.DisplayNames([getStoredLang()], { type: "language" }).of(code);
+  } catch (e) {}
+  if (!name || name === code) {
+    const button = document.querySelector(`#lang-dropdown [data-lang="${CSS.escape(code)}"]`);
+    name = button ? button.textContent : code;
+  }
+  const text = formatTranslation("learn.areaTitle", { lang: name, area: getTranslation("learn." + area) });
+  return text.charAt(0).toUpperCase() + text.slice(1);
+}
+
+const learnAreaHref = (code, area) => `learn-vocab.html?lang=${code}${area === "vocabulary" ? "" : `&area=${area}`}`;
+
+// learn/data/ready.js (built with the curricula) lists the UI-language/learned-language pairs that have data.
+function learnAreaReady(code, area) {
+  const ready = (window.LEARN_READY || {})[area];
+  return Array.isArray(ready) && ready.includes(`${getStoredLang()}-${code}`);
+}
+
+if (page === "learn") {
+  const LEARN_CHART_KEY = "learnChart";
+  const learnLangs = Array.from(document.querySelectorAll("#lang-dropdown [data-lang]")).map((btn) => ({
+    code: btn.dataset.lang,
+    name: btn.textContent
+  }));
+  const chart = document.getElementById("learn-chart");
+
+  function readSelected() {
+    try {
+      const saved = JSON.parse(localStorage.getItem(LEARN_CHART_KEY));
+      if (Array.isArray(saved)) return new Set(saved.filter((id) => typeof id === "string"));
+    } catch (e) {}
+    return new Set();
+  }
+
+  const selected = readSelected();
+  const cellLinks = [];
+
+  function areaId(lang, area) {
+    return lang + "|" + area;
+  }
+
+  function saveSelected() {
+    localStorage.setItem(LEARN_CHART_KEY, JSON.stringify(Array.from(selected)));
+  }
+
+  function paintCells() {
+    cellLinks.forEach((btn) => {
+      const id = btn.dataset.area;
+      btn.classList.toggle("is-selected", selected.has(id));
+    });
+  }
+
+  function toggleSelected(ids) {
+    const on = !ids.every((id) => selected.has(id));
+    ids.forEach((id) => (on ? selected.add(id) : selected.delete(id)));
+    saveSelected();
+    paintCells();
+  }
+
+  // A quick right click selects; holding right click shows stats instead (see below).
+  function bindRightClickSelect(node, ids) {
+    node.addEventListener("contextmenu", (e) => {
+      e.preventDefault();
+      if (suppressSelect) {
+        suppressSelect = false;
+        return;
+      }
+      toggleSelected(ids);
+    });
+  }
+
+  function buildChart() {
+    const headRow = chart.querySelector("thead tr");
+    const body = chart.querySelector("tbody");
+    headRow.textContent = "";
+    body.textContent = "";
+    cellLinks.length = 0;
+    const corner = document.createElement("th");
+    corner.className = "learn-chart-corner";
+    corner.textContent = getTranslation("learn.learning");
+    headRow.appendChild(corner);
+    const areaLabels = LEARN_AREAS.map((area) => getTranslation("learn." + area));
+    areaLabels.forEach((text) => {
+      const th = document.createElement("th");
+      th.scope = "col";
+      th.textContent = text;
+      headRow.appendChild(th);
+    });
+    // The UI language is the one already spoken, so it has no row.
+    const uiLang = getStoredLang();
+    learnLangs.filter(({ code }) => code !== uiLang).forEach(({ code, name }) => {
+      const tr = document.createElement("tr");
+      const th = document.createElement("th");
+      th.scope = "row";
+      const nameBtn = document.createElement("button");
+      nameBtn.type = "button";
+      nameBtn.className = "learn-chart-lang";
+      nameBtn.textContent = name;
+      nameBtn.dataset.rowLang = code;
+      // A box with content has a green ✓; one that still needs content has a red ✗, opens nothing and cannot
+      // be selected.
+      const readyAreas = LEARN_AREAS.filter((area) => learnAreaReady(code, area));
+      const rowIds = readyAreas.map((area) => areaId(code, area));
+      nameBtn.addEventListener("click", () => toggleSelected(rowIds));
+      bindRightClickSelect(nameBtn, rowIds);
+      th.appendChild(nameBtn);
+      tr.appendChild(th);
+      LEARN_AREAS.forEach((area, i) => {
+        const td = document.createElement("td");
+        const ready = readyAreas.includes(area);
+        const cell = document.createElement(ready ? "a" : "span");
+        cell.className = "learn-chart-cell";
+        cell.dataset.area = areaId(code, area);
+        const mark = document.createElement("span");
+        mark.className = "learn-chart-mark";
+        mark.setAttribute("aria-hidden", "true");
+        mark.textContent = ready ? "✓" : "✗";
+        cell.appendChild(mark);
+        if (ready) {
+          cell.href = learnAreaHref(code, area);
+          cell.setAttribute("aria-label", name + " " + areaLabels[i]);
+          bindRightClickSelect(cell, [cell.dataset.area]);
+          cellLinks.push(cell);
+        } else {
+          const notReady = getTranslation("learn.notReady");
+          cell.classList.add("is-not-ready");
+          cell.title = notReady;
+          cell.setAttribute("role", "img");
+          cell.setAttribute("aria-label", `${name} ${areaLabels[i]}: ${notReady}`);
+          cell.addEventListener("contextmenu", (e) => e.preventDefault());
+        }
+        td.appendChild(cell);
+        tr.appendChild(td);
+      });
+      body.appendChild(tr);
+    });
+    paintCells();
+  }
+
+  /* ---------- stats (hold right click on a box or a language) ---------- */
+
+  // area -> [data file prefix, its global, the localStorage prefix the course page uses]
+  const AREA_DATA = {
+    alphabet: ["alphabet", "LEARN_ALPHABET", "alphabet"],
+    vocabulary: ["vocab", "LEARN_VOCAB", "vocab"],
+    sentence: ["sentence", "LEARN_SENTENCES", "sentence"],
+  };
+  const HOLD_MS = 250;
+  const PEEK_GAP = 6;
+  const PEEK_MARGIN = 8;
+  const statsCard = document.createElement("div");
+  statsCard.className = "kanji-peek learn-stats hidden";
+  statsCard.setAttribute("aria-hidden", "true");
+  document.body.appendChild(statsCard);
+  // "code|area" -> { lessons: [[key, ...], ...], total } once its curriculum has loaded.
+  const curricula = new Map();
+  let suppressSelect = false;
+  let peeking = false;
+  let peekStart = null;
+  let peekTarget = null;
+  let holdTimer = 0;
+
+  function el(tag, className, text) {
+    const node = document.createElement(tag);
+    if (className) node.className = className;
+    if (text != null) node.textContent = text;
+    return node;
+  }
+
+  function readJson(key, fallback) {
+    try {
+      const value = JSON.parse(localStorage.getItem(key));
+      return value == null ? fallback : value;
+    } catch (_) {
+      return fallback;
+    }
+  }
+
+  // Words are keyed the way the course page keys them: "<lang>|<text as written in the list>".
+  function loadCurriculum(code, area, done) {
+    const id = areaId(code, area);
+    if (curricula.has(id)) return done();
+    const [prefix, global] = AREA_DATA[area];
+    const pair = `${getStoredLang()}-${code}`;
+    const script = document.createElement("script");
+    script.src = `learn/data/${prefix}-${pair}.js?v=0.7`;
+    script.onload = script.onerror = () => {
+      const data = (window[global] || {})[pair];
+      const seen = new Set();
+      const lessons = (Array.isArray(data) ? data : []).map(([, rows]) => {
+        const keys = [];
+        (rows || []).forEach((row) => {
+          const word = String(row).split("\t")[0];
+          const key = `${code}|${word}`;
+          if (!word || keys.includes(key)) return;
+          keys.push(key);
+          seen.add(key);
+        });
+        return keys;
+      });
+      curricula.set(id, { lessons: lessons.filter((keys) => keys.length), total: seen.size });
+      done();
+    };
+    document.head.appendChild(script);
+  }
+
+  const ratio = (n, total) => `${n} / ${total}${total ? ` (${Math.floor((n / total) * 100)}%)` : ""}`;
+
+  // [label key, value] pairs, or null while the curriculum is loading.
+  function statsRows(code, area) {
+    const curriculum = curricula.get(areaId(code, area));
+    if (!curriculum) return null;
+    const store = AREA_DATA[area][2];
+    const completed = new Set(readJson(`${store}Completed`, []));
+    const golden = new Set(readJson(`${store}Golden`, []));
+    const counts = readJson(`${store}PracticeStats`, {});
+    const keys = new Set(curriculum.lessons.flat());
+    let learned = 0;
+    let goldenCount = 0;
+    let practiced = 0;
+    let correct = 0;
+    let wrong = 0;
+    keys.forEach((key) => {
+      if (completed.has(key)) learned++;
+      if (golden.has(key)) goldenCount++;
+      const entry = counts[key] || {};
+      const right = Number(entry.correct) || 0;
+      const missed = Number(entry.wrong) || 0;
+      if (right + missed) practiced++;
+      correct += right;
+      wrong += missed;
+    });
+    const lessonsDone = curriculum.lessons.filter((lessonKeys) => lessonKeys.every((key) => completed.has(key))).length;
+    const recent = [].concat(readJson(`${store}RecentAnswers`, {})[code] || []).slice(-100);
+    const saved = readJson(`${store}LearnSaved`, {})[`${getStoredLang()}-${code}`];
+
+    const answers = el("span", "kanji-box-count learn-stats-answers");
+    answers.append(el("span", "is-correct", `✓${correct}`), el("span", "is-wrong", `✗${wrong}`));
+    const recentRight = recent.filter((answer) => answer === 1).length;
+    const savedLesson = saved && Math.round(Number(saved.lesson));
+    return [
+      ["learn.statsLessons", ratio(lessonsDone, curriculum.lessons.length)],
+      ["learn.statsLearned", ratio(learned, curriculum.total)],
+      ["learn.statsGolden", el("span", "learn-stats-golden", ratio(goldenCount, curriculum.total))],
+      ["learn.statsPracticed", ratio(practiced, curriculum.total)],
+      ["learn.statsAnswers", answers],
+      ["learn.statsAccuracy", recent.length ? `${Math.round((recentRight / recent.length) * 100)}%` : "–"],
+      ["learn.statsSaved", savedLesson >= 1 ? formatTranslation("kanji.learnLesson", { n: savedLesson }) : "–"],
+    ];
+  }
+
+  function statsCell(tag, value) {
+    const cell = el(tag);
+    if (value == null) cell.textContent = getTranslation("learn.statsLoading");
+    else if (typeof value === "string") cell.textContent = value;
+    else cell.append(value);
+    return cell;
+  }
+
+  // One column per area: a box shows its own area, a language name each of its areas that has content.
+  function buildStats(target) {
+    statsCard.textContent = "";
+    const areas = statsAreasOf(target);
+    const title = target.dataset.rowLang ? target.textContent : learnAreaTitle(...areas[0]);
+    const table = el("table", "learn-stats-table");
+    if (areas.length > 1) {
+      const head = el("tr");
+      head.append(el("th"));
+      areas.forEach(([, area]) => head.append(el("th", "learn-stats-area", getTranslation("learn." + area))));
+      table.append(head);
+    }
+    const columns = areas.map(([code, area]) => statsRows(code, area));
+    const labels = (columns.find(Boolean) || [["learn.statsLessons"]]).map(([labelKey]) => labelKey);
+    labels.forEach((labelKey, i) => {
+      const row = el("tr");
+      row.append(el("th", "", getTranslation(labelKey)));
+      columns.forEach((rows) => row.append(statsCell("td", rows ? rows[i][1] : null)));
+      table.append(row);
+    });
+    statsCard.append(el("h3", "kanji-learn-peek-title", title), table);
+  }
+
+  function statsAreasOf(target) {
+    if (target.dataset.rowLang) {
+      const code = target.dataset.rowLang;
+      return LEARN_AREAS.filter((area) => learnAreaReady(code, area)).map((area) => [code, area]);
+    }
+    return [target.dataset.area.split("|")];
+  }
+
+  // Below the target when it fits, otherwise above, never covering it.
+  function placeStats() {
+    if (!peekTarget || !peekTarget.isConnected) return;
+    const rect = peekTarget.getBoundingClientRect();
+    const viewWidth = document.documentElement.clientWidth;
+    const viewHeight = window.innerHeight;
+    statsCard.style.maxHeight = "none";
+    const naturalHeight = statsCard.offsetHeight;
+    const width = statsCard.offsetWidth;
+    const spaceBelow = viewHeight - rect.bottom - PEEK_GAP - PEEK_MARGIN;
+    const spaceAbove = rect.top - PEEK_GAP - PEEK_MARGIN;
+    const below = naturalHeight <= spaceBelow || spaceBelow >= spaceAbove;
+    const height = Math.max(0, Math.min(naturalHeight, below ? spaceBelow : spaceAbove));
+    const top = below ? rect.bottom + PEEK_GAP : rect.top - PEEK_GAP - height;
+    const centered = rect.left + rect.width / 2 - width / 2;
+    const left = Math.min(Math.max(PEEK_MARGIN, centered), viewWidth - width - PEEK_MARGIN);
+    statsCard.style.maxHeight = `${height}px`;
+    statsCard.style.top = `${top}px`;
+    statsCard.style.left = `${Math.max(PEEK_MARGIN, left)}px`;
+  }
+
+  function showStats(target) {
+    clearTimeout(holdTimer);
+    if (target === peekTarget && !statsCard.classList.contains("hidden")) return;
+    if (peekTarget) peekTarget.classList.remove("is-peeked");
+    peekTarget = target;
+    peekTarget.classList.add("is-peeked");
+    buildStats(target);
+    statsCard.classList.remove("hidden");
+    placeStats();
+    statsAreasOf(target).forEach(([code, area]) => {
+      loadCurriculum(code, area, () => {
+        if (peekTarget !== target || statsCard.classList.contains("hidden")) return;
+        buildStats(target);
+        placeStats();
+      });
+    });
+  }
+
+  function endStats() {
+    if (!peeking) return;
+    peeking = false;
+    clearTimeout(holdTimer);
+    if (peekTarget) peekTarget.classList.remove("is-peeked");
+    peekTarget = null;
+    peekStart = null;
+    statsCard.classList.add("hidden");
+    document.body.classList.remove("kanji-peeking");
+  }
+
+  function statsTargetOf(node) {
+    return node && node.closest ? node.closest("#learn-chart a.learn-chart-cell, #learn-chart .learn-chart-lang") : null;
+  }
+
+  chart.addEventListener("mousedown", (e) => {
+    if (e.button !== 2) return;
+    suppressSelect = false;
+    const target = statsTargetOf(e.target);
+    if (!target) return;
+    e.preventDefault();
+    peeking = true;
+    peekStart = target;
+    document.body.classList.add("kanji-peeking");
+    holdTimer = setTimeout(() => showStats(target), HOLD_MS);
+  });
+
+  document.addEventListener("mousemove", (e) => {
+    if (!peeking) return;
+    if (!(e.buttons & 2)) {
+      endStats();
+      return;
+    }
+    const target = statsTargetOf(e.target);
+    if (target && (target !== peekStart || peekTarget)) showStats(target);
+  });
+
+  // Once the stats have shown, letting go of right click does not also select.
+  document.addEventListener("mouseup", (e) => {
+    if (e.button !== 2 || !peeking) return;
+    suppressSelect = !!peekTarget;
+    endStats();
+  });
+
+  document.addEventListener("scroll", () => {
+    if (peeking) placeStats();
+  }, { passive: true, capture: true });
+  window.addEventListener("resize", () => {
+    if (peeking) placeStats();
+  });
+  window.addEventListener("blur", endStats);
+
+  window.onLanguageChange = () => {
+    curricula.clear();
+    buildChart();
+  };
+
+  buildChart();
+}
+
+/* --------------------------------
+   LEARN AREA PAGE
+   Opened from a Learn chart box: learn-area.html?lang=de&area=vocabulary
+-------------------------------- */
+if (page === "learn-area") {
+  const params = new URLSearchParams(location.search);
+  const lang = params.get("lang");
+  const area = params.get("area");
+  const langButton = document.querySelector(`#lang-dropdown [data-lang="${CSS.escape(lang || "")}"]`);
+  if (!langButton || !LEARN_AREAS.includes(area)) location.replace("learn.html");
+
+  const titleEl = document.getElementById("learn-area-title");
+
+  function renderTitle() {
+    titleEl.textContent = learnAreaTitle(lang, area);
+    document.title = titleEl.textContent + " - Kanji Builder";
+  }
+
+  window.onLanguageChange = renderTitle;
+
+  if (langButton) renderTitle();
+}
+
+/* --------------------------------
+   LEARN ALPHABET / VOCABULARY / SENTENCE PAGE
+   learn-vocab.html?lang=de (vocabulary), learn-vocab.html?lang=de&area=sentence or &area=alphabet: one
+   language's words, sentences or letters, taught in the UI language. The curriculum comes from
+   learn/data/vocab-<ui>-<lang>.js, sentence-<ui>-<lang>.js or alphabet-<ui>-<lang>.js (built by
+   learn/tools/kb_build_learn_js.ps1 from learn/Vocabulary, learn/Sentences and learn/Alphabet), loaded when
+   the page opens. It plays like Kanji Learn: Linear goes through the curriculum's lessons, Exponential runs
+   every word in one line. Words (sentences, letters) are keyed "<lang>|<text>"; the vocab* (sentence*,
+   alphabet*) keys hold their counts, learned outlines and Golden marks the way the kanji keys do for symbols.
+   A lesson with no rows is not ready yet: it is listed in red and never played.
+-------------------------------- */
+if (page === "learn-vocab") {
+  const params = new URLSearchParams(location.search);
+  const sentences = params.get("area") === "sentence";
+  const alphabet = params.get("area") === "alphabet";
+  const area = sentences ? "sentence" : alphabet ? "alphabet" : "vocabulary";
+  const STORE = sentences ? "sentence" : alphabet ? "alphabet" : "vocab";
+  const VOCAB_SETTINGS_KEY = `${STORE}LearnSettings`;
+  const VOCAB_SAVE_KEY = `${STORE}LearnSaved`;
+  const VOCAB_SIDEBAR_KEY = `${STORE}LearnSidebarOpen`;
+  const VOCAB_STATS_KEY = `${STORE}PracticeStats`;
+  const VOCAB_COMPLETED_KEY = `${STORE}Completed`;
+  const VOCAB_GOLDEN_KEY = `${STORE}Golden`;
+  const VOCAB_RECENT_KEY = `${STORE}RecentAnswers`;
+  const VOCAB_EXP_KEY = `${STORE}LearnExponential`;
+  const TEXT = sentences
+    ? {
+      modeWord: "learn.modeSentence",
+      wordMode: "learn.sentenceMode",
+      typeWord: "learn.playTypeSentence",
+      allGolden: "learn.sentenceAllGolden",
+      lessonMissed: "learn.sentenceLessonMissed",
+      resetConfirm: "learn.sentenceResetConfirm",
+      empty: "learn.noSentences",
+    }
+    : alphabet
+    ? {
+      modeWord: "learn.modeLetter",
+      wordMode: "learn.letterMode",
+      typeWord: "learn.playTypeLetter",
+      allGolden: "learn.letterAllGolden",
+      lessonMissed: "learn.letterLessonMissed",
+      resetConfirm: "learn.letterResetConfirm",
+      empty: "learn.noAlphabet",
+    }
+    : {
+      modeWord: "learn.modeWord",
+      wordMode: "learn.wordMode",
+      typeWord: "learn.playTypeWord",
+      allGolden: "learn.vocabAllGolden",
+      lessonMissed: "learn.vocabLessonMissed",
+      resetConfirm: "learn.vocabResetConfirm",
+      empty: "learn.noVocab",
+    };
+  const RECENT_ANSWERS = 100;
+  const LEARN_STYLES = ["linear", "exponential"];
+  const LEARN_STYLE_KEYS = { linear: "kanji.learnStyleLinear", exponential: "kanji.learnStyleExponential" };
+  // [default, min, max]; the inputs in learn-vocab.html carry the same limits.
+  const EXP_SETTINGS = {
+    positiveJump: [3, 0, 100000],
+    negativeJump: [1, 0, 100000],
+  };
+  const GOLDEN_STREAK = [20, 1, 100000];
+  const PLAY_MODES = ["definition", "word", "reading"];
+  const PLAY_MODE_KEYS = { definition: "kanji.modeDefinition", word: TEXT.modeWord, reading: "kanji.modeReading" };
+  const DEFINITION_CHOICES = 5;
+  // A word's definition is its first few meanings (a sentence's is its first translation); the rest still
+  // count when telling definitions apart.
+  const LABEL_MEANINGS = sentences ? 1 : 3;
+  const PEEK_GAP = 8;
+  const PEEK_MARGIN = 8;
+
+  const lang = params.get("lang") || "";
+  if (!document.querySelector(`#lang-dropdown [data-lang="${CSS.escape(lang)}"]`)) location.replace("learn.html");
+  const pair = `${getStoredLang()}-${lang}`;
+
+  const titleEl = document.getElementById("vocab-learn-title");
+  const saveBtn = document.getElementById("vocab-learn-save");
+  const settingsBtn = document.getElementById("vocab-learn-settings");
+  const settingsPanel = document.getElementById("vocab-learn-settings-panel");
+  const styleBtn = document.getElementById("vocab-learn-style");
+  const styleRows = Array.from(settingsPanel.querySelectorAll("[data-learn-style]"));
+  const expInputs = Array.from(settingsPanel.querySelectorAll("input[data-exp]"));
+  const goldenStreakInput = document.getElementById("vocab-learn-golden-streak");
+  const modeInputs = Array.from(settingsPanel.querySelectorAll("input[data-mode]"));
+  const readingRow = document.getElementById("vocab-learn-reading-row");
+  const hintsRow = document.getElementById("vocab-learn-hints-row");
+  const hintsInput = document.getElementById("vocab-learn-hints");
+  const resetCountsBtn = document.getElementById("vocab-learn-reset-counts");
+  const sidebarToggle = document.getElementById("vocab-learn-sidebar-toggle");
+  const sidebar = document.getElementById("vocab-learn-sidebar");
+  const filterBtn = document.getElementById("vocab-learn-filter");
+  const lessonList = document.getElementById("vocab-learn-lessons");
+  const body = document.getElementById("vocab-learn-body");
+  const peekCard = document.getElementById("vocab-learn-peek");
+
+  function readJson(key, fallback) {
+    try {
+      const value = JSON.parse(localStorage.getItem(key));
+      return value == null ? fallback : value;
+    } catch (_) {
+      return fallback;
+    }
+  }
+
+  // Whole numbers inside the setting's limits; anything else is null.
+  function rangedValue([, min, max], value) {
+    const n = Number(value);
+    return Number.isInteger(n) && n >= min && n <= max ? n : null;
+  }
+
+  const expValue = (name, value) => rangedValue(EXP_SETTINGS[name], value);
+
+  // One set of settings for every language.
+  function readSettings() {
+    const saved = readJson(VOCAB_SETTINGS_KEY, {});
+    const modes = saved.modes || {};
+    const exp = {};
+    Object.keys(EXP_SETTINGS).forEach((name) => {
+      const value = expValue(name, (saved.exp || {})[name]);
+      exp[name] = value == null ? EXP_SETTINGS[name][0] : value;
+    });
+    const goldenStreak = rangedValue(GOLDEN_STREAK, saved.goldenStreak);
+    return {
+      style: LEARN_STYLES.includes(saved.style) ? saved.style : "linear",
+      exp,
+      goldenStreak: goldenStreak == null ? GOLDEN_STREAK[0] : goldenStreak,
+      modes: {
+        definition: modes.definition !== false,
+        word: modes.word !== false,
+        reading: modes.reading !== false,
+      },
+      hints: saved.hints !== false,
+    };
+  }
+
+  const settings = readSettings();
+  const completed = new Set(readJson(VOCAB_COMPLETED_KEY, []));
+  let stats = readJson(VOCAB_STATS_KEY, {});
+  const golden = new Set(readJson(VOCAB_GOLDEN_KEY, []));
+  // This language's last RECENT_ANSWERS answers, oldest first: 1 for correct, 0 for wrong.
+  let recentAnswers = [].concat(readJson(VOCAB_RECENT_KEY, {})[lang] || []).slice(-RECENT_ANSWERS);
+  // lessons: [{ name, keys }] in curriculum order; items: every word once, in the order it is first taught.
+  const lessons = [];
+  const items = [];
+  const words = new Map();
+  // Definition (punctuation and case dropped) -> every word written the way plainWord compares them.
+  const answersByLabel = new Map();
+  let hasReadings = false;
+  let loaded = false;
+  let filter = "todo";
+  let currentLesson = 0;
+  let play = null;
+  let streak = 0;
+  let savedTimer = 0;
+
+  const saveSettings = () => localStorage.setItem(VOCAB_SETTINGS_KEY, JSON.stringify(settings));
+  const saveCompleted = () => localStorage.setItem(VOCAB_COMPLETED_KEY, JSON.stringify(Array.from(completed)));
+  const saveStats = () => localStorage.setItem(VOCAB_STATS_KEY, JSON.stringify(stats));
+  const saveGolden = () => localStorage.setItem(VOCAB_GOLDEN_KEY, JSON.stringify(Array.from(golden)));
+
+  function saveRecent() {
+    const all = readJson(VOCAB_RECENT_KEY, {});
+    all[lang] = recentAnswers;
+    localStorage.setItem(VOCAB_RECENT_KEY, JSON.stringify(all));
+  }
+
+  function countsFor(key) {
+    const entry = stats[key] || {};
+    return { correct: Number(entry.correct) || 0, wrong: Number(entry.wrong) || 0, run: Number(entry.run) || 0 };
+  }
+
+  // Returns true when this answer makes the word Golden.
+  function addCount(key, ok) {
+    const counts = countsFor(key);
+    counts[ok ? "correct" : "wrong"] += 1;
+    counts.run = ok ? counts.run + 1 : 0;
+    stats[key] = counts;
+    saveStats();
+    recentAnswers = [...recentAnswers, ok ? 1 : 0].slice(-RECENT_ANSWERS);
+    saveRecent();
+    if (!ok || golden.has(key) || counts.run < settings.goldenStreak) return false;
+    golden.add(key);
+    saveGolden();
+    return true;
+  }
+
+  function accuracyText() {
+    if (!recentAnswers.length) return "–";
+    const correct = recentAnswers.filter((answer) => answer === 1).length;
+    return `${Math.round((correct / recentAnswers.length) * 100)}%`;
+  }
+
+  const lessonCount = () => lessons.length;
+  const lessonKeys = (n) => (lessons[n - 1] ? lessons[n - 1].keys : []);
+  const isLessonReady = (n) => lessonKeys(n).length > 0;
+  const isLessonCompleted = (n) => isLessonReady(n) && lessonKeys(n).every((key) => completed.has(key));
+  const activeModes = () => PLAY_MODES.filter((mode) => settings.modes[mode]);
+  const lessonTitle = (n) => `${formatTranslation("kanji.learnLesson", { n })}: ${lessons[n - 1].name}`;
+
+  // Lessons that are not ready stay in the To-Do list (in red) so the numbering has no gaps.
+  function lessonsInFilter() {
+    const list = [];
+    for (let n = 1; n <= lessonCount(); n++) {
+      if (isLessonCompleted(n) === (filter === "completed")) list.push(n);
+    }
+    return list;
+  }
+
+  function firstTodoLesson() {
+    let firstReady = 0;
+    for (let n = 1; n <= lessonCount(); n++) {
+      if (!isLessonReady(n)) continue;
+      if (!isLessonCompleted(n)) return n;
+      if (!firstReady) firstReady = n;
+    }
+    return firstReady;
+  }
+
+  function nextTodoLesson(after) {
+    const count = lessonCount();
+    for (let step = 1; step < count; step++) {
+      const n = ((after - 1 + step) % count) + 1;
+      if (isLessonReady(n) && !isLessonCompleted(n)) return n;
+    }
+    return 0;
+  }
+
+  /* ---------- words and accepted answers ---------- */
+
+  const lower = (text) => String(text || "").normalize("NFKC").toLocaleLowerCase();
+
+  // "tea, tea's" -> ["tea", "tea's"]; commas inside brackets ("(to) rain (down, up)") stay in one meaning.
+  const splitMeanings = (text) => String(text || "").split(/,(?![^()]*\))/).map((s) => s.trim()).filter(Boolean);
+
+  // Case, spacing and punctuation never matter when comparing meanings.
+  const plainText = (text) => lower(text).replace(/\p{P}/gu, "").replace(/\s+/g, " ").trim();
+
+  // A word that appears in several lessons is one word: its meanings are merged, first lesson first. A sentence
+  // keeps its translation whole, commas and all. A word written as several forms ("endangered, endangers")
+  // shows its first few and accepts any of them.
+  function loadLessons(data) {
+    data.forEach(([name, rows]) => {
+      const keys = [];
+      rows.forEach((row) => {
+        const [word, reading, meaningText] = String(row).split("\t");
+        if (!word) return;
+        const key = `${lang}|${word}`;
+        let info = words.get(key);
+        if (!info) {
+          const forms = sentences ? [word] : splitMeanings(word);
+          info = { key, word: forms.slice(0, LABEL_MEANINGS).join(", "), forms, reading: reading || "", meanings: [] };
+          words.set(key, info);
+          items.push(key);
+        } else if (!info.reading && reading) {
+          info.reading = reading;
+        }
+        const meanings = sentences ? [String(meaningText || "").trim()].filter(Boolean) : splitMeanings(meaningText);
+        meanings.forEach((meaning) => {
+          if (!info.meanings.includes(meaning)) info.meanings.push(meaning);
+        });
+        if (!keys.includes(key)) keys.push(key);
+      });
+      lessons.push({ name: String(name || ""), keys });
+    });
+    words.forEach((info) => {
+      info.label = info.meanings.slice(0, LABEL_MEANINGS).join(", ");
+      info.meaningSet = new Set(info.meanings.map(plainText));
+      if (info.reading) hasReadings = true;
+      const sameLabel = answersByLabel.get(plainText(info.label)) || new Set();
+      info.forms.forEach((form) => sameLabel.add(plainWord(form)));
+      answersByLabel.set(plainText(info.label), sameLabel);
+    });
+  }
+
+  // Case, spacing and punctuation never matter; neither does hiragana vs katakana.
+  function plainIn(code, text) {
+    let plain = plainText(text);
+    if (code === "ja") plain = plain.replace(/[\u30a1-\u30f6]/g, (ch) => String.fromCharCode(ch.charCodeAt(0) - 0x60));
+    if (code === "ja" || code === "zh" || code === "ko") plain = plain.replace(/ /g, "");
+    return plain;
+  }
+
+  // The alphabet teaches hiragana and katakana apart, so there they are never treated as the same.
+  function plainWord(text) {
+    return plainIn(alphabet ? "" : lang, text);
+  }
+
+  const isKatakana = (text) => /[\u30a0-\u30ff]/.test(text);
+
+  const PINYIN_TONES = { "\u0304": "1", "\u0301": "2", "\u030c": "3", "\u0300": "4" };
+
+  // "kā fēi", "kāfēi" and "ka1 fei1" all become "kafei|11"; the neutral tone has no mark and no digit.
+  function pinyinKey(text) {
+    const decomposed = String(text || "").toLowerCase().normalize("NFD").replace(/u\u0308|u:/g, "v");
+    let letters = "";
+    let tones = "";
+    for (const ch of decomposed) {
+      if (PINYIN_TONES[ch]) tones += PINYIN_TONES[ch];
+      else if (ch >= "1" && ch <= "4") tones += ch;
+      else if (ch >= "a" && ch <= "z") letters += ch;
+    }
+    return `${letters}|${tones}`;
+  }
+
+  // Rōmaji and Korean romanization: only the letters count, so "ō" = "o" and spaces or dashes are ignored.
+  const romanKey = (text) => String(text || "").toLowerCase().normalize("NFD").replace(/[^a-z]/g, "");
+
+  // Any word (or sentence) with the same definition is accepted too: "Ciao!" answers "Bye!" as well as "Arrivederci!".
+  // Pinyin letters can also be typed with tone numbers ("ma3" for "mǎ").
+  function wordMatches(info, input) {
+    const typed = plainWord(input);
+    if (!typed) return false;
+    if (alphabet && lang === "zh" && pinyinKey(input) === pinyinKey(info.word)) return true;
+    if (info.forms.some((form) => typed === plainWord(form))) return true;
+    if (alphabet && isKatakana(typed) !== isKatakana(info.word)) return false;
+    return (answersByLabel.get(plainText(info.label)) || new Set()).has(typed);
+  }
+
+  function readingMatches(info, input) {
+    if (lang === "zh") return pinyinKey(input) === pinyinKey(info.reading);
+    const typed = romanKey(input);
+    return !!typed && typed === romanKey(info.reading);
+  }
+
+  /* ---------- game ---------- */
+
+  function shuffle(list) {
+    for (let i = list.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [list[i], list[j]] = [list[j], list[i]];
+    }
+    return list;
+  }
+
+  const definitionOf = (info) => ({ label: info.label, word: info.word });
+
+  // Wrong definitions come from the whole curriculum; a word sharing any meaning with the right one is skipped,
+  // so a "wrong" definition is never actually right.
+  function pickDefinitions(info, count, exclude) {
+    const taken = new Set([info.label, ...(exclude || [])].map(plainText));
+    const picks = [];
+    for (let guard = 0; picks.length < count && guard < count * 60 && items.length > 1; guard++) {
+      const other = words.get(items[Math.floor(Math.random() * items.length)]);
+      if (!other.label || taken.has(plainText(other.label))) continue;
+      if (other.meanings.some((meaning) => info.meaningSet.has(plainText(meaning)))) continue;
+      taken.add(plainText(other.label));
+      picks.push(definitionOf(other));
+    }
+    return picks;
+  }
+
+  // The turned-on modes this word has data for; Reading needs a reading (Chinese, Japanese and Korean).
+  function modesFor(info) {
+    const modes = [];
+    if (settings.modes.definition && info.label) modes.push("definition");
+    if (settings.modes.word && info.label) modes.push("word");
+    if (settings.modes.reading && info.reading) modes.push("reading");
+    return modes;
+  }
+
+  // A completed lesson is replayed in full; otherwise only the words that are not learned yet are dealt.
+  // A saved play passes the words it was dealt (only), so it comes back the same.
+  function buildDeck(n, only) {
+    const inLesson = lessonKeys(n);
+    const all = isLessonCompleted(n);
+    const dealt = only ? (key) => only.has(key) : (key) => all || !completed.has(key);
+    const lessonWords = inLesson.filter(dealt).map((key) => words.get(key));
+    const cards = [];
+    lessonWords.forEach((info) => {
+      modesFor(info).forEach((mode) => cards.push({ id: `${info.key}|${mode}`, mode, info }));
+    });
+    return { inLesson, words: lessonWords, cards };
+  }
+
+  function makeRound(card) {
+    const round = { card, phase: 1, answered: false, ok: false, choice: "", shown: null, correctShown: true, options: [], picked: "", typed: "" };
+    if (card.mode === "definition") {
+      const wrong = pickDefinitions(card.info, 1)[0];
+      round.correctShown = !wrong || Math.random() < 0.5;
+      round.shown = round.correctShown ? definitionOf(card.info) : wrong;
+    }
+    return round;
+  }
+
+  const remainingCards = () => play.cards.filter((card) => !play.correct.has(card.id));
+
+  // progress ({ words: [keys], correct: [card ids], missed: [keys] }) picks a saved play back up.
+  function startLesson(n, replay, progress) {
+    if (n && !isLessonReady(n)) n = firstTodoLesson();
+    currentLesson = n;
+    play = null;
+    if (n) {
+      const only = progress && Array.isArray(progress.words) && progress.words.length ? new Set(progress.words) : null;
+      if (!only && !replay && isLessonCompleted(n)) {
+        play = { lesson: n, finished: true };
+      } else {
+        const deck = buildDeck(n, only);
+        play = { lesson: n, words: deck.words, cards: deck.cards, correct: new Set(), missed: new Set(), round: null, lastId: "" };
+        if (progress) {
+          const ids = new Set(deck.cards.map((card) => card.id));
+          [].concat(progress.correct || []).forEach((id) => ids.has(id) && play.correct.add(id));
+          [].concat(progress.missed || []).forEach((key) => play.missed.add(key));
+        }
+        if (!activeModes().length) play.message = "kanji.playNoModes";
+        else if (!deck.words.length) play.finished = true;
+        else if (!deck.cards.length) play.message = "kanji.playNoCards";
+        else dealNext();
+      }
+    }
+    render();
+  }
+
+  function dealNext() {
+    if (play.exp) {
+      dealExp();
+      return;
+    }
+    const pool = remainingCards();
+    if (!pool.length) {
+      play.round = null;
+      play.finished = true;
+      return;
+    }
+    const choices = pool.length > 1 ? pool.filter((card) => card.id !== play.lastId) : pool;
+    const card = choices[Math.floor(Math.random() * choices.length)];
+    play.lastId = card.id;
+    play.round = makeRound(card);
+  }
+
+  // A wrong card comes back until it is answered correctly, but its word is not learned in this play.
+  function settleRound(ok) {
+    const round = play.round;
+    const key = round.card.info.key;
+    round.answered = true;
+    round.ok = ok;
+    round.becameGolden = addCount(key, ok);
+    if (play.exp) {
+      settleExp(round, ok);
+    } else if (ok) {
+      streak += 1;
+      play.correct.add(round.card.id);
+      const allCorrect = play.cards.every((card) => card.info.key !== key || play.correct.has(card.id));
+      if (allCorrect && !play.missed.has(key) && !completed.has(key)) {
+        completed.add(key);
+        saveCompleted();
+      }
+    } else {
+      streak = 0;
+      play.missed.add(key);
+    }
+    render();
+  }
+
+  /* ---------- exponential style ---------- */
+
+  // One schedule per curriculum (UI language + language learned): { turn, cards: { key: { interval, due,
+  // wrongRun, recent } } }, the same line as Kanji Learn's Exponential style.
+  let expState = { turn: 0, cards: {} };
+
+  function loadExpState() {
+    const saved = readJson(VOCAB_EXP_KEY, {})[pair] || {};
+    const cards = {};
+    Object.entries(saved.cards && typeof saved.cards === "object" ? saved.cards : {}).forEach(([key, card]) => {
+      if (card && card.interval > 0) cards[key] = card;
+    });
+    return { turn: Number(saved.turn) || 0, cards };
+  }
+
+  function saveExpState() {
+    const all = readJson(VOCAB_EXP_KEY, {});
+    all[pair] = expState;
+    localStorage.setItem(VOCAB_EXP_KEY, JSON.stringify(all));
+  }
+
+  function expCard(key) {
+    if (!expState.cards[key]) expState.cards[key] = {};
+    return expState.cards[key];
+  }
+
+  const isReview = (key) => !!expState.cards[key] && expState.cards[key].interval > 0;
+
+  // Golden words leave the Exponential line for good.
+  const expPlayable = (key) => words.has(key) && !golden.has(key) && modesFor(words.get(key)).length > 0;
+
+  const expReviewKeys = () => Object.keys(expState.cards).filter((key) => isReview(key) && expPlayable(key));
+  const earliestDue = (keys) => keys.reduce((a, b) => (expState.cards[b].due < expState.cards[a].due ? b : a));
+
+  // A card that is due comes first; otherwise the next new word in curriculum order. Once every word has been
+  // seen and none is due, the line moves up to the next one that comes back. Modes take turns per word.
+  function dealExp() {
+    const reviews = expReviewKeys();
+    const due = reviews.filter((k) => expState.cards[k].due <= expState.turn);
+    let key = "";
+    if (due.length) {
+      key = earliestDue(due);
+    } else {
+      const next = items.find((k) => !isReview(k) && expPlayable(k));
+      if (next) key = next;
+      else if (reviews.length) {
+        key = earliestDue(reviews);
+        expState.turn = expState.cards[key].due;
+        saveExpState();
+      }
+    }
+    if (!key) {
+      play.round = null;
+      play.finished = true;
+      return;
+    }
+    play.finished = false;
+    const info = words.get(key);
+    const card = expCard(key);
+    const modes = modesFor(info);
+    const recent = Array.isArray(card.recent) ? card.recent : [];
+    const fresh = modes.filter((mode) => !recent.includes(mode));
+    const pool = fresh.length ? fresh : modes;
+    const mode = pool[Math.floor(Math.random() * pool.length)];
+    const keep = modes.length - 1;
+    card.recent = keep > 0 ? [...recent, mode].slice(-keep) : [];
+    play.round = makeRound({ id: `${key}|${mode}`, mode, info });
+    play.round.cardGap = card.interval;
+  }
+
+  // A correct answer brings the card back Positive Jump × (the word's correct answers in a row) cards later;
+  // a wrong answer shortens its gap by Negative Jump × (wrong answers in a row).
+  function settleExp(round, ok) {
+    const key = round.card.info.key;
+    const { exp } = settings;
+    expState.turn += 1;
+    streak = ok ? streak + 1 : 0;
+    if (round.becameGolden) {
+      delete expState.cards[key];
+    } else {
+      const card = expCard(key);
+      card.wrongRun = ok ? 0 : (Number(card.wrongRun) || 0) + 1;
+      const gap = ok
+        ? exp.positiveJump * countsFor(key).run
+        : (Number(card.interval) || 0) - exp.negativeJump * card.wrongRun;
+      card.interval = Math.max(1, gap);
+      card.due = expState.turn + card.interval;
+      round.comesBack = card.interval;
+      round.cardGap = card.interval;
+    }
+    if (ok && !completed.has(key)) {
+      completed.add(key);
+      saveCompleted();
+      round.becameKnown = true;
+    }
+    saveExpState();
+  }
+
+  function startExp() {
+    currentLesson = 0;
+    play = { exp: true, round: null };
+    if (!activeModes().length) play.message = "kanji.playNoModes";
+    else if (items.length) dealExp();
+    render();
+  }
+
+  function restart() {
+    if (settings.style === "exponential") startExp();
+    else startLesson(currentLesson || firstTodoLesson());
+  }
+
+  // o: the shown definition is right. x: it is wrong, then the right one is picked from a short list.
+  function judge(choice) {
+    const round = play && play.round;
+    if (!round || round.answered || round.card.mode !== "definition" || round.phase !== 1) return;
+    round.choice = choice;
+    if (choice === "o") {
+      settleRound(round.correctShown);
+    } else if (round.correctShown) {
+      settleRound(false);
+    } else {
+      const { info } = round.card;
+      round.phase = 2;
+      round.options = shuffle([definitionOf(info), ...pickDefinitions(info, DEFINITION_CHOICES - 1, [round.shown.label])]);
+      render();
+    }
+  }
+
+  function pickOption(text) {
+    const round = play && play.round;
+    if (!round || round.answered || round.phase !== 2) return;
+    round.picked = text;
+    settleRound(text === round.card.info.label);
+  }
+
+  function submitTyped(value) {
+    const round = play && play.round;
+    if (!round || round.answered || round.card.mode === "definition" || !value.trim()) return;
+    round.typed = value;
+    const { info } = round.card;
+    settleRound(round.card.mode === "word" ? wordMatches(info, value) : readingMatches(info, value));
+  }
+
+  function nextCard() {
+    if (!play || !play.round || !play.round.answered) return;
+    dealNext();
+    render();
+  }
+
+  function answerText(card) {
+    if (card.mode === "word") return card.info.word;
+    if (card.mode === "reading") return card.info.reading;
+    return card.info.label;
+  }
+
+  /* ---------- rendering ---------- */
+
+  function el(tag, className, text) {
+    const node = document.createElement(tag);
+    if (className) node.className = className;
+    if (text != null) node.textContent = text;
+    return node;
+  }
+
+  function chipButton(labelKey, onClick, extraClass) {
+    const button = el("button", `transfer-lang-chip${extraClass ? ` ${extraClass}` : ""}`, getTranslation(labelKey));
+    button.type = "button";
+    button.addEventListener("click", onClick);
+    return button;
+  }
+
+  function renderSidebar() {
+    filterBtn.textContent = getTranslation(filter === "completed" ? "kanji.learnCompleted" : "kanji.learnTodo");
+    filterBtn.classList.toggle("is-active", filter === "completed");
+    filterBtn.setAttribute("aria-pressed", filter === "completed" ? "true" : "false");
+
+    const scrollTop = lessonList.scrollTop;
+    lessonList.textContent = "";
+    const shown = lessonsInFilter();
+    if (!shown.length) {
+      const key = filter === "completed" ? "kanji.noCompletedLessons" : "kanji.noTodoLessons";
+      lessonList.appendChild(el("li", "kanji-learn-empty", getTranslation(key)));
+      return;
+    }
+    const fragment = document.createDocumentFragment();
+    shown.forEach((n) => {
+      const li = document.createElement("li");
+      const button = el("button", "", `${n}. ${lessons[n - 1].name}`);
+      button.type = "button";
+      button.dataset.lesson = String(n);
+      if (!isLessonReady(n)) {
+        button.disabled = true;
+        button.classList.add("is-not-ready");
+        button.title = getTranslation("learn.notReady");
+      }
+      if (n === currentLesson) {
+        button.classList.add("is-active");
+        button.setAttribute("aria-current", "true");
+      }
+      li.appendChild(button);
+      fragment.appendChild(li);
+    });
+    lessonList.appendChild(fragment);
+    lessonList.scrollTop = scrollTop;
+  }
+
+  // Every definition keeps a slot for the word it belongs to; the word only becomes visible once the card
+  // is answered, so nothing shifts when it appears.
+  function fillDefinition(node, definition, reveal) {
+    const shownWord = el("span", `kanji-play-reveal vocab-play-reveal${reveal ? "" : " is-hidden"}`, definition.word);
+    shownWord.lang = lang;
+    if (!reveal) shownWord.setAttribute("aria-hidden", "true");
+    node.append(shownWord, el("span", "kanji-play-def", definition.label));
+  }
+
+  function renderDefinitionRound(wrap, round) {
+    const { label } = round.card.info;
+    const box = el("div", "kanji-play-box");
+    fillDefinition(box, round.shown, round.answered);
+    if (round.answered && round.phase !== 2) {
+      box.classList.add(round.correctShown ? "is-correct" : "is-wrong");
+      if (round.becameGolden) box.classList.add("is-golden");
+    }
+
+    const judges = el("div", "kanji-play-actions");
+    ["o", "x"].forEach((choice) => {
+      const button = el("button", "transfer-lang-chip kanji-play-judge", choice);
+      button.type = "button";
+      button.disabled = round.answered || round.phase !== 1;
+      if (round.choice === choice) button.classList.add("is-active");
+      button.addEventListener("click", () => judge(choice));
+      judges.append(button);
+    });
+    wrap.append(el("div", "kanji-play-label", getTranslation("kanji.playIsDefinitionCorrect")), box, judges);
+
+    if (round.phase !== 2) return;
+    const list = el("div", "kanji-play-options");
+    round.options.forEach((definition) => {
+      const text = definition.label;
+      const option = el("button", "kanji-play-option");
+      fillDefinition(option, definition, round.answered);
+      option.type = "button";
+      option.disabled = round.answered;
+      if (round.answered && text === label) {
+        option.classList.add("is-correct");
+        if (round.becameGolden) option.classList.add("is-golden");
+      } else if (round.answered && text === round.picked) option.classList.add("is-wrong");
+      option.addEventListener("click", () => pickOption(text));
+      list.append(option);
+    });
+    wrap.append(el("div", "kanji-play-label", getTranslation("kanji.playPickDefinition")), list);
+  }
+
+  function renderTypedRound(wrap, round) {
+    const { mode } = round.card;
+    let labelKey = TEXT.typeWord;
+    if (mode === "reading") labelKey = lang === "zh" ? "learn.playTypePinyin" : "learn.playTypeRomanized";
+
+    const form = el("form", "kanji-play-actions");
+    const input = el("input", "kanji-play-input");
+    input.type = "text";
+    input.autocomplete = "off";
+    input.spellcheck = false;
+    input.setAttribute("autocapitalize", "off");
+    input.placeholder = getTranslation("kanji.playAnswerPlaceholder");
+    input.value = round.typed;
+    input.disabled = round.answered;
+    if (mode === "word") input.lang = lang;
+    if (round.answered) input.classList.add(round.ok ? "is-correct" : "is-wrong");
+    if (round.becameGolden) input.classList.add("is-golden");
+    const submit = el("button", "transfer-lang-chip", getTranslation("kanji.playSubmit"));
+    submit.type = "submit";
+    submit.disabled = round.answered;
+    form.addEventListener("submit", (e) => {
+      e.preventDefault();
+      submitTyped(input.value);
+    });
+    form.append(input, submit);
+    wrap.append(el("div", "kanji-play-label", getTranslation(labelKey)), form);
+  }
+
+  function renderPlay() {
+    const wrap = el("div", "kanji-play");
+    if (play.message) {
+      wrap.append(el("div", "kanji-play-status", getTranslation(play.message)));
+      return wrap;
+    }
+    if (play.finished && play.exp) {
+      wrap.append(el("div", "kanji-play-done", getTranslation(TEXT.allGolden)));
+      return wrap;
+    }
+    if (play.finished) {
+      let done = getTranslation("kanji.playLessonComplete");
+      if (play.missed && play.missed.size) {
+        const total = play.words.length;
+        done = formatTranslation(TEXT.lessonMissed, { learned: total - play.missed.size, total });
+      }
+      const actions = el("div", "kanji-play-actions");
+      actions.append(chipButton("kanji.playAgain", () => startLesson(play.lesson, true)));
+      const next = nextTodoLesson(play.lesson);
+      if (next) actions.append(chipButton("kanji.playNextLesson", () => startLesson(next), "is-active kanji-play-next"));
+      wrap.append(el("div", "kanji-play-done", done), actions);
+      return wrap;
+    }
+
+    const { round } = play;
+    const { card } = round;
+    const { info } = card;
+    const meta = el("div", "kanji-play-meta");
+    meta.append(el("span", "", formatTranslation("kanji.playModeLabel", { mode: getTranslation(PLAY_MODE_KEYS[card.mode]) })));
+    if (play.exp) {
+      const cardText = round.cardGap
+        ? formatTranslation("kanji.expReview", { gap: round.cardGap })
+        : getTranslation("kanji.expNew");
+      meta.append(el("span", "", cardText));
+    } else {
+      meta.append(el("span", "", formatTranslation("kanji.playRemaining", { left: remainingCards().length, total: play.cards.length })));
+    }
+    meta.append(
+      el("span", "", formatTranslation("kanji.playStreak", { n: streak })),
+      el("span", "", formatTranslation("kanji.playAccuracy", { n: accuracyText() })),
+      el("span", "", formatTranslation("kanji.cardStreak", { n: countsFor(info.key).run, total: settings.goldenStreak }))
+    );
+
+    // Word mode asks from the meaning, the other modes show the word. With hints on, Word mode adds the
+    // reading and Reading mode adds the meaning. Both are the same size, a bit smaller for sentences.
+    const question = el("div", "kanji-play-question");
+    if (sentences) wrap.classList.add("is-sentence");
+    if (card.mode === "word") {
+      question.append(el("div", "vocab-play-word", info.label));
+      if (info.reading && settings.hints) question.append(el("div", "kanji-play-meaning", info.reading));
+    } else {
+      const shownWord = el("div", "vocab-play-word", info.word);
+      shownWord.lang = lang;
+      question.append(shownWord);
+      if (card.mode === "reading" && settings.hints) question.append(el("div", "kanji-play-meaning", info.label));
+    }
+    wrap.append(meta, question);
+    if (sentences) wrap.append(el("div", "vocab-word-help-tip", getTranslation("learn.wordHelpTip")));
+
+    if (card.mode === "definition") renderDefinitionRound(wrap, round);
+    else renderTypedRound(wrap, round);
+
+    if (round.answered) {
+      let status = getTranslation("kanji.playCorrect");
+      if (!round.ok && round.choice === "x" && round.correctShown) status = getTranslation("kanji.playWrongWasCorrect");
+      else if (!round.ok) status = formatTranslation("kanji.playWrongAnswer", { answer: answerText(card) });
+      wrap.append(el("div", `kanji-play-status ${round.ok ? "is-correct" : "is-wrong"}`, status));
+      if (round.comesBack) {
+        const key = round.becameKnown ? "kanji.expBecameKnown" : "kanji.expComesBack";
+        wrap.append(el("div", "kanji-play-status", formatTranslation(key, { n: round.comesBack })));
+      }
+      wrap.append(el("div", "kanji-play-continue", getTranslation("kanji.playClickToContinue")));
+    }
+    return wrap;
+  }
+
+  function focusPlay() {
+    if (!settingsPanel.classList.contains("hidden")) return;
+    const target = body.querySelector(".kanji-play-next") || body.querySelector(".kanji-play-input:not(:disabled)");
+    if (target) target.focus({ preventScroll: true });
+  }
+
+  function renderLesson() {
+    body.textContent = "";
+    if (!loaded) return;
+    if (!items.length) {
+      body.appendChild(el("div", "kanji-empty", getTranslation(TEXT.empty)));
+      return;
+    }
+    if (!play || (!play.exp && !currentLesson)) return;
+    const head = el("div", "kanji-learn-lesson-head");
+    if (play.exp) {
+      const known = items.filter((key) => completed.has(key)).length;
+      const goldenCount = items.filter((key) => golden.has(key)).length;
+      const counts = el("span", "kanji-learn-known");
+      counts.append(
+        el("span", "", formatTranslation("kanji.expKnown", { n: known, total: items.length })),
+        el("span", "is-golden", formatTranslation("kanji.expGolden", { n: goldenCount, total: items.length }))
+      );
+      head.append(el("h2", "", getTranslation("kanji.learnStyleExponential")), counts);
+    } else {
+      head.append(el("h2", "", lessonTitle(currentLesson)));
+    }
+    body.append(head, renderPlay());
+    focusPlay();
+  }
+
+  // Exponential has no lessons, so the lesson list and its toggle are hidden; so is everything but the
+  // message when there is no vocabulary for this language yet. Nothing is saved before the words load.
+  function render() {
+    hideWordHelp();
+    const exp = settings.style === "exponential";
+    const ready = loaded && items.length > 0;
+    sidebar.classList.toggle("hidden", exp || !ready);
+    sidebarToggle.classList.toggle("hidden", exp || !ready);
+    saveBtn.classList.toggle("hidden", !ready);
+    settingsBtn.classList.toggle("hidden", !ready);
+    if (!exp && ready) renderSidebar();
+    renderLesson();
+    if (ready) saveProgress();
+  }
+
+  // An answered card moves on with a click anywhere except on links and other controls. This runs in the
+  // capture phase and stops the click, so it never also lands on a button of the next card. A click in the
+  // card that only closes the word help does nothing else.
+  document.addEventListener("click", (e) => {
+    if (hideWordHelp() && e.target.closest && e.target.closest("#vocab-learn-body")) {
+      e.preventDefault();
+      e.stopPropagation();
+      return;
+    }
+    if (!play || !play.round || !play.round.answered || e.button !== 0) return;
+    if (!settingsPanel.classList.contains("hidden")) return;
+    if (!e.target.closest(".kanji-play") && e.target.closest("a, button, input, select, textarea, label")) return;
+    e.preventDefault();
+    e.stopPropagation();
+    nextCard();
+  }, true);
+
+  document.addEventListener("keydown", (e) => {
+    if (e.ctrlKey || e.metaKey || e.altKey) return;
+    if (e.target.closest && e.target.closest("input, textarea, select, [contenteditable='true']")) return;
+    const round = play && play.round;
+    if (round && round.answered && (e.key === "Enter" || e.key === " ")) {
+      if (e.repeat || (e.target.closest && e.target.closest("a, button"))) return;
+      e.preventDefault();
+      nextCard();
+      return;
+    }
+    if (!round || round.answered || round.card.mode !== "definition" || round.phase !== 1) return;
+    const key = e.key.toLowerCase();
+    if (key !== "o" && key !== "x") return;
+    e.preventDefault();
+    judge(key);
+  });
+
+  /* ---------- sidebar ---------- */
+
+  function setSidebarOpen(open) {
+    sidebar.classList.toggle("is-collapsed", !open);
+    sidebarToggle.setAttribute("aria-expanded", open ? "true" : "false");
+    sidebarToggle.classList.toggle("is-active", open);
+    localStorage.setItem(VOCAB_SIDEBAR_KEY, open ? "1" : "0");
+  }
+
+  sidebarToggle.addEventListener("click", () => setSidebarOpen(sidebar.classList.contains("is-collapsed")));
+
+  filterBtn.addEventListener("click", () => {
+    filter = filter === "completed" ? "todo" : "completed";
+    lessonList.scrollTop = 0;
+    renderSidebar();
+  });
+
+  lessonList.addEventListener("click", (e) => {
+    const button = e.target.closest("button[data-lesson]");
+    if (button) startLesson(Number(button.dataset.lesson));
+  });
+
+  /* ---------- lesson quick look (hold right click on a lesson) ---------- */
+
+  let peeking = false;
+  let peekButton = null;
+  let suppressContextMenu = false;
+
+  function lessonButtonOf(node) {
+    return node && node.closest ? node.closest("#vocab-learn-lessons button[data-lesson]") : null;
+  }
+
+  // While right click is held, the wheel scrolls the card (it ignores the mouse) instead of the page.
+  window.addEventListener("wheel", (e) => {
+    if (!peeking) return;
+    e.preventDefault();
+    const step = e.deltaMode === 1 ? 16 : e.deltaMode === 2 ? peekCard.clientHeight : 1;
+    peekCard.scrollTop += e.deltaY * step;
+  }, { passive: false });
+
+  function buildLessonPeek(n) {
+    peekCard.scrollTop = 0;
+    const fragment = document.createDocumentFragment();
+    fragment.append(el("h3", "kanji-learn-peek-title", lessonTitle(n)));
+    const list = el("div", "vocab-peek-list");
+    lessonKeys(n).forEach((key) => {
+      const info = words.get(key);
+      const row = el("div", "vocab-peek-row");
+      if (completed.has(key)) row.classList.add("is-completed");
+      if (golden.has(key)) row.classList.add("is-golden");
+      const shownWord = el("span", "vocab-peek-word", info.word);
+      shownWord.lang = lang;
+      const { correct, wrong } = countsFor(key);
+      const count = el("span", "kanji-box-count vocab-peek-count");
+      count.append(el("span", "is-correct", `✓${correct}`), el("span", "is-wrong", `✗${wrong}`));
+      row.append(shownWord, el("span", "vocab-peek-meaning", info.label), count);
+      list.append(row);
+    });
+    fragment.append(list);
+    return fragment;
+  }
+
+  // The card sits to the right of the held lesson, kept inside the window.
+  function placePeek() {
+    if (!peekButton || !peekButton.isConnected) return;
+    const rect = peekButton.getBoundingClientRect();
+    const viewWidth = document.documentElement.clientWidth;
+    const viewHeight = window.innerHeight;
+    peekCard.style.maxHeight = `${viewHeight - PEEK_MARGIN * 2}px`;
+    const width = peekCard.offsetWidth;
+    const height = peekCard.offsetHeight;
+    const left = Math.min(rect.right + PEEK_GAP, viewWidth - width - PEEK_MARGIN);
+    const top = Math.min(rect.top, viewHeight - height - PEEK_MARGIN);
+    peekCard.style.left = `${Math.max(PEEK_MARGIN, left)}px`;
+    peekCard.style.top = `${Math.max(PEEK_MARGIN, top)}px`;
+  }
+
+  function showPeek(button) {
+    if (button === peekButton) return;
+    if (peekButton) peekButton.classList.remove("is-peeked");
+    peekButton = button;
+    peekButton.classList.add("is-peeked");
+    peekCard.textContent = "";
+    peekCard.append(buildLessonPeek(Number(button.dataset.lesson)));
+    peekCard.classList.remove("hidden");
+    placePeek();
+  }
+
+  function endPeek() {
+    if (!peeking) return;
+    peeking = false;
+    if (peekButton) peekButton.classList.remove("is-peeked");
+    peekButton = null;
+    peekCard.classList.add("hidden");
+    document.body.classList.remove("kanji-peeking");
+  }
+
+  lessonList.addEventListener("mousedown", (e) => {
+    if (e.button !== 2) return;
+    const button = lessonButtonOf(e.target);
+    if (!button) return;
+    e.preventDefault();
+    peeking = true;
+    suppressContextMenu = true;
+    document.body.classList.add("kanji-peeking");
+    showPeek(button);
+  });
+
+  document.addEventListener("mousemove", (e) => {
+    if (!peeking) return;
+    if (!(e.buttons & 2)) {
+      endPeek();
+      return;
+    }
+    const button = lessonButtonOf(e.target);
+    if (button) showPeek(button);
+  });
+
+  document.addEventListener("mouseup", (e) => {
+    if (e.button === 2) endPeek();
+  });
+
+  document.addEventListener("contextmenu", (e) => {
+    if (suppressContextMenu || lessonButtonOf(e.target)) {
+      e.preventDefault();
+      suppressContextMenu = false;
+    }
+  });
+
+  lessonList.addEventListener("scroll", () => {
+    if (peeking) placePeek();
+  }, { passive: true });
+  window.addEventListener("resize", () => {
+    if (peeking) placePeek();
+  });
+  window.addEventListener("blur", endPeek);
+
+  /* ---------- word help (right click a word in a sentence) ---------- */
+
+  // The dictionary comes from the vocabulary lists: this pair's (learned word -> UI meanings) and the reverse
+  // pair's (UI word -> learned meanings), plus every one-word sentence.
+  const uiCode = getStoredLang();
+  const UNSPACED = ["zh", "ja"];
+  const CJK = /[\p{Script=Han}\p{Script=Hiragana}\p{Script=Katakana}]/u;
+  const WORD_RUN = /[\p{L}\p{M}\p{N}]+(?:['’-][\p{L}\p{M}\p{N}]+)*/gu;
+  const HELP_TRANSLATIONS = 5;
+  const HELP_LONGEST_KEY = 12;
+  const HELP_GAP = 6;
+  const HELP_TARGETS = ".kanji-play .vocab-play-word, .kanji-play .kanji-play-def, .kanji-play .vocab-play-reveal:not(.is-hidden)";
+  const toUi = new Map();
+  const toLearned = new Map();
+  const helpReadings = new Map();
+  const longestKey = {};
+  const helpCard = el("div", "kanji-peek vocab-word-help hidden");
+  helpCard.setAttribute("role", "tooltip");
+  document.body.appendChild(helpCard);
+  let helpOpen = false;
+
+  // "(to) rain" and "to rain" can also be found as "rain".
+  function helpForms(text) {
+    const bare = String(text || "").replace(/\([^)]*\)/g, " ").replace(/\s+/g, " ").trim();
+    return Array.from(new Set([String(text || "").trim(), bare, bare.replace(/^to /i, "")])).filter(Boolean);
+  }
+
+  function addHelp(map, code, term, translation) {
+    helpForms(term).forEach((form) => {
+      const key = plainIn(code, form);
+      if (!key || !translation) return;
+      const list = map.get(key) || [];
+      if (!list.some((known) => plainText(known) === plainText(translation))) list.push(translation);
+      map.set(key, list);
+      if (UNSPACED.includes(code)) longestKey[code] = Math.min(HELP_LONGEST_KEY, Math.max(longestKey[code] || 1, key.length));
+    });
+  }
+
+  // Chinese and Japanese have no spaces, so a whole sentence there looks like one word.
+  const isOneWord = (text, code) =>
+    (String(text || "").match(WORD_RUN) || []).length === 1 && !(UNSPACED.includes(code) && CJK.test(text));
+
+  function buildWordHelp() {
+    const rowsOf = (pairKey) => (window.LEARN_VOCAB || {})[pairKey] || [];
+    rowsOf(pair).forEach(([, rows]) => rows.forEach((row) => {
+      const [word, reading, meaningText] = String(row).split("\t");
+      if (!word) return;
+      if (reading) helpReadings.set(plainIn(lang, word), reading);
+      splitMeanings(meaningText).forEach((meaning) => {
+        splitMeanings(word).forEach((form) => {
+          addHelp(toUi, lang, form, meaning);
+          addHelp(toLearned, uiCode, meaning, form);
+        });
+      });
+    }));
+    rowsOf(`${lang}-${uiCode}`).forEach(([, rows]) => rows.forEach((row) => {
+      const [word, , meaningText] = String(row).split("\t");
+      if (!word) return;
+      splitMeanings(meaningText).forEach((meaning) => {
+        splitMeanings(word).forEach((form) => {
+          addHelp(toUi, lang, meaning, form);
+          addHelp(toLearned, uiCode, form, meaning);
+        });
+      });
+    }));
+    words.forEach((info) => {
+      const meaning = info.meanings[0];
+      if (isOneWord(info.word, lang)) addHelp(toUi, lang, info.word, meaning);
+      if (isOneWord(meaning, uiCode)) addHelp(toLearned, uiCode, meaning, info.word);
+    });
+  }
+
+  function loadWordHelp() {
+    const ready = (window.LEARN_READY || {}).vocabulary || [];
+    const files = [pair, `${lang}-${uiCode}`].filter((p) => ready.includes(p) && !(window.LEARN_VOCAB || {})[p]);
+    let left = files.length;
+    if (!left) {
+      buildWordHelp();
+      return;
+    }
+    files.forEach((p) => {
+      const script = document.createElement("script");
+      script.src = `learn/data/vocab-${p}.js?v=0.7`;
+      script.onload = script.onerror = () => {
+        if (--left === 0) buildWordHelp();
+      };
+      document.head.appendChild(script);
+    });
+  }
+
+  // Words are the letter runs; Chinese and Japanese have no spaces, so their runs are cut into the longest
+  // pieces the dictionary knows (one character when it knows none).
+  function wordTokens(text, code) {
+    const dict = code === lang ? toUi : toLearned;
+    const tokens = [];
+    for (const match of text.matchAll(WORD_RUN)) {
+      const run = match[0];
+      if (!UNSPACED.includes(code) || !CJK.test(run)) {
+        tokens.push({ start: match.index, end: match.index + run.length });
+        continue;
+      }
+      for (let i = 0; i < run.length;) {
+        let size = Math.min(longestKey[code] || 1, run.length - i);
+        while (size > 1 && !dict.has(plainIn(code, run.slice(i, i + size)))) size--;
+        tokens.push({ start: match.index + i, end: match.index + i + size });
+        i += size;
+      }
+    }
+    return tokens;
+  }
+
+  // A known phrase around the word ("freut mich") comes first, then the word itself. A word that is not
+  // listed as written is tried without an elided article ("l'eau") or with a short ending dropped
+  // ("Restaurants", "학교에서").
+  function lookUpWord(text, tokens, index, code) {
+    const dict = code === lang ? toUi : toLearned;
+    const found = [];
+    const add = (term) => {
+      const key = plainIn(code, term);
+      if (!dict.has(key)) return false;
+      if (!found.some((entry) => entry.key === key)) found.push({ key, term, translations: dict.get(key) });
+      return true;
+    };
+    const slice = (from, to) => text.slice(tokens[from].start, tokens[to].end);
+    if (!UNSPACED.includes(code)) {
+      phrases: for (let size = 3; size >= 2; size--) {
+        for (let from = Math.max(0, index - size + 1); from <= index && from + size <= tokens.length; from++) {
+          const to = from + size - 1;
+          let spaced = true;
+          for (let k = from; k < to; k++) {
+            if (!/^\s+$/.test(text.slice(tokens[k].end, tokens[k + 1].start))) spaced = false;
+          }
+          if (spaced && add(slice(from, to))) break phrases;
+        }
+      }
+    }
+    const word = slice(index, index);
+    if (add(word)) return found;
+    const afterApostrophe = word.split(/['’]/).pop();
+    if (afterApostrophe !== word && add(afterApostrophe)) return found;
+    const shortest = Math.max(code === "ko" ? 1 : 3, word.length - 3);
+    for (let size = word.length - 1; size >= shortest; size--) {
+      if (add(word.slice(0, size))) break;
+    }
+    return found;
+  }
+
+  function caretAt(x, y) {
+    if (document.caretPositionFromPoint) {
+      const position = document.caretPositionFromPoint(x, y);
+      return position && { node: position.offsetNode, offset: position.offset };
+    }
+    if (document.caretRangeFromPoint) {
+      const range = document.caretRangeFromPoint(x, y);
+      return range && { node: range.startContainer, offset: range.startOffset };
+    }
+    return null;
+  }
+
+  const rectHas = (rect, x, y) => x >= rect.left - 1 && x <= rect.right + 1 && y >= rect.top - 1 && y <= rect.bottom + 1;
+
+  function hideWordHelp() {
+    if (!helpOpen) return false;
+    helpOpen = false;
+    helpCard.classList.add("hidden");
+    if (window.CSS && CSS.highlights) CSS.highlights.delete("vocab-word-help");
+    return true;
+  }
+
+  function showWordHelp(range, rect, found, code, word) {
+    helpCard.textContent = "";
+    const otherCode = code === lang ? uiCode : lang;
+    if (!found.length) {
+      const entry = el("div", "vocab-word-help-entry");
+      const term = el("div", "vocab-word-help-term", word);
+      term.lang = code;
+      entry.append(term, el("div", "vocab-word-help-none", getTranslation("learn.wordHelpNone")));
+      helpCard.append(entry);
+    }
+    found.forEach(({ key, term, translations }) => {
+      const entry = el("div", "vocab-word-help-entry");
+      const head = el("div", "vocab-word-help-term", term);
+      head.lang = code;
+      const reading = code === lang && settings.hints ? helpReadings.get(key) : "";
+      if (reading) head.append(el("span", "vocab-word-help-reading", reading));
+      const meaning = el("div", "vocab-word-help-meaning", translations.slice(0, HELP_TRANSLATIONS).join(", "));
+      meaning.lang = otherCode;
+      entry.append(head, meaning);
+      helpCard.append(entry);
+    });
+    helpCard.classList.remove("hidden");
+    helpOpen = true;
+    if (window.CSS && CSS.highlights && window.Highlight) CSS.highlights.set("vocab-word-help", new Highlight(range));
+    // Below the word, or above it when there is no room; always inside the window.
+    const viewWidth = document.documentElement.clientWidth;
+    const viewHeight = window.innerHeight;
+    const width = helpCard.offsetWidth;
+    const height = helpCard.offsetHeight;
+    let top = rect.bottom + HELP_GAP;
+    if (top + height > viewHeight - PEEK_MARGIN) top = rect.top - height - HELP_GAP;
+    const left = Math.min(rect.left + rect.width / 2 - width / 2, viewWidth - width - PEEK_MARGIN);
+    helpCard.style.left = `${Math.max(PEEK_MARGIN, left)}px`;
+    helpCard.style.top = `${Math.max(PEEK_MARGIN, top)}px`;
+  }
+
+  document.addEventListener("contextmenu", (e) => {
+    if (!sentences) return;
+    hideWordHelp();
+    const target = e.target.closest ? e.target.closest(HELP_TARGETS) : null;
+    if (!target) return;
+    e.preventDefault();
+    const caret = caretAt(e.clientX, e.clientY);
+    const textNode = target.firstChild;
+    if (!caret || !textNode || caret.node !== textNode || textNode.nodeType !== Node.TEXT_NODE) return;
+    const text = textNode.textContent;
+    const code = target.lang === lang ? lang : uiCode;
+    const tokens = wordTokens(text, code);
+    for (let index = 0; index < tokens.length; index++) {
+      const { start, end } = tokens[index];
+      if (caret.offset < start || caret.offset > end) continue;
+      const range = document.createRange();
+      range.setStart(textNode, start);
+      range.setEnd(textNode, end);
+      const rect = Array.from(range.getClientRects()).find((r) => rectHas(r, e.clientX, e.clientY));
+      if (!rect) continue;
+      showWordHelp(range, rect, lookUpWord(text, tokens, index, code), code, text.slice(start, end));
+      return;
+    }
+  });
+
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") hideWordHelp();
+  });
+  window.addEventListener("scroll", hideWordHelp, { passive: true });
+  window.addEventListener("resize", hideWordHelp);
+
+  /* ---------- settings ---------- */
+
+  // Exponential shows the two jump settings; Reading mode and hints are only offered when the words have readings.
+  function syncSettingsInputs() {
+    styleBtn.textContent = getTranslation(LEARN_STYLE_KEYS[settings.style]);
+    styleBtn.classList.toggle("is-active", settings.style === "exponential");
+    styleRows.forEach((row) => row.classList.toggle("hidden", row.dataset.learnStyle !== settings.style));
+    readingRow.classList.toggle("hidden", !hasReadings);
+    hintsRow.classList.toggle("hidden", !hasReadings);
+    hintsInput.checked = settings.hints;
+    expInputs.forEach((input) => {
+      input.value = String(settings.exp[input.dataset.exp]);
+    });
+    goldenStreakInput.value = String(settings.goldenStreak);
+    modeInputs.forEach((input) => {
+      input.checked = settings.modes[input.dataset.mode];
+    });
+  }
+
+  function setSettingsOpen(open) {
+    settingsPanel.classList.toggle("hidden", !open);
+    settingsBtn.setAttribute("aria-expanded", open ? "true" : "false");
+    if (open) {
+      syncSettingsInputs();
+      const first = settings.style === "exponential" ? expInputs[0] : goldenStreakInput;
+      first.focus();
+      first.select();
+    }
+  }
+
+  styleBtn.addEventListener("click", () => {
+    settings.style = settings.style === "exponential" ? "linear" : "exponential";
+    saveSettings();
+    syncSettingsInputs();
+    streak = 0;
+    restart();
+  });
+
+  // New values apply from the next card; the card on screen keeps its round.
+  expInputs.forEach((input) => {
+    const name = input.dataset.exp;
+    input.addEventListener("input", () => {
+      const value = expValue(name, input.value === "" ? NaN : Number(input.value));
+      if (value == null || value === settings.exp[name]) return;
+      settings.exp[name] = value;
+      saveSettings();
+      if (play && play.exp && play.round) render();
+    });
+    input.addEventListener("change", () => {
+      input.value = String(settings.exp[name]);
+    });
+  });
+
+  // Words that are already Golden stay Golden when this is raised.
+  goldenStreakInput.addEventListener("input", () => {
+    const value = rangedValue(GOLDEN_STREAK, goldenStreakInput.value === "" ? NaN : Number(goldenStreakInput.value));
+    if (value == null || value === settings.goldenStreak) return;
+    settings.goldenStreak = value;
+    saveSettings();
+    if (play && play.round) render();
+  });
+  goldenStreakInput.addEventListener("change", () => {
+    goldenStreakInput.value = String(settings.goldenStreak);
+  });
+
+  settingsBtn.addEventListener("click", () => setSettingsOpen(settingsPanel.classList.contains("hidden")));
+
+  modeInputs.forEach((input) => {
+    input.addEventListener("change", () => {
+      settings.modes[input.dataset.mode] = input.checked;
+      saveSettings();
+      streak = 0;
+      restart();
+    });
+  });
+
+  // Hints change only what the question shows, so the card on screen stays.
+  hintsInput.addEventListener("change", () => {
+    settings.hints = hintsInput.checked;
+    saveSettings();
+    render();
+  });
+
+  // Only this language is reset: its words' counts, learned outlines and Golden marks, its accuracy, and its
+  // saves and Exponential lines in every UI language.
+  resetCountsBtn.addEventListener("click", () => {
+    if (!window.confirm(formatTranslation(TEXT.resetConfirm, { lang: learnAreaTitle(lang, area) }))) return;
+    const ofLang = (key) => key.startsWith(`${lang}|`);
+    const ofPair = (id) => id.endsWith(`-${lang}`);
+    stats = Object.fromEntries(Object.entries(stats).filter(([key]) => !ofLang(key)));
+    saveStats();
+    Array.from(completed).filter(ofLang).forEach((key) => completed.delete(key));
+    saveCompleted();
+    Array.from(golden).filter(ofLang).forEach((key) => golden.delete(key));
+    saveGolden();
+    recentAnswers = [];
+    saveRecent();
+    [VOCAB_SAVE_KEY, VOCAB_EXP_KEY].forEach((storeKey) => {
+      const all = readJson(storeKey, {});
+      Object.keys(all).filter(ofPair).forEach((id) => delete all[id]);
+      localStorage.setItem(storeKey, JSON.stringify(all));
+    });
+    expState = loadExpState();
+    streak = 0;
+    filter = "todo";
+    currentLesson = 0;
+    setSettingsOpen(false);
+    restart();
+  });
+
+  document.addEventListener("click", (e) => {
+    if (settingsPanel.classList.contains("hidden")) return;
+    if (settingsPanel.contains(e.target) || settingsBtn.contains(e.target)) return;
+    setSettingsOpen(false);
+    focusPlay();
+  });
+
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape" && !settingsPanel.classList.contains("hidden")) {
+      setSettingsOpen(false);
+      settingsBtn.focus();
+    }
+  });
+
+  /* ---------- save ---------- */
+
+  // Counts, settings and the Exponential line are kept as they change; every render also keeps the streak and
+  // the lesson in progress. One save per curriculum: { [pair]: { lesson, streak, progress, savedAt } }.
+  function saveProgress() {
+    const progress = play && !play.exp && play.correct
+      ? { words: play.words.map((info) => info.key), correct: Array.from(play.correct), missed: Array.from(play.missed) }
+      : null;
+    const saves = readJson(VOCAB_SAVE_KEY, {});
+    saves[pair] = { lesson: currentLesson, streak, progress, savedAt: Date.now() };
+    localStorage.setItem(VOCAB_SAVE_KEY, JSON.stringify(saves));
+  }
+
+  saveBtn.addEventListener("click", () => {
+    saveProgress();
+    saveBtn.textContent = getTranslation("kanji.saved");
+    clearTimeout(savedTimer);
+    savedTimer = setTimeout(() => {
+      saveBtn.textContent = getTranslation("kanji.save");
+    }, 1500);
+  });
+
+  function restoreSave() {
+    const saved = readJson(VOCAB_SAVE_KEY, {})[pair];
+    if (!saved) return false;
+    streak = Math.max(0, Math.round(Number(saved.streak)) || 0);
+    if (settings.style === "exponential") return false;
+    const n = Math.round(Number(saved.lesson));
+    if (!(n >= 1 && n <= lessonCount())) return false;
+    startLesson(n, false, saved.progress);
+    return true;
+  }
+
+  // The curriculum depends on the UI language, so changing it reloads the page with the matching one.
+  window.onLanguageChange = () => location.reload();
+
+  function renderTitle() {
+    titleEl.textContent = learnAreaTitle(lang, area);
+    document.title = `${titleEl.textContent} - Kanji Builder`;
+  }
+
+  function loadVocab(done) {
+    const ready = () => (window[sentences ? "LEARN_SENTENCES" : alphabet ? "LEARN_ALPHABET" : "LEARN_VOCAB"] || {})[pair];
+    if (ready()) {
+      done(ready());
+      return;
+    }
+    const script = document.createElement("script");
+    script.src = `learn/data/${STORE}-${pair}.js?v=0.7`;
+    script.onload = () => done(ready());
+    script.onerror = () => done(null);
+    document.head.appendChild(script);
+  }
+
+  const wordModeLabel = settingsPanel.querySelector('label[for="vocab-learn-mode-word"]');
+  wordModeLabel.dataset.i18n = TEXT.wordMode;
+  wordModeLabel.textContent = getTranslation(TEXT.wordMode);
+  renderTitle();
+  setSidebarOpen(localStorage.getItem(VOCAB_SIDEBAR_KEY) !== "0");
+  setSettingsOpen(false);
+  render();
+  loadVocab((data) => {
+    if (Array.isArray(data)) loadLessons(data);
+    if (sentences) loadWordHelp();
+    loaded = true;
+    expState = loadExpState();
+    syncSettingsInputs();
+    if (!items.length) render();
+    else if (!restoreSave()) restart();
+  });
+}
+
+/* --------------------------------
+   KANJI PAGE
+   Data comes from kanji-data.js, built by kanji/tools/kb_build_js.ps1
+   from kanji/Radicals.txt, kanji/Hanzi.txt and kanji/Kanji.txt.
+-------------------------------- */
+if (page === "kanji") {
+  const KANJI_STATE_KEY = "kanjiPageState";
+  const KANJI_STARRED_KEY = "kanjiStarred";
+  const KANJI_STATS_KEY = "kanjiPracticeStats";
+  const KANJI_LEARN_KEY = "kanjiLearnSelection";
+  const KANJI_COMPLETED_KEY = "kanjiCompleted";
+  const KANJI_GOLDEN_KEY = "kanjiGolden";
+  const KANJI_SETS = ["radical", "chinese", "japanese"];
+  const KANJI_SET_CHOICES = [...KANJI_SETS, "all"];
+  const KANJI_SET_TAGS = { radical: "部", chinese: "中", japanese: "日" };
+  const KANJI_SORTS = [
+    { id: "radicalId", key: "kanji.sortRadicalId" },
+    { id: "frequency", key: "kanji.sortFrequency" },
+    { id: "lesson", key: "kanji.sortLesson" },
+    { id: "personalBest", key: "kanji.sortPersonalBest" },
+    { id: "personalWorst", key: "kanji.sortPersonalWorst" },
+  ];
+  const KANJI_RENDER_CHUNK = 400;
+
+  const grid = document.getElementById("kanji-grid");
+  const setButtons = Array.from(document.querySelectorAll("[data-kanji-set]"));
+  const starredToggle = document.getElementById("kanji-starred-toggle");
+  const learnBtn = document.getElementById("kanji-learn");
+  const sortBtn = document.getElementById("kanji-sort");
+  const sortMenu = document.getElementById("kanji-sort-menu");
+  const searchInput = document.getElementById("kanji-search");
+
+  function readKanjiJson(key, fallback) {
+    try {
+      const value = JSON.parse(localStorage.getItem(key));
+      return value == null ? fallback : value;
+    } catch (_) {
+      return fallback;
+    }
+  }
+
+  const savedState = readKanjiJson(KANJI_STATE_KEY, {});
+  const kanjiState = {
+    set: KANJI_SET_CHOICES.includes(savedState.set) ? savedState.set : "radical",
+    starredOnly: savedState.starredOnly === true,
+    sort: KANJI_SORTS.some((s) => s.id === savedState.sort) ? savedState.sort : "radicalId",
+  };
+  const starred = new Set(readKanjiJson(KANJI_STARRED_KEY, []));
+  const completed = new Set(readKanjiJson(KANJI_COMPLETED_KEY, []));
+  const golden = new Set(readKanjiJson(KANJI_GOLDEN_KEY, []));
+
+  function saveKanjiState() {
+    localStorage.setItem(KANJI_STATE_KEY, JSON.stringify(kanjiState));
+  }
+
+  function saveStarred() {
+    localStorage.setItem(KANJI_STARRED_KEY, JSON.stringify(Array.from(starred)));
+  }
+
+  /* ---------- data ---------- */
+
+  const orInfinity = (n) => (n > 0 ? n : Infinity);
+
+  function firstGloss(text) {
+    return String(text || "").split(/\s*[;,•|]\s*/)[0].trim();
+  }
+
+  const SKIP_HANZI_GLOSS = /^(surname|(old |archaic |ancient |unofficial |japanese )?variant of|used in|see |abbr|short (name )?for|CL:|Kangxi radical|radical in Chinese|also pr|Taiwan pr|")/i;
+
+  // Readings look like "1. guó (guo2) - country • nation | 2. ..."; pick the first gloss that names a meaning.
+  // Proper-noun readings (capitalised pinyin such as "Tu3") are only used when nothing else fits.
+  function hanziGloss(readings) {
+    const entries = String(readings || "")
+      .split(" | ")
+      .map((reading) => reading.match(/\(([^)]*)\)\s*-\s*(.*)$/))
+      .filter(Boolean);
+    const isProper = (m) => /^[A-Z]/.test(m[1]);
+    const defs = [...entries.filter((m) => !isProper(m)), ...entries.filter(isProper)].map((m) => m[2]);
+    for (const def of defs) {
+      for (const segment of def.split(" • ")) {
+        const gloss = segment.replace(/\s*\([^)]*\)/g, "").split(";")[0].trim();
+        if (gloss && !SKIP_HANZI_GLOSS.test(gloss)) return gloss;
+      }
+    }
+    return firstGloss(defs[0]);
+  }
+
+  const kanjiData = window.KANJI_DATA || {};
+  const rows = (list) => (Array.isArray(list) ? list : []).map((line) => String(line).split("\t"));
+
+  const itemsBySet = {
+    radical: rows(kanjiData.radicals).map((c, i) => ({
+      key: "R:" + c[0],
+      set: "radical",
+      order: i,
+      char: c[1] || "",
+      kangxi: c[2] || "",
+      id: Number(c[0]) || 0,
+      radical: Number(c[0]) || 0,
+      strokes: Number(c[3]) || 0,
+      freq: 0,
+      meaning: c[4] || "",
+      reading: c[5] || "",
+      variants: c[8] || "",
+      label: firstGloss(c[4]),
+    })),
+    chinese: rows(kanjiData.hanzi).map((c, i) => ({
+      key: "C:" + c[1],
+      set: "chinese",
+      order: i,
+      char: c[1] || "",
+      freq: Number(c[0]) || 0,
+      radical: Number(c[2]) || 0,
+      strokes: Number(c[3]) || 0,
+      parts: c[4] || "",
+      readings: c[5] || "",
+      label: hanziGloss(c[5]),
+    })),
+    japanese: rows(kanjiData.kanji).map((c, i) => ({
+      key: "J:" + c[0],
+      set: "japanese",
+      order: i,
+      char: c[0] || "",
+      grade: Number(c[1]) || 0,
+      freq: Number(c[2]) || 0,
+      radical: Number(c[3]) || 0,
+      strokes: Number(c[4]) || 0,
+      meaning: c[5] || "",
+      kun: c[6] || "",
+      on: c[7] || "",
+      parts: c[8] || "",
+      kunExamples: c[9] || "",
+      onExamples: c[10] || "",
+      label: firstGloss(c[5]),
+    })),
+  };
+
+  // Radical frequency ranks are set further down, once the "Used In" index exists.
+  itemsBySet.radical.forEach((item) => {
+    item.lessonKey = item.id;
+  });
+  // Chinese lessons follow the curriculum book (kanji/LearnOrder.txt); characters the book
+  // does not have come after all of its characters, by frequency.
+  const learnOrder = new Map(rows(kanjiData.learn).map((c) => [c[1], Number(c[0]) || 0]));
+  itemsBySet.chinese.forEach((item) => {
+    item.freqKey = orInfinity(item.freq);
+    item.lessonKey = learnOrder.get(item.char) || learnOrder.size + orInfinity(item.freq);
+  });
+  itemsBySet.japanese.forEach((item) => {
+    item.freqKey = orInfinity(item.freq);
+    item.lessonKey = (item.grade || 99) * 100000 + (item.freq || 99999);
+  });
+
+  /* ---------- sorting ---------- */
+
+  function compareRadicalId(a, b) {
+    return a.radical - b.radical || a.strokes - b.strokes || orInfinity(a.freq) - orInfinity(b.freq) || a.order - b.order;
+  }
+
+  // Every answer in a Learn lesson adds to kanjiPracticeStats[key] = { correct, wrong }.
+  let practiceStats = readKanjiJson(KANJI_STATS_KEY, {});
+
+  function countsFor(key) {
+    const entry = practiceStats[key] || {};
+    return { correct: Number(entry.correct) || 0, wrong: Number(entry.wrong) || 0 };
+  }
+
+  // Share of a symbol's answers that were correct, or -1 if it has never been answered.
+  function accuracyOf(counts) {
+    const total = counts.correct + counts.wrong;
+    return total ? counts.correct / total : -1;
+  }
+
+  // Personal Best: highest accuracy first (ties: more correct, then fewer wrong). Personal Worst: lowest
+  // accuracy first (ties: more wrong, then fewer correct). Symbols never answered go last in both.
+  function sortItems(list, sortId) {
+    const sorted = list.slice();
+    if (sortId === "frequency") {
+      sorted.sort((a, b) => a.freqKey - b.freqKey || compareRadicalId(a, b));
+    } else if (sortId === "lesson") {
+      sorted.sort((a, b) => a.lessonKey - b.lessonKey || compareRadicalId(a, b));
+    } else if (sortId === "personalBest" || sortId === "personalWorst") {
+      const best = sortId === "personalBest";
+      sorted.sort((a, b) => {
+        const ca = countsFor(a.key);
+        const cb = countsFor(b.key);
+        const pa = accuracyOf(ca);
+        const pb = accuracyOf(cb);
+        if ((pa < 0) !== (pb < 0)) return pa < 0 ? 1 : -1;
+        return (best ? pb - pa : pa - pb)
+          || (best ? cb.correct - ca.correct : cb.wrong - ca.wrong)
+          || (best ? ca.wrong - cb.wrong : ca.correct - cb.correct)
+          || compareRadicalId(a, b);
+      });
+    } else {
+      sorted.sort(compareRadicalId);
+    }
+    return sorted;
+  }
+
+  function getVisibleItems() {
+    const sets = kanjiState.set === "all" ? KANJI_SETS : [kanjiState.set];
+    const visible = [];
+    sets.forEach((setId) => {
+      let list = itemsBySet[setId];
+      if (kanjiState.starredOnly) list = list.filter((item) => starred.has(item.key));
+      visible.push(...sortItems(list, kanjiState.sort));
+    });
+    return visible;
+  }
+
+  /* ---------- boxes ---------- */
+
+  function paintStar(star, isStarred) {
+    star.textContent = isStarred ? "★" : "☆";
+    star.setAttribute("aria-pressed", isStarred ? "true" : "false");
+    star.title = getTranslation(isStarred ? "kanji.unstar" : "kanji.star");
+    star.setAttribute("aria-label", star.title);
+  }
+
+  const boxCache = new Map();
+  const itemByKey = new Map();
+  KANJI_SETS.forEach((setId) => itemsBySet[setId].forEach((item) => itemByKey.set(item.key, item)));
+
+  /* ---------- search ---------- */
+
+  const glyphIndex = { radical: new Map(), chinese: new Map(), japanese: new Map() };
+  const numberIndex = { radical: new Map(), chinese: new Map(), japanese: new Map() };
+  itemsBySet.radical.forEach((item) => {
+    const variantGlyphs = item.variants
+      .split(";")
+      .map((v) => v.trim().split(" ")[0])
+      .filter((g) => g && !g.startsWith("("));
+    item.aliases = Array.from(new Set([item.char, item.kangxi, ...variantGlyphs].filter(Boolean)));
+    item.aliases.forEach((g) => {
+      if (!glyphIndex.radical.has(g)) glyphIndex.radical.set(g, item);
+    });
+    numberIndex.radical.set(item.id, item);
+  });
+  ["chinese", "japanese"].forEach((setId) => {
+    itemsBySet[setId].forEach((item) => {
+      if (!glyphIndex[setId].has(item.char)) glyphIndex[setId].set(item.char, item);
+      if (item.freq && !numberIndex[setId].has(item.freq)) numberIndex[setId].set(item.freq, item);
+    });
+  });
+
+  // The selected list is searched first; a character missing from it is taken from the other lists.
+  function lookupGlyph(glyph) {
+    if (kanjiState.set === "all") return KANJI_SETS.map((s) => glyphIndex[s].get(glyph)).filter(Boolean);
+    const order = [kanjiState.set, ...KANJI_SETS.filter((s) => s !== kanjiState.set)];
+    for (const setId of order) {
+      const item = glyphIndex[setId].get(glyph);
+      if (item) return [item];
+    }
+    return [];
+  }
+
+  // Numbers are frequency ranks (radical ID for radicals) within the selected list.
+  function lookupNumber(n) {
+    const sets = kanjiState.set === "all" ? KANJI_SETS : [kanjiState.set];
+    return sets.map((s) => numberIndex[s].get(n)).filter(Boolean);
+  }
+
+  // Breakdown text looks like "黑 (black); 犬 (dog)"; "[亻+土]" is a shape with no glyph of its own.
+  function parseParts(text) {
+    const glyphs = [];
+    String(text || "").split("; ").forEach((part) => {
+      const p = part.trim();
+      if (!p) return;
+      if (p.startsWith("[")) {
+        p.replace(/^\[|\].*$/g, "").split("+").forEach((g) => {
+          if (g && g !== "?") glyphs.push(g);
+        });
+      } else {
+        glyphs.push(p.split(" (")[0].trim());
+      }
+    });
+    return glyphs;
+  }
+
+  function partsOf(glyph) {
+    const order = kanjiState.set === "japanese" ? ["japanese", "chinese"] : ["chinese", "japanese"];
+    for (const setId of order) {
+      const item = glyphIndex[setId].get(glyph);
+      if (item && item.parts) return parseParts(item.parts);
+    }
+    return [];
+  }
+
+  // Pinyin syllable (numbered, as in the readings: "qi1", "lu:3") -> Chinese characters with that reading.
+  const pinyinIndex = new Map();
+  itemsBySet.chinese.forEach((item) => {
+    const seen = new Set();
+    item.readings.split(" | ").forEach((reading) => {
+      const match = reading.match(/\(([A-Za-z:]+[1-5](?: [A-Za-z:]+[1-5])*)\)/);
+      if (!match) return;
+      match[1].toLowerCase().split(" ").forEach((syllable) => {
+        if (seen.has(syllable)) return;
+        seen.add(syllable);
+        const base = syllable.slice(0, -1);
+        if (!pinyinIndex.has(base)) pinyinIndex.set(base, []);
+        pinyinIndex.get(base).push({ item, tone: Number(syllable.slice(-1)) });
+      });
+    });
+  });
+
+  const TONE_MARKED_VOWELS = {
+    "ā": "a1", "á": "a2", "ǎ": "a3", "à": "a4", "ē": "e1", "é": "e2", "ě": "e3", "è": "e4",
+    "ī": "i1", "í": "i2", "ǐ": "i3", "ì": "i4", "ō": "o1", "ó": "o2", "ǒ": "o3", "ò": "o4",
+    "ū": "u1", "ú": "u2", "ǔ": "u3", "ù": "u4", "ǖ": "ü1", "ǘ": "ü2", "ǚ": "ü3", "ǜ": "ü4",
+  };
+
+  // "qi1", "qí", "lv3", "lü" -> { syllable: "qi" / "lu:", tone: 0 when no tone was given }.
+  function parsePinyin(token) {
+    let tone = 0;
+    const plain = token.toLowerCase().replace(/[āáǎàēéěèīíǐìōóǒòūúǔùǖǘǚǜ]/g, (ch) => {
+      tone = Number(TONE_MARKED_VOWELS[ch][1]);
+      return TONE_MARKED_VOWELS[ch][0];
+    });
+    const match = plain.match(/^([a-zü:]+?)([1-5])?$/);
+    if (!match) return null;
+    if (match[2]) tone = Number(match[2]);
+    return { syllable: match[1].replace(/u:|ü|v/g, "u:"), tone };
+  }
+
+  // Without a tone, all tones are listed in tone order; within a tone, most frequent first.
+  function lookupPinyin(token) {
+    const query = parsePinyin(token);
+    if (!query) return [];
+    const matches = (pinyinIndex.get(query.syllable) || []).filter((m) => !query.tone || m.tone === query.tone);
+    matches.sort((a, b) => a.tone - b.tone || orInfinity(a.item.freq) - orInfinity(b.item.freq));
+    const seenChars = new Set();
+    const found = [];
+    matches.forEach(({ item }) => {
+      if (seenChars.has(item.char)) return;
+      seenChars.add(item.char);
+      found.push(...lookupGlyph(item.char));
+    });
+    return found;
+  }
+
+  function searchTokens(query) {
+    return query.normalize("NFKC").match(/[a-zA-Z\u00C0-\u024F:]+[1-5]?|\d+|[^\s\d\p{P}\p{Z}a-zA-Z\u00C0-\u024F]/gu) || [];
+  }
+
+  // Typed characters (or the characters at typed frequencies) first, in typed order, then every
+  // character in their breakdowns, level by level, again in typed order.
+  // Pinyin matches are listed in typed order too, but their breakdowns are not added.
+  function getSearchItems(query) {
+    const results = [];
+    const seenKeys = new Set();
+    const seenGlyphs = new Set();
+    const roots = [];
+    const add = (item) => {
+      if (seenKeys.has(item.key)) return;
+      seenKeys.add(item.key);
+      results.push(item);
+    };
+    searchTokens(query).forEach((token) => {
+      if (/^[a-zA-Z\u00C0-\u024F]/.test(token)) {
+        lookupPinyin(token).forEach(add);
+        return;
+      }
+      const found = /^\d+$/.test(token) ? lookupNumber(Number(token)) : lookupGlyph(token);
+      found.forEach((item) => {
+        add(item);
+        if (!seenGlyphs.has(item.char)) {
+          seenGlyphs.add(item.char);
+          roots.push(item.char);
+        }
+      });
+    });
+    roots.forEach((root) => {
+      const queue = partsOf(root);
+      while (queue.length) {
+        const glyph = queue.shift();
+        if (seenGlyphs.has(glyph)) continue;
+        seenGlyphs.add(glyph);
+        lookupGlyph(glyph).forEach(add);
+        queue.push(...partsOf(glyph));
+      }
+    });
+    return results;
+  }
+
+  function buildBox(item) {
+    let box = boxCache.get(item.key);
+    if (!box) {
+      box = document.createElement("div");
+      box.className = "symbol-box kanji-box";
+      box.dataset.key = item.key;
+
+      const tag = document.createElement("span");
+      tag.className = "kanji-box-tag";
+      tag.textContent = KANJI_SET_TAGS[item.set];
+
+      const star = document.createElement("button");
+      star.type = "button";
+      star.className = "kanji-star";
+
+      const glyph = document.createElement("div");
+      glyph.className = "kanji-box-glyph";
+      glyph.lang = item.set === "chinese" ? "zh-CN" : "ja";
+      glyph.textContent = item.char;
+
+      const label = document.createElement("div");
+      label.className = "kanji-box-label";
+      label.textContent = item.label;
+
+      const count = document.createElement("div");
+      count.className = "kanji-box-count";
+      const correct = document.createElement("span");
+      correct.className = "is-correct";
+      const wrong = document.createElement("span");
+      wrong.className = "is-wrong";
+      count.append(correct, wrong);
+
+      box.append(tag, star, glyph, label, count);
+      boxCache.set(item.key, box);
+    }
+    paintStar(box.querySelector(".kanji-star"), starred.has(item.key));
+    paintCount(box.querySelector(".kanji-box-count"), item.key);
+    box.classList.toggle("is-completed", completed.has(item.key));
+    box.classList.toggle("is-golden", golden.has(item.key));
+    return box;
+  }
+
+  function paintCount(count, key) {
+    const { correct, wrong } = countsFor(key);
+    count.children[0].textContent = `✓${correct}`;
+    count.children[1].textContent = `✗${wrong}`;
+    count.title = formatTranslation("kanji.countTitle", { correct, wrong });
+  }
+
+  /* ---------- detail window (left click) and quick look (hold right click) ---------- */
+
+  const detailModal = document.getElementById("kanji-detail-modal");
+  const detailBody = document.getElementById("kanji-detail-body");
+  const detailBack = document.getElementById("kanji-detail-back");
+  const detailClose = document.getElementById("kanji-detail-close");
+  const detailStar = document.getElementById("kanji-detail-star");
+  const detailPrev = document.getElementById("kanji-detail-prev");
+  const detailNext = document.getElementById("kanji-detail-next");
+  const detailPosition = document.getElementById("kanji-detail-position");
+  const detailPrevGlyph = document.getElementById("kanji-detail-prev-glyph");
+  const detailNextGlyph = document.getElementById("kanji-detail-next-glyph");
+  const peekCard = document.getElementById("kanji-peek");
+  const KANJI_USED_IN_LIMIT = 60;
+  const KANJI_PEEK_USED_IN_LIMIT = 16;
+  const KANJI_PEEK_LIST_LIMIT = 3;
+  const KANJI_SET_NAME_KEYS = { radical: "kanji.setRadical", chinese: "kanji.setChinese", japanese: "kanji.setJapanese" };
+
+  const usedInIndex = { chinese: new Map(), japanese: new Map() };
+  ["chinese", "japanese"].forEach((setId) => {
+    itemsBySet[setId].forEach((item) => {
+      new Set(parseParts(item.parts)).forEach((glyph) => {
+        if (glyph === item.char) return;
+        if (!usedInIndex[setId].has(glyph)) usedInIndex[setId].set(glyph, []);
+        usedInIndex[setId].get(glyph).push(item);
+      });
+    });
+  });
+
+  // Radicals belong to neither list, so they follow the selected list (both lists on Radical / All).
+  function relatedSets(item) {
+    if (item.set !== "radical") return [item.set];
+    return kanjiState.set === "chinese" || kanjiState.set === "japanese" ? [kanjiState.set] : ["chinese", "japanese"];
+  }
+
+  function usedInFor(item, sets) {
+    const glyphs = item.set === "radical" ? item.aliases : [item.char];
+    // Most characters are in both lists; when both are searched, each character is listed once.
+    const seenChars = new Set();
+    const users = [];
+    (sets || relatedSets(item)).forEach((setId) => {
+      glyphs.forEach((glyph) => {
+        (usedInIndex[setId].get(glyph) || []).forEach((user) => {
+          if (seenChars.has(user.char)) return;
+          seenChars.add(user.char);
+          users.push(user);
+        });
+      });
+    });
+    return users.sort((a, b) => orInfinity(a.freq) - orInfinity(b.freq) || a.order - b.order);
+  }
+
+  // Radicals have no published frequency, so rank them by how many characters list them under "Used In"
+  // across both lists (ties keep radical ID order).
+  itemsBySet.radical
+    .map((item) => ({ item, count: usedInFor(item, ["chinese", "japanese"]).length }))
+    .sort((a, b) => b.count - a.count || a.item.id - b.item.id)
+    .forEach(({ item, count }, index) => {
+      item.useCount = count;
+      item.freq = index + 1;
+      item.freqKey = index + 1;
+    });
+
+  function itemForGlyph(glyph, fromItem) {
+    for (const setId of relatedSets(fromItem)) {
+      const item = glyphIndex[setId].get(glyph);
+      if (item) return item;
+    }
+    return lookupGlyph(glyph)[0] || null;
+  }
+
+  // "黑 (black); 犬 (dog); [亻+土]" -> named parts; bracketed parts are shapes with no glyph of their own.
+  function describeParts(text) {
+    return String(text || "")
+      .split("; ")
+      .map((part) => part.trim())
+      .filter(Boolean)
+      .map((part) => {
+        if (part.startsWith("[")) return { glyph: part.slice(1, -1), name: "", shape: true };
+        const match = part.match(/^(\S+)\s*\((.*)\)$/);
+        return match ? { glyph: match[1], name: match[2], shape: false } : { glyph: part, name: "", shape: false };
+      });
+  }
+
+  function makeEl(tag, className, text) {
+    const node = document.createElement(tag);
+    if (className) node.className = className;
+    if (text != null) node.textContent = text;
+    return node;
+  }
+
+  function glyphLang(item) {
+    return item && item.set === "chinese" ? "zh-CN" : "ja";
+  }
+
+  function makeChip(glyph, name, target, interactive) {
+    const chip = makeEl(target && interactive ? "button" : "div", "kanji-part-chip");
+    if (target && interactive) {
+      chip.type = "button";
+      chip.dataset.key = target.key;
+    }
+    const glyphEl = makeEl("span", "kanji-part-glyph", glyph);
+    glyphEl.lang = glyphLang(target);
+    chip.append(glyphEl);
+    const label = name || (target ? target.label : "");
+    if (label) chip.append(makeEl("span", "kanji-part-name", label));
+    return chip;
+  }
+
+  function makeSection(title) {
+    const sectionEl = makeEl("section", "kanji-detail-section");
+    sectionEl.append(makeEl("h3", "", title));
+    return sectionEl;
+  }
+
+  function factsLine(item) {
+    const t = (key) => getTranslation("kanji." + key);
+    const facts = [getTranslation(KANJI_SET_NAME_KEYS[item.set])];
+    if (item.set === "radical") facts.push(`#${item.id}`);
+    if (item.freq) facts.push(`${t("frequency")} #${item.freq}`);
+    if (item.grade) facts.push(`${t("grade")} ${item.grade}`);
+    if (item.set !== "radical" && item.radical) facts.push(`${t("radical")} ${item.radical}`);
+    if (item.strokes) facts.push(`${t("strokes")} ${item.strokes}`);
+    return facts.join(" · ");
+  }
+
+  // A radical shows its Kanmoji (the symbol picked for it in Play > Kanversion); a character its drawing.
+  function buildKanversionSlot(item) {
+    const slot = makeEl("div", "kanji-detail-kanversion");
+    const index = getKanversionIndex();
+    const key = item.set === "radical" ? `R:${item.id}` : index ? index.unitKeyOf(item.char) : "";
+    const state = readKanversionState();
+    const visual = key ? createKanversionVisual(key, state) : null;
+    const frame = makeEl("div", "kanji-detail-kanversion-image");
+    if (visual) frame.append(visual);
+    const caption = visual
+      ? key.startsWith("C:") ? getTranslation("kanji.kanversion") : `${getTranslation("kanji.kanversion")}: ${kanversionSymbolName(key, state)}`
+      : getTranslation("kanji.kanversionNone");
+    slot.title = caption;
+    slot.append(frame, makeEl("div", "kanji-detail-kanversion-caption", caption));
+    return slot;
+  }
+
+  function buildDetail(item, compact) {
+    const t = (key) => getTranslation("kanji." + key);
+    const root = makeEl("div", "kanji-detail-content");
+
+    const head = makeEl("div", "kanji-detail-head");
+    const glyph = makeEl("div", "kanji-detail-glyph", item.char);
+    glyph.lang = glyphLang(item);
+    if (!compact) glyph.id = "kanji-detail-glyph";
+    const titles = makeEl("div", "kanji-detail-titles");
+    titles.append(
+      makeEl("div", "kanji-detail-meaning", item.set === "chinese" ? item.label : item.meaning),
+      makeEl("div", "kanji-detail-facts", factsLine(item))
+    );
+    // Golden boxes hide their counts, so the counts are always here as well.
+    const { correct, wrong } = countsFor(item.key);
+    const counts = makeEl("div", "kanji-box-count kanji-detail-count");
+    if (golden.has(item.key)) counts.append(makeEl("span", "is-golden", getTranslation("kanji.golden")));
+    counts.append(makeEl("span", "is-correct", `✓${correct}`), makeEl("span", "is-wrong", `✗${wrong}`));
+    counts.title = formatTranslation("kanji.countTitle", { correct, wrong });
+    titles.append(counts);
+    head.append(glyph, titles);
+    if (!compact) head.append(buildKanversionSlot(item));
+    root.append(head);
+
+    if (!compact) {
+      const others = KANJI_SETS.map((s) => glyphIndex[s].get(item.char)).filter((other) => other && other !== item);
+      if (others.length) {
+        const switcher = makeEl("div", "kanji-detail-siblings");
+        others.forEach((other) => {
+          const btn = makeEl("button", "transfer-lang-chip", `${KANJI_SET_TAGS[other.set]} ${getTranslation(KANJI_SET_NAME_KEYS[other.set])}`);
+          btn.type = "button";
+          btn.dataset.key = other.key;
+          switcher.append(btn);
+        });
+        root.append(switcher);
+      }
+    }
+
+    const breakdown = makeSection(t("breakdown"));
+    const parts = describeParts(item.parts);
+    if (parts.length) {
+      const row = makeEl("div", "kanji-part-row");
+      parts.forEach((part) => {
+        if (part.shape) row.append(makeChip(part.glyph, "", null, false));
+        else row.append(makeChip(part.glyph, part.name, itemForGlyph(part.glyph, item), !compact));
+      });
+      breakdown.append(row);
+    } else {
+      breakdown.append(makeEl("p", "kanji-detail-none", t("noBreakdown")));
+    }
+    root.append(breakdown);
+
+    const usedIn = makeSection(t("usedIn"));
+    const users = usedInFor(item);
+    if (users.length) {
+      const limit = compact ? KANJI_PEEK_USED_IN_LIMIT : KANJI_USED_IN_LIMIT;
+      const row = makeEl("div", "kanji-part-row kanji-used-row");
+      const addUsers = (list) => list.forEach((user) => row.append(makeChip(user.char, user.label, user, !compact)));
+      addUsers(users.slice(0, limit));
+      usedIn.append(row);
+      if (users.length > limit) {
+        if (compact) {
+          row.append(makeEl("span", "kanji-detail-more", formatTranslation("kanji.more", { count: users.length - limit })));
+        } else {
+          const showAll = makeEl("button", "transfer-lang-chip kanji-detail-show-all", formatTranslation("kanji.showAll", { count: users.length }));
+          showAll.type = "button";
+          showAll.addEventListener("click", () => {
+            showAll.remove();
+            addUsers(users.slice(limit));
+          });
+          usedIn.append(showAll);
+        }
+      }
+    } else {
+      usedIn.append(makeEl("p", "kanji-detail-none", t("notUsed")));
+    }
+    root.append(usedIn);
+
+    const info = makeSection(t("readingsExamples"));
+    const list = makeEl("dl", "kanji-detail-info");
+    const addLine = (label, value) => {
+      if (!value) return;
+      list.append(makeEl("dt", "", label), makeEl("dd", "", value));
+    };
+    const addList = (label, text) => {
+      let entries = String(text || "").split(" | ").filter(Boolean);
+      if (!entries.length) return;
+      const more = compact ? entries.length - KANJI_PEEK_LIST_LIMIT : 0;
+      if (more > 0) entries = entries.slice(0, KANJI_PEEK_LIST_LIMIT);
+      const ul = makeEl("ul");
+      entries.forEach((entry) => ul.append(makeEl("li", "", entry)));
+      if (more > 0) ul.append(makeEl("li", "kanji-detail-more", formatTranslation("kanji.more", { count: more })));
+      const dd = makeEl("dd");
+      dd.append(ul);
+      list.append(makeEl("dt", "", label), dd);
+    };
+    if (item.set === "radical") {
+      addLine(t("meaning"), item.meaning);
+      addLine(t("reading"), item.reading);
+      addLine(t("variants"), item.variants);
+    } else if (item.set === "chinese") {
+      addList(t("readings"), item.readings);
+    } else {
+      addLine(t("meaning"), item.meaning);
+      addLine(t("kunyomi"), item.kun);
+      addLine(t("onyomi"), item.on);
+      addList(t("examplesKun"), item.kunExamples);
+      addList(t("examplesOn"), item.onExamples);
+    }
+    if (list.childElementCount) info.append(list);
+    else info.append(makeEl("p", "kanji-detail-none", t("nothingYet")));
+    root.append(info);
+
+    return root;
+  }
+
+  let detailItem = null;
+  let detailStarChanged = false;
+  const detailHistory = [];
+  // Prev / Next walk the grid as it was when the window opened; breakdown and Used In
+  // detours keep the last grid position so the arrows carry on from there.
+  let detailList = [];
+  let detailListPos = new Map();
+  let detailListIndex = -1;
+
+  function syncArrow(button, glyphEl, labelKey, item) {
+    const label = getTranslation(labelKey);
+    button.disabled = !item;
+    glyphEl.textContent = item ? item.char : "";
+    glyphEl.lang = glyphLang(item);
+    if (item) button.dataset.key = item.key;
+    else delete button.dataset.key;
+    button.title = item ? `${label}: ${item.char}${item.label ? ` (${item.label})` : ""}` : label;
+    button.setAttribute("aria-label", button.title);
+  }
+
+  // Prev / Next wrap around the ends of the list; a single-item list has nowhere to go.
+  function detailNeighbor(offset) {
+    const total = detailList.length;
+    if (detailListIndex < 0 || total < 2) return null;
+    return detailList[(detailListIndex + offset + total) % total];
+  }
+
+  function syncDetailNav() {
+    const total = detailList.length;
+    syncArrow(detailPrev, detailPrevGlyph, "kanji.previous", detailNeighbor(-1));
+    syncArrow(detailNext, detailNextGlyph, "kanji.next", detailNeighbor(1));
+    detailPosition.textContent = total && detailListIndex >= 0 ? `${detailListIndex + 1} / ${total}` : "";
+  }
+
+  function showDetail(item) {
+    detailItem = item;
+    const listIndex = detailListPos.get(item.key);
+    if (listIndex !== undefined) detailListIndex = listIndex;
+    detailBody.textContent = "";
+    detailBody.append(buildDetail(item, false));
+    paintStar(detailStar, starred.has(item.key));
+    detailBack.classList.toggle("hidden", !detailHistory.length);
+    syncDetailNav();
+    detailBody.scrollTop = 0;
+    alignKanversionSlot();
+  }
+
+  // The Kanversion box is centred under the Previous / Next arrows.
+  function alignKanversionSlot() {
+    const slot = detailBody.querySelector(".kanji-detail-kanversion");
+    if (!slot || detailModal.classList.contains("hidden")) return;
+    slot.style.marginRight = "0px";
+    const nav = detailPrev.parentElement.getBoundingClientRect();
+    const box = slot.getBoundingClientRect();
+    const shift = box.left + box.width / 2 - (nav.left + nav.width / 2);
+    slot.style.marginRight = `${Math.max(0, shift)}px`;
+  }
+
+  window.addEventListener("resize", alignKanversionSlot);
+
+  function openDetail(item) {
+    detailHistory.length = 0;
+    detailStarChanged = false;
+    detailList = shownItems.slice();
+    detailListPos = new Map(detailList.map((listItem, index) => [listItem.key, index]));
+    detailListIndex = -1;
+    showDetail(item);
+    detailModal.classList.remove("hidden");
+    alignKanversionSlot();
+    detailClose.focus();
+  }
+
+  function goToDetail(key) {
+    const item = itemByKey.get(key);
+    if (!item || item === detailItem) return;
+    detailHistory.push(detailItem);
+    showDetail(item);
+  }
+
+  function stepDetail(offset) {
+    const item = detailNeighbor(offset);
+    if (!item) return;
+    detailHistory.length = 0;
+    showDetail(item);
+  }
+
+  function closeDetail() {
+    if (detailModal.classList.contains("hidden")) return;
+    detailModal.classList.add("hidden");
+    detailItem = null;
+    detailHistory.length = 0;
+    detailList = [];
+    detailListPos = new Map();
+    if (detailStarChanged && kanjiState.starredOnly && !searchQuery()) renderKanjiGrid();
+  }
+
+  function toggleStar(key) {
+    const nowStarred = !starred.has(key);
+    if (nowStarred) starred.add(key);
+    else starred.delete(key);
+    saveStarred();
+    const box = boxCache.get(key);
+    if (box) paintStar(box.querySelector(".kanji-star"), nowStarred);
+    return nowStarred;
+  }
+
+  detailBack.addEventListener("click", () => {
+    const previous = detailHistory.pop();
+    if (previous) showDetail(previous);
+  });
+  detailClose.addEventListener("click", closeDetail);
+  detailPrev.addEventListener("click", () => stepDetail(-1));
+  detailNext.addEventListener("click", () => stepDetail(1));
+  detailStar.addEventListener("click", () => {
+    if (!detailItem) return;
+    paintStar(detailStar, toggleStar(detailItem.key));
+    detailStarChanged = true;
+  });
+  // While the window is open the page behind it must never scroll, even when the content is too short to scroll.
+  detailModal.addEventListener("wheel", (e) => {
+    const maxScroll = detailBody.scrollHeight - detailBody.clientHeight;
+    // Scroll positions can be fractional, so allow a 1px tolerance at each end.
+    const canScroll = detailBody.contains(e.target) && maxScroll > 1 &&
+      ((e.deltaY < 0 && detailBody.scrollTop > 1) || (e.deltaY > 0 && detailBody.scrollTop < maxScroll - 1));
+    if (!canScroll) e.preventDefault();
+  }, { passive: false });
+
+  detailModal.addEventListener("click", (e) => {
+    if (e.target === detailModal) {
+      closeDetail();
+      return;
+    }
+    const target = e.target.closest(".kanji-detail-content [data-key]");
+    if (target) goToDetail(target.dataset.key);
+  });
+
+  let peeking = false;
+  let peekKey = null;
+  let peekBox = null;
+  let suppressContextMenu = false;
+  const PEEK_GAP = 6;
+  const PEEK_MARGIN = 8;
+  const PEEK_TARGETS = ".kanji-grid .kanji-box, .kanji-detail-content [data-key], .kanji-detail-arrow[data-key]";
+
+  function peekTargetOf(node) {
+    return node && node.closest ? node.closest(PEEK_TARGETS) : null;
+  }
+
+  function placePeek() {
+    if (!peekBox || !peekBox.isConnected) return;
+    const rect = peekBox.getBoundingClientRect();
+    const viewWidth = document.documentElement.clientWidth;
+    const viewHeight = window.innerHeight;
+    peekCard.style.maxHeight = "none";
+    const naturalHeight = peekCard.offsetHeight;
+    const width = peekCard.offsetWidth;
+    const spaceBelow = viewHeight - rect.bottom - PEEK_GAP - PEEK_MARGIN;
+    const spaceAbove = rect.top - PEEK_GAP - PEEK_MARGIN;
+    // The card must never overlap the hovered box, so it is capped to the space on its chosen side.
+    const below = naturalHeight <= spaceBelow || spaceBelow >= spaceAbove;
+    const height = Math.max(0, Math.min(naturalHeight, below ? spaceBelow : spaceAbove));
+    const top = below ? rect.bottom + PEEK_GAP : rect.top - PEEK_GAP - height;
+    const centered = rect.left + rect.width / 2 - width / 2;
+    const left = Math.min(Math.max(PEEK_MARGIN, centered), viewWidth - width - PEEK_MARGIN);
+    peekCard.style.maxHeight = `${height}px`;
+    peekCard.style.top = `${top}px`;
+    peekCard.style.left = `${Math.max(PEEK_MARGIN, left)}px`;
+    peekCard.classList.toggle("is-above", !below);
+  }
+
+  function showPeek(box) {
+    const item = itemByKey.get(box.dataset.key);
+    if (!item) return;
+    if (item.key !== peekKey) {
+      peekKey = item.key;
+      peekCard.textContent = "";
+      peekCard.append(buildDetail(item, true));
+    } else if (box === peekBox && !peekCard.classList.contains("hidden")) {
+      return;
+    }
+    if (peekBox) peekBox.classList.remove("is-peeked");
+    peekBox = box;
+    peekBox.classList.add("is-peeked");
+    peekCard.classList.remove("hidden");
+    placePeek();
+  }
+
+  function endPeek() {
+    if (!peeking) return;
+    peeking = false;
+    peekKey = null;
+    if (peekBox) peekBox.classList.remove("is-peeked");
+    peekBox = null;
+    peekCard.classList.add("hidden");
+    document.body.classList.remove("kanji-peeking");
+  }
+
+  document.addEventListener("mousedown", (e) => {
+    if (e.button !== 2) return;
+    const box = peekTargetOf(e.target);
+    if (!box) return;
+    e.preventDefault();
+    peeking = true;
+    suppressContextMenu = true;
+    document.body.classList.add("kanji-peeking");
+    showPeek(box);
+  });
+
+  document.addEventListener("mousemove", (e) => {
+    if (!peeking) return;
+    if (!(e.buttons & 2)) {
+      endPeek();
+      return;
+    }
+    const box = peekTargetOf(e.target);
+    if (box) showPeek(box);
+  });
+
+  // Capture also catches scrolling inside the info window, which does not bubble to window.
+  document.addEventListener("scroll", () => {
+    if (peeking) placePeek();
+  }, { passive: true, capture: true });
+  window.addEventListener("resize", () => {
+    if (peeking) placePeek();
+  });
+
+  document.addEventListener("mouseup", (e) => {
+    if (e.button === 2) endPeek();
+  });
+
+  document.addEventListener("contextmenu", (e) => {
+    if (suppressContextMenu || peekTargetOf(e.target)) {
+      e.preventDefault();
+      suppressContextMenu = false;
+    }
+  });
+
+  window.addEventListener("blur", endPeek);
+
+  /* ---------- rendering ---------- */
+
+  let renderToken = 0;
+  let shownItems = [];
+
+  function searchQuery() {
+    return searchInput.value.trim();
+  }
+
+  function showEmptyMessage() {
+    const empty = document.createElement("div");
+    empty.className = "kanji-empty";
+    let key = "kanji.noData";
+    if (searchQuery()) key = "kanji.noMatches";
+    else if (kanjiState.starredOnly) key = "kanji.noStarred";
+    empty.textContent = getTranslation(key);
+    grid.appendChild(empty);
+  }
+
+  function renderKanjiGrid() {
+    const token = ++renderToken;
+    const query = searchQuery();
+    const items = query ? getSearchItems(query) : getVisibleItems();
+    shownItems = items;
+    grid.textContent = "";
+    // Search results can come from other lists, so show which list each box is from.
+    grid.classList.toggle("is-all", kanjiState.set === "all" || !!query);
+    if (!items.length) {
+      showEmptyMessage();
+      return;
+    }
+    let index = 0;
+    const step = () => {
+      if (token !== renderToken) return;
+      const frag = document.createDocumentFragment();
+      const end = Math.min(index + KANJI_RENDER_CHUNK, items.length);
+      for (; index < end; index++) frag.appendChild(buildBox(items[index]));
+      grid.appendChild(frag);
+      if (index < items.length) requestAnimationFrame(step);
+    };
+    step();
+  }
+
+  /* ---------- controls ---------- */
+
+  function sortLabel(sortId) {
+    const sort = KANJI_SORTS.find((s) => s.id === sortId) || KANJI_SORTS[0];
+    return getTranslation(sort.key);
+  }
+
+  function syncControls() {
+    setButtons.forEach((btn) => {
+      const active = btn.dataset.kanjiSet === kanjiState.set;
+      btn.classList.toggle("is-active", active);
+      btn.setAttribute("aria-pressed", active ? "true" : "false");
+    });
+    starredToggle.classList.toggle("is-active", kanjiState.starredOnly);
+    starredToggle.setAttribute("aria-pressed", kanjiState.starredOnly ? "true" : "false");
+    sortBtn.textContent = sortLabel(kanjiState.sort);
+    sortMenu.querySelectorAll(".kanji-sort-option").forEach((opt) => {
+      opt.setAttribute("aria-checked", opt.dataset.sort === kanjiState.sort ? "true" : "false");
+    });
+  }
+
+  function buildSortMenu() {
+    sortMenu.textContent = "";
+    KANJI_SORTS.forEach((sort) => {
+      const opt = document.createElement("button");
+      opt.type = "button";
+      opt.className = "kanji-sort-option";
+      opt.setAttribute("role", "menuitemradio");
+      opt.dataset.sort = sort.id;
+      opt.textContent = getTranslation(sort.key);
+      sortMenu.appendChild(opt);
+    });
+  }
+
+  function closeSortMenu() {
+    sortMenu.classList.add("hidden");
+  }
+
+  function setSort(sortId) {
+    if (kanjiState.sort === sortId) return;
+    kanjiState.sort = sortId;
+    saveKanjiState();
+    syncControls();
+    renderKanjiGrid();
+  }
+
+  setButtons.forEach((btn) => {
+    btn.addEventListener("click", () => {
+      if (kanjiState.set === btn.dataset.kanjiSet) return;
+      kanjiState.set = btn.dataset.kanjiSet;
+      saveKanjiState();
+      syncControls();
+      renderKanjiGrid();
+    });
+  });
+
+  starredToggle.addEventListener("click", () => {
+    kanjiState.starredOnly = !kanjiState.starredOnly;
+    saveKanjiState();
+    syncControls();
+    renderKanjiGrid();
+  });
+
+  learnBtn.addEventListener("click", () => {
+    const items = getVisibleItems().map((item) => [item.key, item.char, item.label]);
+    localStorage.setItem(KANJI_LEARN_KEY, JSON.stringify({ ...kanjiState, items }));
+    window.location.href = "kanji-learn.html";
+  });
+
+  sortBtn.addEventListener("click", () => {
+    closeSortMenu();
+    const index = KANJI_SORTS.findIndex((s) => s.id === kanjiState.sort);
+    setSort(KANJI_SORTS[(index + 1) % KANJI_SORTS.length].id);
+  });
+
+  sortBtn.addEventListener("contextmenu", (e) => {
+    e.preventDefault();
+    sortMenu.classList.toggle("hidden");
+    const current = sortMenu.querySelector('[aria-checked="true"]');
+    if (current && !sortMenu.classList.contains("hidden")) current.focus();
+  });
+
+  sortMenu.addEventListener("click", (e) => {
+    const opt = e.target.closest(".kanji-sort-option");
+    if (!opt) return;
+    closeSortMenu();
+    setSort(opt.dataset.sort);
+  });
+
+  document.addEventListener("click", (e) => {
+    if (!e.target.closest(".kanji-sort-wrap")) closeSortMenu();
+  });
+
+  document.addEventListener("keydown", (e) => {
+    if ((e.key === "ArrowLeft" || e.key === "ArrowRight") && !detailModal.classList.contains("hidden")) {
+      e.preventDefault();
+      stepDetail(e.key === "ArrowLeft" ? -1 : 1);
+      return;
+    }
+    if (!detailModal.classList.contains("hidden")) {
+      const page = detailBody.clientHeight * 0.9;
+      const scrollTargets = {
+        ArrowUp: detailBody.scrollTop - 40,
+        ArrowDown: detailBody.scrollTop + 40,
+        PageUp: detailBody.scrollTop - page,
+        PageDown: detailBody.scrollTop + page,
+        Home: 0,
+        End: detailBody.scrollHeight,
+      };
+      // Space still presses a focused button; otherwise it pages the window instead of the page behind it.
+      if (e.key === " " && !e.target.closest("button, input, textarea, select")) {
+        scrollTargets[" "] = detailBody.scrollTop + (e.shiftKey ? -page : page);
+      }
+      if (e.key in scrollTargets) {
+        e.preventDefault();
+        detailBody.scrollTop = scrollTargets[e.key];
+        return;
+      }
+    }
+    if (e.key !== "Escape") return;
+    if (!detailModal.classList.contains("hidden")) {
+      closeDetail();
+    } else if (!sortMenu.classList.contains("hidden")) {
+      closeSortMenu();
+      sortBtn.focus();
+    }
+  });
+
+  grid.addEventListener("click", (e) => {
+    const box = e.target.closest(".kanji-box");
+    const key = box && box.dataset.key;
+    if (!key || !itemByKey.has(key)) return;
+    if (!e.target.closest(".kanji-star")) {
+      openDetail(itemByKey.get(key));
+      return;
+    }
+    const nowStarred = toggleStar(key);
+    if (kanjiState.starredOnly && !nowStarred && !searchQuery()) {
+      box.remove();
+      if (!grid.querySelector(".kanji-box")) showEmptyMessage();
+    }
+  });
+
+  let searchTimer = 0;
+  searchInput.addEventListener("input", () => {
+    clearTimeout(searchTimer);
+    searchTimer = setTimeout(renderKanjiGrid, 150);
+  });
+
+  window.onLanguageChange = () => {
+    buildSortMenu();
+    syncControls();
+    renderKanjiGrid();
+    if (detailItem) showDetail(detailItem);
+  };
+
+  // Coming back with the browser's Back button can restore this page as it was before a lesson.
+  window.addEventListener("pageshow", (e) => {
+    if (!e.persisted) return;
+    practiceStats = readKanjiJson(KANJI_STATS_KEY, {});
+    completed.clear();
+    readKanjiJson(KANJI_COMPLETED_KEY, []).forEach((key) => completed.add(key));
+    golden.clear();
+    readKanjiJson(KANJI_GOLDEN_KEY, []).forEach((key) => golden.add(key));
+    renderKanjiGrid();
+  });
+
+  buildSortMenu();
+  syncControls();
+  renderKanjiGrid();
+}
+
+/* --------------------------------
+   KANJI LEARN PAGE
+   Opened from the Kanji page's Learn button with the set / sort it was on and the symbols in that
+   order (kanjiLearnSelection.items = [key, char, label]). Lessons are consecutive runs of those symbols.
+   Opening a lesson starts its game right away: one card per symbol and game mode (Reading only for
+   Chinese and Japanese), drawn at random until each card has been answered correctly once.
+   A symbol is learned (kanjiCompleted, the outline on the Kanji page) when all of its cards are answered
+   correctly in one play of the lesson without a single wrong answer; a lesson is completed when all of
+   its symbols are. Every answer also counts towards kanjiPracticeStats[key] = { correct, wrong, run },
+   where run is the number of correct answers in a row; at Golden Streak the symbol is Golden (kanjiGolden).
+   The Exponential learn style has no lessons: the whole list is one line, new symbols in list order, and
+   every answered card goes back into the line at a gap that grows or shrinks with each answer.
+-------------------------------- */
+if (page === "kanji-learn") {
+  const KANJI_LEARN_KEY = "kanjiLearnSelection";
+  const KANJI_LEARN_SAVE_KEY = "kanjiLearnSaved";
+  const KANJI_LEARN_SETTINGS_KEY = "kanjiLearnSettings";
+  const KANJI_LEARN_SIDEBAR_KEY = "kanjiLearnSidebarOpen";
+  const KANJI_COMPLETED_KEY = "kanjiCompleted";
+  const KANJI_STARRED_KEY = "kanjiStarred";
+  const KANJI_STATS_KEY = "kanjiPracticeStats";
+  const KANJI_LEARN_EXP_KEY = "kanjiLearnExponential";
+  const KANJI_GOLDEN_KEY = "kanjiGolden";
+  const KANJI_RECENT_KEY = "kanjiRecentAnswers";
+  const RECENT_ANSWERS = 100;
+  const PER_LESSON_DEFAULT = 10;
+  const PER_LESSON_MAX = 200;
+  const LEARN_STYLES = ["linear", "exponential"];
+  const LEARN_STYLE_KEYS = { linear: "kanji.learnStyleLinear", exponential: "kanji.learnStyleExponential" };
+  // [default, min, max]; the inputs in kanji-learn.html carry the same limits.
+  const EXP_SETTINGS = {
+    positiveJump: [3, 0, 100000],
+    negativeJump: [1, 0, 100000],
+  };
+  const GOLDEN_STREAK = [100, 1, 100000];
+  const PLAY_MODES = ["definition", "kanji", "reading"];
+  const PLAY_MODE_KEYS = { definition: "kanji.modeDefinition", kanji: "kanji.modeKanji", reading: "kanji.modeReading" };
+  const DEFINITION_CHOICES = 5;
+  const PEEK_GAP = 8;
+  const PEEK_MARGIN = 8;
+
+  const saveBtn = document.getElementById("kanji-learn-save");
+  const settingsBtn = document.getElementById("kanji-learn-settings");
+  const settingsPanel = document.getElementById("kanji-learn-settings-panel");
+  const perLessonInput = document.getElementById("kanji-learn-per-lesson");
+  const styleBtn = document.getElementById("kanji-learn-style");
+  const styleRows = Array.from(settingsPanel.querySelectorAll("[data-learn-style]"));
+  const expInputs = Array.from(settingsPanel.querySelectorAll("input[data-exp]"));
+  const goldenStreakInput = document.getElementById("kanji-learn-golden-streak");
+  const starModeInput = document.getElementById("kanji-learn-star-mode");
+  const modeInputs = Array.from(settingsPanel.querySelectorAll("input[data-mode]"));
+  const resetCountsBtn = document.getElementById("kanji-learn-reset-counts");
+  const sidebarToggle = document.getElementById("kanji-learn-sidebar-toggle");
+  const sidebar = document.getElementById("kanji-learn-sidebar");
+  const filterBtn = document.getElementById("kanji-learn-filter");
+  const lessonList = document.getElementById("kanji-learn-lessons");
+  const body = document.getElementById("kanji-learn-body");
+  const peekCard = document.getElementById("kanji-learn-peek");
+
+  function readJson(key, fallback) {
+    try {
+      const value = JSON.parse(localStorage.getItem(key));
+      return value == null ? fallback : value;
+    } catch (_) {
+      return fallback;
+    }
+  }
+
+  function clampPerLesson(value) {
+    const n = Math.round(Number(value));
+    return n >= 1 ? Math.min(n, PER_LESSON_MAX) : PER_LESSON_DEFAULT;
+  }
+
+  // Whole numbers inside the setting's limits; anything else is null.
+  function rangedValue([, min, max], value) {
+    const n = Number(value);
+    return Number.isInteger(n) && n >= min && n <= max ? n : null;
+  }
+
+  const expValue = (name, value) => rangedValue(EXP_SETTINGS[name], value);
+
+  function readSettings() {
+    const saved = readJson(KANJI_LEARN_SETTINGS_KEY, {});
+    const modes = saved.modes || {};
+    const exp = {};
+    Object.keys(EXP_SETTINGS).forEach((name) => {
+      const value = expValue(name, (saved.exp || {})[name]);
+      exp[name] = value == null ? EXP_SETTINGS[name][0] : value;
+    });
+    const goldenStreak = rangedValue(GOLDEN_STREAK, saved.goldenStreak);
+    return {
+      style: LEARN_STYLES.includes(saved.style) ? saved.style : "linear",
+      perLesson: clampPerLesson(saved.perLesson),
+      exp,
+      goldenStreak: goldenStreak == null ? GOLDEN_STREAK[0] : goldenStreak,
+      starMode: saved.starMode === true,
+      modes: {
+        definition: modes.definition !== false,
+        kanji: modes.kanji !== false,
+        reading: modes.reading !== false,
+      },
+    };
+  }
+
+  const settings = readSettings();
+  const selection = readJson(KANJI_LEARN_KEY, {});
+  const items = Array.isArray(selection.items) ? selection.items : [];
+  const completed = new Set(readJson(KANJI_COMPLETED_KEY, []));
+  let stats = readJson(KANJI_STATS_KEY, {});
+  const golden = new Set(readJson(KANJI_GOLDEN_KEY, []));
+  // The last RECENT_ANSWERS answers, oldest first: 1 for correct, 0 for wrong.
+  let recentAnswers = [].concat(readJson(KANJI_RECENT_KEY, [])).slice(-RECENT_ANSWERS);
+  let filter = "todo";
+  let currentLesson = 0;
+  let play = null;
+  let streak = 0;
+  let savedTimer = 0;
+
+  const saveSettings = () => localStorage.setItem(KANJI_LEARN_SETTINGS_KEY, JSON.stringify(settings));
+  const saveCompleted = () => localStorage.setItem(KANJI_COMPLETED_KEY, JSON.stringify(Array.from(completed)));
+  const saveStats = () => localStorage.setItem(KANJI_STATS_KEY, JSON.stringify(stats));
+  const saveGolden = () => localStorage.setItem(KANJI_GOLDEN_KEY, JSON.stringify(Array.from(golden)));
+
+  function countsFor(key) {
+    const entry = stats[key] || {};
+    return { correct: Number(entry.correct) || 0, wrong: Number(entry.wrong) || 0, run: Number(entry.run) || 0 };
+  }
+
+  // Returns true when this answer makes the symbol Golden.
+  function addCount(key, ok) {
+    const counts = countsFor(key);
+    counts[ok ? "correct" : "wrong"] += 1;
+    counts.run = ok ? counts.run + 1 : 0;
+    stats[key] = counts;
+    saveStats();
+    recentAnswers = [...recentAnswers, ok ? 1 : 0].slice(-RECENT_ANSWERS);
+    localStorage.setItem(KANJI_RECENT_KEY, JSON.stringify(recentAnswers));
+    if (!ok || golden.has(key) || counts.run < settings.goldenStreak) return false;
+    golden.add(key);
+    saveGolden();
+    return true;
+  }
+
+  // Share of the last RECENT_ANSWERS answers, across all symbols, that were correct.
+  function accuracyText() {
+    if (!recentAnswers.length) return "–";
+    const correct = recentAnswers.filter((answer) => answer === 1).length;
+    return `${Math.round((correct / recentAnswers.length) * 100)}%`;
+  }
+
+  const lessonCount = () => Math.ceil(items.length / settings.perLesson);
+  const lessonItems = (n) => items.slice((n - 1) * settings.perLesson, n * settings.perLesson);
+  const isLessonCompleted = (n) => lessonItems(n).every(([key]) => completed.has(key));
+  const activeModes = () => PLAY_MODES.filter((mode) => settings.modes[mode]);
+
+  function lessonsInFilter() {
+    const lessons = [];
+    for (let n = 1; n <= lessonCount(); n++) {
+      if (isLessonCompleted(n) === (filter === "completed")) lessons.push(n);
+    }
+    return lessons;
+  }
+
+  function firstTodoLesson() {
+    for (let n = 1; n <= lessonCount(); n++) {
+      if (!isLessonCompleted(n)) return n;
+    }
+    return lessonCount() ? 1 : 0;
+  }
+
+  function nextTodoLesson(after) {
+    const count = lessonCount();
+    for (let step = 1; step < count; step++) {
+      const n = ((after - 1 + step) % count) + 1;
+      if (!isLessonCompleted(n)) return n;
+    }
+    return 0;
+  }
+
+  /* ---------- symbol data (readings and accepted answers) ---------- */
+
+  const kanjiData = window.KANJI_DATA || {};
+  let rowIndex = null;
+
+  // Keys are "R:<radical id>", "C:<hanzi>" and "J:<kanji>", as on the Kanji page.
+  function rowFor(key) {
+    if (!rowIndex) {
+      const split = (list) => (Array.isArray(list) ? list : []).map((line) => String(line).split("\t"));
+      rowIndex = {
+        R: new Map(split(kanjiData.radicals).map((c) => [c[0], c])),
+        C: new Map(split(kanjiData.hanzi).map((c) => [c[1], c])),
+        J: new Map(split(kanjiData.kanji).map((c) => [c[0], c])),
+      };
+    }
+    const index = rowIndex[key[0]];
+    return (index && index.get(key.slice(2))) || [];
+  }
+
+  const TONE_MARKS = {
+    "ā": "a1", "á": "a2", "ǎ": "a3", "à": "a4", "ē": "e1", "é": "e2", "ě": "e3", "è": "e4",
+    "ī": "i1", "í": "i2", "ǐ": "i3", "ì": "i4", "ō": "o1", "ó": "o2", "ǒ": "o3", "ò": "o4",
+    "ū": "u1", "ú": "u2", "ǔ": "u3", "ù": "u4", "ǖ": "ü1", "ǘ": "ü2", "ǚ": "ü3", "ǜ": "ü4",
+  };
+
+  // "guó", "guo2", "lü3", "lv3", "lu:3" -> "guo2" / "lu:3". No tone at all is the neutral tone (5).
+  function numberedPinyin(text) {
+    let tone = "";
+    const plain = String(text || "")
+      .normalize("NFC")
+      .toLowerCase()
+      .replace(/\s+/g, "")
+      .replace(/[āáǎàēéěèīíǐìōóǒòūúǔùǖǘǚǜ]/g, (ch) => {
+        tone = TONE_MARKS[ch][1];
+        return TONE_MARKS[ch][0];
+      })
+      .replace(/u:|ü|v/g, "u:");
+    const match = plain.match(/^([a-z:]+?)([0-5])?$/);
+    if (!match) return plain;
+    const digit = match[2] || tone || "5";
+    return match[1] + (digit === "0" ? "5" : digit);
+  }
+
+  // Hiragana and katakana count as the same answer; okurigana dots and affix dashes are ignored.
+  function kana(text) {
+    return String(text || "")
+      .normalize("NFKC")
+      .replace(/[\s.\-]/g, "")
+      .replace(/[\u30a1-\u30f6]/g, (ch) => String.fromCharCode(ch.charCodeAt(0) - 0x60));
+  }
+
+  const splitList = (text) => String(text || "").split(/[、,;]\s*/).map((s) => s.trim()).filter(Boolean);
+
+  const infoCache = new Map();
+
+  function symbolInfo([key, char, label]) {
+    if (infoCache.has(key)) return infoCache.get(key);
+    const c = rowFor(key);
+    const set = key[0];
+    const info = { key, char, label: label || "", lang: set === "C" ? "zh-CN" : "ja", pinyin: set === "C", chars: [char], readings: [], readingText: "" };
+    if (set === "R") {
+      // Variants look like "亻 (にんべん); 𠆢 (ひとやね)" or just "(のかんむり)".
+      if (c[2]) info.chars.push(c[2]);
+      String(c[8] || "").split(";").forEach((variant) => {
+        const glyph = variant.trim().split(" ")[0];
+        if (glyph && !glyph.startsWith("(")) info.chars.push(glyph);
+      });
+      const names = splitList(c[5]);
+      const variantNames = Array.from(String(c[8] || "").matchAll(/\(([^)]+)\)/g), (m) => m[1].trim());
+      info.readings = [...names, ...variantNames].map(kana);
+      info.readingText = names.join("、");
+    } else if (set === "C") {
+      // Readings look like "1. guó (guo2) - country • nation | 2. ...".
+      const marked = [];
+      for (const m of String(c[5] || "").matchAll(/(?:^|\|)\s*\d+\.\s*(\S+)\s*\(([a-zA-Z:]+[0-5])\)/g)) {
+        const shown = m[1].toLowerCase();
+        if (!marked.includes(shown)) marked.push(shown);
+        info.readings.push(numberedPinyin(m[2]));
+      }
+      info.readingText = marked.join(", ");
+    } else if (set === "J") {
+      // Kun readings mark okurigana with a dot ("はず.す"); both "はずす" and "はず" are accepted.
+      const kun = splitList(c[6]);
+      const on = splitList(c[7]);
+      [...on, ...kun].forEach((reading) => {
+        info.readings.push(kana(reading));
+        if (reading.includes(".")) info.readings.push(kana(reading.split(".")[0]));
+      });
+      info.readingText = [on.join("、"), kun.join("、")].filter(Boolean).join(" ／ ");
+    }
+    info.readings = Array.from(new Set(info.readings.filter(Boolean)));
+    info.chars = Array.from(new Set(info.chars.filter(Boolean).map((ch) => ch.normalize("NFKC"))));
+    infoCache.set(key, info);
+    return info;
+  }
+
+  const charMatches = (info, input) => info.chars.includes(String(input).trim().normalize("NFKC"));
+  const readingMatches = (info, input) => info.readings.includes(info.pinyin ? numberedPinyin(input) : kana(input));
+
+  /* ---------- game ---------- */
+
+  function shuffle(list) {
+    for (let i = list.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [list[i], list[j]] = [list[j], list[i]];
+    }
+    return list;
+  }
+
+  // Definitions keep the symbol they belong to, so it can be shown once the card is answered.
+  const definitionOf = (info) => ({ label: info.label, char: info.char, key: info.key });
+
+  // Wrong definitions come from the whole list that was opened, not only the lesson.
+  function pickDefinitions(correct, count, exclude) {
+    const taken = new Set([correct, ...(exclude || [])].map((text) => text.toLowerCase()));
+    const picks = [];
+    for (let guard = 0; picks.length < count && guard < count * 60 && items.length > 1; guard++) {
+      const [key, char, label] = items[Math.floor(Math.random() * items.length)];
+      if (!label || taken.has(label.toLowerCase())) continue;
+      taken.add(label.toLowerCase());
+      picks.push({ label, char, key });
+    }
+    return picks;
+  }
+
+  // The turned-on modes this symbol has data for; Reading is only asked for Chinese and Japanese.
+  function modesFor(info) {
+    const modes = [];
+    if (settings.modes.definition && info.label) modes.push("definition");
+    if (settings.modes.kanji && (info.readingText || info.label)) modes.push("kanji");
+    if (settings.modes.reading && !info.key.startsWith("R:") && info.readings.length) modes.push("reading");
+    return modes;
+  }
+
+  // A completed lesson is replayed in full; otherwise only the symbols that are not learned yet are dealt.
+  // A saved play passes the symbols it was dealt (only), so it comes back the same.
+  function buildDeck(n, only) {
+    const starred = settings.starMode ? new Set(readJson(KANJI_STARRED_KEY, [])) : null;
+    const inLesson = lessonItems(n).filter(([key]) => !starred || starred.has(key));
+    const all = isLessonCompleted(n);
+    const dealt = only ? ([key]) => only.has(key) : ([key]) => all || !completed.has(key);
+    const symbols = inLesson.filter(dealt).map(symbolInfo);
+    const cards = [];
+    symbols.forEach((info) => {
+      modesFor(info).forEach((mode) => cards.push({ id: `${info.key}|${mode}`, mode, info }));
+    });
+    return { inLesson, symbols, cards };
+  }
+
+  function makeRound(card) {
+    const round = { card, phase: 1, answered: false, ok: false, choice: "", shown: null, correctShown: true, options: [], picked: "", typed: "" };
+    if (card.mode === "definition") {
+      const wrong = pickDefinitions(card.info.label, 1)[0];
+      round.correctShown = !wrong || Math.random() < 0.5;
+      round.shown = round.correctShown ? definitionOf(card.info) : wrong;
+    }
+    return round;
+  }
+
+  const remainingCards = () => play.cards.filter((card) => !play.correct.has(card.id));
+
+  // progress ({ symbols: [keys], correct: [card ids], missed: [keys] }) picks a saved play back up; cards
+  // that are no longer in the deck are ignored.
+  function startLesson(n, replay, progress) {
+    currentLesson = n;
+    play = null;
+    if (n) {
+      const only = progress && Array.isArray(progress.symbols) && progress.symbols.length ? new Set(progress.symbols) : null;
+      if (!only && !replay && isLessonCompleted(n)) {
+        play = { lesson: n, finished: true };
+      } else {
+        const deck = buildDeck(n, only);
+        play = { lesson: n, symbols: deck.symbols, cards: deck.cards, correct: new Set(), missed: new Set(), round: null, lastId: "" };
+        if (progress) {
+          const ids = new Set(deck.cards.map((card) => card.id));
+          [].concat(progress.correct || []).forEach((id) => ids.has(id) && play.correct.add(id));
+          [].concat(progress.missed || []).forEach((key) => play.missed.add(key));
+        }
+        if (!activeModes().length) play.message = "kanji.playNoModes";
+        else if (!deck.inLesson.length) play.message = "kanji.playNoStarred";
+        else if (!deck.symbols.length) play.finished = true;
+        else if (!deck.cards.length) play.message = "kanji.playNoCards";
+        else dealNext();
+      }
+    }
+    render();
+  }
+
+  function dealNext() {
+    if (play.exp) {
+      dealExp();
+      return;
+    }
+    const pool = remainingCards();
+    if (!pool.length) {
+      finishLesson();
+      return;
+    }
+    const choices = pool.length > 1 ? pool.filter((card) => card.id !== play.lastId) : pool;
+    const card = choices[Math.floor(Math.random() * choices.length)];
+    play.lastId = card.id;
+    play.round = makeRound(card);
+  }
+
+  function finishLesson() {
+    play.round = null;
+    play.finished = true;
+  }
+
+  // A wrong card comes back until it is answered correctly, but its symbol is not learned in this play.
+  function settleRound(ok) {
+    const round = play.round;
+    const key = round.card.info.key;
+    round.answered = true;
+    round.ok = ok;
+    round.becameGolden = addCount(key, ok);
+    if (play.exp) {
+      settleExp(round, ok);
+    } else if (ok) {
+      streak += 1;
+      play.correct.add(round.card.id);
+      const allCorrect = play.cards.every((card) => card.info.key !== key || play.correct.has(card.id));
+      if (allCorrect && !play.missed.has(key) && !completed.has(key)) {
+        completed.add(key);
+        saveCompleted();
+      }
+    } else {
+      streak = 0;
+      play.missed.add(key);
+    }
+    render();
+  }
+
+  /* ---------- exponential style ---------- */
+
+  // One saved schedule per list (Radical / Chinese / Japanese / All):
+  // { turn, cards: { key: { interval, due, wrongRun, recent } } }.
+  // turn counts answered cards; a card with an interval has been answered before and is due once turn
+  // reaches due. Cards saved without an interval (the old deck) start over as new. The correct streak
+  // is the symbol's own (kanjiPracticeStats run), the same one that leads to Golden.
+  const expListId = selection.set || "all";
+  const itemByKey = new Map(items.map((item) => [item[0], item]));
+
+  // Older saves kept a signed streak on the card (card.run): a correct streak moves to the symbol, keeping
+  // the longer of the two (and can make it Golden); a wrong streak becomes card.wrongRun.
+  function migrateExpRuns() {
+    const all = readJson(KANJI_LEARN_EXP_KEY, {});
+    let changed = false;
+    Object.values(all).forEach((list) => {
+      Object.entries((list && list.cards) || {}).forEach(([key, card]) => {
+        if (!card || card.run == null) return;
+        const run = Number(card.run) || 0;
+        if (run > 0) {
+          const counts = countsFor(key);
+          counts.run = Math.max(counts.run, run);
+          stats[key] = counts;
+          completed.add(key);
+          if (counts.run >= settings.goldenStreak) golden.add(key);
+        } else if (run < 0) {
+          card.wrongRun = -run;
+        }
+        delete card.run;
+        changed = true;
+      });
+    });
+    if (!changed) return;
+    localStorage.setItem(KANJI_LEARN_EXP_KEY, JSON.stringify(all));
+    saveStats();
+    saveCompleted();
+    saveGolden();
+  }
+
+  migrateExpRuns();
+  let expState = loadExpState();
+
+  function loadExpState() {
+    const saved = readJson(KANJI_LEARN_EXP_KEY, {})[expListId] || {};
+    const cards = {};
+    Object.entries(saved.cards && typeof saved.cards === "object" ? saved.cards : {}).forEach(([key, card]) => {
+      if (card && card.interval > 0) cards[key] = card;
+    });
+    return { turn: Number(saved.turn) || 0, cards };
+  }
+
+  function saveExpState() {
+    const all = readJson(KANJI_LEARN_EXP_KEY, {});
+    all[expListId] = expState;
+    localStorage.setItem(KANJI_LEARN_EXP_KEY, JSON.stringify(all));
+  }
+
+  function expCard(key) {
+    if (!expState.cards[key]) expState.cards[key] = {};
+    return expState.cards[key];
+  }
+
+  const isReview = (key) => !!expState.cards[key] && expState.cards[key].interval > 0;
+
+  // Golden symbols leave the Exponential line for good.
+  function expPlayable(key) {
+    const item = itemByKey.get(key);
+    if (!item || golden.has(key) || (play.starred && !play.starred.has(key))) return false;
+    return modesFor(symbolInfo(item)).length > 0;
+  }
+
+  const expReviewKeys = () => Object.keys(expState.cards).filter((key) => isReview(key) && expPlayable(key));
+  const earliestDue = (keys) => keys.reduce((a, b) => (expState.cards[b].due < expState.cards[a].due ? b : a));
+
+  // The line: a card that is due comes first (the longest-waiting one), so each comes back exactly when it
+  // is due; otherwise the next new symbol in list order. Once every symbol has been seen and none is due,
+  // the line moves up to the next one that comes back. Modes take turns per symbol, so a run of correct
+  // answers goes through every mode.
+  function dealExp() {
+    const reviews = expReviewKeys();
+    const due = reviews.filter((k) => expState.cards[k].due <= expState.turn);
+    let key = "";
+    if (due.length) {
+      key = earliestDue(due);
+    } else {
+      const next = items.find(([k]) => !isReview(k) && expPlayable(k));
+      if (next) key = next[0];
+      else if (reviews.length) {
+        key = earliestDue(reviews);
+        expState.turn = expState.cards[key].due;
+        saveExpState();
+      }
+    }
+    if (!key) {
+      play.round = null;
+      play.finished = true;
+      return;
+    }
+    play.finished = false;
+    const info = symbolInfo(itemByKey.get(key));
+    const card = expCard(key);
+    const modes = modesFor(info);
+    const recent = Array.isArray(card.recent) ? card.recent : [];
+    const fresh = modes.filter((mode) => !recent.includes(mode));
+    const pool = fresh.length ? fresh : modes;
+    const mode = pool[Math.floor(Math.random() * pool.length)];
+    const keep = modes.length - 1;
+    card.recent = keep > 0 ? [...recent, mode].slice(-keep) : [];
+    play.round = makeRound({ id: `${key}|${mode}`, mode, info, review: isReview(key) });
+    play.round.cardGap = card.interval;
+  }
+
+  // A correct answer brings the card back Positive Jump × (the symbol's correct answers in a row) cards
+  // later; a wrong answer shortens its current gap (0 for a new card) by Negative Jump × (wrong answers in
+  // a row). The first correct answer makes the symbol known (outlined); a Golden symbol leaves the line.
+  function settleExp(round, ok) {
+    const key = round.card.info.key;
+    const { exp } = settings;
+    expState.turn += 1;
+    streak = ok ? streak + 1 : 0;
+    if (round.becameGolden) {
+      delete expState.cards[key];
+    } else {
+      const card = expCard(key);
+      card.wrongRun = ok ? 0 : (Number(card.wrongRun) || 0) + 1;
+      const gap = ok
+        ? exp.positiveJump * countsFor(key).run
+        : (Number(card.interval) || 0) - exp.negativeJump * card.wrongRun;
+      card.interval = Math.max(1, gap);
+      card.due = expState.turn + card.interval;
+      round.comesBack = card.interval;
+      round.cardGap = card.interval;
+    }
+    if (ok && !completed.has(key)) {
+      completed.add(key);
+      saveCompleted();
+      round.becameKnown = true;
+    }
+    saveExpState();
+  }
+
+  function startExp() {
+    currentLesson = 0;
+    play = { exp: true, round: null, starred: settings.starMode ? new Set(readJson(KANJI_STARRED_KEY, [])) : null };
+    if (!activeModes().length) play.message = "kanji.playNoModes";
+    else if (play.starred && !items.some(([key]) => play.starred.has(key))) play.message = "kanji.playNoStarred";
+    else if (items.length) dealExp();
+    render();
+  }
+
+  function restart() {
+    if (settings.style === "exponential") startExp();
+    else startLesson(currentLesson || firstTodoLesson());
+  }
+
+  // o: the shown definition is right. x: it is wrong, then the right one is picked from a short list.
+  function judge(choice) {
+    const round = play && play.round;
+    if (!round || round.answered || round.card.mode !== "definition" || round.phase !== 1) return;
+    round.choice = choice;
+    if (choice === "o") {
+      settleRound(round.correctShown);
+    } else if (round.correctShown) {
+      settleRound(false);
+    } else {
+      const { info } = round.card;
+      round.phase = 2;
+      round.options = shuffle([definitionOf(info), ...pickDefinitions(info.label, DEFINITION_CHOICES - 1, [round.shown.label])]);
+      render();
+    }
+  }
+
+  function pickOption(text) {
+    const round = play && play.round;
+    if (!round || round.answered || round.phase !== 2) return;
+    round.picked = text;
+    settleRound(text === round.card.info.label);
+  }
+
+  function submitTyped(value) {
+    const round = play && play.round;
+    if (!round || round.answered || round.card.mode === "definition" || !value.trim()) return;
+    round.typed = value;
+    const { info } = round.card;
+    settleRound(round.card.mode === "kanji" ? charMatches(info, value) : readingMatches(info, value));
+  }
+
+  function nextCard() {
+    if (!play || !play.round || !play.round.answered) return;
+    dealNext();
+    render();
+  }
+
+  function answerText(card) {
+    if (card.mode === "kanji") return card.info.char;
+    if (card.mode === "reading") return card.info.readingText;
+    return card.info.label;
+  }
+
+  /* ---------- rendering ---------- */
+
+  function el(tag, className, text) {
+    const node = document.createElement(tag);
+    if (className) node.className = className;
+    if (text != null) node.textContent = text;
+    return node;
+  }
+
+  function chipButton(labelKey, onClick, extraClass) {
+    const button = el("button", `transfer-lang-chip${extraClass ? ` ${extraClass}` : ""}`, getTranslation(labelKey));
+    button.type = "button";
+    button.addEventListener("click", onClick);
+    return button;
+  }
+
+  function renderSidebar() {
+    filterBtn.textContent = getTranslation(filter === "completed" ? "kanji.learnCompleted" : "kanji.learnTodo");
+    filterBtn.classList.toggle("is-active", filter === "completed");
+    filterBtn.setAttribute("aria-pressed", filter === "completed" ? "true" : "false");
+
+    const scrollTop = lessonList.scrollTop;
+    lessonList.textContent = "";
+    const lessons = lessonsInFilter();
+    if (!lessons.length) {
+      let key = filter === "completed" ? "kanji.noCompletedLessons" : "kanji.noTodoLessons";
+      if (!items.length) key = "kanji.noLearnList";
+      lessonList.appendChild(el("li", "kanji-learn-empty", getTranslation(key)));
+      return;
+    }
+    const fragment = document.createDocumentFragment();
+    lessons.forEach((n) => {
+      const li = document.createElement("li");
+      const button = el("button", "", formatTranslation("kanji.learnLesson", { n }));
+      button.type = "button";
+      button.dataset.lesson = String(n);
+      if (n === currentLesson) {
+        button.classList.add("is-active");
+        button.setAttribute("aria-current", "true");
+      }
+      li.appendChild(button);
+      fragment.appendChild(li);
+    });
+    lessonList.appendChild(fragment);
+    lessonList.scrollTop = scrollTop;
+  }
+
+  // Every definition keeps a slot for the symbol it belongs to; the symbol only becomes visible once the
+  // card is answered, so nothing shifts when it appears.
+  function fillDefinition(node, definition, reveal) {
+    const glyph = el("span", `kanji-play-reveal${reveal ? "" : " is-hidden"}`, definition.char);
+    glyph.lang = definition.key.startsWith("C:") ? "zh-CN" : "ja";
+    if (!reveal) glyph.setAttribute("aria-hidden", "true");
+    node.append(glyph, el("span", "kanji-play-def", definition.label));
+  }
+
+  function renderDefinitionRound(wrap, round) {
+    const { label } = round.card.info;
+    const box = el("div", "kanji-play-box");
+    fillDefinition(box, round.shown, round.answered);
+    if (round.answered && round.phase !== 2) {
+      box.classList.add(round.correctShown ? "is-correct" : "is-wrong");
+      if (round.becameGolden) box.classList.add("is-golden");
+    }
+
+    const judges = el("div", "kanji-play-actions");
+    ["o", "x"].forEach((choice) => {
+      const button = el("button", "transfer-lang-chip kanji-play-judge", choice);
+      button.type = "button";
+      button.disabled = round.answered || round.phase !== 1;
+      if (round.choice === choice) button.classList.add("is-active");
+      button.addEventListener("click", () => judge(choice));
+      judges.append(button);
+    });
+    wrap.append(el("div", "kanji-play-label", getTranslation("kanji.playIsDefinitionCorrect")), box, judges);
+
+    if (round.phase !== 2) return;
+    const list = el("div", "kanji-play-options");
+    round.options.forEach((definition) => {
+      const text = definition.label;
+      const option = el("button", "kanji-play-option");
+      fillDefinition(option, definition, round.answered);
+      option.type = "button";
+      option.disabled = round.answered;
+      if (round.answered && text === label) {
+        option.classList.add("is-correct");
+        if (round.becameGolden) option.classList.add("is-golden");
+      } else if (round.answered && text === round.picked) option.classList.add("is-wrong");
+      option.addEventListener("click", () => pickOption(text));
+      list.append(option);
+    });
+    wrap.append(el("div", "kanji-play-label", getTranslation("kanji.playPickDefinition")), list);
+  }
+
+  function renderTypedRound(wrap, round) {
+    const { mode, info } = round.card;
+    let labelKey = "kanji.playTypeCharacter";
+    if (mode === "reading") labelKey = info.pinyin ? "kanji.playTypePinyin" : "kanji.playTypeKana";
+
+    const form = el("form", "kanji-play-actions");
+    const input = el("input", "kanji-play-input");
+    input.type = "text";
+    input.autocomplete = "off";
+    input.spellcheck = false;
+    input.setAttribute("autocapitalize", "off");
+    input.placeholder = getTranslation("kanji.playAnswerPlaceholder");
+    input.value = round.typed;
+    input.disabled = round.answered;
+    if (mode === "kanji") input.lang = info.lang;
+    else if (!info.pinyin) input.lang = "ja";
+    if (round.answered) input.classList.add(round.ok ? "is-correct" : "is-wrong");
+    if (round.becameGolden) input.classList.add("is-golden");
+    const submit = el("button", "transfer-lang-chip", getTranslation("kanji.playSubmit"));
+    submit.type = "submit";
+    submit.disabled = round.answered;
+    form.addEventListener("submit", (e) => {
+      e.preventDefault();
+      submitTyped(input.value);
+    });
+    form.append(input, submit);
+    wrap.append(el("div", "kanji-play-label", getTranslation(labelKey)), form);
+  }
+
+  function renderPlay() {
+    const wrap = el("div", "kanji-play");
+    if (play.message) {
+      wrap.append(el("div", "kanji-play-status", getTranslation(play.message)));
+      return wrap;
+    }
+    if (play.finished && play.exp) {
+      wrap.append(el("div", "kanji-play-done", getTranslation("kanji.expAllGolden")));
+      return wrap;
+    }
+    if (play.finished) {
+      let done = getTranslation(isLessonCompleted(play.lesson) ? "kanji.playLessonComplete" : "kanji.playStarredDone");
+      if (play.missed && play.missed.size) {
+        const total = play.symbols.length;
+        done = formatTranslation("kanji.playLessonMissed", { learned: total - play.missed.size, total });
+      }
+      const actions = el("div", "kanji-play-actions");
+      actions.append(chipButton("kanji.playAgain", () => startLesson(play.lesson, true)));
+      const next = nextTodoLesson(play.lesson);
+      if (next) actions.append(chipButton("kanji.playNextLesson", () => startLesson(next), "is-active kanji-play-next"));
+      wrap.append(el("div", "kanji-play-done", done), actions);
+      return wrap;
+    }
+
+    const { round } = play;
+    const { card } = round;
+    const { info } = card;
+    const meta = el("div", "kanji-play-meta");
+    meta.append(el("span", "", formatTranslation("kanji.playModeLabel", { mode: getTranslation(PLAY_MODE_KEYS[card.mode]) })));
+    if (play.exp) {
+      // Once answered, this shows the card's new gap (Positive Jump × card streak after a correct answer).
+      const cardText = round.cardGap
+        ? formatTranslation("kanji.expReview", { gap: round.cardGap })
+        : getTranslation("kanji.expNew");
+      meta.append(el("span", "", cardText));
+    } else {
+      meta.append(el("span", "", formatTranslation("kanji.playRemaining", { left: remainingCards().length, total: play.cards.length })));
+    }
+    meta.append(
+      el("span", "", formatTranslation("kanji.playStreak", { n: streak })),
+      el("span", "", formatTranslation("kanji.playAccuracy", { n: accuracyText() })),
+      el("span", "", formatTranslation("kanji.cardStreak", { n: countsFor(info.key).run, total: settings.goldenStreak }))
+    );
+
+    const question = el("div", "kanji-play-question");
+    if (card.mode === "kanji") {
+      const reading = el("div", "kanji-play-text", info.readingText);
+      if (!info.pinyin) reading.lang = "ja";
+      question.append(reading);
+    } else {
+      const glyph = el("div", "kanji-play-glyph", info.char);
+      glyph.lang = info.lang;
+      question.append(glyph);
+    }
+    if (card.mode !== "definition" && info.label) question.append(el("div", "kanji-play-meaning", info.label));
+    wrap.append(meta, question);
+
+    if (card.mode === "definition") renderDefinitionRound(wrap, round);
+    else renderTypedRound(wrap, round);
+
+    if (round.answered) {
+      let status = getTranslation("kanji.playCorrect");
+      if (!round.ok && round.choice === "x" && round.correctShown) status = getTranslation("kanji.playWrongWasCorrect");
+      else if (!round.ok) status = formatTranslation("kanji.playWrongAnswer", { answer: answerText(card) });
+      wrap.append(el("div", `kanji-play-status ${round.ok ? "is-correct" : "is-wrong"}`, status));
+      if (round.comesBack) {
+        const key = round.becameKnown ? "kanji.expBecameKnown" : "kanji.expComesBack";
+        wrap.append(el("div", "kanji-play-status", formatTranslation(key, { n: round.comesBack })));
+      }
+      wrap.append(el("div", "kanji-play-continue", getTranslation("kanji.playClickToContinue")));
+    }
+    return wrap;
+  }
+
+  // Focus follows the game (answer box, or the finished panel's main button) unless the settings panel is being used.
+  function focusPlay() {
+    if (!settingsPanel.classList.contains("hidden")) return;
+    const target = body.querySelector(".kanji-play-next") || body.querySelector(".kanji-play-input:not(:disabled)");
+    if (target) target.focus({ preventScroll: true });
+  }
+
+  function renderLesson() {
+    body.textContent = "";
+    if (!items.length) {
+      body.appendChild(el("div", "kanji-empty", getTranslation("kanji.noLearnList")));
+      return;
+    }
+    if (!play || (!play.exp && !currentLesson)) return;
+    const head = el("div", "kanji-learn-lesson-head");
+    if (play.exp) {
+      const known = items.filter(([key]) => completed.has(key)).length;
+      const goldenCount = items.filter(([key]) => golden.has(key)).length;
+      const counts = el("span", "kanji-learn-known");
+      counts.append(
+        el("span", "", formatTranslation("kanji.expKnown", { n: known, total: items.length })),
+        el("span", "is-golden", formatTranslation("kanji.expGolden", { n: goldenCount, total: items.length }))
+      );
+      head.append(el("h2", "", getTranslation("kanji.learnStyleExponential")), counts);
+    } else {
+      head.append(el("h2", "", formatTranslation("kanji.learnLesson", { n: currentLesson })));
+    }
+    body.append(head, renderPlay());
+    focusPlay();
+  }
+
+  // Exponential has no lessons, so the lesson list and its toggle are hidden.
+  function render() {
+    const exp = settings.style === "exponential";
+    sidebar.classList.toggle("hidden", exp);
+    sidebarToggle.classList.toggle("hidden", exp);
+    if (!exp) renderSidebar();
+    renderLesson();
+    saveProgress();
+  }
+
+  // An answered card moves on with a click anywhere except on links and other controls. This runs in the
+  // capture phase and stops the click, so it never also lands on a button of the next card.
+  document.addEventListener("click", (e) => {
+    if (!play || !play.round || !play.round.answered || e.button !== 0) return;
+    if (!settingsPanel.classList.contains("hidden")) return;
+    if (!e.target.closest(".kanji-play") && e.target.closest("a, button, input, select, textarea, label")) return;
+    e.preventDefault();
+    e.stopPropagation();
+    nextCard();
+  }, true);
+
+  document.addEventListener("keydown", (e) => {
+    if (e.ctrlKey || e.metaKey || e.altKey) return;
+    if (e.target.closest && e.target.closest("input, textarea, select, [contenteditable='true']")) return;
+    const round = play && play.round;
+    if (round && round.answered && (e.key === "Enter" || e.key === " ")) {
+      if (e.repeat || (e.target.closest && e.target.closest("a, button"))) return;
+      e.preventDefault();
+      nextCard();
+      return;
+    }
+    if (!round || round.answered || round.card.mode !== "definition" || round.phase !== 1) return;
+    const key = e.key.toLowerCase();
+    if (key !== "o" && key !== "x") return;
+    e.preventDefault();
+    judge(key);
+  });
+
+  /* ---------- sidebar ---------- */
+
+  function setSidebarOpen(open) {
+    sidebar.classList.toggle("is-collapsed", !open);
+    sidebarToggle.setAttribute("aria-expanded", open ? "true" : "false");
+    sidebarToggle.classList.toggle("is-active", open);
+    localStorage.setItem(KANJI_LEARN_SIDEBAR_KEY, open ? "1" : "0");
+  }
+
+  sidebarToggle.addEventListener("click", () => setSidebarOpen(sidebar.classList.contains("is-collapsed")));
+
+  filterBtn.addEventListener("click", () => {
+    filter = filter === "completed" ? "todo" : "completed";
+    lessonList.scrollTop = 0;
+    renderSidebar();
+  });
+
+  lessonList.addEventListener("click", (e) => {
+    const button = e.target.closest("button[data-lesson]");
+    if (button) startLesson(Number(button.dataset.lesson));
+  });
+
+  /* ---------- lesson quick look (hold right click on a lesson) ---------- */
+
+  let peeking = false;
+  let peekButton = null;
+  let suppressContextMenu = false;
+
+  function lessonButtonOf(node) {
+    return node && node.closest ? node.closest("#kanji-learn-lessons button[data-lesson]") : null;
+  }
+
+  function buildLessonPeek(n) {
+    const fragment = document.createDocumentFragment();
+    fragment.append(el("h3", "kanji-learn-peek-title", formatTranslation("kanji.learnLesson", { n })));
+    const grid = el("div", "kanji-grid");
+    lessonItems(n).forEach(([key, char, label]) => {
+      const box = el("div", "symbol-box kanji-box");
+      if (completed.has(key)) box.classList.add("is-completed");
+      if (golden.has(key)) box.classList.add("is-golden");
+      const glyph = el("div", "kanji-box-glyph", char);
+      glyph.lang = key.startsWith("C:") ? "zh-CN" : "ja";
+      const { correct, wrong } = countsFor(key);
+      const count = el("div", "kanji-box-count");
+      count.append(el("span", "is-correct", `✓${correct}`), el("span", "is-wrong", `✗${wrong}`));
+      box.append(glyph, el("div", "kanji-box-label", label || ""), count);
+      grid.append(box);
+    });
+    fragment.append(grid);
+    return fragment;
+  }
+
+  // The card sits to the right of the held lesson, kept inside the window.
+  function placePeek() {
+    if (!peekButton || !peekButton.isConnected) return;
+    const rect = peekButton.getBoundingClientRect();
+    const viewWidth = document.documentElement.clientWidth;
+    const viewHeight = window.innerHeight;
+    peekCard.style.maxHeight = `${viewHeight - PEEK_MARGIN * 2}px`;
+    const width = peekCard.offsetWidth;
+    const height = peekCard.offsetHeight;
+    const left = Math.min(rect.right + PEEK_GAP, viewWidth - width - PEEK_MARGIN);
+    const top = Math.min(rect.top, viewHeight - height - PEEK_MARGIN);
+    peekCard.style.left = `${Math.max(PEEK_MARGIN, left)}px`;
+    peekCard.style.top = `${Math.max(PEEK_MARGIN, top)}px`;
+  }
+
+  function showPeek(button) {
+    if (button === peekButton) return;
+    if (peekButton) peekButton.classList.remove("is-peeked");
+    peekButton = button;
+    peekButton.classList.add("is-peeked");
+    peekCard.textContent = "";
+    peekCard.append(buildLessonPeek(Number(button.dataset.lesson)));
+    peekCard.classList.remove("hidden");
+    placePeek();
+  }
+
+  function endPeek() {
+    if (!peeking) return;
+    peeking = false;
+    if (peekButton) peekButton.classList.remove("is-peeked");
+    peekButton = null;
+    peekCard.classList.add("hidden");
+    document.body.classList.remove("kanji-peeking");
+  }
+
+  lessonList.addEventListener("mousedown", (e) => {
+    if (e.button !== 2) return;
+    const button = lessonButtonOf(e.target);
+    if (!button) return;
+    e.preventDefault();
+    peeking = true;
+    suppressContextMenu = true;
+    document.body.classList.add("kanji-peeking");
+    showPeek(button);
+  });
+
+  document.addEventListener("mousemove", (e) => {
+    if (!peeking) return;
+    if (!(e.buttons & 2)) {
+      endPeek();
+      return;
+    }
+    const button = lessonButtonOf(e.target);
+    if (button) showPeek(button);
+  });
+
+  document.addEventListener("mouseup", (e) => {
+    if (e.button === 2) endPeek();
+  });
+
+  document.addEventListener("contextmenu", (e) => {
+    if (suppressContextMenu || lessonButtonOf(e.target)) {
+      e.preventDefault();
+      suppressContextMenu = false;
+    }
+  });
+
+  lessonList.addEventListener("scroll", () => {
+    if (peeking) placePeek();
+  }, { passive: true });
+  window.addEventListener("resize", () => {
+    if (peeking) placePeek();
+  });
+  window.addEventListener("blur", endPeek);
+
+  /* ---------- settings ---------- */
+
+  // Linear shows Symbols Per Lesson; Exponential shows the two jump settings instead.
+  function syncSettingsInputs() {
+    styleBtn.textContent = getTranslation(LEARN_STYLE_KEYS[settings.style]);
+    styleBtn.classList.toggle("is-active", settings.style === "exponential");
+    styleRows.forEach((row) => row.classList.toggle("hidden", row.dataset.learnStyle !== settings.style));
+    perLessonInput.value = String(settings.perLesson);
+    expInputs.forEach((input) => {
+      input.value = String(settings.exp[input.dataset.exp]);
+    });
+    goldenStreakInput.value = String(settings.goldenStreak);
+    starModeInput.checked = settings.starMode;
+    modeInputs.forEach((input) => {
+      input.checked = settings.modes[input.dataset.mode];
+    });
+  }
+
+  function setSettingsOpen(open) {
+    settingsPanel.classList.toggle("hidden", !open);
+    settingsBtn.setAttribute("aria-expanded", open ? "true" : "false");
+    if (open) {
+      syncSettingsInputs();
+      const first = settings.style === "exponential" ? expInputs[0] : perLessonInput;
+      first.focus();
+      first.select();
+    }
+  }
+
+  styleBtn.addEventListener("click", () => {
+    settings.style = settings.style === "exponential" ? "linear" : "exponential";
+    saveSettings();
+    syncSettingsInputs();
+    streak = 0;
+    restart();
+  });
+
+  // New values apply from the next card; the card on screen keeps its round.
+  expInputs.forEach((input) => {
+    const name = input.dataset.exp;
+    input.addEventListener("input", () => {
+      const value = expValue(name, input.value === "" ? NaN : Number(input.value));
+      if (value == null || value === settings.exp[name]) return;
+      settings.exp[name] = value;
+      saveSettings();
+      if (play && play.exp && play.round) render();
+    });
+    input.addEventListener("change", () => {
+      input.value = String(settings.exp[name]);
+    });
+  });
+
+  // Symbols that are already Golden stay Golden when this is raised.
+  goldenStreakInput.addEventListener("input", () => {
+    const value = rangedValue(GOLDEN_STREAK, goldenStreakInput.value === "" ? NaN : Number(goldenStreakInput.value));
+    if (value == null || value === settings.goldenStreak) return;
+    settings.goldenStreak = value;
+    saveSettings();
+    if (play && play.round) render();
+  });
+  goldenStreakInput.addEventListener("change", () => {
+    goldenStreakInput.value = String(settings.goldenStreak);
+  });
+
+  settingsBtn.addEventListener("click", () => setSettingsOpen(settingsPanel.classList.contains("hidden")));
+
+  // Keeps the first symbol of the open lesson in view when the lesson size changes.
+  perLessonInput.addEventListener("input", () => {
+    const n = Math.round(Number(perLessonInput.value));
+    if (!(n >= 1) || n === settings.perLesson) return;
+    const firstIndex = currentLesson ? (currentLesson - 1) * settings.perLesson : 0;
+    settings.perLesson = Math.min(n, PER_LESSON_MAX);
+    saveSettings();
+    startLesson(currentLesson ? Math.floor(firstIndex / settings.perLesson) + 1 : 0);
+  });
+
+  perLessonInput.addEventListener("change", () => {
+    perLessonInput.value = String(settings.perLesson);
+  });
+
+  starModeInput.addEventListener("change", () => {
+    settings.starMode = starModeInput.checked;
+    saveSettings();
+    streak = 0;
+    restart();
+  });
+
+  modeInputs.forEach((input) => {
+    input.addEventListener("change", () => {
+      settings.modes[input.dataset.mode] = input.checked;
+      saveSettings();
+      streak = 0;
+      restart();
+    });
+  });
+
+  // Counts and outlines go together: everything is back to 0, nothing is Golden, every lesson is To-Do
+  // again and the Exponential lines start over (known cards are the outlined ones).
+  resetCountsBtn.addEventListener("click", () => {
+    if (!window.confirm(getTranslation("kanji.resetCountsConfirm"))) return;
+    stats = {};
+    localStorage.removeItem(KANJI_STATS_KEY);
+    completed.clear();
+    localStorage.removeItem(KANJI_COMPLETED_KEY);
+    golden.clear();
+    localStorage.removeItem(KANJI_GOLDEN_KEY);
+    recentAnswers = [];
+    localStorage.removeItem(KANJI_RECENT_KEY);
+    localStorage.removeItem(KANJI_LEARN_SAVE_KEY);
+    localStorage.removeItem(KANJI_LEARN_EXP_KEY);
+    localStorage.removeItem("kanjiLearnMastered");
+    expState = loadExpState();
+    streak = 0;
+    filter = "todo";
+    setSettingsOpen(false);
+    restart();
+  });
+
+  document.addEventListener("click", (e) => {
+    if (settingsPanel.classList.contains("hidden")) return;
+    if (settingsPanel.contains(e.target) || settingsBtn.contains(e.target)) return;
+    setSettingsOpen(false);
+    focusPlay();
+  });
+
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape" && !settingsPanel.classList.contains("hidden")) {
+      setSettingsOpen(false);
+      settingsBtn.focus();
+    }
+  });
+
+  /* ---------- save ---------- */
+
+  // Settings, counts and the Exponential line are kept as they change; Save also keeps the streak and the
+  // lesson in progress, which come back the next time this list is opened.
+  // One save per list (set, starred filter and sort): { [saveId]: { perLesson, lesson, streak, progress } }.
+  const saveId = `${selection.set || ""}|${selection.starredOnly ? 1 : 0}|${selection.sort || ""}`;
+
+  function readSaves() {
+    const saved = readJson(KANJI_LEARN_SAVE_KEY, {});
+    if (saved && saved.selection) {
+      // A single save from before saves were kept per list.
+      const { set, starredOnly, sort } = saved.selection;
+      return { [`${set || ""}|${starredOnly ? 1 : 0}|${sort || ""}`]: saved };
+    }
+    return saved && typeof saved === "object" ? saved : {};
+  }
+
+  // Runs on every render, so every answer (and every lesson change) is saved right away.
+  function saveProgress() {
+    const progress = play && !play.exp && play.correct
+      ? { symbols: play.symbols.map((info) => info.key), correct: Array.from(play.correct), missed: Array.from(play.missed) }
+      : null;
+    const saves = readSaves();
+    saves[saveId] = { perLesson: settings.perLesson, lesson: currentLesson, streak, progress, savedAt: Date.now() };
+    localStorage.setItem(KANJI_LEARN_SAVE_KEY, JSON.stringify(saves));
+  }
+
+  saveBtn.addEventListener("click", () => {
+    saveProgress();
+    saveBtn.textContent = getTranslation("kanji.saved");
+    clearTimeout(savedTimer);
+    savedTimer = setTimeout(() => {
+      saveBtn.textContent = getTranslation("kanji.save");
+    }, 1500);
+  });
+
+  window.onLanguageChange = () => {
+    syncSettingsInputs();
+    render();
+  };
+
+  // This list's save picks up where it was left.
+  function restoreSave() {
+    const saved = readSaves()[saveId];
+    if (!saved) return false;
+    streak = Math.max(0, Math.round(Number(saved.streak)) || 0);
+    if (settings.style === "exponential") return false;
+    const n = Math.round(Number(saved.lesson));
+    if (!(n >= 1 && n <= lessonCount())) return false;
+    const perLesson = saved.perLesson != null ? saved.perLesson : saved.settings && saved.settings.perLesson;
+    startLesson(n, false, perLesson === settings.perLesson ? saved.progress : null);
+    return true;
+  }
+
+  setSidebarOpen(localStorage.getItem(KANJI_LEARN_SIDEBAR_KEY) !== "0");
+  syncSettingsInputs();
+  setSettingsOpen(false);
+  if (!restoreSave()) restart();
 }

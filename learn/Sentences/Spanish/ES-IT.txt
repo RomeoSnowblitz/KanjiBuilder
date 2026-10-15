@@ -1,0 +1,2476 @@
+1 Pedir en un café
+ Arrivederci! - ¡Adiós!
+ Arrivederci. - Adiós.
+ Ciao! - ¡Adiós!
+ grazie - gracias
+ Grazie! - ¡Gracias!
+ Grazie, arrivederci. - Gracias, adiós.
+ Grazie. - Gracias.
+ per favore - por favor
+ Perfetto! - ¡Perfecto!
+ Perfetto, grazie. - Perfecto, gracias.
+ Perfetto. - Perfecto.
+ Salve! - ¡Hola!
+ Salve, un caffè! - ¡Hola, un café!
+ Salve, un caffè. - Hola, un café.
+ Salve, un cornetto. - Hola, un cruasán.
+ Salve, un gelato. - Hola, un helado.
+ Salve, un tè! - ¡Hola, un té!
+ Salve, un tè. - Hola, un té.
+ Salve. - Hola.
+ un caffè - un café
+ Un caffè o un tè? - ¿Un café o un té?
+ Un caffè! - ¡Un café!
+ Un caffè, per favore. - Un café, por favor.
+ Un caffè. - Un café.
+ un cappuccino - un capuchino
+ Un cappuccino o un tè? - ¿Un cappuccino o un té?
+ Un cappuccino, per favore. - Un cappuccino, por favor.
+ Un cappuccino. - Un cappuccino.
+ un cornetto - un cruasán
+ Un cornetto e un caffè. - Un cruasán y un café.
+ Un cornetto e un tè. - Un cruasán y un té.
+ Un cornetto, per favore. - Un cruasán, por favor.
+ Un cornetto. - Un cruasán.
+ Un gelato, per favore. - Un helado, por favor.
+ Un gelato. - Un helado.
+ un tè - un té
+ Un tè e un gelato. - Un té y un helado.
+ Un tè o un caffè? - ¿Un té o un café?
+ Un tè o un cappuccino? - ¿Un té o un cappuccino?
+ Un tè! - ¡Un té!
+ Un tè, per favore. - Un té, por favor.
+ Un tè. - Un té.
+2 Presentarse y presentar a otros
+ A presto, Anna! - ¡Hasta pronto, Anna!
+ A presto, Anna. - Hasta pronto, Anna.
+ A presto, Isa! - ¡Hasta pronto, Isa!
+ A presto, Pina! - ¡Hasta pronto, Pina!
+ A presto, Teo! - ¡Hasta pronto, Teo!
+ A presto. - Hasta pronto.
+ Bene! - ¡Bien!
+ Bene, grazie. - Bien, gracias.
+ Bene. - Bien.
+ Buongiorno! - ¡Buenos días!
+ Buongiorno, come va? - Buenos días, ¿cómo va?
+ Buongiorno, io sono Isa! - ¡Buenos días, yo soy Isa!
+ Buongiorno, io sono Isa. - Buenos días, yo soy Isa.
+ Buongiorno, io sono Leo. - Buenos días, yo soy Leo.
+ Buongiorno, Isa! - ¡Buenos días, Isa!
+ Buongiorno, Isa. - Buenos días, Isa.
+ Buongiorno, Leo! - ¡Buenos días, Leo!
+ Buongiorno, Leo. - Buenos días, Leo.
+ Buongiorno. - Buenos días.
+ Ciao, come va? - Hola, ¿cómo va?
+ Come va, Anna? - ¿Cómo va, Anna?
+ Come va, Isa? - ¿Cómo va, Isa?
+ Come va? - ¿Qué tal?
+ Io sono Isa! - ¡Yo soy Isa!
+ Io sono Isa. - Yo soy Isa.
+ Io sono Leo! - ¡Yo soy Leo!
+ Io sono Leo. - Yo soy Leo.
+ Piacere! - ¡Mucho gusto!
+ Piacere, Anna! - ¡Encantada, Anna!
+ Piacere, io sono Leo. - Encantado, yo soy Leo.
+ Piacere, Isa. - Encantado, Isa.
+ Piacere, Leo! - Encantado, Leo.
+ Piacere, Leo. - Encantado, Leo.
+ Piacere, Ugo! - ¡Encantado, Ugo!
+ Piacere, Ugo. - Encantado, Ugo.
+ Salve, come va? - Hola, ¿cómo va?
+ Salve, io sono Isa! - Hola, yo soy Isa.
+ Salve, io sono Isa. - Hola, yo soy Isa.
+ Salve, io sono Leo! - ¡Hola, yo soy Leo!
+ Salve, io sono Leo. - Hola, yo soy Leo.
+3 Hablar de dónde eres
+ Ah, Anna è di Roma! - ¡Ah, Anna es de Roma!
+ Ah, io sono di Berlino! - ¡Ah, yo soy de Berlín!
+ Ah, io sono di Roma! - ¡Ah, yo soy de Roma!
+ Ah, Isa è di Londra! - ¡Ah, Isa es de Londres!
+ Ah, Ugo è di Roma! - ¡Ah, Ugo es de Roma!
+ Anna è di Milano. - Anna es de Milán.
+ Anna, tu sei di Berlino, vero? - Anna, tú eres de Berlín, ¿verdad?
+ Anna, tu sei di Londra, vero? - Anna, tú eres de Londres, ¿verdad?
+ Anna, tu sei di Roma, vero? - Anna, tú eres de Roma, ¿verdad?
+ Berlino - Berlín
+ Buonanotte! - ¡Buenas noches!
+ Buonasera! - ¡Buenas noches!
+ Buonasera, come va? - Buenas noches, ¿cómo va?
+ Buonasera, io sono di Londra! - Buenas noches, yo soy de Londres.
+ Buonasera, io sono di Londra. - Buenas noches, yo soy de Londres.
+ Buonasera, io sono di Roma! - ¡Buenas noches, yo soy de Roma!
+ Buonasera, io sono di Roma. - Buenas noches, yo soy de Roma.
+ Buonasera. - Buenas noches.
+ Buongiorno, io sono di Londra. - Buenos días, yo soy de Londres.
+ Io sono di Berlino. - Yo soy de Berlín.
+ Io sono di Londra! - ¡Yo soy de Londres!
+ Io sono di Londra. - Yo soy de Londres.
+ Io sono di Milano. - Yo soy de Milán.
+ Io sono di Roma! - ¡Yo soy de Roma!
+ Io sono di Roma. - Yo soy de Roma.
+ Isa è di Roma. - Isa es de Roma.
+ Isa, tu sei di Berlino, vero? - Isa, tú eres de Berlín, ¿verdad?
+ Isa, tu sei di Londra, vero? - Isa, tú eres de Londres, ¿verdad?
+ Isa, tu sei di Roma, vero? - Isa, tú eres de Roma, ¿verdad?
+ Leo è di Milano. - Leo es de Milán.
+ Leo è di Roma. - Leo es de Roma.
+ Leo, tu sei di Berlino, vero? - Leo, tú eres de Berlín, ¿verdad?
+ Leo, tu sei di Londra, vero? - Leo, tú eres de Londres, ¿verdad?
+ Leo, tu sei di Roma, vero? - Leo, tú eres de Roma, ¿verdad?
+ Londra - Londres
+ Londra e Roma - Londres y Roma
+ Londra o Roma? - ¿Londres o Roma?
+ Mario è di Londra, vero? - Mario es de Londres, ¿verdad?
+ Mario è di Roma, vero? - Mario es de Roma, ¿verdad?
+ No, Anna è di Roma. - No, Anna es de Roma.
+ No, io sono di Berlino. - No, yo soy de Berlín.
+ No, io sono di Londra. - No, yo soy de Londres.
+ No, io sono di Milano. - No, yo soy de Milán.
+ No, io sono di Roma. - No, yo soy de Roma.
+ No, Mario è di Londra. - No, Mario es de Londres.
+ No, Mario è di Roma. - No, Mario es de Roma.
+ Roma e Londra - Roma y Londres
+ Roma o Londra? - ¿Roma o Londres?
+ Salve, io sono di Londra. - Hola, yo soy de Londres.
+ Salve, io sono di Roma. - Hola, yo soy de Roma.
+ Sì, Anna è di Berlino. - Sí, Anna es de Berlín.
+ Sì, Anna è di Londra. - Sí, Anna es de Londres.
+ Sì, Anna è di Roma. - Sí, Anna es de Roma.
+ Sì, io sono di Berlino. - Sí, yo soy de Berlín.
+ Sì, io sono di Londra! - Sí, yo soy de Londres.
+ Sì, io sono di Londra. - Sí, yo soy de Londres.
+ Sì, io sono di Milano. - Sí, yo soy de Milán.
+ Sì, io sono di Roma! - ¡Sí, soy de Roma!
+ Sì, io sono di Roma. - Sí, yo soy de Roma.
+ Sì, Mario è di Roma. - Sí, Mario es de Roma.
+ Sì. - Sí.
+ Tu sei di Berlino, vero? - Tú eres de Berlín, ¿verdad?
+ Tu sei di Londra, vero? - Tú eres de Londres, ¿verdad?
+ Tu sei di Milano, vero? - Tú eres de Milán, ¿verdad?
+ Tu sei di Roma, vero? - Tú eres de Roma, ¿verdad?
+ Ugo, tu sei di Berlino, vero? - Ugo, tú eres de Berlín, ¿verdad?
+ Ugo, tu sei di Londra, vero? - Ugo, tú eres de Londres, ¿verdad?
+ Ugo, tu sei di Roma, vero? - Ugo, tú eres de Roma, ¿verdad?
+4 Describir a tu familia
+ E tu? - ¿Y tú?
+ Io ho un figlio e un fratello. - Yo tengo un hijo y un hermano.
+ Io ho un figlio! - ¡Yo tengo un hijo!
+ Io ho un figlio, e tu? - Tengo un hijo, ¿y tú?
+ Io ho un figlio. - Yo tengo un hijo.
+ Io ho un fratello e un figlio. - Yo tengo un hermano y un hijo.
+ Io ho un fratello! - ¡Yo tengo un hermano!
+ Io ho un fratello. - Yo tengo un hermano.
+ Io ho una figlia! - ¡Yo tengo una hija!
+ Io ho una figlia. - Yo tengo una hija.
+ Io ho una sorella! - ¡Yo tengo una hermana!
+ Io ho una sorella. - Yo tengo una hermana.
+ Sì, io ho un fratello! - ¡Sí, yo tengo un hermano!
+ Sì, io ho un fratello. - Sí, yo tengo un hermano.
+ Sì, io ho una figlia! - Sí, ¡yo tengo una hija!
+ Sì, io ho una figlia. - Sí, yo tengo una hija.
+ Sì, io ho una sorella! - Sí, ¡yo tengo una hermana!
+ Sì, io ho una sorella. - Sí, yo tengo una hermana.
+ Sì, un fratello. - Sí, un hermano.
+ Sì, una figlia. - Sí, una hija.
+ un figlio - un hijo
+ un figlio e un fratello - un hijo y un hermano
+ Un figlio o un fratello? - ¿Un hijo o un hermano?
+ un fratello - un hermano
+ un fratello e un figlio - un hermano y un hijo
+ Un fratello o un figlio? - ¿Un hermano o un hijo?
+ un ragazzo - un chico
+ una figlia - una hija
+ una figlia e una sorella - una hija y una hermana
+ Una figlia o una sorella? - ¿Una hija o una hermana?
+ una ragazza - una chica
+ una sorella - una hermana
+ una sorella e una figlia - una hermana y una hija
+ Una sorella o una figlia? - ¿Una hermana o una hija?
+5 Describir personalidad de amigos y familia
+ Alessandro è allegro. - Alessandro es alegre.
+ Alessandro è serio. - Alessandro es serio.
+ Alessandro è simpatico, vero? - Alessandro es simpático, ¿verdad?
+ Alessandro è simpatico. - Alessandro es simpático.
+ Alessandro è timido, vero? - Alessandro es tímido, ¿verdad?
+ Alessandro è timido. - Alessandro es tímido.
+ Allora, Anna è simpatica, vero? - Entonces, Anna es simpática, ¿verdad?
+ Allora, Anna è timida, vero? - Entonces, Anna es tímida, ¿verdad?
+ Allora, Isa è simpatica, vero? - Entonces, Isa es simpática, ¿verdad?
+ Allora, Isa è timida, vero? - Entonces, Isa es tímida, ¿verdad?
+ Allora? - ¿Entonces?
+ Anna è seria, vero? - ¿Anna es seria, verdad?
+ Anna è seria. - Anna es seria.
+ Anna è simpatica, vero? - Anna es simpática, ¿verdad?
+ Anna è simpatica. - Anna es simpática.
+ Anna è timida, vero? - Anna es tímida, ¿verdad?
+ Anna è timida. - Anna es tímida.
+ Carlo è allegro. - Carlo es alegre.
+ Carlo è serio. - Carlo es serio.
+ Chiara è allegra. - Chiara es alegre.
+ Chiara è seria. - Chiara es seria.
+ Chiara è simpatica, vero? - Chiara es simpática, ¿no?
+ Chiara è simpatica. - Chiara es simpática.
+ Chiara è timida. - Chiara es tímida.
+ Elisa è allegra. - Elisa es alegre.
+ Elisa è seria. - Elisa es seria.
+ Giulia è seria. - Giulia es seria.
+ Isa è allegra. - Isa es alegre.
+ Isa è seria. - Isa es seria.
+ Isa è simpatica. - Isa es simpática.
+ Isa è timida. - Isa es tímida.
+ Lei è allegra, vero? - Ella está alegre, ¿verdad?
+ Lei è allegra. - Ella es alegre.
+ Lei è seria. - Ella es seria.
+ Lei è simpatica. - Ella es simpática.
+ Lei è timida. - Ella es tímida.
+ Leo è allegro. - Leo es alegre.
+ Leo è simpatico, vero? - Leo es simpático, ¿verdad?
+ Leo è simpatico. - Leo es simpático.
+ Leo è timido, vero? - Leo es tímido, ¿verdad?
+ Leo è timido. - Leo es tímido.
+ Lui è allegro. - Él es alegre.
+ Lui è serio. - Él es serio.
+ Lui è simpatico. - Él es simpático.
+ Lui è timido, vero? - Él es tímido, ¿verdad?
+ Lui è timido. - Él es tímido.
+ Marco è allegro. - Marco es alegre.
+ Marco è serio. - Marco es serio.
+ Marco è simpatico, vero? - Marco es simpático, ¿verdad?
+ Marco è simpatico. - Marco es simpático.
+ Marco è timido, vero? - Marco es tímido, ¿verdad?
+ Marco è timido. - Marco es tímido.
+ Mario è serio, vero? - Mario es serio, ¿verdad?
+ Matteo è allegro. - Matteo es alegre.
+ Matteo è serio, vero? - Matteo es serio, ¿verdad?
+ Matteo è serio. - Matteo es serio.
+ No, Giulia è allegra. - No, Giulia es alegre.
+ Sara è allegra, vero? - Sara es alegre, ¿verdad?
+ Sara è allegra. - Sara es alegre.
+ Sara è seria. - Sara es seria.
+ Sara è simpatica, vero? - Sara es simpática, ¿verdad?
+ Sara è simpatica. - Sara es simpática.
+ Sara è timida. - Sara es tímida.
+ Sì, Anna è simpatica. - Sí, Anna es simpática.
+ Sì, Chiara è timida. - Sí, Chiara es tímida.
+ Sì, Isa è allegra. - Sí, Isa es alegre.
+ Sì, Isa è timida. - Sí, Isa es tímida.
+ Sì, lui è serio. - Sí, él es serio.
+ Sì, lui è timido. - Sí, él es tímido.
+ Sì, Marco è timido. - Sí, Marco es tímido.
+ Sì, Sara è timida. - Sí, Sara es tímida.
+ Ugo è allegro, vero? - Ugo es alegre, ¿verdad?
+ Ugo è simpatico, vero? - Ugo es simpático, ¿verdad?
+ Ugo è simpatico. - Ugo es simpático.
+ Ugo è timido, vero? - Ugo es tímido, ¿verdad?
+ Ugo è timido. - Ugo es tímido.
+6 Identificar lugares en italiano
+ C'è un hotel lì? - ¿Hay un hotel allí?
+ C'è un hotel qui? - ¿Hay un hotel aquí?
+ C'è un museo qui, vero? - ¿Hay un museo aquí, verdad?
+ C'è un negozio lì? - ¿Hay una tienda allí?
+ C'è un negozio qui? - ¿Hay una tienda aquí?
+ C'è un panificio lì. - Hay una panadería allí.
+ C'è un panificio qui? - ¿Hay una panadería aquí?
+ C'è un parco qui, vero? - Hay un parque aquí, ¿verdad?
+ C'è un parco qui. - Hay un parque aquí.
+ C'è un parco. - Hay un parque.
+ C'è un ristorante lì. - Hay un restaurante allí.
+ C'è un ristorante qui. - Hay un restaurante aquí.
+ C'è un ristorante qui? - ¿Hay un restaurante aquí?
+ C'è un teatro qui, vero? - ¿Hay un teatro aquí, verdad?
+ C'è un teatro qui. - Hay un teatro aquí.
+ C'è un teatro. - Hay un teatro.
+ C'è una banca lì, vero? - ¿Hay un banco allí, verdad?
+ C'è una banca lì. - Hay un banco allí.
+ C'è una banca qui, vero? - Hay un banco aquí, ¿verdad?
+ C'è una banca qui. - Hay un banco aquí.
+ C'è una biblioteca lì, vero? - ¿Hay una biblioteca allí, verdad?
+ C'è una biblioteca lì. - Hay una biblioteca allí.
+ C'è una biblioteca qui, vero? - ¿Hay una biblioteca aquí, verdad?
+ C'è una biblioteca qui. - Hay una biblioteca aquí.
+ C'è una farmacia lì? - ¿Hay una farmacia allí?
+ C'è una farmacia qui, vero? - ¿Hay una farmacia aquí, verdad?
+ C'è una farmacia qui. - Hay una farmacia aquí.
+ C'è una gelateria lì? - ¿Hay una heladería allí?
+ C'è una gelateria qui? - ¿Hay una heladería aquí?
+ C'è una piazza lì? - ¿Hay una plaza allí?
+ C'è una piazza qui? - ¿Hay una plaza aquí?
+ C'è una scuola lì, vero? - ¿Hay una escuela allí, verdad?
+ C'è una scuola lì. - Hay una escuela allí.
+ C'è una scuola qui, vero? - ¿Hay una escuela aquí, verdad?
+ C'è una scuola qui. - Hay una escuela aquí.
+ No, c'è un parco. - No, hay un parque.
+ No, c'è una piazza lì. - No, hay una plaza allí.
+ Sì, c'è un hotel qui. - Sí, hay un hotel aquí.
+ Sì, c'è un museo qui. - Sí, hay un museo aquí.
+ Sì, c'è un museo. - Sí, hay un museo.
+ Sì, c'è un negozio qui. - Sí, hay una tienda aquí.
+ Sì, c'è un panificio qui. - Sí, hay una panadería aquí.
+ Sì, c'è un parco qui. - Sí, hay un parque aquí.
+ Sì, c'è un parco. - Sí, hay un parque.
+ Sì, c'è un teatro qui. - Sí, hay un teatro aquí.
+ Sì, c'è un teatro. - Sí, hay un teatro.
+ Sì, c'è una banca. - Sí, hay un banco.
+ Sì, c'è una biblioteca. - Sí, hay una biblioteca.
+ Sì, c'è una farmacia lì. - Sí, hay una farmacia allí.
+ Sì, c'è una gelateria. - Sí, hay una heladería.
+ Sì, c'è una piazza qui. - Sí, hay una plaza aquí.
+ Sì, c'è una scuola. - Sí, hay una escuela.
+ un hotel - un hotel
+ un museo - un museo
+ un negozio - una tienda
+ un panificio - una panadería
+ un parco - un parque
+ un teatro - un teatro
+ una banca - un banco
+ una biblioteca - una biblioteca
+ una farmacia - una farmacia
+ una gelateria - una heladería
+ una piazza - una plaza
+ una scuola - una escuela
+7 Hablar sobre tus estudios
+ con Chiara - con Chiara
+ con Marco - con Marco
+ Fantastico! - ¡Fantástico!
+ Fantastico, io parlo italiano! - ¡Fantástico, yo hablo italiano!
+ Fantastico, io studio cinese! - ¡Fantástico, yo estudio chino!
+ Fantastico, io studio inglese! - ¡Fantástico, yo estudio inglés!
+ francese e cinese - francés y chino
+ in una biblioteca - en una biblioteca
+ in una scuola - en una escuela
+ io parlo - Yo hablo.
+ Io parlo cinese, e tu? - Yo hablo chino, ¿y tú?
+ Io parlo francese con Teo. - Yo hablo francés con Teo.
+ Io parlo francese, e tu? - Yo hablo francés, ¿y tú?
+ Io parlo francese. - Yo hablo francés.
+ Io parlo inglese, e tu? - Yo hablo inglés, ¿y tú?
+ Io parlo inglese. - Yo hablo inglés.
+ Io parlo italiano. - Yo hablo italiano.
+ Io parlo spagnolo, e tu? - Yo hablo español, ¿y tú?
+ Io parlo spagnolo. - Yo hablo español.
+ Io parlo tedesco, e tu? - Yo hablo alemán, ¿y tú?
+ Io parlo tedesco. - Yo hablo alemán.
+ io studio - yo estudio
+ Io studio arte in una scuola. - Yo estudio arte en una escuela.
+ Io studio cinese con Mario. - Yo estudio chino con Mario.
+ Io studio cinese lì con Elisa. - Yo estudio chino allí con Elisa.
+ Io studio cinese lì. - Yo estudio chino allí.
+ Io studio cinese qui. - Yo estudio chino aquí.
+ Io studio cinese, e tu? - Yo estudio chino, ¿y tú?
+ Io studio cinese. - Yo estudio chino.
+ Io studio francese con Chiara. - Yo estudio francés con Chiara.
+ Io studio francese in una scuola. - Yo estudio francés en una escuela.
+ Io studio francese. - Yo estudio francés.
+ Io studio inglese con Matteo, e tu? - Yo estudio inglés con Matteo, ¿y tú?
+ Io studio inglese in una scuola. - Yo estudio inglés en una escuela.
+ Io studio inglese qui. - Yo estudio inglés aquí.
+ Io studio inglese, e tu? - Yo estudio inglés, ¿y tú?
+ Io studio inglese. - Yo estudio inglés.
+ Io studio italiano con Alessandro. - Yo estudio italiano con Alessandro.
+ Io studio italiano con Isa. - Yo estudio italiano con Isa.
+ Io studio italiano con Leo. - Yo estudio italiano con Leo.
+ Io studio italiano e cinese con Anna. - Yo estudio italiano y chino con Anna.
+ Io studio italiano e cinese. - Yo estudio italiano y chino.
+ Io studio italiano lì. - Yo estudio italiano allí.
+ Io studio italiano qui. - Yo estudio italiano aquí.
+ Io studio italiano, e tu? - Estudio italiano, ¿y tú?
+ Io studio italiano. - Yo estudio italiano.
+ Io studio musica con Alessandro. - Yo estudio música con Alessandro.
+ Io studio musica. - Yo estudio música.
+ Io studio spagnolo con Carlo. - Yo estudio español con Carlo.
+ Io studio spagnolo. - Yo estudio español.
+ Io studio tedesco. - Yo estudio alemán.
+ italiano e cinese - italiano y chino
+ italiano e inglese - italiano y inglés
+ musica e arte - música y arte
+ No, io parlo cinese. - No, yo hablo chino.
+ No, io parlo francese. - No, yo hablo francés.
+ No, io studio arte. - No, yo estudio arte.
+ No, io studio cinese con Giulia. - No, yo estudio chino con Giulia.
+ No, io studio cinese. - No, yo estudio chino.
+ No, io studio italiano. - No, yo estudio italiano.
+ No, io studio musica. - No, yo estudio música.
+ Sì, fantastico! - ¡Sí, fantástico!
+ Sì, io parlo inglese. - Sí, yo hablo inglés.
+ Sì, io studio arte lì. - Sí, yo estudio arte allí.
+ Sì, io studio arte. - Sí, yo estudio arte.
+ Sì, io studio cinese. - Sí, yo estudio chino.
+ Sì, io studio francese. - Sí, yo estudio francés.
+ Sì, io studio italiano. - Sí, yo estudio italiano.
+ Sì, io studio musica qui. - Sí, yo estudio música aquí.
+ Sì, io studio tedesco con Giulia. - Sí, yo estudio alemán con Giulia.
+ spagnolo e tedesco - español y alemán
+ tedesco e italiano - alemán e italiano
+ tu parli - tú hablas
+ Tu parli cinese? - ¿Tú hablas chino?
+ Tu parli francese, vero? - ¿Tú hablas francés, verdad?
+ Tu parli inglese, vero? - ¿Tú hablas inglés, verdad?
+ Tu parli italiano? - ¿Tú hablas italiano?
+ Tu parli spagnolo, vero? - ¿Tú hablas español, verdad?
+ Tu parli spagnolo? - ¿Tú hablas español?
+ Tu parli tedesco, vero? - ¿Tú hablas alemán, verdad?
+ Tu parli tedesco? - ¿Tú hablas alemán?
+ tu studi - Tú estudias.
+ Tu studi arte con Chiara? - ¿Tú estudias arte con Chiara?
+ Tu studi arte, vero? - Tú estudias arte, ¿verdad?
+ Tu studi arte? - ¿Tú estudias arte?
+ Tu studi cinese in una scuola, vero? - ¿Tú estudias chino en una escuela, verdad?
+ Tu studi cinese? - ¿Tú estudias chino?
+ Tu studi francese, vero? - ¿Tú estudias francés, verdad?
+ Tu studi italiano? - ¿Tú estudias italiano?
+ Tu studi musica, vero? - Tú estudias música, ¿verdad?
+ Tu studi musica? - ¿Tú estudias música?
+ Tu studi spagnolo? - ¿Tú estudias español?
+ Tu studi tedesco in una scuola? - ¿Tú estudias alemán en una escuela?
+ Wow, tu parli cinese! - ¡Guau, tú hablas chino!
+ Wow, tu parli francese e tedesco! - Guau, ¡tú hablas francés y alemán!
+ Wow, tu parli inglese e francese! - ¡Guau, tú hablas inglés y francés!
+ Wow, tu parli inglese! - ¡Guau, tú hablas inglés!
+ Wow, tu parli italiano! - ¡Guau, tú hablas italiano!
+8 Comprar en el mercado
+ Ah, io ho bisogno di un mandarino. - Ah, yo necesito una mandarina.
+ Alessandro, c'è un mercato lì, vero? - Alessandro, hay un mercado allí, ¿verdad?
+ Anche io ho bisogno di pere. - Yo también necesito peras.
+ Anche io ho bisogno di pomodori. - Yo también necesito tomates.
+ Anche io ho bisogno di un cetriolo. - También necesito un pepino.
+ Anche tu hai bisogno di mele? - ¿También tú necesitas manzanas?
+ Anche tu hai bisogno di mirtilli? - ¿También tú necesitas arándanos?
+ Anna, io ho bisogno di un pomodoro. - Anna, yo necesito un tomate.
+ Anna, io ho bisogno di un pompelmo. - Anna, yo necesito un pomelo.
+ Anna, tu hai bisogno di una banana? - Anna, ¿tú necesitas una banana?
+ C'è un mercato qui? - ¿Hay un mercado aquí?
+ C'è un mercato, vero? - ¿Hay un mercado, verdad?
+ C'è un mercato. - Hay un mercado.
+ Carlo, tu hai bisogno di un pompelmo? - Carlo, ¿tú necesitas un pomelo?
+ Carlo, tu hai bisogno di una mela? - Carlo, ¿tú necesitas una manzana?
+ Certo, Anna! - ¡Claro, Anna!
+ Certo, ci sono fragole! - ¡Claro, hay fresas!
+ Certo, ci sono mandarini! - ¡Claro, hay mandarinas!
+ Certo, io ho bisogno di una banana e una mela. - Claro, yo necesito una banana y una manzana.
+ Certo, io ho bisogno di una mela. - Claro, yo necesito una manzana.
+ Certo, tre mele. - Claro, tres manzanas.
+ Certo, una banana e una mela. - Claro, una banana y una manzana.
+ Chiara, io ho bisogno di una banana. - Chiara, yo necesito una banana.
+ Ci sono banane qui, vero? - Hay bananas aquí, ¿verdad?
+ Ci sono fragole qui. - Hay fresas aquí.
+ Ci sono mandarini? - ¿Hay mandarinas?
+ due carote e tre mele - dos zanahorias y tres manzanas
+ due cetrioli - dos pepinos
+ Due cetrioli, vero? - ¿Dos pepinos, verdad?
+ Due pere, grazie. - Dos peras, gracias.
+ due pompelmi - dos pomelos
+ Due pompelmi, vero? - ¿Dos pomelos, verdad?
+ Elisa, c'è un mercato lì? - Elisa, ¿hay un mercado allí?
+ Hai bisogno di mandarini o pompelmi? - ¿Necesitas mandarinas o pomelos?
+ Io ho bisogno di due mandarini. - Yo necesito dos mandarinas.
+ Io ho bisogno di due pomodori. - Yo necesito dos tomates.
+ Io ho bisogno di due pompelmi. - Yo necesito dos pomelos.
+ Io ho bisogno di mirtilli. - Yo necesito arándanos.
+ Io ho bisogno di tre fragole. - Yo necesito tres fresas.
+ Io ho bisogno di tre mele. - Yo necesito tres manzanas.
+ Io ho bisogno di un mandarino. - Yo necesito una mandarina.
+ Io ho bisogno di un pomodoro. - Yo necesito un tomate.
+ Io ho bisogno di una banana. - Yo necesito una banana.
+ Io ho bisogno di una pera e una mela. - Yo necesito una pera y una manzana.
+ Marco, ci sono mirtilli? - Marco, ¿hay arándanos?
+ Matteo, tu hai bisogno di tre pere? - Matteo, ¿tú necesitas tres peras?
+ Matteo, tu hai bisogno di una banana? - Matteo, ¿tú necesitas una banana?
+ Mirtilli o fragole? - ¿Arándanos o fresas?
+ No, io ho bisogno di mirtilli. - No, yo necesito arándanos.
+ No, io ho bisogno di tre carote. - No, yo necesito tres zanahorias.
+ No, io ho bisogno di tre pere. - No, yo necesito tres peras.
+ No, io ho bisogno di un mandarino. - No, yo necesito una mandarina.
+ No, io ho bisogno di una mela. - No, yo necesito una manzana.
+ No, una pera. - No, una pera.
+ Ora io ho bisogno di un cetriolo. - Ahora yo necesito un pepino.
+ Ora io ho bisogno di un mandarino. - Ahora yo necesito una mandarina.
+ Ora io ho bisogno di un pomodoro. - Ahora necesito un tomate.
+ Ora tu hai bisogno di un pompelmo? - ¿Ahora tú necesitas un pomelo?
+ Poi io ho bisogno di due banane. - Después yo necesito dos bananas.
+ Poi io ho bisogno di due mele. - Después yo necesito dos manzanas.
+ Poi io ho bisogno di una banana. - Después yo necesito una banana.
+ Poi io ho bisogno di una carota. - Después yo necesito una zanahoria.
+ Poi io ho bisogno di una mela. - Después yo necesito una manzana.
+ Sara, ci sono fragole? - Sara, ¿hay fresas?
+ Sì, c'è un mercato lì. - Sí, hay un mercado allí.
+ Sì, certo! - ¡Sí, claro!
+ Sì, ci sono banane e mele. - Sí, hay bananas y manzanas.
+ Sì, io ho bisogno di due carote. - Sí, yo necesito dos zanahorias.
+ Sì, io ho bisogno di un cetriolo. - Sí, yo necesito un pepino.
+ Sì, io ho bisogno di un pomodoro! - ¡Sí, yo necesito un tomate!
+ Sì, io ho bisogno di una mela. - Sí, yo necesito una manzana.
+ Sì, io ho bisogno di una pera. - Sí, yo necesito una pera.
+ Teo, io ho bisogno di un mandarino. - Teo, yo necesito una mandarina.
+ Tu hai bisogno di due pere? - ¿Tú necesitas dos peras?
+ Tu hai bisogno di fragole? - ¿Necesitas fresas?
+ Tu hai bisogno di mirtilli? - ¿Tú necesitas arándanos?
+ Tu hai bisogno di pere o mirtilli? - ¿Tú necesitas peras o arándanos?
+ Tu hai bisogno di tre banane, vero? - Tú necesitas tres bananas, ¿verdad?
+ Tu hai bisogno di un pompelmo? - ¿Tú necesitas un pomelo?
+ Tu hai bisogno di una banana? - ¿Tú necesitas una banana?
+ Tu hai bisogno di una carota? - ¿Necesitas una zanahoria?
+ Tu hai bisogno di una mela, vero? - Tú necesitas una manzana, ¿verdad?
+ Tu hai bisogno di una mela? - ¿Necesitas una manzana?
+ un cetriolo - un pepino
+ un mandarino - una mandarina
+ un mercato - un mercado
+ un pomodoro - un tomate
+ un pomodoro e un mandarino - un tomate y una mandarina
+ un pompelmo - un pomelo
+ una banana - una banana
+ Una banana o una mela? - ¿Una banana o una manzana?
+ Una banana, grazie. - Una banana, gracias.
+ Una carota, vero? - ¿Una zanahoria, verdad?
+ una fragola - una fresa
+ una mela - una manzana
+ Una mela, grazie. - Una manzana, gracias.
+ Una pera o due pere? - ¿Una pera o dos peras?
+9 Comprar ropa
+ Ah, il cappello è caro! - ¡Ah, el sombrero es caro!
+ Alessandro, dov'è la cassa? - Alessandro, ¿dónde está la caja registradora?
+ Alessandro, il cappello è carino, vero? - Alessandro, el sombrero es bonito, ¿verdad?
+ Alessandro, la giacca è qui! - ¡Alessandro, la chaqueta está aquí!
+ Anche il maglione è economico. - También el suéter es económico.
+ Anche il vestito è rosso! - ¡También el vestido es rojo!
+ Anche la gonna è cara. - También la falda es cara.
+ Anche la gonna è gialla. - También la falda es amarilla.
+ Anche la maglietta è nera. - También la camiseta es negra.
+ Anna, dov'è la cassa? - Anna, ¿dónde está la caja registradora?
+ Buongiorno, ci sono scarpe qui? - Buenos días, ¿hay zapatos aquí?
+ Buongiorno, dov'è la cassa? - Buenos días, ¿dónde está la caja registradora?
+ Buongiorno, io ho bisogno di un vestito. - Buenos días, yo necesito un vestido.
+ Buongiorno, io ho bisogno di una gonna. - Buenos días, yo necesito una falda.
+ C'è un camerino? - ¿Hay un probador?
+ C'è una gonna? - ¿Hay una falda?
+ Chiara, il vestito è carino, vero? - Chiara, el vestido es bonito, ¿verdad?
+ Ci sono scarpe? - ¿Hay zapatos?
+ Dov'è il camerino? - ¿Dónde está el probador?
+ Dov'è la cassa? - ¿Dónde está la caja?
+ Elisa, il vestito è rosso, vero? - Elisa, el vestido es rojo, ¿verdad?
+ Giulia, la gonna è nera, vero? - Giulia, la falda es negra, ¿verdad?
+ il camerino - el probador
+ il cappello - el sombrero
+ Il cappello è bianco. - El sombrero es blanco.
+ Il cappello è carino, vero? - El sombrero es bonito, ¿verdad?
+ Il cappello è economico, vero? - ¿El sombrero es económico, verdad?
+ Il cappello è rosso, vero? - El sombrero es rojo, ¿verdad?
+ Il cappello è rosso. - El sombrero es rojo.
+ il maglione - el suéter
+ Il maglione è bianco. - El suéter es blanco.
+ Il maglione è carino. - El suéter es bonito.
+ Il maglione è caro, vero? - El suéter es caro, ¿verdad?
+ Il maglione è giallo. - El suéter es amarillo.
+ Il maglione è lì! - ¡El suéter está allí!
+ Il maglione è qui. - El suéter está aquí.
+ Il vestito è carino, vero? - El vestido es bonito, ¿verdad?
+ Il vestito è carino. - El vestido es bonito.
+ Il vestito è economico. - El vestido es económico.
+ il vestito e il cappello - el vestido y el sombrero
+ Io ho bisogno di due cappelli. - Yo necesito dos sombreros.
+ Io ho bisogno di due gonne. - Yo necesito dos faldas.
+ Io ho bisogno di due magliette. - Yo necesito dos camisetas.
+ Io ho bisogno di scarpe. - Yo necesito zapatos.
+ Io ho bisogno di tre vestiti. - Yo necesito tres vestidos.
+ Io ho bisogno di un camerino. - Yo necesito un probador.
+ Io ho bisogno di un cappello. - Yo necesito un sombrero.
+ Io ho bisogno di un maglione. - Yo necesito un suéter.
+ Io ho bisogno di un vestito. - Yo necesito un vestido.
+ la cassa - la caja registradora
+ la giacca - la chaqueta
+ La giacca è bianca. - La chaqueta es blanca.
+ La giacca è lì. - La chaqueta está allí.
+ La giacca è nera. - La chaqueta es negra.
+ La giacca è qui! - ¡La chaqueta está aquí!
+ La gonna è carina. - La falda es bonita.
+ La gonna è economica. - La falda es barata.
+ la gonna e la maglietta - la falda y la camiseta
+ La gonna è nera, vero? - La falda es negra, ¿verdad?
+ La gonna è nera. - La falda es negra.
+ La gonna è rossa? - ¿La falda es roja?
+ la maglietta - la camiseta
+ La maglietta è bianca. - La camiseta es blanca.
+ La maglietta è carina, vero? - La camiseta es bonita, ¿verdad?
+ La maglietta è gialla, vero? - La camiseta es amarilla, ¿verdad?
+ La maglietta è nera. - La camiseta es negra.
+ La maglietta è rossa. - La camiseta es roja.
+ No, il cappello è giallo. - No, el sombrero es amarillo.
+ No, il vestito è caro! - ¡No, el vestido es caro!
+ No, la giacca è rossa. - No, la chaqueta es roja.
+ No, la maglietta è nera. - No, la camiseta es negra.
+ Prego! - ¡De nada!
+ Salve, ci sono scarpe? - Hola, ¿hay zapatos?
+ Salve, dov'è il camerino? - Hola, ¿dónde está el probador?
+ Salve, dov'è la cassa? - Hola, ¿dónde está la caja registradora?
+ Salve, io ho bisogno di tre magliette. - Hola, yo necesito tres camisetas.
+ Salve, io ho bisogno di un cappello. - Hola, yo necesito un sombrero.
+ Scusi, c'è un camerino? - Disculpe, ¿hay un probador?
+ Scusi, c'è un cappello? - Disculpe, ¿hay un sombrero?
+ Scusi, ci sono gonne? - Disculpe, ¿hay faldas?
+ Scusi, ci sono maglioni? - Disculpe, ¿hay suéteres?
+ Scusi, dov'è il camerino? - Disculpe, ¿dónde está el probador?
+ Scusi, dov'è la cassa? - Disculpe, ¿dónde está la caja registradora?
+ Scusi, io ho bisogno di una maglietta. - Disculpe, yo necesito una camiseta.
+ Scusi, la maglietta è bianca, vero? - Disculpe, la camiseta es blanca, ¿verdad?
+ Sì, anche la gonna è rossa. - Sí, también la falda es roja.
+ Sì, il cappello è carino. - Sí, el sombrero es bonito.
+ Sì, il cappello è rosso. - Sí, el sombrero es rojo.
+ Sì, il vestito è carino! - Sí, el vestido es bonito.
+ Sì, la gonna è rossa. - Sí, la falda es roja.
+ Sì, la maglietta è carina. - Sí, la camiseta es bonita.
+ Sì, la maglietta è gialla. - Sí, la camiseta es amarilla.
+ Sì, va bene. - Sí, está bien.
+ Va bene! - ¡Está bien!
+ Va bene, grazie. - Está bien, gracias.
+ Va bene, il maglione è qui. - Está bien, el suéter está aquí.
+ Va bene, la gonna è qui. - Está bien, la falda está aquí.
+ Wow, anche il vestito è caro! - ¡Vaya, el vestido también es caro!
+ Wow, la maglietta è cara! - ¡Guau, la camiseta es cara!
+ Wow, la maglietta è economica! - ¡Guau, la camiseta es económica!
+10 Pedir indicaciones
+ Ah, c'è una casa carina lì! - ¡Ah, hay una casa bonita allí!
+ Ah, la banca non è lontana. - Ah, el banco no está lejos.
+ Ah, la stazione non è qui. - Ah, la estación no está aquí.
+ Ah, Londra non è piccola! - ¡Ah, Londres no es pequeña!
+ Alessandro, c'è una casa qui! - ¡Alessandro, hay una casa aquí!
+ Buongiorno, dov'è la chiesa? - Buenos días, ¿dónde está la iglesia?
+ Buongiorno, dov'è la stazione? - Buenos días, ¿dónde está la estación?
+ Buongiorno, io ho bisogno di aiuto, per favore. - Buenos días, yo necesito ayuda, por favor.
+ C'è un palazzo rosso. - Hay un edificio rojo.
+ C'è una casa rossa. - Hay una casa roja.
+ C'è una chiesa moderna. - Hay una iglesia moderna.
+ C'è una moschea qui. - Hay una mezquita aquí.
+ Certo, io parlo arabo e italiano. - Claro, yo hablo árabe e italiano.
+ Chiara, guarda! - ¡Chiara, mira!
+ Dov'è la chiesa? - ¿Dónde está la iglesia?
+ Dov'è la posta? - ¿Dónde está la oficina de correos?
+ Dov'è la stazione? - ¿Dónde está la estación?
+ Guarda Matteo, c'è una moschea! - ¡Mira, Matteo, hay una mezquita!
+ Guarda, c'è una chiesa qui. - Mira, hay una iglesia aquí.
+ Guarda, c'è una moschea! - ¡Mira, hay una mezquita!
+ il centro - el centro
+ Il centro è carino! - ¡El centro es bonito!
+ Il centro è carino, ma la chiesa è piccola. - El centro es bonito, pero la iglesia es pequeña.
+ Il centro non è moderno. - El centro no es moderno.
+ Il mercato non è vicino. - El mercado no está cerca.
+ Il museo è vicino, ma il teatro è lontano. - El museo está cerca, pero el teatro está lejos.
+ il palazzo - el edificio
+ Il palazzo bianco non è un museo. - El edificio blanco no es un museo.
+ Il palazzo rosso non è vicino. - El edificio rojo no está cerca.
+ Il parco non è lontano. - El parque no está lejos.
+ Il parco non è qui. - El parque no está aquí.
+ Il teatro è qui, ma la chiesa è lontana. - El teatro está aquí, pero la iglesia está lejos.
+ Il teatro non è moderno. - El teatro no es moderno.
+ Io ho bisogno di aiuto, per favore. - Yo necesito ayuda, por favor.
+ Io ho bisogno di aiuto. - Yo necesito ayuda.
+ Io non parlo arabo, mi dispiace. - Yo no hablo árabe, lo siento.
+ Io non parlo arabo. - Yo no hablo árabe.
+ Io parlo male inglese. - Yo hablo mal inglés.
+ Io parlo male italiano. - Yo hablo mal italiano.
+ Io parlo solo inglese. - Yo solo hablo inglés.
+ Io parlo solo italiano. - Yo solo hablo italiano.
+ Io studio italiano e arabo qui. - Yo estudio italiano y árabe aquí.
+ Isa, c'è un palazzo giallo qui! - ¡Isa, hay un edificio amarillo aquí!
+ Isa, la casa non è moderna! - ¡Isa, la casa no es moderna!
+ La banca è vicina, ma la chiesa è lontana. - El banco está cerca, pero la iglesia está lejos.
+ la casa - la casa
+ la chiesa - la iglesia
+ la chiesa e la stazione - la iglesia y la estación
+ La chiesa è lì? - ¿La iglesia está allí?
+ La chiesa è vicina? - ¿La iglesia está cerca?
+ la città - la ciudad
+ La città non è piccola. - La ciudad no es pequeña.
+ la moschea - la mezquita
+ La moschea è lì, ma il museo è lontano. - La mezquita está allí, pero el museo está lejos.
+ La moschea è lì. - La mezquita está allí.
+ la posta - la oficina de correos
+ la stazione - la estación
+ La stazione è lì, vero? - La estación está allí, ¿verdad?
+ La stazione è qui? - ¿La estación está aquí?
+ Londra non è una città piccola, vero? - Londres no es una ciudad pequeña, ¿verdad?
+ Mi dispiace! - ¡Lo siento!
+ Mi dispiace, io parlo male cinese. - Lo siento, yo hablo mal chino.
+ Mi dispiace, io parlo male italiano. - Lo siento, yo hablo mal italiano.
+ Mi dispiace, io parlo male spagnolo. - Lo siento, yo hablo mal español.
+ Mi dispiace, io parlo solo francese e spagnolo. - Lo siento, yo hablo solo francés y español.
+ Mi dispiace, io parlo solo italiano. - Lo siento, yo hablo solo italiano.
+ Mi dispiace, la stazione non è qui. - Lo siento, la estación no está aquí.
+ Mi dispiace. - Lo siento.
+ Milano è una città carina! - ¡Milán es una ciudad bonita!
+ Milano è una città moderna. - Milán es una ciudad moderna.
+ No, Alessandro, la casa non è rossa. - No, Alessandro, la casa no es roja.
+ No, Alessandro, Roma non è una città moderna. - No, Alessandro, Roma no es una ciudad moderna.
+ No, Giulia, il palazzo nero è una banca. - No, Giulia, el edificio negro es un banco.
+ No, il museo è lontano. - No, el museo está lejos.
+ No, il teatro non è qui. - No, el teatro no está aquí.
+ No, il teatro non è vicino. - No, el teatro no está cerca.
+ No, io non parlo arabo. - No, yo no hablo árabe.
+ No, io parlo solo cinese. - No, yo hablo solo chino.
+ No, io parlo solo spagnolo. - No, yo hablo solo español.
+ No, la moschea è lontana. - No, la mezquita está lejos.
+ No, Mario, il centro non è piccolo! - ¡No, Mario, el centro no es pequeño!
+ No, mi dispiace, la farmacia non è qui. - No, lo siento, la farmacia no está aquí.
+ No, mi dispiace. - No, lo siento.
+ No, Venezia non è moderna! - ¡No, Venecia no es moderna!
+ No, Venezia non è piccola, vero Alessandro? - No, Venecia no es pequeña, ¿verdad, Alessandro?
+ Roma non è piccola! - ¡Roma no es pequeña!
+ Salve, io ho bisogno di aiuto. - Hola, yo necesito ayuda.
+ Salve, tu parli arabo? - Hola, ¿tú hablas árabe?
+ Scusi, dov'è la chiesa? - Disculpe, ¿dónde está la iglesia?
+ Scusi, dov'è la posta? - Disculpe, ¿dónde está la oficina de correos?
+ Scusi, dov'è la stazione? - Disculpe, ¿dónde está la estación?
+ Scusi, il mercato è vicino, vero? - Disculpe, el mercado está cerca, ¿verdad?
+ Scusi, il panificio è vicino? - Disculpe, ¿la panadería está cerca?
+ Scusi, io ho bisogno di aiuto. - Disculpe, yo necesito ayuda.
+ Scusi, la chiesa è lontana? - Disculpe, ¿la iglesia está lejos?
+ Scusi, la posta è qui, vero? - Disculpe, la oficina de correos está aquí, ¿verdad?
+ Sì, il museo è moderno. - Sí, el museo es moderno.
+ Sì, io parlo arabo. - Sí, yo hablo árabe.
+ Sì, la banca è vicina. - Sí, el banco está cerca.
+ Sì, la moschea è qui. - Sí, la mezquita está aquí.
+ Sì, Venezia è carina. - Sí, Venecia es bonita.
+ un museo moderno - un museo moderno
+ una città carina - una ciudad bonita
+ Venezia è carina, vero Marco? - Venecia es bonita, ¿verdad Marco?
+ Venezia è carina, vero? - Venecia es bonita, ¿verdad?
+ Venezia è moderna. - Venecia es moderna.
+ Wow, guarda, c'è un parco lì! - ¡Guau, mira, hay un parque allí!
+ Wow, il centro è moderno! - ¡Guau, el centro es moderno!
+ Wow, la biblioteca è moderna! - ¡Guau, la biblioteca es moderna!
+11 Pedir comida y bebidas
+ Ah, anche il panino è buono! - ¡Ah, también el bocadillo es bueno!
+ Ah, i biscotti non sono buoni. - Ah, las galletas no son buenas.
+ Ah, il panino è buono! - ¡Ah, el bocadillo está rico!
+ Ah, le carote sono piccole! - ¡Ah, las zanahorias son pequeñas!
+ Alessandro, ecco il ristorante italiano! - ¡Alessandro, aquí está el restaurante italiano!
+ Alessandro, la pizza è buona? - Alessandro, ¿la pizza es buena?
+ Anche il pollo è buono qui. - También el pollo es bueno aquí.
+ Anche io vorrei le patate. - También yo querría las papas.
+ Anche le carote sono fredde. - También las zanahorias están frías.
+ Anna, il ristorante italiano è qui? - Anna, ¿el restaurante italiano está aquí?
+ Buongiorno, io vorrei le patate. - Buenos días, yo querría las papas.
+ C'è un ristorante italiano. - Hay un restaurante italiano.
+ Carlo, il pollo è buono, vero? - Carlo, el pollo está rico, ¿verdad?
+ Chiara, i fagioli sono buoni, vero? - Chiara, los frijoles son buenos, ¿verdad?
+ Ci sono patate? - ¿Hay papas?
+ Ci sono polpette? - ¿Hay albóndigas?
+ Ecco il conto. - Aquí está la cuenta.
+ Ecco il ristorante italiano. - Aquí está el restaurante italiano.
+ Ecco il ristorante. - Aquí está el restaurante.
+ Giulia, ecco il ristorante! - ¡Giulia, aquí está el restaurante!
+ Guarda Elisa, un ristorante italiano! - ¡Mira, Elisa, un restaurante italiano!
+ Guarda Sara, ci sono dolci italiani qui! - ¡Mira Sara, hay postres italianos aquí!
+ i biscotti - las galletas
+ I dolci sono buoni qui. - Los postres son buenos aquí.
+ I fagioli o i cetrioli? - ¿Los frijoles o los pepinos?
+ I fagioli sono buoni qui. - Los frijoles son buenos aquí.
+ i panini - los bocadillos
+ I panini sono buoni qui, vero Alessandro? - Los bocadillos son buenos aquí, ¿verdad, Alessandro?
+ I panini sono buoni. - Los bocadillos son buenos.
+ I pomodori sono buoni. - Los tomates son buenos.
+ i ristoranti - los restaurantes
+ i ristoranti economici - los restaurantes económicos
+ I ristoranti sono lì. - Los restaurantes están allí.
+ il conto - La cuenta.
+ Il conto, per favore. - La cuenta, por favor.
+ il dolce - el postre
+ il panino - el bocadillo
+ Il pollo è buono? - ¿El pollo es bueno?
+ il ristorante italiano - el restaurante italiano
+ Il ristorante italiano è qui. - El restaurante italiano está aquí.
+ Io vorrei due panini. - Yo querría dos bocadillos.
+ Io vorrei i fagioli, per favore. - Yo querría los frijoles, por favor.
+ Io vorrei il conto, per favore. - Yo querría la cuenta, por favor.
+ Io vorrei il pollo. - Yo querría el pollo.
+ Io vorrei la torta, per favore. - Yo querría el pastel, por favor.
+ Io vorrei la torta. - Yo querría el pastel.
+ Io vorrei le carote e le fragole, per favore. - Yo querría zanahorias y fresas, por favor.
+ Io vorrei le carote, per favore. - Yo querría zanahorias, por favor.
+ Io vorrei le fragole. - Yo querría las fresas.
+ Io vorrei le patate. - Yo quisiera las papas.
+ Io vorrei le polpette. - Yo querría las albóndigas.
+ Io vorrei un biscotto. - Yo querría una galleta.
+ Io vorrei un caffè e un biscotto. - Yo querría un café y una galleta.
+ Io vorrei un dolce italiano. - Yo querría un postre italiano.
+ Io vorrei un dolce. - Querría un postre.
+ la bibita italiana - el refresco italiano
+ la carne - la carne
+ La carne è buona? - ¿La carne es buena?
+ La carne è fredda. - La carne está fría.
+ La carne non è buona. - La carne no es buena.
+ la patata - la papa
+ La pizza è buona? - ¿La pizza es buena?
+ la pizza italiana - la pizza italiana
+ le bibite - las bebidas
+ Le bibite non sono buone. - Las bebidas no son buenas.
+ Le bibite non sono fredde, vero Alessandro? - Las bebidas no están frías, ¿verdad, Alessandro?
+ Le bibite sono buone? - ¿Las bebidas están buenas?
+ Le carote o le patate? - ¿Las zanahorias o las papas?
+ Le carote sono piccole? - ¿Las zanahorias son pequeñas?
+ Le patate sono fredde, vero? - Las papas están frías, ¿verdad?
+ Le patate sono piccole? - ¿Las papas son pequeñas?
+ Le pizze non sono buone qui. - Las pizzas no son buenas aquí.
+ le polpette - las albóndigas
+ Le polpette sono fredde. - Las albóndigas están frías.
+ Le polpette sono piccole. - Las albóndigas son pequeñas.
+ Le polpette sono piccole? - ¿Las albóndigas son pequeñas?
+ Le torte sono buone qui, Mario? - ¿Los pasteles son buenos aquí, Mario?
+ Le torte sono buone qui. - Los pasteles son buenos aquí.
+ Leo e Isa, ecco il ristorante! - ¡Leo e Isa, aquí está el restaurante!
+ Leo, io vorrei le polpette. - Leo, yo quisiera las albóndigas.
+ Matteo, i ristoranti sono lì! - ¡Matteo, los restaurantes están allí!
+ No, i ristoranti non sono qui. - No, los restaurantes no están aquí.
+ No, la carne e le patate sono fredde. - No, la carne y las papas están frías.
+ No, la pizza è fredda! - ¡No, la pizza está fría!
+ No, la pizza non è buona qui. - No, la pizza no es buena aquí.
+ Scusi io vorrei tre biscotti, per favore. - Disculpe, yo querría tres galletas, por favor.
+ Scusi, dov'è il ristorante italiano? - Disculpe, ¿dónde está el restaurante italiano?
+ Scusi, il conto. - Disculpe, la cuenta.
+ Scusi, io vorrei il conto, per favore. - Disculpe, yo querría la cuenta, por favor.
+ Scusi, io vorrei un dolce, per favore. - Disculpe, yo querría un postre, por favor.
+ Scusi, le bibite sono fredde? - Disculpe, ¿las bebidas están frías?
+ Sì, anche io vorrei le fragole! - ¡Sí, yo también querría las fresas!
+ Sì, ci sono polpette italiane. - Sí, hay albóndigas italianas.
+ Sì, ecco il ristorante! - Sí, ¡aquí está el restaurante!
+ Sì, i ristoranti sono qui. - Sí, los restaurantes están aquí.
+ Sì, il pollo è buono. - Sí, el pollo está rico.
+ Sì, le patate sono piccole. - Sí, las papas son pequeñas.
+ Sì, le torte sono buone! - ¡Sí, los pasteles son buenos!
+ Solo le patate? - ¿Solo las papas?
+ Un biscotto o due biscotti? - ¿Una galleta o dos galletas?
+ una polpetta - una albóndiga
+ Wow, anche i fagioli sono buoni! - ¡Guau, también los frijoles son buenos!
+ Wow, ci sono polpette! - ¡Guau, hay albóndigas!
+12 Comprar en tienda departamental
+ Ah, ecco le gonne. - Ah, aquí están las faldas.
+ Ah, il vestito verde è carino! - ¡Ah, el vestido verde es bonito!
+ Ah, sta piovendo! - ¡Ay, está lloviendo!
+ Aiuto, sta piovendo! - ¡Ayuda, está lloviendo!
+ Alessandro, dov'è l'impermeabile bianco? - Alessandro, ¿dónde está el impermeable blanco?
+ Alessandro, ecco le magliette nere! - ¡Alessandro, aquí están las camisetas negras!
+ Anche io ho bisogno di un impermeabile! - ¡Yo también necesito un impermeable!
+ Anche tu hai bisogno di vestiti? - ¿También tú necesitas ropa?
+ Chiara, ecco i maglioni! - ¡Chiara, aquí están los suéteres!
+ Chiara, ecco un negozio nuovo! - Chiara, ¡aquí hay una tienda nueva!
+ Ci sono stivali carini. - Hay botas bonitas.
+ Ci sono vestiti belli. - Hay ropa hermosa.
+ Dov'è l'entrata? - ¿Dónde está la entrada?
+ Dov'è l'impermeabile giallo? - ¿Dónde está el impermeable amarillo?
+ Dov'è l'ombrello nero? - ¿Dónde está el paraguas negro?
+ Dov'è l'ombrello? - ¿Dónde está el paraguas?
+ Dov'è l'uscita, per favore? - ¿Dónde está la salida, por favor?
+ Dov'è lo specchio? - ¿Dónde está el espejo?
+ Dov'è lo stivale nero? - ¿Dónde está la bota negra?
+ Dove sono i camerini? - ¿Dónde están los probadores?
+ Dove sono le gonne? - ¿Dónde están las faldas?
+ Dove sono le scarpe rosse? - ¿Dónde están los zapatos rojos?
+ Ecco i vestiti! - ¡Aquí está la ropa!
+ Ecco il cappotto! - ¡Aquí está el abrigo!
+ Ecco il centro commerciale, ma sta piovendo. - Aquí está el centro comercial, pero está lloviendo.
+ Ecco l'entrata. - Aquí está la entrada.
+ Ecco l'impermeabile. - Aquí está el impermeable.
+ Ecco le camicie rosse. - Aquí están las camisas rojas.
+ Ecco le camicie. - Aquí están las camisas.
+ Ecco le scarpe! - ¡Aquí están los zapatos!
+ Ecco lo scontrino, arrivederci e grazie! - Aquí está el recibo, adiós y gracias.
+ Ecco lo scontrino. - Aquí está el recibo.
+ Ecco lo specchio, Alessandro. - Aquí está el espejo, Alessandro.
+ Giulia, dov'è l'entrata? - Giulia, ¿dónde está la entrada?
+ Grande o piccolo? - ¿Grande o pequeño?
+ Guarda Chiara, sta piovendo! - ¡Mira, Chiara, está lloviendo!
+ Guarda, il centro commerciale è lì! - ¡Mira, el centro comercial está allí!
+ Guarda, la giacca è molto economica! - ¡Mira, la chaqueta es muy económica!
+ Guarda, sta piovendo! - ¡Mira, está lloviendo!
+ i vestiti - la ropa
+ I vestiti sono belli qui. - La ropa es hermosa aquí.
+ I vestiti sono carini! - ¡La ropa es bonita!
+ Il cappello bianco è molto caro. - El sombrero blanco es muy caro.
+ Il cappello è verde. - El sombrero es verde.
+ Il cappello rosso è bello. - El sombrero rojo es hermoso.
+ Il cappotto è carino, vero Marco? - El abrigo es bonito, ¿verdad, Marco?
+ Il cappotto è economico, vero? - ¿El abrigo es económico, verdad?
+ il cappotto nero - el abrigo negro
+ il centro commerciale - el centro comercial
+ Il centro commerciale è qui. - El centro comercial está aquí.
+ Il centro commerciale non è lontano. - El centro comercial no está lejos.
+ Il maglione è blu. - El suéter es azul.
+ il maglione grande - el suéter grande
+ Il maglione verde è grande. - El suéter verde es grande.
+ Il negozio è qui, ma sta piovendo. - La tienda está aquí, pero está lloviendo.
+ Il vestito blu è piccolo, mi dispiace. - El vestido azul es pequeño, lo siento.
+ il vestito nuovo - el vestido nuevo
+ Il vestito rosso è brutto. - El vestido rojo es feo.
+ Io ho bisogno di scarpe nuove. - Yo necesito zapatos nuevos.
+ Io ho bisogno di stivali nuovi. - Yo necesito botas nuevas.
+ Io ho bisogno di un cappello verde, e tu? - Yo necesito un sombrero verde, ¿y tú?
+ Io ho bisogno di un ombrello. - Yo necesito un paraguas.
+ Io ho bisogno di una giacca nuova. - Yo necesito una chaqueta nueva.
+ Io ho bisogno di vestiti nuovi ora. - Yo necesito ropa nueva ahora.
+ Io ho bisogno di vestiti, e tu? - Yo necesito ropa, ¿y tú?
+ Io vorrei il cappotto nero. - Yo querría el abrigo negro.
+ Io vorrei il maglione grande, per favore. - Yo querría el suéter grande, por favor.
+ Io vorrei il maglione verde. - Yo querría el suéter verde.
+ Io vorrei la camicia bianca, per favore. - Yo querría la camisa blanca, por favor.
+ Io vorrei lo scontrino, per favore. - Yo querría el recibo, por favor.
+ Io vorrei lo zaino blu, per favore. - Yo querría la mochila azul, por favor.
+ Io vorrei lo zaino nero, e tu? - Yo querría la mochila negra, ¿y tú?
+ Io vorrei lo zaino rosso. - Yo querría la mochila roja.
+ Io vorrei solo la maglietta blu, per favore. - Yo querría solo la camiseta azul, por favor.
+ Io vorrei solo una maglietta nuova, e tu? - Yo querría solo una camiseta nueva, ¿y tú?
+ Io vorrei un maglione nuovo. - Yo querría un suéter nuevo.
+ L'entrata o l'uscita? - ¿La entrada o la salida?
+ l'impermeabile - el impermeable
+ l'ombrello - el paraguas
+ L'ombrello rosso è qui. - El paraguas rojo está aquí.
+ la camicia verde - La camisa verde.
+ La giacca è molto cara. - La chaqueta es muy cara.
+ la giacca nuova - la chaqueta nueva
+ La gonna bianca è bella, vero? - La falda blanca es hermosa, ¿verdad?
+ La gonna è molto cara. - La falda es muy cara.
+ La gonna nera è brutta, vero? - La falda negra es fea, ¿verdad?
+ la gonna verde - la falda verde
+ La maglietta rossa è molto piccola! - ¡La camiseta roja es muy pequeña!
+ Le scarpe nere sono molto carine, vero? - Los zapatos negros son muy bonitos, ¿verdad?
+ Le scarpe sono brutte. - Los zapatos son feos.
+ lo scontrino - el recibo
+ Lo scontrino è qui. - El recibo está aquí.
+ Lo specchio è lì. - El espejo está allí.
+ Lo specchio è piccolo. - El espejo es pequeño.
+ lo stivale - la bota
+ lo zaino - la mochila
+ Lo zaino bianco è carino, vero? - La mochila blanca es bonita, ¿verdad?
+ lo zaino blu - la mochila azul
+ Lo zaino blu è economico. - La mochila azul es económica.
+ Lo zaino giallo è molto carino. - La mochila amarilla es muy bonita.
+ lo zaino grande - la mochila grande
+ Lo zaino nero è carino. - La mochila negra es bonita.
+ Mario, ecco i cappelli! - ¡Mario, aquí están los sombreros!
+ Matteo, tu hai bisogno di un impermeabile? - Matteo, ¿tú necesitas un impermeable?
+ Mi dispiace ma la maglietta gialla è grande. - Lo siento, pero la camiseta amarilla es grande.
+ Mi dispiace, l'uscita non è qui. - Lo siento, la salida no está aquí.
+ Mi dispiace, ma il cappotto è brutto. - Lo siento, pero el abrigo es feo.
+ Mi dispiace, ma il maglione giallo è brutto! - Lo siento, pero el suéter amarillo es feo.
+ No Isa, io ho bisogno di stivali economici! - ¡No, Isa, necesito botas baratas!
+ No, il vestito rosso è grande. - No, el vestido rojo es grande.
+ No, io vorrei solo la gonna blu. - No, yo querría solo la falda azul.
+ No, l'uscita è lì. - No, la salida está allí.
+ No, le camicie sono brutte. - No, las camisas son feas.
+ Salve, io vorrei lo zaino e la camicia. - Hola, yo querría la mochila y la camisa.
+ Salve, io vorrei lo zaino grande. - Hola, yo querría la mochila grande.
+ Scusi, dov'è il centro commerciale? - Disculpe, ¿dónde está el centro comercial?
+ Scusi, dov'è l'uscita? - Disculpe, ¿dónde está la salida?
+ Scusi, dov'è lo specchio? - Disculpe, ¿dónde está el espejo?
+ Scusi, dove sono i camerini? - Disculpe, ¿dónde están los probadores?
+ Scusi, dove sono i maglioni? - Disculpe, ¿dónde están los suéteres?
+ Scusi, dove sono le magliette e i vestiti? - Disculpe, ¿dónde están las camisetas y la ropa?
+ Scusi, io vorrei lo specchio, per favore. - Disculpe, yo querría el espejo, por favor.
+ Sì Anna, anche il cappello è molto brutto! - ¡Sí, Anna, el sombrero también es muy feo!
+ Sì, io ho bisogno di vestiti, per favore. - Sí, yo necesito ropa, por favor.
+ Sì, la giacca è bella. - Sí, la chaqueta es hermosa.
+ Sta piovendo, dov'è l'entrata? - Está lloviendo, ¿dónde está la entrada?
+ Teo, ci sono due uscite qui. - Teo, hay dos salidas aquí.
+ Tu hai bisogno di stivali neri, vero? - ¿Tú necesitas botas negras, verdad?
+ Tu hai bisogno di un cappotto rosso, Giulia? - ¿Tú necesitas un abrigo rojo, Giulia?
+ Tu hai bisogno di un ombrello? - ¿Tú necesitas un paraguas?
+ un impermeabile - un impermeable
+ un ombrello - un paraguas
+ una giacca brutta - una chaqueta fea
+ Wow Anna, il maglione verde è molto bello! - ¡Vaya, Anna, el suéter verde es muy bonito!
+ Wow, lo zaino bianco è economico! - ¡Guau, la mochila blanca es económica!
+13 Hablar de tus pasatiempos
+ Adriano è il mio amico italiano. - Adriano es mi amigo italiano.
+ Ah, la pizza è calda! - ¡Ah, la pizza está caliente!
+ Alessandro, dov'è la mia pasta? - Alessandro, ¿dónde está mi pasta?
+ Anche Alessandro è il mio vicino. - También Alessandro es mi vecino.
+ Anche il mio bagno è piccolo. - Mi baño también es pequeño.
+ Buon compleanno! - ¡Feliz cumpleaños!
+ Buon compleanno, Chiara! - ¡Feliz cumpleaños, Chiara!
+ Buon compleanno, Leo! - ¡Feliz cumpleaños, Leo!
+ Buon compleanno, Pina! - ¡Feliz cumpleaños, Pina!
+ C'è cibo, vero? - Hay comida, ¿verdad?
+ C'è un cane qui? - ¿Hay un perro aquí?
+ Ciao Alessandro, come va? - Hola Alessandro, ¿cómo va?
+ Ciao Anna, buon compleanno! - Hola Anna, ¡feliz cumpleaños!
+ Ciao Elisa! - ¡Hola, Elisa!
+ Ciao Teo! - ¡Hola, Teo!
+ Ciao, buon compleanno! - ¡Hola, feliz cumpleaños!
+ Ciao, come va? - Hola, ¿cómo va?
+ Dov'è il bagno, Anna? - ¿Dónde está el baño, Anna?
+ Dov'è il mio amico Mario? - ¿Dónde está mi amigo Mario?
+ Dov'è il mio cane? - ¿Dónde está mi perro?
+ Dov'è la mia amica Isa? - ¿Dónde está mi amiga Isa?
+ Dov'è la mia birra? - ¿Dónde está mi cerveza?
+ Dov'è la mia pasta? - ¿Dónde está mi pasta?
+ Ecco Anna, la mia compagna di classe. - Aquí está Anna, mi compañera de clase.
+ Ecco Chiara, la mia vicina. - Aquí está Chiara, mi vecina.
+ Ecco il cibo! - ¡Aquí está la comida!
+ Ecco il mio cane. - Aquí está mi perro.
+ Ecco il mio regalo. - Aquí está mi regalo.
+ Ecco il regalo. - Aquí está el regalo.
+ Ecco la mia birra. - Aquí está mi cerveza.
+ Ecco Matteo, il mio vicino italiano. - Aquí está Matteo, mi vecino italiano.
+ Ecco Teo, il mio compagno di classe italiano. - Aquí está Teo, mi compañero de clase italiano.
+ Elisa è la mia vicina. - Elisa es mi vecina.
+ Guarda, c'è un cane lì! - ¡Mira, hay un perro allí!
+ Guarda, il cibo è qui. - Mira, la comida está aquí.
+ il bagno - el baño
+ Il bagno è lì. - El baño está allí.
+ il cane - el perro
+ il cibo - la comida
+ Il cibo e le bibite sono lì. - La comida y las bebidas están allí.
+ il compagno di classe - el compañero de clase
+ Il dolce è per Sara. - El postre es para Sara.
+ il mio amico - mi amigo
+ Il mio amico Teo è di Milano. - Mi amigo Teo es de Milán.
+ il mio appartamento - mi apartamento
+ Il mio appartamento è carino. - Mi departamento es bonito.
+ Il mio appartamento è grande, vero? - Mi departamento es grande, ¿verdad?
+ Il mio appartamento è piccolo. - Mi apartamento es pequeño.
+ Il mio appartamento non è molto grande. - Mi departamento no es muy grande.
+ Il mio bagno è verde. - Mi baño es verde.
+ il mio cane - mi perro
+ Il mio cappotto è lì, vero? - Mi abrigo está allí, ¿verdad?
+ il mio compagno di classe - mi compañero de clase
+ Il mio compagno di classe è simpatico, vero? - Mi compañero de clase es simpático, ¿verdad?
+ Il mio compagno di classe è timido. - Mi compañero de clase es tímido.
+ Il mio vicino è serio. - Mi vecino es serio.
+ il regalo - el regalo
+ Il regalo è carino! - ¡El regalo es bonito!
+ Il regalo è per Isa. - El regalo es para Isa.
+ Il regalo è per Mario. - El regalo es para Mario.
+ l'appartamento - el departamento
+ L'appartamento è molto carino. - El departamento es muy bonito.
+ la birra - la cerveza
+ La birra è fredda? - ¿La cerveza está fría?
+ la compagna di classe - la compañera de clase
+ La mia amica Chiara è italiana. - Mi amiga Chiara es italiana.
+ La mia amica è di Londra. - Mi amiga es de Londres.
+ La mia amica è di Roma. - Mi amiga es de Roma.
+ La mia amica è molto timida. - Mi amiga es muy tímida.
+ la mia amica, il mio amico - mi amiga, mi amigo
+ la mia compagna di classe - mi compañera de clase
+ La mia compagna di classe è di Londra. - Mi compañera de clase es de Londres.
+ La mia compagna di classe è simpatica, vero? - Mi compañera de clase es simpática, ¿verdad?
+ la mia compagna di classe, il mio amico - mi compañera de clase, mi amigo
+ La mia pasta è buona. - Mi pasta está buena.
+ La mia torta è molto buona. - Mi pastel es muy bueno.
+ La mia vicina è italiana. - Mi vecina es italiana.
+ La mia vicina è molto simpatica. - Mi vecina es muy simpática.
+ La mia vicina Elisabetta è molto simpatica. - Mi vecina Elisabetta es muy simpática.
+ La pasta è calda, vero? - La pasta está caliente, ¿verdad?
+ La pizza è calda? - ¿La pizza está caliente?
+ La torta è per Matteo. - El pastel es para Matteo.
+ Le scarpe sono per Chiara. - Los zapatos son para Chiara.
+ Lei è Isa, la mia compagna di classe. - Ella es Isa, mi compañera de clase.
+ Lei è la mia vicina. - Ella es mi vecina.
+ Leo è il mio compagno di classe. - Leo es mi compañero de clase.
+ Lo zaino rosso è per Ugo. - La mochila roja es para Ugo.
+ Lui è il mio amico. - Él es mi amigo.
+ Lui è il mio cane. - Es mi perro.
+ Lui è Ugo, il mio amico italiano. - Él es Ugo, mi amigo italiano.
+ Mario è il mio vicino. - Mario es mi vecino.
+ Mario, ecco la mia torta! - ¡Mario, aquí está mi pastel!
+ Matteo, il cibo è lì. - Matteo, la comida está allí.
+ Mi dispiace, il mio bagno è piccolo. - Lo siento, mi baño es pequeño.
+ Mi dispiace, la pizza non è calda. - Lo siento, la pizza no está caliente.
+ No Matteo, la mia pasta è fredda. - No, Matteo, mi pasta está fría.
+ No, Alessandro non è il mio compagno di classe. - No, Alessandro no es mi compañero de clase.
+ No, la mia birra non è qui. - No, mi cerveza no está aquí.
+ No, lui non è il mio vicino. - No, él no es mi vecino.
+ Sara è la mia compagna di classe. - Sara es mi compañera de clase.
+ Sì Alessandro, anche la carne è calda. - Sí, Alessandro, también la carne está caliente.
+ Sì, la pasta è calda. - Sí, la pasta está caliente.
+ Sì, Leo è il mio vicino. - Sí, Leo es mi vecino.
+ Vorrei una birra. - Querría una cerveza.
+ Wow, il bagno è grande! - ¡Guau, el baño es grande!
+ Wow, il regalo per Matteo è giallo! - ¡Guau, el regalo para Matteo es amarillo!
+ Wow, la mia pasta è buona! - ¡Guau, mi pasta está buena!
+14 Hablar de materias escolares
+ Adriano e Ugo, voi parlate spagnolo? - Adriano y Ugo, ¿vosotros habláis español?
+ Ah, anche tu parli giapponese? - Ah, ¿también hablas japonés?
+ Ah, io insegno geografia. - Ah, yo enseño geografía.
+ Ah, io non ballo bene. - Ah, yo no bailo bien.
+ Alessandro e Elisabetta, voi abitate qui? - Alessandro y Elisabetta, ¿vosotros habitáis aquí?
+ Alessandro, tu lavori qui, vero? - Alessandro, tú trabajas aquí, ¿verdad?
+ Anche io ballo bene! - ¡Yo también bailo bien!
+ Anche io lavoro qui. - Yo también trabajo aquí.
+ Anche io sono di Firenze! - ¡Yo también soy de Florencia!
+ Anche tu abiti qui? - ¿También tú vives aquí?
+ Anche tu canti bene, Matteo! - ¡Tú también cantas bien, Matteo!
+ Anche tu studi storia qui, Alessandro? - ¿También estudias historia aquí, Alessandro?
+ Buongiorno, ragazzi! - ¡Buenos días, chicos!
+ Carlo e Marco, voi studiate giapponese, vero? - Carlo y Marco, vosotros estudiáis japonés, ¿verdad?
+ Ciao, come ti chiami? - Hola, ¿cómo te llamas?
+ Ciao, io insegno italiano qui. - Hola, yo enseño italiano aquí.
+ Ciao, ragazze! - ¡Hola, chicas!
+ Ciao, tu abiti qui? - Hola, ¿vives aquí?
+ Ciao, tu studi giapponese? - Hola, ¿tú estudias japonés?
+ E tu, come ti chiami? - Y tú, ¿cómo te llamas?
+ Ecco le studentesse italiane. - Aquí están las estudiantes italianas.
+ Ecco lo studente nuovo. - Aquí está el estudiante nuevo.
+ Elisa, tu studi biologia qui, vero? - Elisa, tú estudias biología aquí, ¿verdad?
+ Elisabetta è la studentessa italiana. - Elisabetta es la estudiante italiana.
+ Elisabetta, tu abiti qui? - Elisabetta, ¿vives acá?
+ Elisabetta, tu canti, vero? - Elisabetta, tú cantas, ¿verdad?
+ Fantastico, anche io ballo! - ¡Fantástico, yo también bailo!
+ Fantastico, io sono di Firenze! - ¡Fantástico, yo soy de Florencia!
+ Firenze è bella. - Florencia es hermosa.
+ Giulia, tu balli bene, vero? - Giulia, tú bailas bien, ¿verdad?
+ Io ballo spesso con la mia vicina Elisabetta. - Yo bailo a menudo con mi vecina Elisabetta.
+ Io ballo spesso. - Yo bailo a menudo.
+ Io canto bene. - Yo canto bien.
+ Io canto spesso con Elisa. - Yo canto a menudo con Elisa.
+ Io canto spesso con il mio vicino Carlo. - Yo canto a menudo con mi vecino Carlo.
+ Io insegno arabo e italiano, e tu? - Yo enseño árabe e italiano, ¿y tú?
+ Io insegno inglese. - Yo enseño inglés.
+ Io insegno spagnolo, e tu? - Yo enseño español, ¿y tú?
+ Io lavoro qui, e tu? - Yo trabajo aquí, ¿y tú?
+ Io non lavoro qui. - Yo no trabajo aquí.
+ Io non studio geografia. - Yo no estudio geografía.
+ Io sono di Firenze. - Yo soy de Florencia.
+ Io sono Elisabetta, come ti chiami? - Yo soy Elisabetta, ¿cómo te llamas?
+ Io studio arabo, inglese e geografia qui. - Yo estudio árabe, inglés y geografía aquí.
+ Io studio biologia qui. - Yo estudio biología aquí.
+ Io studio geografia e italiano. - Yo estudio geografía e italiano.
+ Io studio inglese e geografia. - Yo estudio inglés y geografía.
+ Io studio storia. - Yo estudio historia.
+ Isa e Leo, voi lavorate? - Isa y Leo, ¿vosotros trabajáis?
+ l'università - la universidad
+ L'università è bella. - La universidad es hermosa.
+ L'università è molto grande, vero? - La universidad es muy grande, ¿verdad?
+ L'università non è economica. - La universidad no es económica.
+ la storia - la historia
+ la studentessa italiana - la estudiante italiana
+ Lei è Anna, la studentessa nuova. - Ella es Anna, la estudiante nueva.
+ Lei è la studentessa nuova. - Ella es la estudiante nueva.
+ lo studente - el estudiante
+ Lui è lo studente italiano. - Él es el estudiante italiano.
+ Marco è lo studente italiano. - Marco es el estudiante italiano.
+ Mario e Anna, voi abitate qui? - Mario y Anna, ¿ustedes viven aquí?
+ Matteo e Isa, voi studiate cinese? - Matteo e Isa, ¿vosotros estudiáis chino?
+ Matteo, anche tu abiti qui? - Matteo, ¿tú también vives aquí?
+ No, io ballo! - ¡No, yo bailo!
+ No, io non ballo spesso. - No, yo no bailo a menudo.
+ No, io non lavoro qui, mi dispiace. - No, yo no trabajo aquí, lo siento.
+ No, io non parlo giapponese, e tu? - No, yo no hablo japonés, ¿y tú?
+ No, io non studio biologia. - No, yo no estudio biología.
+ No, io non studio giapponese. - No, yo no estudio japonés.
+ No, io non studio storia. - No, yo no estudio historia.
+ No, io sono di Firenze. - No, yo soy de Florencia.
+ No, l'università è piccola! - ¡No, la universidad es pequeña!
+ Piacere, come ti chiami? - Encantado, ¿cómo te llamas?
+ Pina e Isa, voi parlate cinese? - Pina e Isa, ¿ustedes hablan chino?
+ Ragazze, anche voi studiate biologia qui? - Chicas, ¿también estudiáis biología aquí?
+ Ragazze, ecco la studentessa nuova! - ¡Chicas, aquí está la estudiante nueva!
+ Ragazzi, ecco lo studente nuovo! - ¡Chicos, aquí está el estudiante nuevo!
+ Ragazzi, ecco Sara! - ¡Chicos, aquí está Sara!
+ Ragazzi, voi parlate inglese? - Chicos, ¿vosotros habláis inglés?
+ Ragazzi, voi parlate italiano? - Chicos, ¿vosotros habláis italiano?
+ Ragazzi, voi parlate spagnolo e italiano, vero? - Chicos, ¿vosotros habláis español e italiano, verdad?
+ Ragazzi, voi parlate tedesco? - Chicos, ¿vosotros habláis alemán?
+ Ragazzi, voi studiate biologia, vero? - Chicos, vosotros estudiáis biología, ¿verdad?
+ Ragazzi, voi studiate giapponese? - Chicos, ¿vosotros estudiáis japonés?
+ Ragazzi, voi studiate italiano? - Chicos, ¿vosotros estudiáis italiano?
+ Ragazzi, voi studiate lì? - Chicos, ¿vosotros estudiáis allí?
+ Salve, come ti chiami? - Hola, ¿cómo te llamas?
+ Salve, io sono di Firenze. - Hola, yo soy de Florencia.
+ Sì, io abito qui. - Sí, yo vivo aquí.
+ Sì, io canto. - Sí, yo canto.
+ Sì, io lavoro qui. - Sí, yo trabajo aquí.
+ Tu abiti qui? - ¿Vives aquí?
+ Tu balli spesso? - ¿Bailas a menudo?
+ Tu canti bene? - ¿Tú cantas bien?
+ Tu canti spesso? - ¿Tú cantas a menudo?
+ Tu insegni cinese e giapponese, vero? - Tú enseñas chino y japonés, ¿verdad?
+ Tu insegni inglese? - ¿Tú enseñas inglés?
+ Tu non studi biologia? - ¿Tú no estudias biología?
+ Tu parli bene francese? - ¿Tú hablas bien francés?
+ Tu parli giapponese? - ¿Tú hablas japonés?
+ Tu studi biologia o geografia? - ¿Tú estudias biología o geografía?
+ Tu studi geografia? - ¿Tú estudias geografía?
+ Tu studi giapponese? - ¿Tú estudias japonés?
+ Tu studi storia o giapponese? - ¿Tú estudias historia o japonés?
+ Tu studi storia? - ¿Tú estudias historia?
+ Ugo è lo studente nuovo. - Ugo es el estudiante nuevo.
+ Wow, l'università è molto bella! - ¡Guau, la universidad es muy hermosa!
+15 Describir trabajos de otros
+ Adesso Elisa gioca con la mia compagna di classe. - Ahora Elisa juega con mi compañera de clase.
+ Adriano è a casa ora. - Adriano está en casa ahora.
+ Adriano insegna adesso. - Adriano enseña ahora.
+ Ah, lui è un dottore! - ¡Ah, él es médico!
+ Alessandro è impegnato? - ¿Alessandro está ocupado?
+ Alessandro è libero adesso, vero? - ¿Alessandro está libre ahora, verdad?
+ Alessandro lavora in un ospedale. - Alessandro trabaja en un hospital.
+ Anche Alessandro è molto impegnato oggi. - También Alessandro está muy ocupado hoy.
+ Anche Alessandro lavora in un ufficio lì? - ¿También trabaja Alessandro en una oficina allí?
+ Anche Chiara è a casa con Matteo adesso. - También Chiara está en casa con Matteo ahora.
+ Anche Elisabetta è impegnata? - ¿También está ocupada Elisabetta?
+ Anche il mio amico Alessandro è un professore. - Mi amigo Alessandro también es profesor.
+ Anche il mio vicino è un dottore. - Mi vecino también es doctor.
+ Anche la mia amica Elisa lavora tutti i giorni. - También mi amiga Elisa trabaja todos los días.
+ Anche la mia vicina Elisa è una professoressa. - Mi vecina Elisa también es profesora.
+ Anche Laura lavora in una fabbrica? - ¿También Laura trabaja en una fábrica?
+ Anche lei lavora qui oggi? - ¿Usted también trabaja aquí hoy?
+ Anche Ugo lavora in un ospedale. - Ugo también trabaja en un hospital.
+ Anna gioca con il cane. - Anna juega con el perro.
+ Anna non è una professoressa. - Anna no es profesora.
+ Anna parla con Mario. - Anna habla con Mario.
+ C'è una professoressa? - ¿Hay una profesora?
+ Carlo parla con Leo e Isa adesso. - Carlo habla con Leo e Isa ahora.
+ Chiara è una dottoressa? - ¿Chiara es doctora?
+ Chiara non è libera adesso? - ¿Chiara no está libre ahora?
+ Ecco una dottoressa! - ¡Aquí hay una doctora!
+ Elisa canta oggi? - ¿Elisa canta hoy?
+ Elisa è impegnata. - Elisa está ocupada.
+ Elisabetta gioca con Adriano. - Elisabetta juega con Adriano.
+ Elisabetta lavora in un bar, e tu? - Elisabetta trabaja en un bar, ¿y tú?
+ Emanuela è molto impegnata oggi. - Emanuela está muy ocupada hoy.
+ Emanuela lavora adesso. - Emanuela trabaja ahora.
+ Emanuela lavora tutti i giorni. - Emanuela trabaja todos los días.
+ Fantastico, anche la mia vicina è una cuoca! - ¡Fantástico, mi vecina también es cocinera!
+ Fantastico, lei è una dottoressa! - ¡Fantástico, ella es doctora!
+ Giulia lavora in un bar, vero? - Giulia trabaja en un bar, ¿verdad?
+ Il mio amico è un dottore. - Mi amigo es doctor.
+ Il mio vicino lavora in un ufficio. - Mi vecino trabaja en una oficina.
+ in un bar - en un bar
+ in un ospedale - en un hospital
+ in un ufficio - en una oficina
+ in una fabbrica - en una fábrica
+ Isa è una professoressa? - ¿Isa es profesora?
+ La mia amica è una cuoca. - Mi amiga es cocinera.
+ La mia compagna di classe lavora in un bar. - Mi compañera de clase trabaja en un bar.
+ Laura lavora adesso. - Laura trabaja ahora.
+ Laura lavora in un ufficio. - Laura trabaja en una oficina.
+ Lei è libera adesso? - ¿Está libre ahora?
+ Lei è una cuoca e lui è un cuoco. - Ella es cocinera y él es cocinero.
+ Lei è una dottoressa. - Ella es doctora.
+ Lei gioca con Alessandro. - Ella juega con Alessandro.
+ Lei insegna qui oggi. - Ella enseña aquí hoy.
+ Lei lavora adesso? - ¿Trabaja usted ahora?
+ Lei lavora in un bar. - Ella trabaja en un bar.
+ Lei lavora in una fabbrica. - Ella trabaja en una fábrica.
+ Lei non lavora tutti i giorni. - Ella no trabaja todos los días.
+ Lei parla con il mio vicino ora. - Ella habla con mi vecino ahora.
+ Leo è un cuoco e Anna lavora in un hotel. - Leo es cocinero y Anna trabaja en un hotel.
+ Leo parla con Isa. - Leo habla con Isa.
+ Lui è un cuoco e lei insegna arabo. - Él es un cocinero y ella enseña árabe.
+ Lui è un professore. - Él es profesor.
+ Lui gioca con il mio cane adesso. - Él juega con mi perro ahora.
+ Lui gioca con Isa. - Él juega con Isa.
+ Lui lavora in un ospedale? - ¿Él trabaja en un hospital?
+ Lui lavora in un ufficio. - Él trabaja en una oficina.
+ Lui lavora oggi? - ¿Él trabaja hoy?
+ Lui non è un dottore. - Él no es médico.
+ Marco lavora in un ufficio? - ¿Marco trabaja en una oficina?
+ Marco non è un cuoco. - Marco no es cocinero.
+ Mario è un professore qui? - ¿Mario es profesor aquí?
+ Mario non lavora in una fabbrica, vero? - Mario no trabaja en una fábrica, ¿verdad?
+ Matteo gioca con il mio vicino ora. - Matteo juega con mi vecino ahora.
+ Matteo lavora lì oggi? - ¿Matteo trabaja allí hoy?
+ Mi dispiace, Laura è impegnata. - Lo siento, Laura está ocupada.
+ No, Isa non lavora in un bar. - No, Isa no trabaja en un bar.
+ No, Laura insegna adesso. - No, Laura enseña ahora.
+ No, lei non è una cuoca. - No, ella no es una cocinera.
+ No, lui non lavora in un ospedale. - No, él no trabaja en un hospital.
+ No, lui non lavora in un ufficio. - No, él no trabaja en una oficina.
+ No, lui non lavora in una fabbrica. - No, él no trabaja en una fábrica.
+ No, Sara non è una dottoressa. - No, Sara no es doctora.
+ Pina parla con Adriano adesso. - Pina habla con Adriano ahora.
+ Sara è una professoressa. - Sara es profesora.
+ Sara insegna italiano adesso. - Sara enseña italiano ahora.
+ Sara non insegna tutti i giorni. - Sara no enseña todos los días.
+ Sara parla con Giulia adesso. - Sara habla con Giulia ahora.
+ Sara parla con il mio cane! - ¡Sara habla con mi perro!
+ Sì, anche Giulia è libera adesso. - Sí, Giulia también está libre ahora.
+ Sì, anche il mio vicino lavora in un ospedale. - Sí, también mi vecino trabaja en un hospital.
+ Sì, anche Laura lavora adesso. - Sí, Laura también trabaja ahora.
+ Sì, in un ospedale. - Sí, en un hospital.
+ Sì, in un ufficio. - Sí, en una oficina.
+ Sì, lei è molto impegnata. - Sí, ella está muy ocupada.
+ Sì, lei è una professoressa. - Sí, es profesora.
+ Sì, lui è libero oggi. - Sí, él está libre hoy.
+ Sì, Marco è a casa. - Sí, Marco está en casa.
+ Sì, Matteo è un dottore ma lui non lavora qui. - Sí, Matteo es médico pero no trabaja aquí.
+ Sì, Sara è a casa. - Sí, Sara está en casa.
+ Sì, tutti i giorni. - Sí, todos los días.
+ Teo è libero oggi. - Teo está libre hoy.
+ Teo lavora tutti i giorni. - Teo trabaja todos los días.
+ Teo non è un professore. - Teo no es profesor.
+ Ugo è molto impegnato. - Ugo está muy ocupado.
+ Ugo è un dottore? - ¿Ugo es médico?
+ Ugo lavora tutti i giorni. - Ugo trabaja todos los días.
+ un cuoco italiano - un cocinero italiano
+ un professore - un profesor
+ una cuoca seria - una cocinera seria
+16 Hablar de preferencias de viaje
+ a Napoli - a Nápoles
+ Ah, io amo Berlino e Venezia! - ¡Ah, yo amo Berlín y Venecia!
+ Ah, noi amiamo Roma! - ¡Ah, nosotros amamos Roma!
+ Anche io sono spagnola! - ¡Yo también soy española!
+ Anche io sono spagnola, ma abito a Londra. - Yo también soy española, pero vivo en Londres.
+ Anche io viaggio spesso. - Yo también viajo a menudo.
+ Anche io visito Londra ogni inverno. - Yo también visito Londres cada invierno.
+ Anche noi abitiamo a Londra! - ¡Nosotros también vivimos en Londres!
+ Anche noi visitiamo Napoli ogni anno. - También nosotros visitamos Nápoles cada año.
+ Anche noi visitiamo Roma ogni estate. - También nosotros visitamos Roma cada verano.
+ Anche noi visitiamo spesso Tokyo. - También nosotros visitamos a menudo Tokio.
+ Anche tu ami Milano? - ¿Tú también amas Milán?
+ Anche voi abitate a Madrid, vero? - ¿Ustedes también viven en Madrid, verdad?
+ Anna è spagnola, ma Ugo è italiano. - Anna es española, pero Ugo es italiano.
+ con il mio gatto - con mi gato
+ di solito - Normalmente
+ Fantastico, anche noi abitiamo a Napoli! - ¡Fantástico, nosotros también vivimos en Nápoles!
+ il mese - el mes
+ il mio gatto - mi gato
+ Il mio vicino viaggia spesso con il mio gatto. - Mi vecino viaja a menudo con mi gato.
+ Io amo Londra, ma visito spesso Berlino. - Me encanta Londres, pero visito Berlín a menudo.
+ Io amo Londra. - Amo Londres.
+ Io insegno a Londra ogni mese. - Yo enseño en Londres cada mes.
+ Io mangio solo cibo italiano qui. - Yo solo como comida italiana aquí.
+ Io sono di Napoli. - Soy de Nápoles.
+ Io studio a Napoli con Alessandro e Chiara. - Yo estudio en Nápoles con Alessandro y Chiara.
+ Io viaggio con il mio amico Ugo di solito. - Yo viajo con mi amigo Ugo normalmente.
+ Io viaggio con il mio gatto. - Yo viajo con mi gato.
+ Io viaggio con la mia amica di solito. - Yo viajo con mi amiga normalmente.
+ Io viaggio con la mia vicina Elisa ogni anno. - Yo viajo con mi vecina Elisa cada año.
+ Io viaggio ogni inverno. - Yo viajo cada invierno.
+ Io viaggio sempre con Pina. - Yo siempre viajo con Pina.
+ Io viaggio spesso con Leo. - Yo viajo a menudo con Leo.
+ Io visito i musei di solito. - Yo visito los museos normalmente.
+ Io visito Roma ogni estate. - Yo visito Roma cada verano.
+ Io visito spesso Napoli. - Yo visito a menudo Nápoles.
+ Io visito spesso Roma. - Yo visito Roma a menudo.
+ Io visito un teatro di solito. - Yo visito un teatro normalmente.
+ Isa, tu viaggi sempre con Chiara? - Isa, ¿tú viajas siempre con Chiara?
+ No, io non sono di Madrid. - No, yo no soy de Madrid.
+ No, io non viaggio con il mio gatto. - No, yo no viajo con mi gato.
+ No, noi non abitiamo a Tokyo. - No, no vivimos en Tokio.
+ Noi abitiamo a Berlino. - Vivimos en Berlín.
+ Noi abitiamo a Madrid con Carlo e Giulia. - Vivimos en Madrid con Carlo y Giulia.
+ Noi abitiamo a Madrid. - Vivimos en Madrid.
+ Noi abitiamo a Napoli. - Vivimos en Nápoles.
+ Noi abitiamo a Roma. - Vivimos en Roma.
+ Noi amiamo Milano, e tu? - Nosotros amamos Milán, ¿y tú?
+ Noi amiamo Tokyo! - ¡Nosotros amamos Tokio!
+ Noi lavoriamo a Londra. - Nosotros trabajamos en Londres.
+ Noi lavoriamo a Napoli. - Nosotros trabajamos en Nápoles.
+ Noi lavoriamo a Tokyo, ma siamo italiani. - Trabajamos en Tokio, pero somos italianos.
+ Noi lavoriamo qui ogni mese. - Nosotros trabajamos aquí cada mes.
+ Noi mangiamo qui ogni anno. - Nosotros comemos aquí cada año.
+ Noi mangiamo solo lì. - Nosotros comemos solo allí.
+ Noi mangiamo solo pollo qui. - Nosotros solo comemos pollo aquí.
+ Noi mangiamo spesso in un ristorante italiano. - Nosotros comemos a menudo en un restaurante italiano.
+ Noi mangiamo un cornetto lì di solito. - Nosotros comemos un cruasán allí normalmente.
+ Noi non mangiamo lì. - Nosotros no comemos allí.
+ Noi non studiamo qui, ma noi amiamo Tokyo. - Nosotros no estudiamos aquí, pero amamos Tokio.
+ Noi non viaggiamo insieme ogni anno. - Nosotros no viajamos juntos cada año.
+ Noi siamo spagnole. - Nosotras somos españolas.
+ Noi siamo spagnoli, ma noi abitiamo a Roma. - Somos españoles, pero vivimos en Roma.
+ Noi studiamo a Londra. - Nosotros estudiamos en Londres.
+ Noi studiamo a Milano. - Nosotros estudiamos en Milán.
+ Noi studiamo a Roma ogni anno. - Nosotros estudiamos en Roma cada año.
+ Noi studiamo a Tokyo. - Nosotros estudiamos en Tokio.
+ Noi viaggiamo insieme di solito. - Nosotros viajamos juntos normalmente.
+ Noi viaggiamo insieme ogni inverno. - Nosotros viajamos juntos cada invierno.
+ Noi viaggiamo insieme. - Nosotros viajamos juntos.
+ Noi viaggiamo ogni anno. - Nosotros viajamos cada año.
+ Noi viaggiamo ogni inverno. - Nosotros viajamos cada invierno.
+ Noi viaggiamo ogni mese. - Nosotros viajamos cada mes.
+ Noi viaggiamo sempre con Anna e Matteo. - Nosotros siempre viajamos con Anna y Matteo.
+ Noi viaggiamo spesso. - Nosotros viajamos a menudo.
+ Noi visitiamo Londra ogni anno. - Nosotros visitamos Londres cada año.
+ Noi visitiamo Londra ogni inverno. - Nosotros visitamos Londres cada invierno.
+ Noi visitiamo Milano ogni estate. - Nosotros visitamos Milán cada verano.
+ Noi visitiamo Milano ogni mese. - Nosotros visitamos Milán cada mes.
+ Noi visitiamo spesso Roma. - Nosotros visitamos Roma a menudo.
+ Noi visitiamo una città italiana di solito. - Nosotros visitamos una ciudad italiana normalmente.
+ ogni anno - cada año
+ ogni estate - cada verano
+ ogni inverno - cada invierno
+ Ragazze, voi viaggiate spesso insieme? - Chicas, ¿vosotras viajáis a menudo juntas?
+ Sì, anche io amo Londra! - ¡Sí, yo también amo Londres!
+ Sì, io abito a Madrid con Elisabetta. - Sí, vivo en Madrid con Elisabetta.
+ Sì, io viaggio con il mio gatto ogni estate! - ¡Sí, yo viajo con mi gato cada verano!
+ Sì, noi amiamo Napoli! - ¡Sí, nosotros amamos Nápoles!
+ Sì, noi viaggiamo insieme ogni estate. - Sí, nosotros viajamos juntos cada verano.
+ Sì, noi viaggiamo ogni anno. - Sí, nosotros viajamos cada año.
+ Sì, noi viaggiamo ogni estate. - Sí, nosotros viajamos cada verano.
+ Tu sei di Madrid? - ¿Tú eres de Madrid?
+ Tu sei di Tokyo? - ¿Tú eres de Tokio?
+ Tu viaggi sempre con Alessandro? - ¿Tú siempre viajas con Alessandro?
+ Voi viaggiate insieme ogni estate? - ¿Vosotros viajáis juntos cada verano?
+ Voi viaggiate insieme? - ¿Vosotros viajáis juntos?
+ Voi viaggiate ogni anno? - ¿Vosotros viajáis cada año?
+ Voi viaggiate ogni estate? - ¿Vosotros viajáis cada verano?
+ Voi viaggiate ogni mese? - ¿Vosotros viajáis cada mes?
+ Wow, anche io sono di Napoli! - ¡Guau, yo también soy de Nápoles!
+17 Hablar de aficiones ajenas
+ Ah, Bologna è una città interessante! - Ah, ¡Bolonia es una ciudad interesante!
+ Ah, io amo Filadelfia! - ¡Ah, yo amo Filadelfia!
+ Ah, loro sono di Bologna? - Ah, ¿ellos son de Bolonia?
+ Alessandro e Adriano cantano ogni giorno. - Alessandro y Adriano cantan cada día.
+ Alessandro e Adriano pattinano ogni giorno. - Alessandro y Adriano patinan cada día.
+ Alessandro e Teo sono di Bologna. - Alessandro y Teo son de Bolonia.
+ Anche Carlo e Ugo sono di Bologna. - También Carlo y Ugo son de Bolonia.
+ Anche io sono americano. - Yo también soy americano.
+ Anche io viaggio ogni autunno! - ¡Yo también viajo cada otoño!
+ Anche loro giocano a calcio ogni giorno, vero? - ¿También ellos juegan al fútbol cada día, verdad?
+ Anche loro nuotano insieme. - También ellos nadan juntos.
+ Anche loro pescano insieme ogni primavera. - Ellos también pescan juntos cada primavera.
+ Anche loro sono di Bologna. - Ellos también son de Bolonia.
+ Anche loro sono di Filadelfia. - Ellos también son de Filadelfia.
+ Anche voi giocate a pallacanestro, vero? - ¿También vosotros jugáis al baloncesto, verdad?
+ Anche voi sciate qui ogni inverno? - ¿También vosotros esquiáis aquí cada invierno?
+ Anna e Adriano pattinano qui ogni settimana. - Anna y Adriano patinan aquí cada semana.
+ Anna è di Filadelfia. - Anna es de Filadelfia.
+ Anna e Isa pescano insieme. - Anna e Isa pescan juntas.
+ Anna e Laura giocano a tennis ogni giorno. - Anna y Laura juegan al tenis cada día.
+ Carlo è di Roma. - Carlo es de Roma.
+ Chiara e Leo visitano Madrid ogni autunno. - Chiara y Leo visitan Madrid cada otoño.
+ Di solito il mio vicino e Mario nuotano insieme. - Normalmente mi vecino y Mario nadan juntos.
+ Elisa e Anna nuotano ogni primavera. - Elisa y Anna nadan cada primavera.
+ Elisabetta e Isa giocano a tennis. - Elisabetta e Isa juegan al tenis.
+ Elisabetta e Isa non sono australiane. - Elisabetta e Isa no son australianas.
+ Emanuela e Carlo sciano insieme ogni anno. - Emanuela y Carlo esquían juntos cada año.
+ Emanuela e Chiara pescano spesso insieme. - Emanuela y Chiara pescan a menudo juntas.
+ Emanuela e Matteo cucinano spesso insieme. - Emanuela y Matteo cocinan a menudo juntos.
+ Emanuela e Pina non sono di Sydney. - Emanuela y Pina no son de Sídney.
+ Emanuela gioca a tennis ogni settimana. - Emanuela juega al tenis cada semana.
+ Fantastico Mario, anche io sono di Bologna! - ¡Fantástico, Mario, también soy de Bolonia!
+ Giulia e Chiara pattinano ogni primavera. - Giulia y Chiara patinan cada primavera.
+ Giulia e Chiara sono di Filadelfia, vero? - ¿Giulia y Chiara son de Filadelfia, verdad?
+ Il mio compagno di classe disegna molto bene. - Mi compañero de clase dibuja muy bien.
+ Il mio vicino e Teo giocano a calcio. - Mi vecino y Teo juegan al fútbol.
+ Io disegno ogni giorno. - Yo dibujo cada día.
+ Io lavoro ogni autunno. - Yo trabajo cada otoño.
+ Io non scio. - Yo no esquío.
+ Isa e Chiara giocano a pallacanestro. - Isa y Chiara juegan al baloncesto.
+ Isa e Laura lavorano a Sydney. - Isa y Laura trabajan en Sídney.
+ Isa e Ugo viaggiano ogni autunno. - Isa y Ugo viajan cada otoño.
+ La mia compagna di classe è di Sydney. - Mi compañera de clase es de Sídney.
+ la primavera - la primavera
+ Laura e Marco sciano bene. - Laura y Marco esquían bien.
+ Laura gioca a pallacanestro con Elisabetta. - Laura juega al baloncesto con Elisabetta.
+ Lei gioca a pallacanestro. - Ella juega al baloncesto.
+ Leo e Matteo sono di Milano, vero? - Leo y Matteo son de Milán, ¿verdad?
+ Leo e Ugo sono americani. - Leo y Ugo son americanos.
+ Londra è una città molto interessante. - Londres es una ciudad muy interesante.
+ Loro abitano a Filadelfia. - Viven en Filadelfia.
+ Loro abitano a Sydney. - Viven en Sídney.
+ Loro ballano ogni giorno, vero? - ¿Ellos bailan cada día, verdad?
+ Loro ballano ogni giorno. - Ellos bailan cada día.
+ Loro cantano ogni giorno. - Ellos cantan cada día.
+ Loro cantano ogni settimana. - Ellos cantan cada semana.
+ Loro cucinano bene. - Ellos cocinan bien.
+ Loro cucinano insieme ogni mese. - Ellos cocinan juntos cada mes.
+ Loro disegnano spesso qui. - Ellos dibujan a menudo aquí.
+ Loro giocano a calcio ogni primavera. - Ellos juegan al fútbol cada primavera.
+ Loro giocano a calcio ogni settimana. - Ellos juegan al fútbol cada semana.
+ Loro giocano a calcio. - Ellos juegan al fútbol.
+ Loro giocano a pallacanestro. - Ellos juegan al baloncesto.
+ Loro giocano a tennis. - Ellos juegan al tenis.
+ Loro lavorano a Filadelfia con Emanuela. - Ellos trabajan en Filadelfia con Emanuela.
+ Loro nuotano bene. - Ellos nadan bien.
+ Loro nuotano spesso. - Ellos nadan a menudo.
+ Loro pattinano bene. - Ellos patinan bien.
+ Loro pattinano spesso con Marco. - Ellos patinan a menudo con Marco.
+ Loro pescano ogni mese. - Ellos pescan cada mes.
+ Loro pescano, vero? - ¿Ellos pescan, verdad?
+ Loro sciano ogni inverno. - Ellos esquían cada invierno.
+ Loro sono americani? - ¿Ellos son americanos?
+ Loro sono australiane e loro abitano a Sydney. - Ellas son australianas y viven en Sídney.
+ Loro sono australiane. - Ellas son australianas.
+ Loro sono di Bologna. - Ellos son de Bolonia.
+ Loro sono di Roma. - Ellos son de Roma.
+ Loro sono di Venezia, vero? - ¿Ellos son de Venecia, verdad?
+ Loro sono Mario e Adriano. - Ellos son Mario y Adriano.
+ Lui è americano, ma io non sono americano. - Él es americano, pero yo no soy americano.
+ Mario e Anna cucinano insieme. - Mario y Anna cocinan juntos.
+ Mario e Matteo sono di Milano. - Mario y Matteo son de Milán.
+ Mario e Ugo non sono di Venezia. - Mario y Ugo no son de Venecia.
+ Matteo e Carlo non giocano a calcio. - Matteo y Carlo no juegan al fútbol.
+ Matteo e Leo pattinano spesso. - Matteo y Leo patinan a menudo.
+ Matteo e Mario ballano ogni giorno. - Matteo y Mario bailan cada día.
+ Milano è interessante. - Milán es interesante.
+ Napoli è molto interessante. - Nápoles es muy interesante.
+ No, Alessandro non è di Londra. - No, Alessandro no es de Londres.
+ No, loro non giocano a tennis. - No, ellos no juegan al tenis.
+ No, loro non lavorano a Sydney. - No, ellos no trabajan en Sídney.
+ No, loro non pattinano bene. - No, ellos no patinan bien.
+ No, Mario e Teo non sono americani. - No, Mario y Teo no son americanos.
+ No, noi non giochiamo a pallacanestro. - No, nosotros no jugamos al baloncesto.
+ No, Roma non è una città interessante! - ¡No, Roma no es una ciudad interesante!
+ No, Ugo e Laura non cucinano insieme. - No, Ugo y Laura no cocinan juntos.
+ Noi sciamo spesso qui. - Nosotros esquiamos a menudo aquí.
+ Noi siamo impegnati ogni autunno. - Nosotros estamos ocupados cada otoño.
+ ogni autunno - cada otoño
+ ogni giorno - cada día
+ ogni primavera - cada primavera
+ ogni settimana - cada semana
+ Pina è italiana e Anna è australiana. - Pina es italiana y Anna es australiana.
+ Sara e Laura sono di Filadelfia. - Sara y Laura son de Filadelfia.
+ Sara e Marco disegnano insieme. - Sara y Marco dibujan juntos.
+ Sì, Alessandro e Matteo nuotano spesso qui. - Sí, Alessandro y Matteo nadan a menudo aquí.
+ Sì, loro giocano a tennis. - Sí, ellos juegan al tenis.
+ Sì, loro sono di Sydney. - Sí, ellos son de Sídney.
+ Sì, Sara è australiana. - Sí, Sara es australiana.
+ Sì, Tokyo è una città interessante! - ¡Sí, Tokio es una ciudad interesante!
+ Teo e Alessandro giocano a calcio. - Teo y Alessandro juegan al fútbol.
+ Tu cucini molto bene! - ¡Tú cocinas muy bien!
+ Tu disegni spesso, vero? - ¿Tú dibujas a menudo, verdad?
+ Tu lavori ogni settimana, vero? - ¿Tú trabajas cada semana, verdad?
+ Ugo e Carlo nuotano insieme. - Ugo y Carlo nadan juntos.
+ Ugo e Teo pattinano qui. - Ugo y Teo patinan aquí.
+ Voi pescate spesso? - ¿Vosotros pescáis a menudo?
+ Wow, anche Alessandro e Matteo sono americani! - ¡Guau, también Alessandro y Matteo son americanos!
+ Wow, anche Marco e Teo sono di Madrid! - ¡Guau, también Marco y Teo son de Madrid!
+18 Expresar sentimientos y emociones
+ Adriano è malato? - ¿Adriano está enfermo?
+ Alessandro è troppo stanco. - Alessandro está demasiado cansado.
+ Alessandro, tu non sei triste, vero? - Alessandro, tú no estás triste, ¿verdad?
+ Alessandro, tu sei molto dolce! - ¡Alessandro, tú eres muy dulce!
+ Anche Alessandro è felice? - ¿También está feliz Alessandro?
+ Anche Anna è debole oggi. - Anna también está débil hoy.
+ Anche il mio cane è stressato. - También mi perro está estresado.
+ Anche il mio cane è triste. - También mi perro está triste.
+ Anche io chiamo spesso la mia amica Giulia. - Yo también llamo a menudo a mi amiga Giulia.
+ Anche io sono forte! - ¡También soy fuerte!
+ Anche io sono stanca. - Yo también estoy cansada.
+ Anche loro sono malate? - ¿Ellas también están enfermas?
+ Anche loro sono un po' tristi? - ¿También están un poco tristes?
+ Anche tu sei libero? - ¿Tú también eres libre?
+ Anche tu sei stanco, Alessandro? - ¿También estás cansado, Alessandro?
+ Anna è gentile, ma loro non sono gentili. - Anna es gentil, pero ellos no son gentiles.
+ Anna, come stai? - Anna, ¿cómo estás?
+ Buonanotte e arrivederci! - ¡Buenas noches y hasta luego!
+ Buonanotte! - ¡Buenas noches!
+ Buonanotte, a presto! - Buenas noches, ¡hasta pronto!
+ Buonanotte, ragazzi! - ¡Buenas noches, chicos!
+ Certo, non ti preoccupare Anna! - ¡Claro, no te preocupes, Anna!
+ Ciao Adriano, come stai? - Hola Adriano, ¿cómo estás?
+ Ciao Elisabetta, come stai? - Hola Elisabetta, ¿cómo estás?
+ Ciao, come stai? - Hola, ¿cómo estás?
+ Ciao, ragazze, come state oggi? - Hola, chicas, ¿cómo están hoy?
+ Ciao, ragazze, come state? - Hola, chicas, ¿cómo están?
+ Ciao, ragazzi, come state oggi? - Hola, chicos, ¿cómo están hoy?
+ Come stai, Chiara? - ¿Cómo estás, Chiara?
+ Come stai, Mario? - ¿Cómo estás, Mario?
+ Come state, ragazzi? - ¿Cómo están, chicos?
+ Emanuela è molto felice oggi. - Emanuela está muy feliz hoy.
+ Fantastico, voi siete felici! - ¡Fantástico, vosotros estáis felices!
+ Grazie Emanuela, tu sei molto dolce. - Gracias Emanuela, tú eres muy dulce.
+ Grazie, buonanotte! - Gracias, ¡buenas noches!
+ Grazie, ma io sono forte. - Gracias, pero yo soy fuerte.
+ Grazie, tu sei dolce. - Gracias, tú eres dulce.
+ Grazie, voi siete molto gentili. - Gracias, vosotros sois muy gentiles.
+ Il mio cane è troppo debole oggi. - Mi perro está demasiado débil hoy.
+ Il mio gatto è malato. - Mi gato está enfermo.
+ Il mio gatto è troppo impegnato oggi, mi dispiace! - ¡Mi gato está demasiado ocupado hoy, lo siento!
+ Il mio gatto è un po' debole oggi. - Mi gato está un poco débil hoy.
+ Io chiamo Anna ogni giorno. - Yo llamo a Anna cada día.
+ Io chiamo Laura ogni settimana. - Yo llamo a Laura cada semana.
+ Io chiamo spesso Teo. - Yo llamo a menudo a Teo.
+ Io non sono felice oggi. - Hoy no estoy feliz.
+ Io non sono felice. - No soy feliz.
+ Io non sono impegnata, non ti preoccupare. - No estoy atareada, no te preocupes.
+ Io non sono triste. - Yo no estoy triste.
+ Io sono libero, non ti preoccupare. - Estoy libre, no te preocupes.
+ Io sono stanca, purtroppo. - Yo estoy cansada, desafortunadamente.
+ Io sono stanco oggi. - Yo estoy cansado hoy.
+ Io sto bene, e tu? - Yo me siento bien, ¿y tú?
+ Io sto bene, grazie. - Yo estoy bien, gracias.
+ Io sto bene. - Yo estoy bien.
+ La professoressa è un po' impegnata oggi. - La profesora está un poco ocupada hoy.
+ Laura e Sara sono un po' deboli oggi. - Laura y Sara están un poco débiles hoy.
+ Laura è triste? - ¿Laura está triste?
+ Lei non è felice. - Ella no es feliz.
+ Leo è triste, vero? - Leo está triste, ¿verdad?
+ Loro non sono deboli, loro sono forti. - Ellos no son débiles, ellos son fuertes.
+ Loro sono deboli oggi. - Ellos están débiles hoy.
+ Loro stanno bene, non ti preoccupare. - Ellos están bien, no te preocupes.
+ Loro stanno bene. - Ellos están bien.
+ Lui non è stressato. - Él no está estresado.
+ Marco è un po' debole. - Marco es un poco débil.
+ Mario, tu sei felice? - Mario, ¿tú eres feliz?
+ Matteo è troppo triste. - Matteo está demasiado triste.
+ Matteo, tu sei libero oggi, vero? - Matteo, ¿estás libre hoy, verdad?
+ Mi dispiace, loro non sono molto gentili. - Lo siento, ellos no son muy gentiles.
+ Mi dispiace, ma Matteo e Carlo sono malati. - Lo siento, pero Matteo y Carlo están enfermos.
+ No, Alessandro e Ugo sono un po' deboli oggi. - No, Alessandro y Ugo están algo débiles hoy.
+ No, Elisabetta non è malata. - No, Elisabetta no está enferma.
+ No, io non sono dolce. - No, yo no soy dulce.
+ No, io non sono forte. - No, yo no soy fuerte.
+ No, io non sono stanco. - No, no estoy cansado.
+ No, io sto bene! - ¡No, yo me siento bien!
+ No, Laura e Giulia non sono stressate adesso. - No, Laura y Giulia no están estresadas ahora.
+ No, loro non stanno bene. - No, ellos no están bien.
+ No, noi non siamo stressati. - No, nosotros no estamos estresados.
+ No, non ti preoccupare! - No, no te preocupes.
+ Noi siamo forti. - Nosotros somos fuertes.
+ Noi siamo stressate. - Nosotras estamos estresadas.
+ Noi siamo un po' tristi. - Nosotros estamos un poco tristes.
+ Non ti preoccupare, io non sono impegnato ora. - No te preocupes, no estoy ocupado ahora.
+ Non ti preoccupare, io non sono triste. - No te preocupes, yo no estoy triste.
+ Non ti preoccupare, noi siamo forti. - No te preocupes, nosotros somos fuertes.
+ Non ti preoccupare, Teo e Anna stanno bene. - No te preocupes, Teo y Anna están bien.
+ Oggi io sono felice. - Hoy estoy feliz.
+ Oggi io sono un po' triste. - Hoy me siento un poco triste.
+ Pina è stanca. - Pina está cansada.
+ Pronto, c'è Carlo? - Hola, ¿está Carlo?
+ Pronto, c'è Chiara? - Hola, ¿está Chiara?
+ Pronto, scusi, Anna è a casa oggi? - Hola, disculpe, ¿Anna está en casa hoy?
+ Pronto, scusi, c'è Elisa? - Hola, disculpe, ¿está Elisa?
+ Pronto, scusi, c'è Ugo? - Hola, disculpe, ¿está Ugo?
+ Pronto, Teo è a casa? - Hola, ¿Teo está en casa?
+ Purtroppo il mio gatto non è felice. - Desafortunadamente, mi gato no está feliz.
+ Purtroppo io non sono molto felice oggi. - Por desgracia, hoy no estoy muy feliz.
+ Purtroppo noi siamo tristi. - Desafortunadamente, nosotros estamos tristes.
+ Purtroppo Ugo e Isa non stanno bene. - Desafortunadamente, Ugo e Isa no están bien.
+ Ragazze, come state? - Chicas, ¿cómo están?
+ Ragazzi, voi siete troppo stressati! - ¡Chicos, vosotros estáis demasiado estresados!
+ Salve, ragazzi, come state? - Hola, chicos, ¿cómo están?
+ Sara, tu sei impegnata oggi? - Sara, ¿tú estás ocupada hoy?
+ Sì, Elisabetta è molto gentile. - Sí, Elisabetta es muy gentil.
+ Sì, Emanuela, io sto bene! - Sí, Emanuela, ¡yo me siento bien!
+ Sì, io sto bene, grazie. - Sí, yo me siento bien, gracias.
+ Sì, loro sono molto dolci. - Sí, ellos son muy dulces.
+ Sì, loro stanno bene, grazie. - Sí, ellos están bien, gracias.
+ Sì, ma anche loro sono molto forti. - Sí, pero también ellos son muy fuertes.
+ Sì, oggi io sono molto stanca. - Sí, hoy yo estoy muy cansada.
+ Sì, purtroppo loro sono malate. - Sí, desafortunadamente ellas están enfermas.
+ Sì, Sara è molto stressata! - Sí, ¡Sara está muy estresada!
+ Tu chiami Alessandro ogni giorno? - ¿Tú llamas a Alessandro cada día?
+ Tu non sei impegnato, vero? - Tú no estás ocupado, ¿verdad?
+ Tu non sei stanca, vero Giulia? - Tú no estás cansada, ¿verdad Giulia?
+ Tu sei felice? - ¿Tú eres feliz?
+ Tu sei gentile! - ¡Eres amable!
+ Tu sei libera? - ¿Estás libre?
+ Tu sei troppo dolce! - ¡Tú eres demasiado dulce!
+ Va bene, buonanotte! - Está bien, ¡buenas noches!
+ Voi non siete deboli. - Vosotros no sois débiles.
+ Voi non siete gentili. - Vosotros no sois gentiles.
+ Voi siete felici, vero? - Vosotros estáis felices, ¿verdad?
+ Voi siete molto dolci, grazie! - ¡Vosotros sois muy dulces, gracias!
+ Voi siete stressati? - ¿Vosotros estáis estresados?
+ Voi siete tristi? - ¿Vosotros estáis tristes?
+ Voi siete troppo dolci, grazie! - ¡Vosotros sois demasiado dulces, gracias!
+ Wow, tu sei forte! - ¡Guau, tú eres fuerte!
+19 Describir pasatiempos favoritos
+ Amiamo fare yoga insieme. - Amamos hacer yoga juntos.
+ Amiamo fare yoga ogni sera. - Amamos hacer yoga cada noche.
+ Amo fare yoga con il mio cane! - ¡Amo hacer yoga con mi perro!
+ Amo il golf. - Amo el golf.
+ Anche il calcio è molto divertente. - También el fútbol es muy divertido.
+ Anche io preferisco il tennis. - Yo también prefiero el tenis.
+ Anche tu ami il football americano? - ¿Tú también amas el fútbol americano?
+ Anche tu canti ogni sera? - ¿También cantas cada noche?
+ Anche tu preferisci il baseball? - ¿También tú prefieres el béisbol?
+ Anche tu preferisci il golf? - ¿También tú prefieres el golf?
+ Anche voi ascoltate musica tutti i giorni? - ¿También vosotros escucháis música todos los días?
+ Ascolto musica con il mio gatto. - Escucho música con mi gato.
+ Ascolto musica tutti i giorni. - Escucho música todos los días.
+ Certo, è molto importante. - Claro, es muy importante.
+ Certo, io amo il baseball! - Claro, ¡yo amo el béisbol!
+ Certo, noi preferiamo il calcio! - ¡Claro, nosotros preferimos el fútbol!
+ Chiara odia il football americano, vero? - ¿Chiara odia el fútbol americano, verdad?
+ Disegno ogni sera. - Dibujo cada noche.
+ È divertente e importante. - Es divertido e importante.
+ È il mio hobby preferito. - Es mi pasatiempo preferido.
+ È importante. - Es importante.
+ È noioso ma è molto importante. - Es aburrido pero es muy importante.
+ E tu sei sportivo? - ¿Y tú eres deportista?
+ È un gioco importante. - Es un juego importante.
+ È un gioco molto divertente. - Es un juego muy divertido.
+ È un gioco noioso, vero Alessandro? - Es un juego aburrido, ¿verdad, Alessandro?
+ È un gioco noioso. - Es un juego aburrido.
+ È un hobby noioso. - Es un pasatiempo aburrido.
+ Elisabetta ama il golf, vero? - Elisabetta ama el golf, ¿cierto?
+ Emanuela, ascolti musica? - Emanuela, ¿escuchas música?
+ Fantastico, è il mio hobby preferito! - ¡Fantástico, es mi pasatiempo preferido!
+ Giulia e Adriano non amano la pallavolo. - Giulia y Adriano no aman el voleibol.
+ Guardate spesso la televisione? - ¿Ven a menudo la televisión?
+ Guardiamo la televisione insieme ogni sera. - Vemos la televisión juntos cada noche.
+ Guardo la televisione ogni sera. - Miro la televisión cada noche.
+ Guardo la televisione tutti i giorni con Ugo. - Miro la televisión todos los días con Ugo.
+ Guardo la televisione tutti i giorni. - Miro la televisión todos los días.
+ Ho un hobby preferito. - Tengo un pasatiempo preferido.
+ il baseball - el béisbol
+ Il baseball è noioso, vero? - El béisbol es aburrido, ¿verdad?
+ Il baseball non è divertente. - El béisbol no es divertido.
+ Il calcio è divertente. - El fútbol es divertido.
+ Il calcio è il mio hobby preferito. - El fútbol es mi pasatiempo preferido.
+ Il calcio è un hobby interessante. - El fútbol es un pasatiempo interesante.
+ il football americano - el fútbol americano
+ Il football americano è molto divertente. - El fútbol americano es muy divertido.
+ Il football americano è troppo noioso. - El fútbol americano es demasiado aburrido.
+ Il football americano è un hobby? - ¿El fútbol americano es un pasatiempo?
+ Il golf è un hobby noioso. - El golf es un pasatiempo aburrido.
+ il mio hobby - mi pasatiempo
+ Il mio hobby è il baseball. - Mi pasatiempo es el béisbol.
+ Il mio hobby è il tennis. - Mi pasatiempo es el tenis.
+ il mio hobby preferito - mi pasatiempo preferido
+ Il tennis è il mio hobby preferito. - El tenis es mi pasatiempo preferido.
+ Il tennis è un hobby divertente, vero? - El tenis es un pasatiempo divertido, ¿verdad?
+ Il tennis è un hobby. - El tenis es un pasatiempo.
+ Io amo il football americano. - Yo amo el fútbol americano.
+ Io non amo il baseball. - No me gusta el béisbol.
+ Io non amo il football americano. - No amo el fútbol americano.
+ Io preferisco il baseball, e tu? - Yo prefiero el béisbol, ¿y tú?
+ Io preferisco il calcio. - Yo prefiero el fútbol.
+ Io preferisco il tennis. - Yo prefiero el tenis.
+ la pallavolo - el voleibol
+ La pallavolo non è un hobby noioso. - El voleibol no es un pasatiempo aburrido.
+ Loro non amano camminare qui. - No les gusta caminar aquí.
+ Lui odia sciare. - Él odia esquiar.
+ Matteo, preferisci il baseball o il calcio? - Matteo, ¿prefieres el béisbol o el fútbol?
+ molto divertente - muy divertido
+ No, è un gioco molto noioso. - No, es un juego muy aburrido.
+ No, è un hobby noioso. - No, es un pasatiempo aburrido.
+ No, io preferisco il calcio. - No, yo prefiero el fútbol.
+ No, io preferisco il tennis. - No, yo prefiero el tenis.
+ No, noi odiamo il golf e il tennis. - No, nosotros odiamos el golf y el tenis.
+ No, noi preferiamo il golf. - No, nosotros preferimos el golf.
+ No, non camminiamo spesso. - No, no caminamos a menudo.
+ No, non è il mio hobby preferito. - No, no es mi pasatiempo preferido.
+ No, non sono molto sportiva. - No, no soy muy deportista.
+ Noi amiamo il baseball, e tu? - Nosotros amamos el béisbol, ¿y tú?
+ Noi non amiamo il football americano, e tu? - No nos encanta el fútbol americano, ¿y a ti?
+ Noi preferiamo il football americano. - Nosotros preferimos el fútbol americano.
+ Non ami guardare la televisione? - ¿No te gusta ver la televisión?
+ Non ami la pallavolo, vero? - ¿No te gusta el voleibol, verdad?
+ Non amiamo il baseball e preferiamo il calcio. - No nos gusta el béisbol y preferimos el fútbol.
+ Non amo giocare a pallavolo. - No me gusta jugar al voleibol.
+ Non cammino spesso. - No camino a menudo.
+ Non è divertente, ma è importante. - No es divertido, pero es importante.
+ Odiamo il football americano. - Odiamos el fútbol americano.
+ Odiate il baseball? - ¿Odiáis el béisbol?
+ Odio il calcio. - Odio el fútbol.
+ Odio il golf. - Odio el golf.
+ ogni sera - cada noche
+ Preferiamo ascoltare musica. - Preferimos escuchar música.
+ Preferiamo guardare la televisione insieme. - Preferimos ver la televisión juntos.
+ Preferiamo il golf. - Preferimos el golf.
+ Preferiamo sciare. - Preferimos esquiar.
+ Preferisci camminare o sciare? - ¿Prefieres caminar o esquiar?
+ Preferisci fare yoga? - ¿Prefieres hacer yoga?
+ Preferisci giocare a pallavolo o a calcio? - ¿Prefieres jugar al voleibol o al fútbol?
+ Preferisci nuotare o camminare? - ¿Prefieres nadar o caminar?
+ Preferisci sciare o fare yoga? - ¿Prefieres esquiar o hacer yoga?
+ Preferisco ascoltare musica. - Prefiero escuchar música.
+ Preferisco camminare. - Prefiero caminar.
+ Preferisco fare yoga con Emanuela e Chiara. - Prefiero hacer yoga con Emanuela y Chiara.
+ Preferisco fare yoga. - Prefiero hacer yoga.
+ Preferisco giocare a pallavolo. - Prefiero jugar al voleibol.
+ Preferisco guardare la televisione. - Prefiero ver la televisión.
+ Preferisco il golf e il tennis. - Prefiero el golf y el tenis.
+ Preferisco il golf. - Prefiero el golf.
+ Sei molto sportiva! - ¡Eres muy deportista!
+ Sì, amiamo il golf. - Sí, nos encanta el golf.
+ Sì, è il mio hobby preferito. - Sí, es mi pasatiempo preferido.
+ Sì, è molto importante. - Sí, es muy importante.
+ Sì, è un gioco interessante. - Sí, es un juego interesante.
+ Sì, è un gioco noioso. - Sí, es un juego aburrido.
+ Sì, il baseball è molto noioso! - Sí, el béisbol es muy aburrido.
+ Sì, il mio hobby preferito è la pallavolo. - Sí, mi pasatiempo preferido es el voleibol.
+ Siete sportive, vero? - ¿Son deportistas, verdad?
+ Siete sportivi? - ¿Son deportistas?
+ Tu preferisci il calcio o il tennis? - ¿Tú prefieres el fútbol o el tenis?
+ Tu preferisci il calcio? - ¿Tú prefieres el fútbol?
+ Tu preferisci il football americano? - ¿Tú prefieres el fútbol americano?
+ Tu preferisci il tennis, vero? - ¿Tú prefieres el tenis, verdad?
+ Voi camminate spesso? - ¿Vosotros camináis a menudo?
+20 Describir lugares en la ciudad
+ Alessandro visita Catania ogni anno con Teo. - Alessandro visita Catania cada año con Teo.
+ Ami il cibo francese? - ¿Te encanta la comida francesa?
+ Anche Adriano è di Catania! - ¡Adriano también es de Catania!
+ Anche il mio vicino è di Palermo. - También mi vecino es de Palermo.
+ Anche io ho un amico inglese! - ¡Yo también tengo un amigo inglés!
+ C'è un aeroporto importante. - Hay un aeropuerto importante.
+ C'è un aeroporto? - ¿Hay un aeropuerto?
+ C'è un centro commerciale molto grande qui. - Hay un centro comercial muy grande aquí.
+ C'è un monumento famoso qui. - Hay un monumento famoso aquí.
+ C'è un museo famoso qui! - ¡Hay un museo famoso aquí!
+ C'è un museo molto famoso qui. - Hay un museo muy famoso aquí.
+ C'è un panificio francese? - ¿Hay una panadería francesa?
+ C'è un ristorante francese lì. - Hay un restaurante francés allí.
+ C'è un ristorante francese? - ¿Hay un restaurante francés?
+ C'è un teatro famoso qui. - Hay un teatro famoso aquí.
+ C'è un'entrata lì. - Hay una entrada allí.
+ C'è un'isola famosa qui. - Hay una isla famosa aquí.
+ C'è un'università qui. - Hay una universidad aquí.
+ C'è una biblioteca famosa, vero? - Hay una biblioteca famosa, ¿verdad?
+ C'è una moschea antica lì. - Hay una mezquita antigua allí.
+ C'è una statua molto bella. - Hay una estatua muy hermosa.
+ C'è uno stadio lì. - Hay un estadio allí.
+ C'è uno stadio molto importante qui? - ¿Hay un estadio muy importante aquí?
+ C'è uno stadio qui? - ¿Hay un estadio aquí?
+ C'è uno zoo a Catania? - ¿Hay un zoológico en Catania?
+ C'è uno zoo molto grande a Roma. - Hay un zoológico muy grande en Roma.
+ Chiara e Matteo non sono inglesi. - Chiara y Matteo no son ingleses.
+ Chiara, dov'è l'aeroporto? - Chiara, ¿dónde está el aeropuerto?
+ Ci sono due statue importanti qui. - Hay dos estatuas importantes aquí.
+ Compriamo un cappello e uno zaino per Isa. - Compramos un sombrero y una mochila para Isa.
+ Compro sempre i vestiti qui. - Siempre compro la ropa aquí.
+ Compro un cappello. - Compro un sombrero.
+ Dov'è l'ambasciata spagnola? - ¿Dónde está la embajada española?
+ Dov'è la statua famosa? - ¿Dónde está la estatua famosa?
+ È la mia isola preferita. - Es mi isla preferida.
+ È un monumento molto bello! - ¡Es un monumento muy hermoso!
+ È un monumento, vero? - Es un monumento, ¿verdad?
+ È un palazzo antico. - Es un edificio antiguo.
+ È un parco grande e famoso! - ¡Es un parque grande y famoso!
+ È un souvenir carino. - Es un recuerdo bonito.
+ È un souvenir troppo caro. - Es un souvenir demasiado caro.
+ È un teatro antico e famoso. - Es un teatro antiguo y famoso.
+ È un'ambasciata ora. - Es una embajada ahora.
+ È un'ambasciata? - ¿Es una embajada?
+ È un'isola interessante, vero? - Es una isla interesante, ¿verdad?
+ È un'isola italiana molto bella. - Es una isla italiana muy hermosa.
+ È un'isola molto bella! - ¡Es una isla muy hermosa!
+ È un'isola molto interessante! - ¡Es una isla muy interesante!
+ È un'uscita? - ¿Es una salida?
+ È una chiesa antica. - Es una iglesia antigua.
+ È una città famosa. - Es una ciudad famosa.
+ È una sinagoga famosa. - Es una sinagoga famosa.
+ È una statua famosa. - Es una estatua famosa.
+ Elisabetta visita Catania spesso. - Elisabetta visita Catania a menudo.
+ Guarda, l'ambasciata americana è lì. - Mira, la embajada americana está allí.
+ Guarda, la statua è lì! - ¡Mira, la estatua está allí!
+ Hai bisogno di un souvenir per Isa? - ¿Necesitas un recuerdo para Isa?
+ Ho un amico inglese. - Tengo un amigo inglés.
+ Il cappello grigio è carino. - El sombrero gris es bonito.
+ Il mio amico Alessandro è inglese. - Mi amigo Alessandro es inglés.
+ Il mio amico è un professore inglese. - Mi amigo es un profesor inglés.
+ Il museo è molto antico, vero? - ¿El museo es muy antiguo, verdad?
+ Io amo i monumenti, e tu? - Me encantan los monumentos, ¿y tú?
+ Io sono di Catania. - Soy de Catania.
+ L'aeroporto è grande. - El aeropuerto es grande.
+ L'aeroporto è lontano? - ¿El aeropuerto está lejos?
+ L'aeroporto è piccolo. - El aeropuerto es pequeño.
+ l'ambasciata - la embajada
+ L'ambasciata americana è lontana. - La embajada americana está lejos.
+ La gonna grigia è carina! - ¡La falda gris es bonita!
+ La sinagoga non è antica. - La sinagoga no es antigua.
+ Lei è inglese? - ¿Es usted inglés?
+ Lo stadio è molto grande. - El estadio es muy grande.
+ Lo zoo è molto lontano. - El zoológico está muy lejos.
+ Lui visita Catania ogni anno. - Él visita Catania cada año.
+ No, è un'entrata! - ¡No, es una entrada!
+ No, i monumenti sono noiosi. - No, los monumentos son aburridos.
+ No, io odio lo zoo! - ¡No, yo odio el zoológico!
+ No, preferisco il cappotto grigio. - No, prefiero el abrigo gris.
+ Non ci sono statue interessanti qui. - No hay estatuas interesantes aquí.
+ Palermo è grande! - ¡Palermo es grande!
+ Palermo è una città carina. - Palermo es una ciudad bonita.
+ Palermo è una città molto bella. - Palermo es una ciudad muy hermosa.
+ Preferiamo Palermo. - Preferimos Palermo.
+ Preferisci comprare uno zaino? - ¿Prefieres comprar una mochila?
+ Preferisci la giacca grigia? - ¿Prefieres la chaqueta gris?
+ Preferisci Palermo o Catania? - ¿Prefieres Palermo o Catania?
+ Preferisci visitare la sinagoga adesso? - ¿Prefieres visitar la sinagoga ahora?
+ Preferisci visitare un ospedale importante? - ¿Prefieres visitar un hospital importante?
+ Preferisci visitare un'università? - ¿Prefieres visitar una universidad?
+ Preferisci visitare una sinagoga? - ¿Prefieres visitar una sinagoga?
+ Preferisco visitare lo zoo. - Prefiero visitar el zoológico.
+ Preferisco visitare una sinagoga! - ¡Prefiero visitar una sinagoga!
+ Ragazze, preferite Milano? - Chicas, ¿preferís Milán?
+ Ragazzi, preferite visitare un museo ora? - Chicos, ¿preferís visitar un museo ahora?
+ Ragazzi, preferite visitare un'università? - Chicos, ¿preferís visitar una universidad?
+ Sì, amiamo visitare le isole. - Sí, amamos visitar las islas.
+ Sì, amo il cibo francese! - ¡Sí, amo la comida francesa!
+ Sì, ho un appartamento a Catania. - Sí, tengo un departamento en Catania.
+ Sì, vorrei un souvenir brutto. - Sí, querría un souvenir feo.
+ Sono uno studente americano e amo Catania. - Soy un estudiante americano y amo Catania.
+ Spesso compriamo le scarpe lì. - A menudo compramos zapatos allí.
+ Tu sei di Catania? - ¿Eres de Catania?
+ un monumento importante - un monumento importante
+ un ristorante francese - un restaurante francés
+ un souvenir economico - un souvenir económico
+ una piazza antica - una plaza antigua
+ una sinagoga - una sinagoga
+ uno stadio - un estadio
+ uno zaino grigio - una mochila gris
+ Visitate lo zoo di solito? - ¿Normalmente visitan el zoológico?
+ Voi preferite camminare lì? - ¿Prefieren caminar allí?
+ Voi preferite il cibo francese? - ¿Vosotros preferís la comida francesa?
+ Vorrei uno zaino grigio. - Querría una mochila gris.
+ Wow, è uno stadio molto bello! - ¡Guau, es un estadio muy hermoso!
+21 Comprar ropa y accesorios
+ null
+22 Expresar descontento en tiendas
+ null
+23 Describir tu vecindario
+ null
+24 Discutir ideas de regalos de cumple
+ null
+25 Describir tareas del trabajo
+ null
+26 Hablar sobre familiares
+ null
+27 Hacer preguntas en citas
+ null
+28 Preguntar por opciones de transporte
+ null
+29 Hablar de comprar ingredientes
+ null
+30 Describir rasgos de la familia
+ null
+31 Comparar objetos en italiano
+ null
+32 Usar transporte público en Milán
+ null
+33 Compartir experiencias de viaje
+ null
+34 Describir un ruido extraño
+ null
+35 Describir un viaje de negocios
+ null
+36 Hacer planes con alguien
+ null
+37 Hablar sobre herencia familiar en Italia
+ null
+38 Describir un viaje por Suiza
+ null
+39 Hablar de materias favoritas
+ null
+40 Hablar sobre tareas del hogar
+ null
+41 Describir tu vecindario
+ null
+42 Comprar comida para una fiesta
+ null
+43 Comprar en un centro comercial
+ null
+44 Invitar amigos a hacer ejercicio
+ null
+45 Organizar un evento social
+ null
+46 Pedir permiso a los padres
+ null
+47 Hablar de productos de higiene y belleza
+ null
+48 Dar excusas en italiano
+ null
+49 Hablar de colecciones personales
+ null
+50 Describir a tus "suoceri"
+ null
+51 Ofrecer ayuda en emergencias
+ null
+52 Describir tu espacio de vida
+ null
+53 Prepararse para entrevista de trabajo
+ null
+54 Colaborar en proyectos laborales
+ null
+55 Hablar de materias escolares
+ null
+56 Pedir ayuda con mandados
+ null
+57 Compartir receta sencilla
+ null
+58 Dar consejos a visitantes
+ null
+59 Enviar correo en la oficina postal
+ null
+60 Hablar de salud con "il dottore"
+ null
+61 Hablar de planes tras graduarse
+ null
+62 Describir un viaje a varias ciudades
+ null
+63 Hablar de planes del evento
+ null
+64 Hablar de planes de playa
+ null
+65 Comprar recuerdos
+ null
+66 Hablar de edades en reunión
+ null
+67 Describir a un familiar
+ null
+68 Describir sentirse mal
+ null
+69 Hablar de un cuarto desordenado
+ null
+70 Comparar banda con amigos
+ null
+71 Rechazar invitaciones amablemente
+ null
+72 Hablar de pasatiempos favoritos
+ null
+73 Reservar habitación en hostal
+ null
+74 Planear fiesta de 18 cumpleaños
+ null
+75 Hablar de un evento laboral
+ null
+76 Negociar compra de casa
+ null
+77 Abrir una cuenta bancaria
+ null
+78 Entrevistar a una celebridad
+ null
+79 Dar instrucciones de niñera
+ null
+80 Planear una fiesta sorpresa
+ null
+81 Limpiar la casa
+ null
+82 Solicitar una beca
+ null
+83 Hablar de una elección próxima
+ null
+84 Buscar oportunidades de voluntariado
+ null
+85 Hablar de metas personales
+ null
+86 Planear viaje a concierto
+ null
+87 Describir rutinas matutinas
+ null
+88 Quejarse de compañeros desordenados
+ null
+89 Hablar de preferencias alimenticias
+ null
+90 Ayudar a un visitante
+ null
+91 Describir unas vacaciones pasadas
+ null
+92 Presumir de logros
+ null
+93 Recaudar fondos para caridad
+ null
+94 Contar historias de fantasmas
+ null
+95 Pedir gelato en la gelatería
+ null
+96 Describir paisajes de Toscana
+ null
+97 Informar de un delito
+ null
+98 Hablar de un documento en línea
+ null
+99 Fomentar compartir con amigos
+ null
+100 Empacar para un viaje
+ null
+101 Hacer propósitos de Año Nuevo
+ null
+102 Describir síntomas de dolor
+ null
+103 Planear un baby shower
+ null
+104 Hablar de actividades festivas pasadas
+ null
+105 Describir tu trayectoria laboral
+ null
+106 Describir tu mudanza
+ null
+107 Describir regalos de "un ammiratore"
+ null
+108 Presentar vecinos del "palazzo"
+ null
+109 Hablar de opiniones sobre pizza
+ null
+110 Hablar de medicinas con doctor
+ null
+111 Hablar de higiene al acampar
+ null
+112 Pedir ayuda de soporte técnico
+ null
+113 Sacar efectivo en "bancomat"
+ null
+114 Hablar de actividades infantiles
+ null
+115 Hablar de experiencias pasadas afuera
+ null
+116 Hablar de vacaciones pasadas y actuales
+ null
+117 Hablar de comprar regalos
+ null
+118 Hablar de reliquias familiares
+ null
+119 Hablar de intereses artísticos
+ null
+120 Dar recomendaciones de medios
+ null
+121 Hablar de regalos para ocasiones
+ null
+122 Describir rasgos pasados y actuales
+ null
+123 Hablar de experiencias fitness pasadas
+ null
+124 Hablar de eventos históricos italianos
+ null
+125 Hablar de plazos con colegas
+ null
+126 Comentar objetos raros
+ null
+127 Hablar de visitas familiares
+ null
+128 Agendar cita médica
+ null
+129 Hablar sobre desempeño laboral
+ null
+130 Navegar una expo internacional
+ null
+131 Plaza: Comenta la actividad en la ciudad
+ null
+132 Oportunidad: Cuenta qué te gusta hacer
+ null
+133 Artistas: Describe a los artistas
+ null
+134 Geografía: Habla de exploradores famosos
+ null
+135 Opiniones: Expresa tus esperanzas
+ null
+136 Tecnología: Comenta el uso de tecnología
+ null
+137 Escuela: Comparte hábitos de estudio
+ null
+138 Estaciones: Describe el parque en otoño
+ null
+139 Juventud: Comparte metas para el futuro
+ null
+140 Ánimo: Cambia el fondo fácilmente
+ null
+141 Confianza: Habla sobre la confianza
+ null
+142 Biblioteca: Busca libros en la biblioteca
+ null
+143 Deporte: Organiza tu equipo para el torneo
+ null
+144 Oficina: Describe la situación en la oficina
+ null
+145 Zona: Describe un evento en tu zona
+ null
+146 Cambio: Explica un gran cambio
+ null
+147 Hábitos: Comenta tus hábitos en clase
+ null
+148 Cine: Habla sobre tus películas favoritas
+ null
+149 Confianza: Comparte tus logros con otros
+ null
+150 Viajes: Pregunta por tradiciones locales
+ null
+151 Trabajo: Describe tu experiencia laboral
+ null
+152 Fiesta: Comenta momentos graciosos
+ null
+153 Opinión: Elige tu objeto favorito
+ null
+154 Secretos: Cuenta un secreto
+ null
+155 Estudios: Habla de tus estudios
+ null
+156 Música: Habla de tus canciones favoritas
+ null
+157 Hogar: Explica si tienes permiso
+ null
+158 Rutina: Habla de tu rutina diaria
+ null
+159 Emergencia: Explica qué ocurrió
+ null
+160 Progreso: Habla de tus logros
+ null
+161 Sueños: Comparte tus sueños
+ null
+162 Dieta: Habla de tu dieta
+ null
+163 Detalles: Describe objetos pequeños
+ null
+164 Excursión: Organiza una excursión
+ null
+165 Expresión: Comparte tus emociones
+ null
+166 Dirección: Pregunta cómo llegar al destino
+ null
+167 Salud: Explica términos médicos
+ null
+168 Gastos: Pregunta por precios en la ciudad
+ null
+169 Estudio: Comparte tus hábitos de estudio
+ null
+170 La casa: Describe tu casa
+ null
+171 Metro: Habla sobre viajar en metro
+ null
+172 Mercado: Pide consejo al vendedor
+ null
+173 Restaurante: Pide comida y bebida
+ null
+174 Sociedad: Ayuda a personas necesitadas
+ null
+175 Reglas: Comenta cambios en las reglas
+ null
+176 Carnaval: Habla de danzas tradicionales
+ null
+177 Juegos: Habla sobre juegos en grupo
+ null
+178 Evento: Organiza tareas para el evento
+ null
+179 Transporte: Evita tirar basura
+ null
+180 Negocio: Explica reglas de la oficina
+ null
+181 Casa: Describe tu rincón favorito
+ null
+182 Fe: Habla sobre la fe
+ null
+183 Saludos: Elige un saludo adecuado
+ null
+184 Productos: Describe un producto recibido
+ null
+185 Ambiente: Comparte tu rincón favorito
+ null
+186 Objetos: Describe tus objetos favoritos
+ null
+187 Laboratorio: Explica cómo pedir ayuda
+ null
+188 Bienestar: Comparte consejos de bienestar
+ null
+189 Familia: Habla sobre tu familia
+ null
+190 Acceso: Avisa sobre obstáculos
+ null
+191 Fiesta: Expresa opiniones en la fiesta
+ null
+192 Bienestar: Describe el centro de bienestar
+ null
+193 Cocina: Explica cómo cocinar verduras
+ null
+194 Regalos: Elige un regalo especial
+ null
+195 Corte: Busca una peluquería
+ null
+196 Tráfico: Pide indicaciones
+ null
+197 Medio ambiente: Habla del viento y el clima
+ null
+198 Moda: Pregunta por prendas en la tienda
+ null
+199 Sabores: Pregunta por la especialidad
+ null
+200 Gimnasio: Pregunta qué ejercicio prefieren
+ null
+201 Fiesta: Describe una fiesta
+ null
+202 Evento: Describe un evento histórico
+ null
+203 Presencia: Menciona a un artista
+ null
+204 Grupo: Comparte tareas con el grupo
+ null
+205 Seguridad: Comenta errores comunes
+ null
+206 Naturaleza: Describe el parque local
+ null
+207 Residuos: Pregunta dónde tirar residuos
+ null
+208 Acuerdo: Negocia un acuerdo en grupo
+ null
+209 Pareja: Expresa tus sentimientos
+ null
+210 Vecindad: Invita a tus vecinos a participar
+ null
+211 Documentos: Organiza tus archivos
+ null
+212 Ideas: Comparte ideas para estudiar
+ null
+213 Reunión: Organiza lo que llevará cada uno
+ null
+214 Auxilios: Explica cómo ayudar a otros
+ null
+215 Mascotas: Habla del peso de tu mascota
+ null
+216 Ciudad: Habla sobre cafés del centro
+ null
+217 Huerto: Describe el clima en tu huerto
+ null
+218 Concierto: Pide ayuda para orientarte
+ null
+219 Granja: Comparte tu vida en la granja
+ null
+220 Emergencia: Explica medidas de seguridad
+ null
+221 Diversidad: Habla sobre la diversidad
+ null
+222 Museo: Pregunta sobre el museo
+ null
+223 Decisión: Defiende tu elección
+ null
+224 Ayudante: Ayuda a elegir un curso
+ null
+225 Historias: Cuenta una experiencia
+ null
+226 Recursos: Habla de recursos naturales
+ null
+227 Visita: Describe el paisaje
+ null
+228 Solución: Propón una idea
+ null
+229 Cambio: Habla sobre el cambio en la vida
+ null
+230 Arte: Describe una obra de arte
+ null
+231 Actualidad: Menciona logros en la oficina
+ null
+232 Tecnología: Habla de inteligencia artificial
+ null
+233 Disciplina: Comparte tu motivación
+ null
+234 Videojuego: Describe tu consola favorita
+ null
+235 Estudios: Habla de tus tareas
+ null
+236 Invitación: Responde a una invitación
+ null
+237 Votación: Habla sobre los candidatos
+ null
+238 Rutina: Organiza tu rutina diaria
+ null
+239 Ropa: Compara diferentes prendas
+ null
+240 Conflictos: Resuelve un conflicto
+ null
+241 Ansiedad: Describe tus miedos
+ null
+242 Política: Describe figuras políticas
+ null
+243 Divorcio: Explica una decisión del juez
+ null
+244 Decisión: Cuenta una decisión difícil
+ null
+245 Cortesía: Pide disculpas por un error
+ null
+246 Viaje: Habla de tus viajes pasados
+ null
+247 Montaña: Habla de paisajes de montaña
+ null
+248 Banco: Pide ayuda al cajero
+ null
+249 Trabajo: Di qué te motiva
+ null
+250 Accidentes: Cuenta un accidente
+ null
+251 Publicidad: Compara dos anuncios
+ null
+252 Normas: Aclara una situación confusa
+ null
+253 Clases: Organiza tus materiales de clase
+ null
+254 Debate: Opina sobre el debate
+ null
+255 Chismes: Reacciona a rumores
+ null
+256 Estadio: Describe el ambiente del estadio
+ null
+257 Migración: Describe los retos de mudarse
+ null
+258 Prensa: Resume una noticia
+ null
+259 Guion: Describe una actuación musical
+ null
+260 Contenido: Comparte una reseña online
+ null
+261 Ejercicio: Sugiere ejercicios aeróbicos
+ null
+262 Lecturas: Expresa qué te gustó del texto
+ null
+263 Acuerdo: Comparte cómo te sientes
+ null
+264 Sentimientos: Expresa un deseo
+ null
+265 Campamento: Evita las picaduras
+ null
+266 Perfil: Describe tus expectativas
+ null
+267 Internet: Activa el wifi en casa
+ null
+268 Paquete: Envía un paquete
+ null
+269 Escuela: Explica tu papel en la asamblea
+ null
+270 Finanzas: Describe cómo gestionar gastos
+ null
+271 Amistad: Pide apoyo a un amigo
+ null
+272 Misterio: Informa sobre un robo
+ null
+273 Negocios: Describe tu estrategia de negocio
+ null
+274 Juegos: Elige tu juego temático
+ null
+275 Deporte: Explica cómo evitar lesiones
+ null
+276 Bebé: Pregunta si el bebé ya comió
+ null
+277 Medioambiente: Habla de la sequía
+ null
+278 Apoyo: Habla sobre actos de respeto
+ null
+279 Economía: Compara hábitos de consumo
+ null
+280 Obstáculos: Explica una dificultad
+ null
+281 Seguridad: Habla con el mediador
+ null
+282 Hospital: Pregunta por un especialista
+ null
+283 Líderes: Describe a un líder inspirador
+ null
+284 Buffet: Describe el mejor buffet
+ null
+285 Historia: Imagina un final distinto
+ null
+286 Acceso: Identifica barreras comunes
+ null
+287 Auto: Describe un problema del auto
+ null
+288 Naturaleza: Describe animales y plantas
+ null
+289 Granja: Describe la vida en la granja
+ null
+290 Paseo: Describe el paseo junto al mar
+ null
+291 Arte: Describe un cuadro
+ null
+292 Espacio: Describe lo que ves en el cielo
+ null
+293 Salud: Comparte instrucciones médicas
+ null
+294 Residuos: Explica cómo reducir residuos
+ null
+295 Negocio: Habla de envíos globales
+ null
+296 Cocina: Habla de recetas favoritas
+ null
+297 Entrega: Presenta la mejor solución
+ null
+298 Barrio: Describe lugares del barrio
+ null
+299 Solidaridad: Habla de apoyar una protesta
+ null
+300 Sabores: Describe distintas texturas
+ null
+301 Estudio: Da consejos para estudiar
+ null
+302 Concierto: Habla de los músicos
+ null
+303 Receta: Describe ingredientes clave
+ null
+304 Noticias: Cuenta una noticia importante
+ null
+305 Dispositivo: Explica cómo usar la interfaz
+ null
+306 Tecnología: Describe un experimento
+ null
+307 Crisis: Comparte una experiencia difícil
+ null
+308 Pareja: Comparte una experiencia
+ null
+309 Ciencia: Presenta un experimento
+ null
+310 Paisaje: Describe un paisaje
+ null

@@ -72,21 +72,21 @@
   function categoriesFromEntry(entry) {
     if (typeof getEntryCategories === "function") return getEntryCategories(entry);
     const is = typeof getSymbolsForEntry === "function" ? getSymbolsForEntry(entry) : [];
-    return { is: is.slice(), unrelated: [] };
+    return { is: is.slice() };
   }
 
+  /** Older files may still have Isn't (folded into Is with Zero) or Unrelated (ignored) lines. */
   function categoriesFromTxtRecord(rec) {
     const is = parseSymbolRefs(rec && rec.Is);
-    const unrelated = parseSymbolRefs(rec && rec.Unrelated);
     const legacyNot = parseSymbolRefs(rec && (rec["Isn't"] || rec.Isnt));
-    const taken = new Set(is.concat(unrelated).map((ref) => String(ref.id)));
+    const taken = new Set(is.map(symbolKey));
     legacyNot.forEach((ref) => {
       ref.negated = true;
-      if (taken.has(String(ref.id))) return;
-      taken.add(String(ref.id));
+      if (taken.has(symbolKey(ref))) return;
+      taken.add(symbolKey(ref));
       is.push(ref);
     });
-    return { is, unrelated };
+    return { is };
   }
 
   function findLocalOverrideForWorldLine(entries, line) {
@@ -138,7 +138,7 @@
       const local = findLocalOverrideForWorldLine(entries, line);
       const english = (local && local.translations && local.translations.en) || parts[0] || "";
       const foreignWord = (local && local.translations && local.translations[foreign]) || parts[1] || "";
-      const cats = local ? categoriesFromEntry(local) : { is: [], unrelated: [] };
+      const cats = local ? categoriesFromEntry(local) : { is: [] };
       const homographs = (local && local.homographs) || null;
       const pos = local
         ? [].concat(local.partOfSpeech || []).join(" & ")
@@ -190,7 +190,7 @@
     if (typeof buildCrossPairEntries !== "function") return [];
     const crossEntries = buildCrossPairEntries(pairId);
     return crossEntries.map((cross) => {
-      const cats = { is: [], unrelated: [] };
+      const cats = { is: [] };
       let languageWord = cross.word || "";
       let languageLang = cross.wordLang || "";
       let pairWord = cross.translation || "";
@@ -314,12 +314,11 @@
   }
 
   function wordRecordFields(rec) {
-    const cats = rec.categories || { is: [], unrelated: [] };
+    const cats = rec.categories || { is: [] };
     return [
       ["ID#", rec.wordId || ""],
       ["Pair", rec.pairId || ""],
       ["Is", serializeSymbolRefs(cats.is)],
-      ["Unrelated", serializeSymbolRefs(cats.unrelated)],
       ["LanguageWord", starMark(rec.languageWord, rec.languageLang, rec.homographs)],
       ["LanguageWordLang", rec.languageLang || ""],
       ["PairWord", starMark(rec.pairWord, rec.pairLang, rec.homographs)],
@@ -431,7 +430,7 @@
     if (parts.length < 8) return null;
     const english = (local && local.translations && local.translations.en) || parts[0] || "";
     const foreignWord = (local && local.translations && local.translations[foreign]) || parts[1] || "";
-    const cats = local ? categoriesFromEntry(local) : { is: [], unrelated: [] };
+    const cats = local ? categoriesFromEntry(local) : { is: [] };
     return {
       pairId,
       wordId: (typeof isPlausibleWordId === "function" && local && isPlausibleWordId(local.wordId)
@@ -476,7 +475,7 @@
       wordId: assignId ? assignId(entry) : (typeof getCrossEntryWordId === "function"
         ? getCrossEntryWordId(entry)
         : (typeof peekCrossWordId === "function" ? peekCrossWordId(entry) : 0)),
-      categories: { is: [], unrelated: [] },
+      categories: { is: [] },
       languageWord,
       languageLang,
       pairWord,
@@ -676,7 +675,8 @@
     reportProgress();
   }
 
-  async function measureTxtExport(selectedLangs, includeDictionary, includeSentences, yieldFn, oneLine, onProgress) {
+  async function measureTxtExport(selectedLangs, includeDictionary, includeSentences, yieldFn, oneLine, onProgress, maxBytes) {
+    const limit = maxBytes > 0 ? maxBytes : TXT_CHUNK_MAX_BYTES;
     const header = buildTxtExportHeader(selectedLangs, includeDictionary, includeSentences, oneLine) + "\n";
     const headerBytes = utf8ByteLength(header);
     let totalBytes = headerBytes;
@@ -686,7 +686,7 @@
     await forEachTxtExportBlock(selectedLangs, includeDictionary, includeSentences, (sec, blockText) => {
       let marker = section === sec ? "" : "\n## " + sec + "\n\n";
       let extra = utf8ByteLength(marker) + utf8ByteLength(blockText);
-      if (chunkBytes > headerBytes && chunkBytes + extra > TXT_CHUNK_MAX_BYTES) {
+      if (chunkBytes > headerBytes && chunkBytes + extra > limit) {
         chunks += 1;
         chunkBytes = headerBytes;
         section = "";
@@ -704,7 +704,8 @@
     const selectedLangs = options.selectedLangs;
     const includeDictionary = options.includeDictionary;
     const includeSentences = options.includeSentences;
-    const split10mb = !!options.split10mb;
+    const split = !!options.split;
+    const limit = options.maxBytes > 0 ? options.maxBytes : TXT_CHUNK_MAX_BYTES;
     const oneLine = !!options.oneLine;
     const onChunk = options.onChunk;
     const yieldFn = options.yieldFn;
@@ -735,7 +736,7 @@
     await forEachTxtExportBlock(selectedLangs, includeDictionary, includeSentences, async (sec, blockText) => {
       const marker = section === sec ? "" : "\n## " + sec + "\n\n";
       const extra = utf8ByteLength(marker) + utf8ByteLength(blockText);
-      if (split10mb && parts.length > 1 && bytes + extra > TXT_CHUNK_MAX_BYTES) {
+      if (split && parts.length > 1 && bytes + extra > limit) {
         await flushChunk();
       }
       if (marker) {
@@ -745,7 +746,7 @@
       }
       parts.push(blockText);
       bytes += utf8ByteLength(blockText);
-      if (!split10mb && parts.length > 300) {
+      if (!split && parts.length > 300) {
         const compacted = new Blob(parts, { type: "text/plain;charset=utf-8" });
         parts = [compacted];
         bytes = compacted.size;
@@ -1020,7 +1021,7 @@
       translations,
       definition: parts[0] || "",
       partOfSpeech: String(parts[5] || "").split(/\s*&\s*/).filter(Boolean),
-      categories: { is: [], unrelated: [] },
+      categories: { is: [] },
       pinyin: parts[2] || "",
       hiragana: parts[3] || "",
       latinLetters: parts[4] || "",
@@ -1102,60 +1103,9 @@
   }
 
   function describeSymbolDiff(localCats, incomingCats) {
-    if (categoriesConflict(localCats, incomingCats)) return null;
-    const added = { is: [], unrelated: [] };
-    let any = false;
-    ["is", "unrelated"].forEach((cat) => {
-      const localIds = symbolIdSet(localCats[cat]);
-      (incomingCats[cat] || []).forEach((ref) => {
-        if (ref && ref.id != null && !localIds.has(String(ref.id))) {
-          added[cat].push(ref);
-          any = true;
-        }
-      });
-    });
-    return any ? added : null;
-  }
-
-  function describeException(localCats, incomingCats) {
-    const localIs = symbolIdSet(localCats.is);
-    const localUn = symbolIdSet(localCats.unrelated);
-    const inIs = symbolIdSet(incomingCats.is);
-    const inUn = symbolIdSet(incomingCats.unrelated);
-    const clashes = [];
-    function namesFor(ids, cats) {
-      const all = [].concat(cats.is || [], cats.unrelated || []);
-      return Array.from(ids).map((id) => {
-        const ref = all.find((r) => r && String(r.id) === String(id));
-        const name = ref && ref.name ? ref.name : ("#" + id);
-        return ref && ref.negated ? ("0 " + name) : name;
-      }).join(", ");
-    }
-    const pushClash = (ids, localCat, importCat) => {
-      if (!ids.size) return;
-      clashes.push(namesFor(ids, localCats) + " (" + localCat + " vs " + importCat + ")");
-    };
-    const intersect = (a, b) => {
-      const out = new Set();
-      a.forEach((id) => { if (b.has(id)) out.add(id); });
-      return out;
-    };
-    pushClash(intersect(localIs, inUn), "Is", "Unrelated");
-    pushClash(intersect(localUn, inIs), "Unrelated", "Is");
-    ["is", "unrelated"].forEach((cat) => {
-      const localMap = new Map();
-      (localCats[cat] || []).forEach((ref) => {
-        if (ref && ref.id != null) localMap.set(String(ref.id), ref);
-      });
-      (incomingCats[cat] || []).forEach((ref) => {
-        if (!ref || ref.id == null) return;
-        const localRef = localMap.get(String(ref.id));
-        if (!localRef || !!localRef.negated === !!ref.negated) return;
-        const name = localRef.name || ref.name || ("#" + ref.id);
-        clashes.push(name + " (" + cat + " vs Zero)");
-      });
-    });
-    return clashes;
+    const localKeys = symbolKeySet(localCats.is);
+    const added = (incomingCats.is || []).filter((ref) => ref && ref.id != null && !localKeys.has(symbolKey(ref)));
+    return added.length ? { is: added } : null;
   }
 
   function previewTxtDictionaryImport(records) {
@@ -1164,32 +1114,19 @@
       : [];
     const symbols = [];
     const wordChanges = [];
-    const exceptions = [];
     const newWords = [];
     (records || []).forEach((rec, recIndex) => {
       const incomingCats = categoriesFromTxtRecord(rec);
       const match = findMatchForRecord(rec, entries);
       if (match.kind === "none") {
         const hasContent = stripStar(rec.LanguageWord || "") || stripStar(rec.PairWord || "")
-          || incomingCats.is.length || incomingCats.unrelated.length;
+          || incomingCats.is.length;
         if (hasContent) newWords.push({ rec, recIndex, wordId: match.wordId || 0 });
         return;
       }
       const entry = match.entry;
       const localCats = categoriesFromEntry(entry);
       const wordDiff = describeWordDiff(rec, entry);
-      const conflict = categoriesConflict(localCats, incomingCats);
-      if (conflict) {
-        exceptions.push({
-          rec,
-          recIndex,
-          match,
-          wordId: match.wordId,
-          clashes: describeException(localCats, incomingCats),
-          wordDiff,
-        });
-        return;
-      }
       if (wordDiff.length) {
         wordChanges.push({
           rec,
@@ -1212,14 +1149,13 @@
         });
       }
     });
-    return { symbols, wordChanges, exceptions, newWords };
+    return { symbols, wordChanges, newWords };
   }
 
   function previewHasChanges(preview) {
     return !!(preview && (
       (preview.symbols && preview.symbols.length)
       || (preview.wordChanges && preview.wordChanges.length)
-      || (preview.exceptions && preview.exceptions.length)
       || (preview.newWords && preview.newWords.length)
     ));
   }
@@ -1253,7 +1189,6 @@
     const localCats = categoriesFromEntry(entry);
     entry.categories = {
       is: mergeSymbolRefs(localCats.is, incomingCats.is),
-      unrelated: mergeSymbolRefs(localCats.unrelated, incomingCats.unrelated),
     };
     if (entry.schemaVersion == null || entry.schemaVersion < 3) entry.schemaVersion = 3;
     entry.stampSymbols = entry.categories.is.slice(0, 4);
@@ -1273,7 +1208,6 @@
       wordId,
       categories: {
         is: (cats.is || []).map((ref) => Object.assign({}, ref)),
-        unrelated: (cats.unrelated || []).map((ref) => Object.assign({}, ref)),
       },
       stampSymbols: (cats.is || []).slice(0, 4),
       symbols: (cats.is || []).slice(0, 4),
@@ -1310,7 +1244,6 @@
     const approved = approvedKeys instanceof Set ? approvedKeys : new Set(approvedKeys || []);
     let merged = 0;
     let updated = 0;
-    let separated = 0;
     let added = 0;
 
     const byWordId = new Map();
@@ -1350,16 +1283,6 @@
       markEntryEdited(entry);
     });
 
-    (preview.exceptions || []).forEach((item, i) => {
-      if (!approved.has("exception:" + i)) return;
-      const fresh = recordToEntry(item.rec, allocateNewWordId(entries));
-      fresh._entryId = makeEntryId();
-      initializeEntryAuthorship(fresh);
-      entries.push(fresh);
-      separated += 1;
-      added += 1;
-    });
-
     (preview.newWords || []).forEach((item, i) => {
       if (!approved.has("new:" + i)) return;
       const incomingId = parseInt(item.rec["ID#"] || item.rec.ID || "0", 10);
@@ -1375,7 +1298,7 @@
     });
 
     localStorage.setItem("dictionaryEntries", JSON.stringify(entries));
-    return { merged, updated, separated, added };
+    return { merged, updated, added };
   }
 
   function importTxtDictionary(records) {
@@ -1383,52 +1306,28 @@
     const keys = new Set();
     (preview.symbols || []).forEach((_, i) => keys.add("symbols:" + i));
     (preview.wordChanges || []).forEach((_, i) => keys.add("word:" + i));
-    (preview.exceptions || []).forEach((_, i) => keys.add("exception:" + i));
     (preview.newWords || []).forEach((_, i) => keys.add("new:" + i));
     return applyTxtDictionaryPreview(preview, keys);
   }
 
-  function symbolIdSet(refs) {
-    const set = new Set();
-    (refs || []).forEach((ref) => {
-      if (ref && ref.id != null) set.add(String(ref.id));
-    });
-    return set;
+  /** A symbol and its Zero version are different symbols here. */
+  function symbolKey(ref) {
+    return (ref && ref.negated ? "0:" : "") + String(ref.id);
   }
 
-  function categoriesConflict(localCats, incomingCats) {
-    const localIs = symbolIdSet(localCats.is);
-    const localUn = symbolIdSet(localCats.unrelated);
-    const inIs = symbolIdSet(incomingCats.is);
-    const inUn = symbolIdSet(incomingCats.unrelated);
-    const conflict = (a, b) => {
-      for (const id of a) {
-        if (b.has(id)) return true;
-      }
-      return false;
-    };
-    if (conflict(localIs, inUn) || conflict(localUn, inIs)) return true;
-    const polarityClash = (localRefs, incomingRefs) => {
-      const local = new Map();
-      (localRefs || []).forEach((ref) => {
-        if (ref && ref.id != null) local.set(String(ref.id), !!ref.negated);
-      });
-      return (incomingRefs || []).some((ref) => {
-        if (!ref || ref.id == null) return false;
-        const id = String(ref.id);
-        return local.has(id) && local.get(id) !== !!ref.negated;
-      });
-    };
-    if (polarityClash(localCats.is, incomingCats.is)) return true;
-    if (polarityClash(localCats.unrelated, incomingCats.unrelated)) return true;
-    return false;
+  function symbolKeySet(refs) {
+    const set = new Set();
+    (refs || []).forEach((ref) => {
+      if (ref && ref.id != null) set.add(symbolKey(ref));
+    });
+    return set;
   }
 
   function mergeSymbolRefs(a, b) {
     const map = new Map();
     [].concat(a || [], b || []).forEach((ref) => {
       if (!ref || ref.id == null) return;
-      const key = String(ref.id);
+      const key = symbolKey(ref);
       if (!map.has(key)) map.set(key, Object.assign({}, ref));
     });
     return Array.from(map.values());

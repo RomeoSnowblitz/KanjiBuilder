@@ -1,0 +1,620 @@
+1 Bestelle im Café
+ null
+2 Bestelle Essen und Getränke
+ null
+3 Verwende Possessivpronomen & -adjektive
+ null
+4 Stell dich und andere vor
+ null
+5 Sprich über das Alter
+ null
+6 Stelle Fragen zum Essen
+ null
+7 Feiere einen Geburtstag
+ null
+8 Sprich über deine Hobbys
+ null
+9 Frage nach dem Weg
+ null
+10 Amüsiere dich bei einem Sportevent
+ null
+11 Finde dich am Flughafen zurecht
+ null
+12 Sprich über deine Heimatstadt
+ null
+13 Sprich übers Wetter
+ null
+14 Suche nach einem neuen Zuhause
+ null
+15 Stelle neue Freunde vor
+ null
+16 Verwende Orts- und Zielangaben
+ null
+17 Beschreibe dein Zuhause
+ null
+18 Feiere Weihnachten
+ null
+19 Verwende das Präsens
+ null
+20 Sieh dir einen Film an
+ null
+21 Besuche die Bibliothek
+ null
+22 Nutze lokale Verkehrsmittel
+ null
+23 Beschreibe Nomen mit Adjektiven
+ null
+24 Sprich über gesundheitliche Probleme
+ null
+25 Finde dich auf dem Campus zurecht
+ null
+26 Kaufe Kleidung und andere Dinge
+ null
+27 Verwende den Imperativ
+ null
+28 Verwende förmliche Aufforderungen
+ null
+29 Mache Pläne für Chuseok
+ null
+30 Verwende das Futur
+ null
+31 Sprich über deine Vorlieben
+ null
+32 Erkläre, warum du etwas nicht kannst
+ null
+33 Verwende die Vergangenheitsform
+ null
+34 Frag nach dem Wohlbefinden anderer Leute
+ null
+35 Unterhalte dich über Spiele
+ null
+36 Verwende Zeitangaben
+ null
+37 Sprich über Prüfungen und wie du lernst
+ null
+38 Unterhalte dich übers Wetter
+ null
+39 Sprich darüber, was du am liebsten magst
+ null
+40 Kaufe im Kiosk ein
+ null
+41 Verwende Ortspräpositionen
+ null
+42 Teile den Alltag mit deinem Partner
+ null
+43 Plane soziale Aktivitäten
+ null
+44 Sprich über Beziehungen
+ null
+45 Bilde negative Sätze
+ null
+46 Sprich über deinen Zeitplan
+ null
+47 Nutze deine Arbeitszeit produktiv
+ null
+48 Unterhalte dich über das Auslandsstudium
+ null
+49 Beschreibe Objekte mit Adjektiven
+ null
+50 Melde ein Problem
+ null
+51 Frage nach dem Weg
+ null
+52 Bitte um Entschuldigung
+ null
+53 Kaufe Kleidung
+ null
+54 Bewältige gesundheitliche Probleme
+ null
+55 Nutze Komparative und Superlative
+ null
+56 Sprich über Erlebnisse auf deinen Reisen
+ null
+57 Suche medizinische Hilfe
+ null
+58 Plane eine Party
+ null
+59 Mache Vorschläge
+ null
+60 Drücke Absichten mit „-래요“ aus
+ null
+61 Sprich über Erfahrungen bei Prüfungen
+ null
+62 Beschreibe Eigenschaften der Familie
+ null
+63 Sprich über deine beruflichen Ziele
+ null
+64 Äußere deine Wünsche und Vorlieben
+ null
+65 Sprich über Fähigkeiten und Meilensteine
+ null
+66 Befolge Reisehinweise
+ null
+67 Arbeite in einem Café
+ null
+68 Besuche einen Zoo
+ null
+69 Koche mit Freunden und Freundinnen
+ null
+70 Kaufe Kleidung
+ null
+71 Sprich über den Alltag der Großeltern
+ null
+72 Führe reibungslose Videoanrufe
+ null
+73 Bewältige ein schwieriges Erlebnis
+ null
+74 Kaufe Kleidung im Schlussverkauf
+ null
+75 Drücke andere Meinungen höflich aus
+ null
+76 Kauf Möbel ein
+ null
+77 Sprich über gesunde Lebensweisen
+ null
+78 Löse Probleme mit der Technik
+ null
+79 Koche mit anderen zusammen koreanisch
+ null
+80 Sprich über Selbstfürsorge im Alltag
+ null
+81 Besprich Legalität und Sicherheit
+ null
+82 Sprich über internationale Küche
+ null
+83 Plane einen Festtag
+ null
+84 Vereinbare einen Termin beim Tierarzt
+ null
+85 Erzähle von Reiseerlebnissen
+ null
+86 Vergleiche Wohnmöglichkeiten
+ null
+87 Wähle Accessoires mit Stil
+ null
+88 Unterhalte dich über Geschäftsfinanzen
+ null
+89 Hilf im Klassenzimmer mit
+ null
+90 Plane ein Festessen
+ null
+91 Meistere Reisesituationen auf Koreanisch
+ null
+92 Beschreibe deinen Tagesablauf
+ null
+93 Bewirb dich bei einer Schule
+ null
+94 Feiere besondere Anlässe
+ null
+95 Sprich über Familiengeschichte
+ null
+96 Sprich über frühere Ziele
+ null
+97 Sprich über Essensvorlieben
+ null
+98 Über Bauernhoftiere sprechen
+ null
+99 Vergleiche kulturelle Figuren
+ null
+100 Plane eine Kreuzfahrt
+ null
+101 Berühige dein Kind
+ null
+102 Sprich mit Geschwistern über Einkaufen
+ null
+103 Organisiere ein Treffen
+ null
+104 Suche Rat bei Problemen mit den Zähnen
+ null
+105 Sprich über koreanische Bräuche
+ null
+106 Erzähle Geschichten über Freunde
+ null
+107 Besprich die Häufigkeit von Meetings
+ null
+108 Sprich über Ziele beim Fußball
+ null
+109 Löse Probleme im Restaurant
+ null
+110 Besprich Themen zur Stadtentwicklung
+ null
+111 Gratuliere Preisträgern
+ null
+112 Sprich über Pannen mit der Garderobe
+ null
+113 Besprich die Verschönerung des Viertels
+ null
+114 Tausche dich mit neuen Nachbarn aus
+ null
+115 Sprich über Kunstvorlieben
+ null
+116 Lerne Standardsätze für den Alltag
+ null
+117 Besprich Aufgaben und Abläufe im Job
+ null
+118 Schreibe einen Geschäftsbericht
+ null
+119 Besprich Tätigkeiten bei der Arbeit
+ null
+120 Sprich über Studienziele
+ null
+121 Besprich Strategie und Technik im Boxen
+ null
+122 Koordiniere Nachbarschaftshilfe
+ null
+123 Plane einen Angelausflug
+ null
+124 Sprich über die eigene Vergangenheit
+ null
+125 Arbeite ehrenamtlich im Zoo
+ null
+126 Organisiere eine Talentshow organisieren
+ null
+127 Werde Mitglied bei einem Sportverein
+ null
+128 Kaufe mit jemandem Kleidung ein
+ null
+129 Erzähle von Familienfeiern
+ null
+130 Erzähle von persönlichen Erlebnissen
+ null
+131 Wohnraum: Erkläre die Zimmeraufteilung
+ null
+132 Feier: Lade Freunde zur Feier ein
+ null
+133 Hobbys: Erzähl von deinen Hobbys
+ null
+134 Prüfung: Sprich über Prüfungsstress
+ null
+135 Freundschaft: Erzähle von deinen Freunden
+ null
+136 Freizeit: Beschreibe deine Freizeit
+ null
+137 Umgebung: Beschreibe den Ausblick
+ null
+138 Ausflug: Plane deinen Ausflug
+ null
+139 Freunde: Bedank dich bei Freunden
+ null
+140 Labor: Erkläre, was du gelernt hast
+ null
+141 Teamgeist: Teile deine Sporterlebnisse
+ null
+142 Alltag: Beschreibe deine Morgenroutine
+ null
+143 Abenteuer: Teile deine Erlebnisse
+ null
+144 Schule: Sag, was man vermeiden soll
+ null
+145 Sommer: Plane eine Sommerreise
+ null
+146 Einkauf: Vergleiche Produkte online
+ null
+147 Restaurant: Wähle ein Restaurant aus
+ null
+148 Hausarbeit: Verteile Putzaufgaben
+ null
+149 Weg: Frage nach dem Weg
+ null
+150 Arbeitsweg: Erzähle von Staus
+ null
+151 Freunde: Erzähl von deinen Freunden
+ null
+152 Erfahrung: Erzähle von Museumserlebnissen
+ null
+153 U Bahn: Finde den richtigen Weg
+ null
+154 Klima: Erkläre das Klima in deinem Land
+ null
+155 Haushalt: Beschreibe Aufgaben im Haushalt
+ null
+156 Wetter: Beschreibe das Frühlingswetter
+ null
+157 Essen: Wähle ein gesundes Gericht
+ null
+158 Reise: Frag nach dem Weg
+ null
+159 Filme: Beschreibe den Film
+ null
+160 Küche: Frag nach Zutaten
+ null
+161 Büro: Um Erlaubnis bitten
+ null
+162 Musik: Beschreibe eine Aufführung
+ null
+163 Verkehr: Erzähle von Störungen im Verkehr
+ null
+164 Bücher: Schlage ein neues Thema vor
+ null
+165 Kosten: Erkläre deine Ausgaben
+ null
+166 Sicherheit: Gib einen Sicherheitshinweis
+ null
+167 Erfahrung: Sprich über Fortschritte
+ null
+168 Zentrum: Lies Schilder im Zentrum
+ null
+169 Gefahr: Erzähle von einer Gefahr
+ null
+170 Ziel: Beschreibe deine Ziele
+ null
+171 Gewohnheit: Sag, wie du Stress vermeidest
+ null
+172 Momente: Lade Teammitglieder ein
+ null
+173 Spiele: Erkläre die Spielregeln
+ null
+174 Service: Reagiere auf Probleme im Service
+ null
+175 Frisur: Frag nach Stylingtipps
+ null
+176 Konzert: Zeig dein Ticket
+ null
+177 Medien: Tausche dich über Medien aus
+ null
+178 Meeting: Teile deine Meinung im Meeting
+ null
+179 Gesundheit: Schlage gesunde Rezepte vor
+ null
+180 Fitness: Beschreibe deine Joggingroutine
+ null
+181 Anleitung: Folge einer Anleitung
+ null
+182 Politik: Beschreibe einen Politiker
+ null
+183 Talente: Erzähle von deinen Talenten
+ null
+184 Klassenzimmer: Erzähl von der Pause
+ null
+185 Rezepte: Zutaten für Rezepte nennen
+ null
+186 Lösung: Erkläre deine Lösung
+ null
+187 Geräte: Erkläre die Bedienung
+ null
+188 Stadtleben: Rede über die U-Bahn
+ null
+189 Glaube: Erzähl von deinem Glauben
+ null
+190 Balance: Mach kurze Bewegungspausen
+ null
+191 Natur: Erzähl vom Park
+ null
+192 Meinungen: Teile deine Meinung
+ null
+193 Familie: Beschreibe deine Familie
+ null
+194 Wunder: Erzähle von Entdeckungen
+ null
+195 Vergleich: Erkläre deine Wahl
+ null
+196 Literatur: Wähle ein beeindruckendes Zitat
+ null
+197 Alltag: Erzähl von deinem Alltag
+ null
+198 Praxis: Beschreibe deine Symptome
+ null
+199 Kindheit: Erzähl von deiner Kindheit
+ null
+200 Teamwork: Teile Aufgaben auf
+ null
+201 Wirtschaft: Erkläre Steuern
+ null
+202 Verein: Erzähle vom Vereinsfest
+ null
+203 Liebe: Beschreibe deinen Traumpartner
+ null
+204 Geschichte: Erzähle von einer Schlacht
+ null
+205 Erinnerung: Teile deine Erinnerungen
+ null
+206 Galerie: Beschreibe ein Kunstwerk
+ null
+207 Geschenke: Schlage ein Geschenk vor
+ null
+208 Kunst: Beschreibe ein Kunstwerk
+ null
+209 Gemeinde: Tausche Meinungen aus
+ null
+210 Zuhause: Beschreibe dein Zuhause
+ null
+211 Haustiere: Beschreibe dein Haustier
+ null
+212 Gesundheit: Empfiehl gesunde Getränke
+ null
+213 Notfall: Beschreibe einen Unfall
+ null
+214 Vorlesung: Erkläre digitale Werkzeuge
+ null
+215 Tradition: Beschreibe eine Tradition
+ null
+216 Alter: Erzähl von deiner Kindheit
+ null
+217 Themen: Beschreibe typische Fehler
+ null
+218 Museum: Beschreibe ein Ausstellungsstück
+ null
+219 Ausflug: Erzähle von deinem Ausflug
+ null
+220 Freunde: Frag Freunde nach Tipps
+ null
+221 Sicherheit: Sprich über neue Bedrohungen
+ null
+222 Hochzeit: Beschreibe deine Gefühle
+ null
+223 Inklusion: Frag nach Unterstützung
+ null
+224 Pflanzen: Erkläre deine Pflanzenwahl
+ null
+225 Reisen: Beschreibe eine Landschaft
+ null
+226 Reise: Plane eine Reise
+ null
+227 Gewohnheit: Tausch Tipps aus
+ null
+228 Dorf: Beschreibe das Dorf
+ null
+229 Sehensicht: Genieß die Aussicht
+ null
+230 Wissen: Teile dein Wissen
+ null
+231 Großstadt: Erkläre den Alltag in der Stadt
+ null
+232 Nachbarschaft: Sprich über den Verkehr
+ null
+233 Wandern: Plane eine Wanderroute
+ null
+234 Gefahren: Erzähl von Fehlentscheidungen
+ null
+235 Camping: Gib Tipps fürs Campingessen
+ null
+236 Gerücht: Beschreibe ein Gerücht
+ null
+237 Fitness: Sprich über Muskelkater
+ null
+238 Bühne: Über Poptrends sprechen
+ null
+239 Sport: Beschreibe dein Training
+ null
+240 Unterstützung: Baue Stress ab
+ null
+241 Spiele: Beschreibe ein neues Spiel
+ null
+242 Babypflege: Gib Tipps für Babyschlaf
+ null
+243 Erinnerung: Erzähle von einer Erinnerung
+ null
+244 Feier: Beschreibe die Feier
+ null
+245 Studium: Erkläre den Bewerbungsablauf
+ null
+246 Anfrage: Stelle höflich Rückfragen
+ null
+247 Mode: Beschreibe dein Outfit
+ null
+248 Nachrichten: Bewerte Nachrichtenquellen
+ null
+249 Werbung: Erkläre einen Werbeslogan
+ null
+250 Schultag: Beschreibe deinen Schultag
+ null
+251 Sporttag: Beschreibe das Stadionerlebnis
+ null
+252 Treffen: Sage ein Treffen ab
+ null
+253 Migration: Beschreibe deine Erfahrungen
+ null
+254 Rezepte: Beschreibe Küchengeräte
+ null
+255 Umwelt: Erzähle von Umweltproblemen
+ null
+256 Planung: Stelle deinen Zeitplan vor
+ null
+257 Natur: Beschreibe Naturerlebnisse
+ null
+258 Logik: Schlage Alternativen vor
+ null
+259 Beruf: Schau dir Angebote an
+ null
+260 Reise: Erzähle von deiner Reise
+ null
+261 Ziele: Beschreibe deine Ziele
+ null
+262 Vorbild: Beschreibe dein Vorbild
+ null
+263 Austausch: Hol dir Hilfe vor Ort
+ null
+264 Bank: Fülle Bankformulare aus
+ null
+265 Verhalten: Bewahre Ruhe bei Fehlern
+ null
+266 Schulalltag: Gib Schulregeln weiter
+ null
+267 Brettspiel: Beschreibe das Brettspiel
+ null
+268 Profile: Beschreibe einen Nutzer
+ null
+269 KI: Beschreibe KI-Funktionen
+ null
+270 Küche: Erkläre Zubereitungsschritte
+ null
+271 Beweise: Verdacht entkräften
+ null
+272 Landschaft: Genieß den Frühlingsmorgen
+ null
+273 Einkauf: Nutze Taschen mehrfach
+ null
+274 Sprache: Vergleiche Sprachstile
+ null
+275 Restaurant: Wähle ein Gericht aus
+ null
+276 Literatur: Beschreibe eine Szene
+ null
+277 Entscheid: Hör aufmerksam zu
+ null
+278 Startups: Beschreibe eine Startup-Idee
+ null
+279 Fahrt: Reagiere auf das Wetter
+ null
+280 Muster: Ziehe eine Schlussfolgerung
+ null
+281 Konzert: Erzähle von deinen Konzertplänen
+ null
+282 Medien: Vergleiche Nachrichtenquellen
+ null
+283 Freundschaft: Sprich über Vertrauen
+ null
+284 Gesundheit: Erkläre, wie du fit bleibst
+ null
+285 Kundendienst: Melde ein Qualitätsproblem
+ null
+286 Chats: Teile deine Chat-Erfahrungen
+ null
+287 Wahlen: Erkläre den Wahlablauf
+ null
+288 Unfall: Teile deine Unfallgeschichte
+ null
+289 Wandel: Beschreibe eine Veränderung
+ null
+290 Feld: Gib Tipps zur Feldpflege
+ null
+291 Paket: Prüfe den Barcode
+ null
+292 Klinik: Erkläre typische Abläufe
+ null
+293 Kunst: Beschreibe ein Kunstwerk
+ null
+294 Konflikte: Beschreibe einen Streit
+ null
+295 Beziehung: Erkläre Gründe für Scheidung
+ null
+296 Hilfe: Beschreibe, wie du hilfst
+ null
+297 Lernen: Teile Lernerfahrungen
+ null
+298 Vergleich: Vergleiche Produkte
+ null
+299 Technik: Bewerte Spam-Blocker
+ null
+300 Weltraum: Beschreibe das Leben dort
+ null
+301 Forschung: Berichte über eine Entdeckung
+ null
+302 Gesellschaft: Drücke deine Meinung aus
+ null
+303 Karriere: Beschreibe deine Stärken
+ null
+304 Sparen: Erkläre deine Ausgaben
+ null
+305 Handel: Bewerte ein Geschäftsergebnis
+ null
+306 Politik: Teile deine Meinung zur Politik
+ null
+307 Zugang: Erkläre Kommunikationshindernisse
+ null
+308 Ursache: Nenne den Grund
+ null
+309 Gefühle: Beschreibe deine Gefühle
+ null
+310 Respekt: Teile deine Meinung zu Respekt
+ null

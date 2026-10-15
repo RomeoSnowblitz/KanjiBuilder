@@ -1,0 +1,5916 @@
+1 Basics 点食物和饮料
+ おちゃ - [ocha] - 茶
+ ください - [kudasai] - 请
+ ごはん - [gohan] - 饭
+ すし - [sushi] - 寿司
+ です - [desu] - 是
+ と - [to] - 要是的话, 和, 如果, 就, 与, 要是, 要, 跟, 还是
+ みず - [mizu] - 水
+2 People 用形容词描述名词
+ いしゃ - [isha] - 医生
+ かっこいい - [kakkoii] - 酷
+ がくせい - [gakusei] - 学生
+ せんせい - [sensei] - 老师
+ です - [desu] - 是
+ ひと - [hito] - 人
+ べんごし - [bengoshi] - 律师
+ やさしい - [yasashii] - 温柔
+3 Greetings 打招呼和说再见
+ けん - [ken] - 健
+ こんにちは - [kon'nichiha] - 你好
+ こんばんは - [konbanha] - 晚上好
+ さん - [san] - 小姐, 先生
+ です - [desu] - 是
+ なおみ - [naomi] - 直美
+ はな - [hana] - 花
+ またあした - [mataashita] - 明天见
+4 Cafe 谈论食物
+ おいしい - [oishii] - 好吃
+ か - [ka] - 吗
+ これ - [kore] - 这, 这个
+ は - [ha] - 有, 呢, 是, 来说, 姓, 在, 要, 会有
+ はい - [hai] - 是的
+ ケーキ - [kēki] - 蛋糕
+ サラダ - [sarada] - 沙拉
+ ピザ - [piza] - 披萨
+ ラーメン - [rāmen] - 拉面
+5 Countries 谈论国家和国籍
+ おおきい - [ookii] - 大
+ ちいさい - [chiisai] - 小
+ にほん - [nihon] - 日本
+ にほんじん - [nihonjin] - 日本人
+ アメリカ - [amerika] - 美国人, 美国的
+ アメリカじん - [amerikajin] - 美国人
+ カナダ - [kanada] - 加拿大
+ カナダじん - [kanadajin] - 加拿大人
+ ブラジル - [burajiru] - 巴西
+ ブラジルじん - [burajirujin] - 巴西人
+ ベトナム - [betonamu] - 越南
+ ベトナムじん - [betonamujin] - 越南人
+6 Directions 造否定句并回答问题
+ いいえ - [iie] - 不是
+ えき - [eki] - 车站
+ ここ - [koko] - 这里
+ じゃない - [janai] - 不是
+ だいがく - [daigaku] - 大学
+ どこ - [doko] - 哪里
+ コンビニ - [konbini] - 便利店
+ デパート - [depāto] - 百货商店
+ バスてい - [basutei] - 公交站
+ ホテル - [hoteru] - 酒店
+7 Belongings 谈论你的物品
+ あかい - [akai] - 红色的
+ かばん - [kaban] - 包
+ くつ - [kutsu] - 鞋
+ これ - [kore] - 这, 这个
+ しろい - [shiroi] - 白色的
+ てぶくろ - [tebukuro] - 手套
+ の - [no] - 呢, 吗, 之, 的
+ わたしの - [watashino] - 我的
+ コート - [kōto] - 外套
+8 Friends 描述你的朋友
+ あかるい - [akarui] - 明亮
+ おもしろい - [omoshiroi] - 有趣
+ さん - [san] - 先生
+ たなか - [tanaka] - 田中
+ ともだち - [tomodachi] - 朋友
+ なかやま - [nakayama] - 中山
+9 Time 说出时间
+ いち - [ichi] - 一
+ いま - [ima] - 现在
+ さん - [san] - 三
+ じ - [ji] - 字
+ すみません - [sumimasen] - 对不起
+ なんじ - [nanji] - 几点
+ に - [ni] - 二
+ はん - [han] - 半
+ 一 - 一, 1
+ 三 - 三
+ 二 - 二, 两, 兩
+10 Travel 找旅行物品和地方
+ あそこ - [asoko] - 那里
+ かさ - [kasa] - 伞
+ きっぷ - [kippu] - 票
+ くうこう - [kuukou] - 机场
+ それ - [sore] - 那
+ ちかてつ - [chikatetsu] - 地铁
+ ちず - [chizu] - 地图
+ ぼうし - [boushi] - 帽子
+ スマホ - [sumaho] - 手机
+ パスポート - [pasupōto] - 护照
+ 中山 - 中山
+ 山口 - 山口
+ 田中 - 田中先生, 田中
+11 Welcome 自我介绍和描述居住地
+ おおさか - [oosaka] - 大阪
+ おなまえは - [onamaeha] - 你的名字是
+ きれい - [kirei] - 干净
+ しずか - [shizuka] - 安静
+ しゅっしん - [shusshin] - 来自
+ とし - [toshi] - 城市
+ とても - [totemo] - 非常
+ どう - [dou] - 怎么样
+ にぎやか - [nigiyaka] - 热闹
+ にすんでいます - [nisundeimasu] - 住在
+ はじめまして - [hajimemashite] - 很高兴认识你
+ まち - [machi] - 城镇
+ も - [mo] - 都, 还, 就算, 也, 和, 还会, 之多
+ トロント - [toronto] - 多伦多
+ ニューヨーク - [nyūyōku] - 纽约
+ 京都 - 京都
+ 日本 - 日本
+ 東京 - 东京
+ 私 - 我
+12 Hobbies 使用现在时动词谈习惯
+ Jポップ - 日本流行音乐
+ えいが - [eiga] - 电影
+ おんがく - [ongaku] - 音乐
+ ききます - [kikimasu] - 听
+ ざっし - [zasshi] - 杂志
+ します - [shimasu] - 做
+ ときどき - [tokidoki] - 有时候
+ まんが - [manga] - 漫画
+ やきゅう - [yakyuu] - 棒球
+ よく - [yoku] - 经常
+ を - [wo] - 从, 把, 在
+ アニメ - [anime] - 动漫
+ サッカー - [sakkā] - 足球
+ ジャズ - [jazu] - 爵士乐
+ テレビ - [terebi] - 电视
+ ニュース - [nyūsu] - 新闻
+ バスケットボール - [basukettobōru] - 篮球
+ ロック - [rokku] - 摇滚乐
+ 本 - 书
+ 見ます - 看
+ 読みます - 读
+13 Mealtime 讨论你的饮食习惯
+ あさごはん - [asagohan] - 早饭
+ たべます - [tabemasu] - 吃
+ に - [ni] - 二, 得, 决定要, 而, 给, 地到, 于, 上, 和, 往, 让, 有, 到, 向, 在, 对, 里, 跟, 去, 以, 地, 为, 成, 他于
+ のみます - [nomimasu] - 喝
+ ばんごはん - [bangohan] - 晚饭
+ ひるごはん - [hirugohan] - 午饭
+ べんとう - [bentou] - 便当
+ まいあさ - [maiasa] - 每天早上
+ まいにち - [mainichi] - 每天
+ まいばん - [maiban] - 每天晚上
+ カレー - [karē] - 咖哩
+ コーヒー - [kōhī] - 咖啡
+ サンドイッチ - [sandoitchi] - 三明治
+ ジュース - [jūsu] - 果汁
+ パスタ - [pasuta] - 意大利面
+ パン - [pan] - 面包
+ 七時 - 七点
+ 五 - 5, 五
+ 八 - 八
+ 六 - 六, 6
+ 四時 - 四点
+ 時 - 的时候, 点, 候, 点钟, 时, 时候, 事时
+14 Clothes 买衣服
+ Tシャツ - T恤
+ あおい - [aoi] - 蓝色的
+ ありがとうございます - [arigatougozaimasu] - 谢谢您
+ いくら - [ikura] - 多少钱
+ えん - [en] - 日元
+ かっこいい - [kakkoii] - 酷
+ かわいい - [kawaii] - 可爱
+ が - [ga] - 但是, 虽然, 是
+ くろい - [kuroi] - 黑色的
+ この - [kono] - 这双, 这件, 这家, 这个, 这
+ さいふ - [saifu] - 钱包
+ たかい - [takai] - 贵
+ ね - [ne] - 啊
+ はちょっと - [hachotto] - 有点
+ ふく - [fuku] - 衣服
+ ほしい - [hoshii] - 想要
+ みせ - [mise] - 店
+ やすい - [yasui] - 便宜
+ ジャケット - [jaketto] - 夹克
+ スカート - [sukāto] - 裙子
+ ネクタイ - [nekutai] - 领带
+ 千 - 千
+ 古い - 旧
+ 新しい - 新
+ 百 - 百
+15 New Friend 介绍自己和其他人
+ Kポップ - 韩国流行音乐
+ かのじょ - [kanojo] - 女朋友
+ かれし - [kareshi] - 男朋友
+ かんこく - [kankoku] - 韩国
+ こちら - [kochira] - 这位
+ さんは - [sanha] - 先生是, 先生为, 先生作为
+ すき - [suki] - 喜欢
+ ちゅうごく - [chuugoku] - 中国
+ と言います - [to yánimasu] - 叫
+ どんな - [don'na] - 什么样的
+ の - [no] - 呢, 吗, 之, 的
+ アクション - [akushon] - 动作
+ アメリカの - [amerikano] - 美国的
+ アンドリュー - [andoryū] - 安德鲁
+ イギリス - [igirisu] - 英国
+ エリカ - [erika] - 艾丽卡
+ ゲーム - [gēmu] - 电子游戏
+ コメディ - [komedi] - 喜剧
+ ダニエル - [danieru] - 丹尼尔
+ ドラマ - [dorama] - 电视剧
+ ファンタジー - [fantajī] - 奇幻
+ ホラー - [horā] - 恐怖
+ 日本の - 日本的
+16 Routines 用动词表示未来行动
+ あした - [ashita] - 明天
+ いつも - [itsumo] - 总是
+ おきます - [okimasu] - 起床
+ およぎます - [oyogimasu] - 游泳
+ からて - [karate] - 空手道
+ ごろ - [goro] - 左右
+ します - [shimasu] - 做
+ つくります - [tsukurimasu] - 做
+ でかけます - [dekakemasu] - 出去
+ ねます - [nemasu] - 睡觉, 睡
+ はしります - [hashirimasu] - 跑步
+ まいしゅう - [maishuu] - 每周
+ らいしゅう - [raishuu] - 下周
+ バレーボール - [barēbōru] - 排球
+ ヨガ - [yoga] - 瑜伽
+ ラジオ - [rajio] - 收音机
+ 何時 - 几点
+ 十 - 十
+ 十一 - 11, 十一
+ 十二 - 12, 十二个
+ 買います - 买
+ 食べます - 吃
+ 飲みます - 喝
+17 Transport 询问旅行细节
+ あきはばら - [akihabara] - 秋叶原
+ あさくさ - [asakusa] - 浅草
+ うえのこうえん - [uenokouen] - 上野公园
+ えき - [eki] - 车站
+ かかります - [kakarimasu] - 花
+ ぐらい - [gurai] - 大概
+ ここ - [koko] - 这里
+ しぶや - [shibuya] - 涩谷
+ しゅうてん - [shuuten] - 终点站
+ つぎ - [tsugi] - 下一个
+ つぎの - [tsugino] - 下一个
+ でんしゃ - [densha] - 火车
+ どのぐらい - [donogurai] - 多久
+ ながい - [nagai] - 长
+ に - [ni] - 二, 得, 决定要, 而, 给, 地到, 于, 上, 和, 往, 让, 有, 到, 向, 在, 对, 里, 跟, 去, 以, 地, 为, 成, 他于
+ はやい - [hayai] - 快
+ もうすぐ - [mousugu] - 很快就会
+ バス - [basu] - 公交车
+ 分 - 分钟, 分钱, 分
+ 十分 - 十分钟
+ 時間 - 小时
+ 来ます - 来
+ 行きます - 去
+18 Weekend 谈论周末活动
+ あそびます - [asobimasu] - 玩
+ あに - [ani] - 哥哥
+ あね - [ane] - 姐姐
+ かぞく - [kazoku] - 家人
+ しゅうまつ - [shuumatsu] - 周末
+ じゅうどう - [juudou] - 柔道
+ と - [to] - 要是的话, 和, 如果, 就, 与, 要是, 要, 跟, 还是
+ どうが - [douga] - 视频
+ ひとりで - [hitoride] - 一个人
+ れんあい - [ren'ai] - 爱情
+ スポーツ - [supōtsu] - 运动
+ テニス - [tenisu] - 网球
+ ミステリー - [misuterī] - 悬疑
+ 土曜日 - 星期六
+ 日曜日 - 星期天
+ 母 - 妈妈
+ 父 - 爸爸
+ 話します - 说
+19 Weather 谈论季节和天气
+ あき - [aki] - 秋天
+ あたたかい - [atatakai] - 暖和
+ あつい - [atsui] - 热
+ あめ - [ame] - 下雨
+ おんせん - [onsen] - 温泉
+ こうえん - [kouen] - 公园
+ さむい - [samui] - 冷
+ なつ - [natsu] - 夏天
+ はなび - [hanabi] - 烟花
+ はる - [haru] - 春天
+ はれ - [hare] - 晴天
+ ふゆ - [fuyu] - 冬天
+ ゆき - [yuki] - 下雪
+ ココア - [kokoa] - 可可
+ コンサート - [konsāto] - 音乐会
+ プール - [pūru] - 游泳池
+ 七月 - 七月
+ 九月 - 九月
+ 休み - 放假
+ 日 - 日子
+20 Restaurant 点食物和饮料
+ うどん - [udon] - 乌冬面
+ ええと - [eeto] - 嗯
+ おにぎり - [onigiri] - 饭团
+ こうちゃ - [koucha] - 红茶
+ じゃあ - [jaa] - 那么
+ すこし - [sukoshi] - 稍微
+ その - [sono] - 那个, 那家, 那, 那起
+ そば - [soba] - 荞麦面
+ ていしょく - [teishoku] - 套餐
+ てんぷら - [tenpura] - 天妇罗
+ みそしる - [misoshiru] - 味噌汤
+ アイスクリーム - [aisukurīmu] - 冰淇淋
+ アイスコーヒー - [aisukōhī] - 冰咖啡
+ レストラン - [resutoran] - 餐厅
+ 一つ - 一个
+ 三つ - 三个
+ 二つ - 两个
+ 四つ - 四个
+ 大きい - 大的, 大
+ 小さい - 小
+ 水 - 水, 三
+21 Pastries 点糕点
+ あの - [ano] - 那家, 那起
+ あまい - [amai] - 甜
+ いちご - [ichigo] - 草莓
+ ぜんぶで - [zenbude] - 总共
+ どうですか - [doudesuka] - 怎么样
+ どの - [dono] - 哪种
+ はすきですか - [hasukidesuka] - 喜欢吗
+ まっちゃ - [matcha] - 抹茶
+ みどり - [midori] - 绿色
+ もの - [mono] - 东西
+ カップケーキ - [kappukēki] - 杯子蛋糕
+ クッキー - [kukkī] - 饼干
+ ケーキや - [kēkiya] - 蛋糕店
+ チョコレート - [chokorēto] - 巧克力
+ チーズケーキ - [chīzukēki] - 芝士蛋糕
+ ドーナツ - [dōnatsu] - 甜甜圈
+ パイ - [pai] - 派
+ 七つ - 七个
+ 五つ - 五个
+ 六つ - 六个
+22 Station 车站内四处走走
+ ATM - 自动取款机
+ WiFi - 无线网络
+ おてあらい - [otearai] - 卫生间
+ かいさつ - [kaisatsu] - 检票口
+ かいだん - [kaidan] - 楼梯
+ じはんき - [jihanki] - 自动贩卖机
+ すみません - [sumimasen] - 不好意思
+ ちか - [chika] - 地下
+ ちかい - [chikai] - 近
+ でぐち - [deguchi] - 出口
+ でんわ - [denwa] - 电话
+ とおい - [tooi] - 远
+ のりかえ - [norikae] - 换乘
+ エレベーター - [erebētā] - 电梯
+ カフェ - [kafe] - 咖啡厅
+ コインロッカー - [koinrokkā] - 储物柜
+ コンセント - [konsento] - 插座
+ ゴミばこ - [gomibako] - 垃圾桶
+ タクシー - [takushī] - 出租车
+ ホーム - [hōmu] - 站台
+ 一階 - 一楼
+ 二階 - 二楼
+23 New Home 使用无生命名词的所有格
+ あかるい - [akarui] - 明亮
+ いい - [ii] - 好的
+ いえ - [ie] - 房子
+ いす - [isu] - 椅子
+ いつ - [itsu] - 什么时候
+ おふろ - [ofuro] - 浴室
+ があります - [gaarimasu] - 有
+ こんしゅう - [konshuu] - 这周
+ せまい - [semai] - 狭窄
+ せんたくき - [sentakuki] - 洗衣机
+ そうじき - [soujiki] - 吸尘器
+ たぶん - [tabun] - 可能
+ つくえ - [tsukue] - 书桌
+ でんしレンジ - [denshirenji] - 微波炉
+ ひっこします - [hikkoshimasu] - 搬家
+ ひろい - [hiroi] - 宽敞
+ ふとん - [futon] - 被褥
+ ほんだな - [hondana] - 书架
+ まだ - [mada] - 还没
+ れいぞうこ - [reizouko] - 冰箱
+ アパート - [apāto] - 公寓
+ エアコン - [eakon] - 空调
+ キッチン - [kitchin] - 厨房
+ テーブル - [tēburu] - 桌子
+ ベッド - [beddo] - 床
+ リビング - [ribingu] - 客厅
+ 九時 - 九点
+24 Family 2 谈论你的家庭
+ います - [imasu] - 在
+ いもうと - [imouto] - 我妹妹
+ いもうとさん - [imoutosan] - 你妹妹
+ えいご - [eigo] - 英语
+ おこさん - [okosan] - 你的孩子
+ おとうと - [otouto] - 我弟弟
+ おとうとさん - [otoutosan] - 你弟弟
+ おにいさん - [oniisan] - 你哥哥
+ おねえさん - [oneesan] - 你姐姐
+ かんこくご - [kankokugo] - 韩语
+ ができます - [gadekimasu] - 会
+ きょうだい - [kyoudai] - 兄弟姐妹
+ こども - [kodomo] - 孩子
+ たいわん - [taiwan] - 台湾
+ ちゅうごくご - [chuugokugo] - 中文
+ はいますか - [haimasuka] - 有吗
+ インドネシア - [indoneshia] - 印度尼西亚
+ オーストラリア - [ōsutoraria] - 澳大利亚
+ コーチ - [kōchi] - 教练
+ ソウル - [souru] - 首尔
+ 一人 - 一个人
+ 二人 - 两个人
+ 日本ご - 日语
+25 Emergency 应对紧急情况
+ 〇 - 零
+ あぶない - [abunai] - 危险
+ おねがいします - [onegaishimasu] - 请
+ きゅうきゅうしゃ - [kyuukyuusha] - 救护车
+ きょう - [kyou] - 今天
+ ぐあいがわるい - [guaigawarui] - 不舒服
+ けいさつ - [keisatsu] - 警察
+ ごかぞく - [gokazoku] - 你的家人
+ ごりょうしん - [goryoushin] - 你的父母
+ さい - [sai] - 岁
+ すこし - [sukoshi] - 一点
+ すわります - [suwarimasu] - 坐, 坐下
+ そこ - [soko] - 那里
+ だいじょうぶ - [daijoubu] - 没事
+ ちかく - [chikaku] - 附近
+ ちゃんと - [chanto] - 好好
+ でんわばんごう - [denwabangou] - 电话号码
+ の - [no] - 呢, 吗, 之, 的
+ びょういん - [byouin] - 医院
+ アレルギー - [arerugī] - 过敏
+ 九 - 九
+ 休みます - 请假
+ 何さい - 几岁
+ 十 - 10, 十, 一十
+26 Sights 探索新地方
+ あれ - [are] - 那
+ おかし - [okashi] - 零食
+ おてら - [otera] - 寺庙
+ おみやげ - [omiyage] - 纪念品
+ きれい - [kirei] - 漂亮
+ じんじゃ - [jinja] - 神社
+ すてき - [suteki] - 很棒
+ たてもの - [tatemono] - 建筑
+ だいすき - [daisuki] - 很喜欢
+ ところ - [tokoro] - 地方
+ な - [na] - 的
+ はな - [hana] - 花
+ はらじゅく - [harajuku] - 原宿
+ ふじさん - [fujisan] - 富士山
+ ほんとうに - [hontouni] - 真的是
+ ゆうめい - [yuumei] - 有名
+ デザート - [dezāto] - 甜点
+ ピザや - [pizaya] - 披萨店
+ ポストカード - [posutokādo] - 明信片
+ ラーメンや - [rāmenya] - 拉面店
+ 何ですか - 是什么
+ 山 - 堆, 山, 一堆
+ 高い - 高的, 高高
+27 Date Plans 计划约会
+ あおい - [aoi] - 蓝色的
+ うでどけい - [udedokei] - 手表
+ えいがかん - [eigakan] - 电影院
+ おしゃれ - [oshare] - 时髦
+ かんとく - [kantoku] - 导演
+ がたのしみです - [gatanoshimidesu] - 期待
+ きます - [kimasu] - 穿
+ げんき - [genki] - 有活力
+ たんじょうび - [tanjoubi] - 生日
+ よやくします - [yoyakushimasu] - 预订
+ ステーキ - [sutēki] - 牛排
+ スーツ - [sūtsu] - 西装
+ デート - [dēto] - 约会
+ ドレス - [doresu] - 连衣裙
+ ネックレス - [nekkuresu] - 项链
+ ブラウス - [burausu] - 女式衬衫
+ プレゼント - [purezento] - 礼物
+ ホットドッグ - [hottodoggu] - 热狗
+ ポップコーン - [poppukōn] - 爆米花
+ ワイン - [wain] - 葡萄酒
+ 人 - 个, 个人, 人, 别人, 一个人
+ 高い - 贵
+28 Travel 2 使用意向形
+ あと - [ato] - 后
+ え - [e] - 画
+ しゃしん - [shashin] - 照片
+ で - [de] - 用, 因为, 坐, 上, 又, 下, 开, 到, 在, 骑, 里, 边, 以, 中, 以长
+ どうぶつえん - [doubutsuen] - 动物园
+ にく - [niku] - 肉
+ ひこうき - [hikouki] - 飞机
+ ひろば - [hiroba] - 广场
+ びじゅつかん - [bijutsukan] - 美术馆
+ りょこう - [ryokou] - 旅行
+ スーツケース - [sūtsukēsu] - 行李箱
+ チケット - [chiketto] - 票
+ フランス - [furansu] - 法国
+ フランスりょうり - [furansuryouri] - 法国菜
+ ライオン - [raion] - 狮子
+ 会います - 见面
+ 何 - 什么
+ 来月 - 下个月
+ 見ます - 看
+29 Cooking 买食材做料理
+ いっしょに - [isshoni] - 一起
+ ぎゅうどん - [gyuudon] - 牛肉饭
+ しお - [shio] - 盐
+ しょうゆ - [shouyu] - 酱油
+ しょっぱい - [shoppai] - 咸
+ つかいます - [tsukaimasu] - 使用
+ でも - [demo] - 但是
+ とうふ - [toufu] - 豆腐
+ とんかつ - [tonkatsu] - 炸猪排
+ なま - [nama] - 生
+ ひま - [hima] - 有空
+ ぶたにく - [butaniku] - 猪肉
+ もっと - [motto] - 更多的
+ やさい - [yasai] - 蔬菜
+ コーラ - [kōra] - 可乐
+ スーパー - [sūpā] - 超市
+ ソース - [sōsu] - 酱汁
+ ビール - [bīru] - 啤酒
+ レシピ - [reshipi] - 食谱
+ 作ります - 做
+ 卵 - 鸡蛋
+ 木曜日 - 星期四
+ 魚 - 鱼
+30 Bookstore 使用动词的非过去否定式
+ RPG - 角色扮演游戏
+ あまり - [amari] - 不太
+ はいゆう - [haiyuu] - 演员
+ むずかしい - [muzukashii] - 难
+ アニソン - [anison] - 动漫歌曲
+ アルバム - [arubamu] - 专辑
+ カードゲーム - [kādogēmu] - 纸牌游戏
+ コーナー - [kōnā] - 专区
+ セール - [sēru] - 促销
+ ドキュメンタリー - [dokyumentarī] - 纪录片
+ ノンフィクション - [nonfikushon] - 非虚构
+ バンド - [bando] - 乐队
+ パズル - [pazuru] - 益智游戏
+ フィクション - [fikushon] - 虚构
+ ポスター - [posutā] - 海报
+ ポップス - [poppusu] - 流行音乐
+ 本や - 书店
+ 話 - 故事
+31 Office 谈论工作时间安排
+ うけつけ - [uketsuke] - 前台
+ うたいます - [utaimasu] - 唱
+ から - [kara] - 从
+ きょう - [kyou] - 今天
+ このあと - [konoato] - 这之后
+ ごご - [gogo] - 下午
+ ごぜん - [gozen] - 上午
+ さいご - [saigo] - 最后
+ しょくどう - [shokudou] - 食堂
+ ひる休み - [hiru xiūmi] - 午休
+ まで - [made] - 到
+ よろしくおねがいします - [yoroshikuonegaishimasu] - 请多关照
+ エンジニア - [enjinia] - 工程师
+ オリエンテーション - [orientēshon] - 迎新会
+ カラオケ - [karaoke] - 卡拉OK
+ クライアント - [kuraianto] - 客户
+ チャーハン - [chāhan] - 炒饭
+ バー - [bā] - 酒吧
+ パソコン - [pasokon] - 电脑
+ フライドポテト - [furaidopoteto] - 薯条
+ プリンター - [purintā] - 打印机
+ プレゼン - [purezen] - 报告会
+ ミーティング - [mītingu] - 会议
+ 何時 - 几点
+ 何階 - 几楼
+32 Birthday 在城市中找路去生日派对
+ いとこ - [itoko] - 表亲
+ いらっしゃい - [irasshai] - 欢迎
+ おさら - [osara] - 盘子
+ おもちゃ - [omocha] - 玩具
+ から - [kara] - 从
+ きります - [kirimasu] - 切
+ でんきや - [denkiya] - 电器店
+ とちゅうで - [tochuude] - 在路上
+ どうやって - [douyatte] - 怎么
+ まちます - [machimasu] - 等, 等待
+ まで - [made] - 到
+ みち - [michi] - 路
+ わたります - [watarimasu] - 过
+ カップ - [kappu] - 杯子
+ タブレット - [taburetto] - 平板电脑
+ ナイフ - [naifu] - 刀子
+ フォーク - [fōku] - 叉子
+ フライドチキン - [furaidochikin] - 炸鸡
+ ヘッドホン - [heddohon] - 耳机
+ ポテトチップス - [potetochippusu] - 薯片
+ 六百 - 六百
+ 円 - 日元
+ 家 - 宅, 家, 房子, 房, 人家
+ 百円ショップ - 一百日元店
+33 Events 谈论活动
+ あした - [ashita] - 明天
+ おおみそか - [oomisoka] - 除夕
+ おまつり - [omatsuri] - 节庆
+ こんしゅうまつ - [konshuumatsu] - 这周末
+ たいこ - [taiko] - 太鼓
+ ちかくの - [chikakuno] - 附近的
+ はなびたいかい - [hanabitaikai] - 烟火大会
+ イベント - [ibento] - 活动
+ イルミネーション - [iruminēshon] - 彩灯
+ カウントダウン - [kauntodaun] - 倒计时
+ クリスマス - [kurisumasu] - 圣诞节
+ コミュニティーセンター - [komyunitīsentā] - 社区中心
+ コンテスト - [kontesuto] - 竞赛
+ ダンス - [dansu] - 舞蹈
+ チョコバナナ - [chokobanana] - 巧克力香蕉
+ ハロウィン - [harou~in] - 万圣节
+ パレード - [parēdo] - 游行
+ パーティー - [pātī] - 派对
+ 三十一日 - 三十一号
+ 八月 - 八月
+ 十二月 - 十二月
+ 十月 - 十月
+ 食べ物 - 食物
+34 University 介绍自己并谈论大学生活
+ かい - [kai] - 海
+ げんご - [gengo] - 语言
+ すうがく - [suugaku] - 数学
+ せんこう - [senkou] - 专业
+ にはいります - [nihairimasu] - 加入
+ のちかく - [nochikaku] - 附近
+ りょう - [ryou] - 宿舍
+ キャンパス - [kyanpasu] - 校园
+ サム - [samu] - 萨姆
+ サークル - [sākuru] - 俱乐部
+ タガログご - [tagarogugo] - 菲律宾语
+ チェス - [chesu] - 国际象棋
+ ドイツ - [doitsu] - 德国
+ ドイツご - [doitsugo] - 德语
+ ビジネス - [bijinesu] - 商务
+ フィリピン - [firipin] - 菲律宾
+ ボランティア - [borantia] - 志愿服务
+ ボードゲーム - [bōdogēmu] - 桌游
+ ルームメイト - [rūmumeito] - 室友
+ 一年生 - 一年级学生
+ 三年生 - 三年级学生
+ 二年生 - 二年级学生
+ 何年生 - 几年级的学生
+ 四年生 - 四年级学生
+ 駅 - 车站
+35 HealthHabs 使用频率和数量表达
+ あぶらっこい - [aburakkoi] - 油腻
+ いくつ - [ikutsu] - 几个
+ くだもの - [kudamono] - 水果
+ けんこうてき - [kenkouteki] - 健康
+ これから - [korekara] - 从现在开始
+ さとう - [satou] - 糖
+ すいえい - [suiei] - 游泳
+ とうにゅう - [tounyuu] - 豆浆
+ らいしゅう - [raishuu] - 下周
+ りんご - [ringo] - 苹果
+ オレンジ - [orenji] - 橙子
+ ジム - [jimu] - 健身房
+ スープ - [sūpu] - 汤
+ ブロッコリー - [burokkorī] - 西兰花
+ プロテインバー - [puroteinbā] - 蛋白棒
+ ヨーグルト - [yōguruto] - 酸奶
+ 九つ - 九个
+ 八つ - 八个
+ 大会 - 比赛
+36 School 谈论课程
+ あります - [arimasu] - 有
+ おもしろい - [omoshiroi] - 有趣
+ おわります - [owarimasu] - 结束
+ きょうしつ - [kyoushitsu] - 教室
+ こんしゅう - [konshuu] - 这周
+ しつもん - [shitsumon] - 问题
+ しめきり - [shimekiri] - 限期
+ しゅくだい - [shukudai] - 作业
+ じゅぎょう - [jugyou] - 课
+ せんせい - [sensei] - 老师
+ たくさん - [takusan] - 很多
+ だれ - [dare] - 谁
+ はやく - [hayaku] - 早
+ やさしい - [yasashii] - 容易
+ スペインご - [supeingo] - 西班牙语
+ スミス - [sumisu] - 史密斯
+ テスト - [tesuto] - 考试
+ プロジェクト - [purojekuto] - 项目
+ 何曜日 - 星期几
+ 山田 - 山田
+ 水曜日 - 星期三
+ 火曜日 - 星期二
+37 Hobbies 2 讨论爱好
+ いそがしい - [isogashii] - 忙
+ おどります - [odorimasu] - 跳舞
+ きじ - [kiji] - 文章
+ こんや - [kon'ya] - 今晚
+ しあい - [shiai] - 比赛
+ たいへん - [taihen] - 辛苦
+ たのしい - [tanoshii] - 好玩
+ はじまります - [hajimarimasu] - 开始
+ れんしゅう - [renshuu] - 训练
+ チームメイト - [chīmumeito] - 队友
+ バドミントン - [badominton] - 羽毛球
+ バレエ - [baree] - 芭蕾舞
+ パフォーマンス - [pafōmansu] - 表演
+ ブログ - [burogu] - 博客
+ レッスン - [ressun] - 课
+ 九時間 - 九个小时
+ 何時間 - 几个小时
+ 作ります - 做
+ 半 - 半
+ 四時間 - 四个小时
+ 金曜日 - 星期五
+38 Clothes 2 使用方位词
+ Mサイズ - 中号
+ くつした - [kutsushita] - 袜子
+ こんど - [kondo] - 下次
+ たな - [tana] - 架子
+ てんいん - [ten'in] - 售货员
+ ふわふわ - [fuwafuwa] - 松软
+ まず - [mazu] - 首先
+ むらさき - [murasaki] - 紫色
+ アクセサリー - [akusesarī] - 配饰
+ キラキラ - [kirakira] - 闪闪发光
+ ショッピングセンター - [shoppingusentā] - 购物中心
+ ジーンズ - [jīnzu] - 牛仔裤
+ セーター - [sētā] - 毛衣
+ パーカー - [pākā] - 连帽衫
+ ボロボロ - [boroboro] - 破旧不堪
+ ポイントカード - [pointokādo] - 积分卡
+ マフラー - [mafurā] - 围巾
+ メンズ - [menzu] - 男士
+ レジ - [reji] - 收银台
+ レディース - [redīsu] - 女士
+ 上 - 上, 上方, 上面, 具上
+ 八千 - 八千
+ 右 - 右边
+ 左 - 左边
+39 Hotel 办理入住并在酒店内走走
+ うしろ - [ushiro] - 后面
+ かぎ - [kagi] - 钥匙
+ ぎゅうにゅう - [gyuunyuu] - 牛奶
+ さがします - [sagashimasu] - 找
+ となり - [tonari] - 旁边
+ ばんごう - [bangou] - 号码
+ へや - [heya] - 房间
+ まえ - [mae] - 前面
+ むりょう - [muryou] - 免费
+ りょこうします - [ryokoushimasu] - 旅行
+ クレジットカード - [kurejittokādo] - 信用卡
+ コーヒーメーカー - [kōhīmēkā] - 咖啡机
+ スパ - [supa] - 水疗中心
+ タオル - [taoru] - 毛巾
+ チェックイン - [chekkuin] - 办理入住
+ トースト - [tōsuto] - 土司
+ ネットで - [nettode] - 在网上
+ パスワード - [pasuwādo] - 密码
+ ロビー - [robī] - 大厅
+ 一日 - 一号
+ 三階 - 三楼
+ 四 - 四, 4
+ 四階 - 四楼
+40 Grocery 在商店里找食品杂货
+ いりぐち - [iriguchi] - 入口
+ おく - [oku] - 里面
+ かご - [kago] - 篮子
+ ぎゅう肉 - [gyuu ròu] - 牛肉
+ くろこしょう - [kurokoshou] - 黑胡椒
+ こむぎこ - [komugiko] - 面粉
+ こんばん - [konban] - 今晚
+ じゃがいも - [jagaimo] - 土豆
+ すぐ - [sugu] - 就在
+ たまねぎ - [tamanegi] - 洋葱
+ ちゃわん - [chawan] - 碗
+ にんじん - [ninjin] - 胡萝卜
+ はし - [hashi] - 筷子
+ ひきだし - [hikidashi] - 抽屉
+ グラム - [guramu] - 克
+ スプーン - [supūn] - 勺子
+ バター - [batā] - 黄油
+ ビーフシチュー - [bīfushichū] - 炖牛肉
+ 一番 - 最
+ 上 - 上面
+ 下 - 下面
+ 中 - 里
+ 肉 - 肉
+41 Meet Up 安排跟朋友见面
+ いまから - [imakara] - 从现在起
+ います - [imasu] - 在
+ いません - [imasen] - 不在
+ おくれます - [okuremasu] - 迟到
+ おそい - [osoi] - 慢
+ しんじゅく - [shinjuku] - 新宿
+ たくさんの - [takusan'no] - 很多
+ たち - [tachi] - 我们, 們
+ に - [ni] - 二, 得, 决定要, 而, 给, 地到, 于, 上, 和, 往, 让, 有, 到, 向, 在, 对, 里, 跟, 去, 以, 地, 为, 成, 他于
+ にしぐち - [nishiguchi] - 西出口
+ のどこ - [nodoko] - 的哪里
+ みんな - [min'na] - 大家
+ よてい - [yotei] - 计划
+ アレックス - [arekkusu] - 亚历克斯
+ ターミナル - [tāminaru] - 总站
+ パンや - [panya] - 面包店
+ 一分 - 零一分, 份, 一分
+ 三分 - 三分钟, 零三分, 三分
+ 乗ります - 乘坐
+ 六分 - 零六分, 06分
+ 私たち - 我们
+42 Healthcare 寻求医疗帮助
+ あの - [ano] - 那家, 那起
+ いい - [ii] - 好的
+ おさけ - [osake] - 酒
+ おっと - [otto] - 我家先生
+ があります - [gaarimasu] - 有
+ こちら - [kochira] - 这边
+ ごご - [gogo] - 下午
+ ごぜん - [gozen] - 凌晨
+ しんさつしつ - [shinsatsushitsu] - 门诊室
+ せんせい - [sensei] - 老师
+ ちゅうしゃじょう - [chuushajou] - 停车场
+ つま - [tsuma] - 我老婆
+ よやく - [yoyaku] - 预约
+ ファーストフード - [fāsutofūdo] - 快餐
+ 二日 - 二号
+ 今日 - 今天
+ 少し - 一点
+43 AnimalCafe 享受动物咖啡厅
+ あそびます - [asobimasu] - 玩
+ いぬ - [inu] - 狗
+ すみ - [sumi] - 角落
+ ちゃいろ - [chairo] - 棕色的
+ どうぶつ - [doubutsu] - 动物
+ にんき - [ninki] - 受欢迎
+ ねこ - [neko] - 猫
+ はな - [hana] - 鼻子
+ みみ - [mimi] - 耳朵
+ め - [me] - 眼睛
+ カプチーノ - [kapuchīno] - 卡布奇诺
+ カメレオン - [kamereon] - 变色龙
+ カラフルな - [karafuruna] - 多彩的, 色彩丰富的, 五颜六色的, 彩色的, 鲜艳的
+ トマト - [tomato] - 西红柿
+ ハムスター - [hamusutā] - 仓鼠
+ パンケーキ - [pankēki] - 松饼
+ 一匹 - 一只
+ 三匹 - 三只
+ 二匹 - 两只
+ 何匹 - 几只
+ 口 - 嘴巴
+ 四匹 - 四只
+44 Zoo 参观动物园
+ あかちゃん - [akachan] - 宝宝
+ あし - [ashi] - 脚
+ うさぎ - [usagi] - 兔子
+ きりん - [kirin] - 长颈鹿
+ さる - [saru] - 猴子
+ ところ - [tokoro] - 区
+ とり - [tori] - 鸟
+ なでます - [nademasu] - 摸
+ ぬいぐるみ - [nuigurumi] - 毛绒娃娃
+ やぎ - [yagi] - 山羊
+ よこはま - [yokohama] - 横滨
+ わたあめ - [wataame] - 棉花糖
+ キーホルダー - [kīhorudā] - 钥匙圈
+ ギフトショップ - [gifutoshoppu] - 礼品店
+ スムージー - [sumūjī] - 冰沙
+ ハンドジェル - [handojeru] - 洗手液
+ パンダ - [panda] - 大熊猫
+ ピンク - [pinku] - 粉色
+ フェンス - [fensu] - 栅栏
+ ベンチ - [benchi] - 长椅
+ マグネット - [magunetto] - 磁铁
+ 五日 - 五号
+ 週末 - 周末
+45 Past Trip 使用动词的过去式
+ お母さん - [o mǔsan] - 你妈妈
+ お父さん - [o fùsan] - 你爸爸
+ かぶき - [kabuki] - 歌舞伎
+ きのう - [kinou] - 昨天
+ きょねん - [kyonen] - 去年
+ ぎんざ - [ginza] - 银座
+ しろ - [shiro] - 城堡
+ しんかんせん - [shinkansen] - 新干线
+ すいぞくかん - [suizokukan] - 水族馆
+ すしや - [sushiya] - 寿司店
+ ちば - [chiba] - 千叶
+ てんき - [tenki] - 天气
+ なごや - [nagoya] - 名古屋
+ はじめて - [hajimete] - 第一次
+ ぶんか - [bunka] - 文化
+ べんり - [benri] - 方便
+ りょうしん - [ryoushin] - 我父母
+ 乗ります - 乘坐
+ 先月 - 上个月
+ 先週 - 上周
+ 日本りょうり - 日本料理
+ 見つけます - 找到
+ 見ます - 看
+46 Computers 买电子产品
+ おもい - [omoi] - 重
+ かるい - [karui] - 轻便的
+ でんち - [denchi] - 电池
+ ひかります - [hikarimasu] - 会发光
+ もっといい - [mottoii] - 更好的
+ インチ - [inchi] - 英寸
+ キーボード - [kībōdo] - 键盘
+ グレー - [gurē] - 灰色
+ ケーブル - [kēburu] - 电缆
+ ゲーミング - [gēmingu] - 游戏
+ スピーカー - [supīkā] - 音箱
+ マウス - [mausu] - 鼠标
+ モニター - [monitā] - 显示器
+ レシート - [reshīto] - 收据
+ レジぶくろ - [rejibukuro] - 购物袋
+ ワイヤレス - [waiyaresu] - 无线
+ 一万 - 一万, 10000
+ 万 - 万
+ 前 - 前面
+ 安い - 便宜, 低廉
+47 Concert 参加音乐会
+ Sサイズ - 小号
+ この - [kono] - 这双, 这件, 这家, 这个, 这
+ すきな - [sukina] - 喜欢的
+ せき - [seki] - 座位
+ たい - [tai] - 想
+ つかれました - [tsukaremashita] - 累了
+ てをあらいます - [tewoaraimasu] - 洗手
+ にんき - [ninki] - 受欢迎
+ はやく - [hayaku] - 快点
+ また - [mata] - 再
+ まんなか - [man'naka] - 中间
+ もう - [mou] - 已经
+ アーティスト - [ātisuto] - 音乐家
+ グッズ - [guzzu] - 周边产品
+ サイン - [sain] - 签名
+ ステージ - [sutēji] - 舞台
+ ペン - [pen] - 笔
+ 三千 - 三千
+ 今夜 - 今晚
+ 出口 - 出口
+ 外 - 外面
+48 Seasons 使用形容词的肯定式和否定式
+ あまり - [amari] - 不太
+ くらい - [kurai] - 亮度
+ さきます - [sakimasu] - 开
+ さくら - [sakura] - 樱花
+ さつまいも - [satsumaimo] - 红薯
+ すいか - [suika] - 西瓜
+ だんぼう - [danbou] - 暖气
+ つけます - [tsukemasu] - 开
+ なべ - [nabe] - 火锅
+ ほっかいどう - [hokkaidou] - 北海道
+ みかん - [mikan] - 橘子
+ むすこ - [musuko] - 儿子
+ むすめ - [musume] - 女儿
+ スキー - [sukī] - 滑雪
+ スケート - [sukēto] - 滑冰
+ スノボ - [sunobo] - 滑雪板
+ 一月 - 一月
+ 二月 - 二月
+ 住んでいます - 住, 住着
+ 四月 - 四月
+ 夜 - 夜晚
+49 Apartment 评价公寓
+ あんぜん - [anzen] - 安全
+ いいですね - [iidesune] - 不错呢
+ うるさい - [urusai] - 吵闹
+ から - [kara] - 从
+ きたない - [kitanai] - 脏
+ このあたり - [konoatari] - 这一带
+ しんせつ - [shinsetsu] - 亲切
+ としょかん - [toshokan] - 图书馆
+ となりの人 - [tonarino rén] - 隔壁的人
+ まど - [mado] - 窗户
+ やちん - [yachin] - 房租
+ クローゼット - [kurōzetto] - 衣柜
+ ドア - [doa] - 门
+ 三日 - 三号
+ 三月 - 三月
+ 北 - 北边
+ 大家 - 房东
+ 学校 - 学校
+50 WorkPlace 表达工作中的烦恼
+ いまの - [imano] - 现在的
+ おこります - [okorimasu] - 生气
+ おそくまで - [osokumade] - 到很晚
+ おなじ - [onaji] - 一样的
+ かいしゃ - [kaisha] - 公司
+ がんばります - [ganbarimasu] - 努力
+ こわれます - [kowaremasu] - 坏
+ しごと - [shigoto] - 工作
+ しごとします - [shigotoshimasu] - 工作
+ しょうかいします - [shoukaishimasu] - 介绍
+ どうりょう - [douryou] - 同事
+ まじめ - [majime] - 认真
+ まずい - [mazui] - 难吃
+ よくない - [yokunai] - 不好
+ インスタント - [insutanto] - 即食的
+ オフィス - [ofisu] - 办公室
+ スキル - [sukiru] - 技能
+ 十階 - 十楼
+ 昼ご飯 - 午饭
+ 毎日 - 每天
+51 Slow Day 休息一天
+ います - [imasu] - 在
+ うち - [uchi] - 家
+ おかゆ - [okayu] - 粥
+ かじ - [kaji] - 家务
+ くすり - [kusuri] - 药
+ します - [shimasu] - 做
+ そうじ - [souji] - 打扫
+ ねむい - [nemui] - 困
+ まだ - [mada] - 还
+ アラーム - [arāmu] - 闹钟
+ キャンセルします - [kyanserushimasu] - 取消
+ バナナ - [banana] - 香蕉
+ ブランケット - [buranketto] - 毯子
+ リモコン - [rimokon] - 遥控器
+ 今 - 现在
+ 外 - 外面, 外, 外边, 屋外, 之外
+ 明日 - 明天
+52 Sakura 计划并参加赏樱活动
+ いけ - [ike] - 池塘
+ えきいん - [ekiin] - 车站工作人员
+ じこ - [jiko] - 事故
+ すずしい - [suzushii] - 凉爽
+ そろそろ - [sorosoro] - 差不多该
+ どうしましょうか - [doushimashouka] - 怎么办好呢
+ はし - [hashi] - 桥
+ もう一つ - [mou yītsu] - 再一个
+ もち - [mochi] - 麻糬
+ やきそば - [yakisoba] - 炒面
+ やたい - [yatai] - 小吃摊
+ アナウンス - [anaunsu] - 广播
+ カモ - [kamo] - 鸭子
+ モノレール - [monorēru] - 单轨列车
+ 今週 - 这周
+ 八分 - 零八分, 八分
+ 来年 - 明年
+ 花見をします - 赏花
+ 電車 - 火车
+53 Okinawa 安排并前往冲绳旅行
+ うみがめ - [umigame] - 海龟
+ けしき - [keshiki] - 风景
+ げんきん - [genkin] - 现金
+ しらべます - [shirabemasu] - 查找
+ つめたい - [tsumetai] - 冰的
+ ねだん - [nedan] - 价格
+ まあまあ - [maamaa] - 还行
+ まどがわ - [madogawa] - 靠窗
+ イルカ - [iruka] - 海豚
+ カード - [kādo] - 卡
+ サーフィン - [sāfin] - 冲浪
+ ストロー - [sutorō] - 吸管
+ タコライス - [takoraisu] - 章鱼饭
+ パイナップル - [painappuru] - 菠萝
+ マンゴー - [mangō] - 芒果
+ メール - [mēru] - 电子邮件
+ 五月 - 五月
+ 木 - 树
+ 海 - 大海, 海, 海洋
+ 車 - 车
+54 Cruise 讨论游轮体验
+ いろいろ - [iroiro] - 各种各样的
+ かいがい - [kaigai] - 国外
+ くもり - [kumori] - 阴天
+ けっこう - [kekkou] - 相当多
+ こんど - [kondo] - 下次
+ ご飯 - [go fàn] - 饭
+ しま - [shima] - 岛
+ そふぼ - [sofubo] - 我爷爷奶奶
+ でした - [deshita] - 是
+ ふくおか - [fukuoka] - 福冈
+ ふね - [fune] - 船
+ みずぎ - [mizugi] - 泳衣
+ みなと - [minato] - 港口
+ アトラクション - [atorakushon] - 游乐设施
+ クルーズ - [kurūzu] - 游轮
+ ツアー - [tsuā] - 观光团
+ ハンバーガー - [hanbāgā] - 汉堡
+ ミニゴルフ - [minigorufu] - 迷你高尔夫
+ リゾート - [rizōto] - 度假村
+ ロブスター - [robusutā] - 龙虾
+ 一週間 - 一周
+ 三日間 - 三天
+ 何日間 - 几天
+ 食べほうだい - 自助餐
+55 Ryokan 描述旅行经历
+ おきゃくさん - [okyakusan] - 客人
+ かならず - [kanarazu] - 一定
+ きせつの - [kisetsuno] - 时令
+ きのこ - [kinoko] - 蘑菇
+ さしみ - [sashimi] - 生鱼片
+ しんせん - [shinsen] - 新鲜
+ たたみ - [tatami] - 榻榻米
+ まわり - [mawari] - 周围
+ みずうみ - [mizuumi] - 湖
+ むら - [mura] - 村子
+ もり - [mori] - 森林
+ よく - [yoku] - 好
+ りっぱ - [rippa] - 出色
+ りょかん - [ryokan] - 日式旅馆
+ スタッフ - [sutaffu] - 员工
+ レビュー - [rebyū] - 评价
+ 二日間 - 两天
+ 入口 - 入口
+ 十一月 - 十一月
+ 書きます - 写
+56 Sick Day 使用动词的过去否定式
+ あけます - [akemasu] - 打开
+ かります - [karimasu] - 借
+ ぜんぜん - [zenzen] - 完全
+ にがい - [nigai] - 苦
+ ねつ - [netsu] - 发烧
+ の中で - [no zhōngde] - 内
+ ティッシュ - [tisshu] - 纸巾
+ ノート - [nōto] - 笔记本
+ ビタミン - [bitamin] - 维生素
+ マスク - [masuku] - 口罩
+ メールします - [mērushimasu] - 发邮件
+ 一日中 - 一整天
+ 何も - 什么都, 什么, 何
+ 後で - 待会儿
+ 昨日 - 昨天
+ 雨 - 雨天, 雨, 下雨, 当雨
+ 電話します - 打电话
+57 New Home 2 参加暖房聚会
+ おくさん - [okusan] - 夫人
+ かぐ - [kagu] - 家具
+ かびん - [kabin] - 花瓶
+ かべ - [kabe] - 墙壁
+ げんかん - [genkan] - 玄关
+ たな - [tana] - 架子
+ だれの - [dareno] - 谁的
+ だんなさん - [dan'nasan] - 丈夫
+ てづくりの - [tedzukurino] - 自己做的
+ もん - [mon] - 门
+ スリッパ - [surippa] - 拖鞋
+ ソファ - [sofa] - 沙发
+ ダイニング - [dainingu] - 餐厅
+ チキン - [chikin] - 鸡肉
+ ドア - [doa] - 门
+ ペット - [petto] - 宠物
+ 今月 - 这个月
+ 午後 - 下午
+ 東 - 东边
+ 間 - 之间
+58 Hotel 2 表达旅行中的不满
+ うすい - [usui] - 薄
+ こうこく - [koukoku] - 广告
+ じゃなかった - [janakatta] - 不
+ ぬるい - [nurui] - 温的
+ ほかの - [hokano] - 其他的
+ もう - [mou] - 再也
+ わるい - [warui] - 坏
+ カーテン - [kāten] - 窗帘
+ ゴキブリ - [gokiburi] - 蟑螂
+ ゴミ - [gomi] - 垃圾
+ シャトルバス - [shatorubasu] - 穿梭巴士
+ シャワー - [shawā] - 淋浴
+ シャンプー - [shanpū] - 洗发水
+ シリアル - [shiriaru] - 谷物片
+ トイレ - [toire] - 卫生间
+ ベタベタ - [betabeta] - 黏糊糊
+ 六階 - 六楼
+ 四日間 - 四天
+ 朝ご飯 - 早饭
+ 西 - 西边
+59 Bad Date 分享约会的失望
+ うるさい - [urusai] - 吵闹
+ えんぎ - [engi] - 表演
+ おばけやしき - [obakeyashiki] - 鬼屋
+ かたい - [katai] - 硬的
+ きっと - [kitto] - 一定
+ けんかします - [kenkashimasu] - 吵架, 打架, 争吵
+ こんでいます - [kondeimasu] - 拥挤
+ さいあく - [saiaku] - 最糟糕
+ ざんねん - [zan'nen] - 令人失望
+ だけ - [dake] - 只有
+ もんだい - [mondai] - 问题
+ ゆうえんち - [yuuenchi] - 游乐园
+ ゆか - [yuka] - 地板
+ れつ - [retsu] - 队
+ わかれます - [wakaremasu] - 分手
+ アプリ - [apuri] - 应用
+ シーン - [shīn] - 场景
+ ダサい - [dasai] - 土气, 好丑
+ メイン - [mein] - 主菜
+ 七日 - 七号, 七日
+ 今回 - 这次
+ 先週 - 上周
+ 六月 - 六月
+ 昨日 - 昨天
+ 晩ご飯 - 晚饭
+60 Wedding 参加婚礼
+ うつくしい - [utsukushii] - 美丽的
+ おととい - [ototoi] - 前天
+ お酒 - [o jiǔ] - 酒
+ かいじょう - [kaijou] - 场地
+ かしゅ - [kashu] - 歌手
+ かんどうします - [kandoushimasu] - 感动, 触动, 打动
+ けっこんしき - [kekkonshiki] - 婚礼
+ しんせき - [shinseki] - 亲属
+ しんぷ - [shinpu] - 新娘
+ しんろう - [shinrou] - 新郎
+ つまらない - [tsumaranai] - 无聊
+ ひくい - [hikui] - 低的
+ ひどい - [hidoi] - 糟糕, 真差
+ へん - [hen] - 奇怪
+ カーペット - [kāpetto] - 地毯
+ ゲスト - [gesuto] - 宾客
+ スピーチ - [supīchi] - 致辞
+ 六日 - 六号
+ 色 - 颜色
+ 花 - 朵花, 花, 里花, 花朵, 鲜花
+61 Restaur.3 连接两个形容词
+ おくじょう - [okujou] - 屋顶
+ こみます - [komimasu] - 拥挤
+ さいこう - [saikou] - 最棒
+ しらべます - [shirabemasu] - 查找
+ そうですね - [soudesune] - 是啊
+ で - [de] - 用, 因为, 坐, 上, 又, 下, 开, 到, 在, 骑, 里, 边, 以, 中, 以长
+ にあります - [niarimasu] - 在
+ にがて - [nigate] - 不喜欢
+ ふんいき - [fun'iki] - 气氛
+ やったー - [yattā] - 太好了
+ オーガニック - [ōganikku] - 有机
+ カジュアル - [kajuaru] - 休闲
+ サイト - [saito] - 网站
+ シェフ - [shefu] - 厨师
+ ブラジル料理 - [burajiru liào lǐ] - 巴西料理
+ ベジタリアン - [bejitarian] - 素食
+ マンション - [manshon] - 公寓
+ 人気 - 受欢迎
+ 入れます - 放入
+ 場所 - 地方
+ 少し - 有点
+ 日本料理 - 日本料理
+62 Returns 退换商品
+ Lサイズ - 大号
+ がおすすめ - [gaosusume] - 推荐, 建议, 介绍, 适合, 最佳选择
+ がら - [gara] - 图案
+ しょうひん - [shouhin] - 商品
+ すてます - [sutemasu] - 扔
+ だいじょうぶ - [daijoubu] - 没问题
+ ちがう - [chigau] - 不同的
+ みじかい - [mijikai] - 短
+ やわらかい - [yawarakai] - 柔软
+ よ - [yo] - 哦
+ オレンジ - [orenji] - 橙色
+ ズボン - [zubon] - 裤子
+ ワンピース - [wanpīsu] - 连衣裙
+ 店 - 商店, 摊子, 丁, 店, 门店
+63 Essentials 买旅行必需品
+ あ - [a] - 啊, 哎呀
+ いちおう - [ichiou] - 以防万一
+ いります - [irimasu] - 需要
+ からっぽ - [karappo] - 空的
+ きつい - [kitsui] - 紧
+ くし - [kushi] - 梳子
+ したぎ - [shitagi] - 内衣
+ せっけん - [sekken] - 肥皂
+ ぜんぶ - [zenbu] - 全部
+ はいりません - [hairimasen] - 不加入
+ はみがきこ - [hamigakiko] - 牙膏
+ はブラシ - [haburashi] - 牙刷
+ ばんそうこう - [bansoukou] - 绷带
+ コンディショナー - [kondishonā] - 护发素
+ デオドラント - [deodoranto] - 除臭剂
+ ドラッグストア - [doraggusutoa] - 药店
+ バックパック - [bakkupakku] - 背包
+ 八百 - 八百, 千八百
+ 友だち - 朋友
+ 来週 - 下周
+ 買い物リスト - 购物清单
+64 Summer 计划夏季活动
+ おそい - [osoi] - 很晚
+ かきごおり - [kakigoori] - 刨冰
+ きがえます - [kigaemasu] - 换衣服
+ どこか - [dokoka] - 某个地方
+ ので - [node] - 因为
+ ひかげ - [hikage] - 背阴处
+ ひやけどめ - [hiyakedome] - 防晒霜
+ やきとり - [yakitori] - 烤鸡肉串
+ サングラス - [sangurasu] - 太阳镜
+ サンダル - [sandaru] - 凉鞋
+ サーフィン - [sāfin] - 冲浪
+ レモン - [remon] - 柠檬
+ ロッカールーム - [rokkārūmu] - 更衣室
+ 八日 - 八号
+ 持ってきます - 带来
+ 近い - 近, 还离
+ 飲み物 - 饮料
+65 WorkPlace2 职场交流技巧
+ いざかや - [izakaya] - 居酒屋
+ いただきます - [itadakimasu] - 我要开动了
+ うんてんします - [untenshimasu] - 开车
+ おかず - [okazu] - 菜肴
+ おつかれさまでした - [otsukaresamadeshita] - 辛苦了
+ おはようございます - [ohayougozaimasu] - 早上好
+ おわります - [owarimasu] - 结束
+ ざんぎょうします - [zangyoushimasu] - 加班
+ しごと - [shigoto] - 工作
+ じてんしゃ - [jitensha] - 自行车
+ だいじ - [daiji] - 重要
+ ふくざつ - [fukuzatsu] - 复杂
+ わかりました - [wakarimashita] - 知道了
+ タスク - [tasuku] - 任务
+ マネージャー - [manējā] - 经理
+ メニュー - [menyū] - 菜单
+ 何日 - 几号
+ 使います - 使用
+ 帰ります - 回家
+ 時間 - 时间
+ 月曜日 - 星期一
+ 朝 - 早上
+66 Gifts 使用表示给予和接受的动词
+ あげます - [agemasu] - 给
+ えほん - [ehon] - 图画书
+ おい - [oi] - 侄子
+ お茶 - [o chá] - 茶
+ お金 - [o jīn] - 钱
+ かわ - [kawa] - 皮革
+ そふ - [sofu] - 祖父
+ そぼ - [sobo] - 祖母
+ にんぎょう - [ningyou] - 玩具娃娃
+ めい - [mei] - 侄女
+ もらいます - [moraimasu] - 拿
+ やきます - [yakimasu] - 烤
+ ゆびわ - [yubiwa] - 戒指
+ よろこびます - [yorokobimasu] - 高兴
+ カメラ - [kamera] - 相机
+ ギフトカード - [gifutokādo] - 礼品卡
+ タブレット - [taburetto] - 平板
+ ハンカチ - [hankachi] - 手帕
+ パートナー - [pātonā] - 伴侣
+ 今年 - 今年
+ 小さい - 小
+ 毎年 - 每年
+67 Clinic 讨论健康状况
+ SNS - 社交网站
+ あたま - [atama] - 头
+ うで - [ude] - 手臂
+ おだいじに - [odaijini] - 请保重
+ かぜ - [kaze] - 感冒
+ きず - [kizu] - 伤
+ くび - [kubi] - 脖子
+ げんいん - [gen'in] - 原因
+ しばらく - [shibaraku] - 暂时
+ ちょっと - [chotto] - 有点
+ て - [te] - 手
+ どうしましたか - [doushimashitaka] - 怎么了
+ なおります - [naorimasu] - 好
+ ぬります - [nurimasu] - 涂
+ ほとんど - [hotondo] - 几乎
+ やっきょく - [yakkyoku] - 药店
+ クリニック - [kurinikku] - 诊所
+ ストレス - [sutoresu] - 压力
+ 痛い - 痛
+ 目 - 眼睛, 目
+68 Hobbies 3 讨论爱好
+ かちます - [kachimasu] - 赢
+ かっこよかった - [kakkoyokatta] - 好酷
+ さいきん - [saikin] - 最近
+ すごい - [sugoi] - 厉害
+ せんしゅ - [senshu] - 选手
+ たっきゅう - [takkyuu] - 桌球
+ とくい - [tokui] - 擅长
+ にがて - [nigate] - 不擅长
+ になります - [ninarimasu] - 变得, 变成
+ ね - [ne] - 睡觉, 吧, 哦, 啊
+ の時 - [no shí] - 的时后
+ はじめます - [hajimemasu] - 开始
+ はたち - [hatachi] - 二十岁
+ ゴルフ - [gorufu] - 高尔夫球
+ ジョギング - [jogingu] - 慢跑
+ チーム - [chīmu] - 队
+ ブーツ - [būtsu] - 靴子
+ 毎朝 - 每天早上
+ 高校 - 高中
+69 Univ.2 讨论课程
+ えらびます - [erabimasu] - 选择
+ きびしい - [kibishii] - 严格, 矍
+ きょうかしょ - [kyoukasho] - 课本
+ けど - [kedo] - 但
+ こんがっき - [kongakki] - 这学期
+ せいぶつがく - [seibutsugaku] - 生物学
+ ぜひ - [zehi] - 一定
+ だけど - [dakedo] - 但是
+ らいがっき - [raigakki] - 下学期
+ りゅうがくせい - [ryuugakusei] - 国际学生
+ オフィスアワー - [ofisuawā] - 师生晤谈时间
+ クラスメイト - [kurasumeito] - 同班同学
+ グループで - [gurūpude] - 小组一起
+ スケジュール - [sukejūru] - 课表
+ プログラミング - [puroguramingu] - 编程
+ メディアセンター - [mediasentā] - 媒体中心
+ ヨーロッパ - [yōroppa] - 欧洲
+ 何人 - 几个人
+ 先生 - 老师
+ 十一人 - 十一个人
+ 日本語 - 日语
+ 語 - 语
+70 Pos.OfficE 在邮局寄包裹
+ おくります - [okurimasu] - 发送
+ きって - [kitte] - 邮票
+ じゅうしょ - [juusho] - 地址
+ てがみ - [tegami] - 信
+ どうしよう - [doushiyou] - 怎么办
+ にもつ - [nimotsu] - 行李
+ ね - [ne] - 噢
+ はこ - [hako] - 箱子
+ ふね - [fune] - 船运
+ ほうほう - [houhou] - 方法
+ ゆうびんきょく - [yuubinkyoku] - 邮局
+ キログラム - [kiroguramu] - 公斤
+ サイズ - [saizu] - 尺寸
+ テープ - [tēpu] - 胶带
+ ラベル - [raberu] - 标签
+ 七 - 七
+ 三百 - 三百
+ 入れます - 放入
+ 名前 - 名字
+ 四日 - 四号
+71 New Home 3 讨论暖房家具采买
+ いつでも - [itsudemo] - 随时
+ おきます - [okimasu] - 起床
+ かたい - [katai] - 硬的
+ けっこう - [kekkou] - 相当
+ すいはんき - [suihanki] - 电饭煲
+ せい - [sei] - 制造
+ ちょうどいい - [choudoii] - 正合适
+ どれ - [dore] - 哪个
+ なべ - [nabe] - 锅
+ に - [ni] - 二, 得, 决定要, 而, 给, 地到, 于, 上, 和, 往, 让, 有, 到, 向, 在, 对, 里, 跟, 去, 以, 地, 为, 成, 他于
+ ひつよう - [hitsuyou] - 必要
+ へん - [hen] - 附近
+ タンス - [tansu] - 衣柜
+ ダンボール - [danbōru] - 纸板箱
+ テーブルクロス - [tēburukurosu] - 桌布
+ トラック - [torakku] - 卡车
+ 十万 - 十万
+ 家具屋 - 家具店
+ 短い - 短的
+ 近所 - 附近
+ 長い - 长
+72 Surp Party 策划惊喜派对
+ うた - [uta] - 歌曲
+ かいしゃ - [kaisha] - 公司
+ じゅんび - [junbi] - 准备
+ つけます - [tsukemasu] - 开
+ て - [te] - 了, 着, 因为
+ てつだいます - [tetsudaimasu] - 帮忙
+ に立ちます - [ni lìchimasu] - 站着, 站在
+ ふうせん - [fuusen] - 气球
+ サプライズ - [sapuraizu] - 惊喜
+ デコレーション - [dekorēshon] - 装饰
+ トレーニング - [torēningu] - 训练
+ ロウソク - [rousoku] - 蜡烛
+ 十日 - 十号
+ 早く - 快点, 快
+ 電気をけします - 关掉
+73 Comp. Trip 讨论公司旅行
+ いつか - [itsuka] - 有一天
+ おかしや - [okashiya] - 糖果店
+ おまもり - [omamori] - 护身符
+ おもいでを作ります - [omoidewo zuòrimasu] - 创造回忆
+ が多い - [ga duōi] - 很多
+ きもの - [kimono] - 和服
+ しゃいんりょこう - [shainryokou] - 员工旅行
+ とくに - [tokuni] - 特别
+ にわ - [niwa] - 院子
+ に入ります - [ni rùrimasu] - 进入
+ みんなで - [min'nade] - 大家一起
+ ガイドブック - [gaidobukku] - 旅游指南
+ マッサージをします - [massājiwoshimasu] - 做按摩
+ ルームサービス - [rūmusābisu] - 客房服务
+ 九日 - 九号
+ 前 - 前面
+ 味 - 味道
+ 温かい - 温暖
+ 行ってらっしゃい - 路上小心
+74 Family Biz 描述你的家庭生意
+ うすく - [usuku] - 薄
+ おかず - [okazu] - 配菜
+ お客さん - [o kèsan] - 顾客
+ かんりします - [kanrishimasu] - 管理
+ きゅうり - [kyuuri] - 黄瓜
+ どんぶり - [donburi] - 盖饭
+ にきがえます - [nikigaemasu] - 换
+ わりびき - [waribiki] - 折扣
+ を閉めます - [wo bìmemasu] - 关
+ アルバイト - [arubaito] - 兼职
+ シフト - [shifuto] - 班次
+ ソフトドリンク - [sofutodorinku] - 软饮料
+ メニュー - [menyū] - 菜单, 餐品
+ 以外 - 以外
+ 学生 - 学生
+ 毎週 - 每周
+ 考えます - 考虑
+75 Photo cont 参加摄影比赛
+ きめます - [kimemasu] - 决定
+ けします - [keshimasu] - 删除
+ けっか - [kekka] - 结果
+ こうさてん - [kousaten] - 交叉路口
+ さんかします - [sankashimasu] - 参加
+ しょう - [shou] - 奖
+ しろくろ - [shirokuro] - 黑白
+ なるほど - [naruhodo] - 原来如此
+ はくぶつかん - [hakubutsukan] - 博物馆
+ ふつう - [futsuu] - 普通的, 普通, 普通地
+ ほし - [hoshi] - 星星
+ アイデア - [aidea] - 想法
+ テーマ - [tēma] - 主题
+ フォトコンテスト - [fotokontesuto] - 摄影比赛
+ 二十日 - 二十号
+ 位 - 第, 位是
+ 前の - 前一部, 前一张, 前一个
+ 空 - 天空
+ 花火 - 烟花
+ 見せます - 给看
+76 Socl Media 使用社交媒体平台
+ うれしい - [ureshii] - 高兴
+ えもじ - [emoji] - 表情符号
+ おてつだいしましょうか - [otetsudaishimashouka] - 帮忙
+ かんたん - [kantan] - 简单
+ がわかりません - [gawakarimasen] - 不明白
+ が来ます - [ga láimasu] - 要来了
+ さびしい - [sabishii] - 寂寞
+ つながります - [tsunagarimasu] - 连接
+ とうこう - [toukou] - 帖子
+ とりあえず - [toriaezu] - 暂且
+ どんなこと - [don'nakoto] - 什么样的事情
+ にっき - [nikki] - 日记
+ に変えます - [ni biànemasu] - 换成
+ はがき - [hagaki] - 明信片
+ はじめての - [hajimeteno] - 第一次的
+ まご - [mago] - 孙子
+ むかし - [mukashi] - 以前
+ むかしの - [mukashino] - 过去的
+ アイコン - [aikon] - 图标
+ アカウント - [akaunto] - 账户
+ フォローします - [forōshimasu] - 关注
+ ボタン - [botan] - 按钮
+ 意外と - 意外地
+ 押します - 按
+ 長く - 长久地
+77 Outdoors 计划户外活动
+ がいい - [gaii] - 最好
+ きせつ - [kisetsu] - 季节
+ します - [shimasu] - 做
+ におい - [nioi] - 气味
+ やきます - [yakimasu] - 烤
+ キャンプ - [kyanpu] - 露营
+ シーフード - [shīfūdo] - 海鲜
+ ハイキング - [haikingu] - 徒步旅行
+ ハンバーグ - [hanbāgu] - 汉堡排
+ バーベキュー - [bābekyū] - 烧烤
+ ピクニック - [pikunikku] - 野餐
+ 午前 - 上午
+ 川 - 河
+ 広場 - 广场
+ 早い - 早, 捷, 真快
+78 Cas Dining 在餐厅点餐
+ おごり - [ogori] - 请客
+ おなかがいっぱい - [onakagaippai] - 吃饱了
+ こい - [koi] - 浓
+ すっぱい - [suppai] - 酸的
+ とろとろ - [torotoro] - 浓稠
+ どちらがいいですか - [dochiragaiidesuka] - 哪个更好
+ ぶどう - [budou] - 葡萄
+ めん - [men] - 棉
+ ようしょく - [youshoku] - 西餐
+ オムライス - [omuraisu] - 蛋包饭
+ スペシャル - [supesharu] - 特色菜
+ ソーセージ - [sōsēji] - 香肠
+ ドリンクバー - [dorinkubā] - 自助饮料区
+ ドレッシング - [doresshingu] - 沙拉酱
+ ファミレス - [famiresu] - 家庭餐厅
+ マヨネーズ - [mayonēzu] - 蛋黄酱
+ レタス - [retasu] - 生菜
+ 半分 - 一半
+ 辛い - 辣
+79 Thrift Shp 去二手店购物
+ いらない - [iranai] - 不需要的
+ かたづけます - [katadzukemasu] - 整理
+ がはやっています - [gahayatteimasu] - 正在流行
+ が多すぎます - [ga duōsugimasu] - 太多了
+ さっか - [sakka] - 作家
+ しょうせつ - [shousetsu] - 小说
+ のほうが - [nohouga] - 比较
+ もの - [mono] - 东西
+ より - [yori] - 比
+ ギター - [gitā] - 吉他
+ デジタル - [dejitaru] - 数字
+ ファッション - [fasshon] - 时尚
+ ベルト - [beruto] - 皮带
+ リサイクルショップ - [risaikurushoppu] - 二手店
+ レコード - [rekōdo] - 唱片
+ レトロな - [retorona] - 复古
+ 中古 - 二手
+ 冊 - 本, 三册
+ 少ない - 少
+ 年代 - 年代
+ 時計 - 时钟
+ 赤い - 红色
+80 office 2 跟同事合作完成项目
+ います - [imasu] - 在
+ かかります - [kakarimasu] - 花
+ しょるい - [shorui] - 文件
+ じゅうよう - [juuyou] - 重要
+ まとめます - [matomemasu] - 整理
+ よろしくおねがいします - [yoroshikuonegaishimasu] - 请多关照
+ カレンダー - [karendā] - 日历
+ コピーします - [kopīshimasu] - 复印
+ サインします - [sainshimasu] - 签字
+ データ - [dēta] - 数据
+ ホチキス - [hochikisu] - 订书机
+ メールアドレス - [mēruadoresu] - 电子邮件地址
+ レポート - [repōto] - 报告
+ 代 - 费
+ 何か - 什么
+ 入力します - 输入
+ 十四日 - 十四日
+ 夕方 - 傍晚
+ 映画 - 电影
+81 Ski Trip 计划滑雪旅行
+ あつまります - [atsumarimasu] - 聚集
+ くま - [kuma] - 熊
+ くれませんか - [kuremasenka] - 可以给我吗？
+ しゅっぱつします - [shuppatsushimasu] - 出发
+ しょしんしゃ - [shoshinsha] - 初学者
+ すばらしい - [subarashii] - 美好
+ にもつ - [nimotsu] - 行李
+ のけいけん - [nokeiken] - 的经验
+ びん - [bin] - 瓶子
+ ようひん - [youhin] - 用品
+ ゴーグル - [gōguru] - 护目镜
+ スキー場 - [sukī chǎng] - 滑雪场
+ ヘルメット - [herumetto] - 头盔
+ 半日 - 半天
+ 天気 - 天气
+ 安全 - 安全
+ 寒い - 冷
+ 暖かい - 暖和
+ 気をつけます - 小心
+ 短い - 短的
+ 雪 - 雪
+82 Movies 讨论最喜欢的电影类型
+ あたまが大きい - [atamaga dàkii] - 头大
+ かいじゅう - [kaijuu] - 怪兽
+ かなしい - [kanashii] - 悲伤的, 最悲伤的
+ かみが長い - [kamiga zhǎngi] - 头发长
+ きもちわるい - [kimochiwarui] - 恶心, 恶心的
+ こえが大きい - [koega dàkii] - 声音很大
+ さいご - [saigo] - 最后
+ じょゆう - [joyuu] - 女演员
+ せが高い - [sega gāoi] - 个子高
+ その - [sono] - 那个, 那家, 那, 那起
+ わかい - [wakai] - 年轻
+ わくわくする - [wakuwakusuru] - 令人兴奋的
+ わらいます - [waraimasu] - 笑
+ アジア - [ajia] - 亚洲
+ スペイン - [supein] - 西班牙
+ 一年中 - 一年到头
+ 休みの日 - 休息日
+ 外国 - 外国
+ 女の人 - 女人
+ 好き - 喜欢
+ 明日の夜 - 明天晚上
+ 映画館 - 电影院
+ 男の人 - 男人
+ 目が大きい - 眼睛大
+83 FUKUOKA 探索福冈当地景点
+ うすい - [usui] - 薄
+ かんこうち - [kankouchi] - 旅游景点
+ きゅうしゅう - [kyuushuu] - 九州
+ こうがい - [kougai] - 郊区
+ しゅっちょう - [shutchou] - 出差
+ じょう - [jou] - 城堡
+ すもう - [sumou] - 相扑
+ とおり - [toori] - 街道
+ とんこつラーメン - [tonkotsurāmen] - 豚骨拉面
+ にゅうじょうりょう - [nyuujouryou] - 入场费
+ びじゅつ - [bijutsu] - 美术
+ むしあつい - [mushiatsui] - 闷热, 闷热的
+ タワー - [tawā] - 塔
+ ドーム - [dōmu] - 圆顶体育馆
+ 三十日 - 三十日
+ 冬 - 冬天
+ 十七日 - 十七日
+ 市 - 市
+ 昨日の夜 - 昨天晚上
+ 昼間 - 白天
+ 科学 - 科学
+ 黒い - 黑色的
+84 Bookstre 2 在书店点咖啡
+ えんぴつ - [enpitsu] - 铅笔
+ くない - [kunai] - 不
+ けいざい - [keizai] - 经济
+ けしごむ - [keshigomu] - 橡皮擦
+ こわい - [kowai] - 可怕, 怕
+ じしょ - [jisho] - 词典
+ じゃない - [janai] - 不是
+ そう - [sou] - 看起来
+ におります - [niorimasu] - 在
+ にきょうみがあります - [nikyoumigaarimasu] - 有兴趣
+ ほんやく - [hon'yaku] - 翻译
+ れきし - [rekishi] - 历史
+ をもどします - [womodoshimasu] - 放回去
+ エスカレーター - [esukarētā] - 自动扶梯
+ バニラ - [banira] - 香草
+ 文学 - 文学
+ 本屋 - 书店
+ 毎月 - 每月
+ 紙 - 纸
+85 Wedding 2 参加家人的婚礼
+ おじ - [oji] - 叔叔
+ おば - [oba] - 姑姑
+ かんぱいします - [kanpaishimasu] - 干杯
+ こうかんします - [koukanshimasu] - 交换
+ さくらんぼ - [sakuranbo] - 樱桃
+ どれぐらいの - [doreguraino] - 多少
+ なげます - [nagemasu] - 扔, 扔花束
+ になります - [ninarimasu] - 变得, 变成
+ ひさしぶりです - [hisashiburidesu] - 好久不见
+ ウェディングケーキ - [u~edingukēki] - 婚礼蛋糕
+ チーズ - [chīzu] - 奶酪
+ ブーケ - [būke] - 花束
+ リハーサル - [rihāsaru] - 彩排
+ 大人 - 成人
+ 子ども - 孩子
+ 歳 - 岁
+ 白い - 白色的
+86 HOTEL 3 比较酒店选项
+ あずかります - [azukarimasu] - 保管
+ いくつか - [ikutsuka] - 一些
+ いなか - [inaka] - 乡下
+ うけとります - [uketorimasu] - 接收
+ お得 - [o dé] - 划算
+ きんえん - [kin'en] - 禁烟
+ きんこ - [kinko] - 保险箱
+ ここちいい - [kokochiii] - 舒适的, 舒适
+ せんたく - [sentaku] - 洗衣
+ それなら - [sorenara] - 如果是那样的话
+ になります - [ninarimasu] - 变得, 变成
+ ひょうか - [hyouka] - 评价
+ ふべん - [fuben] - 不方便
+ アイロン - [airon] - 熨斗
+ アプリけっさい - [apurikessai] - 应用支付
+ キャンペーン - [kyanpēn] - 促销活动
+ コピーき - [kopīki] - 复印机
+ フロント - [furonto] - 前台
+ ミーティングルーム - [mītingurūmu] - 会议室
+ 二十七日 - 二十七日
+ 四人 - 四个人
+ 急ぎます - 急
+ 旅行 - 旅行
+87 Meeting 礼貌地讨论会议延迟
+ うら - [ura] - 背面
+ が足りません - [ga zúrimasen] - 不够
+ こうじょう - [koujou] - 工厂
+ さっき - [sakki] - 刚才
+ しつれいします - [shitsureishimasu] - 失礼
+ しょうしょうお待ちください - [shoushouo dàichikudasai] - 稍等片刻
+ しりょう - [shiryou] - 资料
+ それでは - [soredeha] - 那么
+ どうぞ - [douzo] - 请
+ について - [nitsuite] - 关于
+ めいし - [meishi] - 名片
+ インド - [indo] - 印度
+ タイ - [tai] - 泰国
+ メキシコ - [mekishiko] - 墨西哥
+ 二十九日 - 二十九日
+ 会社 - 公司
+ 会社員 - 公司职员
+ 年 - 1年, 年, 年份
+ 枚 - 个, 件, 枚, 幅, 条, 张, 块, 一枚, 这枚
+ 空いています - 空着
+ 終わり - 结束
+ 返事します - 回复
+88 Exams 讨论备考策略
+ おきて - [okite] - 起床
+ おぼえます - [oboemasu] - 记住
+ かもく - [kamoku] - 科目
+ がしんぱい - [gashinpai] - 担心
+ きまつしけん - [kimatsushiken] - 期末考试
+ こたえ - [kotae] - 答案
+ せいせき - [seiseki] - 成绩
+ たんご - [tango] - 单词
+ どういういみですか - [douiuimidesuka] - 是什么意思
+ ひるねします - [hiruneshimasu] - 午睡
+ ふくしゅうします - [fukushuushimasu] - 复习
+ やっと - [yatto] - 终于
+ ページ - [pēji] - 页
+ レポート - [repōto] - 报告
+ 問題 - 问题, 练习题
+ 外国語 - 外语
+ 大学 - 大学
+ 正しい - 正确的
+ 漢字 - 汉字
+89 Video Call 进行视频通话
+ かみなり - [kaminari] - 雷
+ がめん - [gamen] - 屏幕
+ こえ - [koe] - 声音
+ しつれいします - [shitsureishimasu] - 失礼
+ しょうぼうしゃ - [shoubousha] - 消防车
+ だいじょうぶですよ - [daijoubudesuyo] - 没关系的
+ ふります - [furimasu] - 挥动, 挥
+ ようじ - [youji] - 事情
+ サイレン - [sairen] - 警报器
+ マイク - [maiku] - 麦克风
+ ミュートにします - [myūtonishimasu] - 静音
+ ログイン - [roguin] - 登录
+ 十一日 - 十一日
+ 強い - 强烈, 强
+ 終わりにします - 结束
+ 部屋 - 房间
+ 音が大きい - 大
+ 音が小さい - 声音小
+ 風 - 风
+90 Wrking Out 讨论运动和活动
+ あせをかきます - [asewokakimasu] - 流汗
+ おふろに入ります - [ofuroni rùrimasu] - 洗澡
+ かた - [kata] - 肩膀
+ しゅみ - [shumi] - 爱好
+ とびます - [tobimasu] - 跳
+ によります - [niyorimasu] - 顺路去
+ の - [no] - 呢, 吗, 之, 的
+ アメフト - [amefuto] - 美式足球
+ ストレッチ - [sutoretchi] - 拉伸
+ ダンベル - [danberu] - 哑铃
+ 回 - 次, 遍
+ 天気がいい - 天气好
+ 室内 - 室内
+ 暑い - 热
+ 行って - 去
+ 運動 - 锻炼
+ 重い - 重, 鱼重
+91 Oshougatsu 讨论日本新年习俗
+ あけましておめでとうございます - [akemashiteomedetougozaimasu] - 新年快乐
+ いのります - [inorimasu] - 祈祷
+ おおそうじ - [oosouji] - 大扫除
+ おせち料理 - [osechi liào lǐ] - 年节料理
+ お正月 - [o zhèng yuè] - 正月
+ かざります - [kazarimasu] - 装饰
+ が楽しみです - [ga lèshimidesu] - 期待
+ しゅうかん - [shuukan] - 习惯
+ すごします - [sugoshimasu] - 度过
+ ぞうり - [zouri] - 草鞋
+ ねがいごと - [negaigoto] - 愿望
+ ねんがじょう - [nengajou] - 年贺状
+ ばんぐみ - [bangumi] - 节目
+ もくひょう - [mokuhyou] - 目标
+ 写真 - 照片
+ 初め - 开始
+ 去年 - 去年
+ 日の出 - 日出
+ 着ます - 穿
+92 Travel 3 协调国际旅行
+ それから - [sorekara] - 然后
+ ぞう - [zou] - 大象
+ についていきます - [nitsuiteikimasu] - 跟到, 跟着
+ る - [ru] - 会
+ エビ - [ebi] - 虾
+ ココナッツ - [kokonattsu] - 椰子
+ シンガポール - [shingapōru] - 新加坡, 新加坡人
+ マレーシア - [marēshia] - 马来西亚
+ ライドシェア - [raidoshea] - 拼车
+ 人で - 人
+ 国 - 国家
+ 店 - 店
+ 服 - 衣服
+ 東南アジア - 东南亚
+ 海外 - 海外
+ 誰 - 谁
+ 長い - 长
+93 Bank 开银行账户
+ あさって - [asatte] - 后天
+ あずけます - [azukemasu] - 存
+ いる - [iru] - 有
+ うんてんめんきょ - [untenmenkyo] - 驾驶证
+ か - [ka] - 或, 呢, 吗, 要么, 乎, 什么, 嗎, 卦
+ ぎんこう - [ginkou] - 银行
+ こうざ - [kouza] - 账户
+ すいています - [suiteimasu] - 空
+ たいてい - [taitei] - 一般
+ ちょきんします - [chokinshimasu] - 存钱, 存
+ はちょっと - [hachotto] - 有点儿
+ りゅうがくします - [ryuugakushimasu] - 留学
+ メモをとります - [memowotorimasu] - 记笔记
+ 三十万 - 三十万
+ 会社員 - 公司职员
+ 十九日 - 十九日
+ 午前 - 上午
+ 午後 - 下午
+ 南 - 南方
+ 四分 - 四分钟
+ 百万 - 一百万
+94 Research 讨论学术研究过程
+ いけん - [iken] - 意见
+ が間違っています - [ga jiān wéitteimasu] - 错了
+ けんきゅう - [kenkyuu] - 研究
+ しょうらい - [shourai] - 将来
+ せんそう - [sensou] - 战争
+ その時 - [sono shí] - 那时
+ た - [ta] - 了, 过, 的
+ どう思いますか - [dou sīimasuka] - 怎么看
+ について - [nitsuite] - 关于
+ はっぴょう - [happyou] - 发表
+ ふくざつ - [fukuzatsu] - 复杂
+ ろんぶん - [ronbun] - 论文
+ リンク - [rinku] - 链接
+ 古代 - 古代
+ 文化 - 文化
+ 新聞 - 报纸
+ 生活 - 生活
+ 自分で - 自己
+ 課題 - 作业
+ 返します - 归还, 还给
+95 BBQ 举办烧烤聚会
+ いえいえ - [ieie] - 不客气
+ ごちそうさまでした - [gochisousamadeshita] - 感谢款待
+ つれてきます - [tsuretekimasu] - 带来
+ はだいじょうぶです - [hadaijoubudesu] - 没问题
+ ふくろ - [fukuro] - 袋子
+ へようこそ - [heyoukoso] - 欢迎来到
+ むかえに行きます - [mukaeni xíngkimasu] - 去接
+ れんらくさき - [renrakusaki] - 联系方式
+ をどうぞ - [wodouzo] - 请
+ インフルエンザ - [infuruenza] - 流感
+ ピーマン - [pīman] - 青椒
+ 初めて - 第一次
+ 大学生 - 大学生
+ 夫 - 丈夫
+ 妻 - 妻子
+ 火をつけます - 点火
+ 知り合い - 熟人
+ 計画します - 计划
+96 Dietary 讨论饮食需求
+ いらっしゃいませ - [irasshaimase] - 欢迎光临
+ おなか - [onaka] - 肚子
+ ざいりょう - [zairyou] - 材料
+ じょうほう - [jouhou] - 信息
+ すぐ - [sugu] - 马上
+ の味がします - [no wèigashimasu] - 有...的味道
+ は入っていますか - [ha rùtteimasuka] - 有吗
+ ひょうじ - [hyouji] - 标示
+ もうしわけありません - [moushiwakearimasen] - 非常抱歉
+ わりびきけん - [waribikiken] - 折扣券
+ サービス - [sābisu] - 服务
+ ビーガン - [bīgan] - 纯素
+ ピーナッツ - [pīnattsu] - 花生
+ 何色 - 什么颜色
+ 別の - 另一个
+ 店員 - 店员
+ 店長 - 店长
+ 来て - 来
+ 気分が悪い - 不好, 不适
+ 遅い - 太迟了, 不早了
+97 Who Dun It 讨论犯罪现场
+ きいろい - [kiiroi] - 黄色的
+ こわい - [kowai] - 可怕, 怕
+ つかまえます - [tsukamaemasu] - 抓
+ どろぼう - [dorobou] - 小偷
+ なります - [narimasu] - 成为, 会
+ に気づきます - [ni qìdzukimasu] - 注意到
+ よかったです - [yokattadesu] - 太好了
+ ろうか - [rouka] - 走廊
+ われています - [wareteimasu] - 被打破了
+ バイク - [baiku] - 摩托车
+ 変 - 奇怪
+ 急に - 突然
+ 早く - 快点, 快
+ 最初は - 一开始
+ 誰か - 有人, 谁, 某人
+98 meeting 2 组织商务会议
+ あんないします - [an'naishimasu] - 带, 带路
+ かいぎ - [kaigi] - 会议
+ じこしょうかいをします - [jikoshoukaiwoshimasu] - 做自我介绍
+ じゅうでんします - [juudenshimasu] - 充电
+ じゅんびできました - [junbidekimashita] - 准备好了
+ つうやく - [tsuuyaku] - 口译
+ もちろん - [mochiron] - 当然
+ スポンサー - [suponsā] - 赞助商
+ スライド - [suraido] - 幻灯片
+ ネパール - [nepāru] - 尼泊尔
+ ノートパソコン - [nōtopasokon] - 笔记本电脑
+ プロジェクター - [purojekutā] - 投影仪
+ メンバー - [menbā] - 成员
+ リーダー - [rīdā] - 领导
+ 受付 - 接待处
+ 本社 - 总部
+ 来る - 来, 驶来, 会到
+ 温度 - 温度
+99 Reunion 跟老朋友重聚
+ お兄さん - [o xiōngsan] - 哥哥
+ お姉さん - [o zǐsan] - 姐姐
+ かみがた - [kamigata] - 发型
+ かんごし - [kangoshi] - 护士
+ けいさつかん - [keisatsukan] - 警察
+ けっこんしています - [kekkonshiteimasu] - 结婚了
+ でおります - [deorimasu] - 下车
+ です - [desu] - 是
+ に近い - [ni jìni] - 离...近
+ のみほうだい - [nomihoudai] - 无限畅饮
+ ほんとうですか - [hontoudesuka] - 是真的吗
+ めがね - [megane] - 眼镜
+ を変えます - [wo biànemasu] - 换
+ イヤリング - [iyaringu] - 耳环
+ カクテル - [kakuteru] - 鸡尾酒
+ コーデ - [kōde] - 搭配
+ 今朝 - 今天早上
+ 南アメリカ - 南美洲
+ 行った - 去了
+ 金 - 金
+ 青い - 蓝色的
+100 Festivals 讨论文化节日传统
+ いしょう - [ishou] - 衣装
+ おいわい - [oiwai] - 庆祝
+ がっき - [gakki] - 乐器
+ ことはありますか - [kotohaarimasuka] - 过吗
+ します - [shimasu] - 做
+ そして - [soshite] - 然后
+ たとえば - [tatoeba] - 例如
+ つれていきます - [tsureteikimasu] - 带
+ でんとうてき - [dentouteki] - 传统
+ で何と言いますか - [de héto yánimasuka] - 怎么说
+ イタリア - [itaria] - 意大利
+ 中に - 儿里, 之内, 中有, 中别, 里, 面里, 往里面
+ 中東 - 中东
+ 今度 - 下次
+ 何月 - 几月
+ 屋台 - 摊位
+ 料理 - 烹饪, 餐品
+ 歌 - 歌曲
+ 特別 - 特别
+ 甘い - 甜
+101 healthy2 讨论健康生活方式选择
+ えいよう - [eiyou] - 营养
+ おすすめの - [osusumeno] - 推荐
+ お手洗い - [o shǒu xǐi] - 洗手间
+ たいいく - [taiiku] - 体育
+ できるだけ - [dekirudake] - 尽量
+ ない - [nai] - 不, 沒有
+ のいっしゅです - [noisshudesu] - 一种
+ ひかえます - [hikaemasu] - 节制
+ りょう - [ryou] - 量
+ カロリー - [karorī] - 卡路里
+ キロメートル - [kiromētoru] - 公里
+ スタジオ - [sutajio] - 工作室
+ ダイエット - [daietto] - 减肥计划
+ リットル - [rittoru] - 升
+ 体にいい - 对身体好
+ 体に悪い - 对身体不好
+ 体重 - 体重
+ 必ず - 一定
+ 焼肉 - 烤肉
+ 高い - 高的, 高高
+102 Xchg Stdnt 适应文化差异
+ じゅく - [juku] - 补习班
+ せいふく - [seifuku] - 制服
+ たいそうふく - [taisoufuku] - 运动服
+ では - [deha] - 不是
+ ならびます - [narabimasu] - 排队
+ びっくりしました - [bikkurishimashita] - 吃惊
+ ほうかご - [houkago] - 放学后
+ スニーカー - [sunīkā] - 运动鞋
+ スポーツドリンク - [supōtsudorinku] - 运动饮料
+ チャイム - [chaimu] - 铃声
+ ホームステイ - [hōmusutei] - 寄宿家庭
+ 動画 - 视频
+ 屋上 - 屋顶
+ 昼休み - 午休
+ 水着 - 泳衣
+ 禁止 - 禁止
+ 部活 - 社团活动
+103 Day Trip 规划城市一日游
+ かいそく - [kaisoku] - 快车
+ かんこうきゃく - [kankoukyaku] - 游客
+ きっぷうりば - [kippuuriba] - 售票处
+ しずかに - [shizukani] - 安静地
+ しょうてんがい - [shoutengai] - 商店街
+ てんじ - [tenji] - 展览
+ でゆうめい - [deyuumei] - 闻名
+ ない - [nai] - 不, 沒有
+ にのりかえます - [ninorikaemasu] - 换乘
+ ふつう - [futsuu] - 普通的, 普通, 普通地
+ ゆうせんせき - [yuusenseki] - 优先席
+ ボタン - [botan] - 按钮
+ 何番ホーム - 几号站台
+ 牛肉 - 牛肉
+ 番 - 号
+ 終電 - 末班车
+ 運転手 - 司机
+ 遠い - 远
+ 間に合います - 来得及
+104 CulturDiff 讨论文化传统
+ いわいます - [iwaimasu] - 庆祝
+ えっ - [e~tsu] - 诶
+ お知らせ - [o zhīrase] - 通知
+ かみぶくろ - [kamibukuro] - 纸袋
+ こくさいこうりゅう - [kokusaikouryuu] - 国际交流
+ つけもの - [tsukemono] - 腌菜
+ と同じです - [to tóngjidesu] - 一样
+ と違います - [to wéiimasu] - 不同
+ べんとうばこ - [bentoubako] - 便当盒
+ もみじ - [momiji] - 红枫叶
+ オムレツ - [omuretsu] - 煎蛋卷
+ クリスマスツリー - [kurisumasutsurī] - 圣诞树
+ コスチューム - [kosuchūmu] - 服装
+ ジャム - [jamu] - 果酱
+ ハート - [hāto] - 心形
+ バレンタインデー - [barentaindē] - 情人节
+ ホワイトデー - [howaitodē] - 白色情人节
+ 出身 - 出身
+ 学生会館 - 学生会馆
+ 春 - 春
+ 月見をします - 赏月
+ 秋 - 秋天
+105 SchoolFest 组织学校节日商店
+ うまくいきます - [umakuikimasu] - 顺利进行
+ えのぐ - [enogu] - 颜料
+ おつり - [otsuri] - 找零
+ かんばん - [kanban] - 招牌
+ がくえんさい - [gakuensai] - 校园祭
+ こおり - [koori] - 冰块
+ そうしましょう - [soushimashou] - 就那样做吧
+ ぬります - [nurimasu] - 涂
+ のり - [nori] - 胶水
+ はさみ - [hasami] - 剪刀
+ クラス - [kurasu] - 班级
+ シロップ - [shiroppu] - 糖浆
+ メロン - [meron] - 哈密瓜
+ 会計 - 结账
+ 全部 - 全部
+ 売り切れ - 卖完了
+ 店を出します - 开店, 开
+ 私たち - 我们
+ 紙ナプキン - 纸巾
+ 話し合います - 商量
+106 Picnic 组织一次野餐聚会
+ ある - [aru] - 有
+ おしぼり - [oshibori] - 湿巾
+ かぜ - [kaze] - 感冒
+ かん - [kan] - 罐头
+ しばふ - [shibafu] - 草坪
+ すいとう - [suitou] - 水壶
+ そつぎょうしき - [sotsugyoushiki] - 毕业典礼
+ たたみます - [tatamimasu] - 折叠
+ のせます - [nosemasu] - 放
+ ます - [masu] - 会
+ よくて - [yokute] - 好
+ ガソリン - [gasorin] - 汽油
+ トランク - [toranku] - 后备箱
+ プラスチック - [purasuchikku] - 塑料
+ レジャーシート - [rejāshīto] - 野餐垫
+ 台 - 辆
+ 天気よほう - 天气预报
+ 気持ちいい - 舒服
+ 道 - 路
+ 集めます - 收集
+107 Conference 在会议上讨论业务
+ あちら - [achira] - 那边
+ いて - [ite] - 在
+ おぼえていますか - [oboeteimasuka] - 记得
+ おぼえていません - [oboeteimasen] - 没记住
+ かいさいします - [kaisaishimasu] - 举办
+ せいこうします - [seikoushimasu] - 成功
+ たんとうします - [tantoushimasu] - 负责
+ ちいき - [chiiki] - 地区
+ なふだ - [nafuda] - 名牌
+ のこります - [nokorimasu] - 留, 留下
+ カタログ - [katarogu] - 目录册
+ カンファレンス - [kanfarensu] - 会议
+ サンプル - [sanpuru] - 样品
+ ネットワーク - [nettowāku] - 人脉
+ ブース - [būsu] - 展位
+ 一昨年 - 前年
+ 中国 - 中国的
+ 中央アメリカ - 中美洲
+ 再来年 - 后年
+ 新商品 - 新产品
+ 東ヨーロッパ - 东欧
+ 社長 - 社长
+ 西アフリカ - 西非
+ 部長 - 部长
+ 顔 - 脸
+108 Bad Date 2 分享失望的经历
+ ううん - [uun] - 不
+ うそ - [uso] - 假话
+ うん - [un] - 嗯
+ お母さん - [o mǔsan] - 妈妈
+ お父さん - [o fùsan] - 爸爸
+ かっこよくなかった - [kakkoyokunakatta] - 不好看
+ しょうじき - [shoujiki] - 老实说
+ じゃあ - [jaa] - 那么
+ そうだね - [soudane] - 是啊
+ その人 - [sono rén] - 那个人
+ ただいま - [tadaima] - 我回来了
+ どうだった - [doudatta] - 怎么样
+ やばい - [yabai] - 糟糕
+ 元カノ - 前女友
+ 元カレ - 前男友
+ 無理 - 不可能
+109 Game Cent 讨论在游戏中心的活动
+ あるよ - [aruyo] - 有
+ いいね - [iine] - 不错
+ いいよ - [iiyo] - 没问题
+ から - [kara] - 从
+ くれない - [kurenai] - 不给我
+ ごめん - [gomen] - 对不起
+ すごく - [sugoku] - 非常
+ そうしよう - [soushiyou] - 那就那样做吧
+ だ - [da] - 的, 是, 了
+ ガチャポン - [gachapon] - 扭蛋机
+ キャラクター - [kyarakutā] - 角色
+ クレーンゲーム - [kurēngēmu] - 抓娃娃机
+ ゲームセンター - [gēmusentā] - 游戏中心
+ ゲーム機 - [gēmu jī] - 游戏机
+ プライズ - [puraizu] - 奖品
+ ボウリング - [bouringu] - 保龄球
+ 一時間 - 每一小时
+ 地図 - 地图
+ 晴れ - 晴朗
+ 楽しみ - 期待
+110 Stu Abroad 讨论留学经历
+ がやくにたちます - [gayakunitachimasu] - 有用
+ きかい - [kikai] - 机会
+ けいじばん - [keijiban] - 公告栏
+ こうりゅうします - [kouryuushimasu] - 交流
+ こくさいかんけい - [kokusaikankei] - 国际关系
+ しょうがくきん - [shougakukin] - 奖学金
+ での生活 - [deno shēng huó] - 中国的生活, 的生活, 日本的生活
+ ないよう - [naiyou] - 内容
+ になれます - [ninaremasu] - 能习惯
+ べんきょうできます - [benkyoudekimasu] - 可以学习
+ もうしこみます - [moushikomimasu] - 申请
+ りゅうがく - [ryuugaku] - 留学
+ りゅうがくせいセンター - [ryuugakuseisentā] - 留学生中心
+ インターンシップ - [intānshippu] - 实习
+ ビザ - [biza] - 签证
+ プログラム - [puroguramu] - 项目
+ 一か月間 - 一个月
+ 南アジア - 南亚
+ 学期 - 学期
+ 年 - 1年, 年, 年份
+ 年間 - 年间
+ 海外の - 海外的
+ 週間 - 一周
+111 Game Night 参加游戏之夜
+ えび - [ebi] - 虾
+ かんせんします - [kansenshimasu] - 观看
+ だいこん - [daikon] - 白萝卜
+ どうして - [doushite] - 为什么
+ どちらでも - [dochirademo] - 哪个都
+ なす - [nasu] - 茄子
+ ほかに - [hokani] - 还有
+ んです - [ndesu] - 是因为
+ タコス - [takosu] - 塔可
+ ダーツ - [dātsu] - 飞镖
+ ポーカー - [pōkā] - 扑克
+ 二十歳 - 二十岁
+ 冷たい - 冷
+ 大好き - 非常喜欢
+ 妹さん - 妹妹
+ 弟さん - 弟弟
+ 眠い - 困
+ 負けます - 输
+ 運転します - 开车
+ 電話 - 电话
+112 Repair 讨论电子产品维修服务
+ うっかり - [ukkari] - 不小心
+ お客さま - [o kèsama] - 顾客
+ お待たせしました - [o dàitaseshimashita] - 抱歉让您久等了
+ きえます - [kiemasu] - 消失
+ きず - [kizu] - 划痕
+ こぼします - [koboshimasu] - 洒了, 洒
+ さいきどうします - [saikidoushimasu] - 重新启动
+ しゅうり - [shuuri] - 修理
+ しゅうり屋 - [shuuri wū] - 修理店
+ せつぞく - [setsuzoku] - 连接
+ できます - [dekimasu] - 会
+ でんちがきれます - [denchigakiremasu] - 没电了, 没电
+ どうしたらいいですか - [doushitaraiidesuka] - 我该怎么办
+ なおります - [naorimasu] - 好
+ ほしょう - [hoshou] - 保证
+ われます - [waremasu] - 破裂
+ アップデートをします - [appudētowoshimasu] - 进行更新
+ インストールします - [insutōrushimasu] - 安装
+ ウイルス - [uirusu] - 病毒
+ クリックします - [kurikkushimasu] - 点击
+ システム - [shisutemu] - 系统
+ ダウンロードします - [daunrōdoshimasu] - 下载
+ ファイル - [fairu] - 文件夹
+ 今日中に - 今天之内
+ 動きます - 动
+ 問題 - 问题, 练习题
+113 Patient 跟医生讨论健康问题
+ おれます - [oremasu] - 断
+ かんじゃ - [kanja] - 患者
+ けっかが出ます - [kekkaga chūmasu] - 结果会出来
+ しょうじょう - [shoujou] - 症状
+ しんさつ - [shinsatsu] - 诊察
+ ほけん - [hoken] - 保险
+ ほね - [hone] - 骨
+ ゆっくり - [yukkuri] - 慢慢
+ リハビリ - [rihabiri] - 康复训练
+ レントゲン - [rentogen] - X光
+ 先生 - 医生
+ 動かします - 移动, 动
+ 名字 - 姓
+ 手 - 手
+ 立ちます - 站
+114 First Job 分享成就的消息
+ いいんですか - [iindesuka] - 可以
+ お会計おねがいします - [o huì jìonegaishimasu] - 请结账
+ お好み焼き - [o hǎomi shāoki] - 大阪烧
+ きゅうりょう - [kyuuryou] - 工资
+ そうです - [soudesu] - 听说
+ てんすうをつけます - [tensuuwotsukemasu] - 打分
+ にそうだんします - [nisoudanshimasu] - 咨询
+ わりかんします - [warikanshimasu] - AA制
+ をそつぎょうします - [wosotsugyoushimasu] - 毕业
+ 中学校 - 中学
+ 中学生 - 初中生
+ 再来週 - 下下周
+ 夏 - 夏天
+ 年上 - 年长
+ 忙しい - 忙
+ 明るい - 开朗
+ 無料 - 免费
+ 返事 - 回复
+115 Karaoke 跟朋友一起享受卡拉OK
+ お代わりします - [o dàiwarishimasu] - 再来一份, 再来一杯
+ お休み - [o xiūmi] - 休息时间
+ くなくて - [kunakute] - 而且
+ しゅうりょうじかん - [shuuryoujikan] - 结束时间
+ じゃなくて - [janakute] - 不是...而是...
+ たまに - [tamani] - 偶尔
+ なつかしい - [natsukashii] - 怀念
+ のどがかわきました - [nodogakawakimashita] - 渴了
+ カラオケ店 - [karaoke diàn] - 卡拉OK店
+ コース - [kōsu] - 套餐
+ ピアノ - [piano] - 钢琴
+ ファン - [fan] - 粉丝
+ マイナー - [mainā] - 小众
+ 低い - 低
+ 大ヒット - 大热卖
+ 平日 - 工作日
+ 最新 - 最新
+ 禁煙 - 禁烟
+ 私の - 我, 私
+ 音楽 - 音乐
+116 Healthy 3 讨论健康生活习惯
+ あぶら - [abura] - 油
+ きんにく - [kin'niku] - 肌肉
+ こし - [koshi] - 腰
+ できます - [dekimasu] - 会
+ なかま - [nakama] - 伙伴
+ やせます - [yasemasu] - 瘦
+ ゆっくり - [yukkuri] - 慢慢
+ よわい - [yowai] - 弱的
+ トレーナー - [torēnā] - 教练
+ マシン - [mashin] - 器械
+ 一週間に - 一个星期
+ 医者 - 医生
+ 塩 - 盐
+ 少しだけ - 一点点
+ 時 - 时候
+ 熱心に - 热心地
+ 病院 - 医院
+ 足 - 脚
+117 Direction2 使用手机应用导航
+ あんない - [an'nai] - 指南
+ きごう - [kigou] - 符号
+ ことば - [kotoba] - 词语
+ しんごう - [shingou] - 红绿灯
+ ふみきり - [fumikiri] - 铁路道口
+ まっすぐ - [massugu] - 径直
+ むこう - [mukou] - 对面
+ を右に曲がります - [wo yòuni qūgarimasu] - 向右转
+ を左に曲がります - [wo zuǒni qūgarimasu] - 左转
+ ナビ - [nabi] - 导航
+ メニュー - [menyū] - 菜单, 餐品
+ メーター - [mētā] - 仪表
+ 何と読みますか - 怎么读
+ 分かります - 明白
+ 危ない - 危险
+ 姉 - 我姐姐
+ 歩行者 - 行人
+ 町 - 镇
+ 知ります - 知道
+ 道をまよいました - 迷路了
+118 Kendo 体验剑道来缓解压力
+ いっしょうけんめい - [isshoukenmei] - 努力
+ かっこよくて - [kakkoyokute] - 又帅, 又帅又
+ きほん - [kihon] - 基础
+ けいこ - [keiko] - 练习
+ けんどう - [kendou] - 剑道
+ しない - [shinai] - 竹刀
+ しんこきゅうをします - [shinkokyuuwoshimasu] - 做深呼吸
+ たまります - [tamarimasu] - 积累
+ ふります - [furimasu] - 挥动, 挥
+ れいをします - [reiwoshimasu] - 行礼
+ ウォーミングアップ - [u~ōminguappu] - 热身
+ スッキリしました - [sukkirishimashita] - 清爽了
+ 体 - 身体
+ 十回 - 十次, 十回
+ 大きいこえを出します - 发出大声, 发出
+ 方 - 方法
+ 親切 - 亲切
+ 道場 - 道场
+ 道着 - 道服
+ 集中します - 集中
+ 難しい - 难, 困难
+ 静か - 安静
+ 頭 - 头
+119 RoomMates 讨论跟室友同住的生活
+ いや - [iya] - 讨厌
+ かぎをかけます - [kagiwokakemasu] - 锁门
+ か月 - [ka yuè] - 个个月, 个月, 个月个月
+ きげんが悪い - [kigenga èi] - 心情不好
+ けいやく - [keiyaku] - 合同
+ こうかいしています - [koukaishiteimasu] - 后悔
+ こまっています - [komatteimasu] - 困扰
+ せつやくします - [setsuyakushimasu] - 节约
+ せんたくもの - [sentakumono] - 洗的衣物
+ たまります - [tamarimasu] - 积累
+ なくします - [nakushimasu] - 弄丢, 弄丢了
+ なやみ - [nayami] - 烦恼
+ みたい - [mitai] - 想
+ イライラします - [irairashimasu] - 烦躁
+ シェアハウス - [sheahausu] - 合租房
+ 一人ぐらしをします - 生活
+ 大変 - 困难
+ 年下 - 比自己年纪小的
+ 汚い - 脏
+ 注意します - 注意
+ 電気 - 电
+120 Clinic2 跟专业人士讨论症状
+ かゆい - [kayui] - 痒
+ ききます - [kikimasu] - 听
+ けっか - [kekka] - 结果
+ けつあつ - [ketsuatsu] - 血压
+ けんさ - [kensa] - 检查
+ しょほうせん - [shohousen] - 处方
+ せき - [seki] - 咳嗽
+ とめます - [tomemasu] - 停
+ なくなります - [nakunarimasu] - 用完
+ のど - [nodo] - 喉咙
+ はちみつ - [hachimitsu] - 蜂蜜
+ はな - [hana] - 鼻子
+ はなみずが出ます - [hanamizuga chūmasu] - 流鼻涕
+ はれます - [haremasu] - 肿了
+ 体温を計ります - 量体温
+ 円さつ - 日元纸币
+ 受けます - 接受
+ 後 - 后, 之后, 过后
+ 生年月日 - 出生日期
+ 痛み止め - 止痛药
+ 薬 - 药
+121 Golden wk 讨论黄金周的传统
+ おりがみ - [origami] - 折纸
+ かぶと - [kabuto] - 兜
+ けんこう - [kenkou] - 健康
+ こい - [koi] - 浓
+ こいのぼり - [koinobori] - 鲤鱼旗
+ さむらい - [samurai] - 武士
+ しあわせ - [shiawase] - 幸福
+ しゅくじつ - [shukujitsu] - 节日
+ じっか - [jikka] - 老家
+ とりい - [torii] - 鸟居
+ のかたち - [nokatachi] - 的形状
+ の終わり - [no zhōngwari] - 结束
+ はた - [hata] - 旗
+ ひさしぶりに - [hisashiburini] - 很久以后
+ ゴールデンウイーク - [gōruden'uīku] - 黄金周
+ 一番 - 最
+ 休みを取ります - 请假
+ 兄 - 哥哥
+ 半年 - 半年
+ 妹 - 我妹妹
+ 子どもの日 - 儿童节
+ 広島 - 广岛
+ 県 - 县
+ 連休 - 连休
+122 Closing 买衣服和配饰
+ こぜに - [kozeni] - 零钱
+ しちゃくしつ - [shichakushitsu] - 试衣间
+ しつがいい - [shitsugaii] - 质量好
+ ちょうど - [choudo] - 正好
+ ついでに - [tsuideni] - 顺便
+ ない - [nai] - 不, 沒有
+ へー - [hē] - 哦
+ まあ - [maa] - 嗯
+ めん - [men] - 棉
+ もう少し考えます - [mou shǎoshi kǎoemasu] - 再考虑一下
+ クレープ - [kurēpu] - 可丽饼
+ デザイン - [dezain] - 设计
+ パーセント引き - [pāsento yǐnki] - 折扣
+ フードコート - [fūdokōto] - 美食广场
+ ユニセックス - [yunisekkusu] - 中性
+ 下がります - 下降
+ 会計 - 账单, 结账, 收银
+ 引き出します - 取钱
+ 有料 - 收费
+ 着てみます - 试穿
+ 税込み - 含税价
+ 閉店 - 关门
+ 間違えます - 弄错
+123 Cleanup 参加清理活动
+ お - [o] - 御, 请
+ おかげさまで - [okagesamade] - 托您的福
+ きょうりょく - [kyouryoku] - 合作
+ しましょうか - [shimashouka] - 吧？, 吗？
+ しゅるい - [shurui] - 种类
+ においます - [nioimasu] - 有味道
+ ひろいます - [hiroimasu] - 捡
+ びん - [bin] - 瓶子
+ むし - [mushi] - 虫
+ むすびます - [musubimasu] - 绑上了, 绑上, 绑
+ もやすゴミ - [moyasugomi] - 可燃垃圾
+ もやせないゴミ - [moyasenaigomi] - 不可燃垃圾
+ ゴミすてば - [gomisuteba] - 垃圾投放点
+ ゴミぶくろ - [gomibukuro] - 垃圾袋
+ ペットボトル - [pettobotoru] - 塑料瓶
+ ホール - [hōru] - 大厅
+ 公園 - 公园
+ 分けます - 分开, 分成
+ 危険物 - 危险品
+ 持って帰ります - 带回去
+ 歩いて - 步行
+ 汚い - 脏
+124 P. History 分享童年经历
+ うらやましいです - [urayamashiidesu] - 羡慕
+ えさをやります - [esawoyarimasu] - 喂食
+ かっています - [katteimasu] - 养着, 养
+ けがします - [kegashimasu] - 受伤
+ しゅじゅつを受けます - [shujutsuwo shòukemasu] - 接受手术
+ なかがいい - [nakagaii] - 关系好
+ にかくれます - [nikakuremasu] - 躲在
+ にのぼります - [ninoborimasu] - 爬
+ はなれます - [hanaremasu] - 远
+ ひじ - [hiji] - 肘部
+ り - [ri] - 里
+ ミャンマー - [myanmā] - 缅甸
+ 何度も - 很多次
+ 八歳 - 八岁
+ 友だちができます - 交到朋友
+ 大切 - 重要
+ 弟 - 弟弟
+ 思い出 - 回忆
+ 犬 - 狗
+ 猫 - 猫
+ 笑います - 笑
+ 耳 - 耳朵
+ 転校生 - 转校生
+125 New Guy 熟悉日本办公室环境
+ おもて - [omote] - 正面
+ おゆ - [oyu] - 热水
+ じゆうに - [jiyuuni] - 随意
+ じょうし - [joushi] - 上司
+ せってい - [settei] - 设置
+ せつめいします - [setsumeishimasu] - 说明
+ できる - [dekiru] - 能够
+ でください - [dekudasai] - 请不要
+ ふえます - [fuemasu] - 增加
+ まで - [made] - 到
+ もう一度 - [mou yī dù] - 再一次
+ シュレッダー - [shureddā] - 碎纸机
+ ハンコを押します - [hankowo yāshimasu] - 盖, 盖章
+ プリントします - [purintoshimasu] - 打印
+ マナー - [manā] - 礼仪
+ ルール - [rūru] - 规则
+ 取り出します - 取出
+ 数 - 数量
+ 新人 - 新人
+ 用 - 用
+ 皆さん - 大家
+ 自分の - 自己的
+ 許可を取ります - 取得许可
+126 Gaming 讨论电子游戏特色
+ えー - [ē] - 唉
+ お金をもらいます - [o jīnwomoraimasu] - 拿钱
+ せかい - [sekai] - 世界
+ たたかいます - [tatakaimasu] - 战斗
+ てき - [teki] - 敌人
+ まほうの - [mahouno] - 魔法的
+ めんせつ - [mensetsu] - 面试
+ も - [mo] - 都, 还, 就算, 也, 和, 还会, 之多
+ やります - [yarimasu] - 做
+ オンライン - [onrain] - 线上
+ クモ - [kumo] - 蜘蛛
+ クリアします - [kuriashimasu] - 清除
+ ゲーム会社 - [gēmu huì shè] - 游戏公司
+ ステージ - [sutēji] - 关卡
+ プレイヤー - [pureiyā] - 玩家
+ ユーザー名 - [yūzā míng] - 用户名
+ 仕事 - 工作
+ 島 - 岛
+ 強い - 强烈, 强
+ 新作 - 新作
+ 死にます - 死
+ 死んだ - 死了
+ 石 - 石头
+ 美しい - 美丽
+127 Moving out 讨论当地垃圾管理规定
+ いっしょに - [isshoni] - 一起
+ かがみ - [kagami] - 镜子
+ きびしい - [kibishii] - 严格, 矍
+ きふします - [kifushimasu] - 捐赠
+ しっかり - [shikkari] - 认真
+ しゅうしゅう - [shuushuu] - 回收
+ つつみます - [tsutsumimasu] - 包
+ できて - [dekite] - できる
+ といけません - [toikemasen] - 必须
+ ひも - [himo] - 绳子
+ へらします - [herashimasu] - 减少
+ もったいない - [mottainai] - 浪费
+ や - [ya] - 和, 啊
+ ようき - [youki] - 容器
+ ガラス - [garasu] - 玻璃
+ キャップ - [kyappu] - 瓶盖
+ ゴミを出します - [gomiwo chūshimasu] - 扔垃圾
+ センチ - [senchi] - 厘米
+ リサイクルします - [risaikurushimasu] - 回收
+ ルールをまもります - [rūruwomamorimasu] - 遵守
+ 以上 - 以上
+ 外します - 去掉
+ 家電 - 家电
+ 自転車 - 自行车
+128 Senior Yr 讨论未来理想和身份认同
+ おめでとうございます - [omedetougozaimasu] - 恭喜
+ きんちょうします - [kinchoushimasu] - 紧张
+ けんしゅう - [kenshuu] - 培训
+ こと - [koto] - 事情
+ ごうかくします - [goukakushimasu] - 合格
+ しゅうしょく - [shuushoku] - 就职
+ じしん - [jishin] - 地震
+ つなみ - [tsunami] - 海啸
+ ら - [ra] - 要是, 們
+ ボーナス - [bōnasu] - 奖金
+ 入社します - 入职
+ 勉強 - 学习
+ 十二日 - 十二号
+ 年目 - 第三年, 第五年, 第一年, 第二年, 第四年
+ 本物の - 真正
+ 海 - 海
+ 英語 - 英语
+ 遅く - 晚
+ 食べてみます - 尝试吃, 尝试
+129 Contingen 计划去日本旅行
+ icカード - IC卡
+ おうふく - [oufuku] - 往返
+ お年寄りの人 - [o nián jìrino rén] - 老人
+ こうべ - [koube] - 神户
+ たこ焼き - [tako shāoki] - 章鱼烧
+ ちゅうか料理 - [chuuka liào lǐ] - 中餐
+ つゆ - [tsuyu] - 梅雨
+ でのりかえます - [denorikaemasu] - 换乘
+ とまります - [tomarimasu] - 停下
+ ふつうれっしゃ - [futsuuressha] - 普通列车
+ ゆずります - [yuzurimasu] - 让
+ わん - [wan] - 湾
+ チャージします - [chājishimasu] - 充, 充值
+ プリン - [purin] - 布丁
+ レインコート - [reinkōto] - 雨衣
+ 台風 - 台风
+ 和牛 - 和牛
+ 特急 - 特快列车
+ 番線 - 号线
+ 終点 - 终点
+ 足ります - 足够, 够
+ 都市 - 城市
+130 Healthy Ch 描述身体不适
+ あめ - [ame] - 糖果
+ かいてき - [kaiteki] - 舒适
+ くわえます - [kuwaemasu] - 加
+ しょくぶつ - [shokubutsu] - 植物
+ せなか - [senaka] - 背部
+ そだてます - [sodatemasu] - 种植
+ たね - [tane] - 种子
+ にわ - [niwa] - 庭院
+ ひざ - [hiza] - 膝
+ キャベツ - [kyabetsu] - 卷心菜
+ ジャンクフード - [jankufūdo] - 垃圾食品
+ タンパクしつ - [tanpakushitsu] - 蛋白质
+ バランス - [baransu] - 平衡
+ 会員 - 会员
+ 体力がありません - 没有体力
+ 大事 - 重要
+ 方がいいと思います - 比较好
+ 部分 - 部分
+ 頭痛 - 头疼
+131 games 说明：介绍新的游戏装备
+ すすめます - [susumemasu] - 推荐, 劝告, 促进, 推进, 建议, 推销
+ サプリ - [sapuri] - 保健品
+ チームワーク - [chīmuwāku] - 团队合作
+ 上品な - 高雅
+ 優先席 - 优先座位
+ 参加者 - 参加者
+ 庭 - 庭院
+ 普段 - 平时
+ 歯磨き粉 - 牙膏
+ 用品 - 用品
+ 秒 - 秒
+ 美しさ - 美丽
+ 説明 - 说明
+ 説明書 - 说明书
+ 財布 - 钱包
+ 販売 - 销售
+ 運 - 运气
+ 限界 - 极限
+132 storytelling 旅行：讨论出游计划
+ うそ - [uso] - 谎
+ おどろきます - [odorokimasu] - 惊讶, 吃惊, 震惊, 惊奇
+ ほこりっぽい - [hokorippoi] - 多尘的, 布满灰尘的, 尘土飞扬的, 尘土多的, 灰尘多的
+ もらいます - [moraimasu] - 拿
+ ゴミ捨て場 - [gomi shěte chǎng] - 垃圾场, 垃圾堆放处, 垃圾处理场, 垃圾站
+ ライター - [raitā] - 打火机
+ 一泊 - 一晚
+ 帰り道 - 回家的路
+ 扱います - 处理, 对待, 操作, 使用, 经营, 预订, 安排
+ 日焼け止め - 防晒霜
+ 横に - 旁边, 横向, 侧面, 横着, 横排
+ 残念 - 遗憾
+ 社員旅行 - 员工旅行
+ 自然 - 自然
+ 色々な - 各种
+ 連絡先 - 联系方式
+ 逮捕します - 逮捕, 拘捕, 抓捕
+ 騙します - 骗, 欺骗, 诈骗, 诱骗, 哄骗
+133 hobbies 4 生活：请求或提供帮助
+ お湯 - [o tāng] - 热水
+ げんかん - [genkan] - 玄关
+ こうげきします - [kougekishimasu] - 攻击, 进攻, 袭击, 发起攻击, 出击
+ どうやら - [douyara] - 看来
+ はっきり - [hakkiri] - 清晰
+ ギリギリ - [girigiri] - 勉强
+ 九州 - 九州
+ 他の人 - 其他人
+ 作者 - 作者
+ 嘘をつきます - 撒谎, 说谎, 欺骗
+ 慣習 - 习俗
+ 敵 - 敌人
+ 次 - 便, 下节, 下届, 下, 下次, 下个, 下一
+ 活動 - 活动
+ 点 - 分, 小圆点
+ 無くなります - 消失, 丢失, 用完, 结束, 死亡, 消耗完, 卖光
+ 申し込みます - 申请, 报名, 订购, 提出请求, 报名参加
+134 daily routines 社区：与朋友一起准备活动
+ う - [u] - 乌
+ がんばります - [ganbarimasu] - 努力
+ きちんとした - [kichintoshita] - 整洁
+ で - [de] - 用, 因为, 坐, 上, 又, 下, 开, 到, 在, 骑, 里, 边, 以, 中, 以长
+ のど - [nodo] - 喉咙
+ よう - [you] - 好像
+ 付き合います - 交往, 交际, 陪伴, 交朋友, 交际应酬, 陪同
+ 伝えます - 传达, 告诉, 传递, 转达, 传授, 报告
+ 健康 - 健康
+ 協力します - 协力, 合作, 协助, 配合, 帮忙
+ 夜遅く - 深夜
+ 大丈夫 - 没问题
+ 寄ります - 靠近, 顺路去, 顺路停留, 顺道去, 顺便去, 依靠, 投靠, 寄存
+ 思っています - 打算
+ 来よう - 来, 过来, 再来, 以后再来
+ 横断歩道 - 人行横道
+ 気になります - 在意, 关心, 担心, 介意, 好奇, 想去, 感兴趣
+ 気を付けます - 小心, 注意, 当心, 留意, 谨慎, 记得
+ 浅草 - 浅草
+ 神戸 - 神户, 神户市
+ 絵本 - 绘本
+ 銀行員 - 银行职员
+ 電気を消します - 关灯, 关电灯, 关闭电源, 关掉灯, 关掉电灯, 关掉电器, 关掉电源, 关掉电灯泡, 关掉灯光, 关掉照明, 关掉电气, 关掉电气设备, 关掉电气装置, 关掉电气用品, 关掉电气器具, 关掉电气设施, 关掉电气系统, 关掉电气开关, 关闭灯光, 关闭照明, 关闭灯泡, 关闭灯具, 关闭灯饰, 关闭灯光设备, 关闭灯光系统, 关闭灯光装置, 关闭灯光用品, 关闭灯光器具, 关闭灯光设施
+135 celebrations 聚会：提出晚餐建议
+ いいところ - [iitokoro] - 优点
+ うまく - [umaku] - 顺利
+ にくい - [nikui] - 难, 难用
+ びっくりします - [bikkurishimasu] - 吃惊, 惊讶, 震惊, 诧异, 感到惊讶, 惊奇
+ やすい - [yasui] - 便宜
+ カード - [kādo] - 卡
+ 不快な - 令人不快
+ 不自由な人 - 行动不便的人
+ 今晩 - 今晚
+ 六番目 - 第六
+ 彼氏 - 男朋友
+ 情報 - 信息
+ 断ります - 拒绝, 谢绝, 推辞, 拒绝接受, 拒绝答应
+ 村 - 村子
+ 記号 - 符号
+ 記念日 - 纪念日
+ 誕生日 - 生日
+ 遊園地 - 游乐园
+ 音楽を流します - 播放音乐, 放音乐, 播音乐
+136 chores 家务：分配家务任务
+ あいさつ - [aisatsu] - 问候, 致意, 寒暄, 打招呼
+ お客様 - [o kè yàng] - 顾客
+ くれます - [kuremasu] - 给, 送给, 给予
+ コウモリ - [koumori] - 蝙蝠
+ トラブル - [toraburu] - 麻烦
+ 十八番目 - 第十八
+ 向こう - 对面
+ 安心します - 放心, 安心, 踏实
+ 家族 - 家人
+ 幅 - 宽度
+ 時々 - 有时
+ 果物 - 水果
+ 洗濯 - 洗衣
+ 王女 - 公主
+ 表示 - 标示
+ 電池 - 电池
+137 seasonal changes 个人空间：描述花园在不同季节的变化
+ くします - [kushimasu] - 使弯曲, 弯曲, 使变形, 使扭曲, 弯折, 缩短, 加快
+ くなります - [kunarimasu] - 变得, 变成, 变得更加, 变痛
+ こうずい - [kouzui] - 洪水
+ します - [shimasu] - 做
+ なります - [narimasu] - 成为, 会
+ よくします - [yokushimasu] - 改善, 改进, 提升
+ トンネル - [ton'neru] - 隧道
+ 一応 - 勉强
+ 季節 - 季节
+ 心地いい - 舒服, 舒适, 愉快, 轻松, 安静, 宜人
+ 植えます - 种植, 栽种, 植树, 种下
+ 気温 - 气温
+ 涙 - 眼泪
+ 生物学 - 生物学
+ 産業 - 产业
+ 祖父 - 祖父
+ 簡単 - 简单
+ 自分 - 自己
+ 見本 - 样本
+ 言語 - 语言
+ 近づきます - 接近, 靠近, 临近, 走近, 亲近, 来临
+ 預けます - 寄存, 托付, 存放, 委托, 寄托, 存钱
+ 鼻 - 鼻子
+138 professional life 职场：询问停车信息
+ ほこり - [hokori] - 灰尘
+ コミュニケーション - [komyunikēshon] - 沟通
+ マッチ - [matchi] - 火柴
+ 厳しい - 严格
+ 合図 - 信号
+ 同僚 - 同事
+ 実家 - 老家
+ 帽子 - 帽子
+ 恋愛 - 恋爱
+ 成績 - 成绩
+ 点 - 分, 小圆点
+ 組織 - 组织
+ 職場 - 职场
+ 胸 - 胸
+ 話しやすい - 容易交谈, 好说话, 容易沟通, 容易说话
+ 通り - 街道
+ 駐車場 - 停车场
+139 free time 体验：描述你的新体验
+ での - [deno] - 在, 于, 通过, 以, 用, 在...的地方, 在...处
+ リラックスします - [rirakkusushimasu] - 放松, 轻松, 松弛
+ 体験 - 体验
+ 例えば - 例如
+ 冷凍 - 冷冻
+ 十七番目 - 第十七
+ 十年間 - 十年
+ 厚い - 厚
+ 契約 - 合同
+ 手順 - 步骤
+ 絵の具 - 颜料
+ 美術 - 美术
+ 裏 - 背面
+ 谷 - 山谷
+ 趣味 - 爱好
+140 describing events 作品：介绍你的作品
+ されます - [saremasu] - 被做, 做, 进行, 发表, 发布
+ だと思いました - [dato sīimashita] - 我认为, 我觉得, 我以为, 觉得, 认为, 以为
+ れます - [remasu] - 能, 可以, 会, 被, 受到, 被使用, 被动
+ チャリティー - [charitī] - 慈善
+ ボランティア - [borantia] - 志愿者
+ 一本 - 一棵
+ 作品 - 作品
+ 同い年 - 同龄人
+ 増やします - 增加, 增多, 扩大, 提高, 增强, 增加量, 增加数量
+ 手入れ - 保养, 维修, 养护, 修理, 照料, 护理, 修剪
+ 担当 - 负责
+ 文化祭 - 文化节
+ 最近 - 最近
+ 期間 - 期间
+ 構いません - 没关系, 不介意, 不要紧, 无所谓, 可以, 允许
+ 環境 - 环境
+ 画家 - 画家
+ 窓 - 窗户
+141 social media 社交：计划与朋友聚会
+ と - [to] - 要是的话, 和, 如果, 就, 与, 要是, 要, 跟, 还是
+ めす - [mesu] - 母兽
+ アンケート - [ankēto] - 问卷
+ グループチャット - [gurūpuchatto] - 群聊
+ バレバレ - [barebare] - 明显
+ 便利 - 方便
+ 八本 - 八瓶
+ 届きます - 到达, 送达, 传达, 达到, 抵达, 送到
+ 成功 - 成功
+ 楽 - 乐, 省事
+ 楽しい - 有趣, 高高兴兴
+ 絵 - 画
+ 習慣 - 习惯
+ 面白い - 有趣的
+142 city life 日常生活：表达修理需求
+ あそこ - [asoko] - 那里
+ あの - [ano] - 那家, 那起
+ あれ - [are] - 那个
+ ここ - [koko] - 这里
+ この - [kono] - 这双, 这件, 这家, 这个, 这
+ これ - [kore] - 这个
+ そこ - [soko] - 那里
+ その - [sono] - 那个, 那家, 那, 那起
+ それ - [sore] - 那
+ どこでも - [dokodemo] - 哪里都
+ スキャナー - [sukyanā] - 扫描仪
+ ポンプ - [ponpu] - 泵
+ 前に - 前面
+ 茶わん - 碗
+ 警察官 - 警察
+ 黄色い - 黄色的
+143 personal background 日常：分享参观感受
+ しょうちょう - [shouchou] - 象征
+ 不便 - 不方便
+ 修士号 - 硕士学位
+ 実は - 其实
+ 犯人 - 犯人
+ 発表します - 发表, 公布, 宣布, 发布
+ 肩 - 肩膀
+ 腰 - 腰
+ 自由 - 自由
+ 落ち着いて - 冷静地
+ 間違えます - 弄错
+ 鳥居 - 鸟居
+144 personal experiences 个人经历：描述当地的活动
+ かみます - [kamimasu] - 咬, 嚼, 咀嚼
+ しょっちゅう - [shotchuu] - 经常
+ ショック - [shokku] - 震惊
+ 上げます - 提高, 举起, 给予, 送, 上升
+ 交通 - 交通
+ 八点 - 八件
+ 励まします - 鼓励, 激励, 支持, 鼓舞
+ 勉強できます - 能学习, 可以学习, 会学习, 能够学习
+ 司会の人 - 主持人
+ 名古屋 - 名古屋
+ 地元 - 当地
+ 平和 - 和平
+ 悪い - 坏, 真差
+ 終わらせます - 结束, 完成, 终止, 使结束, 使完结, 完结, 做完
+ 逃げ出します - 逃跑, 逃走, 逃离, 逃脱
+ 連れて来ます - 带来, 领来, 陪同来, 带着来
+145 school life 社团：讨论调查结果
+ お祈り - [o qíri] - 祈祷
+ この前 - [kono qián] - 前几天
+ そういうふうに - [souiufuuni] - 那样
+ その後 - [sono hòu] - 之后
+ れます - [remasu] - 能, 可以, 会, 被, 受到, 被使用, 被动
+ 先輩 - 前辈
+ 六点 - 六件
+ 北西 - 西北
+ 大阪 - 大阪
+ 怖がらせます - 吓唬, 使害怕, 恐吓, 惊吓
+ 態度 - 态度
+ 病気 - 病
+ 試合 - 比赛
+ 調査 - 调查
+ 電子レンジ - 微波炉
+ 電気 - 电
+ 順番 - 顺序
+ 魔法 - 魔法
+146 sports 团体活动：分配团队任务
+ せんたく - [sentaku] - 洗衣
+ ために - [tameni] - 为了
+ チャンピオン - [chanpion] - 冠军
+ 切手 - 邮票
+ 動き - 动作
+ 小道 - 小路
+ 屋内 - 室内
+ 洋食 - 西餐
+ 牛乳 - 牛奶
+ 船 - 船
+ 薬局 - 药店
+ 関係 - 关系
+ 飛行機 - 飞机
+ 高さ - 高度
+147 neighborhoods 社区：请求邻居帮忙看家
+ あちこち - [achikochi] - 到处
+ たまたま - [tamatama] - 偶然
+ ゆるい - [yurui] - 松, 宽松, 松弛, 不严格, 轻松, 松动, 松开
+ スタート - [sutāto] - 开始
+ ラフ - [rafu] - 草稿
+ 不安 - 不安
+ 仲がいい - 关系好, 亲密, 友好, 关系融洽, 关系亲密, 和睦, 融洽, 亲近
+ 冷蔵庫 - 冰箱
+ 学士号 - 学士学位
+ 温い - 温暖, 微温, 温热, 不热, 温和, 软弱
+ 種類 - 种类
+ 経済学 - 经济学
+ 自動ドア - 自动门
+ 薄く - 薄, 稀薄, 轻薄, 薄弱, 薄薄, 切成薄片, 薄切
+ 話し合い - 讨论
+ 速い - 快, 真快
+ 音 - 声音
+148 babysitting 教室生活：介绍你的新朋友
+ おやつ - [oyatsu] - 点心
+ くちびる - [kuchibiru] - 嘴唇
+ じゃないと - [janaito] - 如果不是
+ ほしい - [hoshii] - 想要
+ シッター - [shittā] - 保姆
+ 仲良くなります - 变得亲密, 变得友好, 关系变好, 变得和睦, 交好, 变得亲近, 变得熟络
+ 伝えます - 传达, 告诉, 传递, 转达, 传授, 报告
+ 教室 - 教室
+ 点数をつけます - 打分, 评分, 计分, 给分, 打分数, 评分打分
+ 真似します - 模仿, 效仿, 学习
+ 着物 - 和服
+ 詩 - 诗
+ 質がいい - 质量好, 品质好, 优质, 高质量, 优良, 上乘
+ 質が悪い - 质量差, 品质差, 质量不好, 品质不好, 质量低劣, 劣质, 不良
+ 迎えに来ます - 来接, 过来接, 来迎接, 来接我, 来接你, 来接他, 来接她, 来接我们, 来接你们, 来接他们, 来接她们
+ 銀 - 银
+ 面倒を見ます - 照顾, 关照, 照料, 照看, 照应, 照顾好, 照料好
+149 eating habits 饮食：分享你的饮食习惯
+ いました - [imashita] - 有
+ お菓子 - [o guǒ zi] - 零食
+ すすめます - [susumemasu] - 推荐, 劝告, 促进, 推进, 建议, 推销
+ ずっと - [zutto] - 一直, 從來
+ での - [deno] - 在, 于, 通过, 以, 用, 在...的地方, 在...处
+ のころ - [nokoro] - 时候
+ 外食 - 外出就餐
+ 大根 - 白萝卜
+ 小麦粉 - 面粉
+ 弁当 - 盒饭
+ 後ろ - 后面
+ 患者 - 患者
+ 注意します - 注意
+ 玉ねぎ - 洋葱
+ 瓶 - 瓶子
+ 研究室 - 研究室
+ 買います - 买
+ 電話番号 - 电话号码
+150 living spaces 家居：介绍你住的地方
+ には - [niha] - 在, 对, 跟, 上
+ まとめ - [matome] - 总结
+ アシスタント - [ashisutanto] - 助理
+ ベランダ - [beranda] - 阳台
+ 今週末 - 这个周末
+ 原因 - 原因
+ 友達 - 朋友
+ 家具 - 家具
+ 明るい - 开朗
+ 本棚 - 书架
+ 机 - 桌子
+ 毎週末 - 每个周末
+ 砂 - 沙子
+ 脂っこい - 油腻
+ 若い - 年轻
+ 遊歩道 - 步道
+151 moving 生活：描述你的新环境
+ きます - [kimasu] - 穿
+ という - [toiu] - 叫做
+ によります - [niyorimasu] - 顺路去
+ アウトドア派 - [autodoa pài] - 户外派
+ 助かります - 帮助, 救助, 有帮助, 得救, 受益, 受帮助, 得到帮助
+ 広告 - 广告
+ 建築家 - 建筑师
+ 必要 - 必要
+ 数学 - 数学
+ 期末試験 - 期末考试
+ 水泳 - 游泳
+ 田舎 - 乡下
+ 知らない人 - 陌生人
+ 缶 - 罐
+ 都会 - 城市
+ 電話 - 电话
+152 outdoor activities 交流：分享露营计划
+ きます - [kimasu] - 穿
+ けんかします - [kenkashimasu] - 吵架, 打架, 争吵
+ しかたない - [shikatanai] - 没办法, 无可奈何, 不得已, 无能为力, 只能这样, 无奈
+ グループ - [gurūpu] - 组
+ コース - [kōsu] - 套餐
+ ミス - [misu] - 错误
+ 交換 - 交换
+ 八泊 - 八晚
+ 削ります - 削, 削减, 削除, 削弱, 削尖
+ 向かいます - 朝向, 前往, 面向, 走向, 朝着, 去, 往
+ 小説 - 小说
+ 文句 - 抱怨
+ 生徒 - 学生
+ 白黒 - 黑白, 黑白色, 单色
+ 許可 - 许可
+ 詰めます - 填充, 塞满, 压紧, 缩短, 集中, 装满, 装入
+ 都合がいい - 方便, 合适, 便利, 顺利, 适合, 合理, 适宜
+153 commuting 通勤：分享你的通勤习惯
+ しまいます - [shimaimasu] - 放好, 收拾, 完成, 结束, 收起, 发生, 不小心做了
+ もし - [moshi] - 如果, 若是
+ 一個 - 一个
+ 今も - 现在仍然
+ 体育 - 体育
+ 向こうに - 对面
+ 提供します - 提供, 供应, 给予
+ 混みます - 拥挤, 挤满, 塞满
+ 渋谷 - 涩谷, 渋谷
+ 確かに - 的确
+ 繋げます - 连接, 联系, 绑定, 连结, 结合
+ 訳します - 翻译, 解释, 说明
+ 通勤 - 通勤
+ 遅刻 - 迟到
+ 郵便局 - 邮局
+ 雇います - 雇佣, 雇用, 招聘, 聘请, 招用
+ 電池が切れます - 电池没电, 电池耗尽, 电池用完, 电池没电了
+ 駅員 - 站务员
+154 gatherings 家庭活动：介绍家庭成员
+ あります - [arimasu] - 有
+ いいですよ - [iidesuyo] - 好的, 可以, 没问题, 行, 好啊, 允许
+ こと - [koto] - 的事情, 事情
+ ゲーム - [gēmu] - 游戏
+ 具合が悪い - 身体不适, 状况不好, 情况不佳, 不舒服, 有病, 身体不舒服
+ 十本 - 十支
+ 双子 - 双胞胎
+ 大掃除 - 大扫除
+ 役割 - 角色
+ 研究者 - 研究者
+ 誰の - 谁的
+ 首 - 脖子
+155 roommates and co-living 计划：讨论家庭安排
+ お土産 - [o tǔ chǎn] - 纪念品
+ お年寄り - [o nián jìri] - 老人
+ ければよかった - [kerebayokatta] - 要是…就好了, 如果…就好了, 早知道…就好了, 希望…, 不应该, 不该
+ できれば - [dekireba] - 如果可能的话
+ ばよかった - [bayokatta] - 应该, 要是...就好了, 早知道...就好了, 早该
+ ればよかった - [rebayokatta] - 要是…就好了, 早知道…就好了, 如果…就好了, 要是…就更好了, 本该…, 应该, 本来应该, 早该
+ 予定 - 计划
+ 公式 - 官方
+ 厳しい - 严格
+ 教授 - 教授
+ 普通 - 普通的
+ 暇な時 - 空闲时间
+ 暮らします - 生活, 度日, 居住, 过日子, 同住
+ 治療 - 治疗
+ 火 - 火
+ 目標 - 目标
+156 time periods 活动：分享你的活动经历
+ かります - [karimasu] - 借
+ せきたん - [sekitan] - 煤炭
+ ところ - [tokoro] - 地方
+ まで - [made] - 到
+ 九番目 - 第九
+ 八冊 - 八本
+ 出てきます - 出现, 出来, 出发, 冒出
+ 動物園 - 动物园
+ 名札 - 名牌, 姓名牌, 名签, 名片, 姓名标签
+ 実用的 - 实用
+ 数日 - 几日
+ 昔の - 以前的
+ 留学 - 留学
+ 筋肉 - 肌肉
+ 自信があります - 有自信, 自信满满, 充满信心, 有信心, 有把握
+ 説明します - 说明, 解释, 阐述, 介绍
+ 起こります - 发生, 引起, 产生, 出现, 发生事件, 发生故障
+ 過ぎます - 经过, 过度, 超过, 过分, 过了, 通过
+ 道具 - 道具
+157 personal goals 状态：分享放松的方法
+ お互い - [o hùi] - 彼此
+ ければ - [kereba] - 如果, 要是, 假如, 只要
+ ば - [ba] - 场, 场所
+ びっくりするほど - [bikkurisuruhodo] - 惊人地
+ やる気 - [yaru qì] - 干劲
+ よければ - [yokereba] - 如果可以的话
+ れば - [reba] - 就, 的话, 如果
+ 十冊 - 十本
+ 増えます - 增加, 增长, 增多, 上升, 扩大, 变多
+ 影響力 - 影响力
+ 快適 - 舒适
+ 日記 - 日记
+ 普通 - 普通的
+ 普通列車 - 普通列车
+ 段階 - 阶段
+ 状態 - 状态
+ 生 - 生
+ 答え - 答案
+ 鳥 - 鸟
+158 workplace communications 办公室：表达对项目的看法
+ きます - [kimasu] - 穿
+ によって - [niyotte] - 根据
+ ゴミ袋 - [gomi dài] - 垃圾袋
+ シンプル - [shinpuru] - 简洁
+ 一人ひとり - 每个人
+ 上司 - 上司
+ 図 - 图
+ 奥 - 深处
+ 思いどおりに - 如预期地
+ 意味 - 意思
+ 整理された - 整理好的
+ 有名 - 有名
+ 模様 - 图案
+ 次 - 便, 下节, 下届, 下, 下次, 下个, 下一
+ 物 - 东西
+ 王子 - 王子
+ 自然 - 自然
+ 連絡 - 联系
+159 cost of living 租房生活：写信分享生活经验
+ かなり - [kanari] - 相当
+ ご両親 - [go liǎng qīn] - 您的父母
+ それから - [sorekara] - 然后
+ との - [tono] - 与, 和, 跟, 及, 同, 之间
+ どんどん - [dondon] - 迅速地
+ のに - [noni] - 却
+ カップ麺 - [kappu miàn] - 杯面
+ サービス - [sābisu] - 服务
+ フレーム - [furēmu] - 框架
+ 一緒に - 一起
+ 今後 - 今后
+ 伝統 - 传统
+ 公平 - 公平
+ 家賃 - 房租
+ 手紙 - 信
+ 犯罪 - 犯罪
+ 税金 - 税金
+ 言葉 - 语言
+160 medical care 医院：比较不同医院
+ さらに - [sarani] - 更加
+ ちゃんとした - [chantoshita] - 适当
+ てんてき - [tenteki] - 静脉滴注
+ という感じ - [toiu gǎnji] - 的感觉
+ 不規則 - 不规律
+ 事 - 事情
+ 以内 - 以内
+ 十四番目 - 第十四
+ 待合室 - 候诊室
+ 教育 - 教育
+ 最先端 - 最先进
+ 発明 - 发明
+ 看護師 - 护士
+ 隅 - 角落
+161 directions 2 方向：说明路线
+ お腹がいっぱい - [o fùgaippai] - 吃饱了
+ デザイナー - [dezainā] - 设计师
+ 交差点 - 交叉路口
+ 台湾 - 台湾
+ 地下 - 地下
+ 市役所 - 市政府
+ 放課後 - 放学后
+ 方向 - 方向
+ 理想的 - 理想的
+ 由来 - 由来
+ 苦い - 苦
+ 角 - 拐角
+ 隣 - 旁边
+ 高速道路 - 高速公路
+162 aspirations 梦想：介绍你的目标
+ あこがれます - [akogaremasu] - 向往, 憧憬, 仰慕, 渴望, 敬仰, 崇拜
+ うれしい - [ureshii] - 高兴
+ そう - [sou] - 那样
+ で - [de] - 用, 因为, 坐, 上, 又, 下, 开, 到, 在, 骑, 里, 边, 以, 中, 以长
+ セット - [setto] - 套装
+ 分けます - 分开, 分成
+ 夢 - 梦想
+ 完全に - 完全地
+ 将来 - 将来
+ 広い - 宽阔的
+ 広げます - 展开, 扩大, 传播, 伸展, 展示, 铺开
+ 戦います - 战斗, 作战, 争斗, 斗争, 打仗, 竞争, 对抗
+ 挑戦します - 挑战, 尝试, 试图
+ 接続 - 连接
+ 洗濯機 - 洗衣机
+ 活発 - 活跃
+ 目指します - 以...为目标, 瞄准, 目标是, 朝着, 立志于, 争取成为, 力争成为
+ 真剣な - 认真
+ 語学学校 - 语言学校
+ 途中で - 途中
+163 future plans 成果：说明你的准备成果
+ おきます - [okimasu] - 起床
+ こうきしんがつよい - [koukishingatsuyoi] - 好奇心强, 好奇心旺盛, 好奇心重, 好奇心丰富
+ し - [shi] - 戴, 办, 也, 干, 挺, 选, 开, 打, 踢, 做, 玩, 弄, 会
+ ずっと - [zutto] - 一直, 從來
+ つばさ - [tsubasa] - 翅膀
+ のせいにします - [noseinishimasu] - 归咎于, 责怪, 归罪于, 推卸责任
+ めいわくをかけます - [meiwakuwokakemasu] - 打扰, 麻烦, 造成困扰, 打扰别人, 给别人添麻烦
+ コピー - [kopī] - 复印件
+ リスト - [risuto] - 名单
+ 似ています - 相似, 类似, 像, 相像, 相仿
+ 幸せ - 幸福
+ 成績 - 成绩
+ 成長します - 成长, 发育, 发展, 生长, 成长起来
+ 戦争 - 战争
+ 折り紙 - 折纸
+ 歯ブラシ - 牙刷
+ 狙い - 目的
+ 靴下 - 袜子
+164 friendships 朋友：介绍朋友的兴趣
+ お疲れ様でした - [o píre yàngdeshita] - 辛苦了
+ くれます - [kuremasu] - 给, 送给, 给予
+ また今度 - [mata jīn dù] - 下次
+ シリーズ - [shirīzu] - 系列剧
+ 一生 - 一生
+ 二十番目 - 第二十
+ 地球 - 地球
+ 心配 - 担心
+ 恐ろしい - 可怕
+ 本当の - 真的
+ 環境 - 环境
+ 苦手 - 不擅长, 拙于, 不善于, 不喜欢, 难以应付, 不喜欢的东西
+ 落ち着いた - 安静的
+ 親友 - 挚友
+ 観光地 - 旅游景点
+ 韓国 - 韩国
+165 cooking 2 厨房：介绍厨房食材
+ すごい - [sugoi] - 厉害
+ せっかく - [sekkaku] - 特意
+ ところ - [tokoro] - 地方
+ びみょう - [bimyou] - 一般
+ オーブン - [ōbun] - 烤箱
+ スパイス - [supaisu] - 香料
+ 人 - 人
+ 勝ち - 胜利
+ 形 - 形状
+ 料理 - 饭菜
+ 風景 - 风景
+ 香り - 香味
+ 香辛料 - 香料
+166 crisis response 准备：分享防灾经验
+ でも - [demo] - 但是
+ どんなに - [don'nani] - 无论多么
+ の形 - [no xíng] - 的形状
+ も - [mo] - 都, 还, 就算, 也, 和, 还会, 之多
+ 一点 - 一点
+ 一部 - 部分
+ 二の次 - 次要
+ 六本 - 六支
+ 処方せん - 处方
+ 四番目 - 第四
+ 掃除 - 打扫
+ 気持ち - 心情
+ 水道 - 水道, 给水管, 水渠, 水路, 水管
+ 準備 - 准备
+ 県 - 县
+ 空気 - 空气
+ 結果 - 结果
+167 extreme weather events 天气：描述极端天气
+ けど - [kedo] - 但
+ それで - [sorede] - 那样
+ たき - [taki] - 瀑布
+ で - [de] - 用, 因为, 坐, 上, 又, 下, 开, 到, 在, 骑, 里, 边, 以, 中, 以长
+ 卒業式 - 毕业典礼
+ 大変 - 严重
+ 大雨 - 大雨
+ 宇宙 - 宇宙
+ 油 - 油
+ 波 - 波
+ 理由 - 理由
+ 端 - 边缘
+ 細い - 细的
+ 経験豊富 - 经验丰富
+ 続きます - 继续, 持续, 连续
+ 議論 - 讨论
+168 well-being 日常事务：描述你的日常安排
+ お子さん - [o zisan] - 孩子
+ かなと思います - [kanato sīimasu] - 觉得, 认为, 以为, 想, 估计, 会不会, 是否
+ によると - [niyoruto] - 根据, 按照, 依据, 依照, 按, 依据于, 据, 从
+ みりょくてき - [miryokuteki] - 有魅力的, 吸引人的, 迷人的, 有吸引力的, 有趣的, 美丽的
+ タップします - [tappushimasu] - 轻敲, 点击, 轻点
+ 取り除きます - 移除, 去除, 清除, 排除, 消除, 拿开
+ 工学 - 工程学
+ 感覚 - 感觉
+ 提案します - 提议, 建议, 提出, 建议做
+ 明後日 - 后天
+ 気をつけます - 小心
+ 決まった - 固定
+ 祖父母 - 祖父母
+ 立ち上がります - 站起来, 起立, 站起身, 起身, 振作, 启动
+ 紅葉 - 红叶
+ 観客 - 观众
+ 資源 - 资源
+ 食事 - 餐
+169 climate 环境：表达对气候的看法
+ がっかりします - [gakkarishimasu] - 失望, 沮丧, 灰心, 垂头丧气, 失望透顶, 感到失望
+ が必要です - [ga bì yàodesu] - 需要, 必须, 必要, 必需
+ くぎ - [kugi] - 钉子
+ でこぼこ - [dekoboko] - 凹凸不平
+ テラス - [terasu] - 露台
+ 凍ります - 冻结, 结冰, 冰冻
+ 喜んで - 高兴地
+ 大雪 - 大雪
+ 宗教的 - 宗教的
+ 工場 - 工厂
+ 最近 - 最近
+ 材料 - 材料
+ 汚します - 弄脏, 污染, 弄污
+ 洗濯物 - 洗好的衣物
+ 育ちます - 成长, 培养, 养育, 生长, 茁壮成长
+ 自販機 - 自动售货机
+170 parenting 家庭学校：鼓励孩子独立完成任务
+ もう一つは - [mou yītsuha] - 还有一个是
+ よくない - [yokunai] - 不好
+ 取っ手 - 把手
+ 家庭 - 家庭
+ 展示会 - 展览会
+ 教師 - 教师
+ 景色 - 景色
+ 特定 - 确定, 特定
+ 画面 - 屏幕
+ 血圧 - 血压
+ 親 - 父母
+ 話題 - 话题
+ 野球 - 棒球
+171 traffic 街道：分享去餐厅的路线
+ じゅうたい - [juutai] - 交通堵塞
+ ちょうこくか - [choukokuka] - 雕刻家
+ と - [to] - 要是的话, 和, 如果, 就, 与, 要是, 要, 跟, 还是
+ ブランド - [burando] - 品牌
+ 事故 - 事故
+ 人ごみ - 人群
+ 危険 - 危险
+ 塩っぱい - 咸, 盐味的, 有盐味的, 咸味重, 咸的
+ 天ぷら - 天妇罗
+ 昔 - 从前
+ 渡ります - 过, 渡, 横渡, 越过, 通过, 横过
+ 祖母 - 祖母
+ 警察 - 警察
+ 量 - 数量
+172 gossip and rumors 日常事：分享日常小事
+ うわさ - [uwasa] - 传闻
+ ただ - [tada] - 只是
+ どちら - [dochira] - 哪边
+ タイト - [taito] - 紧张
+ 一時的 - 暂时
+ 何歳 - 几岁
+ 分かりました - 明白了
+ 北海道 - 北海道
+ 十一番目 - 第十一
+ 半額 - 半价
+ 広がります - 扩大, 扩展, 传播, 延伸, 蔓延, 弥漫
+ 有名人 - 名人
+ 欠席します - 缺席, 不参加, 旷课
+ 特に - 尤其
+ 発音 - 发音
+ 覚えておきます - 记住, 牢记, 记得, 记下来, 牢记于心
+ 隠します - 隐藏, 掩盖, 藏匿, 隐瞒, 保密
+173 music 音乐：分享你喜欢的音乐
+ ながら - [nagara] - 一边...一边...
+ クラシック - [kurashikku] - 古典音乐
+ ピアニスト - [pianisuto] - 钢琴家
+ ミュージシャン - [myūjishan] - 音乐家
+ メロディー - [merodī] - 旋律
+ リズム - [rizumu] - 节奏
+ 側 - 侧
+ 元気 - 精神有活力
+ 名作 - 名作
+ 所属しています - 所属, 隶属于, 归属于, 属于
+ 時には - 有时
+ 決めます - 决定, 选定, 确定, 约定, 设定
+ 燃えます - 燃烧, 燃起, 点燃, 燃烧得快, 易燃
+ 言い張ります - 坚持, 固执己见, 断言, 硬说, 坚称, 固执地说
+ 金庫 - 保险箱
+ 鋭い - 锋利, 尖锐, 敏锐, 锐利, 锋利的, 锐利的
+ 録音 - 录音
+ 電卓 - 计算器
+174 healthy habits 生活习惯：分享你的健康习惯
+ ようにします - [younishimasu] - 努力做到, 尽量, 设法, 保证, 确保, 尽量避免, 试着不, 力求不
+ ようになります - [youninarimasu] - 变得, 变成, 开始, 逐渐, 变为, 养成习惯
+ メッセージ - [messēji] - 信息
+ 七番目 - 第七
+ 乗り換え - 换乘
+ 仕事を探しています - 找工作, 寻找工作, 找职位, 找职业, 正在找工作, 正在寻找工作
+ 他に - 其他
+ 割引券 - 折扣券
+ 十点 - 十点
+ 取材します - 采访, 取材, 采集资料, 收集素材
+ 早起きします - 早起, 早起床
+ 権利 - 权利
+ 氷 - 冰
+ 湖 - 湖
+ 準備できました - 准备好了, 准备完成, 已经准备好了, 全部准备好了
+ 登録 - 注册
+ 絶対に - 绝对
+ 薄い - 浅
+ 調子 - 状况
+ 離婚 - 离婚
+175 safety precautions 规则：说明安全规则
+ から - [kara] - 从
+ それから - [sorekara] - 然后
+ はっきりしていません - [hakkirishiteimasen] - 不清楚
+ 一つずつ - 一个一个地
+ 丸い - 圆
+ 冷たい - 冷
+ 列 - 列
+ 合理的 - 合理的
+ 娘 - 女儿
+ 安全に - 安全地
+ 料金 - 费用
+ 早めに - 早点
+ 武器 - 武器
+ 真面目に - 认真地
+ 空手 - 空手
+ 関係 - 关系
+ 願い事 - 愿望
+176 debate 日常生活：描述你的日常安排
+ おでん - [oden] - 关东煮
+ お大事に - [o dà shìni] - 请多保重
+ しまいます - [shimaimasu] - 放好, 收拾, 完成, 结束, 收起, 发生, 不小心做了
+ でしょう - [deshou] - 可能
+ なくします - [nakushimasu] - 弄丢, 弄丢了
+ コラム - [koramu] - 专栏
+ ラッキー - [rakkī] - 幸运
+ 一巻 - 一卷
+ 不自由のある - 有障碍的, 有不便的, 有限制的, 不方便的, 有残疾的, 有行动不便的, 有身体障碍的
+ 充分 - 充分
+ 最後に - 最后
+ 泥 - 泥
+ 留学生 - 留学生
+ 直接 - 直接
+ 相手 - 对手
+ 祈ります - 祈祷, 祈求, 祈愿, 祷告, 希望, 祝福
+ 誰でも - 任何人
+ 違い - 区别
+ 髪型 - 发型
+177 public occasions 活动：介绍活动嘉宾
+ いらっしゃいます - [irasshaimasu] - 在, 来, 有, 到来, 出席, 来临
+ くださいます - [kudasaimasu] - 给, 赐给, 送给, 给予, 送
+ ご存知 - [go cún zhī] - 知道, 了解, 认识, 知晓
+ ご覧になります - [go lǎnninarimasu] - 看, 观看, 瞧, 观赏, 浏览, 观看展览, 观展
+ ぜいたく - [zeitaku] - 奢华
+ なさいます - [nasaimasu] - 做, 干, 办, 进行, 采取, 举行, 发表, 致辞
+ ふさわしい - [fusawashii] - 合适, 适当, 相称, 配得上, 适宜, 适合, 适用
+ パン屋さん - [pan wūsan] - 面包店老板
+ 前向き - 积极
+ 声をかけます - 打招呼, 搭话, 叫唤, 询问, 主动搭话, 主动打招呼
+ 学園祭 - 校园祭
+ 本 - 瓶, 书本, 书, 条, 书籍
+ 来学期 - 下学期
+ 立候補 - 参选
+ 結婚 - 结婚
+ 通訳 - 口译
+178 customer service 帮助：为客户解决问题
+ いらっしゃいます - [irasshaimasu] - 在, 来, 有, 到来, 出席, 来临
+ お礼 - [o lǐ] - 感谢
+ になります - [ninarimasu] - 变得, 变成
+ サポートします - [sapōtoshimasu] - 支持, 帮助, 资助, 协助, 辅助, 支援
+ バイト先 - [baito xiān] - 兼职单位
+ 優しく - 温柔地
+ 協力 - 合作
+ 孫 - 孙子
+ 技術 - 技术
+ 暖房 - 暖气
+ 最低 - 至少
+ 比べます - 比较, 对比, 对照, 比照
+ 満足 - 满意
+ 箱 - 箱子
+ 素晴らしい - 棒, 极佳
+ 練習 - 练习
+ 見た目 - 外表
+ 辞めます - 辞职, 放弃, 停止, 退出
+ 銀座 - 银座
+ 韓国語 - 韩语
+179 visual arts 展览：描述一幅画
+ えいきょう - [eikyou] - 影响
+ お花畑 - [o huā tián] - 花田
+ でお願いします - [deo yuànishimasu] - 请给我
+ みたい - [mitai] - 想
+ よう - [you] - 好像
+ タイトル - [taitoru] - 标题
+ ライティング - [raitingu] - 照明
+ 効果 - 效果
+ 壁 - 墙
+ 本物 - 真品
+ 森 - 森林
+ 準備万端 - 准备充分
+ 科学 - 科学
+ 荷物 - 行李
+ 葉っぱ - 叶片
+ 虹 - 彩虹
+180 public transit 车站周边：描述车站环境
+ います - [imasu] - 在
+ おす - [osu] - 公
+ お皿 - [o mǐn] - 盘子
+ アプリ決済 - [apuri jué jì] - 应用支付
+ エンタメ - [entame] - 娱乐
+ バス停 - [basu tíng] - 公交车站
+ ラッシュ - [rasshu] - 高峰期
+ ルート - [rūto] - 路线
+ 地下鉄 - 地铁
+ 大声で - 大声地
+ 床 - 地板
+ 得意 - 擅长
+ 手続き - 手续
+ 着陸 - 着陆
+ 西口 - 西口
+181 library 图书馆：描述图书馆环境
+ こういう - [kouiu] - 这样的, 这种, 这样类型的, 这种类型的
+ しまいます - [shimaimasu] - 放好, 收拾, 完成, 结束, 收起, 发生, 不小心做了
+ どうしたら - [doushitara] - 该怎么做
+ へとへと - [hetoheto] - 筋疲力尽
+ らいいですか - [raiidesuka] - 可以吗, 行吗, 好吗, 适合吗, 合适吗, 应该吗, 应该做什么
+ らどうですか - [radoudesuka] - 怎么样, 如何, 建议怎么样, 要不要
+ カウンター席 - [kauntā xí] - 吧台座位
+ 両親 - 父母
+ 五番目 - vijfde
+ 先に - 先
+ 図書館 - 图书馆
+ 境界線 - 边界线
+ 復習します - 复习, 温习
+ 棚 - 架子
+ 正式 - 正式
+ 美術館 - 美术馆
+ 蒸し暑い - 闷热
+ 解きます - 解开, 解决, 解答, 松开, 拆开, 破解
+ 面接 - 面试
+182 everyday tech 毕业：分享毕业庆祝活动
+ お祝い - [o zhùi] - 庆祝
+ と関係があります - [to guān xìgaarimasu] - 有关系, 相关, 有关联, 相关联, 有联系
+ ぶんせき - [bunseki] - 分析
+ イヤホン - [iyahon] - 耳机
+ ネット - [netto] - 网络
+ バッテリー - [batterī] - 电池
+ 公開します - 公开, 发布, 公布, 揭露, 展示
+ 再起動します - 重新启动, 重启
+ 割れます - 破裂, 裂开, 破碎, 分裂, 碎裂
+ 卒業します - 毕业, 完成学业, 从大学毕业
+ 宇宙 - 宇宙
+ 港 - 港口
+ 突然 - 突然
+ 綿 - 棉
+ 花火大会 - 烟花大会
+ 間 - 之间
+ 間に - 趁着
+183 job interview 职场：描述你的工作经历
+ おります - [orimasu] - 在, 有, 是, 继续, 准备, 认为, 知道, 携带, 停放, 生活
+ お目にかかります - [o mùnikakarimasu] - 见面, 会面, 拜见, 见到, 会见
+ 会議室 - 会议室
+ 伺います - 询问, 拜访, 打听, 请教, 访问, 前往, 到访
+ 判断します - 判断, 断定, 裁决, 判定, 决定
+ 十二番目 - 第十二
+ 子供のころ - 小时候
+ 存じます - 知道, 认为, 觉得, 了解, 认识
+ 拝見します - 拜见, 观看, 瞻仰, 查看
+ 整えます - 整理, 调整, 安排, 准备, 修整, 整顿, 整洁
+ 注意 - 注意
+ 無職 - 失业
+ 申し上げます - 说, 告诉, 致以, 敬告, 陈述, 说明, 报告
+ 私 - 我
+ 約束 - 约定, 承诺
+ 細かい - 细小的
+ 給料 - 工资
+ 自己紹介します - 自我介绍, 介绍自己, 自我介绍一下, 开始自我介绍, 现在开始自我介绍
+ 辞職します - 辞职, 离职, 辞去职务
+184 cultural practices 准备：询问场地安排
+ いただきます - [itadakimasu] - 我开动了
+ します - [shimasu] - 做
+ でしょうか - [deshouka] - 是吗, 吗, 可能是, 会是, 大概是
+ コツ - [kotsu] - 窍门
+ タバコを吸います - [tabakowo xīimasu] - 吸烟, 抽烟, 吸烟草
+ チーム - [chīmu] - 队
+ 分かりやすい - 容易理解, 明白, 简单, 易懂, 清楚, 清晰
+ 印象 - 印象
+ 差し上げます - 给, 赠送, 提供, 献上, 发送, 传送
+ 政府 - 政府
+ 日陰 - 阴凉
+ 正直に - 诚实地
+ 汚れ - 污渍
+ 真面目 - 认真
+ 紙袋 - 纸袋
+ 経験 - 经验
+ 行事 - 活动
+ 門 - 门
+ 静かに - 安静地
+185 restaurant experiences 餐馆：询问餐馆的位置
+ お腹 - [o fù] - 肚子
+ そう - [sou] - 好像
+ ていねい - [teinei] - 细心, 礼貌, 周到, 认真, 仔细, 细致
+ よろしくお願いします - [yoroshikuo yuànishimasu] - 请多多关照
+ 不機嫌 - 不高兴
+ 今学期 - 这个学期
+ 売り切れます - 卖完, 售罄, 销售一空
+ 容量 - 容量
+ 店内 - 店里
+ 指輪 - 戒指
+ 日差し - 阳光
+ 残っています - 剩下, 留下, 遗留, 剩余
+ 生き物 - 生物
+ 看板 - 招牌
+ 行ってみます - 去试试, 去看看, 试着去, 去尝试, 去试试看
+ 面倒を見ます - 照顾, 关照, 照料, 照看, 照应, 照顾好, 照料好
+ 駅前 - 车站前
+186 self-expression 景色：描述清晨的景色
+ きれいに - [kireini] - 干净地
+ この辺り - [kono biānri] - 这附近
+ しない - [shinai] - 竹剑
+ せめて - [semete] - 至少
+ つもり - [tsumori] - 打算
+ で - [de] - 用, 因为, 坐, 上, 又, 下, 开, 到, 在, 骑, 里, 边, 以, 中, 以长
+ 危機 - 危机
+ 夏休み - 暑假
+ 岸 - 岸
+ 弱い - 弱
+ 明け方 - 黎明
+ 正面 - 正面
+ 絹 - 丝绸
+ 記事 - 文章
+ 誕生 - 诞生
+ 距離 - 距离
+187 film 电影：询问电影院的营业时间
+ ずっと - [zutto] - 一直
+ なんとか - [nantoka] - 总算
+ はず - [hazu] - 应该
+ 俳優 - 演员
+ 前は - 以前
+ 収集 - 收集
+ 実際の - 实际的
+ 影 - 影子
+ 枝 - 树枝
+ 柔らかい - 软, 软软
+ 汚染 - 污染
+ 結末 - 结局
+ 裁判所 - 法院
+ 誰にでも - 任何人
+ 貿易 - 贸易
+ 農業 - 农业
+ 長さ - 长短, 长度
+ 養子 - 养子
+188 geography 基础：解释简单数据
+ かわいそう - [kawaisou] - 可怜, 可怜的, 可悲, 令人同情, 令人怜悯, 令人心疼, 令人心酸
+ がけ - [gake] - 悬崖
+ へ - [he] - 到, 向, 对, 去, 给
+ グラフ - [gurafu] - 图表
+ メーカー - [mēkā] - 制造商
+ ユーザー - [yūzā] - 用户
+ 可能性 - 可能性
+ 向こう - 对方
+ 基本的 - 基本的
+ 大陸 - 大陆
+ 引っ張ります - 拉, 拖, 拽, 拉紧, 牵引, 拉扯
+ 文章 - 文章
+ 書類 - 文件
+ 最優先 - 最优先
+ 最初 - 最初
+ 海岸 - 海岸
+ 湾 - 湾
+ 近く - 附近
+ 鉄 - 铁
+189 future plans 2 活动：制定比赛准备计划
+ お守り - [o shǒuri] - 护身符
+ じゅんすい - [junsui] - 纯粹, 纯净, 纯正, 纯洁, 纯真, 纯金
+ そのあと - [sonoato] - 然后
+ といいですね - [toiidesune] - 希望, 祝愿, 要是...就好了, 真希望, 期待, 希望能, 盼望
+ セール品 - [sēru pǐn] - 特价品
+ ハヌカ - [hanuka] - 光明节
+ 割 - 打
+ 履歴書 - 简历
+ 忘れずに - 不忘
+ 早い - 早, 捷, 真快
+ 月 - 月亮
+ 条件 - 条件
+ 物価 - 物价
+ 管理 - 管理
+ 試験 - 考试
+ 賞 - 奖
+ 赤ちゃん - 婴儿
+190 scientific discoveries 主题：分享你的看法
+ そういう - [souiu] - 那样
+ とか - [toka] - 或者
+ の代わりに - [no dàiwarini] - 代替, 替代, 作为...的代替, 代替品, 取代, 代替着
+ みたい - [mitai] - 想
+ わくわくします - [wakuwakushimasu] - 兴奋, 激动, 期待, 心跳加速, 高兴, 开心
+ ロボット - [robotto] - 机器人
+ 世界中 - 全世界
+ 便 - 航班
+ 心理学 - 心理学
+ 恐怖 - 恐惧
+ 想像力 - 想象力
+ 意見 - 意见
+ 植物 - 植物
+ 注意 - 注意
+ 煙 - 烟
+ 賢い - 聪明
+ 重要 - 重要
+ 金色 - 金色
+191 buying goods 购物：表达购物需求
+ だけ - [dake] - 只
+ だけじゃなくて - [dakejanakute] - 不仅, 不只是, 不光
+ ちょうどいい - [choudoii] - 正好, 适合, 恰当, 合适, 刚好
+ どうしますか - [doushimasuka] - 怎么办, 如何处理, 怎么做, 怎么办呢, 如何处理呢, 怎么做呢
+ にいい - [niii] - 对...好, 有益于, 有利于, 适合, 适用, 适合于
+ マナーモード - [manāmōdo] - 静音模式
+ メーカー - [mēkā] - 制造商
+ モデル - [moderu] - 型号
+ 修理の人 - 维修工
+ 切符 - 票
+ 十個 - 十个
+ 嬉しい - 高兴, 高高兴兴
+ 専門家 - 专家
+ 布団 - 被褥
+ 日用品 - 日用品
+ 輝きます - 闪耀, 发光, 照耀, 辉煌, 闪闪发光, 闪亮
+ 長持ち - 耐用
+192 environmental features 环境：描述你看到的景色
+ うちに - [uchini] - 在...期间, 趁着, 在...的时候, 趁着...的时候, 之内
+ きれい - [kirei] - 漂亮
+ プライベート - [puraibēto] - 私人
+ 人形 - 人偶
+ 協会 - 协会
+ 土台 - 底座
+ 埋めます - 埋, 填, 掩埋, 埋葬, 填补, 埋藏
+ 平ら - 平坦
+ 成功します - 成功, 达成, 实现, 完成, 顺利
+ 曇ります - 阴天, 多云, 变阴
+ 水道 - 自来水
+ 汚れます - 弄脏, 污染, 脏污, 弄污, 弄脏了, 变脏
+ 緑 - 绿意
+ 耳の不自由 - 听力障碍
+ 返品 - 退货
+ 鼻水が出ます - 流鼻涕, 鼻涕流出, 鼻水流出, 鼻涕流, 流鼻涕了
+193 religion 文化生活：安排周末活动
+ お寺 - [o sì] - 寺庙
+ お菓子屋 - [o guǒ zi wū] - 糕点店
+ それぞれ - [sorezore] - 各自
+ マイノリティ - [mainoriti] - 少数群体
+ 今まで - 到目前为止
+ 宗教 - 宗教
+ 心配 - 担忧
+ 手作り - 手工
+ 改札 - 检票口
+ 教会 - 教会
+ 満足している - 满足
+ 空港 - 机场
+ 約束 - 约定, 承诺
+ 考え方 - 思考方式
+ 設備 - 设施
+194 recycling and waste 回收：介绍回收习惯
+ なので - [nanode] - 因为
+ よね - [yone] - 是吧, 对吧, 不是吗, 是不是
+ ダメ - [dame] - 不行
+ リサイクルボックス - [risaikurubokkusu] - 回收箱
+ 似ています - 相似, 类似, 像, 相像, 相仿
+ 例 - 例子
+ 全然 - 完全
+ 刺し身 - 生鱼片
+ 古着 - 二手衣服
+ 州 - 州
+ 手袋 - 手套
+ 発表 - 公布, 发布
+ 賛成 - 赞成
+ 跡 - 痕迹
+195 digital tools 日常事物：介绍常见物品
+ usbメモリー - 优盘
+ きかい - [kikai] - 机会
+ って - [tte] - 是
+ どこからでも - [dokokarademo] - 从任何地方
+ スイッチ - [suitchi] - 开关
+ メモ - [memo] - 记
+ 他の場所 - 别的地方
+ 友情 - 友谊
+ 旅館 - 旅馆
+ 有罪 - 有罪
+ 橋 - 桥
+ 気になります - 在意, 关心, 担心, 介意, 好奇, 想去, 感兴趣
+ 涼しい - 凉爽
+ 番号 - 号码
+ 設定 - 设置
+ 電球 - 电灯泡
+196 gardening 植物：介绍你的植物
+ つづけます - [tsudzukemasu] - 继续, 持续, 维持, 连续, 延续, 给予
+ ハーブ - [hābu] - 草药
+ 会場 - 会场
+ 傷つけます - 伤害, 伤到, 使受伤, 损害, 伤害感情, 伤口
+ 初心者 - 初学者
+ 土 - 土壤
+ 水をやります - 浇水, 给水, 供水, 浇灌, 给植物浇水
+ 神社 - 神社
+ 肌 - 皮肤
+ 言葉にします - 用言语表达, 说出来, 表达, 用语言说明, 把想法说出来, 把感情表达出来
+ 説明 - 说明
+ 軽く - 轻轻地
+ 関係 - 关系
+ 隣の - 隔壁的
+197 weddings 庆典：介绍婚礼准备
+ ことです - [kotodesu] - 事情是, 是, 表示, 意味着, 说明, 是做
+ つまり - [tsumari] - 也就是说
+ ということです - [toiukotodesu] - 也就是说
+ スタイリスト - [sutairisuto] - 造型师
+ 口座 - 账户
+ 夫婦 - 夫妻
+ 建物 - 建筑
+ 心から - 衷心地
+ 掃除機 - 吸尘器
+ 机 - 桌子
+ 歴史 - 历史
+ 番組 - 节目
+ 絆 - 纽带
+ 結婚式 - 婚礼
+ 複雑 - 复杂
+ 費用 - 费用
+198 travel experiences 交流：描述海外旅行经历
+ ご家族 - [go jiā zú] - 您的家人
+ と - [to] - 要是的话, 和, 如果, 就, 与, 要是, 要, 跟, 还是
+ のんびり - [nonbiri] - 悠闲地
+ ローマ - [rōma] - 罗马
+ 会話 - 对话
+ 動物 - 动物
+ 名刺 - 名片
+ 地元の人 - 当地人
+ 寂しい - 寂寞, 孤独, 冷清, 凄凉, 寂静, 想念
+ 布 - 布
+ 政治的 - 政治
+ 暗い - 暗
+ 海外旅行 - 海外旅行
+ 目的 - 目的
+ 辺り - 附近
+199 getting a haircut / salon 美容院：描述理想发型
+ あこがれの人 - [akogareno rén] - 憧憬的人
+ いい感じ - [ii gǎnji] - 不错
+ いただきます - [itadakimasu] - 我开动了
+ ご - [go] - 请
+ しっぽ - [shippo] - 尾巴
+ じょうだん - [joudan] - 玩笑
+ すごいと思います - [sugoito sīimasu] - 觉得厉害, 认为了不起, 觉得惊人, 觉得棒, 觉得很棒, 觉得很厉害
+ 任せます - 委托, 交给, 托付, 委派, 委托给, 交由
+ 偶然 - 偶然
+ 八番目 - 第八
+ 商業 - 商业
+ 四分の一 - 四分之一
+ 大切にします - 珍惜, 爱护, 重视, 关心, 尊重
+ 格好 - 样子, 形状, 打扮, 状态, 方式, 造型
+ 真ん中 - 正中间
+ 美容室 - 美容院
+ 長さ - 长短, 长度
+ 隠れた - 隐藏的
+ 風邪を引きます - 感冒, 患感冒, 得感冒
+ 髪 - 头发
+200 gift giving 礼物：挑选合适的礼物
+ こんな - [kon'na] - 这样
+ だいたい - [daitai] - 大约
+ ですか - [desuka] - 吗
+ ままです - [mamadesu] - 保持
+ エコバッグ - [ekobaggu] - 环保袋
+ 三本 - 三支
+ 値段 - 价格
+ 息子 - 儿子
+ 悩み - 烦恼
+ 新婦 - 新娘
+ 注文 - 点单
+ 派手 - 花哨
+ 笑顔 - 笑脸
+ 表 - 正面
+ 誕生日パーティー - 生日派对
+ 高級 - 高级
+201 geopolitical issues 计划：表达你的计划
+ しょうこ - [shouko] - 证据
+ らしい - [rashii] - 好像
+ 三泊 - 三晚
+ 予約 - 预订
+ 到着 - 到达
+ 力を入れます - 努力, 用力, 加油, 使劲, 投入精力, 专注, 投入
+ 囲みます - 围绕, 包围, 环绕, 围住, 围困, 围坐, 围聚
+ 国際ニュース - 国际新闻
+ 奥さん - 太太
+ 安定 - 稳定
+ 後についていきます - 跟随其后, 跟在后面, 跟着走, 跟随, 追随, 跟着大家走
+ 水族館 - 水族馆
+ 用事 - 事情
+ 記者 - 记者
+ 近いうちに - 不久之后
+ 金 - 金
+ 食パン - 吐司面包
+ 首都 - 首都
+202 types of cuisine 美食：描述你喜欢的美食
+ なら - [nara] - 如果
+ デカい - [dekai] - 大的, 巨大的, 巨大
+ パン屋 - [pan wū] - 面包店
+ ベジタリアン - [bejitarian] - 素食者
+ ラザニア - [razania] - 千层面
+ 個 - 个
+ 好み - 喜好
+ 寿司 - 寿司
+ 心 - 心
+ 快速 - 快速
+ 機会 - 机会
+ 焼き鳥 - 烤鸡串
+ 硬い - 硬的
+ 約束 - 约定, 承诺
+ 舌 - 舌头
+ 苦手 - 不擅长
+ 選手 - 选手
+ 食べ放題 - 自助餐
+203 fashion 时尚：介绍你的新衣服
+ くせ毛 - [kuse máo] - 卷发
+ ばかり - [bakari] - 刚刚才而已
+ オフィスカジュアル - [ofisukajuaru] - 办公室休闲装
+ コレクション - [korekushon] - 收藏
+ シャツ - [shatsu] - 衬衫
+ シーズン - [shīzun] - 季节
+ 並びます - 排列, 排队, 排列成行
+ 効きます - 有效, 起作用, 灵验, 见效, 起效, 有疗效
+ 十点 - 十点, 十个点, 十个项目, 十个条目
+ 履きます - 穿，穿着，戴，踩，踏
+ 投げます - 投掷, 扔, 抛, 投, 掷
+ 方法 - 方法
+ 最大限 - 最大限度
+ 毎 - 每个
+ 簡単に - 轻松地
+ 素敵 - 漂亮
+ 試着室 - 试衣间
+ 誌 - 杂志
+ 重さを量ります - 称重, 测量重量, 量体重, 测重
+204 first aid 经历：分享你的经历
+ けが - [kega] - 伤
+ さえ - [sae] - 只要
+ その間 - [sono jiān] - 这期间
+ ちらっと見ます - [chiratto jiànmasu] - 瞥一眼, 偷看, 一瞥, 匆匆看, 瞟一眼
+ 会議 - 会议
+ 割合 - 比例
+ 周りの人 - 周围的人
+ 失敗 - 失败
+ 彼女 - 女朋友
+ 擦り傷 - 擦伤
+ 救急車 - 救护车
+ 普通 - 普通
+ 有能 - 有能
+ 温泉 - 温泉
+ 研修 - 培训
+ 種 - 种子
+ 観光 - 旅游
+ 防災 - 防灾
+ 集まり - 聚会
+205 destinations 场所：描述你常去的地方
+ お願いしました - [o yuànishimashita] - 请求
+ で - [de] - 用, 因为, 坐, 上, 又, 下, 开, 到, 在, 骑, 里, 边, 以, 中, 以长
+ でしょう - [deshou] - 会
+ とめます - [tomemasu] - 停
+ ほっとした - [hottoshita] - 松了一口气
+ インフォメーション - [infomēshon] - 咨询台
+ サウナ - [sauna] - 桑拿
+ トレンド - [torendo] - 潮流
+ 両方 - 两者
+ 六個 - 六个
+ 商店街 - 商业街
+ 宿題 - 作业
+ 池 - 池塘
+ 珍しい - 稀有, 很少见的, 罕见, 罕
+ 砂まみれ - 满是沙子的
+ 自由に - 自由地
+ 階段 - 楼梯
+206 family structure 家庭生活：介绍你的家人
+ おかげで - [okagede] - 多亏了
+ お祭り - [o jìri] - 节日
+ けっきょく - [kekkyoku] - 结果, 到头来, 终究, 归根结底, 最终, 最后, 终归
+ はっきりと - [hakkirito] - 清晰地
+ コミュニティ - [komyuniti] - 社区
+ ノックします - [nokkushimasu] - 敲门, 叩门, 敲击
+ レイアウト - [reiauto] - 布局
+ 入院 - 住院
+ 受けます - 接受
+ 夢 - 梦
+ 女優 - 女演员
+ 家族会議 - 家庭会议
+ 意味 - 意思
+ 知事 - 省长
+ 郊外 - 郊区
+ 離婚した - 离婚的
+ 頼りになります - 可靠, 可信赖, 值得依靠, 依赖, 依靠, 靠得住
+207 philosophy 想法：表达你对邻居的看法
+ じまん - [jiman] - proud
+ てつがく - [tetsugaku] - 哲学
+ どこにも - [dokonimo] - 哪儿都不
+ どこも - [dokomo] - 哪里都
+ ワンチャンあります - [wanchanarimasu] - 有机会, 有可能, 还有希望, 可能性存在, 还有机会
+ 丸 - 圆
+ 住所 - 地址
+ 何も - 什么都
+ 全く - 完全不一点也不
+ 受け入れられます - 接受, 采纳, 接纳, 容纳, 承认, 认可
+ 強引に - 强行地
+ 必要 - 必要
+ 最悪 - 最糟
+ 正解 - 正确答案
+ 無視します - 忽视, 无视, 不理睬, 置之不理, 忽略
+ 経済 - 经济
+ 能力 - 能力
+ 誰にも - 任何人, 无论谁, 对任何人, 没有告诉任何人, 不让任何人看到, 不让任何人知道, 不输给任何人
+ 誰も - 没人
+208 sports 2 比赛：介绍你的比赛经验
+ あきらめます - [akiramemasu] - 放弃, 死心, 断念, 屈服
+ ほど - [hodo] - 那么
+ ゴール - [gōru] - 球门
+ プレッシャー - [puresshā] - 压力
+ マラソン大会 - [marason dà huì] - 马拉松比赛
+ 体力 - 体力
+ 勝負します - 竞争, 对决, 较量, 比赛, 决胜负, 挑战
+ 商品 - 商品
+ 定食 - 套餐
+ 年齢 - 年龄
+ 戦い - 战斗
+ 打ちます - 打, 击, 敲, 拍, 打击, 发球
+ 消します - 关掉, 熄灭, 消除, 删除, 关闭
+ 深さ - 深度
+ 相手 - 对手
+ 緊急事態 - 紧急情况
+ 腕 - 胳膊
+ 袋 - 袋子
+ 進めます - 推进, 进行, 促进, 提前, 推荐, 推动
+209 public policy 作家：说明政策变化
+ だから - [dakara] - 所以
+ よね - [yone] - 是吧, 对吧, 不是吗, 是不是
+ わけ - [wake] - 理由
+ 中国語 - 中文
+ 作家 - 作家
+ 全ての - 全部的, 所有的, 一切的, 全体的
+ 十億 - 十亿
+ 十泊 - 十晚
+ 市内 - 市内
+ 最高 - 最棒
+ 法律 - 法律
+ 謎 - 谜
+ 進めます - 推进, 进行, 促进, 提前, 推荐, 推动
+ 面倒 - 麻烦
+210 exercise routines 健康：分享你的锻炼习惯
+ そのかわり - [sonokawari] - 作为替代
+ わけ - [wake] - 理由
+ わけじゃない - [wakejanai] - 并不是
+ レベル - [reberu] - 水平
+ 保護者 - 监护人
+ 優しい - 温柔
+ 前向き - 积极
+ 助ける - 帮助
+ 才能 - 天赋
+ 汗 - 汗
+ 無理 - 勉强
+ 笑います - 笑
+ 膝 - 膝盖
+ 電気屋 - 电器店
+211 concerts and performances 活动：确认活动时间
+ か - [ka] - 或, 呢, 吗, 要么, 乎, 什么, 嗎, 卦
+ かどうか - [kadouka] - whether or not
+ オーケストラ - [ōkesutora] - 管弦乐队
+ パンフレット - [panfuretto] - 小册子
+ 全然 - 一点也
+ 判断します - 判断, 断定, 裁决, 判定, 决定
+ 十九番目 - 第十九
+ 周り - 周围
+ 地域 - 地区
+ 文化的 - 文化的
+ 曲 - 曲子
+ 歌手 - 歌手
+ 発見 - 发现
+ 礼儀正しく - 有礼貌
+ 背景 - 背景
+ 腕時計 - 手表
+ 観光 - 观光
+ 開始時間 - 开始时间
+212 historical events 历史：讲述历史事件
+ あの時 - [ano shí] - 那时
+ だんだん - [dandan] - 越来越
+ ついていません - [tsuiteimasen] - 倒霉
+ ところ - [tokoro] - 地方
+ ショック - [shokku] - 震惊
+ 世界 - 世界
+ 優先 - 优先
+ 十六番目 - 第十六
+ 博物館 - 博物馆
+ 始まり - 开始
+ 新宿 - 新宿
+ 曇り - 多云
+ 終了時間 - 结束时间
+ 船長 - 船长
+ 銀行 - 银行
+213 diversity 校园生活：分享适应校园的经验
+ さえ - [sae] - 只要
+ 三番目 - 第三
+ 十巻 - 十卷
+ 本当に - 真的
+ 焼きそば - 炒面
+ 畳 - 榻榻米
+ 知識 - 知识
+ 科目 - 科目
+ 論理 - 逻辑
+ 骨 - 骨头
+214 negotiation and persuasion 方法：分配小组任务
+ ですか - [desuka] - 吗
+ ようなきがします - [younakigashimasu] - 觉得好像
+ コスト - [kosuto] - 成本
+ スピード - [supīdo] - 速度
+ メートル - [mētoru] - 米
+ ワゴン車 - [wagon chē] - 面包车
+ 十番目 - 第十
+ 大事なところ - 重要部分
+ 態度 - 态度
+ 所 - 地方
+ 点 - 件
+ 緑 - 绿色
+ 習慣 - 习惯
+ 解決 - 解决
+ 追加の - 额外的
+215 romantic relationships 恋爱：聊恋爱故事
+ じゃう - [jau] - 完了, 做完, 结束, 不小心, 误做, 放纵, 忍不住
+ ちゃう - [chau] - 做完, 不由自主地, 不小心, 变得
+ と - [to] - 要是的话, 和, 如果, 就, 与, 要是, 要, 跟, 还是
+ なんだか - [nandaka] - 不知怎的
+ の - [no] - 呢, 吗, 之, 的
+ んだ - [nda] - 是, 的, 因为, 说明, 表示原因, 表示解释, 表示强调
+ んだって - [ndatte] - 听说, 据说, 说是, 传闻
+ 八個 - 八个
+ 応援します - 支持, 加油, 声援, 鼓励
+ 怒って - 生气地
+ 性格 - 性格
+ 悩みます - 苦恼, 烦恼, 苦闷, 担心, 犹豫, 考虑
+ 悲しい - 悲伤
+ 相手 - 对方
+ 素直 - 坦率
+ 義務 - 义务
+ 賞 - 奖
+ 雑誌 - 杂志
+216 public spaces 热闹：和朋友一起看球赛
+ かな - [kana] - 吧
+ かも - [kamo] - 可能吧
+ から - [kara] - 从
+ じゃダメ - [jadame] - 不行, 不可以, 不能, 不好, 不应该, 不可做
+ ちゃダメ - [chadame] - 不行, 不能, 不可以, 不允许, 禁止, 禁止做, 不允许做, 不准做
+ でかい - [dekai] - 大的, 巨大的, 庞大的, 巨型的, 大号的
+ でしょ - [desho] - 对吧
+ にぎやか - [nigiyaka] - 热闹
+ アルコール - [arukōru] - 酒精
+ キャプテン - [kyaputen] - 队长
+ ノンアルコール - [non'arukōru] - 无酒精
+ 何もない - 什么都没有, 一无所有, 毫无, 没有任何东西, 空白, 空无一物, 空荡荡
+ 刑務所 - 监狱
+ 場合 - 情况
+ 広告を出します - 发布广告, 登广告, 做广告, 投放广告, 宣传
+ 深呼吸をします - 深呼吸, 深吸气, 做深呼吸
+ 濃い - 浓
+ 覚えていますか - 记得吗, 还记得吗, 你记得吗, 你还记得吗, 记住了吗
+ 観戦します - 观看比赛, 观赛, 观战, 看比赛
+217 rural life 日常：分享夜晚体验
+ と - [to] - 要是的话, 和, 如果, 就, 与, 要是, 要, 跟, 还是
+ め - [me] - 眼睛
+ もくげきしゃ - [mokugekisha] - 目击者
+ 一度 - 一次
+ 個性 - 个性
+ 努力 - 努力
+ 収納 - 收纳
+ 家事 - 家务
+ 小さな - 小
+ 屋外 - 户外
+ 明かり - 灯光
+ 曲がり角 - 拐角
+ 泊まるところ - 住宿的地方
+ 直ります - 修好, 治愈, 改正, 纠正, 恢复, 修复, 维修
+ 落ち着きます - 安定, 镇定, 冷静, 平静, 稳定下来, 安心, 放松
+ 観光客 - 游客
+ 軽い - 轻
+ 離れます - 离开, 分开, 脱离, 远离, 分离, 离去, 走开
+218 museum visits 美术馆：描述艺术品
+ まさかの - [masakano] - 意想不到
+ わけがない - [wakeganai] - 绝对不可能
+ 信号 - 信号灯
+ 兄弟 - 兄弟
+ 入場 - 入场
+ 勉強になります - 受益匪浅, 学到了很多, 很有帮助, 增长知识, 受教, 很有教育意义, 非常有启发性
+ 原宿 - 原宿
+ 席 - 座位
+ 後ろ向きに - 向后, 背对着, 朝后, 消极地, 负面地
+ 意味があります - 有意义, 有价值, 有含义, 有意思
+ 最後尾 - 队尾
+ 次に - 接着
+ 欲しい - 想要
+ 水筒 - 水壶
+ 祝日 - 节假日
+219 landmarks 规则：介绍景点规则
+ いけません - [ikemasen] - 不行, 不可以, 不能, 不好, 不允许, 必须
+ じっと - [jitto] - 静静地
+ と - [to] - 要是的话, 和, 如果, 就, 与, 要是, 要, 跟, 还是
+ めいわく - [meiwaku] - 麻烦
+ シリーズ - [shirīzu] - 系列
+ 伝統的 - 传统的
+ 冒険者 - 冒险者
+ 国立 - 国立
+ 後ろ向きに - 向后, 背对着, 朝后, 消极地, 负面地
+ 星 - 星星
+ 案内の人 - 导游
+ 資料 - 资料
+ 頂上 - 山顶
+220 civic life 会议：介绍会议流程
+ への - [heno] - 向, 到, 对, 朝, 往, 给, 对于
+ ほとんど - [hotondo] - 几乎
+ 代理店 - 代理店
+ 六巻 - 六卷
+ 巻 - 卷
+ 市民 - 市民
+ 市長 - 市长
+ 掛かります - 挂，花费，涉及，开始，悬挂，需要，耗费
+ 掲示板 - 公告栏
+ 知らせます - 通知, 告诉, 告知, 报告, 告示, 提醒
+ 経験 - 经验
+ 親子 - 亲子
+ 言い訳 - 借口
+ 証明します - 证明, 证实, 证明确认
+ 論文 - 论文
+ 高校生 - 高中生
+221 extending accepting and declining invitations 聚会：表达对礼物的感受
+ お久しぶり - [o jiǔshiburi] - 好久不见
+ けど - [kedo] - 但
+ そういうこと - [souiukoto] - 那种事情
+ なら - [nara] - 如果
+ んですけど - [ndesukedo] - 是因为, 但是, 不过, 其实, 话说回来, 请求, 想要, 希望, 询问, 表示委婉的提问或表达
+ 作家 - 作家
+ 完全 - 完全的, 完全
+ 感動します - 感动, 触动, 打动, 激动
+ 手編み - 手工编织
+ 本当は - 其实
+ 消防車 - 消防车
+ 演技 - 表演
+ 状況 - 情况
+ 要素 - 要素
+ 質問 - 问题
+ 間もなく - 马上就
+ 風船 - 气球
+222 volunteering 交流：表达你的想法
+ として - [toshite] - 作为
+ になります - [ninarimasu] - 变得, 变成
+ 多分 - 大概
+ 嬉しい - 高兴, 高高兴兴
+ 居酒屋 - 居酒屋
+ 引き出し - 抽屉
+ 恥ずかしい - 害羞, 羞涩, 羞愧, 不好意思, 尴尬
+ 持ち上げます - 举起, 抬起, 提起, 扶起
+ 毎回 - 每次
+ 研究 - 研究
+ 空っぽ - 空的
+ 繋ぎます - 连接, 绑, 系, 连接起来, 结合, 连接上, 接上
+ 考え - 想法
+ 自分勝手 - 自私
+ 虫 - 虫子
+ 近所の人 - 邻居
+ 追加で - 额外
+ 重さ - 重量
+ 野菜 - 蔬菜
+223 governmental systems 工作学习：介绍办公室分工
+ だいとうりょう - [daitouryou] - 总统
+ では - [deha] - 不是
+ とは - [toha] - 跟
+ には - [niha] - 在, 对, 跟, 上
+ までは - [madeha] - 直到, 直到...为止, 到...为止, 直至, 到...之前, 在...之前
+ 企業 - 企业
+ 会計 - 结账
+ 作物 - 农作物
+ 入れます - 放入
+ 国際関係 - 国际关系
+ 女王 - 女王
+ 政治家 - 政治家
+ 本気で - 认真地
+ 毎晩 - 每晚
+ 民主主義 - 民主主义
+ 現実的 - 现实的
+ 紅茶 - 红茶
+ 預かります - 保管, 托管, 代管, 照看, 看管, 收存
+ 食堂 - 食堂
+224 disability 伙伴：和伙伴一起讨论对策
+ しか - [shika] - 只能
+ とします - [toshimasu] - 假设, 认为, 决定, 决定做, 设定, 采取, 作为
+ には - [niha] - 在, 对, 跟, 上
+ はじめ - [hajime] - 最初
+ みんな - [min'na] - 大家
+ 仲間 - 伙伴
+ 個人的に - 个人地
+ 前みたいに - 像以前那样
+ 効率のいい - 高效, 效率高, 有效率, 有效率的, 高效的
+ 可能 - 可能
+ 地震 - 地震
+ 城 - 城堡
+ 大きい声を出します - 大声喊叫, 大声说话, 大声发声
+ 少しずつ - 一点一点地
+ 最後 - 最后
+ 無理しなくていい - 不要勉强, 不必勉强, 不用勉强, 不需要勉强, 可以不勉强, 没必要勉强
+ 速く - 快速地
+ 違法 - 非法
+225 pet care 宠物：安慰宠物生病的朋友
+ たがります - [tagarimasu] - 想要, 渴望, 希望, 表现出想要
+ ほとんどは - [hotondoha] - 大部分
+ エサ - [esa] - 饲料
+ ゴミ箱 - [gomi xiāng] - 垃圾桶
+ ベル - [beru] - 铃铛
+ ペットショップ - [pettoshoppu] - 宠物店
+ 一昨日 - 前天
+ 体調 - 身体状况
+ 内容 - 内容
+ 可愛い - 可爱
+ 大切に思っています - 珍惜, 重视, 珍视, 关心, 爱护, 珍爱
+ 幸せそうに - 幸福地
+ 息 - 呼吸
+ 新鮮 - 新鲜
+ 気持ち悪い - 恶心, 令人不快, 讨厌, 不舒服, 反感, 令人作呕
+ 治します - 治疗, 治愈, 处理, 修理, 改正
+ 治ります - 治愈, 痊愈, 康复, 好转, 治好, 恢复
+ 象 - 大象
+ 革 - 皮革
+ 首輪 - 项圈
+226 literature 书籍：查询生词意思
+ ぴったり - [pittari] - 非常契合
+ ぼうけん - [bouken] - 冒险
+ みたいに - [mitaini] - 像, 好像, 仿佛, 如同, 似乎, 像…一样, 似的
+ もうけます - [moukemasu] - 赚钱, 获利, 赚取, 设立, 生育
+ ドキドキ - [dokidoki] - 心跳加速
+ メディア - [media] - 媒体
+ 一冊 - 本
+ 中 - 里面, 上, 当中, 里, 面里, 中, 内部
+ 伝える - 传达, 信递
+ 利益 - 利润
+ 弓 - 弓
+ 怖い - 害怕
+ 教科書 - 课本
+ 正確 - 准确
+ 災害 - 灾害
+ 現実 - 现实
+ 辞書 - 词典
+227 economic systems 课堂：表达课堂观点
+ それから - [sorekara] - 然后
+ で - [de] - 用, 因为, 坐, 上, 又, 下, 开, 到, 在, 骑, 里, 边, 以, 中, 以长
+ どこでも - [dokodemo] - 任何地方
+ 上げます - 提高, 举起, 给予, 送, 上升
+ 主に - 主要
+ 他の - 其他
+ 代わりに - 代替
+ 単語 - 单词
+ 声 - 声音
+ 授業 - 课
+ 牛 - 牛
+ 社会 - 社会
+ 要点 - 要点
+ 論理的 - 合乎逻辑
+ 集めます - 收集
+ 靴 - 鞋子
+228 sustainability 费用：讨论付款习惯
+ これからも - [korekaramo] - 今后也
+ そのまま - [sonomama] - 照原样
+ ほほ - [hoho] - 脸颊
+ まま - [mama] - 原样, 状态, 保持, 依然, 照旧, 维持, 仍然, 保持原状, 保持不变, 维持原样, 继续, 一直, 仍旧, 依旧
+ インドア派 - [indoa pài] - 宅派
+ 一人暮らしをします - 独自生活, 独居, 单独生活, 搬出去自己住, 开始独自生活
+ 入場料 - 入场费
+ 割引き - 折扣
+ 暑さ - 炎热
+ 次からは - 从下次开始
+ 比較的 - 比较
+ 濡れた - 湿了, 潮湿, 湿润, 弄湿
+ 現金 - 现金
+ 目の不自由 - 视力障碍
+ 衣装 - 服装
+ 試着室 - 试衣间
+ 軽い - 轻
+ 込みます - 拥挤, 挤满, 塞满, 拥堵, 挤, 包含, 进入
+ 音量 - 音量
+229 measurements 日常生活：分享烘焙方法
+ それに - [soreni] - 而且
+ だって - [datte] - 就算是
+ だもの - [damono] - 嘛
+ なめらか - [nameraka] - 顺滑
+ の一種です - [no yī zhǒngdesu] - 是一种, 属于一种, 是某种, 是一类, 属于一种类型
+ アピールします - [apīrushimasu] - 呼吁, 吸引注意, 展示, 表达, 诉求, 展示自己, 推销自己
+ エリア - [eria] - 区域
+ スペース - [supēsu] - 空间
+ タイマー - [taimā] - 计时器
+ 取引 - 交易
+ 同じ - 一样
+ 大きさ - 大小
+ 失敗します - 失败, 出错, 犯错
+ 得意じゃない - 不擅长
+ 折れます - 折断, 断裂, 折断了
+ 数字 - 数字
+ 決まり - 规定
+ 若いころ - 年轻时代
+230 aging 生活印象：表达对运动的看法
+ としたら - [toshitara] - 如果, 假如, 要是, 假设, 如果说
+ どんな - [don'na] - 什么样的
+ のままに - [nomamani] - 保持原状, 维持原样, 照旧, 照原样, 穿着原样, 保持穿着状态
+ アイコン - [aikon] - 图标
+ チャレンジ - [charenji] - 挑战
+ 八巻 - 八卷
+ 切符売り場 - 售票处
+ 印象に残る - 留下印象, 给人印象深刻, 令人难忘, 印象深刻, 令人难忘的, 给人深刻印象的
+ 収入 - 收入
+ 増えます - 增加, 增长, 增多, 上升, 扩大, 变多
+ 年をとります - 变老, 年纪增长, 上年纪, 老化, 老去
+ 意外 - 意外
+ 柔道 - 柔道
+ 歴史のある - 有历史
+ 背中 - 背部
+ 貯金 - 存款
+ 赤ちゃんがいる - 有婴儿, 有宝宝, 有小孩, 有孩子, 有婴儿在家, 有婴儿需要照顾
+231 clothes shopping 服饰：描述服饰的颜色和款式
+ なんて - [nante] - 竟然
+ やや - [yaya] - 稍微
+ ゆったり - [yuttari] - 宽松
+ アウトレット - [autoretto] - 奥特莱斯
+ ウエスト - [uesuto] - 腰围
+ カーディガン - [kādigan] - 开襟羊毛衫
+ ポリエステル - [poriesuteru] - 聚酯纤维
+ 上品 - 高雅
+ 下着 - 内衣
+ 倍 - 倍
+ 値下げ - 降价
+ 白 - 白
+ 紫 - 紫色
+ 茶色 - 棕色
+ 防水 - 防水
+ 黒 - 黑色
+232 personal experiences 2 成长：分享重要经历
+ きっかけ - [kikkake] - 契机
+ さまざま - [samazama] - 各种各样
+ そんな - [son'na] - 那样的
+ ところで - [tokorode] - 顺便问一下
+ のせいで - [noseide] - 因为, 由于, 导致, 引起, 归咎于
+ やはり - [yahari] - 还是
+ 事情 - 情况
+ 人間関係 - 人际关系
+ 出会い - 邂逅
+ 別に - 并不
+ 大半 - 大部分
+ 後悔 - 后悔
+ 成長 - 成长
+ 挑戦 - 挑战
+ 短所 - 缺点
+ 結局 - 最终
+ 緊張 - 紧张
+ 自信 - 自信
+ 記念に - 纪念
+ 達成感 - 成就感
+ 選択 - 选择
+233 playing or training for a sport 球队：说明参加集训的原因
+ すると - [suruto] - 的话
+ つもりで - [tsumoride] - 打算
+ まだまだ - [madamada] - 远远不够
+ わけにはいかない - [wakenihaikanai] - cannot avoid
+ アドバイス - [adobaisu] - 建议
+ グラウンド - [guraundo] - 运动场
+ パス - [pasu] - 传球
+ ボール - [bōru] - 球
+ メンタル - [mentaru] - 心理
+ ユニフォーム - [yunifōmu] - 制服
+ 優勝 - 冠军
+ 合宿 - 集训
+ 本番 - 正式比赛
+ 泊 - 住, 泊
+ 防具 - 防具
+ 陸上 - 田径
+234 school 2 课堂：分发课堂材料
+ かさ立て - [kasa lìte] - 伞架
+ ずつ - [zutsu] - 一点一点地
+ など - [nado] - 等等
+ プリント - [purinto] - 讲义
+ 下駄箱 - 鞋柜
+ 休み時間 - 课间休息
+ 体育館 - 体育馆
+ 児童 - 儿童
+ 制服 - 校服
+ 図書室 - 图书室
+ 子供 - 孩子
+ 廊下 - 走廊
+ 感想 - 感想
+ 校庭 - 操场
+ 校門 - 校门
+ 消しゴム - 橡皮
+ 総合的 - 综合性
+ 自習 - 自习
+ 集中力 - 注意力
+235 mental health 心理健康：分享你的放松方式
+ 一時的に - 暂时
+ 体操 - 体操
+ 健康的 - 健康的
+ 冷静 - 冷静
+ 国際交流 - 国际交流
+ 安心 - 安心
+ 心理的 - 心理的
+ 感情 - 感情
+ 栄養 - 营养
+ 瞑想 - 冥想
+ 精神 - 精神
+ 非常に - 非常
+ 飲み放題 - 无限畅饮
+236 neighborhood 社区：介绍你的社区
+ し - [shi] - 戴, 办, 也, 干, 挺, 选, 开, 打, 踢, 做, 玩, 弄, 会
+ コインランドリー - [koinrandorī] - 投币式洗衣店
+ ポスト - [posuto] - 邮筒
+ 一人暮らし - 独居
+ 一戸建て - 独立住宅
+ 交通量 - 交通量
+ 八百屋 - 蔬菜店
+ 宅配 - 送货服务
+ 弁当屋 - 便当店
+ 日当たり - 采光
+ 泥棒 - 小偷
+ 清潔 - 干净
+ 狭い - 狭窄
+ 町内 - 镇内
+ 空き地 - 空地
+ 賃貸 - 出租房
+ 踏切 - 铁路道口
+ 防犯カメラ - 监控摄像头
+ 飲食店 - 餐饮店
+237 celebration 聚会：描述聚会趣事
+ あんな - [an'na] - 那样的
+ ちなみに - [chinamini] - 顺便问一下
+ シャンパン - [shanpan] - 香槟
+ 乾杯 - 干杯
+ 優雅 - 优雅
+ 勤務先 - 工作单位
+ 化粧 - 化妆
+ 司会者 - 主持人
+ 忘年会 - 年终聚会
+ 感謝 - 感谢
+ 挨拶 - 问候
+ 新年会 - 新年会
+ 歓迎会 - 欢迎会
+ 華やか - 华丽
+ 願い - 愿望
+238 politics 政治：表达你对政治的看法
+ しばしば - [shibashiba] - 经常
+ ほぼ - [hobo] - 几乎
+ インフレ - [infure] - 通货膨胀
+ 与党 - 执政党
+ 候補者 - 候选人
+ 内閣 - 内阁
+ 国民 - 国民
+ 年金 - 养老金
+ 投票 - 投票
+ 政治 - 政治
+ 景気 - 经济状况
+ 総理大臣 - 首相
+ 議会 - 议会
+ 選挙 - 选举
+ 野党 - 反对党
+239 time management 日程：分享你的日程安排
+ あのさ - [anosa] - 那个啊
+ ありがとう - [arigatou] - 谢谢
+ ごめん - [gomen] - 对不起
+ だった - [datta] - 是
+ ってこと - [ttekoto] - 这回事
+ の間 - [no jiān] - 之间, 期间, 当中, 中间, 之中, 在...期间
+ マルチタスク - [maruchitasuku] - 多任务处理
+ ルーティン - [rūtin] - 日常程序
+ ワンチャン - [wanchan] - 有可能
+ 予定表 - 日程表
+ 代金 - 费用
+ 余裕 - 从容
+ 作業 - 作业
+ 切り替え - 切换
+ 昼寝 - 午睡
+ 時期 - 时期
+ 検査 - 检查
+ 熱 - 发烧
+ 締め切り - 截止日期
+ 複数 - 多个
+240 recipes 烹饪：分享简单做法
+ おたま - [otama] - 汤勺
+ ごま油 - [goma yóu] - 芝麻油
+ さっと - [satto] - 迅速地
+ しょうが - [shouga] - 姜
+ ひとつまみ - [hitotsumami] - 一撮
+ ほど - [hodo] - 那么
+ みじん切り - [mijin qièri] - 切碎的
+ みりん - [mirin] - 味醂
+ アルミホイル - [arumihoiru] - 铝箔
+ サクサク - [sakusaku] - 酥脆
+ 具材 - 食材
+ 出汁 - 高汤
+ 大量 - 大量, 许多, 众多, 大批, 大宗
+ 弱火 - 小火
+ 砂糖 - 糖
+ 豆腐 - 豆腐
+ 豚肉 - 猪肉
+ 酸っぱい - 酸
+241 workplace communication 会议：解释会议内容
+ あいまい - [aimai] - 模糊
+ がち - [gachi] - 往往
+ っぽい - [ppoi] - 像是
+ なるべく - [narubeku] - 尽量
+ 丁寧 - 礼貌 细心
+ 件名 - 主题
+ 入力ミス - 输入错误
+ 司会 - 主持
+ 形式 - 形式
+ 念のため - 以防万一
+ 社内 - 公司内部
+ 要求 - 要求
+ 規則 - 规则
+ 詳細 - 详细情况
+ 誤解 - 误解
+242 journalism 新闻：分享新闻信息
+ さすがに - [sasugani] - as expected
+ で - [de] - 用, 因为, 坐, 上, 又, 下, 开, 到, 在, 骑, 里, 边, 以, 中, 以长
+ とおり - [toori] - 街道
+ どおり - [doori] - 按照
+ アナウンサー - [anaunsā] - 播音员
+ フェイクニュース - [feikunyūsu] - 假新闻
+ 下書き - 草稿
+ 具体的 - 具体
+ 図表 - 图表
+ 報道 - 报道
+ 批評 - 批评
+ 明らかに - 明显地
+ 独自 - 独特
+ 現地 - 当地
+ 現地から中継 - 现场连线
+ 編集 - 编辑
+ 視聴者 - 观众
+ 記者会見 - 记者招待会
+ 説得力 - 说服力
+ 重要性 - 重要性
+ 関係者 - 相关人员
+243 video games 游戏：介绍你的游戏项目
+ bgm - 背景音乐
+ eスポーツ - 电子竞技
+ こそ - [koso] - 才
+ アイテム - [aitemu] - 道具
+ クエスト - [kuesuto] - 任务
+ コントローラー - [kontorōrā] - 控制器
+ スコア - [sukoa] - 分数
+ ランキング - [rankingu] - 排名
+ 古典的 - 古典的
+ 安定した - 稳定
+ 宝物 - 宝物
+ 強力 - 强力
+ 有利 - 有利
+ 決勝 - 决赛
+ 直感的 - 直观
+ 難易度 - 难度
+244 life goals 目标：表达你的梦想
+ を通して - [wo tōngshite] - 通过
+ チャンス - [chansu] - 机会
+ 中心 - 中心
+ 判断力 - 判断力
+ 力を入れます - 努力, 用力, 加油, 使劲, 投入精力, 专注, 投入
+ 効果的 - 有效
+ 同時に - 同时
+ 実現 - 实现
+ 時間管理 - 时间管理
+ 柔軟性 - 灵活性
+ 目安 - 标准
+ 短期的 - 短期
+ 規模 - 规模
+ 資格 - 资格
+ 達成 - 达成
+ 長期的 - 长期的
+245 career choices 职业：说明你的择业动机
+ で - [de] - 用, 因为, 坐, 上, 又, 下, 开, 到, 在, 骑, 里, 边, 以, 中, 以长
+ やりがい - [yarigai] - 成就感
+ リモートワーク - [rimōtowāku] - 远程办公
+ 事務 - 事务
+ 働き方 - 工作方式
+ 公務員 - 公务员
+ 出張 - 出差
+ 創造力 - 创造力
+ 勤務時間 - 工作时间
+ 外資系 - 外资系
+ 学歴 - 学历
+ 専門 - 专业
+ 時給 - 时薪
+ 月給 - 月薪
+ 有給休暇 - 带薪休假
+ 職業 - 职业
+ 課長 - 课长
+ 責任 - 责任
+ 開発 - 开发
+246 environmental protection 环保：介绍环保习惯
+ しかたない - [shikatanai] - 没办法, 无可奈何, 不得已, 无能为力, 只能这样, 无奈
+ せんぷうき - [senpuuki] - 电风扇
+ っぱなし - [ppanashi] - 不管
+ もしも - [moshimo] - 若是
+ リサイクル - [risaikuru] - 回收
+ ワニ - [wani] - 鳄鱼
+ 以下 - 以下
+ 充電 - 充电器
+ 地球温暖化 - 全球变暖
+ 大気汚染 - 大气污染
+ 太陽光 - 太阳光
+ 工事 - 施工
+ 普及 - 推广
+ 機械 - 机器
+ 漁業 - 渔业
+ 火事 - 火灾
+ 箸 - 筷子
+ 節約 - 节约
+ 豪雨 - 暴雨
+ 電気自動車 - 电动汽车
+247 city life 2 城市交通：介绍你的通勤方式
+ 乗り場 - 乘车点
+ 仏像 - 佛像
+ 住宅街 - 住宅区
+ 公共交通機関 - 公共交通工具
+ 劇場 - 剧场
+ 名物 - 特产
+ 喫茶店 - 咖啡馆
+ 夜景 - 夜景
+ 始発 - 首班车
+ 定期券 - 定期券
+ 小学校 - 小学
+ 幼稚園 - 幼儿园
+ 時刻表 - 时刻表
+ 治安 - 治安
+ 渋滞 - 交通堵塞
+ 百貨店 - 百货商店
+ 窓側 - 靠窗侧
+ 運賃 - 车费
+ 都心 - 市中心
+248 hiking 登山：描述登山遇到的问题
+ だけで - [dakede] - 只要
+ どっち - [dotchi] - 哪个
+ テント - [tento] - 帐篷
+ バーナー - [bānā] - 便携式炉灶
+ ロープ - [rōpu] - 绳子
+ 予備 - 备用
+ 入り - 进入
+ 六泊 - 六晚
+ 寝袋 - 睡袋
+ 展望台 - 观景台
+ 山頂 - 山顶
+ 救急箱 - 急救箱
+ 日没 - 日落
+ 熱中症 - 中暑
+ 赤 - 赤色, 赤
+ 遠回り - 绕远路
+249 corporate rumors 传闻：分享听到的消息来源
+ あっという間 - [attoiu jiān] - 转眼间
+ かぎりでは - [kagirideha] - as far as I know
+ つい - [tsui] - 不由自主地
+ とのことです - [tonokotodesu] - 听说
+ と言えば - [to yáneba] - 说到
+ どのよう - [donoyou] - 什么样的
+ ひそひそ - [hisohiso] - 悄悄地
+ わざと - [wazato] - 故意
+ スキャンダル - [sukyandaru] - 丑闻
+ デリケート - [derikēto] - 敏感
+ 先日 - 前几天
+ 場合じゃない - 不是时候
+ 大げさ - 夸张
+ 必ずしも - 不一定
+ 推測 - 推测
+ 曖昧 - 模糊
+ 真相 - 真相
+250 university 2 大学生活：分享考试经历
+ ゼミ - [zemi] - 研讨会
+ 出席 - 参加, 出席
+ 前期 - 上学期
+ 卒業 - 毕业, 毕的业
+ 博士 - 博士
+ 受験 - 参加考试, 报考, 考试, 应试, 入学考试
+ 合格 - 及格
+ 基礎的 - 基础
+ 学科 - 学科
+ 学部 - 学院
+ 学食 - 学校食堂
+ 実習 - 实习
+ 専攻 - 专业
+ 後輩 - 后辈
+ 授業料 - 学费
+ 有益 - 有益
+ 詳しい - 熟悉
+ 講師 - 讲师
+ 進学 - 考上, 升学
+251 debate 2 观点：表达自己的观点
+ さて - [sate] - 那么
+ 一方 - 一方面
+ 主張 - 坚持, 主张
+ 価値観 - 价值观
+ 各 - 各
+ 回答 - 回答
+ 対立 - 对立
+ 彼ら - 他们
+ 根拠 - 根据
+ 正確に - 准确地
+ 結論 - 结论
+ 肯定的 - 肯定的
+ 視点 - 观点
+ 証拠 - 证据
+ 評価 - 评价
+ 説得 - 说服
+ 貧困問題 - 贫困问题
+252 news 消息：对网络传闻作出回应
+ あやしい - [ayashii] - 可疑, 可疑的, 奇怪, 不可信, 可疑人物
+ おそらく - [osoraku] - 大概
+ まるで - [marude] - 简直
+ 側 - 侧
+ 大規模 - 大规模
+ 真実 - 真相
+ 解説 - 解说
+ 読者 - 读者
+ 速報 - 快讯
+ 重大 - 重大
+ 銅メダル - 铜牌
+ 非公式 - 非正式
+253 board games 桌游：介绍你喜欢的桌游
+ じっくり - [jikkuri] - 仔细
+ コマ - [koma] - 棋子
+ サイコロ - [saikoro] - 骰子
+ シャッフル - [shaffuru] - 洗牌
+ ターン - [tān] - 回合
+ 人数 - 人数
+ 勝利 - 胜利
+ 単純 - 简单
+ 大胆 - 大胆
+ 失格 - 取消资格
+ 実力 - 实力
+ 引き分け - 平局
+ 有効 - 有效
+ 確実 - 确实
+ 違反 - 违规
+254 study abroad 生活：描述你的留学生活
+ しかも - [shikamo] - 而且
+ にちがいない - [nichigainai] - 一定
+ やっぱり - [yappari] - 果然
+ 一層 - 更加
+ 中間試験 - 期中考试
+ 以内に - 之内
+ 作文 - 作文
+ 健康保険 - 健康保险
+ 入学 - 入学
+ 単位 - 学分
+ 寮 - 宿舍
+ 手数料 - 手续费
+ 生活費 - 生活费
+ 聞き取り - 听力
+ 適度 - 适度
+ 郵便 - 邮政
+255 holidays 旅行住宿：比较不同房型
+ オフシーズン - [ofushīzun] - 淡季
+ ダイビング - [daibingu] - 潜水
+ ツイン - [tsuin] - 双床房
+ 一軒屋 - 独栋房屋
+ 事前に - 事先
+ 入国 - 入境
+ 和室 - 和室
+ 寸前 - 前一刻
+ 帰省 - 回乡
+ 年末年始 - 年末年初
+ 往復 - 往返
+ 新幹線 - 新干线
+ 旅行保険 - 旅游保险
+ 満室 - 客满
+ 登山 - 登山
+ 穴場 - 隐秘好去处
+256 entrepreneurship 业绩：介绍提升业绩的方法
+ お問い合わせ - [o wèni héwase] - 咨询
+ が - [ga] - 但是, 虽然, 是
+ に関して - [ni guānshite] - 关于, 如对
+ または - [mataha] - 或者
+ ニーズ - [nīzu] - 需求
+ フォローします - [forōshimasu] - 关注
+ 一旦 - 暂时
+ 営業 - 营业, 经营
+ 売上 - 销售额
+ 戦略 - 战略
+ 改善 - 改善
+ 札幌 - 札幌
+ 着実に - 稳步
+ 給与 - 薪资
+ 継続的に - 持续地
+ 苦情 - 投诉
+ 資産 - 资产
+ 配送 - 配送
+257 baby 婴儿：表达对婴儿的关心
+ おしゃぶり - [oshaburi] - 安抚奶嘴
+ おむつ - [omutsu] - 尿布
+ ばかり - [bakari] - 刚刚, 老是
+ ベビーベッド - [bebībeddo] - 婴儿床
+ ワクチン - [wakuchin] - 疫苗
+ 予定日 - 预产期
+ 体温計 - 体温计
+ 出産 - 分娩
+ 妊娠の方 - 孕妇
+ 姉妹 - 姐妹
+ 梅干し - 梅干
+ 母乳 - 母乳
+ 浴室 - 浴室
+ 熟成 - 熟成
+ 粉ミルク - 奶粉
+ 胃 - 胃
+ 身長 - 身高
+ 鍋 - 锅
+ 風邪 - 感冒
+ 鼻水 - 鼻涕
+258 art 艺术：描述你的创作经历
+ かけ - [kake] - 出去
+ キャンバス - [kyanbasu] - 画布
+ コントラスト - [kontorasuto] - 对比度
+ 傑作 - 杰作
+ 制作 - 制作
+ 展覧会 - 展览会
+ 建築 - 建筑
+ 意図 - 意图
+ 暗闇 - 黑暗
+ 滑らか - 光滑
+ 灰色 - 灰色
+ 炭 - 炭
+ 筆 - 笔
+ 粘土 - 粘土
+ 素材 - 材料
+ 絵画 - 画
+ 自画像 - 自画像
+ 芸術家 - 艺术家
+ 鮮やか - 鲜艳
+259 attending a sporting event 比赛：分享观赛体验
+ お尻 - [o kāo] - 屁股
+ だらけ - [darake] - 满是
+ ハーフタイム - [hāfutaimu] - 中场休息
+ 丼物 - 盖饭
+ 天井 - 天花板
+ 序盤 - 初期阶段
+ 延長戦 - 加时赛
+ 当日券 - 当天票
+ 待ち合わせ - 约定见面
+ 応援 - 支持
+ 新刊 - 新书
+ 旗 - 旗子
+ 監督 - 导演
+ 相手 - 对手
+ 自由席 - 自由席
+ 賑やか - 热闹
+ 非常口 - 紧急出口
+260 negotiation and persuasion 2 意见：表达你的看法
+ そちら - [sochira] - 你们
+ でお願いします - [deo yuànishimasu] - 请用
+ まもなく - [mamonaku] - 即将
+ 不充分 - 不充分
+ 価値 - 价值
+ 保証 - 保证
+ 反論 - 反驳
+ 客観的 - 客观的
+ 強調 - 强调
+ 明確 - 明确
+ 明確に - 明确地
+ 率直に - 坦率地
+ 確認 - 确认
+ 積極的 - 积极
+ 立場 - 立场
+ 需要 - 需求
+261 scientific discoveries/advancements 研究：讲解实验流程
+ これら - [korera] - 这些
+ それら - [sorera] - 那些
+ エネルギー - [enerugī] - 能量
+ 信頼できる - 可靠
+ 先進的 - 先进
+ 副作用 - 副作用
+ 反応 - 反应
+ 基準 - 标准
+ 変化 - 变化
+ 安全性 - 安全性
+ 性質 - 性质
+ 感染症 - 传染病
+ 数値 - 数值
+ 構造 - 结构
+ 詳細な - 详细
+ 資金 - 资金
+ 進歩 - 进步
+262 advertising 形象：表达你对广告宣传的想法
+ イメージ - [imēji] - 形象
+ オファー - [ofā] - 优惠
+ キャッチコピー - [kyatchikopī] - 广告语
+ サンプル - [sanpuru] - 样品
+ デメリット - [demeritto] - 缺点
+ バナー - [banā] - 横幅广告
+ 予算 - 预算
+ 企画 - 企划
+ 信用 - 相信
+ 口コミ - 口碑
+ 宣伝 - 宣传
+ 成果 - 成果
+ 方針 - 方针
+ 比較 - 比较
+ 準備中 - 准备中
+ 関心 - 关心
+ 魅力 - 魅力
+263 medicine 医院：描述受伤经过
+ お見舞い - [o jiàn wǔi] - 探病
+ めまい - [memai] - 头晕
+ 下痢 - 腹泻
+ 保険証 - 保险证
+ 内科 - 内科
+ 同意 - 不同意, 同意
+ 吐き気 - 恶心
+ 呼吸 - 呼吸
+ 咳 - 咳嗽
+ 定期的 - 定期
+ 心臓 - 心脏
+ 忘れ物 - 遗失物
+ 救急 - 急救
+ 松葉杖 - 拐杖
+ 注射 - 注射
+ 痒み - 痒, 瘙痒, 发痒
+ 痛み - 痛
+ 確認中 - 正在确认
+ 肺炎 - 肺炎
+ 血液 - 血液
+ 診察 - 诊察
+ 車椅子 - 轮椅
+ 骨折 - 骨折
+264 voting 选举：表达你的立场
+ いずれ - [izure] - 迟早
+ 不利 - 不利
+ 主要 - 主要
+ 判断 - 判断
+ 反対 - 反对
+ 地方 - 地方
+ 建設的 - 建设性
+ 当選 - 当选
+ 慎重に - 慎重地
+ 投票所 - 投票站
+ 投票率 - 投票率
+ 民主的 - 民主
+ 決定 - 决定
+ 票 - 票
+ 自治体 - 地方政府
+ 証明 - 证明
+ 過半数 - 过半数
+265 historic figures 历史：描述著名历史人物
+ 伝説的 - 传奇
+ 偉大 - 伟大
+ 共和国 - 共和国
+ 刃物 - 刀具
+ 勇敢 - 勇敢
+ 哲学 - 哲学
+ 大使 - 大使
+ 学者 - 学者
+ 忠実 - 忠实
+ 時代 - 时代
+ 最終的に - 最终
+ 皇帝 - 皇帝
+ 神話 - 神话
+ 進歩的 - 进步
+ 遺産 - 遗产
+ 野心的 - 有野心的
+ 鉱物 - 矿物
+266 cooking 3 调味料：介绍你用的调味料
+ かぼちゃ - [kabocha] - 南瓜
+ たて - [tate] - 刚
+ にんにく - [nin'niku] - 蒜
+ ねぎ - [negi] - 葱
+ ほうれん草 - [houren cǎo] - 菠菜
+ わさび - [wasabi] - 芥末
+ コンロ - [konro] - 炉灶
+ 味噌 - 味噌
+ 消費期限 - 保质期
+ 炊飯器 - 电饭锅
+ 胡椒 - 胡椒
+ 酢 - 醋
+ 醤油 - 酱油
+ 鶏肉 - 鸡肉
+ 麺 - 面条
+267 exercise routines 2 运动：介绍你的运动习惯
+ さ - [sa] - 劲儿, 性
+ たっぷり - [tappuri] - 充足地
+ め - [me] - 眼睛
+ サイクリング - [saikuringu] - 骑自行车
+ 休憩 - 休息
+ 回数 - 次数
+ 無理に - 勉强
+ 程度 - 程度
+ 筋力 - 肌肉力量
+ 縄跳び - 跳绳
+ 老後 - 退休后
+ 肘 - 胳膊肘
+268 restaurant 2 美食：预订餐厅座位
+ きります - [kirimasu] - 切
+ しっとり - [shittori] - 湿润
+ キャンセル料 - [kyanseru liào] - 取消费
+ グルテンフリー - [gurutenfurī] - 无麸质
+ ジューシー - [jūshī] - 多汁
+ ラストオーダー - [rasutoōdā] - 最后点单
+ 予約制 - 预约制
+ 何名様 - 几位
+ 個室 - 包间
+ 割り勘 - AA制
+ 品切れ - 缺货
+ 大盛り - 大份
+ 小麦 - 小麦
+ 抜きで - 不要
+ 満席 - 满座
+ 空席 - 空位
+ 辛口 - 辣
+ 食感 - 口感
+ 鮭 - 三文鱼
+269 conflict resolution 交流：表达你的看法
+ あいにく - [ainiku] - 遗憾地
+ に対して - [ni duìshite] - 对
+ に対する - [ni duìsuru] - 对
+ もしよろしければ - [moshiyoroshikereba] - 如果方便的话
+ 事実 - 事实
+ 委員会 - 委员会
+ 尊重 - 尊重, 敬意
+ 感情的 - 感情丰富
+ 文脈 - 语境
+ 期待 - 期待
+ 観点 - 观点
+270 social media 2 网络社区：表达对网络争议的看法
+ よかったら - [yokattara] - 如果方便的话
+ コミュニティー - [komyunitī] - 社区
+ スパム - [supamu] - 垃圾邮件
+ セキュリティー - [sekyuritī] - 安全
+ タグ - [tagu] - 标签
+ パクリ - [pakuri] - 抄袭
+ フォロー - [forō] - 关注
+ ブラウザー - [burauzā] - 浏览器
+ プロフィール - [purofīru] - 个人资料
+ 一瞬 - 一瞬间
+ 欧米 - 欧美
+ 炎上 - 网络暴怒
+ 画像 - 图片
+ 視聴回数 - 观看次数
+271 ethical shopping 商品：比较商品优缺点
+ どのくらい - [donokurai] - 多少
+ レジ袋 - [reji dài] - 塑料袋
+ 使い捨て - 一次性
+ 保証期間 - 保修期
+ 修理 - 修理
+ 偽物 - 假货
+ 労働者 - 工人
+ 匂い - 气味
+ 原材料 - 原材料
+ 手頃 - 实惠
+ 期間限定 - 限时
+ 産地 - 产地
+ 皮 - 皮, 外皮
+ 評判 - 声誉
+ 詰め替え - 更换
+ 鞄 - 包
+ 食中毒 - 食物中毒
+272 post office 邮寄：询问快递流程
+ お釣り - [o diàori] - 找零
+ はかり - [hakari] - 秤
+ 再配達 - 重新投递
+ 包装 - 包装
+ 受け取り - 接收, 收到, 领取, 接受, 收取, 收信
+ 国際郵便 - 国际邮政
+ 姓名 - 姓名
+ 宅配便 - 快递
+ 封筒 - 信封
+ 後払い - 货到付款
+ 段ボール - 纸箱
+ 液体 - 液体
+ 直径 - 直径
+ 着払い - 货到付款
+ 貴重品 - 贵重物品
+ 追跡番号 - 追踪号码
+ 郵便番号 - 邮政编码
+ 配達 - 信递
+ 配達員 - 送货员
+ 重量 - 重量
+273 pop culture 偶像：介绍你喜欢的偶像
+ アイドル - [aidoru] - 偶像
+ インフルエンサー - [infuruensā] - 网红
+ クリエイター - [kurieitā] - 创作者
+ コスプレ - [kosupure] - 角色扮演
+ コンテンツ - [kontentsu] - 内容
+ ライブ - [raibu] - 现场演出
+ 世代 - 代
+ 再生回数 - 播放次数
+ 吸血鬼 - 吸血鬼
+ 声優 - 声优
+ 歌詞 - 歌词
+ 殺す - 杀人
+ 演奏 - 演奏
+ 漫画 - 漫画
+ 独特 - 独特
+ 脚本 - 剧本
+ 限定 - 限量
+ 馬 - 马
+ 魅力的 - 有魅力
+274 cross-cultural communication 职场礼仪：表达工作场合的礼貌
+ ことわざ - [kotowaza] - 谚语
+ どちら - [dochira] - 哪个
+ 上下関係 - 上下级关系
+ 保守的 - 保守的
+ 口調 - 语气
+ 咳払い - 清嗓子
+ 失礼 - 失礼
+ 姿勢 - 姿势
+ 握手 - 握手
+ 本音 - 真实想法
+ 株 - 股票
+ 異文化 - 异文化
+ 自己紹介 - 自我介绍
+ 表情 - 表情
+ 遠慮 - 客气
+275 divorce 家庭事务：介绍孩子近况
+ だろう - [darou] - 吧
+ まとめます - [matomemasu] - 整理
+ カウンセリング - [kaunseringu] - 咨询
+ 一方的に - 单方面地
+ 保育園 - 托儿所
+ 再婚 - 再婚
+ 冷静に - 冷静地
+ 支援センター - 支援中心
+ 故郷 - 故乡
+ 浮気 - 出轨
+ 相性 - 相性
+ 義理の - 姻亲
+ 財産 - 财产
+ 遠距離 - 远距离
+276 literature 2 小说：推荐一本小说
+ よう - [you] - 好像
+ ように - [youni] - 为了
+ クライマックス - [kuraimakkusu] - 高潮
+ ベストセラー - [besutoserā] - 畅销书
+ 一人称 - 第一人称
+ 主人公 - 主人公
+ 印刷 - 打印
+ 台詞 - 台词
+ 未来 - 未来
+ 深い - 深厚的
+ 版 - 版
+ 物語 - 故事
+ 現代的 - 现代
+ 簡潔 - 简洁
+ 脇役 - 配角
+ 表紙 - 封面
+ 読書 - 读书
+ 雰囲気 - 氛围
+277 organizing an event 场地：预定活动场地
+ んじゃないですか - [njanaidesuka] - 吧
+ テーブル席 - [tēburu xí] - 餐桌座位
+ ビジネスカジュアル - [bijinesukajuaru] - 商务休闲装
+ 仮に - 假如
+ 叔父 - 叔叔
+ 号室 - 号室
+ 大阪 - 大阪
+ 屋敷 - 宅邸
+ 来週末 - 下周末
+ 桜 - 樱
+ 翌日 - 第二天
+ 騒がしい - 吵闹, 骚
+278 artificial intelligence 系统：介绍新系统
+ セキュリティ - [sekyuriti] - 安全性
+ センサー - [sensā] - 传感器
+ 個人情報 - 个人信息
+ 即座に - 立即
+ 多少 - 稍微
+ 学習 - 学习
+ 実験 - 实验
+ 影響 - 影响
+ 志望者 - 申请者
+ 検索 - 搜索
+279 living abroad 海外生活：描述你的海外经历
+ たとえ - [tatoe] - 即使, 若是
+ というより - [toiuyori] - rather than
+ 不動産 - 房地产
+ 乾燥機 - 烘干机
+ 交流 - 交流
+ 仕送り - 寄钱
+ 免許 - 驾照
+ 契約社員 - 合同员工
+ 就職 - 就业
+ 延長 - 延长
+ 手取り - 税后收入
+ 提出 - 提交
+ 方言 - 方言
+ 正社員 - 正式员工
+ 残業 - 加班
+ 間取り - 户型
+ 電柱 - 电线杆
+ 駐輪場 - 自行车停车场
+280 sustainability 2 生态：介绍环保方法
+ かぎり - [kagiri] - 只要
+ 交通手段 - 交通工具
+ 参加費 - 参加费
+ 寄付 - 捐赠, 捐, 募捐
+ 徹底的に - 彻底地
+ 混雑 - 拥挤
+ 熊 - 熊
+ 竹林 - 竹林
+ 貴重 - 珍贵
+ 野生動物 - 野生动物
+281 disabilities 无障碍：介绍常用的手语
+ スロープ - [surōpu] - 坡道
+ バリアフリー - [bariafurī] - 无障碍
+ 充分に - 充分地
+ 効果的に - 有效地
+ 取り組み - 努力
+ 合法的 - 合法
+ 多様 - 多样
+ 多目的トイレ - 多功能厕所
+ 字幕 - 字幕
+ 平等 - 平等
+ 必要性 - 必要性
+ 手すり - 扶手
+ 手話 - 手语
+ 斜め - 斜坡
+ 盲導犬 - 导盲犬
+ 相談 - 商量
+ 自立 - 自立
+ 補聴器 - 助听器
+ 通路側 - 靠走道
+ 音声ガイド - 语音导览
+282 driving 驾驶：比较不同车辆
+ ウィンカー - [u~inkā] - 转向灯
+ エンジン - [enjin] - 发动机
+ ガソリンスタンド - [gasorinsutando] - 加油站
+ クラクション - [kurakushon] - 喇叭
+ サービスエリア - [sābisueria] - 服务区
+ ブレーキ - [burēki] - 刹车
+ ペダル - [pedaru] - 踏板
+ ルームミラー - [rūmumirā] - 后视镜
+ 一方通行 - 单行道
+ 上旬 - 上旬
+ 免許証 - 驾驶证
+ 死角 - 盲区
+ 満タン - 满箱
+ 燃費 - 燃油效率
+ 速度制限 - 限速
+ 進路変更 - 变道
+283 empathy 表达感受：介绍共同兴趣
+ お互いに - [o hùini] - 彼此
+ きちんと - [kichinto] - 认真地
+ にとって - [nitotte] - 对
+ 不満 - 不满
+ 人柄 - 人品
+ 伯母 - 伯母
+ 兎 - 兔子
+ 共通点 - 共同点
+ 同情 - 同情
+ 孤独 - 孤独
+ 微妙 - 微妙
+ 意識的に - 有意识地
+ 正直 - 诚实
+ 無意識に - 无意识地
+ 眼鏡 - 眼镜
+ 自然に - 自然地
+284 money management 预算：分享储蓄方法
+ には - [niha] - 在, 对, 跟, 上
+ キャッシュレス - [kyasshuresu] - 无现金
+ 中期 - 中期
+ 交通費 - 交通费
+ 借金 - 债务
+ 全て - 全部
+ 前払い - 预付款
+ 医療費 - 医疗费用
+ 合計 - 总计
+ 平均 - 平均, 均匀, 平衡, 中庸
+ 教育費 - 教育费
+ 消費税 - 消费税
+ 無駄遣い - 浪费
+ 生活水準 - 生活水平
+ 短期 - 短期
+ 範囲 - 范围
+ 経済的 - 经济
+ 返金 - 退款
+ 通信費 - 通信费
+285 risks 灾害：描述身边的灾害
+ 山火事 - 山火灾
+ 故障 - 故障
+ 温暖化 - 全球变暖
+ 潮 - 潮水
+ 猿 - 猴子
+ 確率 - 概率
+ 糸 - 线
+ 羊 - 羊
+ 通報 - 报警
+ 避難 - 避难
+ 鋼鉄 - 钢铁
+ 雷 - 雷
+ 震度 - 震度
+286 language learning 语言学习：分享学习方法
+ なまり - [namari] - 口音
+ ひらがな - [hiragana] - 平假名
+ カタカナ - [katakana] - 片假名
+ ネイティブ - [neitibu] - 母语者
+ バイリンガル - [bairingaru] - 双语
+ 不自然 - 不自然
+ 仕組み - 结构
+ 例文 - 例句
+ 基礎 - 基础
+ 外来語 - 外来语
+ 大まか - 大致
+ 文字 - 文字
+ 母語 - 母语
+ 流暢 - 流利
+ 直感 - 直觉
+ 縦書き - 竖排书写
+ 言語交換 - 语言交换
+ 記憶 - 记忆
+287 gender orientation 平等：表达对平等的看法
+ ゲイ - [gei] - 同性恋
+ ジェンダー - [jendā] - 性别
+ トランスジェンダー - [toransujendā] - 跨性别者
+ バイセクシュアル - [baisekushuaru] - 双性恋
+ レズビアン - [rezubian] - 女同性恋
+ 不利益 - 不利
+ 不平等 - 不平等
+ 人種 - 种族
+ 保障 - 保障
+ 偏見 - 偏见
+ 共有 - 分享了
+ 同性婚 - 同性婚姻
+ 否定 - 否认
+ 多様性 - 多样性
+ 差別 - 歧视
+ 抵抗 - 抵触, 抵抗
+ 支援 - 支持, 支援
+ 日常生活 - 日常生活
+ 活動 - 活动
+ 社会問題 - 社会问题
+ 配慮 - 关怀
+288 global trade 市场：描述不同的市场
+ しかし - [shikashi] - 但是, 不过, 然而, 可是
+ 不景気 - 经济不景气
+ 交渉 - 谈判
+ 価格 - 价格
+ 保険 - 保险
+ 倉庫 - 仓库
+ 効率的に - 高效地
+ 国際的 - 国际
+ 市場 - 市场
+ 支払い - 付款
+ 柔軟 - 灵活
+ 税関 - 海关
+ 積極的に - 积极地
+ 競争 - 竞争
+ 諸国 - 各国
+ 輸出 - 出口
+289 rural life 2 农村生活：描述农村的日常生活
+ お爺さん - [o yésan] - 爷爷
+ インフラ - [infura] - 基础设施
+ トラクター - [torakutā] - 拖拉机
+ 下水道 - 下水道
+ 低価格 - 低价
+ 基本的に - 基本上
+ 役場 - 乡政府
+ 暮らし - 生活
+ 現金のみ - 仅限现金
+ 空き家 - 空置房屋
+ 絶景 - 绝景
+ 肥料 - 肥料
+ 蚊 - 蚊子
+ 軽トラック - 轻型卡车
+ 農村 - 农村
+ 農薬 - 农药
+ 近道 - 捷径
+ 運転免許 - 驾驶执照
+ 鹿 - 鹿
+290 the hard sciences 宇宙：分析宇宙天体多样性
+ dna - DNA
+ そのため - [sonotame] - 因此
+ の - [no] - 呢, 吗, 之, 的
+ 一般的に - 一般来说
+ 位置 - 位置
+ 光年 - 光年
+ 分析 - 分析
+ 化石 - 化石
+ 圧力 - 压力
+ 次元 - 维度
+ 温度計 - 温度计
+ 火山 - 火山
+ 生息 - 栖息
+ 神経 - 神经
+ 空間 - 空间
+ 羽根 - 翅膀
+ 衛星 - 卫星
+ 貝類 - 贝类
+ 速度 - 速度
+ 適応 - 适应
+ 重力 - 重力
+291 music 2 音乐：描述一首难忘的歌曲
+ もしくは - [moshikuha] - 或者, 或, 还是
+ サンバ - [sanba] - 桑巴
+ ジャンル - [janru] - 类型
+ テンポ - [tenpo] - 节奏
+ デュエット - [de~yuetto] - 二重唱
+ ヒップホップ - [hippuhoppu] - 嘻哈
+ ブルース - [burūsu] - 布鲁斯
+ ボーカル - [bōkaru] - 主唱
+ レゲエ - [regee] - 雷鬼
+ 印象的 - 令人印象深刻
+ 合唱 - 合唱
+ 楽器 - 乐器
+ 流行 - 流行
+ 脳内 - 脑内
+292 customer service 2 细节：留意营业时间变化
+ サポート - [sapōto] - 支持
+ 一粒 - 一粒
+ 依頼 - 请求
+ 係員 - 工作人员
+ 営業時間 - 营业时间
+ 変更 - 改变, 变更
+ 定休日 - 休息日
+ 対処 - 处理
+ 対策 - 对策
+ 店舗 - 店铺
+ 指示 - 指示
+ 敬語 - 敬语
+ 案内 - 指引
+ 機能 - 功能
+ 次第 - 一...就...
+ 特典 - 特典
+ 発送 - 发货, 发送
+ 矢印 - 箭头
+ 送料 - 运费
+293 friendship 朋友关系：描述理想朋友
+ いざとなると - [izatonaruto] - 关键时刻
+ わりと - [warito] - 比较
+ 些細 - 微不足道
+ 内向的 - 内向
+ 初対面 - 初次见面
+ 嫉妬 - 嫉妒
+ 意識 - 意识
+ 社交的 - 社交的
+ 第一印象 - 第一印象
+ 表現 - 表达
+ 遠慮なく - 毫无顾虑地
+ 開放的 - 开放
+ 頑固 - 固执
+294 globalization 变化：描述环境变迁
+ 人材 - 人才
+ 労働力 - 劳动力
+ 効率 - 效率
+ 報告 - 报告
+ 失業 - 失业
+ 投資 - 投资
+ 気候変動 - 气候变化
+ 消費者 - 消费者
+ 生産 - 生产
+ 発展 - 发展
+ 競争力 - 竞争力
+ 翻訳 - 翻译
+ 賃金 - 工资
+ 通信 - 通信
+295 outer space 行星：描述行星特征
+ あらゆる - [arayuru] - 各种
+ クレーター - [kurētā] - 陨石坑
+ 不可能 - 不可能
+ 太陽系 - 太阳系
+ 宇宙ステーション - 空间站
+ 宇宙船 - 宇宙飞船
+ 宇宙飛行士 - 宇航员
+ 巨大 - 巨大
+ 惑星 - 行星
+ 撮影 - 拍摄
+ 映像 - 影像
+ 望遠鏡 - 望远镜
+ 流星 - 流星
+ 画質 - 画质
+ 的確 - 准确
+ 訓練 - 训练
+ 豊富 - 丰富
+296 nature 自然：介绍明天的天气
+ 噴火 - 喷发
+ 地滑り - 滑坡
+ 岩 - 岩石
+ 日光 - 阳光
+ 昆虫 - 昆虫
+ 温室効果 - 温室效应
+ 湿度 - 湿度
+ 滝 - 瀑布
+ 激しい - 挑食激烈, 汹涌, 汹
+ 炎上 - 着火
+ 砂浜 - 沙滩
+ 穏やか - 平静的
+ 群れ - 群体
+ 花粉 - 花粉
+ 草原 - 草原
+ 葉 - 叶子
+ 豊か - 丰富
+ 野生の - 野生
+ 雲 - 云
+297 crime 事件：介绍最近的防护措施
+ おわび - [owabi] - 道歉
+ アリバイ - [aribai] - 不在场证明
+ インタビュー - [intabyū] - 采访
+ リフォーム - [rifōmu] - 翻新
+ 下町 - 下町
+ 公開 - 公映
+ 合法 - 合法
+ 命令 - 命令
+ 意義 - 意义
+ 指紋 - 指纹
+ 最寄り駅 - 最近车站
+ 監視カメラ - 监控摄像头
+ 目撃者 - 目击者
+ 落とし物 - 遗失物
+ 裁判 - 审判
+ 裁判官 - 法官
+ 銃 - 枪
+ 長所 - 优点
+298 secondary school 学校生活：介绍备考方法
+ べき - [beki] - 应该
+ めったに - [mettani] - 很少
+ 修学旅行 - 修学旅行
+ 優秀 - 优秀
+ 公立 - 公立
+ 国語 - 国语, 语文, 语文科目
+ 当番 - 值日生
+ 役員 - 委员
+ 早退 - 早退, 提前离开, 早早离开, 早早退场
+ 時間割 - 课程表
+ 理科 - 理科
+ 生徒会 - 学生会
+ 留年 - 留级
+ 私立 - 私立
+ 職員室 - 教职工室
+ 補習 - 补习
+ 課外活動 - 课外活动
+ 黒板 - 黑板
+299 accidents 安全：提醒别人注意安全
+ たいした - [taishita] - 了不起
+ アクセル - [akuseru] - 油门
+ エアバッグ - [eabaggu] - 安全气囊
+ ガス漏れ - [gasu lòure] - 煤气泄漏
+ シートベルト - [shītoberuto] - 安全带
+ タイヤ - [taiya] - 轮胎
+ ハンドル - [handoru] - 方向盘
+ 一時停止 - 临时停车
+ 交通事故 - 交通事故
+ 保険会社 - 保险公司
+ 公共交通 - 公共交通
+ 土砂崩れ - 山体滑坡
+ 意図的に - 有意地
+ 接触 - 接触, 触碰, 联系, 交往, 接近, 碰撞
+ 標識 - 标志
+ 自己評価 - 自我评价
+ 落石 - 落石
+ 軽傷 - 轻伤
+ 通話 - 通话
+ 酷い - 残酷, 严重, 糟糕, 恶劣, 可怕
+300 disaster preparedness 装备：列出必备装备
+ あらかじめ - [arakajime] - 事先
+ グリル - [guriru] - 烤架
+ スコップ - [sukoppu] - 铲子
+ トング - [tongu] - 夹子
+ ノコギリ - [nokogiri] - 锯子
+ モバイルバッテリー - [mobairubatterī] - 移动电源
+ ランタン - [rantan] - 灯笼
+ 包丁 - 菜刀
+ 包帯 - 绷带
+ 懐中電灯 - 手电筒
+ 消毒 - 消毒
+ 焚き火 - 篝火
+ 網 - 网
+ 虫よけスプレー - 驱虫喷雾
+ 調味料 - 调味料
+ 軽量 - 轻便
+ 頑丈 - 坚固
+ 食材 - 食材
+ 飲料水 - 饮用水
+301 romance 恋爱：表达对恋人的感受
+ そっと - [sotto] - 轻轻地
+ もしかして - [moshikashite] - 也许
+ プロポーズ - [puropōzu] - 求婚
+ ロマンチック - [romanchikku] - 浪漫
+ 仲直り - 和好
+ 外見 - 外表
+ 婚約 - 订婚
+ 安心感 - 安心感
+ 寛容 - 宽容
+ 尊敬 - 尊敬
+ 恋人 - 对象
+ 情熱的 - 充满热情
+ 愛 - 爱
+ 揉め事 - 纠纷
+ 散歩 - 散步
+ 理想 - 理想
+ 秘密 - 秘密
+ 背徳感 - 罪恶感
+ 花束 - 花束
+302 community service 服务：介绍你的志愿活动
+ もちろん - [mochiron] - 当然
+ チラシ - [chirashi] - 传单
+ 代表 - 代表
+ 会費 - 会费
+ 住民 - 居民
+ 公民館 - 社区活动中心
+ 分 - 分钟, 分钱, 分
+ 募金 - 募捐
+ 底 - 底部
+ 当日 - 当天
+ 歩道 - 人行道
+ 県庁 - 县政府
+ 窓口 - 服务台
+ 管理人 - 管理员
+ 餅 - 年糕
+ 高齢者 - 老年人
+303 bank 2 银行业务：填写银行表格
+ キャッシュカード - [kyasshukādo] - 银行卡
+ デビットカード - [debittokādo] - 借记卡
+ 両替 - 兑换
+ 休業日 - 休业日
+ 利子 - 利息
+ 小切手 - 支票
+ 担当者 - 负责人
+ 支店 - 分店
+ 教育ローン - 教育贷款
+ 暗証番号 - 密码
+ 有効期限 - 有效期限
+ 残高 - 余额
+ 注意事項 - 注意事项
+ 硬貨 - 硬币
+ 記入 - 填写
+ 身分証明書 - 身份证明
+ 通帳 - 存折
+ 金額 - 金额
+304 digital communication 提醒：提醒不要点可疑链接
+ の際 - [no jì] - 时
+ スタンプ - [sutanpu] - 表情贴纸
+ ビデオ会議 - [bideo huì yì] - 视频会议
+ ミュート - [myūto] - 静音
+ リマインダー - [rimaindā] - 提醒
+ 会員 - 会员
+ 履歴 - 记录
+ 日付 - 日期
+ 更新 - 更新
+ 迷惑メール - 垃圾邮件
+ 迷惑行為 - 骚扰行为
+ 通知 - 通知
+305 history 历史遗产：介绍著名历史遗产
+ 世界遺産 - 世界遗产
+ 世紀 - 世纪
+ 伝記 - 传记
+ 伝説 - 传说
+ 信仰 - 信仰
+ 国境 - 国境
+ 天皇 - 天皇
+ 憲法 - 宪法
+ 政権 - 政权
+ 文明 - 文明
+ 歴史的 - 历史性
+ 江戸時代 - 江户时代
+ 王国 - 王国
+ 現代 - 现代
+ 職人 - 工匠
+ 象徴 - 象征
+ 遺跡 - 遗迹
+306 immigration 留学：表达对留学的看法
+ その結果 - [sono jié guǒ] - 因此
+ 不安定 - 不稳定
+ 住宅 - 住宅
+ 保育 - 托儿
+ 保護 - 保护
+ 傾向 - 趋势
+ 労働時間 - 劳动时间
+ 国籍 - 国籍
+ 在留カード - 在留卡
+ 奨学金 - 奖学金
+ 学生ビザ - 学生签证
+ 学費 - 学费
+ 希望者 - 申请者
+ 帰国 - 回国
+ 弁護士 - 律师
+ 政策 - 政策
+ 移民 - 移民
+307 technology 办公用品：表达办公用品的使用感受
+ お気に入り - [o qìni rùri] - 喜欢的
+ まで - [made] - 到
+ セール品 - [sēru pǐn] - 特价品
+ ディスプレイ - [disupurei] - 显示器
+ 不具合 - 故障
+ 充電器 - 充电器
+ 別料金 - 额外费用
+ 変換プラグ - 转换插头
+ 定番 - 经典
+ 対象外 - 不适用
+ 順調 - 顺利
+308 activism 社会活动：表达你对活动的支持
+ それでも - [soredemo] - 尽管如此
+ ストライキ - [sutoraiki] - 罢工
+ ハッシュタグ - [hasshutagu] - 标签
+ 公正 - 公正
+ 利用者 - 用户
+ 制度 - 制度
+ 医療 - 医疗
+ 拡大 - 放大
+ 指導 - 指导
+ 支持 - 支持
+ 支持者 - 支持者
+ 活動家 - 活动家
+ 縮小 - 缩小, 缩减
+ 計画 - 计划
+ 討論 - 讨论
+ 議員 - 议员
+309 apologizing 退款：处理退款请求
+ いかがですか - [ikagadesuka] - 怎么样
+ なさいます - [nasaimasu] - 做, 干, 办, 进行, 采取, 举行, 发表, 致辞
+ クレーム - [kurēmu] - 投诉
+ 不充分 - 不充分
+ 小銭 - 零钱
+ 意図的 - 故意
+ 払戻し - 退款
+ 抹茶 - 抹茶
+ 様 - 样
+ 決して - 决
+ 番号札 - 号码牌
+ 負担 - 负担
+310 food 餐厅：选择座位
+ お好きな - [o hǎokina] - 喜欢的
+ お米 - [o mǐ] - 生米
+ カウンター席 - [kauntā xí] - 吧台座位
+ セルフレジ - [serufureji] - 自助收银机
+ 付き - 附带
+ 伝票 - 账单
+ 円札 - 日元钞票
+ 単品 - 单品
+ 喫煙席 - 吸烟区
+ 回転寿司 - 回转寿司
+ 奢り - 请客
+ 店内 - 店里
+ 抜群 - 极佳
+ 持ち帰り - 带回来了, 外带
+ 氷なしで - 不加冰
+ 漬物 - 腌菜
+ 甲殻類 - 甲壳类
+ 禁煙 - 禁烟
+ 税込み - 含税价
+ 食券 - 餐券

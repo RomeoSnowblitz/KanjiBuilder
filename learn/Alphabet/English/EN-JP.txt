@@ -1,0 +1,248 @@
+1 Hiragana あ い う え お
+ あ - a
+ い - i
+ う - u
+ え - e
+ お - o
+2 Hiragana か き く け こ
+ か - ka
+ き - ki
+ く - ku
+ け - ke
+ こ - ko
+3 Hiragana さ し す せ そ
+ さ - sa
+ し - shi
+ す - su
+ せ - se
+ そ - so
+4 Hiragana た ち つ て と
+ た - ta
+ ち - chi
+ つ - tsu
+ て - te
+ と - to
+5 Hiragana な に ぬ ね の
+ な - na
+ に - ni
+ ぬ - nu
+ ね - ne
+ の - no
+6 Hiragana は ひ ふ へ ほ
+ は - ha
+ ひ - hi
+ ふ - fu
+ へ - he
+ ほ - ho
+7 Hiragana ま み む め も
+ ま - ma
+ み - mi
+ む - mu
+ め - me
+ も - mo
+8 Hiragana や ゆ よ わ を ん
+ や - ya
+ ゆ - yu
+ よ - yo
+ わ - wa
+ を - wo
+ ん - n
+9 Hiragana ら り る れ ろ
+ ら - ra
+ り - ri
+ る - ru
+ れ - re
+ ろ - ro
+10 Hiragana が ぎ ぐ げ ご
+ が - ga
+ ぎ - gi
+ ぐ - gu
+ げ - ge
+ ご - go
+11 Hiragana ざ じ ず ぜ ぞ
+ ざ - za
+ じ - ji
+ ず - zu
+ ぜ - ze
+ ぞ - zo
+12 Hiragana だ ぢ づ で ど
+ だ - da
+ ぢ - ji
+ づ - zu
+ で - de
+ ど - do
+13 Hiragana ば び ぶ べ ぼ
+ ば - ba
+ び - bi
+ ぶ - bu
+ べ - be
+ ぼ - bo
+14 Hiragana ぱ ぴ ぷ ぺ ぽ
+ ぱ - pa
+ ぴ - pi
+ ぷ - pu
+ ぺ - pe
+ ぽ - po
+15 Hiragana きゃ きゅ きょ しゃ しゅ しょ
+ きゃ - kya
+ きゅ - kyu
+ きょ - kyo
+ しゃ - sha
+ しゅ - shu
+ しょ - sho
+16 Hiragana ちゃ ちゅ ちょ にゃ にゅ にょ
+ ちゃ - cha
+ ちゅ - chu
+ ちょ - cho
+ にゃ - nya
+ にゅ - nyu
+ にょ - nyo
+17 Hiragana ひゃ ひゅ ひょ みゃ みゅ みょ
+ ひゃ - hya
+ ひゅ - hyu
+ ひょ - hyo
+ みゃ - mya
+ みゅ - myu
+ みょ - myo
+18 Hiragana りゃ りゅ りょ ぎゃ ぎゅ ぎょ
+ りゃ - rya
+ りゅ - ryu
+ りょ - ryo
+ ぎゃ - gya
+ ぎゅ - gyu
+ ぎょ - gyo
+19 Hiragana じゃ じゅ じょ びゃ びゅ びょ
+ じゃ - ja
+ じゅ - ju
+ じょ - jo
+ びゃ - bya
+ びゅ - byu
+ びょ - byo
+20 Hiragana ぴゃ ぴゅ ぴょ
+ ぴゃ - pya
+ ぴゅ - pyu
+ ぴょ - pyo
+21 Katakana ア イ ウ エ オ
+ ア - a
+ イ - i
+ ウ - u
+ エ - e
+ オ - o
+22 Katakana カ キ ク ケ コ
+ カ - ka
+ キ - ki
+ ク - ku
+ ケ - ke
+ コ - ko
+23 Katakana サ シ ス セ ソ
+ サ - sa
+ シ - shi
+ ス - su
+ セ - se
+ ソ - so
+24 Katakana タ チ ツ テ ト
+ タ - ta
+ チ - chi
+ ツ - tsu
+ テ - te
+ ト - to
+25 Katakana ナ ニ ヌ ネ ノ
+ ナ - na
+ ニ - ni
+ ヌ - nu
+ ネ - ne
+ ノ - no
+26 Katakana ハ ヒ フ ヘ ホ
+ ハ - ha
+ ヒ - hi
+ フ - fu
+ ヘ - he
+ ホ - ho
+27 Katakana マ ミ ム メ モ
+ マ - ma
+ ミ - mi
+ ム - mu
+ メ - me
+ モ - mo
+28 Katakana ヤ ユ ヨ ワ ヲ ン
+ ヤ - ya
+ ユ - yu
+ ヨ - yo
+ ワ - wa
+ ヲ - wo
+ ン - n
+29 Katakana ラ リ ル レ ロ
+ ラ - ra
+ リ - ri
+ ル - ru
+ レ - re
+ ロ - ro
+30 Katakana ガ ギ グ ゲ ゴ
+ ガ - ga
+ ギ - gi
+ グ - gu
+ ゲ - ge
+ ゴ - go
+31 Katakana ザ ジ ズ ゼ ゾ
+ ザ - za
+ ジ - ji
+ ズ - zu
+ ゼ - ze
+ ゾ - zo
+32 Katakana ダ ヂ ヅ デ ド
+ ダ - da
+ ヂ - ji
+ ヅ - zu
+ デ - de
+ ド - do
+33 Katakana バ ビ ブ ベ ボ
+ バ - ba
+ ビ - bi
+ ブ - bu
+ ベ - be
+ ボ - bo
+34 Katakana パ ピ プ ペ ポ
+ パ - pa
+ ピ - pi
+ プ - pu
+ ペ - pe
+ ポ - po
+35 Katakana キャ キュ キョ シャ シュ ショ
+ キャ - kya
+ キュ - kyu
+ キョ - kyo
+ シャ - sha
+ シュ - shu
+ ショ - sho
+36 Katakana チャ チュ チョ ニャ ニュ ニョ
+ チャ - cha
+ チュ - chu
+ チョ - cho
+ ニャ - nya
+ ニュ - nyu
+ ニョ - nyo
+37 Katakana ヒャ ヒュ ヒョ ミャ ミュ ミョ
+ ヒャ - hya
+ ヒュ - hyu
+ ヒョ - hyo
+ ミャ - mya
+ ミュ - myu
+ ミョ - myo
+38 Katakana リャ リュ リョ ギャ ギュ ギョ
+ リャ - rya
+ リュ - ryu
+ リョ - ryo
+ ギャ - gya
+ ギュ - gyu
+ ギョ - gyo
+39 Katakana ジャ ジュ ジョ ビャ ビュ ビョ
+ ジャ - ja
+ ジュ - ju
+ ジョ - jo
+ ビャ - bya
+ ビュ - byu
+ ビョ - byo
+40 Katakana ピャ ピュ ピョ
+ ピャ - pya
+ ピュ - pyu
+ ピョ - pyo

@@ -1,0 +1,31 @@
+1 A B C D E
+ a - a
+ b - bee
+ c - cee
+ d - dee
+ e - e
+2 F G H I J
+ f - ef
+ g - gee
+ h - aitch
+ i - i
+ j - jay
+3 K L M N O
+ k - kay
+ l - el
+ m - em
+ n - en
+ o - o
+4 P Q R S T
+ p - pee
+ q - cue
+ r - ar
+ s - ess
+ t - tee
+5 U V W X Y Z
+ u - u
+ v - vee
+ w - double-u
+ x - ex
+ y - wy
+ z - zed, zee

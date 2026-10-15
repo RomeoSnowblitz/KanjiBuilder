@@ -1,0 +1,36 @@
+1 A B C D E
+ a - a
+ b - be
+ c - ce
+ d - de
+ e - e
+2 F G H I J
+ f - ef
+ g - ge
+ h - ha
+ i - i
+ j - jott
+3 K L M N O
+ k - ka
+ l - el
+ m - em
+ n - en
+ o - o
+4 P Q R S T
+ p - pe
+ q - qu
+ r - er
+ s - es
+ t - te
+5 U V W X Y Z
+ u - u
+ v - vau
+ w - we
+ x - ix
+ y - ypsilon
+ z - zett
+6 Ä Ö Ü ß
+ ä - a-Umlaut
+ ö - o-Umlaut
+ ü - u-Umlaut
+ ß - Eszett

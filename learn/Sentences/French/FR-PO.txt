@@ -1,0 +1,622 @@
+1 Commande au café
+ null
+2 Dis bonjour et au revoir
+ null
+3 Parle de tes origines
+ null
+4 Identifie les membres de la famille
+ null
+5 Décris les traits de caractère
+ null
+6 Trouve tes affaires
+ null
+7 Trouve des lieux en ville
+ null
+8 Utilise le présent
+ null
+9 Parle du temps qu'il fait
+ null
+10 Fais les courses
+ null
+11 Décris ta maison
+ null
+12 Utilise le présent
+ null
+13 Discute d'activités sportives
+ null
+14 Parle de tes loisirs
+ null
+15 Participe en classe
+ null
+16 Commande à manger et à boire
+ null
+17 Critique la nourriture et le service
+ null
+18 Trouve ton chemin
+ null
+19 Fais l'accord en genre et nombre
+ null
+20 Parle de ton lieu de travail
+ null
+21 Fais les courses
+ null
+22 Utilise des adjectifs possessifs
+ null
+23 Identifie les objets de la classe
+ null
+24 Pose des questions sur les sentiments
+ null
+25 Demande ton chemin
+ null
+26 Exprime la quantité dans des questions
+ null
+27 Rencontre de nouvelles personnes
+ null
+28 Décris les membres de ta famille
+ null
+29 Organise ton planning
+ null
+30 Utilise les formules de politesse
+ null
+31 Partage des histoires personnelles
+ null
+32 Utilise le présent
+ null
+33 Discute d'animaux et de leur habitat
+ null
+34 Décris tes routines quotidiennes
+ null
+35 Emploie les verbes pronominaux
+ null
+36 Parle de tes loisirs
+ null
+37 Parle de spectacles musicaux
+ null
+38 Parle des loisirs
+ null
+39 Cherche de l'aide médicale
+ null
+40 Parle de ton trajet pour le travail
+ null
+41 Parle d'anniversaires
+ null
+42 Exprime tes préférences et désirs
+ null
+43 Parle de sortir
+ null
+44 Planifie des activités de bien-être
+ null
+45 Exprime tes besoins et désirs
+ null
+46 Planifie un voyage
+ null
+47 Exprime des actions imminentes
+ null
+48 Explore la ville
+ null
+49 Utilise des démonstratifs
+ null
+50 Trouve des aliments
+ null
+51 Fais la fête avec des amis
+ null
+52 Achète des vêtements
+ null
+53 Utilise le présent pour les routines
+ null
+54 Parle de tes soucis de santé
+ null
+55 Utilise adjectifs et pronoms indéfinis.
+ null
+56 Gère les problèmes au travail
+ null
+57 Utilise les démonstratifs
+ null
+58 Parle de films
+ null
+59 Participe à diverses activités
+ null
+60 Envoie et reçois du courrier
+ null
+61 Utilise le présent progressif
+ null
+62 Parle de la météo
+ null
+63 Parle du stress au travail
+ null
+64 Utilise des adverbes
+ null
+65 Utilise des expressions de quantité
+ null
+66 Discute en ligne
+ null
+67 Fais des sports et des jeux
+ null
+68 Fais les tâches ménagères
+ null
+69 Gère des urgences
+ null
+70 Exprime un besoin et demande permission
+ null
+71 Travaille au bureau
+ null
+72 Discute des plans pour demain
+ null
+73 Explique un souci technologique poliment
+ null
+74 Parle de ce que tu vois en ville
+ null
+75 Discute des goûts cinématographiques
+ null
+76 Décris les membres de la famille
+ null
+77 Décris les célébrités
+ null
+78 Discute de ponctualité en réunion
+ null
+79 Discute de galère lors d'un mariage
+ null
+80 Décris le travail bénévole
+ null
+81 Cherche des objets perdus
+ null
+82 Achète des légumes au marché
+ null
+83 Échange des cadeaux en famille
+ null
+84 Cherche des ingrédients en cuisine
+ null
+85 Discute d'un mariage
+ null
+86 Discute de louer une maison
+ null
+87 Demande poliment des infos sur un projet
+ null
+88 Décris un date
+ null
+89 Demande poliment le chemin
+ null
+90 Vois le médecin pour ton rétablissement
+ null
+91 Communique avec ton équipe
+ null
+92 Donne des ordres pour le ménage
+ null
+93 Raconte l'histoire de ta famille
+ null
+94 Évoque des souvenirs d'enfance d'achats
+ null
+95 Partage des expériences passées
+ null
+96 Loue ou achète une maison
+ null
+97 Prépare une visite dans un parc naturel
+ null
+98 Discute des expériences passées
+ null
+99 Discute de ton parcours de vie
+ null
+100 Discute des expériences pro
+ null
+101 Envoie des textos en portugais
+ null
+102 Don ton avis sur les tendances bien-être
+ null
+103 Parle des habitudes passées
+ null
+104 Discute d'activités passées et récentes
+ null
+105 Célèbre un succès lors d'une cérémonie
+ null
+106 Décris des meubles en portugais
+ null
+107 Décris un voyage difficile
+ null
+108 Appelle les urgences
+ null
+109 Discute de fêtes du Nouvel An passées
+ null
+110 Discute des contributions à un projet
+ null
+111 Identifie les propriétaires d'un objet
+ null
+112 Commande au restaurant
+ null
+113 Discute des exploits d'enfants prodiges
+ null
+114 Discute de vivre ailleurs
+ null
+115 Donne des excuses à tes camarades
+ null
+116 Renseigne-toi sur le lieu d'un événement
+ null
+117 Discute des enjeux politiques locaux
+ null
+118 Rends des articles en magasin
+ null
+119 Décris la coupe de cheveux souhaitée
+ null
+120 Explique des actions à la police
+ null
+121 Décris comment s'occuper d'un animal
+ null
+122 Discute des actualités
+ null
+123 Mets en avant tes réussites en postulant
+ null
+124 Discute de l'histoire de l'art
+ null
+125 Discute d'habitudes alimentaires saines
+ null
+126 Discute d'un conte de fées
+ null
+127 Prends rendez-vous chez le médecin
+ null
+128 Décris les activités festives traditionnelles
+ null
+129 Souligne tes opinions et responsabilités
+ null
+130 Bavarde avec des amis
+ null
+131 Décris une scène de crime
+ null
+132 Création : Décris une passion créative
+ null
+133 Habitude : Change ta routine matinale
+ null
+134 Loisirs : Décris tes loisirs
+ null
+135 Jardin : Décris une nouvelle habitude
+ null
+136 Objectifs : Partage tes objectifs
+ null
+137 Projet : Présente ton projet
+ null
+138 Magasin : Compare les prix des appareils
+ null
+139 Sport : Présente ton équipe
+ null
+140 Études : Décris la salle de classe
+ null
+141 Événement : Décris l’événement
+ null
+142 Cadeaux : Choisis un cadeau
+ null
+143 Travail : Décris ta journée au travail
+ null
+144 Projets : Présente tes projets futurs
+ null
+145 Objectif : Partage tes rêves d'avenir
+ null
+146 Voisins : Présente ton voisin
+ null
+147 Fête : Évite de gaspiller la nourriture
+ null
+148 Émotions : Exprime tes émotions
+ null
+149 Souvenirs : Partage une histoire drôle
+ null
+150 Garde : Note l’heure du médicament
+ null
+151 Nouvelles : Raconte une histoire de famille
+ null
+152 Santé : Décris une habitude saine
+ null
+153 Évènement : Décris le lieu de l’évènement
+ null
+154 Science : Explique une expérience vécue
+ null
+155 Art : Décris une œuvre d’art
+ null
+156 Sortie : Invite quelqu'un à sortir
+ null
+157 Secrets : Partage un secret
+ null
+158 Transports : Décris ton trajet quotidien
+ null
+159 Maison : Décris les pièces de la maison
+ null
+160 Réunion : Présente-toi à tes collègues
+ null
+161 Carrière : Exprime tes objectifs de carrière
+ null
+162 Religion : Souhaite du bien à quelqu’un
+ null
+163 Savoir : Exprime ton opinion
+ null
+164 Vacances : Choisis une ville à visiter
+ null
+165 Terrasse : Décris les couleurs du tissu
+ null
+166 Espoir : Partage tes souhaits pour demain
+ null
+167 Mariage : Décris la robe de mariée
+ null
+168 Histoire : Décris un événement passé
+ null
+169 Ménage : Organise les tâches ménagères
+ null
+170 Fête : Présente une tradition familiale
+ null
+171 Restaurant : Décris un restaurant
+ null
+172 Colocation : Propose des règles de vie
+ null
+173 Lecture : Présente ton livre préféré
+ null
+174 Soins : Décris ta visite à l’hôpital
+ null
+175 Rues : Demande un itinéraire
+ null
+176 Bureau : Raconte une expérience au travail
+ null
+177 Amour : Raconte ta rencontre
+ null
+178 Rapport : Présente un rapport
+ null
+179 Musique : Décris le son d’un instrument
+ null
+180 Climat : Décris le temps qu’il fait
+ null
+181 Cheveux : Décris ta coupe de cheveux
+ null
+182 Cinéma : Raconte une sortie au cinéma
+ null
+183 En ville : Explique un retard de bus
+ null
+184 Musée : Décris une œuvre exposée
+ null
+185 Sujet : Présente le sujet du jour
+ null
+186 Projet : Présente le projet
+ null
+187 Repas : Parle de tes repas récents
+ null
+188 Saison : Décris ta saison préférée
+ null
+189 Émotions : Exprime tes sentiments
+ null
+190 Fitness : Décris ta routine sportive
+ null
+191 Pharmacie : Choisis le bon médicament
+ null
+192 Projet : Présente l’avancement du projet
+ null
+193 Sécurité : Signale un danger
+ null
+194 Mission : Présente ta mission
+ null
+195 Lecture : Parle de tes auteurs préférés
+ null
+196 Visite : Décris l’appartement
+ null
+197 Enfants : Donne des conseils aux parents
+ null
+198 Incident : Décris un incident sur la route
+ null
+199 Réseaux : Commente des messages drôles
+ null
+200 Saveurs : Présente tes plats préférés
+ null
+201 Technologie : Passe un appel
+ null
+202 Météo : Décris le temps qu’il fait
+ null
+203 Discussion : Exprime tes inquiétudes
+ null
+204 Nature : Décris le paysage
+ null
+205 Communauté : Propose des idées
+ null
+206 Déchets : Choisis le bon bac pour trier
+ null
+207 Cuisine : Décris ta cuisine
+ null
+208 Amitié : Raconte le début d’une amitié
+ null
+209 Quartier : Explique un problème du quartier
+ null
+210 Famille : Décris ta famille
+ null
+211 Politique : Explique une idée politique
+ null
+212 Économie : Décris la situation économique
+ null
+213 Animaux : Décris ton animal préféré
+ null
+214 Quartier : Propose une visite de galerie
+ null
+215 Campagne : Exprime ton envie de calme
+ null
+216 Recyclage : Paie la facture
+ null
+217 Sciences : Explique une découverte
+ null
+218 Voyages : Choisis une destination
+ null
+219 Spectacle : Prévois ta sortie
+ null
+220 Budget : Décris tes dépenses
+ null
+221 Ferme : Décris la ferme
+ null
+222 Cuisine : Choisis ton ingrédient clé
+ null
+223 Mode : Décris un défilé de mode
+ null
+224 Inclusion : Signale un besoin d’aide
+ null
+225 Jeux : Décris ton jeu préféré
+ null
+226 Vieillir : Raconte un souvenir
+ null
+227 Jardin : Parle de tes plantes
+ null
+228 Amitié : Présente-toi à des camarades
+ null
+229 Nature : Prévois une sortie en nature
+ null
+230 Sortie : Organise ta sortie
+ null
+231 Adresse : Demande un itinéraire
+ null
+232 Stade : Dis à quel match tu vas
+ null
+233 Colis : Trouve le code de ton colis
+ null
+234 Concert : Décris le ressenti d’un concert
+ null
+235 Quartier : Décris ton quartier
+ null
+236 Société : Décris un dilemme social
+ null
+237 Réunion : Exprime tes objectifs de réunion
+ null
+238 Ordre : Organise tes tâches
+ null
+239 Militant : Présente un militant local
+ null
+240 Soirées : Exprime ton avis sur une fête
+ null
+241 Politique : Décris un parti politique
+ null
+242 Accès : Décris les obstacles en ville
+ null
+243 Histoire : Explique les changements vécus
+ null
+244 Fête : Décris la décoration de la fête
+ null
+245 Camping : Monte ta tente
+ null
+246 Identité : Parle de l’orientation sexuelle
+ null
+247 Tendresse : Décris un geste tendre
+ null
+248 Ferme : Décris les animaux de la ferme
+ null
+249 Art : Exprime ton avis sur une œuvre
+ null
+250 Voyages : Propose un nouvel itinéraire
+ null
+251 Débat : Expose tes idées
+ null
+252 Changement : Réagis à une surprise
+ null
+253 Épargne : Explique comment économiser
+ null
+254 Faculté : Présente ta vie universitaire
+ null
+255 Journal : Présente le journal télévisé
+ null
+256 Carrière : Décris ton plan de carrière
+ null
+257 Bébé : Décris les progrès de ton bébé
+ null
+258 Solidarité : Décris un projet collectif
+ null
+259 Banque : Signale une transaction refusée
+ null
+260 Voiture : Donne des conseils de conduite
+ null
+261 Rumeur : Décris ce que tu as entendu
+ null
+262 Spectacle : Présente un artiste préféré
+ null
+263 Marques : Décris une marque mémorable
+ null
+264 Entreprise : Présente ton idée de projet
+ null
+265 Jeux : Indique le rôle de chaque joueur
+ null
+266 Jeux vidéo : Décris ton matériel de jeu
+ null
+267 Équipe : Présente ton équipe
+ null
+268 Choix éthiques : Réduis le gaspillage
+ null
+269 Données : Compare différents algorithmes
+ null
+270 Langues : Parle de tes progrès
+ null
+271 Échange : Explique comment t’adapter
+ null
+272 Centre ville : Présente les quartiers
+ null
+273 Randonnée : Décris ta randonnée
+ null
+274 Logiciels : Donne des astuces d’utilisation
+ null
+275 Appareil : Gère tes messages reçus
+ null
+276 Forme : Décris ta routine d’exercice
+ null
+277 École : Décris la récréation
+ null
+278 Chimie : Décris une expérience chimique
+ null
+279 Emploi : Décris ta routine de travail
+ null
+280 Commerce : Décris le trajet des produits
+ null
+281 Sport : Décris ton équipe de sport
+ null
+282 Hôpital : Parle des vaccins à l’hôpital
+ null
+283 Empathie : Exprime ce que tu ressens
+ null
+284 Famille : Décris ton mariage idéal
+ null
+285 Accord : Justifie ton point de vue
+ null
+286 Sécurité : Explique une erreur de sécurité
+ null
+287 Fichier : Ajoute une légende à une photo
+ null
+288 Cuisine : Décris un plat préféré
+ null
+289 Sciences : Explique le rôle d’une variable
+ null
+290 Environnement : Décris la vie marine
+ null
+291 Héritage : Présente un leader historique
+ null
+292 Droits : Explique pourquoi voter
+ null
+293 Nature : Décris un lieu naturel
+ null
+294 Amitié : Décris un bon ami
+ null
+295 Erreur : Explique une erreur
+ null
+296 Santé : Exprime ton soutien à un ami
+ null
+297 Suspense : Partage tes émotions en lisant
+ null
+298 Faune flore : Décris ce que tu observes
+ null
+299 Médias : Décris la une du jour
+ null
+300 Restaurant : Commande un plat
+ null
+301 Espace : Décris une mission spatiale
+ null
+302 Service : Demande une garantie
+ null
+303 Prudence : Écoute les deux côtés
+ null
+304 Refuge : Demande le résultat du test
+ null
+305 Classe : Justifie tes idées en classe
+ null
+306 Recette : Décris ta recette
+ null
+307 Politesse : Présente tes excuses
+ null
+308 Urgence : Décris une blessure légère
+ null
+309 Vêtements : Cherche des articles à la mode
+ null
+310 Police : Exprime ton avis sur le verdict
+ null
+311 Santé mentale : Exprime ton ressenti
+ null

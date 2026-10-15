@@ -1,0 +1,5037 @@
+1 Food Indica i nomi di cibi e bevande
+ 和 - [hé] - col, con, e, ed, and
+ 咖啡 - [kā fēi] - caffè
+ 水 - [shuǐ] - acqua
+ 汤 - [tāng] - zuppa
+ 热 - [rè] - caldo
+ 米饭 - [mǐ fàn] - riso
+ 粥 - [zhōu] - porridge
+ 茶 - [chá] - tè
+ 豆腐 - [dòu fǔ] - tofu
+ 这是 - [zhè shì] - Questo è
+2 Nation. Parla delle nazionalità
+ 中国 - [zhōng guó] - Cina
+ 人 - [rén] - uomo, persona, persone, umani, umano, gente, man
+ 你呢 - [nǐ ne] - e tu?
+ 嗨 - [hāi] - ciao
+ 我 - [wǒ] - io
+ 日本 - [rì běn] - Giappone
+ 是 - [shì] - sì, fossimo, siate, fossero, essere, siano, fui
+ 美国 - [měi guó] - americano, dell'America
+ 韩国 - [hán guó] - coreana, Corea
+3 Profs. Parla delle professioni
+ 中文 - [zhōng wén] - cinese
+ 你 - [nǐ] - tu
+ 医生 - [yī shēng] - dottore
+ 学生 - [xué shēng] - studente
+ 对 - [duì] - con, a, al, vero, di, tratti
+ 对不对 - [duì bù duì] - giusto
+ 律师 - [lǜ shī] - avvocato
+ 老师 - [lǎo shī] - insegnante
+ 英文 - [yīng wén] - inglese
+ 说 - [shuō] - parlare
+4 Study Parla dei tuoi corsi
+ 上 - [shàng] - frequentare
+ 不 - [bù] - non, no, n'
+ 他 - [tā] - lui
+ 喜欢 - [xǐ huān] - piacere
+ 大学生 - [dà xué shēng] - studente universitario
+ 她 - [tā] - lei
+ 数学 - [shù xué] - matematica
+ 课 - [kè] - lezione
+ 音乐 - [yīn lè] - musica
+5 Family Usa i pronomi possessivi
+ 中学生 - [zhōng xué shēng] - studente delle medie
+ 也 - [yě] - anche
+ 儿子 - [ér zi] - figlio
+ 加拿大 - [jiā ná dà] - Canada, canadese
+ 吗 - [ma] - ?
+ 女儿 - [nǚ ér] - figlia
+ 妈妈 - [mā mā] - madre
+ 爸爸 - [bà bà] - papà
+ 的 - [de] - l’, del, dell’, all’, di, d’
+ 老公 - [lǎo gōng] - marito
+ 老婆 - [lǎo pó] - moglie
+ 英国 - [yīng guó] - Inghilterra
+ 这是 - [zhè shì] - questo è
+6 Town Parla dei luoghi che visiti
+ 不常 - [bù cháng] - non spesso
+ 书 - [shū] - libro
+ 书店 - [shū diàn] - libreria
+ 买 - [mǎi] - comprare
+ 去 - [qù] - andare
+ 吃 - [chī] - mangiare
+ 常常 - [cháng cháng] - spesso
+ 看 - [kàn] - vedere
+ 菜 - [cài] - cucina
+ 超市 - [chāo shì] - supermercato
+ 零食 - [líng shí] - snack
+ 韩文 - [hán wén] - coreano
+ 饭馆 - [fàn guǎn] - ristorante
+7 Cafe Ordina bevande
+ 一 - [yī] - uno
+ 三 - [sān] - tre
+ 不 - [bù] - no
+ 不客气 - [bù kè qì] - prego
+ 两 - [liǎng] - due
+ 冰 - [bīng] - ghiaccio
+ 奶茶 - [nǎi chá] - tè al latte
+ 杯 - [bēi] - tazza
+ 牛奶 - [niú nǎi] - latte
+ 糖 - [táng] - zucchero
+ 绿茶 - [lǜ chá] - tè verde
+ 要 - [yào] - voglio
+ 谢谢 - [xiè xiè] - grazie
+ 这 - [zhè] - il, l', questi, questo, questa, la, lo, quest’
+8 Travel Trova i beni da viaggio essenziali
+ 不 - [bù] - non
+ 二 - [èr] - due
+ 哎呀 - [āi ya] - accidenti
+ 哪里 - [nǎ lǐ] - dove
+ 在 - [zài] - stava, su, stavi, in, sulla, nella, sulle, stiate, è alla, all', è, nell', allo, a, al, è sulla, sono, presso, sull', sul, essere, alla, sui, sullo, nelle, nel, stiano, è nel, fui
+ 手机 - [shǒu jī] - cellulare
+ 洗手间 - [xǐ shǒu jiān] - bagno
+ 火车 - [huǒ chē] - treno
+ 火车站 - [huǒ chē zhàn] - stazione ferroviaria
+ 站台 - [zhàn tái] - piattaforma
+ 第 - [dì] - prima
+ 行李 - [xíng lǐ] - bagaglio
+ 车票 - [chē piào] - biglietto
+ 这里 - [zhè lǐ] - qui
+ 钱包 - [qián bāo] - portafoglio
+9 Semester Presenta te stesso e i tuoi corsi
+ 个 - [gè] - un
+ 今天 - [jīn tiān] - oggi
+ 你好 - [nǐ hǎo] - ciao
+ 历史 - [lì shǐ] - storia
+ 同学 - [tóng xué] - compagno di classe
+ 四 - [sì] - quattro
+ 我们 - [wǒ men] - noi
+ 我叫 - [wǒ jiào] - chiamare
+ 新 - [xīn] - nuovo
+ 有 - [yǒu] - avere
+ 李天美 - [lǐ tiān měi] - Li Tianmei
+ 王明 - [wáng míng] - Wang Ming
+ 真的吗 - [zhēn de ma] - davvero?
+ 节 - [jié] - lezione
+ 都 - [dōu] - completamente
+10 Sports Parla delle preferenze sportive
+ 你们 - [nǐ men] - voi
+ 健身房 - [jiàn shēn fáng] - palestra
+ 公园 - [gōng yuán] - parco
+ 打 - [dǎ] - scontata, sbatti, batteva, annoda, dozzine, giocate, battuta, sbattiamo, colpire, suonata, colpiscono
+ 排球 - [pái qiú] - pallavolo
+ 比较 - [bǐ jiào] - piuttosto
+ 游泳 - [yóu yǒng] - nuotare, nuota, nuoti
+ 篮球 - [lán qiú] - pallacanestro
+ 网球 - [wǎng qiú] - tennis
+ 跑步 - [pǎo bù] - Corro
+ 运动 - [yùn dòng] - attività fisica
+ 还是 - [hái shì] - o
+ 非常 - [fēi cháng] - estremamente
+11 New Home Usa aggettivi per descrivere
+ 乱 - [luàn] - disordinato
+ 公寓 - [gōng yù] - appartamento
+ 冰箱 - [bīng xiāng] - frigorifero
+ 卧室 - [wò shì] - camera da letto
+ 厨房 - [chú fáng] - cucina
+ 只 - [zhǐ] - solo
+ 哇 - [wa] - wow
+ 大 - [dà] - grande
+ 客厅 - [kè tīng] - soggiorno
+ 小 - [xiǎo] - piccolo
+ 床 - [chuáng] - letto
+ 很 - [hěn] - (molto), molta, molto, tanto, ben
+ 房子 - [fáng zi] - casa
+ 房间 - [fáng jiān] - stanza
+ 旧 - [jiù] - vecchio
+ 桌子 - [zhuō zi] - tavolo
+ 沙发 - [shā fā] - divano
+ 漂亮 - [piào liàng] - bello
+ 电视 - [diàn shì] - televisore
+ 舒服 - [shū fú] - comodo
+12 Beijing Esplora Pechino
+ 人们 - [rén men] - gente
+ 冬天 - [dōng tiān] - inverno
+ 冷 - [lěng] - freddo
+ 动物园 - [dòng wù yuán] - zoo
+ 北京 - [běi jīng] - Pechino
+ 夏天 - [xià tiān] - estate
+ 好吃 - [hǎo chī] - buono
+ 好玩儿 - [hǎo wán ér] - divertente
+ 故宫 - [gù gōng] - Città Proibita
+ 春天 - [chūn tiān] - primavera
+ 有名 - [yǒu míng] - famoso
+ 火锅 - [huǒ guō] - fonduta cinese
+ 烤鸭 - [kǎo yā] - anatra arrosto
+ 热闹 - [rè nào] - vivace
+ 特别 - [tè bié] - particolarmente
+ 秋天 - [qiū tiān] - autunno
+ 老家 - [lǎo jiā] - città natale
+ 贵 - [guì] - costoso
+ 辣 - [là] - piccante
+ 远 - [yuǎn] - lontano
+ 长城 - [zhǎng chéng] - Grande Muraglia
+ 门票 - [mén piào] - biglietto
+13 Date Usa le particelle per i suggerimenti
+ 一些 - [yī xiē] - alcuni
+ 做 - [zuò] - facevamo, farle, facevate, (lei) cucina, cucini, sii, fatti, (io) cucino, do, cucinare, fatte, cucinavi, cucinate, (loro) fanno, lavorereste, agisci, fare, commettano
+ 公交车 - [gōng jiāo chē] - autobus
+ 博物馆 - [bó wù guǎn] - museo
+ 吧 - [ba] - bar
+ 周末 - [zhōu mò] - fine settimana
+ 喝 - [hē] - bere
+ 地铁 - [de tiě] - metropolitana
+ 坐 - [zuò] - prendere
+ 好的 - [hǎo de] - va bene
+ 家 - [jiā] - casa
+ 带 - [dài] - portare
+ 快 - [kuài] - veloce
+ 晚饭 - [wǎn fàn] - cena
+ 果汁 - [guǒ zhī] - succo
+ 比较 - [bǐ jiào] - più
+ 水果 - [shuǐ guǒ] - frutta
+ 爆米花 - [bào mǐ huā] - popcorn
+ 爱情 - [ài qíng] - amore
+ 电影 - [diàn yǐng] - film
+ 看 - [kàn] - guardare
+ 蛋糕 - [dàn gāo] - torta
+ 饺子 - [jiǎo zi] - ravioli cinesi
+14 Dinner Usa i comandi
+ 做饭 - [zuò fàn] - cucinare
+ 先 - [xiān] - prima
+ 冰淇淋 - [bīng qí lín] - gelato
+ 几 - [jǐ] - alcuni
+ 别 - [bié] - non
+ 吃饭 - [chī fàn] - mangiare, Mangiamo
+ 土豆 - [tǔ dòu] - patata
+ 多 - [duō] - più
+ 小心 - [xiǎo xīn] - attento
+ 手 - [shǒu] - mano
+ 擦 - [cā] - pulire
+ 放 - [fàng] - mettere
+ 杯子 - [bēi zi] - bicchiere
+ 洗 - [xǐ] - lavare
+ 洗碗机 - [xǐ wǎn jī] - lavastoviglie
+ 爷爷 - [yé yé] - nonno
+ 玩 - [wán] - giocare
+ 现在 - [xiàn zài] - adesso
+ 用 - [yòng] - usare
+ 盐 - [yán] - sale
+ 盘子 - [pán zi] - piatto
+ 碗 - [wǎn] - scodella
+ 肉 - [ròu] - carne
+ 蔬菜 - [shū cài] - verdura
+ 西红柿 - [xī hóng shì] - pomodoro
+15 Clubs Usa verbi modali per esprimere abilità
+ 一起 - [yī qǐ] - insieme
+ 人 - [rén] - persona
+ 会 - [huì] - potere
+ 俱乐部 - [jù lè bù] - club
+ 十 - [shí] - dieci
+ 吉他 - [jí tā] - chitarra
+ 唱歌 - [chàng gē] - canto, cantare
+ 喜剧 - [xǐ jù] - commedia
+ 弹 - [dàn] - suonare
+ 有趣 - [yǒu qù] - interessante
+ 棒球 - [bàng qiú] - baseball
+ 法语 - [fǎ yǔ] - francese
+ 泰国 - [tài guó] - Thailandia
+ 流行 - [liú xíng] - pop
+ 烤 - [kǎo] - arrostirle, arrosto, grigliamo, cuocere, grigliando, tostate, grigliare, infornare, cuoce, tostato, tosta
+ 种 - [zhǒng] - tipo
+ 练习 - [liàn xí] - esercitarsi
+ 西班牙语 - [xī bān yá yǔ] - spagnolo
+ 语言 - [yǔ yán] - lingua
+ 足球 - [zú qiú] - calcio
+ 踢 - [tī] - calciare
+ 钢琴 - [gāng qín] - pianoforte
+ 面包 - [miàn bāo] - pane
+ 面条 - [miàn tiáo] - pasta
+ 饼干 - [bǐng gàn] - biscotto
+16 Rules Chiedi il permesso
+ 不行 - [bù xíng] - no
+ 休息 - [xiū xī] - riposare
+ 借 - [jiè] - prendere in prestito
+ 健康 - [jiàn kāng] - salutare
+ 兔子 - [tù zi] - coniglio
+ 养 - [yǎng] - allevare
+ 冰 - [bīng] - ghiacciato, ghiacciata, ghiaccio, ghiacci
+ 出去玩儿 - [chū qù wán ér] - uscire
+ 只 - [zhǐ] - soltanto, il, l', solo, solamente
+ 可乐 - [kě lè] - cola
+ 可以 - [kě yǐ] - potere
+ 可爱 - [kě ài] - carino
+ 哥哥 - [gē gē] - fratello maggiore
+ 商场 - [shāng chǎng] - centro commerciale
+ 地 - [de] - pavimento
+ 姐姐 - [jiě jiě] - sorella
+ 巧克力 - [qiǎo kè lì] - cioccolato
+ 想 - [xiǎng] - volere
+ 扫 - [sǎo] - spazzare
+ 朋友 - [péng yǒu] - amico
+ 游戏 - [yóu xì] - gioco
+ 狗 - [gǒu] - cane
+ 玩具 - [wán jù] - giocattolo
+ 电脑 - [diàn nǎo] - computer
+ 窗户 - [chuāng hù] - finestra
+ 累 - [lèi] - stanco
+17 Moving Pulisci e organizza casa
+ 东西 - [dōng xī] - cosa
+ 书架 - [shū jià] - libreria
+ 勺子 - [sháo zi] - cucchiaio
+ 台灯 - [tái dēng] - lampada da tavolo
+ 吵 - [chǎo] - rumoroso
+ 吸尘器 - [xī chén qì] - aspirapolvere
+ 地方 - [de fāng] - posto
+ 好看 - [hǎo kàn] - bello
+ 室友 - [shì yǒu] - coinquilino
+ 帽子 - [mào zi] - cappello
+ 打扫 - [dǎ sǎo] - pulire
+ 扔掉 - [rēng diào] - buttare via
+ 找 - [zhǎo] - cercare
+ 拖把 - [tuō bǎ] - mocio
+ 椅子 - [yǐ zi] - sedia
+ 筷子 - [kuài zi] - bacchette
+ 脏 - [zàng] - sporco
+ 衣服 - [yī fú] - vestito
+ 还 - [hái] - ancora
+ 这些 - [zhè xiē] - Questi, Queste
+ 那 - [nà] - la, quella, quelle
+ 那些 - [nà xiē] - Quelle
+ 邻居 - [lín jū] - vicino
+ 都 - [dōu] - tutti
+ 重 - [zhòng] - pesante
+18 Weekend Usa il presente progressivo
+ 上网 - [shàng wǎng] - navigare in internet
+ 人 - [rén] - uomo, persona, persone, umani, umano, gente, man
+ 什么 - [shén me] - cosa
+ 他们 - [tā men] - loro
+ 做 - [zuò] - fare
+ 卖 - [mài] - vendere
+ 听 - [tīng] - ascoltare
+ 喂 - [wèi] - pronto
+ 在 - [zài] - stava, su, stavi, in, sulla, nella, sulle, stiate, è alla, all', è, nell', allo, a, al, è sulla, sono, presso, sull', sul, essere, alla, sui, sullo, nelle, nel, stiano, è nel, fui
+ 女孩儿 - [nǚ hái ér] - ragazza
+ 妹妹 - [mèi mèi] - sorella minore
+ 小提琴 - [xiǎo tí qín] - violino
+ 帮助 - [bāng zhù] - aiuto
+ 干净 - [gàn jìng] - pulito
+ 忙 - [máng] - occupato
+ 报纸 - [bào zhǐ] - giornale
+ 拉 - [lā] - suonare
+ 摇滚 - [yáo gǔn] - rock
+ 早饭 - [zǎo fàn] - colazione
+ 星期六 - [xīng qī liù] - sabato
+ 是我 - [shì wǒ] - sono io
+ 没 - [méi] - non, senza
+ 睡觉 - [shuì jué] - dorme, dormire
+ 需要 - [xū yào] - avere bisogno di
+ 飞盘 - [fēi pán] - frisbee
+19 Sick Day Cerca assistenza medica
+ 下午 - [xià wǔ] - pomeriggio
+ 不舒服 - [bù shū fú] - male
+ 了 - [le] - è, sono, sta
+ 体温 - [tǐ wēn] - temperatura corporea
+ 假 - [jiǎ] - ferie
+ 医院 - [yī yuàn] - ospedale
+ 发烧 - [fā shāo] - febbre
+ 吃 - [chī] - mangiare
+ 头 - [tóu] - testa
+ 少 - [shǎo] - meno
+ 应该 - [yīng gāi] - dovere
+ 开心 - [kāi xīn] - felice
+ 早上 - [zǎo shàng] - mattina
+ 昨天 - [zuó tiān] - ieri
+ 束 - [shù] - mazzo
+ 来 - [lái] - venire
+ 煮 - [zhǔ] - bollire
+ 疼 - [téng] - male
+ 给 - [gěi] - diamoci, ad, mandarmi, mostrano, per, all', dare, alle, a, dando, alla, ecco, agli, (lei) dà, diate, ai, dava
+ 肚子 - [dù zi] - pancia
+ 花 - [huā] - fiore
+ 药 - [yào] - medicina
+ 药店 - [yào diàn] - farmacia
+ 请 - [qǐng] - per favore, prendeva, favore, prega
+ 跟 - [gēn] - con, tacco
+ 量 - [liàng] - misurare
+20 Birthday Organizza una festa di compleanno
+ 下 - [xià] - giù, prossima, piovesse, sceso, scese
+ 五 - [wǔ] - cinque
+ 准备 - [zhǔn bèi] - preparare
+ 告诉 - [gào sù] - dire
+ 围巾 - [wéi jīn] - sciarpa
+ 奶奶 - [nǎi nǎi] - nonna
+ 开 - [kāi] - organizzare
+ 快乐 - [kuài lè] - felice
+ 惊喜 - [jīng xǐ] - sorpresa
+ 明天 - [míng tiān] - domani
+ 星期天 - [xīng qī tiān] - domenica
+ 条 - [tiáo] - strisce, il, striscia, barre
+ 气球 - [qì qiú] - palloncino
+ 派对 - [pài duì] - festa
+ 生日 - [shēng rì] - compleanno
+ 礼物 - [lǐ wù] - regalo
+ 种 - [zhǒng] - tipo
+ 菜 - [cài] - piatto
+ 薯片 - [shǔ piàn] - patatina
+ 蜡烛 - [là zhú] - candela
+ 邀请 - [yāo qǐng] - invitare
+ 项链 - [xiàng liàn] - collana
+ 领带 - [lǐng dài] - cravatta
+ 饮料 - [yǐn liào] - bevanda
+ 鱼 - [yú] - pesce
+21 Campus Chiedi indicazioni nel campus
+ 体育馆 - [tǐ yù guǎn] - palazzetto dello sport
+ 停车场 - [tíng chē chǎng] - parcheggio
+ 六 - [liù] - sei
+ 前面 - [qián miàn] - davanti
+ 参加 - [cān jiā] - partecipare
+ 参观 - [cān guān] - visitare
+ 号 - [hào] - numero
+ 后面 - [hòu miàn] - dietro
+ 图书馆 - [tú shū guǎn] - biblioteca
+ 地铁站 - [de tiě zhàn] - stazione della metropolitana
+ 外面 - [wài miàn] - fuori
+ 学校 - [xué xiào] - scuola
+ 安静 - [ān jìng] - tranquillo
+ 宿舍 - [sù shě] - dormitorio
+ 操场 - [cāo chǎng] - campo sportivo
+ 教学楼 - [jiào xué lóu] - edificio scolastico
+ 旁边 - [páng biān] - accanto
+ 晚上 - [wǎn shàng] - sera
+ 校园 - [xiào yuán] - campus
+ 活动 - [huó dòng] - attività
+ 游泳池 - [yóu yǒng chí] - piscina
+ 真 - [zhēn] - davvero
+ 请问 - [qǐng wèn] - per favore
+ 里面 - [lǐ miàn] - dentro
+ 食堂 - [shí táng] - mensa
+ 高 - [gāo] - alto
+22 Home Visit Usa i comparativi
+ 书房 - [shū fáng] - studio
+ 亮 - [liàng] - luminoso
+ 大 - [dà] - anziano
+ 好听 - [hǎo tīng] - piacevole
+ 好喝 - [hǎo hē] - buono da bere
+ 家人 - [jiā rén] - famiglia
+ 弟弟 - [dì dì] - fratello minore
+ 新鲜 - [xīn xiān] - fresco
+ 歌 - [gē] - canzone
+ 歌手 - [gē shǒu] - cantante
+ 比 - [bǐ] - di
+ 没有 - [méi yǒu] - non ha, non ho, non abbiamo, non
+ 烤 - [kǎo] - grigliare
+ 照片 - [zhào piàn] - fotografia
+ 牛肉 - [niú ròu] - manzo
+ 猫 - [māo] - gatto
+ 玉米 - [yù mǐ] - mais
+ 看 - [kàn] - vedere
+ 聪明 - [cōng míng] - intelligente
+ 节目 - [jié mù] - programma
+ 苹果 - [píng guǒ] - mela
+ 西瓜 - [xī guā] - anguria
+ 请进 - [qǐng jìn] - entri
+ 首 - [shǒu] - canzone
+ 鸡肉 - [jī ròu] - pollo
+23 Childhood Parla della tua infanzia
+ 七 - [qī] - sette
+ 上 - [shàng] - frequentare
+ 上海 - [shàng hǎi] - Shanghai
+ 中学 - [zhōng xué] - scuola media
+ 九 - [jiǔ] - nove
+ 人 - [rén] - persona
+ 八 - [bā] - otto
+ 出国 - [chū guó] - andare
+ 出生 - [chū shēng] - nascere
+ 前 - [qián] - prima di
+ 动画片 - [dòng huà piàn] - cartone animato
+ 回 - [huí] - tornare
+ 在 - [zài] - stava, su, stavi, in, sulla, nella, sulle, stiate, è alla, all', è, nell', allo, a, al, è sulla, sono, presso, sull', sul, essere, alla, sui, sullo, nelle, nel, stiano, è nel, fui
+ 小学 - [xiǎo xué] - scuola elementare
+ 小时候 - [xiǎo shí hòu] - da bambino
+ 岁 - [suì] - anni
+ 工作 - [gōng zuò] - lavorare
+ 年 - [nián] - anno
+ 很多 - [hěn duō] - molti
+ 旅行 - [lǚ xíng] - viaggiare
+ 桌游 - [zhuō yóu] - gioco da tavolo
+ 流行 - [liú xíng] - popolare
+ 生活 - [shēng huó] - vivere
+ 长大 - [zhǎng dà] - crescere
+ 零 - [líng] - zero
+ 香港 - [xiāng gǎng] - Hong Kong
+24 Plans Pianifica le tue attività
+ 乒乓球 - [pīng pāng qiú] - ping pong
+ 出门 - [chū mén] - usciti, uscita
+ 加入 - [jiā rù] - unire
+ 加油 - [jiā yóu] - forza
+ 去 - [qù] - andare
+ 后天 - [hòu tiān] - dopodomani
+ 在家 - [zài jiā] - a casa
+ 复习 - [fù xí] - ripassare
+ 外地 - [wài de] - fuori città
+ 天气 - [tiān qì] - tempo
+ 好 - [hǎo] - buono
+ 好啊 - [hǎo a] - Certo
+ 学 - [xué] - imparare
+ 想 - [xiǎng] - (io) voglio ai, piacerebbe, penserai, desiderava, pensare, vorrai, penseranno, desidero, volendo, desideri, vorreste, pensano, domando, (lui) pensa, volevi, interesserebbe
+ 打电话 - [dǎ diàn huà] - chiami, chiamare, Chiamo
+ 明天 - [míng tiān] - domani
+ 星期 - [xīng qī] - settimana
+ 有事儿 - [yǒu shì ér] - impegnato
+ 爬山 - [pá shān] - scalare, scalo
+ 紧张 - [jǐn zhāng] - nervoso
+ 老朋友 - [lǎo péng yǒu] - vecchio amico
+ 考试 - [kǎo shì] - esami, esame
+ 要 - [yào] - dovete, costano, di, dovevo
+ 见 - [jiàn] - vedevi, incontreremo, a domani, incontrarvi
+ 钓鱼 - [diào yú] - pescare
+25 Transport Usa le espressioni di tempo
+ 上午 - [shàng wǔ] - mattina
+ 二十 - [èr shí] - venti
+ 五十 - [wǔ shí] - cinquanta
+ 公交站 - [gōng jiāo zhàn] - fermata dell'autobus
+ 几点 - [jǐ diǎn] - che ora
+ 出发 - [chū fā] - partire
+ 出租车 - [chū zū chē] - taxi
+ 分 - [fēn] - minuti, centesimi, punti, dividere
+ 别着急 - [bié zhe jí] - non ti preoccupare
+ 到 - [dào] - (lui) arriva, arrivare, ad, all', (tu) arrivi, allo, a, al, alla, recarti
+ 十一 - [shí yī] - undici
+ 十二 - [shí èr] - dodici
+ 半 - [bàn] - mezza, mezzo, mezz
+ 四十 - [sì shí] - quaranta
+ 对面 - [duì miàn] - di fronte
+ 带 - [dài] - portare
+ 护照 - [hù zhào] - passaporto
+ 机场 - [jī chǎng] - aeroporto
+ 点 - [diǎn] - picchietta, un po', punto, ordiniamo, punti, un pochino, virgola, spot
+ 纽约 - [niǔ yuē] - New York
+ 脸 - [liǎn] - viso
+ 起飞 - [qǐ fēi] - decollare
+ 那里 - [nà lǐ] - lì
+ 酒店 - [jiǔ diàn] - hotel
+ 飞机 - [fēi jī] - aereo
+26 Shopping Compra vestiti
+ 便宜 - [biàn yí] - economico
+ 别的 - [bié de] - altro
+ 厚 - [hòu] - spesso
+ 双 - [shuāng] - paio
+ 家 - [jiā] - casa
+ 开 - [kāi] - guidare
+ 手套 - [shǒu tào] - guanto
+ 打折 - [dǎ zhé] - sconto
+ 披萨 - [pī sà] - pizza
+ 有点儿 - [yǒu diǎn ér] - un po'
+ 渴 - [kě] - assetato
+ 牌子 - [pái zi] - marchio
+ 白色 - [bái sè] - bianco
+ 皮带 - [pí dài] - cintura
+ 硬 - [yìng] - rigido
+ 紧 - [jǐn] - stretto
+ 袜子 - [wà zi] - calzino
+ 裤子 - [kù zi] - pantaloni
+ 试衣间 - [shì yī jiān] - camerino
+ 车 - [chē] - macchina
+ 连衣裙 - [lián yī qún] - vestito
+ 逛街 - [guàng jiē] - facendo
+ 长 - [zhǎng] - lungo
+ 鞋 - [xié] - scarpa
+ 饿 - [è] - affamato
+ 黑色 - [hēi sè] - nero
+27 Concert Vai a un concerto
+ 举行 - [jǔ xíng] - svolgere
+ 假期 - [jiǎ qī] - vacanza
+ 停车 - [tíng chē] - parcheggiare
+ 入口 - [rù kǒu] - ingresso
+ 兴奋 - [xìng fèn] - eccitato
+ 哪些 - [nǎ xiē] - quali
+ 售票处 - [shòu piào chù] - biglietteria
+ 国外 - [guó wài] - all'estero
+ 在 - [zài] - stava, su, stavi, in, sulla, nella, sulle, stiate, è alla, all', è, nell', allo, a, al, è sulla, sono, presso, sull', sul, essere, alla, sui, sullo, nelle, nel, stiano, è nel, fui
+ 城市 - [chéng shì] - città
+ 学 - [xué] - imparare
+ 座位 - [zuò wèi] - posto
+ 开始 - [kāi shǐ] - iniziare
+ 拍 - [pāi] - scattare
+ 排队 - [pái duì] - fila
+ 滑雪 - [huá xuě] - sciare
+ 演唱会 - [yǎn chàng huì] - concerto
+ 票 - [piào] - biglietto
+ 等 - [děng] - aspettare
+ 纪念品 - [jì niàn pǐn] - souvenir
+ 网上 - [wǎng shàng] - online
+ 见面 - [jiàn miàn] - incontrati, incontriamoci
+ 计划 - [jì huà] - piano
+ 运动 - [yùn dòng] - sport
+ 难 - [nán] - difficile
+28 Work Fai domande
+ 今晚 - [jīn wǎn] - stasera
+ 件 - [jiàn] - una
+ 会 - [huì] - riunione
+ 会议室 - [huì yì shì] - sala conferenze
+ 先生 - [xiān shēng] - signore, Signore, signor
+ 公司 - [gōng sī] - azienda
+ 办公室 - [bàn gōng shì] - ufficio
+ 同事 - [tóng shì] - collega
+ 哪 - [nǎ] - quale
+ 层 - [céng] - piano
+ 早上好 - [zǎo shàng hǎo] - buongiorno
+ 欢迎 - [huān yíng] - benvenuto
+ 点菜 - [diǎn cài] - ordinare, ordiniamo, ordina
+ 热情 - [rè qíng] - entusiasta
+ 穿 - [chuān] - indossare
+ 经理 - [jīng lǐ] - manager
+ 翻译 - [fān yì] - traduttore
+ 老板 - [lǎo bǎn] - capo
+ 衬衫 - [chèn shān] - camicia
+ 订 - [dìng] - prenotare
+ 谁 - [shéi] - chi
+ 赵小月 - [zhào xiǎo yuè] - Zhao Xiaoyue
+ 酒 - [jiǔ] - alcolico
+ 重要 - [zhòng yào] - importante
+29 L&F Esprimi il possesso
+ 不知道 - [bù zhī dào] - non sapere
+ 丢 - [diū] - perdere
+ 书包 - [shū bāo] - zaino
+ 刚刚 - [gāng gāng] - appena
+ 发现 - [fā xiàn] - trovare
+ 叫 - [jiào] - chiamare
+ 名字 - [míng zì] - nome
+ 好像 - [hǎo xiàng] - sembrare
+ 小姐 - [xiǎo jiě] - signorina
+ 张华 - [zhāng huá] - Zhang Hua
+ 本 - [běn] - libro, esemplari, libracci
+ 水杯 - [shuǐ bēi] - bicchiere d'acqua
+ 红色 - [hóng sè] - rosso
+ 绿色 - [lǜ sè] - verde
+ 老师 - [lǎo shī] - professore
+ 蓝色 - [lán sè] - blu
+ 词典 - [cí diǎn] - dizionario
+ 身份证 - [shēn fèn zhèng] - carta d'identità
+ 还 - [hái] - restituire
+ 雨伞 - [yǔ sǎn] - ombrello
+30 Feelings Esprimi i tuoi sentimenti
+ 做 - [zuò] - fare
+ 写 - [xiě] - scrivere
+ 危险 - [wēi xiǎn] - pericoloso
+ 四川 - [sì chuān] - Sichuan
+ 天呐 - [tiān nà] - oh cielo
+ 家务 - [jiā wù] - faccende domestiche
+ 容易 - [róng yì] - facile
+ 小说 - [xiǎo shuō] - romanzo
+ 平时 - [píng shí] - di solito
+ 快餐 - [kuài cān] - fast food
+ 怕 - [pà] - temere
+ 无聊 - [wú liáo] - noioso
+ 日语 - [rì yǔ] - giapponese
+ 最 - [zuì] - più
+ 汉字 - [hàn zì] - caratteri cinesi
+ 沙拉 - [shā lā] - insalata
+ 红茶 - [hóng chá] - tè nero
+ 聊天 - [liáo tiān] - chiacchierare, chiacchieriamo
+ 蛇 - [shé] - serpente
+ 蜘蛛 - [zhī zhū] - ragno
+ 讨厌 - [tǎo yàn] - odiare
+31 Weather Parla del tempo
+ 一起 - [yī qǐ] - insieme
+ 今天 - [jīn tiān] - oggi
+ 今年 - [jīn nián] - quest'anno
+ 关 - [guān] - chiudere
+ 咖啡馆 - [kā fēi guǎn] - caffè
+ 大衣 - [dà yī] - cappotto
+ 太 - [tài] - troppo
+ 怎么样 - [zěn me yàng] - com'è
+ 戴 - [dài] - indossare
+ 挺 - [tǐng] - abbastanza
+ 晴天 - [qíng tiān] - giornata di sole
+ 暖和 - [nuǎn hé] - mite
+ 有雨 - [yǒu yǔ] - piovoso
+ 有风 - [yǒu fēng] - c'è vento
+ 毛衣 - [máo yī] - maglione
+ 海边 - [hǎi biān] - spiaggia
+ 记得 - [jì dé] - ricordare
+ 门 - [mén] - porta
+ 雨衣 - [yǔ yī] - impermeabile
+ 预报 - [yù bào] - previsione
+32 Friends Parla degli amici
+ 上学 - [shàng xué] - va a scuola, andiamo a scuola, andare a scuola, andavo a scuola, vado a scuola, vai a scuola, andando a scuola
+ 不同 - [bù tóng] - diverso
+ 住在 - [zhù zài] - abitare
+ 农村 - [nóng cūn] - campagna
+ 十 - [shí] - dieci
+ 厉害 - [lì hài] - impressionante
+ 口 - [kǒu] - bocca
+ 多大 - [duō dà] - Quanti anni
+ 太棒了 - [tài bàng le] - fantastico
+ 女朋友 - [nǚ péng yǒu] - fidanzata
+ 好朋友 - [hǎo péng yǒu] - caro amico
+ 家 - [jiā] - famiglia
+ 小 - [xiǎo] - giovane
+ 懒 - [lǎn] - pigro
+ 滑冰 - [huá bīng] - pattinare, pattina
+ 爱好 - [ài hǎo] - hobby
+ 电视剧 - [diàn shì jù] - serie televisiva
+ 男朋友 - [nán péng yǒu] - fidanzato
+ 跳舞 - [tiào wǔ] - ballare, balla
+ 麻将 - [má jiāng] - mahjong
+33 Routine Descrivi la tua routine quotidiana
+ 一边 - [yī biān] - mentre
+ 上班 - [shàng bān] - al lavoro, andare al lavoro, vado al lavoro
+ 下班 - [xià bān] - uscire, esce
+ 作家 - [zuò jiā] - scrittore
+ 刷牙 - [shuā yá] - lavo, lavi, laviamo, lava, Lavati, Lavarsi, lavata, lavato, lavarti
+ 四十五 - [sì shí wǔ] - quarantacinque
+ 忘 - [wàng] - dimenticare
+ 新闻 - [xīn wén] - notizia
+ 方便 - [fāng biàn] - comodo
+ 日记 - [rì jì] - diario
+ 晚安 - [wǎn ān] - buonanotte
+ 有时候 - [yǒu shí hòu] - a volte
+ 每天 - [měi tiān] - ogni giorno
+ 洗澡 - [xǐ zǎo] - facciamo
+ 漫画 - [màn huà] - fumetto
+ 睡觉 - [shuì jué] - dormire
+ 自行车 - [zì xíng chē] - bicicletta
+ 走路 - [zǒu lù] - camminare
+ 起床 - [qǐ chuáng] - alzarsi
+ 钥匙 - [yào shi] - chiave
+ 骑 - [qí] - andare in bicicletta
+34 Busy Day Gestisci le attività quotidiane
+ 作业 - [zuò yè] - compito
+ 午饭 - [wǔ fàn] - pranzo
+ 困 - [kùn] - avere sonno
+ 外卖 - [wài mài] - cibo da asporto
+ 帮 - [bāng] - aiutare
+ 快 - [kuài] - rapidi, fast, veloce, veloci
+ 怎么样 - [zěn me yàng] - che ne dici
+ 换 - [huàn] - cambiare
+ 接 - [jiē] - andare a prendere
+ 散步 - [sàn bù] - passeggiata
+ 早点儿 - [zǎo diǎn ér] - un po' prima
+ 时间 - [shí jiān] - tempo
+ 星期 - [xīng qī] - settimana
+ 汽水 - [qì shuǐ] - bibita gassata
+ 没问题 - [méi wèn tí] - nessun problema
+ 点 - [diǎn] - ordinare
+ 然后 - [rán hòu] - poi
+ 辣椒 - [là jiāo] - peperoncino
+ 马上 - [mǎ shàng] - subito
+ 鸡蛋 - [jī dàn] - uovo
+35 Web Shop Fai acquisti online
+ 一共 - [yī gòng] - in totale
+ 一十 - [yī shí] - dieci
+ 不错 - [bù cuò] - buono
+ 信用卡 - [xìn yòng kǎ] - carta di credito
+ 包 - [bāo] - borsa
+ 十 - [shí] - dieci
+ 号 - [hào] - numero
+ 块 - [kuài] - pezzi, questa, kuai, pezzo, blocchi
+ 多少钱 - [duō shǎo qián] - Quanto costa, costano
+ 家具 - [jiā jù] - mobili
+ 怎么样 - [zěn me yàng] - com'è
+ 慢 - [màn] - lento
+ 手表 - [shǒu biǎo] - orologio
+ 折 - [zhé] - scontato, sconto
+ 时尚 - [shí shàng] - alla moda
+ 服务 - [fú wù] - servizio
+ 满意 - [mǎn yì] - soddisfatto
+ 百 - [bǎi] - cento
+ 穿 - [chuān] - indossare
+ 网 - [wǎng] - connessione Internet
+ 网站 - [wǎng zhàn] - sito web
+ 订单 - [dìng dān] - ordine
+ 账号 - [zhàng hào] - account
+ 运动鞋 - [yùn dòng xié] - scarpa da ginnastica
+ 退 - [tuì] - restituire
+36 Renting Discuti i dettagli dell'affitto
+ 上 - [shàng] - frequenta, porta, su, sulla, sali, frequenti, frequentavamo, frequentiamo, frequentavo, frequento, frequentare, salire, frequentato, frequentava, frequentavano, frequentano, up
+ 便利店 - [biàn lì diàn] - minimarket
+ 先生 - [xiān shēng] - signore
+ 墙 - [qiáng] - muro
+ 外 - [wài] - fuori
+ 大门 - [dà mén] - ingresso principale
+ 安全 - [ān quán] - sicuro
+ 小区 - [xiǎo qū] - complesso residenziale
+ 张 - [zhāng] - fogli, foglio
+ 当然 - [dāng rán] - certo
+ 换 - [huàn] - cambiare
+ 画儿 - [huà ér] - quadro
+ 看 - [kàn] - vedere
+ 租 - [zū] - affittare
+ 空调 - [kōng diào] - aria condizionata
+ 老 - [lǎo] - vecchio
+ 花园 - [huā yuán] - giardino
+ 衣柜 - [yī guì] - armadio
+ 里 - [lǐ] - in, nella, nell', venire, nel, nei
+ 镜子 - [jìng zi] - specchio
+ 阳台 - [yáng tái] - balcone
+ 颜色 - [yán sè] - colore
+37 Project Usa complementi oggetto indiretto
+ 交 - [jiāo] - consegnare
+ 什么时候 - [shén me shí hòu] - quando
+ 作文 - [zuò wén] - tema
+ 借 - [jiè] - prestare
+ 写 - [xiě] - scrivere
+ 几 - [jǐ] - quanto
+ 完成 - [wán chéng] - completare
+ 封 - [fēng] - lettera
+ 小组 - [xiǎo zǔ] - gruppo
+ 怎么办 - [zěn me bàn] - cosa fare
+ 想法 - [xiǎng fǎ] - pensiero
+ 意大利语 - [yì dà lì yǔ] - italiano
+ 支 - [zhī] - pezzo
+ 明天见 - [míng tiān jiàn] - a domani
+ 昨晚 - [zuó wǎn] - ieri sera
+ 有用 - [yǒu yòng] - utile
+ 每个人 - [měi gè rén] - ognuno
+ 笔 - [bǐ] - penna
+ 给 - [gěi] - dare
+ 翻译 - [fān yì] - tradurre
+ 讨论 - [tǎo lùn] - discutere
+ 选 - [xuǎn] - scegliere
+ 邮件 - [yóu jiàn] - email
+ 问 - [wèn] - chiedere
+ 问题 - [wèn tí] - domanda
+ 题目 - [tí mù] - tema
+38 Lost Chiedi indicazioni
+ 上 - [shàng] - frequenta, porta, su, sulla, sali, frequenti, frequentavamo, frequentiamo, frequentavo, frequento, frequentare, salire, frequentato, frequentava, frequentavano, frequentano, up
+ 不用谢 - [bù yòng xiè] - prego
+ 两 - [liǎng] - due
+ 北京大学 - [běi jīng dà xué] - Università di Pechino
+ 千 - [qiān] - mille
+ 右 - [yòu] - destra
+ 地图 - [de tú] - mappa
+ 天安门 - [tiān ān mén] - Piazza Tiananmen
+ 左 - [zuǒ] - sinistra
+ 差不多 - [chà bù duō] - quasi
+ 市中心 - [shì zhōng xīn] - centro città
+ 往 - [wǎng] - verso
+ 怎么走 - [zěn me zǒu] - come si arriva
+ 打车 - [dǎ chē] - prendendo un taxi
+ 推荐 - [tuī jiàn] - consigliare
+ 最好 - [zuì hǎo] - migliore, migliori
+ 条 - [tiáo] - strisce, il, striscia, barre
+ 离 - [lí] - fino
+ 米 - [mǐ] - metro
+ 街 - [jiē] - strada
+ 走 - [zǒu] - camminare
+ 转 - [zhuǎn] - girare
+ 近 - [jìn] - vicino
+ 附近 - [fù jìn] - vicino
+39 Olympics Parla dell'entusiasmo per lo sport
+ 为什么 - [wèi shén me] - perché
+ 凌晨 - [líng chén] - mattina presto
+ 加油 - [jiā yóu] - forza
+ 名 - [míng] - posto
+ 啊 - [a] - Ah
+ 啤酒 - [pí jiǔ] - birra
+ 国家 - [guó jiā] - paese
+ 奥运会 - [ào yùn huì] - Olimpiadi
+ 巴黎 - [bā lí] - Parigi
+ 庆祝 - [qìng zhù] - festeggiare
+ 得 - [dé] - dovevo, dovevamo, devo, devi, doversi, dovevano
+ 我也是 - [wǒ yě shì] - anch'io
+ 打开 - [dǎ kāi] - accendere
+ 期待 - [qī dài] - non vedere l'ora
+ 比赛 - [bǐ sài] - partita
+ 法国 - [fǎ guó] - Francia
+ 粉丝 - [fěn sī] - fan
+ 精彩 - [jīng cǎi] - entusiasmante
+ 结束 - [jié shù] - finire
+ 羽毛球 - [yǔ máo qiú] - badminton
+ 西班牙 - [xī bān yá] - Spagna
+ 跳水 - [tiào shuǐ] - tuffi
+ 运动员 - [yùn dòng yuán] - atleta
+ 队 - [duì] - squadra
+ 高 - [gāo] - alto
+40 Burglary Gestisci un'emergenza
+ 一米 - [yī mǐ] - metro
+ 上衣 - [shàng yī] - maglia
+ 偷 - [tōu] - rubare
+ 前天 - [qián tiān] - l'altro ieri
+ 加班 - [jiā bān] - straordinari
+ 多高 - [duō gāo] - Quanto
+ 害怕 - [hài pà] - paura
+ 小偷 - [xiǎo tōu] - ladro
+ 当时 - [dāng shí] - in quel momento
+ 忘 - [wàng] - dimenticare
+ 报警 - [bào jǐng] - chiamato
+ 游戏机 - [yóu xì jī] - console
+ 灰色 - [huī sè] - grigio
+ 生气 - [shēng qì] - arrabbiato
+ 电梯 - [diàn tī] - ascensore
+ 看见 - [kàn jiàn] - vedere
+ 认识 - [rèn shì] - conoscere
+ 进 - [jìn] - entrare
+ 遛狗 - [liú gǒu] - portando a spasso il cane, portare a spasso il cane
+ 钱 - [qián] - soldi
+41 In Town Orientati in città
+ t恤 - [t xù] - maglietta
+ 交通 - [jiāo tōng] - traffico
+ 付 - [fù] - pagare
+ 取消 - [qǔ xiāo] - annullare
+ 地址 - [de zhǐ] - indirizzo
+ 大巴 - [dà bā] - autobus
+ 寄 - [jì] - spedire
+ 密码 - [mì mǎ] - password
+ 小票 - [xiǎo piào] - scontrino
+ 岛 - [dǎo] - isola
+ 张 - [zhāng] - fogli, foglio
+ 怎么 - [zěn me] - come
+ 成都 - [chéng dōu] - Chengdu
+ 拥挤 - [yōng jǐ] - affollato
+ 明信片 - [míng xìn piàn] - cartolina
+ 深圳 - [shēn zhèn] - Shenzhen
+ 熊猫 - [xióng māo] - panda
+ 现金 - [xiàn jīn] - contante
+ 航班 - [háng bān] - volo
+ 船 - [chuán] - nave
+ 这次 - [zhè cì] - questa volta
+ 那 - [nà] - allora
+ 邮票 - [yóu piào] - francobollo
+ 高铁 - [gāo tiě] - treno ad alta velocità
+42 Health Acquista prodotti per la salute
+ 产品 - [chǎn pǐn] - prodotto
+ 以后 - [yǐ hòu] - in futuro
+ 健身 - [jiàn shēn] - fare fitness, Fare fitness
+ 受欢迎 - [shòu huān yíng] - popolare
+ 头发 - [tóu fā] - capello
+ 好吗 - [hǎo ma] - va bene
+ 对 - [duì] - con, a, al, vero, di, tratti
+ 干 - [gàn] - secco
+ 您 - [nín] - Lei
+ 教练 - [jiào liàn] - allenatore
+ 最近 - [zuì jìn] - ultimamente
+ 欢迎光临 - [huān yíng guāng lín] - benvenuto
+ 每周 - [měi zhōu] - ogni settimana
+ 洗发水 - [xǐ fā shuǐ] - shampoo
+ 甜 - [tián] - dolce
+ 生菜 - [shēng cài] - lattuga
+ 痒 - [yǎng] - pruriginoso
+ 皮肤 - [pí fū] - pelle
+ 看 - [kàn] - consultare
+ 眼睛 - [yǎn jīng] - occhio
+ 眼药水 - [yǎn yào shuǐ] - collirio
+ 身体 - [shēn tǐ] - corpo
+ 适合 - [shì hé] - adattare
+ 酸奶 - [suān nǎi] - yogurt
+43 Graduation Partecipa a una laurea
+ 下雨 - [xià yǔ] - piovere
+ 专业 - [zhuān yè] - specializzazione
+ 六月 - [liù yuè] - giugno
+ 号 - [hào] - numero
+ 名人 - [míng rén] - celebrità
+ 后 - [hòu] - dopo, post
+ 外公 - [wài gōng] - nonno materno
+ 外婆 - [wài pó] - nonna
+ 工作 - [gōng zuò] - lavoro
+ 开始 - [kāi shǐ] - iniziare
+ 心理学 - [xīn lǐ xué] - psicologia
+ 恭喜 - [gōng xǐ] - congratulazioni
+ 或者 - [huò zhě] - oppure
+ 搬到 - [bān dào] - trasferirsi
+ 毕业典礼 - [bì yè diǎn lǐ] - cerimonia di laurea
+ 毕业证 - [bì yè zhèng] - diploma
+ 父母 - [fù mǔ] - genitori
+ 生物 - [shēng wù] - biologia
+ 除了 - [chú le] - Tranne
+ 零 - [líng] - zero
+ 面试 - [miàn shì] - colloquio
+ 高跟鞋 - [gāo gēn xié] - scarpe col tacco alto
+44 Service Segnala un problema
+ 价格 - [jià gé] - prezzo
+ 会员 - [huì yuán] - membro
+ 修 - [xiū] - riparare
+ 充电 - [chōng diàn] - caricare
+ 多少 - [duō shǎo] - quanto
+ 客服 - [kè fú] - servizio clienti
+ 对 - [duì] - giusto
+ 尺寸 - [chǐ cùn] - taglia
+ 差 - [chà] - scarso
+ 帮 - [bāng] - aiutare
+ 态度 - [tài dù] - atteggiamento
+ 您好 - [nín hǎo] - Buongiorno
+ 抱歉 - [bào qiàn] - scusare
+ 有货 - [yǒu huò] - disponibile
+ 有问题 - [yǒu wèn tí] - avere un problema
+ 积分 - [jī fēn] - punteggio, punti
+ 等于 - [děng yú] - equivalere
+ 能 - [néng] - potere
+ 解决 - [jiě jué] - risolvere
+ 质量 - [zhì liàng] - qualità
+ 退款 - [tuì kuǎn] - rimborsare
+ 预订 - [yù dìng] - prenotare
+45 Abroad Informati sugli studi all'estero
+ 以前 - [yǐ qián] - prima
+ 伦敦 - [lún dūn] - Londra
+ 化学 - [huà xué] - chimica
+ 味道 - [wèi dào] - sapore
+ 地道 - [de dào] - autentico
+ 大学 - [dà xué] - università
+ 寿司 - [shòu sī] - sushi
+ 尝 - [cháng] - assaggiare
+ 山 - [shān] - montagna
+ 幸运 - [xìng yùn] - fortunato
+ 建议 - [jiàn yì] - consiglio
+ 德国 - [dé guó] - Germania
+ 拉面 - [lā miàn] - ramen
+ 教 - [jiào] - insegnare
+ 明年 - [míng nián] - anno prossimo
+ 梦想 - [mèng xiǎng] - sogno
+ 欧洲 - [ōu zhōu] - Europa
+ 海滩 - [hǎi tān] - spiaggia
+ 留学 - [liú xué] - studia all'estero, studiare all'estero
+ 考虑 - [kǎo lǜ] - considerare
+ 计算机 - [jì suàn jī] - informatica
+ 谢谢 - [xiè xiè] - grazie
+ 过 - [guò] - passare, trascorrere
+ 风景 - [fēng jǐng] - paesaggio
+46 Movies Parla di film
+ 下 - [xià] - giù, prossima, piovesse, sceso, scese
+ 主题曲 - [zhǔ tí qū] - canzone principale
+ 介绍 - [jiè shào] - presentare
+ 作品 - [zuò pǐn] - opera
+ 再 - [zài] - ancora, di nuovo
+ 听说 - [tīng shuō] - sentire dire
+ 善良 - [shàn liáng] - gentile
+ 外国 - [wài guó] - straniere
+ 奖 - [jiǎng] - premio
+ 好看 - [hǎo kàn] - bello
+ 帅 - [shuài] - bello
+ 年轻 - [nián qīng] - giovane
+ 幸福 - [xìng fú] - felice
+ 感人 - [gǎn rén] - commovente
+ 所有 - [suǒ yǒu] - tutti
+ 故事 - [gù shì] - storia
+ 棒 - [bàng] - ottimo
+ 演 - [yǎn] - interpretare
+ 演员 - [yǎn yuán] - attore
+ 结局 - [jié jú] - finale
+ 讲 - [jiǎng] - raccontare
+ 遍 - [biàn] - volta
+ 部 - [bù] - parte
+47 Being Late Usa espressioni di tempo per eventi
+ 中午 - [zhōng wǔ] - mezzogiorno
+ 关门 - [guān mén] - chiudere
+ 回来 - [huí lái] - tornare
+ 堵车 - [dǔ chē] - traffico
+ 好吧 - [hǎo ba] - va bene
+ 就 - [jiù] - già
+ 开门 - [kāi mén] - aprire
+ 才 - [cái] - solo
+ 担心 - [dān xīn] - preoccuparsi
+ 提前 - [tí qián] - in anticipo
+ 放假 - [fàng jiǎ] - vanno in vacanza, andare in vacanza, vado in vacanza, andiamo in vacanza
+ 早 - [zǎo] - presto
+ 晚 - [wǎn] - tardo
+ 晚点儿 - [wǎn diǎn ér] - un po' più tardi
+ 没关系 - [méi guān xì] - non fa niente
+ 游乐场 - [yóu lè chǎng] - parco divertimenti
+ 电影院 - [diàn yǐng yuàn] - cinema
+ 知道 - [zhī dào] - conoscere
+ 糟糕 - [zāo gāo] - accidenti
+ 路 - [lù] - strada
+ 迟到 - [chí dào] - essere in ritardo
+ 酒吧 - [jiǔ ba] - bar
+48 Test Chiedi chiarimenti
+ 例子 - [lì zi] - esempio
+ 句子 - [jù zi] - frase
+ 地理 - [de lǐ] - geografia
+ 好 - [hǎo] - bel, buono, bravo, migliori, favorevole, bene, ottima, buon
+ 学期 - [xué qī] - semestre
+ 意思 - [yì sī] - significato
+ 成绩 - [chéng jī] - voto
+ 没事儿 - [méi shì ér] - non c'è problema
+ 清楚 - [qīng chǔ] - chiaro
+ 相信 - [xiāng xìn] - credere
+ 笔记 - [bǐ jì] - appunto
+ 答案 - [dá àn] - risposta
+ 老师 - [lǎo shī] - professore
+ 考试 - [kǎo shì] - esame
+ 讲 - [jiǎng] - spiegare
+ 词 - [cí] - parola
+ 说 - [shuō] - dire
+ 还 - [hái] - ancora
+ 通过 - [tōng guò] - superare
+ 错 - [cuò] - sbagliato
+ 难过 - [nán guò] - triste
+ 页 - [yè] - pagina
+ 黑板 - [hēi bǎn] - lavagna
+49 Blind Date Incontra nuove persone
+ 下次 - [xià cì] - la prossima volta
+ 分钟 - [fēn zhōng] - minuto
+ 在一起 - [zài yī qǐ] - stare insieme
+ 坐 - [zuò] - sedere
+ 好巧啊 - [hǎo qiǎo a] - Che coincidenza
+ 对不起 - [duì bù qǐ] - mi dispiace
+ 小 - [xiǎo] - minuscolo, piccolo, xiao, piccoli, piccole, piccola, minuscole
+ 广场 - [guǎng chǎng] - piazza
+ 开 - [kāi] - aperto
+ 很高兴认识你 - [hěn gāo xìng rèn shì nǐ] - piacere di conoscerti
+ 拿 - [ná] - tenere
+ 浪漫 - [làng màn] - romantico
+ 玫瑰 - [méi guī] - rosa
+ 眼镜 - [yǎn jìng] - occhiali
+ 着 - [zhe] - indossando, indossa
+ 站 - [zhàn] - stare in piedi
+ 背 - [bèi] - portare
+ 送 - [sòng] - portare
+ 门口 - [mén kǒu] - ingresso
+ 高中 - [gāo zhōng] - scuola superiore
+ 黄色 - [huáng sè] - giallo
+50 Freshman Partecipa ad attività
+ 严格 - [yán gé] - severo
+ 也许 - [yě xǔ] - forse
+ 书法 - [shū fǎ] - calligrafia
+ 从 - [cóng] - da, dal, dall', dalla, dai, n'
+ 八月 - [bā yuè] - agosto
+ 兴趣 - [xìng qù] - interesse
+ 到 - [dào] - (lui) arriva, arrivare, ad, all', (tu) arrivi, allo, a, al, alla, recarti
+ 大一 - [dà yī] - primo anno
+ 实习 - [shí xí] - tirocinio
+ 对 - [duì] - con, a, al, vero, di, tratti
+ 擅长 - [shàn zhǎng] - bravo
+ 教授 - [jiào shòu] - professore
+ 文学 - [wén xué] - letteratura
+ 晚会 - [wǎn huì] - festa serale
+ 暑假 - [shǔ jiǎ] - vacanza estiva
+ 月 - [yuè] - mese
+ 电话号码 - [diàn huà hào mǎ] - numero di telefono
+ 课外 - [kè wài] - extracurricolare
+ 运动会 - [yùn dòng huì] - gara sportiva
+ 还没有 - [hái méi yǒu] - non ancora
+ 门 - [mén] - porta, porte, gate
+ 音乐会 - [yīn lè huì] - concerto
+51 Hiking Crea domande sì/no
+ 下山 - [xià shān] - scendere dalla montagna
+ 下雪 - [xià xuě] - nevica
+ 五月 - [wǔ yuè] - maggio
+ 从来 - [cóng lái] - mai
+ 公里 - [gōng lǐ] - chilometro
+ 几个 - [jǐ gè] - alcuni
+ 别忘了 - [bié wàng le] - non dimenticare
+ 动物 - [dòng wù] - animale
+ 十月 - [shí yuè] - ottobre
+ 去年 - [qù nián] - anno scorso
+ 可怕 - [kě pà] - spaventoso
+ 外套 - [wài tào] - cappotto
+ 好用 - [hǎo yòng] - facile da usare
+ 山顶 - [shān dǐng] - vetta
+ 座 - [zuò] - edificio
+ 户外 - [hù wài] - esterno
+ 树 - [shù] - albero
+ 水瓶 - [shuǐ píng] - borraccia
+ 相机 - [xiāng jī] - macchina fotografica
+ 背包 - [bèi bāo] - zaino
+ 见 - [jiàn] - vedere
+ 觉得 - [jué dé] - sentire
+ 轻 - [qīng] - leggero
+ 这么 - [zhè me] - così
+ 靴子 - [xuē zi] - stivale
+52 Cousins Usa i comparativi
+ 一样 - [yī yàng] - come
+ 个子 - [gè zi] - altezza
+ 做 - [zuò] - fare
+ 像 - [xiàng] - assomigliare
+ 关系 - [guān xì] - relazione
+ 初中 - [chū zhōng] - scuola media
+ 宠物 - [chǒng wù] - animale domestico
+ 害羞 - [hài xiū] - timido
+ 工程师 - [gōng chéng shī] - ingegnere
+ 帮助 - [bāng zhù] - aiutare
+ 年龄 - [nián líng] - età
+ 广州 - [guǎng zhōu] - Canton
+ 开朗 - [kāi lǎng] - allegro
+ 性格 - [xìng gé] - carattere
+ 春节 - [chūn jié] - Festa di Primavera
+ 棕色 - [zōng sè] - marrone
+ 玩儿 - [wán ér] - giocare
+ 瘦 - [shòu] - magro
+ 聚在一起 - [jù zài yī qǐ] - riunirsi
+ 舅舅 - [jiù jiù] - zio
+ 表哥 - [biǎo gē] - cugino
+ 表妹 - [biǎo mèi] - cugina
+ 表姐 - [biǎo jiě] - cugina
+ 长 - [zhǎng] - lungo
+53 Book Cafe Valuta cibi e bevande
+ 一会儿 - [yī huì ér] - tra poco
+ 不太 - [bù tài] - non molto
+ 作者 - [zuò zhě] - autore
+ 分享 - [fēn xiǎng] - condividere
+ 厚 - [hòu] - spesso
+ 听起来 - [tīng qǐ lái] - sembrare
+ 块 - [kuài] - pezzo
+ 奇怪 - [qí guài] - strano
+ 奶油 - [nǎi yóu] - crema
+ 好主意 - [hǎo zhǔ yì] - buona idea
+ 情节 - [qíng jié] - trama
+ 放松 - [fàng sōng] - rilassare
+ 更 - [gèng] - più
+ 杂志 - [zá zhì] - rivista
+ 柠檬 - [níng méng] - limone
+ 没意思 - [méi yì sī] - noioso
+ 特别 - [tè bié] - speciale
+ 环境 - [huán jìng] - ambiente
+ 甜点 - [tián diǎn] - dolci
+ 画展 - [huà zhǎn] - mostra d'arte
+ 苦 - [kǔ] - amaro
+ 适合 - [shì hé] - adatto
+ 酸 - [suān] - acido
+54 Market Fai la spesa
+ 不用了 - [bù yòng le] - non è necessario
+ 又 - [yòu] - anche
+ 圆 - [yuán] - tondo
+ 块 - [kuài] - pezzi, questa, kuai, pezzo, blocchi
+ 塑料袋 - [sù liào dài] - sacchetto di plastica
+ 多 - [duō] - tanto, molto
+ 斤 - [jīn] - mezzo chilo, mezzi chili, libbra
+ 果酱 - [guǒ jiàng] - marmellata
+ 橙子 - [chéng zi] - arancia
+ 洋葱 - [yáng cōng] - cipolla
+ 特价 - [tè jià] - offerta speciale
+ 白菜 - [bái cài] - cavolo cinese
+ 米 - [mǐ] - riso
+ 胡萝卜 - [hú luó bo] - carota
+ 脆 - [cuì] - croccante
+ 草莓 - [cǎo méi] - fragola
+ 菜市场 - [cài shì chǎng] - mercato ortofrutticolo
+ 袋 - [dài] - sacco
+ 附近 - [fù jìn] - vicino
+ 难吃 - [nán chī] - cattivo
+ 香蕉 - [xiāng jiāo] - banana
+55 Recipe Cucina con ricette
+ 习惯 - [xí guàn] - abituarsi
+ 克 - [kè] - grammo
+ 切 - [qiè] - tagliare
+ 勺 - [sháo] - cucchiaio
+ 半 - [bàn] - mezzo
+ 咸 - [xián] - salato
+ 多 - [duō] - abbondante
+ 大蒜 - [dà suàn] - aglio
+ 好了 - [hǎo le] - bene
+ 广东 - [guǎng dōng] - Guangdong
+ 教 - [jiào] - insegnare
+ 油 - [yóu] - olio
+ 炒 - [chǎo] - soffriggere
+ 猪肉 - [zhū ròu] - maiale
+ 瓶 - [píng] - bottiglia
+ 碗 - [wǎn] - scodella, ciotola, scodelle, ciotole, ciotolina
+ 简单 - [jiǎn dān] - semplice
+ 胡椒粉 - [hú jiāo fěn] - pepe
+ 菜谱 - [cài pǔ] - ricetta
+ 过期 - [guò qī] - scadere
+ 道 - [dào] - portata
+ 酱油 - [jiàng yóu] - salsa di soia
+ 锅 - [guō] - pentola
+ 饱 - [bǎo] - sazio
+56 Music Fes Goditi un festival musicale
+ 乐器 - [lè qì] - strumento musicale
+ 乐队 - [lè duì] - banda
+ 你看 - [nǐ kàn] - guarda
+ 出口 - [chū kǒu] - uscita
+ 出来 - [chū lái] - uscire
+ 刚才 - [gāng cái] - poco fa
+ 叫 - [jiào] - chiamare
+ 哭 - [kū] - piangere
+ 售货机 - [shòu huò jī] - distributore automatico
+ 垃圾桶 - [lā jī tǒng] - pattumiera
+ 声音 - [shēng yīn] - suono
+ 完美 - [wán měi] - perfetto
+ 最喜欢的 - [zuì xǐ huān de] - preferito
+ 有兴趣 - [yǒu xìng qù] - interesse
+ 楼梯 - [lóu tī] - scala
+ 汉堡包 - [hàn bǎo bāo] - hamburger
+ 演出 - [yǎn chū] - spettacolo
+ 热狗 - [rè gǒu] - hot dog
+ 终于 - [zhōng yú] - finalmente
+ 舞台 - [wǔ tái] - palco
+ 表演 - [biǎo yǎn] - esibirsi
+ 走 - [zǒu] - andare via
+ 音乐节 - [yīn lè jié] - festival musicale
+ 鼓掌 - [gǔ zhǎng] - applaudire, applaudendo, Applaudiamo, Applaudi
+57 Catch Up Ritrovati con gli amici
+ 一月 - [yī yuè] - gennaio
+ 享受 - [xiǎng shòu] - godere
+ 单身 - [dān shēn] - single
+ 夜宵 - [yè xiāo] - spuntino notturno
+ 好久不见 - [hǎo jiǔ bù jiàn] - tanto tempo che non ci vediamo
+ 孩子 - [hái zi] - bambino
+ 巴西 - [bā xī] - Brasile
+ 开始 - [kāi shǐ] - iniziare
+ 当 - [dāng] - fare
+ 念 - [niàn] - frequentare
+ 抽烟 - [chōu yān] - fumo, fumiamo, fumavo, fumo, Fumare, fumi, fuma
+ 搬家 - [bān jiā] - trasferito
+ 熬夜 - [áo yè] - fare tardi
+ 生 - [shēng] - partorire
+ 生活 - [shēng huó] - vita
+ 研究生 - [yán jiū shēng] - master
+ 结婚 - [jié hūn] - sposati, sposata, sposate, sposi, sposato, sposerò
+ 葡萄牙语 - [pú táo yá yǔ] - portoghese
+ 辞职 - [cí zhí] - dimettermi
+ 这几年 - [zhè jǐ nián] - negli ultimi anni
+58 Apply Crea frasi complesse con contrasto
+ 亚洲 - [yà zhōu] - Asia
+ 但是 - [dàn shì] - ma
+ 信息 - [xìn xī] - informazione
+ 够 - [gòu] - abbastanza
+ 奖学金 - [jiǎng xué jīn] - borsa di studio
+ 学费 - [xué fèi] - tassa scolastica
+ 它 - [tā] - esso
+ 实验室 - [shí yàn shì] - laboratorio
+ 少 - [shǎo] - poco
+ 工程 - [gōng chéng] - ingegneria
+ 德语 - [dé yǔ] - tedesco
+ 推荐信 - [tuī jiàn xìn] - lettera di raccomandazione, lettere di raccomandazione
+ 文化 - [wén huà] - cultura
+ 新加坡 - [xīn jiā pō] - Singapore
+ 查 - [chá] - controllare
+ 澳大利亚 - [ào dà lì yà] - Australia
+ 烦 - [fán] - fastidioso
+ 申请 - [shēn qǐng] - fare domanda per
+ 留学生 - [liú xué shēng] - studente straniero
+ 研究 - [yán jiū] - studiare
+ 租金 - [zū jīn] - affitto
+ 虽然 - [suī rán] - sebbene
+ 论文 - [lùn wén] - tesi
+ 该 - [gāi] - bisogna
+59 Moving In Organizza la casa
+ 上 - [shàng] - frequenta, porta, su, sulla, sali, frequenti, frequentavamo, frequentiamo, frequentavo, frequento, frequentare, salire, frequentato, frequentava, frequentavano, frequentano, up
+ 上楼 - [shàng lóu] - salire
+ 下车 - [xià chē] - scendere
+ 停 - [tíng] - parcheggiare
+ 再见 - [zài jiàn] - arrivederci
+ 地下室 - [de xià shì] - cantina
+ 左边 - [zuǒ biān] - sinistra
+ 幅 - [fú] - pezzi, pezzo
+ 把 - [bǎ] - Metterete, Metterò, Metteranno, mettere, Metterà, Mettere, Metti, Metteremo
+ 抽屉 - [chōu tì] - cassetto
+ 挂 - [guà] - appendere
+ 搬 - [bān] - spostare
+ 收拾 - [shōu shí] - riordinare
+ 放 - [fàng] - mettere
+ 楼下 - [lóu xià] - piano di sotto
+ 洗衣机 - [xǐ yī jī] - lavatrice
+ 箱子 - [xiāng zi] - scatola
+ 花盆 - [huā pén] - vaso
+ 请 - [qǐng] - per favore
+ 送 - [sòng] - accompagnare
+ 院子 - [yuàn zi] - cortile
+ 餐桌 - [cān zhuō] - tavolo da pranzo
+60 Problems Risolvi problemi di lavoro
+ 休假 - [xiū jiǎ] - fare una pausa
+ 准时 - [zhǔn shí] - puntuale
+ 十一月 - [shí yī yuè] - novembre
+ 发 - [fā] - inviare
+ 坏了 - [huài le] - rovinate, rovinato, rotto, guasto, guastano, guastata, rotte, rotta, guastato
+ 得 - [dé] - dovere
+ 成功 - [chéng gōng] - di successo
+ 打印 - [dǎ yìn] - stampare
+ 报告 - [bào gào] - relazione
+ 文件 - [wén jiàn] - documento
+ 日期 - [rì qī] - data
+ 秘书 - [mì shū] - segretario
+ 纸 - [zhǐ] - carta
+ 耳机 - [ěr jī] - cuffia
+ 解决 - [jiě jué] - risolvere
+ 记得 - [jì dé] - ricordare
+ 递 - [dì] - passare
+ 错误 - [cuò wù] - sbagliato
+ 问题 - [wèn tí] - problema
+ 项目 - [xiàng mù] - progetto
+61 Business Sottolinea dettagli di eventi passati
+ 一路平安 - [yī lù píng ān] - buon viaggio
+ 入住 - [rù zhù] - effettuare il check-in
+ 几月几号 - [jǐ yuè jǐ hào] - quale data
+ 出差 - [chū chà] - viaggio di lavoro
+ 刻 - [kè] - quarto
+ 前台 - [qián tái] - reception
+ 办 - [bàn] - fare
+ 加入 - [jiā rù] - unirsi
+ 同意 - [tóng yì] - essere d'accordo
+ 名片 - [míng piàn] - biglietto da visita
+ 哪年 - [nǎ nián] - quale anno
+ 回 - [huí] - rispondere
+ 客户 - [kè hù] - cliente
+ 成立 - [chéng lì] - fondare
+ 收拾 - [shōu shí] - sistemare
+ 消息 - [xiāo xī] - notizia
+ 签证 - [qiān zhèng] - visto
+ 罗马 - [luō mǎ] - Roma
+ 联系 - [lián xì] - contattare
+ 行李箱 - [xíng lǐ xiāng] - valigia
+ 部门 - [bù mén] - dipartimento
+ 预订 - [yù dìng] - prenotare
+62 Life Story Racconta la tua storia di vita
+ 东京 - [dōng jīng] - Tokyo
+ 为了 - [wèi le] - per
+ 亲近 - [qīn jìn] - vicino, vicini
+ 健康 - [jiàn kāng] - salute
+ 决定 - [jué dìng] - decidere
+ 前女友 - [qián nǚ yǒu] - ex fidanzata
+ 叔叔 - [shū shū] - zio
+ 后来 - [hòu lái] - dopo
+ 外语 - [wài yǔ] - lingua straniera
+ 大家 - [dà jiā] - tutti
+ 姑姑 - [gū gū] - zia
+ 导演 - [dǎo yǎn] - regista
+ 感谢 - [gǎn xiè] - ringraziare
+ 拍 - [pāi] - girare
+ 支持 - [zhī chí] - supporto
+ 机会 - [jī huì] - opportunità
+ 柏林 - [bǎi lín] - Berlino
+ 次 - [cì] - volta
+ 童年 - [tóng nián] - infanzia
+ 经历 - [jīng lì] - esperienza
+63 New City Usa frasi e domande direzionali
+ 下一 - [xià yī] - prossimo
+ 东 - [dōng] - est
+ 人民币 - [rén mín bì] - renminbi
+ 倒霉 - [dào méi] - sfortunato
+ 免费 - [miǎn fèi] - gratuito
+ 号线 - [hào xiàn] - linea
+ 多久 - [duō jiǔ] - quanto tempo
+ 姓 - [xìng] - cognome
+ 小时 - [xiǎo shí] - ora
+ 换 - [huàn] - cambiare
+ 无线网 - [wú xiàn wǎng] - Wi-Fi
+ 本地人 - [běn de rén] - gente del posto
+ 来 - [lái] - venire
+ 没电 - [méi diàn] - è scarico
+ 注意安全 - [zhù yì ān quán] - fai attenzione alla sicurezza
+ 游客 - [yóu kè] - turista
+ 熟悉 - [shú xī] - familiare
+ 电话卡 - [diàn huà kǎ] - scheda telefonica
+ 看 - [kàn] - leggo, guardavi, leggeste, (lui) guarda, guardavate, guarderemo, vedevate, leggerlo, leggemmo, guardò, vedano, leggi, (loro) guardano, guardando, guardalo, osserva, vedere, osservavamo, guardavamo, leggeresti, legge, guardare, guardavo, letta
+ 第一次 - [dì yī cì] - prima volta
+ 西安 - [xī ān] - Xi'an
+ 路口 - [lù kǒu] - incrocio
+ 迷路 - [mí lù] - perso
+ 银行 - [yín xíng] - banca
+64 Gossip Parla di dettagli personali
+ 三月 - [sān yuè] - marzo
+ 什么 - [shén me] - Cosa
+ 分手 - [fēn shǒu] - lasciarsi
+ 前男友 - [qián nán yǒu] - ex ragazzo
+ 吃惊 - [chī jīng] - sorpreso
+ 听说 - [tīng shuō] - sentire
+ 因为 - [yīn wèi] - perché
+ 外国人 - [wài guó rén] - straniero
+ 好奇 - [hǎo qí] - curioso
+ 幽默 - [yōu mò] - spiritoso
+ 得 - [dé] - dovevo, dovevamo, devo, devi, doversi, dovevano
+ 总是 - [zǒng shì] - sempre
+ 爱 - [ài] - amare
+ 短信 - [duǎn xìn] - SMS
+ 离开 - [lí kāi] - lasciare
+ 穿 - [chuān] - vestire
+ 笑 - [xiào] - ridere
+ 约会 - [yuē huì] - uscire
+ 认真 - [rèn zhēn] - serio
+ 认识 - [rèn shì] - conoscere
+ 记者 - [jì zhě] - giornalista
+ 赚 - [zhuàn] - guadagnare
+ 起 - [qǐ] - svegliarsi
+65 Neighbors Parla dei tuoi interessi con i vicini
+ 七月 - [qī yuè] - luglio
+ 上个 - [shàng gè] - scorso
+ 下棋 - [xià qí] - gioca a scacchi, giocare a scacchi
+ 们 - [men] - voi
+ 全家 - [quán jiā] - tutta la famiglia
+ 友好 - [yǒu hǎo] - amichevole
+ 呢 - [ne] - ?
+ 声调 - [shēng diào] - tono
+ 外地人 - [wài de rén] - forestiero
+ 太极 - [tài jí] - tai chi
+ 室内 - [shì nèi] - interno
+ 年级 - [nián jí] - classe
+ 日历 - [rì lì] - calendario
+ 晚上好 - [wǎn shàng hǎo] - buonasera
+ 每个 - [měi gè] - ogni
+ 每个月 - [měi gè yuè] - ogni mese
+ 流利 - [liú lì] - fluente
+ 社区中心 - [shè qū zhōng xīn] - centro comunitario
+ 请 - [qǐng] - offrire
+ 音乐家 - [yīn lè jiā] - musicista
+66 Interview Crea frasi composte con congiunzioni
+ 上一 - [shàng yī] - ultima, ultimo
+ 不但 - [bù dàn] - non solo
+ 九月 - [jiǔ yuè] - settembre
+ 内 - [nèi] - entro
+ 努力 - [nǔ lì] - diligente
+ 员工 - [yuán gōng] - dipendente
+ 回答 - [huí dá] - rispondere
+ 女士 - [nǚ shì] - signora
+ 孙丽丽 - [sūn lì lì] - Sun Lili
+ 工资 - [gōng zī] - stipendio
+ 希望 - [xī wàng] - sperare
+ 挑战 - [tiāo zhàn] - sfida
+ 毕业 - [bì yè] - laurearti, laurea, laureato
+ 物理 - [wù lǐ] - fisica
+ 简历 - [jiǎn lì] - curriculum vitae
+ 经验 - [jīng yàn] - esperienza
+ 结果 - [jié guǒ] - risultato
+ 而且 - [ér qiě] - inoltre
+ 自己 - [zì jǐ] - te stesso, me stesso
+ 设计 - [shè jì] - progettare
+ 还 - [hái] - ancora
+ 非常感谢 - [fēi cháng gǎn xiè] - grazie mille
+67 Mall Orientati nel centro commerciale
+ 上 - [shàng] - salire
+ 下 - [xià] - scendere
+ 出 - [chū] - uscire
+ 化妆品 - [huà zhuāng pǐn] - cosmetici
+ 区 - [qū] - zona
+ 地下 - [de xià] - sotterraneo
+ 多 - [duō] - più di
+ 女装 - [nǚ zhuāng] - abbigliamento femminile
+ 家 - [jiā] - case, casa, famiglia
+ 已经 - [yǐ jīng] - già
+ 店 - [diàn] - negozio
+ 快 - [kuài] - stare per
+ 服务台 - [fú wù tái] - banco informazioni
+ 等 - [děng] - aspettare
+ 粉色 - [fěn sè] - rosa
+ 结账 - [jié zhàng] - pagare il conto
+ 花 - [huā] - spendere
+ 试穿 - [shì chuān] - provare
+ 走 - [zǒu] - va, vado, camminava, camminare, camminavamo, percorrere, percorrono, avanziamo
+ 进 - [jìn] - entrare
+68 Accident Gestisci un'emergenza
+ 位 - [wèi] - persone, persona
+ 充电器 - [chōng diàn qì] - caricabatterie
+ 创口贴 - [chuàng kǒu tiē] - cerotto
+ 动 - [dòng] - muovere
+ 受伤 - [shòu shāng] - ferite, ferito, ferita
+ 叫 - [jiào] - chiamare
+ 右 - [yòu] - destro
+ 听到 - [tīng dào] - sentire
+ 声音 - [shēng yīn] - voce
+ 女士 - [nǚ shì] - signora
+ 好好休息 - [hǎo hǎo xiū xī] - riposare bene
+ 左 - [zuǒ] - sinistro
+ 手术 - [shǒu shù] - operazione
+ 摔倒 - [shuāi dào] - cadere
+ 摩托车 - [mó tuō chē] - motocicletta
+ 救护车 - [jiù hù chē] - ambulanza
+ 有人 - [yǒu rén] - qualcuno
+ 腿 - [tuǐ] - gamba
+ 警察 - [jǐng chá] - polizia
+ 说话 - [shuō huà] - parlare, parli
+ 还好 - [hái hǎo] - bene
+ 通知 - [tōng zhī] - informare
+ 骨折 - [gǔ zhé] - fratturarsi
+69 Excuses Inventa scuse
+ 十二月 - [shí èr yuè] - dicembre
+ 压力很大 - [yā lì hěn dà] - molto stressato
+ 又 - [yòu] - di nuovo
+ 口罩 - [kǒu zhào] - mascherina
+ 咳嗽 - [hāi sòu] - tossire
+ 在家办公 - [zài jiā bàn gōng] - lavorare da casa
+ 度 - [dù] - grado
+ 心情 - [xīn qíng] - umore
+ 感冒 - [gǎn mào] - prendere un raffreddore
+ 所以 - [suǒ yǐ] - quindi
+ 方便面 - [fāng biàn miàn] - noodles istantanei
+ 晚点 - [wǎn diǎn] - in ritardo
+ 没胃口 - [méi wèi kǒu] - non avere appetito
+ 照顾 - [zhào gù] - prendersi cura
+ 生病 - [shēng bìng] - è malata, si è ammalata
+ 请 - [qǐng] - chiedere
+ 过敏 - [guò mǐn] - avere un'allergia
+ 邀请 - [yāo qǐng] - invito
+ 闹钟 - [nào zhōng] - sveglia
+ 陪 - [péi] - accompagnare
+70 Errands Fai commissioni
+ atm机 - [atm jī] - bancomat
+ 信 - [xìn] - lettera
+ 信封 - [xìn fēng] - busta
+ 化妆 - [huà zhuāng] - truccata, truccandoti, Truccarsi, truccati, truccarmi
+ 卫生纸 - [wèi shēng zhǐ] - carta igienica
+ 取 - [qǔ] - prendere
+ 取钱 - [qǔ qián] - prelevare
+ 复印 - [fù yìn] - fotocopiare
+ 工作人员 - [gōng zuò rén yuán] - personale
+ 已经 - [yǐ jīng] - già
+ 快递 - [kuài dì] - pacco
+ 有时间 - [yǒu shí jiān] - avere tempo
+ 柜台 - [guì tái] - sportello
+ 洗衣液 - [xǐ yī yè] - detersivo liquido
+ 称 - [chēng] - pesare
+ 稍等 - [shāo děng] - aspetta un attimo
+ 胶带 - [jiāo dài] - nastro adesivo
+ 衣帽间 - [yī mào jiān] - guardaroba
+ 躺 - [tǎng] - sdraiarsi
+ 过 - [guò] - passare, trascorrere
+ 邮局 - [yóu jú] - ufficio postale
+ 邮编 - [yóu biān] - CAP
+ 预约 - [yù yuē] - appuntamento
+71 Busy Week Parla di una settimana intensa
+ 亲戚 - [qīn qī] - parente
+ 其实 - [qí shí] - in realtà
+ 冥想 - [míng xiǎng] - meditazione
+ 合作 - [hé zuò] - collaborare
+ 家庭聚会 - [jiā tíng jù huì] - riunione di famiglia
+ 心烦 - [xīn fán] - irritato
+ 批评 - [pī píng] - criticare
+ 改天 - [gǎi tiān] - un altro giorno
+ 有帮助 - [yǒu bāng zhù] - utile
+ 焦虑 - [jiāo lǜ] - ansioso
+ 瑜伽 - [yú jiā] - yoga
+ 相亲 - [xiāng qīn] - incontro al buio, appuntamento al buio, incontro per conoscere qualcuno, incontro matrimoniale
+ 组长 - [zǔ zhǎng] - capogruppo
+ 表格 - [biǎo gé] - modulo
+ 要求 - [yào qiú] - richiesta
+ 让 - [ràng] - fare
+ 试 - [shì] - provare
+ 话 - [huà] - parola
+ 负责 - [fù zé] - responsabile
+ 轻松 - [qīng sōng] - rilassato
+ 遇到 - [yù dào] - incontrare
+ 那么 - [nà me] - Allora
+72 Reunion Ricorda i momenti a scuola
+ 下次见 - [xià cì jiàn] - a presto, alla prossima, ci vediamo la prossima volta, arrivederci alla prossima, ci vediamo
+ 体育 - [tǐ yù] - educazione fisica
+ 保持 - [bǎo chí] - mantenere
+ 入学 - [rù xué] - iscrizione, ammissione, ingresso, immatricolazione
+ 前年 - [qián nián] - l'anno prima dell'ultimo
+ 变化 - [biàn huà] - cambiamento
+ 同学聚会 - [tóng xué jù huì] - riunione di ex compagni di classe, incontro tra ex studenti, raduno degli ex compagni di scuola, festa di ex compagni di classe, raduno di ex studenti
+ 吵架 - [chǎo jià] - litigo, litighi, litigare, litighiamo, Litigare, litigate, litighi, litigano
+ 完全 - [wán quán] - completamente
+ 尴尬 - [gān gà] - imbarazzante
+ 开玩笑 - [kāi wán xiào] - scherzare
+ 拒绝 - [jù jué] - rifiutare
+ 有耐心 - [yǒu nài xīn] - paziente
+ 生意 - [shēng yì] - affari
+ 组织 - [zǔ zhī] - organizzare
+ 老 - [lǎo] - vecchie, vecchi, vecchio
+ 联系 - [lián xì] - contatto
+ 胖 - [pàng] - grasso
+ 记性 - [jì xìng] - memoria
+ 讲座 - [jiǎng zuò] - conferenza
+ 追求 - [zhuī qiú] - perseguire
+ 那年 - [nà nián] - quell’anno
+ 院长 - [yuàn zhǎng] - preside
+73 No Battery Descrivi una giornata offline
+ 不见了 - [bù jiàn le] - è sparito
+ 充电宝 - [chōng diàn bǎo] - power bank
+ 关机 - [guān jī] - spento
+ 别人 - [bié rén] - altri
+ 只好 - [zhǐ hǎo] - dovere
+ 地铁卡 - [de tiě kǎ] - carta della metropolitana, tessera della metropolitana, abbonamento della metropolitana
+ 工厂 - [gōng chǎng] - fabbrica
+ 开机 - [kāi jī] - accende
+ 拼车 - [pīn chē] - condividere
+ 最后 - [zuì hòu] - alla fine
+ 本来 - [běn lái] - originariamente, inizialmente, in origine, naturalmente, propriamente, originalmente, all'inizio
+ 正常 - [zhèng cháng] - normale
+ 电 - [diàn] - elettricità
+ 电池 - [diàn chí] - batteria
+ 着急 - [zhe jí] - ansioso
+ 突然 - [tū rán] - improvvisamente
+ 笔记本电脑 - [bǐ jì běn diàn nǎo] - computer portatile
+ 肯定 - [kěn dìng] - sicuramente
+ 视频会议 - [shì pín huì yì] - videoconferenza
+ 趟 - [tàng] - volta
+ 错过 - [cuò guò] - perso
+74 Health 2 Conforta un amico stressato
+ 关心 - [guān xīn] - interessa
+ 冲浪 - [chōng làng] - surf, fare surf, surfare
+ 刺激 - [cì jī] - emozionante
+ 唉 - [āi] - eh
+ 大自然 - [dà zì rán] - natura
+ 安排 - [ān pái] - organizzare
+ 感动 - [gǎn dòng] - commosso
+ 按摩 - [àn mó] - massaggiare
+ 敢 - [gǎn] - osare
+ 方法 - [fāng fǎ] - metodo
+ 泡温泉 - [pào wēn quán] - fare un bagno termale
+ 看起来 - [kàn qǐ lái] - sembrare
+ 空气 - [kōng qì] - aria
+ 美甲 - [měi jiǎ] - manicure
+ 解压 - [jiě yā] - decomprimere, rilassarsi, scaricare tensione, decompressione, alleviare lo stress, distendersi
+ 说实话 - [shuō shí huà] - a dire il vero
+ 跳伞 - [tiào sǎn] - salto con il paracadute, paracadutismo
+ 郊外 - [jiāo wài] - periferia
+ 锻炼 - [duàn liàn] - allenare
+ 高兴 - [gāo xìng] - felice
+75 Festivals Celebra feste tradizionali cinesi
+ 中秋节 - [zhōng qiū jié] - Festa di metà autunno
+ 传统 - [chuán tǒng] - tradizionale
+ 偶尔 - [ǒu ěr] - di tanto in tanto
+ 农历 - [nóng lì] - calendario lunare cinese
+ 包 - [bāo] - avvolgere
+ 北方 - [běi fāng] - nord
+ 南方 - [nán fāng] - sud
+ 大餐 - [dà cān] - banchetto
+ 打视频 - [dǎ shì pín] - fare una videochiamata
+ 放烟花 - [fàng yān huā] - accendere
+ 月亮 - [yuè liàng] - luna
+ 月饼 - [yuè bǐng] - mooncake
+ 楼顶 - [lóu dǐng] - tetto
+ 每年 - [měi nián] - ogni anno
+ 祝 - [zhù] - augurare
+ 端午节 - [duān wǔ jié] - Festa delle Barche Drago, Festa di Duanwu, Festa del Doppio Cinque
+ 粽子 - [zòng zi] - zongzi
+ 节日 - [jié rì] - festa
+ 蛋黄 - [dàn huáng] - tuorlo d'uovo
+ 过 - [guò] - passare, trascorrere
+76 Shopping 2 Fai shopping durante i saldi delle feste
+ 划算 - [huà suàn] - conveniente
+ 刚好 - [gāng hǎo] - giusto
+ 墨镜 - [mò jìng] - occhiale da sole
+ 戒指 - [jiè zhǐ] - anello
+ 手链 - [shǒu liàn] - braccialetto
+ 把 - [bǎ] - Metterete, Metterò, Metteranno, mettere, Metterà, Mettere, Metti, Metteremo
+ 松 - [sōng] - largo
+ 极了 - [jí le] - estremamente
+ 梳子 - [shū zi] - pettine
+ 比较 - [bǐ jiào] - confrontare
+ 没想到 - [méi xiǎng dào] - Non mi aspettavo
+ 皮鞋 - [pí xié] - scarpe di pelle
+ 看中 - [kàn zhōng] - apprezzare, preferire, scegliere, considerare importante, puntare su, desiderare, volere
+ 短 - [duǎn] - corto, corti
+ 短裤 - [duǎn kù] - pantaloncino
+ 薄 - [báo] - sottile, sottili
+ 软 - [ruǎn] - morbido
+ 金 - [jīn] - oro
+ 银 - [yín] - argento
+ 难看 - [nán kàn] - brutto
+ 香水 - [xiāng shuǐ] - profumo
+77 One Star Descrivi brutte esperienze al ristorante
+ 三明治 - [sān míng zhì] - panino
+ 他们 - [tā men] - loro
+ 体验 - [tǐ yàn] - esperienza
+ 厨师 - [chú shī] - chef
+ 咖喱 - [kā lí] - curry
+ 啊 - [a] - ah
+ 多远 - [duō yuǎn] - lontano
+ 好 - [hǎo] - molto
+ 好评 - [hǎo píng] - recensione positiva
+ 差评 - [chà píng] - recensione negativa
+ 服务员 - [fú wù yuán] - cameriere
+ 火 - [huǒ] - fuoco, fuochi
+ 牛排 - [niú pái] - bistecca
+ 老 - [lǎo] - vecchie, vecchi, vecchio
+ 菜单 - [cài dān] - menù
+ 蜂蜜 - [fēng mì] - miele
+ 越来越 - [yuè lái yuè] - sempre più
+ 闻起来 - [wén qǐ lái] - odorare, avere odore, avere un odore, emanare odore, profumare
+ 顾客 - [gù kè] - cliente
+ 顿 - [dùn] - pasto
+ 香草 - [xiāng cǎo] - vaniglia
+78 Client Parla dei dettagli di un progetto
+ 内容 - [nèi róng] - contenuto
+ 准确 - [zhǔn què] - precisa
+ 删除 - [shān chú] - eliminare
+ 合同 - [hé tóng] - contratto
+ 合理 - [hé lǐ] - ragionevole
+ 复杂 - [fù zá] - complesso
+ 完 - [wán] - finire
+ 懂 - [dǒng] - capire
+ 收集 - [shōu jí] - raccogliere
+ 改 - [gǎi] - cambiare
+ 数据 - [shù jù] - dato
+ 整个 - [zhěng gè] - intero
+ 方案 - [fāng àn] - piano
+ 版 - [bǎn] - edizione
+ 确定 - [què dìng] - sicure, sicuri, sicuro
+ 细节 - [xì jié] - dettaglio
+ 资料 - [zī liào] - dati
+ 走 - [zǒu] - andare via
+ 进度 - [jìn dù] - progresso
+ 部分 - [bù fēn] - parte
+ 都 - [dōu] - tutti
+79 Kitchen Usa il lessico della cucina
+ 上 - [shàng] - frequenta, porta, su, sulla, sali, frequenti, frequentavamo, frequentiamo, frequentavo, frequento, frequentare, salire, frequentato, frequentava, frequentavano, frequentano, up
+ 倒 - [dào] - versare
+ 刀 - [dāo] - coltello
+ 加热 - [jiā rè] - riscaldare
+ 哪儿 - [nǎ ér] - dove
+ 姜 - [jiāng] - zenzero
+ 宫保鸡丁 - [gōng bǎo jī dīng] - pollo Kung Pao
+ 微波炉 - [wēi bō lú] - microonde
+ 搅拌 - [jiǎo bàn] - mescolare
+ 步 - [bù] - passo
+ 清单 - [qīng dān] - lista
+ 烟 - [yān] - fumo
+ 烫 - [tàng] - bollente
+ 花生 - [huā shēng] - arachide
+ 葱 - [cōng] - cipolla verde
+ 调料 - [diào liào] - condimento
+ 过敏 - [guò mǐn] - allergico
+ 醋 - [cù] - aceto
+ 重 - [zhòng] - forte
+ 餐厅 - [cān tīng] - ristorante
+80 Exchange Chiedi consigli su scambi scolastici
+ 一个人 - [yī gè rén] - una persona
+ 了解 - [le jiě] - capire
+ 交 - [jiāo] - incroci, consegnato, consegnerà, consegniamo, incrocio, consegno, consegna
+ 交换 - [jiāo huàn] - scambiare
+ 公布 - [gōng bù] - annunciare
+ 外向 - [wài xiàng] - estroverso
+ 大三 - [dà sān] - terzo anno
+ 大二 - [dà èr] - secondo anno
+ 大四 - [dà sì] - quarto anno
+ 大部分 - [dà bù fēn] - maggior parte
+ 学院 - [xué yuàn] - accademia, istituto, facoltà, scuola, college
+ 开学 - [kāi xué] - inizio delle lezioni
+ 当地 - [dāng de] - locale
+ 意大利 - [yì dà lì] - italiano, italiani, italiana, Italia
+ 房东 - [fáng dōng] - padrone di casa
+ 收到 - [shōu dào] - ricevere
+ 有的 - [yǒu de] - alcuni
+ 期末 - [qī mò] - fine del semestre
+ 美元 - [měi yuán] - dollaro
+ 自信 - [zì xìn] - sicuro di sé
+ 赶快 - [gǎn kuài] - subito
+81 Accident 2 Descrivi incidenti di viaggio passati
+ 事 - [shì] - affare
+ 再也不 - [zài yě bù] - non più
+ 别提了 - [bié tí le] - non ne parliamo
+ 咬 - [yǎo] - mordere
+ 女人 - [nǚ rén] - donna
+ 导游 - [dǎo yóu] - guida turistica
+ 平板电脑 - [píng bǎn diàn nǎo] - tablet
+ 手指 - [shǒu zhǐ] - dito
+ 抓 - [zhuā] - catturare
+ 插队 - [chā duì] - saltato, salta, saltare
+ 撞 - [zhuàng] - sbattere
+ 救 - [jiù] - salvare
+ 旅行 - [lǚ xíng] - viaggio
+ 猴子 - [hóu zi] - scimmia
+ 男人 - [nán rén] - uomo
+ 耳环 - [ěr huán] - orecchino
+ 虫子 - [chóng zi] - insetto
+ 被 - [bèi] - (forma passiva), furono
+ 车祸 - [chē huò] - incidente stradale
+ 辆 - [liàng] - veicolo
+ 难忘 - [nán wàng] - indimenticabile
+ 骂 - [mà] - rimproverare
+82 ParentAway Chiama casa durante viaggi
+ 一切 - [yī qiè] - tutto
+ 互相 - [hù xiāng] - reciprocamente
+ 包裹 - [bāo guǒ] - pacco
+ 坏 - [huài] - cattivo, rotto, cattive
+ 垃圾 - [lā jī] - spazzatura
+ 宝贝 - [bǎo bèi] - tesoro
+ 打碎 - [dǎ suì] - rompere
+ 扔 - [rēng] - gettare
+ 扫把 - [sǎo bǎ] - scopa
+ 拜拜 - [bài bài] - ciao ciao
+ 按时 - [àn shí] - puntualmente
+ 接 - [jiē] - rispondere
+ 放心 - [fàng xīn] - stare tranquillo
+ 整理 - [zhěng lǐ] - sistemare
+ 柜子 - [guì zi] - armadio
+ 植物 - [zhí wù] - pianta
+ 消息 - [xiāo xī] - notizia
+ 烤箱 - [kǎo xiāng] - forno
+ 美食 - [měi shí] - gastronomia
+ 能干 - [néng gàn] - capace
+ 自由 - [zì yóu] - libero
+ 香肠 - [xiāng cháng] - salsiccia
+83 Mystery Risolvi un mistero in ufficio
+ 不可能 - [bù kě néng] - impossibile
+ 休息室 - [xiū xī shì] - sala relax
+ 保安 - [bǎo ān] - guardia di sicurezza
+ 到处 - [dào chù] - dappertutto
+ 原来 - [yuán lái] - originale
+ 发生了什么 - [fā shēng le shén me] - cosa è successo
+ 幸好 - [xìng hǎo] - per fortuna
+ 弄 - [nòng] - fare
+ 弄坏 - [nòng huài] - rompere
+ 打开 - [dǎ kāi] - aprire
+ 文件夹 - [wén jiàn jiā] - cartella
+ 本子 - [běn zi] - quaderno
+ 看到 - [kàn dào] - vedere
+ 老鼠 - [lǎo shǔ] - topo
+ 臭 - [chòu] - puzzolente
+ 调查 - [diào chá] - indagine, indagare
+ 锁 - [suǒ] - lucchetto, serratura
+ 食物 - [shí wù] - cibo
+ 饮水机 - [yǐn shuǐ jī] - distributore d'acqua
+ 鬼 - [guǐ] - fantasma
+84 Art Museum Descrivi opere d'arte
+ 假 - [jiǎ] - falso
+ 全世界 - [quán shì jiè] - tutto il mondo
+ 去世 - [qù shì] - morire
+ 塑料 - [sù liào] - plastica
+ 展 - [zhǎn] - mostra
+ 方 - [fāng] - direzione
+ 有关 - [yǒu guān] - riguardare
+ 木头 - [mù tóu] - legno
+ 欣赏 - [xīn shǎng] - apprezzare
+ 灵感 - [líng gǎn] - ispirazione
+ 狮子 - [shī zi] - leone
+ 王冠 - [wáng guān] - corona
+ 现代 - [xiàn dài] - moderno
+ 理解 - [lǐ jiě] - comprendere
+ 男 - [nán] - maschio
+ 画家 - [huà jiā] - pittore
+ 真 - [zhēn] - davvero, vero
+ 石头 - [shí tóu] - pietra
+ 艺术 - [yì shù] - arte
+ 艺术家 - [yì shù jiā] - artista
+ 雕塑 - [diāo sù] - scultura
+85 Gap year Fai un vlog sulle esperienze di viaggio
+ 休学 - [xiū xué] - sospendere gli studi, sospensione degli studi, interruzione degli studi, pausa dagli studi, congedo dagli studi, anno sabbatico
+ 分享 - [fēn xiǎng] - condividere
+ 各种各样 - [gè zhǒng gè yàng] - di vario tipo
+ 埃及 - [āi jí] - Egitto
+ 完全不 - [wán quán bù] - completamente non, affatto, per niente, assolutamente non, per nulla
+ 寺庙 - [sì miào] - tempio
+ 小吃 - [xiǎo chī] - spuntino
+ 建筑 - [jiàn zhù] - edificio
+ 待 - [dài] - rimanere
+ 打算 - [dǎ suàn] - intendere
+ 景点 - [jǐng diǎn] - attrazione
+ 欧元 - [ōu yuán] - euro
+ 沙漠 - [shā mò] - deserto
+ 点赞 - [diǎn zàn] - mettere mi piace, dare un like, cliccare mi piace, apprezzare, approvare
+ 爱上 - [ài shàng] - innamorò
+ 继续 - [jì xù] - continuare
+ 芒果 - [máng guǒ] - mango
+ 视频 - [shì pín] - video
+ 越南 - [yuè nán] - Vietnam
+ 青年旅馆 - [qīng nián lǚ guǎn] - ostello della gioventù
+ 非洲 - [fēi zhōu] - africana, africano
+86 Resolution Fare propositi per l'anno nuovo
+ 上半年 - [shàng bàn nián] - primo semestre
+ 下半年 - [xià bàn nián] - seconda metà dell'anno
+ 关注 - [guān zhù] - seguire
+ 减肥 - [jiǎn féi] - perdere, perderò, perderemo
+ 变得 - [biàn dé] - diventare
+ 吃素 - [chī sù] - mangia vegetariano, mangiare, mangio
+ 存 - [cún] - mettere da parte
+ 学会 - [xué huì] - imparare
+ 左右 - [zuǒ yòu] - circa
+ 强壮 - [qiáng zhuàng] - forte
+ 成功了 - [chéng gōng le] - successo
+ 戒烟 - [jiè yān] - smettere
+ 戒酒 - [jiè jiǔ] - smettere
+ 接下来 - [jiē xià lái] - in seguito
+ 攀岩 - [pān yán] - arrampicare
+ 有信心 - [yǒu xìn xīn] - avere fiducia
+ 有精神 - [yǒu jīng shén] - energico
+ 滑板 - [huá bǎn] - skateboard
+ 玩 - [wán] - giocare
+ 目标 - [mù biāo] - obiettivo
+ 社交媒体 - [shè jiāo méi tǐ] - social media
+ 肩膀 - [jiān bǎng] - spalla
+87 Promoted Parla delle valutazioni del team
+ 不如 - [bù rú] - non così bene come
+ 专家 - [zhuān jiā] - esperto
+ 优点 - [yōu diǎn] - punto di forza
+ 你觉得呢 - [nǐ jué dé ne] - cosa ne pensi?
+ 升职 - [shēng zhí] - promozione
+ 发 - [fā] - distribuire
+ 奖金 - [jiǎng jīn] - bonus
+ 学习 - [xué xí] - studiare
+ 年底 - [nián dǐ] - fine anno
+ 成员 - [chéng yuán] - membro
+ 方面 - [fāng miàn] - aspetto
+ 有效率 - [yǒu xiào lǜ] - efficiente
+ 看法 - [kàn fǎ] - opinione
+ 积极 - [jī jí] - attivo
+ 管理 - [guǎn lǐ] - gestire
+ 表现 - [biǎo xiàn] - prestazione
+ 评价 - [píng jià] - valutazione, valuta
+ 请客 - [qǐng kè] - offri
+ 还有谁 - [hái yǒu shéi] - chi altro
+ 领导 - [lǐng dǎo] - leader
+ 高 - [gāo] - alto
+88 Art Fest Confronta spettacoli d'arte
+ 上半场 - [shàng bàn chǎng] - primo tempo
+ 下半场 - [xià bàn chǎng] - la seconda metà
+ 主角 - [zhǔ jiǎo] - protagonista
+ 剧本 - [jù běn] - copione
+ 办 - [bàn] - organizzare
+ 嘘 - [xū] - shh
+ 场 - [chǎng] - scena, posto, campo
+ 女 - [nǚ] - femmine, femmina
+ 总的来说 - [zǒng de lái shuō] - in generale
+ 打鼓 - [dǎ gǔ] - suonare il tamburo, battere il tamburo, percuotere il tamburo
+ 搞笑 - [gǎo xiào] - divertente
+ 灯 - [dēng] - lampada
+ 独特 - [dú tè] - unico
+ 现场 - [xiàn chǎng] - dal vivo
+ 经典 - [jīng diǎn] - classico
+ 艺术节 - [yì shù jié] - festival d'arte
+ 观众 - [guān zhòng] - pubblico
+ 话剧 - [huà jù] - dramma
+ 音乐剧 - [yīn lè jù] - musical
+ 顺利 - [shùn lì] - senza intoppi
+89 Research Fare ricerca per la scuola
+ 下载 - [xià zài] - scaricare
+ 东南亚 - [dōng nán yà] - Sud-est asiatico
+ 之前 - [zhī qián] - prima di
+ 任务 - [rèn wù] - compito
+ 再 - [zài] - ancora, di nuovo
+ 分析 - [fēn xī] - analizzare
+ 图片 - [tú piàn] - immagine
+ 总结 - [zǒng jié] - riassumere
+ 愿意 - [yuàn yì] - disposto
+ 注册 - [zhù cè] - registrare
+ 用 - [yòng] - usare
+ 篇 - [piān] - articolo
+ 紧急 - [jǐn jí] - urgente
+ 经济 - [jīng jì] - economia
+ 话题 - [huà tí] - argomento
+ 说明 - [shuō míng] - spiegazione
+ 读 - [dú] - leggo, leggeste, leggerlo, leggemmo, lessero, leggi, leggevate, (loro) leggono, leggeva, leggeresti, lesse, letta, legge, lessi, lette
+ 键盘 - [jiàn pán] - tastiera
+ 随时 - [suí shí] - in qualsiasi momento
+ 麻烦 - [má fán] - fastidioso
+90 Honeymoon Fai domande in viaggio
+ 亲爱的 - [qīn ài de] - caro
+ 低 - [dī] - basso
+ 值得 - [zhí dé] - valere la pena
+ 公共 - [gōng gòng] - pubblico
+ 夏威夷 - [xià wēi yí] - Hawaii
+ 度蜜月 - [dù mì yuè] - fare la luna di miele
+ 打扮 - [dǎ bàn] - vestirsi
+ 方向 - [fāng xiàng] - direzione
+ 最近 - [zuì jìn] - più vicino
+ 气温 - [qì wēn] - temperatura
+ 河 - [hé] - fiume
+ 游客中心 - [yóu kè zhōng xīn] - centro visitatori
+ 火山 - [huǒ shān] - vulcano
+ 特色 - [tè sè] - caratteristica
+ 红绿灯 - [hóng lǜ dēng] - semaforo
+ 美丽 - [měi lì] - bello
+ 脚 - [jiǎo] - piede
+ 路人 - [lù rén] - passante
+ 过 - [guò] - passare, trascorrere
+ 逛 - [guàng] - passeggiare
+ 长椅 - [zhǎng yǐ] - panchina
+ 高档 - [gāo dàng] - di lusso
+91 Gossip 2 Parla di persone ed eventi
+ 你猜 - [nǐ cāi] - Indovina
+ 偶然 - [ǒu rán] - per caso
+ 原因 - [yuán yīn] - causa
+ 名牌 - [míng pái] - di marca
+ 开除 - [kāi chú] - licenziare
+ 很久 - [hěn jiǔ] - per molto tempo
+ 怀孕 - [huái yùn] - gravidanza, incinta, essere incinta, gestazione
+ 急事 - [jí shì] - questione urgente, faccenda urgente, emergenza, urgenza, impegno urgente, motivo urgente
+ 是不是 - [shì bù shì] - vero non è
+ 有钱 - [yǒu qián] - ricco
+ 没有人 - [méi yǒu rén] - nessuno
+ 犯 - [fàn] - commettere
+ 相信 - [xiāng xìn] - credere
+ 真的假的 - [zhēn de jiǎ de] - davvero?
+ 离婚 - [lí hūn] - divorziare, divorzio
+ 秘密 - [mì mì] - segreto
+ 聊 - [liáo] - chiacchierare
+ 贷款 - [dài kuǎn] - prestiti, prestito
+ 通过 - [tōng guò] - attraverso
+ 错误 - [cuò wù] - errore
+92 Proposal Parla delle proposte di matrimonio
+ 不得不 - [bù dé bù] - dovere
+ 仪式 - [yí shì] - cerimonia
+ 原来 - [yuán lái] - originale
+ 向 - [xiàng] - verso
+ 婚戒 - [hūn jiè] - fede nuziale
+ 感情 - [gǎn qíng] - emozione
+ 成为 - [chéng wèi] - diventare
+ 改变 - [gǎi biàn] - cambiare
+ 有创意 - [yǒu chuàng yì] - creativo
+ 未来 - [wèi lái] - futuro
+ 永远 - [yǒng yuǎn] - per sempre
+ 求婚 - [qiú hūn] - proposta di matrimonio, chiedere la mano, fare la proposta di matrimonio, proposta, fare la proposta
+ 深 - [shēn] - profondo, profonde
+ 激动 - [jī dòng] - emozionato
+ 祝福 - [zhù fú] - augurare
+ 订婚 - [dìng hūn] - fidanzamento, promessa di matrimonio, impegno, fidanzarsi
+ 谈恋爱 - [tán liàn ài] - innamorarsi, frequentare, avere una relazione, uscire insieme
+ 超级 - [chāo jí] - super
+ 跟 - [gēn] - con
+ 钻石 - [zuān shí] - diamante
+ 鲜花 - [xiān huā] - fiori freschi
+93 Homesick Chiama i tuoi genitori
+ 一般 - [yī bān] - di solito
+ 二月 - [èr yuè] - febbraio
+ 刚 - [gāng] - appena
+ 口音 - [kǒu yīn] - accento
+ 四月 - [sì yuè] - aprile
+ 困难 - [kùn nán] - difficoltà
+ 国庆节 - [guó qìng jié] - Festa Nazionale
+ 孤独 - [gū dú] - solo
+ 小费 - [xiǎo fèi] - mancia
+ 常见 - [cháng jiàn] - comune
+ 想念 - [xiǎng niàn] - mancare
+ 慢慢来 - [màn màn lái] - piano piano
+ 我挂了 - [wǒ guà le] - ho riattaccato
+ 潮湿 - [cháo shī] - umida
+ 生活方式 - [shēng huó fāng shì] - stile di vita
+ 自己 - [zì jǐ] - te stesso, me stesso
+ 适应 - [shì yīng] - adattarsi
+ 长 - [zhǎng] - lunghi, chang, lungo, cresceva
+ 雨季 - [yǔ jì] - stagione delle piogge
+94 Fri Night Organizza una serata divertente
+ ktv - [ktv] - karaoke bar, sala karaoke, locale karaoke
+ 一会儿 - [yī huì ér] - un po’
+ 下周 - [xià zhōu] - la prossima settimana
+ 不一定 - [bù yī dìng] - non è necessariamente
+ 周五 - [zhōu wǔ] - venerdì
+ 周六 - [zhōu liù] - sabato
+ 周日 - [zhōu rì] - domenica
+ 商量 - [shāng liàng] - discutere
+ 回复 - [huí fù] - rispondere
+ 对象 - [duì xiàng] - partner
+ 工作日 - [gōng zuò rì] - giorno feriale
+ 干杯 - [gàn bēi] - cin cin
+ 想到 - [xiǎng dào] - pensare
+ 点 - [diǎn] - ordinare
+ 烧烤 - [shāo kǎo] - barbecue
+ 红酒 - [hóng jiǔ] - vino rosso
+ 群 - [qún] - gruppo
+ 聚一下 - [jù yī xià] - incontrarsi
+ 聚餐 - [jù cān] - cena di gruppo
+ 自拍 - [zì pāi] - selfie
+ 西餐 - [xī cān] - cibo occidentale
+ 要不 - [yào bù] - altrimenti, oppure, se no, che ne dici di, perché non
+95 TravelPlan Organizza un viaggio in compagnia
+ 主意 - [zhǔ yì] - idea
+ 几楼 - [jǐ lóu] - quale piano
+ 南美洲 - [nán měi zhōu] - Sud America
+ 墨西哥 - [mò xī gē] - del Messico, Messico
+ 如果 - [rú guǒ] - Se
+ 就 - [jiù] - allora
+ 度假 - [dù jiǎ] - vacanza
+ 延误 - [yán wù] - in ritardo
+ 快点儿 - [kuài diǎn ér] - velocemente
+ 旅行团 - [lǚ xíng tuán] - gruppo turistico
+ 日出 - [rì chū] - sole che sorge
+ 日落 - [rì luò] - tramonto
+ 晕机 - [yūn jī] - mal d'aereo
+ 民宿 - [mín sù] - bed and breakfast
+ 班 - [bān] - classe
+ 直飞 - [zhí fēi] - volare direttamente
+ 票 - [piào] - biglietto
+ 算了 - [suàn le] - lasciamo perdere
+ 经济舱 - [jīng jì cāng] - classe economica
+ 转机 - [zhuǎn jī] - coincidenza
+ 退房 - [tuì fáng] - check-out
+ 野餐 - [yě cān] - picnic
+96 Well-being Parla di scelte di vita salutari
+ 体检 - [tǐ jiǎn] - controllo medico
+ 体重 - [tǐ zhòng] - peso
+ 呼吸 - [hū xī] - respirare
+ 场 - [chǎng] - scena, posto, campo
+ 失眠 - [shī mián] - insonnia
+ 年卡 - [nián kǎ] - tessera annuale
+ 拉伸 - [lā shēn] - stretching
+ 放弃 - [fàng qì] - rinunciare
+ 效果 - [xiào guǒ] - effetto
+ 明显 - [míng xiǎn] - evidente
+ 热身 - [rè shēn] - riscaldamento
+ 祝你好运 - [zhù nǐ hǎo yùn] - in bocca al lupo
+ 私教 - [sī jiào] - personal trainer
+ 维生素 - [wéi shēng sù] - vitamina
+ 肌肉 - [jī ròu] - muscolo
+ 背 - [bèi] - schiena
+ 脖子 - [bó zi] - collo
+ 蛋白质 - [dàn bái zhì] - proteina
+ 酸 - [suān] - indolenzito
+ 马拉松 - [mǎ lā sōng] - maratona
+97 Housewarm Organizza una festa per la nuova casa
+ 东边 - [dōng biān] - lato est
+ 做客 - [zuò kè] - essere ospite, fare visita, andare in visita, essere ospite a casa di qualcuno
+ 到 - [dào] - (lui) arriva, arrivare, ad, all', (tu) arrivi, allo, a, al, alla, recarti
+ 千万别 - [qiān wàn bié] - assolutamente non
+ 叉子 - [chā zi] - forchetta
+ 在路上 - [zài lù shàng] - in viaggio
+ 大家 - [dà jiā] - tutti
+ 客人 - [kè rén] - ospite
+ 慢走 - [màn zǒu] - camminiamo
+ 扑克牌 - [pū kè pái] - carta da gioco
+ 整齐 - [zhěng qí] - ordinato
+ 暖气 - [nuǎn qì] - riscaldamento
+ 楼上 - [lóu shàng] - al piano di sopra
+ 浅 - [qiǎn] - chiaro
+ 深 - [shēn] - profondo, profonde
+ 湖 - [hú] - lago
+ 装修 - [zhuāng xiū] - ristrutturazione
+ 西边 - [xī biān] - ovest
+ 酷 - [kù] - figo
+ 阳光 - [yáng guāng] - luce solare
+ 香槟 - [xiāng bīn] - champagne
+98 Album Parla dell'album delle foto di famiglia
+ 上面 - [shàng miàn] - sopra
+ 下面 - [xià miàn] - sotto
+ 保留 - [bǎo liú] - conservare
+ 右边 - [yòu biān] - destra
+ 合照 - [hé zhào] - foto di gruppo
+ 小孩儿 - [xiǎo hái ér] - bambino
+ 层 - [céng] - piano
+ 属于 - [shǔ yú] - appartenere
+ 微笑 - [wēi xiào] - sorridere
+ 情书 - [qíng shū] - lettera d'amore
+ 照相 - [zhào xiāng] - fotografare, scattare foto, fare fotografie, posare per una foto
+ 男孩儿 - [nán hái ér] - ragazzo
+ 直 - [zhí] - liscio
+ 相册 - [xiāng cè] - album fotografico
+ 矮 - [ǎi] - basso
+ 表弟 - [biǎo dì] - cugino
+ 西装 - [xī zhuāng] - completo
+ 过去 - [guò qù] - passato
+ 金色 - [jīn sè] - dorato
+ 长 - [zhǎng] - lunghi, chang, lungo, cresceva
+99 Celebrity Parlla delle tue celebrità preferite
+ 专辑 - [zhuān jí] - album
+ 什么样 - [shén me yàng] - che tipo
+ 俄罗斯 - [é luō sī] - russo
+ 偶像 - [ǒu xiàng] - idolo
+ 出 - [chū] - conosciuto, uscissi
+ 吹 - [chuī] - suonare
+ 在我看来 - [zài wǒ kàn lái] - secondo me
+ 小号 - [xiǎo hào] - tromba
+ 想要 - [xiǎng yào] - volere
+ 文章 - [wén zhāng] - articolo
+ 明星 - [míng xīng] - star
+ 来自 - [lái zì] - venire da
+ 歌迷 - [gē mí] - fan
+ 海报 - [hǎi bào] - poster
+ 爵士 - [jué shì] - jazz
+ 穷 - [qióng] - povero
+ 签名 - [qiān míng] - autografo
+ 艺术品 - [yì shù pǐn] - opera d'arte
+ 贴 - [tiē] - attaccare
+ 风格 - [fēng gé] - stile
+100 Report Parla della pagella di tuo figlio
+ 一定 - [yī dìng] - di sicuro
+ 分 - [fēn] - punto
+ 前 - [qián] - precedente
+ 只要 - [zhǐ yào] - Finché
+ 失望 - [shī wàng] - deluso
+ 奖励 - [jiǎng lì] - premiare
+ 好好 - [hǎo hǎo] - bene
+ 成绩单 - [chéng jī dān] - pagellino
+ 提高 - [tí gāo] - migliorare
+ 水平 - [shuǐ píng] - livello
+ 牛仔裤 - [niú zǐ kù] - jeans
+ 班 - [bān] - classe
+ 科目 - [kē mù] - materia
+ 答应 - [dá yīng] - acconsentire
+ 考 - [kǎo] - sostenere
+ 表扬 - [biǎo yáng] - lodare
+ 表现 - [biǎo xiàn] - prestazione
+ 评价 - [píng jià] - valutazione
+ 调皮 - [diào pí] - birichino
+ 郁闷 - [yù mèn] - depresso
+ 题 - [tí] - domanda
+101 C'tryside Paragona la campagna di ieri e di oggi
+ 一点儿 - [yī diǎn ér] - un po'
+ 农民 - [nóng mín] - contadino
+ 别墅 - [bié shù] - villa
+ 发达 - [fā dá] - sviluppato
+ 喂 - [wèi] - dare da mangiare
+ 大多数 - [dà duō shù] - maggior parte
+ 安装 - [ān zhuāng] - installare
+ 小麦 - [xiǎo mài] - grano
+ 政府 - [zhèng fǔ] - governo
+ 有机 - [yǒu jī] - biologico
+ 机器 - [jī qì] - macchina
+ 村子 - [cūn zi] - villaggio
+ 种 - [zhǒng] - piantare
+ 窄 - [zhǎi] - stretto
+ 老年人 - [lǎo nián rén] - anziano
+ 自来水 - [zì lái shuǐ] - acqua corrente
+ 落后 - [luò hòu] - arretrato
+ 路灯 - [lù dēng] - lampione
+ 退休 - [tuì xiū] - andare in pensione
+ 那时候 - [nà shí hòu] - allora
+ 鸡 - [jī] - pollo
+ 鸭子 - [yā zi] - anatra
+102 Groceries Fai la spesa al supermercato
+ 冷冻 - [lěng dòng] - congelato
+ 包子 - [bāo zi] - panino al vapore
+ 咦 - [yí] - eh, oh, uh, ehm, ma
+ 打 - [dǎ] - dozzina
+ 挑食 - [tiāo shí] - schizzinoso
+ 收银台 - [shōu yín tái] - cassa
+ 无糖 - [wú táng] - senza zucchero, privo di zucchero, senza dolcificanti, senza zuccheri, senza zucchero aggiunto
+ 条 - [tiáo] - strisce, il, striscia, barre
+ 毛巾 - [máo jīn] - asciugamano
+ 没货了 - [méi huò le] - esaurite
+ 油炸 - [yóu zhà] - fritto
+ 海鲜 - [hǎi xiān] - frutti di mare
+ 牙刷 - [yá shuā] - spazzolino da denti
+ 番茄酱 - [fān jiā jiàng] - ketchup
+ 空了 - [kōng le] - vuoto, libero, disponibile, svuotato, finito, esaurito
+ 虾 - [xiā] - gambero
+ 豆奶 - [dòu nǎi] - latte di soia
+ 辣椒酱 - [là jiāo jiàng] - salsa piccante
+ 还有 - [hái yǒu] - e anche
+ 馒头 - [mán tóu] - panino al vapore
+ 黄油 - [huáng yóu] - burro
+103 TV Critic Parla delle tue serie TV preferite
+ 以为 - [yǐ wèi] - pensava, Pensavo
+ 区别 - [qū bié] - differenza
+ 印象 - [yìn xiàng] - impressione
+ 吓人 - [xià rén] - spaventoso
+ 季 - [jì] - stagione
+ 对 - [duì] - coppia
+ 希望 - [xī wàng] - sperare
+ 广告 - [guǎng gào] - pubblicità
+ 开头 - [kāi tóu] - inizio
+ 恐怖片 - [kǒng bù piàn] - film horror
+ 情侣 - [qíng lǚ] - coppia
+ 担心 - [dān xīn] - preoccuparsi
+ 有礼貌 - [yǒu lǐ mào] - educato
+ 机器人 - [jī qì rén] - robot
+ 死 - [sǐ] - morire
+ 演技 - [yǎn jì] - recitazione
+ 科幻片 - [kē huàn piàn] - film di fantascienza
+ 编剧 - [biān jù] - sceneggiatore
+ 觉得 - [jué dé] - pensare
+ 角色 - [jiǎo sè] - personaggio
+ 集 - [jí] - episodio
+104 House Hunt Negozia il prezzo di una casa
+ 中介 - [zhōng jiè] - intermediario
+ 二手房 - [èr shǒu fáng] - casa usata
+ 位置 - [wèi zhì] - posizione
+ 停电 - [tíng diàn] - blackout
+ 决定 - [jué dìng] - decisione
+ 卖家 - [mài jiā] - venditore
+ 天花板 - [tiān huā bǎn] - soffitto
+ 好处 - [hǎo chù] - vantaggio
+ 曾经 - [céng jīng] - una volta
+ 检查 - [jiǎn chá] - controllare
+ 水龙头 - [shuǐ lóng tóu] - rubinetto
+ 漏水 - [lòu shuǐ] - perdita d'acqua, perde
+ 状况 - [zhuàng kuàng] - stato
+ 理想 - [lǐ xiǎng] - ideale
+ 租客 - [zū kè] - inquilino
+ 蚂蚁 - [mǎ yǐ] - formica
+ 装修 - [zhuāng xiū] - ristrutturazione
+ 诚实 - [chéng shí] - onesto
+ 说 - [shuō] - dire
+ 降价 - [jiàng jià] - ridurre il prezzo, scontare, abbassare il prezzo, diminuire il prezzo, fare uno sconto, calare il prezzo, fare un ribasso
+105 Emotions Parla di sentimenti con amici
+ 不会吧 - [bù huì ba] - non è possibile
+ 事实 - [shì shí] - fatto
+ 伤心 - [shāng xīn] - triste
+ 原谅 - [yuán liàng] - perdonare
+ 反对 - [fǎn duì] - opporsi
+ 发型 - [fā xíng] - taglio di capelli
+ 和好 - [hé hǎo] - riconciliarsi
+ 咱们 - [zán men] - noi
+ 婚礼 - [hūn lǐ] - matrimonio, matrimoni
+ 彼此 - [bǐ cǐ] - l'uno dell'altro
+ 忙 - [máng] - occupato
+ 惊讶 - [jīng yà] - sorpresa
+ 感受 - [gǎn shòu] - sentimento
+ 找到 - [zhǎo dào] - trovare
+ 熟 - [shú] - familiare
+ 研究生 - [yán jiū shēng] - studenti di specializzazione
+ 绝对 - [jué duì] - assolutamente
+ 见到 - [jiàn dào] - incontrare
+ 输 - [shū] - perdere
+ 道歉 - [dào qiàn] - scusarsi
+ 错 - [cuò] - errore
+106 Schedule Parla del tuo programma settimanale
+ 临时 - [lín shí] - temporaneamente
+ 催 - [cuī] - sollecitare
+ 午休 - [wǔ xiū] - pisolino
+ 嗯 - [ń] - Eh, eh, mh
+ 实习生 - [shí xí shēng] - stagista
+ 幻灯片 - [huàn dēng piàn] - diapositiva
+ 建议 - [jiàn yì] - consigliare
+ 总部 - [zǒng bù] - sede centrale
+ 拜托 - [bài tuō] - per favore
+ 正好 - [zhèng hǎo] - proprio
+ 正式 - [zhèng shì] - formale
+ 死了 - [sǐ le] - (loro) sono morte, morta, morte, sono morti, (loro) morirono
+ 没法 - [méi fǎ] - non posso
+ 病假 - [bìng jiǎ] - congedo per malattia
+ 白天 - [bái tiān] - di giorno
+ 目前 - [mù qián] - attuale
+ 直接 - [zhí jiē] - direttamente
+ 算我一个 - [suàn wǒ yī gè] - contami
+ 组员 - [zǔ yuán] - membro del gruppo
+ 软件 - [ruǎn jiàn] - software
+ 鸡翅 - [jī chì] - ali di pollo
+107 Cities Esplora città in Cina
+ 几 - [jǐ] - alcune
+ 发展 - [fā zhǎn] - sviluppare
+ 后年 - [hòu nián] - tra due anni
+ 塔 - [tǎ] - torre
+ 大楼 - [dà lóu] - grattacielo
+ 宽 - [kuān] - largo
+ 建 - [jiàn] - costruire
+ 杭州 - [háng zhōu] - Hangzhou
+ 栋 - [dòng] - edificio
+ 桥 - [qiáo] - ponte
+ 森林 - [sēn lín] - foresta
+ 瀑布 - [pù bù] - cascata
+ 省 - [shěng] - provincia
+ 经过 - [jīng guò] - passare per
+ 西藏 - [xī cáng] - Tibet
+ 计划 - [jì huà] - pianificare
+ 路线 - [lù xiàn] - percorso
+ 重庆 - [chóng qìng] - Chongqing
+ 长江 - [zhǎng jiāng] - Fiume Azzurro
+ 高速公路 - [gāo sù gōng lù] - autostrada
+108 Hospital Descrivi i sintomi al dottore
+ 一直 - [yī zhí] - sempre
+ 不小心 - [bù xiǎo xīn] - inavvertitamente
+ 副作用 - [fù zuò yòng] - effetto collater
+ 动 - [dòng] - muovere
+ 半夜 - [bàn yè] - mezzanotte
+ 喉咙 - [hóu lóng] - gola
+ 康复 - [kāng fù] - guarire
+ 打针 - [dǎ zhēn] - un'iniezione, L'iniezione, l'iniezione
+ 护士 - [hù shì] - infermiera
+ 挂号 - [guà hào] - registrarmi, registrato, registrarsi
+ 有营养 - [yǒu yíng yǎng] - nutriente
+ 温和 - [wēn hé] - mite
+ 病人 - [bìng rén] - paziente
+ 症状 - [zhèng zhuàng] - sintomo
+ 睡眠 - [shuì mián] - sonno
+ 签字 - [qiān zì] - firmare, firmato, firma
+ 耳朵 - [ěr duǒ] - orecchio
+ 胃口 - [wèi kǒu] - appetito
+ 胳膊 - [gē bó] - braccio
+ 血压 - [xuè yā] - pressione sanguigna
+109 Meet Up Ritrova vecchi amici
+ 乐观 - [lè guān] - ottimista
+ 保重 - [bǎo zhòng] - abbi cura di te
+ 先走了 - [xiān zǒu le] - vado via per primo, è andato via per primo
+ 其他 - [qí tā] - altri
+ 内向 - [nèi xiàng] - introverso
+ 创业 - [chuàng yè] - fondare
+ 卷发 - [juǎn fā] - capelli ricci
+ 国际 - [guó jì] - internazionale
+ 她们 - [tā men] - loro, Loro
+ 宝宝 - [bǎo bǎo] - bambino
+ 对了 - [duì le] - A proposito
+ 热爱 - [rè ài] - amare profondamente
+ 牙医 - [yá yī] - dentista
+ 电子邮箱 - [diàn zi yóu xiāng] - posta elettronica
+ 联系方式 - [lián xì fāng shì] - contatto
+ 认出 - [rèn chū] - riconoscere
+ 设计师 - [shè jì shī] - designer
+ 过 - [guò] - passare, trascorrere
+ 进行 - [jìn xíng] - condurre
+ 郊区 - [jiāo qū] - periferia
+ 阿姨 - [ā yí] - zia
+ 飞行员 - [fēi xíng yuán] - pilota
+110 Xi'an Scopri la storia di Xi'an
+ 万 - [wàn] - diecimila
+ 不一会儿 - [bù yī huì ér] - dopo poco
+ 之一 - [zhī yī] - una delle, uno dei, uno degli
+ 充满 - [chōng mǎn] - pieno di
+ 兵马俑 - [bīng mǎ yǒng] - Guerrieri di terracotta
+ 古老 - [gǔ lǎo] - antico
+ 唐朝 - [táng cháo] - dinastia Tang
+ 夜景 - [yè jǐng] - panorama notturno
+ 奇迹 - [qí jī] - miracolo
+ 字 - [zì] - carattere
+ 宫殿 - [gōng diàn] - palazzo
+ 工人 - [gōng rén] - operaio
+ 清真寺 - [qīng zhēn sì] - moschea
+ 生动 - [shēng dòng] - vivace
+ 画 - [huà] - disegnare
+ 皇后 - [huáng hòu] - regina
+ 皇帝 - [huáng dì] - imperatore
+ 羊肉 - [yáng ròu] - carne di pecora
+ 花 - [huā] - spendere
+ 诗 - [shī] - poesia
+ 诗人 - [shī rén] - poeta
+ 首都 - [shǒu dōu] - capitale
+111 Bad Luck Racconta le tue disavventure in viaggio
+ 上 - [shàng] - frequenta, porta, su, sulla, sali, frequenti, frequentavamo, frequentiamo, frequentavo, frequento, frequentare, salire, frequentato, frequentava, frequentavano, frequentano, up
+ 下 - [xià] - giù, prossima, piovesse, sceso, scese
+ 出 - [chū] - conosciuto, uscissi
+ 司机 - [sī jī] - autista
+ 安检 - [ān jiǎn] - controllo di sicurezza
+ 导航 - [dǎo háng] - navigazione
+ 差点儿 - [chà diǎn ér] - per poco
+ 打火机 - [dǎ huǒ jī] - accendino
+ 托运 - [tuō yùn] - registrare
+ 投诉 - [tóu sù] - lamentarci, lamentarmi
+ 晕车 - [yūn chē] - mal d'auto
+ 爬 - [pá] - salire
+ 登机牌 - [dēng jī pái] - carta d'imbarco
+ 脱 - [tuō] - togliere
+ 航站楼 - [háng zhàn lóu] - terminal
+ 被子 - [bèi zi] - coperta
+ 超重 - [chāo zhòng] - sovrappeso
+ 进 - [jìn] - entrare
+ 错过 - [cuò guò] - perso
+ 马桶 - [mǎ tǒng] - Gabinetto
+112 Training Partecipa a un allenamento sportivo
+ 世界杯 - [shì jiè bēi] - Coppa del Mondo
+ 体操 - [tǐ cāo] - ginnastica
+ 保护 - [bǎo hù] - proteggere
+ 动作 - [dòng zuò] - movimento
+ 坚持 - [jiān chí] - insistere
+ 基础 - [jī chǔ] - base
+ 大海 - [dà hǎi] - mare
+ 头盔 - [tóu kuī] - casco
+ 快点儿 - [kuài diǎn ér] - velocemente
+ 有天赋 - [yǒu tiān fù] - talentuoso
+ 灵活 - [líng huó] - flessibile
+ 球场 - [qiú chǎng] - campo da gioco
+ 短跑 - [duǎn pǎo] - sprint
+ 膝盖 - [xī gài] - ginocchio
+ 自由泳 - [zì yóu yǒng] - stile libero
+ 蛙泳 - [wā yǒng] - rana
+ 观察 - [guān chá] - osservare
+ 规则 - [guī zé] - regola
+ 训练 - [xùn liàn] - allenare
+ 赢 - [yíng] - vincere
+ 跑鞋 - [pǎo xié] - scarpe da corsa
+113 zoo Descrivi gli animali allo zoo
+ 北边 - [běi biān] - nord
+ 南边 - [nán biān] - a sud
+ 嘴 - [zuǐ] - bocca
+ 大象 - [dà xiàng] - elefante
+ 它们 - [tā men] - essi
+ 尾巴 - [wěi bā] - coda
+ 棵 - [kē] - alberi, albero
+ 池塘 - [chí táng] - stagno
+ 洞 - [dòng] - buco
+ 游 - [yóu] - nuotare
+ 猪 - [zhū] - maiale
+ 竹子 - [zhú zi] - bambù
+ 笼子 - [lóng zi] - gabbia
+ 跑 - [pǎo] - correre
+ 跳 - [tiào] - saltare
+ 飞 - [fēi] - volare
+ 馆 - [guǎn] - padiglione
+ 马 - [mǎ] - cavallo
+ 鳄鱼 - [è yú] - coccodrillo
+ 鸟 - [niǎo] - uccello
+114 Furnish Descrivi lo stato dei mobili
+ 几乎 - [jǐ hū] - quasi
+ 剪刀 - [jiǎn dāo] - forbici
+ 地板 - [de bǎn] - pavimento
+ 地毯 - [de tǎn] - tappeto
+ 客房 - [kè fáng] - camera degli ospiti
+ 床垫 - [chuáng diàn] - materasso
+ 恶心 - [è xīn] - disgustoso
+ 手电筒 - [shǒu diàn tǒng] - torcia
+ 拉 - [lā] - tirare
+ 推 - [tuī] - spingere
+ 枕头 - [zhěn tóu] - cuscino
+ 电池 - [diàn chí] - batteria
+ 电风扇 - [diàn fēng shàn] - ventilatore elettrico
+ 盒子 - [hé zi] - scatola
+ 相当 - [xiāng dāng] - abbastanza
+ 窗帘 - [chuāng lián] - tenda
+ 能用 - [néng yòng] - può ancora essere usato
+ 茶几 - [chá jǐ] - tavolino da salotto
+ 鞋柜 - [xié guì] - scarpiera
+115 Congrats Invitare amici alla festa
+ 为 - [wèi] - per
+ 举 - [jǔ] - alzare
+ 了不起 - [le bù qǐ] - eccezionale
+ 句 - [jù] - frase
+ 唱片 - [chàng piàn] - disco
+ 大声 - [dà shēng] - ad alta voce
+ 大方 - [dà fāng] - generoso
+ 布置 - [bù zhì] - allestire
+ 录取 - [lù qǔ] - ammettere
+ 报到 - [bào dào] - registrare
+ 榜样 - [bǎng yàng] - modello
+ 欢呼 - [huān hū] - acclamiamo, acclamato, Acclamiamo, acclamare, Acclamare
+ 真的 - [zhēn de] - davvero
+ 祝贺 - [zhù hè] - congratulare
+ 笑话 - [xiào huà] - barzelletta
+ 紫色 - [zǐ sè] - viola
+ 节目 - [jié mù] - programma
+ 谦虚 - [qiān xū] - umile
+ 起来 - [qǐ lái] - si alza, alza
+ 酒杯 - [jiǔ bēi] - bicchiere
+ 骄傲 - [jiāo ào] - orgoglioso
+ 鼓励 - [gǔ lì] - incoraggiamento
+116 Movie Parla delle tue scene preferite dei film
+ 上映 - [shàng yìng] - uscire
+ 不介意 - [bù jiè yì] - non mi dispiace
+ 东方 - [dōng fāng] - orientale
+ 严肃 - [yán sù] - serio
+ 公主 - [gōng zhǔ] - principessa
+ 勇敢 - [yǒng gǎn] - coraggioso
+ 受不了 - [shòu bù le] - non sopportare
+ 吻 - [wěn] - baciare
+ 好莱坞 - [hǎo lái wù] - Hollywood
+ 字幕 - [zì mù] - sottotitolo
+ 悲伤 - [bēi shāng] - triste
+ 打架 - [dǎ jià] - combattere, combattono
+ 抱 - [bào] - abbracciare
+ 王子 - [wáng zi] - principe
+ 类型 - [lèi xíng] - tipo
+ 红 - [hóng] - rosso
+ 英雄 - [yīng xióng] - eroe
+ 还可以 - [hái kě yǐ] - accettabile
+ 锁 - [suǒ] - lucchetto, serratura
+ 预告片 - [yù gào piàn] - trailer
+ 马路 - [mǎ lù] - strada
+117 Mystery 2 Descrivi un rumore strano
+ 不对劲儿 - [bù duì jìn ér] - strano
+ 不过是 - [bù guò shì] - non è che
+ 中间 - [zhōng jiān] - centro
+ 做 - [zuò] - sognare
+ 冷静 - [lěng jìng] - calmati
+ 到底 - [dào dǐ] - esattamente
+ 吓死我了 - [xià sǐ wǒ le] - spaventare a morte
+ 噩梦 - [è mèng] - incubo
+ 屋子 - [wū zi] - stanza
+ 影子 - [yǐng zi] - ombra
+ 打雷 - [dǎ léi] - tuono, tuonare
+ 气氛 - [qì fēn] - atmosfera
+ 消失 - [xiāo shī] - sparire
+ 灭 - [miè] - spegnersi
+ 猫头鹰 - [māo tóu yīng] - gufo
+ 神秘 - [shén mì] - misterioso
+ 脚印 - [jiǎo yìn] - impronta di piede
+ 蝙蝠 - [biān fú] - pipistrello
+ 血 - [xuè] - sangue
+ 阁楼 - [gé lóu] - mansarda
+ 黑 - [hēi] - nero
+118 Big Sale Parla dello shopping durante i saldi
+ 丑 - [chǒu] - brutto
+ 买一送一 - [mǎi yī sòng yī] - compra uno e ricevi uno gratis
+ 优惠券 - [yōu huì quàn] - buono sconto
+ 停车位 - [tíng chē wèi] - posto auto
+ 副 - [fù] - un paio di
+ 卖完 - [mài wán] - esaurito
+ 号 - [hào] - taglia
+ 售货员 - [shòu huò yuán] - commesso
+ 夹克 - [jiā kè] - giacca
+ 打扰一下 - [dǎ rǎo yī xià] - Mi scusi
+ 标签 - [biāo qiān] - etichetta
+ 每 - [měi] - ogni
+ 泳衣 - [yǒng yī] - costume da bagno
+ 浪费 - [làng fèi] - sprecare
+ 男装 - [nán zhuāng] - abbigliamento da uomo
+ 皮 - [pí] - pelle
+ 睡衣 - [shuì yī] - pigiama
+ 裙子 - [qún zi] - gonna
+ 购物车 - [gòu wù chē] - carrello della spesa
+ 随便 - [suí biàn] - a caso
+119 Neighbors2 Presentati ai vicini
+ 下午茶 - [xià wǔ chá] - tè pomeridiano
+ 介意 - [jiè yì] - dispiace
+ 印度 - [yìn dù] - indiani, indiano
+ 周围 - [zhōu wéi] - intorno
+ 夫妻 - [fū qī] - coppia
+ 市长 - [shì zhǎng] - sindaco
+ 帮忙 - [bāng máng] - dare una mano
+ 当然不 - [dāng rán bù] - certo che no
+ 志愿者 - [zhì yuàn zhě] - volontario
+ 抱怨 - [bào yuàn] - lamentare
+ 捐 - [juān] - donare
+ 提出 - [tí chū] - proporre
+ 放 - [fàng] - metteresti, spariamo, mettevamo, metti, metterli, sparato, (voi) mettete, spareremo, posizioniamo, tenete, mettilo
+ 教堂 - [jiào táng] - chiesa
+ 新来 - [xīn lái] - nuovo arrivato
+ 点餐 - [diǎn cān] - ordinare, ordinare cibo, prendere l'ordine
+ 相处 - [xiāng chù] - andare d'accordo
+ 社区 - [shè qū] - comunità
+ 程序员 - [chéng xù yuán] - programmatore
+ 车库 - [chē kù] - garage
+ 隔壁 - [gé bì] - vicino, accanto, vicino di casa, confinante
+120 WFH Comunica con i colleghi a distanza
+ 上线 - [shàng xiàn] - andare online
+ 保存 - [bǎo cún] - salvare
+ 到 - [dào] - (lui) arriva, arrivare, ad, all', (tu) arrivi, allo, a, al, alla, recarti
+ 取消 - [qǔ xiāo] - annullare
+ 周 - [zhōu] - settimana, settimane
+ 好点儿 - [hǎo diǎn ér] - un po' meglio
+ 屏幕 - [píng mù] - schermo
+ 开 - [kāi] - prescrive, aprire, prescritto, prescrivere, fiorisce
+ 摄像头 - [shè xiàng tóu] - telecamera
+ 文档 - [wén dàng] - documento
+ 明白了 - [míng bái le] - capito
+ 沟通 - [gōu tōng] - comunicare
+ 点击 - [diǎn jī] - cliccare
+ 申请 - [shēn qǐng] - fare domanda per
+ 腰 - [yāo] - vita
+ 行 - [xíng] - viaggio, viaggeremo, viaggiare, righe
+ 调 - [diào] - regolare
+ 这几天 - [zhè jǐ tiān] - questi giorni
+ 重启 - [zhòng qǐ] - riavviare
+ 链接 - [liàn jiē] - link
+ 麦克风 - [mài kè fēng] - microfono
+ 鼠标 - [shǔ biāo] - mouse
+121 Apptment Fissa un appuntamento medico
+ 住院 - [zhù yuàn] - ricoverata, ricoverato, ricovero
+ 保险 - [bǎo xiǎn] - assicurazione
+ 出院 - [chū yuàn] - dimissione, dimesso
+ 大概 - [dà gài] - circa
+ 头晕 - [tóu yūn] - vertigine
+ 开 - [kāi] - prescrive, aprire, prescritto, prescrivere, fiorisce
+ 心脏 - [xīn zàng] - cuore
+ 急诊 - [jí zhěn] - pronto soccorso
+ 推迟 - [tuī chí] - rimandare
+ 改期 - [gǎi qī] - rimandare
+ 检查 - [jiǎn chá] - controllare
+ 正在 - [zhèng zài] - sta
+ 流鼻涕 - [liú bí tì] - naso che cola
+ 疼 - [téng] - fare male
+ 看病 - [kàn bìng] - vedere il dottore
+ 约 - [yuē] - prendere un appuntamento
+ 肿 - [zhǒng] - gonfiare
+ 舌头 - [shé tóu] - lingua
+ 视力 - [shì lì] - vista
+ 闻 - [wén] - ascoltare, annusava
+122 Team build Parla di attività di team building
+ 中 - [zhōng] - media
+ 了 - [le] - è, sono, sta
+ 划船 - [huà chuán] - remare
+ 团建 - [tuán jiàn] - attività di team building
+ 坚果 - [jiān guǒ] - noci
+ 奶昔 - [nǎi xī] - frullato
+ 徒步 - [tú bù] - Escursioni, escursioni
+ 手机壳 - [shǒu jī ké] - custodia per cellulare
+ 报名 - [bào míng] - iscrivermi, iscritto, iscrive, iscriverai
+ 桃子 - [táo zi] - pesca
+ 比赛 - [bǐ sài] - partita
+ 结实 - [jié shí] - robusto
+ 自助餐 - [zì zhù cān] - buffet
+ 至少 - [zhì shǎo] - almeno
+ 蚊子 - [wén zi] - zanzara
+ 防晒霜 - [fáng shài shuāng] - crema solare
+ 露营 - [lù yíng] - fare campeggio
+ 鬼屋 - [guǐ wū] - casa stregata
+ 龙虾 - [lóng xiā] - aragosta
+123 Book Club Parla dei libri al club
+ 主持人 - [zhǔ chí rén] - presentatore
+ 从头到尾 - [cóng tóu dào wěi] - dall'inizio alla fine
+ 传记 - [chuán jì] - biografia
+ 侦探 - [zhēn tàn] - detective
+ 俩 - [liǎ] - due
+ 其中 - [qí zhōng] - di questi
+ 另外 - [lìng wài] - un altro
+ 吸引 - [xī yǐn] - attrarre
+ 封面 - [fēng miàn] - copertina
+ 根本 - [gēn běn] - affatto
+ 段 - [duàn] - paragrafo
+ 版 - [bǎn] - edizione
+ 电子书 - [diàn zi shū] - ebook
+ 真实 - [zhēn shí] - reale
+ 短 - [duǎn] - corto, corti
+ 章 - [zhāng] - capitolo
+ 翻译成 - [fān yì chéng] - tradurre in
+ 读 - [dú] - leggo, leggeste, leggerlo, leggemmo, lessero, leggi, leggevate, (loro) leggono, leggeva, leggeresti, lesse, letta, legge, lessi, lette
+ 读书会 - [dú shū huì] - club del libro
+ 读者 - [dú zhě] - lettore
+ 选择 - [xuǎn zé] - scelta
+124 Banking Apri un conto in banca
+ 储蓄卡 - [chǔ xù kǎ] - carta di debito
+ 出生日期 - [chū shēng rì qī] - data di nascita
+ 利息 - [lì xī] - tasso di interesse
+ 填 - [tián] - compilare
+ 开 - [kāi] - prescrive, aprire, prescritto, prescrivere, fiorisce
+ 提供 - [tí gōng] - fornire
+ 支票 - [zhī piào] - assegno
+ 条件 - [tiáo jiàn] - condizioni
+ 熟悉 - [shú xī] - conoscere
+ 登录 - [dēng lù] - accedere
+ 百万 - [bǎi wàn] - un milione
+ 系统 - [xì tǒng] - sistema
+ 缺点 - [quē diǎn] - difetto
+ 解释 - [jiě shì] - spiegare
+ 账户 - [zhàng hù] - conto
+ 贷款 - [dài kuǎn] - prestiti, prestito
+ 费用 - [fèi yòng] - spesa
+ 输入 - [shū rù] - inserire
+ 还 - [hái] - restituire
+ 驾照 - [jià zhào] - patente di guida
+125 Fam Dinner Parla di tradizioni familiari a tavola
+ 一整天 - [yī zhěng tiān] - tutto il giorno
+ 传统 - [chuán tǒng] - tradizionale
+ 兄弟姐妹 - [xiōng dì jiě mèi] - fratelli e sorelle
+ 对我来说 - [duì wǒ lái shuō] - per me
+ 年夜饭 - [nián yè fàn] - cena di Capodanno
+ 开饭 - [kāi fàn] - iniziare a mangiare, cominciare a mangiare, mettersi a tavola, pranzare, cenare, mettersi a mangiare, iniziare il pasto
+ 恭喜发财 - [gōng xǐ fā cái] - auguri di prosperità
+ 想家 - [xiǎng jiā] - avere nostalgia di casa
+ 打牌 - [dǎ pái] - giocare a carte, giocare a poker, giocare a carte da gioco, fare una partita a carte
+ 收 - [shōu] - ricevere
+ 春卷 - [chūn juǎn] - involtini primavera
+ 白酒 - [bái jiǔ] - baijiu
+ 素菜 - [sù cài] - verdura, piatto vegetariano, cibo vegetariano, piatto di verdure
+ 红包 - [hóng bāo] - busta rossa
+ 蒸 - [zhēng] - cuocere a vapore
+ 螃蟹 - [páng xiè] - granchio
+ 过年 - [guò nián] - festeggiare il Capodanno, celebrare il Capodanno, passare il Capodanno, celebrare il nuovo anno, festeggiare il nuovo anno, trascorrere il Capodanno, passare il nuovo anno, celebrare il Capodanno con la famiglia, festeggiare con la famiglia
+ 送 - [sòng] - regalare
+ 酱 - [jiàng] - salsa
+ 锅 - [guō] - pentola
+ 香 - [xiāng] - profumato
+126 Theme Park Scegli le attività al parco giochi
+ 不要 - [bù yào] - non
+ 主题公园 - [zhǔ tí gōng yuán] - parco a tema
+ 剧场 - [jù chǎng] - teatro
+ 吐 - [tǔ] - vomitare
+ 坐 - [zuò] - sedere
+ 小丑 - [xiǎo chǒu] - pagliaccio
+ 摩天轮 - [mó tiān lún] - ruota panoramica
+ 早午餐 - [zǎo wǔ cān] - brunch
+ 棉花糖 - [mián huā táng] - zucchero filato
+ 橙色 - [chéng sè] - arancione
+ 油 - [yóu] - unto
+ 滑梯 - [huá tī] - scivolo
+ 炸鸡 - [zhà jī] - pollo fritto
+ 玩具熊 - [wán jù xióng] - orsetto
+ 疯狂 - [fēng kuáng] - pazzo
+ 睁开 - [zhēng kāi] - aprire
+ 胆小 - [dǎn xiǎo] - timido
+ 跳楼机 - [tiào lóu jī] - torre di caduta
+ 过山车 - [guò shān chē] - montagne russe
+ 速度 - [sù dù] - velocità
+ 项目 - [xiàng mù] - attrazione
+127 Business 2 Parla di futuro e cambiamenti aziendali
+ 一开始 - [yī kāi shǐ] - all'inizio
+ 兼职 - [jiān zhí] - lavoro part-time
+ 分店 - [fēn diàn] - filiale
+ 千万 - [qiān wàn] - dieci milioni
+ 卫生 - [wèi shēng] - igiene
+ 台湾 - [tái wān] - Taiwan
+ 国内 - [guó nèi] - domestica, domestiche, domestico
+ 市场 - [shì chǎng] - mercato
+ 开 - [kāi] - prescrive, aprire, prescritto, prescrivere, fiorisce
+ 招 - [zhāo] - assumere
+ 收入 - [shōu rù] - reddito
+ 更新 - [gèng xīn] - aggiornare
+ 泰语 - [tài yǔ] - tailandese
+ 澳门 - [ào mén] - Macao
+ 点心 - [diǎn xīn] - dim sum
+ 理发店 - [lǐ fā diàn] - negozio di barbiere
+ 芝士 - [zhī shì] - formaggio
+ 行业 - [xíng yè] - settore
+ 讲价 - [jiǎng jià] - contrattare, contrattavo
+ 辛苦 - [xīn kǔ] - faticoso
+ 需求 - [xū qiú] - esigenza
+128 Celebrity2 Intervista una celebrità
+ 一块儿 - [yī kuài ér] - insieme
+ 一整年 - [yī zhěng nián] - un anno intero
+ 中餐 - [zhōng cān] - cibo cinese
+ 但 - [dàn] - ma
+ 凉快 - [liáng kuài] - fresco
+ 夜市 - [yè shì] - mercato notturno
+ 年初 - [nián chū] - inizio dell'anno
+ 愿望 - [yuàn wàng] - desiderio
+ 星星 - [xīng xīng] - stella
+ 模特 - [mó tè] - modello
+ 比如 - [bǐ rú] - per esempio
+ 洛杉矶 - [luò shān jī] - Los Angeles
+ 炒饭 - [chǎo fàn] - riso fritto
+ 理发 - [lǐ fā] - taglia, tagliavo, tagliare, tagliato
+ 电视台 - [diàn shì tái] - stazione televisiva
+ 直播 - [zhí bō] - trasmettere in diretta
+ 睡 - [shuì] - dormire
+ 调整 - [diào zhěng] - adattare
+ 采访 - [cǎi fǎng] - intervista
+ 金牌 - [jīn pái] - medaglia d'oro
+ 镇 - [zhèn] - cittadina
+129 Police Chiama la polizia
+ 可能 - [kě néng] - potrei
+ 响 - [xiǎng] - suonare
+ 安全 - [ān quán] - sicuro
+ 小心 - [xiǎo xīn] - fare attenzione
+ 录音 - [lù yīn] - registrazione
+ 打110 - [dǎ110] - chiamare il 110
+ 救命 - [jiù mìng] - aiuto
+ 是的 - [shì de] - sì
+ 枪 - [qiāng] - pistola
+ 监控 - [jiān kòng] - sorveglianza
+ 立刻 - [lì kè] - immediatamente
+ 紧急情况 - [jǐn jí qíng kuàng] - emergenza
+ 街区 - [jiē qū] - isolato
+ 警察 - [jǐng chá] - polizia
+ 警察局 - [jǐng chá jú] - stazione di polizia
+ 证据 - [zhèng jù] - prova
+ 调查 - [diào chá] - indagine, indagare
+ 逃跑 - [táo pǎo] - scappare
+ 陌生人 - [mò shēng rén] - sconosciuto
+ 骗 - [piàn] - ingannare
+130 Cultures Parla di culture diverse
+ 丰富 - [fēng fù] - ricco
+ 人口 - [rén kǒu] - popolazione
+ 亿 - [yì] - cento milioni
+ 代表 - [dài biǎo] - rappresentare
+ 十分 - [shí fēn] - molto
+ 圣诞节 - [shèng dàn jié] - Natale
+ 地区 - [de qū] - zona
+ 夏令营 - [xià lìng yíng] - campo estivo
+ 多伦多 - [duō lún duō] - Toronto
+ 干燥 - [gàn zào] - secco
+ 握手 - [wò shǒu] - stringere la mano, stretta di mano
+ 时差 - [shí chà] - fuso orario
+ 气候 - [qì hòu] - clima
+ 波兰 - [bō lán] - polacche, polacca, polacco, Polonia
+ 特别是 - [tè bié shì] - soprattutto
+ 确实 - [què shí] - davvero
+ 礼堂 - [lǐ táng] - auditorium
+ 西方 - [xī fāng] - occidentale
+ 误解 - [wù jiě] - malinteso
+ 贺卡 - [hè kǎ] - biglietto di auguri
+ 超过 - [chāo guò] - superare
+ 面积 - [miàn jī] - superficie
+ 马来西亚 - [mǎ lái xī yà] - Malesia
+131 job interview Talenti: Racconta i tuoi talenti
+ 一流 - [yī liú] - di prima classe
+ 不断 - [bù duàn] - continuo
+ 候选资格 - [hòu xuǎn zī gé] - candidatura
+ 出色 - [chū sè] - eccellente
+ 告知 - [gào zhī] - Comunicare
+ 品质 - [pǐn zhì] - qualità
+ 唯一 - [wéi yī] - unico
+ 培训 - [péi xùn] - formazione
+ 学科 - [xué kē] - materia
+ 心态 - [xīn tài] - stato mentale
+ 总结 - [zǒng jié] - riepilogo
+ 想象力 - [xiǎng xiàng lì] - immaginazione
+ 成就 - [chéng jiù] - Risultato, Risultati
+ 技能 - [jì néng] - abilità
+ 护理 - [hù lǐ] - assistenza
+ 掌握 - [zhǎng wò] - padroneggiare
+ 有天分 - [yǒu tiān fēn] - talentuoso
+ 有经验 - [yǒu jīng yàn] - esperto
+ 有能力 - [yǒu néng lì] - capace
+ 老实 - [lǎo shí] - onesto
+ 规划 - [guī huà] - pianificazione
+ 证书 - [zhèng shū] - certificato
+ 销售 - [xiāo shòu] - vendita
+132 outdoor activities Natura: Descrivi come ti senti in natura
+ 增长 - [zēng zhǎng] - aumentare
+ 帐篷 - [zhàng péng] - tenda
+ 度过 - [dù guò] - Trascorrere
+ 心里 - [xīn lǐ] - nel cuore
+ 愉快 - [yú kuài] - piacevole
+ 感知 - [gǎn zhī] - percezione, consapevolezza, cognizione, sensazione, percepire, avvertire
+ 晒 - [shài] - prendere il sole
+ 有效 - [yǒu xiào] - efficace
+ 活跃 - [huó yuè] - attivo
+ 清醒 - [qīng xǐng] - sveglio
+ 湖边 - [hú biān] - riva del lago
+ 登山 - [dēng shān] - alpinismo, scalata, arrampicata, escursionismo, escursione
+ 精力 - [jīng lì] - energia
+ 脸色 - [liǎn sè] - espressione del viso
+ 脾气 - [pí qì] - carattere
+ 自然 - [zì rán] - natura
+ 越 - [yuè] - più
+ 闷热 - [mèn rè] - afoso
+ 露台 - [lù tái] - terrazzo
+ 风 - [fēng] - vento
+133 gossip and rumors Notizie: Parla di una novità a scuola
+ 上级 - [shàng jí] - superiore
+ 个别 - [gè bié] - singolo
+ 优雅 - [yōu yǎ] - elegante
+ 保密 - [bǎo mì] - mantenere, mantieni, manteniamo
+ 傻 - [shǎ] - sciocco
+ 外表 - [wài biǎo] - aspetto
+ 帅哥 - [shuài gē] - bel ragazzo
+ 来源 - [lái yuán] - fonte
+ 样子 - [yàng zi] - aspetto
+ 美女 - [měi nǚ] - bella donna
+ 胡子 - [hú zi] - barba
+ 自私 - [zì sī] - egoista
+ 著名 - [zhe míng] - famoso
+ 规模 - [guī mó] - scala
+ 详细 - [xiáng xì] - dettagliato
+ 身材 - [shēn cái] - figura
+ 迷人 - [mí rén] - affascinante
+ 迷信 - [mí xìn] - superstizioso
+ 震惊 - [zhèn jīng] - scioccato
+ 骗子 - [piàn zi] - truffatore
+134 daily routines Routine: Descrivi la tua routine
+ 下课 - [xià kè] - finire la lezione, terminare la lezione, uscire da lezione, concludere la lezione
+ 久 - [jiǔ] - lungo
+ 之后 - [zhī hòu] - dopo
+ 休闲活动 - [xiū xián huó dòng] - attività ricreative
+ 减压 - [jiǎn yā] - decomprimere, ridurre la pressione, alleviare lo stress, rilassarsi, sgonfiare, rilassamento, scaricare lo stress, distendersi
+ 反思 - [fǎn sī] - riflettere
+ 多长 - [duō zhǎng] - quanto
+ 大型 - [dà xíng] - di grande scala
+ 帮手 - [bāng shǒu] - aiutante
+ 延长 - [yán zhǎng] - prolungare, estendere, allungare, protrarre, dilatare
+ 强大 - [qiáng dà] - forte
+ 慢慢 - [màn màn] - lentamente
+ 日常 - [rì cháng] - quotidianità
+ 时 - [shí] - momento
+ 渐渐 - [jiàn jiàn] - gradualmente
+ 盒饭 - [hé fàn] - pasto in scatola
+ 竟然 - [jìng rán] - incredibilmente
+ 艰难 - [jiān nán] - difficile
+ 课程 - [kè chéng] - corso
+ 这样 - [zhè yàng] - così
+ 配合 - [pèi hé] - collaborare
+135 destinations Viaggio: Parla dei prezzi dei biglietti
+ 亲自 - [qīn zì] - personalmente
+ 伙伴 - [huǒ bàn] - compagno
+ 体验 - [tǐ yàn] - Esperienza
+ 冻 - [dòng] - congelare
+ 古迹 - [gǔ jī] - sito storico
+ 商店 - [shāng diàn] - negozio
+ 早起 - [zǎo qǐ] - alzo, alzi, alzate
+ 机票 - [jī piào] - biglietto aereo
+ 机长 - [jī zhǎng] - comandante
+ 汇率 - [huì lǜ] - tasso di cambio
+ 海滨城市 - [hǎi bīn chéng shì] - città costiera
+ 特产 - [tè chǎn] - specialità
+ 碰上 - [pèng shàng] - incontrare, imbattersi in, scontrarsi con, capitare
+ 至今 - [zhì jīn] - fino ad ora
+ 航空公司 - [háng kōng gōng sī] - compagnia aerea
+ 落下 - [luò xià] - cadere, caduta, scendere, precipitare, calare, staccarsi
+ 街道 - [jiē dào] - strada
+ 限制 - [xiàn zhì] - limitare
+ 雪山 - [xuě shān] - montagna innevata
+ 风味 - [fēng wèi] - sapore
+136 professional life Riunioni: Partecipa a una riunione
+ 不当 - [bù dāng] - inappropriato
+ 专门 - [zhuān mén] - specificamente
+ 主管 - [zhǔ guǎn] - responsabile
+ 代替 - [dài tì] - sostituire, rimpiazzare, prendere il posto di, sostituto, alternativa
+ 会计 - [huì jì] - contabilità
+ 会议 - [huì yì] - riunione
+ 做笔记 - [zuò bǐ jì] - prendere appunti, annotare, fare appunti
+ 充分 - [chōng fēn] - sufficiente
+ 回答 - [huí dá] - risposta
+ 团队 - [tuán duì] - team
+ 存在 - [cún zài] - esistere
+ 广 - [guǎng] - ampio
+ 强调 - [qiáng diào] - enfatizzare
+ 怀疑 - [huái yí] - dubitavo
+ 标准 - [biāo zhǔn] - standard
+ 片面 - [piàn miàn] - parziale
+ 电子邮箱 - [diàn zi yóu xiāng] - posta elettronica
+ 等下 - [děng xià] - tra poco
+ 观点 - [guān diǎn] - punto di vista
+ 重点 - [zhòng diǎn] - punto chiave
+137 moving Trasloco: Chiedi aiuto con le scatole
+ 下楼 - [xià lóu] - scendere, scendono
+ 书柜 - [shū guì] - libreria
+ 使劲 - [shǐ jìn] - sforzarsi, fare uno sforzo, impegnarsi, spingere, tirare
+ 另一边 - [lìng yī biān] - dall'altra parte
+ 堆 - [duī] - impilare
+ 外边 - [wài biān] - fuori
+ 当天 - [dāng tiān] - quel giorno
+ 抬 - [tái] - sollevare
+ 抽 - [chōu] - estrarre
+ 拖 - [tuō] - trascinare
+ 搬家公司 - [bān jiā gōng sī] - ditta di traslochi
+ 有些 - [yǒu xiē] - alcune
+ 架子 - [jià zi] - scaffale
+ 照看 - [zhào kàn] - cura
+ 箱 - [xiāng] - scatola
+ 装 - [zhuāng] - mettere
+ 转移 - [zhuǎn yí] - spostare
+ 运输 - [yùn shū] - trasportare
+ 随手 - [suí shǒu] - senza fatica
+ 面包车 - [miàn bāo chē] - furgone
+138 first aid Emergenza: Chiedi se serve un medico
+ 从而 - [cóng ér] - così, in tal modo, perciò, quindi, di conseguenza, come risultato, in modo da
+ 伤口 - [shāng kǒu] - ferita
+ 判断 - [pàn duàn] - giudicare
+ 刺 - [cì] - spina
+ 可能性 - [kě néng xìng] - possibilità
+ 居然 - [jū rán] - addirittura
+ 忽视 - [hū shì] - ignorare
+ 思考 - [sī kǎo] - Pensare
+ 急救箱 - [jí jiù xiāng] - kit di pronto soccorso
+ 患者 - [huàn zhě] - paziente
+ 掉 - [diào] - cadere
+ 摔 - [shuāi] - cadere
+ 攻击 - [gōng jī] - attaccare
+ 晕倒 - [yūn dào] - svenire, perdere i sensi, collassare, svenimento
+ 曾 - [céng] - una volta
+ 滑 - [huá] - scivolare
+ 目击者 - [mù jī zhě] - testimone
+ 着火 - [zhe huǒ] - prendere fuoco, incendiarsi, accendersi, infiammarsi
+ 认为 - [rèn wèi] - ritenere
+ 评估 - [píng gū] - valutare
+139 storytelling Ricordi: Racconta un ricordo difficile
+ 不时 - [bù shí] - di tanto in tanto
+ 借口 - [jiè kǒu] - scusa
+ 冲动 - [chōng dòng] - impulsivo
+ 动机 - [dòng jī] - motivazione
+ 勇气 - [yǒng qì] - coraggio
+ 单独 - [dān dú] - da solo
+ 却 - [què] - invece
+ 可惜 - [kě xī] - peccato
+ 回忆 - [huí yì] - ricordi
+ 大胆 - [dà dǎn] - coraggioso
+ 年纪 - [nián jì] - età
+ 感激 - [gǎn jī] - grati
+ 抛弃 - [pāo qì] - abbandonare
+ 撒谎 - [sā huǎng] - mentire, Mentire
+ 教室 - [jiào shì] - aula
+ 模仿 - [mó fǎng] - imitare
+ 痛苦 - [tòng kǔ] - doloroso
+ 真相 - [zhēn xiāng] - verità
+ 眼泪 - [yǎn lèi] - lacrima
+ 粗心 - [cū xīn] - distratto
+ 误会 - [wù huì] - malinteso
+ 面子 - [miàn zi] - faccia, onore, prestigio, dignità, rispetto, considerazione
+ 领导 - [lǐng dǎo] - guidare
+140 restaurant experiences Ristorante: Parla dei posti a sedere
+ 上周 - [shàng zhōu] - la settimana scorsa
+ 上次 - [shàng cì] - la volta scorsa
+ 上菜 - [shàng cài] - servire, portare il cibo, presentare il piatto
+ 串 - [chuàn] - catena, sfilza, gruppo, fila, spiedino, serie, mazzo, grappolo, treccia
+ 优美 - [yōu měi] - armonioso
+ 位子 - [wèi zi] - posto
+ 元素 - [yuán sù] - elemento
+ 剩下 - [shèng xià] - rimanenti
+ 吸引人 - [xī yǐn rén] - attraente
+ 味儿 - [wèi ér] - sapore
+ 城里 - [chéng lǐ] - in città
+ 够大 - [gòu dà] - abbastanza grande
+ 新开 - [xīn kāi] - appena aperto
+ 新颖 - [xīn yǐng] - originale
+ 点单 - [diǎn dān] - ordinare, fare un ordine, prendere l'ordine
+ 甜品 - [tián pǐn] - dessert
+ 究竟 - [jiū jìng] - davvero
+ 等到 - [děng dào] - aspettare fino a
+ 靠窗 - [kào chuāng] - vicino alla finestra
+ 食材 - [shí cái] - ingrediente
+141 getting a haircut / salon Capelli: Descrivi il tuo taglio di capelli
+ 两边 - [liǎng biān] - entrambe le parti
+ 亮 - [liàng] - luminoso
+ 保养 - [bǎo yǎng] - manutenzione
+ 刮 - [guā] - radere
+ 剪发 - [jiǎn fā] - tagliare i capelli, taglio di capelli, taglio
+ 发色 - [fā sè] - colore dei capelli
+ 吹风机 - [chuī fēng jī] - asciugacapelli
+ 大约 - [dà yuē] - circa
+ 感觉 - [gǎn jué] - sensazione
+ 护发素 - [hù fā sù] - balsamo per capelli
+ 沙龙 - [shā lóng] - salone
+ 烫 - [tàng] - fare la permanente
+ 照镜子 - [zhào jìng zi] - guardarsi allo specchio, specchiarsi, vedersi allo specchio, darsi un'occhiata allo specchio, controllarsi allo specchio
+ 理发师 - [lǐ fā shī] - barbiere
+ 留 - [liú] - rimasto, tenere, lasciare, resti, rimanere, restato
+ 直发 - [zhí fā] - capelli lisci
+ 短发 - [duǎn fā] - capelli corti
+ 肩膀 - [jiān bǎng] - spalla
+ 脸颊 - [liǎn jiá] - guancia
+ 说明 - [shuō míng] - spiegazione
+142 self-expression Stile: Esprimi il tuo stile
+ 不安 - [bù ān] - ansioso
+ 不必 - [bù bì] - non dovere
+ 从未 - [cóng wèi] - mai
+ 偏 - [piān] - piuttosto
+ 博客 - [bó kè] - blog
+ 只有 - [zhǐ yǒu] - solo
+ 品味 - [pǐn wèi] - gusto
+ 坏处 - [huài chù] - svantaggio
+ 对吧 - [duì ba] - vero
+ 并 - [bìng] - non
+ 恨 - [hèn] - odiare
+ 指甲 - [zhǐ jiǎ] - unghia
+ 搭配 - [dā pèi] - abbinare
+ 方式 - [fāng shì] - modo
+ 早就 - [zǎo jiù] - già
+ 棉 - [mián] - cotone
+ 眼光 - [yǎn guāng] - sguardo, occhio, giudizio, discernimento, visione, gusto, capacità di giudizio
+ 缺乏 - [quē fá] - mancare
+ 美术 - [měi shù] - arte
+ 羽绒服 - [yǔ róng fú] - piumino
+ 这样 - [zhè yàng] - così
+143 games Squadra: Descrivi gli allenamenti
+ 专注 - [zhuān zhù] - concentrato
+ 入门 - [rù mén] - introduzione
+ 冒险 - [mào xiǎn] - rischiare
+ 发音 - [fā yīn] - pronuncia
+ 叫 - [jiào] - chiamare
+ 善于 - [shàn yú] - bravo a
+ 团队合作 - [tuán duì hé zuò] - lavoro di squadra
+ 对手 - [duì shǒu] - avversario
+ 平局 - [píng jú] - pareggio
+ 手游 - [shǒu yóu] - gioco mobile
+ 抽牌 - [chōu pái] - pesco, pescare
+ 玩家 - [wán jiā] - giocatore
+ 策略 - [cè lüè] - strategia
+ 紧张 - [jǐn zhāng] - nervoso
+ 组队 - [zǔ duì] - fare
+ 起来 - [qǐ lái] - si alza, alza
+ 轮到 - [lún dào] - turno, toccato, toccherà, spetta
+ 进步 - [jìn bù] - migliorare
+ 队友 - [duì yǒu] - compagno di squadra
+ 领导力 - [lǐng dǎo lì] - leadership
+144 eating habits Pranzo: Parla delle tue abitudini a pranzo
+ 主食 - [zhǔ shí] - alimento base
+ 划 - [huà] - tagliare
+ 创造力 - [chuàng zào lì] - creatività
+ 利用 - [lì yòng] - utilizzarlo
+ 午餐 - [wǔ cān] - pranzo
+ 原创 - [yuán chuàng] - originale
+ 各种 - [gè zhǒng] - varie
+ 啦 - [la] - allora, dai, eh, va bene, su, ormai, già, finalmente
+ 垃圾食品 - [lā jī shí pǐn] - cibo spazzatura
+ 应用 - [yīng yòng] - applicazione
+ 物价 - [wù jià] - prezzo
+ 甜食 - [tián shí] - dolce
+ 电饭锅 - [diàn fàn guō] - cuociriso elettrico
+ 类似 - [lèi shì] - simile
+ 美味 - [měi wèi] - delizioso
+ 聚会 - [jù huì] - festa
+ 节省 - [jié shěng] - risparmiare
+ 薯条 - [shǔ tiáo] - patatina fritta, patatine fritte, patatina, patatine
+ 颗 - [kē] - pezzo
+ 饼 - [bǐng] - torte, torta
+145 commuting Pendolarismo: Descrivi il tuo tragitto
+ 塞车 - [sāi chē] - ingorgo
+ 巴士 - [bā shì] - autobus
+ 恰好 - [qià hǎo] - proprio
+ 抱怨 - [bào yuàn] - lamentela
+ 施工 - [shī gōng] - costruzione, esecuzione dei lavori, realizzazione, lavori edilizi, lavori, lavori in corso, lavori stradali
+ 早班车 - [zǎo bān chē] - autobus mattutino
+ 早餐 - [zǎo cān] - colazione
+ 来不及 - [lái bù jí] - non fare in tempo, non riuscire a, non avere il tempo di, essere troppo tardi per, non bastare il tempo per, non riuscire a fare in tempo, non arrivare in tempo, non farcela
+ 来得及 - [lái dé jí] - fare in tempo, riuscire a, arrivare in tempo, essere in tempo, essere in tempo per, avere il tempo di
+ 糟糕 - [zāo gāo] - pessimo
+ 表 - [biǎo] - orologio
+ 货车 - [huò chē] - camion
+ 赶上 - [gǎn shàng] - raggiungere, prendere, recuperare, arrivare a, incontrare, riuscire a prendere, arrivare in tempo per
+ 赶紧 - [gǎn jǐn] - subito
+ 车站 - [chē zhàn] - stazione
+ 进站 - [jìn zhàn] - entrare nella stazione
+ 通勤 - [tōng qín] - fare il pendolare
+ 醒 - [xǐng] - svegliarsi
+ 隧道 - [suì dào] - tunnel
+ 雨 - [yǔ] - pioggia
+ 高峰期 - [gāo fēng qī] - ora di punta
+146 social media Messaggi: Condividi la tua esperienza
+ 交接 - [jiāo jiē] - consegna, passaggio, trasferimento, raccordo, interfaccia, trasferimento di responsabilità, passaggio di consegne
+ 人生 - [rén shēng] - vita
+ 从小 - [cóng xiǎo] - fin da piccolo
+ 圈子 - [quān zi] - cerchia
+ 坚强 - [jiān qiáng] - forte
+ 家庭 - [jiā tíng] - famiglia
+ 帖子 - [tiē zi] - post
+ 康复 - [kāng fù] - guarire
+ 怀念 - [huái niàn] - ricordare
+ 感到 - [gǎn dào] - sentire
+ 成熟 - [chéng shú] - maturo
+ 承诺 - [chéng nuò] - promessa
+ 无奈 - [wú nài] - impotente
+ 替 - [tì] - sostituire, sostituirsi, sostituzione
+ 玫瑰花 - [méi guī huā] - rosa
+ 留言 - [liú yán] - Messaggi
+ 祝福 - [zhù fú] - benedizione
+ 般配 - [bān pèi] - adatto, compatibile, corrispondente, appropriato, abbinato, perfetto, ideale
+ 转告 - [zhuǎn gào] - trasmetterò, trasmetta, Trasmetterò, Trasmettere, trasmetti
+ 那天 - [nà tiān] - quel giorno
+147 extreme weather events Clima: Parla dei cambiamenti climatici
+ 不停 - [bù tíng] - continuamente
+ 不免 - [bù miǎn] - inevitabilmente
+ 不可避免 - [bù kě bì miǎn] - inevitabile
+ 严重 - [yán zhòng] - grave
+ 再三 - [zài sān] - più volte
+ 台风 - [tái fēng] - tifone
+ 呀 - [ya] - Ahia
+ 增大 - [zēng dà] - aumentare
+ 强度 - [qiáng dù] - intensità
+ 彻底 - [chè dǐ] - completamente
+ 无限 - [wú xiàn] - illimitato
+ 早晚 - [zǎo wǎn] - prima o poi
+ 明明 - [míng míng] - chiaramente
+ 显然 - [xiǎn rán] - ovviamente
+ 极其 - [jí qí] - estremamente
+ 洪水 - [hóng shuǐ] - inondazione
+ 的确 - [de què] - davvero
+ 进一步 - [jìn yī bù] - più approfonditamente
+ 闪电 - [shǎn diàn] - lampo
+ 阴天 - [yīn tiān] - nuvoloso
+148 disability La squadra: Sostieni i tuoi compagni
+ 义务 - [yì wù] - obbligo
+ 争取 - [zhēng qǔ] - sforzo, Sforzarsi, si sforza, sforzarsi
+ 交流 - [jiāo liú] - Comunicare, comunicare, comunicate
+ 体能 - [tǐ néng] - forma fisica
+ 包容 - [bāo róng] - accogliere, accogliersi, Accogliere
+ 台阶 - [tái jiē] - scalinata
+ 同伴 - [tóng bàn] - compagno
+ 听力 - [tīng lì] - ascolto
+ 大众 - [dà zhòng] - pubblico
+ 批评 - [pī píng] - criticato
+ 承受 - [chéng shòu] - sopportare
+ 把手 - [bǎ shǒu] - maniglia
+ 报答 - [bào dá] - ricambiare
+ 支持 - [zhī chí] - sostenere
+ 放大 - [fàng dà] - Ingrandire, ingrandire
+ 有价值 - [yǒu jià zhí] - prezioso
+ 有残疾 - [yǒu cán jí] - avere una disabilità
+ 灰心 - [huī xīn] - scoraggiato
+ 虚心 - [xū xīn] - umile
+ 训练 - [xùn liàn] - allenamento
+ 音量 - [yīn liàng] - volume
+149 hobbies Museo: Descrivi il tuo museo ideale
+ 专业 - [zhuān yè] - professionale
+ 以及 - [yǐ jí] - e, nonché, oltre a, insieme a, così come, anche
+ 倒是 - [dào shì] - invece
+ 口语 - [kǒu yǔ] - lingua parlata, linguaggio parlato, lingua orale, parlato, espressione orale
+ 天文 - [tiān wén] - astronomia
+ 太空 - [tài kōng] - spazio
+ 射箭 - [shè jiàn] - tiro con l'arco, tirare con l'arco
+ 抬头 - [tái tóu] - alzare la testa, sollevare la testa, rialzare la testa, alzare lo sguardo, sollevare lo sguardo, guardare in alto, rialzarsi
+ 搭档 - [dā dàng] - compagno
+ 模型 - [mó xíng] - modello
+ 相声 - [xiāng shēng] - dialogo comico, sketch comico, commedia dialogata, spettacolo di cabaret, programma di cabaret
+ 知识 - [zhī shì] - conoscenza
+ 积累 - [jī lèi] - accumulare
+ 符号 - [fú hào] - simbolo
+ 草原 - [cǎo yuán] - prateria
+ 藏品 - [cáng pǐn] - collezione
+ 记忆 - [jì yì] - memoria
+ 近代 - [jìn dài] - moderno
+ 雕塑家 - [diāo sù jiā] - scultore
+ 骑马 - [qí mǎ] - andare a cavallo, cavalcare, montare a cavallo, fare equitazione
+150 film Sogni: Racconta un sogno
+ 世界 - [shì jiè] - mondo
+ 似的 - [shì de] - come, Come
+ 像 - [xiàng] - assomiglia, like, come, somigliano, assomigli, assomiglio
+ 品种 - [pǐn zhǒng] - varietà
+ 嗓音 - [sǎng yīn] - voce
+ 外星人 - [wài xīng rén] - extraterrestre
+ 巨人 - [jù rén] - gigante
+ 恐惧 - [kǒng jù] - paura
+ 悲剧 - [bēi jù] - tragedia
+ 战斗 - [zhàn dòu] - battaglia
+ 梦 - [mèng] - sogno
+ 沉 - [chén] - affonda
+ 法庭 - [fǎ tíng] - tribunale
+ 猜不到 - [cāi bù dào] - indovinare
+ 猜到 - [cāi dào] - indovinare, indovinato
+ 界限 - [jiè xiàn] - limite
+ 童话 - [tóng huà] - fiaba
+ 细 - [xì] - sottile
+ 结尾 - [jié wěi] - finale
+ 联想 - [lián xiǎng] - Associazione, un'associazione
+ 题材 - [tí cái] - tema
+ 魔法 - [mó fǎ] - magia
+151 sports Atletica: Parla delle tue capacità
+ 之间 - [zhī jiān] - Tra
+ 仿佛 - [fǎng fú] - come se
+ 体力 - [tǐ lì] - forza fisica
+ 典型 - [diǎn xíng] - tipico
+ 吸引力 - [xī yǐn lì] - attrattiva
+ 天赋 - [tiān fù] - talento
+ 形状 - [xíng zhuàng] - forma
+ 技巧 - [jì qiǎo] - tecnica
+ 整体 - [zhěng tǐ] - complessivo
+ 新型 - [xīn xíng] - nuovo
+ 棍 - [gùn] - bastone
+ 熟练 - [shú liàn] - abile
+ 裁判 - [cái pàn] - arbitro
+ 讲究 - [jiǎng jiū] - attento
+ 跑道 - [pǎo dào] - pista
+ 距离 - [jù lí] - distanza
+ 跟 - [gēn] - con, tacco
+ 身高 - [shēn gāo] - altezza
+ 迅速 - [xùn sù] - rapido
+ 重量 - [zhòng liàng] - peso
+ 队长 - [duì zhǎng] - capitano
+ 难度 - [nán dù] - difficoltà
+ 高大 - [gāo dà] - alto
+152 celebrations Festa: Decora la sala per la festa
+ 一同 - [yī tóng] - insieme
+ 到时候 - [dào shí hòu] - quando sarà il momento
+ 即将 - [jí jiāng] - sta per, stanno per
+ 发布 - [fā bù] - pubblicato
+ 吹 - [chuī] - suonare
+ 娱乐 - [yú lè] - intrattenimento
+ 家乡 - [jiā xiāng] - paese natale
+ 宾馆 - [bīn guǎn] - albergo
+ 当选 - [dāng xuǎn] - Eletto, eletta, eletto
+ 抽奖 - [chōu jiǎng] - lotteria
+ 拍摄 - [pāi shè] - Scattare, scattare
+ 招待 - [zhāo dài] - accolto, Accogliere, accoglierò, accoglierti
+ 摄影师 - [shè yǐng shī] - fotografo
+ 烟花 - [yān huā] - fuoco d'artificio
+ 特地 - [tè de] - appositamente
+ 聚集 - [jù jí] - radunano, radunati, raduneremo
+ 装饰 - [zhuāng shì] - decorazioni
+ 许愿 - [xǔ yuàn] - Esprimerai, esprimi, Esprimere, Esprimo, esprime, esprimiamo
+ 设置 - [shè zhì] - impostare
+ 赠送 - [zèng sòng] - Regalo
+ 餐 - [cān] - pasto
+153 traffic Traffico: Chiedi come va il traffico
+ 交警 - [jiāo jǐng] - vigile urbano
+ 交通规则 - [jiāo tōng guī zé] - regola del traffico
+ 假如 - [jiǎ rú] - Se
+ 允许 - [yǔn xǔ] - permettono, permesso, permetta, permette
+ 公路 - [gōng lù] - strada
+ 减速 - [jiǎn sù] - rallentare
+ 刹车 - [shā chē] - frenato, Frenata, frenare, Frenare
+ 前方 - [qián fāng] - davanti
+ 区域 - [qū yù] - zona
+ 十字路口 - [shí zì lù kǒu] - incrocio
+ 卡车 - [kǎ chē] - camion
+ 宁愿 - [níng yuàn] - preferirebbe
+ 手势 - [shǒu shì] - gesto
+ 批准 - [pī zhǔn] - approveranno, Approvare, approva, approverà, approvato
+ 指责 - [zhǐ zé] - accusare
+ 标志 - [biāo zhì] - segno
+ 注意到 - [zhù yì dào] - accorgersi
+ 示意 - [shì yì] - indicato, Indicare, indicare, indica
+ 行人 - [xíng rén] - pedone
+ 赶时间 - [gǎn shí jiān] - fretta
+154 aging Famiglia: Parla dei ricordi d’infanzia
+ 上 - [shàng] - frequenta, porta, su, sulla, sali, frequenti, frequentavamo, frequentiamo, frequentavo, frequento, frequentare, salire, frequentato, frequentava, frequentavano, frequentano, up
+ 下去 - [xià qù] - scendere, scendiamo giù
+ 下来 - [xià lái] - scendi, sceso
+ 中年 - [zhōng nián] - mezza età
+ 亲切 - [qīn qiè] - gentili
+ 代 - [dài] - generazione
+ 保存 - [bǎo cún] - salvare
+ 全家福 - [quán jiā fú] - ritratto di famiglia
+ 友情 - [yǒu qíng] - amicizia
+ 团圆 - [tuán yuán] - riunirsi, si riunisca
+ 子女 - [zi nǚ] - figli, discendenti, prole
+ 平衡 - [píng héng] - bilanciare, equilibrio
+ 成长 - [chéng zhǎng] - crescere
+ 捡 - [jiǎn] - raccogliere
+ 淘气 - [táo qì] - birichino
+ 特 - [tè] - molto
+ 玩水 - [wán shuǐ] - bagnarsi, divertirsi al mare, fare il bagno, divertirsi in piscina, giocare in acqua, giocare con l'acqua, divertirsi in acqua, sguazzare
+ 知足 - [zhī zú] - soddisfatto
+ 道理 - [dào lǐ] - ragione
+ 陪伴 - [péi bàn] - accompagnare
+155 family structure Carattere: Descrivi la tua routine
+ 丈夫 - [zhàng fū] - marito
+ 亲情 - [qīn qíng] - affetto familiare
+ 分配 - [fēn pèi] - assegnare
+ 单亲 - [dān qīn] - monogenitoriale
+ 和睦 - [hé mù] - armonioso
+ 地位 - [de wèi] - posizione
+ 堂哥 - [táng gē] - cugino paterno maggiore
+ 天真 - [tiān zhēn] - ingenuo
+ 女性 - [nǚ xìng] - donna
+ 强迫 - [qiáng pò] - costringe, costringo, costringono
+ 有序 - [yǒu xù] - ordinato
+ 有空 - [yǒu kōng] - tempo libero
+ 温馨 - [wēn xīn] - calorosa, calorosi, caloroso
+ 特点 - [tè diǎn] - caratteristica
+ 男性 - [nán xìng] - maschio
+ 监护人 - [jiān hù rén] - tutore
+ 资助 - [zī zhù] - sostenere
+ 那样 - [nà yàng] - in quel modo
+ 长辈 - [zhǎng bèi] - anziani
+ 马虎 - [mǎ hǔ] - distratto
+156 directions Luoghi: Chiedi indicazioni stradali
+ 主干道 - [zhǔ gàn dào] - strada principale
+ 人行横道 - [rén xíng héng dào] - strisce pedonali
+ 到达 - [dào dá] - arrivare
+ 前头 - [qián tóu] - davanti
+ 加油站 - [jiā yóu zhàn] - stazione di servizio
+ 北 - [běi] - nord
+ 南 - [nán] - sud
+ 地点 - [de diǎn] - luogo
+ 天桥 - [tiān qiáo] - sovrappasso
+ 定位 - [dìng wèi] - localizzare
+ 宽阔 - [kuān kuò] - ampio
+ 导航 - [dǎo háng] - navigare
+ 底 - [dǐ] - fondo
+ 指 - [zhǐ] - indicare
+ 直走 - [zhí zǒu] - andare dritto, procedere diritto, camminare dritto, andare avanti, continuare dritto
+ 说不定 - [shuō bù dìng] - forse
+ 路牌 - [lù pái] - cartello stradale
+ 路过 - [lù guò] - passato
+ 身边 - [shēn biān] - vicino
+ 转角 - [zhuǎn jiǎo] - angolo
+ 这儿 - [zhè ér] - qui
+ 问路 - [wèn lù] - chiedere indicazioni, chiedere la strada, domandare la via, chiedere informazioni stradali, fare domande sulla strada
+157 living spaces Casa: Descrivi la tua casa
+ 充足 - [chōng zú] - abbondante
+ 午睡 - [wǔ shuì] - pisolino, sonnellino, riposino, pennichella, siesta, riposo
+ 单调 - [dān diào] - monotono
+ 宽敞 - [kuān chǎng] - spazioso
+ 巨大 - [jù dà] - enorme
+ 建筑师 - [jiàn zhù shī] - architetto
+ 得意 - [dé yì] - orgoglioso
+ 打造 - [dǎ zào] - costruire, creare, realizzare, sviluppare, forgiare, allestire
+ 整洁 - [zhěng jié] - ordinato
+ 暗 - [àn] - buio
+ 朴素 - [pǔ sù] - semplice
+ 极小 - [jí xiǎo] - minimo
+ 牛 - [niú] - mucca, bovini, mucche, toro, buoi
+ 空 - [kōng] - vuoto
+ 突出 - [tū chū] - evidenziare
+ 翻新 - [fān xīn] - rinnovare, restaurare, ristrutturare, rinfrescare, ammodernare
+ 舒适 - [shū shì] - confortevole
+ 视野 - [shì yě] - vista
+ 长度 - [zhǎng dù] - lunghezza
+ 高度 - [gāo dù] - altezza
+158 sustainability Progetti: Parla dei tuoi progetti
+ 交通工具 - [jiāo tōng gōng jù] - mezzo di trasporto
+ 但愿 - [dàn yuàn] - speriamo
+ 例如 - [lì rú] - ad esempio
+ 充满希望 - [chōng mǎn xī wàng] - pieno di speranza
+ 创立 - [chuàng lì] - fondare, istituire, creare, stabilire, costituire, avviare
+ 培养 - [péi yǎng] - coltivare, sviluppare, educare, formare, promuovere
+ 大气层 - [dà qì céng] - atmosfera
+ 天然 - [tiān rán] - naturale
+ 实现 - [shí xiàn] - realizzare
+ 将 - [jiāng] - in futuro
+ 尝试 - [cháng shì] - provare
+ 总之 - [zǒng zhī] - in sintesi, In sintesi
+ 收购 - [shōu gòu] - acquisizione, acquisire, compra, comprare, acquisto, rilevamento, compravendita
+ 永久 - [yǒng jiǔ] - permanente
+ 热心 - [rè xīn] - entusiasta
+ 燃料 - [rán liào] - carburante
+ 生产 - [shēng chǎn] - produrre
+ 繁荣 - [fán róng] - prospero
+ 自愿 - [zì yuàn] - volontariamente
+ 行动 - [xíng dòng] - azione
+ 购物袋 - [gòu wù dài] - borsa della spesa
+159 weddings Nozze: Parla degli inviti alle nozze
+ 什么 - [shén me] - cosa
+ 什么时候 - [shén me shí hòu] - quando
+ 伴娘 - [bàn niáng] - damigella d'onore
+ 倒计时 - [dào jì shí] - conto alla rovescia
+ 哪儿 - [nǎ ér] - dove
+ 哪里 - [nǎ lǐ] - dove
+ 嘉宾 - [jiā bīn] - ospite
+ 场地 - [chǎng de] - luogo
+ 大事 - [dà shì] - evento importante
+ 接待 - [jiē dài] - accoglienza, ricevimento, ospitalità, accogliere, ricevere, ospitare
+ 未婚夫 - [wèi hūn fū] - promesso sposo
+ 未婚妻 - [wèi hūn qī] - fidanzata
+ 真心 - [zhēn xīn] - sinceramente
+ 策划 - [cè huà] - pianificazione
+ 精心 - [jīng xīn] - accuratamente
+ 经历 - [jīng lì] - esperienza
+ 舞会 - [wǔ huì] - ballo
+ 请帖 - [qǐng tiē] - invito
+ 谁 - [shéi] - chi
+ 造型师 - [zào xíng shī] - truccatore, parrucchiere, make-up artist, hair stylist
+ 难怪 - [nán guài] - non c'è da meravigliarsi
+160 free time Tempo libero: Organizza un incontro
+ 上门 - [shàng mén] - domicilio
+ 兄弟 - [xiōng dì] - fratello
+ 冠军赛 - [guān jūn sài] - campionato
+ 展览 - [zhǎn lǎn] - mostra
+ 感兴趣 - [gǎn xìng qù] - interessato
+ 戏剧 - [xì jù] - dramma
+ 扮演 - [bàn yǎn] - interpretare, recitare, impersonare, rappresentare, fare la parte di, assumere il ruolo di
+ 拍 - [pāi] - scattare
+ 拜访 - [bài fǎng] - visito, visitiamo, Visitiamo, visita, visitare
+ 摘 - [zhāi] - raccogliere
+ 散文 - [sàn wén] - prosa
+ 步行 - [bù xíng] - camminare
+ 点子 - [diǎn zi] - idea
+ 聚 - [jù] - radunarsi
+ 购物 - [gòu wù] - shopping
+ 逗 - [dòu] - divertire
+ 闲 - [xián] - libero
+ 阅读 - [yuè dú] - lettura
+ 随意 - [suí yì] - a piacimento
+ 鼓 - [gǔ] - batteria
+161 neighborhoods Quartiere: Parla degli abitanti
+ 保证 - [bǎo zhèng] - garantire
+ 信任 - [xìn rèn] - fiducia
+ 儿女 - [ér nǚ] - figli, figli e figlie
+ 公告栏 - [gōng gào lán] - bacheca
+ 协助 - [xié zhù] - assistere
+ 及时 - [jí shí] - tempestivamente
+ 可怜 - [kě lián] - poveretto
+ 大妈 - [dà mā] - signora anziana
+ 大爷 - [dà yé] - signore anziano
+ 宁静 - [níng jìng] - tranquillo
+ 居民 - [jū mín] - residente
+ 开幕 - [kāi mù] - apertura, inaugurazione, inizio
+ 慈善机构 - [cí shàn jī gòu] - organizzazione benefica
+ 电工 - [diàn gōng] - elettricista
+ 移民 - [yí mín] - immigrato
+ 诚恳 - [chéng kěn] - sincero
+ 负责人 - [fù zé rén] - responsabile
+ 随和 - [suí hé] - amichevole
+ 集合 - [jí hé] - riunirvi, riunione
+ 面包师 - [miàn bāo shī] - fornaio
+162 chores Pulizie: Organizza gli armadi
+ 刷 - [shuā] - spazzolare
+ 办公桌 - [bàn gōng zhuō] - scrivania
+ 夹子 - [jiā zi] - molletta
+ 尤其 - [yóu qí] - soprattutto
+ 明白 - [míng bái] - capisco, capito
+ 有条理 - [yǒu tiáo lǐ] - organizzato
+ 梯子 - [tī zi] - scala
+ 橱柜 - [chú guì] - mobiletto
+ 气味 - [qì wèi] - odore
+ 灰尘 - [huī chén] - polvere
+ 篮子 - [lán zi] - cesto
+ 股 - [gǔ] - ondata
+ 花瓶 - [huā píng] - vaso
+ 衣架 - [yī jià] - gruccia
+ 记事本 - [jì shì běn] - taccuino
+ 足够 - [zú gòu] - abbastanza
+ 锅盖 - [guō gài] - coperchio
+ 靠 - [kào] - appoggiarsi
+ 顺序 - [shùn xù] - ordine
+ 餐具 - [cān jù] - posate
+163 environmental features Ambiente: Spiega come riciclare oggetti
+ 丢弃 - [diū qì] - gettare, abbandonare, scartare, buttare, lasciare, eliminare, disfarsi di
+ 减少 - [jiǎn shǎo] - ridurre
+ 可再生 - [kě zài shēng] - rinnovabile
+ 叶子 - [yè zi] - foglia
+ 吸管 - [xī guǎn] - cannuccia
+ 回收 - [huí shōu] - riciclare
+ 地面 - [de miàn] - terreno
+ 塑料瓶 - [sù liào píng] - bottiglia di plastica
+ 岸边 - [àn biān] - riva
+ 必需 - [bì xū] - essenziale
+ 拔 - [bá] - estrarre
+ 故意 - [gù yì] - appositamente
+ 本地 - [běn de] - locale
+ 村民 - [cūn mín] - villaggio, abitante del villaggio, paesano, contadino, villager, residente
+ 泥土 - [ní tǔ] - terra
+ 清新 - [qīng xīn] - fresco
+ 稀有 - [xī yǒu] - raro
+ 节约 - [jié yuē] - Risparmiare
+ 贡献 - [gòng xiàn] - contribuire
+ 青蛙 - [qīng wā] - rana
+164 workplace communications Team: Accetta nuove idee nel gruppo
+ 不过 - [bù guò] - però
+ 乐意 - [lè yì] - disposto
+ 厂长 - [chǎng zhǎng] - direttore di fabbrica
+ 坦率 - [tǎn lǜ] - franco
+ 太好了 - [tài hǎo le] - che bello
+ 必须 - [bì xū] - dovere
+ 接受 - [jiē shòu] - accettare
+ 活力 - [huó lì] - energia
+ 流程 - [liú chéng] - processo
+ 满足 - [mǎn zú] - soddisfare
+ 激烈 - [jī liè] - intenso
+ 理性 - [lǐ xìng] - razionale
+ 电子邮件 - [diàn zi yóu jiàn] - email
+ 痛快 - [tòng kuài] - piacevole, soddisfacente, felice, contento, allegro, franco, diretto, aperto, sincero
+ 空乘 - [kōng chéng] - assistente di volo
+ 细心 - [xì xīn] - attento
+ 认可 - [rèn kě] - riconoscere
+ 让 - [ràng] - fare
+ 顾问 - [gù wèn] - consulente
+ 首先 - [shǒu xiān] - Prima, prima
+165 exercise routines Esercizio: Descrivi la tua routine
+ 一向 - [yī xiàng] - sempre
+ 一般 - [yī bān] - generale
+ 仍旧 - [réng jiù] - ancora
+ 再次 - [zài cì] - di nuovo
+ 呼吸 - [hū xī] - respiro
+ 基本 - [jī běn] - base
+ 很少 - [hěn shǎo] - raramente
+ 战胜 - [zhàn shèng] - sconfiggere
+ 描写 - [miáo xiě] - descrizione, descrivere, rappresentazione, ritratto, narrazione, illustrazione
+ 时时 - [shí shí] - costantemente
+ 普通 - [pǔ tōng] - normale
+ 有劲儿 - [yǒu jìn ér] - energico
+ 毅力 - [yì lì] - perseveranza
+ 注重 - [zhù zhòng] - si concentrano, si concentravano
+ 清晨 - [qīng chén] - prima mattina
+ 稳定 - [wěn dìng] - stabile
+ 耐力 - [nài lì] - resistenza
+ 规律 - [guī lǜ] - regolare, regolarità
+ 转身 - [zhuǎn shēn] - voltarsi, girarsi, girare, voltare, voltata
+ 通常 - [tōng cháng] - di solito
+166 babysitting Famiglia: Descrivi i membri della famiglia
+ 不禁 - [bù jìn] - non posso fare a meno di
+ 便条 - [biàn tiáo] - biglietto
+ 保姆 - [bǎo mǔ] - babysitter
+ 双胞胎 - [shuāng bāo tāi] - gemello
+ 可靠 - [kě kào] - affidabile
+ 同情 - [tóng qíng] - compatire
+ 吓 - [xià] - spaventare
+ 哄 - [hōng] - calmare
+ 喷 - [pēn] - spruzzare
+ 安心 - [ān xīn] - tranquillo
+ 安慰 - [ān wèi] - confortarlo, conforta, confortarla, confortare, conforterà
+ 家长 - [jiā zhǎng] - genitore
+ 心疼 - [xīn téng] - dispiace, dispiacerebbe, dispiaceva, dispiaciuto
+ 担忧 - [dān yōu] - preoccupazione
+ 敲 - [qiāo] - bussare
+ 注意力 - [zhù yì lì] - attenzione
+ 表情 - [biǎo qíng] - espressione
+ 闹 - [nào] - fare rumore
+ 饭 - [fàn] - pasto
+ 默默 - [mò mò] - silenziosamente
+167 crisis response Problemi: Rispondi a un'emergenza
+ 事故 - [shì gù] - incidente
+ 依靠 - [yī kào] - Affidarsi
+ 先后 - [xiān hòu] - in ordine
+ 办法 - [bàn fǎ] - modo
+ 启动 - [qǐ dòng] - avviarlo, avviare
+ 处理 - [chù lǐ] - gestire
+ 寻找 - [xún zhǎo] - cercare, cercando
+ 开关 - [kāi guān] - interruttore
+ 急忙 - [jí máng] - frettolosamente
+ 抢 - [qiǎng] - rubare
+ 指导 - [zhǐ dǎo] - guidare
+ 排除 - [pái chú] - escludere
+ 果断 - [guǒ duàn] - deciso
+ 检测 - [jiǎn cè] - controllare
+ 消防员 - [xiāo fáng yuán] - pompiere
+ 火柴 - [huǒ chái] - fiammifero
+ 电线 - [diàn xiàn] - cavo elettrico
+ 移 - [yí] - spostare
+ 缩小 - [suō xiǎo] - ridurre
+ 谨慎 - [jǐn shèn] - prudente
+ 连接 - [lián jiē] - collegare
+168 pharmacy Salute: Chiedi consigli al medico
+ 交代 - [jiāo dài] - spiegare, confessare, sostituire, incaricare, riferire, dare istruzioni, spiegare dettagliatamente
+ 以免 - [yǐ miǎn] - per evitare, affinché non, per non, onde evitare, per paura che, così da non
+ 内科 - [nèi kē] - medicina interna
+ 反应 - [fǎn yīng] - reazione
+ 号码 - [hào mǎ] - numero
+ 嘴唇 - [zuǐ chún] - labbra
+ 处方 - [chù fāng] - ricetta
+ 好转 - [hǎo zhuǎn] - migliorare
+ 定时 - [dìng shí] - programmato
+ 家属 - [jiā shǔ] - familiare
+ 店员 - [diàn yuán] - commesso
+ 报销 - [bào xiāo] - Rimborsare, Rimborso
+ 测试 - [cè shì] - test
+ 监测 - [jiān cè] - monitorare
+ 福利 - [fú lì] - benessere
+ 脑袋 - [nǎo dài] - testa
+ 药房 - [yào fáng] - farmacia
+ 诊断 - [zhěn duàn] - diagnosi
+ 过敏 - [guò mǐn] - allergia
+ 面对面 - [miàn duì miàn] - faccia a faccia
+169 public occasions Associazione: Partecipa agli incontri
+ 具体 - [jù tǐ] - specifico
+ 协会 - [xié huì] - associazione
+ 协商 - [xié shāng] - negoziare
+ 委托 - [wěi tuō] - incaricarla, Incaricare
+ 年度 - [nián dù] - annuali, annuale
+ 忘记 - [wàng jì] - dimenticare
+ 总体上 - [zǒng tǐ shàng] - complessivamente
+ 成就感 - [chéng jiù gǎn] - realizzazione
+ 批评 - [pī píng] - criticare
+ 指定 - [zhǐ dìng] - designare
+ 数量 - [shù liàng] - quantità
+ 更换 - [gèng huàn] - sostituire
+ 期望 - [qī wàng] - aspettativa
+ 熟人 - [shú rén] - conoscente
+ 组织者 - [zǔ zhī zhě] - organizzatore
+ 缓解 - [huǎn jiě] - Alleviare, alleviare
+ 营业 - [yíng yè] - aprire, Apertura, apertura, aperta
+ 表扬 - [biǎo yáng] - lodare
+ 进口 - [jìn kǒu] - importazione
+ 雇 - [gù] - assumere
+170 library Biblioteca: Chiedi aiuto al bibliotecario
+ 下降 - [xià jiàng] - scendere
+ 互动 - [hù dòng] - interagito, interagisco, interazione, interagire
+ 其余 - [qí yú] - resto
+ 国际象棋 - [guó jì xiàng qí] - scacchi
+ 字母 - [zì mǔ] - lettera
+ 封面 - [fēng miàn] - copertina
+ 将军 - [jiāng jūn] - scacco matto
+ 平方 - [píng fāng] - quadrato
+ 搜 - [sōu] - cercare
+ 摸 - [mō] - toccare
+ 数 - [shù] - contare
+ 测 - [cè] - misurare
+ 环节 - [huán jié] - fase
+ 续借 - [xù jiè] - rinnovo, proroga, estensione, rinnovare, prorogare
+ 翻 - [fān] - sfogliare
+ 脚趾 - [jiǎo zhǐ] - dito del piede
+ 艰苦 - [jiān kǔ] - difficile
+ 获得 - [huò dé] - ottenere
+ 记住 - [jì zhù] - ricordo, ricordi, ricordo, Ricorda, ricordi, ricordate
+ 课本 - [kè běn] - libro di testo
+171 volunteering Volontariato: Chiedi aiuto per un’attività
+ 个人 - [gè rén] - persone
+ 仍然 - [réng rán] - ancora
+ 只不过 - [zhǐ bù guò] - solo
+ 叫上 - [jiào shàng] - chiamare, invitare, convocare, portare con sé, accompagnare
+ 回报 - [huí bào] - ricompensa
+ 学到 - [xué dào] - imparare
+ 客气 - [kè qì] - gentile
+ 小朋友 - [xiǎo péng yǒu] - bambino
+ 指示 - [zhǐ shì] - istruzione
+ 推广 - [tuī guǎng] - promuovere
+ 无私 - [wú sī] - altruista
+ 时刻 - [shí kè] - sempre
+ 灾区 - [zāi qū] - zona colpita dal disastro
+ 礼貌 - [lǐ mào] - cortesia
+ 福利 - [fú lì] - benessere
+ 稍微 - [shāo wēi] - leggermente
+ 编辑 - [biān jí] - modificare, curare, redigere, editare, montare
+ 老人 - [lǎo rén] - anziano
+ 边缘 - [biān yuán] - margine
+ 远离 - [yuǎn lí] - Lontano
+172 gatherings Riunione: Parla con nuove persone
+ 中央 - [zhōng yāng] - centrale
+ 之中 - [zhī zhōng] - tra
+ 互动 - [hù dòng] - interagito, interagisco, interazione, interagire
+ 位于 - [wèi yú] - si trova
+ 假装 - [jiǎ zhuāng] - finge, fingiamo, fingo
+ 别处 - [bié chù] - altrove
+ 后头 - [hòu tóu] - dietro
+ 喊 - [hǎn] - gridare
+ 国籍 - [guó jí] - nazionalità
+ 大厅 - [dà tīng] - sala
+ 彩色 - [cǎi sè] - colorato
+ 盘 - [pán] - piatto, piastra
+ 空间 - [kōng jiān] - spazio
+ 窗台 - [chuāng tái] - davanzale
+ 自在 - [zì zài] - a proprio agio
+ 草地 - [cǎo de] - prato
+ 跟前 - [gēn qián] - vicino a
+ 通知 - [tōng zhī] - avviso
+ 闯 - [chuǎng] - forzare
+ 默契 - [mò qì] - intesa
+173 future plans Luoghi: Descrivi dove vuoi vivere
+ 乡村 - [xiāng cūn] - campagna
+ 冠军 - [guān jūn] - campione
+ 包围 - [bāo wéi] - circondare
+ 变成 - [biàn chéng] - è diventata
+ 哈尔滨 - [hā ěr bīn] - Harbin
+ 寒假 - [hán jiǎ] - vacanze invernali
+ 将来 - [jiāng lái] - futuro
+ 差距 - [chà jù] - divario
+ 巴厘岛 - [bā lí dǎo] - Bali
+ 或者 - [huò zhě] - oppure
+ 打猎 - [dǎ liè] - caccia, cacciare
+ 批 - [pī] - lotto
+ 旅游 - [lǚ yóu] - turismo
+ 树林 - [shù lín] - bosco
+ 泼 - [pō] - schizzare
+ 海鲜 - [hǎi xiān] - frutti di mare
+ 码头 - [mǎ tóu] - molo
+ 航行 - [háng xíng] - navigare
+ 蝴蝶 - [hú dié] - farfalle
+ 要么 - [yào me] - o
+174 customer service Prodotti: Rispondi a domande sui prodotti
+ 书桌 - [shū zhuō] - scrivania
+ 儿童 - [ér tóng] - bambino
+ 包装 - [bāo zhuāng] - imballaggio
+ 可移动 - [kě yí dòng] - mobile
+ 台 - [tái] - unità
+ 含 - [hán] - contenere
+ 定期 - [dìng qī] - regolare
+ 容量 - [róng liàng] - capacità
+ 宽度 - [kuān dù] - larghezza
+ 工艺 - [gōng yì] - artigianato
+ 敏感 - [mǐn gǎn] - sensibile
+ 有限 - [yǒu xiàn] - limitato
+ 特征 - [tè zhēng] - caratteristica
+ 用途 - [yòng tú] - uso
+ 电子 - [diàn zi] - elettronico
+ 稳定性 - [wěn dìng xìng] - stabilità
+ 精确 - [jīng què] - preciso
+ 设备 - [shè bèi] - attrezzatura
+ 货物 - [huò wù] - merci
+ 轮椅 - [lún yǐ] - sedia a rotelle
+ 锋利 - [fēng lì] - affilato
+ 高效 - [gāo xiào] - efficiente
+175 scientific discoveries Scienza: Spiega un esperimento
+ 人类 - [rén lèi] - umanità
+ 作用 - [zuò yòng] - ruolo
+ 卫星 - [wèi xīng] - satellite
+ 发射 - [fā shè] - lanciare, sparare, emettere, trasmettere, effettuare, compiere
+ 声称 - [shēng chēng] - affermare
+ 宇宙 - [yǔ zhòu] - universo
+ 实验 - [shí yàn] - esperimento
+ 成果 - [chéng guǒ] - risultato
+ 样品 - [yàng pǐn] - campione
+ 气体 - [qì tǐ] - gas
+ 活着 - [huó zhe] - vivo
+ 演讲 - [yǎn jiǎng] - conferenza
+ 演讲者 - [yǎn jiǎng zhě] - oratore
+ 现象 - [xiàn xiàng] - fenomeno
+ 理论 - [lǐ lùn] - teoria
+ 由于 - [yóu yú] - a causa di, grazie a, per via di, in virtù di, dovuto a, per, visto che
+ 突破 - [tū pò] - rottura, superamento, svolta, avanzamento, progresso, scoperta
+ 行星 - [xíng xīng] - pianeta
+ 警告 - [jǐng gào] - avvertimento
+ 评论 - [píng lùn] - commento
+ 遗传 - [yí chuán] - ereditare
+ 重大 - [zhòng dà] - significativo
+176 visual arts Arte: Descrivi un'opera d'arte
+ 仔细 - [zǐ xì] - attento
+ 厘米 - [lí mǐ] - centimetro
+ 图案 - [tú àn] - motivo
+ 小型 - [xiǎo xíng] - piccolo
+ 布 - [bù] - tessuto
+ 弯曲 - [wān qū] - curvo
+ 把戏 - [bǎ xì] - trucco
+ 斜 - [xié] - inclinato
+ 松树 - [sōng shù] - pino
+ 桃花 - [táo huā] - fiori di pesco
+ 正面 - [zhèng miàn] - frontale
+ 水彩 - [shuǐ cǎi] - acquerello
+ 浓 - [nóng] - intenso
+ 点 - [diǎn] - picchietta, un po', punto, ordiniamo, punti, un pochino, virgola, spot
+ 玻璃 - [bō lí] - vetro
+ 珍珠 - [zhēn zhū] - perla
+ 系列 - [xì liè] - serie
+ 肖像 - [xiào xiàng] - ritratto
+ 规则 - [guī zé] - regolare
+ 阴影 - [yīn yǐng] - ombra
+ 雄伟 - [xióng wěi] - maestoso
+177 personal background Soluzioni: Chiedi un consiglio medico
+ 不耐烦 - [bù nài fán] - impaziente
+ 份 - [fèn] - porzioni, una, porzione
+ 做梦 - [zuò mèng] - sognare, fare sogni, avere sogni
+ 危机 - [wēi jī] - crisi
+ 孙子 - [sūn zi] - nipote
+ 心理学家 - [xīn lǐ xué jiā] - psicologo
+ 怪 - [guài] - strano
+ 惩罚 - [chéng fá] - punire
+ 打断 - [dǎ duàn] - interrompere, spezzare, rompere
+ 抄 - [chāo] - copiare, trascrivere, plagiare, prendere appunti, fare una copia
+ 挣扎 - [zhēng zhā] - lottare, dibattersi, aggrapparsi, sforzarsi, contorcersi, resistere
+ 支出 - [zhī chū] - spesa
+ 特殊 - [tè shū] - speciale
+ 病历 - [bìng lì] - cartella clinica
+ 痊愈 - [quán yù] - guarire
+ 真正 - [zhēn zhèng] - vero
+ 科学家 - [kē xué jiā] - scienziato
+ 继承 - [jì chéng] - ereditare
+ 自学 - [zì xué] - autoapprendimento, autodidattismo, studio autonomo, studio indipendente, apprendimento autonomo
+ 钢笔 - [gāng bǐ] - penna stilografica
+178 everyday tech Problemi: Descrivi un problema
+ 一时 - [yī shí] - per un momento
+ 中断 - [zhōng duàn] - interrompere
+ 例外 - [lì wài] - eccezione
+ 依旧 - [yī jiù] - ancora
+ 信号 - [xìn hào] - segnale
+ 出现 - [chū xiàn] - apparire
+ 可 - [kě] - ma
+ 固定 - [gù dìng] - fisso
+ 暂时 - [zàn shí] - temporaneamente
+ 模糊 - [mó hú] - sfocato
+ 湿 - [shī] - umido
+ 烂 - [làn] - marcio
+ 状态 - [zhuàng tài] - stato
+ 电源 - [diàn yuán] - alimentazione
+ 疯 - [fēng] - impazzire
+ 空白 - [kōng bái] - vuoto
+ 网络 - [wǎng luò] - rete
+ 铃声 - [líng shēng] - suoneria
+ 键 - [jiàn] - tasto
+ 震动 - [zhèn dòng] - vibrare
+ 麻烦 - [má fán] - problema
+179 values Legami: Parla delle tue amicizie
+ 一辈子 - [yī bèi zi] - tutta la vita
+ 乐趣 - [lè qù] - piacere
+ 交流 - [jiāo liú] - Comunicare, comunicare, comunicate
+ 亲密 - [qīn mì] - intimo
+ 友谊 - [yǒu yì] - amicizia
+ 大姐 - [dà jiě] - sorella maggiore
+ 夫妇 - [fū fù] - coppia
+ 妻子 - [qī zi] - moglie
+ 姐妹 - [jiě mèi] - sorella
+ 完整 - [wán zhěng] - completo
+ 宝贵 - [bǎo guì] - prezioso
+ 尊重 - [zūn zhòng] - rispetto
+ 忠诚 - [zhōng chéng] - leale
+ 感想 - [gǎn xiǎng] - impressione
+ 拥抱 - [yōng bào] - abbraccerai, abbracciare, abbracciamo, abbracciate, abbracciano, abbraccia, abbraccio, abbraccerò
+ 接触 - [jiē chù] - entrare in contatto con
+ 珍惜 - [zhēn xī] - apprezzare
+ 目的 - [mù de] - scopo
+ 舍不得 - [shě bù dé] - riluttante
+ 舍得 - [shě dé] - disposto, disposto a, disposto a rinunciare
+ 除夕 - [chú xī] - vigilia del nuovo anno
+180 describing events Traguardo: Racconta il tuo arrivo
+ 便利 - [biàn lì] - comodo
+ 列 - [liè] - fila
+ 向后 - [xiàng hòu] - all'indietro
+ 套 - [tào] - completo
+ 挡 - [dǎng] - bloccare
+ 挤 - [jǐ] - affollata, spremere, pressi
+ 挥手 - [huī shǒu] - salutare, saluta, salutato, saluto
+ 搜索 - [sōu suǒ] - cercare
+ 未知 - [wèi zhī] - sconosciuto
+ 树枝 - [shù zhī] - ramo
+ 根 - [gēn] - classificatore
+ 段 - [duàn] - paragrafo
+ 沿着 - [yán zhe] - lungo
+ 秒 - [miǎo] - secondo
+ 终点 - [zhōng diǎn] - traguardo
+ 赔 - [péi] - risarcire
+ 返回 - [fǎn huí] - tornare indietro
+ 迟 - [chí] - in ritardo
+ 隐形 - [yǐn xíng] - invisibile
+ 风险 - [fēng xiǎn] - rischio
+181 digital tools Piattaforma: Invia richieste online
+ 上传 - [shàng chuán] - caricarle
+ 不用 - [bù yòng] - non è necessario
+ 佩服 - [pèi fú] - ammirare
+ 使用 - [shǐ yòng] - usa, usate, uso, usare, usi, usiamo
+ 升级 - [shēng jí] - aggiornamento
+ 同步 - [tóng bù] - sincronizzato, Sincronizzare, sincronizzazione, sincronizzare
+ 在线 - [zài xiàn] - online
+ 备份 - [bèi fèn] - fare il backup
+ 工具 - [gōng jù] - strumento
+ 平台 - [píng tái] - piattaforma
+ 平板 - [píng bǎn] - tablet
+ 打扰 - [dǎ rǎo] - Scusi
+ 短语 - [duǎn yǔ] - frasi, frase
+ 硬件 - [yìng jiàn] - hardware
+ 简直 - [jiǎn zhí] - semplicemente
+ 自动 - [zì dòng] - automatico
+ 语法 - [yǔ fǎ] - grammatica
+ 问候 - [wèn hòu] - salutare
+ 附件 - [fù jiàn] - allegato
+ 隐私 - [yǐn sī] - privacy
+182 cultural practices Tradizioni: Saluta in modo formale
+ 做法 - [zuò fǎ] - metodo
+ 刻 - [kè] - incidere
+ 卡片 - [kǎ piàn] - biglietto
+ 印章 - [yìn zhāng] - timbro
+ 原始 - [yuán shǐ] - primitivo, originale, antico, rudimentale, elementare, ancestrale, primordiale
+ 后代 - [hòu dài] - generazione futura
+ 场合 - [chǎng hé] - occasione
+ 大人 - [dà rén] - adulto
+ 太太 - [tài tài] - moglie
+ 好运气 - [hǎo yùn qì] - buona fortuna
+ 姓名 - [xìng míng] - nome e cognome
+ 手工艺品 - [shǒu gōng yì pǐn] - artigianato
+ 打招呼 - [dǎ zhāo hū] - salutano, saluta, salutare, salutate, saluto
+ 抄 - [chāo] - copiare, trascrivere, plagiare, prendere appunti, fare una copia
+ 新娘 - [xīn niáng] - sposa
+ 新郎 - [xīn láng] - sposo
+ 有一次 - [yǒu yī cì] - una volta
+ 盖 - [gài] - applicare il timbro
+ 等会儿 - [děng huì ér] - tra un momento
+ 表示 - [biǎo shì] - esprimere
+183 climate Ambiente: Proponi soluzioni ecologiche
+ 优先级 - [yōu xiān jí] - priorità
+ 关于 - [guān yú] - su
+ 农业 - [nóng yè] - agricoltura
+ 农作物 - [nóng zuò wù] - coltura
+ 地球 - [de qiú] - Terra
+ 基金 - [jī jīn] - fondo
+ 对于 - [duì yú] - Per quanto riguarda
+ 技术 - [jì shù] - tecnologia
+ 措施 - [cuò shī] - misura
+ 支持者 - [zhī chí zhě] - sostenitore
+ 来说 - [lái shuō] - Per
+ 污染 - [wū rǎn] - inquinamento
+ 汽油 - [qì yóu] - benzina
+ 火灾 - [huǒ zāi] - incendio
+ 灾难 - [zāi nán] - catastrofe
+ 省长 - [shěng zhǎng] - governatore provinciale
+ 科学 - [kē xué] - scientifico
+ 组织 - [zǔ zhī] - organizzazione
+ 解决办法 - [jiě jué bàn fǎ] - soluzione
+ 资源 - [zī yuán] - risorsa
+184 personal experiences Successo: Racconta i tuoi successi
+ 中奖 - [zhōng jiǎng] - vincere, vincita, premio, vincere la lotteria, essere estratto, premio vinto
+ 亏 - [kuī] - perdere
+ 亚军 - [yà jūn] - secondo classificato
+ 冲 - [chōng] - fare una carica
+ 学位 - [xué wèi] - laurea
+ 彩票 - [cǎi piào] - biglietto della lotteria
+ 折扣 - [zhé kòu] - sconto
+ 收据 - [shōu jù] - ricevuta
+ 教育 - [jiào yù] - educazione
+ 灯泡 - [dēng pào] - lampadina
+ 玉 - [yù] - giada
+ 电动车 - [diàn dòng chē] - veicolo elettrico, bicicletta elettrica, scooter elettrico, moto elettrica, monopattino elettrico
+ 硕士 - [shuò shì] - laureato magistrale
+ 科技 - [kē jì] - tecnologia
+ 胜利 - [shèng lì] - vittoria
+ 自豪 - [zì háo] - orgoglioso
+ 袋子 - [dài zi] - borsa
+ 证件 - [zhèng jiàn] - documento
+ 轮子 - [lún zi] - ruota
+ 镜头 - [jìng tóu] - lente
+ 青春 - [qīng chūn] - giovinezza
+185 recycling and waste Riciclo: Proponi un piano di riciclo
+ 体积 - [tǐ jī] - volume
+ 关键 - [guān jiàn] - chiave
+ 列入 - [liè rù] - Inserito
+ 制订 - [zhì dìng] - stabilire, Stabilire
+ 反复 - [fǎn fù] - ripetutamente
+ 可回收 - [kě huí shōu] - riciclabile
+ 吨 - [dūn] - tonnellata
+ 回收箱 - [huí shōu xiāng] - contenitore per il riciclaggio
+ 增加 - [zēng jiā] - aumentare
+ 当前 - [dāng qián] - attuale
+ 押金 - [yā jīn] - deposito
+ 政策 - [zhèng cè] - politica
+ 海洋 - [hǎi yáng] - oceano
+ 渴望 - [kě wàng] - desiderare
+ 瓶子 - [píng zi] - bottiglia
+ 自觉 - [zì jué] - consapevolmente
+ 请求 - [qǐng qiú] - richiedere
+ 转告 - [zhuǎn gào] - trasmetterò, trasmetta, Trasmetterò, Trasmettere, trasmetti
+ 金属 - [jīn shǔ] - metallo
+ 铁 - [tiě] - ferro
+186 types of cuisine Sapori: Descrivi i sapori dei piatti
+ 不利 - [bù lì] - svantaggioso
+ 冷冻 - [lěng dòng] - congelato
+ 切碎 - [qiè suì] - tritare
+ 口味 - [kǒu wèi] - gusto, gusti
+ 开水 - [kāi shuǐ] - acqua bollita
+ 材料 - [cái liào] - materiale
+ 液体 - [yè tǐ] - liquido
+ 淡 - [dàn] - leggero
+ 混合 - [hùn hé] - misto
+ 火 - [huǒ] - fuoco
+ 煮沸 - [zhǔ fèi] - Bollire, bollire
+ 生 - [shēng] - crudo
+ 秤 - [chèng] - bilancia
+ 符合 - [fú hé] - corrisponde, corrisponda
+ 辜负 - [gū fù] - deludere
+ 连 - [lián] - anche
+ 难得 - [nán dé] - raro
+ 骨头 - [gǔ tóu] - osso
+ 高温 - [gāo wēn] - alta temperatura
+ 鸡翅 - [jī chì] - ali di pollo
+187 safety precautions Sicurezza: Segui le regole di sicurezza
+ 倒车 - [dào chē] - retromarcia
+ 化学品 - [huà xué pǐn] - sostanza chimica
+ 命令 - [mìng lìng] - ordine
+ 嘛 - [ma] - no
+ 大伙儿 - [dà huǒ ér] - tutti
+ 扶 - [fú] - sorreggere
+ 拆 - [chāi] - smontare
+ 指挥 - [zhǐ huī] - dirige, dirigere, Dirigere, diretto
+ 握 - [wò] - stringere
+ 摇 - [yáo] - scuotere
+ 暂停 - [zàn tíng] - fare una pausa
+ 正确 - [zhèng què] - corretto
+ 消毒 - [xiāo dú] - disinfettare
+ 漏 - [lòu] - perdere
+ 烧 - [shāo] - bruciare
+ 磨 - [mó] - affilare
+ 移开 - [yí kāi] - sposta
+ 跟随 - [gēn suí] - seguire
+ 遵守 - [zūn shǒu] - rispettare
+ 靠近 - [kào jìn] - vicino
+188 gift giving Regali: Descrivi un regalo
+ 丝绸 - [sī chóu] - seta
+ 制造 - [zhì zào] - Fabbricare, Fabbricato
+ 剪 - [jiǎn] - tagliare
+ 尺子 - [chǐ zi] - righello
+ 扇子 - [shàn zi] - ventaglio
+ 手工 - [shǒu gōng] - lavoro manuale
+ 打包 - [dǎ bāo] - imballato, imballare, Imballare
+ 折叠 - [zhé dié] - piegare, piegato
+ 拼 - [pīn] - assemblare
+ 插 - [chā] - inserire
+ 染 - [rǎn] - tingere
+ 毛笔 - [máo bǐ] - pennello cinese
+ 特意 - [tè yì] - appositamente
+ 画框 - [huà kuāng] - cornice
+ 盒 - [hé] - scatola
+ 示范 - [shì fàn] - dimostrare
+ 系 - [xì] - facoltà, dipartimento, legare, allaccia
+ 织 - [zhī] - lavorare a maglia
+ 茶叶 - [chá yè] - foglie di tè
+ 造型 - [zào xíng] - design
+189 school life Progetto: Organizza il lavoro di gruppo
+ 优先 - [yōu xiān] - dare priorità
+ 共享 - [gòng xiǎng] - condividere
+ 分类 - [fēn lèi] - classificazione
+ 加速 - [jiā sù] - accelerare, accelerazione, velocizzare, aumentare la velocità, affrettare, accelerare il ritmo, velocizzare il processo
+ 复制 - [fù zhì] - copiare
+ 扫描仪 - [sǎo miáo yí] - scanner
+ 提交 - [tí jiāo] - presentare
+ 操作 - [cāo zuò] - operare
+ 改正 - [gǎi zhèng] - correggere, rettificare, emendare, modificare, riformare, aggiustare
+ 最初 - [zuì chū] - primo
+ 演示 - [yǎn shì] - dimostrazione
+ 统计 - [tǒng jì] - statisticare
+ 胶水 - [jiāo shuǐ] - colla
+ 草稿 - [cǎo gǎo] - bozza
+ 进展 - [jìn zhǎn] - progresso
+ 避免 - [bì miǎn] - evitare
+ 阶段 - [jiē duàn] - fase
+ 陆续 - [lù xù] - uno dopo l'altro
+ 隔 - [gé] - separare
+ 预先 - [yù xiān] - in anticipo
+190 music Musica: Dai consigli ai nuovi membri
+ 优秀 - [yōu xiù] - eccellente
+ 作曲家 - [zuò qū jiā] - compositore
+ 全国 - [quán guó] - tutto il paese
+ 吉他手 - [jí tā shǒu] - chitarrista
+ 嗓子 - [sǎng zi] - voce
+ 崇拜 - [chóng bài] - ammirare
+ 愤怒 - [fèn nù] - arrabbiato
+ 新人 - [xīn rén] - nuovo membro
+ 旋律 - [xuán lǜ] - melodia
+ 有影响力 - [yǒu yǐng xiǎng lì] - influente
+ 歌曲 - [gē qū] - canzone
+ 沉默 - [chén mò] - silenzioso
+ 电子乐 - [diàn zi lè] - musica elettronica
+ 称 - [chēng] - pesare
+ 称呼 - [chēng hū] - chiamare, appellare, titolo, modo di chiamare, soprannome, rivolgersi
+ 网址 - [wǎng zhǐ] - indirizzo web
+ 评价 - [píng jià] - valutazione
+ 贝斯 - [bèi sī] - basso
+ 音乐爱好者 - [yīn lè ài hǎo zhě] - amante della musica
+ 鼓手 - [gǔ shǒu] - batterista
+191 civic life Civiltà: Proponi idee per la bacheca
+ 万一 - [wàn yī] - Nel caso di
+ 今后 - [jīn hòu] - d’ora in poi
+ 信用 - [xìn yòng] - credito
+ 公告 - [gōng gào] - annuncio
+ 声明 - [shēng míng] - dichiarazione, comunicato, dichiarare, affermazione, annuncio, affermare, proclamare
+ 大小 - [dà xiǎo] - dimensione
+ 天然气 - [tiān rán qì] - gas naturale
+ 媒体 - [méi tǐ] - media
+ 学者 - [xué zhě] - studioso
+ 投票 - [tóu piào] - votare
+ 抗议 - [kàng yì] - protestare
+ 捡 - [jiǎn] - raccogliere
+ 权利 - [quán lì] - diritto
+ 法官 - [fǎ guān] - giudice
+ 现实 - [xiàn shí] - realtà
+ 管道 - [guǎn dào] - tubo
+ 罚款 - [fá kuǎn] - multa
+ 能够 - [néng gòu] - potere
+ 规定 - [guī dìng] - regolamento
+ 议题 - [yì tí] - tema
+ 设立 - [shè lì] - istituire
+192 romantic relationships Relazioni: Parla di regali speciali
+ 互相理解 - [hù xiāng lǐ jiě] - capirci a vicenda
+ 偷偷 - [tōu tōu] - di nascosto
+ 刚好 - [gāng hǎo] - proprio
+ 创意 - [chuàng yì] - idea
+ 单纯 - [dān chún] - semplice
+ 可疑 - [kě yí] - sospetto
+ 否认 - [fǒu rèn] - negare
+ 呆 - [dāi] - tonto
+ 困惑 - [kùn huò] - confuso
+ 女友 - [nǚ yǒu] - fidanzata
+ 弥补 - [mí bǔ] - rimediare
+ 悄悄 - [qiāo qiāo] - silenziosamente
+ 感性 - [gǎn xìng] - sensibile
+ 既 - [jì] - entrambi
+ 珍贵 - [zhēn guì] - prezioso
+ 男友 - [nán yǒu] - fidanzato
+ 男士 - [nán shì] - uomo
+ 经常 - [jīng cháng] - spesso
+ 表白 - [biǎo bái] - confessato, confessare
+ 遗憾 - [yí hàn] - rimpianto
+193 debate Società: Parla di uguaglianza
+ 公正 - [gōng zhèng] - giusto
+ 公民 - [gōng mín] - cittadino
+ 利润 - [lì rùn] - profitto
+ 坚定 - [jiān dìng] - fermo
+ 天才 - [tiān cái] - genio
+ 婚姻 - [hūn yīn] - matrimonio
+ 常识 - [cháng shì] - conoscenza di base
+ 平等 - [píng děng] - uguale
+ 异常 - [yì cháng] - eccezionalmente
+ 战争 - [zhàn zhēng] - guerra
+ 损害 - [sǔn hài] - danneggiare
+ 政治 - [zhèng zhì] - politica
+ 无能 - [wú néng] - incapace
+ 智力 - [zhì lì] - intelligenza
+ 有罪 - [yǒu zuì] - colpevole
+ 社会 - [shè huì] - società
+ 职责 - [zhí zé] - dovere
+ 补贴 - [bǔ tiē] - sovvenzione
+ 违反 - [wéi fǎn] - violare
+ 重要性 - [zhòng yào xìng] - importanza
+ 难道 - [nán dào] - davvero
+ 高尚 - [gāo shàng] - nobile
+194 literature Letteratura: Leggi ad alta voce un testo
+ 世界观 - [shì jiè guān] - visione del mondo
+ 主观 - [zhǔ guān] - soggettivo
+ 创作 - [chuàng zuò] - creato
+ 力量 - [lì liàng] - forza
+ 单元 - [dān yuán] - unità
+ 基础 - [jī chǔ] - base
+ 字典 - [zì diǎn] - dizionario
+ 抽象 - [chōu xiàng] - astratto
+ 文本 - [wén běn] - testo
+ 朗读 - [lǎng dú] - leggere ad alta voce, recitare, declamare, recitare ad alta voce
+ 杰出 - [jié chū] - eccezionale
+ 满 - [mǎn] - pieno
+ 琢磨 - [zuó mó] - riflettere, meditare, ponderare, considerare, esaminare, riflettere su, pensare a, analizzare
+ 直到 - [zhí dào] - fino a, sino a, fino al momento in cui, fino a quando, finché, prima che
+ 神话 - [shén huà] - mito
+ 自从 - [zì cóng] - Da quando
+ 融合 - [róng hé] - fondere
+ 词汇 - [cí huì] - vocabolario
+ 试着 - [shì zhe] - cercherò
+ 起码 - [qǐ mǎ] - minimo
+195 landmarks Monumenti: Descrivi un monumento
+ 修复 - [xiū fù] - restaurare
+ 出 - [chū] - conosciuto, uscissi
+ 取代 - [qǔ dài] - sostituire
+ 城堡 - [chéng bǎo] - castello
+ 夜晚 - [yè wǎn] - notte
+ 大厦 - [dà shà] - grattacielo
+ 大都市 - [dà dōu shì] - metropoli
+ 大雾 - [dà wù] - fitta nebbia
+ 屋顶 - [wū dǐng] - tetto
+ 拍照 - [pāi zhào] - fotografare
+ 有一天 - [yǒu yī tiān] - un giorno
+ 步行街 - [bù xíng jiē] - via pedonale
+ 河边 - [hé biān] - lungo il fiume
+ 热门 - [rè mén] - popolare, popolari
+ 破坏 - [pò huài] - distrutto
+ 繁华 - [fán huá] - vivace
+ 纪念碑 - [jì niàn bēi] - monumento
+ 维护 - [wéi hù] - mantenere
+ 进入 - [jìn rù] - entrare
+ 顺着 - [shùn zhe] - seguire, lungo, salire, percorrere
+196 cost of living Prezzi: Confronta i prezzi dei prodotti
+ 交通费 - [jiāo tōng fèi] - spesa di trasporto
+ 促销 - [cù xiāo] - promozione
+ 倍 - [bèi] - volta
+ 共 - [gòng] - in totale
+ 农产品 - [nóng chǎn pǐn] - prodotto agricolo
+ 分之 - [fēn zhī] - di
+ 大于 - [dà yú] - più importante di
+ 差别 - [chà bié] - differenza
+ 梨 - [lí] - pera
+ 毫升 - [háo shēng] - millilitro
+ 涨 - [zhǎng] - aumentare
+ 点 - [diǎn] - picchietta, un po', punto, ordiniamo, punti, un pochino, virgola, spot
+ 牛 - [niú] - mucca, bovini, mucche, toro, buoi
+ 生活用品 - [shēng huó yòng pǐn] - articoli
+ 矿泉水 - [kuàng quán shuǐ] - acqua minerale
+ 粮食 - [liáng shí] - cibo
+ 纸巾 - [zhǐ jīn] - fazzoletto di carta
+ 葡萄 - [pú táo] - uva
+ 计算 - [jì suàn] - calcolare, Calcolo
+ 豆制品 - [dòu zhì pǐn] - prodotti a base di soia
+197 fashion Abbigliamento: Descrivi un vestito
+ 个性 - [gè xìng] - personalità
+ 二手 - [èr shǒu] - usato
+ 商标 - [shāng biāo] - marchio
+ 夸张 - [kuā zhāng] - esagerato
+ 夹 - [jiā] - pizzicare
+ 宽松 - [kuān sōng] - largo
+ 明亮 - [míng liàng] - luminoso
+ 暗示 - [àn shì] - Suggerire, suggerire, suggerendo
+ 服装 - [fú zhuāng] - abbigliamento
+ 毫米 - [háo mǐ] - millimetro
+ 污渍 - [wū zì] - macchia
+ 直接 - [zhí jiē] - diretto
+ 秀 - [xiù] - spettacolo
+ 组合 - [zǔ hé] - combinazione
+ 设想 - [shè xiǎng] - immaginare
+ 透明 - [tòu míng] - trasparente
+ 银色 - [yín sè] - argento
+ 长裤 - [zhǎng kù] - pantaloni lunghi
+ 闭幕式 - [bì mù shì] - cerimonia di chiusura
+ 防水 - [fáng shuǐ] - impermeabile
+198 personal goals Impegno: Parla dei tuoi obiettivi
+ 不幸 - [bù xìng] - infelice
+ 不管 - [bù guǎn] - Non importa
+ 专心 - [zhuān xīn] - concentrato
+ 出版 - [chū bǎn] - pubblicare, Pubblicare
+ 前途 - [qián tú] - futuro
+ 劣势 - [liè shì] - svantaggio
+ 勤奋 - [qín fèn] - diligente
+ 博士 - [bó shì] - dottore, dottore di ricerca
+ 吃力 - [chī lì] - faticoso
+ 失业 - [shī yè] - disoccupato, disoccupazione
+ 失败 - [shī bài] - fallire
+ 存款 - [cún kuǎn] - deposito
+ 投资 - [tóu zī] - investire
+ 无论 - [wú lùn] - Non importa
+ 独立 - [dú lì] - indipendente
+ 竞争 - [jìng zhēng] - competere
+ 经费 - [jīng fèi] - fondo
+ 财产 - [cái chǎn] - proprietà
+ 赢得 - [yíng dé] - Vincere
+ 钢琴家 - [gāng qín jiā] - pianista
+ 面对 - [miàn duì] - affrontare
+199 public policy Città: Parla dei miglioramenti urbani
+ 光 - [guāng] - luce
+ 减轻 - [jiǎn qīng] - alleviare
+ 出行 - [chū xíng] - viaggio
+ 划分 - [huà fēn] - Dividere
+ 十亿 - [shí yì] - un miliardo
+ 园丁 - [yuán dīng] - giardiniere
+ 坚决 - [jiān jué] - deciso
+ 官员 - [guān yuán] - funzionario
+ 密 - [mì] - fitto
+ 市民 - [shì mín] - cittadino
+ 引进 - [yǐn jìn] - Introdurre, introdotta, introdurre
+ 得到 - [dé dào] - ottenere
+ 推进 - [tuī jìn] - promuovere
+ 改革 - [gǎi gé] - riforma
+ 温度 - [wēn dù] - temperatura
+ 监督 - [jiān dū] - supervisionare
+ 美好 - [měi hǎo] - bello
+ 赞成 - [zàn chéng] - essere d'accordo
+ 转让 - [zhuǎn ràng] - trasferire
+ 采用 - [cǎi yòng] - adottare
+200 healthy habits Salute: Parla delle tue abitudini sane
+ 作息 - [zuò xī] - orario
+ 偏好 - [piān hǎo] - preferenza, predilezione, inclinazione, gusto, tendenza, scelta
+ 做到 - [zuò dào] - riuscire
+ 克制 - [kè zhì] - controllare
+ 几乎不 - [jǐ hū bù] - quasi mai
+ 制定 - [zhì dìng] - stabilire
+ 变好 - [biàn hǎo] - miglioreresti, migliorati, miglioreremo, migliorasse
+ 周期 - [zhōu qī] - periodo
+ 均衡 - [jūn héng] - equilibrato
+ 夜里 - [yè lǐ] - di notte
+ 情绪 - [qíng xù] - emozione
+ 打赌 - [dǎ dǔ] - scommettere, puntare, fare una scommessa, garantire
+ 晚睡 - [wǎn shuì] - andare a letto tardi, restare sveglio fino a tardi, dormire tardi, fare le ore piccole
+ 注意 - [zhù yì] - fare attenzione
+ 清淡 - [qīng dàn] - leggero
+ 牙 - [yá] - dente
+ 素食者 - [sù shí zhě] - vegetariano
+ 羡慕 - [xiàn mù] - invidiare, ammirare, invidia, ammirazione, desiderare, provare invidia
+ 营养 - [yíng yǎng] - nutrizione
+ 营养师 - [yíng yǎng shī] - nutrizionista
+ 规律 - [guī lǜ] - regolare, regolarità
+ 达到 - [dá dào] - raggiungere
+ 饮食 - [yǐn shí] - dieta
+201 geography Paesaggi: Descrivi un paesaggio
+ 中心 - [zhōng xīn] - centro
+ 中部 - [zhōng bù] - centro
+ 加深 - [jiā shēn] - approfondire
+ 地形 - [de xíng] - Terreno, terreno
+ 地震 - [de zhèn] - terremoto
+ 大陆 - [dà lù] - continente
+ 小溪 - [xiǎo xī] - ruscello
+ 展示 - [zhǎn shì] - mostrare, mostro, mostri
+ 山区 - [shān qū] - zona montuosa
+ 山谷 - [shān gǔ] - valle
+ 市区 - [shì qū] - centro città
+ 平原 - [píng yuán] - pianura
+ 平坦 - [píng tǎn] - pianeggiante
+ 悬崖 - [xuán yá] - scogliera, scogliere
+ 旅游业 - [lǚ yóu yè] - turismo
+ 海水 - [hǎi shuǐ] - acqua di mare
+ 港口 - [gǎng kǒu] - porto
+ 背景 - [bèi jǐng] - sfondo
+ 西北 - [xī běi] - nord-ovest
+ 远处 - [yuǎn chù] - lontananza
+ 高原 - [gāo yuán] - altopiano
+202 well-being Routine: Racconta la tua routine
+ 一般来说 - [yī bān lái shuō] - in generale
+ 中药 - [zhōng yào] - medicina tradizionale cinese
+ 作为 - [zuò wèi] - come
+ 全职 - [quán zhí] - a tempo pieno
+ 凭 - [píng] - con
+ 嘴巴 - [zuǐ bā] - bocca
+ 大脑 - [dà nǎo] - cervello
+ 如今 - [rú jīn] - oggigiorno
+ 家庭成员 - [jiā tíng chéng yuán] - membro della famiglia
+ 平衡 - [píng héng] - bilanciare, equilibrio
+ 心理 - [xīn lǐ] - mentale
+ 思维 - [sī wéi] - pensiero
+ 按照 - [àn zhào] - secondo
+ 早睡早起 - [zǎo shuì zǎo qǐ] - andare a letto presto e alzarsi presto, andare a letto presto e alzarti presto
+ 根据 - [gēn jù] - Secondo
+ 油腻 - [yóu nì] - untuoso
+ 热量 - [rè liàng] - calore
+ 现代人 - [xiàn dài rén] - persone moderne
+ 用来 - [yòng lái] - usato per, usata per
+ 结合 - [jié hé] - combinare
+ 能量 - [néng liàng] - energia
+ 重新 - [zhòng xīn] - rifare
+ 长寿 - [zhǎng shòu] - longevo
+203 governmental systems Stato: Parla dei sistemi di governo
+ 一律 - [yī lǜ] - senza eccezioni
+ 一点儿 - [yī diǎn ér] - un po'
+ 人民 - [rén mín] - popolo
+ 假设 - [jiǎ shè] - supporre
+ 协议 - [xié yì] - accordo
+ 合法 - [hé fǎ] - legale
+ 和平 - [hé píng] - pace
+ 外汇 - [wài huì] - cambio estero
+ 总统 - [zǒng tǒng] - presidente
+ 控制 - [kòng zhì] - controllare
+ 更加 - [gèng jiā] - ancora più
+ 有利于 - [yǒu lì yú] - essere vantaggioso per
+ 欠 - [qiàn] - dovere
+ 法院 - [fǎ yuàn] - tribunale
+ 爱国 - [ài guó] - patriottico
+ 穷人 - [qióng rén] - povero, poveri, indigente, bisognoso
+ 谈判 - [tán pàn] - negoziazione
+ 选举 - [xuǎn jǔ] - eleggere
+ 选择 - [xuǎn zé] - scegliere
+ 金融 - [jīn róng] - finanza
+204 roommates and co-living Convivenza: Proponi regole di convivenza
+ 一旦 - [yī dàn] - Una volta che
+ 一齐 - [yī qí] - insieme
+ 争吵 - [zhēng chǎo] - litigare
+ 从此 - [cóng cǐ] - da questo momento
+ 其次 - [qí cì] - in secondo luogo
+ 分开 - [fēn kāi] - separiamo, Separare
+ 在乎 - [zài hū] - Importa, importa
+ 家用 - [jiā yòng] - per uso domestico
+ 尽力 - [jǐn lì] - fare del mio meglio, fatto del tuo meglio, fare del nostro meglio, fai del tuo meglio
+ 意见 - [yì jiàn] - opinione
+ 承担 - [chéng dān] - assumere
+ 接着 - [jiē zhe] - poi
+ 提醒 - [tí xǐng] - ricordo, ricordarti, ricordi, ricordarmi, ricordami, ricordato, Ricordo, Ricordare
+ 无法 - [wú fǎ] - non posso
+ 替代 - [tì dài] - sostituire, sostituirsi, sostituzione
+ 期间 - [qī jiān] - periodo
+ 清理 - [qīng lǐ] - pulito
+ 说服 - [shuō fú] - convincere
+ 赶忙 - [gǎn máng] - subito
+ 首先 - [shǒu xiān] - Prima, prima
+205 public transit Ritorno: Spiega il percorso di ritorno
+ 不好意思 - [bù hǎo yì sī] - mi scusi
+ 中 - [zhōng] - tra, fra
+ 修路 - [xiū lù] - costruire strade, riparare strade, fare strade, sistemare strade, lavori stradali, lavori sulla strada, lavori di manutenzione stradale
+ 公共交通 - [gōng gòng jiāo tōng] - trasporto pubblico
+ 只是 - [zhǐ shì] - solo
+ 哪怕 - [nǎ pà] - anche se, sebbene, perfino, anche quando, anche qualora
+ 售票机 - [shòu piào jī] - biglietteria automatica, distributore automatico di biglietti, macchina per i biglietti, terminale di biglietteria
+ 地铁口 - [de tiě kǒu] - ingresso della metropolitana, uscita della metropolitana, entrata della metropolitana, accesso alla metropolitana, ingresso della metro, uscita della metro, entrata della metro, accesso alla metro
+ 大雪 - [dà xuě] - forte nevicata
+ 大风 - [dà fēng] - vento forte
+ 尽量 - [jǐn liàng] - Cerca
+ 忙碌 - [máng lù] - impegnato
+ 换乘 - [huàn chéng] - cambiare, cambio, trasferimento, coincidenza
+ 此时 - [cǐ shí] - a questo momento
+ 深夜 - [shēn yè] - tardi della notte
+ 热饮 - [rè yǐn] - bevanda calda
+ 环保 - [huán bǎo] - ecologico
+ 省钱 - [shěng qián] - risparmiare, risparmio
+ 票价 - [piào jià] - prezzo del biglietto
+ 纷纷 - [fēn fēn] - uno dopo l’altro
+ 线路 - [xiàn lù] - linea
+206 gardening Giardino: Descrivi idee per il giardino
+ 允许 - [yǔn xǔ] - permettono, permesso, permetta, permette
+ 共同 - [gòng tóng] - comune
+ 出错 - [chū cuò] - sbagliato, sbagliamo, sbagliare, sbaglio
+ 小路 - [xiǎo lù] - sentiero
+ 开花 - [kāi huā] - fiorisce, fiorire
+ 挑剔 - [tiāo tī] - esigente
+ 明确 - [míng què] - chiaro
+ 朵 - [duǒ] - fiore, fiori
+ 权限 - [quán xiàn] - autorizzazione
+ 浇水 - [jiāo shuǐ] - annaffiare, annaffia
+ 生物 - [shēng wù] - biologia
+ 盆 - [pén] - bacini, bacino
+ 禁止 - [jìn zhǐ] - vietare
+ 空地 - [kōng de] - terreno libero
+ 肥料 - [féi liào] - fertilizzante
+ 蝴蝶 - [hú dié] - farfalle
+ 许可 - [xǔ kě] - permesso
+ 询问 - [xún wèn] - chiedono, chiesto, chiedere
+ 请教 - [qǐng jiào] - chiede, chiedere consiglio, chiederò, chiedere, chiederti
+ 违法 - [wéi fǎ] - illegale
+207 medical care Salute: Parla dei tuoi sintomi
+ 中毒 - [zhōng dú] - avvelenamento, intossicazione, tossicosi, avvelenarsi
+ 伤害 - [shāng hài] - ferire
+ 出汗 - [chū hàn] - sudare, traspirare, sudorazione
+ 升高 - [shēng gāo] - aumentare, salire, innalzare, elevare, crescere, alzare
+ 压力 - [yā lì] - stress
+ 反映 - [fǎn yìng] - riflettere
+ 失明 - [shī míng] - cieco
+ 弱 - [ruò] - debole
+ 斑点 - [bān diǎn] - macchia
+ 既然 - [jì rán] - dato che, visto che, siccome, poiché, dal momento che
+ 治疗 - [zhì liáo] - cura
+ 消化 - [xiāo huà] - digestione, digerire, assimilare, metabolizzare, problema digestivo
+ 疾病 - [jí bìng] - malattia
+ 病毒 - [bìng dú] - virus
+ 胃 - [wèi] - stomaco
+ 胸部 - [xiōng bù] - petto
+ 要紧 - [yào jǐn] - importante
+ 遭受 - [zāo shòu] - subire
+ 频繁 - [pín fán] - frequente
+ 鼻子 - [bí zi] - naso
+208 measurements Progetto: Organizza i dettagli del progetto
+ 人数 - [rén shù] - numero di persone
+ 估计 - [gū jì] - Stimi, Stimo, Stima
+ 列为 - [liè wèi] - elencato, Elencare
+ 前期 - [qián qī] - fase iniziale
+ 占 - [zhàn] - rappresentare
+ 发票 - [fā piào] - fattura
+ 场所 - [chǎng suǒ] - luogo
+ 尽快 - [jǐn kuài] - il prima possibile
+ 届 - [jiè] - edizione
+ 怪不得 - [guài bù dé] - non c'è da meravigliarsi
+ 月底 - [yuè dǐ] - fine mese
+ 比重 - [bǐ zhòng] - importanza relativa
+ 筹备 - [chóu bèi] - preparazione, preparare
+ 花费 - [huā fèi] - costano, costa
+ 范围 - [fàn wéi] - intervallo
+ 记 - [jì] - ricordi, ricordo, Ricorda, ricordate
+ 过程 - [guò chéng] - processo
+ 项 - [xiàng] - voce
+ 顾问 - [gù wèn] - consulente
+ 预算 - [yù suàn] - budget
+ 首要 - [shǒu yào] - primario
+209 time periods Difficoltà: Esprimi le tue difficoltà
+ 之内 - [zhī nèi] - entro, dentro, all'interno, nel raggio di, in meno di, entro il limite, nel termine, nel tempo stabilito
+ 事情 - [shì qíng] - cosa
+ 克服 - [kè fú] - superare
+ 内部 - [nèi bù] - interno
+ 决不 - [jué bù] - mai
+ 前不久 - [qián bù jiǔ] - poco tempo fa
+ 发言 - [fā yán] - intervenuto
+ 图形 - [tú xíng] - grafico
+ 填空 - [tián kōng] - riempire, completare, inserire, colmare, compilare
+ 如此 - [rú cǐ] - così
+ 干脆 - [gàn cuì] - semplicemente, direttamente, francamente, decisamente, senza esitazione, meglio, tanto vale
+ 忙着 - [máng zhe] - essere occupato, essere impegnato, darsi da fare, essere intento a, essere preso a, essere intento a fare qualcosa, essere occupato a fare qualcosa
+ 期限 - [qī xiàn] - termine
+ 相比 - [xiāng bǐ] - rispetto a
+ 经过 - [jīng guò] - Passando
+ 绝望 - [jué wàng] - disperato
+ 缩短 - [suō duǎn] - accorciare
+ 轻易 - [qīng yì] - facilmente
+ 防止 - [fáng zhǐ] - prevenire
+ 预计 - [yù jì] - prevedere
+210 economic systems Economia: Spiega un concetto economico
+ 不仅 - [bù jǐn] - non solo, non soltanto, non unicamente, non esclusivamente, anche
+ 不顾 - [bù gù] - ignorare, trascurare, non curarsi di, a dispetto di, nonostante
+ 企业 - [qǐ yè] - impresa
+ 利益 - [lì yì] - interesse, vantaggio, profitto, beneficio, guadagno, interesse comune
+ 包括 - [bāo kuò] - includere
+ 实施 - [shí shī] - attuare
+ 导致 - [dǎo zhì] - causare
+ 意识到 - [yì shì dào] - rendersi conto
+ 扩大 - [kuò dà] - espandere, ampliare, estendere, allargare, ingrandire, includere
+ 改善 - [gǎi shàn] - migliorare, migliorata, Migliorare
+ 普遍 - [pǔ biàn] - comune
+ 甚至 - [shén zhì] - nemmeno, Nemmeno
+ 相关 - [xiāng guān] - relativo
+ 看待 - [kàn dài] - considerare
+ 破产 - [pò chǎn] - fallire
+ 税 - [shuì] - tassa
+ 结构 - [jié gòu] - struttura
+ 贸易 - [mào yì] - commercio
+ 银行业 - [yín xíng yè] - settore bancario
+ 降低 - [jiàng dī] - ridurre
+211 pet care Animali: Parla della cura degli animali
+ 主人 - [zhǔ rén] - padrone
+ 兽医 - [shòu yī] - veterinario
+ 匹 - [pǐ] - classificatore
+ 听话 - [tīng huà] - obbediente
+ 声 - [shēng] - voce
+ 多种 - [duō zhǒng] - vari
+ 实用 - [shí yòng] - pratico
+ 年老 - [nián lǎo] - anziano
+ 得了 - [dé le] - ottenere, riuscire, prendere, bastare, smettere, finire, guarire, vincere, va bene, basta
+ 必要 - [bì yào] - necessario
+ 提示 - [tí shì] - suggerimento
+ 时间表 - [shí jiān biǎo] - orario
+ 机构 - [jī gòu] - organizzazione
+ 添加物 - [tiān jiā wù] - additivo
+ 爱心 - [ài xīn] - compassione
+ 狗粮 - [gǒu liáng] - cibo per cani
+ 私人 - [sī rén] - privato
+ 谈话 - [tán huà] - Conversazione
+ 门诊 - [mén zhěn] - ambulatorio
+ 额外 - [é wài] - addizionale
+212 city life Casa: Organizza le pulizie di casa
+ 公共空间 - [gōng gòng kōng jiān] - spazio comune
+ 公平 - [gōng píng] - equo
+ 分担 - [fēn dān] - condividere
+ 刷子 - [shuā zi] - spazzola, scopa, spazzolone
+ 加上 - [jiā shàng] - più
+ 动力 - [dòng lì] - motivazione
+ 协调 - [xié diào] - coordinare
+ 尽可能 - [jǐn kě néng] - il più possibile
+ 快速 - [kuài sù] - veloce
+ 房租 - [fáng zū] - affitto
+ 没错 - [méi cuò] - esatto
+ 派 - [pài] - fazione
+ 细致 - [xì zhì] - dettagliato
+ 补充 - [bǔ chōng] - integrare
+ 请 - [qǐng] - per favore, prendeva, favore, prega
+ 责任 - [zé rèn] - responsabilità
+ 轮流 - [lún liú] - a turno
+ 过分 - [guò fēn] - esagerato
+ 遇见 - [yù jiàn] - Incontrare, incontriamo, incontrato
+ 门铃 - [mén líng] - campanello
+213 parenting Famiglia: Parla di tuo padre
+ 上网时间 - [shàng wǎng shí jiān] - tempo di navigazione, tempo online, durata di connessione a internet, tempo trascorso su internet, tempo di accesso a internet
+ 不再 - [bù zài] - non più
+ 不知怎么 - [bù zhī zěn me] - non so come
+ 亲子关系 - [qīn zi guān xì] - relazione genitore-figlio
+ 似乎 - [shì hū] - sembra
+ 促进 - [cù jìn] - promuovere
+ 分数 - [fēn shù] - voto
+ 包容 - [bāo róng] - accogliere, accogliersi, Accogliere
+ 实际 - [shí jì] - pratico
+ 家里 - [jiā lǐ] - a casa
+ 当面 - [dāng miàn] - faccia a faccia
+ 成熟 - [chéng shú] - maturo
+ 期中 - [qī zhōng] - metà semestre
+ 未必 - [wèi bì] - non necessariamente
+ 母亲 - [mǔ qīn] - madre
+ 比分 - [bǐ fēn] - punteggio
+ 父亲 - [fù qīn] - padre
+ 犯错 - [fàn cuò] - commette
+ 猜 - [cāi] - indovinare
+ 试卷 - [shì juǎn] - prova, esame, test, foglio d'esame, foglio
+ 难免 - [nán miǎn] - inevitabilmente
+214 aspirations Carriera: Parla dei tuoi sogni lavorativi
+ 事业 - [shì yè] - carriera
+ 倒闭 - [dào bì] - fallirà, fallimento, fallita, fallire, fallisca, falliranno, fallisce
+ 出口 - [chū kǒu] - uscita
+ 商业 - [shāng yè] - commercio
+ 坚持 - [jiān chí] - perseverare
+ 培训班 - [péi xùn bān] - corso di formazione
+ 外交官 - [wài jiāo guān] - diplomatico
+ 多么 - [duō me] - quanto
+ 学术 - [xué shù] - accademico
+ 寻求 - [xún qiú] - cercare
+ 待业状态 - [dài yè zhuàng tài] - stato di disoccupazione
+ 总裁 - [zǒng cái] - presidente
+ 情况 - [qíng kuàng] - situazione
+ 时机 - [shí jī] - momento
+ 本科 - [běn kē] - laurea triennale
+ 毕业生 - [bì yè shēng] - laureato
+ 点头 - [diǎn tóu] - Annuisci, annuire
+ 经济学 - [jīng jì xué] - economia
+ 考核 - [kǎo hé] - valutare
+ 职位 - [zhí wèi] - posizione
+ 解雇 - [jiě gù] - licenziare, licenzierà, licenziati, licenziato
+ 赞助 - [zàn zhù] - sponsorizzata, sponsorizzi, sponsorizzazione, sponsorizzare, sponsorizza
+ 运气 - [yùn qì] - fortuna
+ 雇主 - [gù zhǔ] - datore di lavoro
+215 extending accepting and declining invitations Scelte: Esprimi le tue preferenze
+ 付款 - [fù kuǎn] - pagamento
+ 任何 - [rèn hé] - qualsiasi
+ 剧情 - [jù qíng] - trama
+ 及格 - [jí gé] - superare
+ 发型师 - [fā xíng shī] - parrucchiere
+ 合适 - [hé shì] - adatto
+ 圈 - [quān] - cerchio
+ 多次 - [duō cì] - più volte
+ 学分 - [xué fēn] - credito
+ 意外 - [yì wài] - inaspettato
+ 或许 - [huò xǔ] - forse
+ 拥有 - [yōng yǒu] - possedere
+ 无所谓 - [wú suǒ wèi] - non importa
+ 消极 - [xiāo jí] - negativo
+ 玩笑 - [wán xiào] - scherzo
+ 疑虑 - [yí lǜ] - perplessità
+ 种子 - [zhǒng zi] - seme
+ 转发 - [zhuǎn fā] - inoltrare, trasmettere, girare, ridistribuire, condividere
+ 选手 - [xuǎn shǒu] - atleta
+ 那么 - [nà me] - Allora
+216 public spaces Testimoni: Racconta cosa hai visto
+ 一再 - [yī zài] - più volte
+ 主要 - [zhǔ yào] - principali, principale
+ 亲眼 - [qīn yǎn] - con i miei occhi
+ 伸 - [shēn] - stendere la mano
+ 咨询 - [zī xún] - consultare
+ 土地 - [tǔ de] - terra
+ 在场 - [zài chǎng] - presente
+ 小伙子 - [xiǎo huǒ zi] - ragazzo
+ 开放 - [kāi fàng] - apre, aperta, aprire, riapre, Aprire
+ 慢跑 - [màn pǎo] - Jogging, jogging
+ 早晨 - [zǎo chén] - mattino
+ 时常 - [shí cháng] - spesso
+ 比起 - [bǐ qǐ] - Rispetto all', Rispetto a, Rispetto alle, Rispetto alla, Rispetto al
+ 沉 - [chén] - affonda
+ 特定 - [tè dìng] - specifico
+ 犯人 - [fàn rén] - criminale
+ 线索 - [xiàn suǒ] - indizio
+ 认 - [rèn] - riconoscere
+ 证明 - [zhèng míng] - Provare, provare
+ 责怪 - [zé guài] - dare la colpa
+ 身份 - [shēn fèn] - identità
+217 well-being 2 Vita: Racconta cosa osservi in natura
+ 付出 - [fù chū] - dedicare, Dedicare
+ 卸 - [xiè] - scaricare
+ 可避免 - [kě bì miǎn] - evitabile
+ 向前 - [xiàng qián] - in avanti
+ 启发 - [qǐ fā] - ispirazione
+ 图表 - [tú biǎo] - grafico
+ 想象 - [xiǎng xiàng] - immaginare, immagino, Immagina, immaginato
+ 感官 - [gǎn guān] - sensoriale, sensoriali
+ 披 - [pī] - indossare, indossata, indosserai
+ 深刻 - [shēn kè] - profondo
+ 灯光 - [dēng guāng] - luce
+ 留 - [liú] - rimasto, tenere, lasciare, resti, rimanere, restato
+ 真诚 - [zhēn chéng] - sincero
+ 瞧 - [qiáo] - guardare
+ 祈祷 - [qí dǎo] - preghi, pregare, prego, prega
+ 移动 - [yí dòng] - Mobilità
+ 结 - [jié] - stringere
+ 记 - [jì] - ricordi, ricordo, Ricorda, ricordate
+ 负担 - [fù dān] - carico
+ 负面 - [fù miàn] - negativo
+ 黎明 - [lí míng] - alba, l'alba
+218 rural life Vita rurale: Parla della cura degli animali
+ 丰收 - [fēng shōu] - raccolto abbondante
+ 亲人 - [qīn rén] - parente
+ 公牛 - [gōng niú] - toro
+ 剩 - [shèng] - rimanere
+ 力气 - [lì qì] - forza
+ 助理 - [zhù lǐ] - assistente
+ 叔叔 - [shū shū] - zio
+ 同时 - [tóng shí] - allo stesso tempo
+ 孙女 - [sūn nǚ] - nipote
+ 平静 - [píng jìng] - tranquillo
+ 挖 - [wā] - scavare
+ 挣 - [zhēng] - guadagnare
+ 收益 - [shōu yì] - guadagno
+ 泥 - [ní] - fango
+ 活泼 - [huó pō] - vivace
+ 点燃 - [diǎn rán] - accendere
+ 营地 - [yíng de] - campo
+ 行程 - [xíng chéng] - programma
+ 计算器 - [jì suàn qì] - calcolatrice
+ 钉子 - [dīng zi] - chiodo
+ 餐馆 - [cān guǎn] - ristorante
+ 黄瓜 - [huáng guā] - cetriolo
+219 travel experiences Esperienze: Descrivi la tua sistemazione
+ 乘客 - [chéng kè] - passeggero
+ 亚运会 - [yà yùn huì] - Giochi Asiatici, Giochi Asiatici Estivi
+ 住宿 - [zhù sù] - alloggio
+ 味觉 - [wèi jué] - gusto
+ 坚固 - [jiān gù] - solido
+ 套餐 - [tào cān] - menu fisso
+ 宗教 - [zōng jiào] - religione
+ 开幕式 - [kāi mù shì] - cerimonia di apertura
+ 情景 - [qíng jǐng] - situazione
+ 摄像机 - [shè xiàng jī] - telecamera
+ 沙子 - [shā zi] - sabbia
+ 漂浮 - [piào fú] - galleggiare
+ 目的地 - [mù de de] - destinazione
+ 胡同儿 - [hú tóng ér] - hutong
+ 表演者 - [biǎo yǎn zhě] - artista
+ 设施 - [shè shī] - struttura, impianto, installazione, servizio, attrezzatura, servizi
+ 长途 - [zhǎng tú] - a lunga distanza
+ 闪烁 - [shǎn shuò] - scintillare
+ 风俗 - [fēng sú] - usanza
+ 高潮 - [gāo cháo] - climax
+220 social media 2 Social: Consiglia di usare il vero nome
+ 优惠 - [yōu huì] - offerta speciale
+ 会员 - [huì yuán] - membro
+ 劝 - [quàn] - consigliare
+ 口号 - [kǒu hào] - slogan
+ 增多 - [zēng duō] - aumentata, aumentati, aumentato, aumentando
+ 宣传 - [xuān chuán] - promuovere
+ 影响 - [yǐng xiǎng] - influenza
+ 惊人 - [jīng rén] - sorprendente
+ 推销 - [tuī xiāo] - promuovono, Promozione
+ 无数 - [wú shù] - infinito
+ 有意思 - [yǒu yì sī] - interessante
+ 消费者 - [xiāo fèi zhě] - consumatore
+ 潮流 - [cháo liú] - tendenza
+ 热门 - [rè mén] - popolare, popolari
+ 然而 - [rán ér] - tuttavia
+ 特有 - [tè yǒu] - unico
+ 用户 - [yòng hù] - utente
+ 神奇 - [shén qí] - magico
+ 良好 - [liáng hǎo] - buono
+ 订阅 - [dìng yuè] - iscriverti, Iscriviti, iscrizione, iscriversi
+221 friendships Amicizia: Parla di nuovi amici
+ 亲切 - [qīn qiè] - gentili
+ 修理 - [xiū lǐ] - riparare
+ 分别 - [fēn bié] - separatamente
+ 制作 - [zhì zuò] - Creare
+ 助手 - [zhù shǒu] - assistente
+ 多亏 - [duō kuī] - grazie a
+ 大哥 - [dà gē] - fratello maggiore
+ 好友 - [hǎo yǒu] - amico intimo
+ 学年 - [xué nián] - anno scolastico
+ 师傅 - [shī fù] - maestro
+ 成人 - [chéng rén] - adulto
+ 派 - [pài] - fazione
+ 独自 - [dú zì] - da solo
+ 现有 - [xiàn yǒu] - esistente
+ 班级 - [bān jí] - classe
+ 班长 - [bān zhǎng] - rappresentante di classe
+ 看来 - [kàn lái] - a quanto pare
+ 请 - [qǐng] - per favore, prendeva, favore, prega
+ 那边 - [nà biān] - laggiù
+ 难题 - [nán tí] - problema difficile
+222 debate 2 Opinioni: Esprimi le tue opinioni
+ 伞 - [sǎn] - ombrello
+ 动态 - [dòng tài] - dinamiche
+ 北极 - [běi jí] - Polo Nord
+ 南极 - [nán jí] - Antartide
+ 卷 - [juǎn] - volume
+ 可见 - [kě jiàn] - visibile
+ 因素 - [yīn sù] - fattore
+ 将要 - [jiāng yào] - stare per
+ 尽管 - [jǐn guǎn] - nonostante
+ 当年 - [dāng nián] - all'epoca
+ 挑 - [tiāo] - scegliere
+ 接近 - [jiē jìn] - avvicinarsi a
+ 是否 - [shì fǒu] - se
+ 标题 - [biāo tí] - titolo
+ 涨价 - [zhǎng jià] - aumentato, aumenti, aumentate, aumento di prezzo
+ 犹豫 - [yóu yù] - esitante
+ 相反 - [xiāng fǎn] - opposto
+ 种类 - [zhǒng lèi] - tipo
+ 表达 - [biǎo dá] - esprimere
+ 边境 - [biān jìng] - confine
+ 预言 - [yù yán] - predire
+ 频道 - [pín dào] - canale
+223 negotiation and persuasion Affari: Esprimi le tue opinioni
+ 业余 - [yè yú] - amatoriale
+ 业务 - [yè wù] - attività
+ 习俗 - [xí sú] - consuetudine
+ 争议 - [zhēng yì] - controversia
+ 原则 - [yuán zé] - principio
+ 发明 - [fā míng] - invenzione
+ 可接受 - [kě jiē shòu] - accettabile
+ 奢华 - [shē huá] - lussuoso
+ 官方 - [guān fāng] - ufficiale
+ 成本 - [chéng běn] - costo
+ 有害 - [yǒu hài] - nocivo
+ 本人 - [běn rén] - la persona stessa
+ 次要 - [cì yào] - secondario
+ 法律 - [fǎ lǜ] - legge
+ 现实 - [xiàn shí] - realtà
+ 矛盾 - [máo dùn] - contraddizione
+ 而是 - [ér shì] - ma
+ 趋势 - [qū shì] - tendenza
+ 辩论 - [biàn lùn] - dibattere, Dibattito
+ 逻辑 - [luó jí] - logica
+224 seasonal changes Stagioni: Descrivi i colori delle stagioni
+ 五颜六色 - [wǔ yán liù sè] - variopinto, multicolore, colorato, policromo
+ 优势 - [yōu shì] - vantaggio
+ 低于 - [dī yú] - essere inferiore a, essere sotto, essere al di sotto di, scendere sotto, essere meno di
+ 光线 - [guāng xiàn] - luce
+ 多雨 - [duō yǔ] - piovoso
+ 季节 - [jì jié] - stagione
+ 寒冷 - [hán lěng] - freddo
+ 对比 - [duì bǐ] - confronto, contrasto, paragone, comparazione, mettere a confronto, comparare
+ 时期 - [shí qī] - periodo
+ 景色 - [jǐng sè] - paesaggio
+ 晴朗 - [qíng lǎng] - sereno
+ 最大值 - [zuì dà zhí] - valore massimo
+ 树叶 - [shù yè] - foglia
+ 格外 - [gé wài] - particolarmente
+ 漫长 - [màn zhǎng] - lungo
+ 相似 - [xiāng shì] - simile
+ 超越 - [chāo yuè] - superare
+ 降温 - [jiàng wēn] - raffreddarsi
+ 高于 - [gāo yú] - superiore a, più alto di, al di sopra di, oltre, più di
+ 鲜艳 - [xiān yàn] - vivace
+225 concerts and performances Teatro: Organizza una visita al teatro
+ 中场休息 - [zhōng chǎng xiū xī] - intervallo
+ 于是 - [yú shì] - quindi, allora, così, pertanto, perciò, di conseguenza
+ 价值 - [jià zhí] - valore
+ 剧院 - [jù yuàn] - teatro
+ 厕所 - [cè suǒ] - bagno
+ 合影 - [hé yǐng] - foto di gruppo, fotografia di gruppo, scatto di gruppo, fare una foto insieme, scattare una foto insieme
+ 后台 - [hòu tái] - dietro le quinte
+ 座位号 - [zuò wèi hào] - numero del posto
+ 开场 - [kāi chǎng] - apertura
+ 打动 - [dǎ dòng] - commuovere, toccare, emozionare, impressionare, colpire
+ 排练 - [pái liàn] - provare, fare le prove, esercitarsi, ripetere
+ 提问 - [tí wèn] - porre domande, fare domande, interrogare, chiedere, fare una domanda
+ 检票 - [jiǎn piào] - controllare i biglietti
+ 确认 - [què rèn] - confermare
+ 碰面 - [pèng miàn] - incontrare, incontrarsi, vedersi, darsi appuntamento, incontrare di persona, incontrarsi faccia a faccia
+ 讲解 - [jiǎng jiě] - spieghi
+ 购票 - [gòu piào] - acquistare biglietti, comprare biglietti, prenotare biglietti, acquistare biglietti online
+ 难学 - [nán xué] - difficile da imparare
+ 震撼 - [zhèn hàn] - impressionante
+ 音乐厅 - [yīn lè tīng] - sala da concerto
+226 historical events Guerra: Parla di eventi storici
+ 世纪 - [shì jì] - secolo
+ 军队 - [jūn duì] - esercito
+ 出 - [chū] - conosciuto, uscissi
+ 前提 - [qián tí] - presupposto
+ 发明 - [fā míng] - invenzione
+ 后果 - [hòu guǒ] - conseguenza
+ 国王 - [guó wáng] - re
+ 士兵 - [shì bīng] - soldato
+ 失误 - [shī wù] - errore
+ 打败 - [dǎ bài] - sconfitto, sconfiggere
+ 抢劫 - [qiǎng jié] - rapinare
+ 损失 - [sǔn shī] - danno
+ 有些 - [yǒu xiē] - alcune
+ 杀 - [shā] - uccidere
+ 武器 - [wǔ qì] - arma
+ 殖民地 - [zhí mín de] - colonia
+ 毁坏 - [huǐ huài] - distruzione, distrutto
+ 货币 - [huò bì] - moneta
+ 逃 - [táo] - fuggire
+ 逮捕 - [dǎi bǔ] - Arrestare, arrestare, arrestato
+ 阻止 - [zǔ zhǐ] - fermare
+227 cooking Cucina: Controlla gli ingredienti
+ 一大早 - [yī dà zǎo] - di buon mattino
+ 一步步 - [yī bù bù] - passo dopo passo
+ 依次 - [yī cì] - in ordine
+ 前几天 - [qián jǐ tiān] - qualche giorno fa
+ 夸 - [kuā] - elogiare
+ 实践 - [shí jiàn] - praticare
+ 平均 - [píng jūn] - in media
+ 意大利面 - [yì dà lì miàn] - spaghetti
+ 探索 - [tàn suǒ] - esplorare
+ 晚餐 - [wǎn cān] - cena
+ 柠檬汁 - [níng méng zhī] - succo di limone
+ 查看 - [chá kàn] - controllato
+ 火腿 - [huǒ tuǐ] - prosciutto
+ 烤鱼 - [kǎo yú] - pesce alla griglia
+ 笔记本 - [bǐ jì běn] - quaderno
+ 蘑菇 - [mó gū] - fungo
+ 西兰花 - [xī lán huā] - broccolo
+ 重复 - [zhòng fù] - ripetere
+ 香味 - [xiāng wèi] - profumo
+ 黑胡椒 - [hēi hú jiāo] - pepe nero
+228 philosophy Lezioni: Esprimi le tue idee a lezione
+ 一致 - [yī zhì] - coerente
+ 与 - [yǔ] - con, e
+ 主要 - [zhǔ yào] - principali, principale
+ 人物 - [rén wù] - persona
+ 价值观 - [jià zhí guān] - valori, sistema di valori, principi, ideali, convinzioni
+ 出 - [chū] - conosciuto, uscissi
+ 包含 - [bāo hán] - includere
+ 哲学 - [zhé xué] - filosofia
+ 哲学家 - [zhé xué jiā] - filosofo
+ 因此 - [yīn cǐ] - perciò
+ 希腊 - [xī là] - Grecia
+ 形容 - [xíng róng] - descrivere
+ 总算 - [zǒng suàn] - finalmente
+ 意义 - [yì yì] - significato
+ 智力 - [zhì lì] - intelligenza
+ 有逻辑 - [yǒu luó jí] - logico
+ 术语 - [shù yǔ] - termine
+ 民主 - [mín zhǔ] - democrazia
+ 清晰 - [qīng xī] - chiaro
+ 结论 - [jié lùn] - conclusione
+ 起源 - [qǐ yuán] - origine
+ 难懂 - [nán dǒng] - difficile da capire
+229 museum visits Museo: Descrivi un fossile
+ 一旦 - [yī dàn] - Una volta che
+ 依然 - [yī rán] - ancora
+ 全部 - [quán bù] - tutto
+ 公元 - [gōng yuán] - era volgare
+ 化石 - [huà shí] - fossile
+ 参观者 - [cān guān zhě] - visitatore
+ 古代 - [gǔ dài] - antico
+ 宣布 - [xuān bù] - annunciare
+ 展厅 - [zhǎn tīng] - sala espositiva
+ 展品 - [zhǎn pǐn] - oggetto esposto
+ 承认 - [chéng rèn] - ammettere
+ 据说 - [jù shuō] - si dice
+ 描述 - [miáo shù] - descrivere, descrizione
+ 正是 - [zhèng shì] - proprio
+ 汇报 - [huì bào] - Riferire, riferire
+ 熊 - [xióng] - orso
+ 用心 - [yòng xīn] - con attenzione
+ 精美 - [jīng měi] - raffinato
+ 缆绳 - [lǎn shéng] - cima
+ 船长 - [chuán zhǎng] - capitano
+230 diversity Tradizioni: Condividi storie sugli antenati
+ 主动 - [zhǔ dòng] - attivamente
+ 元旦 - [yuán dàn] - Capodanno
+ 全球化 - [quán qiú huà] - globalizzazione
+ 共识 - [gòng shì] - consenso
+ 典礼 - [diǎn lǐ] - cerimonia
+ 各国 - [gè guó] - vari paesi
+ 后悔 - [hòu huǐ] - pentirsi
+ 回想 - [huí xiǎng] - Ricordando, ricordo, Ricordare, ricordare
+ 土耳其 - [tǔ ěr qí] - Turchia, turca, turco
+ 多元 - [duō yuán] - diverso
+ 提 - [tí] - menzionare
+ 时代 - [shí dài] - epoca
+ 有见识 - [yǒu jiàn shì] - esperto
+ 梦见 - [mèng jiàn] - sogno, Sogno, Sognare, sogni, ho sognato
+ 祖先 - [zǔ xiān] - antenato
+ 纪念 - [jì niàn] - commemorato, commemorare, Commemorare
+ 起 - [qǐ] - svegliarsi
+ 选修 - [xuǎn xiū] - opzionale, opzionali
+ 逐渐 - [zhú jiàn] - gradualmente
+ 遗产 - [yí chǎn] - patrimonio

@@ -1,0 +1,606 @@
+1 Ordina al bar
+ null
+2 Saluta e di' arrivederci
+ null
+3 Usa "ser de" per indicare l'origine
+ null
+4 Presenta famiglia e amici
+ null
+5 Descrivi le personalità
+ null
+6 Usa "estar" per le posizioni
+ null
+7 Parla dei luoghi in città
+ null
+8 Parla delle lingue
+ null
+9 Usa "hace" per descrivere il tempo
+ null
+10 Compra frutta
+ null
+11 Descrivi la tua casa
+ null
+12 Usa il presente per le abitudini
+ null
+13 Parla di sport
+ null
+14 Parla dei tuoi hobby
+ null
+15 Partecipa in classe
+ null
+16 Parla del cibo
+ null
+17 Valuta cibo e servizio
+ null
+18 Chiedi indicazioni stradali
+ null
+19 Acquista vestiti
+ null
+20 Parla di lavoro
+ null
+21 Usa gli articoli indeterminativi
+ null
+22 Fai le faccende domestiche
+ null
+23 Discuti un progetto scolastico
+ null
+24 Chiedi a qualcuno come si sente
+ null
+25 Chiedi indicazioni stradali
+ null
+26 Fai domande sugli ingredienti
+ null
+27 Presentati a una festa
+ null
+28 Descrivi l'aspetto
+ null
+29 Usa articoli con espressioni di tempo
+ null
+30 Presentati in modo formale
+ null
+31 Esprimi i tuoi sentimenti
+ null
+32 Parla della tua dieta
+ null
+33 Parla degli animali
+ null
+34 Usa i verbi riflessivi per le routine
+ null
+35 Parla della vita degli altri
+ null
+36 Parla dei tuoi interessi
+ null
+37 Parla delle preferenze musicali
+ null
+38 Parla delle attività che ti piacciono
+ null
+39 Usa i pronomi oggetto indiretto
+ null
+40 Parla del tuo tragitto
+ null
+41 Parla dei compleanni
+ null
+42 Acquista vestiti
+ null
+43 Parla delle attività
+ null
+44 Pianifica attività di benessere
+ null
+45 Usa il condizionale presente
+ null
+46 Pianifica un viaggio
+ null
+47 Organizza una festa a sorpresa
+ null
+48 Esplora la città
+ null
+49 Descrivi situazioni di viaggio
+ null
+50 Usa gli aggettivi dimostrativi
+ null
+51 Divertiti a una festa
+ null
+52 Acquista vestiti
+ null
+53 Gestisci compiti da babysitter
+ null
+54 Parla della tua salute
+ null
+55 Usa gli aggettivi indefiniti
+ null
+56 Gestisci i problemi al lavoro
+ null
+57 Scegli gli articoli mentre fai shopping
+ null
+58 Parla di film
+ null
+59 Usa i pronomi oggetto indiretto
+ null
+60 Invia e ricevi posta
+ null
+61 Goditi una serata fuori
+ null
+62 Parla del tempo
+ null
+63 Chiedi come si sentono le persone
+ null
+64 Cercare un animale smarrito
+ null
+65 Usa i quantificatori con i sostantivi
+ null
+66 Chiacchiera online
+ null
+67 Parla di sport
+ null
+68 Fai le faccende domestiche
+ null
+69 Gestisci un'emergenza
+ null
+70 Risolvi problemi alle poste
+ null
+71 Usa "por" e "para"
+ null
+72 Organizza attività sociali
+ null
+73 Risolvi problemi tecnici
+ null
+74 Descrivi i tuoi dintorni
+ null
+75 Valuta l'intrattenimento
+ null
+76 Parla dei tratti familiari
+ null
+77 Usa i superlativi con gli aggettivi
+ null
+78 Comunica al lavoro
+ null
+79 Usa il passato
+ null
+80 Partecipa al volontariato
+ null
+81 Trova i tuoi oggetti
+ null
+82 Fai la spesa
+ null
+83 Parla di regali
+ null
+84 Usa "saber" al presente
+ null
+85 Socializza a un evento
+ null
+86 Valuta le condizioni abitative
+ null
+87 Gestisci le attività lavorative
+ null
+88 Parla di relazioni e sentimenti
+ null
+89 Orientati con le indicazioni
+ null
+90 Usa i comandi
+ null
+91 Usa i pronomi oggetto con i comandi.
+ null
+92 Fai le faccende domestiche
+ null
+93 Racconta la storia della tua vita
+ null
+94 Parla delle esperienze di shopping
+ null
+95 Usa l'imperfetto
+ null
+96 Parla dei costi della casa
+ null
+97 Pianifica il tuo viaggio
+ null
+98 Condividi esperienze di viaggio
+ null
+99 Parla dei problemi del quartiere
+ null
+100 Usa il passato prossimo
+ null
+101 Organizza un evento sociale
+ null
+102 Esprimi opinioni sulla salute
+ null
+103 Condividi esperienze passate
+ null
+104 Parla di film e serie
+ null
+105 Festeggia i successi
+ null
+106 Parla dell'arredamento della casa
+ null
+107 Lamentati dei viaggi
+ null
+108 Chiedi aiuto dopo un incidente
+ null
+109 Parla delle celebrazioni
+ null
+110 Usa "hacer" al passato
+ null
+111 Identifica gli oggetti personali
+ null
+112 Gestisci i problemi al ristorante
+ null
+113 Parla dei successi personali
+ null
+114 Parla delle origini culturali
+ null
+115 Spiega perché non puoi fare qualcosa
+ null
+116 Forma e usa i numeri
+ null
+117 Parla di politica e società
+ null
+118 Valuta articoli e servizi
+ null
+119 Usa comparativi per quantità
+ null
+120 Identifica oggetti rubati
+ null
+121 Prenditi cura degli animali domestici
+ null
+122 Parla delle notizie
+ null
+123 Candidati all'università
+ null
+124 Parla d'arte
+ null
+125 Parla di alimentazione sana
+ null
+126 Usa il passato
+ null
+127 Parla di questioni di salute
+ null
+128 Esplora siti culturali
+ null
+129 Discuti di opinioni politiche
+ null
+130 Parla di attività salutari
+ null
+131 Segnala un crimine
+ null
+132 La piazza: Descrivi il tuo quartiere
+ null
+133 Romanzi: Parla dei tuoi romanzi preferiti
+ null
+134 Videogiochi: Parla dei videogiochi
+ null
+135 Nozze: Racconta la festa di nozze
+ null
+136 Notizie: Racconta una notizia
+ null
+137 Lezione: Fai il riassunto di un testo
+ null
+138 Cura: Parla dei farmaci necessari
+ null
+139 Opinioni: Esprimi la tua opinione
+ null
+140 Shopping: Descrivi cosa compri
+ null
+141 Snack: Descrivi come preparare uno snack
+ null
+142 Consigli: Dai consigli sui viaggi
+ null
+143 Consigli: Dai consigli utili
+ null
+144 Viaggio: Parla dei voli diretti
+ null
+145 Arredi: Descrivi gli arredi di casa
+ null
+146 Routine: Descrivi la tua routine
+ null
+147 Sogni: Racconta i tuoi sogni
+ null
+148 Ufficio: Parla delle professioni
+ null
+149 Società: Parla delle elezioni
+ null
+150 Conoscenze: Parla di chi conosci
+ null
+151 Personalità: Descrivi come sei
+ null
+152 Quartiere: Racconta il tuo quartiere
+ null
+153 Situazioni: Racconta cosa fa l’arbitro
+ null
+154 Casa: Descrivi gli elettrodomestici
+ null
+155 Fantasia: Immagina scenari fantastici
+ null
+156 Lavoro: Descrivi il tuo lavoro
+ null
+157 Richiesta: Chiedi aiuto a qualcuno
+ null
+158 Tempo: Chiedi quanto tempo serve
+ null
+159 Vacanze: Racconta le tue vacanze
+ null
+160 Tradizioni: Descrivi le tue tradizioni
+ null
+161 Paura: Spiega perché ti sei nascosto
+ null
+162 Ferite: Descrivi i tuoi sintomi
+ null
+163 Strada: Chiedi indicazioni stradali
+ null
+164 Vacanza: Parla dei tuoi viaggi
+ null
+165 Famiglia: Parla dei tuoi familiari
+ null
+166 Tecnologia: Chiedi informazioni sul wifi
+ null
+167 Ufficio: Chiedi dove si trova qualcosa
+ null
+168 Mostra: Descrivi un'opera d'arte
+ null
+169 Università: Parla delle materie preferite
+ null
+170 Ristorante: Ordina un piatto
+ null
+171 Promesse: Racconta cosa volevi fare
+ null
+172 Eventi: Parla delle notizie recenti
+ null
+173 Divertimento: Descrivi come ti diverti
+ null
+174 Sport: Parla dei tuoi sport preferiti
+ null
+175 Eventi: Racconta un evento letterario
+ null
+176 Banca: Ringrazia il cassiere
+ null
+177 Meteo: Parla del tempo
+ null
+178 Accordo: Esprimi la tua opinione
+ null
+179 Amore: Racconta una storia d'amore
+ null
+180 Contratto: Spiega le tue proposte
+ null
+181 Calcio: Parla della tua squadra
+ null
+182 Vestiti: Descrivi i tuoi vestiti
+ null
+183 Bellezza: Parla dei tuoi gusti
+ null
+184 Abiti: Descrivi gli abiti che hai scelto
+ null
+185 Oggetti: Richiedi il cambio di un oggetto
+ null
+186 Tavola: Chiedi posate o tovaglioli
+ null
+187 Negozio: Chiedi uno sconto
+ null
+188 Acquisti: Fai un reclamo in negozio
+ null
+189 Città: Racconta di una città visitata
+ null
+190 Natura: Descrivi animali marini
+ null
+191 Ritratto: Descrivi un ritratto
+ null
+192 Viaggi: Racconta il tuo viaggio
+ null
+193 Opinioni: Esprimi la tua opinione
+ null
+194 Ufficio: Parla delle tue mansioni
+ null
+195 Emozioni: Descrivi come ti senti
+ null
+196 Dubbi: Esprimi i tuoi dubbi
+ null
+197 Salute: Racconta una nascita
+ null
+198 Affari: Racconta una sfida lavorativa
+ null
+199 Emergenza: Segnala un problema stradale
+ null
+200 Ringraziamento: Esprimi gratitudine
+ null
+201 Strade: Chiedi indicazioni stradali
+ null
+202 Compiti: Parla dei tuoi compiti
+ null
+203 Crimini: Chiedi dettagli sul furto
+ null
+204 Cibo: Parla delle tue abitudini alimentari
+ null
+205 Energia: Racconta una sfida vissuta
+ null
+206 La casa: Chiedi aiuto in casa
+ null
+207 Affitto: Chiedi le condizioni di affitto
+ null
+208 Incontri: Racconta un incontro speciale
+ null
+209 Verdure: Chiedi una ricetta con zucchine
+ null
+210 Robotica: Parla dei nomi utente
+ null
+211 Riparazioni: Chiedi un preventivo
+ null
+212 Salotto: Descrivi il tuo salotto
+ null
+213 Cure mediche: Ottieni informazioni
+ null
+214 Conversazione: Racconta un segreto
+ null
+215 Feste: Racconta una festa
+ null
+216 Società: Descrivi ruoli nella società
+ null
+217 Campagna: Descrivi le coltivazioni
+ null
+218 Offerte: Consiglia un prodotto in offerta
+ null
+219 Ricette: Descrivi una ricetta
+ null
+220 Notizie: Parla delle notizie
+ null
+221 Situazioni: Chiedi aiuto in campeggio
+ null
+222 Lavori: Collabora con i colleghi
+ null
+223 Vicini: Descrivi i tuoi vicini
+ null
+224 Abitudini: Racconta le tue abitudini familiari
+ null
+225 Benessere: Descrivi un malessere
+ null
+226 Mistero: Racconta un mistero
+ null
+227 Reazioni: Reagisci a una sorpresa
+ null
+228 Scuola: Parla delle esperienze a scuola
+ null
+229 Futuro: Parla dei tuoi piani futuri
+ null
+230 Insetti: Parla di insetti pericolosi
+ null
+231 Famiglie: Parla dei membri della famiglia
+ null
+232 Permesso: Rispondi a richieste di permesso
+ null
+233 Benessere: Parla dei tuoi sintomi
+ null
+234 Appartami: Trova una casa adatta
+ null
+235 Azienda: Parla dei costi aziendali
+ null
+236 Sintomi: Descrivi i tuoi sintomi
+ null
+237 Officina: Chiedi aiuto in officina
+ null
+238 Carriera: Parla delle tue aspettative
+ null
+239 Identità: Descrivi cosa vuoi diventare
+ null
+240 Elezioni: Parla dei candidati
+ null
+241 Ambiente: Parla dei cambiamenti climatici
+ null
+242 Comportamento: Non bagnarti i piedi
+ null
+243 Neonato: Parla dell’arrivo del neonato
+ null
+244 Miti: Racconta una credenza popolare
+ null
+245 Relazioni: Parla dei tuoi sentimenti
+ null
+246 Esami: Parla dei tuoi esami
+ null
+247 Infanzia: Racconta i tuoi ricordi d’infanzia
+ null
+248 Legami: Esprimi affetto ai tuoi cari
+ null
+249 Lavoro: Organizza una riunione
+ null
+250 Documenti: Chiedi i documenti necessari
+ null
+251 Clinica: Dì dove fa male
+ null
+252 Giardino: Parla dei lavori in giardino
+ null
+253 Conflitti: Affronta un conflitto
+ null
+254 Dramma: Racconta la trama
+ null
+255 Cambiamenti: Nota chi è diverso
+ null
+256 Umore: Parla di come ti senti
+ null
+257 Reazioni: Esprimi una reazione
+ null
+258 Disagi: Descrivi un problema di viaggio
+ null
+259 Esperienze: Racconta una tua esperienza
+ null
+260 Attrezzi: Spiega come usare gli attrezzi
+ null
+261 Crescita: Racconta la tua adolescenza
+ null
+262 Pensieri: Esprimi le tue preoccupazioni
+ null
+263 Problemi: Chiedi aiuto per una difficoltà
+ null
+264 Conversare: Dai la tua opinione
+ null
+265 Disastri: Descrivi un terremoto
+ null
+266 Fiducia: Esprimi dubbi su qualcuno
+ null
+267 Cucina: Dai consigli sulle ricette
+ null
+268 Famiglia: Esprimi emozioni in famiglia
+ null
+269 Il giardino: Descrivi il tuo progetto
+ null
+270 Resi: Spiega perché vuoi fare un reso
+ null
+271 Progresso: Racconta cosa ti ha colpito
+ null
+272 Parità: Esprimi opinioni sulla parità
+ null
+273 Arte: Parla delle correnti artistiche
+ null
+274 Lotta: Commenta un incontro di lotta
+ null
+275 Squadra: Esprimi dubbi sulla squadra
+ null
+276 Regole: Proponi nuove regole
+ null
+277 Stress: Spiega cosa ti infastidisce
+ null
+278 Giochi: Proponi un gioco da fare
+ null
+279 Indagine: Ricostruisci la scena del furto
+ null
+280 Paure: Esprimi le tue paure
+ null
+281 Talenti: Descrivi le tue abilità
+ null
+282 Nozze: Spiega i ruoli degli invitati
+ null
+283 Zombi: Descrivi un'invasione di zombi
+ null
+284 Magia: Descrivi un trucco di magia
+ null
+285 Festa: Commenta gli abiti degli invitati
+ null
+286 Trasloco: Spiega perché ti trasferisci
+ null
+287 Animali: Parla dei tuoi animali
+ null
+288 Ambizioni: Racconta le tue ambizioni
+ null
+289 Dispositivi: Racconta di un dispositivo rotto
+ null
+290 Gruppo: Invita qualcuno nel gruppo
+ null
+291 Allenamento: Parla delle tue difficoltà
+ null
+292 Feste: Proponi idee per la festa
+ null
+293 Escursioni: Prepara la lista per l'escursione
+ null
+294 Politica: Descrivi i successi politici
+ null
+295 Scherzi: Racconta uno scherzo
+ null
+296 Auto: Chiedi il prezzo di un'auto
+ null
+297 Sindacati: Dai dettagli sul clima
+ null
+298 Premiazione: Descrivi le medaglie vinte
+ null
+299 Bugie: Racconta una bugia
+ null
+300 Incontro: Presenta la tua idea
+ null
+301 Ricordi: Racconta un ricordo d’infanzia
+ null
+302 Disguidi: Racconta un disguido
+ null
+303 Studio: Racconta il tuo percorso di studio
+ null

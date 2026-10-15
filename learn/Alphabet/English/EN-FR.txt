@@ -1,0 +1,31 @@
+1 A B C D E
+ a - a
+ b - bé
+ c - cé
+ d - dé
+ e - e
+2 F G H I J
+ f - effe
+ g - gé
+ h - ache
+ i - i
+ j - ji
+3 K L M N O
+ k - ka
+ l - elle
+ m - emme
+ n - enne
+ o - o
+4 P Q R S T
+ p - pé
+ q - qu
+ r - erre
+ s - esse
+ t - té
+5 U V W X Y Z
+ u - u
+ v - vé
+ w - double vé
+ x - ixe
+ y - i grec
+ z - zède

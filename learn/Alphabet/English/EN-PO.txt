@@ -1,0 +1,31 @@
+1 A B C D E
+ a - a
+ b - bê
+ c - cê
+ d - dê
+ e - e
+2 F G H I J
+ f - efe
+ g - gê
+ h - agá
+ i - i
+ j - jota
+3 K L M N O
+ k - cá
+ l - ele
+ m - eme
+ n - ene
+ o - o
+4 P Q R S T
+ p - pê
+ q - quê
+ r - erre
+ s - esse
+ t - tê
+5 U V W X Y Z
+ u - u
+ v - vê
+ w - dáblio
+ x - xis
+ y - ípsilon
+ z - zê

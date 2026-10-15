@@ -1,0 +1,31 @@
+1 A B C D E
+ a - a
+ b - bi
+ c - ci
+ d - di
+ e - e
+2 F G H I J
+ f - effe
+ g - gi
+ h - acca
+ i - i
+ j - i lunga
+3 K L M N O
+ k - cappa
+ l - elle
+ m - emme
+ n - enne
+ o - o
+4 P Q R S T
+ p - pi
+ q - cu
+ r - erre
+ s - esse
+ t - ti
+5 U V W X Y Z
+ u - u
+ v - vu
+ w - doppia vu
+ x - ics
+ y - ipsilon
+ z - zeta

@@ -1,0 +1,31 @@
+1 A B C D E
+ a - 아
+ b - 베
+ c - 세
+ d - 데
+ e - 에
+2 F G H I J
+ f - 에피
+ g - 제
+ h - 아가
+ i - 이
+ j - 조타
+3 K L M N O
+ k - 카
+ l - 엘리
+ m - 에미
+ n - 에니
+ o - 오
+4 P Q R S T
+ p - 페
+ q - 케
+ r - 에히
+ s - 에시
+ t - 테
+5 U V W X Y Z
+ u - 우
+ v - 베(v)
+ w - 다블리우
+ x - 시스
+ y - 입실론
+ z - 제

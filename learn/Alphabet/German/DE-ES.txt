@@ -1,0 +1,32 @@
+1 A B C D E
+ a - a
+ b - be
+ c - ce
+ d - de
+ e - e
+2 F G H I J
+ f - efe
+ g - ge
+ h - hache
+ i - i
+ j - jota
+3 K L M N Ñ
+ k - ka
+ l - ele
+ m - eme
+ n - ene
+ ñ - eñe
+4 O P Q R S T
+ o - o
+ p - pe
+ q - cu
+ r - erre
+ s - ese
+ t - te
+5 U V W X Y Z
+ u - u
+ v - uve
+ w - uve doble
+ x - equis
+ y - ye
+ z - zeta
